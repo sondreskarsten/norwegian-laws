@@ -10,6 +10,7 @@ from lovdata_loader.parser import (
     extract_last_changed_by,
     _parse_law_metadata,
     parse_article,
+    parse_section,
     parse_law,
 )
 from lovdata_loader.models import LawData
@@ -95,6 +96,170 @@ class TestParseLawFixtures:
 
 
 # ─── LawData round-trip ─────────────────────────────────────────────────────
+
+# ─── parse_article: text/list interleaving ──────────────────────────────────
+
+class TestParseArticleInterleaving:
+    """Verify that text before and after a <ul> within a paragraph is not merged.
+
+    The legacy pipeline flushes accumulated text before processing a list,
+    so 'Loven gjelder for:' and 'med virksomhet i Norge.' are separate
+    paragraphs with the list items between them.
+    """
+
+    def test_text_before_and_after_list_are_separate(self):
+        html = """<article class='legalArticle' data-name='§1'>
+        <h3 class='legalArticleHeader'><span class='legalArticleValue'>§ 1</span></h3>
+        <article class='legalP'>
+          <span>Loven gjelder for:</span>
+          <ul>
+            <li data-li-identifier='a)'>norske foretak</li>
+            <li data-li-identifier='b)'>utenlandske foretak</li>
+          </ul>
+          <span>med virksomhet i Norge.</span>
+        </article>
+        </article>"""
+        soup = BeautifulSoup(html, "html.parser")
+        art_tag = soup.find("article", class_="legalArticle")
+        article = parse_article(art_tag)
+
+        # There must be more than 1 paragraph to properly separate text/list
+        assert len(article.paragraphs) >= 3, (
+            f"Expected at least 3 paragraphs (text, list, text), "
+            f"got {len(article.paragraphs)}"
+        )
+
+        # The first paragraph should contain ONLY the intro text
+        assert article.paragraphs[0].text == "Loven gjelder for:"
+        assert article.paragraphs[0].list_items == []
+
+        # The second paragraph should contain the list items
+        assert article.paragraphs[1].list_items
+        assert len(article.paragraphs[1].list_items) == 2
+        assert article.paragraphs[1].list_items[0].identifier == "a)"
+        assert article.paragraphs[1].list_items[1].identifier == "b)"
+
+        # The third paragraph should contain ONLY the concluding text
+        assert article.paragraphs[2].text == "med virksomhet i Norge."
+        assert article.paragraphs[2].list_items == []
+
+    def test_text_only_paragraph(self):
+        """A paragraph with only text, no list, should produce a single Paragraph."""
+        html = """<article class='legalArticle' data-name='§1'>
+        <article class='legalP'>
+          <span>Bare tekst her.</span>
+        </article>
+        </article>"""
+        soup = BeautifulSoup(html, "html.parser")
+        art_tag = soup.find("article", class_="legalArticle")
+        article = parse_article(art_tag)
+        assert len(article.paragraphs) == 1
+        assert article.paragraphs[0].text == "Bare tekst her."
+        assert article.paragraphs[0].list_items == []
+
+    def test_list_only_paragraph(self):
+        """A paragraph with only a list, no text, should work."""
+        html = """<article class='legalArticle' data-name='§1'>
+        <article class='legalP'>
+          <ul>
+            <li data-li-identifier='a)'>punkt a</li>
+          </ul>
+        </article>
+        </article>"""
+        soup = BeautifulSoup(html, "html.parser")
+        art_tag = soup.find("article", class_="legalArticle")
+        article = parse_article(art_tag)
+        assert len(article.paragraphs) == 1
+        assert article.paragraphs[0].list_items
+        assert article.paragraphs[0].list_items[0].text == "punkt a"
+
+    def test_text_then_list_no_trailing_text(self):
+        """Text followed by a list with no trailing text."""
+        html = """<article class='legalArticle' data-name='§1'>
+        <article class='legalP'>
+          <span>Formål:</span>
+          <ul>
+            <li data-li-identifier='a)'>punkt a</li>
+            <li data-li-identifier='b)'>punkt b</li>
+          </ul>
+        </article>
+        </article>"""
+        soup = BeautifulSoup(html, "html.parser")
+        art_tag = soup.find("article", class_="legalArticle")
+        article = parse_article(art_tag)
+        assert len(article.paragraphs) >= 2
+        assert article.paragraphs[0].text == "Formål:"
+        assert article.paragraphs[0].list_items == []
+        assert len(article.paragraphs[1].list_items) == 2
+
+
+# ─── parse_section: standalone legalP ────────────────────────────────────────
+
+class TestParseSectionStandaloneParagraphs:
+    """Verify that standalone article.legalP elements inside sections are not dropped.
+
+    The legacy section_to_markdown handles two types of children:
+      1. legalArticle elements → formatted as articles
+      2. article.legalP elements → standalone text paragraphs
+
+    The refactored parse_section was only capturing legalArticle, silently
+    dropping the standalone legalP paragraphs.
+    """
+
+    def test_standalone_legalP_preserved(self):
+        html = """<section>
+        <h2>Kapittel 1</h2>
+        <article class='legalArticle' data-name='§1'>
+        <h3 class='legalArticleHeader'><span class='legalArticleValue'>§ 1</span></h3>
+        <article class='legalP'>Artikkel tekst.</article>
+        </article>
+        <article class='legalP'>En frittstående paragraf.</article>
+        </section>"""
+        soup = BeautifulSoup(html, "html.parser")
+        section_tag = soup.find("section")
+        section = parse_section(section_tag)
+
+        assert section.heading == "Kapittel 1"
+        # Should have 2 entries: the legalArticle and the standalone legalP
+        assert len(section.articles) == 2, (
+            f"Expected 2 articles (1 real + 1 standalone paragraph), "
+            f"got {len(section.articles)}"
+        )
+        # The first should be the real article
+        assert section.articles[0].name == "§1"
+        # The second should represent the standalone paragraph
+        assert len(section.articles[1].paragraphs) >= 1
+        assert "frittstående paragraf" in section.articles[1].paragraphs[0].text
+
+    def test_only_articles_no_standalone(self):
+        """A section with only legalArticle children should work normally."""
+        html = """<section>
+        <h2>Kap 1</h2>
+        <article class='legalArticle' data-name='§1'>
+        <h3 class='legalArticleHeader'><span class='legalArticleValue'>§ 1</span></h3>
+        <article class='legalP'>Tekst.</article>
+        </article>
+        </section>"""
+        soup = BeautifulSoup(html, "html.parser")
+        section_tag = soup.find("section")
+        section = parse_section(section_tag)
+        assert len(section.articles) == 1
+        assert section.articles[0].name == "§1"
+
+    def test_multiple_standalone_paragraphs(self):
+        """Multiple standalone legalP paragraphs are all preserved."""
+        html = """<section>
+        <h2>Kap 2</h2>
+        <article class='legalP'>Første avsnitt.</article>
+        <article class='legalP'>Andre avsnitt.</article>
+        </section>"""
+        soup = BeautifulSoup(html, "html.parser")
+        section_tag = soup.find("section")
+        section = parse_section(section_tag)
+        assert len(section.articles) == 2
+        assert "Første avsnitt" in section.articles[0].paragraphs[0].text
+        assert "Andre avsnitt" in section.articles[1].paragraphs[0].text
+
 
 class TestLawDataSerialization:
     def test_to_json_and_back(self):

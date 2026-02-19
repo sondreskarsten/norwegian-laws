@@ -109,6 +109,16 @@ def format_commit_message(act_row: dict) -> str:
         short_misc = act_row["misc_info"][:200]
         lines.append(f"Stortingsvedtak: {short_misc}")
 
+    amendments = act_row.get("amendments", [])
+    if amendments:
+        lines.append("")
+        lines.append("Endringer:")
+        for a in amendments:
+            label = CHANGE_TYPE_LABELS.get(a.get("change_type", ""), a.get("change_type", ""))
+            target = a.get("target", "")
+            target_short = target.split("/", 2)[-1] if "/" in target else target
+            lines.append(f"  - {target_short}: {label}")
+
     return "\n".join(lines)
 
 
@@ -376,6 +386,12 @@ def build_history(
 
     for row in rows:
         act = dict(row)
+        # Load individual amendment details for commit messages
+        amendment_rows = conn.execute(
+            "SELECT change_type, target FROM amendments WHERE act_refid = ?",
+            (act["refid"],),
+        ).fetchall()
+        act["amendments"] = [dict(r) for r in amendment_rows]
         changes_to = [r for r in act.get("changes_to", "").split(",") if r.strip()]
 
         affected = {}

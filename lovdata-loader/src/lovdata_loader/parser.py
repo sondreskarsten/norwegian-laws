@@ -159,23 +159,31 @@ def parse_article(article_tag: Tag) -> Article:
         recursive=False,
     ):
         text_parts = []
-        items = []
         for child in ledd.children:
             if isinstance(child, Tag) and child.name == "ul":
+                # Flush accumulated text as a separate paragraph before the list
+                if text_parts:
+                    paragraphs.append(Paragraph(
+                        text=" ".join(text_parts), list_items=[],
+                    ))
+                    text_parts = []
+                items = []
                 for li in child.find_all("li", recursive=False):
                     identifier = li.get("data-li-identifier", "-")
                     li_text = li.get_text(strip=True)
                     items.append(ListItem(identifier=identifier, text=li_text))
+                if items:
+                    paragraphs.append(Paragraph(text="", list_items=items))
             elif isinstance(child, Tag):
                 text_parts.append(child.get_text(strip=True))
             else:
                 t = str(child).strip()
                 if t:
                     text_parts.append(t)
-        paragraphs.append(Paragraph(
-            text=" ".join(text_parts),
-            list_items=items,
-        ))
+        if text_parts:
+            paragraphs.append(Paragraph(
+                text=" ".join(text_parts), list_items=[],
+            ))
 
     return Article(name=name, header_text=header_text, paragraphs=paragraphs)
 
@@ -191,6 +199,16 @@ def parse_section(section_tag: Tag) -> Section:
             continue
         if "legalArticle" in child.get("class", []):
             articles.append(parse_article(child))
+        elif child.name == "article" and "legalP" in child.get("class", []):
+            # Standalone paragraph not inside a legalArticle — wrap as an
+            # Article with no name/header so the formatter emits plain text.
+            text = child.get_text(strip=True)
+            if text:
+                articles.append(Article(
+                    name="",
+                    header_text="",
+                    paragraphs=[Paragraph(text=text, list_items=[])],
+                ))
 
     return Section(heading=heading_text, articles=articles)
 
