@@ -20,108 +20,22 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install pipeline
-        run: pip install -e .
+      - name: Install libraries
+        run: pip install -e ./lovdata-loader -e ./lovdata-publisher
 
       - name: Cache historical Lovtidend archive
         uses: actions/cache@v4
         with:
-          path: /tmp/law-build/lovtidend-avd1-2001-2025.tar.bz2
+          path: /tmp/snapshot/lovtidend-avd1-2001-2025.tar.bz2
           key: lovtidend-historical-2001-2025
 
-      - name: Download archives
-        run: |
-          lovdata-pipeline --download --output /tmp/law-build --db /tmp/amendments.db --parse-only
+      - name: Download and parse laws
+        run: lovdata-load --download --output /tmp/snapshot/
 
       - name: Build git history with backdated commits
         run: |
-          cd /tmp
-          mkdir -p law-repo
-          cd law-repo
-          git init --initial-branch=main
-          git config user.name "Lovtidend"
-          git config user.email "lovtidend@lovdata.no"
-
-          python3 -c "
-          import sys
-          sys.path.insert(0, '${{ github.workspace }}/src')
-          from lovdata_pipeline.pipeline import (
-              parse_consolidated_archive, parse_lovtidend_archive,
-              init_db, store_amendment_act, FastImportStream,
-              refid_to_filepath, parse_effective_date, parse_publication_date
-          )
-          from pathlib import Path
-          from datetime import datetime
-          import re, os, glob
-
-          repo = '/tmp/law-repo'
-          db_path = '/tmp/amendments.db'
-
-          # Parse laws
-          law_files = parse_consolidated_archive('/tmp/law-build/gjeldende-lover.tar.bz2', repo)
-          print(f'Parsed {len(law_files)} laws')
-
-          all_files = {}
-          for refid, fp in law_files.items():
-              full = Path(repo) / fp
-              all_files[fp] = full.read_text(encoding='utf-8')
-
-          # Parse amendments
-          import sqlite3
-          conn = init_db(db_path)
-          all_acts = []
-          for archive in glob.glob('/tmp/law-build/lovtidend*.tar.bz2'):
-              acts = parse_lovtidend_archive(archive, prefix_filter='nl-')
-              print(f'  {archive}: {len(acts)} acts')
-              for act in acts:
-                  store_amendment_act(conn, act)
-              all_acts.extend(acts)
-          conn.commit()
-
-          # Build fast-import stream
-          act_by_refid = {a.refid: a for a in all_acts}
-          stream = FastImportStream(repo)
-          today = datetime.now().strftime('%Y-%m-%d')
-          stream.add_initial_commit(
-              all_files, timestamp=today,
-              message=f'Import av {len(all_files)} gjeldende lover\n\nKilde: Lovdata API\nLisens: NLOD 2.0'
-          )
-
-          rows = conn.execute('''
-              SELECT refid, date_in_force_resolved, date_published
-              FROM amendment_acts ORDER BY date_in_force_resolved ASC, date_published ASC
-          ''').fetchall()
-
-          for refid, eff_date, pub_date in rows:
-              act = act_by_refid.get(refid)
-              if not act:
-                  continue
-              affected = {}
-              for law_refid in act.changes_to:
-                  filepath = refid_to_filepath(law_refid)
-                  if filepath in all_files:
-                      content = all_files[filepath]
-                      if 'sist-endret:' in content:
-                          content = re.sub(r'sist-endret: \".*?\"', f'sist-endret: \"{act.refid}\"', content, count=1)
-                      else:
-                          content = content.replace('\n---\n\n', f'\nsist-endret: \"{act.refid}\"\n---\n\n', 1)
-                      if 'sist-endret-ikrafttredelse:' in content:
-                          content = re.sub(r'sist-endret-ikrafttredelse: \".*?\"', f'sist-endret-ikrafttredelse: \"{eff_date}\"', content, count=1)
-                      affected[filepath] = content
-                      all_files[filepath] = content
-                  else:
-                      affected[filepath] = f'---\nrefid: \"{law_refid}\"\nsist-endret: \"{act.refid}\"\n---\n\n# {law_refid}\n\n(Lov ikke i gjeldende-lover arkiv)\n'
-              if affected:
-                  stream.add_amendment_commit(act, affected)
-
-          print(f'Generated {stream.mark_counter} commits')
-          stream.execute()
-          conn.close()
-
-          from lovdata_pipeline.pipeline import create_yearly_tags
-          tags = create_yearly_tags(repo)
-          print(f'Created {len(tags)} yearly tags: {min(tags)}..{max(tags)}')
-          "
+          mkdir -p /tmp/law-repo
+          lovdata-publish --snapshot /tmp/snapshot/ --build-history --repo-path /tmp/law-repo
 
       - name: Push law-history branch and tags
         run: |

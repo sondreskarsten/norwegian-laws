@@ -7,7 +7,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'src/**'
+      - 'lovdata-loader/**'
+      - 'lovdata-publisher/**'
       - 'book/**'
       - '_quarto.yml'
       - 'pyproject.toml'
@@ -33,14 +34,14 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install pipeline
-        run: pip install -e .
+      - name: Install libraries
+        run: pip install -e ./lovdata-loader -e ./lovdata-publisher
 
       - name: Download and parse laws
-        run: lovdata-pipeline --download --output . --db amendments.db --parse-only
+        run: lovdata-load --download --output snapshot/
 
-      - name: Generate Quarto chapters
-        run: python -m lovdata_pipeline.quarto . amendments.db
+      - name: Format laws and generate Quarto chapters
+        run: lovdata-publish --snapshot snapshot/ --output . --quarto
 
       - name: Commit law updates
         id: commit
@@ -70,8 +71,8 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install pipeline
-        run: pip install -e .
+      - name: Install publisher
+        run: pip install -e ./lovdata-publisher
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
@@ -82,7 +83,7 @@ jobs:
         run: cp laws.json _site/laws.json
 
       - name: Merge law metadata into search index
-        run: python -m lovdata_pipeline.search_index _site laws.json
+        run: python -m lovdata_publisher.search_index _site laws.json
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4

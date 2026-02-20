@@ -24,7 +24,7 @@
 
 `download.py` only fetches `lovtidend-avd1-2026.tar.bz2` (190 KB, 6 acts). The API also hosts `lovtidend-avd1-2001-2025.tar.bz2` (69 MB, ~35,000 XML docs). Without it, the `law-history` branch is nearly empty.
 
-**File:** `src/lovdata_pipeline/download.py`
+**File:** `lovdata-loader/src/lovdata_loader/download.py`
 **Fix:** Add `lovtidend_historical` to the download list in `download_archives()`. The key already exists in `ARCHIVES` dict but is skipped in the loop.
 **Impact:** Enables thousands of backdated amendment commits instead of 6.
 **Note:** 69 MB download + parsing ~35k XML files. CI runtime will increase from ~1 min to ~5–10 min.
@@ -43,7 +43,7 @@ ikrafttredelse-endring: "2026-01-01"
 
 **Root cause:** `extract_header_field()` calls `get_text(strip=True)` on a `<dd>` element containing `<a href="...">lov/2025-06-20-106</a>fra 2026-01-01`. BeautifulSoup concatenates the anchor text and the sibling text node without a separator.
 
-**File:** `src/lovdata_pipeline/pipeline.py`, `extract_header_field()` and/or `parse_law_metadata()`
+**File:** `lovdata-loader/src/lovdata_loader/parser.py`, `extract_last_changed_by()`
 **Fix:** Either extract only the `<a>` text for `sistEndret`, or split on known patterns like "fra ".
 **Impact:** 575 laws get correct metadata. Downstream: commit messages, Quarto display, any future filtering by amendment date.
 
@@ -84,7 +84,7 @@ The API lists `lovtidend-avd1-2001-2025.tar.bz2` as a single 69 MB bundle. Indiv
 
 If individual years work, the `law-history.yml` workflow could do incremental updates (only fetch current year) instead of re-downloading 69 MB every week.
 
-**File:** `src/lovdata_pipeline/download.py`
+**File:** `lovdata-loader/src/lovdata_loader/download.py`
 **Test:** Try `urllib.request.urlretrieve` on individual year URLs.
 
 ### 6. Forskrifter (regulations) support
@@ -127,12 +127,10 @@ Many laws reference other laws by short title or refid (e.g. "jf. straffeloven �
 
 ### 11. Tests
 
-No test suite exists. Priority targets:
-- `parse_effective_date()` — critical for commit dating, many edge cases
-- `parse_law_metadata()` — validate against known law XML samples
-- `split_departments()` — ensure no regressions on concatenated departments
-- `extract_header_field()` — the sist-endret bug should have a regression test
-- End-to-end: small fixture archive → expected markdown output
+Test suites exist in `lovdata-loader/tests/` and `lovdata-publisher/tests/`. Additional coverage targets:
+- End-to-end: small fixture archive → expected JSON snapshot → expected Markdown output
+- Schema drift detection: validate parser against new/changed XML structures from Lovdata
+- Snapshot comparison: diff old vs new snapshots to detect regressions
 
 ### 12. `_quarto.yml` language setting
 
@@ -161,9 +159,9 @@ The 69 MB historical archive is static (only updated annually). Cache it in GitH
     key: lovtidend-historical-${{ hashFiles('...') }}
 ```
 
-### 16. CI: deploy.yml runs on push to `src/**` — triggers on its own commits
+### 16. CI: deploy.yml self-trigger avoidance
 
-The `update-laws` job commits to main and pushes. The push triggers `deploy.yml` again (via `paths: src/**`). In practice the second run finds no changes, but it's wasteful. Add `[skip ci]` to the auto-commit message or use a conditional.
+The `update-laws` job commits to main and pushes. The push could trigger `deploy.yml` again. The commit message includes `[skip ci]` to prevent this. Verify this continues to work correctly.
 
 ### 17. Package versioning automation
 

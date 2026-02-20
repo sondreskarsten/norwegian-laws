@@ -3,25 +3,24 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "lovdata-pipeline"
-version = "0.3.0"
-description = "Parse Lovdata public XML archives into a git repository with backdated commits"
+name = "norwegian-laws"
+version = "0.4.0"
+description = "Norwegian law texts as git history, with a Quarto book for browsing"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 dependencies = [
-    "beautifulsoup4>=4.12",
-    "lxml>=5.0",
-    "pyyaml>=6.0",
+    "lovdata-loader",
+    "lovdata-publisher",
 ]
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
 
-[project.scripts]
-lovdata-pipeline = "lovdata_pipeline.cli:main"
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/lovdata_pipeline"]
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = [
+    "lovdata-loader/tests",
+    "lovdata-publisher/tests",
+]

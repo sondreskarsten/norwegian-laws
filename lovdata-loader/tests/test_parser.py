@@ -12,6 +12,7 @@ from lovdata_loader.parser import (
     parse_article,
     parse_section,
     parse_law,
+    parse_lovtidend_file,
 )
 from lovdata_loader.models import LawData
 
@@ -36,9 +37,34 @@ class TestParseEffectiveDate:
         assert date == "2023-12-15"
         assert deferred is True
 
+    def test_kongen_fastsetter(self):
+        date, deferred = parse_effective_date("Kongen fastsetter", "2023-06-20 14:30")
+        assert date == "2023-06-20"
+        assert deferred is True
+
+    def test_kongen_fastset(self):
+        date, deferred = parse_effective_date("Kongen fastset", "2023-06-20")
+        assert date == "2023-06-20"
+        assert deferred is True
+
+    def test_iso_date_with_trailing_text(self):
+        date, deferred = parse_effective_date("2024-01-01 some extra text", "2023-12-15")
+        assert date == "2024-01-01"
+        assert deferred is False
+
     def test_empty_string_falls_back(self):
         date, deferred = parse_effective_date("", "2023-06-20")
         assert date == "2023-06-20"
+        assert deferred is True
+
+    def test_garbage_falls_back(self):
+        date, deferred = parse_effective_date("Straks", "2023-06-20")
+        assert date == "2023-06-20"
+        assert deferred is True
+
+    def test_straks_with_date(self):
+        date, deferred = parse_effective_date("Straks, med virkning fra 2020-01-01", "2019-12-20")
+        assert date == "2019-12-20"
         assert deferred is True
 
 
@@ -51,8 +77,17 @@ class TestParsePublicationDate:
     def test_norwegian_date(self):
         assert parse_publication_date("20.06.2023") == "2023-06-20"
 
+    def test_iso_date(self):
+        assert parse_publication_date("2023-06-20") == "2023-06-20"
+
+    def test_norwegian_datetime(self):
+        assert parse_publication_date("20.06.2023 14:30") == "2023-06-20"
+
     def test_fallback(self):
         assert parse_publication_date("nonsense") == "2000-01-01"
+
+    def test_whitespace(self):
+        assert parse_publication_date("  2023-06-20  ") == "2023-06-20"
 
 
 # ─── extract_last_changed_by ────────────────────────────────────────────────
@@ -65,11 +100,25 @@ class TestExtractLastChangedBy:
         assert refid == "lov/2023-06-16-40"
         assert in_force == "2023-07-01"
 
+    def test_forskrift_anchor(self):
+        html = '<header><dd class="lastChangedBy"><a href="forskrift/2024-06-07-928">forskrift/2024-06-07-928</a> fra 2024-05-21</dd></header>'
+        soup = BeautifulSoup(html, "html.parser")
+        refid, in_force = extract_last_changed_by(soup.find("header"))
+        assert refid == "forskrift/2024-06-07-928"
+        assert in_force == "2024-05-21"
+
     def test_no_element(self):
         html = '<header><dd class="title">Some title</dd></header>'
         soup = BeautifulSoup(html, "html.parser")
         refid, in_force = extract_last_changed_by(soup.find("header"))
         assert refid == ""
+        assert in_force == ""
+
+    def test_plain_text_no_anchor(self):
+        html = '<header><dd class="sistEndret">lov/2020-01-01-5</dd></header>'
+        soup = BeautifulSoup(html, "html.parser")
+        refid, in_force = extract_last_changed_by(soup.find("header"))
+        assert refid == "lov/2020-01-01-5"
         assert in_force == ""
 
 
@@ -280,3 +329,37 @@ class TestLawDataSerialization:
         assert restored.refid == law.refid
         assert restored.title == law.title
         assert restored.ministry == law.ministry
+
+
+# ─── Fixture-based: parse_lovtidend_file ────────────────────────────────────
+
+class TestParseLovtidendFixture:
+    @pytest.fixture
+    def lovtidend_act(self):
+        path = FIXTURES / "fixture_lovtidend.xml"
+        if not path.exists():
+            pytest.skip("fixture not available")
+        act = parse_lovtidend_file(path.read_bytes(), "fixture_lovtidend.xml")
+        if act is None:
+            pytest.skip("fixture parsed to None")
+        return act
+
+    def test_has_refid(self, lovtidend_act):
+        assert lovtidend_act.refid
+
+    def test_has_title(self, lovtidend_act):
+        assert lovtidend_act.title
+
+    def test_has_amendments(self, lovtidend_act):
+        assert len(lovtidend_act.amendments) > 0
+
+    def test_has_changes_to(self, lovtidend_act):
+        assert len(lovtidend_act.changes_to) > 0
+
+    def test_amendment_has_type(self, lovtidend_act):
+        for a in lovtidend_act.amendments:
+            assert a.change_type in ("change", "repeal", "add", "move", "unknown")
+
+    def test_amendment_has_target(self, lovtidend_act):
+        typed = [a for a in lovtidend_act.amendments if a.change_type != "unknown"]
+        assert all(a.target for a in typed)

@@ -26,41 +26,48 @@ git log --oneline -- lover/lov-1998-07-17-56.md
 ## Quick start
 
 ```bash
-pip install -e .
-lovdata-pipeline --download --output . --db amendments.db
+pip install -e ./lovdata-loader -e ./lovdata-publisher
+lovdata-load --download --output snapshot/
+lovdata-publish --snapshot snapshot/ --output . --quarto
 ```
 
-Flags:
+Loader flags:
 - `--download`: fetch archives from Lovdata API
-- `--parse-only`: parse to markdown without git fast-import
-- `--output`: repo root directory
-- `--db`: SQLite path for amendment metadata
+- `--output`: snapshot output directory
+- `--skip-amendments`: skip Lovtidend parsing (faster, laws only)
+
+Publisher flags:
+- `--snapshot`: path to snapshot directory
+- `--output`: output directory for Markdown files
+- `--quarto`: generate Quarto book chapters and config
+- `--build-history`: build the law-history branch with backdated commits
+- `--repo-path`: git repo path for history operations
 
 ## Repository structure
 
 ```
-lover/                  # 774 Markdown law files (one per law)
-src/lovdata_pipeline/   # Python package
-  pipeline.py           #   XML parsing, git fast-import
-  quarto.py             #   Quarto book generation
-  download.py           #   Lovdata API downloader
-  cli.py                #   CLI entry point
-book/                   # Quarto chapter files (auto-generated per department)
-_quarto.yml             # Quarto book config
+lover/                    # 774 Markdown law files (one per law)
+lovdata-loader/           # Download and parse Lovdata XML archives
+  src/lovdata_loader/     #   Python package
+lovdata-publisher/        # Format and publish law data
+  src/lovdata_publisher/  #   Python package
+book/                     # Quarto chapter files (auto-generated per department)
+_quarto.yml               # Quarto book config
 .github/workflows/
-  deploy.yml            # Weekly: update laws + deploy Quarto book
-  law-history.yml       # Weekly: rebuild backdated commit history
-  release.yml           # On tag: create GitHub release
+  deploy.yml              # Weekly: update laws + deploy Quarto book
+  law-history.yml         # Weekly: rebuild backdated commit history
+  release.yml             # On tag: create GitHub release
 ```
 
 ## How it works
 
 1. **Download** `gjeldende-lover.tar.bz2` and `lovtidend-avd1-*.tar.bz2` from Lovdata API
-2. **Parse** consolidated law XML → Markdown with YAML frontmatter
+2. **Parse** consolidated law XML → structured JSON snapshot
 3. **Parse** Lovtidend amendment XML → structured amendment records (SQLite)
-4. **Commit** each amendment act as a backdated git commit via `git fast-import`
-5. **Generate** Quarto book chapters grouped by ministry
-6. **Deploy** rendered book to GitHub Pages
+4. **Format** JSON snapshot → Markdown with YAML frontmatter
+5. **Commit** each amendment act as a backdated git commit via `git fast-import`
+6. **Generate** Quarto book chapters grouped by ministry
+7. **Deploy** rendered book to GitHub Pages
 
 ## Data source and license
 
