@@ -545,9 +545,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Velg en lov og to årsversjoner for å se endringer på GitHub.</p>
+<p>Velg en lov og to årsversjoner for å se endringer mellom dem. Diff hentes fra <a href="https://github.com/sondreskarsten/norwegian-laws/tree/law-history"><code>law-history</code>-grenen</a> og rendres direkte i nettleseren.</p>
 <div style="display:flex;flex-direction:column;gap:12px;max-width:600px;margin:16px 0;">
-<p><label for="diff-law" style="font-weight:600;">Velg lov:</label> <input type="text" id="diff-law-search" placeholder="Søk etter lov..." style="padding:8px;border:1px solid #ccc;border-radius:4px;"> <select id="diff-law" size="6" style="padding:4px;border:1px solid #ccc;border-radius:4px;"></select></p>
+<p><label for="diff-law" style="font-weight:600;">Velg lov:</label> <input type="text" id="diff-law-search" placeholder="Søk etter lov eller forskrift..." style="padding:8px;border:1px solid #ccc;border-radius:4px;"> <select id="diff-law" size="6" style="padding:4px;border:1px solid #ccc;border-radius:4px;"></select></p>
 <div style="display:flex;gap:16px;">
 <div style="flex:1;">
 <p><label for="diff-from" style="font-weight:600;">Fra versjon:</label> <select id="diff-from" style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;"></select></p>
@@ -556,11 +556,14 @@ ul.task-list li input[type="checkbox"] {
 <p><label for="diff-to" style="font-weight:600;">Til versjon:</label> <select id="diff-to" style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;"></select></p>
 </div>
 </div>
-<div style="display:flex;gap:12px;">
-<button id="diff-compare" style="padding:8px 20px;background:#0969da;color:#fff;border:none;border-radius:4px;cursor:pointer;">
-Sammenlign (full diff)
+<div style="display:flex;gap:12px;flex-wrap:wrap;">
+<button id="diff-render" style="padding:8px 20px;background:#0969da;color:#fff;border:none;border-radius:4px;cursor:pointer;">
+Sammenlign tekst
 </button>
-<button id="diff-log" style="padding:8px 20px;background:#24292f;color:#fff;border:none;border-radius:4px;cursor:pointer;">
+<button id="diff-compare" style="padding:8px 20px;background:#fff;color:#0969da;border:1px solid #0969da;border-radius:4px;cursor:pointer;">
+Åpne på GitHub
+</button>
+<button id="diff-log" style="padding:8px 20px;background:#fff;color:#24292f;border:1px solid #d0d7de;border-radius:4px;cursor:pointer;">
 Se endringslogg
 </button>
 </div>
@@ -568,17 +571,26 @@ Se endringslogg
 
 </div>
 </div>
+<div id="diff-output" style="margin-top:20px;">
+
+</div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/css/diff2html.min.css">
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/js/diff2html-ui.min.js"></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   var lawSearch = document.getElementById("diff-law-search");
   var lawSelect = document.getElementById("diff-law");
   var fromSelect = document.getElementById("diff-from");
   var toSelect = document.getElementById("diff-to");
+  var renderBtn = document.getElementById("diff-render");
   var compareBtn = document.getElementById("diff-compare");
   var logBtn = document.getElementById("diff-log");
   var infoDiv = document.getElementById("diff-info");
+  var outDiv = document.getElementById("diff-output");
   var base = "https://github.com/sondreskarsten/norwegian-laws";
+  var raw = "https://raw.githubusercontent.com/sondreskarsten/norwegian-laws";
   var laws = [];
   var fuse = null;
 
@@ -595,9 +607,10 @@ document.addEventListener("DOMContentLoaded", function() {
     lawSelect.innerHTML = "";
     list.forEach(function(law) {
       var o = document.createElement("option");
-      o.value = law.file;
+      o.value = law.path || ("lover/" + law.file);
       o.textContent = (law.korttittel || law.tittel).substring(0,80);
       o.dataset.tags = JSON.stringify(law.tags);
+      o.dataset.file = law.file;
       lawSelect.appendChild(o);
     });
     if (list.length > 0) {
@@ -616,6 +629,8 @@ document.addEventListener("DOMContentLoaded", function() {
       fromSelect.selectedIndex = Math.max(0, tags.length - 2);
       toSelect.selectedIndex = tags.length - 1;
     }
+    outDiv.innerHTML = "";
+    infoDiv.textContent = "";
   }
 
   fetch("../laws.json").then(function(r){return r.json()}).then(function(data) {
@@ -636,21 +651,62 @@ document.addEventListener("DOMContentLoaded", function() {
     populateLaws(hits);
   });
 
-  compareBtn.addEventListener("click", function() {
-    var file = lawSelect.value;
+  renderBtn.addEventListener("click", function() {
+    var path = lawSelect.value;
     var from = fromSelect.value;
     var to = toSelect.value;
-    if (!file || !from || !to) { infoDiv.textContent = "Velg lov og versjoner."; return; }
-    if (from >= to) { infoDiv.textContent = "Fra-versjon må være eldre enn til-versjon."; return; }
+    if (!path || !from || !to) { infoDiv.textContent = "Velg lov og versjoner."; return; }
+    if (from === to) { infoDiv.textContent = "Velg to ulike versjoner."; return; }
+    if (from > to) { var tmp = from; from = to; to = tmp; }
+    infoDiv.textContent = "Henter " + from + " og " + to + "...";
+    outDiv.innerHTML = "";
+    Promise.all([
+      fetch(raw + "/" + from + "/" + path).then(function(r){
+        if (!r.ok) throw new Error(from + ": HTTP " + r.status);
+        return r.text();
+      }),
+      fetch(raw + "/" + to + "/" + path).then(function(r){
+        if (!r.ok) throw new Error(to + ": HTTP " + r.status);
+        return r.text();
+      })
+    ]).then(function(parts) {
+      var oldText = parts[0];
+      var newText = parts[1];
+      if (oldText === newText) {
+        outDiv.innerHTML = "<p style=\"padding:1rem;background:#e6ffec;border-left:3px solid #1a7f37;\">Ingen tekstforskjell mellom " + from + " og " + to + ".</p>";
+        infoDiv.textContent = "";
+        return;
+      }
+      var oldHeader = path + " @ " + from;
+      var newHeader = path + " @ " + to;
+      var patch = Diff.createPatch(path, oldText, newText, oldHeader, newHeader, {context:3});
+      var ui = new Diff2HtmlUI(outDiv, patch, {
+        drawFileList: false,
+        matching: "lines",
+        outputFormat: "side-by-side",
+        renderNothingWhenEmpty: false,
+        synchronisedScroll: true,
+      });
+      ui.draw();
+      infoDiv.textContent = "Diff " + from + " → " + to;
+    }).catch(function(err) {
+      infoDiv.textContent = "Kunne ikke hente: " + err.message;
+    });
+  });
+
+  compareBtn.addEventListener("click", function() {
+    var from = fromSelect.value;
+    var to = toSelect.value;
+    if (!from || !to) { infoDiv.textContent = "Velg versjoner."; return; }
+    if (from === to) { infoDiv.textContent = "Velg to ulike versjoner."; return; }
+    if (from > to) { var tmp = from; from = to; to = tmp; }
     window.open(base + "/compare/" + from + "..." + to, "_blank");
-    infoDiv.textContent = "Åpner diff for " + from + "…" + to + ". Finn " + file + " i fillisten.";
   });
 
   logBtn.addEventListener("click", function() {
-    var file = lawSelect.value;
-    if (!file) { infoDiv.textContent = "Velg en lov."; return; }
-    window.open(base + "/commits/law-history/lover/" + file, "_blank");
-    infoDiv.textContent = "";
+    var path = lawSelect.value;
+    if (!path) { infoDiv.textContent = "Velg en lov."; return; }
+    window.open(base + "/commits/law-history/" + path, "_blank");
   });
 });
 </script>
