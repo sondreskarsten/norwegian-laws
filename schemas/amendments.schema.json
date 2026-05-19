@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sondreskarsten.github.io/norwegian-laws/schemas/amendments.schema.json",
+  "title": "Paragraph-level amendment (one row per amended paragraph)",
+  "description": "One paragraph-level amendment. For acts that touch multiple paragraphs of multiple laws, there are N rows. Sourced from joining the amendments and amendment_acts tables in the snapshot SQLite database.",
+  "type": "object",
+  "required": [
+    "act_refid",
+    "target_law"
+  ],
+  "properties": {
+    "act_refid": {
+      "type": "string",
+      "description": "Amending act refid; foreign key to amendment-acts.refid.",
+      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}-\\d+$"
+    },
+    "act_title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Short title of the amending act."
+    },
+    "target_law": {
+      "type": "string",
+      "description": "Refid of the law/forskrift being amended.",
+      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}-\\d+$"
+    },
+    "target": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Raw target reference, e.g. '§ 7-25' or 'kapittel 7'."
+    },
+    "paragraph": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Normalized paragraph reference, e.g. '§ 7-25' or '§ 1-2a'. Null when the amendment is at chapter level or a letter that couldn't be canonicalized.",
+      "pattern": "^§ \\d+-\\d+[a-z]?$"
+    },
+    "change_type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "change",
+        "add",
+        "remove",
+        "repeal",
+        "renumber",
+        "move",
+        "unknown",
+        null
+      ],
+      "description": "Whether the amendment changed, added, removed, repealed, renumbered, or moved the paragraph. 'unknown' when Lovdata wording didn't fit any specific pattern."
+    },
+    "instruction": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Lovdata's instruction text, e.g. '§ 7-25 skal lyde:'. Truncated to 200 chars."
+    },
+    "new_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Replacement paragraph wording from Lovdata. Truncated to 4000 chars. Only populated when change_type is 'change' or 'add'."
+    },
+    "ministry": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_published": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "date_in_force": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "date_in_force_resolved": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "journal_number": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

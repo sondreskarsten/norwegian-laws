@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sondreskarsten.github.io/norwegian-laws/schemas/amendment-acts.schema.json",
+  "title": "Amendment act (one row per amending act)",
+  "description": "One amending act of Norwegian law or regulation. Each row matches one entry in feed.xml. Sourced from amendment_acts in the snapshot SQLite database, originally parsed from Lovdata XML.",
+  "type": "object",
+  "required": [
+    "refid",
+    "title",
+    "date_published"
+  ],
+  "properties": {
+    "refid": {
+      "type": "string",
+      "description": "Canonical Lovdata ID, e.g. 'lov/2024-06-21-42'.",
+      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}-\\d+$"
+    },
+    "title": {
+      "type": "string",
+      "description": "Full official title."
+    },
+    "short_title": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Shorter title for display, often Norwegian abbreviation."
+    },
+    "ministry": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Norwegian ministry that proposed the act."
+    },
+    "date_published": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the act was published in Norsk Lovtidend (YYYY-MM-DD)."
+    },
+    "date_in_force": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Raw date_in_force field as published. May be a date or a textual description."
+    },
+    "date_in_force_resolved": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "description": "Best-effort YYYY-MM-DD resolution of date_in_force."
+    },
+    "is_deferred": {
+      "type": "boolean",
+      "description": "Whether the act has a deferred entry-into-force."
+    },
+    "journal_number": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Lovtidend journal number, e.g. '2024-0042'."
+    },
+    "amendment_count": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "Number of paragraph-level amendments this act made. NOT the number of laws affected; for that, len(targets)."
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of refids for laws/forskrifter that this act amends."
+    },
+    "misc_info": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Hjemmel text, truncated to 500 chars."
+    }
+  }
+}
