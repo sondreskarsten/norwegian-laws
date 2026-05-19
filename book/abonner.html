@@ -660,7 +660,14 @@ document.addEventListener("DOMContentLoaded", function() {
       html += '<div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:0.5rem;">';
       html += '<div><strong style="font-size:1.05em;"><a href="' + lawPage + '">' + law.tittel + '</a></strong>';
       if (law.korttittel) html += ' <span style="color:#6c757d;">(' + law.korttittel + ')</span>';
-      html += '</div></div>';
+      html += '</div>';
+      // Amendment count badge: shows how active the law is, useful for picking what to monitor
+      if (law.amendments && law.amendments > 0) {
+        var badgeColor = law.amendments >= 50 ? "#dc3545" : (law.amendments >= 10 ? "#fd7e14" : "#198754");
+        html += '<span style="background:' + badgeColor + ';color:#fff;padding:2px 8px;border-radius:10px;font-size:0.75em;font-weight:600;';
+        html += '" title="Antall endringslover siden 2001">' + law.amendments + ' endr.</span>';
+      }
+      html += '</div>';
       if (aliases) html += '<div style="font-size:0.85em;color:#6c757d;margin:0.25rem 0;">Aliaser: ' + aliases + '</div>';
       html += '<div style="margin:0.75rem 0;display:flex;align-items:center;gap:0.5rem;flex-wrap:wrap;">';
       html += '<input type="text" value="' + fullUrl + '" readonly';
