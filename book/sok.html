@@ -579,6 +579,9 @@ Korttittel
 <th style="text-align:left;">
 Departement
 </th>
+<th style="text-align:right;">
+Endringer
+</th>
 <th style="text-align:left;">
 Lenker
 </th>
@@ -637,11 +640,21 @@ document.addEventListener("DOMContentLoaded", function() {
       var td3 = document.createElement("td");
       td3.textContent = law.departement.join(", ");
       var td4 = document.createElement("td");
-      td4.innerHTML = '<a href="' + law.lovdata + '">lovdata</a> · <a href="' + law.log + '">logg</a>';
+      td4.style.textAlign = "right";
+      var n = law.amendments || 0;
+      if (n > 0) {
+        var color = n >= 50 ? "#dc3545" : (n >= 10 ? "#fd7e14" : "#198754");
+        td4.innerHTML = '<a href="../historie/' + law.path.replace("lover/", "").replace("forskrifter/", "").replace(".md", ".html") + '" style="color:' + color + ';text-decoration:none;font-weight:600;" title="Antall endringslover siden 2001">' + n + '</a>';
+      } else {
+        td4.innerHTML = '<span style="color:#adb5bd;">—</span>';
+      }
+      var td5 = document.createElement("td");
+      td5.innerHTML = '<a href="' + law.lovdata + '">lovdata</a> · <a href="' + law.log + '">logg</a>';
       tr.appendChild(td1);
       tr.appendChild(td2);
       tr.appendChild(td3);
       tr.appendChild(td4);
+      tr.appendChild(td5);
       tbody.appendChild(tr);
     });
   }
