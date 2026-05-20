@@ -11,8 +11,8 @@
   "properties": {
     "act_refid": {
       "type": "string",
-      "description": "Amending act refid; foreign key to amendment-acts.refid.",
-      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}-\\d+$"
+      "description": "Amending act refid; foreign key to amendment-acts.refid. Pattern allows pre-1970s acts that lack a numeric counter.",
+      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}(-\\d+)?$"
     },
     "act_title": {
       "type": [
@@ -23,8 +23,8 @@
     },
     "target_law": {
       "type": "string",
-      "description": "Refid of the law/forskrift being amended.",
-      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}-\\d+$"
+      "description": "Refid of the law/forskrift being amended. Pattern allows pre-1970s acts that lack a numeric counter.",
+      "pattern": "^(lov|forskrift)/\\d{4}-\\d{2}-\\d{2}(-\\d+)?$"
     },
     "target": {
       "type": [
