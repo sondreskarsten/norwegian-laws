@@ -16,6 +16,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  models: read
 
 concurrency:
   group: "pages"
@@ -60,6 +61,43 @@ jobs:
       - name: Update 'Recent amendments' section in README
         run: python -m lovdata_publisher.readme_updater README.md snapshot/amendments.db
 
+      - name: Compute delta of changed law files
+        id: delta
+        run: |
+          python3 .github/scripts/extract_delta.py > /tmp/delta.md
+          if [ -s /tmp/delta.md ]; then
+            echo "has_delta=true" >> $GITHUB_OUTPUT
+            echo "--- delta briefing ---"
+            cat /tmp/delta.md
+          else
+            echo "has_delta=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate AI summary via GitHub Models
+        if: steps.delta.outputs.has_delta == 'true'
+        id: ai
+        uses: actions/ai-inference@v1
+        with:
+          model: openai/gpt-4o
+          system-prompt: |
+            Du oppsummerer nye norske lover og forskrifter publisert i Norsk Lovtidend.
+            Skriv på bokmål. Faktabasert, konsist, ingen pynt eller verdiladede adjektiv.
+            Format:
+            - 2–4 setninger som overordnet sammendrag av hva som er publisert.
+            - Deretter punktliste der hver nye lov/forskrift får én linje med refid og kort
+              objektiv beskrivelse av hva den regulerer (basert kun på tittel og departement).
+            - Hvis det er endringslover som modifiserer mange eksisterende lover, nevn
+              kildeloven og antall berørte dokumenter, men ikke list opp alle.
+            Ikke spekuler om virkninger, intensjon eller politisk kontekst.
+          prompt-file: /tmp/delta.md
+          max-tokens: 1500
+
+      - name: Inject AI summary into README, RELEASES.md, commit body
+        if: steps.delta.outputs.has_delta == 'true'
+        env:
+          SUMMARY: ${{ steps.ai.outputs.response }}
+        run: python3 .github/scripts/inject_summary.py
+
       - name: Refresh Lovdata manifest state file
         run: |
           mkdir -p .github/state
@@ -75,7 +113,7 @@ jobs:
           # Feeds and feed.xml are NOT committed — they're build artifacts
           # regenerated every run from snapshot/amendments.db. They go straight
           # into deploy-book via the snapshot artifact.
-          git add lover/ forskrifter/ book/ _quarto.yml index.qmd laws.json README.md .github/state/
+          git add lover/ forskrifter/ book/ _quarto.yml index.qmd laws.json README.md RELEASES.md .github/state/
           git rm -r --cached historie/ 2>/dev/null || true
           git rm --cached feed.xml 2>/dev/null || true
           git add historie/
@@ -83,7 +121,11 @@ jobs:
             echo "No changes to laws"
             echo "changed=false" >> $GITHUB_OUTPUT
           else
-            git commit -m "Oppdater lover og forskrifter fra Lovdata API $(date +%Y-%m-%d) [skip ci]"
+            if [ -f /tmp/commit-msg.txt ]; then
+              git commit -F /tmp/commit-msg.txt
+            else
+              git commit -m "Oppdater lover og forskrifter fra Lovdata API $(date +%Y-%m-%d) [skip ci]"
+            fi
             # Race with concurrent developer pushes is possible during a 10-minute run.
             # Rebase onto whatever landed on main while we were running, then push.
             for attempt in 1 2 3; do

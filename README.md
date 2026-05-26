@@ -35,7 +35,10 @@ That diff is real, reachable via `git log -p -- lover/lov-1998-07-17-56.md` once
 
 ## Recent amendments
 
-The most recently published lover and forskrifter from Norsk Lovtidend, auto-updated weekly:
+The most recently published lover and forskrifter from Norsk Lovtidend, auto-updated daily when Lovdata publishes new content:
+
+<!-- AI_SUMMARY_START -->
+<!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
 **Lover (endringslover):**
