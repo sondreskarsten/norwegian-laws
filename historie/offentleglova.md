@@ -50,6 +50,13 @@ refid: "lov/2006-05-19-16"
 > Lova gjeld ikkje for Stortinget, Riksrevisjonen, Sivilombodet og andre organ for Stortinget.
 >
 
+### 2026-05-29 — lov/2026-05-29-20
+
+*§ 2 fjerde ledd fjerde punktum skal lyde:*
+
+> Lova gjeld ikkje for dokument som blir behandla av Etterretningstenesta etter etterretningstjenesteloven, eller for straffesaksdokument som blir lånte ut frå politiet til Statens kommisjon for partnardrap eller til Statens helsetilsyn etter barnevoldsundersøkelsesloven § 9.
+>
+
 ## § 25
 
 ### 2011-12-16 — lov/2011-12-16-62

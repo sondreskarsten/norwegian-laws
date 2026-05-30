@@ -1723,6 +1723,13 @@ refid: "lov/1989-06-02-27"
 > § 9-6.Begrensninger i omgjørings- og instruksjonsmyndighet
 >
 
+### 2026-05-29 — lov/2026-05-29-21
+
+*I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. skal § 4-4 nytt niende ledd lyde:*
+
+> Kommunestyret kan for perioden 11. juni til 19. juli 2026 fastsette skjenketider for alkoholholdig drikk gruppe 1 og 2 som avviker fra fjerde ledd annet punktum. Dette kan fastsettes generelt for kommunen eller for det enkelte skjenkested. Avvikende skjenketider kan bare fastsettes for skjenkesteder som viser direktesendte kamper i fotball-VM for herrer 2026 for stedets gjester.
+>
+
 ## § 3A-1
 
 ### 2003-05-23 — lov/2003-05-23-34
