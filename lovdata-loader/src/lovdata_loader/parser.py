@@ -173,6 +173,7 @@ def _is_header(tag: Tag) -> bool:
 
 def _parse_ledd(ledd: Tag) -> Paragraph:
     text_parts = []
+    trailing_parts = []
     items = []
     for child in ledd.children:
         if isinstance(child, Tag) and child.name in ("ul", "ol"):
@@ -181,12 +182,16 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
                 li_text = _text(li)
                 items.append(ListItem(identifier=identifier, text=li_text))
         elif isinstance(child, Tag):
-            text_parts.append(_text(child))
+            (trailing_parts if items else text_parts).append(_text(child))
         else:
             t = str(child).strip()
             if t:
-                text_parts.append(t)
-    return Paragraph(text=" ".join(text_parts), list_items=items)
+                (trailing_parts if items else text_parts).append(t)
+    return Paragraph(
+        text=" ".join(text_parts),
+        list_items=items,
+        trailing_text=" ".join(trailing_parts),
+    )
 
 
 def parse_article(article_tag: Tag) -> Article:

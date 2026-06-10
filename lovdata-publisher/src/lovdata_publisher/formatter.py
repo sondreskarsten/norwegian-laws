@@ -48,6 +48,9 @@ def format_article(article: dict, depth: int = 0) -> str:
                 lines.append(f"- {identifier} {item['text']}")
         if para.get("list_items"):
             lines.append("")
+        if para.get("trailing_text"):
+            lines.append(para["trailing_text"])
+            lines.append("")
 
     if article.get("trailing_text"):
         lines.append(f"*{article['trailing_text']}*")

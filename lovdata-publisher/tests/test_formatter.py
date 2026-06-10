@@ -90,3 +90,25 @@ class TestFormatArticle:
         md = format_article(article, depth=1)
         assert "- a) norske foretak" in md
         assert "- b) utenlandske foretak" in md
+
+
+class TestFormatArticleTrailingText:
+    def test_trailing_text_renders_after_list(self):
+        article = {
+            "name": "§ 1",
+            "header_text": "§ 1. Formål",
+            "paragraphs": [
+                {
+                    "text": "Loven gjelder for:",
+                    "list_items": [
+                        {"identifier": "a)", "text": "norske foretak"},
+                    ],
+                    "trailing_text": "med virksomhet i Norge.",
+                }
+            ],
+        }
+        md = format_article(article, depth=1)
+        intro = md.index("Loven gjelder for:")
+        item = md.index("- a) norske foretak")
+        trail = md.index("med virksomhet i Norge.")
+        assert intro < item < trail

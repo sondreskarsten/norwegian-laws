@@ -20,6 +20,7 @@ class Paragraph:
     """A legal paragraph (ledd) within an article."""
     text: str
     list_items: list[ListItem] = field(default_factory=list)
+    trailing_text: str = ""
 
 
 @dataclass
@@ -49,6 +50,7 @@ def _article_from_dict(a: dict) -> Article:
             Paragraph(
                 text=p["text"],
                 list_items=[ListItem(**li) for li in p.get("list_items", [])],
+                trailing_text=p.get("trailing_text", ""),
             )
             for p in a.get("paragraphs", [])
         ],

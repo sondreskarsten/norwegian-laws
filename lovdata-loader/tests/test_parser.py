@@ -289,3 +289,43 @@ def test_preamble_not_triggered_by_incidental_law_reference():
     assert len(result.amendments) == 2
     for a in result.amendments:
         assert a.target_law == "lov/1998-07-17-56"
+
+
+class TestParseLeddInterleaving:
+    def test_text_after_list_goes_to_trailing(self):
+        from bs4 import BeautifulSoup
+        from lovdata_loader.parser import _parse_ledd
+        html = """<article class="legalP">Loven gjelder for:
+        <ul><li data-li-identifier="a)">norske foretak</li>
+        <li data-li-identifier="b)">utenlandske foretak</li></ul>
+        med virksomhet i Norge.</article>"""
+        ledd = BeautifulSoup(html, "lxml").find("article")
+        p = _parse_ledd(ledd)
+        assert p.text == "Loven gjelder for:"
+        assert [li.identifier for li in p.list_items] == ["a)", "b)"]
+        assert p.trailing_text == "med virksomhet i Norge."
+
+    def test_no_list_keeps_trailing_empty(self):
+        from bs4 import BeautifulSoup
+        from lovdata_loader.parser import _parse_ledd
+        html = '<article class="legalP">Bare tekst uten liste.</article>'
+        ledd = BeautifulSoup(html, "lxml").find("article")
+        p = _parse_ledd(ledd)
+        assert p.text == "Bare tekst uten liste."
+        assert p.trailing_text == ""
+
+    def test_roundtrip_through_dict(self):
+        from bs4 import BeautifulSoup
+        from lovdata_loader.parser import _parse_ledd
+        from lovdata_loader.models import _article_from_dict
+        from dataclasses import asdict
+        html = """<article class="legalP">Innledning:
+        <ul><li data-li-identifier="1.">punkt</li></ul>
+        Etterfølgende tekst.</article>"""
+        ledd = BeautifulSoup(html, "lxml").find("article")
+        p = _parse_ledd(ledd)
+        art = _article_from_dict({
+            "name": "§ 1", "header_text": "§ 1",
+            "paragraphs": [asdict(p)],
+        })
+        assert art.paragraphs[0].trailing_text == "Etterfølgende tekst."
