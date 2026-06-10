@@ -17,6 +17,7 @@ permissions:
   pages: write
   id-token: write
   models: read
+  actions: write
 
 concurrency:
   group: "pages"
@@ -211,3 +212,25 @@ jobs:
           folder: _site
           branch: gh-pages
           clean: true
+
+  chain-downstream:
+    needs: [update-laws, deploy-book]
+    if: needs.update-laws.result == 'success' && needs.deploy-book.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # workflow_run events from runs whose originating event was created by
+      # GITHUB_TOKEN (repository_dispatch from poll-lovdata) never fire, so
+      # law-history and gcs-sync went silent after the event-driven redesign.
+      # workflow_dispatch is exempt from that restriction, so chain explicitly.
+      - name: Dispatch law-history
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run law-history.yml --ref main
+
+      - name: Dispatch gcs-sync
+        if: needs.update-laws.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run gcs-sync.yml --ref main
