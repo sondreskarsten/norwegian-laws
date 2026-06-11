@@ -10,7 +10,7 @@
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
   <img alt="Coverage" src="https://img.shields.io/badge/coverage-4%2C204_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C746-ba0c2f">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C748-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C627-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
@@ -38,6 +38,24 @@ That diff is real, reachable via `git log -p -- lover/lov-1998-07-17-56.md` once
 The most recently published lover and forskrifter from Norsk Lovtidend, auto-updated daily when Lovdata publishes new content:
 
 <!-- AI_SUMMARY_START -->
+*🤖 AI-generated summary (GitHub Models) · 2026-06-11*
+
+En rekke nye lover og forskrifter er publisert i Norsk Lovtidend, inkludert endringslover som berører en rekke gjeldende lover og forskrifter. Det er også publisert flere nye forskrifter som omhandler luftfart, næringsmidler, klimagassutslipp, og utdanningsstøtte.
+
+### Nye lover og forskrifter:
+- **lov/2026-03-20-11**: Endring av lov om vergemål.
+- **lov/2026-03-20-10**: Endring av lov om Norges Bank og pengevesenet.
+- **lov/2026-02-06-4**: Endring av lov om forvaltning av alternative investeringsfond.
+- **lov/2025-12-22-130**: Endring av naturmangfoldloven.
+- _Flere detaljer om øvrige endringslover som samlet endrer et stort antall eksisterende lover er registrert, men ikke listet her for sammenheng._
+
+### Nye forskrifter:
+- **forskrift/2026-05-11-779**: Endring av sertifiseringsforskriften fra Samferdselsdepartementet.
+- **forskrift/2026-05-11-778**: Endring av vedlikeholdsforskriften fra Samferdselsdepartementet.
+- **forskrift/2026-05-08-770**: Endring av CRR/CRD-forskriften fra Finansdepartementet.
+- **forskrift/2026-05-04-745**: Endring av flere forskrifter relatert til næringsmidler fra Helse- og omsorgsdepartementet.
+- **forskrift/2026-04-21-623**: Endring av flere forskrifter om offentlige anskaffelser fra Nærings- og fiskeridepartementet.
+- _Flere detaljer om øvrige nye og endrede forskrifter er tilgjengelige i kildene som referert i listen._
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -55,11 +73,11 @@ The most recently published lover and forskrifter from Norsk Lovtidend, auto-upd
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-06-10 | Forskrift om endring i forskrift om prøvetaking og analyse for offe… | [`forskrift/2015-07-03-871`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-07-03-871.html) |
 | 2026-06-09 | Forskrift om endring i forskrift om krav til CO2-utslipp mv. for pr… | [`forskrift/2018-12-28-2247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-28-2247.html) |
 | 2026-06-09 | Forskrift om endring i forskrift om krav til CO2-utslipp mv. for pr… | [`forskrift/2018-12-28-2247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-28-2247.html) |
 | 2026-06-09 | Forskrift om endring i forskrift om rester av plantevernmidler i næ… | [`forskrift/2009-08-18-1117`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-08-18-1117.html) |
 | 2026-06-09 | Endr. i verdipapirforskriften | [`forskrift/2007-06-29-876`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-06-29-876.html) |
-| 2026-06-09 | Forskrift om endring i forskrift om legemidler til dyr | [`forskrift/2022-09-08-1573`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-09-08-1573.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -155,7 +173,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 |---|---|
 | 📜 **Complete coverage** | All 783 formal laws + 3,421 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,627 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 16 ministry feeds |
-| 🕰️ **Backdated git history** | 38,746 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 🕰️ **Backdated git history** | 38,748 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 13,700+ per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2001`–`v2027`) |
