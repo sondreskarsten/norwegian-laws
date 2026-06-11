@@ -14,6 +14,7 @@ from collections import defaultdict
 
 
 MAX_EXAMPLES_PER_GROUP = 5
+MAX_DELTA_CHARS = 20000
 
 
 def get_changes() -> list[tuple[str, Path]]:
@@ -71,30 +72,51 @@ def main() -> None:
         }
         (new if kind == "new" else mod).append(entry)
 
-    print("# Endringer i denne kjøringen\n")
+    lines = ["# Endringer i denne kjøringen\n"]
+    used = len(lines[0]) + 1
 
     if new:
-        print(f"## Nye dokumenter ({len(new)})\n")
-        for e in new:
+        lines.append(f"## Nye dokumenter ({len(new)})\n")
+        used += len(lines[-1]) + 1
+        for i, e in enumerate(new):
             line = f"- **{e['refid']}** — {e['tittel']}"
             if e["departement"]:
                 line += f"  _[{e['departement']}]_"
-            print(line)
-        print()
+            if used + len(line) + 1 > MAX_DELTA_CHARS // 2:
+                lines.append(f"- _… og {len(new) - i} til_")
+                break
+            lines.append(line)
+            used += len(line) + 1
+        lines.append("")
 
     if mod:
         by_source = defaultdict(list)
         for e in mod:
             by_source[e["sist-endret"] or "(ukjent kilde)"].append(e)
-        print(f"## Endrede dokumenter ({len(mod)}), gruppert etter kildelov\n")
-        for src in sorted(by_source, reverse=True):
+        lines.append(f"## Endrede dokumenter ({len(mod)}), gruppert etter kildelov\n")
+        used = sum(len(l) + 1 for l in lines)
+        sources = sorted(by_source, reverse=True)
+        for i, src in enumerate(sources):
             group = by_source[src]
-            print(f"- **{src}** endrer {len(group)} dokument(er):")
+            block = [f"- **{src}** endrer {len(group)} dokument(er):"]
             for e in group[:MAX_EXAMPLES_PER_GROUP]:
-                print(f"    - {e['refid']} — {e['tittel']}")
+                block.append(f"    - {e['refid']} — {e['tittel']}")
             if len(group) > MAX_EXAMPLES_PER_GROUP:
-                print(f"    - _… og {len(group) - MAX_EXAMPLES_PER_GROUP} til_")
-        print()
+                block.append(f"    - _… og {len(group) - MAX_EXAMPLES_PER_GROUP} til_")
+            block_len = sum(len(l) + 1 for l in block)
+            if used + block_len > MAX_DELTA_CHARS:
+                rest_groups = len(sources) - i
+                rest_docs = sum(len(by_source[s]) for s in sources[i:])
+                lines.append(
+                    f"- _… og {rest_groups} kildelov(er) til som endrer "
+                    f"{rest_docs} dokument(er)_"
+                )
+                break
+            lines.extend(block)
+            used += block_len
+        lines.append("")
+
+    print("\n".join(lines))
 
 
 if __name__ == "__main__":
