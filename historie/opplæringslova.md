@@ -23,6 +23,13 @@ refid: "lov/2023-06-09-30"
 > Retten skal oppfyllast så raskt som mogleg og seinast innan tre månader etter at barnet er komme til Noreg. Dersom det er nødvendig fordi det kjem svært mange fordrivne barn frå Ukraina, kan departementet gi forskrift om mellombels forlenging av tremånadersfristen.
 >
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 2-1 andre ledd andre og tredje punktum skal lyde:*
+
+> Retten skal oppfyllast så raskt som mogleg og seinast innan tre månader etter at barnet er komme til Noreg. Dersom det er nødvendig fordi det kjem svært mange fordrivne barn frå Ukraina, kan departementet gi forskrift om mellombels forlenging av tremånadersfristen.
+>
+
 ## § 3-2
 
 ### 2024-06-14 — lov/2024-06-14-36
@@ -39,6 +46,13 @@ refid: "lov/2023-06-09-30"
 ### 2024-06-25 — lov/2024-06-25-53
 
 *§ 3-7 første ledd nytt tredje punktum skal lyde:*
+
+> Kravet til samtykke gjeld likevel ikkje dersom opplæring gjennom eit særskilt organisert tilbod er nødvendig for å gi nykomne elevar eit forsvarleg opplæringstilbod i ein situasjon der det kjem svært mange fordrivne frå Ukraina.
+>
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 3-7 første ledd tredje punktum skal lyde:*
 
 > Kravet til samtykke gjeld likevel ikkje dersom opplæring gjennom eit særskilt organisert tilbod er nødvendig for å gi nykomne elevar eit forsvarleg opplæringstilbod i ein situasjon der det kjem svært mange fordrivne frå Ukraina.
 >
@@ -66,6 +80,13 @@ refid: "lov/2023-06-09-30"
 ### 2024-06-25 — lov/2024-06-25-53
 
 *§ 6-6 første ledd nytt tredje punktum skal lyde:*
+
+> Kravet til samtykke gjeld likevel ikkje dersom opplæring gjennom eit særskilt organisert tilbod er nødvendig for å gi nykomne elevar eit forsvarleg opplæringstilbod i ein situasjon der det kjem svært mange fordrivne frå Ukraina.
+>
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 6-6 første ledd tredje punktum skal lyde:*
 
 > Kravet til samtykke gjeld likevel ikkje dersom opplæring gjennom eit særskilt organisert tilbod er nødvendig for å gi nykomne elevar eit forsvarleg opplæringstilbod i ein situasjon der det kjem svært mange fordrivne frå Ukraina.
 >

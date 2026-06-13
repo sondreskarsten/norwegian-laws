@@ -124,6 +124,46 @@ refid: "lov/2020-11-06-127"
 > Personer nevnt i § 27 som har påbegynt et introduksjonsprogram eller opplæring i norsk og samfunnskunnskap, har rett til å fullføre opplæringen i norsk og samfunnskunnskap, uavhengig av om oppholdstillatelsen endres, eller om de får innvilget statsborgerskap.
 >
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*I lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid skal kapittel 6A lyde:*
+
+> Kapittel 6A Midlertidige regler for personer som har fått oppholdstillatelse etter utlendingsloven § 34 mv.
+>
+> § 37 a.Unntak fra plikt til å delta i opplæring i mottakAsylsøkere som er i målgruppen for ordningen med kollektiv beskyttelse, har ikke plikt til å delta i opplæring i mottak etter § 5 i loven her.
+>
+> § 37 a.Unntak fra plikt til å delta i opplæring i mottak
+>
+> § 37 b.Kompetansekartlegging og karriereveiledningRetten og plikten til å gjennomføre kompetansekartlegging før bosetting etter § 6 i loven her gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre kompetansekartlegging etter § 10 i loven her. Personer som deltar i introduksjonsprogram etter § 37 c, har rett og plikt til å gjennomføre kompetansekartleggingen. Kartleggingen skal bidra til å avklare om vedkommende er kvalifisert for tilgjengelige arbeidsplasser i kommunen, og til at introduksjonsprogrammet etter § 37 c blir tilpasset den enkeltes behov.Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre karriereveiledning etter § 11 i loven her. § 11 fjerde ledd gjelder ikke.
+>
+> § 37 b.Kompetansekartlegging og karriereveiledning
+>
+> § 37 c.IntroduksjonsprogramBestemmelsene i § 14 a første ledd bokstav c om at introduksjonsprogrammet skal inneholde opplæring i samfunnskunnskap, gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
+>
+> § 37 c.Introduksjonsprogram
+>
+> § 37 d.Opplæring i norskPersoner som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i opplæring i norsk etter kapittel 6 i loven her. De har ikke rett eller plikt til opplæring i samfunnskunnskap. For øvrig gjelder § 26.Retten til opplæring i norsk gjelder i ett år fra oppstartstidspunktet. For øvrig gjelder §§ 30 og 32 i loven her. Deltagere i opplæringen bør oppnå et minimumsnivå i norsk. Plikten til å avlegge prøver etter § 37 gjelder ikke. Kommunen skal likevel sørge for at deltagerne får mulighet til å avlegge gratis avsluttende prøve i norsk. Departementet kan gi forskrift om utvidet opplæring i norsk.Kommunen skal, samtidig som det treffes vedtak om opplæring i norsk, utarbeide en norskplan. Norskplanen skal inneholde deltagerens norskmål, omfanget av opplæringen og klagemuligheter. § 34 gjelder ikke.
+>
+> § 37 d.Opplæring i norsk
+>
+> § 37 e.ForskriftshjemmelDersom høye ankomster av asylsøkere gjør det nødvendig å tilpasse integreringstiltak til personer som er omfattet av loven, kan departementet av hensyn til kapasiteten i kommunen eller fylkeskommunen gi midlertidig forskrift ommålgruppene for og rettigheter og plikter til opplæring i mottak, introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 5, 8, 9, 26, 27, 28, 37 c og 37 dretten til karriereveiledning etter §§ 11 og 37 butsettelse av frister for oppstart av introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 12, 30, 37 c og 37 dsluttmål, varighet og kravene til innhold i introduksjonsprogrammet etter §§ 13, 14, 14 a og 37 cretten til, beregningen av og reduksjon i introduksjonsstønaden etter kapittel 5 ved deltagelse i introduksjonsprogram etter § 37 cvarigheten og omfanget av opplæring og kravene til opplæringen etter §§ 30 til 33 og 37 dprøver i norsk og samfunnskunnskap etter § 37behandling av personopplysninger etter §§ 41 til 44.Forskrifter etter første punktum kan fravike bestemmelsene som nevnt i bokstav a til h.Departementet kan også gi midlertidig forskrift som fraviker kravene som følger av bestemmelsene som nevnt i første ledd bokstav a til h, for personer som har hatt oppholdstillatelse etter utlendingsloven § 34 ved overgang til status som asylsøkere.
+>
+> § 37 e.Forskriftshjemmel
+>
+> § 37 f.Behandling av kompetanseopplysningerDepartementet kan gi midlertidig forskrift om innhenting og utlevering av kompetanseopplysninger, uten hinder av taushetsplikt, fra Integrerings- og mangfoldsdirektoratets registre for å legge til rette for at personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan sysselsettes i det statlige, kommunale eller fylkeskommunale tjenestetilbudet. Med kompetanseopplysninger menes opplysninger som er innhentet ved kompetansekartlegging eller karriereveiledning etter § 37 b, eller opplysninger om den enkeltes kompetanse som er innhentet før bosetting, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9.
+>
+> § 37 f.Behandling av kompetanseopplysninger
+>
+
+### 2026-06-12 — lov/2026-06-12-23
+
+*I lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid skal § 16 lyde:*
+
+> § 16.IntegreringserklæringDeltageren skal signere en integreringserklæring i forbindelse med at det utarbeides en integreringsplan etter § 15.Integreringserklæringen skal angi deltagerens forpliktelser som deltager i introduksjonsprogrammet, og sentrale plikter og rettigheter som gjelder for personer som bor i Norge.Departementet kan gi forskrift om innholdet i integreringserklæringen.
+>
+> § 16.Integreringserklæring
+>
+
 ## § 1
 
 ### 2025-06-20 — lov/2025-06-20-35

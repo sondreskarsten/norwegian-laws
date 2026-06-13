@@ -305,3 +305,12 @@ refid: "lov/1999-03-26-17"
 >
 > § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som bolig
 >
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 9-3 a lyde:*
+
+> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som boligFor bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+>
+> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som bolig
+>

@@ -510,6 +510,13 @@ refid: "lov/1981-05-22-25"
 > overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, vareførselsloven § 12-9, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltressursloven § 60, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
 >
 
+### 2026-06-12 — lov/2026-06-12-32
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 67 andre ledd bokstav c lyde:*
+
+> overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, vareførselsloven § 12-9, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd og § 108 a første og annet ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltressursloven § 60, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
+>
+
 ## § 1
 
 ### 2003-01-01 — forskrift/2002-10-11-1094

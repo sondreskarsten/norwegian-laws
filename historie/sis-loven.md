@@ -25,6 +25,15 @@ refid: "lov/1999-07-16-66"
 > Systemet består av et nasjonalt system i hver av statene som deltar i Schengensamarbeidet og et sentralt system som de nasjonale systemer kommuniserer med.
 >
 
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 1 skal lyde:*
+
+> § 1.Gjennomføring av forordninger om Schengen informasjonssystem (SIS)Følgende forordninger gjelder som lov:Forordning (EU) 2018/1862 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) innenfor politisamarbeid og strafferettslig samarbeid (politisamarbeidsforordningen), som endret vedforordning (EU) 2019/818forordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2022/1190Forordning (EU) 2018/1861 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) på området inn- og utreisekontroll (grensekontrollforordningen), som endret vedforordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152Forordning (EU) 2018/1860 om bruk av Schengen-informasjonssystem i forbindelse med retur av tredjestatsborgere med ulovlig opphold (returforordningen), som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152.
+>
+> § 1.Gjennomføring av forordninger om Schengen informasjonssystem (SIS)
+>
+
 ## § 11
 
 ### 2006-04-28 — lov/2006-04-28-11
@@ -57,6 +66,15 @@ refid: "lov/1999-07-16-66"
 *§ 12 første ledd bokstav d skal lyde:*
 
 > myndighet med ansvar for registrering av motorkjøretøyer har, for å kontrollere om motorkjøretøyer som ønskes registrert er stjålet, på annen måte forsvunnet eller er etterlyst som bevis i straffesaker, tilgang til følgende opplysninger:
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 12 første ledd nr. 6 og ny nr. 7 skal lyde:*
+
+> myndighet med ansvar for å utstede løyve for skytevåpen til formål og opplysninger som nevnt i politisamarbeidsforordningen artikkel 47
+>
+> myndighet med ansvar for å gjennomføre oppgaver etter forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6.
 >
 
 ## § 13
@@ -237,6 +255,20 @@ refid: "lov/1999-07-16-66"
 *§ 8 første ledd nr. 1 bokstav a og b skal lyde:*
 
 > når det foreligger konkrete holdepunkter for å anta at vedkommende person planlegger å begå eller begår en alvorlig straffbar handling, ellernår det ut fra en samlet vurdering av vedkommende person, særlig på grunnlag av tidligere begåtte straffbare handlinger, må antas at vedkommende også i fremtiden vil begå alvorlige straffbare handlinger.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 8 første ledd nr. 1 skal lyde:*
+
+> politisamarbeidsforordningen artikkel 26, 32, 34, 36, 37 a og 40
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 8 andre ledd skal lyde:*
+
+> Det kan behandles opplysninger om gjenstander som ettersøkes for beslag eller som bevis i en straffesak, jf. politisamarbeidsforordningen artikkel 38, eller på vilkår som nevnt i artikkel 26 nr. 5, artikkel 32 nr. 8, artikkel 34 nr. 2, artikkel 36 eller artikkel 37 a nr. 12.
 >
 
 ## § 9a

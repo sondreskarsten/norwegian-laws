@@ -11,6 +11,17 @@ refid: "lov/1975-06-13-39"
 
 *Nåværende annet og tredje punktum blir tredje og nytt fjerde punktum.*
 
+## § 13
+
+### 2026-06-12 — lov/2026-06-12-30
+
+*§ 13 tredje og fjerde ledd skal lyde:*
+
+> Ved begjæring om utlevering til rettsforfølgning skal vedlegges original eller kopi av pågripelsesbeslutning eller annen beslutning som er utferdiget i samsvar med vedkommende stats lovgivning og som forutsetter at det er skjellig grunn til mistanke mot vedkommende for den straffbare handling.
+>
+> Ved begjæring om utlevering til fullbyrding av dom skal den fellende dom vedlegges i original eller kopi.
+>
+
 ## § 15
 
 ### 2019-06-21 — lov/2019-06-21-50
@@ -85,6 +96,17 @@ refid: "lov/1975-06-13-39"
 *Ny § 23 b skal lyde:*
 
 > Påtalemyndigheten kan beslutte å fremme anmodning til utenlandsk myndighet om bistand til bevisopptak. Slik anmodning sendes via Justisdepartementet, hvis ikke annet er bestemt ved overenskomst med fremmed stat.Kongen kan gi nærmere forskrifter om rettsanmodninger etter denne bestemmelsen.
+>
+
+## § 23 c
+
+### 2026-06-12 — lov/2026-06-12-30
+
+*Ny § 23 c skal lyde:*
+
+> § 23 c.En anmodning om rettslig bistand fra Den europeiske påtalemyndighet skal behandles på tilsvarende måte som anmodninger fra stater i Den europeiske union.
+>
+> § 23 c.
 >
 
 ## § 24
@@ -163,4 +185,22 @@ refid: "lov/1975-06-13-39"
 *Ny § 25 a skal lyde:*
 
 > En person som i utlandet er berøvet friheten på grunn av straffbar handling, kan overføres midlertidig til Norge for å avhøres som vitne eller bistå ved andre etterforskningsskritt. Det samme gjelder ved fornyet prøving av dom.Begjæring om overføring etter nr. 1 fremsettes av påtalemyndigheten og sendes via departementet med mindre annet er fastsatt ved overenskomst med fremmed stat.Personen som overføres skal holdes i fengslig forvaring, med mindre vedkommende utenlandske myndighet anmoder om at fengslingen skal opphøre. Det er et vilkår for fengsling at det godtgjøres å foreligge beslutning om bruk av fengslig forvaring i samsvar med vedkommende stats lovgivning. Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 13 tredje ledd første og annet punktum gjelder tilsvarende.Personen som er overført skal under oppholdet her i riket ikke bli satt under rettsforfølgning, straffet eller utlevert for handling han har begått før overføringen. Vedkommende skal tilbakeføres til den fremmede stat så snart som mulig eller innen en nærmere fastsatt frist.
+>
+
+## § 3
+
+### 2026-06-12 — lov/2026-06-12-30
+
+*§ 3 tredje ledd skal lyde:*
+
+> Utlevering til rettsforfølgning eller fullbyrding av dom for flere handlinger kan finne sted selv om vilkårene i første ledd bare er oppfylt for en av handlingene, forutsatt at de øvrige handlingene er straffbare etter norsk og vedkommende fremmede stats lov.
+>
+
+## § 9
+
+### 2026-06-12 — lov/2026-06-12-30
+
+*§ 9 tredje punktum skal lyde:*
+
+> Første punktum gjelder ikke ved utlevering til en stat som deltar i Schengen-samarbeidet, med mindre forholdet er begått helt eller delvis i Norge, under dette på Svalbard, Jan Mayen og i de norske bilandene, eller i andre områder underlagt norsk jurisdiksjon.
 >

@@ -610,6 +610,69 @@ refid: "lov/2008-05-15-35"
 > Bestemmelsene om kassasjon og retting gitt i og i medhold av arkivlova § 6 bokstav b og § 13 er ikke til hinder for sletting etter tredje ledd.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*Gjeldende første ledd bokstav c til i blir bokstav d til ny j.*
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Overskriften i kapittel 11 A skal lyde:*
+
+> Kapittel 11 A. Representant for enslige mindreårige mv.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Nåværende § 98 a tredje ledd blir fjerde ledd.*
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Nåværende § 98 g første ledd bokstav e blir ny bokstav f.*
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Følgende steder endres ordene «biometrisk personinformasjon» til «biometriske opplysninger»:*
+
+> § 17 første ledd bokstav n, § 100 overskriften, første, femte og syvende ledd, § 100 a overskriften, første, andre og tredje ledd, § 100 b overskriften, første ledd og tredje ledd, § 102 c første ledd, 102 f bokstav b og § 109 fjerde ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Følgende steder endres ordene «slik biometrisk personinformasjon» og «registrert biometrisk personinformasjon» til henholdsvis «slike biometriske opplysninger» og «registrerte biometriske opplysninger»:*
+
+> § 100 a første og fjerde ledd og § 100 b første og tredje ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Følgende steder endres «den biometriske informasjonen» til «de biometriske opplysningene»:*
+
+> § 100 a fjerde ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Følgende steder endres ordet «fotografi» til «bilde»:*
+
+> § 93 tredje ledd og § 102 b bokstav b.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Følgende steder endres ordet «ansiktsfoto» til «ansiktsbilde»:*
+
+> § 100 overskriften, første, andre og sjette ledd, § 100 a første, andre og femte ledd, § 100 b første og andre ledd, § 102 c første ledd og § 109 fjerde ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-32
+
+*I kapittel 12 skal ny § 108 a lyde:*
+
+> § 108 a.Straff for utilbørlig utnyttelse av utlendingerMed bot eller fengsel inntil 3 år straffes den som forsettlig eller grovt uaktsomt bruker arbeidskraften til, stiller et bosted til rådighet for, eller formidler et arbeid eller et bosted til en utlending, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon, og utlendingenhar midlertidig oppholdstillatelse og er avhengig av arbeidet eller bostedet for oppholdstillatelsen,er asylsøker,ikke har oppholdstillatelse eller nødvendig tillatelse til arbeid etter loven, elleromfattes av lovens kapittel 13 og ikke har varig oppholdsrett etter §§ 115 eller 116.På samme måte straffes den som forsettlig eller grovt uaktsomtbruker en utlending til tigging eller tiggelignende virksomhet eller formidler slik virksomhet til en utlending som ikke har oppholdstillatelse, eller som omfattes av lovens kapittel 13 og ikke har varig oppholdsrett etter §§ 115 eller 116, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon, ellerutferdiger eller formidler erklæringer, tilsagn eller dokumenter til bruk for en sak etter loven, når forholdet innebærer utilbørlig utnyttelse av utlendingens sårbare situasjon.Grov overtredelse av første eller annet ledd straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om utnyttelsen har et systematisk eller organisert preg, om den har gitt stor økonomisk fordel og om den har pågått over lang tid. Det skal også legges vekt på om utnyttelsen fremstår som særlig krenkende for den enkelte og om den som har blitt utnyttet, er under 18 år.
+>
+> § 108 a.Straff for utilbørlig utnyttelse av utlendinger
+>
+
 ## § 1
 
 ### 2023-06-02 — lov/2023-06-02-20
@@ -691,6 +754,13 @@ refid: "lov/2008-05-15-35"
 *§ 100 femte ledd nytt annet punktum skal lyde:*
 
 > Biometrisk personinformasjon opptatt i medhold av første ledd kan også brukes til behandling etter forordning (EU) 2017/2226 artikkel 26, 27 og 35, jf. grenseloven § 8 første ledd nr. 2.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 100 femte ledd skal lyde:*
+
+> Biometriske opplysninger opptatt i medhold av første ledd kan gjenbrukes i forbindelse med registrering av returvedtak og innreiseforbud i SIS i medhold av SIS-loven §§ 7 og 8 og forordningene som nevnt i SIS-loven § 1 nr. 2 og nr. 3, samt artikkel 22 i forordningen om politisamarbeid som nevnt i SIS-loven § 1 nr. 1. Biometriske opplysninger opptatt i medhold av første ledd kan også brukes til behandling etter forordning (EU) 2017/2226 artikkel 26, 27 og 35 og forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 2 og 6.
 >
 
 ## § 100 a
@@ -798,6 +868,15 @@ refid: "lov/2008-05-15-35"
 > Forordning (EU) nr. 603/2013 (Eurodac II-forordningen), som endret ved forordning (EU) 2021/1133, jf. artikkel 4 i Norges tilknytningsavtale til Dublin-samarbeidet og artikkel 1 i tilleggsprotokoll om tilgang til Eurodac med henblikk på rettshåndhevelse, gjelder som lov, med unntak av henvisningen til Den europeiske unions pakt om grunnleggende rettigheter i forordningen artikkel 3 nr. 5.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 101 skal lyde:*
+
+> § 101.Systemet EurodacForordning (EU) 2024/1358 (Eurodac-forordningen) gjelder som lov, med unntak av artikkel 8 til 11 og kapittel VII og VIII, og gjelder med de begrensninger som følger av Norges tilknytningsavtale til Dublin-samarbeidet.Kongen kan gi forskrift om behandling av opplysninger i Eurodac, herunder om behandlingsansvar, klageadgang og fremgangsmåte for klagebehandling.Bestemmelsen i § 100 sjette ledd om opptak av fingeravtrykk og ansiktsbilde med tvang gjelder tilsvarende.
+>
+> § 101.Systemet Eurodac
+>
+
 ## § 102
 
 ### 2009-06-19 — lov/2009-06-19-38
@@ -836,6 +915,13 @@ refid: "lov/2008-05-15-35"
 *§ 102 a første ledd bokstav f skal lyde:*
 
 > lette anvendelsen av Dublin III-forordningen, jf. § 32 fjerde ledd, og
+>
+
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 102 a første ledd bokstav f skal lyde:*
+
+> lette anvendelsen av forordning (EU) 2024/1351 om asyl- og migrasjonshåndtering, jf. § 32 fjerde ledd, og
 >
 
 ## § 102 b
@@ -1335,6 +1421,22 @@ refid: "lov/2008-05-15-35"
 > det er truffet vedtak om utvisning og vedtaket er endelig eller det er ikke gitt utsatt iverksettelse i forbindelse med klage, jf. § 90 c.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 106 første ledd bokstav b og c skal lyde:*
+
+> det er konkrete holdepunkter for å anta at utlendingen vil unndra seg iverksettingen av et vedtak som pålegger en utreiseplikt, jf. § 90. Pågripelse og internering kan også skje under behandlingen av en sak som kan føre til vedtak som nevnt i første punktum,
+>
+> det er konkrete holdepunkter for å anta at utlendingen vil unndra seg overføringsprosedyre i henhold til forordning (EU) 2024/1351 om asyl- og migrasjonshåndtering, jf. § 32 fjerde ledd, eller det av hensyn til nasjonal sikkerhet eller offentlig orden er nødvendig for å sikre gjennomføringen av en slik prosedyre. Pågripelse og internering kan også skje i situasjoner som nevnt i første punktum under behandlingen av en sak som kan føre til vedtak som innebærer en slik overføringsprosedyre,
+>
+
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 106 tredje ledd skal lyde:*
+
+> Pågripelse og internering etter første ledd bokstav a kan bare besluttes når det treffes tiltak med sikte på å avklare identitet. Pågripelse og internering etter første ledd bokstav b, c, d og e kan bare besluttes når det treffes tiltak med sikte på utsendelse.
+>
+
 ## § 106 a
 
 ### 2010-12-17 — lov/2010-12-17-88
@@ -1453,6 +1555,15 @@ refid: "lov/2008-05-15-35"
 > Pågripelse og internering etter § 106 første ledd bokstav i kan ikke overstige 24 timer.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 106 b tredje ledd fjerde, femte og sjette punktum og fjerde ledd skal lyde:*
+
+> Pågripelse og internering etter § 106 første ledd bokstav h kan ikke overstige 7 dager. Pågripelse og internering etter § 106 første ledd bokstav i kan ikke overstige 72 timer. Pågripelse og internering etter § 106 første ledd bokstav j kan ikke overstige 24 timer.
+>
+> Når en utlending er internert etter § 106 første ledd bokstav c, gjelder særskilte frister for internering og gjennomføring av prosedyrene i henhold til forordning (EU) 2024/1351 om asyl- og migrasjonshåndtering artikkel 45, jf. § 32 fjerde ledd.
+>
+
 ## § 106 c
 
 ### 2018-04-20 — lov/2018-04-20-9
@@ -1481,6 +1592,13 @@ refid: "lov/2008-05-15-35"
 > En mindreårig utlending som blir pågrepet, skal som hovedregel ikke holdes lenger enn til dagen etter pågripelsen. Vil politiet beholde den mindreårige, må fremstilling skje snarest mulig og senest dagen etter pågripelsen. Ved vurderingen av om det er grunnlag for å holde på den mindreårige, har det også betydning om hensynet til barnets beste taler for å bruke lengre tid på forberedelsen av uttransporteringen.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 106 c første ledd første punktum skal lyde:*
+
+> En mindreårig utlending kan bare pågripes hvis det er særlig påkrevd, og kan bare interneres i medhold av § 106 første ledd bokstav a i ekstraordinære situasjoner hvor tiltaket er helt nødvendig som en siste utvei for å sikre identitetskontroll, eller i medhold av § 106 første ledd bokstav b eller c dersom det er helt avgjørende som en siste utvei for å gjennomføre utsendelsen.
+>
+
 ## § 106 d
 
 ### 2025-04-04 — lov/2025-04-04-7
@@ -1502,6 +1620,17 @@ refid: "lov/2008-05-15-35"
 *§ 106 d første ledd bokstav l skal lyde:*
 
 > utlendingens søknad om oppholdstillatelse er avslått som åpenbart grunnløs, jf. § 90 a første ledd bokstav b.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 106 d første ledd bokstav k og l og ny bokstav m skal lyde:*
+
+> utlendingens søknad om beskyttelse er nektet realitetsbehandlet etter § 32 første ledd bokstav a eller d eller femte ledd,
+>
+> utlendingens søknad om oppholdstillatelse er avslått som åpenbart grunnløs, jf. § 90 a første ledd bokstav b, eller
+>
+> utlendingen ikke har overholdt plikten til å være tilgjengelig for screeningmyndigheten, jf. grenseloven § 24 b.
 >
 
 ## § 107
@@ -1687,6 +1816,10 @@ refid: "lov/2008-05-15-35"
 
 > forsettlig eller uaktsomt reiser inn i Norge i strid med et innreiseforbud etter § 71 annet ledd eller § 124 første ledd. Overtredelsen straffes likevel bare med bot, med mindre vedkommende er utvist på grunn av ilagt straff etter andre bestemmelser enn annet ledd, utreise fra Schengen- og EU-området har funnet sted eller returprosedyrer er anvendt uten at utreise fra Schengen- og EU-området har funnet sted,
 >
+
+### 2026-06-12 — lov/2026-06-12-32
+
+*§ 108 tredje ledd bokstav b oppheves.*
 
 ## § 109
 
@@ -2243,6 +2376,20 @@ refid: "lov/2008-05-15-35"
 > I en krisesituasjon med ekstraordinært høye ankomster av asylsøkere kan Kongen i statsråd beslutte at søknader om beskyttelse, jf. § 28, skal kunne nektes realitetsbehandlet dersom søkeren ankommer direkte fra en nordisk stat.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 32 første ledd bokstav b skal lyde:*
+
+> kan kreves mottatt av et annet land i henhold til forordning (EU) 2024/1351 om asyl- og migrasjonshåndtering, jf. fjerde ledd,
+>
+
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 32 fjerde ledd skal lyde:*
+
+> Forordning (EU) 2024/1351 om asyl- og migrasjonshåndtering del III, V og VII og forordning (EU) 2024/1359 om håndtering av krise- og force majeure-situasjoner innenfor asyl- og migrasjonsområdet artikkel 12 og 13, samt artikkel 1 til 6 i den utstrekning de gjelder for artikkel 12 og 13, gjelder som lov. Kongen kan i forskrift gi regler om definisjoner og gjennomføring av bestemmelsen.
+>
+
 ## § 34
 
 ### 2016-06-17 — lov/2016-06-17-58
@@ -2461,6 +2608,17 @@ refid: "lov/2008-05-15-35"
 *§ 5 andre ledd første punktum skal lyde:*
 
 > Nordiske borgere er unntatt fra kravet om oppholdstillatelse for å ta opphold eller arbeid i riket, jf. § 55.
+>
+
+## § 5 a
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*Ny § 5 a skal lyde:*
+
+> § 5 a.Forholdet mellom utlendingsloven og grenseloven under screening etter forordning (EU) 2024/1356En sak etter loven her kan påbegynnes under screening etter forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6. Kongen kan gi forskrift med nærmere regler om saksgang mv.
+>
+> § 5 a.Forholdet mellom utlendingsloven og grenseloven under screening etter forordning (EU) 2024/1356
 >
 
 ## § 51
@@ -3366,6 +3524,13 @@ refid: "lov/2008-05-15-35"
 > Beslutning etter tredje ledd kan ikke påklages.
 >
 
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 81 nytt sjette ledd skal lyde:*
+
+> Bestemmelsene i tredje til femte ledd gjelder tilsvarende for mindreårige som omfattes av forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6. Screeningmyndigheten treffer beslutninger etter tredje ledd ved gjennomføring av screeningen.
+>
+
 ## § 82
 
 ### 2009-12-18 — lov/2009-12-18-132
@@ -3468,6 +3633,13 @@ refid: "lov/2008-05-15-35"
 *§ 84 a første ledd skal lyde:*
 
 > Utlendingsmyndighetene skal uten hinder av taushetsplikt utlevere opplysninger til politiet når det er nødvendig for politiets oppgaver etter loven her eller grenseloven kapittel 3.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 84 a første ledd skal lyde:*
+
+> Utlendingsmyndighetene skal uten hinder av taushetsplikt utlevere opplysninger til politiet når det er nødvendig for politiets oppgaver etter loven her, grenseloven kapittel 3 eller forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6.
 >
 
 ## § 84 b
@@ -3611,6 +3783,23 @@ refid: "lov/2008-05-15-35"
 > Europaparlaments- og rådsforordning (EU) 2018/1240 om etableringen av fremreisesystemet (ETIAS-forordningen) gjelder som lov.
 >
 > Kongen kan gi forskrift om gjennomføringen av forordningen, blant annet om saksbehandlingen for søknader om fremreisetillatelse og hvem som er klageinstans.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 9 a første ledd skal lyde:*
+
+> Forordning (EU) 2018/1240 om etableringen av fremreisesystemet (ETIAS-forordningen) gjelder som lov. Forordningen gjelder med de endringene som følger avforordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356forordning (EU) 2024/1358
+>
+> forordning (EU) 2019/817
+>
+> forordning (EU) 2021/1134
+>
+> forordning (EU) 2021/1152
+>
+> forordning (EU) 2024/1356
+>
+> forordning (EU) 2024/1358
 >
 
 ## § 90
@@ -3853,6 +4042,13 @@ refid: "lov/2008-05-15-35"
 > Bestemmelsen gjelder ikke for utlendinger som overføres fra Norge til et annet land i henhold til Dublin III-forordningen, jf. § 32 fjerde ledd.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 91 niende ledd skal lyde:*
+
+> Bestemmelsen gjelder ikke for utlendinger som overføres fra Norge til et annet land i henhold til forordning (EU) 2024/1351 om asyl- og migrasjonshåndtering, jf. § 32 fjerde ledd.
+>
+
 ## § 92
 
 ### 2009-06-19 — lov/2009-06-19-38
@@ -3993,6 +4189,13 @@ refid: "lov/2008-05-15-35"
 > En søknad om beskyttelse etter § 28 skal fremsettes for politiet uten ugrunnet opphold. Nasjonale ID-kort, pass eller annet reisedokument utlendingen er i besittelse av, skal innleveres sammen med søknaden eller så snart de kommer i utlendingens besittelse. Innleverte dokumenter kan beholdes til det er fattet endelig vedtak i saken om oppholdstillatelse eller utlendingen forlater riket.
 >
 
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 93 tredje ledd første punktum skal lyde:*
+
+> Den som registrerer søknaden, tar bilde og fingeravtrykk av utlendingen, jf. § 100 første ledd bokstav b og § 101.
+>
+
 ## § 94
 
 ### 2009-06-19 — lov/2009-06-19-38
@@ -4073,6 +4276,42 @@ refid: "lov/2008-05-15-35"
 *§ 98 annet ledd første punktum skal lyde:*
 
 > I den utstrekning Norge er forpliktet til det som deltaker i Schengensamarbeidet, jf. § 9 annet ledd, og Dublin-samarbeidet, jf. § 32 fjerde ledd, kan utlendingsmyndighetene uten hinder av taushetsplikt oversende opplysninger om enkeltpersoner til myndighetene i land som deltar i samarbeidet, som ledd i eller til bruk ved behandlingen av saker om grensekontroll, visum, bortvisning, utvisning, beskyttelse etter reglene i kapittel 4, vern mot utsendelse etter kapittel 9, oppholdstillatelse eller til rettshåndhevelsesformål etter Eurodac II-forordningen artikkel 1 nr. 2, jf. § 101 første ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-29
+
+*§ 98 annet ledd første punktum skal lyde:*
+
+> I den utstrekning Norge er forpliktet til det i henhold til avtale 18. mai 1999 mellom Rådet for Den europeiske union og Island og Norge om de sistnevnte statenes tilknytning til gjennomføringen, anvendelsen og videreutviklingen av Schengen-regelverket (Schengen-avtalen), og avtale av 19. januar 2001 mellom Norge, Island og EU om kriterier og mekanismer for å avgjøre hvilken stat som er ansvarlig for behandlingen av en asylsøknad som fremlegges i Norge, Island eller en medlemsstat (Dublin-avtalen), kan utlendingsmyndighetene uten hinder av taushetsplikt oversende opplysninger om enkeltpersoner til myndighetene i land som deltar i samarbeidet i henhold til avtalene, som ledd i eller til bruk ved behandlingen av saker om grensekontroll, visum, bortvisning, utvisning, beskyttelse etter reglene i kapittel 4, vern mot utsendelse etter kapittel 9, oppholdstillatelse eller til rettshåndhevelsesformål etter forordning (EU) 2024/1358 artikkel 1 nr. 1 bokstav e, jf. § 101 første ledd.
+>
+
+## § 98 a
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 98 a nytt tredje ledd skal lyde:*
+
+> Bestemmelsene i dette kapittelet gjelder tilsvarende for enslige mindreårige som gjennomgår screening etter forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6.
+>
+
+## § 98 d
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 98 d første ledd skal lyde:*
+
+> Representanten skal ivareta den mindreåriges interesser i asylsaken og ellers utføre de oppgaver som tilkommer en verge i henhold til annen lovgivning. Under screening skal representanten ivareta den mindreåriges interesser i henhold til reglene i forordning (EU) 2024/1356 artikkel 13 nr. 3 og 4, jf. grenseloven § 8 første ledd nr. 6.
+>
+
+## § 98 g
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 98 g første ledd bokstav d og bokstav e skal lyde:*
+
+> den mindreåriges foreldre eller andre med foreldreansvar kommer til Norge, eller på annen måte blir i stand til å utøve foreldreansvaret,
+>
+> screening av den mindreårige etter forordning (EU) 2024/1356, jf. grenseloven § 8 første ledd nr. 6, er avsluttet, eller
 >
 
 ## § 99

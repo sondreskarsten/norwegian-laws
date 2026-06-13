@@ -180,6 +180,33 @@ refid: "lov/2005-05-20-28"
 > Tilsvarende gjelder der det er fattet vedtak om omsorgsovertakelse, flytteforbud, utreiseforbud eller institusjonsplassering etter barnevernsloven §§ 5-1, 4-3, 5-13, 6-2 eller 6-6 eller der en begjæring om slike tiltak er sendt barneverns- og helsenemnda etter barnevernsloven § 14-9, eller der det i en akuttsituasjon er iverksatt midlertidig vedtak etter barnevernsloven §§ 4-2, 4-4 og 4-5 eller er fattet akuttvedtak etter barnevernsloven § 4-6.
 >
 
+### 2026-06-12 — lov/2026-06-12-28
+
+*Nåværende annet til femte ledd blir første til fjerde ledd.*
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*Tredje ledd skal lyde:*
+
+> Utvidet inndragning kan foretas uten at det påvises hvilken straffbar handling utbyttet stammer fra. Ett, flere eller samtlige av lovbryterens formuesgoder kan inndras hvis lovbryteren ikke sannsynliggjør at formuesgodene er ervervet på lovlig måte. I stedet for inndragning av formuesgodet kan hele eller deler av verdien av formuesgodet inndras. Ved slik verdiinndragning kan det bestemmes at formuesgodet hefter til sikkerhet for inndragningsbeløpet.
+>
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*Nåværende annet ledd blir nytt tredje ledd og skal lyde:*
+
+> Ilagt inndragning av utbytte kan fullbyrdes etter den ansvarliges død, dersom det blir besluttet ved kjennelse av den retten som har pådømt saken i første instans, eller av den tingrett som saken hører under etter straffeprosessloven § 12 når inndragningen er vedtatt ved forelegg. Retten kan beslutte inndragning av et beløp istedenfor en ting.
+>
+
+## § 100
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*§ 100 annet ledd skal lyde:*
+
+> Sak om inndragning av utbytte, herunder inndragning etter § 68 og § 72 annet ledd, kan fremmes selv om den ansvarlige er død. For øvrig faller inndragningsansvar bort ved den ansvarliges død.
+>
+
 ## § 101 i
 
 ### 2008-03-07 — lov/2008-03-07-4
@@ -2940,6 +2967,21 @@ refid: "lov/2005-05-20-28"
 > Ved utvidet inndragning overfor lovbryteren kan også verdien av alle formuesgoder som tilhører lovbryterens nåværende eller tidligere ektefelle, inndras hvis ikkede er ervervet før ekteskapet ble inngått eller etter at ekteskapet ble oppløst,de er ervervet minst 5 år før den straffbare handlingen som gir grunnlag for utvidet inndragning, ellerlovbryteren sannsynliggjør at formuesgodene er ervervet på annen måte enn ved straffbare handlinger som lovbryteren selv har begått.Når to personer bor fast sammen under ekteskapsliknende forhold, likestilles det med ekteskap.
 >
 
+### 2026-06-12 — lov/2026-06-12-28
+
+*§ 68 første ledd oppheves.*
+
+## § 68 a
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*Ny § 68 a skal lyde:*
+
+> § 68 a.Selvstendig inndragningFormuesgode som mest sannsynlig stammer fra lovbrudd, kan inndras uten at det er påvist et bestemt lovbrudd (selvstendig inndragning). Selvstendig inndragning skal ikke foretas i den utstrekning det vil være uforholdsmessig ut fra konsekvensene for eieren av formuesgodet og eventuelle andre berørte og omstendighetene for øvrig.Hvis inndragning av formuesgodet vil være uforholdsmessig eller andre særlige grunner taler for det, kan i stedet hele eller deler av formuesgodets verdi inndras. Ved slik verdiinndragning kan det bestemmes at formuesgodet hefter til sikkerhet for inndragningsbeløpet.Selvstendig inndragning kan foretas av formuesgode som befinner seg i Norge. Inndragning kan også foretas av formuesgode som befinner seg utenfor Norge, dersom saken har tilstrekkelig tilknytning til Norge.Reglene i denne paragrafen kommer til anvendelse uavhengig av når formuesgodet er ervervet.
+>
+> § 68 a.Selvstendig inndragning
+>
+
 ## § 72
 
 ### 2022-04-08 — lov/2022-04-08-22
@@ -2954,6 +2996,26 @@ refid: "lov/2005-05-20-28"
 *§ 72 tredje ledd skal lyde:*
 
 > Er det ved inndragning overfor lovbryteren regnet med formue som tilhører noen som nevnt i § 68 femte ledd, og som innfrir sitt ansvar etter paragrafen her, reduseres lovbryterens ansvar tilsvarende. Har lovbryteren innfridd sitt ansvar etter § 68 fjerde ledd, fører ytterligere innfrielse fra lovbryteren til at mottakerens ansvar reduseres tilsvarende.
+>
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*§ 72 første ledd skal lyde:*
+
+> Er utbytte, jf. § 67, eller ting som nevnt i § 69, etter handlingstidspunktet overdratt fra noen som det kan foretas inndragning overfor, kan det overdratte eller verdien av det inndras overfor mottakeren dersom overdragelsen har skjedd som gave eller mottakeren mest sannsynlig forsto eller burde ha forstått sammenhengen mellom det overdratte og en straffbar handling.
+>
+
+## § 73
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*§ 73 første ledd bokstav b, c og ny bokstav d skal lyde:*
+
+> som lovbryteren har handlet på vegne av,
+>
+> som da rettigheten ble rettsgyldig sikret på annen måte enn ved utleggspant, arrest eller legalpant, forsto eller burde ha forstått at tingen skulle brukes ved en straffbar handling, eller
+>
+> som da rettigheten ble rettsgyldig sikret på annen måte enn ved utleggspant, arrest eller legalpant, mest sannsynlig forsto eller burde ha forstått at tingen kunne inndras.
 >
 
 ## § 74
@@ -3172,6 +3234,15 @@ refid: "lov/2005-05-20-28"
 *§ 91 første ledd skal lyde:*
 
 > Straffansvaret for folkemord, forbrytelser mot menneskeheten, krigsforbrytelser og terrorhandlinger foreldes ikke dersom handlingene kan straffes med fengsel i 15 år eller mer. Straffansvaret for fullbyrdede overtredelser av §§ 275, 291 andre ledd, 293, 299 og 302 foreldes ikke. Straffansvaret for overtredelser av §§ 175, 175 b og 355 a foreldes heller ikke såfremt en dødsfølge inngår i vurderingen av om lovbruddet er grovt.
+>
+
+## § 92
+
+### 2026-06-12 — lov/2026-06-12-28
+
+*§ 92 nytt tredje punktum skal lyde:*
+
+> For selvstendig inndragning etter § 68 a gjelder det ingen foreldelsesfrist.
 >
 
 ## § 93

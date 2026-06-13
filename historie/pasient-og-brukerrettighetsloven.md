@@ -1676,6 +1676,15 @@ refid: "lov/1999-07-02-63"
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 2-5 d lyde:*
+
+> § 2-5 d.Midlertidige unntak fra rettigheterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-2 a andre ledd tredje punktum om fastsettelse av tidsfrist for når pasienten senest skal få nødvendig helsehjelp§ 2-2 a tredje ledd bokstav a om informasjon om rett til nødvendig helsehjelp§ 2-2 a tredje ledd bokstav b om informasjon om tidspunkt for oppstart av helsehjelpen§ 2-2 b første ledd første punktum om rett til nødvendig helsehjelp uten opphold ved brudd på tidsfrist fastsatt etter § 2-2 a andre ledd tredje punktum§ 2-2 b første ledd andre punktum om plikt til å kontakte Helfo§ 2-3 om rett til fornyet vurdering§ 2-4 om rett til valg av behandlingssted§ 2-5 om rett til individuell plan§ 2-5 a om rett til kontaktlege§ 2-5 b om rett til koordinator§ 2-5 c om rett til barnekoordinator.
+>
+> § 2-5 d.Midlertidige unntak fra rettigheter
+>
+
 ## § 4A-2
 
 ### 2025-04-25 — lov/2025-04-25-13

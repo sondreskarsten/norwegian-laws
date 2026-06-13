@@ -57,6 +57,10 @@ refid: "lov/1953-06-26-11"
 
 *Noverande tredje og fjerde punktum blir andre og tredje punktum.*
 
+### 2026-06-12 — lov/2026-06-12-24
+
+*Nåværende første ledd fjerde punktum blir tredje ledd nytt tredje punktum.*
+
 ## § 1
 
 ### 2006-12-22 — lov/2006-12-22-98
@@ -195,6 +199,20 @@ refid: "lov/1953-06-26-11"
 ### 2024-12-20 — lov/2024-12-20-81
 
 *§ 12 første ledd femte punktum blir oppheva.*
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 12 første ledd tredje punktum skal lyde:*
+
+> Mottar pensjonisten uføretrygd fra folketrygden, tillegges inntektsgrensen et fribeløp etter bestemmelsene i folketrygdloven § 12-14 første ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 12 tredje ledd første punktum skal lyde:*
+
+> Som inntekt etter første og andre ledd regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet.
+>
 
 ## § 14
 

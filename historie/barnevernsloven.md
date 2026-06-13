@@ -92,6 +92,15 @@ refid: "lov/2021-06-18-97"
 > § 2-7.Midlertidig adgang til unntak fra frister
 >
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 2-7 skal lyde:*
+
+> § 2-7.Midlertidig adgang til unntak fra fristerNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig for at barnevernstjenesten skal kunne gjennomføre sine oppgaver på en formålstjenlig og forsvarlig måte, kan departementet gi midlertidig forskrift om unntak fra fristene i § 2-1 første ledd og § 2-2 annet ledd.
+>
+> § 2-7.Midlertidig adgang til unntak fra frister
+>
+
 ## § 3-1
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -152,6 +161,19 @@ refid: "lov/2021-06-18-97"
 > det er inngått en avtale med kompetente ukrainske myndigheter
 >
 > vilkår etter artikkel 33 i konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn er oppfylt.
+>
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 3-3 tredje ledd skal lyde:*
+
+> Når det som følge av krigen i Ukraina er nødvendig å evakuere barn som er under omsorg av ukrainske myndigheter, kan barnevernstjenesten samtykke til at barn gis opphold i et fosterhjem eller en institusjon i Norge etter en anmodning fra ukrainske myndigheter, dersomtiltaket er forsvarlig og til barnets bestedet er inngått en avtale med kompetente ukrainske myndighetervilkår etter artikkel 33 i konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn, er oppfylt.Barnevernstjenesten skal sørge for at barnet registreres med søknad om beskyttelse eller søknad om opphold hos utlendingsmyndighetene. Dersom barnet har vanlig bosted i Norge når den ekstraordinære situasjonen opphører, skal barnevernstjenesten vurdere om vilkårene for å anmode om en overføring av jurisdiksjon til barnets tidligere bostedsstat er oppfylt.
+>
+> tiltaket er forsvarlig og til barnets beste
+>
+> det er inngått en avtale med kompetente ukrainske myndigheter
+>
+> vilkår etter artikkel 33 i konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn, er oppfylt.
 >
 
 ## § 3-4
@@ -606,6 +628,17 @@ refid: "lov/2021-06-18-97"
 > Barne-, ungdoms- og familieetaten har ansvaret for godkjenning, opplæring og oppfølging av det familiebaserte botilbudet og for oppfølgingen av barnet. Ansvaret for oppfølging tilsvarer oppfølgingsplikten etter § 9-6 med forskrift og plikten til å fatte oppfølgingsvedtak etter § 11-3. Barne-, ungdoms- og familieetaten er også ansvarlig for utgifter forbundet med det familiebaserte botilbudet.
 >
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 11-1 fjerde til sjette ledd skal lyde:*
+
+> Bestemmelsen gjelder også barn under 15 år som har flyktningstatus eller er innvilget midlertidig kollektiv beskyttelse.
+>
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig av kapasitetshensyn og for å ivareta det enkelte barnets behov, kan tilbudet etter første ledd også være opphold i et familiebasert botilbud. Slike botilbud skal fylle kravene som stilles til fosterforeldre etter § 9-3 med forskrift. Når barnet har opphold i et familiebasert botilbud, har Barne-, ungdoms- og familieetaten omsorgsansvaret for barnet og ansvaret for kartleggingen etter § 11-4. Botilbudet utøver omsorgsansvaret på vegne av Barne-, ungdoms- og familieetaten.
+>
+> Barne-, ungdoms- og familieetaten har ansvaret for godkjenning, opplæring og oppfølging av det familiebaserte botilbudet og for oppfølgingen av barnet. Ansvaret for oppfølging tilsvarer oppfølgingsplikten etter § 9-6 med forskrift og plikten til å fatte oppfølgingsvedtak etter § 11-3. Barne-, ungdoms- og familieetaten er også ansvarlig for utgifter forbundet med det familiebaserte botilbudet.
+>
+
 ## § 11-3
 
 ### 2022-06-10 — lov/2022-06-10-35
@@ -616,6 +649,13 @@ refid: "lov/2021-06-18-97"
 >
 
 ### 2024-06-25 — lov/2024-06-25-53
+
+*§ 11-3 tredje ledd skal lyde:*
+
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig for at Barne-, ungdoms- og familieetaten eller omsorgssenteret skal kunne gjennomføre og prioritere sine oppgaver på en formålstjenlig og forsvarlig måte, kan fristene etter første ledd forlenges. Fristen for omsorgssenteret til å sende forslag til oppfølgingsvedtak kan utvides til fem uker etter barnets ankomst til senteret. Fristen for Barne-, ungdoms- og familieetaten til å treffe vedtak kan utvides til ti uker etter barnets ankomst til senteret. Barne-, ungdoms- og familieetaten skal orientere statsforvalteren dersom unntaksadgangen tas i bruk. Beslutningen skal begrunnes og dokumenteres.
+>
+
+### 2026-06-12 — lov/2026-06-12-22
 
 *§ 11-3 tredje ledd skal lyde:*
 
@@ -732,6 +772,13 @@ refid: "lov/2021-06-18-97"
 *§ 12-11 åttende ledd skal lyde:*
 
 > Personer med anmerkning knyttet til lov 22. mai 1902 nr. 10 Almindelig borgerlig straffelov §§ 162, 192, 193, 194, 195, 196, 197, 199, 200 annet ledd, 201 første ledd bokstav c, 201 a, 203, 204 a, 219, 224, 229 annet og tredje straffalternativ, 231, 233 og 268 jf. 267 eller straffeloven 231, 232, 257, 258, 274, 275, 282, 283, 291, 293, 294, 295, 296, 299, 301, 302, 303, 304, 305, 306, 309, 310, 311, 312, 314, 327 eller 328 skal ikke få utføre oppgaver overfor mindreårige. Personer med anmerkning knyttet til andre straffebud eller anmerkninger knyttet til straffebud etter første punktum, men som ikke ville fremgått av politiattest etter politiregisterloven § 39 første ledd, skal ikke godkjennes som fosterforeldre eller ta imot barn i avlastningshjem dersom anmerkningen kan skape tvil om hvorvidt de egner seg for oppgaven.
+>
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 12-11 sjette ledd fjerde punktum skal lyde:*
+
+> Plikten til å legge fram politiattest i samsvar med første punktum gjelder også den eller de som skal ta imot enslige mindreårige i et familiebasert botilbud som nevnt i § 11-1 femte ledd.
 >
 
 ## § 13-1
@@ -1159,6 +1206,13 @@ refid: "lov/2021-06-18-97"
 *§ 17-3 andre ledd første punktum skal lyde:*
 
 > Statsforvalteren skal føre tilsyn med at barnevernsinstitusjoner, kommunale botiltak med døgnbemanning, sentre for foreldre og barn og omsorgssentre for enslige mindreårige asylsøkere drives i samsvar med denne loven og forskrifter til loven.
+>
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 17-3 andre ledd andre punktum skal lyde:*
+
+> Tilsynsansvaret gjelder også familiebaserte botilbud etter § 11-1 femte ledd.
 >
 
 ## § 17-4

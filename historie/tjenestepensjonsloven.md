@@ -250,3 +250,10 @@ refid: "lov/2013-12-13-106"
 ### 2021-12-22 — lov/2021-12-22-164
 
 *Nåværende §§ 3-6 til 3-8 blir nye §§ 3-5 til 3-7.*
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*I lov 13. desember 2013 nr. 106 om tjenestepensjon skal § 8-9 første ledd andre punktum lyde:*
+
+> Mottar medlemmet uføretrygd fra folketrygden, tillegges inntekt etter uførhet, som fastsatt etter § 8-3 tredje ledd, et tillegg tilsvarende fribeløpet etter folketrygdloven § 12-14 første ledd.
+>

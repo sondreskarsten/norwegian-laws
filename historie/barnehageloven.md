@@ -518,6 +518,15 @@ refid: "lov/2005-06-17-64"
 > § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevne
 >
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 14 b skal lyde:*
+
+> § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevneDepartementet kan gi forskrift om midlertidig godkjenning ved etablering av barnehager og barnehageplasser som opprettes for å dekke et midlertidig behov som følge av at det kommer svært mange fordrevne barn under opplæringspliktig alder fra Ukraina.Departementet kan gi forskrift om unntak fra kravene til organisering i § 7 a for ordinære barnehager som har fått midlertidig godkjenning etter forskrift med hjemmel i første ledd.
+>
+> § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevne
+>
+
 ## § 15
 
 ### 2025-06-20 — lov/2025-06-20-100
@@ -729,6 +738,13 @@ refid: "lov/2005-06-17-64"
 > § 19.Kommunalt tilskudd til private barnehagerPrivate barnehager med etableringsgodkjenning etter § 14 har rett til tilskudd. Kommunen skal gi tilskudd til private barnehager som har rett til tilskudd etter første punktum, og som har driftsgodkjenning etter § 14 a.Kommunen skal gi tilskudd til private barnehager som hadde rett til tilskudd da § 14 om etableringsgodkjenning trådte i kraft. Retten til tilskudd etter første punktum faller bort dersom barnehagedriften ikke er startet opp innen 1. juni 2031 eller barnehagedriften legges ned.Regler om tilskudd til private barnehager skal særlig legge til rette for likebehandling av private og kommunale barnehagetilbud, forutsigbarhet for private barnehager, en mangfoldig barnehagestruktur og effektiv ressursbruk.
 >
 > § 19.Kommunalt tilskudd til private barnehager
+>
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 19 fjerde ledd skal lyde:*
+
+> Departementet kan gi forskrift om midlertidig tilskudd til drift av barnehager og barnehageplasser som er godkjent med hjemmel i forskrift etter § 14 b.
 >
 
 ## § 19 a

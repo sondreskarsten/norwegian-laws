@@ -620,3 +620,12 @@ refid: "lov/2011-06-24-30"
 >
 > Innsatte i sikkerhetsseng skal ha tilsyn av helsepersonell snarest mulig etter at tiltaket er iverksatt, og videre minst én gang per døgn.
 >
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 7-2 b lyde:*
+
+> § 7-2 b.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
+>
+> § 7-2 b.Midlertidige unntak fra plikter
+>

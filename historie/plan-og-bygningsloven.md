@@ -1380,6 +1380,15 @@ refid: "lov/2008-06-27-71"
 > § 20-9.Midlertidige unntak fra loven
 >
 
+### 2026-06-12 — lov/2026-06-12-22
+
+*§ 20-9 skal lyde:*
+
+> § 20-9.Midlertidige unntak fra lovenNår det er nødvendig som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina, kan kommunen etter skriftlig anmodning fra en offentlig myndighet eller fra private tilbydere innen barnehage, skole eller bolig, gjøre unntak fra søknadsplikten. Plan- og bygningsloven § 1-6 andre ledd gjelder ikke. Unntak kan gjøres for oppføring av ny, varig bygning, tidsbestemt bruksendring og plassering av midlertidige bygninger som skal brukes tilinnkvartering av asylsøkere og andre Utlendingsdirektoratet gir botilbud tilomsorgssentre for enslige mindreårige asylsøkere under 15 årbarnehage eller skolebolig.Unntak etter første ledd kan ikke gjøres hvis det oppstår fare for liv og helse for brukerne, fare for skade på miljø eller kulturminner, tap av naturmangfold eller dyrket eller dyrkbar jord, eller gjennomføringen av en arealplan vanskeliggjøres. Bygninger som skal brukes til bolig, kan bare oppføres til varig bruk når området er avsatt til bebyggelse og anlegg i en arealplan og det ikke finnes andre alternativer som medfører mindre ulemper. Når behovet etter første ledd bortfaller, kan boligen brukes til annet varig boligformål.Ved tidsbestemt bruksendring eller plassering av midlertidige bygninger skal det fremgå av vedtaket hvor lenge unntaket gjelder. Unntaket kan gjelde for inntil to år.Departementet kan gi midlertidig forskrift om krav til innhold i og behandling av anmodninger om unntak, nabovarsling, tiltakshavers ansvar, tekniske krav til tiltaket, ansvar og ferdigstillelse.
+>
+> § 20-9.Midlertidige unntak fra loven
+>
+
 ## § 20-10
 
 ### 2022-06-10 — lov/2022-06-10-35
@@ -1398,6 +1407,15 @@ refid: "lov/2008-06-27-71"
 >
 
 ### 2024-06-25 — lov/2024-06-25-53
+
+*§ 20-10 skal lyde:*
+
+> § 20-10.Saksbehandling etter § 20-9Ved tidsbestemt bruksendring eller plassering av midlertidige bygninger skal kommunen fatte vedtak innen syv virkedager. Gjelder tiltaket oppføring av bolig til varig bruk, er fristen 14 virkedager. Fristen løper fra den skriftlige anmodningen er mottatt og kan ikke forlenges. Fattes det ikke vedtak innen fristene, kan tiltaket likevel settes i gang på tiltakshavers egen risiko. Dersom det ut fra formålet med anmodningen om unntak er et sterkt behov for rask avgjørelse i saken, skal kommunen fatte vedtak så raskt som mulig etter at anmodningen er mottatt.Ved oppføring av bolig til varig bruk som berører ansvarsområdet til statlige eller regionale myndigheter, skal anmodning om unntak forelegges disse. Fristen løper i den tiden saken er til uttalelse. Statlige og regionale myndigheter skal uttale seg eller fatte vedtak innen fem virkedager fra de mottar saken. Fristen kan ikke forlenges. Kommunen kan behandle og avgjøre saken etter loven her dersom fristen ikke overholdes.Ved avslag på anmodning om unntak skal kommunen samtidig orientere om andre alternative eiendommer eller egnede bygninger som kan tas i bruk, som kommunen kjenner til.Kommunens vedtak etter første ledd kan påklages av en part eller andre med rettslig klageinteresse i saken. Klagefristen er syv virkedager fra kommunen har fattet vedtak. En klagesak skal forberedes av kommunen og sendes klageinstansen innen syv virkedager etter at klagen er mottatt. Dersom kommunen ikke overholder fristen, kan klagen tas under behandling av klageinstansen. Klageinstansen skal avgjøre saken innen syv virkedager. Fristene kan ikke forlenges.
+>
+> § 20-10.Saksbehandling etter § 20-9
+>
+
+### 2026-06-12 — lov/2026-06-12-22
 
 *§ 20-10 skal lyde:*
 

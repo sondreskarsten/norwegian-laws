@@ -378,6 +378,10 @@ refid: "lov/1949-07-28-26"
 
 *Noverande sjette ledd blir nytt sjuande ledd.*
 
+### 2026-06-12 — lov/2026-06-12-24
+
+*Nåværende første ledd fjerde punktum blir tredje ledd nytt tredje punktum.*
+
 ## § 1
 
 ### 2020-12-04 — lov/2020-12-04-132
@@ -1011,6 +1015,20 @@ refid: "lov/1949-07-28-26"
 ### 2024-12-20 — lov/2024-12-20-81
 
 *§ 29 første ledd femte punktum blir oppheva.*
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 29 første ledd tredje punktum skal lyde:*
+
+> Mottar pensjonisten uføretrygd fra folketrygden, tillegges inntektsgrensen et fribeløp etter bestemmelsene i folketrygdloven § 12-14 første ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 29 tredje ledd første punktum skal lyde:*
+
+> Som inntekt etter første og andre ledd regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet.
+>
 
 ## § 31
 

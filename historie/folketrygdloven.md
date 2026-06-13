@@ -4411,6 +4411,13 @@ refid: "lov/1997-02-28-19"
 > Det ytes ikke stønad etter denne paragrafen til en person som mottar uførepensjon eller avtalefestet pensjon som det godskrives pensjonspoeng for, se § 3-19 sjette ledd.
 >
 
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 10-5 fjerde ledd skal lyde:*
+
+> Det ytes ikke stønad etter denne paragrafen til en person som mottar avtalefestet pensjon som det godskrives pensjonspoeng for, se § 3-19. Til en person som mottar uføretrygd og har en uføregrad på 100 prosent, kan det bare ytes stønad etter denne paragrafen dersom det er sannsynlig at stønaden vil føre til at personens pensjonsgivende inntekt vil overstige 40 prosent av grunnbeløpet per kalenderår.
+>
+
 ## § 10-6
 
 ### 2003-12-19 — lov/2003-12-19-135
@@ -5677,6 +5684,20 @@ refid: "lov/1997-02-28-19"
 > Uføretrygd skal reduseres med en andel av inntekt som overstiger bunnfradraget. Andelen (reduksjonsprosenten) skal svare til mottakerens uføretrygd ved 100 prosent uføregrad delt på mottakerens inntekt før uførhet (se § 12-9 første og andre ledd). Reduksjonsprosenten skal likevel ikke overstige 70 prosent. Som inntekt regnes pensjonsgivende inntekt og inntekt av samme art fra utlandet.
 >
 
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 12-14 første ledd skal lyde:*
+
+> Når uføregraden fastsettes etter § 12-10, skal det fastsettes et bunnfradrag per kalenderår, som skal svare til inntekt etter uførhet (se § 12-9 tredje ledd) tillagt et fribeløp. Fribeløpet utgjør 40 prosent av grunnbeløpet dersom det er mindre enn 24 måneder siden virkningstidspunktet for uføretrygd eller virkningstidspunktet for økning av uføregraden. Deretter utgjør fribeløpet 100 prosent av grunnbeløpet.
+>
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 12-14 sjette ledd skal lyde:*
+
+> Departementet kan i forskrift gi nærmere regler om beregning av bunnfradraget, om reduksjon av uføretrygd på grunn av inntekt og om etteroppgjør.
+>
+
 ## § 12-15
 
 ### 2011-12-16 — lov/2011-12-16-59
@@ -6741,6 +6762,17 @@ refid: "lov/1997-02-28-19"
 > de seks ukene (30 stønadsdagene) som er forbeholdt faren (fedrekvote), se § 14-10.
 >
 
+## § 15-1
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-1 skal lyde:*
+
+> § 15-1.FormålFormålet med stønad etter dette kapitlet er å sikre inntekt for medlemmer som på grunn av aleneomsorg for små eller særlig tilsynskrevende barn i en midlertidig periode er ute av stand til å forsørge seg selv ved eget arbeid.
+>
+> § 15-1.Formål
+>
+
 ## § 15-1 a
 
 ### 2023-12-08 — lov/2023-12-08-87
@@ -6831,6 +6863,15 @@ refid: "lov/1997-02-28-19"
 > Et medlem som uten rimelig grunn har sagt opp et arbeidsforhold de siste seks månedene før søknadstidspunktet, får ikke overgangsstønad.
 >
 
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-5 skal lyde:*
+
+> § 15-5.OvergangsstønadOvergangsstønad ytes til en enslig mor eller far som på grunn av omsorg for barn er midlertidig ute av stand til å forsørge seg selv ved eget arbeid.Overgangsstønad kan gis fra det tidspunktet den enslige moren eller faren får aleneomsorgen, og fram til utløpet av den måneden barnet fyller 14 måneder. I forbindelse med fødsel kan det i tillegg ytes stønad i inntil to måneder før fødselen.I direkte tilknytning til en løpende stønadsperiode kan stønadstiden forlenges med inntil 24 måneder, dersom barnet har en forbigående sykdom som hindrer medlemmet i å arbeide. Sykdommen må dokumenteres med legeerklæring.Dersom medlemmet er forhindret fra å arbeide fordi barnet krever særlig tilsyn på grunn av funksjonshemming, sykdom eller store sosiale problemer, kan det innvilges overgangsstønad inntil utløpet av den måneden barnet fyller 18 år. Barnets fysiske eller psykiske tilstand må dokumenteres av lege. Det må også framlegges dokumentasjon på at medlemmet er forhindret fra å arbeide som følge av barnets tilstand.Et medlem som uten rimelig grunn har sagt opp et arbeidsforhold de siste seks månedene før søknadstidspunktet, får ikke overgangsstønad.Departementet kan gi forskrifter om beregning av stønadsperiodens lengde, herunder om oppdeling og avkorting av stønadsperioden.
+>
+> § 15-5.Overgangsstønad
+>
+
 ## § 15-6
 
 ### 2002-12-20 — lov/2002-12-20-111
@@ -6904,6 +6945,10 @@ refid: "lov/1997-02-28-19"
 
 > Om medlemmet ikke er i yrkesrettet aktivitet etter første ledd, ytes likevel overgangsstønad i inntil seks måneder hvis barnet ikke har en tilfredsstillende tilsynsordning og dette ikke kan tilskrives medlemmet selv. Det kan gis overgangsstønad uten begrensning på seks måneder til et medlem som ikke er i yrkesrettet aktivitet, dersom den enslige moren eller faren eller barnet har en sykdom som hindrer yrkesrettet aktivitet. Sykdommen skal dokumenteres med legeerklæring.
 >
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-6 oppheves.*
 
 ## § 15-7
 
@@ -6990,6 +7035,10 @@ refid: "lov/1997-02-28-19"
 > Et medlem som tidligere har mottatt overgangsstønad en hel stønadsperiode, kan innvilges nye stønadsperioder til og med den kalendermåneden barnet fyller fjorten måneder.
 >
 
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-8 oppheves.*
+
 ## § 15-9
 
 ### 2004-01-01 — lov/2003-06-20-55
@@ -7041,6 +7090,17 @@ refid: "lov/1997-02-28-19"
 > § 15-9.Avkorting mot inntektOvergangsstønaden skal reduseres på grunnlag av pensjonsgivende inntekt som medlemmet har eller kan forventes å få.Overgangsstønaden skal ikke reduseres hvis den pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Stønaden skal reduseres med 45 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.Likestilt med pensjonsgivende inntekt etter denne paragrafen er tilsvarende inntekt fra utlandet og fra selvstendig næringsvirksomhet.Departementet gir forskrifter om fastsetting og endring av forventet pensjonsgivende inntekt. Det kan herunder gjøres unntak fra bestemmelsene i § 22-12.
 >
 > § 15-9.Avkorting mot inntekt
+>
+
+## § 15-10
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-10 skal lyde:*
+
+> § 15-10.Stønad til barnetilsyn til enslig mor eller far som er i arbeidStønad til barnetilsyn ytes til enslig mor eller far som må overlate nødvendig tilsyn med barn under 14 måneder til andre på grunn av arbeid. Stønaden er uavhengig av retten til og perioden for overgangsstønad.For barn som må ha vesentlig mer tilsyn enn det som er vanlig for jevnaldrende, kan det gis stønad til barnetilsyn også når barnet er mellom 14 måneder og 18 år. Det samme gjelder når medlemmet på grunn av sitt arbeid må være borte fra hjemmet i lengre perioder eller på andre tidspunkter enn det en vanlig arbeidsdag medfører. Stønad til barnetilsyn kan også gis i inntil ett år når medlemmet har en forbigående sykdom som hindrer vedkommende i å være i arbeid.Stønaden er 64 prosent av dokumenterte utgifter til barnetilsyn opptil de beløp som Stortinget fastsetter. Det gis ikke stønad når den pensjonsgivende inntekten er større enn seks ganger grunnbeløpet. Etterbetaling av trygdeytelser skal ikke medregnes ved beregning av pensjonsgivende inntekt etter dette leddet.Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregning av stønad til barnetilsyn.
+>
+> § 15-10.Stønad til barnetilsyn til enslig mor eller far som er i arbeid
 >
 
 ## § 15-11
@@ -7114,6 +7174,10 @@ refid: "lov/1997-02-28-19"
 > Stønad til tilsyn for barn etter første ledd bokstav d) kan også gis til et medlem som står tilmeldt Arbeids- og velferdsetaten som reell arbeidssøker etter § 15-6 første ledd bokstav b).
 >
 
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-11 oppheves.*
+
 ## § 15-12
 
 ### 2016-01-01 — lov/2015-06-19-42
@@ -7128,6 +7192,10 @@ refid: "lov/1997-02-28-19"
 >
 > Departementet kan gi forskrifter om utestengningstidens lengde.
 >
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 15-12 første ledd oppheves og nåværende andre og tredje ledd blir første og andre ledd.*
 
 ## § 15-13
 
@@ -7597,6 +7665,26 @@ refid: "lov/1997-02-28-19"
 > Ytelser etter dette kapittel kan gis selv om dødsfallet skjer mer enn fem år etter skilsmissen, dersom den skilte personen var helt eller delvis forsørget av bidrag. Ved avgjørelsen skal det legges vekt på varigheten av ekteskapet og den skilte gjenlevende personens alder.
 >
 
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 17-10 skal lyde:*
+
+> § 17-10.Stønad til barnetilsyn til gjenlevende i arbeidTil en gjenlevende som er i arbeid, og som fyller vilkårene i § 17-2 til § 17-4, kan det gis stønad til barnetilsyn. Stønaden er uavhengig av retten til og perioden for omstillingsstønad.Stønad til barnetilsyn gis til en gjenlevende som må overlate nødvendig tilsyn med barn til andre på grunn av arbeid eller at de etablerer egen virksomhet, jf. § 4-6 tredje ledd.Stønad til barnetilsyn kan gis til barnet har fullført fjerde skoleår. For barn som har fullført fjerde skoleår, kan det gis stønad når barnet må ha vesentlig mer tilsyn enn det som er vanlig for jevnaldrende, eller når den gjenlevende på grunn av sitt arbeid må være borte fra hjemmet i lengre perioder eller på andre tidspunkter enn det en vanlig arbeidsdag medfører. Stønad til barnetilsyn kan også gis i inntil ett år når den gjenlevende har en forbigående sykdom som hindrer vedkommende i å være i arbeid.Stønaden er 64 prosent av dokumenterte utgifter til barnetilsyn opptil de beløpene som Stortinget fastsetter. Det gis ikke stønad når den pensjonsgivende inntekten er større enn seks ganger grunnbeløpet.Stønad gis for barn som blir forsørget av den gjenlevende. For barn som bor i fosterhjem, jf. barnevernsloven § 9-1, kan det gis stønad når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregning av stønad til barnetilsyn etter denne bestemmelsen.
+>
+> § 17-10.Stønad til barnetilsyn til gjenlevende i arbeid
+>
+
+## § 17-10 a
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*Ny § 17-10 a skal lyde:*
+
+> § 17-10 a.Tilleggsstønader og stønader til skolepenger m.m.Til en gjenlevende som fyller vilkårene i § 17-2 til § 17-4, og som gjennomfører utdanning eller opplæring etter § 17-7 første ledd bokstav c, kan det gis tilleggsstønader og stønad til skolepenger m.m. som helt eller delvis dekkerutgifter til daglige reiser i forbindelse med utredning eller gjennomføring av utdanningenutgifter til hjemreiser i forbindelse med utdanningennødvendige utgifter til flytting fra hjemstedet i forbindelse med utdanningen eller i forbindelse med arbeid etter at utdanningen er gjennomførtnødvendige utgifter til barnetilsyn i forbindelse med utredning eller gjennomføring av utdanningennødvendige ekstrautgifter til bolig i forbindelse med utredning eller gjennomføring av utdanningennødvendige utgifter til læremidler.Stønad etter denne bestemmelsen kan bare gis for tidsrom den gjenlevende har rett til omstillingsstønad, jf. § 17-5.Stønad til flytting etter første ledd bokstav c kan også gis til en gjenlevende som må flytte fra hjemstedet for å starte i arbeid på et annet sted. Flyttestønad gis bare når den gjenlevende har flyttet i et tidsrom der han eller hun har rett til omstillingsstønad, eller innen seks måneder etter at omstillingsstønaden falt bort.Stønad etter første ledd bokstav d gis for barn som blir forsørget av den gjenlevende. For barn som bor i fosterhjem, jf. barnevernsloven § 9-1, kan det gis slik stønad når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.Stønad til barnetilsyn etter første ledd bokstav d kan også gis til et medlem som står tilmeldt Arbeids- og velferdsetaten som reell arbeidssøker etter § 17-7 første ledd bokstav b.Det kan gis stønad til dekning av skolepenger m.m. etter satsene for skolepenger fra Statens lånekasse for utdanning. Utdanning ved private utdanningsinstitusjoner gir bare rett til skolepenger m.m. i særlige tilfeller.Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregningen av tilleggsstønader og stønad til skolepenger etter denne bestemmelsen, herunder stønad til skolepenger til utdanning ved private utdanningsinstitusjoner.
+>
+> § 17-10 a.Tilleggsstønader og stønader til skolepenger m.m.
+>
+
 ## § 17-11
 
 ### 2009-12-11 — lov/2009-12-11-112
@@ -7705,6 +7793,15 @@ refid: "lov/1997-02-28-19"
 *§ 17-14 annet ledd skal lyde:*
 
 > Fra og med kalendermåneden vedkommende blir løslatt eller forvaltningen heves, gis ytelser til gjenlevende ektefelle etter lovens vanlige bestemmelser.
+>
+
+## § 17-15
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 17-15 femte ledd skal lyde:*
+
+> Til en tidligere familiepleier kan det gis tilleggsstønader og stønad til skolepenger m.m. etter § 17-10 a for at vedkommende kan komme i arbeid.
 >
 
 ## § 18-1 a
@@ -10265,6 +10362,13 @@ refid: "lov/1997-02-28-19"
 > tilleggsstønader og stønad til skolepenger mv. (§§ 15-11, 17-10 og 17-15)
 >
 
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 22-10 fjerde ledd bokstav c skal lyde:*
+
+> tilleggsstønader og stønad til skolepenger m.m. (§§ 17-10 a og 17-15)
+>
+
 ## § 22-12
 
 ### 2001-12-21 — lov/2001-12-21-118
@@ -10377,6 +10481,13 @@ refid: "lov/1997-02-28-19"
 > Dagpenger under arbeidsløshet etter kapittel 4 og arbeidsavklaringspenger etter kapittel 11 gis tidligst fra det tidspunktet da kravet ble satt fram. Bestemmelsen i syvende ledd gjelder ikke for dagpenger under arbeidsløshet.
 >
 > § 22-13 nåværende femte og sjette ledd blir sjette og syvende ledd.
+>
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 22-13 fjerde ledd bokstav b skal lyde:*
+
+> Overgangsstønad til enslig mor eller far gis for tidsrommet før fødselen dersom kravet blir satt fram innen tre måneder etter barnets fødsel, se § 15-5 andre ledd.
 >
 
 ## § 22-14
@@ -14285,6 +14396,13 @@ refid: "lov/1997-02-28-19"
 > § 17 A-6.Reduksjon av ytelse på grunn av inntektPensjonen eller overgangsstønaden til den gjenlevende ektefellen skal reduseres på grunnlag av pensjonsgivende inntekt som den gjenlevende har eller kan forventes å få. Ved fastsetting av forventet inntekt skal det blant annet legges vekt på alder, evner, utdanning, yrkesbakgrunn, arbeidsmuligheter på hjemstedet, og arbeidsmuligheter på andre steder der det er rimelig at vedkommende tar arbeid. Det skal også legges vekt på eventuelle barns tilsynsbehov.En gjenlevende ektefelle som ikke har fylt 55 år, skal forventes å få en pensjonsgivende inntekt på minst to ganger grunnbeløpet etter en overgangsperiode på ett år etter dødsfallet. Dette gjelder likevel ikke dersom det er en rimelig grunn til at den gjenlevende ektefellen har en lavere inntekt. Kravet til forventet inntekt gjelder ikke dersom den gjenlevende ektefellen fyller vilkårene for rett til overgangsstønad etter § 17-6 slik paragrafen lød før 1. januar 2024.Pensjonen eller overgangsstønaden skal ikke reduseres hvis den faktiske eller forventede pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Ytelsen skal reduseres med 40 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.Likestilt med pensjonsgivende inntekt er tilsvarende inntekt fra utlandet og pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven og avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning.Departementet kan gi forskrifter om fastsetting og endring av forventet pensjonsgivende inntekt. Det kan herunder gjøres unntak fra bestemmelsene i § 22-12.
 >
 > § 17 A-6.Reduksjon av ytelse på grunn av inntekt
+>
+
+### 2026-07-01 — lov/2026-06-12-27
+
+*§ 17 A-6 fjerde ledd skal lyde:*
+
+> Likestilt med pensjonsgivende inntekt er tilsvarende inntekt fra utlandet, uføretrygd etter kapittel 12 der uføregraden er under 100 prosent, og pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven og avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning.
 >
 
 ## § 24

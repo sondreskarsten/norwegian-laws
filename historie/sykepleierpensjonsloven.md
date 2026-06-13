@@ -88,6 +88,10 @@ refid: "lov/1962-06-22-12"
 
 *Noverande tredje punktum blir andre punktum.*
 
+### 2026-06-12 — lov/2026-06-12-24
+
+*Nåværende første ledd fjerde punktum blir tredje ledd nytt tredje punktum.*
+
 ## § 1
 
 ### 2002-06-14 — lov/2002-06-14-22
@@ -394,6 +398,20 @@ refid: "lov/1962-06-22-12"
 
 *§ 15 første ledd femte punktum blir oppheva.*
 
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 15 første ledd tredje punktum skal lyde:*
+
+> Mottar pensjonisten uføretrygd fra folketrygden, tillegges inntektsgrensen et fribeløp etter bestemmelsene i folketrygdloven § 12-14 første ledd.
+>
+
+### 2026-06-12 — lov/2026-06-12-24
+
+*§ 15 tredje ledd første punktum skal lyde:*
+
+> Som inntekt etter første og andre ledd regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet.
+>
+
 ## § 17
 
 ### 2016-12-20 — lov/2016-12-20-105
@@ -570,6 +588,22 @@ refid: "lov/1962-06-22-12"
 > Unntatt fra medlemskap er sykepleiere som gjør tjeneste på pensjonistvilkår. Departementet kan gi forskrift med utfyllende bestemmelser om tjeneste på pensjonistvilkår.
 >
 
+## § 30
+
+### 2026-06-12 — lov/2026-06-12-26
+
+*§ 30 første ledd nytt andre og tredje punktum skal lyde:*
+
+> Når det er bestemt i tariffavtale, betaler arbeidsgiver premie i inntil tre år hvor medlemmet har ulønnet permisjon og mottar pleiepenger etter folketrygdloven. Opptjeningen etter andre punktum skjer på grunnlag av pensjonsgrunnlaget i stillingen som medlemmet har permisjon fra.
+>
+
+### 2026-06-12 — lov/2026-06-12-26
+
+*§ 30 sjette ledd andre punktum skal lyde:*
+
+> Styret kan fastsette særskilte regler for fastsettelse av frivillig premie, når vedkommende ikke er medlem av folketrygden etter lov om folketrygd.
+>
+
 ## § 36
 
 ### 2020-12-04 — lov/2020-12-04-132
@@ -681,6 +715,13 @@ refid: "lov/1962-06-22-12"
 *§ 5 tredje ledd skal lyde:*
 
 > Tjenestetid etter kapittel 4 a og § 11 p fastsettes i antall år, avrundet til én desimal.
+>
+
+### 2026-06-12 — lov/2026-06-12-26
+
+*§ 5 første ledd første punktum skal lyde:*
+
+> Som pensjonsgivende tjenestetid ved beregning av pensjon regnes den tid som det er betalt innskott og premie for, jfr. § 28 og § 30, tillagt tjenestetid som vedkommende måtte være godskrevet fra tiden før lovens ikrafttreden etter bestemmelsene i § 40.
 >
 
 ## § 6

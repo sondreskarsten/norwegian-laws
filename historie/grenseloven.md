@@ -21,6 +21,25 @@ refid: "lov/2018-04-20-8"
 > Kapittel 5. Behandling av personopplysninger og taushetsplikt
 >
 
+### 2026-06-12 — lov/2026-06-12-31
+
+*Nytt kapittel 5A skal lyde:*
+
+> Kapittel 5A. Screening
+>
+> § 24 a.Behandling av personopplysninger for gjennomføring av screeningScreeningmyndigheten kan behandle personopplysninger, herunder særlige kategorier av personopplysninger, som er nødvendige for gjennomføring av oppgaver etter forordning (EU) 2024/1356, jf. § 8 første ledd nr. 6.Screeningmyndigheten skal uten hinder av taushetsplikt utlevere til utlendingsmyndighetene opplysninger som er nødvendige for utførelsen av deres oppgaver.
+>
+> § 24 a.Behandling av personopplysninger for gjennomføring av screening
+>
+> § 24 b.Utlendingens plikt til å være tilgjengeligUtlendinger som gjennomgår screening etter forordning (EU) 2024/1356, jf. § 8 første ledd nr. 6, skal være tilgjengelige for screeningmyndigheten på det stedet screeningmyndigheten gir anvisning på, frem til screeningen er avsluttet.
+>
+> § 24 b.Utlendingens plikt til å være tilgjengelig
+>
+> § 24 c.Utlendingens opplysningsplikt. Bruk av tvangUtlendinger som gjennomgår screening, plikter å oppgi personopplysninger, herunder avgi biometriske opplysninger, i henhold til forordning (EU) 2024/1356 artikkel 9 nr. 2, jf. § 8 første ledd nr. 6. Biometriske opplysninger som allerede er innhentet etter utlendingsloven § 100, kan gjenbrukes for gjennomføring av screening.Politimesteren eller den politimesteren gir fullmakt, kan beslutte at biometriske opplysninger skal innhentes med tvang. Den politimesteren gir fullmakt, må være jurist.Tvang kan bare brukes når det er nødvendig og forholdsmessig.Forvaltningslovens regler om enkeltvedtak gjelder ikke for beslutninger om bruk av tvang etter bestemmelsen her.Utlendingen kan kreve spørsmålet om rettmessigheten av tvangsinngrepet brakt inn for retten. Screeningmyndigheten sørger for at utlendingen blir gjort kjent med denne retten. Ved slik domstolsbehandling gjelder bestemmelsene i straffeprosessloven kapittel 26 tilsvarende så langt de passer.
+>
+> § 24 c.Utlendingens opplysningsplikt. Bruk av tvang
+>
+
 ## § 1
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -124,6 +143,15 @@ refid: "lov/2018-04-20-8"
 > § 19.Overvåking av ytre Schengen-grense
 >
 
+## § 2
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 2 første ledd skal lyde:*
+
+> Loven gir regler om rettslige og fysiske forhold i tilknytning til riksgrensen og om grensepassering og grensekontroll av personer. Loven gir også regler om gjennomføring av screening etter forordning (EU) 2024/1356. Regler om utlendingers adgang til riket og deres opphold her følger av utlendingsloven.
+>
+
 ## § 22
 
 ### 2025-06-20 — lov/2025-06-20-85
@@ -205,6 +233,15 @@ refid: "lov/2018-04-20-8"
 
 *§ 28 annet ledd nr. 4 skal lyde:*
 
+## § 4
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 4 nytt tredje ledd skal lyde:*
+
+> Politiet er screeningmyndighet etter forordning (EU) 2024/1356. Departementet kan gi forskrift om at også andre myndigheter skal utøve myndighet etter forordningen.
+>
+
 ## § 8
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -252,4 +289,57 @@ refid: "lov/2018-04-20-8"
 > forordning (EU) 2021/1134, og
 >
 > forordning (EU) 2024/1717.
+>
+
+### 2026-06-12 — lov/2026-06-12-31
+
+*§ 8 første ledd skal lyde:*
+
+> Følgende rettsakter gjelder som lov:Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret vedforordning (EU) 2017/458forordning (EU) 2017/2225forordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2024/1717Forordning (EU) 2017/2226 om etableringen av inn- og utreisesystemet (EES-forordningen), som endret vedforordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356Rådsdirektiv 2004/82/EF om transportselskapers plikt til å fremsende opplysninger om passasjerer (API-direktivet)Forordning (EU) 2019/817 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for grenser og visum, som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356Forordning (EU) 2019/818 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for politisamarbeid og rettslig samarbeid, asyl og migrasjon, som endret vedforordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2024/1358Forordning (EU) 2024/1356 om innføring av screening av tredjelandsborgere ved de ytre grensene (screeningforordningen).
+>
+> Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret vedforordning (EU) 2017/458forordning (EU) 2017/2225forordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2024/1717
+>
+> forordning (EU) 2017/458
+>
+> forordning (EU) 2017/2225
+>
+> forordning (EU) 2018/1240
+>
+> forordning (EU) 2019/817
+>
+> forordning (EU) 2021/1134
+>
+> forordning (EU) 2024/1717
+>
+> Forordning (EU) 2017/2226 om etableringen av inn- og utreisesystemet (EES-forordningen), som endret vedforordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356
+>
+> forordning (EU) 2018/1240
+>
+> forordning (EU) 2019/817
+>
+> forordning (EU) 2021/1134
+>
+> forordning (EU) 2021/1152
+>
+> forordning (EU) 2024/1356
+>
+> Rådsdirektiv 2004/82/EF om transportselskapers plikt til å fremsende opplysninger om passasjerer (API-direktivet)
+>
+> Forordning (EU) 2019/817 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for grenser og visum, som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356
+>
+> forordning (EU) 2021/1134
+>
+> forordning (EU) 2021/1152
+>
+> forordning (EU) 2024/1356
+>
+> Forordning (EU) 2019/818 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for politisamarbeid og rettslig samarbeid, asyl og migrasjon, som endret vedforordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2024/1358
+>
+> forordning (EU) 2021/1133
+>
+> forordning (EU) 2021/1150
+>
+> forordning (EU) 2024/1358
+>
+> Forordning (EU) 2024/1356 om innføring av screening av tredjelandsborgere ved de ytre grensene (screeningforordningen).
 >

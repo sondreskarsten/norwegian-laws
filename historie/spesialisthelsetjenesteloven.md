@@ -676,3 +676,12 @@ refid: "lov/1999-07-02-61"
 ### 2026-01-23 — lov/2026-01-23-1
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. oppheves § 3-2.*
+
+### 2026-06-12 — lov/2026-06-12-22
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 2-5 d lyde:*
+
+> § 2-5 d.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
+>
+> § 2-5 d.Midlertidige unntak fra plikter
+>
