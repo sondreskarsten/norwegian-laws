@@ -13,6 +13,7 @@ from dataclasses import asdict
 from bs4 import BeautifulSoup
 
 from .parser import parse_law, _text
+from .audit import audit_law_lists
 
 _WORD = re.compile(r"\w+", re.UNICODE)
 
@@ -89,9 +90,12 @@ def law_coverage(content: bytes, law: dict) -> dict:
     }
 
 
-def corpus_report(archive_path: str, threshold: float = 0.999) -> dict:
+def corpus_report(archive_path: str, threshold: float = 0.999,
+                  floor: int = 30, frac: float = 0.01) -> dict:
     rows = []
     remainder_laws = 0
+    total_anomalies = 0
+    structural = []
     with tarfile.open(archive_path, "r:bz2") as tar:
         for member in tar.getmembers():
             if not member.name.endswith(".xml"):
@@ -109,11 +113,17 @@ def corpus_report(archive_path: str, threshold: float = 0.999) -> dict:
             cov = law_coverage(content, d)
             if cov["source_total"] == 0:
                 continue
+            loss = sum(cov["missing"].values())
+            total_anomalies += len(audit_law_lists(d)["anomalies"])
+            ceiling = max(floor, frac * cov["source_total"])
+            if loss > ceiling:
+                structural.append((d["refid"], loss, ceiling, cov["coverage"], cov["missing"]))
             rows.append((cov["coverage"], d["refid"], cov["source_total"], cov["missing"]))
     rows.sort()
     n = len(rows)
     mean = sum(c for c, _, _, _ in rows) / n if n else 1.0
     failures = [(c, rid, total, miss) for c, rid, total, miss in rows if c < threshold]
+    structural.sort(key=lambda r: r[1], reverse=True)
     return {
         "n": n,
         "mean": mean,
@@ -121,6 +131,8 @@ def corpus_report(archive_path: str, threshold: float = 0.999) -> dict:
         "threshold": threshold,
         "failures": failures,
         "remainder_laws": remainder_laws,
+        "anomalies": total_anomalies,
+        "structural": structural,
     }
 
 
@@ -130,27 +142,33 @@ def main():
     ap = argparse.ArgumentParser(description="Completeness gate over consolidated archives")
     ap.add_argument("archives", nargs="+")
     ap.add_argument("--mean", type=float, default=0.999)
-    ap.add_argument("--min", type=float, default=0.90)
-    ap.add_argument("--max-failures", type=int, default=25)
+    ap.add_argument("--min", type=float, default=0.50)
+    ap.add_argument("--floor", type=int, default=30)
+    ap.add_argument("--frac", type=float, default=0.01)
+    ap.add_argument("--max-structural", type=int, default=0)
     ap.add_argument("--report-only", action="store_true")
     args = ap.parse_args()
 
     ok = True
     for arch in args.archives:
-        r = corpus_report(arch, threshold=0.999)
-        print(f"{arch}: laws={r['n']} mean={r['mean']*100:.3f}% "
-              f"min={r['min']*100:.2f}% below-99.9%={len(r['failures'])} "
-              f"remainder_laws={r['remainder_laws']}")
-        for c, rid, total, miss in r["failures"][:12]:
-            print(f"    {c*100:6.2f}%  {rid}  ({', '.join(w for w, _ in miss.most_common(5))})")
+        r = corpus_report(arch, floor=args.floor, frac=args.frac)
+        print(f"{arch}: docs={r['n']} mean={r['mean']*100:.3f}% min={r['min']*100:.2f}% "
+              f"below-99.9%={len(r['failures'])} anomalies={r['anomalies']} "
+              f"structural-loss={len(r['structural'])} remainder_docs={r['remainder_laws']}")
+        for rid, loss, ceil, cov, miss in r["structural"][:12]:
+            print(f"    STRUCTURAL {rid}: lost {loss} > {ceil:.0f} (cov {cov*100:.2f}%) "
+                  f"[{', '.join(w for w, _ in miss.most_common(5))}]")
         if r["mean"] < args.mean:
             print(f"  FAIL: mean {r['mean']:.5f} < {args.mean}")
             ok = False
         if r["min"] < args.min:
             print(f"  FAIL: min {r['min']:.5f} < {args.min}")
             ok = False
-        if len(r["failures"]) > args.max_failures:
-            print(f"  FAIL: {len(r['failures'])} laws below 99.9% > {args.max_failures}")
+        if r["anomalies"] > 0:
+            print(f"  FAIL: {r['anomalies']} list anomalies (ordered list, unresolved marker)")
+            ok = False
+        if len(r["structural"]) > args.max_structural:
+            print(f"  FAIL: {len(r['structural'])} docs with structural text loss > {args.max_structural}")
             ok = False
 
     if not ok and not args.report_only:

@@ -60,10 +60,10 @@ jobs:
         run: |
           python -m lovdata_loader.coverage \
             snapshot/gjeldende-lover.tar.bz2 \
-            --mean 0.999 --min 0.90 --max-failures 25
+            --mean 0.999 --min 0.50 --max-structural 0
           python -m lovdata_loader.coverage \
             snapshot/gjeldende-sentrale-forskrifter.tar.bz2 \
-            --mean 0.999 --min 0.90 --max-failures 50 --report-only
+            --mean 0.999 --min 0.50 --max-structural 5
 
       - name: Format laws and generate Quarto chapters
         run: lovdata-publish --snapshot snapshot --output . --quarto

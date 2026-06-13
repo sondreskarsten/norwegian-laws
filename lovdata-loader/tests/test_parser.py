@@ -334,6 +334,20 @@ class TestParseLeddInterleaving:
         assert art.paragraphs[0].trailing_text == "Etterfølgende tekst."
         assert art.paragraphs[0].list_items[0].marker == "1."
 
+    def test_list_item_misc_headline_captured(self):
+        from bs4 import BeautifulSoup
+        from lovdata_loader.parser import _parse_ledd
+        html = """<article class="legalP">Overgangsregler:
+        <ol class="defaultList"><li data-name="1."><article class="listArticle">
+        <span class="miscHeadline"><i>Tap av retten</i></span>
+        <article class="legalP">Når det er fastsatt tap.</article>
+        </article></li></ol></article>"""
+        ledd = BeautifulSoup(html, "lxml").find("article", class_="legalP")
+        p = _parse_ledd(ledd)
+        texts = [para.text for para in p.list_items[0].paragraphs]
+        assert "Tap av retten" in texts
+        assert "Når det er fastsatt tap." in texts
+
 
 class TestMarkerResolution:
     def _li(self, html):

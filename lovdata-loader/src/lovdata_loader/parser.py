@@ -226,12 +226,17 @@ def _resolve_marker(li: Tag, style: str = "") -> str:
 
 def _list_item_paragraphs(li: Tag) -> list[Paragraph]:
     holder = li.find("article", class_="listArticle", recursive=False)
-    if holder is not None:
-        ledds = holder.find_all("article", recursive=False)
-        if ledds:
-            return [_parse_ledd(lp) for lp in ledds]
-        return [_parse_ledd(holder)]
-    return [_parse_ledd(li)]
+    if holder is None:
+        return [_parse_ledd(li)]
+    paras = []
+    for child in holder.find_all(recursive=False):
+        if child.name == "article":
+            paras.append(_parse_ledd(child))
+        elif child.name == "span" and "miscHeadline" in (child.get("class") or []):
+            paras.append(Paragraph(text=_text(child)))
+    if not paras:
+        paras = [_parse_ledd(holder)]
+    return paras
 
 
 def _parse_list(list_tag: Tag) -> list[ListItem]:
