@@ -22,6 +22,28 @@ def refid_to_filepath(refid: str) -> str:
     return f"lover/{refid.replace('/', '-')}.md"
 
 
+def _render_list_items(items: list, depth: int, lines: list) -> None:
+    indent = "  " * depth
+    for item in items:
+        marker = item.get("marker") or "-"
+        paras = item.get("paragraphs", [])
+        head = paras[0].get("text", "") if paras else ""
+        lines.append(f"{indent}{marker} {head}".rstrip())
+        if paras:
+            first = paras[0]
+            if first.get("list_items"):
+                _render_list_items(first["list_items"], depth + 1, lines)
+            if first.get("trailing_text"):
+                lines.append(f"{indent}  {first['trailing_text']}")
+            for para in paras[1:]:
+                if para.get("text"):
+                    lines.append(f"{indent}  {para['text']}")
+                if para.get("list_items"):
+                    _render_list_items(para["list_items"], depth + 1, lines)
+                if para.get("trailing_text"):
+                    lines.append(f"{indent}  {para['trailing_text']}")
+
+
 def format_article(article: dict, depth: int = 0) -> str:
     """Format an article (§/paragraf) as Markdown.
 
@@ -40,13 +62,8 @@ def format_article(article: dict, depth: int = 0) -> str:
         if para.get("text"):
             lines.append(para["text"])
             lines.append("")
-        for item in para.get("list_items", []):
-            identifier = item.get("identifier", "-")
-            if identifier == "-":
-                lines.append(f"- {item['text']}")
-            else:
-                lines.append(f"- {identifier} {item['text']}")
         if para.get("list_items"):
+            _render_list_items(para["list_items"], 0, lines)
             lines.append("")
         if para.get("trailing_text"):
             lines.append(para["trailing_text"])
@@ -120,6 +137,21 @@ def format_law_markdown(law: dict) -> str:
     lines.append("")
     lines.append(f"# {law['title']}")
     lines.append("")
+
+    for para in law.get("top_level_paragraphs", []):
+        if para.get("text"):
+            lines.append(para["text"])
+            lines.append("")
+        if para.get("list_items"):
+            _render_list_items(para["list_items"], 0, lines)
+            lines.append("")
+        if para.get("trailing_text"):
+            lines.append(para["trailing_text"])
+            lines.append("")
+
+    for rem in law.get("remainders", []):
+        lines.append(rem)
+        lines.append("")
 
     for section in law.get("sections", []):
         lines.append(format_section(section))

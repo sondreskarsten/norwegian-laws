@@ -81,15 +81,16 @@ class TestFormatArticle:
                 {
                     "text": "Loven gjelder for:",
                     "list_items": [
-                        {"identifier": "a)", "text": "norske foretak"},
-                        {"identifier": "b)", "text": "utenlandske foretak"},
+                        {"marker": "a)", "paragraphs": [{"text": "norske foretak"}]},
+                        {"marker": "b)", "paragraphs": [{"text": "utenlandske foretak"}]},
                     ],
                 }
             ],
         }
         md = format_article(article, depth=1)
-        assert "- a) norske foretak" in md
-        assert "- b) utenlandske foretak" in md
+        assert "a) norske foretak" in md
+        assert "b) utenlandske foretak" in md
+        assert "- a)" not in md
 
 
 class TestFormatArticleTrailingText:
@@ -101,7 +102,7 @@ class TestFormatArticleTrailingText:
                 {
                     "text": "Loven gjelder for:",
                     "list_items": [
-                        {"identifier": "a)", "text": "norske foretak"},
+                        {"marker": "a)", "paragraphs": [{"text": "norske foretak"}]},
                     ],
                     "trailing_text": "med virksomhet i Norge.",
                 }
@@ -109,6 +110,6 @@ class TestFormatArticleTrailingText:
         }
         md = format_article(article, depth=1)
         intro = md.index("Loven gjelder for:")
-        item = md.index("- a) norske foretak")
+        item = md.index("a) norske foretak")
         trail = md.index("med virksomhet i Norge.")
         assert intro < item < trail

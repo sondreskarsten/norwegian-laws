@@ -171,16 +171,91 @@ def _is_header(tag: Tag) -> bool:
     )
 
 
+def _int_to_alpha(n: int) -> str:
+    s = ""
+    while n > 0:
+        n, r = divmod(n - 1, 26)
+        s = chr(97 + r) + s
+    return s
+
+
+_ROMAN = [(1000, "m"), (900, "cm"), (500, "d"), (400, "cd"), (100, "c"),
+          (90, "xc"), (50, "l"), (40, "xl"), (10, "x"), (9, "ix"),
+          (5, "v"), (4, "iv"), (1, "i")]
+
+
+def _int_to_roman(n: int) -> str:
+    s = ""
+    for v, sym in _ROMAN:
+        while n >= v:
+            s += sym
+            n -= v
+    return s
+
+
+def _compose_marker(value: str, style: str) -> str:
+    try:
+        n = int(value)
+    except (TypeError, ValueError):
+        return ""
+    if style == "1":
+        return f"{n}."
+    if style == "A":
+        return f"{_int_to_alpha(n).upper()}."
+    if style == "a":
+        return f"{_int_to_alpha(n)})"
+    if style == "I":
+        return f"{_int_to_roman(n).upper()}."
+    if style == "i":
+        return f"{_int_to_roman(n)})"
+    return ""
+
+
+def _resolve_marker(li: Tag, style: str = "") -> str:
+    name = li.get("data-name", "")
+    if name:
+        return name.strip()
+    composed = _compose_marker(li.get("value", ""), style)
+    if composed:
+        return composed
+    legacy = li.get("data-li-identifier", "")
+    if legacy and legacy != "-":
+        return legacy.strip()
+    return ""
+
+
+def _list_item_paragraphs(li: Tag) -> list[Paragraph]:
+    holder = li.find("article", class_="listArticle", recursive=False)
+    if holder is not None:
+        ledds = holder.find_all("article", recursive=False)
+        if ledds:
+            return [_parse_ledd(lp) for lp in ledds]
+        return [_parse_ledd(holder)]
+    return [_parse_ledd(li)]
+
+
+def _parse_list(list_tag: Tag) -> list[ListItem]:
+    style = list_tag.get("type", "") or ""
+    items = []
+    for li in list_tag.find_all("li", recursive=False):
+        items.append(ListItem(
+            marker=_resolve_marker(li, style),
+            value=(li.get("value", "") or "").strip(),
+            paragraphs=_list_item_paragraphs(li),
+        ))
+    return items
+
+
 def _parse_ledd(ledd: Tag) -> Paragraph:
     text_parts = []
     trailing_parts = []
     items = []
+    list_style = ""
     for child in ledd.children:
         if isinstance(child, Tag) and child.name in ("ul", "ol"):
-            for li in child.find_all("li", recursive=False):
-                identifier = li.get("data-li-identifier", "-")
-                li_text = _text(li)
-                items.append(ListItem(identifier=identifier, text=li_text))
+            if not items:
+                list_style = child.get("type", "") or ""
+            items.extend(_parse_list(child))
         elif isinstance(child, Tag):
             (trailing_parts if items else text_parts).append(_text(child))
         else:
@@ -188,9 +263,10 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
             if t:
                 (trailing_parts if items else text_parts).append(t)
     return Paragraph(
-        text=" ".join(text_parts),
+        text=" ".join(text_parts).strip(),
         list_items=items,
-        trailing_text=" ".join(trailing_parts),
+        list_style=list_style,
+        trailing_text=" ".join(trailing_parts).strip(),
     )
 
 
@@ -296,20 +372,36 @@ def parse_law(content: bytes) -> LawData | None:
         return LawData(**meta, sections=[], top_level_articles=[])
 
     sections = []
-    for section in body.find_all("section", recursive=False):
-        sections.append(parse_section(section))
-
     top_level_articles = []
+    top_level_paragraphs = []
+    remainders = []
     for child in body.children:
         if not isinstance(child, Tag):
+            t = str(child).strip()
+            if t:
+                remainders.append(t)
             continue
-        if _is_article(child):
+        if child.name == "section":
+            sections.append(parse_section(child))
+        elif _is_article(child):
             top_level_articles.append(parse_article(child))
+        elif _is_ledd(child):
+            top_level_paragraphs.append(_parse_ledd(child))
+        elif child.name == "p":
+            top_level_paragraphs.append(Paragraph(text=_text(child)))
+        elif child.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
+            continue
+        else:
+            text = _text(child)
+            if text:
+                remainders.append(text)
 
     return LawData(
         **meta,
         sections=sections,
         top_level_articles=top_level_articles,
+        top_level_paragraphs=top_level_paragraphs,
+        remainders=remainders,
     )
 
 

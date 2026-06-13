@@ -296,13 +296,16 @@ class TestParseLeddInterleaving:
         from bs4 import BeautifulSoup
         from lovdata_loader.parser import _parse_ledd
         html = """<article class="legalP">Loven gjelder for:
-        <ul><li data-li-identifier="a)">norske foretak</li>
-        <li data-li-identifier="b)">utenlandske foretak</li></ul>
+        <ul><li data-name="a)">norske foretak</li>
+        <li data-name="b)">utenlandske foretak</li></ul>
         med virksomhet i Norge.</article>"""
         ledd = BeautifulSoup(html, "lxml").find("article")
         p = _parse_ledd(ledd)
         assert p.text == "Loven gjelder for:"
-        assert [li.identifier for li in p.list_items] == ["a)", "b)"]
+        assert [li.marker for li in p.list_items] == ["a)", "b)"]
+        assert [li.paragraphs[0].text for li in p.list_items] == [
+            "norske foretak", "utenlandske foretak"
+        ]
         assert p.trailing_text == "med virksomhet i Norge."
 
     def test_no_list_keeps_trailing_empty(self):
@@ -320,7 +323,7 @@ class TestParseLeddInterleaving:
         from lovdata_loader.models import _article_from_dict
         from dataclasses import asdict
         html = """<article class="legalP">Innledning:
-        <ul><li data-li-identifier="1.">punkt</li></ul>
+        <ul><li data-name="1.">punkt</li></ul>
         Etterfølgende tekst.</article>"""
         ledd = BeautifulSoup(html, "lxml").find("article")
         p = _parse_ledd(ledd)
@@ -329,3 +332,64 @@ class TestParseLeddInterleaving:
             "paragraphs": [asdict(p)],
         })
         assert art.paragraphs[0].trailing_text == "Etterfølgende tekst."
+        assert art.paragraphs[0].list_items[0].marker == "1."
+
+
+class TestMarkerResolution:
+    def _li(self, html):
+        from bs4 import BeautifulSoup
+        return BeautifulSoup(html, "lxml").find("li")
+
+    def test_data_name_preferred(self):
+        from lovdata_loader.parser import _resolve_marker
+        assert _resolve_marker(self._li('<li data-name="3." value="3"></li>'), "1") == "3."
+
+    def test_composed_from_value_and_style(self):
+        from lovdata_loader.parser import _resolve_marker
+        assert _resolve_marker(self._li('<li value="3"></li>'), "1") == "3."
+        assert _resolve_marker(self._li('<li value="1"></li>'), "A") == "A."
+        assert _resolve_marker(self._li('<li value="2"></li>'), "a") == "b)"
+        assert _resolve_marker(self._li('<li value="4"></li>'), "I") == "IV."
+
+    def test_legacy_identifier_fallback(self):
+        from lovdata_loader.parser import _resolve_marker
+        assert _resolve_marker(self._li('<li data-li-identifier="a)"></li>'), "") == "a)"
+
+    def test_unlabelled_is_bullet(self):
+        from lovdata_loader.parser import _resolve_marker
+        assert _resolve_marker(self._li('<li></li>'), "") == ""
+
+
+class TestRealArchiveLists:
+    def _articles(self):
+        import os
+        from bs4 import BeautifulSoup
+        from lovdata_loader.parser import parse_article
+        path = os.path.join(os.path.dirname(__file__), "fixtures",
+                            "fixture_regnskapsloven_lists.xml")
+        soup = BeautifulSoup(open(path, encoding="utf-8").read(), "lxml")
+        return {
+            parse_article(a).name.replace(" ", ""): parse_article(a)
+            for a in soup.find_all("article", class_="legalArticle")
+        }
+
+    def test_flat_disclosure_list_markers(self):
+        items = self._articles()["§7-12"].paragraphs[0].list_items
+        assert [li.marker for li in items] == ["1.", "2.", "3.", "4."]
+        assert items[0].paragraphs[0].text.startswith("anskaffelseskost")
+
+    def test_nested_oppstillingsplan_depth_three(self):
+        top = self._articles()["§6-2"].paragraphs[0].list_items
+        assert [li.marker for li in top] == ["A.", "B.", "C.", "D."]
+        anlegg = top[0].paragraphs[0].list_items
+        assert [li.marker for li in anlegg] == ["I.", "II.", "III."]
+        immateriell = anlegg[0].paragraphs[0].list_items
+        assert [li.marker for li in immateriell] == ["1.", "2.", "3.", "4."]
+        assert immateriell[0].paragraphs[0].text == "Utvikling"
+
+    def test_no_anomalies(self):
+        from dataclasses import asdict
+        from lovdata_loader.audit import audit_law_lists
+        for art in self._articles().values():
+            law = {"refid": "lov/1998-07-17-56", "top_level_articles": [asdict(art)]}
+            assert audit_law_lists(law)["anomalies"] == []

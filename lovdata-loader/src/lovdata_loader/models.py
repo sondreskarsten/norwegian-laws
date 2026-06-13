@@ -10,16 +10,25 @@ import json
 
 @dataclass
 class ListItem:
-    """A single list item inside a legal paragraph (e.g. 'a) some text')."""
-    identifier: str       # e.g. "a)", "1.", "-"
-    text: str
+    """A single list item inside a legal paragraph.
+
+    marker is the rendered legal label as observed in the source
+    (e.g. "1.", "a)", "A.", "I."); empty for an unlabelled bullet.
+    value is the source ordinal. paragraphs is the item body, parsed
+    with the same ledd grammar so nested lists and multi-paragraph
+    items are represented losslessly.
+    """
+    marker: str = ""
+    value: str = ""
+    paragraphs: list["Paragraph"] = field(default_factory=list)
 
 
 @dataclass
 class Paragraph:
     """A legal paragraph (ledd) within an article."""
-    text: str
+    text: str = ""
     list_items: list[ListItem] = field(default_factory=list)
+    list_style: str = ""
     trailing_text: str = ""
 
 
@@ -30,6 +39,7 @@ class Article:
     header_text: str      # e.g. "§ 1-1. Lovens virkeområde"
     paragraphs: list[Paragraph] = field(default_factory=list)
     trailing_text: str = ""
+    remainders: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -40,21 +50,33 @@ class Section:
     subsections: list["Section"] = field(default_factory=list)
     preamble: list[str] = field(default_factory=list)
     footnotes: list[str] = field(default_factory=list)
+    remainders: list[str] = field(default_factory=list)
+
+
+def _listitem_from_dict(li: dict) -> ListItem:
+    return ListItem(
+        marker=li.get("marker", ""),
+        value=li.get("value", ""),
+        paragraphs=[_paragraph_from_dict(p) for p in li.get("paragraphs", [])],
+    )
+
+
+def _paragraph_from_dict(p: dict) -> Paragraph:
+    return Paragraph(
+        text=p.get("text", ""),
+        list_items=[_listitem_from_dict(li) for li in p.get("list_items", [])],
+        list_style=p.get("list_style", ""),
+        trailing_text=p.get("trailing_text", ""),
+    )
 
 
 def _article_from_dict(a: dict) -> Article:
     return Article(
         name=a["name"],
         header_text=a["header_text"],
-        paragraphs=[
-            Paragraph(
-                text=p["text"],
-                list_items=[ListItem(**li) for li in p.get("list_items", [])],
-                trailing_text=p.get("trailing_text", ""),
-            )
-            for p in a.get("paragraphs", [])
-        ],
+        paragraphs=[_paragraph_from_dict(p) for p in a.get("paragraphs", [])],
         trailing_text=a.get("trailing_text", ""),
+        remainders=a.get("remainders", []),
     )
 
 
@@ -65,6 +87,7 @@ def _section_from_dict(s: dict) -> Section:
         subsections=[_section_from_dict(sub) for sub in s.get("subsections", [])],
         preamble=s.get("preamble", []),
         footnotes=s.get("footnotes", []),
+        remainders=s.get("remainders", []),
     )
 
 
@@ -81,6 +104,8 @@ class LawData:
     legal_area: str
     sections: list[Section] = field(default_factory=list)
     top_level_articles: list[Article] = field(default_factory=list)
+    top_level_paragraphs: list[Paragraph] = field(default_factory=list)
+    remainders: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -101,6 +126,8 @@ class LawData:
             legal_area=d.get("legal_area", ""),
             sections=[_section_from_dict(s) for s in d.get("sections", [])],
             top_level_articles=[_article_from_dict(a) for a in d.get("top_level_articles", [])],
+            top_level_paragraphs=[_paragraph_from_dict(p) for p in d.get("top_level_paragraphs", [])],
+            remainders=d.get("remainders", []),
         )
 
 
