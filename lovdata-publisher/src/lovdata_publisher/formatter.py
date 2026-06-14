@@ -25,7 +25,7 @@ def refid_to_filepath(refid: str) -> str:
 def _list_group_renumbered(items: list) -> bool:
     nums = []
     for item in items:
-        m = re.match(r"^(\d+)\.", item.get("marker") or "")
+        m = re.fullmatch(r"(\d+)\.", item.get("marker") or "")
         if not m:
             return False
         nums.append(int(m.group(1)))
