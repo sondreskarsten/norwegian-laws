@@ -38,25 +38,11 @@ That diff is real, reachable via `git log -p -- lover/lov-1998-07-17-56.md` once
 The most recently published lover and forskrifter from Norsk Lovtidend, auto-updated daily when Lovdata publishes new content:
 
 <!-- AI_SUMMARY_START -->
-*🤖 AI-generated summary (GitHub Models) · 2026-06-13*
+*🤖 AI-generated summary (GitHub Models) · 2026-06-14*
 
-Det har vært en rekke lov- og forskriftsendringer. Endringene omfatter alt fra oppdateringer i eksisterende lover til vedtak av nye forskrifter som regulerer ulike sektorer, inkludert helse, transport, miljø, arbeidsliv og fiskeri.
+- Publisert endringsforskrift til regnskapslovgivningen for livsforsikringsforetak.  
 
-Nyeste publiserte lover og forskrifter:
-
-- **lov/2025-12-22-127**: Endrer husleieloven (§1.17). Justis- og beredskapsdepartementet.
-- **lov/2025-12-22-126**: Endrer helsepersonelloven (§3), pasientjournalloven (§42), og helseregisterloven (§43). Helse- og omsorgsdepartementet.
-- **lov/2025-12-22-117**: Endrer pensjonslover og folketrygdloven (4 dokumenter). Arbeids- og inkluderingsdepartementet.
-- **lov/2025-12-22-115**: Endrer straffeloven (§28) og barnevernsloven (§97). Barne- og familiedepartementet.
-- **forskrift/2026-05-04-716**: Endrer forskriften om plantevernmidler. Landbruks- og matdepartementet.
-- **forskrift/2026-04-30-694**: Endrer forskriften om prøving og godkjenning av plantesorter. Landbruks- og matdepartementet.
-- **forskrift/2025-12-17-2717**: Endrer verkstedforskriften. Samferdselsdepartementet.
-- **forskrift/2025-12-17-2716**: Endrer forskriften om fartsskriververksteder. Samferdselsdepartementet.
-- **forskrift/2025-12-17-2681**: Endrer forskriften om periodisk kontroll av kjøretøy. Samferdselsdepartementet.
-- **forskrift/2025-12-09-2491**: Endrer forskrifter om eksport- og fiskeeksport (2 dokumenter). Nærings- og fiskeridepartementet.
-- **forskrift/2025-12-19-2928**: Endrer narkotikaforskriften. Helse- og omsorgsdepartementet.
-
-Dette er et utdrag. Se originalt dokument for fullstendig oversikt.
+- **forskrift/2024-11-01-2610**: Endrer forskrift om årsregnskap for livsforsikringsforetak (finansdepartementet).
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->

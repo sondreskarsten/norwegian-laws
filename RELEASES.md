@@ -1,5 +1,14 @@
 # Release notes
 
+## 2026-06-14
+
+*🤖 AI-generated summary (GitHub Models)*
+
+- Publisert endringsforskrift til regnskapslovgivningen for livsforsikringsforetak.  
+
+- **forskrift/2024-11-01-2610**: Endrer forskrift om årsregnskap for livsforsikringsforetak (finansdepartementet).
+
+
 ## 2026-06-13
 
 *🤖 AI-generated summary (GitHub Models)*
