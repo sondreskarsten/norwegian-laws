@@ -22,10 +22,23 @@ def refid_to_filepath(refid: str) -> str:
     return f"lover/{refid.replace('/', '-')}.md"
 
 
+def _list_group_renumbered(items: list) -> bool:
+    nums = []
+    for item in items:
+        m = re.match(r"^(\d+)\.", item.get("marker") or "")
+        if not m:
+            return False
+        nums.append(int(m.group(1)))
+    return len(nums) >= 2 and nums != list(range(nums[0], nums[0] + len(nums)))
+
+
 def _render_list_items(items: list, depth: int, lines: list) -> None:
     indent = "  " * depth
+    escape = _list_group_renumbered(items)
     for item in items:
         marker = item.get("marker") or "-"
+        if escape:
+            marker = "- " + marker.replace(".", "\\.")
         paras = item.get("paragraphs", [])
         head = paras[0].get("text", "") if paras else ""
         lines.append(f"{indent}{marker} {head}".rstrip())
