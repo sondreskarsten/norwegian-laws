@@ -54,6 +54,16 @@ def parse_frontmatter(path: Path) -> dict:
     return out
 
 
+def committed_sist_endret(path: Path) -> str | None:
+    r = subprocess.run(
+        ["git", "show", f"HEAD:{path}"], capture_output=True, text=True,
+    )
+    if r.returncode != 0:
+        return None
+    m = re.search(r'^sist-endret:\s*"?(.*?)"?\s*$', r.stdout, flags=re.MULTILINE)
+    return m.group(1) if m else None
+
+
 def main() -> None:
     changes = get_changes()
     if not changes:
@@ -64,13 +74,19 @@ def main() -> None:
         if not p.exists():
             continue
         fm = parse_frontmatter(p)
+        sist = fm.get("sist-endret", "").strip('"')
+        if kind == "modified" and committed_sist_endret(p) == sist:
+            continue
         entry = {
             "refid": fm.get("refid", str(p)),
             "tittel": fm.get("tittel", "").strip('"'),
             "departement": fm.get("departement", "").strip('"'),
-            "sist-endret": fm.get("sist-endret", "").strip('"'),
+            "sist-endret": sist,
         }
         (new if kind == "new" else mod).append(entry)
+
+    if not new and not mod:
+        return
 
     lines = ["# Endringer i denne kjøringen\n"]
     used = len(lines[0]) + 1
