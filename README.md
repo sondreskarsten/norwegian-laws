@@ -9,7 +9,7 @@
 <p>
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
-  <img alt="Coverage" src="https://img.shields.io/badge/coverage-4%2C204_documents-2780e3">
+  <img alt="Coverage" src="https://img.shields.io/badge/coverage-4%2C232_documents-2780e3">
   <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C775-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C627-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
@@ -24,8 +24,8 @@
 + #### § 1-2a. Regnskapspliktige med plikt til å utarbeide bærekraftsrapportering
 + 
 + (1) Bestemmelsene i §§ 2-3 til 2-8 gjelder for følgende regnskapspliktige:
-+ - 1. store foretak…
-+ - 2. små og mellomstore foretak som er noterte foretak…
++ 1. aksjeselskaper,
++ 2. allmennaksjeselskaper,
   
 - ## Kapittel 2 Årsberetning
 + ## Kapittel 2 Årsberetning og bærekraftsrapportering
@@ -172,7 +172,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 
 | | |
 |---|---|
-| 📜 **Complete coverage** | All 783 formal laws + 3,421 central regulations |
+| 📜 **Complete coverage** | All 794 formal laws + 3,438 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,627 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 16 ministry feeds |
 | 🕰️ **Backdated git history** | 38,775 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 13,700+ per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
@@ -180,7 +180,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2001`–`v2027`) |
 | 🤝 **Machine-readable** | Markdown + YAML frontmatter, plus [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) for programmatic access |
 | 🆓 **Open data + open code** | NLOD 2.0 (Lovdata data) · MIT (code) |
-| 🔄 **Updated weekly** | Automated pull from Lovdata API every Sunday |
+| 🔄 **Updated daily** | Automated pull from Lovdata API every day |
 
 ---
 
@@ -202,7 +202,7 @@ flowchart LR
 
 Two Python packages connected by a snapshot directory: `lovdata-loader` downloads and parses Lovdata's XML; `lovdata-publisher` formats Markdown, generates Quarto chapters, builds Atom feeds, and writes the backdated git history via `git fast-import`.
 
-GitHub Actions runs the pipeline weekly and deploys to GitHub Pages.
+GitHub Actions runs the pipeline daily and deploys to GitHub Pages.
 
 ---
 
@@ -226,7 +226,7 @@ sist-endret-ikrafttredelse: "2026-01-01"
 
 The body preserves Lovdata's full structure: del, kapittel, paragraph, ledd, list items, and amendment footnotes. Cross-references between laws (`§ 1-2 første ledd`) become clickable links in the rendered HTML.
 
-For programmatic discovery, [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) lists all 4,204 documents with metadata, common abbreviations, ELI URIs, feed paths, and per-law `amendments` counts (so you can sort by how active a law is when picking what to monitor).
+For programmatic discovery, [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) lists all 4,232 documents with metadata, common abbreviations, ELI URIs, feed paths, and per-law `amendments` counts (so you can sort by how active a law is when picking what to monitor).
 
 ---
 
@@ -255,7 +255,7 @@ git clone -b law-history https://github.com/sondreskarsten/norwegian-laws.git
 
 ## Disclaimer
 
-**This is not legal advice and not an authoritative source.** For binding legal text, always use [lovdata.no](https://lovdata.no). The pipeline parses Lovdata's open data with best-effort accuracy and a test suite covering 56 cases, but cannot guarantee zero discrepancies from the official text.
+**This is not legal advice and not an authoritative source.** For binding legal text, always use [lovdata.no](https://lovdata.no). The pipeline parses Lovdata's open data with best-effort accuracy, a 135-case test suite, and a CI completeness gate that verifies over 99.9% token coverage against the source XML (catching dropped sections or unmarked list items) — but cannot guarantee zero discrepancies from the official text.
 
 This is an unofficial project, not affiliated with Lovdata or the Norwegian government.
 
