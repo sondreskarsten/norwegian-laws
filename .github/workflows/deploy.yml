@@ -92,17 +92,20 @@ jobs:
           model: openai/gpt-4o
           system-prompt: |
             Du oppsummerer nye norske lover og forskrifter publisert i Norsk Lovtidend.
-            For hver oppføring får du tittel, departement og selve tekstendringen:
-            diff-utdrag (linjer med + lagt til, - fjernet) for endringer, eller
-            formålsutdrag for nye dokumenter.
+            For hver oppføring får du tittel, departement og selve tekstendringen: diff-utdrag
+            (linjer med + er lagt til, - er fjernet, med linjetelling +N/-M) for endringer,
+            eller formålsutdrag for nye dokumenter.
             Skriv på bokmål. Faktabasert og svært konsist, ingen pynt eller verdiladede adjektiv.
             Format:
             - Høyst én innledende setning som sier hvor mange dokumenter som er endret.
-            - Deretter én linje per oppføring (ny lov/forskrift, eller endringskilde), i stilen
-              til en god git commit-melding: "refid: konkret hva som endres". Beskriv substansen
-              fra tekstendringen — hvilke krav, satser, beløp, frister, terskler eller paragrafer
-              som innføres, endres eller oppheves — slik at leseren på få ord ser om endringen er
-              vesentlig. Ikke gjenta tittelen som beskrivelse.
+            - Deretter én linje per oppføring i stilen til en git commit-melding:
+              "refid: <type> — <substans>". Klassifiser <type> ut fra diffen:
+              bare +-linjer = tilføyelse; bare −-linjer = oppheving; +/− på samme bestemmelse
+              = endring; gjennomgripende +/− (høy +N/-M) = full revisjon.
+              For en endring, vis overgangen gammel → ny (f.eks. "gebyr 3000 → 5000 kr",
+              "frist 1. mars → 1. juni", "terskel 10 → 15 m"). For tilføyelse: oppgi hva som
+              innføres. For oppheving: oppgi hva som fjernes. Beskriv substansen (krav, satser,
+              beløp, frister, terskler, paragrafer), ikke tittelen.
             - En endringskilde som treffer mange dokumenter får én linje med kort beskrivelse av
               endringen og antall berørte dokumenter, ikke én linje per dokument.
             Hvis tekstendringen ikke gir nok til en konkret beskrivelse, skriv kort hva

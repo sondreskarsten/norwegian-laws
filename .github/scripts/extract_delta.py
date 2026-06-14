@@ -69,20 +69,25 @@ FRONTMATTER_FIELD = re.compile(
 )
 
 
-def diff_excerpt(path: Path, max_chars: int = 700) -> str:
+def diff_excerpt(path: Path, max_chars: int = 800) -> tuple[str, int, int]:
     r = subprocess.run(
         ["git", "diff", "HEAD", "--", str(path)], capture_output=True, text=True,
     )
-    out = []
+    out, added, removed = [], 0, 0
     for ln in r.stdout.splitlines():
         if ln.startswith(("+++", "---", "@@", "diff ", "index ")):
             continue
-        if ln[:1] in "+-":
-            body = ln[1:].strip().replace("\\.", ".")
-            if not body or FRONTMATTER_FIELD.match(body):
-                continue
-            out.append(ln[:1] + " " + body)
-    return "\n".join(out)[:max_chars]
+        if ln[:1] not in "+-":
+            continue
+        body = ln[1:].strip().replace("\\.", ".")
+        if not body or FRONTMATTER_FIELD.match(body):
+            continue
+        if ln[:1] == "+":
+            added += 1
+        else:
+            removed += 1
+        out.append(ln[:1] + " " + body)
+    return "\n".join(out)[:max_chars], added, removed
 
 
 def purpose_excerpt(path: Path, max_chars: int = 500) -> str:
@@ -165,9 +170,11 @@ def main() -> None:
                 block.append(f"    - {e['refid']} — {e['tittel']}")
             if len(group) > MAX_EXAMPLES_PER_GROUP:
                 block.append(f"    - _… og {len(group) - MAX_EXAMPLES_PER_GROUP} til_")
-            excerpt = diff_excerpt(group[0]["path"])
+            excerpt, n_add, n_del = diff_excerpt(group[0]["path"])
             if excerpt:
-                block.append("    Tekstendring (utdrag fra ett dokument):")
+                block.append(
+                    f"    Tekstendring (+{n_add}/-{n_del} linjer, utdrag fra ett dokument):"
+                )
                 block.extend(f"    > {dl}" for dl in excerpt.splitlines())
             block_len = sum(len(l) + 1 for l in block)
             if used + block_len > MAX_DELTA_CHARS:
