@@ -64,6 +64,46 @@ def committed_sist_endret(path: Path) -> str | None:
     return m.group(1) if m else None
 
 
+FRONTMATTER_FIELD = re.compile(
+    r'^(refid|tittel|korttittel|departement|sist-endret|ikrafttredelse|dato|type):'
+)
+
+
+def diff_excerpt(path: Path, max_chars: int = 700) -> str:
+    r = subprocess.run(
+        ["git", "diff", "HEAD", "--", str(path)], capture_output=True, text=True,
+    )
+    out = []
+    for ln in r.stdout.splitlines():
+        if ln.startswith(("+++", "---", "@@", "diff ", "index ")):
+            continue
+        if ln[:1] in "+-":
+            body = ln[1:].strip().replace("\\.", ".")
+            if not body or FRONTMATTER_FIELD.match(body):
+                continue
+            out.append(ln[:1] + " " + body)
+    return "\n".join(out)[:max_chars]
+
+
+def purpose_excerpt(path: Path, max_chars: int = 500) -> str:
+    text = path.read_text(encoding="utf-8")
+    if text.startswith("---\n"):
+        try:
+            text = text[text.index("\n---\n", 4) + 5:]
+        except ValueError:
+            pass
+    out, total = [], 0
+    for ln in text.splitlines():
+        s = re.sub(r'^[-*]\s+', '', ln.strip()).replace("\\.", ".")
+        if not s or s.startswith(("#", "*", "<!--", "|", "---", ">")):
+            continue
+        out.append(s)
+        total += len(s) + 1
+        if total > max_chars:
+            break
+    return " ".join(out)[:max_chars]
+
+
 def main() -> None:
     changes = get_changes()
     if not changes:
@@ -82,6 +122,7 @@ def main() -> None:
             "tittel": fm.get("tittel", "").strip('"'),
             "departement": fm.get("departement", "").strip('"'),
             "sist-endret": sist,
+            "path": p,
         }
         (new if kind == "new" else mod).append(entry)
 
@@ -98,11 +139,16 @@ def main() -> None:
             line = f"- **{e['refid']}** — {e['tittel']}"
             if e["departement"]:
                 line += f"  _[{e['departement']}]_"
-            if used + len(line) + 1 > MAX_DELTA_CHARS // 2:
+            block = [line]
+            excerpt = purpose_excerpt(e["path"])
+            if excerpt:
+                block.append(f"    > {excerpt}")
+            block_len = sum(len(l) + 1 for l in block)
+            if used + block_len > MAX_DELTA_CHARS // 2:
                 lines.append(f"- _… og {len(new) - i} til_")
                 break
-            lines.append(line)
-            used += len(line) + 1
+            lines.extend(block)
+            used += block_len
         lines.append("")
 
     if mod:
@@ -119,6 +165,10 @@ def main() -> None:
                 block.append(f"    - {e['refid']} — {e['tittel']}")
             if len(group) > MAX_EXAMPLES_PER_GROUP:
                 block.append(f"    - _… og {len(group) - MAX_EXAMPLES_PER_GROUP} til_")
+            excerpt = diff_excerpt(group[0]["path"])
+            if excerpt:
+                block.append("    Tekstendring (utdrag fra ett dokument):")
+                block.extend(f"    > {dl}" for dl in excerpt.splitlines())
             block_len = sum(len(l) + 1 for l in block)
             if used + block_len > MAX_DELTA_CHARS:
                 rest_groups = len(sources) - i

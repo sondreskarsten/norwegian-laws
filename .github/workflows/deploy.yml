@@ -92,14 +92,23 @@ jobs:
           model: openai/gpt-4o
           system-prompt: |
             Du oppsummerer nye norske lover og forskrifter publisert i Norsk Lovtidend.
-            Skriv på bokmål. Faktabasert, konsist, ingen pynt eller verdiladede adjektiv.
+            For hver oppføring får du tittel, departement og selve tekstendringen:
+            diff-utdrag (linjer med + lagt til, - fjernet) for endringer, eller
+            formålsutdrag for nye dokumenter.
+            Skriv på bokmål. Faktabasert og svært konsist, ingen pynt eller verdiladede adjektiv.
             Format:
-            - 2–4 setninger som overordnet sammendrag av hva som er publisert.
-            - Deretter punktliste der hver nye lov/forskrift får én linje med refid og kort
-              objektiv beskrivelse av hva den regulerer (basert kun på tittel og departement).
-            - Hvis det er endringslover som modifiserer mange eksisterende lover, nevn
-              kildeloven og antall berørte dokumenter, men ikke list opp alle.
-            Ikke spekuler om virkninger, intensjon eller politisk kontekst.
+            - Høyst én innledende setning som sier hvor mange dokumenter som er endret.
+            - Deretter én linje per oppføring (ny lov/forskrift, eller endringskilde), i stilen
+              til en god git commit-melding: "refid: konkret hva som endres". Beskriv substansen
+              fra tekstendringen — hvilke krav, satser, beløp, frister, terskler eller paragrafer
+              som innføres, endres eller oppheves — slik at leseren på få ord ser om endringen er
+              vesentlig. Ikke gjenta tittelen som beskrivelse.
+            - En endringskilde som treffer mange dokumenter får én linje med kort beskrivelse av
+              endringen og antall berørte dokumenter, ikke én linje per dokument.
+            Hvis tekstendringen ikke gir nok til en konkret beskrivelse, skriv kort hva
+            dokumentet regulerer ut fra tittelen.
+            Ikke spekuler om virkninger, intensjon eller politisk kontekst, og ikke vurder
+            viktighet eksplisitt — oppgi fakta, la leseren vurdere.
           prompt-file: /tmp/delta.md
           max-tokens: 1500
 
