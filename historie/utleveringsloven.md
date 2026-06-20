@@ -31,6 +31,13 @@ refid: "lov/1975-06-13-39"
 > Til fremme av undersøkelsen og for å sikre utlevering kan de tvangsmidler som er nevnt i straffeprosessloven kapitler 14, 15, 15 a, 16, 16 a, 16 b og 16 d, samt båndlegging etter politiloven § 17 g, anvendes i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket.
 >
 
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 15 nr. 1 første punktum skal lyde:*
+
+> Til fremme av undersøkelsen og for å sikre utlevering kan de tvangsmidler som er nevnt i straffeprosessloven kapitler 14, 15, 15 a, 15 b, 16, 16 a, 16 b og 16 d, samt båndlegging etter politiloven § 17 g, anvendes i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket.
+>
+
 ## § 16
 
 ### 2004-06-25 — lov/2004-06-25-52
@@ -78,6 +85,13 @@ refid: "lov/1975-06-13-39"
 *§ 20 første ledd første punktum skal lyde:*
 
 > Når en person i fremmed stat er siktet, tiltalt eller domfelt for en straffbar handling som kan begrunne utlevering etter denne lov, kan tvangsmidler etter straffeprosessloven kapitler 14, 15, 15 a, 16, 16 a, 16 b og 16 d, samt båndlegging etter politiloven § 17 g, anvendes overfor ham i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket, såframt kompetent myndighet i den fremmede stat ber om det før utleveringsbegjæring er framsatt.
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 20 nr. 1 første punktum skal lyde:*
+
+> Når en person i fremmed stat er siktet, tiltalt eller domfelt for en straffbar handling som kan begrunne utlevering etter denne lov, kan tvangsmidler etter straffeprosessloven kapitler 14, 15, 15 a, 15 b, 16, 16 a, 16 b og 16 d, samt båndlegging etter politiloven § 17 g, anvendes overfor ham i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket, såframt kompetent myndighet i den fremmede stat ber om det før utleveringsbegjæring er framsatt.
 >
 
 ## § 23 a
@@ -137,6 +151,13 @@ refid: "lov/1975-06-13-39"
 *§ 24 første ledd første og nytt annet punktum skal lyde:*
 
 > Til bruk for straffesak i fremmed stat kan det på begjæring bestemmes at tvangsmidler som nevnt i straffeprosessloven kapitler 15, 15 a, 16, 16 a, 16 b, 16 d og 17, skal kunne anvendes på samme måte som i saker om lovbrudd av tilsvarende art som forfølges her i riket. Båndlegging etter politiloven § 17 g kan også bestemmes anvendt til bruk i sak i fremmed stat når saken har sin bakgrunn i regler som oppfyller tilsvarende folkerettslige forpliktelser som båndleggingsreglene.
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 24 nr. 1 første punktum skal lyde:*
+
+> Til bruk for straffesak i fremmed stat kan det på begjæring bestemmes at tvangsmidler som nevnt i straffeprosessloven kapitler 15, 15 a, 15 b, 16, 16 a, 16 b, 16 d og 17, skal kunne anvendes på samme måte som i saker om lovbrudd av tilsvarende art som forfølges her i riket.
 >
 
 ## § 24 a

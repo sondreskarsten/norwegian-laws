@@ -290,6 +290,15 @@ refid: "lov/1935-06-07-2"
 > For at en rett som er stiftet ved avtale, skal kunne stå seg ved tvangsakkord, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før åpningen av forhandling om tvangsakkord.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 23 skal lyde:*
+
+> § 23.For at en rett som er stiftet ved avtale, skal kunne stå seg overfor konkurs, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før konkursåpningen. Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf. lov om fordringshavernes dekningsrett § 1-4 femte ledd, må rettsstiftelsen være registrert senest dagen før åpningen av rekonstruksjonsforhandlingen. Når rettsstiftelsen er foretatt med samtykke av rekonstruksjonsutvalget, er likevel dens gyldighet overfor konkursboet ikke avhengig av tinglysing.For at en rett som er stiftet ved avtale, skal kunne stå seg ved en rekonstruksjonsforhandling, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før åpningen av rekonstruksjonsforhandlingen.
+>
+> § 23.
+>
+
 ## § 24
 
 ### 2014-06-20 — lov/2014-06-20-45
@@ -357,6 +366,13 @@ refid: "lov/1935-06-07-2"
 *§ 32 nytt femte ledd skal lyde:*
 
 > For nedkvittering, prioritetsvikelse eller andre disposisjoner som begrenser omfanget eller verdien av en tinglyst heftelse, gjelder første til fjerde ledd tilsvarende.
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 32 tredje ledd annet punktum skal lyde:*
+
+> En pantheftelse som er falt bort ved rekonstruksjonsforhandling, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres en stadfestelseskjennelse etter konkursloven § 49, jf. § 56, som viser at heftelsen er falt bort.
 >
 
 ## § 34

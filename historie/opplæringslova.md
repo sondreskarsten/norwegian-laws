@@ -107,6 +107,30 @@ refid: "lov/2023-06-09-30"
 > vesentleg forstyrrar opplæringa til andre elevar
 >
 
+## § 14-4
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 14-4 fjerde ledd skal lyde:*
+
+> I område med låg busetnad og store avstandar kan fylkeskommunen tilby opplæring på vidaregåande trinn 1 og vidaregåande trinn 2 på yrkesfaglege utdanningsprogram med bruk av fjernundervisning i meir enn berre delar av opplæringa, så framt fjernundervisninga blir gitt i kombinasjon med praksis og jamlege fysiske samlingar. I slike tilfelle kan elevane få fjernundervisning andre stader enn på skolen, så framt fjernundervisninga blir mottatt i eigna lokale. Dei andre krava for bruk av fjernundervisning i denne paragrafen gjeld framleis.
+>
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 14-4 nåværende fjerde og femte ledd blir femte og nytt sjette ledd.*
+
+## § 15-2
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 15-2 skal lyde:*
+
+> § 15-2.Hovudmål på kvar grunnskoleKommunen gir forskrift om kva skriftspråk som skal vere hovudmålet på kvar skole, anten bokmål eller nynorsk. Skolen skal bruke hovudmålet i den skriftlege opplæringa og i den skriftlege kommunikasjonen med elevane og foreldra.I samband med skifte av hovudmål på ein grunnskole eller når eit fleirtal i kommunestyret eller minst 1/4 av dei røysteføre i kommunen krev det, skal det haldast rådgivande røysting. Nytt vedtak om hovudmål kan ikkje gjerast før det har gått fem år. Departementet kan gi forskrift om røysterett, ansvar for røystinga og organisering av røystinga.
+>
+> § 15-2.Hovudmål på kvar grunnskole
+>
+
 ## § 17-3
 
 ### 2024-06-14 — lov/2024-06-14-36
@@ -147,6 +171,13 @@ refid: "lov/2023-06-09-30"
 > § 13-1 om bortvising og §§ 13-3 til 13-5 om skadeførebygging
 >
 
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 22-2 første ledd bokstav t skal lyde:*
+
+> § 25-5 om register over barn i grunnskoleopplæring
+>
+
 ## § 23-4
 
 ### 2024-03-08 — lov/2024-03-08-9
@@ -172,6 +203,15 @@ refid: "lov/2023-06-09-30"
 *§ 24-4 første ledd skal lyde:*
 
 > Dersom barnevernstenesta har overtatt omsorga etter barnevernsloven §§ 5-1 eller § 4-2 eller vedtatt flytteforbod etter barnevernsloven § 4-3, har barnevernstenesta og fosterforeldra eller institusjonen der eleven bur, rett til å ta avgjerder på vegner av eleven. Dersom barnevernstenesta meiner at vurderingane til fosterforeldra eller institusjonen ikkje er til det beste for barnet, skal fosterforeldra eller institusjonen rette seg etter avgjerda til barnevernstenesta.
+>
+
+## § 25-1
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 25-1 fjerde ledd skal lyde:*
+
+> Ved skolebyte etter andre ledd og ved overgang til vidaregåande opplæring etter tredje ledd kan skolane også dele personopplysningar for å leggje til rette opplæringa til ein elev dersom eleven eller foreldra tillèt det. Ved skolebyte skal skolen dele personopplysningar som er nødvendige for å førebyggje oppførsel som i vesentleg grad går utover skolemiljøet til medelevane eller arbeidsmiljøet til dei tilsette.
 >
 
 ## § 25-2
@@ -201,6 +241,15 @@ refid: "lov/2023-06-09-30"
 > § 25-5.Register over barn i grunnskoleopplæringDepartementet kan etablere eit register med opplysningar om barn i grunnskoleopplæringa på individnivå for bruk i statistikk og forsking om grunnopplæringa. Registeret kan innehalde personopplysningar knytte til fødselsnummer eller andre personeintydige identifikasjonsnummer.Formålet med registeret er å behandle personopplysningar som grunnlag for statistikk og forsking for å få fram kunnskap om effektar av tiltak og om utviklinga i sektoren.Registeret kan berre behandle dei personopplysningane som er nødvendige å behandle for formålet med registeret. Personopplysningane i registeret kan ikkje brukast til formål som er uforeinlege med formål nemnde i andre ledd. Personopplysningane kan ikkje brukast som grunnlag for enkeltvedtak eller andre individuelle avgjerder eller tiltak retta mot dei registrerte.Personopplysningar frå registeret kan ikkje utleverast til andre enn Statistisk sentralbyrå.Departementet kan gi forskrift om registeret og om plikt for kommunar til, utan hinder av teieplikt, å innrapportere dei opplysningane som er nødvendige for å oppnå formålet med registeret. Departementet kan vidare gi forskrift om behandlinga av personopplysningar, mellom anna om behandlingsansvar, kva opplysningar som kan behandlast og om kven, og tilgang til, vidarebehandling og utlevering av personopplysningar.
 >
 > § 25-5.Register over barn i grunnskoleopplæring
+>
+
+## § 29-1
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 29-1 nytt fjerde ledd skal lyde:*
+
+> Departementet kan opprette ei klagenemnd som skal behandle klager på enkeltvedtak om godkjenning av yrkeskvalifikasjonar frå utlandet, og kan gi forskrift om klagenemnda og saksbehandlinga i nemnda.
 >
 
 ## (annet)
@@ -247,3 +296,7 @@ refid: "lov/2023-06-09-30"
 
 > Departementet kan gi forskrift om retten til skolefritidsordning, gratis skolefritidsordning, moderasjonsordningar og innhald i og oppgåver for skolefritidsordninga.
 >
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*Nåværende § 22-2 første ledd bokstav t blir § 22-2 første ledd ny bokstav u.*

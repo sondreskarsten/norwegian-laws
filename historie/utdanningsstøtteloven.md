@@ -80,6 +80,17 @@ refid: "lov/2005-06-03-37"
 > I tjenestemannssaker og klagesaker etter offentleglova er departementet klageinstans.
 >
 
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 18 første ledd andre punktum skal lyde:*
+
+> Departementet kan gi forskrift om klagenemnda og om saksbehandlingen i nemnda.
+>
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 18 andre og tredje ledd oppheves.*
+
 ## § 23
 
 ### 2015-05-22 — lov/2015-05-22-34

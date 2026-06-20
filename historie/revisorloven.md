@@ -417,3 +417,10 @@ refid: "lov/2020-11-20-128"
 >
 > § 12-4 b.Uregelmessigheter
 >
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*I lov 20. november 2020 nr. 128 om revisjon og revisorer skal § 14-5 annet ledd annet punktum lyde:*
+
+> Foretak kan ilegges overtredelsesgebyr når foretaket eller noen som har handlet på foretakets vegne, forsettlig eller uaktsomt har overtrådt bestemmelsene nevnt i første ledd.
+>

@@ -32,6 +32,17 @@ refid: "lov/2010-05-28-16"
 > ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er over 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
 >
 
+### 2026-06-19 — lov/2026-06-19-46
+
+*Nåværende bokstav g til i blir bokstav f til h.*
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten skal § 50 tredje ledd fjerde punktum lyde:*
+
+> Bestemmelsen gjelder tilsvarende for opplysninger innhentet etter straffeprosessloven §§ 216 m og 216 o, og for opplysninger innhentet etter straffeprosessloven §§ 202 c, 202 e og 202 f så langt den passer.
+>
+
 ## § 10
 
 ### 2013-06-21 — lov/2013-06-21-82
@@ -87,6 +98,15 @@ refid: "lov/2010-05-28-16"
 *§ 14 nytt annet ledd skal lyde:*
 
 > Krav om forskriftsregulering gjelder ikke for sammenstilling av opplysninger fra registre som er regulert i politiregisterforskriften dersom behandlingen følger reglene som gjelder for kilderegisteret.
+>
+
+## § 18
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 18 tredje ledd skal lyde:*
+
+> Den som er ansatt hos, eller utfører tjeneste eller arbeid for databehandler, og som får tilgang til opplysninger som er taushetsbelagt i henhold til denne loven, skal være underlagt taushetsplikt. Omfanget av taushetsplikten skal fremgå av den behandlingsansvarliges avtale med databehandler. Det kan kreves uttømmende og utvidet politiattest av enhver som er ansatt hos eller utfører tjeneste eller arbeid for databehandler. Databehandler plikter på forespørsel å oppgi hvem som får tilgang til de taushetsbelagte opplysningene.
 >
 
 ## § 2
@@ -174,11 +194,27 @@ refid: "lov/2010-05-28-16"
 > Forvaltningsvirksomhet og etterretningsvirksomhet i Politiets sikkerhetstjeneste er likevel omfattet av loven.
 >
 
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 3 fjerde ledd nytt annet punktum skal lyde:*
+
+> Loven gjelder også når opplysninger behandles for testing og utvikling av informasjonssystemer som skal brukes innenfor lovens virkeområde.
+>
+
 ## § 31
 
 ### 2013-06-21 — lov/2013-06-21-82
 
 *§ 31 tredje ledd annet punktum oppheves.*
+
+## § 33
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 33 første ledd skal lyde:*
+
+> Når det finnes rimelig og ikke medfører uforholdsmessig ulempe for andre interesser, kan det bestemmes at opplysninger i det enkelte tilfelle gis til bruk for forskning uten hinder av taushetsplikten i § 23.
+>
 
 ## § 35
 
@@ -243,6 +279,10 @@ refid: "lov/2010-05-28-16"
 
 > overføring til behandling i konfliktråd, jf. straffeprosessloven § 71 a,overføring til barneverntjenesten,dom med straffutmålingsfrafall,tap av retten til å føre motorvogn mv., jf. vegtrafikkloven § 24 a annet ledd, § 33 nr. 1 og 2, og § 35 første ledd og tap av retten til å drive persontransport mot vederlag (kjøreseddel), jf. yrkestransportloven § 37 f annet ledd, ellerinndragning.
 >
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 40 nr. 3 bokstav f oppheves.*
 
 ## § 42
 
@@ -447,6 +487,15 @@ refid: "lov/2010-05-28-16"
 > Kongen gir i forskrift nærmere regler om behandling av opplysninger etter denne bestemmelsen, herunder om utlevering, utsatt sletting, tilgangsbegrensning og kontroll.
 >
 
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 65 a annet ledd nr. 3 og nytt nr. 4 skal lyde:*
+
+> etterforskning av lovbrudd som nevnt i politiloven § 17 b, jf. straffeprosessloven 224
+>
+> testing og utvikling av informasjonssystemer som skal brukes til behandling av åpent tilgjengelig informasjon til etterretningsformål, jf. denne bestemmelsens første ledd.
+>
+
 ## § 66
 
 ### 2019-06-21 — lov/2019-06-21-50
@@ -523,6 +572,15 @@ refid: "lov/2010-05-28-16"
 *§ 69 første ledd nr. 16 skal lyde:*
 
 > når og hvordan retting, sperring og sletting skal gjennomføres, jf. §§ 50 og 51, herunder om at sletting av opplysninger i politiets registre kan skje når fare for liv og helse eller tungtveiende personvernhensyn tilsier det, jf. arkivlova § 13 annet ledd.
+>
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 69 første ledd nr. 26 og nytt nr. 27 skal lyde:*
+
+> særregler for militærpolitiets behandling av opplysninger,
+>
+> behandling av opplysninger i forbindelse med testing og utvikling av informasjonssystemer.
 >
 
 ## § 7

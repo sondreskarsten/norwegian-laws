@@ -55,6 +55,13 @@ refid: "lov/2000-11-24-82"
 > Kommunen kan sette et slikt forbud til side dersom forbudet etter en avveining av de interessene som gjør seg gjeldende, må anses som urimelig. Kommunen kan gi tillatelse til at det tas en rimelig avgift for ferdsel med motorfartøy i kanaler og vassdrag som er tilrettelagt for dette formål.
 >
 
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 16 første ledd bokstav d skal lyde:*
+
+> motorisert ferdsel på åpent eller islagt vassdrag når det skjer i samsvar med lov 19. juni 2026 nr. 53 om motorferdsel i utmark og vassdrag og grunneieren ikke har nedlagt forbud etter annet ledd.
+>
+
 ## § 19
 
 ### 2012-01-27 — lov/2012-01-27-11
@@ -151,6 +158,17 @@ refid: "lov/2000-11-24-82"
 *§ 29 annet ledd første punktum skal lyde:*
 
 > Endringer i et manøvreringsreglement som gir adgang til å variere vannstanden eller vannføringen, skal sendes på høring etter forvaltningslovens regler om forskrifter og kunngjøres etter reglene i plan- og bygningsloven § 12-10 første ledd første og annet punktum, annet og fjerde ledd, jf. § 5-2.
+>
+
+## § 36
+
+### 2026-06-19 — lov/2026-06-19-37
+
+*§ 36 skal lyde:*
+
+> § 36.(forskrifter om krav til sikkerhet)Vassdragsmyndigheten kan gi forskrift for å fremme sikkerhet mot skade på mennesker, miljø og eiendom, herunder om informasjonssikkerhet og taushetsplikt.
+>
+> § 36.(forskrifter om krav til sikkerhet)
 >
 
 ## § 45

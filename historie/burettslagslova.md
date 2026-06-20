@@ -643,3 +643,12 @@ refid: "lov/2003-06-06-39"
 ### 2025-12-19 — lov/2025-12-19-114
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 6. juni 2003 nr. 39 om burettslag skal § 6-11 lyde:*
+
+> § 6-11.Rettsvern ved konkurs og rekonstruksjonsforhandling(1) For at ein rett som byggjer på frivillig disposisjon, skal ha rettsvern i konkurs, må retten vere registrert seinast dagen før konkursopninga. Likevel har rettserverv som nemnde i §§ 6-6 tredje og fjerde ledd og § 6-7 rettsvern i konkurs utan omsyn til om og når ervervet er registrert.(2) Har det vore opna rekonstruksjonsforhandling rett før konkursen, jf. dekningsloven § 1-4 femte ledd, må retten vere registrert seinast dagen før opninga av rekonstruksjonsforhandlinga. Når retten er stifta med samtykke av rekonstruksjonsutvalet, er likevel rettsvernet i høve til konkursbuet ikkje avhengig av registrering.(3) For at ein frivillig stifta rett skal ha rettsvern ved rekonstruksjonsforhandling, må retten vere registrert seinast dagen før opninga av rekonstruksjonsforhandlinga.
+>
+> § 6-11.Rettsvern ved konkurs og rekonstruksjonsforhandling
+>

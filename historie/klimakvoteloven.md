@@ -87,6 +87,10 @@ refid: "lov/2004-12-17-99"
 > Kapittel 5. Forvaltningstiltak og sanksjoner
 >
 
+### 2026-06-19 — lov/2026-06-19-54
+
+*Overskriften til § 5 skal lyde:*
+
 ## § 1
 
 ### 2007-06-29 — lov/2007-06-29-93
@@ -581,6 +585,21 @@ refid: "lov/2004-12-17-99"
 > maritim transportaktivitet til og fra EØS-området.
 >
 
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 2 annet ledd skal lyde:*
+
+> Loven gjelder også for følgende aktiviteter:luftfartsaktiviteter innenfor og til og fra EØS-områdetøvrige internasjonale luftfartsaktivitetermaritim transportaktivitet innenfor og til og fra EØS-områdettransport av klimagasser innenfor og til og fra EØS-området
+>
+> luftfartsaktiviteter innenfor og til og fra EØS-området
+>
+> øvrige internasjonale luftfartsaktiviteter
+>
+> maritim transportaktivitet innenfor og til og fra EØS-området
+>
+> transport av klimagasser innenfor og til og fra EØS-området
+>
+
 ## § 2 a
 
 ### 2024-01-01 — lov/2023-12-15-91
@@ -772,6 +791,13 @@ refid: "lov/2004-12-17-99"
 > Kongen kan gi forskrift om hvilke luftfartøysoperatører og skipsoperatører som skal forholde seg til norske administrerende myndigheter.
 >
 
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 3 fjerde ledd skal lyde:*
+
+> Kongen kan gi forskrift om hvilke luftfartøysoperatører, skipsoperatører og anleggsoperatører som skal forholde seg til norske administrerende myndigheter.
+>
+
 ## § 3 a
 
 ### 2019-06-21 — lov/2019-06-21-53
@@ -865,6 +891,13 @@ refid: "lov/2004-12-17-99"
 > § 4 a.(tillatelse og krav til godkjent overvåkingsplan)
 >
 
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 4 a første punktum skal lyde:*
+
+> For anleggsoperatører og brenselsoperatører kreves tillatelse etter forurensningsloven § 11 annet ledd for aktiviteter som nevnt i forskrift gitt i medhold av § 3, med unntak for aktiviteter som kun har krav til måling og rapportering.
+>
+
 ## § 5
 
 ### 2007-06-29 — lov/2007-06-29-93
@@ -910,6 +943,13 @@ refid: "lov/2004-12-17-99"
 *§ 5 annet ledd første punktum skal lyde:*
 
 > Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for søknad om tildeling av vederlagsfrie kvoter og for kontroll av rapporterte klimagassutslipp etter § 15, blant annet om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse.
+>
+
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 5 første ledd første punktum skal lyde:*
+
+> Kongen kan gi forskrift om søknader om tillatelse etter forurensningsloven § 11 annet ledd og om søknader om tildeling av vederlagsfrie kvoter.
 >
 
 ## § 6

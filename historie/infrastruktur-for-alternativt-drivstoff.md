@@ -5,6 +5,15 @@ refid: "lov/2020-06-19-95"
 
 # Endringshistorikk: Lov om infrastruktur for alternativt drivstoff
 
+## (annet)
+
+### 2026-06-19 — lov/2026-06-19-63
+
+**
+
+> Loven gjelder fra den tid Kongen bestemmer. Fra samme tid oppheves lov 19. juni 2020 nr. 95 om infrastruktur for alternativt drivstoff.
+>
+
 ## § 1
 
 ### 2023-06-16 — lov/2023-06-16-74

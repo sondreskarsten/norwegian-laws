@@ -44,3 +44,12 @@ refid: "lov/2025-04-25-12"
 
 > Begrensningen som nevnt i forvaltningsloven §§ 18 til 19 gjelder likevel.
 >
+
+## § 28
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 28 første ledd skal lyde:*
+
+> Innkrevingsmyndigheten gjennomfører utleggstrekk etablert av namsfogdene og utleggstrekk etablert av den selv etter bestemmelsene i kapittelet her.
+>

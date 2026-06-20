@@ -1431,6 +1431,17 @@ refid: "lov/1994-06-24-39"
 > Gjenåpning kan bare finne sted for så vidt gjelder retten til ansvarsbegrensning.
 >
 
+## § 25
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 25 skal lyde:*
+
+> § 25.Rettsvern ved konkurs og rekonstruksjonsforhandlingFor at en frivillig stiftet rett skal ha rettsvern i konkurs, må retten være innført i dagboken senest dagen før konkursåpningen, bortsett fra de tilfeller som er nevnt i § 24 tredje, fjerde og femte ledd.Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf dekningsloven § 1-4 femte ledd, må retten være innført i dagboken senest dagen før åpningen av rekonstruksjonsforhandlingen. Når retten er stiftet med samtykke av rekonstruksjonsutvalget, er likevel dens rettsvern overfor konkursboet ikke avhengig av registrering.For at en rett som er stiftet ved avtale, skal kunne stå seg ved en rekonstruksjonsforhandling, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 24 tredje, fjerde og femte ledd være innført i dagboken senest dagen før åpningen av rekonstruksjonsforhandlingen.
+>
+> § 25.Rettsvern ved konkurs og rekonstruksjonsforhandling
+>
+
 ## § 28
 
 ### 2020-04-17 — lov/2020-04-17-28
@@ -1449,6 +1460,13 @@ refid: "lov/1994-06-24-39"
 > § 29.Slettelse av heftelserEn heftelse skal slettes av Skipsregisteret når det blir registrert bevis for at den er falt bort eller for at den berettigede samtykker i slettelse.For at en pantobligasjon som er omsetningsgjeldsbrev, skal kunne slettes må, når ikke annet er bestemt ved lov, kvittering eller samtykke være skrevet på dokumentet eller dette må leveres inn til registerføreren til påtegning om slettelse. Dette gjelder likevel ikke når det i dokumentet er tatt forbehold om at det ikke kan overdras. Dette gjelder heller ikke når den berettigede etter Skipsregisteret er en bank som har konsesjon som bank etter finansforetaksloven § 2-7, en bank med filial i Norge og hovedsete i en annen EØS-stat som har rett til å drive virksomhet som bank i Norge etter finansforetaksloven § 5-2, eller et foretak som nevnt i finansforetaksloven § 1-6 første ledd og banken eller foretaket ber om sletting uten fremleggelse av originaldokumentet. I slike tilfeller er banken eller foretaket ansvarlig for ethvert tap som måtte oppstå som følge av at dokumentet verken tilintetgjøres eller gis påtegning om at det er slettet av Skipsregisteret.Er det umulig eller uforholdsmessig vanskelig å få kvittering eller samtykke, kan registerføreren, når dokumentet innleveres og det sannsynliggjøres at heftelsen er falt bort eller ikke består, på hjemmelshaverens forlangende kunngjøre en oppfordring til mulige rettighetshavere om å melde seg innen 2 måneder. Melder ingen seg, slettes heftelsen.En heftelse som er falt bort ved tvangssalg eller annet salg etter tvangsfullbyrdelsesloven, eller ved salg etter konkursloven § 117a, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres skjøte som viser at heftelsen er falt bort. Tilsvarende gjelder når det godtgjøres at en heftelse er falt bort ved tvangssalg av skipet i utlandet, forutsatt at tvangssalget etter norske interlegale rettsregler er bindende for rettighetshaveren.En pantheftelse som er falt bort ved tvangsakkord, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres en stadfestelseskjennelse etter konkursloven § 52, jf. § 53, som viser at heftelsen er falt bort.Er det bevis som forlanges registrert, ikke tilstrekkelig til at heftelsen kan slettes, skal registrering nektes.For nedkvittering, prioritetsvikelse eller andre disposisjoner som begrenser omfanget eller verdien av en registrert heftelse, gjelder første, annet, fjerde og sjette ledd tilsvarende.Enhver heftelse som er over 20 år gammel, kan slettes etter oppfordring som nevnt i tredje ledd når det er sannsynlig at den er opphørt.Heftelse som åpenbart er opphørt, skal registerføreren slette av eget tiltak.I tilfelle av uriktig slettelse gjelder § 27 tilsvarende.
 >
 > § 29.Slettelse av heftelser
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 29 femte ledd skal lyde:*
+
+> En pantheftelse som er falt bort ved en rekonstruksjonsforhandling, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres en stadfestelseskjennelse etter konkursloven § 49, jf. § 56, som viser at heftelsen er falt bort.
 >
 
 ## § 31
@@ -2232,6 +2250,13 @@ refid: "lov/1994-06-24-39"
 *§ 95 tredje ledd skal lyde:*
 
 > For realregistrerte skip som er arrestert etter tvisteloven § 33-2 første ledd eller holdt tilbake etter tvisteloven kapittel 34, kan det gis pålegg som nevnt i annet ledd og for øvrig iverksettes tiltak som der bestemt dersom retten finner det nødvendig for å sikre arresten.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 95 første ledd første punktum skal lyde:*
+
+> Arrest i skip kan bare besluttes dersom skipet befinner seg i eller ventes å komme til rettskretsen, eller namsfogddistriktet dersom namsfogden skal utpeke arrestgjenstanden.
 >
 
 ## § 98

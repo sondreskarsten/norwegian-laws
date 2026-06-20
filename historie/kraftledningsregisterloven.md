@@ -33,6 +33,12 @@ refid: "lov/1927-07-01-1"
 > Tinglysingsloven §§ 2 og 3 og kapittel 2 gjelder tilsvarende så langt de passer. Kongen kan i forskrift fravike bestemmelsene i tinglysingsloven.
 >
 
+## § 14
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 14 oppheves.*
+
 ## § 16
 
 ### 2013-12-13 — lov/2013-12-13-131

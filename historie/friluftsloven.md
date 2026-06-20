@@ -94,6 +94,13 @@ refid: "lov/1957-06-28-16"
 > Det samme gjelder ferdsel med ride- eller kløvhest, kjelke, tråsykkel eller liknende på veg eller sti i utmark og over alt i utmark på fjellet, såfremt ikke kommunen med samtykke av eieren eller brukeren har forbudt slik ferdsel på nærmere angitte strekninger.
 >
 
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 2 tredje ledd skal lyde:*
+
+> Om motorferdsel i utmark gjelder også lov 19. juni 2026 nr. 53 om motorferdsel i utmark og vassdrag.
+>
+
 ## § 20
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -244,6 +251,15 @@ refid: "lov/1957-06-28-16"
 > Under ferdsel i utmark kan allmennheten høste ville nøtter som skal spises på stedet og plukke og ta med seg ville blomster, planter, bær og vill sopp, samt røtter av ville urter, når det skjer hensynsfullt og med tilbørlig varsomhet. For multer på multebærland i Nordland, Troms og Finnmark gjelder dette bare når eier eller bruker ikke har nedlagt forbud mot plukking, og kun for multer som skal spises på stedet.
 >
 > For multer på multebærland i Nordland, Troms og Finnmark gjelder første ledd bare når eier eller bruker ikke har nedlagt uttrykkelig forbud mot plukking. Uavhengig av et slikt uttrykkelig forbud kan allmennheten alltid plukke multer som spises på stedet.
+>
+
+## § 6
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 6 andre ledd skal lyde:*
+
+> Om ferdsel på innsjøer og elver (åpent eller islagt vassdrag) gjelder reglene i lov 24. november 2000 nr. 82 om vassdrag og grunnvann og lov 19. juni 2026 nr. 53 om motorferdsel i utmark og vassdrag.
 >
 
 ## § 9

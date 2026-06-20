@@ -32,6 +32,15 @@ refid: "lov/1981-03-13-6"
 
 *Nåværende § 18 fjerde ledd blir nytt femte ledd.*
 
+## § 11
+
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 11 annet ledd skal lyde:*
+
+> En operatør som omfattes av klimakvoteloven § 4 a, skal etter søknad innvilges tillatelse etter denne loven så fremt han godtgjør at han er i stand til å overvåke og rapportere utslippene på en tilfredsstillende måte. Kongen kan i tillatelsen sette vilkår i medhold av § 16. Det skal ikke settes noen utslippsgrenseverdi i tillatelsen. Utslippene er lovlige etter denne loven så langt det innleveres kvoter i henhold til plikten i klimakvoteloven § 4.
+>
+
 ## § 18
 
 ### 2023-06-16 — lov/2023-06-16-61
@@ -39,6 +48,13 @@ refid: "lov/1981-03-13-6"
 *§ 18 fjerde ledd skal lyde:*
 
 > Tillatelse kan endres når dette er påkrevet etter regler som gjennomfører direktiv 2010/75/EU om industriutslipp jf. EØS-avtalen vedlegg XX nr. 1f.
+>
+
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 18 annet ledd skal lyde:*
+
+> Tillatelse gitt i medhold av § 11 annet ledd kan tilbakekalles eller endres dersom operatørens aktiviteter helt eller delvis ikke lenger omfattes av klimakvoteloven § 3.
 >
 
 ## § 2
@@ -167,6 +183,23 @@ refid: "lov/1981-03-13-6"
 > Kommunen skal ha anlegg for opplag eller behandling av husholdningsavfall og kloakkslam og ha plikt til å ta imot slikt avfall og slam. Forurensningsmyndigheten kan i forskrift eller i det enkelte tilfellet fastsette at kommunen også skal ha anlegg for og plikt til å ta imot spesialavfall og næringsavfall. Forurensningsmyndigheten kan likeledes fastsette nærmere krav til avfallsanlegget.
 >
 
+## § 3
+
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 3 annet ledd skal lyde:*
+
+> Med de begrensninger som følger av folkeretten gjelder lovenfor forurensningskilder og avfall og kilder for avfall som befinner seg her i riket,for forurensninger som truer med å inntreffe her i riket,for forurensningskilder som befinner seg i eller forurensning som truer med å inntreffe i Norges økonomiske sone dersom forurensningskilden er norsk fartøy eller innretning, eller forøvrig i den utstrekning Kongen bestemmer,for undersøkelse etter og utvinning og utnytting av undersjøiske naturforekomster på den norske del av kontinentalsokkelen, herunder avslutning av slik virksomhet, jf. § 4. For annen aktivitet på kontinentalsokkelen og utenfor norske jurisdiksjonsområder gjelder loven i den utstrekning Kongen bestemmer.
+>
+> for forurensningskilder og avfall og kilder for avfall som befinner seg her i riket,
+>
+> for forurensninger som truer med å inntreffe her i riket,
+>
+> for forurensningskilder som befinner seg i eller forurensning som truer med å inntreffe i Norges økonomiske sone dersom forurensningskilden er norsk fartøy eller innretning, eller forøvrig i den utstrekning Kongen bestemmer,
+>
+> for undersøkelse etter og utvinning og utnytting av undersjøiske naturforekomster på den norske del av kontinentalsokkelen, herunder avslutning av slik virksomhet, jf. § 4. For annen aktivitet på kontinentalsokkelen og utenfor norske jurisdiksjonsområder gjelder loven i den utstrekning Kongen bestemmer.
+>
+
 ## § 30
 
 ### 2004-07-01 — lov/2003-04-11-23
@@ -291,6 +324,15 @@ refid: "lov/1981-03-13-6"
 *§ 48 a første ledd skal lyde:*
 
 > Statsforvalteren kan føre tilsyn med lovligheten av kommunens oppfyllelse av plikter pålagt i eller i medhold av §§ 9, 22, 23, 24, 26, 29, 30, 31, 32 a, 33, 34, 35, 37, 43, 44, 46, 47, 48 og 82 og kommunens internkontroll etter kommuneloven § 25-1 knyttet til disse pliktene.
+>
+
+## § 5
+
+### 2026-06-19 — lov/2026-06-19-54
+
+*§ 5 annet ledd skal lyde:*
+
+> For forurensning fra det enkelte transportmiddel gjelder det som er fastsatt i eller i medhold av produktkontrolloven, vegtrafikkloven, skipssikkerhetsloven, havne- og farvannsloven, luftfartsloven og jernbaneloven i stedet for bestemmelsene i denne loven. Loven gjelder likevel for klimagassutslipp fra aktiviteten transport av klimagasser som er omfattet av klimakvoteloven § 3.
 >
 
 ## § 52 c

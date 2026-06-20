@@ -314,6 +314,13 @@ refid: "lov/1915-08-13-5"
 
 *§§ 219 a, 219 b og 221 til 234 oppheves.*
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 70 annet ledd nr. 3 lyde:*
+
+> ikke være under rekonstruksjonsforhandling eller konkursbehandling eller i konkurskarantene,
+>
+
 ## § 1
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -1004,6 +1011,13 @@ refid: "lov/1915-08-13-5"
 > Kongen kan ved forskrift gi nærmere regler om elektronisk forkynning, herunder om hvilke krav som skal stilles til den tekniske løsningen for at den skal anses som betryggende.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 163 a annet ledd skal lyde:*
+
+> Følgende myndigheter kan foreta forkynning etter første ledd: de alminnelige domstoler, jordskifterettene, Forbrukerklageutvalget, Husleietvistutvalget, Parkeringsklagenemnda, fylkesnemndene for barnevern og sosiale saker, påtalemyndigheten, namsfogder og statsforvaltere.
+>
+
 ## § 163 b
 
 ### 2021-06-04 — lov/2021-06-04-55
@@ -1420,6 +1434,13 @@ refid: "lov/1915-08-13-5"
 > Hvis de lovbrud, som er nævnt i § 200 og §§ 205-212, er begaat ved en anden ret end den, som har hovedsaken til behandling, kan det overlates til den at ilægge erstatningsansvar.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 213 fjerde ledd skal lyde:*
+
+> Spørsmål om ansvar i anledning av en sak om tvangsfullbyrdelse eller midlertidig sikring for namsfogden kan bringes inn for tingretten.
+>
+
 ## § 217
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -1779,6 +1800,13 @@ refid: "lov/1915-08-13-5"
 *§ 27 sjette ledd skal lyde:*
 
 > Den alminnelige namsmannen er sekretariat for forliksrådene i sitt distrikt. Kongen kan ved forskrift gi regler om forholdet mellom forliksrådet og sekretariatet.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 27 sjette ledd første punktum skal lyde:*
+
+> Namsfogden er sekretariat for forliksrådene i sitt distrikt.
 >
 
 ## § 28
@@ -2465,6 +2493,20 @@ refid: "lov/1915-08-13-5"
 > Med politimesterens samtykke kan det oppnevnes hjelpestevnevitner fra andre lensmannskontorer og politistasjoner i namsmannsdistriktet.
 >
 > 2.I lov 21. februar 1930 om skifte gjøres følgende endringer:
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 63 første ledd skal lyde:*
+
+> Namsfogden er hovedstevnevitne i sitt distrikt.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 63 annet ledd tredje punktum skal lyde:*
+
+> Med politimesterens samtykke kan det oppnevnes hjelpestevnevitner fra andre politistasjoner i namsfogddistriktet.
 >
 
 ## § 63 a

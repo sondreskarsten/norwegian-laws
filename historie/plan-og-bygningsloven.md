@@ -320,6 +320,15 @@ refid: "lov/2008-06-27-71"
 > Der det ikke gjelder eller er stilt krav om reguleringsplan, jf. § 12-1 andre ledd, skal kommuneplanens arealdel følges ved avgjørelse av søknad om tillatelse eller ved foreståelsen av tiltak etter reglene i §§ 20-2 til 20-5.
 >
 
+## § 11-7
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 11-7 andre ledd nr. 5 ny bokstav c skal lyde:*
+
+> løyper for motorferdsel på snødekt mark og islagt vassdrag og tilhørende rastesoner.
+>
+
 ## § 11-8
 
 ### 2014-12-19 — lov/2014-12-19-91
@@ -423,6 +432,13 @@ refid: "lov/2008-06-27-71"
 *§ 11-9 nr. 5 skal lyde:*
 
 > tomtestørrelse, byggegrenser, utbyggingsvolum og funksjonskrav, herunder om universell utforming, leke-, ute- og oppholdsplasser, skilt og reklame, parkering, frikjøp av parkeringsplasser etter § 28-7 og oppdeling av boenheter til hybler,
+>
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 11-9 ny nr. 9 skal lyde:*
+
+> motorferdsel i områder angitt i motorferdselloven § 18 og § 25, når og hvordan slik ferdsel kan skje, og hvilke transport- og fremkomstmidler som kan benyttes.
 >
 
 ## § 11-10
@@ -549,6 +565,15 @@ refid: "lov/2008-06-27-71"
 > Er bygge- og anleggstiltak som hjemles i plan fremmet med bakgrunn i privat reguleringsforslag etter § 12-11, ikke satt i gang senest ti år etter at planen er vedtatt, skal kommunen før avgjørelse av byggesøknad for nye utbyggingsområder etter planen, påse at planen i nødvendig grad er oppdatert. Tiltakshaver er ansvarlig for å skaffe nødvendige opplysninger og dokumentasjon for kommunens vurdering.
 >
 
+## § 12-5
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 12-5 andre ledd nr. 5 skal lyde:*
+
+> landbruks-, natur- og friluftsformål samt reindrift, samlet eller hver for seg, herunder områder for jordbruk, skogbruk, reindrift, naturvern, jordvern, særlige landskapshensyn, vern av kulturmiljø eller kulturminne, friluftsområder, seterområder, og landbruks-, natur- og friluftsområder der kommuneplanens arealdel tillater spredt bolig-, fritidsbolig- og næringsvirksomhet, samt løyper for motorferdsel på snødekt mark, islagte vassdrag og tilhørende rastesoner, og øvingsområder for obligatorisk kjøreopplæring på snødekt mark og islagte vassdrag,
+>
+
 ## § 12-6
 
 ### 2021-06-18 — lov/2021-06-18-130
@@ -602,6 +627,15 @@ refid: "lov/2008-06-27-71"
 > hvilke arealer som skal være til offentlige formål eller fellesareal,
 >
 > krav om at boliger på angitte tomter skal organiseres som borettslag.
+>
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 12-7 nr. 14 og ny nr. 15 skal lyde:*
+
+> hvilke arealer som skal være til offentlige formål eller fellesareal,
+>
+> motorferdsel i områder angitt i motorferdselloven § 18 og § 25, når og hvordan slik ferdsel kan skje, og hvilke transport- og fremkomstmidler som kan benyttes.
 >
 
 ## § 12-8
@@ -843,6 +877,13 @@ refid: "lov/2008-06-27-71"
 *§ 16-2 første ledd skal lyde:*
 
 > Kommunestyret kan foreta ekspropriasjon til gjennomføring av reguleringsplan. Kommunestyrets adgang til å foreta ekspropriasjon i medhold av reguleringsplan bortfaller dersom ikke kommunestyrets vedtak om ekspropriasjon er gjort innen 10 år etter at planen er kunngjort etter § 12-12 femte ledd.
+>
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 16-2 nytt syvende ledd skal lyde:*
+
+> Ekspropriasjon av grunn som er regulert til løyper for motorferdsel på snødekt mark, islagt vassdrag og tilhørende rastesoner etter § 12-5 nr. 5, er heller ikke tillatt.
 >
 
 ## § 16-3

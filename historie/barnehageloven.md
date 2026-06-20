@@ -336,6 +336,10 @@ refid: "lov/2005-06-17-64"
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
 
+### 2026-06-19 — lov/2026-06-19-59
+
+*I del I om endringer i lov 17. juni 2005 nr. 64 om barnehager oppheves endringen i § 14 b.*
+
 ## § 1
 
 ### 2008-12-19 — lov/2008-12-19-119
@@ -986,6 +990,13 @@ refid: "lov/2005-06-17-64"
 > Første og andre ledd gjelder ikke for barnehager som er unntatt fra kravet om å være et selvstendig rettssubjekt etter § 7 a tredje ledd eller forskrift gitt i medhold av § 7 a fjerde ledd.
 >
 
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 23 a andre ledd skal lyde:*
+
+> Barnehagen kan likevel drive eller eie tilleggsvirksomhet som er nært knyttet til barnehagevirksomheten og utgjør en mindre del av den totale virksomheten. Forbudet i første ledd er heller ikke til hinder for at elever som går første trinn i en skole godkjent etter privatskolelova § 2-1, mottar opplæring etter privatskolelova i en barnehage dersom dette er i tråd med skolens godkjente læreplan etter privatskolelova § 2-3 første ledd. Departementet kan gi forskrift om hvilken tilleggsvirksomhet som er tillatt etter første punktum og krav til regnskap, revisjon, rapportering og dokumentasjon for tilleggsvirksomhet etter første og andre punktum.
+>
+
 ## § 23 b
 
 ### 2022-06-10 — lov/2022-06-10-40
@@ -1028,6 +1039,13 @@ refid: "lov/2005-06-17-64"
 > Barnehagens eier plikter å stille barnehagen til disposisjon for øvingsopplæring for studenter som tar barnehagelærerutdanning.
 >
 
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 24 nytt fjerde ledd skal lyde:*
+
+> Departementet kan opprette en klagenemnd som skal behandle klager på enkeltvedtak om godkjenning av yrkeskvalifikasjoner fra utlandet, og kan gi forskrift om klagenemnda og saksbehandlingen i nemnda.
+>
+
 ## § 25
 
 ### 2025-06-20 — lov/2025-06-20-100
@@ -1035,6 +1053,13 @@ refid: "lov/2005-06-17-64"
 *§ 25 nytt tredje ledd skal lyde:*
 
 > Kommunen kan gi forskrift om pedagogisk bemanning og annen relevant kompetanse utover det departementet har fastsatt i forskrift etter andre ledd.
+>
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 25 nytt tredje ledd skal lyde:*
+
+> Klager på enkeltvedtak om godkjenning av yrkeskvalifikasjoner fra utlandet kan behandles av klagenemnd etter reglene i § 24 fjerde ledd.
 >
 
 ## § 26
@@ -1483,6 +1508,17 @@ refid: "lov/2005-06-17-64"
 > ordinære barnehager med til sammen færre enn tretti barn, eller
 >
 > familiebarnehager med til sammen færre enn ti barn.
+>
+
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 7 a tredje ledd skal lyde:*
+
+> Første ledd gjelder ikke for åpne barnehager og ikke for barnehageeiere som alene, sammen med nærstående eller selskap i samme konsern eierordinære barnehager med til sammen færre enn tretti barn, ellerfamiliebarnehager med til sammen inntil ti barn.
+>
+> ordinære barnehager med til sammen færre enn tretti barn, eller
+>
+> familiebarnehager med til sammen inntil ti barn.
 >
 
 ## § 7 b

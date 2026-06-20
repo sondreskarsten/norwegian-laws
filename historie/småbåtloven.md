@@ -84,6 +84,15 @@ refid: "lov/1998-06-26-47"
 
 *§ 14 oppheves.*
 
+## § 28 a
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 28 a fjerde ledd første punktum skal lyde:*
+
+> Finner politiet at føreren eller eieren av en fritidsbåt, eller den som på eierens vegne har rådigheten over fritidsbåten, med skjellig grunn er mistenkt for et straffbart forhold som kan medføre tap av retten til å føre båtførerbevispliktig fritidsbåt, kan en polititjenesteperson midlertidig tilbakekalle føreretten ved å ta beslag av båtførerbeviset eller ved å ilegge kjøreforbud til person som ikke har plikt til å ha båtførerbevis.
+>
+
 ## § 33
 
 ### 2004-06-25 — lov/2004-06-25-52
@@ -190,6 +199,15 @@ refid: "lov/1998-06-26-47"
 *§ 41 a femte ledd skal lyde:*
 
 > Tvangsmulkt kreves inn av Innkrevingsmyndigheten.
+>
+
+## § 42
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 42 fjerde ledd skal lyde:*
+
+> Polititjenesteperson eller tolltjenesteperson som ellers ikke har foreleggsmyndighet, kan gis myndighet til å utferdige forenklet forelegg.
 >
 
 ## § 5

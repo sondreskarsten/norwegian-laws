@@ -71,6 +71,26 @@ refid: "lov/1969-06-13-26"
 > 12. Dersom retten av særlige grunner fastsetter erstatning etter denne bestemmelsen til terminbeløp, jf. § 3-9, skal terminbeløpet fastsettes til et antall G og slik at det tas hensyn til den skadelidtes skattesituasjon.
 >
 
+### 2026-06-19 — lov/2026-06-19-47
+
+*§ 3-2 a tredje ledd første til fjerde punktum skal lyde:*
+
+> Inntektstap etter det året den skadelidte fyller 21 år, erstattes med 63,4 G og utmåles dette året. Dersom utmålingen likevel først skjer et senere år, fastsettes erstatningen til 64 G. I den grad det er sannsynliggjort at erstatningen skal plasseres som bankinnskudd etter vergemålsloven § 51 første ledd, erstattes inntektstap som nevnt i første og annet punktum med henholdsvis 77,2 G og 77,3 G. Er den skadelidtes ervervsuførhet lavere enn 100 prosent, reduseres erstatningen etter første, annet og tredje punktum forholdsmessig.
+>
+
+### 2026-06-19 — lov/2026-06-19-47
+
+*§ 3-2 a syvende ledd skal lyde:*
+
+> 5 G ved varig tap av evnen til å utføre en vesentlig del av tyngre hjemmearbeid, eller
+>
+> 10 G ved varig tap av evnen til å utføre en vesentlig del av også lettere hjemmearbeid.
+>
+
+### 2026-06-19 — lov/2026-06-19-47
+
+*§ 3-2 a nytt trettende ledd skal lyde:*
+
 ## § 3-3
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -198,3 +218,7 @@ refid: "lov/1969-06-13-26"
 ### 2017-06-21 — lov/2017-06-21-91
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2026-06-19 — lov/2026-06-19-47
+
+*Tredje ledd nåværende fjerde til åttende punktum blir femte til niende punktum.*

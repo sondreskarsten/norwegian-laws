@@ -142,6 +142,15 @@ refid: "lov/2005-06-17-85"
 > For anke over utmarksdomstolens avgjørelser gjelder lov 17. desember 1982 nr. 86 om rettsgebyr § 8.
 >
 
+## § 45
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 45 andre ledd skal lyde:*
+
+> For rettigheter som er fastslått i en rettskraftig dom fra utmarksdomstolen eller i en erklæring eller avtale i samsvar med Finnmarkskommisjonens konklusjoner, er offentligrettslige begrensninger i adgangen til å stifte eller overdra slike rettigheter ikke til hinder for at rettigheten tinglyses. Det betales ikke gebyr ved tinglysingen.
+>
+
 ## § 46
 
 ### 2007-02-27 — lov/2007-01-26-3

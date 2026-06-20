@@ -104,6 +104,15 @@ refid: "lov/2020-12-18-146"
 > (3) Har en kunde flere verger, disponerer de kontoen i fellesskap, med mindre de skriftlig har gitt melding om noe annet, statsforvalteren har besluttet at bare én av vergene skal disponere kontoen etter vergemålsloven § 18 fjerde ledd, eller en gaveyter eller arvelater har besluttet at gaven eller arven skal forvaltes på en bestemt måte, jf. vergemålsloven § 95.
 >
 
+## § 6-9
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 6-9 annet ledd annet punktum skal lyde:*
+
+> Det samme gjelder hvis kredittkunden har innledet gjeldsforhandlinger, har søkt om gjeldsforhandling etter gjeldsordningsloven for namsfogden eller det er åpnet konkurs i kredittkundens bo.
+>
+
 ## § 7-2
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -133,3 +142,7 @@ refid: "lov/2020-12-18-146"
 ### 2024-06-21 — lov/2024-06-21-41
 
 *9.I lov 18. desember 2020 nr. 146 om finansavtaler skal § 3-55 tredje ledd lyde:*
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 18. desember 2020 nr. 146 om finansavtaler skal § 6-3 fjerde ledd lyde:*

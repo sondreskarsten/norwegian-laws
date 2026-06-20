@@ -9916,6 +9916,13 @@ refid: "lov/1997-02-28-19"
 > Innkrevingsmyndigheten eller den Helsedirektoratet bestemmer, opptrer på vegne av staten ved tvangsforretning for namsmannen og annen rettslig inndriving og sikring av krav som skriver seg fra direktoratets forvaltning av kapittel 5 samt forhandlinger etter gjeldsordningsloven.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 21-11 a niende ledd skal lyde:*
+
+> Innkrevingsmyndigheten eller den Helsedirektoratet bestemmer, opptrer på vegne av staten ved tvangsforretning for namsfogden og annen rettslig inndriving og sikring av krav som skriver seg fra direktoratets forvaltning av kapittel 5 samt forhandlinger etter gjeldsordningsloven.
+>
+
 ## § 21-11 b
 
 ### 2023-03-03 — lov/2023-03-03-2
@@ -10208,6 +10215,17 @@ refid: "lov/1997-02-28-19"
 *§ 22-8 femte ledd skal lyde:*
 
 > Ved etterbetaling av en ytelse som etter loven kan medføre at overgangsstønad, pensjon eller omstillingsstønad etter kapittel 15, 17 eller 17 A settes ned, gjøres det fradrag i etterbetalingen når det er utbetalt overgangsstønad, pensjon eller omstillingsstønad som nevnt for samme tidsrom. Fradraget skal svare til det beløp som overgangsstønaden, pensjonen eller omstillingsstønaden skulle ha vært redusert med.
+>
+
+## § 22-9
+
+### 2026-06-19 — lov/2026-06-19-33
+
+*§ 22-9 skal lyde:*
+
+> § 22-9.KontingenttrekkI utbetalingen av sykepenger, foreldrepenger, svangerskapspenger, pleie- og opplæringspenger og omsorgspenger etter denne loven kan Arbeids- og velferdsetaten foreta trekk av fagforeningskontingent, herunder premie til kollektiv forsikring som er knyttet til medlemskap i fagforening, eller avgift til opplysnings- og utviklingsfond eller til lavtlønnsfond.Trekk av fagforeningskontingent i ytelser etter første ledd forutsetter at det er fastsatt regler om kontingenttrekk i tariffavtalen. Kontingenttrekk kan bare gjennomføres når det er inngått avtale om dette mellom Arbeids- og velferdsetaten og fagforeningen. Trekk av fagforeningskontingent i ytelser gjennomføres ikke når arbeidsgiver forskutterer ytelsen.Arbeidsgiver til den som har rett til ytelsen, skal sende nødvendige opplysninger om kontingenttrekk til Arbeids- og velferdsetaten.Arbeids- og velferdsetatens ansvar er begrenset til å gjennomføre kontingenttrekket og overføre beløpet til fagforeningens oppgitte konto.Departementet kan gi forskrift om gjennomføringen av paragrafen her.
+>
+> § 22-9.Kontingenttrekk
 >
 
 ## § 22-10

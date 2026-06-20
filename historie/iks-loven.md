@@ -15,6 +15,13 @@ refid: "lov/1999-01-29-6"
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 29. januar 1999 nr. 6 om interkommunale selskaper skal § 23 annet punktum lyde:*
+
+> Konkurs og rekonstruksjonsforhandling kan ikke åpnes i selskapet.
+>
+
 ## § 10
 
 ### 2023-06-02 — lov/2023-06-02-22

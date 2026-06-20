@@ -221,6 +221,21 @@ refid: "lov/2005-06-17-62"
 > (8) Når hensynet til helse, miljø og sikkerhet tilsier det, kan departementet i forskrift gi bestemmelser om at virksomheter som tilbyr renholdstjenester eller tjenester i forbindelse med vedlikehold og reparasjon av motorvogn, må godkjennes av Arbeidstilsynet, og om det nærmere innholdet i en slik godkjenningsordning. Når det stilles krav om slik godkjenning, vil det være ulovlig å benytte tjenester fra virksomheter uten godkjenning.
 >
 
+### 2026-06-19 — lov/2026-06-19-33
+
+*§ 4-1 sjuende ledd skal lyde:*
+
+> som pålegger bruk av HMS-kort for arbeidstakere innenfor bransjer der det er nødvendig eller hensiktsmessig for å ivareta arbeidstakernes helse, miljø og sikkerhet
+>
+> om oversiktslister over hvem som til enhver tid er sysselsatt på arbeidsplassen
+>
+> om at oppdragsgivere i kontrakt med oppdragstakere skal ta inn kontraktsvilkår som skal sikre at forskrifter om HMS-kort overholdes
+>
+> om at oppdragsgivere skal kontrollere at oppdragstakere overholder forskrifter om HMS-kort
+>
+> om at oppdragstakere skal utlevere den dokumentasjonen som er nødvendig for at en oppdragsgiver kan oppfylle kontrollplikten.
+>
+
 ## § 4-3
 
 ### 2023-06-16 — lov/2023-06-16-37

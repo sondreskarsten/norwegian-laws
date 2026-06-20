@@ -221,6 +221,12 @@ refid: "lov/2018-06-01-23"
 
 *§ 43 tredje ledd skal lyde:*
 
+## § 48
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*§ 48 nytt fjerde ledd skal lyde:*
+
 ## § 49
 
 ### 2025-05-27 — lov/2025-05-27-19
@@ -243,6 +249,10 @@ refid: "lov/2018-06-01-23"
 
 > For ileggelse av overtredelsesgebyr til rapporteringspliktige foretak gjelder forvaltningsloven § 46 første ledd første punktum.
 >
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*§ 49 første ledd skal lyde:*
 
 ## § 52
 

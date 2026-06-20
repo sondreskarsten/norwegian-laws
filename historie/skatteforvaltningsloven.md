@@ -21,6 +21,17 @@ refid: "lov/2016-05-27-14"
 > suppleringsskatt etter suppleringsskatteloven.
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 1-1 bokstav h skal lyde:*
+
+> særavgifter etter særavgiftsloven, unntatt dokumentavgift (særavgifter)
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 1-1 bokstav i oppheves.*
+
 ## § 2-1
 
 ### 2016-12-20 — lov/2016-12-20-120
@@ -60,6 +71,12 @@ refid: "lov/2016-05-27-14"
 >
 > Oljeskattekontoret og Klagenemnda for petroleumsskatt er myndigheter for skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5. Skattemyndighetene som nevnt i § 2-1 er myndighet for skatt på annen formue og inntekt etter petroleumsskatteloven.
 >
+
+## § 2-6
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 2-6 oppheves.*
 
 ## § 2-10
 
@@ -655,6 +672,38 @@ refid: "lov/2016-05-27-14"
 > (6) Skattemyndighetene kan utstede skattemeldinger med forhåndsutfylt informasjon som har betydning for fastsetting av skattegrunnlaget etter kapittel 9.
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 8-4 første ledd skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 8-4 andre ledd bokstav b skal lyde:*
+
+> registrerte importører av avgiftspliktige varer som skal brukes til råvarer, eller er til avgiftsfri bruk etter bestemmelsene i særavgiftsloven.
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 8-4 fjerde ledd nytt andre punktum skal lyde:*
+
+> Plikten til å levere skattemelding gjelder også den som bruker merket mineralolje og merket biodiesel til formål som ikke er fritatt for avgift etter særavgiftsloven § 7-5 første og andre ledd.
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 8-4 femte ledd skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 8-4 sjette ledd skal lyde:*
+
+## § 8-5
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 8-5 oppheves.*
+
 ## § 8-6
 
 ### 2016-12-20 — lov/2016-12-20-120
@@ -808,6 +857,10 @@ refid: "lov/2016-05-27-14"
 
 *§ 9-1 første ledd skal lyde:*
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 9-1 første og andre ledd skal lyde:*
+
 ## § 9-2
 
 ### 2016-12-20 — lov/2016-12-20-120
@@ -836,6 +889,10 @@ refid: "lov/2016-05-27-14"
 *§ 9-2 annet ledd skal lyde:*
 
 ### 2024-01-01 — lov/2024-01-12-7
+
+*§ 9-2 første ledd skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
 
 *§ 9-2 første ledd skal lyde:*
 
@@ -881,6 +938,13 @@ refid: "lov/2016-05-27-14"
 *§ 9-4 tredje ledd første punktum skal lyde:*
 
 > Departementet kan gi forskrift om hvordan opplysninger skal gis og leveringssted for endringsmelding og kan utforme endringsmeldinger.
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 9-4 første ledd første punktum skal lyde:*
+
+> Skattepliktige kan endre opplysninger i tidligere leverte skattemeldinger for formues- og inntektsskatt, svalbardskatt, petroleumsskatt, merverdiavgift, arbeidsgiveravgift, finansskatt på lønn og særavgifter unntatt dokumentavgift, engangsavgift på motorvogner mv., avgift på tunge kjøretøy og omregistreringsavgift ved levering av endringsmelding.
 >
 
 ## § 9-5
@@ -965,6 +1029,10 @@ refid: "lov/2016-05-27-14"
 
 > (3) Skattemyndighetene kan kreve at skattepliktig framstiller kjøretøy hos Statens vegvesen for kontroll av kjøretøyets registreringsforhold av hensyn til om riktig avgift er fastsatt.
 >
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 10-8 første ledd skal lyde:*
 
 ## § 10-9
 
@@ -1579,6 +1647,10 @@ refid: "lov/2016-05-27-14"
 ### 2025-12-22 — lov/2025-12-22-117
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-6 nytt femte ledd lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*Gjeldende § 8-4 sjette ledd blir nytt syvende ledd.*
 
 ## § 8
 

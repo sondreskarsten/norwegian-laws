@@ -5,6 +5,12 @@ refid: "lov/2004-07-02-64"
 
 # Endringshistorikk: Brukerromsloven
 
+## (annet)
+
+### 2026-06-19 — lov/2026-06-19-43
+
+*Noverande andre punktum blir nytt tredje punktum.*
+
 ## § 1
 
 ### 2009-06-19 — lov/2009-06-19-69
@@ -25,6 +31,13 @@ refid: "lov/2004-07-02-64"
 > Lovens formål er å legge til rette for etablering av ordning med brukerrom for inntak av narkotika (brukerromsordning).
 >
 > Brukerromsordningen skal bidra til økt verdighet for mennesker med langvarig narkotikaavhengighet ved å tilby hygieniske rammer for injisering av narkotika og motivere for mer skånsomme inntaksmåter. Videre skal brukerromsordningen bidra til økt helsemessig trygghet, blant annet forebygge infeksjoner og smitte og gi raskere hjelp ved overdoser, gjennom tilstedeværelse og tilsyn av helsepersonell. Formålet er også å bidra til økt mulighet for kontakt og samtaler mellom den enkelte bruker og hjelpeapparatet med sikte på tverrfaglig oppfølging og behandling.
+>
+
+### 2026-06-19 — lov/2026-06-19-43
+
+*§ 1 andre ledd første punktum skal lyde:*
+
+> Brukerromsordningen skal bidra til økt verdighet for mennesker med helseskadelig og risikofylt bruk av narkotika ved å tilby hygieniske rammer for inntak av narkotika og motivere for mest mulig skånsomt inntak.
 >
 
 ## § 2
@@ -60,6 +73,15 @@ refid: "lov/2004-07-02-64"
 > En brukerromsordning skal inneholde et injiseringsrom, fremmøterom og samtalerom. I tillegg skal brukerromsordningen ha tilgang til et behandlingsrom.
 >
 > Ordningen skal også inneholde et rom for inhalering av narkotika (inhaleringsrom).
+>
+
+### 2026-06-19 — lov/2026-06-19-43
+
+*§ 2 andre og tredje ledd skal lyde:*
+
+> En brukerromsordning skal inneholde et injiseringsrom, et inhaleringsrom, et fremmøterom og et samtalerom. I tillegg skal brukerromsordningen ha tilgang til et behandlingsrom.
+>
+> Departementet kan i en godkjenning etter § 3 eller ved endring av en slik godkjenning gjøre unntak fra kravene i andre ledd.
 >
 
 ## § 3
@@ -151,6 +173,13 @@ refid: "lov/2004-07-02-64"
 *§ 5 første ledd skal lyde:*
 
 > En kommune som etablerer en godkjent brukerromsordning, kan føre helseregister og behandle helseopplysninger som nevnt i helseregisterloven § 2 bokstav a og andre personopplysninger i den grad det er nødvendig for å oppfylle reglene gitt i eller i medhold av loven her. Registrering og annen behandling av opplysningene kan skje uten samtykke fra den registrerte.
+>
+
+### 2026-06-19 — lov/2026-06-19-43
+
+*§ 5 andre punktum skal lyde:*
+
+> Det samme gjelder en tjenesteyter som driver brukerrom etter avtale med kommunen.
 >
 
 ## § 6

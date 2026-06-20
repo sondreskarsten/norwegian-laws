@@ -933,6 +933,56 @@ refid: "lov/2005-06-17-90"
 > Pengekrav mot staten, en kommune, en fylkeskommune, et interkommunalt selskap, et regionalt helseforetak eller et helseforetak kan ikke sikres med arrest.
 >
 
+## § 33-5
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 33-5 første ledd fjerde og femte punktum skal lyde:*
+
+> Retten kan helt eller delvis overlate gjennomføringen til namsfogden i et hvilket som helst distrikt. Dersom retten overlater til namsfogden å bestemme formuesgodet, kan den bestemme hvilket formuesgode namsfogden fortrinnsvis skal søke etter.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 33-5 annet ledd første og annet punktum skal lyde:*
+
+> Om gjennomføringen av arrest gjelder tvangsfullbyrdelsesloven §§ 5-5 til 5-10, 5-13 til 5-16 og 5-19 til 5-22 og § 7-8 og § 7-9 annet ledd tilsvarende. Skal arrestgjenstand utpekes, gjelder også tvangsfullbyrdelsesloven §§ 7-17, 7-18 og 7-23.
+>
+
+## § 33-6
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 33-6 første ledd fjerde punktum skal lyde:*
+
+> Tvangsfullbyrdelsesloven § 7-9 sjette ledd og §§ 7-11 til 7-15 gjelder tilsvarende.
+>
+
+## § 33-7
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 33-7 annet ledd annet punktum skal lyde:*
+
+> Om etablering av rettsvern m.m. gjelder tvangsfullbyrdelsesloven § 7-19.
+>
+
+## § 34-4
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 34-4 første ledd fjerde og femte punktum skal lyde:*
+
+> Begjæring om gjennomføringstiltak som skal utføres av namsfogden, kan framsettes direkte for den namsfogden som utførelsen hører under. Framsettes begjæringen for retten, kan retten overlate til den namsfogden som utførelsen hører under, å utføre gjennomføringstiltak som krever at det holdes en forretning på annet sted enn rettens kontor.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 34-4 tredje ledd første punktum skal lyde:*
+
+> For forretninger for gjennomføring som holdes på annet sted enn rettens kontor, gjelder tvangsfullbyrdelsesloven §§ 5-5 til 5-10, 5-13 til 5-16 og 5-19 til 5-22 tilsvarende.
+>
+
 ## § 34-7
 
 ### 2007-09-01 — lov/2007-06-29-68

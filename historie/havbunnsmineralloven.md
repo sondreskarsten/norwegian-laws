@@ -31,3 +31,10 @@ refid: "lov/2019-03-22-7"
 >
 > § 9-16.Lønnsvilkår på skip
 >
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 22. mars 2019 nr. 7 om mineralvirksomhet på kontinentalsokkelen skal § 9-9 første ledd bokstav e lyde:*
+
+> den sikkerheten som rettighetshaveren plikter å stille etter § 9-2 er vesentlig svekket, selskapet eller sammenslutningen som innehar tillatelsen, oppløses, eller det åpnes rekonstruksjonsforhandling eller konkurs i selskapet eller sammenslutningen.
+>

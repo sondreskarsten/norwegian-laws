@@ -176,6 +176,15 @@ refid: "lov/2011-06-24-30"
 > Departementet kan gi nærmere forskrifter om den rådgivende enheten, blant annet om organisering og tjenestens innhold, inkludert formidling til og samhandling med andre tjenester og om kommunens behandling av opplysninger i slike saker.
 >
 
+## § 3-9 c
+
+### 2026-06-19 — lov/2026-06-19-43
+
+*§ 3-9 c første ledd andre punktum skal lyde:*
+
+> Denne enheten skal ha ansvaret for å møte personer når oppmøte for enheten er satt som vilkår for en bestemt strafferettslig reaksjon.
+>
+
 ## § 3-11
 
 ### 2022-06-10 — lov/2022-06-10-37
@@ -237,6 +246,13 @@ refid: "lov/2011-06-24-30"
 > § 5-6.Brukerrom
 >
 > Brukerromsordninger etablert i medhold av brukerromsloven er å anse som en kommunal helse- og omsorgstjeneste. Kommunen avgjør om den vil etablere en brukerromsordning. Kommunen kan ikke inngå avtale med private om drift av brukerromsordning.
+>
+
+### 2026-06-19 — lov/2026-06-19-43
+
+*§ 5-6 tredje punktum skal lyde:*
+
+> Kommunen kan ikke inngå avtale med andre private enn ideelle organisasjoner om drift av brukerromsordning.
 >
 
 ## § 5-11
@@ -628,4 +644,13 @@ refid: "lov/2011-06-24-30"
 > § 7-2 b.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
 >
 > § 7-2 b.Midlertidige unntak fra plikter
+>
+
+### 2026-06-19 — lov/2026-06-19-42
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 4-2 b lyde:*
+
+> § 4-2 b.Om medvirkningKommunen eller andre som yter tjenester etter loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+>
+> § 4-2 b.Om medvirkning
 >

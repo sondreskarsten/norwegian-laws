@@ -5,6 +5,12 @@ refid: "lov/2024-03-08-9"
 
 # Endringshistorikk: Universitets- og høyskoleloven
 
+## § 2-6
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 2-6 første ledd andre punktum oppheves.*
+
 ## § 3-1
 
 ### 2025-06-20 — lov/2025-06-20-101
@@ -58,6 +64,35 @@ refid: "lov/2024-03-08-9"
 > Kravene i likestillings- og diskrimineringsloven § 28 om representasjon av begge kjønn skal være oppfylt innen den enkelte gruppe.
 >
 
+## § 4-6
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 4-6 tredje ledd tredje punktum skal lyde:*
+
+> Styret selv kan bestemme at prorektor overtar dersom valgt rektor fratrer vervet.
+>
+
+## § 5-2
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 5-2 skal lyde:*
+
+> § 5-2.DelegeringStyret kan delegere avgjørelsesmyndigheten til andre ved institusjonen med mindre det er fastsatt i loven at styret selv skal ta avgjørelsen, eller det er andre særlige begrensninger i adgangen til å delegere.
+>
+> § 5-2.Delegering
+>
+
+## § 6-2
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 6-2 tredje ledd skal lyde:*
+
+> Private universiteter og høyskoler som mottar statstilskudd, skal kreve egenbetaling fra studenter som er statsborgere i land utenfor EØS eller Sveits. For studenter som er omfattet av § 2-6 andre ledd, bestemmer institusjonen selv om den vil ta egenbetaling.
+>
+
 ## § 6-6
 
 ### 2025-04-10 — lov/2025-04-10-11
@@ -65,6 +100,15 @@ refid: "lov/2024-03-08-9"
 *§ 6-6 første ledd skal lyde:*
 
 > Private universiteter og høyskoler som er små foretak etter regnskapsloven, skal følge reglene i regnskapsloven for mellomstore foretak. Unntaket fra revisjonsplikten i revisorloven § 2-1, jf. aksjeloven § 7-6, gjelder ikke for private universiteter og høyskoler.
+>
+
+## § 7-2
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 7-2 første ledd skal lyde:*
+
+> Undervisnings- og forskningsstillinger skal lyses ut med kvalifikasjonskrav med mindre annet er fastsatt i denne loven med forskrifter eller tariffavtale.
 >
 
 ## § 7-4
@@ -122,6 +166,15 @@ refid: "lov/2024-03-08-9"
 > Departementet kan gi forskrift om unntak fra kravet om minst 60 studiepoeng.
 >
 
+## § 12-1
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 12-1 femte ledd annet punktum skal lyde:*
+
+> Dersom en student ikke leverer vitnemålet eller annen dokumentasjon av resultater tilbake innen gitt frist, kan institusjonen kreve namsfogdens hjelp til tilbakelevering i samsvar med reglene i tvangsfullbyrdelsesloven kapittel 13.
+>
+
 ## § 12-2
 
 ### 2025-06-20 — lov/2025-06-20-101
@@ -129,6 +182,47 @@ refid: "lov/2024-03-08-9"
 *§ 12-2 første ledd andre punktum skal lyde:*
 
 > Attesten kan kreves framlagt ved opptak og underveis i studiet.
+>
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 12-2 første ledd første punktum skal lyde:*
+
+> I studier der studenter kan komme i kontakt med mindreårige som del av klinisk undervisning eller praksis, skal universiteter og høyskoler kreve at studentene legger fram politiattest som nevnt i politiregisterloven § 39 første ledd.
+>
+
+## § 12-4
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 12-4 sjette ledd annet punktum skal lyde:*
+
+> Dersom en student ikke leverer vitnemålet eller annen dokumentasjon av resultater tilbake til institusjonen innen gitt frist, kan institusjonen kreve namsfogdens hjelp til tilbakelevering i samsvar med reglene i tvangsfullbyrdelsesloven kapittel 13.
+>
+
+## § 12-9
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 12-9 første ledd nytt andre punktum skal lyde:*
+
+> Departementet kan gi forskrift om hvor høye utgifter studenter har rett til å få dekket.
+>
+
+## § 14-1
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 14-1 andre ledd andre punktum skal lyde:*
+
+> Nemnda kan behandle saker som førsteinstans etter §§ 12-1 til 12-9 etter delegering fra styret.
+>
+
+### 2026-06-19 — lov/2026-06-19-60
+
+*§ 14-1 fjerde ledd andre punktum skal lyde:*
+
+> Lederen og vara for lederen skal være jurister, jf. advokatloven § 67.
 >
 
 ## § 16-4

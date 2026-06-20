@@ -215,6 +215,10 @@ refid: "lov/1990-06-29-50"
 > Konsesjon til vindkraftanlegg på land etter § 3-1 kan ikke gis før tiltaket er planavklart etter plan- og bygningsloven.
 >
 
+### 2026-06-19 — lov/2026-06-19-37
+
+*§ 2-2 åttende ledd oppheves.*
+
 ## § 2-3
 
 ### 2018-05-25 — lov/2018-05-25-21
@@ -446,6 +450,17 @@ refid: "lov/1990-06-29-50"
 > § 3-7.(Koordinerende operatør av distribusjonssystem)
 >
 > Departementet kan gi forskrifter om utpeking av konsesjonær etter §§ 3-1 og 3-2 som koordinerende operatør av distribusjonssystem. Departementet kan gi forskrifter om operatørens oppgaver og myndighet overfor aktører som helt eller delvis eier eller er tilknyttet nett.
+>
+
+## § 3-8
+
+### 2026-06-19 — lov/2026-06-19-37
+
+*Ny § 3-8 skal lyde:*
+
+> § 3-8.(Vedtak om prioritering av uttakskunde av hensyn til nasjonale sikkerhetsinteresser)Når det er nødvendig for å ivareta nasjonale sikkerhetsinteresser, kan Kongen fatte vedtak om at konsesjonærer etter kapittel 3 skal prioritere nettilknytning eller kapasitetsøkning for en bestemt uttakskunde.Vedtaket skal utformes slik at det medfører minst mulig ulempe for tredjeparter. Tilknyttede kunder kan ikke fratas kapasitet som er tatt i bruk.Før det fattes vedtak, skal departementet innhente rådgivende uttalelser fra andre relevante departementer med vurdering av behovet for prioritering av den aktuelle uttakskunden. Vedtak kan fattes uten hensyn til bestemmelser i energiloven med forskrifter, konsesjoner og konsesjonsvilkår.Vedtak etter første ledd er særlig tvangsgrunnlag etter tvangsfullbyrdelsesloven kapittel 13.Kongen kan gi forskrift om prioritering av nettilknytning eller kapasitetsøkning, til utfylling og gjennomføring av bestemmelsen.
+>
+> § 3-8.(Vedtak om prioritering av uttakskunde av hensyn til nasjonale sikkerhetsinteresser)
 >
 
 ## § 4-1
@@ -1051,6 +1066,33 @@ refid: "lov/1990-06-29-50"
 > Departementet gir forskrifter om informasjons- og taushetsplikten og om utlevering av opplysninger som nevnt i tredje, fjerde og femte ledd.
 >
 
+## § 7-2
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 7-2 overskriften skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 7-2 første og annet ledd skal lyde:*
+
+> En tiltakshaver skal gjennomføre en kost-nytteanalyse av mulighetene for å utnytte overskuddsvarme ved planlegging av og omfattende oppgradering av følgende anlegg:termiske kraftverkindustrianleggfjernvarmenett og fjernkjølenettenergiproduksjonsanlegg som planlegges tilkoblet i et eksisterende fjernvarme- eller fjernkjølenettdatasentreandre anlegg som vil ha et høyt behov for tilført energi.
+>
+> termiske kraftverk
+>
+> industrianlegg
+>
+> fjernvarmenett og fjernkjølenett
+>
+> energiproduksjonsanlegg som planlegges tilkoblet i et eksisterende fjernvarme- eller fjernkjølenett
+>
+> datasentre
+>
+> andre anlegg som vil ha et høyt behov for tilført energi.
+>
+> Departementet kan gi forskrift om hvilke tiltakshavere og anlegg som omfattes av første ledd, herunder hvilke terskelverdier som skal føre til at anlegg omfattes av første ledd.
+>
+
 ## § 7-3
 
 ### 2001-06-15 — lov/2001-06-15-82
@@ -1070,6 +1112,35 @@ refid: "lov/1990-06-29-50"
 > Blir konsesjon for et anlegg etter kap. 3 eller kap. 5 trukket tilbake, skal det fastsettes en frist til å sørge for at anlegget blir overtatt av andre som lovlig kan drive det. Bestemmelsene i lov av 31. mai 1974 nr. 19 om konsesjon og om forkjøpsrett for det offentlige § 26 gjelder tilsvarende dersom fristen oversittes. For fjernvarmeanlegg kan det kreves at anlegget nedlegges. Ved nedleggelse får bestemmelsene i § 5-6 tilsvarende anvendelse.
 >
 > Dersom elektrisk kraft utføres eller innføres i strid med § 4-2 eller fastsatte vilkår for konsesjon, kan overføring av kraft avbrytes ved tiltak av det offentlige.
+>
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 7-3 første ledd bokstav c til ny bokstav f skal lyde:*
+
+> å drive et industrianlegg slik at overskuddsvarmen brukes til å dekke en økonomisk begrunnet etterspørsel, inkludert eget varmebehov
+>
+> å utnytte overskuddsvarme fra nærliggende anlegg og datasentre når fjernvarme- eller fjernkjølenett planlegges oppført, eller anlegg for energiproduksjon i eksisterende fjernvarme- eller fjernkjølenett planlegges oppført eller omfattende oppgradert
+>
+> å drive datasentre som nevnt i § 7-2 første ledd bokstav e og anlegg som nevnt i § 7-2 første ledd bokstav f slik at overskuddsvarmen brukes til å dekke en økonomisk begrunnet etterspørsel, inkludert eget varmebehov
+>
+> å utnytte overskuddsvarme fra nærliggende anlegg og datasentre når industrianlegg og andre anlegg med varmebehov planlegges oppført eller omfattende oppgradert.
+>
+
+## § 7-4
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 7-4 annet ledd skal lyde:*
+
+> Anlegg som nevnt i § 7-2 første ledd kan ikke bygges eller omfattende oppgraderes uten at overskuddsvarmen utnyttes, dersom kost-nytteanalysen viser at fordelene ved dette er større enn kostnadene.
+>
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 7-4 nytt tredje ledd skal lyde:*
+
+> Departementet kan etter søknad fatte enkeltvedtak om unntak fra kravet i annet ledd.
 >
 
 ## § 7-6
@@ -1187,6 +1258,17 @@ refid: "lov/1990-06-29-50"
 > Eieren av varme- eller klimaanlegg i en bygning skal sørge for dokumenterbare systemer, rutiner eller jevnlige kontroller som legger til rette for energieffektiv drift av anlegget, og skal sørge for at det foreligger en dokumentert vurdering av dimensjoneringen av anlegget. Vurderingen skal oppdateres ved relevante endringer på bygningen eller anlegget.
 >
 > Departementet kan gi forskrift om energivurdering av varme- og klimaanlegg, kvalifikasjonskrav for den som utfører energivurdering, dokumentasjonskrav og liknende, og hvilke bygninger og anlegg som omfattes av kravene i første ledd.
+>
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 8-4 overskriften skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-38
+
+*§ 8-4 nytt tredje ledd skal lyde:*
+
+> Eier av bygning med høyt varme- eller kjølebehov skal installere et automatisk styringssystem for varme- og klimaanlegg, der dette er teknisk og økonomisk gjennomførbart. Departementet kan gi forskrift om hvilke bygninger som er omfattet av plikten til å installere et slikt styringssystem, og om kravets innhold.
 >
 
 ## § 8-5

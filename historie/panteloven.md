@@ -21,6 +21,42 @@ refid: "lov/1980-02-08-2"
 > Panteretten etter første ledd bokstav b for renter opptjent senere enn to år før det er åpnet gjeldsforhandling etter gjeldsordningsloven hos eieren består inntil to år etter at gjeldsordningsperioden er utløpt. Dersom panthaver begjærer tvangsdekning i gjeldsordningsperioden, eller etter opphevelse av en gjeldsordning, omfatter panteretten både renter opptjent senere enn to år før det ble åpnet gjeldsforhandling, og renter opptjent senere enn to år før begjæringen om tvangsdekning, forutsatt at dekning gjennomføres.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 1-5 første ledd bokstav b skal lyde:*
+
+> renter som er opptjent senere enn to år før en panthaver begjærer tvangsdekning, forutsatt at dekning gjennomføres, eller senere enn to år før det åpnes gjeldsforhandling etter gjeldsordningsloven, rekonstruksjonsforhandling eller konkurs hos eieren.
+>
+
+## § 1-6
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 1-6 tredje ledd første punktum skal lyde:*
+
+> Ved namsutlegg i verdipapirer, innløsningspapirer eller enkle pengekrav skal avdrag og renter betales til namsmyndigheten.
+>
+
+## § 1-11
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 1-11 tredje ledd tredje punktum skal lyde:*
+
+> Ved namsutlegg kan samtykket i stedet gis av namsmyndigheten.
+>
+
+## § 1-13
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 1-13 skal lyde:*
+
+> § 1-13.Forholdet mellom flere panteretter.Når to eller flere har panterett i samme formuesgode, går den retten foran som først ble påheftet, om ikke annet er avtalt eller følger av reglene om rettsvern eller av lov.
+>
+> § 1-13.Forholdet mellom flere panteretter.
+>
+
 ## § 1-17
 
 ### 2001-12-21 — lov/2001-12-21-117
@@ -71,6 +107,12 @@ refid: "lov/1980-02-08-2"
 
 > (3) For pantsettelse av adkomstdokument til leierett eller borett til husrom gjelder § 4-3.
 >
+
+## § 3-1 a
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 3-1 a oppheves.*
 
 ## § 3-4
 
@@ -232,6 +274,13 @@ refid: "lov/1980-02-08-2"
 > Fristene avbrytes også når det er åpnet gjeldsforhandling etter konkursloven eller gjeldsordningsloven eller konkurs hos skyldneren og salgspant uttrykkelig påberopes i fordringsanmeldelsen. Ved gjeldsordning etter gjeldsordningsloven skjer ingen foreldelse i gjeldsordningsperioden.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 3-21 annet ledd annet punktum skal lyde:*
+
+> Fristene avbrytes også når det er åpnet gjeldsforhandling etter gjeldsordningsloven, rekonstruksjonsforhandling eller konkurs hos skyldneren og salgspant uttrykkelig påberopes i fordringsanmeldelsen.
+>
+
 ## § 4-3
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -293,6 +342,10 @@ refid: "lov/1980-02-08-2"
 
 > Bestemmelsene i § 3-5, § 4-4 tredje ledd, § 4-6, § 4-7 og § 4-8 gjelder tilsvarende for avtale etter nærværende paragraf.
 >
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 4-10 fjerde ledd oppheves.*
 
 ## § 4-11
 
@@ -453,6 +506,19 @@ refid: "lov/1980-02-08-2"
 
 > Tredje til femte punktum blir annet til fjerde punktum.
 >
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 6-4 første ledd tredje punktum skal lyde:*
+
+> Panteretten går foran annet lovbestemt pant og alle andre heftelser i formuesgodet med unntak av panterett etter konkursloven §§ 28 og 29.
+>
+
+## § 6-5
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 6-5 oppheves.*
 
 ## (annet)
 

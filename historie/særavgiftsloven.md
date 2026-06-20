@@ -15,6 +15,17 @@ refid: "lov/1933-05-19-11"
 
 *Nåværende § 7 blir § 8.*
 
+### 2026-06-19 — lov/2026-06-19-41
+
+**
+
+> lov 19. mai 1933 nr. 11 om særavgifter
+>
+> lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter
+>
+> lov 12. desember 1975 nr. 59 om dokumentavgift.
+>
+
 ## § 1
 
 ### 2004-12-10 — lov/2004-12-10-77

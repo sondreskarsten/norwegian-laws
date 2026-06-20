@@ -763,6 +763,13 @@ refid: "lov/1989-06-16-69"
 > Er forsikringen pantsatt, og er pantsettelsen registrert senest dagen før fristdagen, jf. dekningsloven § 1-2, kan vederlagskrav etter paragrafen her ikke gjøres gjeldende i strid med panthaverens rett.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 16-2 første ledd første punktum skal lyde:*
+
+> Forsikringstakerens konkursbo, rekonstruksjonsforhandlingsbo eller insolvente dødsbo kan kreve vederlag av forsikringsforetaket for premiebetaling som er skjedd i de siste tre år før fristdagen, jf. lov 8 juni 1984 nr. 59 om fordringshavernes dekningsrett § 1-2, i den utstrekning premiebetalingen da den skjedde var åpenbart urimelig, hensett til forsikringstakerens økonomiske stilling og forholdene ellers.
+>
+
 ## § 17-1
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -795,6 +802,13 @@ refid: "lov/1989-06-16-69"
 *§ 17-1 sjette ledd skal lyde:*
 
 > En begjæring om registrering skal føres inn i en journal samme dag som den kommer til forsikringsforetaket, og innføres i registeret snarest mulig.
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 17-1 femte ledd annet punktum skal lyde:*
+
+> Er det åpnet rekonstruksjonsforhandling, eller er konkurs åpnet i forsikringstakerens bo, skal dette registreres på begjæring av rekonstruktøren, eventuelt bostyreren eller tingretten, jf konkursloven §§ 6 og 79.
 >
 
 ## § 17-5

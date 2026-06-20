@@ -372,6 +372,12 @@ refid: "lov/2007-06-29-73"
 > (2) Oppdragstakere som bistår med oppgaver som nevnt i første ledd nr. 1, 2 eller 4 er etter lov 12. desember 1975 nr. 59 om dokumentavgift, lov 6. juni 2003 nr. 39 om burettslag og lov 7. juni 1935 nr. 2 om tinglysing, ansvarlig for at avgifter, gebyrer og renter knyttet til tinglysing av skjøte og andre dokumenter som har sammenheng med salget, blir betalt.
 >
 
+## § 6-10
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 6-10 andre ledd skal lyde:*
+
 ## § 7-2
 
 ### 2025-04-10 — lov/2025-04-10-10

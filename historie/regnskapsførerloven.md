@@ -24,6 +24,35 @@ refid: "lov/2022-12-16-90"
 > et regnskapsforetak eller en statsautorisert regnskapsfører avgir en bekreftelse i henhold til lov, forskrift eller krav fra offentlig myndighet.
 >
 
+## § 2-3
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 2-3 første ledd nytt fjerde punktum skal lyde:*
+
+> Departementet kan i forskrift fastsette at personer fra andre land enn nevnt i dette leddet kan gis godkjenning etter annet eller tredje punktum.
+>
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 2-3 annet ledd skal lyde:*
+
+> Yrkeskvalifikasjonsloven § 2 tredje ledd om yrkesutøver med yrkeskvalifikasjoner fra tredjeland gjelder ikke for personer fra andre land enn de som er omfattet av regnskapsførerloven § 2-3 første ledd annet og tredje punktum.
+>
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 2-3 gjeldende annet ledd blir nytt tredje ledd.*
+
+## § 3-2
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 3-2 annet ledd første punktum skal lyde:*
+
+> For revisorer som er godkjent etter revisorloven, likestilles praksis fra revisjonsforetak med praksis fra et regnskapsforetak etter første ledd.
+>
+
 ## § 5-2
 
 ### 2025-06-20 — lov/2025-06-20-47

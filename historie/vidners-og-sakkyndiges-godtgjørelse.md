@@ -101,6 +101,13 @@ refid: "lov/1916-07-21-2"
 > Avgjørelser om godtgjøring etter denne lov kan ankes eller påklages på følgende måte:Avgjørelser truffet av en domstol kan ankes til overordnet domstol etter reglene i rettshjelploven § 27. Avgjørelser truffet av Arbeidsretten og gjenopptakelseskommisjonen kan ikke ankes. Avgjørelser truffet ved norsk konsulrett kan ankes til Borgarting lagmannsrett.Avgjørelser truffet av Trygderetten kan ankes til Borgarting lagmannsrett etter reglene i rettshjelploven § 27.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 12 nr. 3 første punktum skal lyde:*
+
+> Avgjørelser truffet av en namsfogd kan påklages til tingretten etter reglene i tvangsfullbyrdelsesloven § 5-16.
+>
+
 ## § 6
 
 ### 2008-03-07 — lov/2008-03-07-5

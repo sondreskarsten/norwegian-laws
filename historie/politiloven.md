@@ -123,6 +123,13 @@ refid: "lov/1995-08-04-53"
 
 *Gjeldende femte ledd blir nytt sjette ledd.*
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*I følgende bestemmelser erstattes uttrykket «politi- og lensmannsetaten» av «politiet»:*
+
+> §§ 1, 18, 21 og 24 b.
+>
+
 ## § 10 a
 
 ### 2002-06-28 — lov/2002-06-28-53
@@ -208,11 +215,27 @@ refid: "lov/1995-08-04-53"
 
 *§ 16 tredje ledd nr. 4 oppheves.*
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 16 annet ledd første punktum skal lyde:*
+
+> Politidistriktene inndeles i politistasjonsdistrikter.
+>
+
 ## § 17
 
 ### 2004-06-25 — lov/2004-06-25-53
 
 *§ 17 oppheves.*
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 17 skal lyde:*
+
+> § 17.NamsfogdenPolitistasjonssjefen er namsfogd i sitt distrikt med mindre oppgaven som namsfogd ivaretas av et namsfogdkontor ledet av en egen namsfogd. Distriktene skal omfatte en eller flere hele kommuner. Kongen kan bestemme at én politistasjonssjef skal ivareta oppgaven som namsfogd for flere politistasjonsdistrikter i samme politidistrikt.Namsfogd for Svalbard er sysselmesteren.Kongen fastsetter hvilke namsfogddistrikter norsk kontinentalsokkel og norsk økonomisk sone hører til.
+>
+> § 17.Namsfogden
+>
 
 ## § 17 a
 
@@ -362,6 +385,27 @@ refid: "lov/1995-08-04-53"
 > Dersom det ved opphold er stor fare for at muligheten til å forebygge et forhold som nevnt i første ledd bokstav a eller d vil gå tapt, kan ordre fra sjefen eller den assisterende sjefen for Politiets sikkerhetstjeneste tre i stedet for kjennelse av retten, bortsett fra ved romavlytting som nevnt i straffeprosessloven § 216 m.
 >
 
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 17 d første ledd innledningen skal lyde:*
+
+> Retten kan ved kjennelse gi Politiets sikkerhetstjeneste tillatelse til som ledd i sin forebyggende virksomhet å nytte tvangsmidler som nevnt i straffeprosessloven §§ 200 a, 202 c, 202 e, 202 f, 208 a, 210 a, § 210 c, 216 a, 216 b, 216 m eller 216 o dersom det er grunn til å undersøke om noen forbereder en handling som rammes av
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 17 d annet ledd annet punktum skal lyde:*
+
+> Tillatelse til å nytte tvangsmidler som nevnt i straffeprosessloven §§ 200 a, 202 c, 202 f, 216 a, 216 m og 216 o kan bare gis når særlige grunner tilsier det.
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 17 d fjerde ledd skal lyde:*
+
+> Sjefen eller den assisterende sjefen for Politiets sikkerhetstjeneste, eller den i ledende stilling i tjenesten som disse bemyndiger, kan på samme vilkår som nevnt i første jf. annet ledd tillate bruk av tvangsmidler som nevnt i straffeprosessloven §§ 202 b, 202 d og 216 l.
+>
+
 ## § 17 f
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -376,6 +420,17 @@ refid: "lov/1995-08-04-53"
 *§ 17 f annet ledd bokstav d, e og ny bokstav f skal lyde:*
 
 > for å forebygge at noen uskyldig blir straffet,for å forhindre en alvorlig straffbar handling som kan krenke andres liv, helse eller frihet, ellerfor at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål.
+>
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 17 f annet ledd bokstav e, f og ny bokstav g skal lyde:*
+
+> for å forhindre en alvorlig straffbar handling som kan krenke andres liv, helse eller frihet,
+>
+> for at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål, eller
+>
+> til testing og utvikling av informasjonssystemer som skal brukes innenfor politiregisterlovens virkeområde.
 >
 
 ## § 18
@@ -500,6 +555,13 @@ refid: "lov/1995-08-04-53"
 > utføre andre oppgaver som er fastsatt i lov eller som følger av sedvane, herunder oppgaver som i lov er lagt til den alminnelige namsmannen.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 2 nr. 7 skal lyde:*
+
+> utføre andre oppgaver som er fastsatt i lov eller som følger av sedvane, herunder oppgaver som i lov er lagt til namsfogden.
+>
+
 ## § 20
 
 ### 2001-06-15 — lov/2001-06-15-52
@@ -566,6 +628,10 @@ refid: "lov/1995-08-04-53"
 > Gjeldende annet punktum blir nytt tredje punktum.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 20 a overskriften skal lyde:*
+
 ## § 21
 
 ### 2021-06-18 — lov/2021-06-18-123
@@ -573,6 +639,13 @@ refid: "lov/1995-08-04-53"
 *§ 21 første ledd skal lyde:*
 
 > Embetsmenn utnevnes og polititjenestemenn ansettes i alminnelighet for å gjøre tjeneste i et politidistrikt eller i et av politiets særorganer. De er forpliktet til i det enkelte tilfelle å gjøre tjeneste uten hensyn til distriktsgrenser.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 21 første ledd første punktum skal lyde:*
+
+> Embetsmenn utnevnes og polititjenestepersoner ansettes i alminnelighet for å gjøre tjeneste i et politidistrikt eller i et av politiets særorganer.
 >
 
 ## § 22
@@ -590,6 +663,13 @@ refid: "lov/1995-08-04-53"
 > Skjønet skal styrtast av lensmannen eller namsfuten.I lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon skal § 12-3 tredje ledd fjerde punktum lyde:
 >
 > Skjønnet styres av lensmannen eller namsfogden.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 22 annet ledd annet og tredje punktum skal lyde:*
+
+> Samtykke må ikke gis der det kan oppstå tvil om hvilken egenskap vedkommende opptrer i, eller om vedkommendes uavhengighet i tjenstlige saker. Samtykke må heller ikke gis der biervervet kan redusere vedkommendes evne eller mulighet til å utføre tjenesten forsvarlig.
 >
 
 ## § 23 a
@@ -627,6 +707,13 @@ refid: "lov/1995-08-04-53"
 *§ 24 b første ledd tredje punktum skal lyde:*
 
 > Søkerne må fremlegge uttømmende og utvidet politiattest, jf. politiregisterloven § 41.
+>
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 24 b annet ledd skal lyde:*
+
+> Opptak til videreutdanning og høyere grads studier foretas av Politihøgskolen. Politihøgskolen kan fastsette krav om plettfri vandel for opptak til videreutdanninger og studier som nevnt i første punktum. Dersom det er fastsatt krav om plettfri vandel for opptak, skal det kreves fremlagt uttømmende og utvidet politiattest fra søkeren, jf. politiregisterloven § 41. Departementet gir nærmere regler om saksbehandling og opptakskrav, herunder dokumentasjon av kompetanse.
 >
 
 ## § 24a
@@ -708,6 +795,13 @@ refid: "lov/1995-08-04-53"
 
 *§ 29 annet ledd oppheves. Gjeldende tredje ledd blir annet ledd.*
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 29 annet ledd skal lyde:*
+
+> Departementet gir nærmere regler om i hvilken utstrekning namsfogden kan overlate sine oppgaver etter lov til sine underordnede.
+>
+
 ## § 30
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -730,6 +824,13 @@ refid: "lov/1995-08-04-53"
 *§ 6 femte ledd skal lyde:*
 
 > Politidirektoratet kan beslutte at politiet skal være bevæpnet i daglig tjeneste. Politidirektoratet gir nærmere bestemmelser om omfanget av bevæpningen, herunder knyttet til tid og sted, oppdragets art og på annen måte.
+>
+
+### 2026-06-19 — lov/2026-06-19-51
+
+*§ 6 femte ledd skal lyde:*
+
+> Politiet skal i alminnelighet være bevæpnet med skytevåpen i tjenesten. Politidirektoratet skal gi nærmere bestemmelser om omfanget av bevæpningen, herunder om tjenestetyper og oppdrag som kan utføres ubevæpnet.
 >
 
 ## § 6 b
@@ -776,6 +877,15 @@ refid: "lov/1995-08-04-53"
 *§ 7 a tredje ledd skal lyde:*
 
 > Med våpen menes i denne paragrafen våpen og andre gjenstander som omfattes av våpenlovgivningen, kniv eller lignende skarpt redskap som det er forbudt å bære på offentlig sted, jf. straffeloven § 389, og andre farlige gjenstander som kan tas i forvaring etter politiloven § 7.
+>
+
+## § 8
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 8 første ledd innledningen skal lyde:*
+
+> Politiet kan innbringe til politistasjon eller annet lokale som benyttes under polititjenesten
 >
 
 ## § 9

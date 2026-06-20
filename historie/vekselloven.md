@@ -43,6 +43,15 @@ refid: "lov/1932-05-27-2"
 > Tilkalling av vitne er ikke nødvendig.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 87 første og annet ledd skal lyde:*
+
+> Protest tas opp av namsfogden.
+>
+> Dersom det er nødvendig for at protesten skal kunne opptas i tide, kan namsfogden ta opp protest utenfor sitt distrikt.
+>
+
 ## § 90
 
 ### 2004-06-25 — lov/2004-06-25-53

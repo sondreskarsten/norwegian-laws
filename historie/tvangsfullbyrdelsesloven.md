@@ -82,6 +82,13 @@ refid: "lov/1992-06-26-86"
 > Med en persons alminnelige verneting menes i denne loven den rettskrets eller det namsmannsdistrikt hvor vedkommende har bopel eller slik tilknytning som nevnt i tvisteloven § 4-4 tredje til femte ledd. Den som har bopel i flere rettskretser eller namsmannsdistrikter, har alminnelig verneting i alle disse.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 1-8 femte ledd skal lyde:*
+
+> Med en persons alminnelige verneting menes i denne loven den rettskrets eller det namsfogddistrikt hvor vedkommende har bopel eller slik tilknytning som nevnt i tvisteloven § 4-4 tredje til femte ledd. Den som har bopel i flere rettskretser eller namsfogddistrikter, har alminnelig verneting i alle disse. Den som ikke har kjent bopel, har verneting i den rettskrets eller i det namsfogddistrikt hvor vedkommende oppholder seg når en begjæring etter loven her meddeles. Har personen heller ikke kjent oppholdssted i riket, har vedkommende verneting i den rettskrets eller i det namsfogddistrikt vedkommende sist hadde kjent bopel eller oppholdssted, dersom saken gjelder en forpliktelse pådratt i Norge eller en forpliktelse som skal oppfylles i Norge.
+>
+
 ## § 1-9
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -131,6 +138,15 @@ refid: "lov/1992-06-26-86"
 > Til namsmannens forretninger og møter kan namsmannen tilkalle et rettsvitne dersom det av særlige grunner finnes ønskelig. Domstolloven § 90 første ledd første punktum og annet ledd og §§ 101-105 a gjelder tilsvarende.
 >
 
+## § 2-5
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 2-5 tredje ledd skal lyde:*
+
+> Namsfogder og namsfogdfullmektiger blir ikke ugilde av den grunn at de selv har begjært tvangsfullbyrdelse av krav som det hører til deres tjenesteplikt å inndrive.
+>
+
 ## § 2-7
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -164,6 +180,13 @@ refid: "lov/1992-06-26-86"
 > Tingrettene kan overlate utførelsen av sine gjøremål etter denne lov til sine funksjonærer. Tingretten kan likevel ikke overlate til funksjonærer å avsi dommer og kjennelser eller å treffe beslutning om tvangssalg etter § 11-9. Kongen gir nærmere regler om bemyndigelse av funksjonærer.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 2-9 annet ledd skal lyde:*
+
+> For namsfogdenes adgang til å overlate gjøremål til sine underordnede gjelder politiloven § 29 annet ledd.
+>
+
 ## § 2-10
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -178,6 +201,13 @@ refid: "lov/1992-06-26-86"
 *§ 2-10 tredje ledd første og annet punktum skal lyde:*
 
 > Ved tvangssalg av fast eiendom og adkomstdokumenter til leierett eller borett til husrom i lensmannsdistrikt kan namsmannen oppnevnes som medhjelper. Ved tvangssalg av realregistrerte formuesgoder og adkomstdokumenter til leierett eller borett til husrom i andre tilfeller kan namsmannen oppnevnes som medhjelper i samsvar med bestemmelser gitt av Kongen.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 2-10 tredje ledd skal lyde:*
+
+> Ved tvangssalg av realregistrerte formuesgoder og adkomstdokumenter til leierett eller borett til husrom kan namsfogden oppnevnes som medhjelper i samsvar med bestemmelser gitt av Kongen. En namsfogd som oppnevnes som medhjelper, har ikke krav på godtgjørelse som medhjelper og har ikke plikt til å stille sikkerhet. Kongen kan gi nærmere bestemmelser om namsfogdens oppgaver og myndighet som medhjelper.
 >
 
 ## § 2-12
@@ -213,6 +243,13 @@ refid: "lov/1992-06-26-86"
 > § 2-17.Frister
 >
 > § 2-7 gjelder tilsvarende for Statens innkrevingssentrals tvangsfullbyrdelse.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 2-17 første ledd første punktum skal lyde:*
+
+> Dersom kommunen beslutter utleggstrekk, fremsettes beslutningen for den namsfogden som er kompetent til å etablere utleggstrekk mot skyldneren.
 >
 
 ## § 3-2
@@ -834,6 +871,20 @@ refid: "lov/1992-06-26-86"
 > Før utleggstrekk nedlegges, skal namsmannen undersøke om det allerede løper trekk mot skyldneren. Utleggstrekk kan ikke besluttes etter et alminnelig tvangsgrunnlag før grunnlaget er rettskraftig.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 7-21 annet ledd annet punktum skal lyde:*
+
+> Hvis Innkrevingsmyndigheten ikke har krav i trekket, treffes avgjørelsen av den namsfogden som har kompetanse etter § 7-3 fjerde ledd til å etablere utleggstrekk.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 7-21 tredje ledd annet punktum skal lyde:*
+
+> En namsfogd inntar oppfordring som nevnt i namsboken.
+>
+
 ## § 7-25
 
 ### 2005-06-17 — lov/2005-06-17-89
@@ -1281,6 +1332,17 @@ refid: "lov/1992-06-26-86"
 > Søksmålet reises for den tingrett som behandlet tvangssalget eller for den domstol som saken hører under etter tvisteloven.
 >
 
+## § 11-43
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 11-43 skal lyde:*
+
+> § 11-43.Gjennomføring av auksjonssalgDersom salget skal skje ved auksjon holdt av namsmyndigheten, bestemmer retten om denne eller namsfogden skal holde auksjonen.Skal namsfogden holde auksjonen, sendes sakens dokumenter til namsfogden, som forbereder og holder auksjonsmøtet.
+>
+> § 11-43.Gjennomføring av auksjonssalg
+>
+
 ## § 11-55
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -1681,6 +1743,20 @@ refid: "lov/1992-06-26-86"
 > Fra den tid Kongen bestemmer, gjøres følgende endringer i lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse: § 2-14 ny bokstav f skal lyde:
 >
 > besøksbidrag og tvangsmulkt etter besøksbidragsloven.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*Følgende steder endres ordene «namsmann», «namsmannen» og «namsmannens» til henholdsvis ordene «namsfogd», «namsfogden» og «namsfogdens»:*
+
+> §§ 2-1, 2-2, 2-3, 2-4, 2-5, 2-6, 2-7, 2-8, 2-11, 2-17 fjerde til syvende ledd, kapittel 5 overskriften, §§ 5-2, 5-3, 5-4, 5-5, 5-6, 5-7, 5-8, 5-9, 5-10, 5-11, 5-12, 5-13, 5-14, 5-15, 5-16, 5-17, 5-21, 6-4, 7-3, 7-6, 7-7, 7-8, 7-9, 7-17, 7-18, 7-19, 7-20, 7-23, 7-26, 7-27, 8-3, 8-7, 8-8, 8-9, 8-10, 8-11, 8-12, 8-13, 8-14, 8-15, 8-16, 8-17, 8-18, 8-20, 8-21, kapittel 8 avsnitt III overskriften, §§ 8-24, 8-25, 9-4, 9-6, 9-7, 9-8, 9-9, 9-10, 9-11, 9-12, 10-5, 10-7, 10-8, 10-9, 10-11, 10-12, 10-13, 10-14, 11-8, 11-47, 11-50, 13-3, 13-7, 13-8, 13-10, 13-11, 13-12 og 13-14.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*Følgende steder endres ordet «namsmenn» til ordet «namsfogder»:*
+
+> §§ 5-2 og 5-7.
 >
 
 ## § 1

@@ -562,3 +562,10 @@ refid: "lov/2000-06-02-39"
 
 > Departementet kan gi forskrift om hvilke varer et apotek alltid skal ha på lager og stille minstekrav til leveringsgrad for legemidler og om apotekenes plikter ved mottak av legemidler fra leverandør og om adgangen for apotek til å levere legemidler til hverandre.
 >
+
+### 2026-06-19 — lov/2026-06-19-44
+
+*I lov 2. juni 2000 nr. 39 om apotek skal § 5-4 tredje ledd lyde:*
+
+> Apotek plikter å gi departementet elektronisk tilgang til opplysninger om lagerstatus ved fare for tilgangen til legemidler i Norge. Apotek plikter også å gi departementet informasjon om tilgjengelighet av legemidler og prognoser for etterspørsel av legemidler. Departementet kan gi forskrift om gjennomføringen av første og andre punktum.
+>

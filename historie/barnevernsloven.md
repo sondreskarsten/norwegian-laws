@@ -28,6 +28,13 @@ refid: "lov/2021-06-18-97"
 > For barn som oppholder seg i Norge, men har sitt vanlige bosted i en annen stat, kan det treffes vedtak om hjelpetiltak etter kapittel 3, vedtak om akuttiltak etter kapittel 4 med unntak av akuttvedtak om utreiseforbud etter § 4-6, vedtak om frivillig opphold i barnevernsinstitusjon etter § 6-1, samt vedtak om plassering på institusjon etter § 6-6 når det er fare for menneskehandel.
 >
 
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 1-2 fjerde ledd skal lyde:*
+
+> For barn som oppholder seg i Norge, men har sitt vanlige bosted i en annen stat, kan det treffes vedtak om hjelpetiltak etter kapittel 3, vedtak om akuttiltak etter kapittel 4 med unntak av akuttvedtak om utreiseforbud etter § 4-6, vedtak om frivillig opphold i barnevernsinstitusjon etter § 6-1, samt vedtak om opphold på institusjon etter § 6-6 når det er fare for menneskehandel.
+>
+
 ## § 1-10
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -126,6 +133,13 @@ refid: "lov/2021-06-18-97"
 *§ 3-2 første punktum skal lyde:*
 
 > Barnevernstjenesten kan tilby fosterhjem, kommunale botiltak med døgnbemanning eller institusjon som hjelpetiltak når vilkårene i § 3-1 første ledd er til stede og barnets behov ikke kan ivaretas på annen måte.
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 3-2 nytt fjerde punktum skal lyde:*
+
+> Dersom barnet utsetter sin utvikling for alvorlig fare, må barnevernstjenesten vurdere om det med én gang skal vedtas institusjonstiltak etter § 6-1 eller reises sak om institusjonstiltak etter § 6-2.
 >
 
 ## § 3-3
@@ -264,6 +278,13 @@ refid: "lov/2021-06-18-97"
 > Dersom det er behov for videre tiltak, skal barnevernstjenesten snarest følge opp akuttvedtaket med en begjæring til barneverns- og helsenemnda om vedtak om opphold i institusjon etter § 6-2.
 >
 
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 4-4 første ledd skal lyde:*
+
+> Barnevernstjenestens leder, lederens stedfortreder eller påtalemyndigheten kan treffe akuttvedtak om opphold i barnevernsinstitusjon dersom barnet har utsatt sin utvikling for alvorlig fare som nevnt i § 6-2. Et slikt vedtak kan treffes bare dersom det er fare for at barnet ellers blir vesentlig skadelidende. Bestemmelsen i § 6-2 fjerde ledd tredje punktum gjelder så langt den passer.
+>
+
 ## § 4-5
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -298,6 +319,22 @@ refid: "lov/2021-06-18-97"
 > § 4-6.Akuttvedtak om utreiseforbudBarnevernstjenestens leder, lederens stedfortreder eller påtalemyndigheten kan treffe akuttvedtak om utreiseforbud dersom det er en nærliggende fare for at barnet umiddelbart blir sendt eller tatt med ut av landet til forhold som nevnt i § 5-13 første ledd.Dersom det er behov for videre tiltak, skal barnevernstjenesten snarest følge opp akuttvedtaket med en begjæring om utreiseforbud til barneverns- og helsenemnda. Dersom slik begjæring ikke foreligger innen seks uker fra vedtakstidspunktet, faller akuttvedtaket bort.
 >
 > § 4-6.Akuttvedtak om utreiseforbud
+>
+
+## § 5-1
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 5-1 første ledd bokstav e skal lyde:*
+
+> det er overveiende sannsynlig at et barn som var omfattet av et akuttvedtak etter § 4-2 som nyfødt, vil komme i en situasjon som nevnt i bokstav a, b, c eller d.
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 5-1 nytt andre ledd skal lyde:*
+
+> Dersom barnet utsetter sin utvikling for alvorlig fare, kan barneverns- og helsenemnda treffe vedtak om opphold i barnevernsinstitusjon etter § 6-2 i tillegg til vedtak om omsorgsovertakelse.
 >
 
 ## § 5-3
@@ -410,6 +447,15 @@ refid: "lov/2021-06-18-97"
 > § 6-2.Vedtak om opphold i barnevernsinstitusjon uten samtykke
 >
 
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 6-2 tredje og fjerde ledd skal lyde:*
+
+> Dersom barnet har behov for mer langvarig behandling, kan nemnda vedta at oppholdet skal gjelde i inntil tolv måneder. Nemnda kan vedta at oppholdet skal forlenges med inntil tolv måneder dersom vilkårene i første ledd fortsatt er til stede. Oppholdstiden etter akuttvedtak etter § 4-4 skal ikke inngå i den totale oppholdstiden som gjelder for vedtak etter denne bestemmelsen.
+>
+> Nemnda kan treffe vedtak etter første og annet ledd bare dersom institusjonen er faglig og materielt i stand til å tilby barnet forsvarlig hjelp. Institusjonen skal være godkjent av barne-, ungdoms- og familieetaten til å ta imot barn på grunnlag av vedtak etter denne bestemmelsen. Selv om kravet om slik godkjenning ikke er oppfylt, kan nemnda bestemme at et barn som allerede bor på en institusjon, kan bli boende. Bestemmelsen i § 5-3 annet ledd gjelder tilsvarende.
+>
+
 ## § 6-3
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -484,6 +530,15 @@ refid: "lov/2021-06-18-97"
 > § 7-7.Barnevernstjenestens adgang til å stanse fastsatt samvær
 >
 
+## § 8-1
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 8-1 første ledd andre punktum skal lyde:*
+
+> Barnevernstjenesten skal systematisk og regelmessig vurdere om hjelpen fungerer etter hensikten, om det er behov for nye tiltak, og om det er grunnlag for omsorgsovertakelse eller vedtak om opphold i barnevernsinstitusjon etter kapittel 6.
+>
+
 ## § 8-3
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -491,6 +546,13 @@ refid: "lov/2021-06-18-97"
 *§ 8-3 tredje ledd skal lyde:*
 
 > Dersom hensynet til barnet ikke taler mot det, skal barnevernstjenesten legge til rette for at foreldrene kan få tilbake omsorgen for barnet, jf. § 5-7. Barnevernstjenesten skal systematisk og regelmessig vurdere om det er nødvendig å endre tiltaket, herunder om det er grunnlag for å fremme sak om oppheving av vedtak om omsorgsovertakelse, eller andre tiltak for å gi barnet ro og stabilitet.
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 8-3 fjerde ledd skal lyde:*
+
+> Dersom barnet utsetter sin utvikling for alvorlig fare, skal barnevernstjenesten vurdere om det er behov for vedtak om opphold i barnevernsinstitusjon etter kapittel 6.
 >
 
 ## § 8-4
@@ -595,6 +657,15 @@ refid: "lov/2021-06-18-97"
 > Kommunen skal føre tilsyn med hvert enkelt barn i fosterhjemmet fra barnet har flyttet inn og frem til barnet fyller 18 år. Formålet med tilsynet er å kontrollere at barnet får forsvarlig omsorg i fosterhjemmet, og at forutsetningene for oppholdet blir fulgt opp.
 >
 
+## § 10-3
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 10-3 første ledd nytt tredje punktum skal lyde:*
+
+> Dette kan omfatte å nekte barnet å forlate institusjonen, ha besøk eller bruke elektroniske kommunikasjonsmidler og internett for en avgrenset periode om gangen.
+>
+
 ## § 10-9
 
 ### 2022-06-17 — lov/2022-06-17-45
@@ -602,6 +673,54 @@ refid: "lov/2021-06-18-97"
 *§ 10-9 overskriften skal lyde:*
 
 > Utvidet adgang til innskrenkninger i bevegelsesfrihet mv. for barn i barnevernsinstitusjoner
+>
+
+## § 10-11
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 10-11 første ledd skal lyde:*
+
+> Barnevernsinstitusjonen kan, dersom det er strengt nødvendig, benytte fysisk makt for å avvergeakutt fare for skade på barnets eller andre personers liv eller helsenært forestående fare for at barnet utsetter eget liv eller egen helse eller andre personers liv eller helse for alvorlig skadeakutt fare for vesentlig skade på eiendom.
+>
+> akutt fare for skade på barnets eller andre personers liv eller helse
+>
+> nært forestående fare for at barnet utsetter eget liv eller egen helse eller andre personers liv eller helse for alvorlig skade
+>
+> akutt fare for vesentlig skade på eiendom.
+>
+
+## § 10-12
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 10-12 skal lyde:*
+
+> § 10-12.Utvidet adgang til inngrep i barnets rettigheterNår barn er i barnevernsinstitusjon etter §§ 4-4, 6-1 eller 6-2 og det er nødvendig ut fra formålet med oppholdet, kan institusjonen treffe vedtak om inngrepi barnets bevegelsesfrihet innenfor og utenfor institusjonsområdet, herunder nekte barnet å forlate institusjonsområdetom å låse døren til institusjonen for barnet eller kreve at barnet har følge med institusjonsansatte utenfor institusjonen for å gjennomføre vedtak etter bokstav ai barnets rett til besøk, herunder nekte barnet besøki barnets bruk av elektroniske kommunikasjonsmidler og tilgang til internett, herunder nekte brukom å inndra elektroniske kommunikasjonsmidler dersom barnet ikke retter seg etter institusjonens vedtak om å nekte bruk etter bokstav d.Vedtak om inngrep etter første ledd kan treffes for inntil 14 dager om gangen, og for inntil fire uker om gangen dersom det foreligger særlige grunner. Vedtak om inngrep i bruk av elektroniske kommunikasjonsmidler og tilgang til internett etter første ledd bokstav d og e kan treffes for inntil fire uker fra barnet ankommer institusjonen.Når barn er i barnevernsinstitusjon etter §§ 3-2, 4-2 eller 5-1, og det er nødvendig for å gi barnet forsvarlig omsorg og beskyttelse, kan institusjonen treffe vedtak om inngrep etter første ledd bokstav c til e ved begrunnet mistanke om at barnet utsettes for fare eller skade ved besøk eller bruk av elektroniske kommunikasjonsmidler og internett. Vedtak kan treffes for inntil 14 dager om gangen.Institusjonen må fortløpende vurdere om vedtaket skal opprettholdes.Departementet kan gi forskrift om gjennomføring av vedtak etter bestemmelsen.
+>
+> § 10-12.Utvidet adgang til inngrep i barnets rettigheter
+>
+
+## § 10-17
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 10-17 andre til fjerde ledd skal lyde:*
+
+> Institusjonen skal ha definerte målgrupper og mål for sin faglige virksomhet. Institusjonen skal anvende metoder som er faglig og etisk forsvarlige og tilpasset institusjonens målgrupper og målene for institusjonens virksomhet.
+>
+> Institusjonen skal ha en skriftlig plan for sin virksomhet. Planen skal blant annet gi en beskrivelse av institusjonens målgrupper, mål og faglige metoder.
+>
+> Institusjonen skal føre internkontroll for å sikre at den drives i samsvar med denne loven med forskrifter og ellers drives på en forsvarlig måte.
+>
+
+## § 10-19
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 10-19 andre ledd skal lyde:*
+
+> En barnevernsinstitusjon kan godkjennes bare dersom den drives i samsvar med denne loven med forskrifter og ellers drives på en forsvarlig måte. Det skal fremgå av godkjenningen hvilke målgrupper institusjonen er godkjent for.
 >
 
 ## § 11-1
@@ -673,6 +792,15 @@ refid: "lov/2021-06-18-97"
 > § 11-5.Rettigheter for barnet og krav til omsorgssenteret
 >
 
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 11-5 skal lyde:*
+
+> § 11-5.Rettigheter for barnet og krav til omsorgssenteretLovens §§ 10-1 til 10-11, 10-12 tredje til femte ledd, 10-14 og 10-16 gjelder tilsvarende for omsorgssentre. Det samme gjelder §§ 10-17 til 10-19.
+>
+> § 11-5.Rettigheter for barnet og krav til omsorgssenteret
+>
+
 ## § 11-7
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -691,6 +819,15 @@ refid: "lov/2021-06-18-97"
 *§ 12-1 første ledd skal lyde:*
 
 > Forvaltningsloven gjelder med de særregler som er fastsatt i eller i medhold av loven her. Dette gjelder også for klientsaker i private institusjoner, private sentre for foreldre og barn og private omsorgssentre for enslige mindreårige asylsøkere som er godkjent etter §§ 10-19, 10-23 og 11-5.
+>
+
+## § 12-3
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 12-3 første ledd andre punktum skal lyde:*
+
+> I saker som gjelder tiltak for barn som utsetter sin utvikling for fare eller tiltak for barn som er utsatt for menneskehandel, er barnet alltid part.
 >
 
 ## § 12-3 a
@@ -875,6 +1012,34 @@ refid: "lov/2021-06-18-97"
 > vedtak om samvær, jf. §§ 7-2 og 7-3.
 >
 
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 13-4 første ledd bokstav e skal lyde:*
+
+> akuttvedtak om opphold i barnevernsinstitusjon, jf. § 4-4
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 13-4 første ledd bokstav f skal lyde:*
+
+> akuttvedtak om opphold i institusjon når det er fare for menneskehandel, jf. § 4-5
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 13-4 første ledd bokstav n skal lyde:*
+
+> vedtak om opphold i barnevernsinstitusjon uten samtykke, jf. § 6-2
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 13-4 første ledd bokstav o skal lyde:*
+
+> vedtak om opphold i institusjon ved fare for menneskehandel, jf. § 6-6
+>
+
 ## § 13-5
 
 ### 2023-06-16 — lov/2023-06-16-41
@@ -938,6 +1103,15 @@ refid: "lov/2021-06-18-97"
 > Dersom en sak gjelder forlengelse av nemndas vedtak etter § 6-6 om opphold i institusjon når det er fare for at et barn kan utnyttes til menneskehandel, skal nemndlederen avgjøre saken alene.
 >
 
+## § 14-16
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 14-16 fjerde ledd skal lyde:*
+
+> Når vilkårene i andre eller tredje ledd er oppfylt, kan det treffes vedtak på grunnlag av en kombinasjon av forhandlingsmøte og skriftlig behandling.
+>
+
 ## § 14-17
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -993,6 +1167,24 @@ refid: "lov/2021-06-18-97"
 *§ 14-23 første ledd første punktum skal lyde:*
 
 > De private partene kan påklage akuttvedtak etter § 4-2 første og annet ledd, §§ 4-4, 4-5, 4-6 og vedtak om midlertidig flytteforbud etter § 4-3.
+>
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*§ 14-23 første ledd første punktum skal lyde:*
+
+> De private partene kan påklage akuttvedtak etter § 4-2 første og annet ledd, §§ 4-4, 4-5 og 4-6, vedtak om midlertidig flytteforbud etter § 4-3 og vedtak om midlertidig stans av eller tilsyn under samvær etter § 7-7.
+>
+
+## § 14-26
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*Ny § 14-26 skal lyde:*
+
+> § 14-26.Periodisk kontroll av vedtak etter § 6-2 tredje leddNemnda skal føre kontroll med et vedtak etter § 6-2 tredje ledd første punktum når det har gått seks måneder fra vedtaket er iverksatt. Nemnda skal også føre kontroll med vedtak om forlengelse etter § 6-2 tredje ledd annet punktum når det har gått seks måneder fra vedtaket ble forlenget.Nemnda skal kontrollere om vilkårene for vedtaket fortsatt er til stede og om vedtaket skal bestå, endres eller oppheves.Kommunen skal sende begjæring om periodisk kontroll senest når det har gått seks måneder siden vedtaket ble iverksatt. Nemnda skal oppnevne advokat for de private partene, jf. § 14-7.Saken skal som hovedregel behandles skriftlig av nemndleder alene, i samsvar med § 14-16 tredje ledd.Vedtak i saken skal treffes innen tre uker etter at nemnda mottok saken dersom saken behandles skriftlig av nemndleder alene, og innen fire uker dersom saken behandles på annen måte. Nemndas vedtak kan ikke bringes inn for tingretten for rettslig prøving etter § 14-25. For øvrig gjelder saksbehandlingsreglene i kapittel 14 så langt de passer.
+>
+> § 14-26.Periodisk kontroll av vedtak etter § 6-2 tredje ledd
 >
 
 ## § 15-1
@@ -1424,3 +1616,15 @@ refid: "lov/2021-06-18-97"
 ### 2025-12-22 — lov/2025-12-22-115
 
 *Nåværende annet og tredje punktum blir tredje og nytt fjerde punktum.*
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*Nåværende fjerde punktum blir nytt femte punktum.*
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2026-06-19 — lov/2026-06-19-35
+
+*Nåværende fjerde ledd blir nytt femte ledd.*

@@ -161,6 +161,24 @@ refid: "lov/2018-04-20-8"
 > Politiet kan behandle personopplysninger, herunder særlige kategorier av personopplysninger, som er nødvendige for gjennomføring av grensekontroll etter loven.
 >
 
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 22 tredje ledd skal lyde:*
+
+> Biometriske opplysninger (ansiktsbilde og fingeravtrykk) kan innhentes elektronisk av alle som passerer grensekontroll eller annet kontrollsted for kontroll av reisedokumenter. Opplysningene skal tilintetgjøres så snart som mulig etter at identiteten er verifisert mot gyldig reisedokument, eller når identiteten er fastslått på annen måte, med unntak av tilfeller som nevnt i § 22 a annet ledd.
+>
+
+## § 22 a
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*Ny § 22 a skal lyde:*
+
+> § 22 a.Testing og utviklingOpplysninger som behandles i medhold av § 22 første og annet ledd, kan behandles for å utvikle og teste informasjonssystemer til bruk for grensekontrollformål dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysningene skal ikke brukes til testing og utvikling lenger enn nødvendig.Politiet kan også lagre ansiktsbilder og fingeravtrykk innhentet i medhold av § 22 tredje ledd i inntil seks måneder dersom det er nødvendig for å teste og utvikle informasjonssystemer til bruk for grensekontrollformål, dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysninger som lagres etter dette leddet, kan bare behandles til dette formålet.Opplysninger som behandles etter annet ledd i bestemmelsen her, skal holdes atskilt. Tilgang skal bare gis til personer som er særskilt bemyndiget. Bemyndigelse gis av den behandlingsansvarlige.Ansiktsbilder og fingeravtrykk skal slettes i form av tilintetgjøring, jf. arkivlova § 13 annet ledd.
+>
+> § 22 a.Testing og utvikling
+>
+
 ## § 25
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -216,6 +234,13 @@ refid: "lov/2018-04-20-8"
 > gjennomføringen av rettsakter som nevnt i § 8 første ledd, blant annet om behandling av personopplysninger,
 >
 > gjennomføringen av forordning (EU) 2019/817 artikkel 20 og forordning (EU) 2019/818 artikkel 20,
+>
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 25 nr. 10 skal lyde:*
+
+> behandling av personopplysninger, herunder om innsyn, retting og sletting, behandling av opplysninger i forbindelse med testing og utvikling, samt behandling, herunder utveksling, av opplysninger i koordineringssenteret for Eurosur, jf. §§ 22 og 22 a,
 >
 
 ## § 26

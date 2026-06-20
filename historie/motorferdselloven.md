@@ -14,6 +14,13 @@ refid: "lov/1977-06-10-82"
 > For områder som omfattes av markaloven, gjelder markaloven §§ 10 og 15 i stedet for loven her.
 >
 
+### 2026-06-19 — lov/2026-06-19-53
+
+**
+
+> Når loven trer i kraft, oppheves lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag.
+>
+
 ## § 12 a
 
 ### 2015-06-19 — lov/2015-06-19-67

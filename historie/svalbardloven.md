@@ -607,6 +607,13 @@ refid: "lov/1925-07-17-11"
 > På Svalbard er sysselmesteren namsmann og hovedstevnevitne. Veksel- og sjekkprotester tas opp av Sysselmesteren.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 5 tredje ledd skal lyde:*
+
+> På Svalbard er sysselmesteren namsfogd.
+>
+
 ## § 53
 
 ### 2013-04-05 — lov/2013-04-05-12

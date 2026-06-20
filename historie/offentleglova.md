@@ -57,6 +57,10 @@ refid: "lov/2006-05-19-16"
 > Lova gjeld ikkje for dokument som blir behandla av Etterretningstenesta etter etterretningstjenesteloven, eller for straffesaksdokument som blir lånte ut frå politiet til Statens kommisjon for partnardrap eller til Statens helsetilsyn etter barnevoldsundersøkelsesloven § 9.
 >
 
+### 2026-06-19 — lov/2026-06-19-36
+
+*§ 2 sjuende ledd oppheves.*
+
 ## § 25
 
 ### 2011-12-16 — lov/2011-12-16-62
@@ -111,6 +115,15 @@ refid: "lov/2006-05-19-16"
 > Dersom verksemder som nemnde i andre ledd gjer dokument med tilhøyrande metadata allment tilgjengelege, skal tilgjengeleggjeringa skje i alle eksisterande format og språkversjonar, så langt slik tilgjengeleggjering er i samsvar med lova her og tilhøyrande forskrift. Plikta omfattar maskinleselege format. Plikta etter første punktum omfattar ikkje format som berre blir brukte til lagring eller annan intern bruk, eller som elles er ueigna for tilgjengeleggjering.
 >
 
+### 2026-06-19 — lov/2026-06-19-36
+
+*§ 30 skal lyde:*
+
+> § 30.Korleis organet skal gi innsynOrganet fastset ut frå omsynet til forsvarleg saksbehandling korleis eit dokument skal gjerast kjent. Det kan krevjast papirkopi eller elektronisk kopi av dokumentet. Hos verksemder som er omfatta av dataforvaltningsloven, og hos andre verksemder der det er fastsett av Kongen i forskrift, gjeld retten til kopi alle eksisterande format og språkversjonar. Retten til kopi gjeld ikkje format eller versjonar av eit dokument som er allment tilgjengeleg.Kongen kan gi forskrift om korleis elektronisk kopi skal givast og om unntak frå retten til elektronisk kopi, mellom anna at retten ikkje skal gjelde for dokument som ein tredjeperson har immaterielle rettar til, eller for dokument der det er påkravd av arkivtekniske omsyn, medrekna dokument etter direktiv (EU) 2019/1024.
+>
+> § 30.Korleis organet skal gi innsyn
+>
+
 ## § 32
 
 ### 2022-12-20 — lov/2022-12-20-115
@@ -145,6 +158,10 @@ refid: "lov/2006-05-19-16"
 > Dersom ikkje anna blir fastsett av Kongen i forskrift, gjeld føresegnene i paragrafen her berre for verksemder som er omfatta av EØS-avtalen vedlegg XI nr. 5k (direktiv 2003/98/EF som endra ved direktiv 2013/37/EU) om vidarebruk av informasjon frå offentleg sektor.
 >
 
+### 2026-06-19 — lov/2026-06-19-36
+
+*§ 6 tredje ledd oppheves.*
+
 ## § 7
 
 ### 2017-04-28 — lov/2017-04-28-22
@@ -152,6 +169,15 @@ refid: "lov/2006-05-19-16"
 *§ 7 andre ledd skal lyde:*
 
 > I verksemder som er omfatta av EØS-avtalen vedlegg XI nr. 5k (direktiv 2003/98/EF som endra ved direktiv 2013/37/EU) om vidarebruk av informasjon frå offentleg sektor, skal eventuelle standardlisensar om bruk av offentleg informasjon vere tilgjengelege i digitalt format, og dei må kunne behandlast elektronisk. Kongen kan i forskrift fastsetje at det same skal gjelde for verksemder som ikkje er omfatta av EØS-avtalen vedlegg XI nr. 5k (direktiv 2003/98/EF som endra ved direktiv 2013/37/EU) om vidarebruk av informasjon frå offentleg sektor.
+>
+
+### 2026-06-19 — lov/2026-06-19-36
+
+*§ 7 skal lyde:*
+
+> § 7.Bruk av informasjon det blir gitt tilgang til etter lova herInformasjon som det er gitt tilgang til etter lova her, kan brukast til kva formål som helst dersom ikkje anna lovgiving eller retten til ein tredjeperson er til hinder for det.
+>
+> § 7.Bruk av informasjon det blir gitt tilgang til etter lova her
 >
 
 ## § 8
@@ -165,4 +191,13 @@ refid: "lov/2006-05-19-16"
 > Verksemder som til vanleg krev betaling for informasjon, skal på førehand offentleggjere gjeldande vilkår og faktisk betalingssum, medrekna utrekningsgrunnlaget for betalinga. Slik informasjon skal gjerast tilgjengeleg elektronisk dersom det er mogleg.
 >
 > Dersom ikkje anna blir fastsett av Kongen i forskrift, gjeld føresegnene i tredje ledd andre punktum og i fjerde og femte ledd berre for verksemder som er omfatta av EØS-avtalen vedlegg XI nr. 5k (direktiv 2003/98/EF som endra ved direktiv 2013/37/EU) om vidarebruk av informasjon frå offentleg sektor.
+>
+
+### 2026-06-19 — lov/2026-06-19-36
+
+*§ 8 skal lyde:*
+
+> § 8.Hovudregel om gratis innsynOrganet kan berre krevje betaling for innsyn etter denne lova dersom det har heimel i forskrift etter andre ledd eller etter dataforvaltningsloven.Kongen kan gi forskrift om betaling for avskrifter, utskrifter eller kopiar. Betalingssatsane skal vere slik at dei samla inntektene ikkje blir større enn dei faktiske kostnadene ved kopiering og utsending av dokument.
+>
+> § 8.Hovudregel om gratis innsyn
 >

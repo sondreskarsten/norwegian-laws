@@ -530,6 +530,15 @@ refid: "lov/2005-05-20-28"
 > Den som unndrar seg gjennomføringen av idømt frihetsstraff, straffes med bot eller fengsel inntil 6 måneder.
 >
 
+## § 162
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 162 første ledd første punktum ledd skal lyde:*
+
+> Den som ikke oppgir sitt navn, fødselsdato, fødselsår, stilling eller bopel til et stevnevitne, en polititjenesteperson eller annen offentlig myndighet som ber om opplysningen som ledd i tjenesteutøvelsen, straffes med bot.
+>
+
 ## § 168
 
 ### 2019-06-21 — lov/2019-06-21-50

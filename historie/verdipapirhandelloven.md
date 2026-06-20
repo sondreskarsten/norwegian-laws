@@ -2559,6 +2559,10 @@ refid: "lov/2007-06-29-75"
 
 *§ 19-8 nytt annet ledd skal lyde:*
 
+### 2026-06-19 — lov/2026-06-19-40
+
+*§ 19-8 tredje ledd skal lyde:*
+
 ## § 19-10
 
 ### 2024-06-25 — lov/2024-06-25-60
@@ -2732,6 +2736,12 @@ refid: "lov/2007-06-29-75"
 ### 2024-06-25 — lov/2024-06-25-60
 
 *§ 21-8 tredje ledd oppheves. Nåværende fjerde ledd blir tredje ledd.*
+
+## § 21-9
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*§ 21-9 annet ledd skal lyde:*
 
 ## § 21-11
 
@@ -5245,3 +5255,11 @@ refid: "lov/2007-06-29-75"
 ### 2026-02-06 — lov/2026-02-06-3
 
 *Nåværende nr. 9 blir nytt nr. 10.*
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*I lov 29. juni 2007 nr. 75 om verdipapirhandel skal § 5-9 sjette ledd lyde:*
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*Nåværende tredje ledd blir nytt fjerde ledd.*

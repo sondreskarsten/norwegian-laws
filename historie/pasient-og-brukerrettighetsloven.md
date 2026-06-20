@@ -1685,6 +1685,13 @@ refid: "lov/1999-07-02-63"
 > § 2-5 d.Midlertidige unntak fra rettigheter
 >
 
+### 2026-06-19 — lov/2026-06-19-42
+
+*I lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter skal § 3-1 nytt femte ledd lyde:*
+
+> Pasient eller bruker har rett til å ha andre personer til stede når helse- og omsorgstjenester gis. Det kan gjøres unntak dersom det er nødvendig for å kunne gi forsvarlige helse- og omsorgstjenester.
+>
+
 ## § 4A-2
 
 ### 2025-04-25 — lov/2025-04-25-13

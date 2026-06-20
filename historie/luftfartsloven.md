@@ -173,6 +173,40 @@ refid: "lov/1993-06-11-101"
 > (1) Når tingretten behandler saker etter loven her, gjelder reglene om saksbehandling i arveloven § 169 når noe annet ikke fremgår av loven her.
 >
 
+## § 3-31
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 3-31 overskriften skal lyde:*
+
+> § 3-31.Rettsvern ved konkurs og rekonstruksjonsforhandling
+>
+> § 3-31.Rettsvern ved konkurs og rekonstruksjonsforhandling
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 3-31 annet ledd første punktum skal lyde:*
+
+> Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf. lov om fordringshavernes dekningsrett § 1-4 femte ledd, må retten være dagbokført senest dagen før åpningen av rekonstruksjonsforhandlingen.
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 3-31 tredje ledd første punktum skal lyde:*
+
+> For at en frivillig stiftet rett skal ha rettsvern ved en rekonstruksjonsforhandling, må retten være dagbokført senest dagen før åpningen av rekonstruksjonsforhandlingen.
+>
+
+## § 3-35
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 3-35 fjerde ledd skal lyde:*
+
+> En pantheftelse som er falt bort ved en rekonstruksjonsforhandling, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres en stadfestelseskjennelse etter konkursloven § 49, jf. § 56, som viser at heftelsen er falt bort.
+>
+
 ## § 3-37
 
 ### 2003-09-12 — lov/2003-09-12-93
@@ -180,6 +214,15 @@ refid: "lov/1993-06-11-101"
 *§ 3-37 annet ledd skal lyde:*
 
 > Er heftelsen tinglyst, kan registreringsmyndigheten slette den når dokumentet er registrert eller fristen etter første ledd er utløpt.
+>
+
+## § 3-52
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 3-52 første ledd skal lyde:*
+
+> Særskilt tvangssalg av reservedeler til et utenlandsk luftfartøy kan gjennomføres etter begjæring fra en utleggshaver selv om foranstående heftelser som hviler på både reservedelene og luftfartøyet, ikke får full dekning, når kjøpesummen er minst to tredeler av reservedelenes verdi som fastsatt av namsfogden og to rettsvitner med særlige forutsetninger for å ta del i verdsettelsen. Namsfogden kan til fordel for saksøkeren bestemme at de foranstående rettighetshavernes andel av kjøpesummen skal begrenses til to tredeler av kjøpesummen etter fradrag for omkostningene.
 >
 
 ## § 4-2
@@ -1841,6 +1884,13 @@ refid: "lov/1993-06-11-101"
 > § 14-32.Tap av retten til å føre luftfartøyBlir den som har førerrett ilagt straff, kan det i samme dom eller forelegg fastsettes tap av retten til å føre luftfartøy for bestemt tid eller for alltid, dersom hensynet til flysikkerheten eller allmenne hensyn ellers krever det.Tapet av førerrett fastsettes for minst 2 år dersom rettighetshaver blir ilagt straff for overtredelse av § 6-11 eller § 6-12 tredje ledd.Dersom rettighetshaveren tidligere er ilagt straff for overtredelse av § 6-11 eller § 6-12 tredje ledd, og han blir ilagt straff for ny overtredelse av § 6-11 eller § 6-12 tredje ledd som er begått senest 5 år etter at reaksjonen ble fastsatt for den tidligere overtredelsen, skal retten til å føre sertifikatpliktig luftfartøy fratas for alltid.Departementet kan gi forskrift med nærmere regler om fastsetting av hvor lenge tap av førerrett skal vare.Finner politiet at fører av luftfartøy med skjellig grunn er mistenkt for et straffbart forhold som kan medføre tap av retten til å føre sertifikatpliktig luftfartøy, kan en polititjenestemann midlertidig tilbakekalle førerretten og ta sertifikatet fra ham. Spørsmålet om å opprettholde midlertidig tilbakekall av førerretten og beslaget skal snarest mulig forelegges for en tjenestemann som hører til påtalemyndigheten. Beslutningen skal være skriftlig. Dersom den mistenkte ikke samtykker i det midlertidige tilbakekallet av førerretten og beslaget, må spørsmålet innen 3 uker oversendes tingretten til avgjørelse.Når tap av førerrett er rettskraftig avgjort eller det er truffet vedtak om midlertidig tilbakekall av retten til å føre luftfartøy og midlertidig beslag av sertifikat, plikter rettighetshaveren straks å levere sertifikatet til politiet.
 >
 > § 14-32.Tap av retten til å føre luftfartøy
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 14-32 femte ledd første punktum skal lyde:*
+
+> Finner politiet at fører av luftfartøy med skjellig grunn er mistenkt for et straffbart forhold som kan medføre tap av retten til å føre sertifikatpliktig luftfartøy, kan en polititjenesteperson midlertidig tilbakekalle førerretten og ta sertifikatet fra vedkommende.
 >
 
 ## § 14-33

@@ -727,6 +727,13 @@ refid: "lov/1967-12-15-9"
 > Det skal betales fastsatt gebyr, ellers opptas ikke klagen til behandling.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 44 fjerde ledd skal lyde:*
+
+> Om anmerkning i patentregisteret eller i det særskilte register over europeiske patentsøknader av utlegg og arrest gjelder tvangsfullbyrdelsesloven § 7-19 niende ledd, jf. tvisteloven § 33-7 annet ledd.
+>
+
 ## § 44 a
 
 ### 2015-01-23 — lov/2015-01-23-4

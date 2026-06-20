@@ -61,3 +61,10 @@ refid: "lov/2014-06-20-30"
 >
 > § 1.EØS-regler om kredittvurderingsbyråer
 >
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*I lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer skal § 6 første ledd lyde:*
+
+> Finanstilsynet kan ilegge foretaket overtredelsesgebyr dersom foretaket eller noen som har handlet på vegne av foretaket, forsettlig eller uaktsomt har overtrådt kredittvurderingsbyråforordningen artikkel 4 nr. 1 som gjennomført i § 1 eller forskrifter gitt til utfylling av disse bestemmelsene.
+>

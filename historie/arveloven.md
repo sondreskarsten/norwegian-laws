@@ -30,6 +30,21 @@ refid: "lov/2019-06-14-21"
 
 *Nåværende syvende ledd blir nytt åttende ledd.*
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 14. juni 2019 nr. 21 om arv og dødsboskifte skal § 178 tredje til syvende ledd lyde:*
+
+> Akkordforslaget må være i samsvar med konkursloven § 123 annet til sjette ledd, og det skal fremsettes skriftlig overfor tingretten. Finner retten at det er utsikt til at forslaget kan bli vedtatt og stadfestet, skal den sende det til alle kjente kreditorer vedlagt en uttalelse om hvorvidt den anbefaler at det vedtas. Retten skal også uttale seg om sin vurdering av utsikten til og sikkerheten for at forslaget vil bli oppfylt fra arvingenes eller ektefellens eller samboerens side.
+>
+> Reglene i konkursloven § 126 annet ledd og §§ 124, 124 a og 124 b gjelder tilsvarende, likevel slik at retten trer i stedet for bostyret og bostyreren.
+>
+> Etter avstemningen avgjør retten ved kjennelse om akkorden skal stadfestes. Hvis boets kontantbeholdning ikke er tilstrekkelig til å dekke massekrav og fortrinnsberettigede krav, kan akkorden stadfestes bare hvis det stilles betryggende sikkerhet for at det manglende beløpet vil bli innbetalt i tilfelle av stadfestelse. For øvrig gjelder konkursloven § 124 c tilsvarende.
+>
+> Blir akkorden stadfestet, skal skiftebehandlingen innstilles samtidig. Kunngjøring om at akkorden er blitt stadfestet og skiftebehandlingen innstilt, skal sendes til alle kjente kreditorer.
+>
+> Når kjennelsen om stadfestelse er rettskraftig, skal retten dekke massekravene og de fortrinnsberettigede kravene, eller sette inn i bank nødvendige beløp til dekning av omtvistede krav, jf. konkursloven § 40 første ledd, jf. § 124 c tredje ledd.
+>
+
 ## § 116
 
 ### 2023-06-16 — lov/2023-06-16-59

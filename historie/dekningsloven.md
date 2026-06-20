@@ -5,6 +5,28 @@ refid: "lov/1984-06-08-59"
 
 # Endringshistorikk: Dekningsloven – deknl
 
+## § 1-1
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 1-1 skal lyde:*
+
+> § 1-1.Fristdagen ved rekonstruksjonsforhandling.Fristdagen ved rekonstruksjonsforhandling er dagen da begjæringen om åpning av rekonstruksjonsforhandling kom inn til tingretten.Blir behandlingen av en konkursbegjæring utsatt etter konkursloven § 16 første ledd, er fristdagen ved rekonstruksjonsforhandlingen likevel dagen da konkursbegjæringen kom inn til retten. Det samme gjelder hvor begjæring om åpning av rekonstruksjonsforhandling ble fremsatt senest tre uker etter at en begjæring om åpning av konkurs ble tilbakekalt eller rettskraftig avvist eller forkastet.
+>
+> § 1-1.Fristdagen ved rekonstruksjonsforhandling.
+>
+
+## § 1-2
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 1-2 skal lyde:*
+
+> § 1-2.Fristdagen ved konkurs.Fristdagen ved konkurs er dagen da den begjæring om åpning av konkurs som ble tatt til følge, kom inn til tingretten.Fristdagen er likevel dagen da begjæring om åpning av rekonstruksjonsforhandling kom inn til retten, såfremtkonkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at en tidligere begjæring om rekonstruksjonsforhandling ble tilbakekalt eller rettskraftig avvist eller forkastet,rekonstruksjonsforhandlingen er gått over til konkurs i samsvar med konkursloven § 55,konkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at rekonstruksjonsforhandlingen ble rettskraftig innstilt eller avsluttet,skyldneren dør under rekonstruksjonsforhandlingen.Dagen for skyldnerens død er fristdagen når konkurs er åpnet i skyldnerens dødsbo, og det ikke er på det rene at skyldneren var solvent da han døde, med mindre reglene i annet eller fjerde ledd fører til at fristdagen kommer tidligere.Dagen da en tidligere begjæring om åpning av konkurs kom inn til retten, er fristdagen når konkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at den tidligere begjæring ble tilbakekalt eller rettskraftig avvist eller forkastet, med mindre reglene i annet ledd fører til at fristdagen kommer tidligere; disse regler gjelder tilsvarende hvor konkurs er åpnet i samsvar med konkursloven § 55.
+>
+> § 1-2.Fristdagen ved konkurs.
+>
+
 ## § 1-3
 
 ### 2016-04-22 — lov/2016-04-22-3
@@ -12,6 +34,17 @@ refid: "lov/1984-06-08-59"
 *§ 1-3 annet ledd annet punktum skal lyde:*
 
 > Det samme gjelder ved tvangsoppløsning av samvirkeforetak i medhold av samvirkeloven § 141, jf § 144.
+>
+
+## § 1-4
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 1-4 skal lyde:*
+
+> § 1-4.Tidspunktet for åpning av bobehandlingen mv.Med tidspunktet for åpning av rekonstruksjonsforhandling forstås det tidspunktet da begjæring om åpning av rekonstruksjonsforhandling kom inn til tingretten.Med tidspunktet for konkursåpningen forstås det tidspunktet da kjennelse om åpning av konkurs ble avsagt.Med tidspunktet for åpning av offentlig skifte av insolvent dødsbo forstås tidspunktet for skyldnerens død.Med tidspunktet for åpning av bobehandlingen forstås for rekonstruksjonsforhandling det tidspunktet som er nevnt i første ledd, for konkurs det tidspunktet som er nevnt i annet ledd, og for offentlig skifte av insolvent dødsbo det tidspunktet som er nevnt i tredje ledd.Med en umiddelbart forutgående rekonstruksjonsforhandling forstås en rekonstruksjonsforhandling hvor fristdagen i en etterfølgende konkurs bestemmes av reglene i § 1-2 annet ledd.
+>
+> § 1-4.Tidspunktet for åpning av bobehandlingen mv.
 >
 
 ## § 2-7
@@ -155,6 +188,17 @@ refid: "lov/1984-06-08-59"
 > Vedtak om beslagsfrihet og bestemmelser om forvaltningen kan senere endres etter anmodning fra skyldneren eller etter Stiftelsestilsynets eget tiltak. Oppheves beslagsfriheten, kan frigivelse av pengene til skyldneren først skje en måned etter at underretning om opphevelse er gitt til de av skyldnerens fordringshavere som har meldt sine krav til Stiftelsestilsynet.
 >
 
+## § 5-1
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 5-1 skal lyde:*
+
+> § 5-1.I hvilke bo omstøtelse kan skje.Reglene i dette kapittel gjelder ved rekonstruksjonsforhandling, ved konkurs og ved offentlig skifte av insolvent dødsbo.
+>
+> § 5-1.I hvilke bo omstøtelse kan skje.
+>
+
 ## § 5-15
 
 ### 2016-04-22 — lov/2016-04-22-3
@@ -162,6 +206,68 @@ refid: "lov/1984-06-08-59"
 *§ 5-15 første ledd annet punktum skal lyde:*
 
 > Fristen beregnes fra åpningen av forhandling om tvangsakkord også hvor forhandlingen er gått over til konkurs i samsvar med konkursloven § 57.
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 5-15 første ledd skal lyde:*
+
+> Boets rett til å kreve omstøtelse foreldes ett år fra åpning av konkurs eller rekonstruksjonsforhandling. Fristen beregnes fra åpningen av rekonstruksjonsforhandlingen også hvor forhandlingen er gått over til konkurs i samsvar med konkursloven § 55. Rett til omstøtelse foreldes likevel tidligst seks måneder fra det tidspunkt da boet, rekonstruksjonsutvalget eller gjeldsnemnda fikk eller burde ha fått kjennskap til de omstendigheter som ligger til grunn for kravet om omstøtelse, begrenset til 10 år fra åpning av konkurs eller rekonstruksjonsforhandling. Medkontrahentens rett etter § 5-13 første ledd foreldes seks måneder regnet fra det tidspunkt da medkontrahenten fikk kjennskap til at omstøtelse ville bli gjort gjeldende mot vedkommende.
+>
+
+## § 7-3 a
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 7-3 a skal lyde:*
+
+> § 7-3 a.Skyldnerens avtaler ved åpning av rekonstruksjonsforhandling.Skyldnerens avtaler består også etter at det er åpnet rekonstruksjonsforhandling.Åpningen gir ikke i seg selv den andre parten rett til å heve avtalen med skyldneren. En avtalebestemmelse som gir den andre parten rett til å heve på grunn av at skyldneren har eller i overskuelig fremtid vil få alvorlige økonomiske problemer, eller av at det er åpnet rekonstruksjonsforhandling, er ikke bindende. Første og annet punktum griper likevel ikke inn i den andre partens rett til å påberope skyldnerens økonomiske problemer som opphørsgrunn etter avtalens art.Heving som er gjort gjeldende i de siste fire ukene før fristdagen på grunn av skyldnerens betalingsforsinkelse, kan ikke gjøres gjeldende under rekonstruksjonsforhandling med mindre den andre parten har disponert i henhold til hevingen.Har skyldneren misligholdt en avtale om leie av fast eiendom, kan avtalen heves bare dersom begjæring om fravikelse er mottatt hos namsmannen eller tingretten før åpningen av rekonstruksjonsforhandlingen.
+>
+> § 7-3 a.Skyldnerens avtaler ved åpning av rekonstruksjonsforhandling.
+>
+
+## § 7-4 a
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 7-4 a skal lyde:*
+
+> § 7-4 a.Virkningen av at avtalen består under rekonstruksjonsforhandlingen.Skyldneren er under rekonstruksjonsforhandlingen fortsatt forpliktet og berettiget på avtalens vilkår.Den andre partens vederlagskrav ved åpningen av rekonstruksjonsforhandlingen er likevel en fordring som kan omfattes av rekonstruksjonsplanen, jf. konkursloven § 32. Dersom den andre partens eller skyldnerens ytelse etter avtalen er udelelig eller på grunn av sammenhengen mellom de enkelte deler må betraktes som en enhet og avtalen ikke skal omfattes av rekonstruksjonsplanen, jf. § 7-6 a tredje ledd, har avtalemotparten likevel hele vederlagskravet i behold.
+>
+> § 7-4 a.Virkningen av at avtalen består under rekonstruksjonsforhandlingen.
+>
+
+## § 7-5
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 7-5 skal lyde:*
+
+> § 7-5.Plikt til å oppfylle eller stille sikkerhet.Trer konkursboet inn i skyldnerens avtale, eller skal en avtale bestå etter åpning av rekonstruksjonsforhandling, og er tiden for hel eller delvis oppfyllelse fra den annen parts side kommet, kan den annen part kreve at en tilsvarende del av avtalen oppfylles eller dersom henstand er gitt, at det stilles sikkerhet for slik oppfyllelse. Samme rett har den annen part som har levert en ytelse, dersom ytelsen kunne vært krevd tilbake om konkursboet ikke var trådt inn i avtalen, eller dersom avtalen løper videre etter åpning av rekonstruksjonsforhandling. Sikkerhet kan ikke kreves stilt for den del av motytelsen som den annen part allerede har oppnådd rettsvern for.Angår avtalen en løpende ytelse til skyldneren, og skal vederlaget leveres etterskuddsvis for en periode om gangen, skal sikkerheten til enhver tid dekke den først forfalte terminen for så vidt denne gjelder tiden etter åpning av konkurs eller rekonstruksjonsforhandling. For sikkerhetsstillelse eller forskuddsbetaling under en rekonstruksjonsforhandling kan skyldneren kreve at hver termin ikke skal være lengre enn to uker om gangen.Finner retten at en sikkerhetsstillelse etter reglene i de foregående ledd ikke gir den annen part tilstrekkelig beskyttelse, kan den bestemme at det skal stilles sikkerhet også før den annen parts oppfyllelsestid er kommet, eller i videre omfang enn nevnt.Avtaler som skyldneren og den annen avtalepart har truffet om plikt til å stille sikkerhet, kan settes til side av retten dersom de er urimelig tyngende for konkursboet eller skyldneren under rekonstruksjonsforhandling.
+>
+> § 7-5.Plikt til å oppfylle eller stille sikkerhet.
+>
+
+## § 7-6
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 7-6 skal lyde:*
+
+> § 7-6.Ekstraordinær oppsigelse under konkurs.Trer konkursboet inn i skyldnerens avtale, kan det, uansett avtalens bestemmelser om oppsigelse, si opp avtalen med sedvanemessig varsel, eller dersom slik sedvane ikke foreligger, med tre måneders varsel.Sies avtalen opp før det etter denne er adgang til det, kan den annen part kreve det tapet vedkommende derved lider, dekket som dividendefordring.Ekstraordinær oppsigelse etter første ledd griper ikke inn i den annen parts rett i den utstrekning den er beskyttet ved tinglysing eller på annen tilsvarende måte.
+>
+> § 7-6.Ekstraordinær oppsigelse under konkurs.
+>
+
+## § 7-6 a
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*Ny § 7-6 a skal lyde:*
+
+> § 7-6 a.Ekstraordinær oppsigelse m.m. under rekonstruksjonsforhandling.For avtaler som etter sin art er oppsigelige, gjelder følgende uavhengig av om avtalen inneholder bestemmelser om oppsigelse:Skyldneren kan si opp avtalen frem til utsendelsen av rekonstruksjonsplanen etter konkursloven § 37. Dersom skyldneren sier opp avtalen innen to måneder etter åpningen av rekonstruksjonsforhandlingen, gjelder ingen oppsigelsestid. Etter dette kan skyldneren si opp avtalen med tre måneders varsel.Skyldneren kan fastsette i rekonstruksjonsplanen at en avtale skal sies opp på et bestemt tidspunkt etter utsendelsen av rekonstruksjonsplanen, men ikke senere enn tolv måneder etter stadfestelsen av rekonstruksjonsplanen. Avtalen kan likevel ikke sies opp etter denne bestemmelsen med mindre enn tre måneders varsel.Første ledd griper ikke inn i den andre partens rett i den utstrekning den er beskyttet ved tinglysing eller på annen tilsvarende måte.For avtaler som etter sin art ikke er oppsigelige, kan skylderen bestemme at avtalen skal omfattes av rekonstruksjonsplanen dersom den andre parten meddeles dette senest ved utsendelsen av rekonstruksjonsplanen.Skyldneren skal betale fullt vederlag etter avtalen i den utstrekning eller for den tiden etter åpningen av rekonstruksjonsforhandlingen som skyldneren nyttiggjør seg avtalen. Skyldneren anses alltid for å ha nyttiggjort seg avtalen i perioden frem til den er sagt opp.Det tapet den andre parten lider som følge av at skyldneren benytter sine rettigheter etter denne paragrafen, kan kreves dekket som dividendefordring i rekonstruksjonsplanen.
+>
+> § 7-6 a.Ekstraordinær oppsigelse m.m. under rekonstruksjonsforhandling.
 >
 
 ## § 7-10
@@ -200,6 +306,13 @@ refid: "lov/1984-06-08-59"
 > Foran all annen gjeld skal dekkes rimelige omkostninger ved skyldnerens begravelse. Ved konkurs gjelder dette når dødsfallet har funnet sted før konkursåpningen.
 >
 > Etter fordringer som nevnt i første ledd skal følgende fordringer dekkes foran annen gjeld:omkostningene ved bobehandlingen, derunder rimelige omkostninger påført en rekvirent i forbindelse med begjæring om rådighetsforbud før konkurs dersom begjæringen er tatt til følge, og rimelige omkostninger i forbindelse med begjæring om åpning av konkurs, når ikke begjæringen er avgjort eller tilbakekalt før konkursåpningen,andre forpliktelser påført skyldnerens bo under bobehandlingen.
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 9-2 tredje ledd nr. 2 skal lyde:*
+
+> andre forpliktelser påført skyldnerens bo med rekonstruksjonsutvalgets tillatelse under en umiddelbart forutgående rekonstruksjonsforhandling eller med rettens samtykke under offentlig dødsboskifte;
 >
 
 ## § 9-3
@@ -260,4 +373,11 @@ refid: "lov/1984-06-08-59"
 > 14.I lov 23. desember 1988 nr. 104 om produktansvar skal § 3-7 første ledd tredje punktum lyde:
 >
 > Bestemmelsene i lov 14. juni 2019 nr. 21 om arv og dødsboskifte kapittel 17 avsnitt V gjelder tilsvarende så lenge de passer for rettens avgjørelse, om ikke annet blir fastsatt i forskrift av Kongen.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*I følgende bestemmelser endres ordet «namsmannen» til ordet «namsfogden»:*
+
+> § 7-3 a annet ledd og § 7-10 tredje ledd.
 >

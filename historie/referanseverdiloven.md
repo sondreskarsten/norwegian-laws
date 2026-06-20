@@ -136,3 +136,22 @@ refid: "lov/2015-12-04-95"
 ### 2025-05-27 — lov/2025-05-27-18
 
 *6.I lov 4. desember 2015 nr. 95 om fastsettelse av finansielle referanseverdier skal § 1 første ledd lyde:*
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*Nåværende annet ledd blir nytt tredje ledd.*
+
+## § 10
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*§ 10 annet ledd skal lyde:*
+
+## § 12
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*§ 12 annet ledd annet punktum skal lyde:*
+
+> Foretak kan ilegges overtredelsesgebyr når foretaket eller noen som har handlet på vegne av foretaket, forsettlig eller uaktsomt har begått en overtredelse som nevnt i første ledd.
+>

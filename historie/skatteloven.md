@@ -9045,6 +9045,10 @@ refid: "lov/1999-03-26-14"
 > (5) Retten til fradrag for underskudd faller bort for den del det er mottatt konsernbidrag for etter § 10-4 tredje ledd.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 14-6 annet ledd skal lyde:*
+
 ## § 14-7
 
 ### 2004-12-10 — lov/2004-12-10-77
@@ -10701,6 +10705,12 @@ refid: "lov/1999-03-26-14"
 >
 > (4) Bestemmelsene gjelder ikke for selskap mv. som er oppløst i inntektsåret.
 >
+
+## § 16-61
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 16-61 annet ledd skal lyde:*
 
 ## § 16-70
 

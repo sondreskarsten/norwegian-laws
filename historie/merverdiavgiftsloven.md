@@ -525,6 +525,13 @@ refid: "lov/2009-06-19-58"
 > (2) Departementet kan gi forskrift om at fritaket i første ledd omfatter andre varer enn selve kjøretøyet og arbeid som utføres på kjøretøyet.
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 6-7 første ledd andre punktum skal lyde:*
+
+> Fritaket omfatter også lastebiler, trekkbiler, varebiler, kombinerte biler, campingbiler, beltebiler og busser som har tillatt totalvekt på 7 500 kg eller mer.
+>
+
 ## § 6-8
 
 ### 2012-12-07 — lov/2012-12-07-78

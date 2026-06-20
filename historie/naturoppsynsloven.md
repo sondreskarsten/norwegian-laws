@@ -48,6 +48,13 @@ refid: "lov/1996-06-21-38"
 > På Finnmarkseiendommens grunn skal oppsynet føre den ytterligere kontroll som departementet og Finnmarkseiendommen avtaler.
 >
 
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 2 første ledd nr. 3 skal lyde:*
+
+> lov 19. juni 2026 nr. 53 om motorferdsel i utmark og vassdrag,
+>
+
 ## § 3
 
 ### 2013-06-14 — lov/2013-06-14-49

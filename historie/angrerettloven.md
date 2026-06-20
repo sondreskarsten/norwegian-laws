@@ -52,6 +52,10 @@ refid: "lov/2014-06-20-27"
 > Departementet kan i forskrift stille krav om at tilbydere av nettbaserte markedsplasser må gi forbrukere ytterligere opplysninger.
 >
 
+### 2026-06-19 — lov/2026-06-19-34
+
+*Nåværende tredje og fjerde ledd blir fjerde og femte ledd.*
+
 ## § 1
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -86,6 +90,15 @@ refid: "lov/2014-06-20-27"
 *§ 15 første ledd skal lyde:*
 
 > Når avtale inngås gjennom et fjernkommunikasjonsmiddel som har begrenset plass eller tid til å vise opplysninger, skal den næringsdrivende gi opplysninger etter § 8 første ledd bokstav a, d, e, h første punktum og n før avtale inngås.
+>
+
+## § 16
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 16 første ledd skal lyde:*
+
+> Når en avtale som skal inngås elektronisk forplikter forbrukeren til å betale, skal den næringsdrivende tydelig og i fremhevet form gjøre forbrukeren oppmerksom på opplysningene fastsatt i § 8 første ledd bokstav a, e, m og t umiddelbart før forbrukeren foretar bestillingen.
 >
 
 ## § 19
@@ -134,6 +147,33 @@ refid: "lov/2014-06-20-27"
 *§ 2 bokstav g til i skal lyde:*
 
 > avtaler om salg av varer og tjenester utenom faste forretningslokaler når den samlede kontraktssummen, inkludert frakt- og tilleggskostnader som forbrukeren skal betale, er 300 kr eller mindre,avtaler som er inngått med ekomtilbyder gjennom offentlig tilgjengelige betalingstelefoner for bruk av disse, eller som er inngått for bruk av én enkelt telefon-, Internett- eller telefaksforbindelse opprettet av en forbruker,avtaler om pengespill.
+>
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 2 bokstav i skal lyde:*
+
+> avtaler om pengespill,
+>
+
+## § 20
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 20 andre ledd nytt andre punktum skal lyde:*
+
+> For avtaler som er inngått ved bruk av et nettbasert grensesnitt, kan meldingen også fremsettes ved hjelp av en elektronisk angrefunksjon, jf. § 20 a.
+>
+
+## § 20 a
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*Ny § 20 a skal lyde:*
+
+> § 20 a.Elektronisk angrefunksjon for avtaler inngått ved hjelp av et nettbasert grensesnittFor fjernsalgsavtaler inngått ved hjelp av et nettbasert grensesnitt skal den næringsdrivende sikre at forbrukeren kan benytte angreretten også ved å bruke en elektronisk angrefunksjon.Angrefunksjonen skal være merket på en lett leselig måte med ordene «angre avtalen» eller en tilsvarende utvetydig formulering. Angrefunksjonen skal være tilgjengelig uavbrutt helt til utløpet av angrefristen. Angrefunksjonen skal ha en fremtredende plass i det nettbaserte grensesnittet og være lett tilgjengelig for forbrukeren.Angrefunksjonen skal gjøre det mulig for forbrukeren å gi melding til den næringsdrivende om at forbrukeren vil benytte angreretten. Ved hjelp av angrefunksjonen skal forbrukeren lett kunne gi eller bekrefte følgende opplysninger:forbrukerens navnopplysninger som identifiserer avtalen forbrukeren ønsker å angre påelektronisk kommunikasjonsmiddel som bekreftelsen på forbrukerens bruk av angreretten skal sendes til.Den næringsdrivende skal gjøre det mulig for forbrukeren å sende inn utfylt angremelding ved hjelp av en knapp eller en annen bekreftelsesfunksjon. Knappen eller bekreftelsesfunksjonen skal være merket på en lett leselig måte og kun med ordene «Bekreft bruk av angrerett» eller en tilsvarende utvetydig formulering.Etter at forbrukeren har aktivert knappen eller bekreftelsesfunksjonen, skal den næringsdrivende uten ugrunnet opphold og på et varig medium sende forbrukeren en kvittering for mottatt melding om angrerett. Kvitteringen skal inneholde opplysninger om angreerklæringens innhold og dato og tidspunkt for innsendelse.Forbrukeren skal anses for å ha benyttet sin angrerett innenfor angrefristen dersom den elektroniske meldingen er sendt innen angrefristens utløp.
+>
+> § 20 a.Elektronisk angrefunksjon for avtaler inngått ved hjelp av et nettbasert grensesnitt
 >
 
 ## § 22
@@ -254,6 +294,23 @@ refid: "lov/2014-06-20-27"
 > digitalt innhold: data som fremstilles og leveres i digital form, ved at de gjengir fysiske størrelser med diskrete tegn,digital tjeneste: tjeneste som gjør det mulig for brukeren å frembringe, behandle, lagre eller få tilgang til data i digital form, eller tjenester som gjør det mulig å dele eller å samhandle på annen måte med slike data,nettbasert markedsplass: enhver tjeneste som bruker programvare, herunder et nettsted eller en applikasjon, som drives av eller på vegne av en næringsdrivende, og som gir forbrukere mulighet til å inngå fjernsalgsavtaler med andre næringsdrivende eller forbrukere,tilbyder av en nettbasert markedsplass: enhver næringsdrivende som stiller til rådighet en nettbasert markedsplass for forbrukerne,kompatibilitet: evnen digitalt innhold eller digitale tjenester har til å fungere sammen med maskinvare eller programvare som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med, uten at det digitale innholdet eller den digitale tjenesten må konverteres,funksjonalitet: evnen digitalt innhold eller digitale tjenester har til å fungere med hensyn til formålet,samvirkingsevne: evnen digitalt innhold eller digitale tjenester har til å fungere sammen med annen maskinvare eller programvare enn den som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med.
 >
 
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 5 bokstav o og ny bokstav p til t skal lyde:*
+
+> samvirkingsevne:evnen digitalt innhold eller digitale tjenester har til å fungere sammen med annen maskinvare eller programvare enn den som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med,
+>
+> kommersiell holdbarhetsgaranti:en garanti der produsenten garanterer overfor forbrukeren for varens holdbarhet i hele garantiens løpetid slik at produsenten påtar seg å reparere eller omlevere varen dersom holdbarheten ikke opprettholdes,
+>
+> holdbarhet:evnen varen har til å opprettholde sine nødvendige funksjoner og sin nødvendige ytelse ved normal bruk,
+>
+> produsent:den som produserer en vare, den som importerer varen til EØS, og enhver som framstår som produsent ved å påføre varen sitt navn, sitt varemerke eller et annet særlig kjennetegn,
+>
+> reparasjonsscore:en score som angir i hvilken grad det er mulig å reparere en vare, basert på harmoniserte krav fastsatt på EØS-nivå,
+>
+> programvareoppdatering:en gratis oppdatering, herunder en sikkerhetsoppdatering, som er nødvendig for at varer med digitale elementer, digitalt innhold og digitale tjenester fortsatt skal være mangelfrie etter forbrukerkjøpslovens og digitalytelseslovens regler.
+>
+
 ## § 8
 
 ### 2023-06-16 — lov/2023-06-16-38
@@ -282,4 +339,64 @@ refid: "lov/2014-06-20-27"
 *§ 8 første ledd bokstav p og nye bokstaver q og r skal lyde:*
 
 > der dette er relevant, utenrettslig klage- og erstatningsordning som den næringsdrivende er tilknyttet, samt fremgangsmåten for å få tilgang til denne,der dette er relevant, at prisen er personlig tilpasset basert på automatiserte beslutninger,eventuell ettersalgsservice og eventuelle kommersielle garantier, samt vilkårene for disse.
+>
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 8 første ledd bokstav g til w skal lyde:*
+
+> ordningene for betaling, levering, herunder miljøvennlige leveringsalternativer der dette er tilgjengelig, oppfyllelse, leveringsfrist og hvordan den næringsdrivende håndterer reklamasjoner,
+>
+> at det foreligger angrerett samt vilkårene, tidsfristene og fremgangsmåtene for å bruke angreretten, jf. § 20 første og annet ledd,
+>
+> at forbrukeren må bære kostnadene ved å returnere varene dersom angreretten brukes. Dersom varene etter sin natur normalt ikke kan returneres med post, skal kostnadene ved å returnere varene opplyses,
+>
+> at forbrukeren som bruker angreretten, etter å ha bedt om oppstart av tjenesteleveringen i henhold til §§ 12 eller 19, skal ha ansvar for rimelige kostnader, jf. § 26 første ledd,
+>
+> at avtalen omfattes av unntakene fra angrerett i § 22, dersom dette er tilfellet, eventuelt om under hvilke omstendigheter angreretten kan tapes,
+>
+> den lovbestemte ansvarsperioden for at varen skal være kontraktsmessig, og om hovedelementene i denne, herunder at ansvarsperioden har en varighet på minst to år, jf. forbrukerkjøpsloven § 27 andre ledd,
+>
+> eventuelle kommersielle holdbarhetsgarantier uten ekstra kostnad som gjelder hele varen, garantiens varighet og at den er lengre enn den lovbestemte ansvarsperioden, jf. bokstav l,
+>
+> den lovbestemte ansvarsperioden for at digitalt innhold og digital tjeneste skal være kontraktsmessig,
+>
+> minimumsperioden, angitt som en periode eller en dato, der produsenten eller leverandøren leverer programvareoppdateringer for varer med digitale elementer, for digitalt innhold og for digitale tjenester, forutsatt at produsenten eller leverandøren har gjort opplysningene tilgjengelig for den næringsdrivende,
+>
+> eventuell ettersalgsservice og eventuelle kommersielle garantier samt vilkårene for disse,
+>
+> der dette er relevant, varenes reparasjonsscore, jf. § 5 bokstav s,
+>
+> i tilfeller der bokstav q ikke er relevant, tilgjengeligheten, anslåtte kostnader og framgangsmåte for å bestille reservedeler som er nødvendige for at varene fortsatt skal være kontraktsmessige, tilgjengeligheten av reparasjons- og vedlikeholdsinstruksjoner og begrensninger for reparasjon, forutsatt at produsenten gjør opplysningene tilgjengelige for den næringsdrivende,
+>
+> relevante atferdsregler og hvor disse kan finnes,
+>
+> der dette er relevant, avtalens varighet og eventuell minste bindingstid, eller, for avtaler som er uten tidsbegrensning eller forlenges automatisk, vilkårene for å si opp avtalen,
+>
+> eventuelle depositum eller andre økonomiske garantier betalt eller stilt av forbrukeren og vilkårene for disse,
+>
+> der dette er relevant, utenrettslig klage- og erstatningsordning som den næringsdrivende er tilknyttet, samt fremgangsmåten for å få tilgang til denne,
+>
+> der dette er relevant, at prisen er personlig tilpasset basert på automatiserte beslutninger.
+>
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 8 andre ledd skal lyde:*
+
+> Den næringsdrivende skal også gi forbrukeren et standardisert skjema for bruk av angrerett (angreskjema). Den næringsdrivende skal anses for å ha gitt opplysninger etter første ledd bokstav h, i og j dersom denne har gitt forbrukeren korrekt utfylt skjema om opplysninger om angreretten. Der dette er relevant, skal det gis informasjon om eksistensen og plasseringen av elektronisk angrefunksjon, jf. § 20 a.
+>
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 8 tredje ledd skal lyde:*
+
+> Opplysningene etter første ledd bokstav l skal vises på en fremtredende måte ved bruk av en harmonisert melding. Opplysningene etter første ledd bokstav m skal sammen med opplysningene etter første ledd bokstav l vises på en fremtredende måte ved bruk av en harmonisert etikett, jf. sjette ledd.
+>
+
+### 2026-06-19 — lov/2026-06-19-34
+
+*§ 8 nåværende femte ledd blir nytt sjette ledd og skal lyde:*
+
+> Departementet kan i forskrift gi nærmere bestemmelser om standardisert angreskjema samt om hvordan opplysningsplikten skal oppfylles, herunder at opplysninger om angreretten skal gis ved bruk av et standardisert skjema for opplysninger om angrerett. Departementet kan i forskrift også gi bestemmelser om innholdet i og utformingen og plasseringen av den harmoniserte meldingen og den harmoniserte etiketten.
 >

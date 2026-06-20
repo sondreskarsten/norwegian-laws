@@ -26,6 +26,13 @@ refid: "lov/1982-12-17-86"
 > lov 17. desember 1982 nr. 86 om rettsgebyr § 27 a
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 17. desember 1982 nr. 86 om rettsgebyr skal § 16 nr. 2 lyde:*
+
+> For rekonstruksjonsforhandling betales 5 ganger rettsgebyret. Tas skyldnerens bo under konkursbehandling i forbindelse med innstilling av rekonstruksjonsforhandlingen, betales i stedet gebyr etter nr. 1.
+>
+
 ## § 1
 
 ### 2003-06-27 — lov/2003-06-27-63
@@ -285,6 +292,27 @@ refid: "lov/1982-12-17-86"
 *§ 14 første ledd andre punktum skal lyde:*
 
 > Det betales ikke gebyr for begjæring om utlegg for underholdsbidrag mv. og for tvangsbot etter barnelova § 14-5 eller når en kommune fremsetter en beslutning om utleggstrekk for namsmannen etter tvangsfullbyrdelsesloven § 2-17.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 14 første ledd annet punktum skal lyde:*
+
+> Det betales ikke gebyr for begjæring om utlegg for underholdsbidrag mv. og for tvangsbot etter barnelova § 14-5 eller når en kommune fremsetter en beslutning om utleggstrekk for namsfogden etter tvangsfullbyrdelsesloven § 2-17.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 14 syvende ledd skal lyde:*
+
+> Ved begjæring til namsfogden om utlevering etter tvangsfullbyrdelsesloven kapittel 13 betales 1,2 ganger rettsgebyret. Ved begjæring til namsfogden om fravikelse etter tvangsfullbyrdelsesloven kapittel 13 betales 1,25 ganger rettsgebyret og i tillegg 1,35 ganger rettsgebyret når tvangsfullbyrdelse blir gjennomført.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 14 ellevte ledd tredje punktum skal lyde:*
+
+> Ved begjæring om utlegg etter tvangsfullbyrdelsesloven § 7-2 bokstav f kan namsfogden i særlige tilfeller kreve at gebyret etter første ledd første punktum betales forskuddsvis.
 >
 
 ## § 15
@@ -695,6 +723,13 @@ refid: "lov/1982-12-17-86"
 ### 2017-05-11 — lov/2017-05-11-26
 
 *§ 5 a nr. 2 oppheves.*
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 5 a nr. 3 første punktum skal lyde:*
+
+> Avgjørelser som gjelder forretninger som nevnt i kapittel 4 og § 25 hos namsfogden eller hos en særskilt namsmyndighet, kan påklages til tingretten etter reglene i tvangsfullbyrdelsesloven § 5-16.
+>
 
 ## § 5 b
 

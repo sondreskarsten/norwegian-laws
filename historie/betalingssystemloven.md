@@ -280,3 +280,10 @@ refid: "lov/1999-12-17-95"
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende bokstav d blir ny bokstav e.*
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 17. desember 1999 nr. 95 om betalingssystemer m.v. skal § 1-3 åttende ledd lyde:*
+
+> Med innledning av insolvensbehandling menes tidspunkt for åpning av rekonstruksjonsforhandling etter lov 8. juni 1984 nr. 58 om rekonstruksjonsforhandling og konkurs § 4 fjerde ledd, tidspunkt for åpning av konkurs etter konkursloven § 74 første ledd, eller tidspunkt for vedtak om offentlig administrasjon etter lov 10. april 2015 nr. 17 om finansforetak og finanskonsern § 21-11.
+>

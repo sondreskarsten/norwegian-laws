@@ -173,6 +173,13 @@ refid: "lov/1992-12-04-132"
 > Departementet kan gi forskrift om gebyr for myndighetenes arbeid med å utstede sertifikater for legemidler.
 >
 
+### 2026-06-19 — lov/2026-06-19-44
+
+*§ 10 første ledd skal lyde:*
+
+> Kongen gir nærmere forskrifter om vilkår for markedsføringstillatelse, forpliktelser knyttet til markedsføringstillatelser og sanksjoner ved brudd på disse. Kongen kan gi forskrift med bestemmelser om omsetning og kontroll av legemidler som nevnt i § 8 første ledd. Departementet kan i forskrift bestemme at Det europeiske legemiddelbyrå kan pålegge innehavere av markedsføringstillatelse å gjøre bestemte opplysninger tilgjengelige for byrået.
+>
+
 ## § 13
 
 ### 2024-06-25 — lov/2024-06-25-68
@@ -219,6 +226,13 @@ refid: "lov/1992-12-04-132"
 > Departementet kan pålegge grossister og andre som driver grossistvirksomhet, å registrere opplysninger om omsetningen. Opplysningene skal gjøres tilgjengelig for departementet. Departementet kan gi forskrift om hvordan opplysningene skal oppbevares og gjøres tilgjengelig.
 >
 > Grossister og andre som driver grossistvirksomhet, plikter å gi departementet elektronisk tilgang til opplysninger om lagerstatus ved fare for tilgangen til legemidler i Norge. Departementet kan gi forskrift om gjennomføringen av første punktum.
+>
+
+### 2026-06-19 — lov/2026-06-19-44
+
+*§ 14 femte ledd skal lyde:*
+
+> Departementet kan pålegge grossister og andre som driver grossistvirksomhet, å registrere opplysninger om omsetningen, logistiske utfordringer, tilgjengelighet av legemidler og prognoser for etterspørsel av legemidler. Opplysningene skal gjøres tilgjengelige for departementet. Departementet kan gi forskrift om hvordan opplysningene skal oppbevares og gjøres tilgjengelig. Departementet kan i forskrift bestemme at Det europeiske legemiddelbyrå kan pålegge grossister og andre som driver grossistvirksomhet, å gjøre opplysninger om logistiske utfordringer tilgjengelige for byrået.
 >
 
 ## § 15

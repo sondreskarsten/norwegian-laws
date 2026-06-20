@@ -32,6 +32,15 @@ refid: "lov/1893-07-20-2"
 > Godtgjørelse og erstatning etter §§ 1 og 5 fastsettes i lensmannsdistrikter av lensmannen. Over lensmannens avgjørelse kan det klages til politimesteren dersom tvisten gjelder en sum på 100 kroner eller mer eller klageren mener avgjørelsen ikke er lovmessig.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 11 skal lyde:*
+
+> § 11.Vedkommer godtgjørelsen eller erstatningen etter §§ 1 og 5 skip eller gods, blir den som andre kostnader å dekke av dette. Erstatning for ytelser m.m. til skipbrudne som nevnt i § 5 utredes av staten. Det samme gjelder godtgjørelse etter § 1 når den ikke kan dekkes av de bergete eller strandete ting.
+>
+> § 11.
+>
+
 ## § 12
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -53,6 +62,10 @@ refid: "lov/1893-07-20-2"
 
 > Kan der ikke uden øiensynlig Skade eller Fare for Vedkommendes Velfærd udsættes med at fatte Beslutning om Umyndiggjørelse, indtil Undersøgelsen er tilendebragt, kan Retten eller, om ei heller dennes Beslutning kan oppebies, dens leder foreløbig beslutte Anordning af Værgemaal. Denne Beslutning, der ei kan ankes, forbliver gjældende, indtil Sagen af Retten endelig er afgjort, hvilket bør ske snarest muligt.
 >
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 13 oppheves.*
 
 ## § 14
 

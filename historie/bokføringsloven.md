@@ -20,6 +20,24 @@ refid: "lov/2004-11-19-73"
 > Departementet kan i forskrift fastsette krav til dokumentasjon av elektroniske forsystem.
 >
 
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 10 annet ledd skal lyde:*
+
+> Dokumentasjon for salg av varer og tjenester til andre bokføringspliktige skal utstedes i elektronisk fakturaformat, jf. § 3 nr. 3. Dokumentasjon for kjøp av varer og tjenester fra andre bokføringspliktige skal tilsvarende mottas i elektronisk fakturaformat.
+>
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 10 annet og tredje ledd blir tredje og nytt fjerde ledd.*
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 10 fjerde ledd skal lyde:*
+
+> Departementet kan i forskrift fastsette ytterligere krav til dokumentasjonens format og kan i forskrift eller enkeltvedtak gjøre unntak fra kravene i annet ledd om elektronisk fakturaformat.
+>
+
 ## § 10 a
 
 ### 2019-01-01 — lov/2015-06-19-53
@@ -50,6 +68,13 @@ refid: "lov/2004-11-19-73"
 ### 2012-06-22 — lov/2012-06-22-35
 
 *§ 11 annet ledd oppheves. Nåværende tredje ledd blir nytt annet ledd.*
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 11 første ledd første punktum skal lyde:*
+
+> Ved utarbeidelse av årsregnskap og næringsspesifikasjon skal det foreligge dokumentasjon for alle balanseposter med mindre de er ubetydelige.
+>
 
 ## § 12
 
@@ -106,6 +131,13 @@ refid: "lov/2004-11-19-73"
 > Departementet kan i forskrift fastsette krav om lengre oppbevaringstid for nærmere angitte typer primærdokumentasjon enn det som følger av annet ledd når det finnes nødvendig av hensyn til pliktig regnskapsrapportering eller skatte- og avgiftskontroll.
 >
 
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 13 annet ledd skal lyde:*
+
+> Regnskapsmateriale som nevnt i første ledd nr. 1 til 4 skal oppbevares i Norge i fem år etter regnskapsårets slutt. Regnskapsmateriale som nevnt i første ledd nr. 5 til 8 skal oppbevares i Norge i tre år og seks måneder etter regnskapsårets slutt. Originalt regnskapsmateriale kan erstattes ved overføring av regnskapsinformasjon til andre media hvis muligheten til å etterprøve pliktig regnskapsrapportering i regnskapsmaterialets oppbevaringstid ikke svekkes. Elektronisk faktura, jf. § 3 nr. 3, skal likevel oppbevares i sitt opprinnelige format. Departementet kan i forskrift fastsette nærmere krav til oppbevaringsmedier.
+>
+
 ## § 13 b
 
 ### 2012-06-22 — lov/2012-06-22-35
@@ -142,6 +174,17 @@ refid: "lov/2004-11-19-73"
 *§ 2 annet ledd tredje punktum skal lyde:*
 
 > Dette gjelder likevel ikke tilbydere som leverer skattemelding for merverdiavgift som nevnt i skatteforvaltningsloven § 8-3 første ledd bokstav e, og som er bokføringspliktig utelukkende på grunnlag av plikten til å levere skattemelding etter bestemmelsen her.
+>
+
+## § 3
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 3 skal lyde:*
+
+> § 3.DefinisjonerI denne lov menes medpliktig regnskapsrapportering: årsregnskap og annen rapportering av historiske regnskapsopplysninger til eksterne parter, gitt i skriftlig form til fastsatt tidspunkt og med et forhåndsdefinert innhold, og som er fastsatt i eller med hjemmel i lov. Departementet fastsetter i forskrift hva som er pliktig regnskapsrapportering etter denne loven.elektronisk regnskapssystem: programvare eller digitale tjenester som muliggjør produksjon av pliktig regnskapsrapportering, spesifikasjoner og automatisert behandling av elektronisk faktura, og som er innrettet slik at opplysningsplikten kan ivaretas.elektronisk faktura: et salgsdokument som kan utstedes, sendes og mottas i et strukturert, elektronisk format, som er egnet for automatisert behandling i regnskapssystemet.
+>
+> § 3.Definisjoner
 >
 
 ## § 3 a
@@ -203,4 +246,13 @@ refid: "lov/2004-11-19-73"
 > Dokumentasjon av kontrollsporet, herunder hvordan systemgenererte poster kan etterprøves, skal foreligge i de tilfellene det er nødvendig for å kunne kontrollere bokførte opplysninger på en enkel måte.
 >
 > Departementet kan ved enkeltvedtak gjøre unntak fra kravet i annet ledd om nummerering av dokumentasjon.
+>
+
+## § 7
+
+### 2026-06-19 — lov/2026-06-19-39
+
+*§ 7 nytt fjerde ledd skal lyde:*
+
+> Bokføring skal skje i et elektronisk regnskapssystem, med mindre departementet i forskrift eller enkeltvedtak har bestemt noe annet. Departementet kan i forskrift fastsette nærmere krav til elektroniske regnskapssystemer.
 >

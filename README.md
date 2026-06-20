@@ -10,7 +10,7 @@
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
   <img alt="Coverage" src="https://img.shields.io/badge/coverage-4%2C232_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C801-ba0c2f">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C853-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C627-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
@@ -64,21 +64,21 @@ Dette er et utdrag. Se originalt dokument for fullstendig oversikt.
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-06-12 | Endringslov til folketrygdloven | [`lov/1997-02-28-19`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1997-02-28-19.html) |
-| 2026-06-12 | Midlertidig endringslov, ankomst av fordrevne fra Ukraina | [`lov/1999-03-26-17`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1999-03-26-17.html) [`lov/1999-07-02-61`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1999-07-02-61.html) [`lov/1999-07-02-63`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1999-07-02-63.html) … |
-| 2026-06-12 | Endringslov til integreringsloven | [`lov/2020-11-06-127`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2020-11-06-127.html) |
-| 2026-06-12 | Endringslov til folketrygdloven mv. | [`lov/1949-07-28-26`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1949-07-28-26.html) [`lov/1953-06-26-11`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1953-06-26-11.html) [`lov/1962-06-22-12`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1962-06-22-12.html) … |
-| 2026-06-12 | Endringslov til lov om pensjonsordning for sykepleiere | [`lov/1962-06-22-12`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1962-06-22-12.html) |
+| 2026-06-19 | Endringslov til valgloven | [`lov/2023-06-16-62`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2023-06-16-62.html) |
+| 2026-06-19 | Endringslov til arbeidsmiljøloven og folketrygdloven | [`lov/1997-02-28-19`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1997-02-28-19.html) [`lov/2005-06-17-62`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2005-06-17-62.html) |
+| 2026-06-19 | Endringslov til markedsføringsloven mv. | [`lov/1918-05-31-4`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1918-05-31-4.html) [`lov/2009-01-09-2`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2009-01-09-2.html) [`lov/2014-06-20-27`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2014-06-20-27.html) |
+| 2026-06-19 | Endringslov til barnevernsloven | [`lov/2021-06-18-97`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2021-06-18-97.html) |
+| 2026-06-19 | Dataforvaltningsloven | [`lov/2003-05-09-31`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2003-05-09-31.html) [`lov/2006-05-19-16`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2006-05-19-16.html) |
 
 **Forskrifter:**
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-06-19 | Forskrift om opptak, studier og eksamen ved Fagskolen Kristiania | [`forskrift/2017-08-01-1230`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-08-01-1230.html) [`forskrift/2019-11-18-2264`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-11-18-2264.html) [`forskrift/2021-11-24-3371`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-11-24-3371.html) … |
+| 2026-06-19 | Endr. i byggesaksforskriften (SAK 10) | [`forskrift/2010-03-26-488`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-03-26-488.html) |
+| 2026-06-19 | Forskrift om endring i utlendingsforskriften (unntak fra krav om as… | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
+| 2026-06-19 | Endr. i brukerromsforskriften | [`forskrift/2004-12-17-1661`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-12-17-1661.html) |
 | 2026-06-18 | Endr. i nettinntekstforskriften | [`forskrift/2025-01-14-50`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-01-14-50.html) |
-| 2026-06-18 | Forskrift om opphevelse av forskrift om opptak, gjennomføring av st… | [`forskrift/2019-12-20-2136`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-12-20-2136.html) |
-| 2026-06-18 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-06-18 | Forskrift om endring i forskrift om stenging av områder for fiske e… | [`forskrift/2026-04-09-579`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-04-09-579.html) |
-| 2026-06-18 | Forskrift om endring i forskrift om rett til å arbeide som dyrehels… | [`forskrift/2009-01-19-77`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-01-19-77.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -174,7 +174,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 |---|---|
 | 📜 **Complete coverage** | All 794 formal laws + 3,438 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,627 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 16 ministry feeds |
-| 🕰️ **Backdated git history** | 38,801 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 🕰️ **Backdated git history** | 38,853 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 13,700+ per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2001`–`v2027`) |

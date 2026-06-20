@@ -685,3 +685,12 @@ refid: "lov/1999-07-02-61"
 >
 > § 2-5 d.Midlertidige unntak fra plikter
 >
+
+### 2026-06-19 — lov/2026-06-19-42
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal ny § 3-11 a lyde:*
+
+> § 3-11 a.Om medvirkningHelseinstitusjoner som omfattes av loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+>
+> § 3-11 a.Om medvirkning
+>

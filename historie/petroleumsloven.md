@@ -300,6 +300,15 @@ refid: "lov/1996-11-29-72"
 > Rettighetshaver skal påse at forholdene blir lagt til rette, slik at fagforeningsvirksomhet blant egne ansatte og entreprenørens og underentreprenørens personell kan foregå i samsvar med norsk praksis.
 >
 
+## § 10-13
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 10-13 tredje ledd skal lyde:*
+
+> En tillatelse kan tilbakekalles dersom den sikkerhet rettighetshaver plikter å stille etter § 10-7, er vesentlig svekket, eller dersom selskapet eller annen sammenslutning som innehar tillatelsen, oppløses eller det åpnes rekonstruksjonsforhandling eller konkurs.
+>
+
 ## § 10-17
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -341,6 +350,15 @@ refid: "lov/1996-11-29-72"
 *§ 10-18 tredje ledd skal lyde:*
 
 > Kongen kan gi forskrifter om opplysningsplikt for ivaretakelse av Norges plikter etter EØS-avtalen.
+>
+
+## § 11-3
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 11-3 annet ledd skal lyde:*
+
+> Konkurs og rekonstruksjonsforhandling etter lov 8. juni 1984 nr. 58 om rekonstruksjonsforhandling og konkurs kan ikke åpnes i selskapet.
 >
 
 ## (annet)

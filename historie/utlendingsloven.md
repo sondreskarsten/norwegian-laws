@@ -673,6 +673,28 @@ refid: "lov/2008-05-15-35"
 > § 108 a.Straff for utilbørlig utnyttelse av utlendinger
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*I følgende bestemmelser endres ordet «polititjenestemann» til «polititjenesteperson»:*
+
+> §§ 18, 21, 32, 103, 103 b, 104, 104 a og 106 a.
+>
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 77 femte ledd bokstav c lyde:*
+
+> ikke er under rekonstruksjonsforhandling eller konkursbehandling eller i konkurskarantene
+>
+
+### 2026-06-19 — lov/2026-06-19-50
+
+*Nåværende femte ledd blir nytt sjette ledd.*
+
 ## § 1
 
 ### 2023-06-02 — lov/2023-06-02-20
@@ -1687,6 +1709,13 @@ refid: "lov/2008-05-15-35"
 > Kongen kan gi utfyllende bestemmelser i forskrift.
 >
 
+### 2026-06-19 — lov/2026-06-19-46
+
+*§ 107 a annet ledd skal lyde:*
+
+> Enhver som utfører tjeneste eller arbeid for tilsynsrådet, har taushetsplikt etter forvaltningsloven. Taushetsplikten omfatter også forhold av betydning for sikkerheten ved utlendingsinternatet og ved særskilt tilrettelagte innkvarteringssteder, opplysninger knyttet til forestående tvangsreturer og opplysninger som det av hensyn til politiets operative virksomhet eller arbeid med tvangsreturer er behov for å holde hemmelig.
+>
+
 ## § 108
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -2178,6 +2207,13 @@ refid: "lov/2008-05-15-35"
 > Ingen må holdes tilbake lenger enn nødvendig etter denne paragrafen og ikke ut over 4 timer. Tiden inngår i beregningen av frister etter §§ 106 a til 106 c og politiloven § 8.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 21 a første ledd innledningen skal lyde:*
+
+> Politiet kan holde tilbake en utlending eller innbringe vedkommende til politistasjon eller annet lokale som benyttes under polititjenesten når
+>
+
 ## § 22
 
 ### 2022-04-29 — lov/2022-04-29-26
@@ -2413,6 +2449,13 @@ refid: "lov/2008-05-15-35"
 > En utlending som omfattes av massefluktsituasjonen som nevnt i første ledd, og som kommer til riket eller er her når denne paragrafen får anvendelse, kan etter søknad få en midlertidig oppholdstillatelse på grunnlag av en gruppevurdering (kollektiv beskyttelse). Tillatelsen danner ikke grunnlag for permanent oppholdstillatelse. Tillatelsen gjelder for ett år og kan fornyes eller forlenges i inntil fem år fra det tidspunktet utlendingen første gang fikk oppholdstillatelse. Deretter kan det gis en midlertidig tillatelse som kan danne grunnlag for permanent oppholdstillatelse. Etter tre år med slik tillatelse skal det gis permanent oppholdstillatelse såfremt vilkårene for å inneha tillatelsen fortsatt er til stede og vilkårene for øvrig er oppfylt, jf. § 62.
 >
 > En søknad om beskyttelse etter § 28 fra en utlending som nevnt i annet ledd kan stilles i bero i inntil fem år fra det tidspunktet utlendingen første gang fikk tillatelse. Når adgangen til å gi kollektiv beskyttelse er bortfalt, eller det er gått fem år siden utlendingen første gang fikk tillatelse, skal utlendingen informeres om at søknaden bare vil bli tatt under behandling dersom utlendingen innen en fastsatt frist uttrykkelig tilkjennegir et ønske om det.
+>
+
+### 2026-06-19 — lov/2026-06-19-50
+
+*§ 34 femte ledd skal lyde:*
+
+> Forvaltningsloven §§ 28 til 34 om klage gjelder ikke for tillatelser etter annet ledd første til fjerde punktum.
 >
 
 ## § 35
@@ -4231,6 +4274,20 @@ refid: "lov/2008-05-15-35"
 *§ 94 første ledd skal lyde:*
 
 > Søkeren kan gis rett til å ta arbeid inntil søknaden er avgjort. Det er en forutsetning for tillatelsen at følgende vilkår er oppfylt:det er gjennomført asylintervju av søkeren,det er ikke tvil om søkerens identitet, ogdet er ikke sannsynlig at et vedtak om bortvisning vil kunne iverksettes før utlendingen har oppholdt seg i riket i seks måneder, eller at det vil bli fremmet tilbaketakelsesbegjæring overfor et annet land.
+>
+
+### 2026-06-19 — lov/2026-06-19-50
+
+*§ 94 annet ledd skal lyde:*
+
+> Det kan gjøres unntak fra kravet om gjennomført asylintervju i første ledd bokstav a dersom det er høy sannsynlighet for at søkeren vil få oppholdstillatelse etter § 28 eller dersom søkeren har hatt kollektiv beskyttelse etter § 34.
+>
+
+### 2026-06-19 — lov/2026-06-19-50
+
+*§ 94 fjerde ledd skal lyde:*
+
+> Kongen kan i forskrift gi nærmere regler om varigheten av tillatelser til å ta arbeid etter første ledd, om unntak etter annet ledd og om tillatelser etter at det foreligger et avslag på søknaden i første instans.
 >
 
 ## § 94 a

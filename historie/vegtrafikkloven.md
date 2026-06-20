@@ -796,6 +796,15 @@ refid: "lov/1965-06-18-4"
 > Blir ilagt gebyr ikke betalt innen tre uker etter ileggelsen, løper forsinkelsesrente etter forsinkelsesrenteloven. Dette gjelder selv om gebyret er påklaget.
 >
 
+## § 31 b
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 31 b fjerde ledd skal lyde:*
+
+> Polititjenestepersoner som ellers ikke har foreleggsmyndighet, kan gis myndighet til å utferdige forenklet forelegg.
+>
+
 ## § 32
 
 ### 2008-04-25 — lov/2008-04-25-12
@@ -871,6 +880,13 @@ refid: "lov/1965-06-18-4"
 *§ 33 nr. 5 nytt andre punktum skal lyde:*
 
 > Når tap av førerett er fastsatt i beslutning om overføring til konfliktrådet, plikter rettighetshaveren å levere førerkortet til politiet straks saken er overført til konfliktrådet.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 33 nr. 3 første ledd første punktum skal lyde:*
+
+> Finner politiet at fører eller eier av motorvogn eller den som på eierens vegne har rådigheten over motorvognen med skjellig grunn er mistenkt for et straffbart forhold som kan medføre tap av retten til å føre førerkortpliktig motorvogn, kan en polititjenesteperson midlertidig tilbakekalle føreretten og ta førerkortet fra vedkommende.
 >
 
 ## § 34

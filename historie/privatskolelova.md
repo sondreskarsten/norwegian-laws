@@ -1631,6 +1631,13 @@ refid: "lov/2003-07-04-84"
 > Departementet kan gi forskrift om behandlinga, mellom anna om formålet med behandlinga, behandlingsansvar, kva opplysningar som kan behandlast, kven det kan behandlast personopplysningar om, bruk av automatiserte avgjerder, vidarebehandling, utlevering og tilgang til personopplysningar.
 >
 
+### 2026-06-19 — lov/2026-06-19-59
+
+*§ 7-9 fjerde ledd skal lyde:*
+
+> Ved skolebyte etter andre ledd og ved overgang til vidaregåande opplæring etter tredje ledd kan skolane også dele personopplysningar for å leggje til rette opplæringa til ein elev dersom eleven eller foreldra tillèt det. Ved skolebyte skal skolen dele personopplysningar som er nødvendige for å førebyggje oppførsel som i vesentleg grad går utover skolemiljøet til medelevane eller arbeidsmiljøet til dei tilsette.
+>
+
 ## § 7-10
 
 ### 2021-06-11 — lov/2021-06-11-80
@@ -2007,6 +2014,17 @@ refid: "lov/2003-07-04-84"
 ### 2025-06-20 — lov/2025-06-20-98
 
 *Nåværende § 7-2 c blir ny § 7-2 d.*
+
+### 2026-06-19 — lov/2026-06-19-58
+
+*I lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot skal § 2-1 tredje ledd lyde:*
+
+> For å få godkjenning på grunnlag av livssyn etter andre ledd bokstav a skal skolen ha ei tilknyting til livssynet det blir søkt om godkjenning på grunnlag av.
+>
+
+### 2026-06-19 — lov/2026-06-19-58
+
+*Nåværende § 2-1 tredje til syvende ledd blir fjerde til nytt åttende ledd.*
 
 ## § 6A-1
 

@@ -14,6 +14,10 @@ refid: "lov/2020-05-07-38"
 > Loven oppheves 1. juli 2026.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*I midlertidig lov 7. mai 2020 nr. 38 om rekonstruksjon for å avhjelpe økonomiske problemer som følge av utbrudd av covid-19 oppheves § 64 annet ledd.*
+
 ## § 36
 
 ### 2020-12-18 — lov/2020-12-18-149

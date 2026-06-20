@@ -648,3 +648,7 @@ refid: "lov/2011-11-25-44"
 
 > gode administrasjons- og regnskapsrutiner og kontroll- og sikkerhetsordninger for elektronisk databehandling, herunder for nettverk og systemer som er etablert og håndtert etter forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1,
 >
+
+### 2026-06-19 — lov/2026-06-19-40
+
+*I lov 25. november 2011 nr. 44 om verdipapirfond skal § 11-6 femte ledd lyde:*

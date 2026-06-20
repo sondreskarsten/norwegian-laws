@@ -5,6 +5,12 @@ refid: "lov/1953-05-29-3"
 
 # Endringshistorikk: Hittegodslova – hgl
 
+## § 11
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 11 oppheves.*
+
 ## § 24
 
 ### 2004-06-25 — lov/2004-06-25-53

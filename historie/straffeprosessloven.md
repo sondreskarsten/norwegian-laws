@@ -517,6 +517,59 @@ refid: "lov/1981-05-22-25"
 > overtredelse av militær straffelov § 34 annet ledd annet straffalternativ, jf. tredje ledd, vareførselsloven § 12-9, skatteforvaltningsloven §§ 14-12 og 14-13, utlendingsloven § 108 tredje ledd, jf. sjette ledd og § 108 a første og annet ledd, regnskapsloven § 8-5 første ledd første og tredje punktum, jf. tredje ledd første punktum, bokføringsloven § 15 første ledd første og tredje punktum, jf. tredje ledd første punktum, alkoholloven § 10-1 annet ledd, arbeidsmiljøloven § 19-1 annet ledd, allmenngjøringsloven § 15, kystvaktloven § 36 annet ledd, viltressursloven § 60, forurensningsloven § 78 første ledd og § 79 tredje ledd, produktkontrolloven § 12 første ledd, svalbardmiljøloven § 99 første ledd første punktum og transplantasjonslova § 23a.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*I følgende bestemmelser endres ordene «polititjenestemann» og «polititjenestemenn» til henholdsvis «polititjenesteperson» og «polititjenestepersoner»:*
+
+> §§ 76, 130 a og 464.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*I følgende bestemmelser endres ordet «politimann» til «en polititjenesteperson»:*
+
+> §§ 176, 198, 206 og 216.
+>
+
+### 2026-06-19 — lov/2026-06-19-46
+
+*I lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker skal § 216 i første ledd tredje punktum bokstav k og ny bokstav l lyde:*
+
+> i sak om forbud mot en kriminell sammenslutning etter kapittel 17 c,
+>
+> til testing og utvikling av informasjonssystemer som skal brukes innenfor politiregisterlovens virkeområde.
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*Kapittel 15 a overskriften skal lyde:*
+
+> Kap 15 a. Teknisk sporing
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*Nytt kapittel 15 b med §§ 202 d til 202 g skal lyde:*
+
+> Kap 15 b. Skjult kameraovervåking
+>
+> § 202 d.Politiet kan iverksette skjult kameraovervåking rettet mot personer på offentlig og privat sted når det foreligger skjellig grunn til mistanke om en straffbar handling som etter loven kan medføre frihetsstraff.Beslutning treffes av påtalemyndigheten. Beslutningen skal så vidt mulig være skriftlig og opplyse om hva saken gjelder, og hva tiltaket går ut på. En muntlig beslutning skal snarest mulig nedtegnes.Uten beslutning fra påtalemyndigheten kan polititjenestepersoner iverksette skjult kameraovervåking nårmistenkte observeres på fersk gjerning eller ferske spor, ellerdet ved opphold er fare for at etterforskningen vil lide.Kameraovervåkingen skal meldes til påtalemyndigheten for godkjennelse så snart som mulig.
+>
+> § 202 d.
+>
+> § 202 e.Vedvarende eller regelmessig gjentatt skjult kameraovervåking kan rettes mot personer på offentlig sted eller privat sted som er synlig for allmennheten, når det foreligger skjellig grunn til mistanke om en eller flere straffbare handlinger som etter loven kan medføre høyere straff enn fengsel i 6 måneder, og slik overvåking vil være av vesentlig betydning for etterforskningen. Tillatelse gis av retten ved beslutning.Dersom det ved opphold er stor fare for at etterforskningen vil lide, kan ordre fra påtalemyndigheten tre istedenfor rettens avgjørelse etter første ledd. Reglene i § 216 d gjelder tilsvarende.
+>
+> § 202 e.
+>
+> § 202 f.Vedvarende eller regelmessig gjentatt skjult kameraovervåking kan rettes mot personer på privat sted som ikke er synlig for allmennheten, når noen med skjellig grunn mistenkes for en handling eller forsøk på en handlingsom etter loven kan medføre straff av fengsel i 10 år eller mer, ellersom rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, § 128 første punktum, §§ 129, 130, 136, 136 a, 231, 254, 257, 311, 332 jf. 231, 335 jf. 231, 337 jf. 231 eller 340 jf. 231, av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5 eller av lov om utlendingers adgang til riket og deres opphold her § 108 femte ledd.Tillatelse gis av retten ved kjennelse.Tillatelse kan bare gis for sted hvor det må antas at den mistenkte vil oppholde seg.Tillatelse kan bare gis dersom det må antas at slik overvåking vil være av vesentlig betydning for å oppklare saken, og oppklaring ellers i vesentlig grad vil bli vanskeliggjort.Reglene i § 202 e annet ledd gjelder tilsvarende.
+>
+> § 202 f.
+>
+> § 202 g.Det kan ikke gis tillatelse til å overvåke noens private hjem etter reglene i dette kapittelet.Tillatelse til skjult kameraovervåking av sted hvor advokat, lege, prest eller andre erfaringsmessig fører samtaler av svært fortrolig art eller av redaksjonslokale eller tilsvarende sted hvor redaktør eller journalist fører samtaler av yrkesmessig art, kan bare gis når det foreligger særlige grunner, såfremt vedkommende ikke selv er mistenkt i saken. Slik tillatelse kan kun gis etter reglene i §§ 202 e eller 202 f.Tillatelse til skjult kameraovervåking etter §§ 202 e og 202 f gis for et bestemt tidsrom som ikke kan være lengre enn strengt nødvendig, og som uansett ikke kan overstige 4 uker om gangen.Når ikke annet er bestemt i avgjørelsen om skjult kameraovervåking etter §§ 202 e og 202 f, kan politiet i medhold av disse bestemmelsene foreta innbrudd for å plassere eller fjerne utstyr som er nødvendig for å gjennomføre kameraovervåkingen.Avgjørelse om skjult kameraovervåking treffes uten at den mistenkte eller den som avgjørelsen ellers rammer, gis adgang til å uttale seg, og avgjørelsen blir ikke meddelt dem. Ved tillatelse etter § 202 f skal likevel mistenkte og den som har rådighet over stedet, underrettes om overvåkingen når den er avsluttet. Reglene i § 216 j gjelder tilsvarende.Regelen i § 196 gjelder tilsvarende.Reglene i § 216 g gjelder tilsvarende så langt de passer.
+>
+> § 202 g.
+>
+
 ## § 1
 
 ### 2003-01-01 — forskrift/2002-10-11-1094
@@ -626,6 +679,13 @@ refid: "lov/1981-05-22-25"
 > Når retten behandler en sak etter §§ 200 a, 202 a annet ledd, 202 c, 208 a, 210 a, 210 c, 216 a, 216 b, 216 m, 216 o, 242 a, 264 sjette ledd, 267 første ledd tredje punktum, 292 a eller politiloven § 17 h tredje ledd, skal den straks oppnevne offentlig advokat for den mistenkte.
 >
 > I § 200 a første ledd, § 202 c første ledd og § 216 a første ledd bokstav b erstattes «136 a, 145» med «136 a, 136 b, 145».
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 100 a første ledd første punktum skal lyde:*
+
+> Når retten behandler en sak etter §§ 200 a, 202 c, 202 f, 208 a, 210 a, 210 c, 216 a, 216 b, 216 m, 216 o, 242 a, § 264 sjette ledd, § 267 første ledd tredje punktum, § 292 a eller politiloven § 17 h tredje ledd, skal den straks oppnevne offentlig advokat for den mistenkte.
 >
 
 ## § 100 b
@@ -1897,6 +1957,10 @@ refid: "lov/1981-05-22-25"
 > som rammes av straffeloven §§ 121, 123, 125, 126, 127 jf. 123, § 128 første punktum, §§ 129, 130, 136, 136 a, 231, 254, 257, 311, 332 jf. 231, 335 jf. 231, 337 jf. 231 eller 340 jf. 231 eller av lov om kontroll med eksport av strategiske varer, tjenester og teknologi m.v. § 5 eller av lov om utlendingers adgang til riket og deres opphold her § 108 femte ledd.
 >
 
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 202 a oppheves.*
+
 ## § 202 b
 
 ### 2003-07-04 — lov/2003-07-04-78
@@ -2535,6 +2599,15 @@ refid: "lov/1981-05-22-25"
 > En avgjørelse av retten kan ikke ankes av siktede.
 >
 
+## § 218
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 218 første ledd første punktum skal lyde:*
+
+> Beslutningen settes i verk av politiet eller namsfogden.
+>
+
 ## § 219
 
 ### 2007-12-21 — lov/2007-12-21-127
@@ -2724,6 +2797,27 @@ refid: "lov/1981-05-22-25"
 > Politiets sikkerhetstjeneste kan bare gis tillatelse til å romavlytte, jf. § 216 m, når det er grunn til å tro at noen kommer til å begå en handling som rammes av straffeloven §§ 121, 123, 125, 126, 130 a, 131, 133, 134 eller 142, eller av §§ 251, 254, 256, 263, 273 eller 275 og som retter seg mot medlemmer av Kongehuset, Stortinget, regjeringen, Høyesterett eller representanter for tilsvarende organer i andre stater.
 >
 
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 222 d første ledd innledningen skal lyde:*
+
+> Retten kan ved kjennelse gi politiet tillatelse til som ledd i etterforskning å nytte tvangsmidler som nevnt i kapittel 15, 15 a, 15 b, 16, 16 a, 16 b og 16 d når det er rimelig grunn til å tro at noen kommer til å begå en handling som rammes av
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 222 d tredje ledd annet punktum skal lyde:*
+
+> Tillatelse til å nytte tvangsmidler som nevnt i §§ 200 a, 202 c, 202 f, 216 a, 216 m og 216 o kan bare gis når særlige grunner tilsier det.
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 222 d femte ledd første punktum skal lyde:*
+
+> Bestemmelsene i kapittel 15, 15 a, 15 b, 16, 16 a og 16 b gjelder tilsvarende så langt de passer.
+>
+
 ## § 224
 
 ### 2003-03-21 — lov/2003-03-21-18
@@ -2829,6 +2923,13 @@ refid: "lov/1981-05-22-25"
 > Vitner som har taushetsplikt etter finansforetaksloven § 9-6 eller § 9-7, verdipapirhandelloven § 10-5 eller verdipapirsentralloven § 8-1, plikter å gi forklaring til politiet om forhold som omfattes av taushetsplikten eller taushetsplikt etter avtale.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 230 tredje ledd første punktum skal lyde:*
+
+> Selv om et vitne ikke har forklaringsplikt etter første eller annet ledd, plikter vitnet etter innkalling å møte på politistasjon i det politidistrikt hvor vitnet bor eller oppholder seg for å avklare om vedkommende er villig til å forklare seg for politiet.
+>
+
 ## § 231
 
 ### 2023-06-16 — lov/2023-06-16-34
@@ -2881,6 +2982,13 @@ refid: "lov/1981-05-22-25"
 *§ 237 første ledd nytt fjerde punktum skal lyde:*
 
 > Adgang til å begjære rettslig avhør gjelder ikke ved tilrettelagt avhør etter § 239 med mindre tilrettelagt avhør ikke lar seg gjennomføre uten rettens medvirkning.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 237 første ledd tredje punktum skal lyde:*
+
+> Ved begjæring fra en politistasjonssjef prøver retten likevel fullt ut om begjæringen er tilstrekkelig begrunnet.
 >
 
 ## § 238
@@ -3095,6 +3203,13 @@ refid: "lov/1981-05-22-25"
 *§ 242 første ledd annet punktum skal lyde:*
 
 > Innsyn i opptak, notater og andre dokumenter som inneholder opplysninger om eller fra bruk av tvangsmidler som nevnt i §§ 200 a, 202 a, 202 b, 202 c, 208 a, 210 a, 210 c, 216 a, 216 b, 216 m, 216 o og 222 d, eller bruk av båndlegging etter politiloven § 17 h tredje ledd, kan også nektes dersom innsyn kan skade etterforskingen av andre saker.
+>
+
+### 2026-06-19 — lov/2026-06-19-49
+
+*§ 242 første ledd annet punktum skal lyde:*
+
+> Innsyn i opptak, notater og andre dokumenter som inneholder opplysninger om eller fra bruk av tvangsmidler som nevnt i §§ 200 a, 202 b, 202 c, 202 d, 202 e, 202 f, 208 a, 210 a, 210 c, 216 a, 216 b, 216 m, 216 o og 222 d, eller bruk av båndlegging etter politiloven § 17 h tredje ledd, kan også nektes dersom innsyn kan skade etterforskingen av andre saker.
 >
 
 ## § 242 a
@@ -6648,6 +6763,13 @@ refid: "lov/1981-05-22-25"
 
 *§ 55 a fjerde ledd oppheves.*
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 55 a første ledd nr. 4 skal lyde:*
+
+> politistasjonssjefene.
+>
+
 ## § 56
 
 ### 2010-01-15 — lov/2010-01-15-2
@@ -7047,6 +7169,13 @@ refid: "lov/1981-05-22-25"
 *§ 67 første ledd nytt annet punktum skal lyde:*
 
 > Politiet kan treffe beslutning om henleggelse i alle saker, når ikke riksadvokaten har besluttet noe annet.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 67 fjerde ledd annet punktum skal lyde:*
+
+> Politimesteren kan delegere påtalekompetanse til politistasjonssjefer til å overføre straffesaker for overtredelse av straffeloven §§ 268, 271, 321, 322, 323, 326, 334, 339, 342, 351, 352 tredje ledd, 353 og 373 til megling i konfliktrådet dersom dette er nødvendig.
 >
 
 ## § 68

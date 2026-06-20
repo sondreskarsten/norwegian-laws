@@ -92,6 +92,15 @@ refid: "lov/1999-07-02-64"
 > Kapittel 5. Taushetsplikt og tilgjengeliggjøring av opplysninger
 >
 
+### 2026-06-19 — lov/2026-06-19-42
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 10 lyde:*
+
+> § 10.Informasjon til pasienter, medvirkning m.v.Den som yter helse- og omsorgstjenester, skal gi informasjon til den som har krav på det etter reglene i pasient- og brukerrettighetsloven §§ 3-2 til 3-4. I helseinstitusjoner skal informasjon etter første punktum gis av den som helseinstitusjonen utpeker.Den som yter helse- og omsorgstjenester, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.Departementet kan i forskrift gi nærmere bestemmelser om plikten til informasjon etter første ledd.
+>
+> § 10.Informasjon til pasienter, medvirkning m.v.
+>
+
 ## § 10
 
 ### 2012-06-22 — lov/2012-06-22-46

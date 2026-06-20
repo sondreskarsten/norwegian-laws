@@ -495,6 +495,15 @@ refid: "lov/2010-03-26-8"
 > Er retten til et varemerke som er registrert eller søkt registrert, overdratt til en annen, skal dette innføres i varemerkeregisteret og kunngjøres hvis en av partene ber om det.
 >
 
+## § 56 a
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 56 a annet ledd skal lyde:*
+
+> Om anmerkning i varemerkeregisteret av utlegg og arrest i registrerte varemerker og varemerkesøknader gjelder tvangsfullbyrdelsesloven § 7-19 niende ledd, jf. tvisteloven § 33-7 annet ledd.
+>
+
 ## § 57
 
 ### 2013-05-31 — lov/2013-05-31-25

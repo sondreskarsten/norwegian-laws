@@ -40,6 +40,22 @@ refid: "lov/2009-06-05-35"
 > § 10.Regler for motorisert ferdsel
 >
 
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 10 første ledd fjerde punktum bokstav m og ny bokstav n skal lyde:*
+
+> nødvendig istandsetting ved akutt utfall i områder som er vernet eller midlertidig vernet etter § 11,
+>
+> skjøtsel etter § 11 i loven her, inkludert transport til områdene som skal skjøttes.
+>
+
+### 2026-06-19 — lov/2026-06-19-53
+
+*§ 10 syvende ledd skal lyde:*
+
+> Er det nødvendig for å gjennomføre skjøtselstiltak i verneområder vernet etter § 11, kan myndighetene etter loven benytte motorferdsel på fast eiendom som ikke inngår i verneområdet. Denne loven innskrenker ellers ikke grunneiers eller rettighetshavers adgang til å forby eller begrense motorferdsel på sin eiendom.
+>
+
 ## § 11
 
 ### 2014-03-28 — lov/2014-03-28-9

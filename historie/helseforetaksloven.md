@@ -14,6 +14,13 @@ refid: "lov/2001-06-15-93"
 > Foretakene regnes som organer etter arkivlova § 2 bokstav h.
 >
 
+### 2026-06-19 — lov/2026-06-19-43
+
+*I lov 15. juni 2001 nr. 93 om helseforetak m.m. skal § 35 tredje ledd lyde:*
+
+> Regionalt helseforetak skal sørge for at den enkelte pasients utvidede rett til bruk av samisk språk i spesialisthelsetjenesten blir ivaretatt, jf. sameloven § 3-1 bokstav b og § 3-5.
+>
+
 ## § 10
 
 ### 2012-12-14 — lov/2012-12-14-86
@@ -332,6 +339,19 @@ refid: "lov/2001-06-15-93"
 >
 > Bestemmelsene i paragrafen her gjelder også ved overføring av virksomhet mellom foretak etter loven her. Forrige punktum medfører ingen begrensninger i ansvaret etter § 7.
 >
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 50 tredje ledd skal lyde:*
+
+> Det skal ikke betales rettsgebyr etter tinglysingsloven § 12 b i forbindelse med omdanninger i medhold av denne bestemmelsen.
+>
+
+## § 52
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 52 nr. 8 oppheves.*
 
 ## § 7
 

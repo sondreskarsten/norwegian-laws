@@ -105,6 +105,17 @@ refid: "lov/2005-06-17-67"
 > suppleringsskatt etter suppleringsskatteloven.
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 1-1 andre ledd bokstav h skal lyde:*
+
+> særavgifter etter særavgiftsloven, unntatt dokumentavgift
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 1-1 andre ledd bokstav i oppheves.*
+
 ## § 1-3
 
 ### 2006-12-15 — lov/2006-12-15-85
@@ -316,6 +327,18 @@ refid: "lov/2005-06-17-67"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 3-3 første ledd oppheves. § 3-3 nåværende andre til femte ledd blir første til fjerde ledd.*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 3-3 første ledd skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 3-3 tredje ledd oppheves.*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 3-3 gjeldende fjerde ledd blir nytt tredje ledd.*
 
 ## § 3-4
 
@@ -2224,6 +2247,10 @@ refid: "lov/2005-06-17-67"
 > (8) Er det foretatt innbetalinger til dekning av skatte- og avgiftskravet før det er truffet vedtak om endring mv. eller før melding om egenretting av tidligere levert melding er kommet fram til skatte- og avgiftsmyndighetene, beregnes renten fram til betalingstidspunktet.
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 11-2 syvende ledd skal lyde:*
+
 ## § 11-3
 
 ### 2005-12-09 — lov/2005-12-09-115
@@ -2677,6 +2704,24 @@ refid: "lov/2005-06-17-67"
 > Dersom krav på årsavgift, vektårsavgift, engangsavgift, omregistreringsavgift eller avgift for urettmessig bruk av merket mineralolje eller merket biodiesel ikke betales til rett tid, kan skattekontoret bestemme at bruken av det motorkjøretøyet som kravene knytter seg til, skal stanses inntil avgiftene er betalt.
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 14-11 første og andre ledd skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 14-11 fjerde ledd andre punktum skal lyde:*
+
+> Dette gjelder likevel ikke overfor personer som er ansvarlige for avgiften etter § 16-40 og særavgiftsloven § 7-3.
+>
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 14-11 tredje ledd annet punktum skal lyde:*
+
+> Skattekontoret kan be tollmyndighetene, politiet eller annen offentlig myndighet om å gjennomføre avskiltingen.
+>
+
 ## § 14-20
 
 ### 2016-01-01 — lov/2015-06-19-54
@@ -2700,6 +2745,17 @@ refid: "lov/2005-06-17-67"
 > (2) Speditører som deklarerer varer for prosedyren overgang til fri disponering på vegne av andre, kan innvilges kreditt. Kreditt kan gis både for deklarasjoner som foretas i løpet av samme dag (dagsoppgjør) og for deklarasjoner med mer enn én mottaker som foretas i løpet av en kalendermåned (månedsoppgjør).
 >
 
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 14-20 første ledd skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 14-20 fjerde ledd første punktum skal lyde:*
+
+> For bruk av kreditt etter første ledd skal det betales en særskilt godtgjørelse til statskassen.
+>
+
 ## § 14-21
 
 ### 2016-01-01 — lov/2015-06-19-54
@@ -2709,6 +2765,26 @@ refid: "lov/2005-06-17-67"
 > (1) Skattekontoret skal ved registrering av avgiftspliktige kreve at det stilles sikkerhet for skyldig engangsavgift på motorvogn. De nærmere kravene til sikkerheten, herunder sikkerhetens omfang, fastsettes av skattekontoret ved registreringen, og kan senere endres.
 >
 > (2) Skattekontoret kan kreve at virksomheter som er registrert som avgiftspliktige etter særavgiftsloven, stiller sikkerhet for fremtidig skyldig avgift. Krav om sikkerhetsstillelse kan stilles ved registrering av virksomheten eller senere. De nærmere kravene til sikkerhet, herunder sikkerhetens omfang, fastsettes av skattekontoret i det enkelte tilfellet.
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 14-21 skal lyde:*
+
+> § 14-21.Kreditt for engangsavgift(1) Skattekontoret kan innvilge kreditt for engangsavgift. Det er et vilkår for kreditt at virksomheten stiller sikkerhet for skyldig avgift. De nærmere kravene til sikkerheten, herunder sikkerhetens omfang, fastsettes av skattekontoret og kan senere endres.(2) Departementet kan i forskrift stille vilkår for kreditt, herunder krav til sikkerhetsstillelsen, samt gi regler om opphør av kreditt.
+>
+> § 14-21.Kreditt for engangsavgift
+>
+
+## § 14-22
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*Ny § 14-22 skal lyde:*
+
+> § 14-22.Sikkerhetsstillelse for særavgifter(1) Skattekontoret kan kreve at virksomheter som er registrert i Særavgiftsregisteret, stiller sikkerhet for fremtidig skyldig avgift. Krav om sikkerhetsstillelse kan stilles ved registreringen eller senere. De nærmere kravene til sikkerhet, herunder sikkerhetens omfang, fastsettes av skattekontoret i det enkelte tilfellet.(2) Departementet kan i forskrift sette nærmere vilkår for sikkerhetsstillelsen og angi hvilke momenter som skal vektlegges ved vurderingen av om sikkerhet skal kreves.
+>
+> § 14-22.Sikkerhetsstillelse for særavgifter
 >
 
 ## § 15-1
@@ -2878,6 +2954,17 @@ refid: "lov/2005-06-17-67"
 > 32.I lov 29. juni 2007 nr. 81 om samvirkeforetak skal § 161 første ledd lyde:
 >
 > (1) Når tingretten behandlar saker etter lova her, gjeld reglane i arvelova § 169 når ikkje anna går fram av lova her.
+>
+
+## § 16-40
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§ 16-40 skal lyde:*
+
+> § 16-40.Ansvar for erverver av motorvognVed overdragelse av motorvogn og tilhenger til motorvogn er erverver ansvarlig for siste termin av avgift på tunge kjøretøy og for slik avgift som er påløpt etter utløpet av siste termin fram til overdragelsestidspunktet.
+>
+> § 16-40.Ansvar for erverver av motorvogn
 >
 
 ## § 16-41
@@ -3349,6 +3436,54 @@ refid: "lov/2005-06-17-67"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *Kapittel 15 oppheves.*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*Gjeldende §§ 10-31 og 10-32 blir nye §§ 10-40 og 10-41.*
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*Overskriften til §§ 10-30, 10-31 og 10-32 skal lyde:*
+
+> Merverdiavgift, særavgifter og tollavgift
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§§ 10-30 til 10-32 skal lyde:*
+
+> § 10-30.Merverdiavgift(1) Merverdiavgift forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-3 første og annet ledd.(2) Merverdiavgift for varer som innføres, forfaller til betaling samtidig som avgiften i henhold til tollavgiftsloven § 2-1 skal beregnes. Avgift som belastes kreditten ved innførsel, jf. § 14-20 første ledd, eller månedsoppgjørsordningen en kalendermåned, jf. § 14-20 andre ledd, forfaller til betaling den 18. i neste måned. Avgift som belastes dagsoppgjørsordningen, forfaller til betaling første virkedag etter frigjøring for prosedyren overgang til fri disponering. Skattekontoret kan fastsette en nærmere frist for når på forfallsdagen betaling av dagsoppgjør må ha skjedd.(3) Beløp som uriktig er oppgitt som merverdiavgift, jf. merverdiavgiftsloven § 11-4 annet ledd, forfaller til betaling samme dag som det skal leveres melding etter merverdiavgiftsloven § 15-11 annet ledd.(4) Departementet kan i forskrift gi regler om avvikende forfallstidspunkt for enkelte situasjoner.
+>
+> § 10-30.Merverdiavgift
+>
+> § 10-31.Særavgifter(1) Særavgifter forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-4 første eller fjerde ledd.(2) Særavgifter for varer som innføres, forfaller til betaling etter reglene i § 10-30 annet ledd med mindre den avgiftspliktige er registrert i Særavgiftsregisteret.(3) Veibruksavgift på drivstoff ved bruk av merket mineralolje og merket biodiesel til formål som ikke er fritatt for avgift, jf. særavgiftsloven § 7-1 annet ledd, forfaller til betaling tre uker etter at avgiftskravet er sendt.(4) Engangsavgift på motorvogner mv. forfaller til betaling når kjøretøyet registreres for første gang i Kjøretøyregisteret. Dersom det benyttes kreditt, jf. § 14-21, forfaller avgiften til betaling den 18. i måneden etter registreringen. Engangsavgift som skal betales før eller etter første gangs registrering, forfaller til betaling samme dag som det skal leveres skattemelding etter skatteforvaltningsloven § 8-4 sjette ledd.(5) Omregistreringsavgift forfaller til betaling når kjøretøyet omregistreres i Kjøretøyregisteret.(6) Avgift på tunge kjøretøy som er registrert i Kjøretøyregisteret 1. januar, forfaller til betaling 20. februar. Avgift på tunge kjøretøy som er registrert i Kjøretøyregisteret 1. juli, forfaller til betaling 20. august.(7) Departementet kan i forskrift gi regler om forfallstidspunktene og avvikende forfallstidspunkt i enkelte situasjoner.
+>
+> § 10-31.Særavgifter
+>
+> § 10-32.TollavgiftTollavgift forfaller til betaling etter reglene i § 10-30 annet ledd.
+>
+> § 10-32.Tollavgift
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*Overskriften til §§ 10-40 og 10-41 skal lyde:*
+
+> Arveavgift
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*Overskriften til § 14-20 skal lyde:*
+
+> § 14-20.Kreditt for avgift ved innførsel
+>
+> § 14-20.Kreditt for avgift ved innførsel
+>
+
+### 2026-06-19 — lov/2026-06-19-41
+
+*§§ 16-41 og 16-42 oppheves.*
 
 ## § 1
 

@@ -44,6 +44,13 @@ refid: "lov/1979-05-18-18"
 > Har skyldneren eller er det i hans bo innen utløpet av foreldelsesfristen utferdiget proklama, eller annen offentlige innkallelse med oppfordring til fordringshaverne om å melde sine krav innen en bestemt fastsatt frist, inntrer ikke foreldelse før denne fristen er ute. For rettidig anmeldt fordring inntrer ikke foreldelse før det er gått 1 år etter at meldefristen er utløpt. Ved konkurs, gjeldsforhandling etter konkursloven eller offentlig skifte gjelder §§ 18, 21 og 22 nr. 2 og 3. Ved gjeldsforhandling etter gjeldsordningsloven gjelder § 18 nr. 2, § 21 nr. 3 fjerde punktum og § 22 nr. 2.
 >
 
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 13 tredje punktum skal lyde:*
+
+> Ved konkurs, rekonstruksjonsforhandling eller offentlig skifte gjelder §§ 18, 21 og 22 nr. 2 og 3.
+>
+
 ## § 15
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -118,6 +125,26 @@ refid: "lov/1979-05-18-18"
 > Er skyldnerens bo under konkurs, gjeldsforhandling etter konkursloven, offentlig skifte, eller er det åpnet gjeldsforhandling etter gjeldsordningsloven, avbrytes ellers foreldelse når fordringshaveren anmelder fordringen i boet eller til namsmannen. Foreldelse av alle fordringer som blir anmeldt innen utløpet av meldefristen i boet anses avbrutt den dag da det ble åpnet konkurs, gjeldsforhandling etter konkursloven eller gjeldsordningsloven eller offentlig skifte.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 18 nr. 2 første punktum skal lyde:*
+
+> Er skyldnerens bo under konkurs, gjeldsforhandling etter konkursloven, offentlig skifte, eller er det åpnet gjeldsforhandling etter gjeldsordningsloven, avbrytes ellers foreldelse når fordringshaveren anmelder fordringen i boet eller til namsmyndigheten.
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 18 overskriften skal lyde:*
+
+> § 18.(Konkurs, rekonstruksjonsforhandling, gjeldsforhandling og skifte).
+>
+> § 18.(Konkurs, rekonstruksjonsforhandling, gjeldsforhandling og skifte).
+>
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 18 annet ledd skal lyde:*
+
 ## § 19
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -188,6 +215,10 @@ refid: "lov/1979-05-18-18"
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 22 ny nr. 4 skal lyde:*
+
+### 2026-06-19 — lov/2026-06-19-48
+
+*§ 22 tredje ledd skal lyde:*
 
 ## § 9
 

@@ -623,6 +623,10 @@ refid: "lov/1917-06-01-1"
 > I andre saker enn de som er nevnt i § 42, avgjøres spørsmålet om dekning av omkostningene etter reglene i tvisteloven kapittel 20. Feil begått av en lensmann kan ikke kreves erstattet etter reglene i tvisteloven § 20-12.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 43 første ledd annet punktum oppheves.*
+
 ## § 45
 
 ### 2004-06-25 — lov/2004-06-25-53

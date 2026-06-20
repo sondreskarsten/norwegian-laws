@@ -126,6 +126,13 @@ refid: "lov/1992-07-17-99"
 > Skyldneren skal avgi skriftlig erklæring om at namsmyndighetene kan innhente opplysninger som nevnt i annet ledd uten hinder av taushetsplikt hos de som har slike opplysninger om skyldneren. Skriftlig erklæring etter første punktum kan avgis elektronisk.
 >
 
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 2-1 første ledd skal lyde:*
+
+> Søknad om gjeldsforhandling fremsettes for namsfogden for den kommunen der skyldneren bor. Søknaden kan fremsettes elektronisk eller i papirform. For flere namsfogddistrikter i samme politidistrikt kan Kongen fastsette at søknader om gjeldsforhandling skal fremsettes for en av namsfogdene. Skyldnere som ikke er bosatt i Norge, jf. § 1-4 fjerde ledd, og skyldnere med adressesperre i Folkeregisteret, jf. folkeregisterloven § 10-4, kan fremsette søknad for den namsfogden Kongen har utpekt.
+>
+
 ## § 2-2
 
 ### 2003-01-10 — lov/2003-01-10-1
@@ -813,3 +820,10 @@ refid: "lov/1992-07-17-99"
 ### 2004-03-26 — lov/2004-03-26-16
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*I følgende bestemmelser endres ordene «namsmannen» og «namsmannens» til henholdsvis ordene «namsfogden» og «namsfogdens»:*
+
+> §§ 2-2, 2-3, 2-4, 2-5, 2-6, 2-7, 3-1, 3-2, 3-3, 3-4, 3-5, 3-6, 3-7, 4-1, 4-6, 4-7, 4-11, 4-12, 5-1, 6-1, 6-4, 7-1, 7-2 og 7-3.
+>

@@ -90,6 +90,15 @@ refid: "lov/2003-12-19-124"
 > § 27 a.Mattilsynets oppgaver knyttet til forhold som kan gi sykdom hos mennesker
 >
 
+## § 28
+
+### 2026-06-19 — lov/2026-06-19-45
+
+*§ 28 femte ledd skal lyde:*
+
+> Polititjenestepersoner som ellers ikke har foreleggsmyndighet, kan gis myndighet til å utferdige forenklet forelegg.
+>
+
 ## § 29
 
 ### 2024-02-02 — lov/2024-02-02-8

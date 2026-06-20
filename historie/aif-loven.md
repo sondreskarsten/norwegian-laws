@@ -491,6 +491,10 @@ refid: "lov/2014-06-20-28"
 > gode administrasjons- og regnskapsrutiner, kontroll- og sikkerhetsordninger for elektronisk databehandling, herunder for nettverk og systemer som er etablert og håndtert etter forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, og regler for ansattes personlige transaksjoner,
 >
 
+### 2026-06-19 — lov/2026-06-19-40
+
+*I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 9-6 femte ledd lyde:*
+
 ## § 1a-3
 
 ### 2026-02-06 — lov/2026-02-06-4
