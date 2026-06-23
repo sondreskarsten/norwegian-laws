@@ -10,7 +10,7 @@
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
   <img alt="Coverage" src="https://img.shields.io/badge/coverage-4%2C232_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C853-ba0c2f">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-38%2C861-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C627-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
@@ -74,11 +74,11 @@ Dette er et utdrag. Se originalt dokument for fullstendig oversikt.
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-06-22 | Endr. i integreringsforskriften | [`forskrift/2020-12-15-2912`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-12-15-2912.html) |
+| 2026-06-22 | Forskrift om endring i forskrift om stønad til dekning av utgifter … | [`forskrift/2020-06-18-1262`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-06-18-1262.html) |
+| 2026-06-22 | Forskrift om overgangsregler til viltressursloven og oppheving av f… | [`forskrift/1984-10-24-1878`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1984-10-24-1878.html) [`forskrift/1984-10-24-1879`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1984-10-24-1879.html) [`forskrift/2023-09-18-1440`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-09-18-1440.html) |
+| 2026-06-22 | Endr. i utlendingsforskriften | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
 | 2026-06-19 | Forskrift om opptak, studier og eksamen ved Fagskolen Kristiania | [`forskrift/2017-08-01-1230`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-08-01-1230.html) [`forskrift/2019-11-18-2264`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-11-18-2264.html) [`forskrift/2021-11-24-3371`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-11-24-3371.html) … |
-| 2026-06-19 | Endr. i byggesaksforskriften (SAK 10) | [`forskrift/2010-03-26-488`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-03-26-488.html) |
-| 2026-06-19 | Forskrift om endring i utlendingsforskriften (unntak fra krav om as… | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
-| 2026-06-19 | Endr. i brukerromsforskriften | [`forskrift/2004-12-17-1661`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-12-17-1661.html) |
-| 2026-06-18 | Endr. i nettinntekstforskriften | [`forskrift/2025-01-14-50`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-01-14-50.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -174,7 +174,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 |---|---|
 | 📜 **Complete coverage** | All 794 formal laws + 3,438 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,627 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 16 ministry feeds |
-| 🕰️ **Backdated git history** | 38,853 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 🕰️ **Backdated git history** | 38,861 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 13,700+ per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2001`–`v2027`) |
