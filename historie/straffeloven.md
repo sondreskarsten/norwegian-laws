@@ -1705,6 +1705,28 @@ refid: "lov/2005-05-20-28"
 > Den som forbigående er utilregnelig som følge av selvforskyldt rus, fritas ikke for straff, med mindre særlige grunner tilsier det. Den som har en vedvarende tilstand som nevnt i annet ledd bokstav a og som selvforskyldt fremkaller en utilregnelighetstilstand, kan straffes dersom særlige grunner tilsier det.
 >
 
+## § 200
+
+### 2026-06-23 — lov/2026-06-23-71
+
+*Ny § 200 skal lyde:*
+
+> § 200.Involvering av mindreårige i kriminalitetDen som involverer en mindreårig i en straffbar handling som kan medføre fengsel i 3 år eller mer, eller som nevnt i §§ 160, 189, 190, 231, 263, 271, 321, 332, 336, 337 eller 341, straffes med bot eller fengsel inntil 3 år. Involveringen kan for eksempel gå ut på å gi oppdrag, yte fordeler eller overlevere gjenstander til den mindreårige eller å medbringe den mindreårige.På samme måte straffes den som rekrutterer en mindreårig til å begå en straffbar handling som nevnt i første ledd.Uvitenhet om den mindreåriges alder fører ikke til straffrihet hvis gjerningspersonen kan klandres for sin uvitenhet.
+>
+> § 200.Involvering av mindreårige i kriminalitet
+>
+
+## § 200 a
+
+### 2026-06-23 — lov/2026-06-23-71
+
+*Ny § 200 a skal lyde:*
+
+> § 200 a.Grov involvering av mindreårige i kriminalitetGrov overtredelse av § 200 straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den mindreårige ble involvert i eller rekruttert til å begå en alvorlig straffbar handling, om overtredelsen har et systematisk eller organisert preg, og om den mindreårige var under 15 år.§ 200 tredje ledd gjelder tilsvarende.
+>
+> § 200 a.Grov involvering av mindreårige i kriminalitet
+>
+
 ## § 203
 
 ### 2013-05-31 — lov/2013-05-31-25
@@ -2304,6 +2326,17 @@ refid: "lov/2005-05-20-28"
 > § 305.Seksuelt krenkende atferd mv. overfor barn under 16 år
 >
 > Med bot eller fengsel inntil 2 år straffes den somi ord eller handling utviser seksuelt krenkende eller annen uanstendig atferd i nærvær av eller overfor barn under 16 år.tvinger eller forleder et barn under 16 år til å utvise seksuelt krenkende eller annen uanstendig atferd, med mindre forholdet rammes av strengere bestemmelser.
+>
+
+## § 308
+
+### 2026-06-23 — lov/2026-06-23-71
+
+*§ 308 skal lyde:*
+
+> § 308.Mulighet for straffbortfallStraff etter bestemmelsene i §§ 299–304, § 305 bokstav b annet alternativ og § 306 kan falle bort dersom de involverte er omtrent jevnbyrdige i alder og utvikling.
+>
+> § 308.Mulighet for straffbortfall
 >
 
 ## § 311

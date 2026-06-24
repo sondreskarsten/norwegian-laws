@@ -20,6 +20,15 @@ refid: "lov/2022-03-04-7"
 
 *I § 4 første ledd skal uttrykket «overvåkingsorgan» endres til «overvåkningsorgan».*
 
+### 2026-06-23 — lov/2026-06-23-76
+
+*I lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte skal § 7 lyde:*
+
+> § 7.RegistreringspliktStøttegiveren skal registrere opplysninger om offentlig støtte i Støtteregisteret. Støtteregisteret skal være et offentlig tilgjengelig register.Departementet kan gi forskrift om at støttegiveren skal registrere opplysninger i Støtteregisteret om tildelt og utbetalt offentlig støtte, om støtteordninger som ligger til grunn for støtten, og om omfanget av, innholdet i og tidspunktet for registreringsplikten.
+>
+> § 7.Registreringsplikt
+>
+
 ## § 3
 
 ### 2025-04-25 — lov/2025-04-25-12

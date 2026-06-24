@@ -24,6 +24,13 @@ refid: "lov/2022-03-11-9"
 
 *§ 2-3 første ledd tredje punktum oppheves.*
 
+### 2026-06-23 — lov/2026-06-23-67
+
+*§ 2-3 fyrste ledd andre punktum skal lyde:*
+
+> I meldingen skal det gis opplysninger om transportmiddelet, besetningen, varer som bringes med som last, og referanse til deklarasjonen for varene.
+>
+
 ## § 3-3
 
 ### 2022-12-20 — lov/2022-12-20-111
@@ -82,6 +89,17 @@ refid: "lov/2022-03-11-9"
 > (2) Tollrepresentanten skal opplyse tollmyndighetene om at vedkommende handler på vegne av den representerte.
 >
 > (3) Tollmyndighetene kan kreve at tollrepresentanten sannsynliggjør at vedkommende handler på vegne av den representerte. Dersom dette ikke kan sannsynliggjøres, anses vedkommende for å handle i eget navn og på egne vegne.
+>
+
+## § 7-22
+
+### 2026-06-23 — lov/2026-06-23-67
+
+*Ny § 7-22 skal lyde:*
+
+> § 7-22.Registrering av aktører(1) Aktører i Norge som må ha et identifikasjonsnummer som følge av bruk av EORI-nummer i EU-rettsakter som er innlemmet i EØS-avtalen og gjennomført i norsk rett, må registrere seg hos tollmyndighetene.(2) Følgende opplysninger registreres:organisasjonsnummer med prefikset NOaktørens navnorganisasjonsformadressenæringskode.Telefonnummer og andre elektroniske adresser kan registreres hvis opplysningene er registrert i Enhetsregisteret.(3) Ved registreringen tildeler tollmyndighetene identifikasjonsnummeret.(4) Tollmyndighetene kan dele de registrerte opplysningene med EU.
+>
+> § 7-22.Registrering av aktører
 >
 
 ## § 9-1

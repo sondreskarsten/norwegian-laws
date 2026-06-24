@@ -27,6 +27,10 @@ refid: "lov/2025-04-25-12"
 
 *I § 42 nr. 44 om endringer i skattebetalingsloven skal nye endringer lyde:*
 
+### 2026-06-23 — lov/2026-06-23-68
+
+*Nåværende tredje punktum blir nytt fjerde punktum.*
+
 ## § 23
 
 ### 2025-12-22 — lov/2025-12-22-124
@@ -34,6 +38,13 @@ refid: "lov/2025-04-25-12"
 *§ 23 tredje ledd annet punktum skal lyde:*
 
 > Ved klage gjelder også tvangsfullbyrdelsesloven § 2-7, § 5-16 og § 7-24.
+>
+
+### 2026-06-23 — lov/2026-06-23-68
+
+*§ 23 femte ledd tredje punktum skal lyde:*
+
+> Avgjørelse om gebyr har tvangskraft.
 >
 
 ## § 26

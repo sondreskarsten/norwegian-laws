@@ -5116,6 +5116,13 @@ refid: "lov/1997-02-28-19"
 > beregnet av grunnlaget etter § 12-11 første ledd minst vil svare til halvparten av høy sats etter § 12-13 andre ledd andre punktum, eller
 >
 
+### 2026-06-23 — lov/2026-06-23-65
+
+*§ 12-2 tredje ledd bokstav a skal lyde:*
+
+> beregnet av grunnlaget etter § 12-11 første ledd minst vil svare til halvparten av høy sats etter § 12-13 andre ledd tredje punktum, eller
+>
+
 ## § 12-3
 
 ### 2008-12-19 — lov/2008-12-19-107
@@ -5591,6 +5598,13 @@ refid: "lov/1997-02-28-19"
 
 *§ 12-13 andre ledd andre punktum blir oppheva.*
 
+### 2026-06-23 — lov/2026-06-23-65
+
+*§ 12-13 andre ledd skal lyde:*
+
+> Minste årlige ytelse er 2,329 ganger grunnbeløpet (ordinær sats) for personer som lever sammen med en ektefelle (se § 1-5) eller med en samboer i et samboerforhold som har vart i minst 12 av de siste 18 månedene. Minste årlige ytelse er likevel 2,379 ganger grunnbeløpet dersom vedkommende mottar en uføretrygd som er en omregnet uførepensjon. For andre utgjør minste årlige ytelse 2,529 ganger grunnbeløpet (høy sats).
+>
+
 ## § 12-14
 
 ### 2004-01-01 — lov/2003-06-20-55
@@ -6002,6 +6016,15 @@ refid: "lov/1997-02-28-19"
 > ny alderspensjon står i § 20-10 fjerde ledd og 20-7 a niende ledd.
 >
 
+## § 13-3
+
+### 2026-06-23 — lov/2026-06-23-64
+
+*§ 13-3 andre ledd skal lyde:*
+
+> Som arbeidsulykke regnes en plutselig ytre hending som medlemmet har vært utsatt for i arbeidet. Som arbeidsulykke regnes også en konkret tidsbegrenset hending som medfører en påkjenning eller belastning, når denne er utslag av en risiko ved arbeidet eller arbeidsstedet som ikke er helt bagatellmessig.
+>
+
 ## § 13-4
 
 ### 2025-06-10 — lov/2025-06-10-30
@@ -6023,6 +6046,21 @@ refid: "lov/1997-02-28-19"
 *§ 13-4 nytt femte ledd skal lyde:*
 
 > Departementet oppretter et rådgivende yrkessykdomsutvalg som regelmessig skal vurdere hvilke sykdommer som bør likestilles med yrkesskade og inkluderes i forskrift gitt i medhold av første ledd andre punktum. Departementet oppnevner utvalgets leder, medlemmer og varamedlemmer. Departementet gir forskrift om utvalgets sammensetning og øvrige oppgaver.
+>
+
+### 2026-06-23 — lov/2026-06-23-64
+
+*§ 13-4 andre ledd skal lyde:*
+
+> Sykdom som angitt i forskriftene skal godkjennes som yrkesskade, med mindre Arbeids- og velferdsetaten sannsynliggjør atsykdomsbildet ikke er karakteristisk og i samsvar med det som den aktuelle påvirkningen kan framkalle,vedkommende i tid og konsentrasjon ikke har vært utsatt for den aktuelle påvirkningen i en slik grad at det er en rimelig sammenheng mellom påvirkningen og det aktuelle sykdomsbildet,symptomene ikke har oppstått i rimelig tid etter påvirkningen, ellerdet er mer sannsynlig at en annen sykdom eller påvirkning er årsak til symptomene.
+>
+> sykdomsbildet ikke er karakteristisk og i samsvar med det som den aktuelle påvirkningen kan framkalle,
+>
+> vedkommende i tid og konsentrasjon ikke har vært utsatt for den aktuelle påvirkningen i en slik grad at det er en rimelig sammenheng mellom påvirkningen og det aktuelle sykdomsbildet,
+>
+> symptomene ikke har oppstått i rimelig tid etter påvirkningen, eller
+>
+> det er mer sannsynlig at en annen sykdom eller påvirkning er årsak til symptomene.
 >
 
 ## § 13-6
@@ -11318,6 +11356,13 @@ refid: "lov/1997-02-28-19"
 *§ 23-3 andre ledd nr. 2 bokstav b skal lyde:*
 
 > arbeidsavklaringspenger etter folketrygdloven kapittel 11, ungdomsprogramytelse, uføretrygd etter kapittel 12 og uføreytelser fra andre ordninger,
+>
+
+### 2026-06-23 — lov/2026-06-23-65
+
+*§ 23-3 andre ledd nr. 2 bokstav b skal lyde:*
+
+> arbeidsavklaringspenger etter folketrygdloven kapittel 11, ungdomsprogramytelse, aktivitetspenger for unge, uføretrygd etter kapittel 12 og uføreytelser fra andre ordninger,
 >
 
 ## § 23-4

@@ -182,3 +182,12 @@ refid: "lov/2018-06-01-24"
 
 > Den som forsettlig eller grovt uaktsomt bryter taushetsplikt etter § 5-4 andre ledd eller § 6-6 fjerde ledd, straffes med bot eller fengsel inntil 1 år eller begge deler, hvis ikke forholdet går inn under en strengere straffebestemmelse.
 >
+
+### 2026-06-23 — lov/2026-06-23-74
+
+*I lov 1. juni 2018 nr. 24 om nasjonal sikkerhet skal § 8-16 lyde:*
+
+> § 8-16.Klareringsmyndigheter og sentralt register for klareringsavgjørelserKongen utpeker ett eller flere forvaltningsorganer med klareringsmyndighet. Kongen kan gi forskrift om klareringsmyndighetenes oppgaver.Kongen kan gi forskrift om opprettelsen av et sentralt register for klareringsavgjørelser.
+>
+> § 8-16.Klareringsmyndigheter og sentralt register for klareringsavgjørelser
+>

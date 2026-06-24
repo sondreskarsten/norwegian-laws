@@ -6296,6 +6296,13 @@ refid: "lov/1981-05-22-25"
 > Innsyn i opplysninger som hører til straffesaken, kan nektes på de vilkår som er fastsatt i § 242 a første ledd. Reglene i § 242 a andre og tredje ledd og § 292 a gjelder tilsvarende så langt de passer.
 >
 
+### 2026-06-23 — lov/2026-06-23-73
+
+*§ 449 første ledd skal lyde:*
+
+> Et krav om erstatning eller oppreisning etter straffeforfølgning skal settes frem for Statens sivilrettsforvaltning, som avgjør kravet. Statens sivilrettsforvaltning skal innhente sakens dokumenter og kan be påtalemyndigheten uttale seg om kravet. Statens sivilrettsforvaltnings avgjørelse er ikke et enkeltvedtak etter forvaltningsloven.
+>
+
 ## § 45
 
 ### 2017-06-16 — lov/2017-06-16-58

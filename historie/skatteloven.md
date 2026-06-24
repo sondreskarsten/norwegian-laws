@@ -771,6 +771,12 @@ refid: "lov/1999-03-26-14"
 > statsforetak etter statsføretakslova
 >
 
+## § 2-37
+
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 2-37 fyrste ledd skal lyde:*
+
 ## § 2-38
 
 ### 2004-12-10 — lov/2004-12-10-77
@@ -1409,6 +1415,13 @@ refid: "lov/1999-03-26-14"
 *§ 4-10 syvende ledd skal lyde:*
 
 > (7) Verdien av næringseiendom settes til 80 prosent av eiendommens beregnede utleieverdi. Verdsetting etter første punktum kan foretas ved bruk av differensierte kvadratmetersatser. Hvis skattyter krever det, skal verdien settes ned til 80 prosent av eiendommens dokumenterte omsetningsverdi.
+>
+
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 4-10 andre ledd tredje punktum skal lyde:*
+
+> Prosentandelen skal likevel være 70 for den delen av den beregnede eller dokumenterte omsetningsverdien som overstiger 14 000 000 kroner.
 >
 
 ## § 4-12
@@ -2606,6 +2619,13 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd bokstav n oppheves. Nåværende første ledd bokstav o til r blir bokstav n til q.*
 
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 5-15 fyrste ledd bokstav m skal lyde:*
+
+> utbetalinger fra statens kompensasjons- og oppreisningsordning for pionerdykkere og utbetalinger fra kompensasjonsordningen for kjemikalieskadde oljepionerer.
+>
+
 ## § 5-16
 
 ### 2025-10-01 — lov/2025-06-20-56
@@ -2917,6 +2937,13 @@ refid: "lov/1999-03-26-14"
 *§ 5-42 bokstav a skal lyde:*
 
 > stønad, omsorgspenger og annen utbetaling fra omsorgs- og trygdeinnretning, herunder arbeidsavklaringspenger etter folketrygdloven kapittel 11, uføretrygd etter folketrygdloven kapittel 12, ungdomsprogramytelse, uføreytelser fra andre ordninger, overgangsstønad etter folketrygdloven § 15-5 og kapittel 17 A og omstillingsstønad etter folketrygdloven kapittel 17.
+>
+
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 5-42 bokstav a skal lyde:*
+
+> stønad, omsorgspenger og annen utbetaling fra omsorgs- og trygdeinnretning, herunder arbeidsavklaringspenger etter folketrygdloven kapittel 11, uføretrygd etter folketrygdloven kapittel 12, ungdomsprogramytelse, aktivitetspenger for unge, uføreytelser fra andre ordninger, overgangsstønad etter folketrygdloven § 15-5 og kapittel 17 A og omstillingsstønad etter folketrygdloven kapittel 17.
 >
 
 ## § 5-43
@@ -3782,6 +3809,13 @@ refid: "lov/1999-03-26-14"
 *§ 6-32 fyrste ledd bokstav a andre punktum skal lyde:*
 
 > Tilsvarende gjelder for minstefradrag i arbeidsavklaringspenger, ungdomsprogramytelse, uføretrygd etter folketrygdloven kapittel 12 og uføreytelser fra andre ordninger samt minstefradrag i overgangsstønad etter folketrygdloven § 15-5, omstillingsstønad etter folketrygdloven kapittel 17, kvalifiseringsstønad etter sosialtjenesteloven og introduksjonsstønad etter integreringsloven kapittel 5.
+>
+
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 6-32 fyrste ledd bokstav a skal lyde:*
+
+> Minstefradrag i lønnsinntekt, jf. skatteloven § 6-31 første ledd bokstav a, c, d og annet ledd, gis med 46 prosent av summen av slik inntekt. Tilsvarende gjelder for minstefradrag i arbeidsavklaringspenger, ungdomsprogramytelse, aktivitetspenger for unge, uføretrygd etter folketrygdloven kapittel 12 og uføreytelser fra andre ordninger samt minstefradrag i overgangsstønad etter folketrygdloven § 15-5, omstillingsstønad etter folketrygdloven kapittel 17, kvalifiseringsstønad etter sosialtjenesteloven og introduksjonsstønad etter integreringsloven kapittel 5.
 >
 
 ## § 6-40
@@ -8708,6 +8742,13 @@ refid: "lov/1999-03-26-14"
 > arbeidsavklaringspenger etter folketrygdloven kapittel 11, ungdomsprogramytelse og overgangsstønad etter folketrygdloven § 15-5 og kapittel 17 A.
 >
 
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 12-2 fyrste ledd bokstav c skal lyde:*
+
+> arbeidsavklaringspenger etter folketrygdloven kapittel 11, ungdomsprogramytelse, aktivitetspenger for unge og overgangsstønad etter folketrygdloven § 15-5 og kapittel 17 A.
+>
+
 ## § 12-10
 
 ### 2005-06-17 — lov/2005-06-17-74
@@ -10223,6 +10264,13 @@ refid: "lov/1999-03-26-14"
 > mottar avtalefestet pensjon (AFP) etter lov 25. juni 2010 nr. 28 om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 1 eller andre tilsvarende avtaler eller lovfestede ordninger,
 >
 
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 16-1 tredje ledd tredje punktum skal lyde:*
+
+> Fradraget nedtrappes med 19,1 prosent av pensjonsinntekt mv. som overstiger beløpsgrensen i trinn 1, og med 6 prosent av pensjonsinntekt mv. som overstiger beløpsgrensen i trinn 2.
+>
+
 ## § 16-10
 
 ### 2003-12-12 — lov/2003-12-12-107
@@ -11566,6 +11614,13 @@ refid: "lov/1999-03-26-14"
 ### 2023-12-20 — lov/2023-12-20-102
 
 *§ 19-5 fjerde ledd skal lyde:*
+
+### 2026-06-23 — lov/2026-06-23-66
+
+*§ 19-5 fyrste ledd bokstav c andre punktum skal lyde:*
+
+> For driftsmidler som nevnt i § 19-6 første ledd bokstav c inntektsføres gevinsten i realisasjonsåret.
+>
 
 ## § 19-6
 
