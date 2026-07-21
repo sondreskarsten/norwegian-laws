@@ -49,9 +49,11 @@ jobs:
             snapshot/gjeldende-lover.tar.bz2
             snapshot/gjeldende-sentrale-forskrifter.tar.bz2
             snapshot/lovtidend-avd1-2001-2025.tar.bz2
+          # No restore-keys: a prefix fallback restores last week's archives,
+          # download_file then skips (files exist), and the stale archives get
+          # re-saved under the new week key — the cache never refreshes again.
+          # Exact weekly key = cold download every Monday, reuse rest of week.
           key: lovdata-archives-${{ steps.weekkey.outputs.key }}
-          restore-keys: |
-            lovdata-archives-
 
       - name: Download and parse laws
         run: lovdata-load --download --output snapshot
@@ -114,6 +116,10 @@ jobs:
             viktighet eksplisitt — oppgi fakta, la leseren vurdere.
           prompt-file: /tmp/delta.md
           max-tokens: 1500
+
+      - name: Flag failed or empty AI summary
+        if: steps.delta.outputs.has_delta == 'true' && (steps.ai.outcome != 'success' || steps.ai.outputs.response == '')
+        run: echo "::warning::AI summary produced no response (outcome=${{ steps.ai.outcome }}) despite a non-empty delta"
 
       - name: Inject AI summary into README, RELEASES.md, commit body
         if: steps.delta.outputs.has_delta == 'true' && steps.ai.outputs.response != ''
@@ -214,13 +220,6 @@ jobs:
 
       - name: Generate Atom feed.xml directly into site
         run: python -m lovdata_publisher.feed snapshot _site/feed.xml
-
-      - name: Generate per-law feeds directly into site
-        run: |
-          # Feeds aren't in git anymore (they're build artifacts). Regenerate
-          # them into _site/feeds/ from the snapshot artifact we just downloaded.
-          mkdir -p _site/feeds
-          lovdata-publish --feeds-only --snapshot snapshot --output . --site-dir _site
 
       - name: Merge law metadata into search index
         run: python -m lovdata_publisher.search_index _site laws.json
