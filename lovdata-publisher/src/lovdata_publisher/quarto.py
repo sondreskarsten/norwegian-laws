@@ -119,9 +119,10 @@ def group_laws_by_area(lover_dir: str) -> dict[str, list[dict]]:
 def _split_topics(rettsomrade: str) -> list[str]:
     """Parse the rettsomrade frontmatter value into top-level topics.
 
-    rettsomrade can be a single string like 'Bank, finans og regnskapsrett>Regnskap'
-    or multi-line concatenated like 'Topic A>Sub1Topic B>Sub2'. We pull the
-    top-level topic only (split on '>') and dedup."""
+    rettsomrade holds one topic path per line ('Topic>Sub'), with literal
+    newlines escaped as \\n by the formatter. Split on newlines, take the
+    top-level topic before '>', and dedup. Values concatenated without any
+    separator (the pre-2026-05-19 parser bug) are not recoverable here."""
     if not rettsomrade:
         return []
     topics = set()
@@ -687,8 +688,26 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
     forskrift_groups = group_laws_by_area(full_forskrifter) if os.path.isdir(full_forskrifter) else {}
     topic_groups = group_laws_by_topic(full_lover)
 
+    n_acts = None
+    n_amendments = None
     if version_tags is None:
-        version_tags = [f"v{y}" for y in range(2001, 2027)]
+        last_year = 2026
+        if db_path and os.path.exists(db_path):
+            import sqlite3
+            conn = sqlite3.connect(db_path)
+            row = conn.execute(
+                """
+                SELECT MAX(substr(date_in_force_resolved, 1, 4))
+                FROM amendment_acts
+                WHERE date_in_force_resolved GLOB '[12][0-9][0-9][0-9]*'
+                """
+            ).fetchone()
+            n_acts = conn.execute("SELECT COUNT(*) FROM amendment_acts").fetchone()[0]
+            n_amendments = conn.execute("SELECT COUNT(*) FROM amendments").fetchone()[0]
+            conn.close()
+            if row and row[0]:
+                last_year = int(row[0])
+        version_tags = [f"v{y}" for y in range(2000, last_year + 1)]
 
     # Amendment counts per law refid (for enriching laws.json)
     amendment_counts = {}
@@ -811,6 +830,19 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
         topic_chapters.append(f"book/{topic_file}")
 
+    # Prune generated chapter files this run no longer produces. Stale
+    # topic-/dept- qmds otherwise accumulate forever because the deploy
+    # workflow only ever git-adds book/ and never removes obsolete output.
+    written = {os.path.basename(c) for c in chapters + forskrift_chapters + topic_chapters}
+    pruned = 0
+    for pattern in ("dept-*.qmd", "forskrift-dept-*.qmd", "topic-*.qmd"):
+        for stale in Path(book_dir).glob(pattern):
+            if stale.name not in written:
+                stale.unlink()
+                pruned += 1
+    if pruned:
+        print(f"  Pruned {pruned} stale generated chapter files from {book_dir}/")
+
     # Versions page
     ver_lines = [
         "# Stabile versjoner {.unnumbered}\n",
@@ -912,26 +944,40 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
     # Landing page
     total_unique = len({e["file"] for laws in groups.values() for e in laws})
+    total_forskrifter = len({e["file"] for laws in forskrift_groups.values() for e in laws})
+    total_docs = total_unique + total_forskrifter
+    fmt_no = lambda n: f"{n:,}".replace(",", "\u00a0")
+    amendments_line = (
+        f"- [`amendments.jsonl.gz`](amendments.jsonl.gz) \u2014 {fmt_no(n_amendments)} rader, \u00e9n per (lov, paragraf, endring). Inkluderer `new_text`"
+        if n_amendments is not None else
+        "- [`amendments.jsonl.gz`](amendments.jsonl.gz) \u2014 \u00e9n rad per (lov, paragraf, endring). Inkluderer `new_text`"
+    )
+    acts_line = (
+        f"- [`amendment-acts.jsonl.gz`](amendment-acts.jsonl.gz) \u2014 {fmt_no(n_acts)} rader, \u00e9n per endringslov"
+        if n_acts is not None else
+        "- [`amendment-acts.jsonl.gz`](amendment-acts.jsonl.gz) \u2014 \u00e9n rad per endringslov"
+    )
     index_lines = [
         "# Forord {.unnumbered}\n",
         "Dette er en uoffisiell samling av Norges gjeldende formelle lover,",
         "generert fra [Lovdata API](https://api.lovdata.no/) sine åpne data",
         "under [NLOD 2.0](https://data.norge.no/nlod/no/2.0)-lisensen.\n",
-        f"Samlingen inneholder **{total_unique} lover**",
+        f"Samlingen inneholder **{total_unique} lover** og",
+        f"**{fmt_no(total_forskrifter)} sentrale forskrifter**,",
         f"fordelt på **{len(groups)} departementer**.\n",
         "## 🔔 Spor endringer\n",
         "Hver lov og forskrift har sin egen Atom-feed. Velg dine egne, abonner i",
         "Feedly, Slack, Microsoft Teams, eller GitHub Actions — og få beskjed når",
         "Lovdata publiserer en endring.\n",
-        "- [Abonner](book/abonner.qmd) — interaktiv søkbar oversikt over alle 2 627 per-lov-feeder, pluss feeder per rettsområde og departement",
+        "- [Abonner](book/abonner.qmd) — interaktiv søkbar oversikt over alle per-lov-feeder, pluss feeder per rettsområde og departement",
         "- [Aktivitet](aktivitet.html) — topp-liste over de mest endrede lovene, forskriftene, departementene og årgangene",
         "- [Feed-katalog](feeds/) — bla gjennom alle Atom-feeder direkte",
         "- Eksempel: [Atom-feed for regnskapsloven](feeds/lov-1998-07-17-56.xml) · [endringer i § 7-25 spesifikt](historikk/lov-1998-07-17-56/para-7-25.html)\n",
         "## 📥 Bulk-data\n",
         "For nedstrøms automatisering (datavarehus, compliance-dashboards, interne CDC-pipelines):\n",
-        "- [`amendments.jsonl.gz`](amendments.jsonl.gz) — ~91 000 rader, én per (lov, paragraf, endring). Inkluderer `new_text`",
-        "- [`amendment-acts.jsonl.gz`](amendment-acts.jsonl.gz) — ~38 000 rader, én per endringslov",
-        f"- [`laws.json`](laws.json) — alle {total_unique} lover/forskrifter med metadata og endringstellere",
+        amendments_line,
+        acts_line,
+        f"- [`laws.json`](laws.json) — alle {fmt_no(total_docs)} lover/forskrifter med metadata og endringstellere",
         "- [`schemas/`](schemas/amendment-acts.schema.json) — JSON Schema 2020-12 for begge JSONL-strømmene\n",
         "## Les lover\n",
         "- [Søk etter lov](book/sok.qmd) \u2014 finn lover etter tittel, korttittel eller lovnummer",
@@ -940,7 +986,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         "- For autoritativ lovtekst, se [lovdata.no](https://lovdata.no)\n",
         "## Utforsk historikk\n",
         f"- [`{HISTORY_BRANCH}`-grenen]({GITHUB_BASE}/tree/{HISTORY_BRANCH}) har komplett git-historikk med backdaterte endringer",
-        "- [Stabile versjoner](book/versjoner.qmd) \u2014 sammenlign lover mellom år (v2001\u2013v2026)",
+        f"- [Stabile versjoner](book/versjoner.qmd) \u2014 sammenlign lover mellom årsversjoner ({version_tags[0]}\u2013{version_tags[-1]})",
         "- [Sammenlign lovversjon](book/diff.qmd) \u2014 velg en lov og to årstall for å se endringer",
         "- Klikk \u00ablog\u00bb i lovtabellene for å se endringshistorikk for en enkelt lov\n",
         "## Ansvarsfraskrivelse\n",

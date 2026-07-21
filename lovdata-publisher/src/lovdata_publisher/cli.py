@@ -34,7 +34,7 @@ def main():
         "--history-mode",
         choices=["year", "act"],
         default="year",
-        help="Commit granularity for law-history: 'year' (~28 commits) or 'act' (~2400 commits, requires LFS)",
+        help="Commit granularity for law-history: 'year' (one commit per year-end snapshot) or 'act' (one commit per amendment act, tens of thousands; use --use-lfs)",
     )
     parser.add_argument(
         "--use-lfs",
@@ -83,7 +83,7 @@ def main():
     # Always format laws when producing any output that depends on lover/*.md.
     # --quarto and default (no flags) both need formatted Markdown to exist.
     # --feeds-only and --post-render skip formatting because lover/*.md already exists.
-    if not args.build_history and not args.feeds_only and not args.post_render or args.format_only or args.quarto:
+    if (not args.build_history and not args.feeds_only and not args.post_render) or args.format_only or args.quarto:
         print("=" * 60)
         print("Formatting laws to Markdown")
         print("=" * 60)
