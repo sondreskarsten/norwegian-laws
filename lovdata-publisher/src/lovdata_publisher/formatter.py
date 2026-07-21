@@ -214,4 +214,22 @@ def format_all_laws(snapshot_dir: str, output_dir: str) -> dict[str, str]:
             if (i + 1) % 200 == 0:
                 print(f"  Formatted {i + 1}/{len(json_files)} {subdir}...")
 
+    # Prune Markdown for documents the snapshot no longer contains (repealed
+    # laws, withdrawn forskrifter). Without this the corpus is add-only and
+    # ships repealed documents as gjeldende. Each output subdir is pruned
+    # only when this run wrote at least one file into it, so a partial
+    # snapshot cannot wipe an entire corpus directory.
+    written = set(results.values())
+    written_dirs = {fp.split("/", 1)[0] for fp in written}
+    pruned = 0
+    for out_subdir, prefix in [("lover", "lov-"), ("forskrifter", "forskrift-")]:
+        if out_subdir not in written_dirs:
+            continue
+        for stale in (output / out_subdir).glob(f"{prefix}*.md"):
+            if f"{out_subdir}/{stale.name}" not in written:
+                stale.unlink()
+                pruned += 1
+    if pruned:
+        print(f"  Pruned {pruned} Markdown files for documents absent from the snapshot")
+
     return results

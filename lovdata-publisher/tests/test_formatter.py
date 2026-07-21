@@ -113,3 +113,53 @@ class TestFormatArticleTrailingText:
         item = md.index("a) norske foretak")
         trail = md.index("med virksomhet i Norge.")
         assert intro < item < trail
+
+
+class TestFormatAllLawsPruning:
+    def _snapshot(self, tmp_path, laws=(), forskrifter=()):
+        import json
+        snap = tmp_path / "snapshot"
+        for sub, items in [("laws", laws), ("forskrifter", forskrifter)]:
+            d = snap / sub
+            d.mkdir(parents=True)
+            for refid, title in items:
+                (d / f"{refid.replace('/', '-')}.json").write_text(
+                    json.dumps({"refid": refid, "title": title, "sections": []}),
+                    encoding="utf-8",
+                )
+        return snap
+
+    def test_prunes_md_absent_from_snapshot(self, tmp_path):
+        from lovdata_publisher.formatter import format_all_laws
+
+        snap = self._snapshot(
+            tmp_path,
+            laws=[("lov/2020-01-01-1", "Ny lov")],
+            forskrifter=[("forskrift/2021-02-02-2", "Ny forskrift")],
+        )
+        out = tmp_path / "out"
+        (out / "lover").mkdir(parents=True)
+        (out / "forskrifter").mkdir(parents=True)
+        (out / "lover" / "lov-1985-06-21-78.md").write_text("stale", encoding="utf-8")
+        (out / "forskrifter" / "forskrift-1960-06-02-1.md").write_text("stale", encoding="utf-8")
+        (out / "lover" / "README.md").write_text("keep", encoding="utf-8")
+
+        results = format_all_laws(str(snap), str(out))
+
+        assert not (out / "lover" / "lov-1985-06-21-78.md").exists()
+        assert not (out / "forskrifter" / "forskrift-1960-06-02-1.md").exists()
+        assert (out / "lover" / "README.md").exists()
+        assert (out / "lover" / "lov-2020-01-01-1.md").exists()
+        assert "lov/2020-01-01-1" in results
+
+    def test_partial_snapshot_does_not_wipe_other_corpus(self, tmp_path):
+        from lovdata_publisher.formatter import format_all_laws
+
+        snap = self._snapshot(tmp_path, laws=[("lov/2020-01-01-1", "Ny lov")])
+        out = tmp_path / "out"
+        (out / "forskrifter").mkdir(parents=True)
+        (out / "forskrifter" / "forskrift-1960-06-02-1.md").write_text("keep", encoding="utf-8")
+
+        format_all_laws(str(snap), str(out))
+
+        assert (out / "forskrifter" / "forskrift-1960-06-02-1.md").exists()
