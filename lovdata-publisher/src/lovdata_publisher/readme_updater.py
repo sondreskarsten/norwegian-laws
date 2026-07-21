@@ -22,11 +22,20 @@ END_MARKER = "<!-- RECENT_AMENDMENTS_END -->"
 
 
 def _law_url(refid: str) -> str:
+    """Site URL for a target, gated on the corpus md actually existing.
+
+    Amendment acts can target documents that have since been repealed; those
+    link to Lovdata's archived copy (NLO/SFO) instead of a dead site page."""
     base = "https://sondreskarsten.github.io/norwegian-laws"
+    stem = refid.replace("/", "-")
     if refid.startswith("forskrift/"):
-        return f"{base}/forskrifter/forskrift-{refid.split('/', 1)[1]}.html"
+        if Path(f"forskrifter/{stem}.md").exists():
+            return f"{base}/forskrifter/{stem}.html"
+        return f"https://lovdata.no/dokument/SFO/{refid}"
     if refid.startswith("lov/"):
-        return f"{base}/lover/lov-{refid.split('/', 1)[1]}.html"
+        if Path(f"lover/{stem}.md").exists():
+            return f"{base}/lover/{stem}.html"
+        return f"https://lovdata.no/dokument/NLO/{refid}"
     return base
 
 

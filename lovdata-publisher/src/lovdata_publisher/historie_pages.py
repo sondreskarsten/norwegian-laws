@@ -27,8 +27,6 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Endringshistorikk: {title} — Norges Lover</title>
-<link rel="stylesheet" href="../site_libs/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="../book/styles.css">
 <link rel="alternate" type="application/atom+xml" title="Endringer i {short}" href="../feeds/{feed_stem}.xml">
 <style>
 body {{ max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif; line-height: 1.55; color: #212529; }}
@@ -155,7 +153,13 @@ def _feed_stem_for(refid: str) -> str:
     return "lov-" + refid.split("/", 1)[1]
 
 
-def _law_url_for(refid: str) -> str:
+def _law_url_for(refid: str, index=None) -> str:
+    """Root-relative-from-historie URL for a document, gated on existence.
+
+    Repealed documents fall back to Lovdata's archived NLO/SFO copy."""
+    if index is not None:
+        doc = index.doc_page(refid)
+        return f"../{doc}" if doc else index.lovdata_archive_url(refid)
     if refid.startswith("forskrift/"):
         return f"../forskrifter/forskrift-{refid.split('/', 1)[1]}.html"
     return f"../lover/lov-{refid.split('/', 1)[1]}.html"
@@ -170,6 +174,7 @@ def _law_path_for(refid: str) -> str:
 def generate_historie_pages(
     historie_dir: str = "historie",
     site_dir: str = "_site",
+    site_index=None,
 ) -> dict[str, str]:
     """Render every historie/*.md file to _site/historie/*.html.
 
@@ -206,7 +211,7 @@ def generate_historie_pages(
             title=title,
             short=short,
             feed_stem=_feed_stem_for(refid),
-            law_url=_law_url_for(refid),
+            law_url=_law_url_for(refid, site_index),
             law_path=_law_path_for(refid),
             body=body_html,
         )

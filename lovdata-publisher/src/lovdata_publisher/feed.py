@@ -20,6 +20,9 @@ from .feeds import _filepath_for
 SITE_BASE = "https://sondreskarsten.github.io/norwegian-laws"
 FEED_URL = f"{SITE_BASE}/feed.xml"
 
+from .site_index import SiteIndex
+_INDEX: SiteIndex | None = None
+
 _PARA_RE = re.compile(r'§\s*(\d+\s*[-–]\s*\d+(?:[a-z](?=$|[^a-zæøåA-ZÆØÅ]))?)')
 
 
@@ -32,8 +35,13 @@ def _atom_entry(act: dict, paragraphs: list[str] | None = None) -> str:
     title = html.escape(act["short_title"] or act["title"] or act["refid"])
     refid = act["refid"]
     target_first = (act.get("changes_to") or "").split(",")[0].strip()
-    link_frag = _filepath_for(target_first) if target_first else ""
-    link = f"{SITE_BASE}{link_frag}" if link_frag else f"{SITE_BASE}/"
+    if target_first and _INDEX is not None:
+        doc = _INDEX.doc_page(target_first)
+        link = f"{SITE_BASE}/{doc}" if doc else _INDEX.lovdata_archive_url(target_first)
+    elif target_first:
+        link = f"{SITE_BASE}{_filepath_for(target_first)}"
+    else:
+        link = f"{SITE_BASE}/"
     published = act.get("date_published") or act.get("date_in_force_resolved") or ""
     # Atom requires RFC3339 timestamps. Source is YYYY-MM-DD or YYYY-MM-DD HH:MM.
     ts = (published[:10] + "T00:00:00Z") if published else "2001-01-01T00:00:00Z"
@@ -161,6 +169,7 @@ def generate_atom_feed(snapshot_dir: str = "snapshot", output_path: str = "_site
 
 
 if __name__ == "__main__":
+    _INDEX = SiteIndex.build(".")
     import sys
     snap = sys.argv[1] if len(sys.argv) > 1 else "snapshot"
     out = sys.argv[2] if len(sys.argv) > 2 else "_site/feed.xml"

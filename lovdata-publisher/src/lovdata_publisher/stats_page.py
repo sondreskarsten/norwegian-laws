@@ -9,6 +9,8 @@ from __future__ import annotations
 import html
 import re
 import sqlite3
+
+from .site_index import SiteIndex
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -155,20 +157,23 @@ footer {{ margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; co
 """
 
 
-def _render_law_row(rank: int, refid: str, count: int, titles: dict) -> str:
+def _render_law_row(rank: int, refid: str, count: int, titles: dict, index: SiteIndex) -> str:
     meta = titles.get(refid, {})
     title = meta.get("title", refid)
     korttittel = meta.get("korttittel", "")
-    stem = _refid_to_stem(refid)
-    kind_dir = _kind_dir(refid)
+    doc = index.link(index.doc_page(refid), title[:80],
+                     fallback_url=index.lovdata_archive_url(refid),
+                     title=None if refid in index.corpus else "Opphevet — arkivert hos Lovdata")
+    feed = index.link(index.feed(refid), "\U0001F4E1", title="Atom-feed") if index.feed(refid) else '<span class="muted">—</span>'
+    hist = index.link(index.historie_page(refid), "\u29c9", title="Endringshistorikk") if index.historie_page(refid) else '<span class="muted">—</span>'
     return (
         f'<tr>'
         f'<td class="num">{rank}</td>'
-        f'<td><a href="{kind_dir}/{stem}.html">{html.escape(title[:80])}</a></td>'
+        f'<td>{doc}</td>'
         f'<td class="muted">{html.escape(korttittel)}</td>'
         f'<td class="num"><strong>{count}</strong></td>'
-        f'<td><a href="feeds/{stem}.xml" title="Atom-feed">📡</a></td>'
-        f'<td><a href="historie/{stem}.html" title="Endringshistorikk">⧉</a></td>'
+        f'<td>{feed}</td>'
+        f'<td>{hist}</td>'
         f'</tr>'
     )
 
@@ -198,6 +203,7 @@ def generate_stats_page(
     lover_dir: str = "lover",
     forskrifter_dir: str = "forskrifter",
     top_n: int = 20,
+    site_index: SiteIndex | None = None,
 ) -> bool:
     """Build aktivitet.html. Returns True on success, False on missing data."""
     if not Path(db_path).exists():
@@ -205,6 +211,7 @@ def generate_stats_page(
         return False
 
     titles = _law_titles(lover_dir, forskrifter_dir)
+    index = site_index if site_index is not None else SiteIndex.build(str(Path(lover_dir).parent))
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
 
@@ -268,16 +275,16 @@ def generate_stats_page(
     conn.close()
 
     top_laws_html = "\n".join(
-        _render_law_row(i + 1, refid, n, titles) for i, (refid, n) in enumerate(top_laws)
+        _render_law_row(i + 1, refid, n, titles, index) for i, (refid, n) in enumerate(top_laws)
     )
     top_forskrifter_html = "\n".join(
-        _render_law_row(i + 1, refid, n, titles) for i, (refid, n) in enumerate(top_forskrifter)
+        _render_law_row(i + 1, refid, n, titles, index) for i, (refid, n) in enumerate(top_forskrifter)
     )
     year_html = "\n".join(_render_year_row(y, n, max_year_count) for y, n in year_data)
     ministry_html = "\n".join(
         f'<tr><td>{html.escape(m)}</td>'
         f'<td class="num"><strong>{n}</strong></td>'
-        f'<td><a href="feeds/dept-{_ministry_slug(m)}.xml" title="Atom-feed for departementet">📡</a></td>'
+        f'<td>{index.link(index.ministry_feed(m), "\U0001F4E1", title="Atom-feed for departementet") if index.ministry_feed(m) else chr(0x2014)}</td>'
         f'</tr>'
         for m, n in ministry_data
     )
@@ -289,9 +296,11 @@ def generate_stats_page(
         targets = [t.strip() for t in (r["changes_to"] or "").split(",") if t.strip()]
         target_links = []
         for t in targets[:3]:
-            stem = _refid_to_stem(t)
-            kind_dir = _kind_dir(t)
-            target_links.append(f'<a href="{kind_dir}/{stem}.html">{html.escape(stem)}</a>')
+            target_links.append(
+                index.link(index.doc_page(t), _refid_to_stem(t),
+                           fallback_url=index.lovdata_archive_url(t),
+                           title=None if t in index.corpus else "Opphevet — arkivert hos Lovdata")
+            )
         if len(targets) > 3:
             target_links.append(f'<span class="muted">+ {len(targets) - 3} til</span>')
         return (

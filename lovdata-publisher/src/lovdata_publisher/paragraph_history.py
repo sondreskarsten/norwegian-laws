@@ -95,7 +95,7 @@ h1 {{ font-size: 1.6rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.4re
 <body>
 <nav class="breadcrumb">
   <a href="../../">Norges Lover</a> ›
-  <a href="../../lover/{law_stem}.html">{law_title}</a> ›
+  {law_link} ›
   <a href="../../historie/{law_stem}.html">Endringshistorikk</a> ›
   {paragraph}
 </nav>
@@ -132,6 +132,7 @@ def generate_paragraph_history_pages(
     db_path: str = "snapshot/amendments.db",
     output_dir: str = "_site/historikk",
     min_amendments: int = 1,
+    site_index: "SiteIndex | None" = None,
 ) -> tuple[int, dict[str, set[str]]]:
     """Build per-(law, paragraph) HTML pages.
 
@@ -139,6 +140,8 @@ def generate_paragraph_history_pages(
     second value lets the per-law page renderer add history links to amended
     paragraphs without duplicating the SQL.
     """
+    from .site_index import SiteIndex
+    index = site_index if site_index is not None else SiteIndex.build(".")
     amended: dict[str, set[str]] = {}
     if not Path(db_path).exists():
         print(f"  {db_path} not found, skipping paragraph history")
@@ -391,21 +394,25 @@ def generate_paragraph_history_pages(
                 # Markdown exists but paragraph not extractable — probably
                 # renumbered/removed by a later amendment, or has an unusual
                 # heading structure not matched by the regex.
+                doc = index.doc_page(law_refid)
+                current_text_link = (
+                    f'<a href="../../{doc}">Se gjeldende lovtekst \u2192</a>' if doc else
+                    f'<a href="{index.law_history_url(law_refid)}">Se dokumenthistorikken \u2192</a>'
+                )
                 current_text_block = (
                     f'<section class="current-text removed">\n'
                     f'  <h2>{html.escape(paragraph)} finnes ikke i gjeldende tekst</h2>\n'
                     f'  <p style="margin:0;color:#6c757d;">'
                     f'Paragrafen er enten opphevet, omnummerert, eller flyttet '
                     f'siden den siste endringen under. '
-                    f'<a href="../../lover/{law_stem}.html">Se gjeldende lovtekst →</a></p>\n'
+                    f'{current_text_link}</p>\n'
                     f'</section>'
                 )
 
         amendments_html_parts = []
         for a in amendments:
-            act_url = f"{SITE_BASE}/lover/{_refid_to_stem(a['act_refid'])}.html"
-            if a["act_refid"].startswith("forskrift/"):
-                act_url = f"{SITE_BASE}/forskrifter/{_refid_to_stem(a['act_refid'])}.html"
+            act_doc = index.doc_page(a["act_refid"])
+            act_url = f"{SITE_BASE}/{act_doc}" if act_doc else index.lovdata_act_url(a["act_refid"])
             instr_short = html.escape((a["instruction"] or "")[:200])
             new_text_block = ""
             if a["new_text"]:
@@ -436,8 +443,14 @@ def generate_paragraph_history_pages(
                 f'</div>'
             )
 
+        _doc = index.doc_page(law_refid)
+        law_link = (
+            f'<a href="../../{_doc}">{html.escape(law_title)}</a>' if _doc else
+            f'<a href="{index.lovdata_archive_url(law_refid)}" title="Opphevet \u2014 arkivert hos Lovdata">{html.escape(law_title)}</a>'
+        )
         page = PAGE_TEMPLATE.format(
             paragraph=html.escape(paragraph),
+            law_link=law_link,
             law_title=html.escape(law_title),
             law_stem=law_stem,
             para_slug=para_slug,

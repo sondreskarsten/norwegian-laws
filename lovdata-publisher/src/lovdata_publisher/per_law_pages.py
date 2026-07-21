@@ -42,8 +42,6 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="twitter:image" content="https://sondreskarsten.github.io/norwegian-laws/assets/banner.svg"/>
 <link rel="icon" type="image/svg+xml" href="/norwegian-laws/assets/favicon.svg"/>
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/{output_subdir}/{filename_html}"/>
-<link rel="stylesheet" href="../site_libs/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="../book/styles.css">
 <link rel="alternate" type="application/atom+xml" title="Endringer i {korttittel_short}" href="../feeds/{feed_stem}.xml">
 <style>
 body {{ max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }}

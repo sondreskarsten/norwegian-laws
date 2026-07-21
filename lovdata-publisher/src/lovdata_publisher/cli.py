@@ -124,9 +124,16 @@ def main():
         from .feeds import generate_per_law_feeds
         from .historie_pages import generate_historie_pages
         from .paragraph_history import generate_paragraph_history_pages
+        from .site_index import SiteIndex
         import os
 
         db_path = os.path.join(args.snapshot, "amendments.db")
+
+        # One source of truth for every cross-generator link. Built from the
+        # corpus on disk, enriched with each producer's manifest as it runs,
+        # consumed by every emitter, and enforced by verify_links at the end.
+        site_index = SiteIndex.build(args.output)
+        print(f"  Site index: {len(site_index.corpus)} corpus documents")
 
         # Build paragraph-history pages first so we can link to them from
         # the per-law pages (each amended paragraph gets a "⧉ historikk"
@@ -139,7 +146,9 @@ def main():
             _, amended_paragraphs_map = generate_paragraph_history_pages(
                 db_path=db_path,
                 output_dir=os.path.join(args.site_dir, "historikk"),
+                site_index=site_index,
             )
+            site_index.attach_paragraphs(amended_paragraphs_map)
         else:
             print(f"  {db_path} not found, skipping paragraph history")
             amended_paragraphs_map = {}
@@ -151,7 +160,9 @@ def main():
         historie_map = generate_historie_pages(
             historie_dir=os.path.join(args.output, "historie"),
             site_dir=args.site_dir,
+            site_index=site_index,
         )
+        site_index.attach_historie(historie_map)
         generate_per_law_pages(
             repo_root=args.output,
             site_dir=args.site_dir,
@@ -164,12 +175,13 @@ def main():
         print("=" * 60)
         print("Generating per-law, per-topic, and per-ministry Atom feeds")
         print("=" * 60)
-        generate_per_law_feeds(
+        feeds_manifest = generate_per_law_feeds(
             snapshot_dir=args.snapshot,
             lover_dir=os.path.join(args.output, "lover"),
             forskrifter_dir=os.path.join(args.output, "forskrifter"),
             output_dir=os.path.join(args.site_dir, "feeds"),
         )
+        site_index.attach_feeds(feeds_manifest)
 
         print()
         print("=" * 60)
@@ -191,6 +203,7 @@ def main():
             output_path=os.path.join(args.site_dir, "aktivitet.html"),
             lover_dir=os.path.join(args.output, "lover"),
             forskrifter_dir=os.path.join(args.output, "forskrifter"),
+            site_index=site_index,
         )
 
         # Sitemap must run LAST since it indexes everything in _site/
@@ -204,6 +217,22 @@ def main():
             site_dir=args.site_dir,
             historikk_dir=os.path.join(args.site_dir, "historikk"),
         )
+
+        # Deploy-time enforcement of the whole dead-link class: every internal
+        # reference in the built site must resolve, or the run fails here
+        # instead of a user finding it later.
+        print()
+        print("=" * 60)
+        print("Verifying internal link integrity")
+        print("=" * 60)
+        from .verify_links import verify_site
+        broken = verify_site(args.site_dir)
+        if broken:
+            print(f"  {len(broken)} broken internal references:")
+            for b in broken[:60]:
+                print("   ", b)
+            raise SystemExit(1)
+        print("  All internal references resolve")
 
     if args.build_history:
         repo_path = args.repo_path
