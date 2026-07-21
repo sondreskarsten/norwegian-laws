@@ -116,9 +116,13 @@ def test_historie_page_h2_contains_paragraph_history_link(tmp_path, monkeypatch)
     )
 
     from lovdata_publisher.historie_pages import generate_historie_pages
+    from lovdata_publisher.site_index import SiteIndex
+    idx = SiteIndex({"lov/1998-07-17-56"})
+    idx.attach_paragraphs({"lov/1998-07-17-56": {"1-2a"}})
     manifest = generate_historie_pages(
         historie_dir=str(historie),
         site_dir=str(site),
+        site_index=idx,
     )
     assert "lov/1998-07-17-56" in manifest
 
@@ -128,3 +132,35 @@ def test_historie_page_h2_contains_paragraph_history_link(tmp_path, monkeypatch)
     assert "⧉ paragraf" in page
     # TOC should still link to the H2 anchor
     assert 'href="#-1-2a"' in page or 'href="#1-2a"' in page or 'href="#§-1-2a"' in page
+
+
+
+def test_historie_page_gates_para_and_feed_links(tmp_path):
+    """Paragraphs without a generated history page stay unlinked, and a law
+    without a per-law feed advertises the global feed instead."""
+    historie = tmp_path / "historie"
+    historie.mkdir()
+    site = tmp_path / "_site"
+    (historie / "regnskapsloven.md").write_text(
+        '---\n'
+        'tittel: "Regnskapsloven \u2013 rskl"\n'
+        'refid: "lov/1998-07-17-56"\n'
+        '---\n\n# Endringshistorikk\n\n## \u00a7 1-2a\n\nx\n\n## \u00a7 9-9\n\ny\n',
+        encoding="utf-8",
+    )
+    from lovdata_publisher.historie_pages import generate_historie_pages
+    from lovdata_publisher.site_index import SiteIndex
+    idx = SiteIndex({"lov/1998-07-17-56"})
+    idx.attach_paragraphs({"lov/1998-07-17-56": {"1-2a"}})
+    generate_historie_pages(str(historie), str(site), site_index=idx)
+    page = (site / "historie" / "regnskapsloven.html").read_text(encoding="utf-8")
+    assert 'historikk/lov-1998-07-17-56/para-1-2a.html' in page
+    assert 'para-9-9.html' not in page
+    assert 'href="../feed.xml"' in page
+    assert '../feeds/lov-1998-07-17-56.xml' not in page
+
+    idx.attach_feeds({"laws": {"lov/1998-07-17-56": {"path": "feeds/lov-1998-07-17-56.xml"}},
+                      "topics": {}, "ministries": {}})
+    generate_historie_pages(str(historie), str(site), site_index=idx)
+    page = (site / "historie" / "regnskapsloven.html").read_text(encoding="utf-8")
+    assert 'href="../feeds/lov-1998-07-17-56.xml"' in page

@@ -117,3 +117,20 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def summarize(failures: list[str]) -> list[tuple[str, int, list[str]]]:
+    """Group failures into (class, count, samples) by collapsing digits, so a
+    26,000-line list reads as a handful of emitter defects."""
+    import re as _re
+    from collections import defaultdict
+    groups: dict[str, list[str]] = defaultdict(list)
+    for f in failures:
+        src, _, tgt = f.partition(" -> ")
+        src_dir = src.split("/", 1)[0] if "/" in src else src
+        pattern = _re.sub(r"\d+", "N", tgt)
+        groups[f"{src_dir}/* -> {pattern}"].append(f)
+    return sorted(
+        ((cls, len(fs), fs[:2]) for cls, fs in groups.items()),
+        key=lambda x: -x[1],
+    )

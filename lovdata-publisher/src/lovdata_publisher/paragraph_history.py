@@ -96,7 +96,7 @@ h1 {{ font-size: 1.6rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.4re
 <nav class="breadcrumb">
   <a href="../../">Norges Lover</a> ›
   {law_link} ›
-  <a href="../../historie/{law_stem}.html">Endringshistorikk</a> ›
+{historie_crumb}
   {paragraph}
 </nav>
 
@@ -443,6 +443,8 @@ def generate_paragraph_history_pages(
                 f'</div>'
             )
 
+        _hist = index.historie_page(law_refid)
+        historie_crumb = f'<a href="../../{_hist}">Endringshistorikk</a> \u203a' if _hist else ""
         _doc = index.doc_page(law_refid)
         law_link = (
             f'<a href="../../{_doc}">{html.escape(law_title)}</a>' if _doc else
@@ -451,6 +453,7 @@ def generate_paragraph_history_pages(
         page = PAGE_TEMPLATE.format(
             paragraph=html.escape(paragraph),
             law_link=law_link,
+            historie_crumb=historie_crumb,
             law_title=html.escape(law_title),
             law_stem=law_stem,
             para_slug=para_slug,

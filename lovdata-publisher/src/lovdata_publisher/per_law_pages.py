@@ -42,7 +42,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="twitter:image" content="https://sondreskarsten.github.io/norwegian-laws/assets/banner.svg"/>
 <link rel="icon" type="image/svg+xml" href="/norwegian-laws/assets/favicon.svg"/>
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/{output_subdir}/{filename_html}"/>
-<link rel="alternate" type="application/atom+xml" title="Endringer i {korttittel_short}" href="../feeds/{feed_stem}.xml">
+{feed_autodiscovery}
 <style>
 body {{ max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }}
 nav.breadcrumb {{ background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }}
@@ -95,7 +95,7 @@ eller direkte i <a href="{github_log}">git log</a>.
 <strong>Historikk:</strong>
 <a href="{github_blob}">Kildefil</a> ·
 <a href="{github_log}">git log</a> ·
-<a href="../feeds/{feed_stem}.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
+{feed_link_html}
 {historie_link}{version_links}
 </div>
 
@@ -274,9 +274,11 @@ def generate_per_law_pages(
     version_tags: list[str] | None = None,
     historie_map: dict[str, str] | None = None,
     amended_paragraphs_map: dict[str, set[str]] | None = None,
+    site_index=None,
 ) -> int:
     if version_tags is None:
-        version_tags = [f"v{y}" for y in range(2001, 2027)]
+        import datetime
+        version_tags = [f"v{y}" for y in range(2000, datetime.date.today().year + 3)]
     if historie_map is None:
         historie_map = {}
     if amended_paragraphs_map is None:
@@ -325,7 +327,25 @@ def generate_per_law_pages(
                 github_log = f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/lover/{filename}"
                 lovdata_doc_url = f"https://lovdata.no/dokument/NL/{refid}"
             version_links = compute_version_links_html(refid, version_tags, filename)
-            feed_stem = md_file.stem  # matches feeds/{stem}.xml convention
+            feed_path = site_index.feed(refid) if site_index is not None else f"feeds/{md_file.stem}.xml"
+            if feed_path:
+                feed_autodiscovery = (
+                    f'<link rel="alternate" type="application/atom+xml" '
+                    f'title="Endringer i {korttittel or tittel[:50]}" href="../{feed_path}">'
+                )
+                feed_link_html = (
+                    f'<a href="../{feed_path}" title="Abonner p\u00e5 endringer i denne loven via Atom">'
+                    f'\U0001F4E1 Atom-feed</a> \u00b7'
+                )
+            else:
+                feed_autodiscovery = (
+                    '<link rel="alternate" type="application/atom+xml" '
+                    'title="Norges Lover \u2014 alle endringer" href="../feed.xml">'
+                )
+                feed_link_html = (
+                    '<a href="../feed.xml" title="Ingen endringer registrert siden 2001 \u2014 '
+                    'abonner p\u00e5 den globale feeden">\U0001F4E1 Atom-feed (alle)</a> \u00b7'
+                )
             historie_url = historie_map.get(refid, "")
             historie_link = (
                 f'<a href="../{historie_url}" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · '
@@ -343,13 +363,14 @@ def generate_per_law_pages(
                 sist_endret=sist_endret or "—",
                 github_blob=github_blob,
                 github_log=github_log,
+                feed_autodiscovery=feed_autodiscovery,
+                feed_link_html=feed_link_html,
                 lovdata_url=lovdata_doc_url,
                 version_links=version_links,
                 body=body_html,
                 filename=filename,
                 filename_html=f"{md_file.stem}.html",
                 output_subdir=output_subdir,
-                feed_stem=feed_stem,
                 historie_link=historie_link,
             )
 

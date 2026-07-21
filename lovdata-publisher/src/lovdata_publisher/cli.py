@@ -133,7 +133,10 @@ def main():
         # corpus on disk, enriched with each producer's manifest as it runs,
         # consumed by every emitter, and enforced by verify_links at the end.
         site_index = SiteIndex.build(args.output)
-        print(f"  Site index: {len(site_index.corpus)} corpus documents")
+        from .historie_pages import scan_historie_slugs
+        site_index.attach_historie(scan_historie_slugs(os.path.join(args.output, "historie")))
+        print(f"  Site index: {len(site_index.corpus)} corpus documents, "
+              f"{len(site_index.historie)} historie pages")
 
         # Build paragraph-history pages first so we can link to them from
         # the per-law pages (each amended paragraph gets a "⧉ historikk"
@@ -153,6 +156,18 @@ def main():
             print(f"  {db_path} not found, skipping paragraph history")
             amended_paragraphs_map = {}
 
+
+        print()
+        print("=" * 60)
+        print("Generating per-law, per-topic, and per-ministry Atom feeds")
+        print("=" * 60)
+        feeds_manifest = generate_per_law_feeds(
+            snapshot_dir=args.snapshot,
+            lover_dir=os.path.join(args.output, "lover"),
+            forskrifter_dir=os.path.join(args.output, "forskrifter"),
+            output_dir=os.path.join(args.site_dir, "feeds"),
+        )
+        site_index.attach_feeds(feeds_manifest)
         print()
         print("=" * 60)
         print("Generating per-law HTML pages and full-text search index")
@@ -168,20 +183,10 @@ def main():
             site_dir=args.site_dir,
             historie_map=historie_map,
             amended_paragraphs_map=amended_paragraphs_map,
+            site_index=site_index,
         )
         merge_full_text_into_search(repo_root=args.output, site_dir=args.site_dir)
 
-        print()
-        print("=" * 60)
-        print("Generating per-law, per-topic, and per-ministry Atom feeds")
-        print("=" * 60)
-        feeds_manifest = generate_per_law_feeds(
-            snapshot_dir=args.snapshot,
-            lover_dir=os.path.join(args.output, "lover"),
-            forskrifter_dir=os.path.join(args.output, "forskrifter"),
-            output_dir=os.path.join(args.site_dir, "feeds"),
-        )
-        site_index.attach_feeds(feeds_manifest)
 
         print()
         print("=" * 60)
@@ -225,12 +230,15 @@ def main():
         print("=" * 60)
         print("Verifying internal link integrity")
         print("=" * 60)
-        from .verify_links import verify_site
+        from .verify_links import verify_site, summarize
         broken = verify_site(args.site_dir)
         if broken:
-            print(f"  {len(broken)} broken internal references:")
-            for b in broken[:60]:
-                print("   ", b)
+            print(f"  {len(broken)} broken internal references in "
+                  f"{len(summarize(broken))} classes:")
+            for cls, count, samples in summarize(broken)[:30]:
+                print(f"    [{count:>6}] {cls}")
+                for s in samples:
+                    print(f"             e.g. {s}")
             raise SystemExit(1)
         print("  All internal references resolve")
 
