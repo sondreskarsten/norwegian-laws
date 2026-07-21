@@ -2,7 +2,7 @@ name: Release
 
 on:
   push:
-    tags: ['v*']
+    tags: ['v*.*.*']  # package releases only; yearly data tags (vYYYY) must not trigger builds
 
 permissions:
   contents: write
@@ -17,10 +17,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Build package
+      - name: Build packages
         run: |
           pip install build
-          python -m build
+          python -m build lovdata-loader
+          python -m build lovdata-publisher
 
       # softprops/action-gh-release@v2 was used previously but it ALWAYS
       # tries to PATCH (finalize) the release after uploading assets, even
@@ -39,8 +40,8 @@ jobs:
           TAG=${GITHUB_REF#refs/tags/}
           if gh release view "$TAG" >/dev/null 2>&1; then
             echo "Release $TAG exists, uploading assets..."
-            gh release upload "$TAG" dist/* --clobber
+            gh release upload "$TAG" lovdata-loader/dist/* lovdata-publisher/dist/* --clobber
           else
             echo "Release $TAG does not exist, creating with auto notes..."
-            gh release create "$TAG" dist/* --generate-notes --title "$TAG"
+            gh release create "$TAG" lovdata-loader/dist/* lovdata-publisher/dist/* --generate-notes --title "$TAG"
           fi
