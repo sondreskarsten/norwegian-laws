@@ -15,21 +15,12 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .feeds import _filepath_for
+
 SITE_BASE = "https://sondreskarsten.github.io/norwegian-laws"
 FEED_URL = f"{SITE_BASE}/feed.xml"
 
 _PARA_RE = re.compile(r'§\s*(\d+\s*[-–]\s*\d+(?:[a-z](?=$|[^a-zæøåA-ZÆØÅ]))?)')
-
-
-def _filepath_for(refid: str) -> str:
-    """Best-effort URL fragment from a target law's refid."""
-    if refid.startswith("forskrift/"):
-        stem = "forskrift-" + refid.split("/", 1)[1]
-        return f"/forskrifter/{stem}.html"
-    if refid.startswith("lov/"):
-        stem = "lov-" + refid.split("/", 1)[1]
-        return f"/lover/{stem}.html"
-    return ""
 
 
 def _atom_entry(act: dict, paragraphs: list[str] | None = None) -> str:

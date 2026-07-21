@@ -189,3 +189,119 @@ def test_update_readme_refreshes_dated_amendments_count(tmp_path):
     # Feature-table row updated
     assert "100 amendment acts as backdated commits" in text
     assert "31,459 amendment acts as backdated commits" not in text
+
+
+BADGED_README = """<img alt="Coverage" src="https://img.shields.io/badge/coverage-9%2C999_documents-2780e3">
+<img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-1-ba0c2f">
+<img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-9%2C999-7a92b8">
+
+| 📜 **Complete coverage** | All 9,999 formal laws + 9,999 central regulations |
+| 🔔 **Per-law Atom feeds** | 9,999 subscribable feeds — one per law/forskrift with amendments, plus 99 rettsområde and 99 ministry feeds |
+| 🕰️ **Backdated git history** | 1 amendment acts as backdated commits |
+| 📑 **Endringshistorikk** | plus 13,700+ per-paragraph history pages |
+
+""" + START_MARKER + "\nold\n" + END_MARKER + "\n"
+
+
+def _law_md(tittel, refid, rettsomrade, departement):
+    return (
+        "---\n"
+        f'tittel: "{tittel}"\n'
+        f'refid: "{refid}"\n'
+        f'rettsomrade: "{rettsomrade}"\n'
+        f'departement: "{departement}"\n'
+        "---\n\n# X\n"
+    )
+
+
+def _make_corpus(tmp_path):
+    lover = tmp_path / "lover"
+    forskrifter = tmp_path / "forskrifter"
+    lover.mkdir()
+    forskrifter.mkdir()
+    (lover / "lov-1998-07-17-56.md").write_text(
+        _law_md("Regnskapsloven", "lov/1998-07-17-56",
+                "Bank, finans og regnskapsrett>Regnskap", "Finansdepartementet"),
+        encoding="utf-8",
+    )
+    (lover / "lov-1997-06-13-44.md").write_text(
+        _law_md("Aksjeloven", "lov/1997-06-13-44",
+                "Selskaper, fond og foreninger\\nBank, finans og regnskapsrett>Regnskap",
+                "Justis- og beredskapsdepartementet"),
+        encoding="utf-8",
+    )
+    (forskrifter / "forskrift-2004-01-19-298.md").write_text(
+        _law_md("Førerkortforskriften", "forskrift/2004-01-19-298",
+                "Transport og kommunikasjoner>Veitrafikk", "Samferdselsdepartementet"),
+        encoding="utf-8",
+    )
+
+
+def _add_amendments_table(db_path):
+    conn = sqlite3.connect(str(db_path))
+    conn.execute(
+        """CREATE TABLE amendments (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            act_refid TEXT, change_type TEXT, target TEXT, target_law TEXT,
+            instruction TEXT, new_text TEXT
+        )"""
+    )
+    conn.executemany(
+        "INSERT INTO amendments (act_refid, change_type, target, target_law, instruction, new_text)"
+        " VALUES (?,?,?,?,?,?)",
+        [
+            ("lov/2026-05-15-1", "change", "lov/1998-07-17-56/§1-2", "lov/1998-07-17-56",
+             "§ 1-2 skal lyde:", "ny tekst"),
+            ("lov/2026-04-10-1", "change", "lov/1998-07-17-56/§7-25", "lov/1998-07-17-56",
+             "§ 7-25 skal lyde:", "ny tekst"),
+        ],
+    )
+    conn.commit()
+    conn.close()
+
+
+def test_update_readme_refreshes_all_counts(tmp_path):
+    from lovdata_publisher.paragraph_history import _normalize_paragraph
+
+    db = _make_db(tmp_path)
+    _add_amendments_table(db)
+    _make_corpus(tmp_path)
+    readme = tmp_path / "README.md"
+    readme.write_text(BADGED_README, encoding="utf-8")
+
+    changed = update_readme(str(readme), str(db))
+    assert changed
+    text = readme.read_text(encoding="utf-8")
+
+    assert "coverage-3_documents-2780e3" in text
+    assert "All 2 formal laws + 1 central regulations" in text
+    assert "dated_amendments-3-ba0c2f" in text
+    assert "3 amendment acts as backdated commits" in text
+
+    # Amended targets in the db: lov/1998-07-17-56, lov/1997-06-13-44 (in
+    # corpus) and lov/2005-06-17-62 (not in corpus) -> 2 per-law feeds.
+    # Topics of the amended corpus docs: {Bank..., Selskaper...} -> 2.
+    # Ministries: {Finansdepartementet, Justis- og beredskapsdepartementet} -> 2.
+    assert "atom_feeds-6-7a92b8" in text
+    assert (
+        "6 subscribable feeds — one per law/forskrift with amendments, "
+        "plus 2 rettsområde and 2 ministry feeds"
+    ) in text
+
+    expected_pages = len({
+        ("lov/1998-07-17-56", _normalize_paragraph("lov/1998-07-17-56/§1-2", "§ 1-2 skal lyde:")),
+        ("lov/1998-07-17-56", _normalize_paragraph("lov/1998-07-17-56/§7-25", "§ 7-25 skal lyde:")),
+    })
+    assert f"{expected_pages} per-paragraph history pages" in text
+    assert "13,700+" not in text
+
+
+def test_update_readme_without_corpus_dirs_still_updates(tmp_path):
+    db = _make_db(tmp_path)
+    readme = tmp_path / "README.md"
+    readme.write_text(BADGED_README, encoding="utf-8")
+    changed = update_readme(str(readme), str(db))
+    assert changed
+    text = readme.read_text(encoding="utf-8")
+    assert "dated_amendments-3-ba0c2f" in text
+    assert "coverage-9%2C999_documents" in text

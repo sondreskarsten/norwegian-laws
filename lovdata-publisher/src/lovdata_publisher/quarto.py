@@ -3,6 +3,7 @@
 Reads the lover/*.md files (already formatted by formatter.py) and
 produces Quarto book chapters, search pages, diff tools, and config.
 """
+from __future__ import annotations
 import json
 import os
 import re

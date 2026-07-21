@@ -1,4 +1,5 @@
 """Generate per-law amendment timeline files from amendments.db."""
+from __future__ import annotations
 import re
 import sqlite3
 from collections import defaultdict

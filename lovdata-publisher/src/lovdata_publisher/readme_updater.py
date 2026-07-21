@@ -1,8 +1,10 @@
 """Update the 'Recent amendments' section of README.md from amendments.db.
 
 Replaces content between two HTML comment markers with the N most recent
-amendment acts. Designed to be run by the weekly workflow after the snapshot
-is rebuilt, so README.md always reflects the latest legislative activity.
+amendment acts, and refreshes every count the README carries (document
+coverage, amendment acts, feeds, per-paragraph pages) so no badge or
+feature-table number can drift from the data again. Designed to be run by
+the daily workflow after the snapshot is rebuilt.
 
 The README must contain these markers:
     <!-- RECENT_AMENDMENTS_START -->
@@ -94,6 +96,77 @@ def build_recent_block(db_path: str, limit_lover: int = 5, limit_forskrift: int 
     return "\n".join(sections)
 
 
+def _corpus_counts(base_dir: Path, db_path: str) -> dict:
+    """Compute doc totals, feed counts, and per-paragraph page count.
+
+    Mirrors the selection logic of feeds.generate_per_law_feeds and
+    paragraph_history.generate_paragraph_history_pages so README numbers
+    match what those generators actually produce. Returns {} when the
+    lover/ corpus directory is absent (unit-test READMEs)."""
+    from .feeds import _scan_frontmatter
+    from .paragraph_history import _normalize_paragraph
+    from .quarto import split_departments
+
+    lover = base_dir / "lover"
+    forskrifter = base_dir / "forskrifter"
+    counts: dict = {}
+    if not lover.is_dir():
+        return counts
+    laws = _scan_frontmatter(str(lover), str(forskrifter) if forskrifter.is_dir() else None)
+    n_lover = len([f for f in lover.glob("*.md") if f.name != "README.md"])
+    n_forskrifter = len([f for f in forskrifter.glob("*.md") if f.name != "README.md"]) if forskrifter.is_dir() else 0
+    counts["n_lover"] = n_lover
+    counts["n_forskrifter"] = n_forskrifter
+    counts["n_docs"] = n_lover + n_forskrifter
+
+    conn = sqlite3.connect(db_path)
+    conn.row_factory = sqlite3.Row
+    targets: set = set()
+    for row in conn.execute(
+        "SELECT changes_to FROM amendment_acts "
+        "WHERE changes_to IS NOT NULL AND changes_to != '' "
+        "AND date_published IS NOT NULL AND date_published != ''"
+    ):
+        for target in row["changes_to"].split(","):
+            target = target.strip()
+            if target:
+                targets.add(target)
+    amended = targets & set(laws)
+    topics: set = set()
+    depts: set = set()
+    for refid in amended:
+        meta = laws[refid]
+        for area in meta.get("rettsomrade", "").split("\\n"):
+            top = area.split(">", 1)[0].strip()
+            if top:
+                topics.add(top)
+        for dept in split_departments(meta.get("departement", "")):
+            if dept.strip():
+                depts.add(dept.strip())
+    counts["n_law_feeds"] = len(amended)
+    counts["n_topic_feeds"] = len(topics)
+    counts["n_dept_feeds"] = len(depts)
+    counts["n_feeds"] = len(amended) + len(topics) + len(depts)
+
+    has_amendments = conn.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='amendments'"
+    ).fetchone() is not None
+    if has_amendments:
+        pages = set()
+        for r in conn.execute(
+            "SELECT a.target, a.target_law, a.instruction "
+            "FROM amendments a LEFT JOIN amendment_acts ac ON a.act_refid = ac.refid "
+            "WHERE a.target_law IS NOT NULL AND a.target_law != '' "
+            "AND ac.date_published IS NOT NULL"
+        ):
+            para = _normalize_paragraph(r["target"] or "", r["instruction"] or "")
+            if para:
+                pages.add((r["target_law"], para))
+        counts["n_para_pages"] = len(pages)
+    conn.close()
+    return counts
+
+
 def update_readme(readme_path: str, db_path: str, limit_lover: int = 5, limit_forskrift: int = 5) -> bool:
     """Replace content between markers in README.md. Returns True if changed.
 
@@ -139,6 +212,37 @@ def update_readme(readme_path: str, db_path: str, limit_lover: int = 5, limit_fo
         f"{n_acts:,} amendment acts as backdated commits",
         new_text,
     )
+
+    counts = _corpus_counts(path.parent, db_path)
+    if counts:
+        enc = lambda n: f"{n:,}".replace(",", "%2C")
+        plain = lambda n: f"{n:,}"
+        new_text = re.sub(
+            r"coverage-[\d%C]+_documents-2780e3",
+            f"coverage-{enc(counts['n_docs'])}_documents-2780e3",
+            new_text,
+        )
+        new_text = re.sub(
+            r"All [\d,]+ formal laws \+ [\d,]+ central regulations",
+            f"All {plain(counts['n_lover'])} formal laws + {plain(counts['n_forskrifter'])} central regulations",
+            new_text,
+        )
+        new_text = re.sub(
+            r"atom_feeds-[\d%C]+-7a92b8",
+            f"atom_feeds-{enc(counts['n_feeds'])}-7a92b8",
+            new_text,
+        )
+        new_text = re.sub(
+            r"[\d,]+ subscribable feeds [\u2014-] one per law/forskrift with amendments, plus [\d,]+ rettsomr\u00e5de and [\d,]+ ministry feeds",
+            f"{plain(counts['n_feeds'])} subscribable feeds \u2014 one per law/forskrift with amendments, plus {plain(counts['n_topic_feeds'])} rettsomr\u00e5de and {plain(counts['n_dept_feeds'])} ministry feeds",
+            new_text,
+        )
+        if "n_para_pages" in counts:
+            new_text = re.sub(
+                r"[\d,]+\+? per-paragraph history pages",
+                f"{plain(counts['n_para_pages'])} per-paragraph history pages",
+                new_text,
+            )
 
     if new_text == original:
         return False

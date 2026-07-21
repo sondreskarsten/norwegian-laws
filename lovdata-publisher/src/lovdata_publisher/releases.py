@@ -4,6 +4,7 @@ Creates git tags at the last commit of each month (by author date),
 plus a rolling 'current' tag at HEAD. Generates release notes
 summarizing which laws were amended in each period.
 """
+from __future__ import annotations
 import subprocess
 import re
 from dataclasses import dataclass

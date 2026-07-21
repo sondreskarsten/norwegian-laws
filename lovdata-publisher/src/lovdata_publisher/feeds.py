@@ -10,7 +10,7 @@ Per-law feed URL pattern:
     /feeds/forskrift-{date-nr}.xml
 
 Per-topic feed (slugified rettsområde):
-    /feeds/topic-{slug}.xml       e.g. /feeds/topic-skatterett.xml
+    /feeds/topic-{slug}.xml       e.g. /feeds/topic-skatte--og-avgiftsrett.xml
 
 Per-ministry feed (slugified departement):
     /feeds/dept-{slug}.xml        e.g. /feeds/dept-finansdepartementet.xml

@@ -3,6 +3,7 @@
 Handles FastImportStream generation, commit message formatting,
 yearly tagging, and repository construction from snapshot data.
 """
+from __future__ import annotations
 import re
 import subprocess
 import sqlite3

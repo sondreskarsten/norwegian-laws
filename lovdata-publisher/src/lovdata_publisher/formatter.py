@@ -6,6 +6,7 @@ Same input always produces byte-identical output.
 
 No XML parsing, no BeautifulSoup, no network access.
 """
+from __future__ import annotations
 import json
 import re
 from pathlib import Path

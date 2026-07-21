@@ -1,4 +1,5 @@
 """CLI entry point for lovdata-publisher."""
+from __future__ import annotations
 import argparse
 
 from .formatter import format_all_laws
