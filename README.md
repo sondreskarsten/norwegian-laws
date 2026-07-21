@@ -177,7 +177,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 | 🕰️ **Backdated git history** | 39,066 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 13,700+ per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
-| 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2001`–`v2027`) |
+| 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
 | 🤝 **Machine-readable** | Markdown + YAML frontmatter, plus [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) for programmatic access |
 | 🆓 **Open data + open code** | NLOD 2.0 (Lovdata data) · MIT (code) |
 | 🔄 **Updated daily** | Automated pull from Lovdata API every day |
@@ -238,8 +238,12 @@ pip install -e lovdata-loader/ -e lovdata-publisher/
 # Download archives, parse to snapshot
 lovdata-load --download --output snapshot
 
-# Format to Markdown + generate Quarto book chapters + Atom feeds
+# Format to Markdown + generate Quarto book chapters
 lovdata-publish --snapshot snapshot --output . --quarto
+
+# Render the site, then generate per-law pages, Atom feeds, JSONL
+# manifests, full-text search, and the sitemap into _site/
+quarto render
 lovdata-publish --post-render --output . --site-dir _site
 ```
 

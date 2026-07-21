@@ -1,17 +1,28 @@
 # norwegian-laws: Task List
 
-## Current state (2026-05-18)
+## Current state (2026-07-21)
 
 **Production:**
-- Repo: github.com/sondreskarsten/norwegian-laws (public, MIT + NLOD 2.0)
-- 783 laws + 3,421 central forskrifter, weekly refresh from Lovdata API
-- `law-history` branch: 16K+ per-act commits, LFS-backed, v2000..v2027 yearly tags
-- Live site: 4,200+ HTML pages on gh-pages — per-law/per-forskrift pages,
-  dept chapters (17 lover + 16 forskrifter), topic chapters (35), Atom feed
-- 47 passing tests
-- 4 GitHub Actions workflows (deploy weekly + on push; law-history weekly;
-  release on tag; tests on push). Lovdata archives cached weekly via
-  `actions/cache@v4` with YYYY-WW keys.
+- Repo: github.com/sondreskarsten/norwegian-laws (public, MIT code + NLOD 2.0 data)
+- 794 lover + 3,438 sentrale forskrifter; Lovdata manifest polled daily at
+  02:00 UTC, deploy dispatched on change (event-driven, not cron)
+- Archive cache: exact weekly keys, no restore-keys fallback (a prefix
+  fallback froze consolidated texts 2026-06-14..07-21 while lovtidend,
+  which is uncached, kept flowing)
+- `law-history` branch: per-act commits, LFS-backed, yearly tags v2000
+  and onward; rebuilt via dispatch chained from a successful deploy
+- Live site on gh-pages: per-law/per-forskrift pages, dept and topic
+  chapters, per-paragraph history pages, aktivitet leaderboard, Atom
+  feeds (per law/topic/ministry), JSONL manifests + JSON Schemas
+- 137 passing tests (38 loader + 99 publisher); pytest runs per package
+- 6 GitHub Actions workflows: poll-lovdata (daily), deploy
+  (repository_dispatch + push), law-history (dispatch-chained),
+  gcs-sync (dispatch-chained), release (tags v*.*.*), test
+- README counts (coverage, feeds, amendment acts, per-paragraph pages)
+  refresh from data on every deploy via readme_updater; stale generated
+  book chapters are pruned by generate_quarto_config
+- The lovdata-pipeline monolith, its root pyproject, and its orphaned
+  test suite were removed 2026-07-21 (MIGRATION.md Phase 3)
 
 **Per-law pages include:**
 - Cross-reference linking to related laws/forskrifter
@@ -30,8 +41,9 @@ inline. Uses diff2html-ui + jsdiff loaded from jsdelivr; fetches raw text
 from `raw.githubusercontent.com` (LFS resolved server-side, CORS *).
 Falls back to GitHub compare and endringslogg buttons.
 
-`laws.json` (used by the diff page and dept search index) now contains
-both lover and forskrifter entries with `kind`, `path`, and `tags` fields.
+`laws.json` (used by the diff page and dept search index) contains both
+lover and forskrifter entries with `kind`, `path`, `tags`, and per-law
+`amendments` counts.
 
 ---
 

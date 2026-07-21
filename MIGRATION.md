@@ -1,3 +1,16 @@
+> **Status (2026-07-21): completed — historical document.** The split
+> shipped; Phase 3 closed on 2026-07-21 when `src/lovdata_pipeline/`, the
+> root `pyproject.toml`, and the orphaned root test suite were removed and
+> release builds were repointed at the two live packages. Reality has since
+> outgrown this plan: the loader gained `audit.py`, `coverage.py`, and
+> `reconstruct.py`; the publisher grew from 6 to 17 modules (feeds, historie,
+> per-law pages, paragraph history, manifests, sitemap, stats, readme
+> updater) and depends on `markdown` in addition to `pyyaml`; workflows
+> install both packages editable from this repo rather than from PyPI; and
+> law-history is dispatch-chained from deploy with `--history-mode act
+> --use-lfs` instead of a weekly cron. Consult the workflows and package
+> sources for current truth; keep this file for the architectural rationale.
+
 # Migration Plan: Split into Two Libraries
 
 ## Motivation
