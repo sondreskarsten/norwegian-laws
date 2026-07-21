@@ -14,7 +14,7 @@
 - Live site on gh-pages: per-law/per-forskrift pages, dept and topic
   chapters, per-paragraph history pages, aktivitet leaderboard, Atom
   feeds (per law/topic/ministry), JSONL manifests + JSON Schemas
-- 137 passing tests (38 loader + 99 publisher); pytest runs per package
+- 146 passing tests (38 loader + 108 publisher); pytest runs per package
 - 6 GitHub Actions workflows: poll-lovdata (daily), deploy
   (repository_dispatch + push), law-history (dispatch-chained),
   gcs-sync (dispatch-chained), release (tags v*.*.*), test
