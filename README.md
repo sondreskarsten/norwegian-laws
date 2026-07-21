@@ -75,7 +75,7 @@ For detaljer om alle endrede dokumenter, se oppsummeringen ovenfor.
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-06-23 | Endringslov til endringslov til merverdiavgiftsloven | [`lov/2009-06-19-58`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2009-06-19-58.html) [`lov/2025-12-22-121`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2025-12-22-121.html) |
+| 2026-06-23 | Endringslov til endringslov til merverdiavgiftsloven | [`lov/2009-06-19-58`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-2009-06-19-58.html) [`lov/2025-12-22-121`](https://lovdata.no/dokument/NLO/lov/2025-12-22-121) |
 | 2026-06-23 | Endringslov til utleveringsloven | [`lov/1975-06-13-39`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1975-06-13-39.html) |
 | 2026-06-23 | Endringslov til folketrygdloven | [`lov/1997-02-28-19`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1997-02-28-19.html) |
 | 2026-06-23 | Endringslov til folketrygdloven | [`lov/1997-02-28-19`](https://sondreskarsten.github.io/norwegian-laws/lover/lov-1997-02-28-19.html) |
