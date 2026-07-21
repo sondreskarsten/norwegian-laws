@@ -9,9 +9,9 @@
 <p>
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
-  <img alt="Coverage" src="https://img.shields.io/badge/coverage-4%2C232_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C066-ba0c2f">
-  <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C627-7a92b8">
+  <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C916_documents-2780e3">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C068-ba0c2f">
+  <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C956-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
 </p>
@@ -38,25 +38,36 @@ That diff is real, reachable via `git log -p -- lover/lov-1998-07-17-56.md` once
 The most recently published lover and forskrifter from Norsk Lovtidend, auto-updated daily when Lovdata publishes new content:
 
 <!-- AI_SUMMARY_START -->
-*🤖 AI-generated summary (GitHub Models) · 2026-06-13*
+*🤖 AI-generated summary (GitHub Models) · 2026-07-21*
 
-Det har vært en rekke lov- og forskriftsendringer. Endringene omfatter alt fra oppdateringer i eksisterende lover til vedtak av nye forskrifter som regulerer ulike sektorer, inkludert helse, transport, miljø, arbeidsliv og fiskeri.
+Totalt ble 1789 nye dokumenter publisert og 335 endret. 
 
-Nyeste publiserte lover og forskrifter:
+Nye dokumenter:  
+- **forskrift/1905-11-15-1**: Resolusjon om Kongens tittel – Kgl. res. fastsetter at Kongens tittel skal være "Vi N.N., Norges Konge".  
+- **forskrift/1927-10-21-3216**: Forskrift om Høyesteretts to avdelinger – Bestemmer at Høyesterett skal holde til to avdelinger for behandling av muntlige saker.  
+- **forskrift/1941-05-23-1**: Statutter for krigskorset – Gir retningslinjer for tildeling av Krigskorset for personlig innsats i krig eller væpnet konflikt.  
+- **forskrift/1948-02-16-1**: Regnskapsinstruks – Krever direkte innsending av regnskaper med bilag til Riksrevisjonen utenom departementet for visse instanser.  
+- **forskrift/1949-06-10-1**: Direktiver for militære ved væpnet angrep – Klargjør ansvar og plikter for militære ledere ved mobilisering og angrep.  
+- **forskrift/1953-06-26-5**: Godtgjøring i politireserven – Regulering av økonomiske godtgjørelser for mannskap under trening og tjeneste.  
+- **forskrift/1953-06-26-9512**: Godtgjøring i polititjeneste – Detaljerer godtgjøringssatser for mannskap i polititjeneste, inkl. dagpenger og familietillegg.  
+- **forskrift/1953-07-31-1**: Disiplinærreglement for politireserven – Regler for disiplin og justis i politireserven.  
+- **forskrift/1953-07-31-2**: Legeundersøkelse av politireserven – Bestemmelser om vurdering av tjenestedyktighet for mannskap basert på legeundersøkelse.  
+- **forskrift/1956-11-09-6**: Krigsskadeskipnadens bygningstrygd – Definerer dekning og unntak for bygningsskader under krig i henhold til krigsskadeloven.  
+- **forskrift/1956-11-09-8676**: Krigsskadeskipnadens småskipstrygd – Dekning av skade på småskip under krig, med unntak for lystfartøy.  
+- **forskrift/1956-11-09-8694**: Krigsskadeskipnadens motorvogntrygd – Regulering av dekning for motorvognskader under krig med visse unntak.  
+- **forskrift/1956-11-09-9452**: Krigsskadeskipnadens løsøretrygd – Dekker løsøre med enkelte unntak for skader under krig.  
+- **forskrift/1956-11-23-4**: Krigsskadeskipnadens varelagertrygd – Dekker varelager inkludert råvarer og utstyr under brannforsikring.  
+- **forskrift/1957-06-07-3391**: Myndighet for utenlandskeksaminerte leger på Svalbard – Gir Sosialdepartementet myndighet til å godkjenne leger med utenlandsk eksamen.  
+- **forskrift/1958-03-13-1**: Fullmakt til skattedirektøren – Overfører enkelte myndigheter fra Finansdepartementet til skattedirektøren.  
 
-- **lov/2025-12-22-127**: Endrer husleieloven (§1.17). Justis- og beredskapsdepartementet.
-- **lov/2025-12-22-126**: Endrer helsepersonelloven (§3), pasientjournalloven (§42), og helseregisterloven (§43). Helse- og omsorgsdepartementet.
-- **lov/2025-12-22-117**: Endrer pensjonslover og folketrygdloven (4 dokumenter). Arbeids- og inkluderingsdepartementet.
-- **lov/2025-12-22-115**: Endrer straffeloven (§28) og barnevernsloven (§97). Barne- og familiedepartementet.
-- **forskrift/2026-05-04-716**: Endrer forskriften om plantevernmidler. Landbruks- og matdepartementet.
-- **forskrift/2026-04-30-694**: Endrer forskriften om prøving og godkjenning av plantesorter. Landbruks- og matdepartementet.
-- **forskrift/2025-12-17-2717**: Endrer verkstedforskriften. Samferdselsdepartementet.
-- **forskrift/2025-12-17-2716**: Endrer forskriften om fartsskriververksteder. Samferdselsdepartementet.
-- **forskrift/2025-12-17-2681**: Endrer forskriften om periodisk kontroll av kjøretøy. Samferdselsdepartementet.
-- **forskrift/2025-12-09-2491**: Endrer forskrifter om eksport- og fiskeeksport (2 dokumenter). Nærings- og fiskeridepartementet.
-- **forskrift/2025-12-19-2928**: Endrer narkotikaforskriften. Helse- og omsorgsdepartementet.
+Endrede dokumenter, utvalgte eksempler:  
+- **lov/2017-05-22-28**, formål: Norsk maritim kompetanse → Kompetanse og skipsfart som beredskapsressurs.  
+- **lov/2022-03-04-7**, registreringskrav: Registeret for offentlig støtte → Støtteregisteret, offentlig tilgjengelig.  
+- **lov/1975-06-13-39**, utlevering: Minimumskrav for frihetsstraff redusert, prosedyreregler endret.  
+- **lov/2005-05-20-28**, inndragning: Ny § 68 a om selvstendig inndragning.  
+- **lov/2025-12-22-116**, sykdom: Kronisk lymfatisk leukemi → Non-Hodgkin lymfom.  
 
-Dette er et utdrag. Se originalt dokument for fullstendig oversikt.
+For detaljer om alle endrede dokumenter, se oppsummeringen ovenfor.
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -172,10 +183,10 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 
 | | |
 |---|---|
-| 📜 **Complete coverage** | All 794 formal laws + 3,438 central regulations |
-| 🔔 **Per-law Atom feeds** | 2,627 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 16 ministry feeds |
-| 🕰️ **Backdated git history** | 39,066 amendment acts as backdated commits, with commit date = ikrafttredelse |
-| 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 13,700+ per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
+| 📜 **Complete coverage** | All 762 formal laws + 5,154 central regulations |
+| 🔔 **Per-law Atom feeds** | 2,956 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
+| 🕰️ **Backdated git history** | 39,068 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,040 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
 | 🤝 **Machine-readable** | Markdown + YAML frontmatter, plus [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) for programmatic access |
