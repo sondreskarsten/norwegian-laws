@@ -69,7 +69,7 @@ footer {{ margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; co
 <body>
 <nav class="breadcrumb">
 <a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-{dept_slug}.html">{dept}</a> &raquo;
+{dept_links} &raquo;
 <span>{korttittel_short}</span>
 <span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
@@ -346,6 +346,19 @@ def generate_per_law_pages(
                     '<a href="../feed.xml" title="Ingen endringer registrert siden 2001 \u2014 '
                     'abonner p\u00e5 den globale feeden">\U0001F4E1 Atom-feed (alle)</a> \u00b7'
                 )
+            from .quarto import split_departments
+            _parts = [d for d in split_departments(dept) if d.strip()] or ([dept] if dept else [])
+            _prefix = "forskrift-dept" if refid.startswith("forskrift/") else "dept"
+            _dept_anchors = []
+            for _d in _parts:
+                _chap = f"book/{_prefix}-{dept_slug(_d)}.html"
+                if site_index is not None and site_index.book_chapter(_chap):
+                    _dept_anchors.append(f'<a href="../{_chap}">{_d}</a>')
+                elif site_index is None:
+                    _dept_anchors.append(f'<a href="../{_chap}">{_d}</a>')
+                else:
+                    _dept_anchors.append(_d)
+            dept_links = " \u00b7 ".join(_dept_anchors) if _dept_anchors else "\u2014"
             historie_url = historie_map.get(refid, "")
             historie_link = (
                 f'<a href="../{historie_url}" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · '
@@ -357,7 +370,7 @@ def generate_per_law_pages(
                 korttittel_short=korttittel or tittel[:50],
                 refid=refid,
                 dept=dept,
-                dept_slug=dept_slug(dept),
+                dept_links=dept_links,
                 rettsomrade=rettsomrade or "—",
                 ikrafttredelse=ikrafttredelse or "—",
                 sist_endret=sist_endret or "—",

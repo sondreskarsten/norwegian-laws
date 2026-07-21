@@ -64,7 +64,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta name="twitter:card" content="summary"/>
 <link rel="icon" type="image/svg+xml" href="/norwegian-laws/assets/favicon.svg"/>
 <link rel="canonical" href="{canonical_url}"/>
-<link rel="alternate" type="application/atom+xml" title="Atom-feed for hele loven" href="../../feeds/{law_stem}.xml"/>
+{feed_autodiscovery}
 <style>
 body {{ max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #212529; }}
 nav.breadcrumb {{ background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }}
@@ -105,8 +105,8 @@ h1 {{ font-size: 1.6rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.4re
 <div class="intro">
   <p style="margin:0;"><strong>{law_title}</strong></p>
   <p style="margin:0.4rem 0 0;">
-    <a href="../../lover/{law_stem}.html#{para_anchor}">Les i full lovtekst →</a> ·
-    <a href="../../feeds/{law_stem}.xml">📡 Atom-feed for hele loven</a>
+{fulltext_link} ·
+    {feed_link_html}
   </p>
 </div>
 
@@ -443,6 +443,28 @@ def generate_paragraph_history_pages(
                 f'</div>'
             )
 
+        _fdoc = index.doc_page(law_refid)
+        if _fdoc:
+            frag = f"#{para_anchor}" if para_anchor else ""
+            fulltext_link = f'<a href="../../{_fdoc}{frag}">Les i full lovtekst \u2192</a>'
+        else:
+            fulltext_link = (
+                f'<a href="{index.lovdata_archive_url(law_refid)}" '
+                f'title="Opphevet \u2014 arkivert hos Lovdata">Les arkivert tekst \u2192</a>'
+            )
+        _feed = index.feed(law_refid)
+        if _feed:
+            feed_autodiscovery = (
+                f'<link rel="alternate" type="application/atom+xml" '
+                f'title="Atom-feed for hele loven" href="../../{_feed}"/>'
+            )
+            feed_link_html = f'<a href="../../{_feed}">\U0001F4E1 Atom-feed for hele loven</a>'
+        else:
+            feed_autodiscovery = (
+                '<link rel="alternate" type="application/atom+xml" '
+                'title="Norges Lover \u2014 alle endringer" href="../../feed.xml"/>'
+            )
+            feed_link_html = '<a href="../../feed.xml">\U0001F4E1 Atom-feed (alle endringer)</a>'
         _hist = index.historie_page(law_refid)
         historie_crumb = f'<a href="../../{_hist}">Endringshistorikk</a> \u203a' if _hist else ""
         _doc = index.doc_page(law_refid)
@@ -454,6 +476,9 @@ def generate_paragraph_history_pages(
             paragraph=html.escape(paragraph),
             law_link=law_link,
             historie_crumb=historie_crumb,
+            fulltext_link=fulltext_link,
+            feed_autodiscovery=feed_autodiscovery,
+            feed_link_html=feed_link_html,
             law_title=html.escape(law_title),
             law_stem=law_stem,
             para_slug=para_slug,

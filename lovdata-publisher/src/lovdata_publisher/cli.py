@@ -135,6 +135,7 @@ def main():
         site_index = SiteIndex.build(args.output)
         from .historie_pages import scan_historie_slugs
         site_index.attach_historie(scan_historie_slugs(os.path.join(args.output, "historie")))
+        site_index.attach_book_chapters(args.site_dir)
         print(f"  Site index: {len(site_index.corpus)} corpus documents, "
               f"{len(site_index.historie)} historie pages")
 

@@ -41,6 +41,7 @@ class SiteIndex:
         self.feeds_topics: dict[str, str] = {}
         self.feeds_ministries: dict[str, str] = {}
         self.paragraphs: dict[str, set[str]] = {}
+        self.book_chapters: set[str] = set()
 
     @classmethod
     def build(cls, repo_root: str = ".") -> "SiteIndex":
@@ -71,6 +72,12 @@ class SiteIndex:
     def attach_paragraphs(self, amended_map: dict[str, set]) -> None:
         self.paragraphs.update(amended_map or {})
 
+    def attach_book_chapters(self, site_dir: str) -> None:
+        """Register the chapter files quarto actually rendered into _site/book."""
+        book = Path(site_dir) / "book"
+        if book.is_dir():
+            self.book_chapters = {f"book/{f.name}" for f in book.glob("*.html")}
+
     # --- resolution: root-relative path or None ---
 
     def doc_page(self, refid: str) -> str | None:
@@ -90,6 +97,9 @@ class SiteIndex:
 
     def topic_feed(self, topic: str) -> str | None:
         return self.feeds_topics.get(topic)
+
+    def book_chapter(self, path: str) -> str | None:
+        return path if path in self.book_chapters else None
 
     def para_page(self, refid: str, para: str) -> str | None:
         if para in self.paragraphs.get(refid, set()):
