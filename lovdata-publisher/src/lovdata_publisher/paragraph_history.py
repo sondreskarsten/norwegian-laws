@@ -397,7 +397,7 @@ def generate_paragraph_history_pages(
                 doc = index.doc_page(law_refid)
                 current_text_link = (
                     f'<a href="../../{doc}">Se gjeldende lovtekst \u2192</a>' if doc else
-                    f'<a href="{index.law_history_url(law_refid)}">Se dokumenthistorikken \u2192</a>'
+                    f'<a href="{index.lovdata_archive_url(law_refid)}">Se arkivert tekst hos Lovdata \u2192</a>'
                 )
                 current_text_block = (
                     f'<section class="current-text removed">\n'

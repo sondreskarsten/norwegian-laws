@@ -59,7 +59,7 @@ siden 2001, gruppert per paragraf. Endringer fra før 2001 finnes ikke i denne o
 <p style="margin: 0.5rem 0 0 0;">
 📡 {feed_line} ·
 🔍 Se gjeldende tekst: <a href="{law_url}">{short}</a> ·
-📜 Full git-historikk: <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/{law_path}">git log</a>
+📜 {archive_link}
 </p>
 </div>
 
@@ -221,6 +221,17 @@ def generate_historie_pages(
         toc_html = _build_toc(body_html)
         body_html = toc_html + body_html
 
+        if site_index is None or refid in site_index.corpus:
+            archive_link = (
+                f'Full git-historikk: <a href="https://github.com/sondreskarsten/'
+                f'norwegian-laws/commits/law-history/{_law_path_for(refid)}">git log</a>'
+            )
+        else:
+            from .site_index import SiteIndex as _SI
+            archive_link = (
+                f'Opphevet \u2014 arkivert tekst: '
+                f'<a href="{_SI.lovdata_archive_url(refid)}">Lovdata</a>'
+            )
         feed_path = site_index.feed(refid) if site_index is not None else f"feeds/{_feed_stem_for(refid)}.xml"
         if feed_path:
             feed_autodiscovery = (
@@ -240,7 +251,7 @@ def generate_historie_pages(
             feed_autodiscovery=feed_autodiscovery,
             feed_line=feed_line,
             law_url=_law_url_for(refid, site_index),
-            law_path=_law_path_for(refid),
+            archive_link=archive_link,
             body=body_html,
         )
         out_file = out / f"{md_file.stem}.html"

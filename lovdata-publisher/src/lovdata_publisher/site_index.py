@@ -121,6 +121,10 @@ class SiteIndex:
 
     @staticmethod
     def law_history_url(refid: str) -> str:
+        """Commit history on the law-history branch. Only documents in the
+        CURRENT corpus have history there: build_history reconstructs from
+        snapshot/laws, so repealed documents have no commits at any point.
+        For repealed documents use lovdata_archive_url instead."""
         sub = "forskrifter" if refid.startswith("forskrift/") else "lover"
         return f"{GITHUB_BASE}/commits/law-history/{sub}/{refid_to_stem(refid)}.md"
 
