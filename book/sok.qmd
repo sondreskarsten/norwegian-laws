@@ -65,7 +65,11 @@ document.addEventListener("DOMContentLoaded", function() {
       var n = law.amendments || 0;
       if (n > 0) {
         var color = n >= 50 ? "#dc3545" : (n >= 10 ? "#fd7e14" : "#198754");
-        td4.innerHTML = '<a href="../historie/' + law.path.replace("lover/", "").replace("forskrifter/", "").replace(".md", ".html") + '" style="color:' + color + ';text-decoration:none;font-weight:600;" title="Antall endringslover siden 2001">' + n + '</a>';
+        if (law.historie) {
+          td4.innerHTML = '<a href="../' + law.historie + '" style="color:' + color + ';text-decoration:none;font-weight:600;" title="Antall endringslover siden 2001">' + n + '</a>';
+        } else {
+          td4.innerHTML = '<span style="color:' + color + ';font-weight:600;">' + n + '</span>';
+        }
       } else {
         td4.innerHTML = '<span style="color:#adb5bd;">—</span>';
       }
