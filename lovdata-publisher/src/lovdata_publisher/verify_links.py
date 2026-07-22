@@ -48,6 +48,14 @@ def _internalize(url: str) -> str | None:
             return "/" + url[len(p):].lstrip("/")
     if url.startswith(("http://", "https://", "//")):
         return None
+    # Bare tokens with neither a path separator nor an extension cannot be
+    # intra-site files; they are content noise (Lovdata chemical nomenclature
+    # inside law bodies carries literal href-like markup, e.g. href="RMS").
+    # A real emitter defect always also produces .html/.xml siblings the
+    # gate still catches.
+    tail = url.split("#", 1)[0].split("?", 1)[0]
+    if tail and "/" not in tail and "." not in tail:
+        return None
     return url
 
 

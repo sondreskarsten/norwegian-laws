@@ -211,6 +211,7 @@ def get_amendment_stats_by_year(db_path: str) -> dict[str, dict]:
 
 
 def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str] = None,
+                       historie_slugs: dict[str, str] | None = None,
                        forskrifter_dir: str | None = None,
                        amendment_counts: dict[str, int] | None = None) -> list[dict]:
     """Write laws.json.
@@ -262,6 +263,7 @@ def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str]
                 "log": f"{GITHUB_BASE}/commits/{HISTORY_BRANCH}/{gh_dir}/{f.name}",
                 "tags": tags,
                 "amendments": amendment_counts.get(refid, 0),
+                "historie": (historie_slugs or {}).get(refid),
             })
 
     _add_entries(lover_dir, "lov")
@@ -342,7 +344,11 @@ def generate_search_page(book_dir: str):
         '      var n = law.amendments || 0;',
         '      if (n > 0) {',
         '        var color = n >= 50 ? "#dc3545" : (n >= 10 ? "#fd7e14" : "#198754");',
-        '        td4.innerHTML = \'<a href="../historie/\' + law.path.replace("lover/", "").replace("forskrifter/", "").replace(".md", ".html") + \'" style="color:\' + color + \';text-decoration:none;font-weight:600;" title="Antall endringslover siden 2001">\' + n + \'</a>\';',
+        '        if (law.historie) {',
+        '          td4.innerHTML = \'<a href="../\' + law.historie + \'" style="color:\' + color + \';text-decoration:none;font-weight:600;" title="Antall endringslover siden 2001">\' + n + \'</a>\';',
+        '        } else {',
+        '          td4.innerHTML = \'<span style="color:\' + color + \';font-weight:600;">\' + n + \'</span>\';',
+        '        }',
         '      } else {',
         '        td4.innerHTML = \'<span style="color:#adb5bd;">—</span>\';',
         '      }',
@@ -731,7 +737,9 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
     # Generate laws.json (lover + forskrifter)
     laws_json_path = os.path.join(repo_root, "laws.json")
+    from .historie_pages import scan_historie_slugs
     generate_laws_json(full_lover, laws_json_path, version_tags,
+                       historie_slugs=scan_historie_slugs(os.path.join(repo_root, "historie")),
                        forskrifter_dir=full_forskrifter if os.path.isdir(full_forskrifter) else None,
                        amendment_counts=amendment_counts)
 
