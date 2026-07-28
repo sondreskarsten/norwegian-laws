@@ -1,5 +1,20 @@
 # Release notes
 
+## 2026-07-28
+
+*🤖 AI-generated summary (GitHub Models)*
+
+7 dokumenter er endret:
+
+- refid: tilføyelse — Økologiforskriften: Sist-endret-ikrafttredelse 15. mai → 23. juli 2026. Ny forskrift 13. juli 2026 nr. 1576 lagt til. Uoffisielle norske oversettelser av EU-forordninger fjernet.
+- refid: endring — Forskrift om elektronisk kommunikasjon: Sist-endret-ikrafttredelse 19. mars → 22. juli 2026. § 4s ikrafttredelse forskjøvet 1. september 2026 → 1. januar 2027.
+- refid: tilføyelse — Biocidforskriften: Inkludert EU-beslutninger 2026/576, 578, 579 og 619 om utsettelse av utløpsdatoer for spesifikke biocidaktive stoffer.
+- refid: endring — Forskrift om medisinsk utstyr: Sist-endret-ikrafttredelse 1. juli → 11. juli 2026. Tilpasninger for EU-forordning 2022/944 forklart.
+- refid: endring — Forskrift om legemidler til dyr: Sist-endret-ikrafttredelse 6. juni → 11. juli 2026. Tekniske justeringer i tekst om EU-forordning 2021/17.
+- refid: endring — Forskrift om forsvars- og sikkerhetsanskaffelser: Minsteverdi for del I økt til 500 000 kr, protokollplikt hevet fra 100 000 til 500 000 kr, begge eks. mva.
+- refid: endring — Økodesignforskriften: Sist-endret-ikrafttredelse 1. januar → 24. juli 2026. Krav til miljøutforming av vifter endret til å reflektere EU-forordning 2024/1834.
+
+
 ## 2026-07-21
 
 *🤖 AI-generated summary (GitHub Models)*

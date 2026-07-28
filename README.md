@@ -9,8 +9,8 @@
 <p>
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
-  <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C916_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C074-ba0c2f">
+  <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C914_documents-2780e3">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C075-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C956-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
@@ -38,36 +38,17 @@ That diff is real, reachable via `git log -p -- lover/lov-1998-07-17-56.md` once
 The most recently published lover and forskrifter from Norsk Lovtidend, auto-updated daily when Lovdata publishes new content:
 
 <!-- AI_SUMMARY_START -->
-*🤖 AI-generated summary (GitHub Models) · 2026-07-21*
+*🤖 AI-generated summary (GitHub Models) · 2026-07-28*
 
-Totalt ble 1789 nye dokumenter publisert og 335 endret. 
+7 dokumenter er endret:
 
-Nye dokumenter:  
-- **forskrift/1905-11-15-1**: Resolusjon om Kongens tittel – Kgl. res. fastsetter at Kongens tittel skal være "Vi N.N., Norges Konge".  
-- **forskrift/1927-10-21-3216**: Forskrift om Høyesteretts to avdelinger – Bestemmer at Høyesterett skal holde til to avdelinger for behandling av muntlige saker.  
-- **forskrift/1941-05-23-1**: Statutter for krigskorset – Gir retningslinjer for tildeling av Krigskorset for personlig innsats i krig eller væpnet konflikt.  
-- **forskrift/1948-02-16-1**: Regnskapsinstruks – Krever direkte innsending av regnskaper med bilag til Riksrevisjonen utenom departementet for visse instanser.  
-- **forskrift/1949-06-10-1**: Direktiver for militære ved væpnet angrep – Klargjør ansvar og plikter for militære ledere ved mobilisering og angrep.  
-- **forskrift/1953-06-26-5**: Godtgjøring i politireserven – Regulering av økonomiske godtgjørelser for mannskap under trening og tjeneste.  
-- **forskrift/1953-06-26-9512**: Godtgjøring i polititjeneste – Detaljerer godtgjøringssatser for mannskap i polititjeneste, inkl. dagpenger og familietillegg.  
-- **forskrift/1953-07-31-1**: Disiplinærreglement for politireserven – Regler for disiplin og justis i politireserven.  
-- **forskrift/1953-07-31-2**: Legeundersøkelse av politireserven – Bestemmelser om vurdering av tjenestedyktighet for mannskap basert på legeundersøkelse.  
-- **forskrift/1956-11-09-6**: Krigsskadeskipnadens bygningstrygd – Definerer dekning og unntak for bygningsskader under krig i henhold til krigsskadeloven.  
-- **forskrift/1956-11-09-8676**: Krigsskadeskipnadens småskipstrygd – Dekning av skade på småskip under krig, med unntak for lystfartøy.  
-- **forskrift/1956-11-09-8694**: Krigsskadeskipnadens motorvogntrygd – Regulering av dekning for motorvognskader under krig med visse unntak.  
-- **forskrift/1956-11-09-9452**: Krigsskadeskipnadens løsøretrygd – Dekker løsøre med enkelte unntak for skader under krig.  
-- **forskrift/1956-11-23-4**: Krigsskadeskipnadens varelagertrygd – Dekker varelager inkludert råvarer og utstyr under brannforsikring.  
-- **forskrift/1957-06-07-3391**: Myndighet for utenlandskeksaminerte leger på Svalbard – Gir Sosialdepartementet myndighet til å godkjenne leger med utenlandsk eksamen.  
-- **forskrift/1958-03-13-1**: Fullmakt til skattedirektøren – Overfører enkelte myndigheter fra Finansdepartementet til skattedirektøren.  
-
-Endrede dokumenter, utvalgte eksempler:  
-- **lov/2017-05-22-28**, formål: Norsk maritim kompetanse → Kompetanse og skipsfart som beredskapsressurs.  
-- **lov/2022-03-04-7**, registreringskrav: Registeret for offentlig støtte → Støtteregisteret, offentlig tilgjengelig.  
-- **lov/1975-06-13-39**, utlevering: Minimumskrav for frihetsstraff redusert, prosedyreregler endret.  
-- **lov/2005-05-20-28**, inndragning: Ny § 68 a om selvstendig inndragning.  
-- **lov/2025-12-22-116**, sykdom: Kronisk lymfatisk leukemi → Non-Hodgkin lymfom.  
-
-For detaljer om alle endrede dokumenter, se oppsummeringen ovenfor.
+- refid: tilføyelse — Økologiforskriften: Sist-endret-ikrafttredelse 15. mai → 23. juli 2026. Ny forskrift 13. juli 2026 nr. 1576 lagt til. Uoffisielle norske oversettelser av EU-forordninger fjernet.
+- refid: endring — Forskrift om elektronisk kommunikasjon: Sist-endret-ikrafttredelse 19. mars → 22. juli 2026. § 4s ikrafttredelse forskjøvet 1. september 2026 → 1. januar 2027.
+- refid: tilføyelse — Biocidforskriften: Inkludert EU-beslutninger 2026/576, 578, 579 og 619 om utsettelse av utløpsdatoer for spesifikke biocidaktive stoffer.
+- refid: endring — Forskrift om medisinsk utstyr: Sist-endret-ikrafttredelse 1. juli → 11. juli 2026. Tilpasninger for EU-forordning 2022/944 forklart.
+- refid: endring — Forskrift om legemidler til dyr: Sist-endret-ikrafttredelse 6. juni → 11. juli 2026. Tekniske justeringer i tekst om EU-forordning 2021/17.
+- refid: endring — Forskrift om forsvars- og sikkerhetsanskaffelser: Minsteverdi for del I økt til 500 000 kr, protokollplikt hevet fra 100 000 til 500 000 kr, begge eks. mva.
+- refid: endring — Økodesignforskriften: Sist-endret-ikrafttredelse 1. januar → 24. juli 2026. Krav til miljøutforming av vifter endret til å reflektere EU-forordning 2024/1834.
 <!-- AI_SUMMARY_END -->
 
 <!-- RECENT_AMENDMENTS_START -->
@@ -85,11 +66,11 @@ For detaljer om alle endrede dokumenter, se oppsummeringen ovenfor.
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-07-27 | Forskrift om endring i forskrift om stenging av områder for fiske e… | [`forskrift/2026-04-09-579`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-04-09-579.html) |
 | 2026-07-24 | Endr. i økologiforskriften | [`forskrift/2022-06-11-1171`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-11-1171.html) |
 | 2026-07-24 | Forskrift om endring i forskrift om elektronisk kommunikasjon med a… | [`forskrift/2025-07-09-1509`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-07-09-1509.html) |
 | 2026-07-24 | Forskrift om endring i forskrift om legemidler til dyr | [`forskrift/2022-09-08-1573`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-09-08-1573.html) |
 | 2026-07-24 | Forskrift om endring i forskrift om medisinsk utstyr | [`forskrift/2021-05-09-1476`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-09-1476.html) |
-| 2026-07-22 | Endr. i økologiforskriften | [`forskrift/2022-06-11-1171`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-11-1171.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -183,9 +164,9 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 
 | | |
 |---|---|
-| 📜 **Complete coverage** | All 762 formal laws + 5,154 central regulations |
+| 📜 **Complete coverage** | All 762 formal laws + 5,152 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,956 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
-| 🕰️ **Backdated git history** | 39,074 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 🕰️ **Backdated git history** | 39,075 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,040 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
