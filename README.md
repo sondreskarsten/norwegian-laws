@@ -10,7 +10,7 @@
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
   <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C914_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C077-ba0c2f">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C084-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C956-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
@@ -66,11 +66,11 @@ The most recently published lover and forskrifter from Norsk Lovtidend, auto-upd
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-07-28 | Endring i vedtak om delegering av myndighet fra Finansdepartementet… | [`forskrift/2022-03-29-484`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-03-29-484.html) |
-| 2026-07-28 | Forskrift om endring i forskrift om regulering av fisket etter sild… | [`forskrift/2025-12-19-2828`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2828.html) |
-| 2026-07-27 | Forskrift om endring i forskrift om stenging av områder for fiske e… | [`forskrift/2026-04-09-579`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-04-09-579.html) |
-| 2026-07-24 | Endr. i økologiforskriften | [`forskrift/2022-06-11-1171`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-11-1171.html) |
-| 2026-07-24 | Forskrift om endring i forskrift om elektronisk kommunikasjon med a… | [`forskrift/2025-07-09-1509`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-07-09-1509.html) |
+| 2026-07-30 | Endr. i veglister normaltransport | [`forskrift/2023-10-24-1694`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1694.html) |
+| 2026-07-30 | Endr. i veglister tømmertransport | [`forskrift/2023-10-24-1695`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1695.html) |
+| 2026-07-30 | Endr. i veglister modulvogntog | [`forskrift/2023-10-24-1696`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1696.html) |
+| 2026-07-30 | Endr. i veglister spesialtransport | [`forskrift/2023-10-24-1697`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1697.html) |
+| 2026-07-30 | Endr. i veglister 12/100 spesialtransport | [`forskrift/2023-10-24-1698`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1698.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -166,7 +166,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 |---|---|
 | 📜 **Complete coverage** | All 762 formal laws + 5,152 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,956 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
-| 🕰️ **Backdated git history** | 39,077 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 🕰️ **Backdated git history** | 39,084 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,040 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
