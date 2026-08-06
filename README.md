@@ -10,7 +10,7 @@
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
   <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C880_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C090-ba0c2f">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C091-ba0c2f">
   <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C944-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
@@ -66,11 +66,11 @@ The most recently published lover and forskrifter from Norsk Lovtidend, auto-upd
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-08-05 | Endr. i finansforetaksforskriften | [`forskrift/2016-12-09-1502`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-12-09-1502.html) |
 | 2026-08-04 | Forskrift om opprettelse av et permanent restriksjonsområde over Ja… | [`forskrift/2026-01-16-55`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-01-16-55.html) |
 | 2026-08-04 | Forskrift om endring i forskrift om regulering av brosme og lange n… | [`forskrift/2025-12-18-2688`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-18-2688.html) |
 | 2026-08-04 | Forskrift om endring i forskrift om hvilke fag som er lagt under lo… | [`forskrift/2000-12-08-1281`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-08-1281.html) |
 | 2026-07-31 | Forskrift om endring i forskrift om dagpenger under arbeidsløshet (… | [`forskrift/1998-09-16-890`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1998-09-16-890.html) |
-| 2026-07-30 | Endr. i veglister normaltransport | [`forskrift/2023-10-24-1694`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1694.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -166,7 +166,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 |---|---|
 | 📜 **Complete coverage** | All 758 formal laws + 5,122 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,944 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
-| 🕰️ **Backdated git history** | 39,090 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 🕰️ **Backdated git history** | 39,091 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,041 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
