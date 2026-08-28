@@ -10,8 +10,8 @@
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
   <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C888_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C118-ba0c2f">
-  <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C949-7a92b8">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C122-ba0c2f">
+  <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C950-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
 </p>
@@ -66,11 +66,11 @@ The most recently published lover and forskrifter from Norsk Lovtidend, auto-upd
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-08-27 | Endr. i vareførselsforskriften | [`forskrift/2022-10-27-1901`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-10-27-1901.html) |
+| 2026-08-27 | Endr. i narkotikaforskriften | [`forskrift/2013-02-14-199`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-02-14-199.html) |
+| 2026-08-27 | AFIS-forskriften | [`forskrift/2003-12-10-1745`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2003-12-10-1745.html) [`forskrift/2022-06-16-1029`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-16-1029.html) [`forskrift/2003-10-25-1302`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2003-10-25-1302.html) … |
+| 2026-08-27 | Forskrift om endring i forskrift om tobakksvarer og relaterte produ… | [`forskrift/2026-03-27-526`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-03-27-526.html) |
 | 2026-08-26 | Forskrift om endringer i forskrift 28. september 2018 nr. 1471 om o… | [`forskrift/2018-09-28-1471`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-09-28-1471.html) |
-| 2026-08-26 | Forskrift om endring i forskrift om bustøtte | [`forskrift/2012-11-29-1283`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-11-29-1283.html) |
-| 2026-08-25 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-08-25 | Forskrift om endring i forskrift om regulering av fisket etter bunn… | [`forskrift/2026-01-05-4`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-01-05-4.html) |
-| 2026-08-24 | Endr i vareførselsforskriften | [`forskrift/2022-10-27-1901`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-10-27-1901.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -165,9 +165,9 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 | | |
 |---|---|
 | 📜 **Complete coverage** | All 758 formal laws + 5,130 central regulations |
-| 🔔 **Per-law Atom feeds** | 2,949 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
-| 🕰️ **Backdated git history** | 39,118 amendment acts as backdated commits, with commit date = ikrafttredelse |
-| 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,059 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
+| 🔔 **Per-law Atom feeds** | 2,950 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
+| 🕰️ **Backdated git history** | 39,122 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,060 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
 | 🤝 **Machine-readable** | Markdown + YAML frontmatter, plus [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) for programmatic access |
