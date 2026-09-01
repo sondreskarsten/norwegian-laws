@@ -3414,6 +3414,13 @@ refid: "lov/2005-06-17-67"
 
 *Punktumet etter «kapittel 23» i § 1-1 andre ledd bokstav l fjernes.*
 
+### 2024-01-01 — lov/2024-01-12-5
+
+*Kapittel 10 annen deloverskrift skal lyde:*
+
+> Forskuddstrekk, arbeidsgiveravgift, lønnstrekk til Svalbard, artistskatt, skattetrekk i aksjeutbytte og suppleringsskatt
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *Kapittel 2 skal lyde:*
