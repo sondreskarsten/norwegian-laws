@@ -9,9 +9,9 @@
 <p>
   <a href="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml"><img alt="Build" src="https://github.com/sondreskarsten/norwegian-laws/actions/workflows/deploy.yml/badge.svg"></a>
   <a href="https://github.com/sondreskarsten/norwegian-laws/commits/main"><img alt="Last commit" src="https://img.shields.io/github/last-commit/sondreskarsten/norwegian-laws?label=updated&color=2780e3"></a>
-  <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C871_documents-2780e3">
-  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C147-ba0c2f">
-  <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C944-7a92b8">
+  <img alt="Coverage" src="https://img.shields.io/badge/coverage-5%2C869_documents-2780e3">
+  <img alt="Amendments" src="https://img.shields.io/badge/dated_amendments-39%2C150-ba0c2f">
+  <img alt="Feeds" src="https://img.shields.io/badge/atom_feeds-2%2C941-7a92b8">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/code-MIT-success"></a>
   <img alt="Data license" src="https://img.shields.io/badge/data-NLOD_2.0-blue">
 </p>
@@ -66,11 +66,11 @@ The most recently published lover and forskrifter from Norsk Lovtidend, auto-upd
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-09-07 | Forskrift om endring i forskrift om ubemannede luftfartøyer (BSL A … | [`forskrift/2024-11-01-2777`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-11-01-2777.html) |
+| 2026-09-07 | Forskrift om endring i forskrift om offentlig kontroll – lister ove… | [`forskrift/2021-08-26-2617`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-08-26-2617.html) [`forskrift/2025-03-24-620`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-03-24-620.html) |
+| 2026-09-07 | Forskrift om endring i forskrift om regulering av fisket etter bris… | [`forskrift/2026-06-22-1211`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-22-1211.html) |
 | 2026-09-04 | Endr. i utrullingsforskriften | [`forskrift/2025-12-12-2508`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-12-2508.html) |
 | 2026-09-04 | Forskrift om endring i forskrift om prøvetaking og analysemetoder f… | [`forskrift/2022-05-02-814`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-05-02-814.html) |
-| 2026-09-03 | Forskrift om endring i forskrift om fangst av kongekrabbe utenfor k… | [`forskrift/2004-08-06-1147`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-08-06-1147.html) |
-| 2026-09-03 | Forskrift om endring i permitteringslønnsforskriften og oppheving a… | [`forskrift/2016-06-21-764`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-06-21-764.html) [`forskrift/2020-03-20-374`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-03-20-374.html) [`forskrift/2020-03-26-458`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-03-26-458.html) … |
-| 2026-09-02 | Forskrift om endring i forskrift om restriktive tiltak i lys av sit… | [`forskrift/2006-06-02-573`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-06-02-573.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ---
@@ -164,9 +164,9 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 
 | | |
 |---|---|
-| 📜 **Complete coverage** | All 758 formal laws + 5,113 central regulations |
-| 🔔 **Per-law Atom feeds** | 2,944 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
-| 🕰️ **Backdated git history** | 39,147 amendment acts as backdated commits, with commit date = ikrafttredelse |
+| 📜 **Complete coverage** | All 758 formal laws + 5,111 central regulations |
+| 🔔 **Per-law Atom feeds** | 2,941 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
+| 🕰️ **Backdated git history** | 39,150 amendment acts as backdated commits, with commit date = ikrafttredelse |
 | 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,062 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
