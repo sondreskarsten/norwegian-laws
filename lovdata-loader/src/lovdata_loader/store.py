@@ -6,8 +6,14 @@ lovdata-publisher. It consists of:
   - amendments.db       — SQLite database of amendment acts
   - manifest.json       — metadata about this snapshot
 """
+import hashlib
 import json
+import os
+import re
+import shutil
 import sqlite3
+import tempfile
+import uuid
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -98,6 +104,45 @@ def store_amendment_act(conn: sqlite3.Connection, act: AmendmentActData):
         )
 
 
+def _unique_records(records, prefix: str | None = None):
+    """Preserve the historic last-occurrence choice, while counting actual rows.
+
+    Consolidated archives can contain language variants with the same refid.
+    This keeps that existing choice explicit instead of inventing a language
+    policy or claiming that overwritten variants were separately published.
+    """
+    unique = {}
+    for record in records:
+        refid = record.refid
+        if not isinstance(refid, str) or not re.fullmatch(
+            r"(?:lov|forskrift)/[A-Za-z0-9][A-Za-z0-9._-]*", refid
+        ) or (prefix and not refid.startswith(prefix + "/")):
+            raise ValueError(f"Invalid snapshot refid: {refid!r}")
+        if not isinstance(record.title, str) or not record.title.strip():
+            raise ValueError(f"Missing title for snapshot refid: {refid!r}")
+        unique[refid] = record
+    return unique
+
+
+def _copy_source_file(src, dst):
+    """Keep large raw archives without requiring a second full disk copy."""
+    try:
+        os.link(src, dst)
+    except OSError:
+        shutil.copy2(src, dst)
+    return str(dst)
+
+
+def _remove_work_directory(path: Path, root: Path):
+    """Only remove our uniquely named sibling staging/backup directories."""
+    if path.parent.resolve() != root.parent.resolve() or not path.name.startswith(
+        (f".{root.name}.staging-", f".{root.name}.backup-")
+    ):
+        raise ValueError(f"Refusing to remove unexpected snapshot work path: {path}")
+    if path.exists():
+        shutil.rmtree(path)
+
+
 def write_snapshot(
     output_dir: str,
     laws: list[LawData],
@@ -107,7 +152,7 @@ def write_snapshot(
     forskrifter: list[LawData] | None = None,
     forskrifter_archive: str = "",
 ) -> str:
-    """Write a snapshot directory from parsed data.
+    """Build and promote a complete version-2 snapshot from parsed data.
 
     Creates:
       output_dir/
@@ -120,6 +165,12 @@ def write_snapshot(
       │   └── ...
       └── amendments.db
 
+    A fresh database and all JSON files are staged beside the destination.
+    Existing raw downloads are preserved. A failed build or directory promotion
+    leaves the previous snapshot intact; concurrent writers fail on a lock.
+    Directory renames avoid mixed artifact generations, but a process crash
+    between the two renames may require restoring the retained backup directory.
+
     Returns the snapshot directory path.
     """
     if lovtidend_archives is None:
@@ -127,55 +178,107 @@ def write_snapshot(
     if forskrifter is None:
         forskrifter = []
 
-    root = Path(output_dir)
-    laws_dir = root / "laws"
-    laws_dir.mkdir(parents=True, exist_ok=True)
-    forskrifter_dir = root / "forskrifter"
-    forskrifter_dir.mkdir(parents=True, exist_ok=True)
+    law_records = _unique_records(laws, "lov")
+    forskrift_records = _unique_records(forskrifter, "forskrift")
+    act_records = _unique_records(amendment_acts)
+    requested_root = Path(output_dir)
+    if requested_root.is_symlink() or getattr(requested_root, "is_junction", lambda: False)():
+        raise ValueError("Snapshot output must not be a symlink or junction")
+    root = requested_root.absolute()
+    if root.exists() and not root.is_dir():
+        raise ValueError(f"Snapshot output is not a directory: {root}")
+    root.parent.mkdir(parents=True, exist_ok=True)
+    lock = root.with_name(f".{root.name}.snapshot.lock")
+    lock_fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600)
+    stage = None
+    backup = root.with_name(f".{root.name}.backup-{uuid.uuid4().hex}")
+    try:
+        stage = Path(tempfile.mkdtemp(prefix=f".{root.name}.staging-", dir=root.parent))
+        # The download CLI stores archives and its provenance receipt in root.
+        # Preserve all other entries, but never carry forward database sidecars.
+        if root.exists():
+            for entry in root.iterdir():
+                if entry.name in {"laws", "forskrifter", "manifest.json", "amendments.db",
+                                  "amendments.db-wal", "amendments.db-shm", "amendments.db-journal"}:
+                    continue
+                destination = stage / entry.name
+                if entry.is_symlink() or getattr(entry, "is_junction", lambda: False)():
+                    raise ValueError(f"Snapshot source entry must not be a link: {entry}")
+                if entry.is_dir():
+                    shutil.copytree(entry, destination, copy_function=_copy_source_file, symlinks=True)
+                elif entry.name == "source-manifest.json":
+                    shutil.copy2(entry, destination)
+                else:
+                    _copy_source_file(entry, destination)
 
-    # Purge stale law/forskrift JSON files so the snapshot is a true
-    # point-in-time picture.
-    for stale in laws_dir.glob("*.json"):
-        stale.unlink()
-    for stale in forskrifter_dir.glob("*.json"):
-        stale.unlink()
+        artifacts = []
+        for subdir, records in (("laws", law_records), ("forskrifter", forskrift_records)):
+            (stage / subdir).mkdir()
+            for refid, record in sorted(records.items()):
+                path = stage / subdir / f"{refid.replace('/', '-')}.json"
+                path.write_text(record.to_json(), encoding="utf-8", newline="\n")
+                artifacts.append(path)
 
-    # Write law JSON files
-    for law in laws:
-        safe_name = law.refid.replace("/", "-")
-        path = laws_dir / f"{safe_name}.json"
-        path.write_text(law.to_json(), encoding="utf-8")
-
-    # Write forskrift JSON files
-    for forskrift in forskrifter:
-        safe_name = forskrift.refid.replace("/", "-")
-        path = forskrifter_dir / f"{safe_name}.json"
-        path.write_text(forskrift.to_json(), encoding="utf-8")
-
-    # Write amendments to SQLite
-    db_path = str(root / "amendments.db")
-    conn = init_db(db_path)
-    total_amendments = 0
-    for act in amendment_acts:
-        store_amendment_act(conn, act)
-        total_amendments += len(act.amendments)
-    conn.commit()
-    conn.close()
-
-    # Write manifest
-    manifest = Manifest(
-        version=1,
-        created_at=datetime.now(timezone.utc).isoformat(),
-        loader_version=__version__,
-        gjeldende_archive=gjeldende_archive,
-        lovtidend_archives=lovtidend_archives,
-        law_count=len(laws),
-        amendment_act_count=len(amendment_acts),
-        amendment_count=total_amendments,
-    )
-    (root / "manifest.json").write_text(manifest.to_json(), encoding="utf-8")
-
-    return str(root)
+        conn = init_db(str(stage / "amendments.db"))
+        try:
+            for act in act_records.values():
+                store_amendment_act(conn, act)
+            conn.commit()
+            actual_acts = conn.execute("SELECT COUNT(*) FROM amendment_acts").fetchone()[0]
+            actual_amendments = conn.execute("SELECT COUNT(*) FROM amendments").fetchone()[0]
+            if actual_acts != len(act_records) or actual_amendments != sum(len(a.amendments) for a in act_records.values()):
+                raise ValueError("Snapshot amendment counts do not match staged database")
+            if conn.execute("PRAGMA quick_check").fetchone() != ("ok",):
+                raise ValueError("Snapshot database integrity check failed")
+        finally:
+            conn.close()
+        artifacts.append(stage / "amendments.db")
+        if (stage / "source-manifest.json").is_file():
+            artifacts.append(stage / "source-manifest.json")
+        hashes = {}
+        for path in artifacts:
+            with path.open("rb") as stream:
+                hashes[path.relative_to(stage).as_posix()] = hashlib.file_digest(stream, "sha256").hexdigest()
+        manifest = Manifest(
+            version=2,
+            created_at=datetime.now(timezone.utc).isoformat(),
+            loader_version=__version__,
+            gjeldende_archive=gjeldende_archive,
+            lovtidend_archives=lovtidend_archives,
+            law_count=len(law_records),
+            forskrift_count=len(forskrift_records),
+            forskrifter_archive=forskrifter_archive,
+            amendment_act_count=actual_acts,
+            amendment_count=actual_amendments,
+            artifact_hashes=hashes,
+            duplicate_counts={"laws": len(laws) - len(law_records),
+                              "forskrifter": len(forskrifter) - len(forskrift_records),
+                              "amendment_acts": len(amendment_acts) - len(act_records)},
+        )
+        (stage / "manifest.json").write_text(manifest.to_json(), encoding="utf-8", newline="\n")
+        had_previous = root.exists()
+        if had_previous:
+            root.replace(backup)
+        try:
+            stage.replace(root)
+        except BaseException:
+            if had_previous:
+                backup.replace(root)
+            raise
+        if backup.exists():
+            # The committed snapshot is usable even if old-backup cleanup fails.
+            try:
+                _remove_work_directory(backup, root)
+            except OSError:
+                pass
+    finally:
+        try:
+            if stage is not None:
+                _remove_work_directory(stage, root)
+        finally:
+            os.close(lock_fd)
+            lock.unlink()
+    return str(requested_root)
 
 
 def read_laws_from_snapshot(snapshot_dir: str) -> list[LawData]:

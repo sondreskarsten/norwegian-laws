@@ -3,6 +3,7 @@ name: Poll Lovdata for updates
 on:
   schedule:
     - cron: '0 2 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,28 +14,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
       - name: Compare Lovdata manifest against stored state
         id: check
         run: |
-          curl -sf https://api.lovdata.no/v1/publicData/list \
-            | jq -S 'sort_by(.filename) | map({filename, lastModified, sizeBytes})' \
-            > /tmp/current.json
-
-          if [ -f .github/state/lovdata-manifest.json ]; then
-            jq -S 'sort_by(.filename) | map({filename, lastModified, sizeBytes})' \
-              .github/state/lovdata-manifest.json > /tmp/stored.json
-          else
-            echo "[]" > /tmp/stored.json
-          fi
-
-          if cmp -s /tmp/current.json /tmp/stored.json; then
-            echo "No Lovdata changes since last successful deploy"
-            echo "changed=false" >> $GITHUB_OUTPUT
-          else
-            echo "Lovdata manifest changed:"
-            diff /tmp/stored.json /tmp/current.json || true
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+          PYTHONPATH=lovdata-loader/src python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from lovdata_loader.download import fetch_source_manifest, select_source_manifest
+          current = fetch_source_manifest()
+          path = Path('.github/state/lovdata-published.json')
+          stored = select_source_manifest(json.loads(path.read_text())) if path.exists() else []
+          changed = current != stored
+          print('New or not-yet-published source input' if changed else 'Source input already published and read back')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'changed={str(changed).lower()}\n')
+          PY
 
       - name: Dispatch lovdata-updated event
         if: steps.check.outputs.changed == 'true'

@@ -1,6 +1,7 @@
 """CLI entry point for lovdata-publisher."""
 from __future__ import annotations
 import argparse
+from pathlib import Path
 
 from .formatter import format_all_laws
 from .git_export import build_history
@@ -74,12 +75,14 @@ def main():
     )
     args = parser.parse_args()
 
-    db_path = args.db
-    if db_path is None:
-        import os
-        candidate = os.path.join(args.snapshot, "amendments.db")
-        if os.path.exists(candidate):
-            db_path = candidate
+    from .snapshot import validate_snapshot
+    try:
+        validate_snapshot(args.snapshot)
+    except ValueError as exc:
+        parser.error(str(exc))
+    db_path = str(Path(args.snapshot) / "amendments.db")
+    if args.db is not None and Path(args.db).resolve() != Path(db_path).resolve():
+        parser.error("--db must point to the database in the validated snapshot")
 
     # Always format laws when producing any output that depends on lover/*.md.
     # --quarto and default (no flags) both need formatted Markdown to exist.
