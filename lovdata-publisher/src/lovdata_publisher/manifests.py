@@ -21,7 +21,34 @@ import gzip
 import json
 import re
 import sqlite3
+from contextlib import closing
 from pathlib import Path
+
+
+# Shared by the writers and the homepage counts so display eligibility cannot drift.
+_ACTS_EXPORT_SOURCE = """
+    FROM amendment_acts
+    WHERE date_published IS NOT NULL AND date_published != ''
+"""
+_AMENDMENTS_EXPORT_SOURCE = """
+    FROM amendments a
+    LEFT JOIN amendment_acts ac ON a.act_refid = ac.refid
+    WHERE a.target_law IS NOT NULL AND a.target_law != ''
+"""
+
+
+def count_manifest_rows(db_path: str) -> tuple[int, int]:
+    """Count exactly the rows eligible for the two display exports."""
+    with closing(sqlite3.connect(db_path)) as conn:
+        acts = conn.execute("SELECT COUNT(*) " + _ACTS_EXPORT_SOURCE).fetchone()[0]
+        has_amendments = conn.execute(
+            "SELECT name FROM sqlite_master WHERE type='table' AND name='amendments'"
+        ).fetchone()
+        amendments = (
+            conn.execute("SELECT COUNT(*) " + _AMENDMENTS_EXPORT_SOURCE).fetchone()[0]
+            if has_amendments else 0
+        )
+    return acts, amendments
 
 
 def _normalize_paragraph_ref(target: str, instruction: str) -> str:
@@ -57,12 +84,11 @@ def generate_amendment_acts_jsonl(db_path: str, output_path: str) -> int:
     conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     rows = conn.execute(
-        """
+        f"""
         SELECT refid, title, short_title, date_in_force, date_in_force_resolved,
                date_published, ministry, changes_to, journal_number, misc_info,
                is_deferred, amendment_count
-        FROM amendment_acts
-        WHERE date_published IS NOT NULL AND date_published != ''
+        {_ACTS_EXPORT_SOURCE}
         ORDER BY date_published DESC, date_in_force_resolved DESC, refid DESC
         """
     ).fetchall()
@@ -115,15 +141,13 @@ def generate_amendments_jsonl(db_path: str, output_path: str) -> int:
         return 0
 
     rows = conn.execute(
-        """
+        f"""
         SELECT a.id, a.act_refid, a.change_type, a.target, a.target_law,
                a.instruction, a.new_text,
                ac.title AS act_title, ac.short_title AS act_short_title,
                ac.ministry, ac.date_published, ac.date_in_force,
                ac.date_in_force_resolved, ac.journal_number
-        FROM amendments a
-        LEFT JOIN amendment_acts ac ON a.act_refid = ac.refid
-        WHERE a.target_law IS NOT NULL AND a.target_law != ''
+        {_AMENDMENTS_EXPORT_SOURCE}
         ORDER BY ac.date_published DESC, a.act_refid DESC, a.id ASC
         """
     ).fetchall()
