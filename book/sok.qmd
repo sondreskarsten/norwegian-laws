@@ -109,6 +109,33 @@ document.addEventListener("DOMContentLoaded", function() {
     return a;
   }
 
+  function matchedTextFragment(excerptHtml) {
+    // Pagefind escapes source text and marks the actual matched spelling,
+    // which can differ from a stemmed or fuzzy query. Never insert its HTML.
+    var match = /<mark>[\s\S]*?<\/mark>(?:\s*<mark>[\s\S]*?<\/mark>)*/.exec(excerptHtml || "");
+    if (!match) return "";
+    function plain(value) {
+      var decoder = document.createElement("textarea");
+      decoder.innerHTML = value.replace(/<\/?mark>/g, "");
+      return decoder.value.replace(/\s+/g, " ").trim();
+    }
+    function encode(value) {
+      // '-' is text-fragment syntax even though encodeURIComponent leaves it.
+      return encodeURIComponent(value).replace(/[-!'()*]/g, function(c) {
+        return "%" + c.charCodeAt(0).toString(16).toUpperCase();
+      });
+    }
+    var matched = plain(match[0]);
+    if (!matched) return "";
+    var prefix = plain(excerptHtml.slice(0, match.index)).split(" ").slice(-2).join(" ");
+    var suffix = plain(excerptHtml.slice(match.index + match[0].length)).split(" ").slice(0, 2).join(" ");
+    var context = (prefix ? encode(prefix) + "-," : "") + encode(matched) +
+      (suffix ? ",-" + encode(suffix) : "");
+    // Prefer this occurrence. The plain match remains useful if surrounding
+    // context crosses a rendered block boundary and cannot match as a prefix.
+    return "#:~:text=" + context + (prefix || suffix ? "&text=" + encode(matched) : "");
+  }
+
   function renderResults(results, total) {
     status("");
     if (!results.length) { noResults.style.display = "block"; return; }
@@ -118,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function() {
       var tr = document.createElement("tr");
       var td1 = document.createElement("td");
       td1.style.minWidth = "180px";
-      td1.appendChild(link("../" + law.path.replace(/\.md$/, ".html"), law.tittel));
+      td1.appendChild(link("../" + law.path.replace(/\.md$/, ".html") + (law.matchFragment || ""), law.tittel));
       if (law.excerpt) {
         var excerpt = document.createElement("p");
         excerpt.style.cssText = "font-size:0.9em;color:#666;max-width:32em;";
@@ -159,7 +186,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Decode Pagefind's escaped plain excerpt without inserting source HTML.
         var excerpt = document.createElement("textarea");
         excerpt.innerHTML = result.plain_excerpt;
-        textResults.push(Object.assign({}, law, {excerpt: excerpt.value}));
+        textResults.push(Object.assign({}, law, {
+          excerpt: excerpt.value, matchFragment: matchedTextFragment(result.excerpt)
+        }));
       });
       renderResults(textResults, textResults.length);
       countDiv.textContent = textResults.length + (textResults.length === 1 ? " dokument fra " : " dokumenter fra ") +
