@@ -9,6 +9,7 @@ on:
     paths:
       - 'lovdata-loader/**'
       - 'lovdata-publisher/**'
+      - 'reader-exits/**'
       - 'book/**'
       - '_quarto.yml'
       - '.github/workflows/deploy.yml'
@@ -58,7 +59,12 @@ jobs:
             --mean 0.999 --min 0.50 --max-structural 5
 
       - name: Format laws and generate Quarto chapters
-        run: lovdata-publish --snapshot snapshot --output . --quarto --source-evidence-links
+        id: format
+        run: |
+          READER_PARENT=$(git rev-parse HEAD)
+          echo "expected_head=$READER_PARENT" >> "$GITHUB_OUTPUT"
+          lovdata-publish --snapshot snapshot --output . --quarto --source-evidence-links \
+            --capture-reader-exits . --capture-expected-head "$READER_PARENT"
 
       - name: Update 'Recent amendments' section in README
         run: python -m lovdata_publisher.readme_updater README.md snapshot/amendments.db
@@ -134,6 +140,9 @@ jobs:
           git rm -r --cached historie/ 2>/dev/null || true
           git rm --cached feed.xml 2>/dev/null || true
           git add historie/
+          if [ -d reader-exits ]; then git add reader-exits/; fi
+          python -m lovdata_publisher.reader_exits verify-staged --repository . \
+            --expected-head "${{ steps.format.outputs.expected_head }}" --snapshot snapshot
           if git diff --staged --quiet; then
             echo "No changes to laws"
             echo "changed=false" >> $GITHUB_OUTPUT
@@ -184,6 +193,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ needs.update-laws.outputs.source_sha }}
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:

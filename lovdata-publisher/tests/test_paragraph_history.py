@@ -117,6 +117,38 @@ def test_generate_paragraph_history_handles_missing_db(tmp_path):
     assert n == 0
 
 
+def test_deferred_source_clause_is_not_presented_as_commencement(tmp_path, monkeypatch):
+    """Regnskapsloven's 2005 act has a publication fallback, not an in-force date."""
+    from lovdata_loader.store import init_db
+
+    db = tmp_path / "amendments.db"
+    with init_db(str(db)) as conn:
+        conn.execute(
+            """INSERT INTO amendment_acts
+               (refid, title, date_in_force, date_in_force_resolved, is_deferred,
+                date_published, ministry, journal_number)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+            ("lov/2005-06-10-46", "Endringslov til regnskapsloven mv.",
+             "Kongen bestemmer.", "2005-06-10", 1, "2005-06-10",
+             "Finansdepartementet", "2005-0330"),
+        )
+        conn.execute(
+            """INSERT INTO amendments
+               (act_refid, target_law, target, instruction, new_text)
+               VALUES (?, ?, ?, ?, ?)""",
+            ("lov/2005-06-10-46", "lov/1998-07-17-56", "§ 7-25",
+             "§ 7-25 nytt første ledd skal lyde:", "Opptjent egenkapital skal spesifiseres."),
+        )
+    conn.close()
+    monkeypatch.chdir(tmp_path)
+    generate_paragraph_history_pages(str(db), str(tmp_path / "out"))
+    page = (tmp_path / "out/lov-1998-07-17-56/para-7-25.html").read_text(encoding="utf-8")
+    assert "Publisert 2005-06-10" in page
+    assert "Kongen bestemmer." in page
+    assert "Dato er ikke avklart her" in page
+    assert "ikrafttredelse 2005-06-10" not in page
+
+
 def test_generate_paragraph_history_handles_missing_amendments_table(tmp_path):
     db = tmp_path / "amendments.db"
     conn = sqlite3.connect(db)

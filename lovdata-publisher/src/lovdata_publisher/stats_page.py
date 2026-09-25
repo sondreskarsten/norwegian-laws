@@ -63,7 +63,7 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aktivitet — hvilke lover endres oftest? — Norges Lover</title>
-<meta name="description" content="Topp-lister over de mest endrede norske lovene og forskriftene siden 2001, og endringsvolum per år og departement.">
+<meta name="description" content="Topp-lister basert på automatisk uthentede endringsoppføringer og publiserte kunngjøringer fra Lovdata.">
 <meta property="og:site_name" content="Norges Lover"/>
 <meta property="og:type" content="article"/>
 <meta property="og:title" content="Aktivitet — hvilke norske lover endres oftest?"/>
@@ -78,7 +78,11 @@ body {{ max-width: 1000px; margin: 0 auto; padding: 1.5rem; font-family: -apple-
 h1 {{ font-size: 1.8rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.4rem; margin-top: 0; }}
 h2 {{ font-size: 1.3rem; margin-top: 2rem; color: #495057; }}
 .intro {{ background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0 2rem; font-size: 0.95rem; }}
-table {{ width: 100%; border-collapse: collapse; margin: 0.5rem 0; }}
+.table-scroll {{ max-width: 100%; overflow-x: auto; overscroll-behavior-x: contain; margin: 0.5rem 0; }}
+.table-scroll:focus-visible {{ outline: 2px solid #2780e3; outline-offset: 2px; }}
+.table-hint {{ display: none; }}
+@media (max-width: 600px) {{ .table-hint {{ display: block; }} }}
+table {{ width: 100%; border-collapse: collapse; margin: 0; }}
 th, td {{ padding: 0.5rem 0.7rem; text-align: left; border-bottom: 1px solid #dee2e6; }}
 th {{ background: #f8f9fa; font-weight: 600; font-size: 0.85rem; color: #495057; text-transform: uppercase; letter-spacing: 0.03em; }}
 td.num {{ text-align: right; font-variant-numeric: tabular-nums; color: #495057; }}
@@ -99,58 +103,73 @@ footer {{ margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; co
 <h1>Aktivitet — hvilke lover endres oftest?</h1>
 
 <div class="intro">
-  <p style="margin:0;">Statisk topp-liste over de mest aktive lovene, forskriftene, departementene og årgangene fra Lovdata sin endringshistorikk siden 2001. Dataen oppdateres når hovedsamlingen oppdateres (daglig). For søkbart oversikt, se <a href="book/abonner.html">abonner-siden</a>.</p>
+  <p style="margin:0;">Topp-lister basert på automatisk uthentede endringsoppføringer fra Norsk Lovtidend.
+  Datagrunnlaget starter i 2001 og kan ha mangler. Antall kunngjøringer sier ikke hvor mange
+  regler som trådte i kraft. Datoer og år gjelder publisering, ikke ikrafttredelse.
+  Siden oppdateres sammen med samlingen. Finn dokumentfeeder på <a href="book/abonner.html">abonner-siden</a>.</p>
 </div>
+<p class="muted table-hint">Sveip tabellene sidelengs for å se flere kolonner.</p>
 
 <h2>Mest endrede lover</h2>
-<p class="muted">Lover rangert etter antall endringslover som har endret dem siden 2001.</p>
+<p class="muted">Antall forskjellige kunngjøringer med minst én registrert endringsoppføring rettet mot loven. Dette er ikke en fullstendig endringshistorikk.</p>
+<div class="table-scroll" role="region" aria-label="Mest endrede lover" tabindex="0">
 <table>
-  <thead><tr><th>#</th><th>Lov</th><th>Korttittel</th><th class="num">Endringer</th><th>Feed</th><th>Historikk</th></tr></thead>
+  <thead><tr><th>#</th><th>Lov</th><th>Korttittel</th><th class="num">Kunngjøringer</th><th>Feed</th><th>Historikk</th></tr></thead>
   <tbody>
 {top_laws_rows}
   </tbody>
 </table>
+</div>
 
 <h2>Mest endrede forskrifter</h2>
-<p class="muted">Forskrifter rangert etter antall endringer siden 2001.</p>
+<p class="muted">Antall forskjellige kunngjøringer med minst én registrert endringsoppføring rettet mot forskriften.</p>
+<div class="table-scroll" role="region" aria-label="Mest endrede forskrifter" tabindex="0">
 <table>
-  <thead><tr><th>#</th><th>Forskrift</th><th>Korttittel</th><th class="num">Endringer</th><th>Feed</th><th>Historikk</th></tr></thead>
+  <thead><tr><th>#</th><th>Forskrift</th><th>Korttittel</th><th class="num">Kunngjøringer</th><th>Feed</th><th>Historikk</th></tr></thead>
   <tbody>
 {top_forskrifter_rows}
   </tbody>
 </table>
+</div>
 
 <h2>Endringsvolum per år</h2>
-<p class="muted">Antall endringslover publisert hvert år. Balkene viser volum relativt til toppåret.</p>
+<p class="muted">Kunngjøringer med registrerte endringsoppføringer, etter publiseringsår. Omfatter også forskrifter og vedtak. Siste årgang kan være ufullstendig. Balkene viser volum relativt til toppåret.</p>
+<div class="table-scroll" role="region" aria-label="Endringsvolum per publiseringsår" tabindex="0">
 <table>
-  <thead><tr><th>År</th><th class="num">Endringslover</th><th>Volum</th></tr></thead>
+  <thead><tr><th>Publiseringsår</th><th class="num">Kunngjøringer</th><th>Volum</th></tr></thead>
   <tbody>
 {year_rows}
   </tbody>
 </table>
+</div>
 
 <h2>Mest aktive departementer</h2>
-<p class="muted">Antall endringslover fremmet av hvert departement siden 2001.</p>
+<p class="muted">Kunngjøringer med registrerte endringsoppføringer, gruppert etter departement oppgitt i kilden. Historiske departementsnavn er beholdt.</p>
+<div class="table-scroll" role="region" aria-label="Kunngjøringer per departement" tabindex="0">
 <table>
-  <thead><tr><th>Departement</th><th class="num">Endringslover</th><th>Feed</th></tr></thead>
+  <thead><tr><th>Departement</th><th class="num">Kunngjøringer</th><th>Feed</th></tr></thead>
   <tbody>
 {ministry_rows}
   </tbody>
 </table>
+</div>
 
-<h2>Siste endringer</h2>
-<p class="muted">De 20 siste endringslovene Lovdata har publisert. For komplett oversikt med 100 entries, se <a href="feed.xml">/feed.xml</a>.</p>
+<h2>Siste kunngjøringer</h2>
+<p class="muted">De 20 nyeste kunngjøringene i datagrunnlaget, også nye forskrifter og andre vedtak uten registrerte endringsoppføringer. <a href="feed.xml">Atom-feeden</a> viser de 100 siste kunngjøringene.</p>
+<div class="table-scroll" role="region" aria-label="Siste publiserte kunngjøringer" tabindex="0">
 <table>
-  <thead><tr><th>Publisert</th><th>Endringslov</th><th>Endrer</th><th>Departement</th></tr></thead>
+  <thead><tr><th>Publisert</th><th>Kunngjøring</th><th>Oppgitte måldokumenter</th><th>Departement</th></tr></thead>
   <tbody>
 {latest_rows}
   </tbody>
 </table>
+</div>
 
 <footer>
-  Generert {generated}. Kilde: Lovdata API (NLOD 2.0). Topp-listene er statisk
-  gjengivelse av <a href="laws.json">laws.json</a> sortert etter
-  <code>amendments</code>-feltet.
+  Generert {generated}. Kilde: Lovdata API (NLOD 2.0).
+  Dokumentlistene teller forskjellige kunngjøringer med registrerte endringsoppføringer.
+  De kan også inneholde dokumenter utenfor den gjeldende samlingen.
+  <a href="laws.json">Metadata for gjeldende dokumenter</a>.
 </footer>
 </body>
 </html>

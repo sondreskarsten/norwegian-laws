@@ -80,7 +80,7 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 - [x] Inspect run `36171176807`: production, Pages deployment and acknowledgement completed successfully. The public receipt names source `7971606f7683612779e17cea1ef53d8531ba0fa3` and observation `ca32e6b7b13b3435683c450f81cfc1ea0ae4c0a95694a0cde0d7cf2bc20e5f4c`; no duplicate dispatch is needed.
 - [x] Match the new public publication receipt, generated source commit, evidence release and committed acknowledgement. PR14 source `7971606` and acknowledgement `313d36f` agree; see `docs/evidence/live-container-order-readback.json`.
 - [x] Read public output for laws `1916-07-21-2`, `2011-04-15-11`, `1967-12-15-9` and regulations `1956-11-09-5`, `2022-04-06-625`; compare the affected source sequences. All five real source/model/public sequences match.
-- [ ] Visually inspect closing provisions, interleaved instructions and appendix text; preserve paragraph/list/crosslink behavior already delivered.
+- [x] Visually inspect closing provisions, interleaved instructions and appendix text; preserve paragraph/list/crosslink behavior already delivered. The patent appendix note was also checked publicly after PR15; affected heading and ordinary body crosslinks work.
 - [x] Accept the new evidence contract independently in history and record what changed because of representation rather than legal amendment. The local two-real-observation consumer rehearsal accepts `ca32e6b7…`; its three qualified bodies remain unchanged, complex bodies remain unqualified and no legal amendment is inferred. Portable evidence is included in history PR11.
 - [x] Commit the acceptance receipt and update the TODO only after public readback.
 
@@ -95,8 +95,8 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 - [x] Finish the in-progress shared export-count implementation; homepage totals must describe the rows actually exported, including filtering, rather than the database's total instructions. Merged in main PR15; deployed readback is a separate gate below.
 - [x] Use `search-catalog.json` for subscription lookup and `feeds/index.json` for availability; offer copy/open actions only for a published feed. Keep a reader route for a document without one. Merged in main PR15.
 - [x] Exercise title/abbreviation/refid lookup, copy and open, an unavailable-feed case, and keyboard/mobile interaction on generated real corpus output. Local generated content passed; direct feed retrieval succeeded, while local Chrome feed display was blocked by its client. See `docs/evidence/subscription-local.json`.
-- [ ] Exercise topic → document → feed and ministry → document journeys; reconcile page membership with the source catalog and feed inventory.
-- [ ] Exercise one document timeline, one paragraph timeline and the activity page. Count parsed records consistently and distinguish publication/date labels from proven legal commencement.
+- [x] Exercise topic → document → feed and ministry → document journeys; reconcile page membership with the source catalog and feed inventory. Public source `9285be5` audit reconciles all 69 topic rows, all 102 Finance documents and the feeds; see `docs/evidence/reader-journeys-public.json`.
+- [x] Exercise one document timeline, one paragraph timeline and the activity page. All 33 current-corpus top rows, 26 yearly counts and 20 ministry counts reconcile. The audit found a fabricated commencement display, overbroad coverage claims and mobile overflow; local repairs are verified at 390px. Their public deployment remains below.
 - [ ] Confirm supported legacy references are pinned; exclude orphan/future unsupported versions from selectable verified results. Preserve old refs without rewriting history.
 - [ ] Measure first/repeat metadata and full-text queries with an explicitly recorded mobile network profile. Report bytes and timing; correct material usability failures instead of claiming an unmeasured speed improvement.
 - [ ] Publish through the existing pipeline, repeat the user journeys on the deployed site and update main #3–#5 only for the acceptance actually met.
@@ -115,6 +115,7 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 - [x] Publish the browse index, Viltloven entry, metadata sidecars and immutable original-copy links. History commit `a79eda1` is public; all 105 copies and sidecars were independently retrieved and matched their original identities (660,274 bytes).
 - [ ] Link public missing-page recovery to the archived copy/provenance where an exact identity exists.
 - [ ] Before future generated-current-file removal, preserve any otherwise-unretained derived copy with its source commit and detected exit; new raw observations already remain in the independent ledger.
+  Implemented locally: exact committed bytes, atomic capture-before-prune, expected-parent/staged-deletion checks, immutable replay and re-entry versions. Controlled Git publication/readback passes; pending production deployment and public archive readback.
 - [ ] Compute observation membership changes only between comparable archive scopes. Emit `not_present_in_observation`; keep legal repeal unresolved unless separately evidenced.
 - [ ] Verify a controlled temporary before/after corpus and a real previously removed document without changing live source membership.
 - [ ] Update main #6 with the corrected count, published retrieval and remaining pre-observation source gaps.
@@ -145,7 +146,7 @@ materializations(repository)
 - [x] Record the actual Git commit/tree in a subsequent publication receipt, avoiding circular hashes. Recover safely if the product commit succeeded but receipt publication did not.
 - [x] Integrate with the existing observation workflow; do not introduce a competing scheduler.
 - [x] Generate from the real public bundle, replay unchanged, alter one stored product in a disposable copy and prove rejection, then publish and independently read back the selected products. Public data commit `b29c62d` and receipt commit `6551ae7` contain two observed products; all 46 artifact files and Git subtree bindings verified. Qualified semantic JSON and HTML match independent local generation despite different runtime-specific receipt identities.
-- [ ] Publish and visually read back the heading-wrap repair discovered on `lov/1949-07-28-15` at 390px. Preserve the first published representations; the repair must append new representations.
+- [x] Publish and visually read back the heading-wrap repair discovered on `lov/1949-07-28-15` at 390px. History PR12/run `36179778132` appends three products; all 69 artifacts verified, corrected HTML matches the rendered previews and both earlier product trees remain unchanged. Latest publication commit: `90d4c83`.
 
 **Initial concrete selection:** qualified candidates `lov/1845-06-07`, `lov/1949-07-28-15`, `forskrift/2022-09-02-1529`; retain the known mixed/complex documents as rejection evidence. This selection establishes integration, not completed corpus support.
 
@@ -174,6 +175,7 @@ materializations(repository)
 **Files:** main loader `models.py`, `parser.py`, `evidence.py`; publisher `formatter.py`, `per_law_pages.py`; history `structure.py`, `validation.py`; source-bound fixtures and `docs/evidence/structural-coverage.json` (new).
 
 - [ ] Inventory every actual structural form in current law/regulation bodies and representative amendment sources; produce per-document unsupported reasons rather than a single token coverage score.
+  Current-body inventory completed for all 5,874 selected documents / 5,875 source occurrences. Links affect 5,448 documents; named sections 2,439; structured footnotes 1,084; tables 652. The 117 bound examples and exact attribute inventory inform D6 implementation; these are form counts, not qualification totals.
 - [ ] Implement forms in real-population order: mixed containers and multiple paragraphs; nested ordered/unordered lists and markers; links/emphasis/superscripts; footnotes and references; tables and spans; appendices/attachments and remaining legal-bearing elements.
 - [ ] For each form, specify its ordered events and exact normalization/exclusion rule, update parser/model/renderer together, and keep the independent source traversal independent.
 - [ ] Preserve original source occurrences and language variants. A display choice must identify its selected occurrence; duplicate refids must not silently overwrite the archive.
@@ -195,7 +197,7 @@ extract_operations(snapshot_root, observation_id) -> list[dict]
 resolve_claims(operations, evidence_catalog, knowledge_cutoff) -> list[dict]
 ```
 
-Operation records bind `act_occurrence_id` + zero-based `operation_ordinal`, source/model locations, original instruction/replacement/target strings, candidate target and resolution status. Claim records bind operation/document scope, evidence IDs and locations, method/version, knowledge cutoff, legal start/end bounds and status `explicit|conditional|partial|conflicting|unresolved`. Corrections append a new claim with superseded IDs.
+Operation records bind `source_occurrence_id` + `parsed_model_sha256` + zero-based `operation_ordinal`, source/model locations, original instruction/replacement/target strings, candidate target and resolution status. Binding the parsed revision prevents parser corrections/reordering from reusing a previous operation identity. Claim records bind operation/document scope, evidence IDs and locations, method/version, knowledge cutoff, legal start/end bounds and status `explicit|conditional|partial|conflicting|unresolved`. Corrections append a new claim with superseded IDs.
 
 - [ ] Read complete `parsed-amendment-acts.v1.jsonl`, retaining original order and every operation; reconcile to its raw occurrence and producer inventory.
 - [ ] Where the current parsed model flattened replacement text, extract the complete ordered replacement subtree from retained raw amendment XML and version that interface. An export that is complete relative to a lossy parsed model is not enough for legal replay.
@@ -304,10 +306,10 @@ New deliveries must supply their own newly verified identities, outcomes and lim
 - [x] User chose continued execution in this task; cloud handoff removed.
 - [x] Current code/file boundaries and issue inventory inspected for this plan.
 - [x] Existing published work separated from local unfinished changes.
-- [ ] D1 current deployment completed and publicly read back.
+- [x] D1 current deployment completed and publicly read back.
 - [ ] D2 reader/monitoring journeys complete.
 - [ ] D3 removed-document archive and future exits delivered.
-- [ ] D4 qualified observed products published.
+- [x] D4 qualified observed products published, including the mobile title repair; bounded three-document qualification only.
 - [ ] D5 two-observation and independent reproduction delivered.
 - [ ] D6 actual-corpus structural requirements satisfied.
 - [ ] D7 operation/temporal interface delivered.

@@ -1,10 +1,10 @@
 """Generate per-(law, paragraph) amendment history pages.
 
 For each (target_law, paragraph) pair that has at least one amendment,
-write a small HTML page listing every amendment with its date, instruction
+write a small HTML page listing parsed amendment records with publication dates, instructions
 preview, and a link to the changing act. URL: /historikk/{law-stem}/{§-slug}.html
 
-Lets users link directly to "every change to § 7-25 in regnskapsloven"
+Lets users link directly to recorded source clauses for § 7-25 in regnskapsloven
 instead of scrolling the full law historie page or filtering an Atom feed.
 """
 from __future__ import annotations
@@ -54,11 +54,11 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{paragraph} — {law_title} — endringshistorikk</title>
-<meta name="description" content="Alle endringer av {paragraph} i {law_title} siden 2001.">
+<meta name="description" content="Automatisk uthentede endringsoppføringer for {paragraph} i {law_title}. Oversikten kan ha mangler.">
 <meta property="og:site_name" content="Norges Lover"/>
 <meta property="og:type" content="article"/>
 <meta property="og:title" content="{paragraph} {law_title} — endringshistorikk"/>
-<meta property="og:description" content="{n_amendments} endringer registrert siden 2001."/>
+<meta property="og:description" content="{n_amendments} automatisk uthentede endringsoppføringer. Ikke en fullstendig endringshistorikk."/>
 <meta property="og:url" content="{canonical_url}"/>
 <meta property="og:image" content="{site_base}/assets/banner.svg"/>
 <meta name="twitter:card" content="summary"/>
@@ -74,6 +74,7 @@ h1 {{ font-size: 1.6rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.4re
 .intro {{ background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; }}
 .amendment {{ border: 1px solid #dee2e6; border-radius: 4px; padding: 0.75rem 1rem; margin: 0.8rem 0; }}
 .amendment .meta {{ color: #6c757d; font-size: 0.85rem; margin-bottom: 0.3rem; }}
+.amendment .source-timing {{ font-size: 0.9rem; margin: 0.4rem 0; }}
 .amendment .title {{ font-weight: 600; }}
 .amendment .instruction {{ font-style: italic; color: #495057; margin-top: 0.3rem; font-size: 0.9rem; }}
 .amendment .new-text {{ margin-top: 0.5rem; }}
@@ -108,13 +109,16 @@ h1 {{ font-size: 1.6rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.4re
 {fulltext_link} ·
     {feed_link_html}
   </p>
+  <p style="margin:0.6rem 0 0;">Automatisk uthentede endringsoppføringer fra Norsk Lovtidend.
+  Datagrunnlaget starter i 2001 og kan ha mangler. Oppføringene viser kildebestemmelser,
+  ikke verifiserte historiske paragrafversjoner eller virkningstidspunkt.</p>
 </div>
 
 {current_text_block}
 
 <h2 style="margin-top:2rem;border-bottom:2px solid #dee2e6;padding-bottom:0.4rem;font-size:1.3rem;">Endringer</h2>
 
-<p style="color:#6c757d;">{n_amendments} endring{plural} registrert siden 2001.</p>
+<p style="color:#6c757d;">{n_amendments} endringsoppføring{plural} i det behandlede datagrunnlaget. Flere oppføringer kan komme fra samme kunngjøring.</p>
 
 {amendments_html}
 
@@ -160,12 +164,14 @@ def generate_paragraph_history_pages(
         conn.close()
         return 0, amended
 
+    act_columns = {r[1] for r in conn.execute("PRAGMA table_info(amendment_acts)")}
+    deferred_column = "ac.is_deferred" if "is_deferred" in act_columns else "NULL"
     rows = conn.execute(
-        """
+        f"""
         SELECT a.target, a.target_law, a.instruction, a.change_type, a.new_text,
                ac.refid AS act_refid, ac.title AS act_title,
                ac.short_title AS act_short_title,
-               ac.date_published, ac.date_in_force, ac.date_in_force_resolved,
+               ac.date_published, ac.date_in_force, {deferred_column} AS is_deferred,
                ac.ministry, ac.journal_number
         FROM amendments a
         LEFT JOIN amendment_acts ac ON a.act_refid = ac.refid
@@ -414,6 +420,13 @@ def generate_paragraph_history_pages(
             act_doc = index.doc_page(a["act_refid"])
             act_url = f"{SITE_BASE}/{act_doc}" if act_doc else index.lovdata_act_url(a["act_refid"])
             instr_short = html.escape((a["instruction"] or "")[:200])
+            raw_in_force = (a["date_in_force"] or "").strip()
+            source_timing = (
+                f'Ikrafttredelse i kunngjøringen: {html.escape(raw_in_force)}'
+                if raw_in_force else 'Ikrafttredelse er ikke oppgitt i kunngjøringen.'
+            )
+            if a["is_deferred"] or not raw_in_force:
+                source_timing += ' Dato er ikke avklart her.'
             new_text_block = ""
             if a["new_text"]:
                 # Preserve line breaks; cap length to keep page light
@@ -430,11 +443,11 @@ def generate_paragraph_history_pages(
                 )
             amendments_html_parts.append(
                 f'<div class="amendment">\n'
-                f'  <div class="meta">{html.escape(a["date_published"] or "")} · '
+                f'  <div class="meta">Publisert {html.escape(a["date_published"] or "ukjent dato")} · '
                 f'{html.escape(a["ministry"] or "")}'
                 f'{" · " + html.escape(a["journal_number"]) if a["journal_number"] else ""}'
-                f'{" · ikrafttredelse " + html.escape(a["date_in_force_resolved"]) if a["date_in_force_resolved"] else ""}'
                 f'</div>\n'
+                f'  <div class="source-timing">{source_timing}</div>\n'
                 f'  <div class="title"><a href="{act_url}">'
                 f'{html.escape(a["act_short_title"] or a["act_title"] or a["act_refid"])}'
                 f'</a></div>\n'
@@ -462,9 +475,9 @@ def generate_paragraph_history_pages(
         else:
             feed_autodiscovery = (
                 '<link rel="alternate" type="application/atom+xml" '
-                'title="Norges Lover \u2014 alle endringer" href="../../feed.xml"/>'
+                'title="Norges Lover \u2014 siste kunngjøringer" href="../../feed.xml"/>'
             )
-            feed_link_html = '<a href="../../feed.xml">\U0001F4E1 Atom-feed (alle endringer)</a>'
+            feed_link_html = '<a href="../../feed.xml">\U0001F4E1 Atom-feed (siste kunngjøringer)</a>'
         _hist = index.historie_page(law_refid)
         historie_crumb = f'<a href="../../{_hist}">Endringshistorikk</a> \u203a' if _hist else ""
         _doc = index.doc_page(law_refid)
