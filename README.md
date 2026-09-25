@@ -63,7 +63,7 @@ The merged [PR #13](https://github.com/sondreskarsten/norwegian-laws/pull/13) ad
 | `evidence.json` | Observation identity, source commit, bundle checksum, and permanent release download URL. |
 | `snapshot-manifest.json` | Exact snapshot artifact membership and checksums. |
 
-**Status recorded 25 September 2026:** the first [public evidence release](https://github.com/sondreskarsten/norwegian-laws/releases/tag/observation-ccdbf3e45098076118bf9362b60d31b7a80dc1aab1dcc2e226a4aee58c92b596) is published and the history repository has accepted it. The reader's evidence links and search update are still deploying in [run 36167592215](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36167592215). Check the site's publication receipt for the delivered generation.
+**Verified 25 September 2026:** the first [public evidence release](https://github.com/sondreskarsten/norwegian-laws/releases/tag/observation-ccdbf3e45098076118bf9362b60d31b7a80dc1aab1dcc2e226a4aee58c92b596), reader evidence links and on-demand full-text search are live through [run 36167592215](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36167592215), source `2d90a466a8ca3954494f82041409b39242c5c1f5`. The site's receipt agrees with the release; the history repository accepted it and a fresh consumer retrieved exact source XML. See [delivery evidence](docs/evidence/live-v4-readback.json). Subsequent daily operation still needs verification.
 
 See the [loader contract](lovdata-loader/README.md) for the snapshot fields. Checksums establish consistency with the captured bytes; they do not prove lossless parsing, historical legal validity, or permanent availability.
 

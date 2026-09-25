@@ -14,7 +14,11 @@ committed acknowledgement. Daily operation still needs a subsequent observation.
 source `27df76fb664c71a2e1dd5e2764305185c4683dfe`. Its public receipt and committed
 acknowledgement agree. Ordered Regnskapsloven paragraphs, regulation amendment
 exports, feeds, 404 recovery and mobile comparison were read from the deployed
-site. Per-law legacy-version headers need the next release's final cleanup.
+site. PR #13 subsequently delivered source evidence, optional full-text search
+and per-law legacy-version headers through
+[run 36167592215](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36167592215),
+source `2d90a466a8ca3954494f82041409b39242c5c1f5`. Public site/release receipts,
+catalog membership, live browser search and exact XML retrieval agree.
 
 Keep the existing personal repositories:
 [norwegian-laws](https://github.com/sondreskarsten/norwegian-laws) for current
@@ -88,13 +92,14 @@ default-token catch-up workflow in [history PR #2](https://github.com/sondreskar
 merged as `810d60b4174fe3feda7bea37ad4310b237cd404e`. The reuse audit is complete.
 [First real intake](https://github.com/sondreskarsten/norwegian-laws-history/actions/runs/36169832648)
 accepted public evidence and committed the ledger as
-`611153d93419437ba74a07ab07ce5067afabbbef`. A second real observation and
-independent exact-XML consumer readback remain separate delivery gates. The
+`611153d93419437ba74a07ab07ce5067afabbbef`. Fresh independent exact-XML retrieval
+and idempotent production replay passed; history #3 is closed. A second real
+observation remains a separate delivery gate. The
 legacy builder's synthetic baseline and guessed legal dates are not imported.
 
 | Open issue | Remaining deliverable and acceptance evidence |
 |---|---|
-| [history #3: observation intake](https://github.com/sondreskarsten/norwegian-laws-history/issues/3) and [#8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | Deliver public receipt/raw-source intake, exact XML retrieval and a second real observation using only ordinary repository credentials. Initial output is observed-source history; authoritative legal reconstruction needs independently justified prior states. |
+| [history #8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | First public receipt/raw-source intake and exact XML retrieval delivered in closed [#3](https://github.com/sondreskarsten/norwegian-laws-history/issues/3). Add a second real observation using ordinary repository credentials. Initial output is observed-source history; authoritative legal reconstruction needs independently justified prior states. |
 | [history #4: structural gate](https://github.com/sondreskarsten/norwegian-laws-history/issues/4), [#5: canonical format](https://github.com/sondreskarsten/norwegian-laws-history/issues/5), [#6: temporal claims](https://github.com/sondreskarsten/norwegian-laws-history/issues/6), [#7: materialization](https://github.com/sondreskarsten/norwegian-laws-history/issues/7) | Preserve ordered source structure or reject canonical promotion; retain unknown legal time and operation evidence; publish deterministic, citable products without importing the synthetic legacy graph. |
 | [#3: orphan v2000](https://github.com/sondreskarsten/norwegian-laws/issues/3) | Replace the hardcoded version range with an explicit supported-version catalog. Stop presenting the disconnected v2000 graph as a verified version; retain existing refs until an explicit migration decision. |
 | [#4: future-year ordering](https://github.com/sondreskarsten/norwegian-laws/issues/4) | Prevent future or unsupported years from appearing as completed historical snapshots. Verify the order and provenance of selectable checkpoints; the audit confirmed v2028 was behind v2026. |
@@ -104,10 +109,13 @@ legacy builder's synthetic baseline and guessed legal dates are not imported.
 
 ## 4. Finish the reader experience
 
-- [ ] [#8: search payload](https://github.com/sondreskarsten/norwegian-laws/issues/8)
-  — reduce or explicitly separate the full-text download from lightweight search.
-  The audit measured 29,717,270 decoded bytes for `search.json`; verify actual
-  transferred bytes and usable results on a constrained mobile connection.
+- [x] [#8: search payload](https://github.com/sondreskarsten/norwegian-laws/issues/8)
+  — the live default index is 1,735,672 decoded bytes / 292,915 gzip response
+  bytes; the dedicated metadata catalog is 1,378,178 / 273,059 bytes. Title
+  search loads no Pagefind assets. Explicit full-text search finds the late
+  Regnskapsloven passage and opens its law; the page stays within 390px width.
+  Browser and independent HTTP readback passed. No throttled-network timing
+  claim is made.
 - [x] [#9: missing/repealed-page recovery](https://github.com/sondreskarsten/norwegian-laws/issues/9)
   — deploy a project 404 page with search, history and source links. Verify both
   an unknown URL and `lover/lov-1981-05-29-38.html` recover usefully.
