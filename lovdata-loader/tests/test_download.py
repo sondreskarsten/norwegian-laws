@@ -3,6 +3,7 @@
 import hashlib
 import io
 import json
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import unquote
 
@@ -108,11 +109,14 @@ def test_same_filename_and_size_with_changed_manifest_is_refetched(tmp_path, ups
 
 def test_unchanged_verified_archives_reuse_cache(tmp_path, upstream):
     download.download_archives(str(tmp_path))
+    retrieved = json.loads((tmp_path / (LAWS + ".download.json")).read_text())["retrieved_at"]
     download.download_archives(str(tmp_path))
     assert sorted(upstream.downloads) == sorted([LAWS, REGULATIONS, HISTORICAL, CURRENT])
     assert upstream.manifest_reads == 4
     assert (tmp_path / LAWS).read_bytes() == b"laws-old"
     metadata = json.loads((tmp_path / (LAWS + ".download.json")).read_text())
+    assert metadata["retrieved_at"] == retrieved
+    assert datetime.fromisoformat(retrieved).utcoffset() is not None
     assert metadata["sha256"] == hashlib.sha256(b"laws-old").hexdigest()
     assert metadata["source"] == {
         "filename": LAWS, "lastModified": "2026-09-24T01:30:00Z", "sizeBytes": 8,

@@ -49,6 +49,11 @@ def main():
         help="Generate Quarto book chapters and config",
     )
     parser.add_argument(
+        "--source-evidence-links",
+        action="store_true",
+        help="With --quarto, link source evidence files supplied by the deployment",
+    )
+    parser.add_argument(
         "--feeds-only",
         action="store_true",
         help="Regenerate Atom feeds only (skip formatting, Quarto, post-render)",
@@ -106,7 +111,9 @@ def main():
         print("=" * 60)
         print("Generating Quarto book chapters")
         print("=" * 60)
-        generate_quarto_config(args.output, db_path=db_path)
+        generate_quarto_config(
+            args.output, db_path=db_path, source_evidence_links=args.source_evidence_links,
+        )
 
     if args.feeds_only:
         from .feeds import generate_per_law_feeds

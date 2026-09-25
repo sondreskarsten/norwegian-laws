@@ -18,6 +18,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import __version__
+from .evidence import EvidenceBundle, OBSERVATIONS, MEMBERS, PARSED_ACTS, file_sha256
 from .models import (AmendmentActData, LawData, Manifest, uses_ordered_content,
                      ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION)
 from .parser import parse_effective_date, parse_publication_date
@@ -152,8 +153,9 @@ def write_snapshot(
     lovtidend_archives: list[str] | None = None,
     forskrifter: list[LawData] | None = None,
     forskrifter_archive: str = "",
+    evidence: EvidenceBundle | None = None,
 ) -> str:
-    """Build and promote a complete version-2/3 snapshot from parsed data.
+    """Build and promote a complete version-2/3/4 snapshot from parsed data.
 
     Creates:
       output_dir/
@@ -173,6 +175,8 @@ def write_snapshot(
     between the two renames may require restoring the retained backup directory.
     Version 3 marks ordered paragraph content that older publishers must reject;
     snapshots containing only legacy paragraphs keep version 2 compatibility.
+    CLI snapshots include source evidence and use version 4; direct parsed-model
+    callers without raw evidence retain the existing version-2/3 contract.
 
     Returns the snapshot directory path.
     """
@@ -202,6 +206,7 @@ def write_snapshot(
         if root.exists():
             for entry in root.iterdir():
                 if entry.name in {"laws", "forskrifter", "manifest.json", "amendments.db",
+                                  "raw", OBSERVATIONS, MEMBERS, PARSED_ACTS,
                                   "amendments.db-wal", "amendments.db-shm", "amendments.db-journal"}:
                     continue
                 destination = stage / entry.name
@@ -242,10 +247,16 @@ def write_snapshot(
         for path in artifacts:
             with path.open("rb") as stream:
                 hashes[path.relative_to(stage).as_posix()] = hashlib.file_digest(stream, "sha256").hexdigest()
+        evidence_contract = {}
+        if evidence is not None:
+            evidence_artifacts, evidence_contract = evidence.write(stage,
+                {"laws": laws, "forskrifter": forskrifter, "amendment_acts": amendment_acts}, hashes)
+            for path in evidence_artifacts:
+                hashes[path.relative_to(stage).as_posix()] = file_sha256(path)
         ordered = any(uses_ordered_content(record)
                       for records in (law_records, forskrift_records) for record in records.values())
         manifest = Manifest(
-            version=3 if ordered else 2,
+            version=4 if evidence is not None else 3 if ordered else 2,
             created_at=datetime.now(timezone.utc).isoformat(),
             loader_version=__version__,
             gjeldende_archive=gjeldende_archive,
@@ -261,6 +272,7 @@ def write_snapshot(
                               "amendment_acts": len(amendment_acts) - len(act_records)},
             content_version=ORDERED_CONTENT_VERSION if ordered else "legacy-paragraphs-v1",
             formatter_version=ORDERED_FORMATTER_VERSION if ordered else "law-markdown-v1",
+            evidence=evidence_contract,
         )
         (stage / "manifest.json").write_text(manifest.to_json(), encoding="utf-8", newline="\n")
         had_previous = root.exists()

@@ -2,7 +2,7 @@
 import argparse
 
 from .download import download_archives
-from .parser import parse_consolidated_archive, parse_lovtidend_archive
+from .evidence import EvidenceBundle
 from .store import write_snapshot
 
 
@@ -47,6 +47,7 @@ def main():
         help="Skip forskrifter parsing (laws only)",
     )
     args = parser.parse_args()
+    evidence = EvidenceBundle()
 
     if args.download:
         print("=" * 60)
@@ -62,7 +63,7 @@ def main():
     print("=" * 60)
     print("Parsing consolidated laws")
     print("=" * 60)
-    laws = parse_consolidated_archive(args.gjeldende)
+    laws = evidence.parse_archive(args.gjeldende, "laws")
     print(f"  Parsed {len(laws)} laws")
 
     forskrifter_data = []
@@ -71,7 +72,7 @@ def main():
         print("=" * 60)
         print("Parsing consolidated forskrifter")
         print("=" * 60)
-        forskrifter_data = parse_consolidated_archive(args.forskrifter)
+        forskrifter_data = evidence.parse_archive(args.forskrifter, "forskrifter")
         print(f"  Parsed {len(forskrifter_data)} forskrifter")
 
     amendment_acts = []
@@ -82,13 +83,10 @@ def main():
         print("=" * 60)
         for archive in args.lovtidend:
             print(f"  Processing {archive}...")
-            nl_acts = parse_lovtidend_archive(archive, prefix_filter="nl-")
-            print(f"    Found {len(nl_acts)} law amendment acts")
-            amendment_acts.extend(nl_acts)
-            if not args.skip_forskrifter:
-                sf_acts = parse_lovtidend_archive(archive, prefix_filter="sf-")
-                print(f"    Found {len(sf_acts)} forskrift amendment acts")
-                amendment_acts.extend(sf_acts)
+            acts = evidence.parse_archive(archive, "amendment_acts",
+                prefixes=("nl-",) if args.skip_forskrifter else ("nl-", "sf-"))
+            print(f"    Found {len(acts)} amendment acts")
+            amendment_acts.extend(acts)
 
     print()
     print("=" * 60)
@@ -102,6 +100,7 @@ def main():
         lovtidend_archives=args.lovtidend,
         forskrifter=forskrifter_data,
         forskrifter_archive=args.forskrifter,
+        evidence=evidence,
     )
     print(f"  Snapshot written to {path}/")
     print(f"  {len(laws)} laws, {len(forskrifter_data)} forskrifter, {len(amendment_acts)} amendment acts")

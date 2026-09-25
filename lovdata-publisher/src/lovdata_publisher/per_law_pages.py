@@ -2,8 +2,8 @@
 
 Reads `lover/*.md`, renders each to a standalone HTML page styled to match
 the Quarto book (cosmo theme), and writes them to `_site/lover/*.html`.
-Also extends `_site/search.json` with full-text entries pointing at the
-per-law pages.
+Also builds a chunked Pagefind index, loaded only when a reader explicitly
+chooses full-text search. Default search stays metadata-only.
 
 Run after `quarto render` and before deploying to gh-pages.
 """
@@ -13,6 +13,7 @@ import json
 import os
 import re
 from pathlib import Path
+from .legacy_versions import LEGACY_VERSION_REFS, supported_version_tags
 
 try:
     import markdown as md
@@ -87,14 +88,16 @@ footer {{ margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; co
 
 <div class="version-banner">
 Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: {sist_endret}.
-Tidligere versjoner finnes på <a href="../book/versjoner.html">versjonsoversikten</a>
-eller direkte i <a href="{github_log}">git log</a>.
+<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
+De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
+Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
+<a href="{github_log}">git-loggen for rekonstruksjonene</a>.
 </div>
 
 <div class="history-links">
-<strong>Historikk:</strong>
+<strong>Kilder og historikk:</strong>
 <a href="{github_blob}">Kildefil</a> ·
-<a href="{github_log}">git log</a> ·
+<a href="{github_log}">Git-logg (uverifisert rekonstruksjon)</a> ·
 {feed_link_html}
 {historie_link}{version_links}
 </div>
@@ -138,6 +141,7 @@ def dept_slug(dept: str) -> str:
 def compute_version_links_html(refid: str, version_tags: list[str], filename: str) -> str:
     if not refid.startswith("lov/"):
         return ""
+    version_tags = supported_version_tags(version_tags)
     refid_year = int(refid.split("/")[1][:4])
     relevant_tags = []
     for tag in version_tags:
@@ -149,7 +153,7 @@ def compute_version_links_html(refid: str, version_tags: list[str], filename: st
         relevant_tags = relevant_tags[::step][:6] + [relevant_tags[-1]]
         relevant_tags = list(dict.fromkeys(relevant_tags))
     return " ".join(
-        f'<a href="{GITHUB_BASE}/blob/{t}/lover/{filename}">{t}</a>'
+        f'<a href="{GITHUB_BASE}/blob/{LEGACY_VERSION_REFS[t]}/lover/{filename}" title="Uverifisert rekonstruksjon">{t}</a>'
         for t in relevant_tags
     )
 
@@ -256,12 +260,15 @@ def inject_paragraph_history_links(body_html: str, law_stem: str, amended_paragr
     return pattern.sub(replacer, body_html)
 
 
-def strip_markdown_for_search(body: str, max_chars: int = 8000) -> str:
+def strip_markdown_for_search(body: str, max_chars: int | None = 8000) -> str:
     text = re.sub(r"^#+ ", "", body, flags=re.MULTILINE)
     text = re.sub(r"\*([^*]+)\*", r"\1", text)
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    if "<" in text or "&" in text:
+        from bs4 import BeautifulSoup
+        text = BeautifulSoup(text, "html.parser").get_text(" ")
     text = re.sub(r"\s+", " ", text).strip()
-    if len(text) > max_chars:
+    if max_chars is not None and len(text) > max_chars:
         text = text[:max_chars]
     return text
 
@@ -276,9 +283,7 @@ def generate_per_law_pages(
     amended_paragraphs_map: dict[str, set[str]] | None = None,
     site_index=None,
 ) -> int:
-    if version_tags is None:
-        import datetime
-        version_tags = [f"v{y}" for y in range(2000, datetime.date.today().year + 3)]
+    version_tags = supported_version_tags(version_tags)
     if historie_map is None:
         historie_map = {}
     if amended_paragraphs_map is None:
@@ -395,6 +400,28 @@ def generate_per_law_pages(
     return count
 
 
+def _search_passages(text: str, size: int = 12000, overlap: int = 500):
+    """Index every word, with overlap for phrases crossing passage boundaries.
+
+    Bounded passages also bound Pagefind's downloaded result fragments for very
+    long laws. Split on whitespace so no word is lost at either boundary.
+    """
+    start = 0
+    while start < len(text):
+        end = min(start + size, len(text))
+        if end < len(text):
+            boundary = text.rfind(" ", start + size // 2, end)
+            if boundary != -1:
+                end = boundary
+        yield text[start:end]
+        if end == len(text):
+            break
+        start = max(start + 1, end - overlap)
+        boundary = text.find(" ", start, end)
+        if boundary != -1:
+            start = boundary + 1
+
+
 def merge_full_text_into_search(
     repo_root: str = ".",
     lover_dir: str = "lover",
@@ -402,77 +429,59 @@ def merge_full_text_into_search(
     site_dir: str = "_site",
     laws_json: str = "laws.json",
 ) -> None:
-    search_path = Path(repo_root) / site_dir / "search.json"
+    """Build opt-in complete body search, retaining the post-render entry point.
+
+    The Python API writes a static Pagefind bundle. The browser downloads only
+    query-related index chunks and bounded result passages after explicit opt-in;
+    Quarto's default search.json receives no legal body text.
+    """
+    import asyncio
+    from html import escape
+    from tempfile import TemporaryDirectory
+    from pagefind.index import IndexConfig, PagefindIndex
+    from .search_index import write_search_catalog
+
+    output = Path(repo_root) / site_dir
     laws_path = Path(repo_root) / laws_json
-
-    if not search_path.exists():
-        print(f"  {search_path} not found, skipping search index merge")
+    if not laws_path.exists():
+        print(f"  {laws_path} not found, skipping full-text index")
         return
+    laws = json.loads(laws_path.read_text(encoding="utf-8"))
+    output.mkdir(parents=True, exist_ok=True)
 
-    with open(search_path, encoding="utf-8") as f:
-        search_entries = json.load(f)
+    async def build_index(staging: Path):
+        # A single directory call avoids one Python-service round trip per
+        # passage. Staging URLs are private index identities; the UI resolves
+        # refid through the catalog to the canonical reader page.
+        async with PagefindIndex(config=IndexConfig(output_path=str(output / "pagefind"))) as index:
+            result = await index.add_directory(str(staging))
+            if result["page_count"] != passages:
+                raise ValueError("Pagefind did not index every source passage")
 
-    existing_count = len(search_entries)
-    added_lover = 0
-    added_forskrift = 0
-
-    # Index lover/*.md by refid via laws.json (existing logic)
-    if laws_path.exists():
-        with open(laws_path, encoding="utf-8") as f:
-            laws = json.load(f)
-        laws_by_file = {law["file"]: law for law in laws}
-        lover_path = Path(repo_root) / lover_dir
-        for md_file in sorted(lover_path.glob("*.md")):
-            law = laws_by_file.get(md_file.name)
-            if not law:
-                continue
-            meta, body = parse_frontmatter_and_body(md_file)
-            if not meta:
-                continue
-            body_text = strip_markdown_for_search(body)
-            depts = law.get("departement", [])
-            dept_str = ", ".join(depts) if isinstance(depts, list) else str(depts)
-            href = f"lover/{md_file.stem}.html"
-            title = law.get("tittel", meta.get("tittel", ""))
-            korttittel = law.get("korttittel", meta.get("korttittel", ""))
-            text_parts = [korttittel, dept_str, law.get("refid", ""), law.get("ikrafttredelse", ""), body_text]
-            text = " ".join(p for p in text_parts if p)
-            search_entries.append({
-                "objectID": f"law:{md_file.name}",
-                "href": href,
-                "title": title,
-                "section": dept_str,
-                "text": text,
-            })
-            added_lover += 1
-
-    # Index forskrifter/*.md directly from frontmatter (no laws.json equivalent yet)
-    forskrifter_path = Path(repo_root) / forskrifter_dir
-    if forskrifter_path.exists():
-        for md_file in sorted(forskrifter_path.glob("*.md")):
-            meta, body = parse_frontmatter_and_body(md_file)
-            if not meta:
-                continue
-            body_text = strip_markdown_for_search(body)
-            dept_str = meta.get("departement", "")
-            href = f"forskrifter/{md_file.stem}.html"
-            title = meta.get("tittel", md_file.stem)
-            korttittel = meta.get("korttittel", "")
-            text_parts = [korttittel, dept_str, meta.get("refid", ""), meta.get("ikrafttredelse", ""), body_text]
-            text = " ".join(p for p in text_parts if p)
-            search_entries.append({
-                "objectID": f"forskrift:{md_file.name}",
-                "href": href,
-                "title": title,
-                "section": dept_str,
-                "text": text,
-            })
-            added_forskrift += 1
-
-    with open(search_path, "w", encoding="utf-8") as f:
-        json.dump(search_entries, f, ensure_ascii=False)
-
-    print(f"  Search index: {existing_count} → {len(search_entries)} entries (+{added_lover} lover, +{added_forskrift} forskrifter)")
+    passages = 0
+    with TemporaryDirectory(prefix=".pagefind-input-", dir=output.parent) as staging_dir:
+        staging = Path(staging_dir)
+        for law in laws:
+            source_dir = forskrifter_dir if law.get("kind") == "forskrift" else lover_dir
+            source = Path(repo_root) / source_dir / law["file"]
+            _, body = parse_frontmatter_and_body(source)
+            text = strip_markdown_for_search(body, max_chars=None)
+            for number, passage in enumerate(_search_passages(text)):
+                html = (
+                    '<!doctype html><html lang="nb"><head><meta charset="utf-8">'
+                    f'<meta data-pagefind-meta="refid[content]" content="{escape(law["refid"], quote=True)}">'
+                    f'<title>{escape(law["tittel"])}</title></head><body>'
+                    f'<h1>{escape(law["tittel"])}</h1>'
+                    f'<main data-pagefind-body>{escape(passage)}</main></body></html>'
+                )
+                (staging / f"{source.stem}-part-{number}.html").write_text(html, encoding="utf-8")
+                passages += 1
+        print(f"  Indexing {passages} complete-text passages with Pagefind", flush=True)
+        asyncio.run(build_index(staging))
+    write_search_catalog(laws, output / "search-catalog.json", full_text={
+        "module": "pagefind/pagefind.js", "documents": len(laws), "passages": passages,
+    })
+    print(f"  Opt-in full-text search: {len(laws)} documents, {passages} bounded passages")
 
 
 if __name__ == "__main__":

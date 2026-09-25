@@ -5,6 +5,7 @@ import os
 import re
 import tempfile
 import urllib.request
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 
@@ -147,6 +148,7 @@ def download_file(url: str, dest: str, *, source: dict | None = None) -> str:
         if source is not None:
             _atomic_json(sidecar, {
                 "url": url, "source": source, "sizeBytes": size, "sha256": digest,
+                "retrieved_at": datetime.now(timezone.utc).isoformat(),
             })
         else:
             sidecar.unlink(missing_ok=True)
