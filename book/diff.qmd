@@ -41,6 +41,25 @@ faste, registrerte kopier av den eldre historikken.
 <script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/js/diff2html-ui.min.js"></script>
 <script>
+function loadSearchCatalog() {
+  return fetch("../search-catalog.json").then(function(r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(function(data) {
+    if (data.version !== 1) throw new Error("Ukjent søkeindeksversjon");
+    var laws = data.documents.map(function(row) {
+      var law = {};
+      data.columns.forEach(function(key, i) { law[key] = row[i]; });
+      law.departement = law.departement.map(function(i) { return data.departments[i]; });
+      law.tags = data.tagSets[law.tags];
+      law.file = law.path.split("/").pop();
+      law.lovdata = "https://lovdata.no/dokument/" + (law.refid.startsWith("forskrift/") ? "SF/" : "NL/") + law.refid;
+      law.log = "https://github.com/sondreskarsten/norwegian-laws/commits/law-history/" + law.path;
+      return law;
+    });
+    return {laws: laws, fullText: data.fullText};
+  });
+}
 document.addEventListener("DOMContentLoaded", function() {
   var lawSearch = document.getElementById("diff-law-search");
   var lawSelect = document.getElementById("diff-law");
@@ -102,8 +121,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  fetch("../laws.json").then(function(r){return r.json()}).then(function(data) {
-    laws = data;
+  loadSearchCatalog().then(function(data) {
+    laws = data.laws;
     fuse = new Fuse(laws, {
       keys: ["tittel","korttittel","refid"],
       threshold: 0.35
