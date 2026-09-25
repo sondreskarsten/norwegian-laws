@@ -1,9 +1,18 @@
 # Norwegian laws: delivery backlog
 
 Updated **2026-09-25** from source, workflow, live-source and browser audits.
-**Current publishing repair is implemented locally; live deployment and consumer
-readback remain pending.** A passing local run or green job does not close the
-delivery work below.
+**Current publishing repair is live and read back.**
+[Delivery run 36159622728](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36159622728)
+published source commit `8020b8f610171108d7f82c2f3811688a4605b918` on September 25.
+The public catalog matches all 756 law and 5,118 regulation identities in the
+fresh source and production snapshot. The missing regulation serves its source
+text; the obsolete current entry returns 404. The public receipt matches the
+committed acknowledgement. Daily operation still needs a subsequent observation.
+
+[PR #12](https://github.com/sondreskarsten/norwegian-laws/pull/12) prepares ordered
+legal paragraphs, regulation amendment targets, readable nested lists, recovery
+pages, mobile comparison and explicit/pinned legacy-version presentation.
+Those follow-up changes still require production publication and readback.
 
 Keep the existing personal repositories:
 [norwegian-laws](https://github.com/sondreskarsten/norwegian-laws) for current
@@ -15,21 +24,25 @@ legacy dispatch remains available.
 
 ## 1. Finish current-data delivery
 
-Implemented locally: live-manifest archive selection, source identity and SHA256
-cache checks, atomic downloads, a processed source receipt, snapshot validation,
-and revised publication wiring. These changes await live delivery proof.
+Delivered: live-manifest archive selection, source identity and SHA256 cache
+checks, atomic downloads, a processed source receipt, snapshot validation,
+and publication acknowledgement after public-site readback.
 
-- [ ] Run the complete fresh-source pipeline and reconcile **document identities**
-  through source, snapshot, generated corpus and deployed site. The audit found
+- [x] Run the complete fresh-source pipeline and reconcile **document identities**
+  through source, snapshot, generated corpus and the public catalog. The audit found
   `forskrift/2026-09-18-1871` missing and `forskrift/2019-11-22-1547` retained even
   though both regulation sets counted 5,118. Handle the duplicate Constitution
-  source explicitly; counts alone are insufficient.
-- [ ] Publish the exact `snapshot/source-manifest.json` used by the successful
-  build with its snapshot membership/integrity metadata and pinned source commit.
-  Advance published state only after verified deployment. Confirm a failed
-  publication is retried when the upstream manifest has not changed.
-- [ ] Read the new regulation and published receipt from the live site; reconcile
-  removed-document behavior, feeds and machine-readable consumers. Verify the
+  source explicitly; the snapshot records one last-occurrence-wins duplicate.
+- [x] Publish the exact processed source receipt and pinned source commit;
+  advance published state only after the public site serves that identity.
+  Polling now compares against published acknowledgement, preserving retries
+  when publication fails with unchanged upstream input.
+- [x] Read the new regulation and receipt from the live site and confirm that
+  the removed current entry is absent. Snapshot counts and hashes were also
+  checked from the actual downloaded production artifact.
+- [ ] Publish durable snapshot membership/integrity metadata and immutable raw
+  evidence for independent consumers; the current workflow artifact lasts seven days.
+- [ ] Complete feeds and other machine-readable consumer checks. Verify the
   next daily update before describing ongoing delivery as complete.
 - [ ] Keep cloud mirroring optional. Publish only clean output; investigate and
   remove previously replicated `gha-creds-*.json` artifacts as authorized, then
