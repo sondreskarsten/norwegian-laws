@@ -3,8 +3,9 @@
 Version 1 supports the original manifest's three recorded counts. Version 2
 also requires a forskrift count and a complete SHA-256 inventory of generated
 artifacts (plus the source receipt, when present). Version 3 additionally permits
-ordered paragraph blocks under an explicit content and Markdown contract. Older
-versions retain their original paragraph interpretation. Version 4 additionally
+ordered paragraph blocks and container references under explicit content and
+Markdown contracts. Older contracts reject nonempty container references and
+retain their original traversal. Version 4 additionally
 requires retained raw archives, exact source membership, and complete parsed
 amendment occurrences. Older snapshots retain their original artifact contract.
 """
@@ -18,6 +19,12 @@ from contextlib import closing
 from pathlib import Path
 
 from lovdata_loader.evidence import evidence_artifacts, validate_evidence
+from lovdata_loader.models import (
+    CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION,
+    LEGACY_CONTENT_VERSION, LEGACY_FORMATTER_VERSION,
+    ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION,
+    ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
+)
 
 
 def _read_json(path: Path):
@@ -39,7 +46,16 @@ def _regular_file(path: Path):
         raise ValueError(f"Missing or invalid snapshot artifact: {path}")
 
 
-def _validate_nodes(nodes, kind: str, path: Path, version: int):
+def _validate_order(node: dict, fields: dict, path: Path, ordered_containers: bool):
+    try:
+        order = validate_content_order(node, fields)
+    except ValueError as exc:
+        raise ValueError(f"Invalid snapshot container order in {path}: {exc}") from exc
+    if order and not ordered_containers:
+        raise ValueError(f"Ordered containers require the {CONTAINER_CONTENT_VERSION} contract: {path}")
+
+
+def _validate_nodes(nodes, kind: str, path: Path, version: int, ordered_containers: bool = False):
     if not isinstance(nodes, list):
         raise ValueError(f"Invalid snapshot {kind} list in {path}")
     child_fields = {
@@ -55,6 +71,8 @@ def _validate_nodes(nodes, kind: str, path: Path, version: int):
     for node in nodes:
         if not isinstance(node, dict):
             raise ValueError(f"Invalid snapshot {kind} in {path}")
+        if kind == "section":
+            _validate_order(node, SECTION_CONTENT_FIELDS, path, ordered_containers)
         for field in text_fields[kind]:
             if field in node and not isinstance(node[field], str):
                 raise ValueError(f"Invalid snapshot {kind}.{field} in {path}")
@@ -84,16 +102,17 @@ def _validate_nodes(nodes, kind: str, path: Path, version: int):
                     elif block.get("kind") == "list":
                         if block.get("text") or not block.get("list_items"):
                             raise ValueError(f"Invalid ordered list block in {path}")
-                        _validate_nodes(block["list_items"], "item", path, version)
+                        _validate_nodes(block["list_items"], "item", path, version, ordered_containers)
                     else:
                         raise ValueError(f"Unsupported ordered paragraph block in {path}")
         for field, child_kind in child_fields[kind]:
-            _validate_nodes(node.get(field, []), child_kind, path, version)
+            _validate_nodes(node.get(field, []), child_kind, path, version, ordered_containers)
 
 
-def _validate_document(data, path: Path, prefix: str, version: int):
+def _validate_document(data, path: Path, prefix: str, version: int, ordered_containers: bool = False):
     if not isinstance(data, dict):
         raise ValueError(f"Snapshot document must be an object: {path}")
+    _validate_order(data, ROOT_CONTENT_FIELDS, path, ordered_containers)
     refid = data.get("refid")
     if not isinstance(refid, str) or not re.fullmatch(
         rf"{prefix}/[A-Za-z0-9][A-Za-z0-9._-]*", refid
@@ -109,9 +128,9 @@ def _validate_document(data, path: Path, prefix: str, version: int):
         isinstance(text, str) for text in data.get("remainders", [])
     ):
         raise ValueError(f"Invalid snapshot document remainders: {path}")
-    _validate_nodes(data.get("sections", []), "section", path, version)
-    _validate_nodes(data.get("top_level_articles", []), "article", path, version)
-    _validate_nodes(data.get("top_level_paragraphs", []), "paragraph", path, version)
+    _validate_nodes(data.get("sections", []), "section", path, version, ordered_containers)
+    _validate_nodes(data.get("top_level_articles", []), "article", path, version, ordered_containers)
+    _validate_nodes(data.get("top_level_paragraphs", []), "paragraph", path, version, ordered_containers)
 
 
 def _validate_database(path: Path, manifest: dict):
@@ -164,12 +183,14 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
     if not isinstance(manifest, dict) or type(manifest.get("version")) is not int or manifest["version"] not in (1, 2, 3, 4):
         raise ValueError("Invalid or unsupported snapshot manifest version")
     version = manifest["version"]
-    contracts = (("ordered-paragraph-blocks-v1", "law-markdown-ordered-html-v1") if version == 3
-                 or (version == 4 and manifest.get("content_version") == "ordered-paragraph-blocks-v1")
-                 else ("legacy-paragraphs-v1", "law-markdown-v1"))
-    for field, expected in zip(("content_version", "formatter_version"), contracts):
-        if manifest.get(field, expected if version < 3 else None) != expected:
-            raise ValueError(f"Unsupported snapshot content/formatter contract: {field}")
+    legacy = (LEGACY_CONTENT_VERSION, LEGACY_FORMATTER_VERSION)
+    paragraphs = (ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION)
+    containers = (CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION)
+    contracts = tuple(manifest.get(field, fallback if version < 3 else None)
+                      for field, fallback in zip(("content_version", "formatter_version"), legacy))
+    supported = (legacy,) if version < 3 else (paragraphs, containers) if version == 3 else (legacy, paragraphs, containers)
+    if contracts not in supported:
+        raise ValueError("Unsupported snapshot content/formatter contract")
     for field in ("created_at", "loader_version", "gjeldende_archive"):
         if not isinstance(manifest.get(field), str):
             raise ValueError(f"Invalid snapshot manifest field: {field}")
@@ -190,8 +211,9 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
         paths = sorted(directory.glob("*.json"))
         for path in paths:
             _regular_file(path)
-            content_reader_version = 3 if contracts[0] == "ordered-paragraph-blocks-v1" else min(version, 2)
-            _validate_document(_read_json(path), path, prefix, content_reader_version)
+            content_reader_version = min(version, 2) if contracts == legacy else 3
+            _validate_document(_read_json(path), path, prefix, content_reader_version,
+                               ordered_containers=contracts == containers)
         if version >= 2 or subdir == "laws" or count_name in manifest:
             if len(paths) != _count(manifest, count_name):
                 raise ValueError(f"Snapshot {count_name} mismatch: manifest={manifest[count_name]}, actual={len(paths)}")

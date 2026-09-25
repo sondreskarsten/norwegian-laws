@@ -20,6 +20,10 @@ from .models import (
     Paragraph,
     ParagraphBlock,
     Section,
+    ContentRef,
+    ROOT_CONTENT_FIELDS,
+    SECTION_CONTENT_FIELDS,
+    content_order_if_needed,
 )
 
 
@@ -361,22 +365,27 @@ def parse_section(section_tag: Tag) -> Section:
     subsections = []
     preamble = []
     footnotes = []
+    order = []
     for child in section_tag.children:
         if not isinstance(child, Tag):
             continue
         if _is_article(child):
+            order.append(ContentRef("article", len(articles)))
             articles.append(parse_article(child))
         elif child.name == "section":
+            order.append(ContentRef("section", len(subsections)))
             subsections.append(parse_section(child))
         elif child.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
             pass
         elif child.name == "footer":
             text = _text(child)
             if text:
+                order.append(ContentRef("footnote", len(footnotes)))
                 footnotes.append(text)
         else:
             text = _text(child)
             if text:
+                order.append(ContentRef("preamble", len(preamble)))
                 preamble.append(text)
 
     return Section(
@@ -385,6 +394,7 @@ def parse_section(section_tag: Tag) -> Section:
         subsections=subsections,
         preamble=preamble,
         footnotes=footnotes,
+        content_order=content_order_if_needed(order, SECTION_CONTENT_FIELDS),
     )
 
 
@@ -407,25 +417,32 @@ def parse_law(content: bytes) -> LawData | None:
     top_level_articles = []
     top_level_paragraphs = []
     remainders = []
+    order = []
     for child in body.children:
         if not isinstance(child, Tag):
             t = str(child).strip()
             if t:
+                order.append(ContentRef("remainder", len(remainders)))
                 remainders.append(t)
             continue
         if child.name == "section":
+            order.append(ContentRef("section", len(sections)))
             sections.append(parse_section(child))
         elif _is_article(child):
+            order.append(ContentRef("article", len(top_level_articles)))
             top_level_articles.append(parse_article(child))
         elif _is_ledd(child):
+            order.append(ContentRef("paragraph", len(top_level_paragraphs)))
             top_level_paragraphs.append(_parse_ledd(child))
         elif child.name == "p":
+            order.append(ContentRef("paragraph", len(top_level_paragraphs)))
             top_level_paragraphs.append(Paragraph(text=_text(child)))
         elif child.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
             continue
         else:
             text = _text(child)
             if text:
+                order.append(ContentRef("remainder", len(remainders)))
                 remainders.append(text)
 
     return LawData(
@@ -434,6 +451,7 @@ def parse_law(content: bytes) -> LawData | None:
         top_level_articles=top_level_articles,
         top_level_paragraphs=top_level_paragraphs,
         remainders=remainders,
+        content_order=content_order_if_needed(order, ROOT_CONTENT_FIELDS),
     )
 
 

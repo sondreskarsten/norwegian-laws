@@ -42,25 +42,36 @@ and publication acknowledgement after public-site readback.
 - [x] Read the new regulation and receipt from the live site and confirm that
   the removed current entry is absent. Snapshot counts and hashes were also
   checked from the actual downloaded production artifact.
-- [ ] Publish durable snapshot membership/integrity metadata and immutable raw
-  evidence for independent consumers; the current workflow artifact lasts seven days.
+- [x] Publish durable snapshot membership/integrity metadata and retained raw
+  evidence for independent consumers. The first
+  [observation release](https://github.com/sondreskarsten/norwegian-laws/releases/tag/observation-ccdbf3e45098076118bf9362b60d31b7a80dc1aab1dcc2e226a4aee58c92b596)
+  binds source `2d90a466a8ca3954494f82041409b39242c5c1f5` to a 191,396,694-byte
+  bundle, publicly read back by SHA-256. The history workflow independently
+  accepted all 45,114 source members. GitHub administrators can still delete
+  assets; this is content-addressed publication, not physical WORM storage.
 - [x] Read the global and per-law feeds and both compressed display exports from
   the live site against the production snapshot: 100 global feed entries, 50
   Regnskapsloven entries, 39,208 act rows and 99,102 eligible amendment rows,
   including 72,538 regulation targets. Display filtering/truncation is preserved.
 - [ ] Verify the next daily update before describing ongoing delivery as complete.
-- [ ] Keep cloud mirroring optional. Publish only clean output; investigate and
-  remove previously replicated `gha-creds-*.json` artifacts as authorized, then
-  verify destination contents and access independently of upload logs.
+- [x] Keep cloud mirroring optional and publish clean output. Run
+  [36167592293](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36167592293)
+  verified exactly 11,510 current objects and independently read the receipt,
+  catalog, one law and one regulation with matching hashes/lengths. No current
+  runtime credential artifacts remain; earlier cleanup was confirmed in logs.
+- [ ] Audit retained GCS object versions and IAM separately if the optional mirror
+  remains in use. Current-object readback does not establish those properties.
 
 ## 2. Complete the shared data interface
 
 - [x] Preserve mixed text/list order within legal paragraphs and resolve structured
   regulation amendment targets. The live Regnskapsloven §6-2 now follows source
   order; regulation targets appear in the public export.
-- [ ] Preserve whole-document structural order. A separate mixed section/subsection
-  counterexample still reorders content despite 100% token coverage. Do not claim
-  the paragraph repair certifies an entire canonical document.
+- [ ] Publish the container-order repair and read the five confirmed examples
+  from the live reader. Local replay preserves closing provisions, interleaved
+  instructions, appendix notes and final instructions; the independent history
+  consumer supports the explicit new contract. Existing stored models render
+  identically. Whole-document structural fidelity still needs its separate gate.
 - [ ] Finish a versioned producer/consumer contract: ordered content, source and
   output identities, parser/formatter versions, exact membership and explicit
   unresolved content. Verify deterministic replay through independently installed
@@ -72,13 +83,19 @@ and publication acknowledgement after public-site readback.
 
 ## 3. Deliver evidence-backed history
 
-The new history repository was a README-only placeholder at audit time. The
-legacy builder uses current text as a 2001 baseline and substitutes publication
-dates for unknown commencement; its tags are not verified historical snapshots.
+The history repository now contains an independent observation consumer and
+default-token catch-up workflow in [history PR #2](https://github.com/sondreskarsten/norwegian-laws-history/pull/2),
+merged as `810d60b4174fe3feda7bea37ad4310b237cd404e`. The reuse audit is complete.
+[First real intake](https://github.com/sondreskarsten/norwegian-laws-history/actions/runs/36169832648)
+accepted public evidence and committed the ledger as
+`611153d93419437ba74a07ab07ce5067afabbbef`. A second real observation and
+independent exact-XML consumer readback remain separate delivery gates. The
+legacy builder's synthetic baseline and guessed legal dates are not imported.
 
 | Open issue | Remaining deliverable and acceptance evidence |
 |---|---|
-| [history #1: reusable pipeline and history implementation](https://github.com/sondreskarsten/norwegian-laws-history/issues/1) | Implement a small law-and-regulation pilot using the repaired interface, immutable source provenance and independently known historical checkpoints. Separate source publication, observation/knowledge time and legal valid time; retain unknown or partial commencement and unsupported intervals explicitly. Do not import the legacy graph, tags or generated text as authoritative evidence. |
+| [history #3: observation intake](https://github.com/sondreskarsten/norwegian-laws-history/issues/3) and [#8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | Deliver public receipt/raw-source intake, exact XML retrieval and a second real observation using only ordinary repository credentials. Initial output is observed-source history; authoritative legal reconstruction needs independently justified prior states. |
+| [history #4: structural gate](https://github.com/sondreskarsten/norwegian-laws-history/issues/4), [#5: canonical format](https://github.com/sondreskarsten/norwegian-laws-history/issues/5), [#6: temporal claims](https://github.com/sondreskarsten/norwegian-laws-history/issues/6), [#7: materialization](https://github.com/sondreskarsten/norwegian-laws-history/issues/7) | Preserve ordered source structure or reject canonical promotion; retain unknown legal time and operation evidence; publish deterministic, citable products without importing the synthetic legacy graph. |
 | [#3: orphan v2000](https://github.com/sondreskarsten/norwegian-laws/issues/3) | Replace the hardcoded version range with an explicit supported-version catalog. Stop presenting the disconnected v2000 graph as a verified version; retain existing refs until an explicit migration decision. |
 | [#4: future-year ordering](https://github.com/sondreskarsten/norwegian-laws/issues/4) | Prevent future or unsupported years from appearing as completed historical snapshots. Verify the order and provenance of selectable checkpoints; the audit confirmed v2028 was behind v2026. |
 | [#5: inaccurate point-in-time claims](https://github.com/sondreskarsten/norwegian-laws/issues/5) | Correct version-page, diff and Git examples to describe the actual evidence and limitations. Display source basis, knowledge cutoff, legal-date certainty and reconstruction status for each supported result. |
