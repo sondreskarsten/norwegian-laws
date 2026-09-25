@@ -2,15 +2,57 @@
 from __future__ import annotations
 
 import html
+from importlib.resources import files
 import json
 from pathlib import Path
+import re
 from urllib.parse import urlsplit
 
 SITE_BASE = "https://sondreskarsten.github.io/norwegian-laws"
+# Set only after this archive commit is publicly available. Reader-copy links
+# already use the immutable original main parent and do not depend on this pin.
+HISTORY_ARCHIVE_COMMIT: str | None = "a79eda10c52508ab0ff49e5cf7f2d867b322375b"
+
+
+def _prior_readers(archive_commit: str | None) -> dict:
+    if archive_commit is not None and not re.fullmatch(r"[0-9a-f]{40}", archive_commit):
+        raise ValueError("history_archive_commit must be a complete published Git commit")
+    catalog = json.loads(files("lovdata_publisher").joinpath("prior_readers.json").read_text(encoding="utf-8"))
+    if (catalog.get("schema") != "prior-reader-recovery-v1"
+            or catalog.get("artifact_kind") != "derived_reader_markdown"
+            or catalog.get("legal_validity") != "unknown"
+            or any(catalog.get(key) is not None for key in ("source_observation", "source_knowledge_time", "legal_repeal"))
+            or catalog.get("source_repository") != "sondreskarsten/norwegian-laws"
+            or catalog.get("parent_commit") != "98d4e4d5d43d22384cf9c1862816bf8f57122c33"
+            or catalog.get("exit_commit") != "b8e08232422013a96c38cdfc074618c979777458"):
+        raise ValueError("Unsupported prior-reader recovery provenance")
+    result = {}
+    for row in catalog["records"]:
+        refid = row["refid"]
+        if not re.fullmatch(r"(?:lov|forskrift)/\d{4}-\d{2}-\d{2}(?:-\d+)?", refid) or refid in result:
+            raise ValueError("Invalid or duplicate prior-reader refid")
+        kind, date = refid.split("/")
+        path = ("lover/lov-" if kind == "lov" else "forskrifter/forskrift-") + date + ".md"
+        if (row["path"] != path or not re.fullmatch(r"[0-9a-f]{64}", row["sha256"])
+                or not re.fullmatch(r"[0-9a-f]{40}", row["git_blob_sha1"])
+                or not isinstance(row["title"], str) or not row["title"].strip()
+                or type(row["bytes"]) is not int or row["bytes"] <= 0):
+            raise ValueError("Invalid prior-reader copy identity")
+        item = {"title": row["title"], "sha256": row["sha256"],
+                "copy": f'https://github.com/{catalog["source_repository"]}/blob/{catalog["parent_commit"]}/{path}'}
+        if archive_commit:
+            archive = f"https://github.com/sondreskarsten/norwegian-laws-history/blob/{archive_commit}/reader-archive/"
+            item["archive"] = archive + "index.md"
+            item["provenance"] = archive + f'records/{catalog["exit_commit"]}/{path.removesuffix(".md")}.json'
+        result[refid] = item
+    if len(result) != 105:
+        raise ValueError("The verified prior-reader recovery catalog must contain 105 copies")
+    return result
 
 
 def generate_not_found_page(
     site_dir: str = "_site", *, site_index=None, site_base: str = SITE_BASE,
+    history_archive_commit: str | None = HISTORY_ARCHIVE_COMMIT,
 ) -> str:
     """Write 404.html with navigation that also works at deeply nested URLs.
 
@@ -35,7 +77,8 @@ def generate_not_found_page(
     def link(path: str) -> str:
         return html.escape(base_path + path, quote=True)
 
-    config = json.dumps({"base": base_path, "history": history}, ensure_ascii=False)
+    config = json.dumps({"base": base_path, "history": history,
+                         "priorReaders": _prior_readers(history_archive_commit)}, ensure_ascii=False)
     # Keep serialized strings inside their script element even for unusual slugs.
     config = config.replace("&", "\\u0026").replace("<", "\\u003c").replace(">", "\\u003e")
     page = r"""<!DOCTYPE html>
@@ -64,6 +107,12 @@ h1 { margin: 0 0 .8rem; font-size: clamp(1.8rem, 5vw, 2.35rem); line-height: 1.2
 .context p { margin: .6rem 0; }
 .context ul { margin: .7rem 0 0; padding-left: 1.2rem; }
 .context li { margin: .2rem 0; }
+.prior-reader { margin: 1rem 0 1.4rem; padding: 1rem; background: #fff; border: 1px solid #b6d4f1; border-radius: 4px; }
+.prior-reader h3 { margin: 0; font-size: 1.05rem; }
+.reader-title { font-weight: 600; overflow-wrap: anywhere; }
+.reader-status { font-size: .85rem; color: #495057; }
+.reader-link { font-weight: 600; }
+.reader-provenance { display: flex; flex-wrap: wrap; gap: .35rem 1rem; font-size: .9rem; }
 .routes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0; }
 .route { padding: 1rem 1.2rem; border: 1px solid #dee2e6; border-radius: 5px; }
 .route h2 { margin: 0 0 .35rem; font-size: 1.05rem; }
@@ -87,6 +136,14 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #dee2e6; c
 <section id="document-context" class="context" aria-labelledby="document-heading" hidden>
 <h2 id="document-heading">Dokumentet i lenken</h2>
 <code id="document-refid"></code>
+<section id="prior-reader" class="prior-reader" aria-labelledby="prior-reader-heading" hidden>
+<h3 id="prior-reader-heading">Tidligere lesekopi er bevart</h3>
+<p id="prior-reader-title" class="reader-title"></p>
+<p class="reader-status">Avledet tekst · Rettslig status ukjent</p>
+<p>Dette er en tidligere publisert lesekopi, bearbeidet fra kildeteksten. Den kan inneholde feil og bekrefter ikke hva som gjaldt på en bestemt dato. Kildedato og eventuell opphevelse er ikke dokumentert her.</p>
+<p><a id="prior-reader-copy" class="reader-link">Les kopien på GitHub →</a></p>
+<p id="prior-reader-provenance" class="reader-provenance" hidden><a id="prior-reader-record">Se kopiens opphav</a><a id="prior-reader-archive">Bla i arkivet med 105 lesekopier</a></p>
+</section>
 <p>Bruk identifikatoren når du søker, eller prøv dokumentets sider hos Lovdata.</p>
 <ul>
 <li><a id="source-current">Åpne dokumentet hos Lovdata</a></li>
@@ -133,6 +190,17 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #dee2e6; c
   document.getElementById("source-archive").href = "https://lovdata.no/dokument/" + archive + "/" + refid;
   var savedFile = (kind === "lov" ? "lover/lov-" : "forskrifter/forskrift-") + match[2] + ".md";
   document.getElementById("stored-copies").href = "https://github.com/sondreskarsten/norwegian-laws/commits/main/" + savedFile;
+  if (Object.prototype.hasOwnProperty.call(config.priorReaders, refid)) {
+    var copy = config.priorReaders[refid];
+    document.getElementById("prior-reader-title").textContent = copy.title;
+    document.getElementById("prior-reader-copy").href = copy.copy;
+    if (copy.provenance && copy.archive) {
+      document.getElementById("prior-reader-record").href = copy.provenance;
+      document.getElementById("prior-reader-archive").href = copy.archive;
+      document.getElementById("prior-reader-provenance").hidden = false;
+    }
+    document.getElementById("prior-reader").hidden = false;
+  }
   if (Object.prototype.hasOwnProperty.call(config.history, refid)) {
     document.getElementById("document-history").href = config.history[refid];
     document.getElementById("document-history-item").hidden = false;

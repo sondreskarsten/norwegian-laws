@@ -78,11 +78,11 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 **Files:** main `TODO.md`, `docs/evidence/live-container-order-readback.json` (new), existing pipeline files only if production exposes a defect.
 
 - [x] Inspect run `36171176807`: production, Pages deployment and acknowledgement completed successfully. The public receipt names source `7971606f7683612779e17cea1ef53d8531ba0fa3` and observation `ca32e6b7b13b3435683c450f81cfc1ea0ae4c0a95694a0cde0d7cf2bc20e5f4c`; no duplicate dispatch is needed.
-- [ ] Match the new public publication receipt, generated source commit, evidence release and committed acknowledgement.
-- [ ] Read public output for laws `1916-07-21-2`, `2011-04-15-11`, `1967-12-15-9` and regulations `1956-11-09-5`, `2022-04-06-625`; compare the affected source sequences.
+- [x] Match the new public publication receipt, generated source commit, evidence release and committed acknowledgement. PR14 source `7971606` and acknowledgement `313d36f` agree; see `docs/evidence/live-container-order-readback.json`.
+- [x] Read public output for laws `1916-07-21-2`, `2011-04-15-11`, `1967-12-15-9` and regulations `1956-11-09-5`, `2022-04-06-625`; compare the affected source sequences. All five real source/model/public sequences match.
 - [ ] Visually inspect closing provisions, interleaved instructions and appendix text; preserve paragraph/list/crosslink behavior already delivered.
-- [ ] Accept the new evidence contract independently in history and record what changed because of representation rather than legal amendment.
-- [ ] Commit the acceptance receipt and update the TODO only after public readback.
+- [x] Accept the new evidence contract independently in history and record what changed because of representation rather than legal amendment. The local two-real-observation consumer rehearsal accepts `ca32e6b7…`; its three qualified bodies remain unchanged, complex bodies remain unqualified and no legal amendment is inferred. Portable evidence is included in history PR11.
+- [x] Commit the acceptance receipt and update the TODO only after public readback.
 
 **Done:** all five public examples and their publication identity agree. A successful job alone is insufficient.
 
@@ -92,9 +92,9 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 
 **Files:** main publisher `quarto.py`, `manifests.py`, `search_index.py`, `feeds.py`, `paragraph_history.py`, `historie_pages.py`, `stats_page.py`, `legacy_versions.py`; focused existing checks in `test_quarto.py`, `test_manifests.py`, `test_topic_split.py`, `test_stats_page.py`; `README.md`, `SUBSCRIBE.md`.
 
-- [ ] Finish the in-progress shared export-count implementation; homepage totals must describe the rows actually exported, including filtering, rather than the database's total instructions.
-- [ ] Use `search-catalog.json` for subscription lookup and `feeds/index.json` for availability; offer copy/open actions only for a published feed. Keep a reader route for a document without one.
-- [ ] Exercise title/abbreviation/refid lookup, copy and open, an unavailable-feed case, and keyboard/mobile interaction on generated real corpus output.
+- [x] Finish the in-progress shared export-count implementation; homepage totals must describe the rows actually exported, including filtering, rather than the database's total instructions. Merged in main PR15; deployed readback is a separate gate below.
+- [x] Use `search-catalog.json` for subscription lookup and `feeds/index.json` for availability; offer copy/open actions only for a published feed. Keep a reader route for a document without one. Merged in main PR15.
+- [x] Exercise title/abbreviation/refid lookup, copy and open, an unavailable-feed case, and keyboard/mobile interaction on generated real corpus output. Local generated content passed; direct feed retrieval succeeded, while local Chrome feed display was blocked by its client. See `docs/evidence/subscription-local.json`.
 - [ ] Exercise topic → document → feed and ministry → document journeys; reconcile page membership with the source catalog and feed inventory.
 - [ ] Exercise one document timeline, one paragraph timeline and the activity page. Count parsed records consistently and distinguish publication/date labels from proven legal commencement.
 - [ ] Confirm supported legacy references are pinned; exclude orphan/future unsupported versions from selectable verified results. Preserve old refs without rewriting history.
@@ -111,8 +111,8 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 
 **Files:** history `reader-archive/**`, `.gitattributes`, `docs/evidence/prior-reader-backfill.json`; main publisher `not_found.py`, `formatter.py`; history `ledger.py` and planned `queries.py`.
 
-- [ ] Stage the prepared 105 objects only with byte-preserving attributes; verify staged bytes against SHA-256 and original Git blob identities.
-- [ ] Publish the browse index, Viltloven entry, metadata sidecars and immutable original-copy links. Read the committed inventory and representative copies independently.
+- [x] Stage the prepared 105 objects only with byte-preserving attributes; verify staged bytes against SHA-256 and original Git blob identities. Every staged object and sidecar verified; included in history PR11.
+- [x] Publish the browse index, Viltloven entry, metadata sidecars and immutable original-copy links. History commit `a79eda1` is public; all 105 copies and sidecars were independently retrieved and matched their original identities (660,274 bytes).
 - [ ] Link public missing-page recovery to the archived copy/provenance where an exact identity exists.
 - [ ] Before future generated-current-file removal, preserve any otherwise-unretained derived copy with its source commit and detected exit; new raw observations already remain in the independent ledger.
 - [ ] Compute observation membership changes only between comparable archive scopes. Emit `not_present_in_observation`; keep legal repeal unresolved unless separately evidenced.
@@ -137,14 +137,15 @@ materializations(repository)
 # -> verified parent-ordered receipts
 ```
 
-- [ ] Integrate the reviewed paragraph-display fix: multiple paragraphs in list items remain visibly separate, with markers preserved.
-- [ ] Finish exact source/model binding, bounded selection, receipt schema validation, artifact inventory, expected-parent checks and same-input idempotence in the materializer.
-- [ ] Retain a report for each requested document; failed/unsupported structure produces no promoted body. Preserve all raw evidence independently.
-- [ ] Publish readable body artifacts, deterministic semantic identities, generator/runtime identity and representation-change classification. Run timestamps must not contaminate semantic body identity.
-- [ ] Commit new observations/products append-only with normal project authorship and current publication times. Refuse unexpected remote parents and existing-file changes.
-- [ ] Record the actual Git commit/tree in a subsequent publication receipt, avoiding circular hashes. Recover safely if the product commit succeeded but receipt publication did not.
-- [ ] Integrate with the existing observation workflow; do not introduce a competing scheduler.
-- [ ] Generate from the real public bundle, replay unchanged, alter one stored product in a disposable copy and prove rejection, then publish and independently read back the selected products.
+- [x] Integrate the reviewed paragraph-display fix: multiple paragraphs in list items remain visibly separate, with markers preserved.
+- [x] Finish exact source/model binding, bounded selection, receipt schema validation, artifact inventory, expected-parent checks and same-input idempotence in the materializer.
+- [x] Retain a report for each requested document; failed/unsupported structure produces no promoted body. Preserve all raw evidence independently.
+- [x] Publish readable body artifacts, deterministic semantic identities, generator/runtime identity and representation-change classification. Run timestamps must not contaminate semantic body identity.
+- [x] Commit new observations/products append-only with normal project authorship and current publication times. Refuse unexpected remote parents and existing-file changes.
+- [x] Record the actual Git commit/tree in a subsequent publication receipt, avoiding circular hashes. Recover safely if the product commit succeeded but receipt publication did not.
+- [x] Integrate with the existing observation workflow; do not introduce a competing scheduler.
+- [x] Generate from the real public bundle, replay unchanged, alter one stored product in a disposable copy and prove rejection, then publish and independently read back the selected products. Public data commit `b29c62d` and receipt commit `6551ae7` contain two observed products; all 46 artifact files and Git subtree bindings verified. Qualified semantic JSON and HTML match independent local generation despite different runtime-specific receipt identities.
+- [ ] Publish and visually read back the heading-wrap repair discovered on `lov/1949-07-28-15` at 390px. Preserve the first published representations; the repair must append new representations.
 
 **Initial concrete selection:** qualified candidates `lov/1845-06-07`, `lov/1949-07-28-15`, `forskrift/2022-09-02-1529`; retain the known mixed/complex documents as rejection evidence. This selection establishes integration, not completed corpus support.
 
@@ -156,10 +157,10 @@ materializations(repository)
 
 **Files:** history observe workflow/script, `publication.py`, `ledger.py`, `materialize.py`, `docs/evidence/two-observation-delivery.json` (new).
 
-- [ ] Accept the next actual producer observation, including the new ordering-contract release if available; retain the first accepted directory unchanged.
-- [ ] Reproduce both from public receipts. Report raw-source change, observation membership change and representation change separately.
-- [ ] For unchanged qualified bodies, show no textual amendment while retaining the second observation time and provenance.
-- [ ] Interrupt publication at the product/receipt boundary in a disposable repository and recover without duplicates, overwrites or force pushes.
+- [x] Accept the next actual producer observation, including the new ordering-contract release if available; retain the first accepted directory unchanged. Public workflow `36178454989` accepts `ca32e6b7…` alongside retained `ccdbf3e4…`.
+- [x] Reproduce both from public receipts. Report raw-source change, observation membership change and representation change separately. Local full-bundle acceptance and public product readback agree for the bounded selection; legal dates remain unresolved.
+- [x] For unchanged qualified bodies, show no textual amendment while retaining the second observation time and provenance.
+- [x] Interrupt publication at the product/receipt boundary in a disposable repository and recover without duplicates, overwrites or force pushes.
 - [ ] Exercise fresh installation and ordinary-token execution. Distinguish a fresh checkout from a literal clean-fork run; do not claim the latter without executing it. If no authorized independent fork target is available, record that exact remaining acceptance dependency.
 - [ ] Independently clone/download the published result, verify old bytes and commit reachability, and regenerate the selected product offline.
 - [ ] Close history #8 and the replacement-publication part of main #7 only after their actual acceptance is met.
