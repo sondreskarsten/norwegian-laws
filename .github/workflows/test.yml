@@ -6,6 +6,9 @@ on:
     paths:
       - 'lovdata-loader/**'
       - 'lovdata-publisher/**'
+      - '.github/scripts/**'
+      - '.github/tests/**'
+      - '.github/workflows/**'
   pull_request:
     branches: [main]
 
@@ -21,11 +24,13 @@ jobs:
 
       - name: Install packages and test dependencies
         run: |
-          pip install -e "lovdata-loader/[test]"
-          pip install -e "lovdata-publisher/[test]"
+          pip install -e "lovdata-loader/[test]" -e "lovdata-publisher/[test]"
 
       - name: Run loader tests
         run: cd lovdata-loader && pytest tests/ -v
 
       - name: Run publisher tests
         run: cd lovdata-publisher && pytest tests/ -v
+
+      - name: Verify publication and push failure handling
+        run: python -m pytest .github/tests -q

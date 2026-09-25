@@ -11,9 +11,13 @@ permissions:
 
 jobs:
   sync:
+    if: vars.GCS_BUCKET != '' && vars.GCP_WIF_PROVIDER != '' && vars.GCP_SERVICE_ACCOUNT != ''
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Stage only committed public product files
+        run: python .github/scripts/publication.py stage --output "$RUNNER_TEMP/law-publication"
 
       - id: auth
         uses: google-github-actions/auth@v2
@@ -23,6 +27,8 @@ jobs:
 
       - uses: google-github-actions/setup-gcloud@v2
 
-      - name: Sync repo to GCS bucket
+      - name: Sync public product files to GCS bucket
+        env:
+          GCS_BUCKET: ${{ vars.GCS_BUCKET }}
         run: |
-          gsutil -m rsync -r -d -x '\.git/.*' . gs://${{ vars.GCS_BUCKET }}/
+          gsutil -m rsync -r -d "$RUNNER_TEMP/law-publication" "gs://$GCS_BUCKET/"

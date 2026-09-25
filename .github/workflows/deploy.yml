@@ -3,6 +3,7 @@ name: Update laws and deploy book
 on:
   repository_dispatch:
     types: [lovdata-updated]
+  workflow_dispatch:
   push:
     branches: [main]
     paths:
@@ -11,6 +12,7 @@ on:
       - 'book/**'
       - '_quarto.yml'
       - '.github/workflows/deploy.yml'
+      - '.github/scripts/**'
 
 permissions:
   contents: write
@@ -28,6 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
+      source_sha: ${{ steps.commit.outputs.source_sha }}
     steps:
       - uses: actions/checkout@v4
 
@@ -35,25 +38,12 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install pipeline
-        run: pip install -e lovdata-loader/ -e lovdata-publisher/
+      - name: Install pipeline and verification dependencies
+        run: pip install -e 'lovdata-loader/[test]' -e 'lovdata-publisher/[test]'
 
-      - name: Compute week key for cache
-        id: weekkey
-        run: echo "key=$(date -u +%Y-W%U)" >> $GITHUB_OUTPUT
-
-      - name: Cache Lovdata archives (weekly)
-        uses: actions/cache@v4
-        with:
-          path: |
-            snapshot/gjeldende-lover.tar.bz2
-            snapshot/gjeldende-sentrale-forskrifter.tar.bz2
-            snapshot/lovtidend-avd1-2001-2025.tar.bz2
-          # No restore-keys: a prefix fallback restores last week's archives,
-          # download_file then skips (files exist), and the stale archives get
-          # re-saved under the new week key — the cache never refreshes again.
-          # Exact weekly key = cold download every Monday, reuse rest of week.
-          key: lovdata-archives-${{ steps.weekkey.outputs.key }}
+      - name: Verify pipeline before processing production input
+        run: |
+          python -m pytest lovdata-loader/tests lovdata-publisher/tests .github/tests -q
 
       - name: Download and parse laws
         run: lovdata-load --download --output snapshot
@@ -127,12 +117,10 @@ jobs:
           SUMMARY: ${{ steps.ai.outputs.response }}
         run: python3 .github/scripts/inject_summary.py
 
-      - name: Refresh Lovdata manifest state file
+      - name: Record the manifest actually processed
         run: |
           mkdir -p .github/state
-          curl -sf https://api.lovdata.no/v1/publicData/list \
-            | jq -S 'sort_by(.filename) | map({filename, lastModified, sizeBytes})' \
-            > .github/state/lovdata-manifest.json
+          cp snapshot/source-manifest.json .github/state/lovdata-manifest.json
 
       - name: Commit law updates
         id: commit
@@ -155,42 +143,39 @@ jobs:
             else
               git commit -m "Oppdater lover og forskrifter fra Lovdata API $(date +%Y-%m-%d) [skip ci]"
             fi
-            # Race with concurrent developer pushes is possible during a 10-minute run.
-            # Rebase onto whatever landed on main while we were running, then push.
-            for attempt in 1 2 3; do
-              if git push; then
-                break
-              fi
-              echo "Push attempt $attempt failed, rebasing and retrying..."
-              git pull --rebase origin main || { echo "Rebase failed, aborting"; exit 1; }
-              sleep 2
-            done
+            python .github/scripts/push_main.py
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
+          echo "source_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: Upload snapshot for deploy-book
         uses: actions/upload-artifact@v4
         with:
           name: snapshot
-          path: snapshot/amendments.db
-          retention-days: 1
+          path: |
+            snapshot/manifest.json
+            snapshot/source-manifest.json
+            snapshot/amendments.db
+            snapshot/laws/
+            snapshot/forskrifter/
+          retention-days: 7
           if-no-files-found: error
 
   deploy-book:
     needs: update-laws
-    if: always()
+    if: needs.update-laws.result == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ needs.update-laws.outputs.source_sha }}
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
       - name: Install pipeline
-        run: pip install -e lovdata-publisher/
+        run: pip install -e lovdata-loader/ -e lovdata-publisher/
 
       - uses: quarto-dev/quarto-actions/setup@v2
 
@@ -227,6 +212,13 @@ jobs:
       - name: Generate per-law HTML pages and full-text search index
         run: lovdata-publish --post-render --output . --site-dir _site
 
+      - name: Include publication identity in the site
+        env:
+          SOURCE_SHA: ${{ needs.update-laws.outputs.source_sha }}
+        run: |
+          python .github/scripts/publication.py receipt --sha "$SOURCE_SHA" \
+            --manifest snapshot/source-manifest.json --output _site/publication.json
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
@@ -234,9 +226,42 @@ jobs:
           branch: gh-pages
           clean: true
 
-  chain-downstream:
+      - name: Verify the published source identity through the public site
+        env:
+          SOURCE_SHA: ${{ needs.update-laws.outputs.source_sha }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
+        run: |
+          python .github/scripts/publication.py verify --sha "$SOURCE_SHA" \
+            --manifest snapshot/source-manifest.json --url "$SITE_URL/publication.json"
+
+  acknowledge-delivery:
     needs: [update-laws, deploy-book]
-    if: needs.update-laws.result == 'success' && needs.deploy-book.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/download-artifact@v4
+        with:
+          name: snapshot
+          path: snapshot/
+      - name: Acknowledge only the source verified on the public site
+        env:
+          SOURCE_SHA: ${{ needs.update-laws.outputs.source_sha }}
+        run: |
+          cp snapshot/source-manifest.json .github/state/lovdata-published.json
+          python .github/scripts/publication.py receipt --sha "$SOURCE_SHA" \
+            --manifest snapshot/source-manifest.json --output .github/state/publication.json
+          git config user.name "Lovtidend"
+          git config user.email "lovtidend@lovdata.no"
+          git add .github/state/lovdata-published.json .github/state/publication.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Record verified current-law publication [skip ci]"
+            python .github/scripts/push_main.py
+          fi
+
+  chain-downstream:
+    needs: [update-laws, deploy-book, acknowledge-delivery]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -246,12 +271,13 @@ jobs:
       # law-history and gcs-sync went silent after the event-driven redesign.
       # workflow_dispatch is exempt from that restriction, so chain explicitly.
       - name: Dispatch law-history
+        if: vars.ENABLE_LEGACY_HISTORY == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run law-history.yml --ref main
 
       - name: Dispatch gcs-sync
-        if: needs.update-laws.outputs.changed == 'true'
+        if: vars.GCS_BUCKET != '' && vars.GCP_WIF_PROVIDER != '' && vars.GCP_SERVICE_ACCOUNT != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run gcs-sync.yml --ref main

@@ -168,6 +168,12 @@ class Manifest:
     law_count: int
     amendment_act_count: int
     amendment_count: int
+    # Version 2 counts describe persisted unique identities, not parsed inputs.
+    forskrift_count: int = 0
+    forskrifter_archive: str = ""
+    artifact_hashes: dict[str, str] = field(default_factory=dict)
+    duplicate_policy: str = "last-occurrence-wins"
+    duplicate_counts: dict[str, int] = field(default_factory=dict)
 
     def to_json(self, indent: int = 1) -> str:
         return json.dumps(asdict(self), ensure_ascii=False, indent=indent)

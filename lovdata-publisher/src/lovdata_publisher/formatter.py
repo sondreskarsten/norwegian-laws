@@ -186,33 +186,30 @@ def format_all_laws(snapshot_dir: str, output_dir: str) -> dict[str, str]:
     Returns:
         Dict mapping refid → relative filepath of the written Markdown file.
     """
+    from .snapshot import validate_snapshot
+
+    validate_snapshot(snapshot_dir)
     snapshot = Path(snapshot_dir)
     output = Path(output_dir)
-    (output / "lover").mkdir(parents=True, exist_ok=True)
-    (output / "forskrifter").mkdir(parents=True, exist_ok=True)
-
-    results = {}
-
+    # Render every document before any writes or pruning. A malformed later
+    # document must not leave a partially updated corpus behind.
+    prepared = []
     for subdir in ["laws", "forskrifter"]:
         src = snapshot / subdir
-        if not src.exists():
-            continue
         json_files = sorted(src.glob("*.json"))
-        for i, path in enumerate(json_files):
-            data = json.loads(path.read_text(encoding="utf-8"))
-            refid = data.get("refid", "")
-            if not refid:
-                continue
+        for path in json_files:
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                prepared.append((data["refid"], refid_to_filepath(data["refid"]), format_law_markdown(data)))
+            except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
+                raise ValueError(f"Invalid snapshot document {path}: {exc}") from exc
 
-            md = format_law_markdown(data)
-            filepath = refid_to_filepath(refid)
-            full_path = output / filepath
-            full_path.parent.mkdir(parents=True, exist_ok=True)
-            full_path.write_text(md, encoding="utf-8")
-            results[refid] = filepath
-
-            if (i + 1) % 200 == 0:
-                print(f"  Formatted {i + 1}/{len(json_files)} {subdir}...")
+    (output / "lover").mkdir(parents=True, exist_ok=True)
+    (output / "forskrifter").mkdir(parents=True, exist_ok=True)
+    results = {}
+    for refid, filepath, markdown in prepared:
+        (output / filepath).write_text(markdown, encoding="utf-8")
+        results[refid] = filepath
 
     # Prune Markdown for documents the snapshot no longer contains (repealed
     # laws, withdrawn forskrifter). Without this the corpus is add-only and

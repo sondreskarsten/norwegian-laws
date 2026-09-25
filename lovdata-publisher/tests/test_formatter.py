@@ -118,6 +118,7 @@ class TestFormatArticleTrailingText:
 class TestFormatAllLawsPruning:
     def _snapshot(self, tmp_path, laws=(), forskrifter=()):
         import json
+        import sqlite3
         snap = tmp_path / "snapshot"
         for sub, items in [("laws", laws), ("forskrifter", forskrifter)]:
             d = snap / sub
@@ -127,6 +128,20 @@ class TestFormatAllLawsPruning:
                     json.dumps({"refid": refid, "title": title, "sections": []}),
                     encoding="utf-8",
                 )
+        with sqlite3.connect(snap / "amendments.db") as conn:
+            conn.executescript("""
+                CREATE TABLE amendment_acts (refid TEXT PRIMARY KEY, filename TEXT,
+                  title TEXT, short_title TEXT, date_in_force TEXT, date_in_force_resolved TEXT,
+                  is_deferred INTEGER, date_published TEXT, ministry TEXT, changes_to TEXT,
+                  misc_info TEXT, journal_number TEXT, amendment_count INTEGER);
+                CREATE TABLE amendments (id INTEGER PRIMARY KEY, act_refid TEXT,
+                  change_type TEXT, target TEXT, target_law TEXT, instruction TEXT, new_text TEXT);
+            """)
+        (snap / "manifest.json").write_text(json.dumps({
+            "version": 1, "created_at": "2026-09-25T00:00:00+00:00", "loader_version": "0.1.0",
+            "gjeldende_archive": "", "lovtidend_archives": [], "law_count": len(laws),
+            "forskrift_count": len(forskrifter), "amendment_act_count": 0, "amendment_count": 0,
+        }), encoding="utf-8")
         return snap
 
     def test_prunes_md_absent_from_snapshot(self, tmp_path):
