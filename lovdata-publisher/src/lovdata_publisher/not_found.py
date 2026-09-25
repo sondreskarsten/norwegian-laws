@@ -39,7 +39,8 @@ def _prior_readers(archive_commit: str | None) -> dict:
                 or type(row["bytes"]) is not int or row["bytes"] <= 0):
             raise ValueError("Invalid prior-reader copy identity")
         item = {"title": row["title"], "sha256": row["sha256"],
-                "copy": f'https://github.com/{catalog["source_repository"]}/blob/{catalog["parent_commit"]}/{path}'}
+                "copy": f'https://github.com/{catalog["source_repository"]}/blob/{catalog["parent_commit"]}/{path}',
+                "download": f'https://raw.githubusercontent.com/{catalog["source_repository"]}/{catalog["parent_commit"]}/{path}'}
         if archive_commit:
             archive = f"https://github.com/sondreskarsten/norwegian-laws-history/blob/{archive_commit}/reader-archive/"
             item["archive"] = archive + "index.md"
@@ -53,6 +54,7 @@ def _prior_readers(archive_commit: str | None) -> dict:
 def generate_not_found_page(
     site_dir: str = "_site", *, site_index=None, site_base: str = SITE_BASE,
     history_archive_commit: str | None = HISTORY_ARCHIVE_COMMIT,
+    capture_repository=None,
 ) -> str:
     """Write 404.html with navigation that also works at deeply nested URLs.
 
@@ -77,8 +79,12 @@ def generate_not_found_page(
     def link(path: str) -> str:
         return html.escape(base_path + path, quote=True)
 
+    from .reader_archive import published_captures, write_archive_page
+    prior = _prior_readers(history_archive_commit)
+    captured = published_captures(capture_repository) if capture_repository is not None else {}
+    write_archive_page(site, prior, captured, base_path)
     config = json.dumps({"base": base_path, "history": history,
-                         "priorReaders": _prior_readers(history_archive_commit)}, ensure_ascii=False)
+                         "priorReaders": prior, "capturedReaders": captured}, ensure_ascii=False)
     # Keep serialized strings inside their script element even for unusual slugs.
     config = config.replace("&", "\\u0026").replace("<", "\\u003c").replace(">", "\\u003e")
     page = r"""<!DOCTYPE html>
@@ -142,7 +148,9 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #dee2e6; c
 <p class="reader-status">Avledet tekst · Rettslig status ukjent</p>
 <p>Dette er en tidligere publisert lesekopi, bearbeidet fra kildeteksten. Den kan inneholde feil og bekrefter ikke hva som gjaldt på en bestemt dato. Kildedato og eventuell opphevelse er ikke dokumentert her.</p>
 <p><a id="prior-reader-copy" class="reader-link">Les kopien på GitHub →</a></p>
+<p><a id="prior-reader-download" hidden>Last ned den bevarte Markdown-filen</a></p>
 <p id="prior-reader-provenance" class="reader-provenance" hidden><a id="prior-reader-record">Se kopiens opphav</a><a id="prior-reader-archive">Bla i arkivet med 105 lesekopier</a></p>
+<ul id="prior-reader-versions" hidden></ul>
 </section>
 <p>Bruk identifikatoren når du søker, eller prøv dokumentets sider hos Lovdata.</p>
 <ul>
@@ -157,6 +165,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #dee2e6; c
 <div class="routes" aria-label="Finn fram">
 <section class="route"><h2><a href="__SEARCH__">Søk i lover og forskrifter →</a></h2><p>Finn gjeldende dokumenter etter navn, korttittel eller identifikator.</p></section>
 <section class="route"><h2><a href="__HISTORY__">Versjoner og historikk →</a></h2><p>Se oversikten over tidligere versjoner og veier til endringshistorikk.</p></section>
+<section class="route"><h2><a href="__ARCHIVE__">Bevarte lesekopier →</a></h2><p>Bla i tidligere kopier med dokumentert opphav.</p></section>
 <section class="route"><h2><a href="__HOME__">Gå til forsiden →</a></h2><p>Bla i samlingen etter departement eller rettsområde.</p></section>
 <section class="route"><h2><a href="https://lovdata.no/">Søk hos Lovdata →</a></h2><p>Finn kildeteksten og informasjon om dokumentets status.</p></section>
 </div>
@@ -190,16 +199,32 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #dee2e6; c
   document.getElementById("source-archive").href = "https://lovdata.no/dokument/" + archive + "/" + refid;
   var savedFile = (kind === "lov" ? "lover/lov-" : "forskrifter/forskrift-") + match[2] + ".md";
   document.getElementById("stored-copies").href = "https://github.com/sondreskarsten/norwegian-laws/commits/main/" + savedFile;
-  if (Object.prototype.hasOwnProperty.call(config.priorReaders, refid)) {
-    var copy = config.priorReaders[refid];
+  var versions = config.capturedReaders[refid] || [];
+  if (Object.prototype.hasOwnProperty.call(config.priorReaders, refid)) versions = versions.concat([config.priorReaders[refid]]);
+  if (versions.length) {
+    var copy = versions[0];
     document.getElementById("prior-reader-title").textContent = copy.title;
     document.getElementById("prior-reader-copy").href = copy.copy;
-    if (copy.provenance && copy.archive) {
+    if (copy.download) {
+      document.getElementById("prior-reader-download").href = copy.download;
+      document.getElementById("prior-reader-download").hidden = false;
+    }
+    if (copy.provenance) {
       document.getElementById("prior-reader-record").href = copy.provenance;
-      document.getElementById("prior-reader-archive").href = copy.archive;
+      document.getElementById("prior-reader-archive").href = config.base + "reader-archive.html";
+      document.getElementById("prior-reader-archive").textContent = "Bla i bevarte lesekopier";
       document.getElementById("prior-reader-provenance").hidden = false;
     }
     document.getElementById("prior-reader").hidden = false;
+    if (versions.length > 1) {
+      var list = document.getElementById("prior-reader-versions");
+      versions.forEach(function (version, index) {
+        var item = document.createElement("li"), anchor = document.createElement("a");
+        anchor.href = version.copy; anchor.textContent = "Bevart kopi " + (index + 1);
+        item.appendChild(anchor); list.appendChild(item);
+      });
+      list.hidden = false;
+    }
   }
   if (Object.prototype.hasOwnProperty.call(config.history, refid)) {
     document.getElementById("document-history").href = config.history[refid];
@@ -212,7 +237,7 @@ footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid #dee2e6; c
 </html>
 """
     page = page.replace("__HOME__", link("index.html")).replace("__SEARCH__", link("book/sok.html"))
-    page = page.replace("__HISTORY__", link("book/versjoner.html")).replace("__CONFIG__", config)
+    page = page.replace("__HISTORY__", link("book/versjoner.html")).replace("__ARCHIVE__", link("reader-archive.html")).replace("__CONFIG__", config)
     site.mkdir(parents=True, exist_ok=True)
     output = site / "404.html"
     output.write_text(page, encoding="utf-8", newline="\n")

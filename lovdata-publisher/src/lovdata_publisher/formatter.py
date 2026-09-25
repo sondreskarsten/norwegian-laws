@@ -251,19 +251,32 @@ def format_law_markdown(law: dict) -> str:
     return "\n".join(lines)
 
 
-def format_all_laws(snapshot_dir: str, output_dir: str) -> dict[str, str]:
+def format_all_laws(snapshot_dir: str, output_dir: str, *,
+                    capture_repository: str | Path | None = None,
+                    expected_head: str | None = None) -> dict[str, str]:
     """Read all law and forskrift JSONs from a snapshot and write Markdown files.
 
     Args:
         snapshot_dir: Path to the snapshot directory.
         output_dir: Path to write lover/*.md and forskrifter/*.md files.
+        capture_repository: Opt in to exact prior-reader capture in this Git root.
+        expected_head: Expected starting Git commit; defaults to actual HEAD.
 
     Returns:
         Dict mapping refid → relative filepath of the written Markdown file.
     """
     from .snapshot import validate_snapshot
 
-    validate_snapshot(snapshot_dir)
+    capture_head = None
+    if capture_repository is not None:
+        from .reader_exits import git_head, assert_head, _capture_validated
+        if Path(output_dir).resolve() != Path(capture_repository).resolve():
+            raise ValueError("Reader capture repository must be the formatter output root")
+        capture_head = expected_head or git_head(capture_repository)
+        assert_head(capture_repository, capture_head)
+    elif expected_head is not None:
+        raise ValueError("expected_head requires capture_repository")
+    manifest = validate_snapshot(snapshot_dir)
     snapshot = Path(snapshot_dir)
     output = Path(output_dir)
     # Render every document before any writes or pruning. A malformed later
@@ -279,6 +292,18 @@ def format_all_laws(snapshot_dir: str, output_dir: str) -> dict[str, str]:
             except (OSError, ValueError, KeyError, TypeError, AttributeError) as exc:
                 raise ValueError(f"Invalid snapshot document {path}: {exc}") from exc
 
+    written = {filepath for _, filepath, _ in prepared}
+    written_dirs = {fp.split("/", 1)[0] for fp in written}
+    stale_paths = []
+    for out_subdir, prefix in [("lover", "lov-"), ("forskrifter", "forskrift-")]:
+        if out_subdir in written_dirs:
+            stale_paths.extend(path for path in (output / out_subdir).glob(f"{prefix}*.md")
+                               if f"{out_subdir}/{path.name}" not in written)
+    if capture_repository is not None:
+        _capture_validated(capture_repository, snapshot, [path.relative_to(output).as_posix() for path in stale_paths],
+                           expected_head=capture_head, manifest=manifest)
+        assert_head(capture_repository, capture_head)
+
     (output / "lover").mkdir(parents=True, exist_ok=True)
     (output / "forskrifter").mkdir(parents=True, exist_ok=True)
     results = {}
@@ -286,21 +311,16 @@ def format_all_laws(snapshot_dir: str, output_dir: str) -> dict[str, str]:
         (output / filepath).write_text(markdown, encoding="utf-8")
         results[refid] = filepath
 
-    # Prune Markdown for documents the snapshot no longer contains (repealed
-    # laws, withdrawn forskrifter). Without this the corpus is add-only and
-    # ships repealed documents as gjeldende. Each output subdir is pruned
-    # only when this run wrote at least one file into it, so a partial
-    # snapshot cannot wipe an entire corpus directory.
-    written = set(results.values())
-    written_dirs = {fp.split("/", 1)[0] for fp in written}
+    # Observed absence does not establish repeal or any legal date. Each output
+    # subdir is pruned only when this run wrote at least one file into it, so a
+    # partial snapshot cannot wipe an entire corpus directory. Opted-in capture
+    # already retained every stale reader before the first current-page write.
+    if capture_repository is not None:
+        assert_head(capture_repository, capture_head)
     pruned = 0
-    for out_subdir, prefix in [("lover", "lov-"), ("forskrifter", "forskrift-")]:
-        if out_subdir not in written_dirs:
-            continue
-        for stale in (output / out_subdir).glob(f"{prefix}*.md"):
-            if f"{out_subdir}/{stale.name}" not in written:
-                stale.unlink()
-                pruned += 1
+    for stale in stale_paths:
+        stale.unlink()
+        pruned += 1
     if pruned:
         print(f"  Pruned {pruned} Markdown files for documents absent from the snapshot")
 

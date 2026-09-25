@@ -6,6 +6,32 @@ maps 20 user stories to ten delivery packages, including historical-date reconst
 **All work continues in the existing task; cloud setup and handoff are removed from scope.**
 Use this backlog for delivery evidence and the plan for execution order; a bounded
 observation pilot does not complete the whole historical product.
+
+## Current delivery position
+
+The verified public reader through [PR #15](https://github.com/sondreskarsten/norwegian-laws/pull/15)
+uses source `9285be5a079532ed1c32f60fd782027c8219b90c`. Its subscription
+availability, compact lookup, exported counts and crosslinks were read back publicly.
+All five PR #14 container-order repairs were compared with their source; the
+patent appendix also passed visual readback. The older run receipts below remain
+historical evidence, not the current source identity.
+
+History now retains **three real observations** and five immutable qualified-body
+products. [History PR #11](https://github.com/sondreskarsten/norwegian-laws-history/pull/11)
+published the first two products and all **105 prior reader copies**;
+[PR #12](https://github.com/sondreskarsten/norwegian-laws-history/pull/12) published
+the mobile heading repair while preserving previous products. All 69 new product
+artifacts were read back. History #7 is closed; exact pinned-runtime reproduction
+and the literal clean-fork acceptance remain in #8. Qualified bodies still cover
+only three simple documents; full structure and legal-date reconstruction remain open.
+
+The next reader delivery adds future-exit capture, a browseable/downloadable copy
+archive, honest commencement/coverage labels and mobile activity/history repairs.
+These changes have passed local source/output and controlled Git checks; public
+readback is still required. Topic, ministry and activity membership/count audits
+passed against the public catalog and export; the next scheduled daily cycle and
+external notification delivery have not been established.
+
 **Current publishing repair is live and read back.**
 [Delivery run 36159622728](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36159622728)
 published source commit `8020b8f610171108d7f82c2f3811688a4605b918` on September 25.
@@ -102,14 +128,15 @@ merged as `810d60b4174fe3feda7bea37ad4310b237cd404e`. The reuse audit is complet
 [First real intake](https://github.com/sondreskarsten/norwegian-laws-history/actions/runs/36169832648)
 accepted public evidence and committed the ledger as
 `611153d93419437ba74a07ab07ce5067afabbbef`. Fresh independent exact-XML retrieval
-and idempotent production replay passed; history #3 is closed. A second real
-observation remains a separate delivery gate. The
+and idempotent production replay passed; history #3 is closed. Three real
+observations and immutable bounded products are now published; portability
+acceptance and full corpus support remain separate delivery gates. The
 legacy builder's synthetic baseline and guessed legal dates are not imported.
 
 | Open issue | Remaining deliverable and acceptance evidence |
 |---|---|
-| [history #8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | First public receipt/raw-source intake and exact XML retrieval delivered in closed [#3](https://github.com/sondreskarsten/norwegian-laws-history/issues/3). Add a second real observation using ordinary repository credentials. Initial output is observed-source history; authoritative legal reconstruction needs independently justified prior states. |
-| [history #4: structural gate](https://github.com/sondreskarsten/norwegian-laws-history/issues/4), [#5: canonical format](https://github.com/sondreskarsten/norwegian-laws-history/issues/5), [#6: temporal claims](https://github.com/sondreskarsten/norwegian-laws-history/issues/6), [#7: materialization](https://github.com/sondreskarsten/norwegian-laws-history/issues/7) | Preserve ordered source structure or reject canonical promotion; retain unknown legal time and operation evidence; publish deterministic, citable products without importing the synthetic legacy graph. |
+| [history #8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | Three real observations and bounded derived products are published using the ordinary repository token. Complete exact pinned-runtime independent reproduction and the literal clean-fork acceptance. |
+| [history #4: structural gate](https://github.com/sondreskarsten/norwegian-laws-history/issues/4), [#5: canonical format](https://github.com/sondreskarsten/norwegian-laws-history/issues/5), [#6: temporal claims](https://github.com/sondreskarsten/norwegian-laws-history/issues/6) | Expand the narrow structural grammar using the complete 5,874-document form inventory; publish operation evidence and scoped temporal claims. Materialization/publication mechanics are delivered in closed #7, with unsupported documents rejected explicitly. |
 | [#3: orphan v2000](https://github.com/sondreskarsten/norwegian-laws/issues/3) | Replace the hardcoded version range with an explicit supported-version catalog. Stop presenting the disconnected v2000 graph as a verified version; retain existing refs until an explicit migration decision. |
 | [#4: future-year ordering](https://github.com/sondreskarsten/norwegian-laws/issues/4) | Prevent future or unsupported years from appearing as completed historical snapshots. Verify the order and provenance of selectable checkpoints; the audit confirmed v2028 was behind v2026. |
 | [#5: inaccurate point-in-time claims](https://github.com/sondreskarsten/norwegian-laws/issues/5) | Correct version-page, diff and Git examples to describe the actual evidence and limitations. Display source basis, knowledge cutoff, legal-date certainty and reconstruction status for each supported result. |

@@ -542,7 +542,7 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '<div style="display:flex;gap:12px;flex-wrap:wrap;">',
         '<button id="diff-render" style="padding:8px 20px;background:#0969da;color:#fff;border:none;border-radius:4px;cursor:pointer;">Sammenlign tekst</button>',
         '<button id="diff-compare" style="padding:8px 20px;background:#fff;color:#0969da;border:1px solid #0969da;border-radius:4px;cursor:pointer;">Åpne på GitHub</button>',
-        '<button id="diff-log" style="padding:8px 20px;background:#fff;color:#24292f;border:1px solid #d0d7de;border-radius:4px;cursor:pointer;">Se endringslogg</button>',
+        '<button id="diff-log" style="padding:8px 20px;background:#fff;color:#24292f;border:1px solid #d0d7de;border-radius:4px;cursor:pointer;">Se uverifisert rekonstruksjonslogg</button>',
         '</div>',
         '<div id="diff-info" style="color:#666;font-size:0.9em;"></div>',
         '</div>',
@@ -927,7 +927,8 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
         lines = [f"# {dept}\n"]
         lines.append(f"*{len(laws)} lover*\n")
-        lines.append("| Lov | Korttittel | Lovdata | Historikk |")
+        lines.append("Logg- og årstalllenkene viser eldre, uverifiserte rekonstruksjoner, ikke bekreftet lovtekst på en bestemt dato.\n")
+        lines.append("| Lov | Korttittel | Lovdata | Uverifisert rekonstruksjon |")
         lines.append("|-----|-----------|---------|-----------|")
         for law in sorted(laws, key=lambda x: x["tittel"]):
             stem = law["file"].rsplit(".", 1)[0]
@@ -943,7 +944,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
                 f"[{t}]({GITHUB_BASE}/blob/{LEGACY_VERSION_REFS[t]}/lover/{law['file']})"
                 for t in vtags
             )
-            hist_cell = f"[log]({history}) · {version_links}"
+            hist_cell = f"[rekonstruksjonslogg]({history}) · {version_links}"
             lines.append(f"| {link} | {kort} | {lovdata_link} | {hist_cell} |")
         lines.append("")
 
@@ -961,7 +962,8 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
         lines = [f"# {dept}\n"]
         lines.append(f"*{len(forskrifter)} forskrifter*\n")
-        lines.append("| Forskrift | Lovdata | Historikk |")
+        lines.append("Logglenkene viser eldre, uverifiserte rekonstruksjoner, ikke bekreftet forskriftstekst på en bestemt dato.\n")
+        lines.append("| Forskrift | Lovdata | Uverifisert rekonstruksjon |")
         lines.append("|-----------|---------|-----------|")
         for forskrift in sorted(forskrifter, key=lambda x: x["tittel"]):
             stem = forskrift["file"].rsplit(".", 1)[0]
@@ -971,7 +973,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
             title = forskrift["tittel"][:80]
             link = f"[{title}]({page})"
             lovdata_link = f"[lovdata.no]({lovdata_url})"
-            hist_cell = f"[log]({history})"
+            hist_cell = f"[rekonstruksjonslogg]({history})"
             lines.append(f"| {link} | {lovdata_link} | {hist_cell} |")
         lines.append("")
 
@@ -1171,7 +1173,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         f"- [`{HISTORY_BRANCH}`-grenen]({GITHUB_BASE}/tree/{HISTORY_BRANCH}) inneholder den eldre rekonstruksjonen",
         "- [Eksperimentelle versjoner](book/versjoner.qmd) \u2014 sammenlign registrerte kopier",
         "- [Sammenlign lovversjon](book/diff.qmd) \u2014 velg en lov og to årstall for å se endringer",
-        "- Klikk \u00ablog\u00bb i lovtabellene for å se endringshistorikk for en enkelt lov\n",
+        "- Klikk \u00abrekonstruksjonslogg\u00bb i departementstabellene for å se den eldre, uverifiserte rekonstruksjonen av et dokument\n",
         "## Ansvarsfraskrivelse\n",
         "Denne samlingen er **uoffisiell** og oppdateres automatisk fra Lovdatas åpne API.",
         "For autoritativ lovtekst, se [lovdata.no](https://lovdata.no).",

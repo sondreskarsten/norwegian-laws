@@ -13,6 +13,12 @@ def main():
         description="Read a snapshot and produce formatted law outputs"
     )
     parser.add_argument(
+        "--capture-reader-exits",
+        type=Path,
+        help="Repository root in which to retain committed reader copies before current-corpus removal",
+    )
+    parser.add_argument("--capture-expected-head", help="Expected Git parent for reader-exit capture")
+    parser.add_argument(
         "--snapshot",
         default="snapshot",
         help="Snapshot directory to read (default: snapshot/)",
@@ -79,6 +85,8 @@ def main():
         help="Path to amendments.db (default: snapshot/amendments.db)",
     )
     args = parser.parse_args()
+    if args.capture_expected_head and not args.capture_reader_exits:
+        parser.error("--capture-expected-head requires --capture-reader-exits")
 
     from .snapshot import validate_snapshot
     try:
@@ -96,7 +104,9 @@ def main():
         print("=" * 60)
         print("Formatting laws to Markdown")
         print("=" * 60)
-        results = format_all_laws(args.snapshot, args.output)
+        capture_options = {"capture_repository": args.capture_reader_exits,
+                           "expected_head": args.capture_expected_head} if args.capture_reader_exits else {}
+        results = format_all_laws(args.snapshot, args.output, **capture_options)
         print(f"  Wrote {len(results)} law files to {args.output}/lover/")
 
         if db_path:
@@ -223,7 +233,7 @@ def main():
         )
 
         from .not_found import generate_not_found_page
-        generate_not_found_page(args.site_dir, site_index=site_index)
+        generate_not_found_page(args.site_dir, site_index=site_index, capture_repository=args.output)
 
         # Sitemap must run LAST since it indexes everything in _site/
         print()
