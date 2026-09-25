@@ -74,8 +74,11 @@ timestamp explicitly record it as unknown.
 raw archive/member membership and hashes, selected output bindings, complete
 parsed model membership, occurrence ordinals and counts. It does not rerun the
 parser or prove legal semantics. Replaying the same archives in the same role
-and scope order with the same parser/runtime produces identical member and
-parsed-amendment files; local observation timestamps are intentionally fresh.
+and scope order with the same parser/runtime reproduces the parsed-amendment
+file and source/model member identities. Selected output hashes also depend
+on materialization bytes (including the SQLite build); they bind those bytes
+without claiming cross-runtime database binary equivalence. Local observation
+timestamps are intentionally fresh.
 The separately generated release receipt is allowed at the snapshot root and
 is not part of its own hashed evidence bundle.
 
