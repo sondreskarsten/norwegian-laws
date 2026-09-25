@@ -522,7 +522,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../book/versjoner.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Stabile versjoner</span></a>
+ <span class="menu-text">Eksperimentelle versjoner</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -576,15 +576,16 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Velg en lov og to årsversjoner for å se endringer mellom dem. Diff hentes fra <a href="https://github.com/sondreskarsten/norwegian-laws/tree/law-history"><code>law-history</code>-grenen</a> og rendres direkte i nettleseren.</p>
-<div style="display:flex;flex-direction:column;gap:12px;max-width:600px;margin:16px 0;">
-<p><label for="diff-law" style="font-weight:600;">Velg lov:</label> <input type="text" id="diff-law-search" placeholder="Søk etter lov eller forskrift..." style="padding:8px;border:1px solid #ccc;border-radius:4px;"> <select id="diff-law" size="6" style="padding:4px;border:1px solid #ccc;border-radius:4px;"></select></p>
-<div style="display:flex;gap:16px;">
-<div style="flex:1;">
-<p><label for="diff-from" style="font-weight:600;">Fra versjon:</label> <select id="diff-from" style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;"></select></p>
+<p><strong>Eksperimentell historikk:</strong> Utgavene er uverifiserte rekonstruksjoner. De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato. Ikrafttredelse og historiske tekster må kontrolleres mot kilden.</p>
+<p>Velg en lov og to lagrede utgaver for å sammenligne tekst. Sammenligningen bruker faste, registrerte kopier av den eldre historikken.</p>
+<div style="display:flex;flex-direction:column;gap:12px;width:100%;max-width:600px;min-width:0;margin:16px 0;">
+<p><label for="diff-law" style="font-weight:600;">Velg lov:</label> <input type="text" id="diff-law-search" placeholder="Søk etter lov eller forskrift..." style="width:100%;min-width:0;box-sizing:border-box;padding:8px;border:1px solid #ccc;border-radius:4px;"> <select id="diff-law" size="6" style="width:100%;min-width:0;box-sizing:border-box;padding:4px;border:1px solid #ccc;border-radius:4px;"></select></p>
+<div style="display:flex;gap:16px;flex-wrap:wrap;min-width:0;">
+<div style="flex:1 1 140px;min-width:0;">
+<p><label for="diff-from" style="font-weight:600;">Fra versjon:</label> <select id="diff-from" style="width:100%;min-width:0;box-sizing:border-box;padding:6px;border:1px solid #ccc;border-radius:4px;"></select></p>
 </div>
-<div style="flex:1;">
-<p><label for="diff-to" style="font-weight:600;">Til versjon:</label> <select id="diff-to" style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;"></select></p>
+<div style="flex:1 1 140px;min-width:0;">
+<p><label for="diff-to" style="font-weight:600;">Til versjon:</label> <select id="diff-to" style="width:100%;min-width:0;box-sizing:border-box;padding:6px;border:1px solid #ccc;border-radius:4px;"></select></p>
 </div>
 </div>
 <div style="display:flex;gap:12px;flex-wrap:wrap;">
@@ -602,7 +603,7 @@ Se endringslogg
 
 </div>
 </div>
-<div id="diff-output" style="margin-top:20px;">
+<div id="diff-output" style="width:100%;max-width:100%;min-width:0;overflow-x:auto;margin-top:20px;">
 
 </div>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/css/diff2html.min.css">
@@ -622,8 +623,16 @@ document.addEventListener("DOMContentLoaded", function() {
   var outDiv = document.getElementById("diff-output");
   var base = "https://github.com/sondreskarsten/norwegian-laws";
   var raw = "https://raw.githubusercontent.com/sondreskarsten/norwegian-laws";
+  var versionRefs = {"v2001": "5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e", "v2002": "46b02a1967fa3cf728590262511c89c938f0ff7d", "v2003": "dc44fe73c3a3c860c95e99dcab8d363704d2d7c0", "v2004": "d953213d240550c057329b154be1da6346eeefa3", "v2005": "40ccca141661ecd747ce48987ec3e3361b2a8844", "v2006": "011dc1833d83a8386cca5e1edc8ff5fba32674cd", "v2007": "a38654ef2cac6c5bfe8ecd7c09522022d7cad361", "v2008": "3374530ced584b9c5a5073143e3458049ae6a93d", "v2009": "119fdadb53f801870c6a88ea5ff66ec307c1b365", "v2010": "2acff3bc134462defaacd1433d9cd363b58aa3d7", "v2011": "69eefdb106a4b7a379ab0ecd9e6f490ad852526d", "v2012": "f447f5c423a997db8e276c313aa74e4b6bd51933", "v2013": "68299e105e21cbc29af1f1fe6a08a870490136f2", "v2014": "3ad57c417fd877a9b2b10ba8b08375febf4be490", "v2015": "f327ae8f6c6e7575fe02cc142554bb26b774c6b8", "v2016": "49e5140096f8b552d3525f1d5cf1228ba003a978", "v2017": "03d6d0f2fba897f681fdb7a5371d82267b1bc13e", "v2018": "1ce74661c39b1f8addc4b7d753f4f2a05f63968c", "v2019": "da5aa7d485eb33be2a319426343ddbb86ce71318", "v2020": "861fc8232103bb96b4855c936998e5081d823622", "v2021": "78f8e6ad8c63185207809fd85585437d34e93ebc", "v2022": "efc47b195e7b4b78c5900e4440b425fcd93c733c", "v2023": "2a073cc505669f0366f803aa36f8d6f286319f53", "v2024": "5375454b5a95be70a3742a3eefb819d75cb1f5be", "v2025": "e594d138414d3d561ece67e1626f72210919cafb", "v2026": "096496cd477308d5df2a6573a31ef3ab3a021af6"};
   var laws = [];
   var fuse = null;
+  var renderRequest = 0;
+
+  function clearDiff() {
+    renderRequest++;
+    outDiv.innerHTML = "";
+    infoDiv.textContent = "";
+  }
 
   function populateTags(sel, tags) {
     sel.innerHTML = "";
@@ -646,22 +655,21 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     if (list.length > 0) {
       lawSelect.selectedIndex = 0;
-      onLawSelect();
     }
+    onLawSelect();
   }
 
   function onLawSelect() {
+    clearDiff();
     var opt = lawSelect.options[lawSelect.selectedIndex];
-    if (!opt) return;
-    var tags = JSON.parse(opt.dataset.tags || "[]");
+    var tags = opt ? JSON.parse(opt.dataset.tags || "[]") : [];
+    tags = tags.filter(function(tag) { return Object.prototype.hasOwnProperty.call(versionRefs, tag); });
     populateTags(fromSelect, tags);
     populateTags(toSelect, tags);
     if (tags.length >= 2) {
       fromSelect.selectedIndex = Math.max(0, tags.length - 2);
       toSelect.selectedIndex = tags.length - 1;
     }
-    outDiv.innerHTML = "";
-    infoDiv.textContent = "";
   }
 
   fetch("../laws.json").then(function(r){return r.json()}).then(function(data) {
@@ -674,6 +682,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   lawSelect.addEventListener("change", onLawSelect);
+  fromSelect.addEventListener("change", clearDiff);
+  toSelect.addEventListener("change", clearDiff);
 
   lawSearch.addEventListener("input", function() {
     var q = lawSearch.value.trim();
@@ -683,6 +693,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   renderBtn.addEventListener("click", function() {
+    clearDiff();
+    var request = renderRequest;
     var path = lawSelect.value;
     var from = fromSelect.value;
     var to = toSelect.value;
@@ -690,17 +702,17 @@ document.addEventListener("DOMContentLoaded", function() {
     if (from === to) { infoDiv.textContent = "Velg to ulike versjoner."; return; }
     if (from > to) { var tmp = from; from = to; to = tmp; }
     infoDiv.textContent = "Henter " + from + " og " + to + "...";
-    outDiv.innerHTML = "";
     Promise.all([
-      fetch(raw + "/" + from + "/" + path).then(function(r){
+      fetch(raw + "/" + versionRefs[from] + "/" + path).then(function(r){
         if (!r.ok) throw new Error(from + ": HTTP " + r.status);
         return r.text();
       }),
-      fetch(raw + "/" + to + "/" + path).then(function(r){
+      fetch(raw + "/" + versionRefs[to] + "/" + path).then(function(r){
         if (!r.ok) throw new Error(to + ": HTTP " + r.status);
         return r.text();
       })
     ]).then(function(parts) {
+      if (request !== renderRequest) return;
       var oldText = parts[0];
       var newText = parts[1];
       if (oldText === newText) {
@@ -721,6 +733,7 @@ document.addEventListener("DOMContentLoaded", function() {
       ui.draw();
       infoDiv.textContent = "Diff " + from + " → " + to;
     }).catch(function(err) {
+      if (request !== renderRequest) return;
       infoDiv.textContent = "Kunne ikke hente: " + err.message;
     });
   });
@@ -728,10 +741,10 @@ document.addEventListener("DOMContentLoaded", function() {
   compareBtn.addEventListener("click", function() {
     var from = fromSelect.value;
     var to = toSelect.value;
-    if (!from || !to) { infoDiv.textContent = "Velg versjoner."; return; }
-    if (from === to) { infoDiv.textContent = "Velg to ulike versjoner."; return; }
+    if (!from || !to) { clearDiff(); infoDiv.textContent = "Velg versjoner."; return; }
+    if (from === to) { clearDiff(); infoDiv.textContent = "Velg to ulike versjoner."; return; }
     if (from > to) { var tmp = from; from = to; to = tmp; }
-    window.open(base + "/compare/" + from + "..." + to, "_blank");
+    window.open(base + "/compare/" + versionRefs[from] + "..." + versionRefs[to], "_blank");
   });
 
   logBtn.addEventListener("click", function() {
