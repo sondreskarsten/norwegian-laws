@@ -26,6 +26,16 @@ def model_tokens(law: dict) -> Counter:
     bag = Counter()
 
     def para(p):
+        if p.get("ordered_blocks"):
+            for block in p["ordered_blocks"]:
+                if block["kind"] == "text":
+                    bag.update(_tokens(block["text"]))
+                else:
+                    for it in block.get("list_items", []):
+                        bag.update(_tokens(it.get("marker", "")))
+                        for q in it.get("paragraphs", []):
+                            para(q)
+            return
         bag.update(_tokens(p.get("text", "")))
         bag.update(_tokens(p.get("trailing_text", "")))
         for it in p.get("list_items", []):

@@ -16,6 +16,11 @@ class ListAnomaly:
 
 def _walk_paragraphs(paragraphs, refid, article_name, metrics, anomalies):
     for para in paragraphs:
+        if para.get("ordered_blocks"):
+            _walk_paragraphs([block for block in para["ordered_blocks"]
+                              if block["kind"] == "list"],
+                             refid, article_name, metrics, anomalies)
+            continue
         ordered = bool(para.get("list_style"))
         for item in para.get("list_items", []):
             metrics["items"] += 1
@@ -48,5 +53,6 @@ def audit_law_lists(law: dict) -> dict:
 
     walk_sections(law.get("sections", []))
     walk_articles(law.get("top_level_articles", []))
+    _walk_paragraphs(law.get("top_level_paragraphs", []), refid, "", metrics, anomalies)
     metrics["anomalies"] = anomalies
     return metrics

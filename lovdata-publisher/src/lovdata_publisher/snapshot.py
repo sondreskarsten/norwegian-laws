@@ -2,7 +2,9 @@
 
 Version 1 supports the original manifest's three recorded counts. Version 2
 also requires a forskrift count and a complete SHA-256 inventory of generated
-artifacts (plus the source receipt, when present). Raw archives are deliberately
+artifacts (plus the source receipt, when present). Version 3 additionally permits
+ordered paragraph blocks under an explicit content and Markdown contract. Older
+versions retain their original paragraph interpretation. Raw archives are deliberately
 not required: publishers receive the verified snapshot artifact, not downloads.
 """
 from __future__ import annotations
@@ -34,7 +36,7 @@ def _regular_file(path: Path):
         raise ValueError(f"Missing or invalid snapshot artifact: {path}")
 
 
-def _validate_nodes(nodes, kind: str, path: Path):
+def _validate_nodes(nodes, kind: str, path: Path, version: int):
     if not isinstance(nodes, list):
         raise ValueError(f"Invalid snapshot {kind} list in {path}")
     child_fields = {
@@ -57,11 +59,36 @@ def _validate_nodes(nodes, kind: str, path: Path):
             if field in node and (not isinstance(node[field], list) or
                                   not all(isinstance(text, str) for text in node[field])):
                 raise ValueError(f"Invalid snapshot {kind}.{field} in {path}")
+        if kind == "paragraph":
+            blocks = node.get("ordered_blocks", [])
+            if not isinstance(blocks, list):
+                raise ValueError(f"Invalid ordered paragraph blocks in {path}")
+            if blocks:
+                if version < 3:
+                    raise ValueError(f"Ordered paragraph content requires snapshot version 3: {path}")
+                if any(node.get(field) for field in ("text", "list_items", "list_style", "trailing_text")):
+                    raise ValueError(f"Ordered paragraph cannot also contain legacy content: {path}")
+                for block in blocks:
+                    if (not isinstance(block, dict)
+                            or set(block) - {"kind", "text", "list_items", "list_style"}
+                            or not isinstance(block.get("text", ""), str)
+                            or not isinstance(block.get("list_style", ""), str)
+                            or not isinstance(block.get("list_items", []), list)):
+                        raise ValueError(f"Invalid ordered paragraph block in {path}")
+                    if block.get("kind") == "text":
+                        if not block.get("text", "").strip() or block.get("list_items") or block.get("list_style"):
+                            raise ValueError(f"Invalid ordered text block in {path}")
+                    elif block.get("kind") == "list":
+                        if block.get("text") or not block.get("list_items"):
+                            raise ValueError(f"Invalid ordered list block in {path}")
+                        _validate_nodes(block["list_items"], "item", path, version)
+                    else:
+                        raise ValueError(f"Unsupported ordered paragraph block in {path}")
         for field, child_kind in child_fields[kind]:
-            _validate_nodes(node.get(field, []), child_kind, path)
+            _validate_nodes(node.get(field, []), child_kind, path, version)
 
 
-def _validate_document(data, path: Path, prefix: str):
+def _validate_document(data, path: Path, prefix: str, version: int):
     if not isinstance(data, dict):
         raise ValueError(f"Snapshot document must be an object: {path}")
     refid = data.get("refid")
@@ -79,9 +106,9 @@ def _validate_document(data, path: Path, prefix: str):
         isinstance(text, str) for text in data.get("remainders", [])
     ):
         raise ValueError(f"Invalid snapshot document remainders: {path}")
-    _validate_nodes(data.get("sections", []), "section", path)
-    _validate_nodes(data.get("top_level_articles", []), "article", path)
-    _validate_nodes(data.get("top_level_paragraphs", []), "paragraph", path)
+    _validate_nodes(data.get("sections", []), "section", path, version)
+    _validate_nodes(data.get("top_level_articles", []), "article", path, version)
+    _validate_nodes(data.get("top_level_paragraphs", []), "paragraph", path, version)
 
 
 def _validate_database(path: Path, manifest: dict):
@@ -131,9 +158,14 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
     manifest_path = root / "manifest.json"
     _regular_file(manifest_path)
     manifest = _read_json(manifest_path)
-    if not isinstance(manifest, dict) or type(manifest.get("version")) is not int or manifest["version"] not in (1, 2):
+    if not isinstance(manifest, dict) or type(manifest.get("version")) is not int or manifest["version"] not in (1, 2, 3):
         raise ValueError("Invalid or unsupported snapshot manifest version")
     version = manifest["version"]
+    contracts = (("ordered-paragraph-blocks-v1", "law-markdown-ordered-html-v1") if version == 3
+                 else ("legacy-paragraphs-v1", "law-markdown-v1"))
+    for field, expected in zip(("content_version", "formatter_version"), contracts):
+        if manifest.get(field, expected if version < 3 else None) != expected:
+            raise ValueError(f"Unsupported snapshot content/formatter contract: {field}")
     for field in ("created_at", "loader_version", "gjeldende_archive"):
         if not isinstance(manifest.get(field), str):
             raise ValueError(f"Invalid snapshot manifest field: {field}")
@@ -147,15 +179,15 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
         directory = root / subdir
         if directory.is_symlink() or getattr(directory, "is_junction", lambda: False)():
             raise ValueError(f"Invalid snapshot artifact directory: {directory}")
-        if (version == 2 or subdir == "laws") and not directory.is_dir():
+        if (version >= 2 or subdir == "laws") and not directory.is_dir():
             raise ValueError(f"Missing snapshot artifact directory: {directory}")
         if directory.exists() and not directory.is_dir():
             raise ValueError(f"Invalid snapshot artifact directory: {directory}")
         paths = sorted(directory.glob("*.json"))
         for path in paths:
             _regular_file(path)
-            _validate_document(_read_json(path), path, prefix)
-        if version == 2 or subdir == "laws" or count_name in manifest:
+            _validate_document(_read_json(path), path, prefix, version)
+        if version >= 2 or subdir == "laws" or count_name in manifest:
             if len(paths) != _count(manifest, count_name):
                 raise ValueError(f"Snapshot {count_name} mismatch: manifest={manifest[count_name]}, actual={len(paths)}")
         artifact_paths.extend(paths)
@@ -185,7 +217,7 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
         if names != sorted(set(names)):
             raise ValueError("Snapshot source manifest must contain unique, sorted archives")
         artifact_paths.append(receipt)
-    if version == 2:
+    if version >= 2:
         _count(manifest, "forskrift_count")
         if not isinstance(manifest.get("forskrifter_archive"), str):
             raise ValueError("Invalid snapshot manifest field: forskrifter_archive")

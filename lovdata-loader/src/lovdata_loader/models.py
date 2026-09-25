@@ -8,6 +8,10 @@ from dataclasses import dataclass, field, asdict
 import json
 
 
+ORDERED_CONTENT_VERSION = "ordered-paragraph-blocks-v1"
+ORDERED_FORMATTER_VERSION = "law-markdown-ordered-html-v1"
+
+
 @dataclass
 class ListItem:
     """A single list item inside a legal paragraph.
@@ -24,12 +28,24 @@ class ListItem:
 
 
 @dataclass
+class ParagraphBlock:
+    """A text run or one list, in its observed position within a single ledd."""
+    kind: str
+    text: str = ""
+    list_items: list[ListItem] = field(default_factory=list)
+    list_style: str = ""
+
+
+@dataclass
 class Paragraph:
     """A legal paragraph (ledd) within an article."""
     text: str = ""
     list_items: list[ListItem] = field(default_factory=list)
     list_style: str = ""
     trailing_text: str = ""
+    # Only populated when the legacy text/list/trailing shape loses ordering.
+    # Ordered content is exclusive: legacy fields stay empty in that case.
+    ordered_blocks: list[ParagraphBlock] = field(default_factory=list)
 
 
 @dataclass
@@ -67,6 +83,11 @@ def _paragraph_from_dict(p: dict) -> Paragraph:
         list_items=[_listitem_from_dict(li) for li in p.get("list_items", [])],
         list_style=p.get("list_style", ""),
         trailing_text=p.get("trailing_text", ""),
+        ordered_blocks=[ParagraphBlock(
+            kind=block["kind"], text=block.get("text", ""),
+            list_items=[_listitem_from_dict(li) for li in block.get("list_items", [])],
+            list_style=block.get("list_style", ""),
+        ) for block in p.get("ordered_blocks", [])],
     )
 
 
@@ -131,6 +152,22 @@ class LawData:
         )
 
 
+def uses_ordered_content(law: LawData) -> bool:
+    """Whether any ledd needs the version-3 snapshot reader."""
+    def paragraphs(rows):
+        return any(p.ordered_blocks or any(paragraphs(item.paragraphs)
+                                          for item in p.list_items) for p in rows)
+
+    def articles(rows):
+        return any(paragraphs(article.paragraphs) for article in rows)
+
+    def sections(rows):
+        return any(articles(section.articles) or sections(section.subsections) for section in rows)
+
+    return bool(paragraphs(law.top_level_paragraphs)
+                or articles(law.top_level_articles) or sections(law.sections))
+
+
 @dataclass
 class Amendment:
     """A single amendment instruction within an amendment act."""
@@ -174,9 +211,18 @@ class Manifest:
     artifact_hashes: dict[str, str] = field(default_factory=dict)
     duplicate_policy: str = "last-occurrence-wins"
     duplicate_counts: dict[str, int] = field(default_factory=dict)
+    # Version 3 is required when a document uses ordered paragraph blocks.
+    # Version 1/2 retain the original flat-paragraph Markdown contract.
+    content_version: str = "legacy-paragraphs-v1"
+    formatter_version: str = "law-markdown-v1"
 
     def to_json(self, indent: int = 1) -> str:
-        return json.dumps(asdict(self), ensure_ascii=False, indent=indent)
+        data = asdict(self)
+        if self.version < 3:
+            # Preserve the v2 shape for older Manifest(**data) readers, too.
+            data.pop("content_version")
+            data.pop("formatter_version")
+        return json.dumps(data, ensure_ascii=False, indent=indent)
 
     @classmethod
     def from_dict(cls, d: dict) -> "Manifest":

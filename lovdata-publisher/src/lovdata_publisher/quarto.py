@@ -11,9 +11,15 @@ import sqlite3
 import yaml
 from pathlib import Path
 from collections import defaultdict
+from .legacy_versions import LEGACY_VERSION_REFS, supported_version_tags
 
 GITHUB_BASE = "https://github.com/sondreskarsten/norwegian-laws"
 HISTORY_BRANCH = "law-history"
+LEGACY_NOTICE = (
+    "**Eksperimentell historikk:** Utgavene er uverifiserte rekonstruksjoner. "
+    "De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato. "
+    "Ikrafttredelse og historiske tekster må kontrolleres mot kilden."
+)
 
 # Common abbreviations → refid (source: paragraf-mcp LOV_ALIASES, MIT license)
 LAW_ALIASES = {
@@ -171,6 +177,7 @@ def extract_year_from_refid(refid: str) -> int:
 
 
 def compute_version_links(refid: str, version_tags: list[str]) -> list[str]:
+    version_tags = supported_version_tags(version_tags)
     enacted_year = extract_year_from_refid(refid)
     first_tag_year = 2001
     start_year = max(enacted_year, first_tag_year)
@@ -221,8 +228,7 @@ def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str]
     that law has received since 2001. Useful for downstream consumers
     picking which laws to actively monitor.
     """
-    if version_tags is None:
-        version_tags = [f"v{y}" for y in range(2001, 2027)]
+    version_tags = supported_version_tags(version_tags)
     if amendment_counts is None:
         amendment_counts = {}
     laws = []
@@ -390,23 +396,25 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         'search: false',
         '---',
         '',
-        'Velg en lov og to årsversjoner for å se endringer mellom dem. Diff hentes fra',
-        f'[`{HISTORY_BRANCH}`-grenen]({GITHUB_BASE}/tree/{HISTORY_BRANCH}) og rendres direkte i nettleseren.',
+        LEGACY_NOTICE,
         '',
-        '<div style="display:flex;flex-direction:column;gap:12px;max-width:600px;margin:16px 0;">',
+        'Velg en lov og to lagrede utgaver for å sammenligne tekst. Sammenligningen bruker',
+        'faste, registrerte kopier av den eldre historikken.',
+        '',
+        '<div style="display:flex;flex-direction:column;gap:12px;width:100%;max-width:600px;min-width:0;margin:16px 0;">',
         '<label for="diff-law" style="font-weight:600;">Velg lov:</label>',
         '<input type="text" id="diff-law-search" placeholder="Søk etter lov eller forskrift..."',
-        '  style="padding:8px;border:1px solid #ccc;border-radius:4px;">',
-        '<select id="diff-law" size="6" style="padding:4px;border:1px solid #ccc;border-radius:4px;"></select>',
+        '  style="width:100%;min-width:0;box-sizing:border-box;padding:8px;border:1px solid #ccc;border-radius:4px;">',
+        '<select id="diff-law" size="6" style="width:100%;min-width:0;box-sizing:border-box;padding:4px;border:1px solid #ccc;border-radius:4px;"></select>',
         '',
-        '<div style="display:flex;gap:16px;">',
-        '<div style="flex:1;">',
+        '<div style="display:flex;gap:16px;flex-wrap:wrap;min-width:0;">',
+        '<div style="flex:1 1 140px;min-width:0;">',
         '<label for="diff-from" style="font-weight:600;">Fra versjon:</label>',
-        '<select id="diff-from" style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;"></select>',
+        '<select id="diff-from" style="width:100%;min-width:0;box-sizing:border-box;padding:6px;border:1px solid #ccc;border-radius:4px;"></select>',
         '</div>',
-        '<div style="flex:1;">',
+        '<div style="flex:1 1 140px;min-width:0;">',
         '<label for="diff-to" style="font-weight:600;">Til versjon:</label>',
-        '<select id="diff-to" style="width:100%;padding:6px;border:1px solid #ccc;border-radius:4px;"></select>',
+        '<select id="diff-to" style="width:100%;min-width:0;box-sizing:border-box;padding:6px;border:1px solid #ccc;border-radius:4px;"></select>',
         '</div>',
         '</div>',
         '',
@@ -418,7 +426,7 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '<div id="diff-info" style="color:#666;font-size:0.9em;"></div>',
         '</div>',
         '',
-        '<div id="diff-output" style="margin-top:20px;"></div>',
+        '<div id="diff-output" style="width:100%;max-width:100%;min-width:0;overflow-x:auto;margin-top:20px;"></div>',
         '',
         '```{=html}',
         '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/css/diff2html.min.css">',
@@ -438,8 +446,16 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '  var outDiv = document.getElementById("diff-output");',
         f'  var base = "{GITHUB_BASE}";',
         '  var raw = "https://raw.githubusercontent.com/sondreskarsten/norwegian-laws";',
+        f'  var versionRefs = {json.dumps(LEGACY_VERSION_REFS)};',
         '  var laws = [];',
         '  var fuse = null;',
+        '  var renderRequest = 0;',
+        '',
+        '  function clearDiff() {',
+        '    renderRequest++;',
+        '    outDiv.innerHTML = "";',
+        '    infoDiv.textContent = "";',
+        '  }',
         '',
         '  function populateTags(sel, tags) {',
         '    sel.innerHTML = "";',
@@ -462,22 +478,21 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '    });',
         '    if (list.length > 0) {',
         '      lawSelect.selectedIndex = 0;',
-        '      onLawSelect();',
         '    }',
+        '    onLawSelect();',
         '  }',
         '',
         '  function onLawSelect() {',
+        '    clearDiff();',
         '    var opt = lawSelect.options[lawSelect.selectedIndex];',
-        '    if (!opt) return;',
-        '    var tags = JSON.parse(opt.dataset.tags || "[]");',
+        '    var tags = opt ? JSON.parse(opt.dataset.tags || "[]") : [];',
+        '    tags = tags.filter(function(tag) { return Object.prototype.hasOwnProperty.call(versionRefs, tag); });',
         '    populateTags(fromSelect, tags);',
         '    populateTags(toSelect, tags);',
         '    if (tags.length >= 2) {',
         '      fromSelect.selectedIndex = Math.max(0, tags.length - 2);',
         '      toSelect.selectedIndex = tags.length - 1;',
         '    }',
-        '    outDiv.innerHTML = "";',
-        '    infoDiv.textContent = "";',
         '  }',
         '',
         '  fetch("../laws.json").then(function(r){return r.json()}).then(function(data) {',
@@ -490,6 +505,8 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '  });',
         '',
         '  lawSelect.addEventListener("change", onLawSelect);',
+        '  fromSelect.addEventListener("change", clearDiff);',
+        '  toSelect.addEventListener("change", clearDiff);',
         '',
         '  lawSearch.addEventListener("input", function() {',
         '    var q = lawSearch.value.trim();',
@@ -499,6 +516,8 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '  });',
         '',
         '  renderBtn.addEventListener("click", function() {',
+        '    clearDiff();',
+        '    var request = renderRequest;',
         '    var path = lawSelect.value;',
         '    var from = fromSelect.value;',
         '    var to = toSelect.value;',
@@ -506,17 +525,17 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '    if (from === to) { infoDiv.textContent = "Velg to ulike versjoner."; return; }',
         '    if (from > to) { var tmp = from; from = to; to = tmp; }',
         '    infoDiv.textContent = "Henter " + from + " og " + to + "...";',
-        '    outDiv.innerHTML = "";',
         '    Promise.all([',
-        '      fetch(raw + "/" + from + "/" + path).then(function(r){',
+        '      fetch(raw + "/" + versionRefs[from] + "/" + path).then(function(r){',
         '        if (!r.ok) throw new Error(from + ": HTTP " + r.status);',
         '        return r.text();',
         '      }),',
-        '      fetch(raw + "/" + to + "/" + path).then(function(r){',
+        '      fetch(raw + "/" + versionRefs[to] + "/" + path).then(function(r){',
         '        if (!r.ok) throw new Error(to + ": HTTP " + r.status);',
         '        return r.text();',
         '      })',
         '    ]).then(function(parts) {',
+        '      if (request !== renderRequest) return;',
         '      var oldText = parts[0];',
         '      var newText = parts[1];',
         '      if (oldText === newText) {',
@@ -537,6 +556,7 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '      ui.draw();',
         '      infoDiv.textContent = "Diff " + from + " → " + to;',
         '    }).catch(function(err) {',
+        '      if (request !== renderRequest) return;',
         '      infoDiv.textContent = "Kunne ikke hente: " + err.message;',
         '    });',
         '  });',
@@ -544,10 +564,10 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '  compareBtn.addEventListener("click", function() {',
         '    var from = fromSelect.value;',
         '    var to = toSelect.value;',
-        '    if (!from || !to) { infoDiv.textContent = "Velg versjoner."; return; }',
-        '    if (from === to) { infoDiv.textContent = "Velg to ulike versjoner."; return; }',
+        '    if (!from || !to) { clearDiff(); infoDiv.textContent = "Velg versjoner."; return; }',
+        '    if (from === to) { clearDiff(); infoDiv.textContent = "Velg to ulike versjoner."; return; }',
         '    if (from > to) { var tmp = from; from = to; to = tmp; }',
-        '    window.open(base + "/compare/" + from + "..." + to, "_blank");',
+        '    window.open(base + "/compare/" + versionRefs[from] + "..." + versionRefs[to], "_blank");',
         '  });',
         '',
         '  logBtn.addEventListener("click", function() {',
@@ -697,24 +717,13 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
     n_acts = None
     n_amendments = None
-    if version_tags is None:
-        last_year = 2026
-        if db_path and os.path.exists(db_path):
-            import sqlite3
-            conn = sqlite3.connect(db_path)
-            row = conn.execute(
-                """
-                SELECT MAX(substr(date_in_force_resolved, 1, 4))
-                FROM amendment_acts
-                WHERE date_in_force_resolved GLOB '[12][0-9][0-9][0-9]*'
-                """
-            ).fetchone()
-            n_acts = conn.execute("SELECT COUNT(*) FROM amendment_acts").fetchone()[0]
-            n_amendments = conn.execute("SELECT COUNT(*) FROM amendments").fetchone()[0]
-            conn.close()
-            if row and row[0]:
-                last_year = int(row[0])
-        version_tags = [f"v{y}" for y in range(2000, last_year + 1)]
+    version_tags = supported_version_tags(version_tags)
+    if db_path and os.path.exists(db_path):
+        import sqlite3
+        conn = sqlite3.connect(db_path)
+        n_acts = conn.execute("SELECT COUNT(*) FROM amendment_acts").fetchone()[0]
+        n_amendments = conn.execute("SELECT COUNT(*) FROM amendments").fetchone()[0]
+        conn.close()
 
     # Amendment counts per law refid (for enriching laws.json)
     amendment_counts = {}
@@ -773,7 +782,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
             lovdata_link = f"[lovdata.no]({lovdata_url})"
             vtags = compute_version_links(law["refid"], version_tags)
             version_links = " · ".join(
-                f"[{t}]({GITHUB_BASE}/blob/{t}/lover/{law['file']})"
+                f"[{t}]({GITHUB_BASE}/blob/{LEGACY_VERSION_REFS[t]}/lover/{law['file']})"
                 for t in vtags
             )
             hist_cell = f"[log]({history}) · {version_links}"
@@ -854,10 +863,12 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
     # Versions page
     ver_lines = [
-        "# Stabile versjoner {.unnumbered}\n",
-        "Hver årsversjon (`v{årstall}`) er et øyeblikksbilde av alle norske lover",
-        f"slik de var ved utgangen av det året, basert på [`{HISTORY_BRANCH}`-grenen]({GITHUB_BASE}/tree/{HISTORY_BRANCH}).\n",
-        "## Årlige versjoner\n",
+        "# Eksperimentelle versjoner {.unnumbered}\n",
+        LEGACY_NOTICE + "\n",
+        "Årstallene nedenfor er navn på eldre rekonstruksjoner, ikke bekreftede juridiske skjæringsdatoer.",
+        "Utvalget er registrert 25. september 2026. Lenker og sammenligninger er låst til disse kopiene.",
+        "Den frakoblede v2000 og utgaver merket med framtidige år er utelatt.\n",
+        "## Lagrede rekonstruksjoner\n",
     ]
     if year_stats:
         ver_lines.append("| Versjon | Bla gjennom | Endringer fra forrige | Omfang |")
@@ -868,10 +879,10 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
 
     for i, tag in enumerate(version_tags):
         year = tag[1:]
-        browse = f"[{tag}]({GITHUB_BASE}/tree/{tag}/lover)"
+        browse = f"[{tag}]({GITHUB_BASE}/tree/{LEGACY_VERSION_REFS[tag]}/lover)"
         if i > 0:
             prev = version_tags[i - 1]
-            diff = f"[{prev}...{tag}]({GITHUB_BASE}/compare/{prev}...{tag})"
+            diff = f"[{prev}...{tag}]({GITHUB_BASE}/compare/{LEGACY_VERSION_REFS[prev]}...{LEGACY_VERSION_REFS[tag]})"
         else:
             diff = "\u2014"
         if year_stats:
@@ -892,14 +903,14 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
     ver_lines.append(f"git clone -b {HISTORY_BRANCH} {GITHUB_BASE}.git")
     ver_lines.append("cd norwegian-laws")
     ver_lines.append("")
-    ver_lines.append("# Se en lov slik den var i 2020")
-    ver_lines.append("git show v2020:lover/lov-1998-07-17-56.md")
+    ver_lines.append("# Les den lagrede rekonstruksjonen merket v2020 (ikke verifisert lovtekst for 2020)")
+    ver_lines.append(f"git show {LEGACY_VERSION_REFS['v2020']}:lover/lov-1998-07-17-56.md")
     ver_lines.append("")
     ver_lines.append("# Sammenlign to versjoner av en lov")
-    ver_lines.append("git diff v2020 v2024 -- lover/lov-1998-07-17-56.md")
+    ver_lines.append(f"git diff {LEGACY_VERSION_REFS['v2020']} {LEGACY_VERSION_REFS['v2024']} -- lover/lov-1998-07-17-56.md")
     ver_lines.append("")
-    ver_lines.append("# Se alle endringer mellom to år")
-    ver_lines.append("git diff --stat v2023 v2024")
+    ver_lines.append("# Se tekstforskjeller mellom to lagrede rekonstruksjoner")
+    ver_lines.append(f"git diff --stat {LEGACY_VERSION_REFS['v2023']} {LEGACY_VERSION_REFS['v2024']}")
     ver_lines.append("```\n")
 
     with open(os.path.join(book_dir, "versjoner.qmd"), "w", encoding="utf-8") as f:
@@ -994,8 +1005,9 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         "- Klikk en lov for å lese lovteksten på GitHub",
         "- For autoritativ lovtekst, se [lovdata.no](https://lovdata.no)\n",
         "## Utforsk historikk\n",
-        f"- [`{HISTORY_BRANCH}`-grenen]({GITHUB_BASE}/tree/{HISTORY_BRANCH}) har komplett git-historikk med backdaterte endringer",
-        f"- [Stabile versjoner](book/versjoner.qmd) \u2014 sammenlign lover mellom årsversjoner ({version_tags[0]}\u2013{version_tags[-1]})",
+        LEGACY_NOTICE + "\n",
+        f"- [`{HISTORY_BRANCH}`-grenen]({GITHUB_BASE}/tree/{HISTORY_BRANCH}) inneholder den eldre rekonstruksjonen",
+        "- [Eksperimentelle versjoner](book/versjoner.qmd) \u2014 sammenlign registrerte kopier",
         "- [Sammenlign lovversjon](book/diff.qmd) \u2014 velg en lov og to årstall for å se endringer",
         "- Klikk \u00ablog\u00bb i lovtabellene for å se endringshistorikk for en enkelt lov\n",
         "## Ansvarsfraskrivelse\n",

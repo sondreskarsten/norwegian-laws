@@ -18,7 +18,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from . import __version__
-from .models import AmendmentActData, LawData, Manifest
+from .models import (AmendmentActData, LawData, Manifest, uses_ordered_content,
+                     ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION)
 from .parser import parse_effective_date, parse_publication_date
 
 
@@ -152,7 +153,7 @@ def write_snapshot(
     forskrifter: list[LawData] | None = None,
     forskrifter_archive: str = "",
 ) -> str:
-    """Build and promote a complete version-2 snapshot from parsed data.
+    """Build and promote a complete version-2/3 snapshot from parsed data.
 
     Creates:
       output_dir/
@@ -170,6 +171,8 @@ def write_snapshot(
     leaves the previous snapshot intact; concurrent writers fail on a lock.
     Directory renames avoid mixed artifact generations, but a process crash
     between the two renames may require restoring the retained backup directory.
+    Version 3 marks ordered paragraph content that older publishers must reject;
+    snapshots containing only legacy paragraphs keep version 2 compatibility.
 
     Returns the snapshot directory path.
     """
@@ -239,8 +242,10 @@ def write_snapshot(
         for path in artifacts:
             with path.open("rb") as stream:
                 hashes[path.relative_to(stage).as_posix()] = hashlib.file_digest(stream, "sha256").hexdigest()
+        ordered = any(uses_ordered_content(record)
+                      for records in (law_records, forskrift_records) for record in records.values())
         manifest = Manifest(
-            version=2,
+            version=3 if ordered else 2,
             created_at=datetime.now(timezone.utc).isoformat(),
             loader_version=__version__,
             gjeldende_archive=gjeldende_archive,
@@ -254,6 +259,8 @@ def write_snapshot(
             duplicate_counts={"laws": len(laws) - len(law_records),
                               "forskrifter": len(forskrifter) - len(forskrift_records),
                               "amendment_acts": len(amendment_acts) - len(act_records)},
+            content_version=ORDERED_CONTENT_VERSION if ordered else "legacy-paragraphs-v1",
+            formatter_version=ORDERED_FORMATTER_VERSION if ordered else "law-markdown-v1",
         )
         (stage / "manifest.json").write_text(manifest.to_json(), encoding="utf-8", newline="\n")
         had_previous = root.exists()

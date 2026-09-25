@@ -18,6 +18,7 @@ from .models import (
     LawData,
     ListItem,
     Paragraph,
+    ParagraphBlock,
     Section,
 )
 
@@ -256,17 +257,43 @@ def _parse_ledd(ledd: Tag) -> Paragraph:
     trailing_parts = []
     items = []
     list_style = ""
+    blocks = []
+    text_run = []
+    has_interleaving = False
+    seen_list = False
+
+    def flush_text():
+        text = " ".join(text_run).strip()
+        if text:
+            blocks.append(ParagraphBlock(kind="text", text=text))
+        text_run.clear()
+
     for child in ledd.children:
         if isinstance(child, Tag) and child.name in ("ul", "ol"):
+            parsed_items = _parse_list(child)
+            if parsed_items:
+                if seen_list and any(text_run):
+                    has_interleaving = True
+                flush_text()
+                blocks.append(ParagraphBlock(kind="list", list_items=parsed_items,
+                                             list_style=child.get("type", "") or ""))
+                seen_list = True
             if not items:
                 list_style = child.get("type", "") or ""
-            items.extend(_parse_list(child))
+            items.extend(parsed_items)
         elif isinstance(child, Tag):
-            (trailing_parts if items else text_parts).append(_text(child))
+            text = _text(child)
+            (trailing_parts if items else text_parts).append(text)
+            if text:
+                text_run.append(text)
         else:
             t = str(child).strip()
             if t:
                 (trailing_parts if items else text_parts).append(t)
+                text_run.append(t)
+    if has_interleaving:
+        flush_text()
+        return Paragraph(ordered_blocks=blocks)
     return Paragraph(
         text=" ".join(text_parts).strip(),
         list_items=items,
@@ -702,7 +729,7 @@ def parse_amendment(change_el: Tag) -> Amendment:
 
     target_law = ""
     if target:
-        m = re.match(r"(lov/[\d-]+)", target)
+        m = re.match(r"((?:lov|forskrift)/[\d-]+)(?=/|$)", target)
         if m:
             target_law = m.group(1)
 
