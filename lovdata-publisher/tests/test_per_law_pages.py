@@ -8,6 +8,7 @@ from lovdata_publisher.per_law_pages import (
     dept_slug,
     insert_cross_reference_links,
     parse_frontmatter_and_body,
+    render_markdown_body,
     strip_markdown_for_search,
 )
 
@@ -67,6 +68,36 @@ def test_cross_reference_skips_self():
     html = "Regnskapsloven gjelder for alle aksjeselskaper."
     result = insert_cross_reference_links(html, index, pattern, current_stem="lov-1998-07-17-56")
     assert "<a" not in result
+
+
+def test_cross_reference_preserves_real_datalagring_heading_id():
+    import xml.etree.ElementTree as ET
+
+    title = (
+        "Lov om endringer i ekomloven og straffeprosessloven mv. "
+        "(gjennomføring av EUs datalagringsdirektiv i norsk rett)"
+    )
+    index = {"ekomloven": "ekom.html", "straffeprosessloven": "straffe.html",
+             "aksjeloven": "aksje.html"}
+    html = render_markdown_body(f"# {title}\n\nSe aksjeloven § 8-2 og aksjeloven § 9-1.")
+    result = insert_cross_reference_links(html, index, build_cross_reference_pattern(index), "lov-2011-04-15-11")
+    # The original heading opening tag must survive byte-for-byte.
+    assert result.startswith(html.split(">", 1)[0] + ">")
+    heading = ET.fromstring(result.split("</h1>", 1)[0] + "</h1>")
+    assert "".join(heading.itertext()) == title
+    assert result.count('<a href="aksje.html">aksjeloven</a>') == 1
+
+
+def test_cross_reference_preserves_markup_existing_links_and_code():
+    index = {"aksjeloven": "aksje.html"}
+    untouched = (
+        '<!-- aksjeloven --><a href="aksjeloven.html" title="aksjeloven">aksjeloven</a>'
+        '<script>const title = "aksjeloven";</script><style>.aksjeloven { color: red }</style>'
+        '<pre>aksjeloven</pre><code>aksjeloven</code>'
+    )
+    html = untouched + '\n<p title="aksjeloven">Se aksjeloven &amp; regnskapsloven.</p>'
+    result = insert_cross_reference_links(html, index, build_cross_reference_pattern(index), "other")
+    assert result == untouched + '\n<p title="aksjeloven">Se <a href="aksje.html">aksjeloven</a> &amp; regnskapsloven.</p>'
 
 
 def test_strip_markdown_for_search_truncates():

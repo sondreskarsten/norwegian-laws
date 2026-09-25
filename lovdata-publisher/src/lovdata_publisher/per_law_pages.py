@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from html.parser import HTMLParser
 from pathlib import Path
 from .legacy_versions import LEGACY_VERSION_REFS, supported_version_tags
 
@@ -187,7 +188,7 @@ def build_cross_reference_pattern(korttittel_index: dict[str, str]):
 
 
 def insert_cross_reference_links(html_body: str, korttittel_index: dict[str, str], pattern, current_stem: str) -> str:
-    """Inject hyperlinks where law short titles appear in body text."""
+    """Link first mentions in text nodes without rewriting HTML or existing links."""
     if pattern is None:
         return html_body
     seen = set()
@@ -202,7 +203,44 @@ def insert_cross_reference_links(html_body: str, korttittel_index: dict[str, str
         seen.add(key)
         return f'<a href="{href}">{match.group(1)}</a>'
 
-    return pattern.sub(replace, html_body)
+    # Keep the original markup byte-for-byte. In particular, heading IDs often
+    # contain the same law names as their text and must never receive anchors.
+    line_offsets = [0] + [match.end() for match in re.finditer("\n", html_body)]
+    edits = []
+
+    class TextNodeLinker(HTMLParser):
+        def __init__(self):
+            super().__init__(convert_charrefs=False)
+            self.protected = []
+
+        def handle_starttag(self, tag, attrs):
+            if tag in {"a", "script", "style", "code", "pre", "textarea", "title"}:
+                self.protected.append(tag)
+
+        def handle_endtag(self, tag):
+            if tag in self.protected:
+                last = len(self.protected) - 1 - self.protected[::-1].index(tag)
+                del self.protected[last:]
+
+        def handle_data(self, data):
+            if self.protected:
+                return
+            linked = pattern.sub(replace, data)
+            if linked != data:
+                line, column = self.getpos()
+                start = line_offsets[line - 1] + column
+                edits.append((start, start + len(data), linked))
+
+    parser = TextNodeLinker()
+    parser.feed(html_body)
+    parser.close()
+    parts = []
+    cursor = 0
+    for start, end, linked in edits:
+        parts.extend((html_body[cursor:start], linked))
+        cursor = end
+    parts.append(html_body[cursor:])
+    return "".join(parts)
 
 
 def render_markdown_body(body: str) -> str:

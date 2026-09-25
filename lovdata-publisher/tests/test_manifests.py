@@ -6,6 +6,7 @@ from pathlib import Path
 import pytest
 
 from lovdata_publisher.manifests import (
+    count_manifest_rows,
     generate_amendment_acts_jsonl,
     generate_amendments_jsonl,
     generate_manifests,
@@ -101,6 +102,7 @@ def test_amendments_jsonl_handles_missing_table(tmp_path):
     out = tmp_path / "amendments.jsonl"
     n = generate_amendments_jsonl(str(db), str(out))
     assert n == 0
+    assert count_manifest_rows(str(db)) == (0, 0)
 
 
 def test_generate_manifests_writes_both(tmp_path):
@@ -111,6 +113,28 @@ def test_generate_manifests_writes_both(tmp_path):
     assert amendments_n == 3
     assert (out / "amendment-acts.jsonl").exists()
     assert (out / "amendments.jsonl").exists()
+
+
+def test_homepage_counts_match_written_exports_with_excluded_rows(tmp_path):
+    """Undated acts and amendments without a target are not display rows."""
+    from lovdata_publisher.quarto import generate_quarto_config
+
+    db = _make_db(tmp_path)
+    with sqlite3.connect(db) as conn:
+        conn.execute("INSERT INTO amendment_acts (refid, date_published) VALUES ('undated', NULL)")
+        conn.executemany(
+            "INSERT INTO amendments (id, act_refid, target_law) VALUES (?, ?, ?)",
+            [(4, 'lov/2024-06-21-42', None), (5, 'lov/2024-06-21-42', '')],
+        )
+    out = tmp_path / "exports"
+    written = generate_manifests(str(db), str(out))
+    assert count_manifest_rows(str(db)) == written == (2, 3)
+    assert len((out / "amendments.jsonl").read_text(encoding="utf-8").splitlines()) == 3
+    (tmp_path / "lover").mkdir()
+    generate_quarto_config(str(tmp_path), db_path=str(db))
+    homepage = (tmp_path / "index.qmd").read_text(encoding="utf-8")
+    assert "3 visningsrader" in homepage
+    assert "2 kunngjøringer" in homepage
 
 
 def test_jsonl_lines_are_valid_json(tmp_path):

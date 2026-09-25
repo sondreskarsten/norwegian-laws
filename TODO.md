@@ -1,6 +1,11 @@
 # Norwegian laws: delivery backlog
 
 Updated **2026-09-25** from source, workflow, live-source and browser audits.
+The active [full product completion plan](docs/superpowers/plans/2026-09-25-norwegian-laws-product-completion.md)
+maps 20 user stories to ten delivery packages, including historical-date reconstruction.
+**All work continues in the existing task; cloud setup and handoff are removed from scope.**
+Use this backlog for delivery evidence and the plan for execution order; a bounded
+observation pilot does not complete the whole historical product.
 **Current publishing repair is live and read back.**
 [Delivery run 36159622728](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36159622728)
 published source commit `8020b8f610171108d7f82c2f3811688a4605b918` on September 25.
@@ -71,15 +76,19 @@ and publication acknowledgement after public-site readback.
 - [x] Preserve mixed text/list order within legal paragraphs and resolve structured
   regulation amendment targets. The live Regnskapsloven §6-2 now follows source
   order; regulation targets appear in the public export.
-- [ ] Publish the container-order repair and read the five confirmed examples
-  from the live reader. Local replay preserves closing provisions, interleaved
-  instructions, appendix notes and final instructions; the independent history
-  consumer supports the explicit new contract. Existing stored models render
-  identically. Whole-document structural fidelity still needs its separate gate.
+- [x] Publish the container-order repair and read the five confirmed examples
+  from the live reader. PR #14 run 36171176807 published source
+  `7971606f7683612779e17cea1ef53d8531ba0fa3`; public source/model/HTML order and
+  receipt/acknowledgement agree. See [live evidence](docs/evidence/live-container-order-readback.json).
+  Whole-document structural fidelity still needs its separate gate. The readback
+  exposed a separate heading cross-link defect; its local repair and browser
+  evidence are in [the reader follow-up](docs/evidence/crosslink-heading-local.json).
 - [ ] Finish a versioned producer/consumer contract: ordered content, source and
   output identities, parser/formatter versions, exact membership and explicit
   unresolved content. Verify deterministic replay through independently installed
-  packages; declare the publisher's loader dependency or remove that coupling.
+  packages. The publisher already declares its loader dependency; fresh isolated
+  local installation/replay passed, while the latest public contract still needs
+  its final independent readback.
 - [ ] Preserve the existing JSONL display API with documented limits, and provide
   a versioned lossless amendment interface for history. Current export drops
   unknown targets and truncates instructions/replacement text; it is not a
