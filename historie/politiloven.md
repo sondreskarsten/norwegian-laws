@@ -80,15 +80,6 @@ refid: "lov/1995-08-04-53"
 > Kongen fastsetter hvilke namsmannsdistrikter norsk kontinentalsokkel og norsk økonomisk sone hører til.
 >
 
-### 2023-12-20 — lov/2023-12-20-110
-
-*I lov 4. august 1995 nr. 53 om politiet skal § 13 lyde:*
-
-> § 13.Inngrep overfor barnPolitiet kan vise eller bringe hjem barn som antas å være under 15 år, som driver omkring på egen hånd på offentlig sted etter kl. 22.00, og barn under 18 år som bryter oppholdsforbud nedlagt etter straffeprosessloven § 222 c.Politiet kan også ta hånd om barn som antas å være under 15 år, som påtreffes under omstendigheter som klart innebærer en alvorlig risiko for barnets helse eller utvikling, og i så tilfelle umiddelbart sørge for at barnet blir brakt til verge eller annen foresatt eller om nødvendig til barnevernsmyndighetene. Politiet kan også gripe inn overfor barn over 15 år hvis det er grunn til å anta at inngripen vil være tjenlig.Dersom politiet har grunn til å tro at et barn under 15 år har begått en ellers straffbar handling, eller at et barn under 18 år har begått en straffbar handling eller har brutt et oppholdsforbud nedlagt etter straffeprosessloven § 222 c, kan barnet og vergene pålegges å møte for politiet til samtale for å forebygge ytterligere lovbrudd. Før samtalen starter skal barnet og vergene gjøres kjent med at de ikke har plikt til å forklare seg.Innkallingen skal være skriftlig og angi formålet med samtalen, møtested og møtetid. Så vidt mulig skal det gis minst tre dagers varsel. Har de innkalte fått innkallingen, og de likevel har uteblitt uten at det er opplyst at de har gyldig forfall, kan politiet beslutte at de skal avhentes. Adgangen til slik avhenting skal fremgå av innkallingen.
->
-> § 13.Inngrep overfor barn
->
-
 ### 2024-05-31 — lov/2024-05-31-25
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 17 d første ledd bokstav b lyde:*

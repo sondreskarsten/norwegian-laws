@@ -177,13 +177,6 @@ refid: "lov/2020-12-18-139"
 > Et barn som allerede fyller vilkårene for rett til en ytelse etter folketrygdloven kapittel 18 når nye regler trer i kraft, skal få ytelsen beregnet etter det nye regelverket dersom dette ved ikrafttredelsen gir høyere ytelse enn etter det gamle regelverket.
 >
 
-### 2023-12-20 — lov/2023-12-20-95
-
-*I lov 18. desember 2020 nr. 139 om endringer i folketrygdloven del I skal § 18-3 andre ledd bokstav b lyde:*
-
-> den avdøde har mindre enn 20 års botid, men har minimum fem år med pensjonsgivende inntekt som overstiger grunnbeløpet, eller
->
-
 ## § 17
 
 ### 2023-06-16 — lov/2023-06-16-36

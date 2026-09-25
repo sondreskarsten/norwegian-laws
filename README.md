@@ -167,7 +167,7 @@ Pick a law, pick two versions, see exactly what changed. Word-level diff in the 
 | 📜 **Complete coverage** | All 756 formal laws + 5,118 central regulations |
 | 🔔 **Per-law Atom feeds** | 2,940 subscribable feeds — one per law/forskrift with amendments, plus 35 rettsområde and 18 ministry feeds |
 | 🕰️ **Backdated git history** | 39,208 amendment acts as backdated commits, with commit date = ikrafttredelse |
-| 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,068 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
+| 📑 **Endringshistorikk per paragraf** | Per-law amendment timeline ([example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)) plus 15,067 per-paragraph history pages ([example: § 7-25](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html)) |
 | 🔍 **Full-text search** | Searches title, body, refid, and common abbreviations (`aml`, `pbl`, `rskl`) |
 | 📊 **Cross-version diff** | Browser-based diff between any two yearly snapshots (`v2000` and onward, one tag per year) |
 | 🤝 **Machine-readable** | Markdown + YAML frontmatter, plus [`laws.json`](https://sondreskarsten.github.io/norwegian-laws/laws.json) for programmatic access |
