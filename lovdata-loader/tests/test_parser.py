@@ -393,7 +393,11 @@ class TestRealArchiveLists:
         assert items[0].paragraphs[0].text.startswith("anskaffelseskost")
 
     def test_nested_oppstillingsplan_depth_three(self):
-        top = self._articles()["§6-2"].paragraphs[0].list_items
+        paragraph = self._articles()["§6-2"].paragraphs[0]
+        blocks = paragraph.ordered_blocks
+        assert [block.kind for block in blocks] == ["text", "list", "text", "list"]
+        assert blocks[2].text == "EGENKAPITAL OG GJELD"
+        top = [item for block in blocks if block.kind == "list" for item in block.list_items]
         assert [li.marker for li in top] == ["A.", "B.", "C.", "D."]
         anlegg = top[0].paragraphs[0].list_items
         assert [li.marker for li in anlegg] == ["I.", "II.", "III."]

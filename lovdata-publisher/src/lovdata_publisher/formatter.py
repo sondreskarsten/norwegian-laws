@@ -7,6 +7,7 @@ Same input always produces byte-identical output.
 No XML parsing, no BeautifulSoup, no network access.
 """
 from __future__ import annotations
+import html
 import json
 import re
 from pathlib import Path
@@ -33,6 +34,71 @@ def _list_group_renumbered(items: list) -> bool:
     return len(nums) >= 2 and nums != list(range(nums[0], nums[0] + len(nums)))
 
 
+def _list_contains_ordered_content(items: list) -> bool:
+    return any(para.get("ordered_blocks")
+               or _list_contains_ordered_content(para.get("list_items", []))
+               for item in items for para in item.get("paragraphs", []))
+
+
+def _paragraph_blocks(para: dict) -> list[dict]:
+    """Use ordered content when present; retain legacy paragraph spacing."""
+    if para.get("ordered_blocks"):
+        return [dict(block, _semantic=True) for block in para["ordered_blocks"]]
+    blocks = []
+    if para.get("text"):
+        blocks.append({"kind": "text", "text": para["text"]})
+    if para.get("list_items"):
+        blocks.append({"kind": "list", "list_items": para["list_items"],
+                       "_semantic": _list_contains_ordered_content(para["list_items"])})
+    if para.get("trailing_text"):
+        blocks.append({"kind": "text", "text": para["trailing_text"]})
+    return blocks
+
+
+def _semantic_list_html(items: list) -> str:
+    """Render legal labels literally; Markdown cannot express A./I./1. nesting.
+
+    Only ordered-content subtrees use this renderer. Inline layout keeps the
+    hierarchy readable in both the website and ordinary rendered Markdown.
+    """
+    lines = ['<ol class="legal-list" role="list" '
+             'style="list-style:none;margin:.35em 0 .7em;padding:0">']
+    for item in items:
+        marker = html.escape(item.get("marker") or "-")
+        lines.extend([
+            '<li style="display:flex;align-items:baseline;gap:.5em;margin:.3em 0">',
+            '<span class="legal-marker" style="flex:0 0 auto;min-width:2.25em">'
+            + marker + '</span>',
+            '<div class="legal-item-body" style="flex:1;min-width:0">',
+        ])
+        for para in item.get("paragraphs", []):
+            for block in _paragraph_blocks(para):
+                if block["kind"] == "text":
+                    lines.append('<p style="margin:0 0 .3em">' + html.escape(block["text"]) + '</p>')
+                elif block["kind"] == "list":
+                    lines.append(_semantic_list_html(block["list_items"]))
+                else:
+                    raise ValueError(f"Unsupported paragraph block: {block['kind']}")
+        lines.extend(['</div>', '</li>'])
+    lines.append('</ol>')
+    return "\n".join(lines)
+
+
+def _render_paragraph_blocks(blocks: list, depth: int, lines: list, *, compact=False) -> None:
+    for block in blocks:
+        if block["kind"] == "text":
+            lines.append(("  " * depth if compact else "") + block["text"])
+        elif block["kind"] == "list":
+            if block.get("_semantic"):
+                lines.append(_semantic_list_html(block["list_items"]))
+            else:
+                _render_list_items(block["list_items"], depth, lines)
+        else:
+            raise ValueError(f"Unsupported paragraph block: {block['kind']}")
+        if not compact:
+            lines.append("")
+
+
 def _render_list_items(items: list, depth: int, lines: list) -> None:
     indent = "  " * depth
     escape = _list_group_renumbered(items)
@@ -41,21 +107,16 @@ def _render_list_items(items: list, depth: int, lines: list) -> None:
         if escape:
             marker = "- " + marker.replace(".", "\\.")
         paras = item.get("paragraphs", [])
-        head = paras[0].get("text", "") if paras else ""
+        first_blocks = _paragraph_blocks(paras[0]) if paras else []
+        has_head = bool(first_blocks and first_blocks[0]["kind"] == "text"
+                        and (paras[0].get("ordered_blocks") or paras[0].get("text")))
+        head = first_blocks[0]["text"] if has_head else ""
         lines.append(f"{indent}{marker} {head}".rstrip())
         if paras:
-            first = paras[0]
-            if first.get("list_items"):
-                _render_list_items(first["list_items"], depth + 1, lines)
-            if first.get("trailing_text"):
-                lines.append(f"{indent}  {first['trailing_text']}")
+            _render_paragraph_blocks(first_blocks[1:] if has_head else first_blocks,
+                                     depth + 1, lines, compact=True)
             for para in paras[1:]:
-                if para.get("text"):
-                    lines.append(f"{indent}  {para['text']}")
-                if para.get("list_items"):
-                    _render_list_items(para["list_items"], depth + 1, lines)
-                if para.get("trailing_text"):
-                    lines.append(f"{indent}  {para['trailing_text']}")
+                _render_paragraph_blocks(_paragraph_blocks(para), depth + 1, lines, compact=True)
 
 
 def format_article(article: dict, depth: int = 0) -> str:
@@ -73,15 +134,7 @@ def format_article(article: dict, depth: int = 0) -> str:
         lines.append("")
 
     for para in article.get("paragraphs", []):
-        if para.get("text"):
-            lines.append(para["text"])
-            lines.append("")
-        if para.get("list_items"):
-            _render_list_items(para["list_items"], 0, lines)
-            lines.append("")
-        if para.get("trailing_text"):
-            lines.append(para["trailing_text"])
-            lines.append("")
+        _render_paragraph_blocks(_paragraph_blocks(para), 0, lines)
 
     if article.get("trailing_text"):
         lines.append(f"*{article['trailing_text']}*")
@@ -153,15 +206,7 @@ def format_law_markdown(law: dict) -> str:
     lines.append("")
 
     for para in law.get("top_level_paragraphs", []):
-        if para.get("text"):
-            lines.append(para["text"])
-            lines.append("")
-        if para.get("list_items"):
-            _render_list_items(para["list_items"], 0, lines)
-            lines.append("")
-        if para.get("trailing_text"):
-            lines.append(para["trailing_text"])
-            lines.append("")
+        _render_paragraph_blocks(_paragraph_blocks(para), 0, lines)
 
     for rem in law.get("remainders", []):
         lines.append(rem)

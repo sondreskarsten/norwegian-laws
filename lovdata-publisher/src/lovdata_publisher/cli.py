@@ -215,6 +215,9 @@ def main():
             site_index=site_index,
         )
 
+        from .not_found import generate_not_found_page
+        generate_not_found_page(args.site_dir, site_index=site_index)
+
         # Sitemap must run LAST since it indexes everything in _site/
         print()
         print("=" * 60)
