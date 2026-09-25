@@ -1,0 +1,59 @@
+{
+  "status": "implemented_and_local_browser_verified_not_deployed",
+  "source_before_fix": "8ccd1da470df26f8d7532583241cbf80a894c3ea",
+  "observation_before_fix": "26bef8aa2c51211e765f193aceee91e2b16a6c18f515c277b379fe3000bd1c7f",
+  "files": [
+    "lovdata-publisher/src/lovdata_publisher/quarto.py",
+    "lovdata-publisher/tests/test_quarto.py"
+  ],
+  "method": "Actual generated search script inserted into retained rendered Quarto shell, existing full real-corpus Pagefind index, exact current public Regnskapsloven HTML; no index or document mutation required by fix.",
+  "target_public_url": "https://sondreskarsten.github.io/norwegian-laws/lover/lov-1998-07-17-56.html",
+  "target_bytes": 210807,
+  "target_sha256": "edfac3d4c771431231f1f9d456df54703be7a4429518e0f15e265cf4ef25c3d6",
+  "browser": "Chrome",
+  "viewport": {"width": 390, "height": 844},
+  "title_search": {
+    "query": "Regnskapsloven",
+    "results": 29,
+    "first_href": "../lover/lov-1998-07-17-56.html",
+    "client_width": 375,
+    "scroll_width": 375
+  },
+  "full_text_search": {
+    "query": "\"denne forordnings virkemåte\"",
+    "documents": 1,
+    "passage_matches": 2,
+    "deduplicated": true,
+    "generated_href": "../lover/lov-1998-07-17-56.html#:~:text=skal%20gjennomg%C3%A5-,denne%20forordnings%20virkem%C3%A5te,-og%20framlegge&text=denne%20forordnings%20virkem%C3%A5te",
+    "client_width": 375,
+    "scroll_width": 375
+  },
+  "clicked_destination": {
+    "heading": "Art 10. Opplysninger og gjennomgåelse",
+    "matched_text": "denne forordnings virkemåte",
+    "paragraph": "Kommisjonen skal gjennomgå denne forordnings virkemåte og framlegge en rapport om dette for Europaparlamentet og Rådet innen 1. juli 2007.",
+    "scroll_top": 114130,
+    "document_height": 115679,
+    "paragraph_viewport_top": 419.6354370117187,
+    "paragraph_viewport_bottom": 522.0104370117188,
+    "viewport_height": 844,
+    "client_width": 375,
+    "scroll_width": 375,
+    "native_click_verified": true,
+    "visible_highlight_and_paragraph_visually_verified": true
+  },
+  "checks": {
+    "pre_fix_source": "New focused check fails against HEAD without modifying worktree; actual public pre-fix journey opened law top.",
+    "fixed_source": "8 focused Quarto tests passed, including executed generated-JS helper for marked phrases, context, Norwegian characters, hyphens, ampersand, escaped HTML and missing matches.",
+    "diff_check": "passed",
+    "red_output": "passage-navigation-red.txt",
+    "green_output": "passage-navigation-green.txt"
+  },
+  "limits": [
+    "Public deployment remains pending; browser verification used a local preview.",
+    "Retained local index has two overlapping matches for the phrase; current public index had one. Both yield one law through existing deduplication.",
+    "Text-fragment navigation depends on browser support and matching current text; unsupported browsers retain ordinary document navigation.",
+    "Uncontextualized match is a fallback if nearby context crosses an HTML block boundary; repeated phrases may then resolve to the first matching occurrence.",
+    "No network throttling or cache-clear measurements were performed for this navigation repair."
+  ]
+}

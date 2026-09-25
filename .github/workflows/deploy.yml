@@ -47,7 +47,7 @@ jobs:
           python -m pytest lovdata-loader/tests lovdata-publisher/tests .github/tests -q
 
       - name: Download and parse laws
-        run: lovdata-load --download --output snapshot
+        run: lovdata-load --download --capture-source-bodies --output snapshot
 
       - name: Completeness gate
         run: |

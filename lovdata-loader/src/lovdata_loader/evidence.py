@@ -21,7 +21,8 @@ import tarfile
 
 from . import __version__
 from .parser import parse_law, parse_lovtidend_file
-from .models import Amendment, AmendmentActData
+from .models import (Amendment, AmendmentActData, LawData,
+                     SOURCE_BODY_CONTENT_VERSION, SOURCE_BODY_FORMATTER_VERSION)
 
 
 OBSERVATIONS = "source-observations.json"
@@ -44,10 +45,15 @@ def file_sha256(path: Path) -> str:
         return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
-def parser_identity() -> dict:
+def parser_identity(*, capture_source_bodies: bool = False) -> dict:
     source = Path(__file__).parent
-    files = {name: file_sha256(source / name) for name in ("parser.py", "models.py", "evidence.py")}
+    names = ("parser.py", "models.py", "evidence.py") + (("source_body.py",) if capture_source_bodies else ())
+    files = {name: file_sha256(source / name) for name in names}
     return {"package_version": __version__, "source_files": files, "sha256": value_sha256(files)}
+
+
+def _record_dict(record) -> dict:
+    return record.to_dict() if isinstance(record, LawData) else asdict(record)
 
 
 def parser_runtime() -> dict:
@@ -72,7 +78,10 @@ def _member_identity(member, ordinal: int, content: bytes | None) -> dict:
 class EvidenceBundle:
     """A single input observation; CLI parsing and snapshot promotion share it."""
 
-    def __init__(self):
+    def __init__(self, *, capture_source_bodies: bool = False):
+        if type(capture_source_bodies) is not bool:
+            raise ValueError("capture_source_bodies must be a boolean")
+        self.capture_source_bodies = capture_source_bodies
         self.archives = []
         self.members = []
         self.records = {"laws": [], "forskrifter": [], "amendment_acts": []}
@@ -125,12 +134,12 @@ class EvidenceBundle:
                     row["parse_status"] = "excluded_prefix"
                     continue
                 record = (parse_lovtidend_file(content, Path(member.name).name)
-                          if kind == "amendment_acts" else parse_law(content))
+                          if kind == "amendment_acts" else parse_law(content, capture_source_body=self.capture_source_bodies))
                 if record is None:
                     row["parse_status"] = "unresolved_missing_refid"
                     continue
                 row.update(parse_status="parsed", refid=record.refid,
-                           parsed_model_sha256=value_sha256(asdict(record)))
+                           parsed_model_sha256=value_sha256(_record_dict(record)))
                 # Original tar position disambiguates repeated paths and language variants.
                 row["source_occurrence_id"] = value_sha256(
                     [ordinal, digest, member_ordinal, member.name, row["member_sha256"], kind])
@@ -160,7 +169,7 @@ class EvidenceBundle:
                 raise ValueError(f"Evidence {kind} count does not match parsed input")
             last = {record.refid: i for i, record in enumerate(records)}
             for i, (record, source) in enumerate(zip(records, self._sources[kind])):
-                if value_sha256(asdict(record)) != source["parsed_model_sha256"]:
+                if value_sha256(_record_dict(record)) != source["parsed_model_sha256"]:
                     raise ValueError(f"Parsed {kind} changed after source capture: {record.refid}")
                 source["selected"] = i == last[record.refid]
                 if source["selected"]:
@@ -178,7 +187,7 @@ class EvidenceBundle:
                 artifacts.append(target)
             if target.stat().st_size != source["size_bytes"] or file_sha256(target) != source["archive_sha256"]:
                 raise ValueError(f"Retained raw archive does not match parsed input: {path.name}")
-        observations = {"schema_version": EVIDENCE_VERSION, "parser_identity": parser_identity(),
+        observations = {"schema_version": EVIDENCE_VERSION, "parser_identity": parser_identity(capture_source_bodies=self.capture_source_bodies),
                         "parser_runtime": parser_runtime(),
                         "knowledge_cutoff": max((source["observed_at"] for source in self.archives), default=None),
                         "knowledge_cutoff_basis": "local_archive_observation",
@@ -254,7 +263,12 @@ def _timestamp(value):
 
 
 def evidence_artifacts(root: Path, manifest: dict) -> list[Path]:
-    """Resolve only the supported v4 evidence paths; never accept arbitrary paths."""
+    """Resolve only supported v4/v5 evidence paths; never accept arbitrary paths."""
+    _require(manifest.get("version") in (4, 5), "unsupported evidence snapshot version")
+    source_pair = (SOURCE_BODY_CONTENT_VERSION, SOURCE_BODY_FORMATTER_VERSION)
+    actual_pair = (manifest.get("content_version"), manifest.get("formatter_version"))
+    _require((actual_pair == source_pair) if manifest["version"] == 5 else
+             not any(value in source_pair for value in actual_pair), "source-body snapshot contract")
     contract = manifest.get("evidence")
     _require(isinstance(contract, dict) and contract.get("version") == EVIDENCE_VERSION,
              "unsupported evidence contract")
@@ -272,7 +286,10 @@ def evidence_artifacts(root: Path, manifest: dict) -> list[Path]:
     parser = observations.get("parser_identity")
     _require(isinstance(parser, dict) and isinstance(parser.get("package_version"), str), "parser identity")
     files = parser.get("source_files")
-    _require(isinstance(files, dict) and set(files) == {"parser.py", "models.py", "evidence.py"}
+    expected_sources = {"parser.py", "models.py", "evidence.py"}
+    if manifest.get("version") == 5:
+        expected_sources.add("source_body.py")
+    _require(isinstance(files, dict) and set(files) == expected_sources
              and all(_digest(value) for value in files.values()) and parser.get("sha256") == value_sha256(files),
              "parser source fingerprint")
     runtime = observations.get("parser_runtime")
@@ -366,6 +383,16 @@ def validate_evidence(root: Path, manifest: dict) -> None:
                     occurrence = value_sha256([archive["archive_ordinal"], archive["archive_sha256"],
                         ordinal, member.name, row["member_sha256"], archive["role"]])
                     _require(row.get("source_occurrence_id") == occurrence, "source occurrence identity")
+                    if row.get("selected") is True and archive["role"] != "amendment_acts":
+                        path = f"{archive['role']}/{row['refid'].replace('/', '-')}.json"
+                        model = _read_json(root / path)
+                        if manifest["version"] == 5:
+                            from .source_body_gate import verify_source_body
+                            verify_source_body(content, model.get("source_body"),
+                                expected_member_sha256=row["member_sha256"], expected_refid=row["refid"],
+                                source_occurrence_id=occurrence)
+                        else:
+                            _require("source_body" not in model, "source body requires snapshot v5")
                     archive_parsed.append(row)
                 else:
                     _require(all(row.get(key) is None for key in ("refid", "parsed_model_sha256", "parsed_occurrence_ordinal", "source_occurrence_id"))

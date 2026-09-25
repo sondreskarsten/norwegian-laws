@@ -46,8 +46,13 @@ def main():
         action="store_true",
         help="Skip forskrifter parsing (laws only)",
     )
+    parser.add_argument(
+        "--capture-source-bodies",
+        action="store_true",
+        help="Emit snapshot v5 with ordered source bodies; Markdown remains a convenience projection",
+    )
     args = parser.parse_args()
-    evidence = EvidenceBundle()
+    evidence = EvidenceBundle(capture_source_bodies=args.capture_source_bodies)
 
     if args.download:
         print("=" * 60)

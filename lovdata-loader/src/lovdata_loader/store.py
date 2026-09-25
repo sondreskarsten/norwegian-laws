@@ -21,7 +21,8 @@ from . import __version__
 from .evidence import EvidenceBundle, OBSERVATIONS, MEMBERS, PARSED_ACTS, file_sha256
 from .models import (AmendmentActData, LawData, Manifest, uses_ordered_content, uses_ordered_containers,
                      ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION,
-                     CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION)
+                     CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION,
+                     SOURCE_BODY_CONTENT_VERSION, SOURCE_BODY_FORMATTER_VERSION)
 from .parser import parse_effective_date, parse_publication_date
 
 
@@ -156,7 +157,7 @@ def write_snapshot(
     forskrifter_archive: str = "",
     evidence: EvidenceBundle | None = None,
 ) -> str:
-    """Build and promote a complete version-2/3/4 snapshot from parsed data.
+    """Build and promote a complete version-2/3/4/5 snapshot from parsed data.
 
     Creates:
       output_dir/
@@ -178,6 +179,9 @@ def write_snapshot(
     snapshots containing only legacy paragraphs keep version 2 compatibility.
     CLI snapshots include source evidence and use version 4; direct parsed-model
     callers without raw evidence retain the existing version-2/3 contract.
+    Version 5 requires explicitly captured source bodies for every law/regulation
+    occurrence and raw evidence. Its formatter declares convenience rendering;
+    source-tree fidelity and render qualification are independent assertions.
 
     Returns the snapshot directory path.
     """
@@ -185,6 +189,14 @@ def write_snapshot(
         lovtidend_archives = []
     if forskrifter is None:
         forskrifter = []
+
+    source_bodies = evidence is not None and evidence.capture_source_bodies
+    for record in (*laws, *forskrifter):
+        if (record.source_body is not None) != source_bodies:
+            raise ValueError("Source bodies require a v5 evidence bundle and every law/regulation occurrence")
+        if source_bodies:
+            from .source_body import validate_source_body_model
+            validate_source_body_model(record.source_body, expected_refid=record.refid)
 
     law_records = _unique_records(laws, "lov")
     forskrift_records = _unique_records(forskrifter, "forskrift")
@@ -259,7 +271,7 @@ def write_snapshot(
         containers = any(uses_ordered_containers(record)
                          for records in (law_records, forskrift_records) for record in records.values())
         manifest = Manifest(
-            version=4 if evidence is not None else 3 if ordered or containers else 2,
+            version=5 if source_bodies else 4 if evidence is not None else 3 if ordered or containers else 2,
             created_at=datetime.now(timezone.utc).isoformat(),
             loader_version=__version__,
             gjeldende_archive=gjeldende_archive,
@@ -273,9 +285,9 @@ def write_snapshot(
             duplicate_counts={"laws": len(laws) - len(law_records),
                               "forskrifter": len(forskrifter) - len(forskrift_records),
                               "amendment_acts": len(amendment_acts) - len(act_records)},
-            content_version=(CONTAINER_CONTENT_VERSION if containers else
+            content_version=(SOURCE_BODY_CONTENT_VERSION if source_bodies else CONTAINER_CONTENT_VERSION if containers else
                              ORDERED_CONTENT_VERSION if ordered else "legacy-paragraphs-v1"),
-            formatter_version=(CONTAINER_FORMATTER_VERSION if containers else
+            formatter_version=(SOURCE_BODY_FORMATTER_VERSION if source_bodies else CONTAINER_FORMATTER_VERSION if containers else
                                ORDERED_FORMATTER_VERSION if ordered else "law-markdown-v1"),
             evidence=evidence_contract,
         )

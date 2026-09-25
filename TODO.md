@@ -9,9 +9,16 @@ observation pilot does not complete the whole historical product.
 
 ## Current delivery position
 
-The verified public reader through [PR #15](https://github.com/sondreskarsten/norwegian-laws/pull/15)
-uses source `9285be5a079532ed1c32f60fd782027c8219b90c`. Its subscription
-availability, compact lookup, exported counts and crosslinks were read back publicly.
+The verified public reader through [PR #17](https://github.com/sondreskarsten/norwegian-laws/pull/17)
+uses source `8ccd1da470df26f8d7532583241cbf80a894c3ea`. Its archive exposes all 105
+known prior copies with pinned provenance and download links. Representative
+downloads match their recorded bytes; archive, recovery, paragraph history,
+timeline and activity pages fit 390px. Publication dates are separate from raw
+commencement clauses, and parsed coverage gaps remain explicit. The public
+receipt and acknowledgement agree; see [PR17 evidence](docs/evidence/reader-pr17-public.json).
+[PR16 evidence](docs/evidence/reader-pr16-public.json) retains the earlier recovery readback.
+PR #15's subscription availability, compact lookup, exported counts and crosslinks
+were independently read back at its earlier source `9285be5`.
 All five PR #14 container-order repairs were compared with their source; the
 patent appendix also passed visual readback. The older run receipts below remain
 historical evidence, not the current source identity.
@@ -21,16 +28,29 @@ products. [History PR #11](https://github.com/sondreskarsten/norwegian-laws-hist
 published the first two products and all **105 prior reader copies**;
 [PR #12](https://github.com/sondreskarsten/norwegian-laws-history/pull/12) published
 the mobile heading repair while preserving previous products. All 69 new product
-artifacts were read back. History #7 is closed; exact pinned-runtime reproduction
-and the literal clean-fork acceptance remain in #8. Qualified bodies still cover
+artifacts were read back. History #7 is closed. Two published sample products were
+independently regenerated offline on pinned Python 3.12.14, with all 23 files per
+product identical and five previous receipts unchanged. Literal clean-fork
+acceptance remains in #8. Qualified bodies still cover
 only three simple documents; full structure and legal-date reconstruction remain open.
 
-The next reader delivery adds future-exit capture, a browseable/downloadable copy
-archive, honest commencement/coverage labels and mobile activity/history repairs.
-These changes have passed local source/output and controlled Git checks; public
-readback is still required. Topic, ministry and activity membership/count audits
-passed against the public catalog and export; the next scheduled daily cycle and
-external notification delivery have not been established.
+The next source-body delivery has passed a complete local v5 rehearsal and
+independent consumer validation: all 5,874 selected bodies match retained XML,
+while all 39,208 amendment models and existing conventional reader models match
+the previous publication. A strict UTF-8 repair prevents an observed decoder
+misclassification from corrupting Norwegian characters. History PR #14 is merged
+and accepts the new contract. Producer activation and richer body publication
+still require public readback. Full-text result links now target the matched
+passage in supporting browsers; the actual late Regnskapsloven passage was
+verified locally at phone width. See the local reports in `docs/evidence/`.
+
+PR #17 deployed future-exit capture after controlled Git publication, replay and
+re-entry checks. This production run contained zero new exits, so it does not
+establish a naturally occurring exit readback. Chrome locally blocked one raw
+regulation download; independent HTTP retrieval returned its exact recorded bytes.
+Topic, ministry and activity membership/count audits passed against the public
+catalog and export. The next scheduled daily cycle and external notification
+delivery have not been established.
 
 **Current publishing repair is live and read back.**
 [Delivery run 36159622728](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36159622728)
@@ -56,8 +76,9 @@ Keep the existing personal repositories:
 publication and [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history)
 for the new history product. Preserve the generated `gh-pages`, `law-history`
 branches and existing tags. Automatic legacy-history regeneration is gated by
-`ENABLE_LEGACY_HISTORY == 'true'`; leave it disabled during migration. Manual
-legacy dispatch remains available.
+`ENABLE_LEGACY_HISTORY == 'true'`; leave it disabled during migration. The manual
+legacy workflow is retired to an explanation-only run with read permission;
+it no longer rebuilds or pushes historical branches or tags.
 
 ## 1. Finish current-data delivery
 
@@ -135,7 +156,7 @@ legacy builder's synthetic baseline and guessed legal dates are not imported.
 
 | Open issue | Remaining deliverable and acceptance evidence |
 |---|---|
-| [history #8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | Three real observations and bounded derived products are published using the ordinary repository token. Complete exact pinned-runtime independent reproduction and the literal clean-fork acceptance. |
+| [history #8: observed pilot](https://github.com/sondreskarsten/norwegian-laws-history/issues/8) | Real observations and bounded derived products are published using the ordinary repository token. Two published sample products reproduce exactly offline on the pinned runtime. Complete literal clean-fork acceptance and the next scheduled cycle. |
 | [history #4: structural gate](https://github.com/sondreskarsten/norwegian-laws-history/issues/4), [#5: canonical format](https://github.com/sondreskarsten/norwegian-laws-history/issues/5), [#6: temporal claims](https://github.com/sondreskarsten/norwegian-laws-history/issues/6) | Expand the narrow structural grammar using the complete 5,874-document form inventory; publish operation evidence and scoped temporal claims. Materialization/publication mechanics are delivered in closed #7, with unsupported documents rejected explicitly. |
 | [#3: orphan v2000](https://github.com/sondreskarsten/norwegian-laws/issues/3) | Replace the hardcoded version range with an explicit supported-version catalog. Stop presenting the disconnected v2000 graph as a verified version; retain existing refs until an explicit migration decision. |
 | [#4: future-year ordering](https://github.com/sondreskarsten/norwegian-laws/issues/4) | Prevent future or unsupported years from appearing as completed historical snapshots. Verify the order and provenance of selectable checkpoints; the audit confirmed v2028 was behind v2026. |
