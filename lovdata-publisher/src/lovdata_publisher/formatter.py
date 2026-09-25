@@ -12,6 +12,10 @@ import json
 import re
 from pathlib import Path
 
+from lovdata_loader.models import (
+    ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
+)
+
 
 def refid_to_filepath(refid: str) -> str:
     """Convert a refid to a Markdown file path.
@@ -152,6 +156,18 @@ def format_section(section: dict, depth: int = 0) -> str:
         lines.append(f"{'#' * level} {section['heading']}")
         lines.append("")
 
+    order = validate_content_order(section, SECTION_CONTENT_FIELDS)
+    if order:
+        for ref in order:
+            child = section[SECTION_CONTENT_FIELDS[ref["kind"]]][ref["index"]]
+            if ref["kind"] == "article":
+                lines.append(format_article(child, depth=depth + 1))
+            elif ref["kind"] == "section":
+                lines.append(format_section(child, depth=depth + 1))
+            else:
+                lines.extend([child, ""])
+        return "\n".join(lines)
+
     for text in section.get("preamble", []):
         lines.append(text)
         lines.append("")
@@ -204,6 +220,20 @@ def format_law_markdown(law: dict) -> str:
     lines.append("")
     lines.append(f"# {law['title']}")
     lines.append("")
+
+    order = validate_content_order(law, ROOT_CONTENT_FIELDS)
+    if order:
+        for ref in order:
+            child = law[ROOT_CONTENT_FIELDS[ref["kind"]]][ref["index"]]
+            if ref["kind"] == "paragraph":
+                _render_paragraph_blocks(_paragraph_blocks(child), 0, lines)
+            elif ref["kind"] == "remainder":
+                lines.extend([child, ""])
+            elif ref["kind"] == "section":
+                lines.append(format_section(child))
+            else:
+                lines.append(format_article(child, depth=0))
+        return "\n".join(lines)
 
     for para in law.get("top_level_paragraphs", []):
         _render_paragraph_blocks(_paragraph_blocks(para), 0, lines)

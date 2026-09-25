@@ -1,6 +1,6 @@
 # How to subscribe to regulatory changes
 
-This repo publishes 2,700+ Atom feeds covering every Norwegian law and central regulation. This document shows how to wire them into common tools.
+This repo publishes Atom feeds for parsed amendment records by document, topic, and ministry. Use the feed catalog to check availability; feeds do not establish complete historical coverage or when each legal change took effect.
 
 ## Interactive: paste a law name, get the feed URL
 
@@ -8,7 +8,7 @@ This repo publishes 2,700+ Atom feeds covering every Norwegian law and central r
 
 ## Finding your feed URL
 
-Every law gets a feed at a predictable URL. The pattern is:
+Available document feeds use this URL pattern:
 
 ```
 https://sondreskarsten.github.io/norwegian-laws/feeds/lov-{YYYY-MM-DD-NN}.xml
@@ -91,15 +91,9 @@ For ad-hoc one-off checks (e.g. notify Slack instead of opening an issue), the i
     SLACK_MESSAGE: "Regnskapsloven was amended. Check the feed."
 ```
 
-## Watch a file in this repo (GitHub UI)
+## Repository notifications
 
-If you'd rather use GitHub's built-in notification:
-
-1. Visit [github.com/sondreskarsten/norwegian-laws](https://github.com/sondreskarsten/norwegian-laws)
-2. Click **Watch → Custom**
-3. Subscribe to **Pushes only**
-
-You'll get an email for every weekly commit. Not as granular as per-law feeds, but works without any infrastructure.
+GitHub repository notifications concern repository activity rather than one law. Use an Atom feed or the watcher template above for document-specific amendment notifications.
 
 ## Slack — direct from RSS
 
@@ -199,24 +193,24 @@ The `<category>` elements list the specific paragraphs the amendment modifies. F
 
 ## Update cadence
 
-Feeds are regenerated every Monday at 06:00 UTC from the latest Lovdata data. Norsk Lovtidend typically publishes amendment acts within days of Stortinget's vedtak. Expect lag from royal assent → Lovdata publication of 1–5 business days.
+The daily source poll requests a build when Lovdata's selected archive list differs from the last acknowledged publication. Feeds are regenerated during publication. Check the site's [publication receipt](https://sondreskarsten.github.io/norwegian-laws/publication.json) for the served source generation; the schedule alone does not confirm delivery.
 
 ## Limits
 
-- 50 most recent entries per feed (most laws are amended <50 times; this is rarely a constraint)
+- 50 most recent entries per feed.
 - For paragraph-level "what changed" view (the actual amendment instruction and new text), there are two granularities:
-  - **Per-law endringshistorikk pages** — every amendment to the whole law, [example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html)
-  - **Per-paragraph history pages** — every amendment to one specific paragraph, [example](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html). Linked from each amended paragraph header on the law page itself (look for ⧉ historikk).
+  - **Per-law endringshistorikk pages** — parsed amendment records associated with the law, [example](https://sondreskarsten.github.io/norwegian-laws/historie/regnskapsloven.html).
+  - **Per-paragraph history pages** — records with a recognized paragraph target, [example](https://sondreskarsten.github.io/norwegian-laws/historikk/lov-1998-07-17-56/para-7-25.html). Look for ⧉ historikk on the law page.
   - Or filter feed entries by their `<category>` tags as shown above.
 
 ## Bulk download: JSONL manifests for programmatic consumption
 
-For downstream automation that needs all amendments at once (data warehouses, compliance dashboards, internal CDC pipelines), download the JSON Lines manifests instead of scraping 2,627 XML feeds:
+For batch queries over the parsed display records, download the JSON Lines manifests:
 
-- **[amendment-acts.jsonl.gz](https://sondreskarsten.github.io/norwegian-laws/amendment-acts.jsonl.gz)** — one row per amendment act (~38,000 rows, ~3 MB compressed). Matches Atom feed entries 1:1.
-- **[amendments.jsonl.gz](https://sondreskarsten.github.io/norwegian-laws/amendments.jsonl.gz)** — one row per (act, target_law, paragraph) triple (~91,000 rows, ~15 MB compressed). Finer-grained; suitable for paragraph-level queries. Each row carries the full `new_text` (the replacement paragraph wording), capped at 4000 characters.
+- **[amendment-acts.jsonl.gz](https://sondreskarsten.github.io/norwegian-laws/amendment-acts.jsonl.gz)** — selected amendment-act records from the display database.
+- **[amendments.jsonl.gz](https://sondreskarsten.github.io/norwegian-laws/amendments.jsonl.gz)** — recognized target/paragraph records for finer-grained queries; `new_text` is truncated to 4,000 characters.
 
-Both are sorted newest-first, regenerated weekly, and identical in content to what you'd build by parsing every Atom feed. The `.gz` versions are 5–10× smaller; uncompressed `.jsonl` versions are also available at the same paths (drop `.gz`).
+Both are regenerated during publication. Uncompressed `.jsonl` versions are also available at the same paths (drop `.gz`). Dates include source metadata and best-effort resolution, not verified legal effect. These exports can omit unresolved targets and duplicate source occurrences. For complete parsed occurrences and exact original bytes, use the [version-4 source evidence](lovdata-loader/README.md#source-evidence-and-parsed-amendments); see [publication status](README.md#source-evidence-and-publication-status) for its rollout.
 
 JSON Schema 2020-12 definitions for both manifests are published alongside the data:
 
@@ -229,7 +223,7 @@ Each schema documents every field's type, format, and allowed values (e.g. `chan
 # Download both manifests
 curl -sL https://sondreskarsten.github.io/norwegian-laws/amendments.jsonl.gz | gunzip > amendments.jsonl
 
-# Find every amendment to regnskapsloven § 7-25 in the last 2 years
+# Find displayed amendment records for regnskapsloven § 7-25 since 2024
 jq -c 'select(.target_law == "lov/1998-07-17-56"
             and .paragraph == "§ 7-25"
             and .date_published >= "2024-01-01")' amendments.jsonl

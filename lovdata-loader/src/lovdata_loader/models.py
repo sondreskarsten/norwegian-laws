@@ -6,10 +6,66 @@ and lovdata-publisher. The loader produces these; the publisher consumes them
 """
 from dataclasses import dataclass, field, asdict
 import json
+from typing import Literal
 
 
+LEGACY_CONTENT_VERSION = "legacy-paragraphs-v1"
+LEGACY_FORMATTER_VERSION = "law-markdown-v1"
 ORDERED_CONTENT_VERSION = "ordered-paragraph-blocks-v1"
 ORDERED_FORMATTER_VERSION = "law-markdown-ordered-html-v1"
+CONTAINER_CONTENT_VERSION = "ordered-law-containers-v1"
+CONTAINER_FORMATTER_VERSION = "law-markdown-ordered-containers-v1"
+
+# Insertion order is the legacy formatter traversal. References preserve these
+# arrays as the single owners of content while describing a different order.
+ROOT_CONTENT_FIELDS = {"paragraph": "top_level_paragraphs", "remainder": "remainders",
+                       "section": "sections", "article": "top_level_articles"}
+SECTION_CONTENT_FIELDS = {"preamble": "preamble", "article": "articles",
+                          "section": "subsections", "footnote": "footnotes", "remainder": "remainders"}
+
+
+@dataclass
+class ContentRef:
+    """One existing child at its original position in a law or section."""
+    kind: Literal["paragraph", "remainder", "section", "article", "preamble", "footnote"]
+    index: int
+
+
+def content_order_if_needed(order: list[ContentRef], fields: dict[str, str]) -> list[ContentRef]:
+    ranks = {kind: index for index, kind in enumerate(fields)}
+    return order if any(ranks[a.kind] > ranks[b.kind] for a, b in zip(order, order[1:])) else []
+
+
+def validate_content_order(data: dict, fields: dict[str, str]) -> list[dict]:
+    """Every ordered child must reference an existing array element exactly once."""
+    order = data.get("content_order", [])
+    if not isinstance(order, list):
+        raise ValueError("Invalid container content_order: expected a list")
+    if not order:
+        return order
+    expected = set()
+    for kind, field_name in fields.items():
+        children = data.get(field_name, [])
+        if not isinstance(children, list):
+            raise ValueError(f"Invalid ordered container child array: {field_name}")
+        expected.update((kind, index) for index in range(len(children)))
+    seen = set()
+    for reference in order:
+        if (not isinstance(reference, dict) or set(reference) != {"kind", "index"}
+                or not isinstance(reference["kind"], str) or reference["kind"] not in fields
+                or type(reference["index"]) is not int or reference["index"] < 0):
+            raise ValueError("Invalid container content_order reference")
+        identity = (reference["kind"], reference["index"])
+        if identity not in expected or identity in seen:
+            raise ValueError("Container content_order has an invalid or duplicate child reference")
+        seen.add(identity)
+    if seen != expected:
+        raise ValueError("Container content_order must reference every child exactly once")
+    return order
+
+
+def _content_order_from_dict(data: dict, fields: dict[str, str]) -> list[ContentRef]:
+    return [ContentRef(**reference) for reference in validate_content_order(data, fields)]
 
 
 @dataclass
@@ -67,6 +123,8 @@ class Section:
     preamble: list[str] = field(default_factory=list)
     footnotes: list[str] = field(default_factory=list)
     remainders: list[str] = field(default_factory=list)
+    # Empty/absent means legacy grouped traversal. Nonempty covers every child.
+    content_order: list[ContentRef] = field(default_factory=list)
 
 
 def _listitem_from_dict(li: dict) -> ListItem:
@@ -109,6 +167,7 @@ def _section_from_dict(s: dict) -> Section:
         preamble=s.get("preamble", []),
         footnotes=s.get("footnotes", []),
         remainders=s.get("remainders", []),
+        content_order=_content_order_from_dict(s, SECTION_CONTENT_FIELDS),
     )
 
 
@@ -127,6 +186,8 @@ class LawData:
     top_level_articles: list[Article] = field(default_factory=list)
     top_level_paragraphs: list[Paragraph] = field(default_factory=list)
     remainders: list[str] = field(default_factory=list)
+    # References describe source traversal without duplicating owned content.
+    content_order: list[ContentRef] = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -149,6 +210,7 @@ class LawData:
             top_level_articles=[_article_from_dict(a) for a in d.get("top_level_articles", [])],
             top_level_paragraphs=[_paragraph_from_dict(p) for p in d.get("top_level_paragraphs", [])],
             remainders=d.get("remainders", []),
+            content_order=_content_order_from_dict(d, ROOT_CONTENT_FIELDS),
         )
 
 
@@ -166,6 +228,12 @@ def uses_ordered_content(law: LawData) -> bool:
 
     return bool(paragraphs(law.top_level_paragraphs)
                 or articles(law.top_level_articles) or sections(law.sections))
+
+
+def uses_ordered_containers(law: LawData) -> bool:
+    def sections(rows):
+        return any(section.content_order or sections(section.subsections) for section in rows)
+    return bool(law.content_order or sections(law.sections))
 
 
 @dataclass
@@ -211,7 +279,8 @@ class Manifest:
     artifact_hashes: dict[str, str] = field(default_factory=dict)
     duplicate_policy: str = "last-occurrence-wins"
     duplicate_counts: dict[str, int] = field(default_factory=dict)
-    # Version 3 is required when a document uses ordered paragraph blocks.
+    # Version 3 permits explicit paragraph/container order contracts. Version 4
+    # adds source evidence independently of the selected content contract.
     # Version 1/2 retain the original flat-paragraph Markdown contract.
     content_version: str = "legacy-paragraphs-v1"
     formatter_version: str = "law-markdown-v1"

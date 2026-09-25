@@ -19,8 +19,9 @@ from pathlib import Path
 
 from . import __version__
 from .evidence import EvidenceBundle, OBSERVATIONS, MEMBERS, PARSED_ACTS, file_sha256
-from .models import (AmendmentActData, LawData, Manifest, uses_ordered_content,
-                     ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION)
+from .models import (AmendmentActData, LawData, Manifest, uses_ordered_content, uses_ordered_containers,
+                     ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION,
+                     CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION)
 from .parser import parse_effective_date, parse_publication_date
 
 
@@ -255,8 +256,10 @@ def write_snapshot(
                 hashes[path.relative_to(stage).as_posix()] = file_sha256(path)
         ordered = any(uses_ordered_content(record)
                       for records in (law_records, forskrift_records) for record in records.values())
+        containers = any(uses_ordered_containers(record)
+                         for records in (law_records, forskrift_records) for record in records.values())
         manifest = Manifest(
-            version=4 if evidence is not None else 3 if ordered else 2,
+            version=4 if evidence is not None else 3 if ordered or containers else 2,
             created_at=datetime.now(timezone.utc).isoformat(),
             loader_version=__version__,
             gjeldende_archive=gjeldende_archive,
@@ -270,8 +273,10 @@ def write_snapshot(
             duplicate_counts={"laws": len(laws) - len(law_records),
                               "forskrifter": len(forskrifter) - len(forskrift_records),
                               "amendment_acts": len(amendment_acts) - len(act_records)},
-            content_version=ORDERED_CONTENT_VERSION if ordered else "legacy-paragraphs-v1",
-            formatter_version=ORDERED_FORMATTER_VERSION if ordered else "law-markdown-v1",
+            content_version=(CONTAINER_CONTENT_VERSION if containers else
+                             ORDERED_CONTENT_VERSION if ordered else "legacy-paragraphs-v1"),
+            formatter_version=(CONTAINER_FORMATTER_VERSION if containers else
+                               ORDERED_FORMATTER_VERSION if ordered else "law-markdown-v1"),
             evidence=evidence_contract,
         )
         (stage / "manifest.json").write_text(manifest.to_json(), encoding="utf-8", newline="\n")

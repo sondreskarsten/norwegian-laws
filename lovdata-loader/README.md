@@ -17,6 +17,21 @@ lovdata-load --download --output snapshot
 python -m pytest lovdata-loader/tests/
 ```
 
+## Ordered document content
+
+Snapshots declare an exact content/formatter pair. The latest pair,
+`ordered-law-containers-v1` / `law-markdown-ordered-containers-v1`, preserves
+interleaved paragraphs, articles, sections, notes and remaining text. Optional
+`content_order` references on a law or section point into its existing child
+arrays; every child must occur exactly once. Empty or absent references retain
+the earlier grouped traversal. Older content contracts reject populated
+ordering references rather than silently changing the reader's interpretation.
+
+This repairs observed ordering defects, including a closing provision previously
+displayed before the law's first paragraph. It does not certify complete source
+fidelity: unsupported or flattened structures still require independent review.
+The v4 evidence envelope and unresolved legal-time declarations are unchanged.
+
 ## Source evidence and parsed amendments
 
 `manifest.json` contains `evidence.version: lovdata-source-evidence-v1`, named
