@@ -20,15 +20,28 @@ PUBLIC_PATHS = {
 }
 
 
-def make_receipt(source_sha: str, manifest_path: Path | None = None) -> dict:
+def make_receipt(source_sha: str, manifest_path: Path | None = None,
+                 evidence_path: Path | None = None) -> dict:
     manifest = json.loads(manifest_path.read_text(encoding='utf-8')) if manifest_path else None
     encoded = json.dumps(manifest, sort_keys=True, separators=(',', ':')).encode()
-    return {'version': 1, 'source_sha': source_sha, 'source_manifest': manifest,
-            'source_manifest_sha256': hashlib.sha256(encoded).hexdigest()}
+    receipt = {'version': 1, 'source_sha': source_sha, 'source_manifest': manifest,
+               'source_manifest_sha256': hashlib.sha256(encoded).hexdigest()}
+    if evidence_path is not None:
+        evidence = json.loads(evidence_path.read_bytes())
+        if evidence.get('source_sha') != source_sha or evidence.get('contract') != 'lovdata-observation-release-v1':
+            raise ValueError('Evidence release does not match the published source')
+        receipt.update(version=2, evidence={
+            'observation_id': evidence['observation_id'],
+            'receipt_url': evidence['receipt_url'],
+            'bundle_sha256': evidence['bundle']['sha256'],
+            'snapshot_manifest_sha256': evidence['snapshot_manifest_sha256'],
+        })
+    return receipt
 
 
-def matches_receipt(receipt: dict, source_sha: str, manifest_path: Path) -> bool:
-    expected = make_receipt(source_sha, manifest_path)
+def matches_receipt(receipt: dict, source_sha: str, manifest_path: Path,
+                    evidence_path: Path | None = None) -> bool:
+    expected = make_receipt(source_sha, manifest_path, evidence_path)
     return isinstance(receipt, dict) and all(receipt.get(k) == v for k, v in expected.items())
 
 
@@ -70,7 +83,8 @@ def stage(repo: Path, output: Path) -> str:
     return sha
 
 
-def verify(url: str, source_sha: str, manifest_path: Path, *, attempts: int = 30, delay: float = 10) -> None:
+def verify(url: str, source_sha: str, manifest_path: Path, *, evidence_path: Path | None = None,
+           attempts: int = 30, delay: float = 10) -> None:
     for attempt in range(attempts):
         try:
             # Query and cache headers avoid accepting an old cached receipt.
@@ -78,7 +92,7 @@ def verify(url: str, source_sha: str, manifest_path: Path, *, attempts: int = 30
             request = urllib.request.Request(f'{url}{separator}source={source_sha}', headers={'Cache-Control':'no-cache'})
             with urllib.request.urlopen(request, timeout=20) as response:
                 receipt = json.loads(response.read())
-            if matches_receipt(receipt, source_sha, manifest_path):
+            if matches_receipt(receipt, source_sha, manifest_path, evidence_path):
                 return
         except (OSError, ValueError):
             pass
@@ -97,18 +111,20 @@ def main():
     receipt_parser.add_argument('--sha', required=True)
     receipt_parser.add_argument('--manifest', type=Path, required=True)
     receipt_parser.add_argument('--output', type=Path, required=True)
+    receipt_parser.add_argument('--evidence', type=Path)
     verify_parser = commands.add_parser('verify')
     verify_parser.add_argument('--sha', required=True)
     verify_parser.add_argument('--manifest', type=Path, required=True)
     verify_parser.add_argument('--url', required=True)
+    verify_parser.add_argument('--evidence', type=Path)
     args = parser.parse_args()
     if args.command == 'stage':
         print(stage(args.repo, args.output))
     elif args.command == 'receipt':
         args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(json.dumps(make_receipt(args.sha, args.manifest), indent=2)+'\n', encoding='utf-8')
+        args.output.write_text(json.dumps(make_receipt(args.sha, args.manifest, args.evidence), indent=2)+'\n', encoding='utf-8')
     else:
-        verify(args.url, args.sha, args.manifest)
+        verify(args.url, args.sha, args.manifest, evidence_path=args.evidence)
 
 
 if __name__ == '__main__':

@@ -58,7 +58,7 @@ jobs:
             --mean 0.999 --min 0.50 --max-structural 5
 
       - name: Format laws and generate Quarto chapters
-        run: lovdata-publish --snapshot snapshot --output . --quarto
+        run: lovdata-publish --snapshot snapshot --output . --quarto --source-evidence-links
 
       - name: Update 'Recent amendments' section in README
         run: python -m lovdata_publisher.readme_updater README.md snapshot/amendments.db
@@ -148,6 +148,16 @@ jobs:
           fi
           echo "source_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
+      - name: Publish durable source evidence and read it back
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_SHA: ${{ steps.commit.outputs.source_sha }}
+        run: |
+          python .github/scripts/publish_evidence.py --snapshot snapshot \
+            --output "$RUNNER_TEMP/source-evidence" --source-sha "$SOURCE_SHA" \
+            --repository "$GITHUB_REPOSITORY" --publish
+          cp "$RUNNER_TEMP/source-evidence/evidence.json" snapshot/evidence-release.json
+
       - name: Upload snapshot for deploy-book
         uses: actions/upload-artifact@v4
         with:
@@ -158,6 +168,11 @@ jobs:
             snapshot/amendments.db
             snapshot/laws/
             snapshot/forskrifter/
+            snapshot/raw/
+            snapshot/source-observations.json
+            snapshot/source-members.jsonl
+            snapshot/parsed-amendment-acts.v1.jsonl
+            snapshot/evidence-release.json
           retention-days: 7
           if-no-files-found: error
 
@@ -188,8 +203,11 @@ jobs:
       - name: Render book
         run: quarto render
 
-      - name: Copy laws.json to site
-        run: cp laws.json _site/laws.json
+      - name: Copy data and source evidence links to site
+        run: |
+          cp laws.json _site/laws.json
+          cp snapshot/evidence-release.json _site/evidence.json
+          cp snapshot/manifest.json _site/snapshot-manifest.json
 
       - name: Copy assets to site
         run: |
@@ -217,7 +235,8 @@ jobs:
           SOURCE_SHA: ${{ needs.update-laws.outputs.source_sha }}
         run: |
           python .github/scripts/publication.py receipt --sha "$SOURCE_SHA" \
-            --manifest snapshot/source-manifest.json --output _site/publication.json
+            --manifest snapshot/source-manifest.json --evidence snapshot/evidence-release.json \
+            --output _site/publication.json
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
@@ -232,7 +251,8 @@ jobs:
           SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
         run: |
           python .github/scripts/publication.py verify --sha "$SOURCE_SHA" \
-            --manifest snapshot/source-manifest.json --url "$SITE_URL/publication.json"
+            --manifest snapshot/source-manifest.json --evidence snapshot/evidence-release.json \
+            --url "$SITE_URL/publication.json"
 
   acknowledge-delivery:
     needs: [update-laws, deploy-book]
@@ -251,7 +271,8 @@ jobs:
         run: |
           cp snapshot/source-manifest.json .github/state/lovdata-published.json
           python .github/scripts/publication.py receipt --sha "$SOURCE_SHA" \
-            --manifest snapshot/source-manifest.json --output .github/state/publication.json
+            --manifest snapshot/source-manifest.json --evidence snapshot/evidence-release.json \
+            --output .github/state/publication.json
           git config user.name "Lovtidend"
           git config user.email "lovtidend@lovdata.no"
           git add .github/state/lovdata-published.json .github/state/publication.json

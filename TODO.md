@@ -9,10 +9,12 @@ fresh source and production snapshot. The missing regulation serves its source
 text; the obsolete current entry returns 404. The public receipt matches the
 committed acknowledgement. Daily operation still needs a subsequent observation.
 
-[PR #12](https://github.com/sondreskarsten/norwegian-laws/pull/12) prepares ordered
-legal paragraphs, regulation amendment targets, readable nested lists, recovery
-pages, mobile comparison and explicit/pinned legacy-version presentation.
-Those follow-up changes still require production publication and readback.
+[PR #12](https://github.com/sondreskarsten/norwegian-laws/pull/12) is live through
+[run 36162836802](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36162836802),
+source `27df76fb664c71a2e1dd5e2764305185c4683dfe`. Its public receipt and committed
+acknowledgement agree. Ordered Regnskapsloven paragraphs, regulation amendment
+exports, feeds, 404 recovery and mobile comparison were read from the deployed
+site. Per-law legacy-version headers need the next release's final cleanup.
 
 Keep the existing personal repositories:
 [norwegian-laws](https://github.com/sondreskarsten/norwegian-laws) for current
@@ -42,17 +44,23 @@ and publication acknowledgement after public-site readback.
   checked from the actual downloaded production artifact.
 - [ ] Publish durable snapshot membership/integrity metadata and immutable raw
   evidence for independent consumers; the current workflow artifact lasts seven days.
-- [ ] Complete feeds and other machine-readable consumer checks. Verify the
-  next daily update before describing ongoing delivery as complete.
+- [x] Read the global and per-law feeds and both compressed display exports from
+  the live site against the production snapshot: 100 global feed entries, 50
+  Regnskapsloven entries, 39,208 act rows and 99,102 eligible amendment rows,
+  including 72,538 regulation targets. Display filtering/truncation is preserved.
+- [ ] Verify the next daily update before describing ongoing delivery as complete.
 - [ ] Keep cloud mirroring optional. Publish only clean output; investigate and
   remove previously replicated `gha-creds-*.json` artifacts as authorized, then
   verify destination contents and access independently of upload logs.
 
 ## 2. Complete the shared data interface
 
-- [ ] Preserve mixed text/list order in the canonical model and formatter, and
-  resolve structured regulation amendment targets. The audit reproduced reordered
-  text despite 100% token coverage and an empty regulation `target_law`.
+- [x] Preserve mixed text/list order within legal paragraphs and resolve structured
+  regulation amendment targets. The live Regnskapsloven §6-2 now follows source
+  order; regulation targets appear in the public export.
+- [ ] Preserve whole-document structural order. A separate mixed section/subsection
+  counterexample still reorders content despite 100% token coverage. Do not claim
+  the paragraph repair certifies an entire canonical document.
 - [ ] Finish a versioned producer/consumer contract: ordered content, source and
   output identities, parser/formatter versions, exact membership and explicit
   unresolved content. Verify deterministic replay through independently installed
@@ -83,10 +91,10 @@ dates for unknown commencement; its tags are not verified historical snapshots.
   — reduce or explicitly separate the full-text download from lightweight search.
   The audit measured 29,717,270 decoded bytes for `search.json`; verify actual
   transferred bytes and usable results on a constrained mobile connection.
-- [ ] [#9: missing/repealed-page recovery](https://github.com/sondreskarsten/norwegian-laws/issues/9)
+- [x] [#9: missing/repealed-page recovery](https://github.com/sondreskarsten/norwegian-laws/issues/9)
   — deploy a project 404 page with search, history and source links. Verify both
   an unknown URL and `lover/lov-1981-05-29-38.html` recover usefully.
-- [ ] [#10: mobile comparison](https://github.com/sondreskarsten/norwegian-laws/issues/10)
+- [x] [#10: mobile comparison](https://github.com/sondreskarsten/norwegian-laws/issues/10)
   — wrap controls and contain diff scrolling. Verify the page at 390px width,
   and clear the previous result when equal or otherwise invalid versions are
   selected. Retest search, reading, crosslinks and paragraph deep links after

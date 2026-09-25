@@ -9,6 +9,10 @@ permissions:
   contents: read
   id-token: write
 
+concurrency:
+  group: gcs-publication
+  cancel-in-progress: false
+
 jobs:
   sync:
     if: vars.GCS_BUCKET != '' && vars.GCP_WIF_PROVIDER != '' && vars.GCP_SERVICE_ACCOUNT != ''
@@ -32,3 +36,19 @@ jobs:
           GCS_BUCKET: ${{ vars.GCS_BUCKET }}
         run: |
           gsutil -m rsync -r -d "$RUNNER_TEMP/law-publication" "gs://$GCS_BUCKET/"
+
+      - name: Read mirrored membership, receipt and documents back
+        env:
+          GCS_BUCKET: ${{ vars.GCS_BUCKET }}
+        run: |
+          python .github/scripts/verify_gcs_publication.py \
+            --staged "$RUNNER_TEMP/law-publication" --bucket "$GCS_BUCKET" \
+            --receipt "$RUNNER_TEMP/gcs-readback.json"
+
+      - name: Retain mirror readback evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: gcs-readback
+          path: ${{ runner.temp }}/gcs-readback.json
+          retention-days: 30
+          if-no-files-found: error

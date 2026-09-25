@@ -281,112 +281,233 @@ def generate_laws_json(lover_dir: str, output_path: str, version_tags: list[str]
     return laws
 
 
-def generate_search_page(book_dir: str):
-    lines = [
-        '---',
-        'title: "Søk i lover"',
-        'search: false',
-        '---',
-        '',
-        '<label for="law-search" style="font-weight:600;font-size:1.1em;">Søk etter lov (tittel, korttittel eller refid):</label>',
-        '<input type="text" id="law-search" placeholder="f.eks. arbeidsmiljø, straffeloven, lov-2005..."',
-        '  style="width:100%;padding:8px 12px;margin:8px 0 16px 0;font-size:1em;border:1px solid #ccc;border-radius:4px;">',
-        '<div id="result-count" style="margin-bottom:8px;color:#666;"></div>',
-        '<table id="law-results" style="width:100%;display:none;">',
-        '<thead><tr><th style="text-align:left;">Lov</th><th style="text-align:left;">Korttittel</th><th style="text-align:left;">Departement</th><th style="text-align:right;">Endringer</th><th style="text-align:left;">Lenker</th></tr></thead>',
-        '<tbody></tbody>',
-        '</table>',
-        '<div id="no-results" style="display:none;color:#888;padding:20px 0;">Ingen treff.</div>',
-        '',
-        '```{=html}',
-        '<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>',
-        '<script>',
-        'document.addEventListener("DOMContentLoaded", function() {',
-        '  var input = document.getElementById("law-search");',
-        '  var table = document.getElementById("law-results");',
-        '  var tbody = table.querySelector("tbody");',
-        '  var countDiv = document.getElementById("result-count");',
-        '  var noResults = document.getElementById("no-results");',
-        '  var laws = [];',
-        '  var fuse = null;',
-        '',
-        '  fetch("../laws.json").then(function(r){return r.json()}).then(function(data){',
-        '    laws = data;',
-        '    fuse = new Fuse(laws, {',
-        '      keys: [',
-        '        {name: "tittel", weight: 0.35},',
-        '        {name: "korttittel", weight: 0.25},',
-        '        {name: "aliases", weight: 0.25},',
-        '        {name: "refid", weight: 0.1},',
-        '        {name: "departement", weight: 0.05}',
-        '      ],',
-        '      threshold: 0.35,',
-        '      distance: 200,',
-        '      minMatchCharLength: 2',
+def _catalog_loader_lines() -> list[str]:
+    """Decode the internal compact catalog into the familiar display records."""
+    return [
+        'function loadSearchCatalog() {',
+        '  return fetch("../search-catalog.json").then(function(r) {',
+        '    if (!r.ok) throw new Error("HTTP " + r.status);',
+        '    return r.json();',
+        '  }).then(function(data) {',
+        '    if (data.version !== 1) throw new Error("Ukjent søkeindeksversjon");',
+        '    var laws = data.documents.map(function(row) {',
+        '      var law = {};',
+        '      data.columns.forEach(function(key, i) { law[key] = row[i]; });',
+        '      law.departement = law.departement.map(function(i) { return data.departments[i]; });',
+        '      law.tags = data.tagSets[law.tags];',
+        '      law.file = law.path.split("/").pop();',
+        '      law.lovdata = "https://lovdata.no/dokument/" + (law.refid.startsWith("forskrift/") ? "SF/" : "NL/") + law.refid;',
+        f'      law.log = "{GITHUB_BASE}/commits/{HISTORY_BRANCH}/" + law.path;',
+        '      return law;',
         '    });',
+        '    return {laws: laws, fullText: data.fullText};',
         '  });',
-        '',
-        '  function renderResults(results) {',
-        '    tbody.innerHTML = "";',
-        '    if (results.length === 0) {',
-        '      table.style.display = "none";',
-        '      noResults.style.display = "block";',
-        '      countDiv.textContent = "";',
-        '      return;',
-        '    }',
-        '    noResults.style.display = "none";',
-        '    table.style.display = "table";',
-        '    countDiv.textContent = results.length + " treff";',
-        '    results.forEach(function(law) {',
-        '      var tr = document.createElement("tr");',
-        '      var td1 = document.createElement("td");',
-        '      td1.innerHTML = \'<a href="../\' + law.path.replace(".md", ".html") + \'">\' + law.tittel.substring(0,70) + (law.tittel.length > 70 ? "…" : "") + "</a>";',
-        '      var td2 = document.createElement("td");',
-        '      td2.textContent = law.korttittel;',
-        '      var td3 = document.createElement("td");',
-        '      td3.textContent = law.departement.join(", ");',
-        '      var td4 = document.createElement("td");',
-        '      td4.style.textAlign = "right";',
-        '      var n = law.amendments || 0;',
-        '      if (n > 0) {',
-        '        var color = n >= 50 ? "#dc3545" : (n >= 10 ? "#fd7e14" : "#198754");',
-        '        if (law.historie) {',
-        '          td4.innerHTML = \'<a href="../\' + law.historie + \'" style="color:\' + color + \';text-decoration:none;font-weight:600;" title="Antall endringslover siden 2001">\' + n + \'</a>\';',
-        '        } else {',
-        '          td4.innerHTML = \'<span style="color:\' + color + \';font-weight:600;">\' + n + \'</span>\';',
-        '        }',
-        '      } else {',
-        '        td4.innerHTML = \'<span style="color:#adb5bd;">—</span>\';',
-        '      }',
-        '      var td5 = document.createElement("td");',
-        '      td5.innerHTML = \'<a href="\' + law.lovdata + \'">lovdata</a> · <a href="\' + law.log + \'">logg</a>\';',
-        '      tr.appendChild(td1);',
-        '      tr.appendChild(td2);',
-        '      tr.appendChild(td3);',
-        '      tr.appendChild(td4);',
-        '      tr.appendChild(td5);',
-        '      tbody.appendChild(tr);',
-        '    });',
-        '  }',
-        '',
-        '  input.addEventListener("input", function() {',
-        '    var q = input.value.trim();',
-        '    if (!fuse || q.length < 2) {',
-        '      table.style.display = "none";',
-        '      noResults.style.display = "none";',
-        '      countDiv.textContent = "";',
-        '      return;',
-        '    }',
-        '    var hits = fuse.search(q, {limit: 50}).map(function(r){return r.item;});',
-        '    renderResults(hits);',
-        '  });',
-        '});',
-        '</script>',
-        '```',
-        '',
+        '}',
     ]
-    with open(os.path.join(book_dir, "sok.qmd"), "w", encoding="utf-8") as f:
-        f.write("\n".join(lines))
+
+
+def generate_search_page(book_dir: str):
+    page = r"""---
+title: "Søk i lover"
+search: false
+---
+
+<label for="law-search" style="font-weight:600;font-size:1.1em;">Søk i lover og forskrifter:</label>
+<input type="text" id="law-search" placeholder="f.eks. arbeidsmiljø, straffeloven, lov-2005..." style="width:100%;min-width:0;box-sizing:border-box;padding:8px 12px;margin:8px 0 16px 0;font-size:1em;border:1px solid #ccc;border-radius:4px;">
+<fieldset style="border:0;padding:0;margin:0 0 16px;min-width:0;">
+<legend style="font-size:1em;font-weight:600;">Søk i</legend>
+<div style="display:flex;gap:16px;flex-wrap:wrap;">
+<label><input type="radio" name="search-scope" value="titles" checked> Tittel og referanse</label>
+<label><input type="radio" name="search-scope" value="body"> Hele lovteksten</label>
+</div>
+<div id="full-text-size" style="color:#666;font-size:0.9em;margin-top:6px;">Tekstsøk laster bare delene av teksten som trengs for søket.</div>
+</fieldset>
+<div id="result-count" aria-live="polite" style="margin-bottom:8px;color:#666;"></div>
+<div style="width:100%;max-width:100%;min-width:0;overflow-x:auto;">
+<table id="law-results" style="width:100%;display:none;">
+<thead><tr><th style="text-align:left;">Lov</th><th style="text-align:left;">Korttittel</th><th style="text-align:left;">Departement</th><th style="text-align:right;">Endringer</th><th style="text-align:left;">Lenker</th></tr></thead>
+<tbody></tbody>
+</table>
+</div>
+<button id="more-results" type="button" style="display:none;margin-top:12px;">Vis flere teksttreff</button>
+<div id="no-results" style="display:none;color:#888;padding:20px 0;">Ingen treff.</div>
+
+```{=html}
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script>
+__CATALOG_LOADER__
+document.addEventListener("DOMContentLoaded", function() {
+  var input = document.getElementById("law-search");
+  var table = document.getElementById("law-results");
+  var tbody = table.querySelector("tbody");
+  var countDiv = document.getElementById("result-count");
+  var noResults = document.getElementById("no-results");
+  var moreButton = document.getElementById("more-results");
+  var bodyScope = document.querySelector('input[name="search-scope"][value="body"]');
+  var laws = [];
+  var lawsByRef = new Map();
+  var fuse = null;
+  var fullText = null;
+  var pagefindPromise = null;
+  var textMatches = [];
+  var textResults = [];
+  var seenRefs = new Set();
+  var textOffset = 0;
+  var requestId = 0;
+  var searchTimer = null;
+
+  function status(message) {
+    tbody.innerHTML = "";
+    table.style.display = "none";
+    noResults.style.display = "none";
+    countDiv.textContent = message;
+    moreButton.style.display = "none";
+  }
+
+  status("Laster titler og referanser...");
+  loadSearchCatalog().then(function(catalog) {
+    laws = catalog.laws;
+    fullText = catalog.fullText;
+    laws.forEach(function(law) { lawsByRef.set(law.refid, law); });
+    fuse = new Fuse(laws, {
+      keys: [
+        {name: "tittel", weight: 0.35}, {name: "korttittel", weight: 0.25},
+        {name: "aliases", weight: 0.25}, {name: "refid", weight: 0.1},
+        {name: "departement", weight: 0.05}
+      ],
+      threshold: 0.35, distance: 200, minMatchCharLength: 2
+    });
+    search();
+  }).catch(function() {
+    status("Kunne ikke laste søkeoversikten. Last siden på nytt for å prøve igjen.");
+  });
+
+  function loadTextSearch() {
+    if (!fullText) return Promise.reject(new Error("Tekstindeks mangler"));
+    if (!pagefindPromise) {
+      pagefindPromise = import("../" + fullText.module).catch(function(error) {
+        pagefindPromise = null;
+        throw error;
+      });
+    }
+    return pagefindPromise;
+  }
+
+  function link(href, text) {
+    var a = document.createElement("a");
+    a.href = href;
+    a.textContent = text;
+    return a;
+  }
+
+  function renderResults(results, total) {
+    status("");
+    if (!results.length) { noResults.style.display = "block"; return; }
+    table.style.display = "table";
+    countDiv.textContent = total > results.length ? "Viser " + results.length + " av " + total + " treff" : total + " treff";
+    results.forEach(function(law) {
+      var tr = document.createElement("tr");
+      var td1 = document.createElement("td");
+      td1.style.minWidth = "180px";
+      td1.appendChild(link("../" + law.path.replace(/\.md$/, ".html"), law.tittel));
+      if (law.excerpt) {
+        var excerpt = document.createElement("p");
+        excerpt.style.cssText = "font-size:0.9em;color:#666;max-width:32em;";
+        excerpt.textContent = law.excerpt;
+        td1.appendChild(excerpt);
+      }
+      var td2 = document.createElement("td");
+      td2.textContent = law.korttittel;
+      var td3 = document.createElement("td");
+      td3.textContent = law.departement.join(", ");
+      var td4 = document.createElement("td");
+      td4.style.textAlign = "right";
+      var n = law.amendments || 0;
+      var count = n > 0 && law.historie ? link("../" + law.historie, String(n)) : document.createElement("span");
+      count.textContent = n > 0 ? String(n) : "—";
+      count.style.color = n >= 50 ? "#dc3545" : n >= 10 ? "#fd7e14" : n > 0 ? "#198754" : "#adb5bd";
+      td4.appendChild(count);
+      var td5 = document.createElement("td");
+      td5.appendChild(link(law.lovdata, "lovdata"));
+      td5.appendChild(document.createTextNode(" · "));
+      td5.appendChild(link(law.log, "logg"));
+      [td1, td2, td3, td4, td5].forEach(function(td) { tr.appendChild(td); });
+      tbody.appendChild(tr);
+    });
+  }
+
+  async function showTextResults(id) {
+    moreButton.disabled = true;
+    var batch = textMatches.slice(textOffset, textOffset + 10);
+    try {
+      var data = await Promise.all(batch.map(function(result) { return result.data(); }));
+      if (id !== requestId) return;
+      textOffset += batch.length;
+      data.forEach(function(result) {
+        var law = lawsByRef.get(result.meta.refid);
+        if (!law || seenRefs.has(law.refid)) return;
+        seenRefs.add(law.refid);
+        // Decode Pagefind's escaped plain excerpt without inserting source HTML.
+        var excerpt = document.createElement("textarea");
+        excerpt.innerHTML = result.plain_excerpt;
+        textResults.push(Object.assign({}, law, {excerpt: excerpt.value}));
+      });
+      renderResults(textResults, textResults.length);
+      countDiv.textContent = textResults.length + (textResults.length === 1 ? " dokument fra " : " dokumenter fra ") +
+        textMatches.length + " teksttreff";
+      moreButton.style.display = textOffset < textMatches.length ? "inline-block" : "none";
+    } catch (error) {
+      if (id === requestId) status("Kunne ikke laste teksttreff. Endre søket for å prøve igjen.");
+    } finally {
+      if (id === requestId) moreButton.disabled = false;
+    }
+  }
+
+  async function search() {
+    var id = ++requestId;
+    var q = input.value.trim();
+    if (!fuse) return;
+    if (q.length < 2) { status(""); return; }
+    if (!bodyScope.checked) {
+      var matches = fuse.search(q).map(function(r) { return r.item; });
+      renderResults(matches.slice(0, 50), matches.length);
+      return;
+    }
+    status("Søker i lovteksten...");
+    try {
+      var pagefind = await loadTextSearch();
+      if (id !== requestId) return;
+      var matches = await pagefind.search(q);
+      if (id !== requestId) return;
+      textMatches = matches.results;
+      textResults = [];
+      seenRefs = new Set();
+      textOffset = 0;
+      await showTextResults(id);
+    } catch (error) {
+      if (id === requestId) status("Kunne ikke laste tekstindeksen. Endre søket for å prøve igjen.");
+    }
+  }
+
+  moreButton.addEventListener("click", function() { showTextResults(requestId); });
+  input.addEventListener("input", function() {
+    ++requestId;
+    clearTimeout(searchTimer);
+    status("");
+    searchTimer = setTimeout(search, 180);
+  });
+  document.querySelectorAll('input[name="search-scope"]').forEach(function(radio) {
+    radio.addEventListener("change", function() {
+      clearTimeout(searchTimer);
+      search();
+    });
+  });
+});
+</script>
+```
+"""
+    page = page.replace("__CATALOG_LOADER__", "\n".join(_catalog_loader_lines()))
+    Path(book_dir, "sok.qmd").write_text(page, encoding="utf-8")
 
 
 def generate_diff_page(book_dir: str, version_tags: list[str]):
@@ -434,6 +555,7 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '<script src="https://cdn.jsdelivr.net/npm/diff@5.2.0/dist/diff.min.js"></script>',
         '<script src="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/js/diff2html-ui.min.js"></script>',
         '<script>',
+        *_catalog_loader_lines(),
         'document.addEventListener("DOMContentLoaded", function() {',
         '  var lawSearch = document.getElementById("diff-law-search");',
         '  var lawSelect = document.getElementById("diff-law");',
@@ -495,8 +617,8 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '    }',
         '  }',
         '',
-        '  fetch("../laws.json").then(function(r){return r.json()}).then(function(data) {',
-        '    laws = data;',
+        '  loadSearchCatalog().then(function(data) {',
+        '    laws = data.laws;',
         '    fuse = new Fuse(laws, {',
         '      keys: ["tittel","korttittel","refid"],',
         '      threshold: 0.35',
@@ -704,8 +826,12 @@ def generate_subscribe_page(book_dir: str):
         f.write("\n".join(lines))
 
 
-def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter_dir: str = "forskrifter", version_tags: list[str] = None, db_path: str = None):
-    """Generate the full Quarto book configuration and chapter files."""
+def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter_dir: str = "forskrifter", version_tags: list[str] = None, db_path: str = None, *, source_evidence_links: bool = False):
+    """Generate the full Quarto book configuration and chapter files.
+
+    source_evidence_links requires the caller to supply evidence.json and
+    snapshot-manifest.json in the rendered site before link validation.
+    """
     full_lover = os.path.join(repo_root, lover_dir)
     full_forskrifter = os.path.join(repo_root, forskrifter_dir)
     book_dir = os.path.join(repo_root, "book")
@@ -998,6 +1124,10 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         amendments_line,
         acts_line,
         f"- [`laws.json`](laws.json) — alle {fmt_no(total_docs)} lover/forskrifter med metadata og endringstellere",
+        *([
+            "- [Kildekvittering](evidence.json) — kildeobservasjon og permanent lenke til kildepakken",
+            "- [Snapshot-manifest](snapshot-manifest.json) — nøyaktig dokumentoversikt og sjekksummer",
+        ] if source_evidence_links else []),
         "- [`schemas/`](schemas/amendment-acts.schema.json) — JSON Schema 2020-12 for begge JSONL-strømmene\n",
         "## Les lover\n",
         "- [Søk etter lov](book/sok.qmd) \u2014 finn lover etter tittel, korttittel eller lovnummer",

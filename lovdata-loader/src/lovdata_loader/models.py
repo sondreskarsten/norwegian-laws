@@ -215,9 +215,13 @@ class Manifest:
     # Version 1/2 retain the original flat-paragraph Markdown contract.
     content_version: str = "legacy-paragraphs-v1"
     formatter_version: str = "law-markdown-v1"
+    # Version 4 binds retained source bytes and all parsed amendment occurrences.
+    evidence: dict = field(default_factory=dict)
 
     def to_json(self, indent: int = 1) -> str:
         data = asdict(self)
+        if self.version < 4:
+            data.pop("evidence")
         if self.version < 3:
             # Preserve the v2 shape for older Manifest(**data) readers, too.
             data.pop("content_version")
