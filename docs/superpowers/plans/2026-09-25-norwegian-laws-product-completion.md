@@ -96,10 +96,10 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 - [x] Use `search-catalog.json` for subscription lookup and `feeds/index.json` for availability; offer copy/open actions only for a published feed. Keep a reader route for a document without one. Merged in main PR15.
 - [x] Exercise title/abbreviation/refid lookup, copy and open, an unavailable-feed case, and keyboard/mobile interaction on generated real corpus output. Local generated content passed; direct feed retrieval succeeded, while local Chrome feed display was blocked by its client. See `docs/evidence/subscription-local.json`.
 - [x] Exercise topic → document → feed and ministry → document journeys; reconcile page membership with the source catalog and feed inventory. Public source `9285be5` audit reconciles all 69 topic rows, all 102 Finance documents and the feeds; see `docs/evidence/reader-journeys-public.json`.
-- [x] Exercise one document timeline, one paragraph timeline and the activity page. All 33 current-corpus top rows, 26 yearly counts and 20 ministry counts reconcile. The audit found a fabricated commencement display, overbroad coverage claims and mobile overflow; local repairs are verified at 390px. Their public deployment remains below.
+- [x] Exercise one document timeline, one paragraph timeline and the activity page. All 33 current-corpus top rows, 26 yearly counts and 20 ministry counts reconcile. PR17 publicly fixes the fabricated commencement display, qualifies parsed coverage and contains mobile tables. Regnskapsloven §7-25 shows its original deferred clause separately from publication; paragraph/timeline/activity pages measure 375/375 at 390px. See `docs/evidence/reader-pr17-public.json`.
 - [ ] Confirm supported legacy references are pinned; exclude orphan/future unsupported versions from selectable verified results. Preserve old refs without rewriting history.
 - [ ] Measure first/repeat metadata and full-text queries with an explicitly recorded mobile network profile. Report bytes and timing; correct material usability failures instead of claiming an unmeasured speed improvement.
-- [ ] Publish through the existing pipeline, repeat the user journeys on the deployed site and update main #3–#5 only for the acceptance actually met.
+- [ ] Publish through the existing pipeline, repeat the user journeys on the deployed site and update main #3–#5 only for the acceptance actually met. PR17 run `36185527804` and public receipt/acknowledgement pass at source `8ccd1da`; date, archive, ministry-label and mobile readback is recorded. Remaining issue acceptance and controlled-network measurement stay open.
 
 **Interfaces:** display counts and exports share one authoritative eligibility definition; the compact catalog supplies document identity/navigation, the feed index supplies available subscription URLs. No display export becomes a reconstruction input.
 
@@ -113,11 +113,11 @@ Do not import the existing loader `reconstruct.py` or publisher `git_export.py` 
 
 - [x] Stage the prepared 105 objects only with byte-preserving attributes; verify staged bytes against SHA-256 and original Git blob identities. Every staged object and sidecar verified; included in history PR11.
 - [x] Publish the browse index, Viltloven entry, metadata sidecars and immutable original-copy links. History commit `a79eda1` is public; all 105 copies and sidecars were independently retrieved and matched their original identities (660,274 bytes).
-- [ ] Link public missing-page recovery to the archived copy/provenance where an exact identity exists.
-- [ ] Before future generated-current-file removal, preserve any otherwise-unretained derived copy with its source commit and detected exit; new raw observations already remain in the independent ledger.
-  Implemented locally: exact committed bytes, atomic capture-before-prune, expected-parent/staged-deletion checks, immutable replay and re-entry versions. Controlled Git publication/readback passes; pending production deployment and public archive readback.
+- [x] Link public missing-page recovery to the archived copy/provenance where an exact identity exists. PR16's 105 identities/pins and representative bytes were read back; PR17 adds the public on-site archive and raw download links. Both retained documents and the unknown-page route fit 390px, and recovery links reach the archive. See `docs/evidence/reader-pr16-public.json` and `docs/evidence/reader-pr17-public.json`. One regulation raw URL is blocked by the local Chrome client; its independent HTTP bytes match.
+- [x] Before future generated-current-file removal, preserve any otherwise-unretained derived copy with its source commit and detected exit; new raw observations already remain in the independent ledger.
+  Deployed in PR17: exact committed bytes, atomic capture-before-prune, expected-parent/staged-deletion checks, immutable replay and re-entry versions. Controlled Git publication/readback passes. The public archive has 105 prior copies; this production run had zero new exits, so a naturally occurring exit readback remains part of continued-operation acceptance.
 - [ ] Compute observation membership changes only between comparable archive scopes. Emit `not_present_in_observation`; keep legal repeal unresolved unless separately evidenced.
-- [ ] Verify a controlled temporary before/after corpus and a real previously removed document without changing live source membership.
+- [x] Verify a controlled temporary before/after corpus and a real previously removed document without changing live source membership. Controlled capture/re-entry/replay evidence is in `docs/evidence/reader-archive-local.json`; PR17 retrieves the original Viltloven and regulation bytes publicly without changing source membership.
 - [ ] Update main #6 with the corrected count, published retrieval and remaining pre-observation source gaps.
 
 **Done:** all 105 known copies are publicly addressable, their original bytes are unchanged, and a future observed exit retains retrieval. Earlier legal history is not inferred from their Git removal date.
@@ -163,7 +163,7 @@ materializations(repository)
 - [x] For unchanged qualified bodies, show no textual amendment while retaining the second observation time and provenance.
 - [x] Interrupt publication at the product/receipt boundary in a disposable repository and recover without duplicates, overwrites or force pushes.
 - [ ] Exercise fresh installation and ordinary-token execution. Distinguish a fresh checkout from a literal clean-fork run; do not claim the latter without executing it. If no authorized independent fork target is available, record that exact remaining acceptance dependency.
-- [ ] Independently clone/download the published result, verify old bytes and commit reachability, and regenerate the selected product offline.
+- [x] Independently clone/download the published result, verify old bytes and commit reachability, and regenerate the selected product offline. History runs `36187783649` and `36188237555` reproduce published samples `8633cba…` / `240d7ee…` from observations `ccdbf3e4…` / `ca32e6b7…` on Python 3.12.14. Networking is denied during fresh generation; target products are not copied; all 23 artifact bytes per product and five previous receipt hashes match. History evidence: `docs/evidence/offline-body-reproduction-public.json` and `offline-body-reproduction-second-public.json`. Literal clean-fork and next scheduled-cycle acceptance remain open.
 - [ ] Close history #8 and the replacement-publication part of main #7 only after their actual acceptance is met.
 
 **Done:** two real observations, durable publication, independent reproduction, stable previous identities and the required portability evidence are all recorded. This does not complete legal reconstruction.
@@ -173,6 +173,16 @@ materializations(repository)
 **Outcome:** readable products preserve the meaningful structure of the full selected corpus, rather than only three simple examples.
 
 **Files:** main loader `models.py`, `parser.py`, `evidence.py`; publisher `formatter.py`, `per_law_pages.py`; history `structure.py`, `validation.py`; source-bound fixtures and `docs/evidence/structural-coverage.json` (new).
+
+**Current implementation evidence:** explicit snapshot v5 retains every selected
+ordered source body; default loader output remains v4. Full local parsing,
+publisher validation and independent history validation passed for 756 laws,
+5,118 regulations, 39,208 acts and 45,114 source members. All prior convenience
+models match; strict UTF-8 decoding fixed a demonstrated runtime misclassification.
+History PR14 merged as `0667744` before producer activation. The new renderer
+supports declared links, notes and column-spanning tables, with exact source/model
+reverse accounting and phone/keyboard table readback. Full qualification totals,
+remaining grammar expansion and public delivery are still open.
 
 - [ ] Inventory every actual structural form in current law/regulation bodies and representative amendment sources; produce per-document unsupported reasons rather than a single token coverage score.
   Current-body inventory completed for all 5,874 selected documents / 5,875 source occurrences. Links affect 5,448 documents; named sections 2,439; structured footnotes 1,084; tables 652. The 117 bound examples and exact attribute inventory inform D6 implementation; these are form counts, not qualification totals.
@@ -198,6 +208,8 @@ resolve_claims(operations, evidence_catalog, knowledge_cutoff) -> list[dict]
 ```
 
 Operation records bind `source_occurrence_id` + `parsed_model_sha256` + zero-based `operation_ordinal`, source/model locations, original instruction/replacement/target strings, candidate target and resolution status. Binding the parsed revision prevents parser corrections/reordering from reusing a previous operation identity. Claim records bind operation/document scope, evidence IDs and locations, method/version, knowledge cutoff, legal start/end bounds and status `explicit|conditional|partial|conflicting|unresolved`. Corrections append a new claim with superseded IDs.
+
+**Delivery status:** [History PR13](https://github.com/sondreskarsten/norwegian-laws-history/pull/13) merged as `a36cebf`. Production run `36187764307` extracted five complete observation products but failed before publication because GitHub returned 422 for a nonexistent release tag. PR14 fixes exact tag-absence detection; retry `36192928094` is running. The local complete export covers 39,208 acts, 99,964 operations and 139,172 unresolved claims in a 102,467,016-byte bundle with a 6,761-byte Git receipt. Six real retrieval cases pass source/model/clock checks; see history `docs/evidence/operation-consumer-local.json` and `operation-release-local.json`. Public operation delivery stays unchecked below. Append-only later proposals and their Git publication pass local acceptance, including immutable replay without old release downloads; every proposal remains ineligible for reconstruction until a justified evidence method exists.
 
 - [ ] Read complete `parsed-amendment-acts.v1.jsonl`, retaining original order and every operation; reconcile to its raw occurrence and producer inventory.
 - [ ] Where the current parsed model flattened replacement text, extract the complete ordered replacement subtree from retained raw amendment XML and version that interface. An export that is complete relative to a lossy parsed model is not enough for legal replay.

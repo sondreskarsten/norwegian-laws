@@ -15,6 +15,10 @@ ORDERED_CONTENT_VERSION = "ordered-paragraph-blocks-v1"
 ORDERED_FORMATTER_VERSION = "law-markdown-ordered-html-v1"
 CONTAINER_CONTENT_VERSION = "ordered-law-containers-v1"
 CONTAINER_FORMATTER_VERSION = "law-markdown-ordered-containers-v1"
+SOURCE_BODY_CONTENT_VERSION = "ordered-source-document-body-v1"
+# The website still uses the existing convenience projection; faithful observed
+# source-body publication is qualified separately by the independent consumer.
+SOURCE_BODY_FORMATTER_VERSION = "law-markdown-convenience-with-source-body-v1"
 
 # Insertion order is the legacy formatter traversal. References preserve these
 # arrays as the single owners of content while describing a different order.
@@ -188,15 +192,23 @@ class LawData:
     remainders: list[str] = field(default_factory=list)
     # References describe source traversal without duplicating owned content.
     content_order: list[ContentRef] = field(default_factory=list)
+    source_body: dict | None = None
 
     def to_dict(self) -> dict:
-        return asdict(self)
+        data = asdict(self)
+        if self.source_body is None:
+            # Older receipt/model hashes must not acquire a new null field.
+            data.pop("source_body")
+        return data
 
     def to_json(self, indent: int = 1) -> str:
         return json.dumps(self.to_dict(), ensure_ascii=False, indent=indent)
 
     @classmethod
     def from_dict(cls, d: dict) -> "LawData":
+        if "source_body" in d:
+            from .source_body import validate_source_body_model
+            validate_source_body_model(d["source_body"], expected_refid=d["refid"])
         return cls(
             refid=d["refid"],
             title=d["title"],
@@ -211,6 +223,7 @@ class LawData:
             top_level_paragraphs=[_paragraph_from_dict(p) for p in d.get("top_level_paragraphs", [])],
             remainders=d.get("remainders", []),
             content_order=_content_order_from_dict(d, ROOT_CONTENT_FIELDS),
+            source_body=d.get("source_body"),
         )
 
 

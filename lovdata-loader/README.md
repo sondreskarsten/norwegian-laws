@@ -5,8 +5,9 @@ directory this repo's publishing pipeline consumes: one JSON per law or
 forskrift under `snapshot/laws/`, plus `snapshot/amendments.db` built
 from Norsk Lovtidend avd. 1.
 
-The CLI produces snapshot version 4. Publishers must validate the entire
-snapshot before using it; older readers must reject this version. Direct
+The CLI defaults to snapshot version 4. The production workflow explicitly uses
+`--capture-source-bodies` for snapshot version 5. Publishers must validate the entire
+snapshot before using it; older readers must reject unsupported versions. Direct
 `write_snapshot()` callers without source evidence retain the version 2/3
 contract. The existing display JSONL exports and SQLite date behavior are
 unchanged; they are not the complete amendment interface described below.
@@ -14,12 +15,14 @@ unchanged; they are not the complete amendment interface described below.
 ```bash
 pip install -e "lovdata-loader/[test]"
 lovdata-load --download --output snapshot
+# Retain ordered source bodies under the explicit v5 contract:
+lovdata-load --download --capture-source-bodies --output snapshot-v5
 python -m pytest lovdata-loader/tests/
 ```
 
 ## Ordered document content
 
-Snapshots declare an exact content/formatter pair. The latest pair,
+Snapshots declare an exact content/formatter pair. The v4 container pair,
 `ordered-law-containers-v1` / `law-markdown-ordered-containers-v1`, preserves
 interleaved paragraphs, articles, sections, notes and remaining text. Optional
 `content_order` references on a law or section point into its existing child
@@ -31,6 +34,33 @@ This repairs observed ordering defects, including a closing provision previously
 displayed before the law's first paragraph. It does not certify complete source
 fidelity: unsupported or flattened structures still require independent review.
 The v4 evidence envelope and unresolved legal-time declarations are unchanged.
+
+## Ordered source-body capture
+
+Snapshot v5 requires `ordered-source-document-body-v1` /
+`law-markdown-convenience-with-source-body-v1`. It retains an additional
+`source_body` for every selected law and regulation: ordered text/element children,
+all body-tree attributes, exact inherited html/head/body attributes, base URL,
+language, refid and raw-member/body/context hashes. Unknown forms are preserved.
+The current Markdown reader continues to use the existing typed convenience
+projection; the new field does not certify that projection's fidelity.
+
+Capture and rendering have separate boundaries. ElementTree creates the body
+model; a standalone Expat gate independently compares raw source events and
+context. A closed rendering grammar then admits only supported structures.
+Unsupported lists, images, formulas, row spans, inherited attributes and other
+forms retain their exact raw/body evidence but cannot receive qualified HTML.
+The initial renderer supports selected headings, provisions, HTTP(S) links,
+footnotes and regular tables with column spans, with a reverse rendering check.
+It does not establish legal effect or whole-document completeness.
+
+Use `EvidenceBundle(capture_source_bodies=True)` or
+`parse_law(raw, capture_source_body=True)` for explicit programmatic capture.
+`LawData.to_dict()` preserves the new field when present and omits it for legacy
+objects. V4 and earlier reject the field, and snapshot creation rejects mixed
+captured/uncaptured models. The v5 parser identity adds `source_body.py` to the
+original three source files. Non-selected duplicates keep their exact raw member
+and model identity; only selected body models are persisted in document JSON.
 
 ## Source evidence and parsed amendments
 

@@ -47,8 +47,8 @@ def prepare(snapshot: Path, output: Path, source_sha: str, repository: str) -> d
     if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repository):
         raise ValueError('Expected owner/repository')
     manifest = validate_snapshot(snapshot)
-    if manifest['version'] != 4:
-        raise ValueError('Durable evidence requires a version-4 snapshot with raw sources')
+    if manifest['version'] not in (4, 5):
+        raise ValueError('Durable evidence requires a version-4 or version-5 snapshot with raw sources')
     output.mkdir(parents=True, exist_ok=True)
     bundle = output / 'snapshot.tar.gz'
     files = sorted({'manifest.json', *manifest['artifact_hashes']})

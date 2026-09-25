@@ -398,13 +398,26 @@ def parse_section(section_tag: Tag) -> Section:
     )
 
 
-def parse_law(content: bytes) -> LawData | None:
+def parse_law(content: bytes | str, *, capture_source_body: bool = False) -> LawData | None:
     """Parse a single law XML document into a LawData dataclass.
 
-    Returns None if the document has no refid.
+    Returns None if the legacy document has no refid. Source-body capture is an
+    explicit v5 opt-in and fails on unsupported/malformed source; it never falls
+    back to the convenience projection or silently drops a failed body.
     """
-    soup = BeautifulSoup(content, "html.parser")
+    source_body = None
+    if capture_source_body:
+        from .source_body import capture_source_body as capture_document_body
+        source_body = capture_document_body(content)
+    # Lovdata's retained XML is UTF-8. Detector choices vary by environment and
+    # can turn valid Norwegian text into mojibake. Keep the original bytes for
+    # capture identity, while rejecting invalid input instead of guessing.
+    text = content.decode("utf-8-sig") if isinstance(content, bytes) else content
+    soup = BeautifulSoup(text, "html.parser")
     meta = _parse_law_metadata(soup)
+
+    if source_body is not None and source_body["context"]["refid"] != meta.get("refid"):
+        raise ValueError("Source-body refid differs from convenience metadata")
 
     if not meta.get("refid"):
         return None
@@ -452,6 +465,7 @@ def parse_law(content: bytes) -> LawData | None:
         top_level_paragraphs=top_level_paragraphs,
         remainders=remainders,
         content_order=content_order_if_needed(order, ROOT_CONTENT_FIELDS),
+        source_body=source_body,
     )
 
 
@@ -760,9 +774,10 @@ def parse_amendment(change_el: Tag) -> Amendment:
     )
 
 
-def parse_lovtidend_file(content: bytes, filename: str) -> AmendmentActData | None:
+def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActData | None:
     """Parse a single Lovtidend XML document into an AmendmentActData."""
-    soup = BeautifulSoup(content, "html.parser")
+    text = content.decode("utf-8-sig") if isinstance(content, bytes) else content
+    soup = BeautifulSoup(text, "html.parser")
     header = soup.find("header")
     if not header:
         return None

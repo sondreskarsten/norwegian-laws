@@ -120,7 +120,7 @@ def _snapshot_context(snapshot_dir: Path, manifest: dict) -> tuple[str, dict]:
     # The public capture API validates the whole snapshot. The formatter uses
     # this helper after its own full validation, avoiding a second raw replay.
     data = (snapshot_dir / "manifest.json").read_bytes()
-    if manifest.get("version") != 4 or json.loads(data) != manifest:
+    if manifest.get("version") not in (4, 5) or json.loads(data) != manifest:
         raise ValueError("Reader exit capture requires an unchanged validated v4 snapshot")
     evidence = manifest["evidence"]
     observations_path = evidence["observations"]

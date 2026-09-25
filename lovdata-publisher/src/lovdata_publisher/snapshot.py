@@ -7,7 +7,9 @@ ordered paragraph blocks and container references under explicit content and
 Markdown contracts. Older contracts reject nonempty container references and
 retain their original traversal. Version 4 additionally
 requires retained raw archives, exact source membership, and complete parsed
-amendment occurrences. Older snapshots retain their original artifact contract.
+amendment occurrences. Version 5 adds independently verified ordered source-body
+capture while explicitly retaining convenience Markdown rendering. Older
+snapshots retain their original artifact contract.
 """
 from __future__ import annotations
 
@@ -23,6 +25,7 @@ from lovdata_loader.models import (
     CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION,
     LEGACY_CONTENT_VERSION, LEGACY_FORMATTER_VERSION,
     ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION,
+    SOURCE_BODY_CONTENT_VERSION, SOURCE_BODY_FORMATTER_VERSION,
     ROOT_CONTENT_FIELDS, SECTION_CONTENT_FIELDS, validate_content_order,
 )
 
@@ -180,15 +183,17 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
     manifest_path = root / "manifest.json"
     _regular_file(manifest_path)
     manifest = _read_json(manifest_path)
-    if not isinstance(manifest, dict) or type(manifest.get("version")) is not int or manifest["version"] not in (1, 2, 3, 4):
+    if not isinstance(manifest, dict) or type(manifest.get("version")) is not int or manifest["version"] not in (1, 2, 3, 4, 5):
         raise ValueError("Invalid or unsupported snapshot manifest version")
     version = manifest["version"]
     legacy = (LEGACY_CONTENT_VERSION, LEGACY_FORMATTER_VERSION)
     paragraphs = (ORDERED_CONTENT_VERSION, ORDERED_FORMATTER_VERSION)
     containers = (CONTAINER_CONTENT_VERSION, CONTAINER_FORMATTER_VERSION)
+    source_body = (SOURCE_BODY_CONTENT_VERSION, SOURCE_BODY_FORMATTER_VERSION)
     contracts = tuple(manifest.get(field, fallback if version < 3 else None)
                       for field, fallback in zip(("content_version", "formatter_version"), legacy))
-    supported = (legacy,) if version < 3 else (paragraphs, containers) if version == 3 else (legacy, paragraphs, containers)
+    supported = ((legacy,) if version < 3 else (paragraphs, containers) if version == 3
+                 else (legacy, paragraphs, containers) if version == 4 else (source_body,))
     if contracts not in supported:
         raise ValueError("Unsupported snapshot content/formatter contract")
     for field in ("created_at", "loader_version", "gjeldende_archive"):
@@ -212,8 +217,14 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
         for path in paths:
             _regular_file(path)
             content_reader_version = min(version, 2) if contracts == legacy else 3
-            _validate_document(_read_json(path), path, prefix, content_reader_version,
-                               ordered_containers=contracts == containers)
+            document = _read_json(path)
+            _validate_document(document, path, prefix, content_reader_version,
+                               ordered_containers=contracts in (containers, source_body))
+            if version == 5:
+                if not isinstance(document.get("source_body"), dict):
+                    raise ValueError(f"Snapshot v5 requires an explicit source-body capture: {path}")
+            elif "source_body" in document:
+                raise ValueError(f"Source-body models require snapshot version 5: {path}")
         if version >= 2 or subdir == "laws" or count_name in manifest:
             if len(paths) != _count(manifest, count_name):
                 raise ValueError(f"Snapshot {count_name} mismatch: manifest={manifest[count_name]}, actual={len(paths)}")
@@ -255,13 +266,13 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
             raise ValueError("Invalid snapshot duplicate counts")
         for key in duplicates:
             _count(duplicates, key)
-        if version == 4:
+        if version in (4, 5):
             paths = evidence_artifacts(root, manifest)
             for path in paths:
                 _regular_file(path)
             artifact_paths.extend(paths)
         elif manifest.get("evidence"):
-            raise ValueError("Source evidence requires snapshot version 4")
+            raise ValueError("Source evidence requires snapshot version 4 or 5")
         hashes = manifest.get("artifact_hashes")
         expected = {path.relative_to(root).as_posix() for path in artifact_paths}
         if not isinstance(hashes, dict) or set(hashes) != expected:
@@ -273,6 +284,6 @@ def validate_snapshot(snapshot_dir: str | Path) -> dict:
             if hashes[name] != actual:
                 raise ValueError(f"Snapshot artifact hash mismatch: {name}")
     _validate_database(database, manifest)
-    if version == 4:
+    if version in (4, 5):
         validate_evidence(root, manifest)
     return manifest

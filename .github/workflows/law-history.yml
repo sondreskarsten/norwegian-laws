@@ -1,76 +1,21 @@
-name: Build law history branch
+name: Explain retired legacy reconstruction
 
 on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  build-history:
+  explain-only:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install git-lfs
+      - name: Keep existing historical references unchanged
         run: |
-          sudo apt-get update
-          sudo apt-get install -y git-lfs
-          git lfs version
+          cat <<'EOF' >> "$GITHUB_STEP_SUMMARY"
+          The legacy reconstruction workflow is retired. This run does not rebuild or push historical branches or yearly tags.
 
-      - name: Install pipeline
-        run: pip install -e lovdata-loader/ -e lovdata-publisher/
+          Existing references remain available as unverified reconstructions. New source observations and qualified body products are published append-only in [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history).
 
-      - name: Compute week key for cache
-        id: weekkey
-        run: echo "key=$(date -u +%Y-W%U)" >> $GITHUB_OUTPUT
-
-      - name: Cache Lovdata archives (weekly)
-        uses: actions/cache@v4
-        with:
-          path: |
-            snapshot/gjeldende-lover.tar.bz2
-            snapshot/gjeldende-sentrale-forskrifter.tar.bz2
-            snapshot/lovtidend-avd1-2001-2025.tar.bz2
-          key: lovdata-archives-${{ steps.weekkey.outputs.key }}
-
-      - name: Download and parse laws
-        run: lovdata-load --download --output snapshot
-
-      - name: Build and push law history
-        run: |
-          set -e
-
-          # Build in separate repo: per-act commits + LFS
-          lovdata-publish --snapshot snapshot --build-history \
-              --history-mode act --use-lfs \
-              --repo-path /tmp/law-repo
-
-          # Tag
-          cd /tmp/law-repo
-          python3 -c "
-          import sys
-          sys.path.insert(0, '${{ github.workspace }}/lovdata-publisher/src')
-          from lovdata_publisher.git_export import create_yearly_tags
-          tags = create_yearly_tags('/tmp/law-repo')
-          print(f'Created {len(tags)} yearly tags: {min(tags)}..{max(tags)}')
-          "
-
-          # Push directly from /tmp/law-repo
-          cd /tmp/law-repo
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-
-          # LFS objects push first
-          git lfs push --all origin || true
-
-          # Branch: force-push main -> law-history
-          git push --force origin main:refs/heads/law-history
-
-          # Tags: force-push all yearly tags
-          git push --force origin "+refs/tags/v*:refs/tags/v*"
+          The replacement records project commit dates separately from source observation and legal-time evidence. See [issue #7](https://github.com/sondreskarsten/norwegian-laws/issues/7) for remaining delivery work.
+          EOF
