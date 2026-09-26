@@ -19,6 +19,7 @@ from __future__ import annotations
 import re
 import sys
 import urllib.parse
+from html.parser import HTMLParser
 from pathlib import Path
 
 SITE_PREFIXES = (
@@ -26,9 +27,20 @@ SITE_PREFIXES = (
     "/norwegian-laws",
 )
 
-HREF_RE = re.compile(r"""(?:href|src)=["']([^"']+)["']""")
 LOC_RE = re.compile(r"<loc>([^<]+)</loc>")
 XML_HREF_RE = re.compile(r"""href=["']([^"']+)["']""")
+
+
+class _HTMLReferences(HTMLParser):
+    """Read actual attributes, never source metadata or JavaScript text."""
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.references: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        self.references.extend(value for name, value in attrs
+                               if name in {"href", "src"} and value is not None)
 
 
 def _internalize(url: str) -> str | None:
@@ -90,8 +102,11 @@ def verify_site(site_dir: str = "_site") -> list[str]:
             failures.append(f"{key[0]} -> {raw}")
 
     for f in site.rglob("*.html"):
-        for m in HREF_RE.finditer(f.read_text(encoding="utf-8", errors="replace")):
-            check(f, m.group(1))
+        parser = _HTMLReferences()
+        parser.feed(f.read_text(encoding="utf-8", errors="replace"))
+        parser.close()
+        for target in parser.references:
+            check(f, target)
 
     feeds = site / "feeds"
     xml_sources = list(feeds.glob("*.xml")) if feeds.is_dir() else []
