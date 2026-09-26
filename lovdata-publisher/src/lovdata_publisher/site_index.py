@@ -37,6 +37,7 @@ class SiteIndex:
     def __init__(self, corpus: set[str] | None = None):
         self.corpus: set[str] = corpus or set()
         self.historie: dict[str, str] = {}
+        self.observed: dict[str, str] = {}
         self.feeds_laws: dict[str, str] = {}
         self.feeds_topics: dict[str, str] = {}
         self.feeds_ministries: dict[str, str] = {}
@@ -60,6 +61,12 @@ class SiteIndex:
     def attach_historie(self, historie_map: dict[str, str]) -> None:
         """historie_map: refid -> path relative to site root (historie/x.html)."""
         self.historie.update(historie_map or {})
+
+    def attach_observed(self, observed_map: dict[str, str]) -> None:
+        self.observed.update(observed_map or {})
+
+    def observed_page(self, refid: str) -> str | None:
+        return self.observed.get(refid)
 
     def attach_feeds(self, manifest: dict) -> None:
         """manifest as returned by feeds.generate_per_law_feeds."""

@@ -530,7 +530,9 @@ def _classify_old_instruction(text: str) -> str:
 
 
 def _extract_target(text: str) -> str:
-    m = re.search(r"(§\s*[\d]+[\w-]*(?:\s*[a-z])?)", text)
+    # A spaced letter suffix must be a whole token, not the first letter
+    # of instructions such as "skal lyde" or "første ledd".
+    m = re.search(r"(§\s*[\d]+[\w-]*(?:\s+[a-z](?!\w))?)", text)
     if m:
         return m.group(1).strip()
     m = _KAPITTEL_RE.search(text)

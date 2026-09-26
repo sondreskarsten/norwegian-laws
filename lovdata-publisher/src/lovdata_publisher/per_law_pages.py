@@ -100,7 +100,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <a href="{github_blob}">Kildefil</a> ·
 <a href="{github_log}">Git-logg (uverifisert rekonstruksjon)</a> ·
 {feed_link_html}
-{historie_link}{version_links}
+{observed_link}{historie_link}{version_links}
 </div>
 
 {body}
@@ -428,6 +428,8 @@ def generate_per_law_pages(
                 filename_html=f"{md_file.stem}.html",
                 output_subdir=output_subdir,
                 historie_link=historie_link,
+                observed_link=(site_index.link(site_index.observed_page(refid), "Observerte kildeutgaver", base="../") + " · "
+                               if site_index is not None and site_index.observed_page(refid) else ""),
             )
 
             out_file = out_dir / f"{md_file.stem}.html"

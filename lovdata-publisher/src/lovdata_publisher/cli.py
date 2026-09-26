@@ -18,6 +18,8 @@ def main():
         help="Repository root in which to retain committed reader copies before current-corpus removal",
     )
     parser.add_argument("--capture-expected-head", help="Expected Git parent for reader-exit capture")
+    parser.add_argument("--observed-history-export", type=Path,
+                        help="Verified history reader export to include during post-render")
     parser.add_argument(
         "--snapshot",
         default="snapshot",
@@ -156,6 +158,13 @@ def main():
         from .historie_pages import scan_historie_slugs
         site_index.attach_historie(scan_historie_slugs(os.path.join(args.output, "historie")))
         site_index.attach_book_chapters(args.site_dir)
+        if args.observed_history_export:
+            import json
+            from .observed_history import generate_observed_history
+            catalog = json.loads((Path(args.output) / "laws.json").read_text(encoding="utf-8"))
+            generate_observed_history(args.observed_history_export, args.site_dir,
+                titles={row["refid"]: row.get("tittel", row["refid"]) for row in catalog},
+                site_index=site_index)
         print(f"  Site index: {len(site_index.corpus)} corpus documents, "
               f"{len(site_index.historie)} historie pages")
 
