@@ -440,8 +440,9 @@ def _grammar(root: dict, context: dict):
         if form == ("a", ""):
             _require("href" in attrs, "unsupported_attribute", path, "Link target required")
             _target(attrs["href"], context["source_base"], path)
-            _require(not any(n is not node and n["tag"] == "a" for n, _, _ in _walk(node)),
-                     "unsupported_nesting", path, "Nested anchors are invalid HTML")
+            _require(not any(n is not node and (n["tag"] == "a" or _form(n) == ("sup", "footnotereference"))
+                             for n, _, _ in _walk(node)),
+                     "unsupported_nesting", path, "Nested source or generated footnote anchors are invalid HTML")
         if "colspan" in attrs:
             _require(bool(re.fullmatch(r"[1-9][0-9]{0,3}", attrs["colspan"])) and int(attrs["colspan"]) <= 1000,
                      "invalid_table_topology", path, "Positive bounded colspan required")
