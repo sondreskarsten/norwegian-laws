@@ -2,9 +2,10 @@
 
 May be packaged/vendored unchanged by a consumer: no loader imports. The raw
 reader uses Expat callbacks, independently of the producer's ElementTree walk.
-The initial grammar covers the three bound complex-source fixtures, not the
-whole corpus. The declared list grammar retains explicit source markers.
-Numbered paragraphs, images, formulas, row spans and
+The bounded grammar rejects unsupported source roles instead of approximating
+them. The declared list grammar retains explicit source markers.
+Numbered paragraphs retain labels already present in the source text. Images,
+formulas, row spans and
 unhandled source roles remain explicit rejections.
 """
 from __future__ import annotations
@@ -19,7 +20,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-lists-v3"
+GATE_VERSION = "observed-body-source-paragraphs-v4"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -33,10 +34,15 @@ _TABLE_SCROLL_ATTRIBUTES = {"aria-label": "Tabell (rull vannrett ved behov)",
 _LIST_CSS = """main.documentBody .defaultList{padding-inline-start:2.2em;margin:.65em 0}main.documentBody .defaultList .defaultList{padding-inline-start:1.8em}main.documentBody ul.defaultList{list-style-type:disc}main.documentBody .defaultList>li[data-name]::marker{content:attr(data-name) " ";font-variant-numeric:tabular-nums}main.documentBody .defaultList>li>article.listArticle>article.legalP:first-child{margin-top:0}main.documentBody .defaultList>li{padding-inline-start:.25em;margin:.4em 0}"""
 
 
+_PARAGRAPH_FORMS = {("article", "defaultP"), ("article", "numberedLegalP"), ("article", "centeredP"), ("p", "leddfortsettelse")}
+_PARAGRAPH_CSS = """main.documentBody article.defaultP,main.documentBody article.numberedLegalP,main.documentBody article.centeredP,main.documentBody p.leddfortsettelse{margin:.65em 0}main.documentBody article.defaultP[data-text-size=small]{font-size:.9em}main.documentBody article.centeredP{text-align:center}"""
+
+
 def stylesheet_for_body(root: dict) -> str:
-    """Retain exact v2 stylesheet bytes when the body has no list nodes."""
-    return SOURCE_BODY_CSS + (_LIST_CSS if any(n["tag"] in {"ol", "ul"}
-        for n, _, _ in _walk(root)) else "")
+    """Retain earlier stylesheet bytes unless newly supported forms occur."""
+    forms = {_form(n) for n, _, _ in _walk(root)}
+    return (SOURCE_BODY_CSS + (_LIST_CSS if forms & _LISTS else "")
+            + (_PARAGRAPH_CSS if forms & _PARAGRAPH_FORMS else ""))
 
 # Exact form/attribute pairs. No arbitrary class/data-* passthrough.
 _FORMS = {
@@ -44,6 +50,10 @@ _FORMS = {
     ("section", "section"): {"class", "id", "data-name", "data-lovdata-URL"},
     ("article", "legalArticle"): {"class", "id", "data-name", "data-lovdata-URL"},
     ("article", "legalP"): {"class", "id"},
+    ("article", "defaultP"): {"class", "id", "data-text-size"},
+    ("article", "numberedLegalP"): {"class", "id", "data-numerator"},
+    ("article", "centeredP"): {"class", "id", "data-text-align"},
+    ("p", "leddfortsettelse"): {"class", "id"},
     ("ol", "defaultList"): {"class", "type"},
     ("ul", "defaultList"): {"class"},
     ("li", ""): {"data-name", "data-li-identifier", "value"},
@@ -51,7 +61,7 @@ _FORMS = {
     ("article", "changesToParent"): {"class"},
     ("article", "footnote"): {"class", "data-name", "data-unique-footnote-counter"},
     ("footer", "footnotes"): {"class"},
-    ("span", "legalArticleValue"): {"class"},
+    ("span", "legalArticleValue"): {"class", "data-legalArea"},
     ("span", "legalArticleTitle"): {"class"},
     ("span", "footnoteLabel"): {"class"},
     ("sup", "footnotereference"): {"class", "data-footnotereferencevalue", "data-unique-footnote-counter"},
@@ -68,6 +78,8 @@ _FORMS = {
 _INLINE = {("a", ""), ("i", ""), ("br", ""), ("sup", "footnotereference")}
 _HEADINGS = {("h1", ""), ("h2", ""), ("h3", ""),
              ("h2", "legalArticleHeader"), ("h3", "legalArticleHeader"), ("h4", "legalArticleHeader")}
+for _heading in _HEADINGS:
+    _FORMS[_heading] |= {"data-text-align"}
 _LISTS = {("ol", "defaultList"), ("ul", "defaultList")}
 _CHILDREN = {
     ("main", "documentBody"): _HEADINGS | _LISTS | {("section", "section"), ("article", "legalArticle"), ("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
@@ -90,6 +102,16 @@ _CHILDREN = {
     ("span", "legalArticleTitle"): _INLINE,
     **{heading: _INLINE | {("span", "legalArticleValue"), ("span", "legalArticleTitle")} for heading in _HEADINGS},
 }
+for _parent in (("main", "documentBody"), ("section", "section"), ("article", "legalArticle")):
+    _CHILDREN[_parent] |= {("article", "defaultP"), ("article", "numberedLegalP"), ("article", "centeredP")}
+_CHILDREN[("article", "listArticle")] |= {("article", "defaultP")}
+_CHILDREN[("article", "defaultP")] = _INLINE | _LISTS | {("table", ""), ("footer", "footnotes")}
+_CHILDREN[("article", "numberedLegalP")] = _INLINE | _LISTS | {("article", "legalP"), ("table", ""), ("footer", "footnotes")}
+_CHILDREN[("article", "centeredP")] = _INLINE
+_CHILDREN[("p", "leddfortsettelse")] = _INLINE
+for _parent in (("article", "legalP"), ("article", "numberedLegalP"), ("article", "defaultP")):
+    _CHILDREN[_parent] |= {("p", "leddfortsettelse")}
+
 _ELEMENT_ONLY = {("main", "documentBody"), ("section", "section"),
                  ("article", "legalArticle"), ("footer", "footnotes"),
                  ("table", ""), ("thead", ""), ("tbody", ""), ("tr", ""),
@@ -389,6 +411,26 @@ def _grammar(root: dict, context: dict):
             _require(not _plain(node).strip(), "unsupported_nesting", path, "Text outside declared block children")
         if form == ("br", ""):
             _require(not node["children"], "unsupported_nesting", path, "br cannot own content")
+        if "data-text-size" in attrs:
+            _require(attrs["data-text-size"] == "small", "unsupported_attribute_value", path, "Unknown paragraph text size")
+        if "data-legalArea" in attrs:
+            # Preserve source classification metadata verbatim, including
+            # multiple space-separated codes. It is not a legal-time claim.
+            classification = attrs["data-legalArea"]
+            _require(0 < len(classification) <= 256 and all(
+                re.fullmatch(r"[0-9]{2}[a-z]?(?:\.[0-9]{2}){0,5}", code)
+                for code in classification.split(" ")),
+                     "unsupported_attribute_value", path, "Unsupported source classification identifier")
+        if form == ("article", "centeredP"):
+            _require(attrs.get("data-text-align", "center") == "center", "unsupported_attribute_value", path, "Conflicting centered paragraph alignment")
+        if form == ("article", "numberedLegalP"):
+            number = attrs.get("data-numerator", "")
+            _require(bool(re.fullmatch(r"[0-9]{1,9}", number)), "unsupported_paragraph_label", path, "Bounded source paragraph number required")
+            # The source already contains its label. Never synthesize a CSS
+            # counter or silently accept a conflicting or absent visible label.
+            first = node["children"][0] if node["children"] and type(node["children"][0]) is str else ""
+            _require(bool(re.match(r"(?:" + number + r"[.)]|\(" + number + r"\))(?=\s|$)", first.lstrip())),
+                     "unsupported_paragraph_label", path, "Visible paragraph label differs from its source number")
         if "id" in attrs:
             identity = attrs["id"]
             _require(bool(identity) and not any(c.isspace() for c in identity) and identity not in ids,

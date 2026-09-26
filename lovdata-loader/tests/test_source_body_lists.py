@@ -173,7 +173,7 @@ class SourceListTests(unittest.TestCase):
                     gate._grammar(altered["root"], altered["context"])
 
     def test_unrelated_rejections_do_not_emit_readable_body(self):
-        for name in ("rejected-default-paragraph", "rejected-link-context"):
+        for name in ("rejected-link-context",):
             with self.subTest(name=name):
                 raw, model, kwargs = fixture(name)
                 result = gate.qualify_source_body(raw, model, **kwargs)
