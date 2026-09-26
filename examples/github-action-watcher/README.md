@@ -24,7 +24,9 @@ The issue is labeled `law-change` so you can route it to whichever team handles 
 
 ## State
 
-State (which amendments have already been seen) is committed to `.watcher-state/` in your repo so the workflow never fires twice for the same amendment. The state file is hashed by feed URL, so you can add and remove feeds without affecting siblings.
+State (which amendments have already been seen) is committed to `.watcher-state/` in your repo. A repeated feed creates no further issue after that state is saved. The state file is hashed by feed URL, so you can add and remove feeds without affecting siblings. Feed jobs run sequentially and each checks out the latest branch state; overlapping workflow runs are also serialized.
+
+The repository must allow the workflow token to read and create issues and push state commits to the watched branch. Every delivered entry has a stable hidden marker in its issue body. Before creating an issue, the workflow reads all issue pages, including closed issues, and skips entries already delivered. This recovers an interrupted state push without duplicating the issue; a failed issue lookup stops the run. Keep those markers and issues intact: deleted issues, removed markers, and issues created by older versions without markers cannot supply that recovery evidence. The workflow reports a failed state push rather than claiming delivery is complete. Feed polling can only report entries still present in the feed; it is not a complete historical backfill.
 
 ## Alternatives
 
