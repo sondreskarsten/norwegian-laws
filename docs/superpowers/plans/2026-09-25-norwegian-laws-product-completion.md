@@ -254,16 +254,18 @@ The result contains requested dates, baseline evidence, applied operation/claim 
 
 **Files:** main planned publisher `observed_history.py`; existing `per_law_pages.py`, `paragraph_history.py`, `historie_pages.py`, `quarto.py`, `not_found.py`; history `queries.py` and public indexes.
 
-- [ ] Generate a compact public history index keyed by refid/source occurrence with pinned observation/product/claim identities and availability status.
-- [ ] Add observed-version timelines and comparison to current document pages after D5; show observation dates and representation changes accurately.
+- [x] Generate the public observed-history index with pinned observation/product identities and availability status. Four representations and 5,875 retained document identities are publicly read back; legal claim integration remains dependent on D8.
+- [x] Add observed-version selection and comparison to current document pages; public changed/unchanged comparisons, source dates and representation labels verified in PR20.
 - [ ] Add a legal-date selector after D8. Show source basis, applicable date, knowledge cutoff and completeness beside the answer.
 - [ ] Link paragraph history to exact operations/evidence and qualified before/after content. Keep parsed records visible where a legal reconstruction is unavailable.
-- [ ] Provide stable copyable citations and raw evidence downloads; preserve existing deep links and recovery routes.
-- [ ] Give partial/unavailable results a useful explanation and source links; never silently substitute current text for a requested historical date.
-- [ ] Keep legacy comparisons separately labelled and pinned, with no suggestion that their annual tag is a proven historical snapshot.
+- [ ] Complete clipboard delivery verification. Stable exact-product citation URLs and raw evidence downloads are public, and current/history/recovery routes work. Copy UI reports success, but the in-app browser clipboard readback returned empty; do not claim OS clipboard confirmation.
+- [x] Give unsupported and unknown observed-version results a useful explanation and source links without substituting current text. Legal-date requests remain unavailable pending D8.
+- [x] Keep legacy comparisons separately labelled and pinned; public legacy and observed-history notices distinguish them from proven legal states.
 - [ ] Exercise the full current → observed history → legal date → comparison → source/citation journey on desktop, keyboard and a 390px viewport after deployment.
 
 **Done:** observed history is usable from the reader and historical-date requests obey the reconstruction coverage contract publicly.
+
+**Public acceptance (26 September):** run 36211241744 completed all four jobs; source `aa4f7d19`, public receipt and committed acknowledgement agree. Exact history body readback, changed/unchanged comparison, unsupported/unknown/equal selection, directory search and 390px layouts are verified in `docs/evidence/observed-reader-site-public.json`. The archive now has 106 documents, including the first naturally captured source exit; no repeal date is inferred.
 
 ## D10 — Verify ongoing delivery, portability and supported integrations
 
