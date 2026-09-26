@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-09-25 | Forskrift om endring i forskrift om fartsskriververksteder | [`forskrift/2018-09-26-1467`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-09-26-1467.html) |
+| 2026-09-25 | Endr. i fastlegeforskriften | [`forskrift/2025-12-02-2405`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-02-2405.html) |
+| 2026-09-25 | Forskrift om endring i dagpengeforskriften og oppheving av forskrif… | [`forskrift/1998-09-16-890`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1998-09-16-890.html) [`forskrift/2022-12-21-2456`](https://lovdata.no/dokument/SFO/forskrift/2022-12-21-2456) |
+| 2026-09-25 | Endr. i EU-gjødselvareforskriften | [`forskrift/2024-03-06-538`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-03-06-538.html) |
 | 2026-09-23 | Forskrift om endring i forskrift om regulering av fisket etter bris… | [`forskrift/2026-06-22-1211`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-22-1211.html) |
-| 2026-09-23 | Endr. i produktforskriften | [`forskrift/2004-06-01-922`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-06-01-922.html) |
-| 2026-09-23 | Forskrift om endring i forskrift om regulering av fisket etter tors… | [`forskrift/2025-12-19-2826`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2826.html) |
-| 2026-09-22 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-09-22 | Endr. i rettshjelpsforskriften | [`forskrift/2025-09-26-1961`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-09-26-1961.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
