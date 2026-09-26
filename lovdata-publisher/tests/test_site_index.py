@@ -69,6 +69,21 @@ def _site(tmp_path):
     return site
 
 
+def test_verify_site_ignores_source_metadata_and_script_strings(tmp_path):
+    site = tmp_path / "site"
+    site.mkdir()
+    (site / "index.html").write_text('''<a data-source-body-href="lov/2005-06-17-62/kap19"
+        href="https://lovdata.no/lov/2005-06-17-62/kap19">Source</a>
+        <script>frame.src='data/'+v.html_path;</script>
+        <p>&lt;a href="literal/example.html"&gt;</p>
+        <!-- <a href="comment/example.html"> -->
+        <a HREF = 'missing.html'>Missing</a><iframe src=frame.html></iframe>''', encoding="utf-8")
+    failures = verify_site(str(site))
+    assert len(failures) == 2
+    assert any("missing.html" in f for f in failures)
+    assert any("frame.html" in f for f in failures)
+
+
 def test_verify_site_passes_on_clean_tree(tmp_path):
     site = _site(tmp_path)
     assert verify_site(str(site)) == []
