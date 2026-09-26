@@ -15,7 +15,7 @@ MEMBERS = json.loads((FIXTURES / 'emphasis-source-members.json').read_bytes())
 class SourceEmphasisTests(unittest.TestCase):
     def test_footnote_inside_linked_emphasis_cannot_generate_nested_anchors(self):
         row = next(r for r in MEMBERS if r['refid']=='lov/2018-03-23-3')
-        for wrappers in (('strong',), ('i','strong')):
+        for wrappers in (('strong',), ('i','strong'), ('sup',), ('sub','strong')):
             with self.subTest(wrappers=wrappers):
                 root = ET.fromstring((FIXTURES / row['retained_file']).read_bytes())
                 note = root.find('.//sup[@class="footnotereference"]')

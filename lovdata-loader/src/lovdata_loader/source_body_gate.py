@@ -15,12 +15,13 @@ import html
 from html.parser import HTMLParser
 import json
 import re
+from datetime import date
 from collections import Counter
 from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-emphasis-tables-v5"
+GATE_VERSION = "observed-body-source-metadata-typography-v6"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -38,11 +39,16 @@ _PARAGRAPH_FORMS = {("article", "defaultP"), ("article", "numberedLegalP"), ("ar
 _PARAGRAPH_CSS = """main.documentBody article.defaultP,main.documentBody article.numberedLegalP,main.documentBody article.centeredP,main.documentBody p.leddfortsettelse{margin:.65em 0}main.documentBody article.defaultP[data-text-size=small]{font-size:.9em}main.documentBody article.centeredP{text-align:center}"""
 
 
+_DEEP_HEADINGS = {("h5", ""), ("h6", ""), ("h5", "legalArticleHeader"), ("h6", "legalArticleHeader")}
+_DEEP_HEADING_CSS = "main.documentBody h5,main.documentBody h6{font-size:1em;line-height:1.3;margin:1em 0}"
+
+
 def stylesheet_for_body(root: dict) -> str:
     """Retain earlier stylesheet bytes unless newly supported forms occur."""
     forms = {_form(n) for n, _, _ in _walk(root)}
     return (SOURCE_BODY_CSS + (_LIST_CSS if forms & _LISTS else "")
-            + (_PARAGRAPH_CSS if forms & _PARAGRAPH_FORMS else ""))
+            + (_PARAGRAPH_CSS if forms & _PARAGRAPH_FORMS else "")
+            + (_DEEP_HEADING_CSS if forms & _DEEP_HEADINGS else ""))
 
 # Exact form/attribute pairs. No arbitrary class/data-* passthrough.
 _FORMS = {
@@ -66,18 +72,29 @@ _FORMS = {
     ("span", "footnoteLabel"): {"class"},
     ("sup", "footnotereference"): {"class", "data-footnotereferencevalue", "data-unique-footnote-counter"},
     ("h1", ""): set(), ("h2", ""): set(), ("h3", ""): set(),
+    ("h4", ""): set(), ("h5", ""): set(), ("h6", ""): set(),
+    ("sup", ""): set(), ("sub", ""): set(),
     ("h2", "legalArticleHeader"): {"class"},
     ("h3", "legalArticleHeader"): {"class"},
     ("h4", "legalArticleHeader"): {"class"},
-    ("a", ""): {"href"}, ("i", ""): set(), ("strong", ""): set(), ("br", ""): set(),
+    ("h5", "legalArticleHeader"): {"class"}, ("h6", "legalArticleHeader"): {"class"},
+    ("a", ""): {"href", "data-link-type"}, ("i", ""): set(), ("strong", ""): set(), ("br", ""): set(),
     ("table", ""): set(), ("thead", ""): set(), ("tbody", ""): set(),
     ("tr", ""): set(),
     ("th", ""): {"colspan", "data-text-align", "data-vertical-align"},
     ("td", ""): {"colspan", "data-text-align", "data-vertical-align"},
 }
-_INLINE = {("a", ""), ("i", ""), ("strong", ""), ("br", ""), ("sup", "footnotereference")}
-_HEADINGS = {("h1", ""), ("h2", ""), ("h3", ""),
-             ("h2", "legalArticleHeader"), ("h3", "legalArticleHeader"), ("h4", "legalArticleHeader")}
+_INLINE = {("a", ""), ("i", ""), ("strong", ""), ("br", ""), ("sup", ""), ("sub", ""), ("sup", "footnotereference")}
+_HEADINGS = {("h1", ""), ("h2", ""), ("h3", ""), ("h4", ""), ("h5", ""), ("h6", ""),
+             ("h2", "legalArticleHeader"), ("h3", "legalArticleHeader"), ("h4", "legalArticleHeader"),
+             ("h5", "legalArticleHeader"), ("h6", "legalArticleHeader")}
+# Retain source-declared repeal metadata without deriving legal-time claims or
+# suppressing source content. Each permitted form was observed in retained XML.
+_REPEAL_METADATA_FORMS = {("article", "legalArticle"), ("article", "defaultP"),
+    ("article", "footnote"), ("span", "legalArticleValue"), ("span", "footnoteLabel"),
+    ("a", ""), ("h2", ""), ("h3", ""), ("h4", ""), ("h5", "")}
+for _metadata_form in _REPEAL_METADATA_FORMS:
+    _FORMS[_metadata_form].add("data-repealeddate")
 for _heading in _HEADINGS:
     _FORMS[_heading] |= {"data-text-align"}
 _LISTS = {("ol", "defaultList"), ("ul", "defaultList")}
@@ -97,9 +114,10 @@ _CHILDREN = {
     ("thead", ""): {("tr", "")}, ("tbody", ""): {("tr", "")},
     ("tr", ""): {("td", ""), ("th", "")},
     ("td", ""): _INLINE, ("th", ""): _INLINE,
-    ("a", ""): {("i", ""), ("strong", ""), ("br", "")},
-    ("i", ""): {("a", ""), ("strong", ""), ("br", "")},
+    ("a", ""): {("i", ""), ("strong", ""), ("sup", ""), ("sub", ""), ("br", "")},
+    ("i", ""): {("a", ""), ("strong", ""), ("sup", ""), ("sub", ""), ("br", "")},
     ("strong", ""): _INLINE,
+    ("sup", ""): _INLINE, ("sub", ""): _INLINE,
     ("span", "legalArticleTitle"): _INLINE,
     **{heading: _INLINE | {("span", "legalArticleValue"), ("span", "legalArticleTitle")} for heading in _HEADINGS},
 }
@@ -390,7 +408,7 @@ def _grammar(root: dict, context: dict):
     # catalog/header/member identity remains mandatory in verify_source_body.
     if "data-lovdata-URL" in root["attributes"]:
         location = root["attributes"]["data-lovdata-URL"]
-        _require(location.split("/", 1)[0] in {"NL", "SF", "DEL", "LTI", "INS"}
+        _require(location.split("/", 1)[0] in {"NL", "SF", "DEL", "LTI", "INS", "STV"}
                  and location.partition("/")[2] == context["refid"],
                  "source_context_mismatch", "/main[1]", "Body source identity differs from header refid")
     ids = set()
@@ -412,6 +430,17 @@ def _grammar(root: dict, context: dict):
             _require(not _plain(node).strip(), "unsupported_nesting", path, "Text outside declared block children")
         if form == ("br", ""):
             _require(not node["children"], "unsupported_nesting", path, "br cannot own content")
+        if "data-link-type" in attrs:
+            _require(attrs["data-link-type"] in {"external", "staticfile"},
+                     "unsupported_attribute_value", path, "Unknown source link type")
+        if "data-repealeddate" in attrs:
+            value = attrs["data-repealeddate"]
+            _require(bool(re.fullmatch(r"[0-9]{4}-[0-9]{2}-[0-9]{2}", value)),
+                     "unsupported_attribute_value", path, "Unsupported source repeal date")
+            try:
+                date.fromisoformat(value)
+            except ValueError:
+                raise BodyRejected("unsupported_attribute_value", path, "Invalid source repeal date") from None
         if "data-text-size" in attrs:
             _require(attrs["data-text-size"] == "small", "unsupported_attribute_value", path, "Unknown paragraph text size")
         if "data-legalArea" in attrs:
