@@ -1,84 +1,19 @@
 # Norwegian laws: delivery backlog
 
-Updated **2026-09-25** from source, workflow, live-source and browser audits.
+Updated **2026-09-26** from source, workflow, live-source and browser audits.
 The active [full product completion plan](docs/superpowers/plans/2026-09-25-norwegian-laws-product-completion.md)
 maps 20 user stories to ten delivery packages, including historical-date reconstruction.
-**All work continues in the existing task; cloud setup and handoff are removed from scope.**
+**Work is paused; resume in the existing task. Cloud setup and handoff are out of scope.**
 Use this backlog for delivery evidence and the plan for execution order; a bounded
 observation pilot does not complete the whole historical product.
 
 ## Current delivery position
 
-The verified public reader through [PR #17](https://github.com/sondreskarsten/norwegian-laws/pull/17)
-uses source `8ccd1da470df26f8d7532583241cbf80a894c3ea`. Its archive exposes all 105
-known prior copies with pinned provenance and download links. Representative
-downloads match their recorded bytes; archive, recovery, paragraph history,
-timeline and activity pages fit 390px. Publication dates are separate from raw
-commencement clauses, and parsed coverage gaps remain explicit. The public
-receipt and acknowledgement agree; see [PR17 evidence](docs/evidence/reader-pr17-public.json).
-[PR16 evidence](docs/evidence/reader-pr16-public.json) retains the earlier recovery readback.
-PR #15's subscription availability, compact lookup, exported counts and crosslinks
-were independently read back at its earlier source `9285be5`.
-All five PR #14 container-order repairs were compared with their source; the
-patent appendix also passed visual readback. The older run receipts below remain
-historical evidence, not the current source identity.
-
-History now retains **three real observations** and five immutable qualified-body
-products. [History PR #11](https://github.com/sondreskarsten/norwegian-laws-history/pull/11)
-published the first two products and all **105 prior reader copies**;
-[PR #12](https://github.com/sondreskarsten/norwegian-laws-history/pull/12) published
-the mobile heading repair while preserving previous products. All 69 new product
-artifacts were read back. History #7 is closed. Two published sample products were
-independently regenerated offline on pinned Python 3.12.14, with all 23 files per
-product identical and five previous receipts unchanged. Literal clean-fork
-acceptance remains in #8. Qualified bodies still cover
-only three simple documents; full structure and legal-date reconstruction remain open.
-
-The next source-body delivery has passed a complete local v5 rehearsal and
-independent consumer validation: all 5,874 selected bodies match retained XML,
-while all 39,208 amendment models and existing conventional reader models match
-the previous publication. A strict UTF-8 repair prevents an observed decoder
-misclassification from corrupting Norwegian characters. History PR #14 is merged
-and accepts the new contract. Producer activation and richer body publication
-still require public readback. Full-text result links now target the matched
-passage in supporting browsers; the actual late Regnskapsloven passage was
-verified locally at phone width. See the local reports in `docs/evidence/`.
-
-PR #17 deployed future-exit capture after controlled Git publication, replay and
-re-entry checks. This production run contained zero new exits, so it does not
-establish a naturally occurring exit readback. Chrome locally blocked one raw
-regulation download; independent HTTP retrieval returned its exact recorded bytes.
-Topic, ministry and activity membership/count audits passed against the public
-catalog and export. The next scheduled daily cycle and external notification
-delivery have not been established.
-
-**Current publishing repair is live and read back.**
-[Delivery run 36159622728](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36159622728)
-published source commit `8020b8f610171108d7f82c2f3811688a4605b918` on September 25.
-The public catalog matches all 756 law and 5,118 regulation identities in the
-fresh source and production snapshot. The missing regulation serves its source
-text; the obsolete current entry returns 404. The public receipt matches the
-committed acknowledgement. Daily operation still needs a subsequent observation.
-
-[PR #12](https://github.com/sondreskarsten/norwegian-laws/pull/12) is live through
-[run 36162836802](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36162836802),
-source `27df76fb664c71a2e1dd5e2764305185c4683dfe`. Its public receipt and committed
-acknowledgement agree. Ordered Regnskapsloven paragraphs, regulation amendment
-exports, feeds, 404 recovery and mobile comparison were read from the deployed
-site. PR #13 subsequently delivered source evidence, optional full-text search
-and per-law legacy-version headers through
-[run 36167592215](https://github.com/sondreskarsten/norwegian-laws/actions/runs/36167592215),
-source `2d90a466a8ca3954494f82041409b39242c5c1f5`. Public site/release receipts,
-catalog membership, live browser search and exact XML retrieval agree.
-
-Keep the existing personal repositories:
-[norwegian-laws](https://github.com/sondreskarsten/norwegian-laws) for current
-publication and [norwegian-laws-history](https://github.com/sondreskarsten/norwegian-laws-history)
-for the new history product. Preserve the generated `gh-pages`, `law-history`
-branches and existing tags. Automatic legacy-history regeneration is gated by
-`ENABLE_LEGACY_HISTORY == 'true'`; leave it disabled during migration. The manual
-legacy workflow is retired to an explanation-only run with read permission;
-it no longer rebuilds or pushes historical branches or tags.
+**Work paused at the user's request on 26 September 2026.** Read
+[Delivery status and remaining work](docs/DELIVERY-STATUS.md) first. It supersedes
+older status/counts in this backlog and names the running publications, delivered
+features, exact remaining coverage and restart checks. The complete scope and
+acceptance remain in the product plan; historical-date reconstruction is unfinished.
 
 ## 1. Finish current-data delivery
 
