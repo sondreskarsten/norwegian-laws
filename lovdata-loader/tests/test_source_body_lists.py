@@ -172,14 +172,27 @@ class SourceListTests(unittest.TestCase):
                 with self.assertRaises(gate.BodyRejected):
                     gate._grammar(altered["root"], altered["context"])
 
+    def test_previously_unsupported_static_link_is_preserved(self):
+        # Keep the historical fixture name and exact bytes; v6 declares this
+        # source metadata instead of treating a referenced PDF as body text.
+        raw, model, kwargs = fixture("rejected-link-context")
+        result = gate.qualify_source_body(raw, model, **kwargs)
+        self.assertEqual(result["report"]["status"], "passed", result["report"])
+        self.assertIn('data-link-type="staticfile"', result["html"])
+        self.assertIn('href="https://lovdata.no/static/SF/sf-20251210-3067-01-01.pdf"', result["html"])
+        gate.verify_rendered_body(result["html"], model, stylesheet=result["stylesheet"])
+        altered = copy.deepcopy(model)
+        link = next(n for n, _, _ in gate._walk(altered["root"]) if n["tag"] == "a")
+        link["attributes"]["data-link-type"] = "unknown"
+        with self.assertRaises(gate.BodyRejected):
+            gate._grammar(altered["root"], altered["context"])
+
     def test_unrelated_rejections_do_not_emit_readable_body(self):
-        for name in ("rejected-link-context",):
-            with self.subTest(name=name):
-                raw, model, kwargs = fixture(name)
-                result = gate.qualify_source_body(raw, model, **kwargs)
-                self.assertEqual(result["report"]["status"], "rejected")
-                self.assertIsNone(result["html"])
-                self.assertIsNone(result["stylesheet"])
+        raw, model, kwargs = fixture("absent-main-identity")
+        result = gate.qualify_source_body(raw, model, **kwargs)
+        self.assertEqual(result["report"]["status"], "rejected")
+        self.assertIsNone(result["html"])
+        self.assertIsNone(result["stylesheet"])
 
     def test_actual_heading_text_and_class_cannot_change(self):
         raw, model, kwargs = fixture("heading-baseline")
