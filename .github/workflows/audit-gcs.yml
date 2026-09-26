@@ -1,0 +1,27 @@
+name: Audit optional GCS retention and access
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+jobs:
+  audit:
+    if: vars.GCS_BUCKET != '' && vars.GCP_WIF_PROVIDER != '' && vars.GCP_SERVICE_ACCOUNT != ''
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+      - uses: google-github-actions/setup-gcloud@v2
+      - name: Read bucket configuration, IAM summary and retained generations
+        env:
+          GCS_BUCKET: ${{ vars.GCS_BUCKET }}
+        run: python .github/scripts/audit_gcs_configuration.py --bucket "$GCS_BUCKET" --output "$RUNNER_TEMP/gcs-configuration-audit.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gcs-configuration-audit
+          path: ${{ runner.temp }}/gcs-configuration-audit.json
+          if-no-files-found: error
+          retention-days: 30
