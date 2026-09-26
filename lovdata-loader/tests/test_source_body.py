@@ -95,13 +95,13 @@ class SourceBodyTests(unittest.TestCase):
 
     def test_unsupported_source_forms_are_retained_but_not_rendered(self):
         row, raw = self.cases["lov/1687-04-15"]
-        for insertion in [b'<ol class="defaultList" type="1"><li value="1">item</li></ol>',
-                          b'<img src="/asset.png" alt="diagram" />',
-                          b'<article class="futureLegalArticle">future text</article>']:
+        for insertion, reason in [(b'<ol class="defaultList" type="1"><li value="1">item</li></ol>', "unsupported_nesting"),
+                                  (b'<img src="/asset.png" alt="diagram" />', "unsupported_form"),
+                                  (b'<article class="futureLegalArticle">future text</article>', "unsupported_form")]:
             changed = raw.replace(b'</main>', insertion + b'</main>')
             model = capture_source_body(changed)
             self.assertEqual(len(model["root"]["children"]), len(capture_source_body(raw)["root"]["children"]) + 1)
-            self.reject(qualify(changed, row, model), "unsupported_form")
+            self.reject(qualify(changed, row, model), reason)
             proof = verify_source_body(changed, model, expected_member_sha256=digest(changed),
                 expected_refid=row["refid"], source_occurrence_id=row["source_occurrence_id"])
             self.assertEqual((proof["status"], proof["rendering"]), ("verified", "not_assessed"))

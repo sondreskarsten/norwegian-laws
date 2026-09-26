@@ -237,8 +237,24 @@ jobs:
       - name: Merge law metadata into search index
         run: python -m lovdata_publisher.search_index _site laws.json
 
+      - name: Check out the independently published history ledger
+        uses: actions/checkout@v4
+        with:
+          repository: sondreskarsten/norwegian-laws-history
+          ref: main
+          path: .history-reader
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Export exact published observed bodies for the reader
+        run: |
+          PYTHONPATH=.history-reader python -m law_history.reader_export \
+            --repository .history-reader --output "$RUNNER_TEMP/observed-history-export"
+
       - name: Generate per-law HTML pages and full-text search index
-        run: lovdata-publish --post-render --output . --site-dir _site
+        run: |
+          lovdata-publish --post-render --output . --site-dir _site \
+            --observed-history-export "$RUNNER_TEMP/observed-history-export"
 
       - name: Include publication identity in the site
         env:

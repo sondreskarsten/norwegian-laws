@@ -3,7 +3,8 @@
 May be packaged/vendored unchanged by a consumer: no loader imports. The raw
 reader uses Expat callbacks, independently of the producer's ElementTree walk.
 The initial grammar covers the three bound complex-source fixtures, not the
-whole corpus. Lists, numbered paragraphs, images, formulas, row spans and
+whole corpus. The declared list grammar retains explicit source markers.
+Numbered paragraphs, images, formulas, row spans and
 unhandled source roles remain explicit rejections.
 """
 from __future__ import annotations
@@ -18,7 +19,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-links-notes-colspans-v2"
+GATE_VERSION = "observed-body-source-lists-v3"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -29,6 +30,13 @@ SOURCE_BODY_CSS = """main.documentBody{overflow-wrap:anywhere}main.documentBody 
 _TABLE_SCROLL_ATTRIBUTES = {"aria-label": "Tabell (rull vannrett ved behov)",
                             "data-source-body-derived": "table-scroll",
                             "role": "region", "tabindex": "0"}
+_LIST_CSS = """main.documentBody .defaultList{padding-inline-start:2.2em;margin:.65em 0}main.documentBody .defaultList .defaultList{padding-inline-start:1.8em}main.documentBody ul.defaultList{list-style-type:disc}main.documentBody .defaultList>li[data-name]::marker{content:attr(data-name) " ";font-variant-numeric:tabular-nums}main.documentBody .defaultList>li>article.listArticle>article.legalP:first-child{margin-top:0}main.documentBody .defaultList>li{padding-inline-start:.25em;margin:.4em 0}"""
+
+
+def stylesheet_for_body(root: dict) -> str:
+    """Retain exact v2 stylesheet bytes when the body has no list nodes."""
+    return SOURCE_BODY_CSS + (_LIST_CSS if any(n["tag"] in {"ol", "ul"}
+        for n, _, _ in _walk(root)) else "")
 
 # Exact form/attribute pairs. No arbitrary class/data-* passthrough.
 _FORMS = {
@@ -36,14 +44,20 @@ _FORMS = {
     ("section", "section"): {"class", "id", "data-name", "data-lovdata-URL"},
     ("article", "legalArticle"): {"class", "id", "data-name", "data-lovdata-URL"},
     ("article", "legalP"): {"class", "id"},
+    ("ol", "defaultList"): {"class", "type"},
+    ("ul", "defaultList"): {"class"},
+    ("li", ""): {"data-name", "data-li-identifier", "value"},
+    ("article", "listArticle"): {"class", "id"},
     ("article", "changesToParent"): {"class"},
     ("article", "footnote"): {"class", "data-name", "data-unique-footnote-counter"},
     ("footer", "footnotes"): {"class"},
     ("span", "legalArticleValue"): {"class"},
+    ("span", "legalArticleTitle"): {"class"},
     ("span", "footnoteLabel"): {"class"},
     ("sup", "footnotereference"): {"class", "data-footnotereferencevalue", "data-unique-footnote-counter"},
     ("h1", ""): set(), ("h2", ""): set(), ("h3", ""): set(),
     ("h2", "legalArticleHeader"): {"class"},
+    ("h3", "legalArticleHeader"): {"class"},
     ("h4", "legalArticleHeader"): {"class"},
     ("a", ""): {"href"}, ("i", ""): set(), ("br", ""): set(),
     ("table", ""): set(), ("thead", ""): set(), ("tbody", ""): set(),
@@ -53,12 +67,17 @@ _FORMS = {
 }
 _INLINE = {("a", ""), ("i", ""), ("br", ""), ("sup", "footnotereference")}
 _HEADINGS = {("h1", ""), ("h2", ""), ("h3", ""),
-             ("h2", "legalArticleHeader"), ("h4", "legalArticleHeader")}
+             ("h2", "legalArticleHeader"), ("h3", "legalArticleHeader"), ("h4", "legalArticleHeader")}
+_LISTS = {("ol", "defaultList"), ("ul", "defaultList")}
 _CHILDREN = {
-    ("main", "documentBody"): _HEADINGS | {("section", "section"), ("article", "legalArticle"), ("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
-    ("section", "section"): _HEADINGS | {("section", "section"), ("article", "legalArticle"), ("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
-    ("article", "legalArticle"): _HEADINGS | {("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
-    ("article", "legalP"): _INLINE | {("table", "")},
+    ("main", "documentBody"): _HEADINGS | _LISTS | {("section", "section"), ("article", "legalArticle"), ("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
+    ("section", "section"): _HEADINGS | _LISTS | {("section", "section"), ("article", "legalArticle"), ("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
+    ("article", "legalArticle"): _HEADINGS | _LISTS | {("article", "legalP"), ("article", "changesToParent"), ("footer", "footnotes")},
+    ("article", "legalP"): _INLINE | _LISTS | {("table", "")},
+    ("ol", "defaultList"): {("li", "")},
+    ("ul", "defaultList"): {("li", "")},
+    ("li", ""): {("article", "listArticle")},
+    ("article", "listArticle"): {("article", "legalP")},
     ("article", "changesToParent"): _INLINE,
     ("article", "footnote"): _INLINE | {("span", "footnoteLabel")},
     ("footer", "footnotes"): {("article", "footnote")},
@@ -68,11 +87,14 @@ _CHILDREN = {
     ("td", ""): _INLINE, ("th", ""): _INLINE,
     ("a", ""): {("i", ""), ("br", "")},
     ("i", ""): {("a", ""), ("br", "")},
-    **{heading: _INLINE | {("span", "legalArticleValue")} for heading in _HEADINGS},
+    ("span", "legalArticleTitle"): _INLINE,
+    **{heading: _INLINE | {("span", "legalArticleValue"), ("span", "legalArticleTitle")} for heading in _HEADINGS},
 }
 _ELEMENT_ONLY = {("main", "documentBody"), ("section", "section"),
                  ("article", "legalArticle"), ("footer", "footnotes"),
-                 ("table", ""), ("thead", ""), ("tbody", ""), ("tr", "")}
+                 ("table", ""), ("thead", ""), ("tbody", ""), ("tr", ""),
+                 ("ol", "defaultList"), ("ul", "defaultList"),
+                 ("li", ""), ("article", "listArticle")}
 
 
 class BodyRejected(ValueError):
@@ -299,6 +321,40 @@ def _table(node: dict, path: str) -> None:
             _require(cell_width == width and width <= 1024, "invalid_table_topology", path, "Inconsistent or oversized column grid")
 
 
+def _list(node: dict, path: str) -> None:
+    """Admit only source shapes demonstrated by the retained list fixtures.
+
+    data-name is a literal source label, not an inferred ordinal. The renderer
+    uses that exact label, while retaining the independently declared type and
+    item value. No counter punctuation or implied start is added to the source.
+    Explicit start/reversed/style attributes remain rejected until evidenced.
+    """
+    tag, attrs = node["tag"], node["attributes"]
+    items = [c for c in node["children"] if type(c) is dict]
+    _require(bool(items) and all(_form(c) == ("li", "") for c in items),
+             "unsupported_list_topology", path, "Nonempty direct li children required")
+    if tag == "ol":
+        _require(attrs.get("type") in {"1", "a", "A", "i", "I"},
+                 "unsupported_list_marker", path, "Observed ordered-list type required")
+    for item in items:
+        a = item["attributes"]
+        children = [c for c in item["children"] if type(c) is dict]
+        _require(len(children) == 1 and _form(children[0]) == ("article", "listArticle"),
+                 "unsupported_list_topology", path, "Exactly one source listArticle per item required")
+        _require(bool(children[0]["children"]), "unsupported_list_topology", path,
+                 "Empty listArticle is outside this observed subset")
+        if tag == "ol":
+            _require(set(a) == {"data-name", "value"}
+                     and bool(re.fullmatch(r"[1-9][0-9]{0,5}", a.get("value", "")))
+                     and bool(re.fullmatch(r"(?:[0-9]{1,6}|[A-Za-z]{1,12})[.)]?", a.get("data-name", ""))),
+                     "unsupported_list_marker", path,
+                     "Ordered item requires exact bounded source label and positive declared value")
+        else:
+            _require(not a or a == {"data-name": "-", "data-li-identifier": "-"},
+                     "unsupported_list_marker", path,
+                     "Unordered subset supports unlabeled disc items or matching explicit hyphen fields")
+
+
 def _grammar(root: dict, context: dict):
     _require(not set(context["html_attributes"]) - {"lang"} and not context["head_attributes"]
              and not context["body_attributes"], "unsupported_context", "/", "Captured context attributes are outside the render grammar")
@@ -307,14 +363,18 @@ def _grammar(root: dict, context: dict):
     language = context["html_lang"]
     _require(language is None or language == "" or bool(re.fullmatch(r"[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*", language)),
              "unsupported_context", "/", "Unsupported document language declaration")
-    location = root["attributes"].get("data-lovdata-URL", "")
-    _require(location.split("/", 1)[0] in {"NL", "SF", "DEL", "LTI"}
-             and location.partition("/")[2] == context["refid"],
-             "source_context_mismatch", "/main[1]", "Body source identity differs from header refid")
+    # Some observed main elements omit this redundant source URL. The accepted
+    # catalog/header/member identity remains mandatory in verify_source_body.
+    if "data-lovdata-URL" in root["attributes"]:
+        location = root["attributes"]["data-lovdata-URL"]
+        _require(location.split("/", 1)[0] in {"NL", "SF", "DEL", "LTI", "INS"}
+                 and location.partition("/")[2] == context["refid"],
+                 "source_context_mismatch", "/main[1]", "Body source identity differs from header refid")
     ids = set()
     notes = {}
     references: Counter = Counter()
     tables = []
+    lists = []
     counts: Counter = Counter()
     for node, path, parent in _walk(root):
         form, attrs = _form(node), node["attributes"]
@@ -348,6 +408,8 @@ def _grammar(root: dict, context: dict):
             _require(attrs["data-vertical-align"] in {"top", "middle", "bottom"}, "unsupported_attribute_value", path, "Unknown vertical alignment")
         if form == ("table", ""):
             tables.append((node, path))
+        if form in _LISTS:
+            lists.append((node, path))
         if form in {("article", "footnote"), ("sup", "footnotereference")}:
             key = attrs.get("data-unique-footnote-counter", "")
             _require(bool(re.fullmatch(r"[1-9][0-9]{0,8}", key)), "ambiguous_footnote_target", path, "Positive bounded unique counter required")
@@ -370,6 +432,8 @@ def _grammar(root: dict, context: dict):
     _require(not generated & ids, "generated_id_collision", "/main[1]", "Source IDs collide with derived note navigation")
     for node, path in tables:
         _table(node, path)
+    for node, path in lists:
+        _list(node, path)
     return notes, references, dict(counts)
 
 
@@ -456,7 +520,7 @@ def verify_rendered_body(fragment: str, model: dict, *, stylesheet: str) -> None
     function is public for a consumer's post-write artifact readback.
     """
     _validate_model(model)
-    _require(stylesheet == SOURCE_BODY_CSS, "rendered_reverse_check_mismatch", "/render/style", "The declared stylesheet must be retained exactly")
+    _require(stylesheet == stylesheet_for_body(model["root"]), "rendered_reverse_check_mismatch", "/render/style", "The declared stylesheet must be retained exactly")
     notes, references, counts = _grammar(model["root"], model["context"])
     _require(type(fragment) is str and len(fragment.encode("utf-8")) <= MAX_MODEL_BYTES * 2,
              "resource_limit", "/render", "Rendered artifact size/type")
@@ -596,13 +660,14 @@ def qualify_source_body(raw: bytes, model: dict, *, expected_member_sha256: str,
                                    expected_refid=expected_refid, source_occurrence_id=source_occurrence_id)
         notes, references, counts = _grammar(model["root"], model["context"])
         rendered = _render(model["root"], model["context"], notes, references)
-        verify_rendered_body(rendered, model, stylesheet=SOURCE_BODY_CSS)
+        stylesheet = stylesheet_for_body(model["root"])
+        verify_rendered_body(rendered, model, stylesheet=stylesheet)
         report.update(status="passed", body_sha256=model["body_sha256"], semantic_sha256=model["semantic_sha256"],
                       source_body_model_sha256=proof["source_body_model_sha256"], source_events=proof["source_events"],
                       element_counts=counts, rendered_sha256=hashlib.sha256(rendered.encode("utf-8")).hexdigest(),
-                      stylesheet_sha256=hashlib.sha256(SOURCE_BODY_CSS.encode("utf-8")).hexdigest(),
+                      stylesheet_sha256=hashlib.sha256(stylesheet.encode("utf-8")).hexdigest(),
                       rendered_reverse_check="passed")
-        return {"report": report, "html": rendered, "stylesheet": SOURCE_BODY_CSS}
+        return {"report": report, "html": rendered, "stylesheet": stylesheet}
     except BodyRejected as exc:
         report["reasons"] = [{"code": exc.code, "path": exc.path, "detail": exc.detail}]
         return {"report": report, "html": None, "stylesheet": None}
