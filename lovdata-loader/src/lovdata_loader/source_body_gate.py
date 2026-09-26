@@ -5,8 +5,7 @@ reader uses Expat callbacks, independently of the producer's ElementTree walk.
 The bounded grammar rejects unsupported source roles instead of approximating
 them. The declared list grammar retains explicit source markers.
 Numbered paragraphs retain labels already present in the source text. Images,
-formulas, row spans and
-unhandled source roles remain explicit rejections.
+formulas and unhandled source roles remain explicit rejections.
 """
 from __future__ import annotations
 
@@ -21,7 +20,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-list-labels-v8"
+GATE_VERSION = "observed-body-source-table-spans-v9"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -47,6 +46,9 @@ _PRESENTATION_FORMS = {("article", "marginIdArticle"), ("span", "miscHeadline"),
 _PRESENTATION_CSS = "main.documentBody article.marginIdArticle{margin:1em 0}main.documentBody span.data-marginOriginalId{display:block;font-weight:bold}main.documentBody span.miscHeadline{display:block;margin:.65em 0}main.documentBody div.indent{margin-inline-start:2em}main.documentBody article.defaultP[margin-top=true]{margin-top:1.3em}main.documentBody [data-text-size=small]{font-size:.9em}main.documentBody [data-text-size=small] :is(article,ol,ul)[data-text-size=small]{font-size:inherit}main.documentBody caption{text-align:start;padding:.5em 0}main.documentBody caption[data-caption-placement=after]{caption-side:bottom}"
 
 
+_TABLE_GROUP_CSS = "main.documentBody tr.startGroup>:is(td,th){border-top-width:2px}"
+
+
 def stylesheet_for_body(root: dict) -> str:
     """Retain earlier stylesheet bytes unless newly supported forms occur."""
     forms = {_form(n) for n, _, _ in _walk(root)}
@@ -55,7 +57,8 @@ def stylesheet_for_body(root: dict) -> str:
             + (_DEEP_HEADING_CSS if forms & _DEEP_HEADINGS else "")
             + (_PRESENTATION_CSS if forms & _PRESENTATION_FORMS or any(
                 "margin-top" in n["attributes"] or ("data-text-size" in n["attributes"] and _form(n) != ("article", "defaultP"))
-                for n, _, _ in _walk(root)) else ""))
+                for n, _, _ in _walk(root)) else "")
+            + (_TABLE_GROUP_CSS if ("tr", "startGroup") in forms else ""))
 
 # Exact form/attribute pairs. No arbitrary class/data-* passthrough.
 _FORMS = {
@@ -87,9 +90,9 @@ _FORMS = {
     ("h5", "legalArticleHeader"): {"class"}, ("h6", "legalArticleHeader"): {"class"},
     ("a", ""): {"href", "data-link-type"}, ("i", ""): set(), ("strong", ""): set(), ("br", ""): set(),
     ("table", ""): set(), ("thead", ""): set(), ("tbody", ""): set(),
-    ("tr", ""): set(),
-    ("th", ""): {"colspan", "data-text-align", "data-vertical-align"},
-    ("td", ""): {"colspan", "data-text-align", "data-vertical-align"},
+    ("tr", ""): set(), ("tr", "startGroup"): {"class"},
+    ("th", ""): {"colspan", "rowspan", "data-text-align", "data-vertical-align"},
+    ("td", ""): {"colspan", "rowspan", "data-text-align", "data-vertical-align"},
 }
 _INLINE = {("a", ""), ("i", ""), ("strong", ""), ("br", ""), ("sup", ""), ("sub", ""), ("sup", "footnotereference")}
 _HEADINGS = {("h1", ""), ("h2", ""), ("h3", ""), ("h4", ""), ("h5", ""), ("h6", ""),
@@ -118,8 +121,9 @@ _CHILDREN = {
     ("article", "footnote"): _INLINE | {("span", "footnoteLabel")},
     ("footer", "footnotes"): {("article", "footnote")},
     ("table", ""): {("thead", ""), ("tbody", "")},
-    ("thead", ""): {("tr", "")}, ("tbody", ""): {("tr", "")},
+    ("thead", ""): {("tr", ""), ("tr", "startGroup")}, ("tbody", ""): {("tr", ""), ("tr", "startGroup")},
     ("tr", ""): {("td", ""), ("th", "")},
+    ("tr", "startGroup"): {("td", ""), ("th", "")},
     ("td", ""): _INLINE, ("th", ""): _INLINE,
     ("a", ""): {("i", ""), ("strong", ""), ("sup", ""), ("sub", ""), ("br", "")},
     ("i", ""): {("a", ""), ("strong", ""), ("sup", ""), ("sub", ""), ("br", "")},
@@ -178,7 +182,7 @@ for _parent in (("article", "legalP"), ("td", ""), ("article", "footnote"), ("i"
 
 _ELEMENT_ONLY = {("main", "documentBody"), ("section", "section"),
                  ("article", "legalArticle"), ("footer", "footnotes"),
-                 ("table", ""), ("thead", ""), ("tbody", ""), ("tr", ""),
+                 ("table", ""), ("thead", ""), ("tbody", ""), ("tr", ""), ("tr", "startGroup"),
                  ("ol", "defaultList"), ("ul", "defaultList"),
                  ("li", ""), ("article", "listArticle")}
 
@@ -402,13 +406,32 @@ def _table(node: dict, path: str) -> None:
     for group in groups:
         rows = [c for c in group["children"] if type(c) is dict]
         _require(bool(rows), "invalid_table_topology", path, "Empty row group")
+        pending = {}
         for row in rows:
             cells = [c for c in row["children"] if type(c) is dict]
-            _require(bool(cells), "invalid_table_topology", path, "Empty table row")
-            cell_width = sum(int(c["attributes"].get("colspan", "1")) for c in cells)
+            _require(bool(cells) or bool(pending), "invalid_table_topology", path, "Empty uncovered table row")
+            occupied = set(pending)
+            following = {column: remaining - 1 for column, remaining in pending.items() if remaining > 1}
+            column = 0
+            for cell in cells:
+                while column in occupied:
+                    column += 1
+                colspan = int(cell["attributes"].get("colspan", "1"))
+                rowspan = int(cell["attributes"].get("rowspan", "1"))
+                _require(column + colspan <= 1024, "invalid_table_topology", path, "Oversized column grid")
+                covered = set(range(column, column + colspan))
+                _require(not covered & occupied, "invalid_table_topology", path, "Overlapping source table spans")
+                occupied.update(covered)
+                if rowspan > 1:
+                    following.update({c: rowspan - 1 for c in covered})
+                column += colspan
+            cell_width = max(occupied) + 1
             if width is None:
                 width = cell_width
-            _require(cell_width == width and width <= 1024, "invalid_table_topology", path, "Inconsistent or oversized column grid")
+            _require(cell_width == width and occupied == set(range(width)),
+                     "invalid_table_topology", path, "Inconsistent or incomplete column grid")
+            pending = following
+        _require(not pending, "invalid_table_topology", path, "Row span extends beyond its source row group")
 
 
 # Literal source labels include punctuation, bullets, multi-level identifiers,
@@ -541,6 +564,9 @@ def _grammar(root: dict, context: dict):
         if "colspan" in attrs:
             _require(bool(re.fullmatch(r"[1-9][0-9]{0,3}", attrs["colspan"])) and int(attrs["colspan"]) <= 1000,
                      "invalid_table_topology", path, "Positive bounded colspan required")
+        if "rowspan" in attrs:
+            _require(bool(re.fullmatch(r"[1-9][0-9]{0,3}", attrs["rowspan"])) and int(attrs["rowspan"]) <= 1000,
+                     "invalid_table_topology", path, "Positive bounded rowspan required")
         if "data-text-align" in attrs:
             _require(attrs["data-text-align"] in {"left", "right", "center"}, "unsupported_attribute_value", path, "Unknown text alignment")
         if "data-vertical-align" in attrs:
