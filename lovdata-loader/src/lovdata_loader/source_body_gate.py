@@ -20,7 +20,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-paragraphs-v4"
+GATE_VERSION = "observed-body-source-emphasis-tables-v5"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -69,13 +69,13 @@ _FORMS = {
     ("h2", "legalArticleHeader"): {"class"},
     ("h3", "legalArticleHeader"): {"class"},
     ("h4", "legalArticleHeader"): {"class"},
-    ("a", ""): {"href"}, ("i", ""): set(), ("br", ""): set(),
+    ("a", ""): {"href"}, ("i", ""): set(), ("strong", ""): set(), ("br", ""): set(),
     ("table", ""): set(), ("thead", ""): set(), ("tbody", ""): set(),
     ("tr", ""): set(),
     ("th", ""): {"colspan", "data-text-align", "data-vertical-align"},
     ("td", ""): {"colspan", "data-text-align", "data-vertical-align"},
 }
-_INLINE = {("a", ""), ("i", ""), ("br", ""), ("sup", "footnotereference")}
+_INLINE = {("a", ""), ("i", ""), ("strong", ""), ("br", ""), ("sup", "footnotereference")}
 _HEADINGS = {("h1", ""), ("h2", ""), ("h3", ""),
              ("h2", "legalArticleHeader"), ("h3", "legalArticleHeader"), ("h4", "legalArticleHeader")}
 for _heading in _HEADINGS:
@@ -97,8 +97,9 @@ _CHILDREN = {
     ("thead", ""): {("tr", "")}, ("tbody", ""): {("tr", "")},
     ("tr", ""): {("td", ""), ("th", "")},
     ("td", ""): _INLINE, ("th", ""): _INLINE,
-    ("a", ""): {("i", ""), ("br", "")},
-    ("i", ""): {("a", ""), ("br", "")},
+    ("a", ""): {("i", ""), ("strong", ""), ("br", "")},
+    ("i", ""): {("a", ""), ("strong", ""), ("br", "")},
+    ("strong", ""): _INLINE,
     ("span", "legalArticleTitle"): _INLINE,
     **{heading: _INLINE | {("span", "legalArticleValue"), ("span", "legalArticleTitle")} for heading in _HEADINGS},
 }
@@ -439,8 +440,9 @@ def _grammar(root: dict, context: dict):
         if form == ("a", ""):
             _require("href" in attrs, "unsupported_attribute", path, "Link target required")
             _target(attrs["href"], context["source_base"], path)
-            _require(not any(n is not node and n["tag"] == "a" for n, _, _ in _walk(node)),
-                     "unsupported_nesting", path, "Nested anchors are invalid HTML")
+            _require(not any(n is not node and (n["tag"] == "a" or _form(n) == ("sup", "footnotereference"))
+                             for n, _, _ in _walk(node)),
+                     "unsupported_nesting", path, "Nested source or generated footnote anchors are invalid HTML")
         if "colspan" in attrs:
             _require(bool(re.fullmatch(r"[1-9][0-9]{0,3}", attrs["colspan"])) and int(attrs["colspan"]) <= 1000,
                      "invalid_table_topology", path, "Positive bounded colspan required")
@@ -595,7 +597,7 @@ def verify_rendered_body(fragment: str, model: dict, *, stylesheet: str) -> None
             ca = child["attributes"]
             kind = ca.get("data-source-body-derived")
             if kind == "table-scroll":
-                _require(tag == "article" and attrs.get("class") == "legalP"
+                _require(tag == "article" and attrs.get("class") in {"legalP", "defaultP", "numberedLegalP"}
                          and child["tag"] == "div" and ca == _TABLE_SCROLL_ATTRIBUTES
                          and len(child["children"]) == 1
                          and type(child["children"][0]) is dict

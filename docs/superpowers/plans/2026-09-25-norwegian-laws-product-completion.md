@@ -195,6 +195,8 @@ remaining grammar expansion and public delivery are still open.
 
 **Done:** corpus-wide accounting proves the declared projection and every remaining unsupported document is explicitly accounted for. A claim of full faithful coverage requires all meaningful forms in that population to be supported; a high pass rate is not sufficient.
 
+**26 September coverage update:** public v5 product `48740f70` accounts for all 5,874 selections: 4,376 qualified and 1,498 rejected. Independent public retrieval preserves all 4,175 prior qualified HTML/CSS/body hashes and all 5,874 semantic identities. Exactly 201 existing documents become readable; this representation improvement is not a legal amendment. Exact offline v5 reproduction passed in run 36212841405. Complete v2/v3/v4 products and their receipts remain preserved. History PR19 records the public readback, reproduction and every remaining rejection. Main PR21 mirrors the published emphasis/table gate. Full structural coverage remains open. Diagnostic inspection of the earlier retained snapshot shows all 84 body/header rejection cases use the omitted `STV` prefix with matching document identifiers; current-source qualification is required before promoting that next support change.
+
 ## D7 — Preserve and interpret operation-level temporal evidence
 
 **Outcome:** every amendment operation remains addressable, including unresolved targets, empty repeal text and scoped commencement uncertainty.
@@ -209,15 +211,15 @@ resolve_claims(operations, evidence_catalog, knowledge_cutoff) -> list[dict]
 
 Operation records bind `source_occurrence_id` + `parsed_model_sha256` + zero-based `operation_ordinal`, source/model locations, original instruction/replacement/target strings, candidate target and resolution status. Binding the parsed revision prevents parser corrections/reordering from reusing a previous operation identity. Claim records bind operation/document scope, evidence IDs and locations, method/version, knowledge cutoff, legal start/end bounds and status `explicit|conditional|partial|conflicting|unresolved`. Corrections append a new claim with superseded IDs.
 
-**Delivery status:** [History PR13](https://github.com/sondreskarsten/norwegian-laws-history/pull/13) merged as `a36cebf`. Production run `36187764307` extracted five complete observation products but failed before publication because GitHub returned 422 for a nonexistent release tag. PR14 fixes exact tag-absence detection; retry `36192928094` is running. The local complete export covers 39,208 acts, 99,964 operations and 139,172 unresolved claims in a 102,467,016-byte bundle with a 6,761-byte Git receipt. Six real retrieval cases pass source/model/clock checks; see history `docs/evidence/operation-consumer-local.json` and `operation-release-local.json`. Public operation delivery stays unchecked below. Append-only later proposals and their Git publication pass local acceptance, including immutable replay without old release downloads; every proposal remains ineligible for reconstruction until a justified evidence method exists.
+**Delivery status (26 September):** complete operation evidence is published and independently read back. Observation `be688fe8` carries 39,214 acts, 99,972 operations and 139,186 unresolved claims in public product `182c4b74`. The complete 102,605,176-byte artifact/index/source-catalog/record bindings were validated and the corrected amendment target retrieved. Earlier products remain preserved. Ordered replacement subtrees, operation scope and justified legal-time resolution remain unfinished; parsed-model completeness is not source-operation completeness. See history `docs/evidence/operations-public-readback.json` and `docs/evidence/corrected-history-operations-public.json`.
 
-- [ ] Read complete `parsed-amendment-acts.v1.jsonl`, retaining original order and every operation; reconcile to its raw occurrence and producer inventory.
+- [x] Read complete `parsed-amendment-acts.v1.jsonl`, retaining original order and every operation; reconcile to its raw occurrence and producer inventory. Complete public operation products, index/source bindings and real consumer retrieval were verified.
 - [ ] Where the current parsed model flattened replacement text, extract the complete ordered replacement subtree from retained raw amendment XML and version that interface. An export that is complete relative to a lossy parsed model is not enough for legal replay.
 - [ ] Preserve unresolved targets and empty replacement text. Classify replacement, insertion, repeal/removal, renumbering and move without silently coercing unknown instructions.
 - [ ] Capture raw commencement expressions and separate act-wide from provision-specific rules. Preserve `Kongen bestemmer`, conditions, retroactivity, temporary effect and conflicting expressions explicitly.
 - [ ] Register independently retrieved commencement orders/corrections as evidence; assign a legal bound only when the relevant operation scope is established.
-- [ ] Keep existing publication-date fallback outside the legal evidence path. Update reader labels where legacy normalized dates would otherwise imply legal certainty.
-- [ ] Publish a versioned operation/claim export and CLI retrieval, with original evidence available beside interpretations.
+- [x] Keep existing publication-date fallback outside the legal evidence path. PR17 published corrected date labels with direct public readback; history claims preserve unresolved legal dates.
+- [x] Publish a versioned operation/claim export and CLI retrieval, with original evidence available beside interpretations. Original evidence and unresolved claims are public; later proposals remain legally ineligible.
 - [ ] Independently inspect real repeal-with-empty-text, deferred-commencement and multiple-commencement cases; verify that later knowledge adds claims rather than rewriting earlier records.
 
 **Done:** history #6's full operation/uncertainty interface is public and reproducible. This supplies inputs to reconstruction; it does not by itself prove a past state.
@@ -252,16 +254,18 @@ The result contains requested dates, baseline evidence, applied operation/claim 
 
 **Files:** main planned publisher `observed_history.py`; existing `per_law_pages.py`, `paragraph_history.py`, `historie_pages.py`, `quarto.py`, `not_found.py`; history `queries.py` and public indexes.
 
-- [ ] Generate a compact public history index keyed by refid/source occurrence with pinned observation/product/claim identities and availability status.
-- [ ] Add observed-version timelines and comparison to current document pages after D5; show observation dates and representation changes accurately.
+- [x] Generate the public observed-history index with pinned observation/product identities and availability status. Four representations and 5,875 retained document identities are publicly read back; legal claim integration remains dependent on D8.
+- [x] Add observed-version selection and comparison to current document pages; public changed/unchanged comparisons, source dates and representation labels verified in PR20.
 - [ ] Add a legal-date selector after D8. Show source basis, applicable date, knowledge cutoff and completeness beside the answer.
 - [ ] Link paragraph history to exact operations/evidence and qualified before/after content. Keep parsed records visible where a legal reconstruction is unavailable.
-- [ ] Provide stable copyable citations and raw evidence downloads; preserve existing deep links and recovery routes.
-- [ ] Give partial/unavailable results a useful explanation and source links; never silently substitute current text for a requested historical date.
-- [ ] Keep legacy comparisons separately labelled and pinned, with no suggestion that their annual tag is a proven historical snapshot.
+- [ ] Complete clipboard delivery verification. Stable exact-product citation URLs and raw evidence downloads are public, and current/history/recovery routes work. Copy UI reports success, but the in-app browser clipboard readback returned empty; do not claim OS clipboard confirmation.
+- [x] Give unsupported and unknown observed-version results a useful explanation and source links without substituting current text. Legal-date requests remain unavailable pending D8.
+- [x] Keep legacy comparisons separately labelled and pinned; public legacy and observed-history notices distinguish them from proven legal states.
 - [ ] Exercise the full current → observed history → legal date → comparison → source/citation journey on desktop, keyboard and a 390px viewport after deployment.
 
 **Done:** observed history is usable from the reader and historical-date requests obey the reconstruction coverage contract publicly.
+
+**Public acceptance (26 September):** run 36211241744 completed all four jobs; source `aa4f7d19`, public receipt and committed acknowledgement agree. Exact history body readback, changed/unchanged comparison, unsupported/unknown/equal selection, directory search and 390px layouts are verified in `docs/evidence/observed-reader-site-public.json`. The archive now has 106 documents, including the first naturally captured source exit; no repeal date is inferred.
 
 ## D10 — Verify ongoing delivery, portability and supported integrations
 
