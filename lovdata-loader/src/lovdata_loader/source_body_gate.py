@@ -20,7 +20,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-table-spans-v9"
+GATE_VERSION = "observed-body-source-future-presentation-v10"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -49,6 +49,12 @@ _PRESENTATION_CSS = "main.documentBody article.marginIdArticle{margin:1em 0}main
 _TABLE_GROUP_CSS = "main.documentBody tr.startGroup>:is(td,th){border-top-width:2px}"
 
 
+_FUTURE_FORMS = {("article", "futureLegalArticle"), ("span", "futureLegalArticleHeader"), ("span", "futuretitle")}
+_FUTURE_CSS = "main.documentBody article.futureLegalArticle{margin:1em 0}main.documentBody span.futureLegalArticleHeader,main.documentBody span.futuretitle{display:block;font-weight:bold;margin:1em 0 .65em}"
+_SOURCE_TYPOGRAPHY_FORMS = {("span", "underline"), ("span", "letterspacing"), ("blockquote", ""), ("s", "")}
+_SOURCE_TYPOGRAPHY_CSS = "main.documentBody span.underline{text-decoration:underline}main.documentBody span.letterspacing{letter-spacing:.15em}main.documentBody blockquote{margin:1em 0 1em 2em}main.documentBody s{text-decoration:line-through}"
+
+
 def stylesheet_for_body(root: dict) -> str:
     """Retain earlier stylesheet bytes unless newly supported forms occur."""
     forms = {_form(n) for n, _, _ in _walk(root)}
@@ -58,7 +64,9 @@ def stylesheet_for_body(root: dict) -> str:
             + (_PRESENTATION_CSS if forms & _PRESENTATION_FORMS or any(
                 "margin-top" in n["attributes"] or ("data-text-size" in n["attributes"] and _form(n) != ("article", "defaultP"))
                 for n, _, _ in _walk(root)) else "")
-            + (_TABLE_GROUP_CSS if ("tr", "startGroup") in forms else ""))
+            + (_TABLE_GROUP_CSS if ("tr", "startGroup") in forms else "")
+            + (_FUTURE_CSS if forms & _FUTURE_FORMS else "")
+            + (_SOURCE_TYPOGRAPHY_CSS if forms & _SOURCE_TYPOGRAPHY_FORMS else ""))
 
 # Exact form/attribute pairs. No arbitrary class/data-* passthrough.
 _FORMS = {
@@ -180,8 +188,38 @@ for _parent in (("article", "legalP"), ("td", ""), ("article", "footnote"), ("i"
         ("span", "legalArticleTitle"), ("h2", ""), ("h4", "")):
     _CHILDREN[_parent].add(("span", ""))
 
+# These are observed XML presentation roles, including quoted replacement text.
+# Their names do not establish commencement or legal eligibility.
+_FORMS.update({
+    ("article", "futureLegalArticle"): {"class", "id", "data-name"},
+    ("span", "futureLegalArticleHeader"): {"class", "data-text-align"},
+    ("span", "futuretitle"): {"class", "id", "data-text-align"},
+    ("span", "underline"): {"class"}, ("span", "letterspacing"): {"class"},
+    ("blockquote", ""): {"data-rulesAssistanceType"}, ("s", ""): set(),
+})
+for _parent in (("section", "section"), ("article", "legalArticle")):
+    _CHILDREN[_parent].add(("article", "futureLegalArticle"))
+_CHILDREN[("section", "section")].add(("span", "futuretitle"))
+_CHILDREN[("article", "futureLegalArticle")] = {
+    ("span", "futureLegalArticleHeader"), ("span", "futuretitle"),
+    ("article", "legalP"), ("article", "numberedLegalP"),
+    ("article", "changesToParent"), ("footer", "footnotes")}
+_CHILDREN[("span", "futureLegalArticleHeader")] = {
+    ("span", "legalArticleValue"), ("span", "legalArticleTitle"),
+    ("br", ""), ("sup", "footnotereference")}
+for _parent in (("th", ""), ("td", ""), ("article", "defaultP"), ("article", "legalP"),
+        ("a", ""), ("i", ""), ("article", "numberedLegalP"), ("article", "footnote")):
+    _CHILDREN[_parent].add(("span", "underline"))
+_CHILDREN[("span", "underline")] = {("sup", ""), ("a", "")}
+_CHILDREN[("article", "legalP")].add(("span", "letterspacing"))
+for _parent in (("main", "documentBody"), ("section", "section"), ("article", "legalArticle")):
+    _CHILDREN[_parent].add(("blockquote", ""))
+_CHILDREN[("blockquote", "")] = {("article", "legalP"), ("article", "defaultP")}
+for _parent in (("td", ""), ("article", "legalP"), ("article", "numberedLegalP")):
+    _CHILDREN[_parent].add(("s", ""))
+
 _ELEMENT_ONLY = {("main", "documentBody"), ("section", "section"),
-                 ("article", "legalArticle"), ("footer", "footnotes"),
+                 ("article", "legalArticle"), ("article", "futureLegalArticle"), ("blockquote", ""), ("footer", "footnotes"),
                  ("table", ""), ("thead", ""), ("tbody", ""), ("tr", ""), ("tr", "startGroup"),
                  ("ol", "defaultList"), ("ul", "defaultList"),
                  ("li", ""), ("article", "listArticle")}
