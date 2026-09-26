@@ -21,7 +21,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-presentation-v7"
+GATE_VERSION = "observed-body-source-list-labels-v8"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -411,6 +411,13 @@ def _table(node: dict, path: str) -> None:
             _require(cell_width == width and width <= 1024, "invalid_table_topology", path, "Inconsistent or oversized column grid")
 
 
+# Literal source labels include punctuation, bullets, multi-level identifiers,
+# Nordic/Greek/Cyrillic letters and quotation markers. They are displayed as
+# captured, never interpreted as numbering. No whitespace, controls or markup
+# delimiters that are absent from the observed labels are admitted.
+_SOURCE_LIST_LABEL = re.compile(r"[A-Za-z0-9æøåÆØÅβγδεабвгд().,:>\[\]«*–•►☐-]{1,32}\Z")
+
+
 def _list(node: dict, path: str) -> None:
     """Admit only source shapes demonstrated by the retained list fixtures.
 
@@ -435,14 +442,17 @@ def _list(node: dict, path: str) -> None:
                  "Empty listArticle is outside this observed subset")
         if tag == "ol":
             _require(set(a) == {"data-name", "value"}
-                     and bool(re.fullmatch(r"[1-9][0-9]{0,5}", a.get("value", "")))
-                     and bool(re.fullmatch(r"(?:[0-9]{1,6}|[A-Za-z]{1,12})[.)]?", a.get("data-name", ""))),
+                     and bool(re.fullmatch(r"(?:0|[1-9][0-9]{0,9})", a.get("value", "")))
+                     and int(a["value"]) <= 2147483647
+                     and bool(_SOURCE_LIST_LABEL.fullmatch(a.get("data-name", ""))),
                      "unsupported_list_marker", path,
-                     "Ordered item requires exact bounded source label and positive declared value")
+                     "Ordered item requires exact bounded source label and nonnegative declared value")
         else:
-            _require(not a or a == {"data-name": "-", "data-li-identifier": "-"},
+            _require(not a or (set(a) == {"data-name", "data-li-identifier"}
+                     and a["data-name"] == a["data-li-identifier"]
+                     and bool(_SOURCE_LIST_LABEL.fullmatch(a["data-name"]))),
                      "unsupported_list_marker", path,
-                     "Unordered subset supports unlabeled disc items or matching explicit hyphen fields")
+                     "Unordered item requires unlabeled disc or matching bounded literal label fields")
 
 
 def _grammar(root: dict, context: dict):
