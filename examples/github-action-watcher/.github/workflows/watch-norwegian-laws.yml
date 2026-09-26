@@ -17,11 +17,18 @@ permissions:
   contents: write
   issues: write
 
+# State is committed to the watched branch. Keep separate runs from racing.
+concurrency:
+  group: law-watcher-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   watch:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      # Every feed writes to the same branch, even though its state file differs.
+      max-parallel: 1
       matrix:
         feed:
           # Per-law: pick whichever feeds matter for your team.
@@ -40,6 +47,9 @@ jobs:
           #   url: "https://sondreskarsten.github.io/norwegian-laws/feeds/dept-finansdepartementet.xml"
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Each matrix job must include state pushed by the preceding job.
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -54,9 +64,10 @@ jobs:
         env:
           FEED_NAME: ${{ matrix.feed.name }}
           FEED_URL: ${{ matrix.feed.url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python <<'PY'
-          import feedparser, os, hashlib, json, pathlib, sys
+          import feedparser, os, hashlib, json, pathlib, sys, subprocess
           name = os.environ["FEED_NAME"]
           url = os.environ["FEED_URL"]
           feed = feedparser.parse(url)
@@ -85,9 +96,40 @@ jobs:
 
           new_entries = [e for e in feed.entries if e.id not in seen]
           if new_entries:
+              # Recover an issue delivered before a failed/interrupted state push.
+              # Read every page and include closed issues; lookup failure must
+              # stop delivery rather than risk treating existing issues as absent.
+              result = subprocess.run(
+                  ["gh", "api", f"repos/{os.environ['GITHUB_REPOSITORY']}/issues?state=all&per_page=100",
+                   "--paginate", "--slurp"], capture_output=True, text=True, check=True)
+              pages = json.loads(result.stdout)
+              if not isinstance(pages, list) or any(not isinstance(page, list) for page in pages):
+                  raise ValueError("Unexpected paginated GitHub issue response")
+              delivered = set()
+              prefix = "<!-- norwegian-law-watcher:"
+              for page in pages:
+                  for issue in page:
+                      # Pull requests share this endpoint, but are not deliveries.
+                      if "pull_request" in issue:
+                          continue
+                      body = issue.get("body") or ""
+                      for line in body.splitlines():
+                          if line.startswith(prefix) and line.endswith(" -->"):
+                              delivered.add(line)
+              def marker(entry):
+                  identity = json.dumps([url, entry.id], ensure_ascii=False, separators=(",", ":"))
+                  return prefix + hashlib.sha256(identity.encode("utf-8")).hexdigest() + " -->"
+              new_entries = [entry for entry in new_entries if marker(entry) not in delivered]
+              # Save recovered deliveries too, even when no new issue is needed.
+              seen.update(e.id for e in feed.entries)
+              state_file.write_text(json.dumps(sorted(seen)))
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  f.write("state_changed=true\n")
+          if new_entries:
               print(f"::notice::{name}: {len(new_entries)} new amendment(s)")
               body_lines = [f"## New amendments to {name}", ""]
               for e in new_entries:
+                  body_lines.append(marker(e))
                   body_lines.append(f"### {e.title}")
                   body_lines.append("")
                   body_lines.append(f"- **Published**: {e.updated[:10]}")
@@ -105,8 +147,6 @@ jobs:
               pathlib.Path("issue-title.txt").write_text(
                   f"{name}: {len(new_entries)} new amendment{'s' if len(new_entries) > 1 else ''}"
               )
-              seen.update(e.id for e in feed.entries)
-              state_file.write_text(json.dumps(sorted(seen)))
               with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                   f.write("has_changes=true\n")
           else:
@@ -133,7 +173,7 @@ jobs:
             --label "law-change"
 
       - name: Persist watcher state
-        if: steps.diff.outputs.has_changes == 'true' || steps.diff.outputs.first_run == 'true'
+        if: steps.diff.outputs.state_changed == 'true' || steps.diff.outputs.first_run == 'true'
         run: |
           git config user.name "law-watcher-bot"
           git config user.email "noreply@github.com"

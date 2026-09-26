@@ -124,14 +124,31 @@ def find_release(endpoint: str, tag: str):
         page += 1
 
 
-def publish(output: Path) -> dict:
+def publish(output: Path, *, contract: str = "lovdata-observation-release-v1") -> dict:
+    if contract not in {'lovdata-observation-release-v1', 'primary-source-acquisition-release-v1'}:
+        raise ValueError('Unsupported evidence publication contract')
     receipt = json.loads((output / 'evidence.json').read_bytes())
     bundle = output / 'snapshot.tar.gz'
-    if (receipt.get('contract') != 'lovdata-observation-release-v1'
+    if (receipt.get('contract') != contract
             or receipt['bundle'].get('name') != bundle.name
             or receipt['bundle'].get('sha256') != digest(bundle)
             or receipt['bundle'].get('bytes') != bundle.stat().st_size):
         raise ValueError('Local evidence bundle no longer matches its receipt')
+    if contract == 'primary-source-acquisition-release-v1':
+        core = {key: value for key, value in receipt.items()
+                if key not in {'observation_id', 'release_tag', 'receipt_url'}}
+        core['bundle'] = {key: value for key, value in receipt['bundle'].items() if key != 'url'}
+        identity = hashlib.sha256(canonical(core)).hexdigest()
+        project = receipt.get('repository', '')
+        tag = 'primary-source-' + identity
+        base = f'https://github.com/{project}/releases/download/{tag}/'
+        if (not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', project)
+                or not re.fullmatch(r'[0-9a-f]{40}', receipt.get('source_sha', ''))
+                or receipt.get('observation_id') != identity
+                or receipt.get('release_tag') != tag
+                or receipt.get('receipt_url') != base + 'evidence.json'
+                or receipt['bundle'].get('url') != base + 'snapshot.tar.gz'):
+            raise ValueError('Primary source receipt identity or transport changed')
     repository, tag = receipt['repository'], receipt['release_tag']
     endpoint = f'repos/{repository}/releases'
     reference = api(f'repos/{repository}/git/ref/tags/{tag}', missing_ok=True)
@@ -143,11 +160,15 @@ def publish(output: Path) -> dict:
         release = api(endpoint, {
             'tag_name': tag, 'target_commitish': receipt['source_sha'],
             'name': 'Source observation ' + receipt['observation_id'][:12],
-            'body': ('Content-addressed Lovdata source evidence and versioned parsed snapshot. '
+            'body': (('Supplemental primary-source acquisition with exact retrieval URLs, times and hashes. '
+                      'Scans, source-hosted printouts and OCR retain their individual provenance. '
+                      'No legal-state qualification or blanket license assignment. See evidence.json and the bundled acquisition manifest. '
+                      'Existing assets are never overwritten by this workflow.') if contract == 'primary-source-acquisition-release-v1' else
+                     ('Content-addressed Lovdata source evidence and versioned parsed snapshot. '
                      'The snapshot manifest binds every included artifact and raw archive. '
                      'Dates in the parsed projection are not verified historical legal validity.\n\n'
                      'Data: Lovdata, NLOD 2.0. See evidence.json for identities and attribution.\n\n'
-                     'Existing assets are never overwritten by this workflow.'),
+                     'Existing assets are never overwritten by this workflow.')),
             'draft': True, 'prerelease': False, 'make_latest': 'false',
         })
     # A pre-existing release must identify this exact generation.

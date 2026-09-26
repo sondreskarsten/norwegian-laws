@@ -97,7 +97,7 @@ class SourceBodyTests(unittest.TestCase):
         row, raw = self.cases["lov/1687-04-15"]
         for insertion, reason in [(b'<ol class="defaultList" type="1"><li value="1">item</li></ol>', "unsupported_nesting"),
                                   (b'<img src="/asset.png" alt="diagram" />', "unsupported_form"),
-                                  (b'<article class="futureLegalArticle">future text</article>', "unsupported_form")]:
+                                  (b'<article class="futureLegalArticle">future text</article>', "unsupported_nesting")]:
             changed = raw.replace(b'</main>', insertion + b'</main>')
             model = capture_source_body(changed)
             self.assertEqual(len(model["root"]["children"]), len(capture_source_body(raw)["root"]["children"]) + 1)
@@ -133,7 +133,7 @@ class SourceBodyTests(unittest.TestCase):
         row, raw = self.cases["forskrift/1969-06-27-4"]
         changed = raw.replace(b'data-text-align="center"', b'data-text-align="justify"', 1)
         self.reject(qualify(changed, row), "unsupported_attribute_value")
-        self.reject(qualify(raw.replace(b'<td ', b'<td rowspan="2" ', 1), row), "unsupported_attribute")
+        self.reject(qualify(raw.replace(b'<td ', b'<td data-unknown-rowspan="2" ', 1), row), "unsupported_attribute")
 
     def test_footnotes_use_unique_counters_not_repeated_visible_labels(self):
         row, raw = self.cases["forskrift/1969-06-27-4"]
