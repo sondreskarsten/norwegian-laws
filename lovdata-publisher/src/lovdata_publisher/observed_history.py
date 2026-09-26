@@ -122,7 +122,8 @@ SCRIPT = r"""
   const byId=new Map(rows.map(v=>[v.body_product_id,v]));
   const select=document.getElementById('version'), other=document.getElementById('comparison');
   const date=v=>v.knowledge_cutoff?new Intl.DateTimeFormat('nb-NO',{dateStyle:'medium',timeStyle:'short',timeZone:'Europe/Oslo'}).format(new Date(v.knowledge_cutoff)):'Hentetid ikke registrert';
-  const label=v=>date(v)+' — '+(v.status==='passed'?'kontrollert tekst':'tekstform ikke støttet')+' · visning '+(v.rank+1);
+  const changes={first_qualified_body:'første kontrollerte tekst',unchanged:'uendret tekst og visning',representation_change:'oppdatert visning',observed_body_change:'endret observert innhold'};
+  const label=v=>date(v)+' — '+(v.status==='passed'?'kontrollert tekst':'tekstform ikke støttet')+(changes[v.change]?' · '+changes[v.change]:'')+' · visning '+(v.rank+1);
   for(const v of rows){const option=new Option(label(v),v.body_product_id);select.add(option);if(v.status==='passed')other.add(new Option(label(v),v.body_product_id));}
   const requested=new URLSearchParams(location.search).get('product');
   const initial=requested||rows[0]?.body_product_id;
