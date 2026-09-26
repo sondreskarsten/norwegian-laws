@@ -97,7 +97,7 @@ class SourceBodyTests(unittest.TestCase):
         row, raw = self.cases["lov/1687-04-15"]
         for insertion, reason in [(b'<ol class="defaultList" type="1"><li value="1">item</li></ol>', "unsupported_nesting"),
                                   (b'<img src="/asset.png" alt="diagram" />', "unsupported_form"),
-                                  (b'<article class="futureLegalArticle">future text</article>', "unsupported_form")]:
+                                  (b'<article class="futureLegalArticle">future text</article>', "unsupported_nesting")]:
             changed = raw.replace(b'</main>', insertion + b'</main>')
             model = capture_source_body(changed)
             self.assertEqual(len(model["root"]["children"]), len(capture_source_body(raw)["root"]["children"]) + 1)
