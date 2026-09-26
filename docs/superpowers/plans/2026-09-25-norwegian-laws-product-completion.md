@@ -1,5 +1,7 @@
 # Norwegian Laws Product Completion Implementation Plan
 
+**Execution paused at the user's request, 26 September 2026.** Use [the current delivery status](../../DELIVERY-STATUS.md) before resuming; older unchecked items below may already have newer evidence. No overall completion is claimed.
+
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox syntax for tracking. Work stays in this existing task; use bounded parallel agents only for independent work. The user's delivery-first instruction overrides a mechanical test-first or approval-pause workflow.
 
 **Goal:** Finish the current reader, evidence distribution and historical-law product in the two personal GitHub repositories, with published output that users can retrieve and understand.
