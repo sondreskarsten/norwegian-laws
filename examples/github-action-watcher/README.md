@@ -28,4 +28,4 @@ State (which amendments have already been seen) is committed to `.watcher-state/
 
 ## Alternatives
 
-For non-developer teams, see the other subscription paths in [SUBSCRIBE.md](https://github.com/sondreskarsten/norwegian-laws/blob/main/SUBSCRIBE.md) — Feedly, Inoreader, Slack `/feed`, MS Teams via Power Automate, n8n/Zapier, all work without any code.
+For feed-reader subscriptions and local polling examples, see [SUBSCRIBE.md](https://github.com/sondreskarsten/norwegian-laws/blob/main/SUBSCRIBE.md).

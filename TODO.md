@@ -3,13 +3,13 @@
 Updated **2026-09-26** from source, workflow, live-source and browser audits.
 The active [full product completion plan](docs/superpowers/plans/2026-09-25-norwegian-laws-product-completion.md)
 maps 20 user stories to ten delivery packages, including historical-date reconstruction.
-**Work is paused; resume in the existing task. Cloud setup and handoff are out of scope.**
+**Work is resumed under the [approved delivery plan](docs/superpowers/plans/2026-09-26-fastest-delivery.md). Cloud setup and handoff are out of scope.**
 Use this backlog for delivery evidence and the plan for execution order; a bounded
 observation pilot does not complete the whole historical product.
 
 ## Current delivery position
 
-**Work paused at the user's request on 26 September 2026.** Read
+**Work resumed on 26 September 2026.** Read
 [Delivery status and remaining work](docs/DELIVERY-STATUS.md) first. It supersedes
 older status/counts in this backlog and names the running publications, delivered
 features, exact remaining coverage and restart checks. The complete scope and
