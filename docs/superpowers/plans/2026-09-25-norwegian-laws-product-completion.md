@@ -195,6 +195,8 @@ remaining grammar expansion and public delivery are still open.
 
 **Done:** corpus-wide accounting proves the declared projection and every remaining unsupported document is explicitly accounted for. A claim of full faithful coverage requires all meaningful forms in that population to be supported; a high pass rate is not sufficient.
 
+**26 September coverage update:** public v4 product `fee2266e` accounts for all 5,874 selections: 4,175 qualified and 1,699 rejected. Independent public retrieval preserves 3,201 unchanged prior qualified bodies; the source changed seven bodies, added one regulation and removed one. Exact offline v4 reproduction passed in run 36211577307. Bold text and the demonstrated table-container reverse-check bug are repaired in history PR18, with v5 publication in progress; main PR21 mirrors them. Full structural coverage remains open.
+
 ## D7 — Preserve and interpret operation-level temporal evidence
 
 **Outcome:** every amendment operation remains addressable, including unresolved targets, empty repeal text and scoped commencement uncertainty.
@@ -211,13 +213,13 @@ Operation records bind `source_occurrence_id` + `parsed_model_sha256` + zero-bas
 
 **Delivery status:** [History PR13](https://github.com/sondreskarsten/norwegian-laws-history/pull/13) merged as `a36cebf`. Production run `36187764307` extracted five complete observation products but failed before publication because GitHub returned 422 for a nonexistent release tag. PR14 fixes exact tag-absence detection; retry `36192928094` is running. The local complete export covers 39,208 acts, 99,964 operations and 139,172 unresolved claims in a 102,467,016-byte bundle with a 6,761-byte Git receipt. Six real retrieval cases pass source/model/clock checks; see history `docs/evidence/operation-consumer-local.json` and `operation-release-local.json`. Public operation delivery stays unchecked below. Append-only later proposals and their Git publication pass local acceptance, including immutable replay without old release downloads; every proposal remains ineligible for reconstruction until a justified evidence method exists.
 
-- [ ] Read complete `parsed-amendment-acts.v1.jsonl`, retaining original order and every operation; reconcile to its raw occurrence and producer inventory.
+- [x] Read complete `parsed-amendment-acts.v1.jsonl`, retaining original order and every operation; reconcile to its raw occurrence and producer inventory. Complete public operation products, index/source bindings and real consumer retrieval were verified.
 - [ ] Where the current parsed model flattened replacement text, extract the complete ordered replacement subtree from retained raw amendment XML and version that interface. An export that is complete relative to a lossy parsed model is not enough for legal replay.
 - [ ] Preserve unresolved targets and empty replacement text. Classify replacement, insertion, repeal/removal, renumbering and move without silently coercing unknown instructions.
 - [ ] Capture raw commencement expressions and separate act-wide from provision-specific rules. Preserve `Kongen bestemmer`, conditions, retroactivity, temporary effect and conflicting expressions explicitly.
 - [ ] Register independently retrieved commencement orders/corrections as evidence; assign a legal bound only when the relevant operation scope is established.
-- [ ] Keep existing publication-date fallback outside the legal evidence path. Update reader labels where legacy normalized dates would otherwise imply legal certainty.
-- [ ] Publish a versioned operation/claim export and CLI retrieval, with original evidence available beside interpretations.
+- [x] Keep existing publication-date fallback outside the legal evidence path. PR17 published corrected date labels with direct public readback; history claims preserve unresolved legal dates.
+- [x] Publish a versioned operation/claim export and CLI retrieval, with original evidence available beside interpretations. Original evidence and unresolved claims are public; later proposals remain legally ineligible.
 - [ ] Independently inspect real repeal-with-empty-text, deferred-commencement and multiple-commencement cases; verify that later knowledge adds claims rather than rewriting earlier records.
 
 **Done:** history #6's full operation/uncertainty interface is public and reproducible. This supplies inputs to reconstruction; it does not by itself prove a past state.
