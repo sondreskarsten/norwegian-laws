@@ -21,7 +21,9 @@ def test_real_amendment_bytes_bom_and_text_have_identical_correct_norwegian_text
     outputs = [asdict(parse_lovtidend_file(value, "nl-20161216-091.xml"))
                for value in (raw, b"\xef\xbb\xbf" + raw, raw.decode("utf-8"))]
     assert outputs[0] == outputs[1] == outputs[2]
-    assert value_sha256(outputs[0]) == "7ccb21ed81578e649acb0e6cef3d633f0ed4fa7dcaa92d34245e807151cf35db"
+    # Correct paragraph targets are included in this parsed-model fingerprint.
+    assert outputs[0]["amendments"][0]["target"] == "§ 12"
+    assert value_sha256(outputs[0]) == "c0a135c7cff551349ad1ef92c6242f77b0c97c3550c6f9ac57c43ad50f559860"
     assert outputs[0]["amendments"][0]["instruction"] == "§ 12 annet ledd første punktum skal lyde:"
     assert "foregående ledd" in outputs[0]["amendments"][0]["new_text"]
 
@@ -57,6 +59,6 @@ def test_current_default_v4_and_capture_v5_export_identical_real_amendments(tmp_
         root = tmp_path / str(version)
         write_snapshot(str(root), [], acts, evidence=bundle)
         assert json.loads((root / "manifest.json").read_text())["version"] == version
-        assert bundle.members[0]["parsed_model_sha256"] == "7ccb21ed81578e649acb0e6cef3d633f0ed4fa7dcaa92d34245e807151cf35db"
+        assert bundle.members[0]["parsed_model_sha256"] == "c0a135c7cff551349ad1ef92c6242f77b0c97c3550c6f9ac57c43ad50f559860"
         outputs.append([(root / name).read_bytes() for name in (PARSED_ACTS, "amendments.db")])
     assert outputs[0] == outputs[1]
