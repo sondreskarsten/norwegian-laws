@@ -41,3 +41,8 @@ Release acceptance is now complete. Follow [the resumed execution plan](https://
 Main #3–#7 remain open; #8–#10 were closed with evidence. History #4, #5, #6 and #8 remain open; #1, #3 and #7 were closed with evidence. Do not close remaining issues merely because a workflow is green.
 
 Start with read-only status/issue/run checks and `git status`. Fetch and normally merge current `origin/main` into the existing implementation branches; preserve any new work. Do not force-push, recreate the repositories, regenerate the legacy yearly graph or substitute current text for an unsupported past date. No implementation batch is left waiting for manual publication authority; the unfinished work is the scope above.
+
+
+## Presentation batch v7 — local acceptance, publication pending
+
+The retained 5,874-document corpus now renders and reverses 5,247 bodies under `observed-body-source-presentation-v7`; 309 are newly supported. All 4,938 previously supported HTML and stylesheet payloads are byte-identical. Nine retained raw XML fixtures qualify source-to-model-to-render across margin labels, miscellaneous headings, indentation, captions, language spans, spacing, small text and assistance metadata. Browser inspection confirms margin headings and captioned tables. Remaining 627 first rejections are recorded in `docs/evidence/source-body-presentation-v7-local.json`. This is local representation acceptance, not a published v7 product or a legal-time qualification.

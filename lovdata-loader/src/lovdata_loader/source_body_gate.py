@@ -21,7 +21,7 @@ from urllib.parse import urljoin, urlsplit
 from xml.parsers import expat
 
 CONTRACT = "ordered-source-document-body-v1"
-GATE_VERSION = "observed-body-source-metadata-typography-v6"
+GATE_VERSION = "observed-body-source-presentation-v7"
 MAX_BYTES = 16 * 1024 * 1024
 MAX_MODEL_BYTES = 32 * 1024 * 1024
 MAX_NODES = 250_000
@@ -43,12 +43,19 @@ _DEEP_HEADINGS = {("h5", ""), ("h6", ""), ("h5", "legalArticleHeader"), ("h6", "
 _DEEP_HEADING_CSS = "main.documentBody h5,main.documentBody h6{font-size:1em;line-height:1.3;margin:1em 0}"
 
 
+_PRESENTATION_FORMS = {("article", "marginIdArticle"), ("span", "miscHeadline"), ("div", "indent"), ("caption", "")}
+_PRESENTATION_CSS = "main.documentBody article.marginIdArticle{margin:1em 0}main.documentBody span.data-marginOriginalId{display:block;font-weight:bold}main.documentBody span.miscHeadline{display:block;margin:.65em 0}main.documentBody div.indent{margin-inline-start:2em}main.documentBody article.defaultP[margin-top=true]{margin-top:1.3em}main.documentBody [data-text-size=small]{font-size:.9em}main.documentBody [data-text-size=small] :is(article,ol,ul)[data-text-size=small]{font-size:inherit}main.documentBody caption{text-align:start;padding:.5em 0}main.documentBody caption[data-caption-placement=after]{caption-side:bottom}"
+
+
 def stylesheet_for_body(root: dict) -> str:
     """Retain earlier stylesheet bytes unless newly supported forms occur."""
     forms = {_form(n) for n, _, _ in _walk(root)}
     return (SOURCE_BODY_CSS + (_LIST_CSS if forms & _LISTS else "")
             + (_PARAGRAPH_CSS if forms & _PARAGRAPH_FORMS else "")
-            + (_DEEP_HEADING_CSS if forms & _DEEP_HEADINGS else ""))
+            + (_DEEP_HEADING_CSS if forms & _DEEP_HEADINGS else "")
+            + (_PRESENTATION_CSS if forms & _PRESENTATION_FORMS or any(
+                "margin-top" in n["attributes"] or ("data-text-size" in n["attributes"] and _form(n) != ("article", "defaultP"))
+                for n, _, _ in _walk(root)) else ""))
 
 # Exact form/attribute pairs. No arbitrary class/data-* passthrough.
 _FORMS = {
@@ -130,6 +137,44 @@ _CHILDREN[("article", "centeredP")] = _INLINE
 _CHILDREN[("p", "leddfortsettelse")] = _INLINE
 for _parent in (("article", "legalP"), ("article", "numberedLegalP"), ("article", "defaultP")):
     _CHILDREN[_parent] |= {("p", "leddfortsettelse")}
+
+# Presentation structures observed in retained primary XML. Attributes are
+# retained verbatim; source assistance metadata makes no legal interpretation.
+_FORMS.update({
+    ("article", "marginIdArticle"): {"class", "id"},
+    ("span", "data-marginOriginalId"): {"class"},
+    ("span", "miscHeadline"): {"class"},
+    ("div", "indent"): {"class"},
+    ("caption", ""): {"data-caption-placement"},
+    ("span", ""): {"lang"},
+    ("p", ""): set(),
+})
+for _presentation_form in (("article", "legalP"), ("article", "listArticle"), *_LISTS):
+    _FORMS[_presentation_form].add("data-text-size")
+_FORMS[("article", "defaultP")].add("margin-top")
+for _presentation_form in (("article", "changesToParent"), ("article", "legalP"),
+        ("article", "defaultP"), ("p", "leddfortsettelse"), ("section", "section"),
+        ("article", "legalArticle"), *_LISTS, ("footer", "footnotes"),
+        ("article", "numberedLegalP"), ("article", "marginIdArticle"),
+        ("br", ""), ("strong", ""), ("article", "centeredP")):
+    _FORMS[_presentation_form].add("data-rulesAssistanceType")
+for _parent in (("main", "documentBody"), ("section", "section"), ("article", "legalArticle")):
+    _CHILDREN[_parent] |= {("article", "marginIdArticle"), ("div", "indent")}
+for _parent in (("article", "legalP"), ("article", "defaultP")):
+    _CHILDREN[_parent].add(("div", "indent"))
+_CHILDREN[("article", "marginIdArticle")] = _LISTS | {
+    ("span", "data-marginOriginalId"), ("span", "miscHeadline"),
+    ("article", "legalP"), ("article", "defaultP"), ("p", ""), ("sup", "footnotereference")}
+_CHILDREN[("div", "indent")] = _LISTS | {("div", "indent"), ("article", "defaultP"),
+    ("article", "legalP"), ("article", "numberedLegalP"), ("footer", "footnotes")}
+_CHILDREN[("article", "listArticle")].add(("span", "miscHeadline"))
+_CHILDREN[("table", "")].add(("caption", ""))
+for _parent in (("span", "data-marginOriginalId"), ("span", "miscHeadline"), ("caption", ""), ("p", ""), ("span", "")):
+    _CHILDREN[_parent] = _INLINE | {("span", "")}
+for _parent in (("article", "legalP"), ("td", ""), ("article", "footnote"), ("i", ""),
+        ("article", "defaultP"), ("article", "numberedLegalP"),
+        ("span", "legalArticleTitle"), ("h2", ""), ("h4", "")):
+    _CHILDREN[_parent].add(("span", ""))
 
 _ELEMENT_ONLY = {("main", "documentBody"), ("section", "section"),
                  ("article", "legalArticle"), ("footer", "footnotes"),
@@ -347,6 +392,10 @@ def _target(href: str, base: str, path: str) -> str:
 
 def _table(node: dict, path: str) -> None:
     groups = [c for c in node["children"] if type(c) is dict]
+    captions = [c for c in groups if c["tag"] == "caption"]
+    _require(len(captions) <= 1 and (not captions or groups[0] is captions[0]),
+             "invalid_table_topology", path, "At most one leading source caption required")
+    groups = [c for c in groups if c["tag"] != "caption"]
     names = [c["tag"] for c in groups]
     _require(names in (["tbody"], ["thead", "tbody"]), "invalid_table_topology", path, "Explicit tbody and optional preceding thead required")
     width = None
@@ -441,6 +490,13 @@ def _grammar(root: dict, context: dict):
                 date.fromisoformat(value)
             except ValueError:
                 raise BodyRejected("unsupported_attribute_value", path, "Invalid source repeal date") from None
+        for attribute, allowed in (("margin-top", {"true"}), ("data-rulesAssistanceType", {"0"}),
+                                   ("data-caption-placement", {"before", "after"})):
+            if attribute in attrs:
+                _require(attrs[attribute] in allowed, "unsupported_attribute_value", path, "Unknown " + attribute)
+        if form == ("span", ""):
+            _require(bool(re.fullmatch(r"[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*", attrs.get("lang", ""))),
+                     "unsupported_attribute_value", path, "Unsupported source language declaration")
         if "data-text-size" in attrs:
             _require(attrs["data-text-size"] == "small", "unsupported_attribute_value", path, "Unknown paragraph text size")
         if "data-legalArea" in attrs:
