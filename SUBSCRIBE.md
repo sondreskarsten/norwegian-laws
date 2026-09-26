@@ -71,51 +71,9 @@ matrix:
 
 See [examples/github-action-watcher/](https://github.com/sondreskarsten/norwegian-laws/tree/main/examples/github-action-watcher) for the full workflow file and per-feed setup guide.
 
-For ad-hoc one-off checks (e.g. notify Slack instead of opening an issue), the inline approach still works:
-
-```yaml
-- name: Fetch and diff feed
-  run: |
-    curl -s https://sondreskarsten.github.io/norwegian-laws/feeds/lov-1998-07-17-56.xml > feed.xml
-    LATEST=$(xmllint --xpath '//*[local-name()="entry"][1]/*[local-name()="updated"]/text()' feed.xml)
-    if [ "$LATEST" != "$(cat .last-amendment 2>/dev/null)" ]; then
-      echo "$LATEST" > .last-amendment
-      echo "CHANGED=true" >> $GITHUB_ENV
-    fi
-
-- name: Notify Slack
-  if: env.CHANGED == 'true'
-  uses: rtCamp/action-slack-notify@v2
-  env:
-    SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-    SLACK_MESSAGE: "Regnskapsloven was amended. Check the feed."
-```
-
 ## Repository notifications
 
 GitHub repository notifications concern repository activity rather than one law. Use an Atom feed or the watcher template above for document-specific amendment notifications.
-
-## Slack — direct from RSS
-
-Slack has built-in RSS support. In any channel:
-
-```
-/feed subscribe https://sondreskarsten.github.io/norwegian-laws/feeds/lov-1998-07-17-56.xml
-```
-
-New entries post as messages in that channel.
-
-## Microsoft Teams
-
-Power Automate (formerly Flow) has an RSS connector:
-
-1. Create a flow with trigger **"When a feed item is published"**
-2. Feed URL: `https://sondreskarsten.github.io/norwegian-laws/feeds/lov-1998-07-17-56.xml`
-3. Action: Post a message in Teams channel
-
-## n8n / Zapier / Make.com
-
-Use any of these tools' built-in RSS triggers. They poll feeds on a schedule and fire workflows on new entries — without you needing to host anything.
 
 ## Python — poll and dedupe
 
