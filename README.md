@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-09-25 | Forskrift om endring i forskrift om fartsskriververksteder | [`forskrift/2018-09-26-1467`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-09-26-1467.html) |
-| 2026-09-25 | Endr. i fastlegeforskriften | [`forskrift/2025-12-02-2405`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-02-2405.html) |
-| 2026-09-25 | Forskrift om endring i dagpengeforskriften og oppheving av forskrif… | [`forskrift/1998-09-16-890`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1998-09-16-890.html) [`forskrift/2022-12-21-2456`](https://lovdata.no/dokument/SFO/forskrift/2022-12-21-2456) |
-| 2026-09-25 | Endr. i EU-gjødselvareforskriften | [`forskrift/2024-03-06-538`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-03-06-538.html) |
-| 2026-09-23 | Forskrift om endring i forskrift om regulering av fisket etter bris… | [`forskrift/2026-06-22-1211`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-22-1211.html) |
+| 2026-09-28 | Endr. i veglister normaltransport | [`forskrift/2023-10-24-1694`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1694.html) |
+| 2026-09-28 | Endr. i veglister tømmertransport | [`forskrift/2023-10-24-1695`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1695.html) |
+| 2026-09-28 | Endr. i veglister modulvogntog | [`forskrift/2023-10-24-1696`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1696.html) |
+| 2026-09-28 | Endr. i veglister spesialtransport | [`forskrift/2023-10-24-1697`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1697.html) |
+| 2026-09-28 | Endr. i veglister 12/100 spesialtransport | [`forskrift/2023-10-24-1698`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1698.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
