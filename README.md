@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-09-30 | Forskrift om endring i forskrift om tilskudd til audiovisuell produ… | [`forskrift/2016-10-31-1264`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-10-31-1264.html) |
+| 2026-09-30 | Endr. i forskrift om utførelse av arbeid | [`forskrift/2011-12-06-1357`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-12-06-1357.html) |
+| 2026-09-30 | Endr. i forskrift om narkotikaprekursorer | [`forskrift/2010-02-12-156`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-02-12-156.html) |
 | 2026-09-29 | Forskrift om endring i forskrift om luftromsorganisering | [`forskrift/2021-12-14-3530`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-12-14-3530.html) |
 | 2026-09-29 | Forskrift om endring i forskrift om lufttrafikkregler og operative … | [`forskrift/2016-12-14-1578`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-12-14-1578.html) |
-| 2026-09-29 | Forskrift om endring i bokføringsforskriften | [`forskrift/2004-12-01-1558`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-12-01-1558.html) |
-| 2026-09-29 | Forskrift om endring i forskrift om rester av plantevernmidler i næ… | [`forskrift/2009-08-18-1117`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-08-18-1117.html) |
-| 2026-09-29 | Forskrift om endring i forskrift om grenseverdier for legemiddelres… | [`forskrift/2012-05-30-512`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-05-30-512.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
