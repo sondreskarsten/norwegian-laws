@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-01 | Forskrift om endring i forskrift om ernærings- og helsepåstander om… | [`forskrift/2010-02-17-187`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-02-17-187.html) |
-| 2026-10-01 | Forskrift om endring i forskrift om ny mat, forskrift om kosttilsku… | [`forskrift/2017-07-25-1215`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-07-25-1215.html) [`forskrift/2004-05-20-755`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-05-20-755.html) [`forskrift/2010-02-26-247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-02-26-247.html) … |
-| 2026-09-30 | Forskrift om endring i forskrift om tilskudd til audiovisuell produ… | [`forskrift/2016-10-31-1264`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-10-31-1264.html) |
-| 2026-09-30 | Endr. i forskrift om utførelse av arbeid | [`forskrift/2011-12-06-1357`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-12-06-1357.html) |
-| 2026-09-30 | Endr. i forskrift om narkotikaprekursorer | [`forskrift/2010-02-12-156`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-02-12-156.html) |
+| 2026-10-02 | Endr. i anleggsforskriften | [`forskrift/2026-06-05-1024`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-05-1024.html) |
+| 2026-10-02 | Forskrift om endring i forskrift om krav til CO2-utslipp mv. for pr… | [`forskrift/2018-12-28-2247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-28-2247.html) |
+| 2026-10-02 | Forskrift om endring i forskrift om godkjenning av bil og tilhenger… | [`forskrift/2022-06-28-1233`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-28-1233.html) |
+| 2026-10-02 | Forskrift om endring i forskrift om krav til CO2-utslipp mv. for pr… | [`forskrift/2018-12-28-2247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-28-2247.html) |
+| 2026-10-02 | Endr. i forskrift om positivlisten 2021 | [`forskrift/2022-06-02-1010`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-02-1010.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
