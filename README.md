@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-05 | Forskrift om endring i forskrift om kjøre- og hviletid og fartsskri… | [`forskrift/2007-07-02-877`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-07-02-877.html) |
+| 2026-10-05 | Forskrift om endring i forskrift om målenheter og måling | [`forskrift/2007-12-20-1723`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-12-20-1723.html) |
+| 2026-10-05 | Vedtak om ikrafttredelse av forskrift 23. desember 2025 nr. 2896 om… | [`forskrift/2025-12-23-2896`](https://lovdata.no/dokument/SFO/forskrift/2025-12-23-2896) [`forskrift/2024-12-20-3413`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-12-20-3413.html) |
+| 2026-10-05 | Vedtak om ikrafttredelse av forskrift 23. desember 2025 nr. 2895 om… | [`forskrift/2025-12-23-2895`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-23-2895.html) |
 | 2026-10-02 | Endr. i anleggsforskriften | [`forskrift/2026-06-05-1024`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-05-1024.html) |
-| 2026-10-02 | Forskrift om endring i forskrift om krav til CO2-utslipp mv. for pr… | [`forskrift/2018-12-28-2247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-28-2247.html) |
-| 2026-10-02 | Forskrift om endring i forskrift om godkjenning av bil og tilhenger… | [`forskrift/2022-06-28-1233`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-28-1233.html) |
-| 2026-10-02 | Forskrift om endring i forskrift om krav til CO2-utslipp mv. for pr… | [`forskrift/2018-12-28-2247`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-28-2247.html) |
-| 2026-10-02 | Endr. i forskrift om positivlisten 2021 | [`forskrift/2022-06-02-1010`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-02-1010.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
