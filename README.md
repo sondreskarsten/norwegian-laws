@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-05 | Forskrift om endring i forskrift om kjøre- og hviletid og fartsskri… | [`forskrift/2007-07-02-877`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-07-02-877.html) |
-| 2026-10-05 | Forskrift om endring i forskrift om målenheter og måling | [`forskrift/2007-12-20-1723`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-12-20-1723.html) |
-| 2026-10-05 | Vedtak om ikrafttredelse av forskrift 23. desember 2025 nr. 2896 om… | [`forskrift/2025-12-23-2896`](https://lovdata.no/dokument/SFO/forskrift/2025-12-23-2896) [`forskrift/2024-12-20-3413`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-12-20-3413.html) |
-| 2026-10-05 | Vedtak om ikrafttredelse av forskrift 23. desember 2025 nr. 2895 om… | [`forskrift/2025-12-23-2895`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-23-2895.html) |
-| 2026-10-02 | Endr. i anleggsforskriften | [`forskrift/2026-06-05-1024`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-06-05-1024.html) |
+| 2026-10-08 | Forskrift om endring i forskrift om tilsetningsstoffer til bruk i f… | [`forskrift/2005-04-12-319`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-04-12-319.html) |
+| 2026-10-08 | Forskrift om endring i forskrift om regulering av fiske i Oslofjorden | [`forskrift/2025-12-19-2889`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2889.html) |
+| 2026-10-08 | Forskrift om endring i forskrift om autorisasjon, lisens og spesial… | [`forskrift/2008-10-08-1130`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2008-10-08-1130.html) |
+| 2026-10-08 | Forskrift om endring i forskrift om lagring og bruk av gjødsel mv. | [`forskrift/2025-01-29-115`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-01-29-115.html) |
+| 2026-10-08 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
