@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-09 | Forskrift om endring i forskrift om stønad til hjelpemidler mv til … | [`forskrift/1997-04-15-318`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-04-15-318.html) |
+| 2026-10-09 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
+| 2026-10-09 | Forskrift om endring i forskrift om utslippskrav til kjøretøy ved o… | [`forskrift/2022-12-20-2384`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-12-20-2384.html) |
+| 2026-10-09 | Endr. i skatteforvaltningsforskriften | [`forskrift/2016-11-23-1360`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-11-23-1360.html) |
 | 2026-10-08 | Forskrift om endring i forskrift om tilsetningsstoffer til bruk i f… | [`forskrift/2005-04-12-319`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-04-12-319.html) |
-| 2026-10-08 | Forskrift om endring i forskrift om regulering av fiske i Oslofjorden | [`forskrift/2025-12-19-2889`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2889.html) |
-| 2026-10-08 | Forskrift om endring i forskrift om autorisasjon, lisens og spesial… | [`forskrift/2008-10-08-1130`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2008-10-08-1130.html) |
-| 2026-10-08 | Forskrift om endring i forskrift om lagring og bruk av gjødsel mv. | [`forskrift/2025-01-29-115`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-01-29-115.html) |
-| 2026-10-08 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
