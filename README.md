@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-12 | Endr. i biocidforskriften | [`forskrift/2017-04-18-480`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-04-18-480.html) |
+| 2026-10-12 | Forskrift om endring i forskrift om infisert sone for høypatogen av… | [`forskrift/2022-06-23-1161`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-23-1161.html) |
+| 2026-10-12 | Forskrift om opphevelse av forskrifter for teknisk kontroll av gass… | [`forskrift/1939-11-17-9575`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1939-11-17-9575.html) |
 | 2026-10-09 | Forskrift om endring i forskrift om stønad til hjelpemidler mv til … | [`forskrift/1997-04-15-318`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-04-15-318.html) |
 | 2026-10-09 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-10-09 | Forskrift om endring i forskrift om utslippskrav til kjøretøy ved o… | [`forskrift/2022-12-20-2384`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-12-20-2384.html) |
-| 2026-10-09 | Endr. i skatteforvaltningsforskriften | [`forskrift/2016-11-23-1360`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-11-23-1360.html) |
-| 2026-10-08 | Forskrift om endring i forskrift om tilsetningsstoffer til bruk i f… | [`forskrift/2005-04-12-319`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-04-12-319.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
