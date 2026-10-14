@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-13 | Endr. i kryptoeiendelsforskriften | [`forskrift/2025-06-25-1311`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-06-25-1311.html) |
+| 2026-10-13 | Forskrift om forlengelse av fristen for masseoppsigelsers virkning | [`forskrift/1994-09-19-897`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1994-09-19-897.html) |
 | 2026-10-12 | Endr. i biocidforskriften | [`forskrift/2017-04-18-480`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-04-18-480.html) |
 | 2026-10-12 | Forskrift om endring i forskrift om infisert sone for høypatogen av… | [`forskrift/2022-06-23-1161`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-23-1161.html) |
-| 2026-10-12 | Forskrift om opphevelse av forskrifter for teknisk kontroll av gass… | [`forskrift/1939-11-17-9575`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1939-11-17-9575.html) |
-| 2026-10-09 | Forskrift om endring i forskrift om stønad til hjelpemidler mv til … | [`forskrift/1997-04-15-318`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-04-15-318.html) |
-| 2026-10-09 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
+| 2026-10-12 | Forskrift om opphevelse av forskrifter for teknisk kontroll av gass… | [`forskrift/1939-11-17-9575`](https://lovdata.no/dokument/SFO/forskrift/1939-11-17-9575) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
