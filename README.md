@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-15 | Forskrift om endring i forskrift om posisjonsrapportering og elektr… | [`forskrift/2009-12-21-1743`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-21-1743.html) [`forskrift/2010-03-24-454`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-03-24-454.html) [`forskrift/2011-12-20-1437`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-12-20-1437.html) |
+| 2026-10-15 | Forskrift om endring i forskrift om utslippskrav til kjøretøy ved o… | [`forskrift/2022-12-20-2384`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-12-20-2384.html) |
+| 2026-10-15 | Forskrift om endring i forskrift om stenging av områder for fiske e… | [`forskrift/2026-04-09-579`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-04-09-579.html) |
+| 2026-10-15 | Forskrift om endring i forskrift om avgiftssatser for bruk av lufth… | [`forskrift/2021-11-19-3223`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-11-19-3223.html) |
 | 2026-10-14 | Forskrift om endring i forskrift om medisinsk utstyr | [`forskrift/2021-05-09-1476`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-09-1476.html) |
-| 2026-10-13 | Endr. i kryptoeiendelsforskriften | [`forskrift/2025-06-25-1311`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-06-25-1311.html) |
-| 2026-10-13 | Forskrift om forlengelse av fristen for masseoppsigelsers virkning | [`forskrift/1994-09-19-897`](https://lovdata.no/dokument/SFO/forskrift/1994-09-19-897) |
-| 2026-10-12 | Endr. i biocidforskriften | [`forskrift/2017-04-18-480`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-04-18-480.html) |
-| 2026-10-12 | Forskrift om endring i forskrift om infisert sone for høypatogen av… | [`forskrift/2022-06-23-1161`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-23-1161.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
