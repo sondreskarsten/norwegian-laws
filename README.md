@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-15 | Forskrift om endring i forskrift om posisjonsrapportering og elektr… | [`forskrift/2009-12-21-1743`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-21-1743.html) [`forskrift/2010-03-24-454`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-03-24-454.html) [`forskrift/2011-12-20-1437`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-12-20-1437.html) |
-| 2026-10-15 | Forskrift om endring i forskrift om utslippskrav til kjøretøy ved o… | [`forskrift/2022-12-20-2384`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-12-20-2384.html) |
-| 2026-10-15 | Forskrift om endring i forskrift om stenging av områder for fiske e… | [`forskrift/2026-04-09-579`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-04-09-579.html) |
-| 2026-10-15 | Forskrift om endring i forskrift om avgiftssatser for bruk av lufth… | [`forskrift/2021-11-19-3223`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-11-19-3223.html) |
-| 2026-10-14 | Forskrift om endring i forskrift om medisinsk utstyr | [`forskrift/2021-05-09-1476`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-09-1476.html) |
+| 2026-10-16 | Endr. i klareringsforskriften | [`forskrift/2018-12-20-2054`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-20-2054.html) |
+| 2026-10-16 | Forskrift om endring i forskrift om utdanningsstøtte | [`forskrift/2020-04-15-798`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-04-15-798.html) |
+| 2026-10-16 | Forskrift om endring i forskrift om regulering av fisket etter makr… | [`forskrift/2025-12-19-2821`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2821.html) |
+| 2026-10-16 | Forskrift om endring i forskrift om regulering av norske fartøys fi… | [`forskrift/2025-12-19-2742`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2742.html) |
+| 2026-10-16 | Forskrift om endring i forskrift om høyere yrkesfaglig utdanning ve… | [`forskrift/2023-12-04-2342`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-12-04-2342.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
