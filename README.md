@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-16 | Endr. i klareringsforskriften | [`forskrift/2018-12-20-2054`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-20-2054.html) |
-| 2026-10-16 | Forskrift om endring i forskrift om utdanningsstøtte | [`forskrift/2020-04-15-798`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-04-15-798.html) |
-| 2026-10-16 | Forskrift om endring i forskrift om regulering av fisket etter makr… | [`forskrift/2025-12-19-2821`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2821.html) |
-| 2026-10-16 | Forskrift om endring i forskrift om regulering av norske fartøys fi… | [`forskrift/2025-12-19-2742`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2742.html) |
-| 2026-10-16 | Forskrift om endring i forskrift om høyere yrkesfaglig utdanning ve… | [`forskrift/2023-12-04-2342`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-12-04-2342.html) |
+| 2026-10-19 | Forskrift om endring i forskrift om adopsjon | [`forskrift/2018-06-22-959`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-06-22-959.html) |
+| 2026-10-19 | Vedtak om endring i vedtak om delegering av myndighet etter adopsjo… | [`forskrift/2018-06-22-960`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-06-22-960.html) |
+| 2026-10-19 | Forskrift om endring i forskrift om tilskudd til inkludering av bar… | [`forskrift/2021-11-23-3261`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-11-23-3261.html) |
+| 2026-10-19 | Endr. i vareførselsforskriften | [`forskrift/2022-10-27-1901`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-10-27-1901.html) |
+| 2026-10-19 | Endr. i tollavgiftsforskriften | [`forskrift/2022-10-27-1938`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-10-27-1938.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
