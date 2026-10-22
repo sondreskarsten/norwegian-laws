@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-21 | Endr. i spesialistforskriften | [`forskrift/2016-12-08-1482`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-12-08-1482.html) |
+| 2026-10-21 | Endr. i utlendingsforskriften | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
+| 2026-10-21 | Forskrift om opphevelse av forskrift om eksamen ved Atlantis Medisi… | [`forskrift/2013-05-24-547`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-05-24-547.html) |
+| 2026-10-21 | Forskrift om opphevelse av forskrift om bachelorgrad ved Atlantis M… | [`forskrift/2013-05-24-548`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-05-24-548.html) |
 | 2026-10-20 | Endr. i blåreseptforskriften | [`forskrift/2007-06-28-814`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-06-28-814.html) |
-| 2026-10-20 | Endr. i dyreimportforskriften | [`forskrift/2022-04-06-633`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-633.html) |
-| 2026-10-20 | Forskrift om endring i forskrift om import av toskallede bløtdyr, p… | [`forskrift/2020-11-20-2424`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-11-20-2424.html) |
-| 2026-10-19 | Forskrift om endring i forskrift om adopsjon | [`forskrift/2018-06-22-959`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-06-22-959.html) |
-| 2026-10-19 | Vedtak om endring i vedtak om delegering av myndighet etter adopsjo… | [`forskrift/2018-06-22-960`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-06-22-960.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
