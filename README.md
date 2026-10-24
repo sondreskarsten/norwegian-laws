@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
+| 2026-10-23 | Forskrift om endring i forskrift om stoffer som kan brukes ved ulov… | [`forskrift/2006-02-17-263`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-02-17-263.html) |
+| 2026-10-23 | Forskrift om opphevelse av forskrift 8. juli 1954 nr. 3 for oppnevn… | [`forskrift/1954-07-08-3`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1954-07-08-3.html) |
+| 2026-10-23 | Forskrift om endring i forskrift om særskilte forenklede importvilk… | [`forskrift/2020-11-20-2424`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-11-20-2424.html) |
 | 2026-10-22 | Endr. i sanksjonsforskrift Ukraina (territoriell integritet mv.) | [`forskrift/2014-08-15-1076`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-08-15-1076.html) |
 | 2026-10-22 | Forskrift om endring i forskrift om regulering av fisket etter sei … | [`forskrift/2025-12-19-2737`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-19-2737.html) |
-| 2026-10-22 | Forskrift om endring i forskrift om tilskudd til tiltak mot mennesk… | [`forskrift/2020-12-10-2675`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-12-10-2675.html) |
-| 2026-10-21 | Endr. i spesialistforskriften | [`forskrift/2016-12-08-1482`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-12-08-1482.html) |
-| 2026-10-21 | Endr. i utlendingsforskriften | [`forskrift/2009-10-15-1286`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-15-1286.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
