@@ -602,6 +602,58 @@ def _is_law_preamble(text: str) -> bool:
     return bool(_extract_law_refid_from_preamble(text))
 
 
+_PART_MARKER_RE = re.compile(r"^(?:[IVXLC]+|[A-Z]|\d+)\.?$")
+
+
+def _is_part_marker(text: str) -> bool:
+    return bool(_PART_MARKER_RE.match(text.strip()))
+
+
+_BODY_TEXT_CLASSES = ("legalP", "numberedLegalP", "listArticle", "centeredP")
+
+
+def _has_ancestor_class(el: Tag, predicate) -> bool:
+    return el.find_parent(class_=predicate) is not None
+
+
+def _is_future_class(c) -> bool:
+    return bool(c) and "future" in c.lower()
+
+
+def _future_element_text(el: Tag) -> str:
+    """Text of a top-level future element, one line per paragraph.
+
+    A futureLegalArticle holds a header span and paragraph articles; joining
+    them with newlines keeps the heading separate from the first ledd instead
+    of running them together.
+    """
+    if el.name == "span":
+        return el.get_text(strip=True)
+    parts = []
+    for sub in el.children:
+        if not isinstance(sub, Tag):
+            continue
+        # Collapse whitespace instead of stripping every text node so the
+        # header keeps '§ 3-1. Plikt ...' rather than '§ 3-1.Plikt ...'.
+        sub_text = " ".join(sub.get_text().split())
+        if sub_text:
+            parts.append(sub_text)
+    if not parts:
+        return el.get_text(strip=True)
+    return "\n".join(parts)
+
+
+def _unparsed_body_text(body: Tag, title: str) -> str:
+    """Flatten an act body whose instructions matched no known pattern."""
+    lines = []
+    for raw in body.get_text("\n", strip=True).split("\n"):
+        line = raw.strip()
+        if not line or _is_part_marker(line) or line == title.strip():
+            continue
+        lines.append(line)
+    return "\n".join(lines)
+
+
 def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendment]:
     children = [c for c in section.children if isinstance(c, Tag)]
     amendments = []
@@ -635,6 +687,12 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
         text = child.get_text(strip=True)
 
         if child.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
+            # A heading that follows an instruction is replacement text, e.g.
+            # 'Avsnittets tittel skal lyde:' or 'Nytt kapittel 1 A skal lyde:'
+            # followed by the new title as a heading. Part markers such as
+            # 'I', 'II' and the act title itself are structure, not wording.
+            if current_instruction is not None and text and not _is_part_marker(text):
+                text_parts.append(text)
             continue
 
         # A law-preamble paragraph mid-stream re-anchors target_law for all
@@ -749,17 +807,25 @@ def parse_amendment(change_el: Tag) -> Amendment:
     instruction = instruction_el.get_text(strip=True) if instruction_el else ""
 
     new_text_parts = []
-    for future in change_el.find_all(
-        ["article", "span"],
-        class_=lambda c: c and "future" in c.lower() if c else False,
-    ):
-        new_text_parts.append(future.get_text(strip=True))
-    for ledd in change_el.find_all("article", class_="legalP"):
-        if ledd.find_parent(class_=lambda c: c and "future" in c.lower() if c else False):
+    for future in change_el.find_all(["article", "span"], class_=_is_future_class):
+        # Nested future spans (e.g. futureLegalArticleHeader inside a
+        # futureLegalArticle) are already covered by their top-level parent.
+        if _has_ancestor_class(future, _is_future_class):
+            continue
+        text = _future_element_text(future)
+        if text:
+            new_text_parts.append(text)
+    for ledd in change_el.find_all("article", class_=_BODY_TEXT_CLASSES):
+        if _has_ancestor_class(ledd, _is_future_class):
             continue
         if ledd.find_parent("article", class_="defaultP"):
             continue
-        new_text_parts.append(ledd.get_text(strip=True))
+        # listArticle wraps legalP: keep the outermost block only.
+        if ledd.find_parent("article", class_=_BODY_TEXT_CLASSES) is not None:
+            continue
+        text = ledd.get_text(strip=True)
+        if text:
+            new_text_parts.append(text)
 
     target_law = ""
     if target:
@@ -796,6 +862,7 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
     for change_el in soup.find_all("article", class_="change"):
         amendments.append(parse_amendment(change_el))
 
+    changes_to = extract_header_list(header, "changesToDocuments")
     if not amendments:
         body = soup.find("main", class_="documentBody") or soup.find("body")
         if body:
@@ -803,11 +870,26 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
             # fallback target_law when no in-body preamble is found.
             # Multi-law endringslover always have explicit preambles per
             # section, so the fallback would only confuse them.
-            changes_to = extract_header_list(header, "changesToDocuments")
             header_fallback_law = (
                 changes_to[0] if len(changes_to) == 1 else ""
             )
             amendments = _parse_old_format_amendments(body, header_fallback_law)
+            if not amendments and header_fallback_law:
+                # The act changes exactly one document but none of its
+                # instructions matched a known form (code lists, renamed
+                # annex entries, prose). Keep the whole body as one
+                # unresolved record so the change is visible in the target
+                # document's history instead of disappearing.
+                body_text = _unparsed_body_text(body, title_text)
+                if body_text:
+                    first_line = body_text.split("\n", 1)[0]
+                    amendments = [Amendment(
+                        change_type="unknown",
+                        target="",
+                        instruction=first_line,
+                        new_text=body_text,
+                        target_law=header_fallback_law,
+                    )]
 
     return AmendmentActData(
         refid=refid,
@@ -817,7 +899,7 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
         date_in_force=extract_header_field(header, "dateInForce"),
         date_published=extract_header_field(header, "dateOfPublication"),
         ministry=extract_header_field(header, "ministry"),
-        changes_to=extract_header_list(header, "changesToDocuments"),
+        changes_to=changes_to,
         amendments=amendments,
         misc_info=extract_header_field(header, "miscInformation"),
         journal_number=extract_header_field(header, "journalNumber"),
