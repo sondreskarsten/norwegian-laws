@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-26 | Endr. i utrullingsforskriften | [`forskrift/2025-12-12-2508`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-12-2508.html) |
-| 2026-10-26 | Endr. i finansieringsforskriften | [`forskrift/2026-03-23-454`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-03-23-454.html) |
-| 2026-10-26 | Forskrift om endring i forskrift om studium ved Fagskulen Vestland | [`forskrift/2025-03-07-529`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-03-07-529.html) |
-| 2026-10-23 | Forskrift om endring i forskrift om stoffer som kan brukes ved ulov… | [`forskrift/2006-02-17-263`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-02-17-263.html) |
-| 2026-10-23 | Forskrift om opphevelse av forskrift 8. juli 1954 nr. 3 for oppnevn… | [`forskrift/1954-07-08-3`](https://lovdata.no/dokument/SFO/forskrift/1954-07-08-3) |
+| 2026-10-27 | Endr. i KOSTRA-forskriften | [`forskrift/2019-10-18-1412`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-10-18-1412.html) |
+| 2026-10-27 | Forskrift om endring i forskrift om kjøre- og hviletid og fartsskri… | [`forskrift/2007-07-02-877`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-07-02-877.html) |
+| 2026-10-27 | Forskrift om endring i forskrift om administrative nedsettelser av … | [`forskrift/2005-12-22-1723`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-12-22-1723.html) |
+| 2026-10-27 | Forskrift om endring i forskrift om tilskudd til filmformidling | [`forskrift/2016-10-12-1209`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-10-12-1209.html) |
+| 2026-10-27 | Forskrift om endring i forskrift om ny mat | [`forskrift/2017-07-25-1215`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-07-25-1215.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
