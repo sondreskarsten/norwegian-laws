@@ -1,0 +1,119 @@
+import pytest
+
+from norwegian_laws_mcp import render
+from norwegian_laws_mcp.errors import ResolveError
+
+
+def test_get_document_section_and_paging(service):
+    res = service.get_document("enhetsregisterloven", "§ 4-7", "text", 0, 20000)
+    assert res["section"]["heading"] == "§ 4-7. Opplysninger om underenheter"
+    assert "registerføreren" in res["text"]
+    paged = service.get_document("enhetsregisterloven", None, "text", 0, 500)
+    assert paged["truncated"] and paged["next_offset"] == 500
+    outline = service.get_document("asl", None, "outline", 0, 500)
+    assert any(h["section"] == "1-5a" for h in outline["outline"])
+    meta = service.get_document("asl", None, "metadata", 0, 500)
+    assert meta["front_matter"]["korttittel"] == "Aksjeloven – asl"
+    with pytest.raises(ResolveError):
+        service.get_document("asl", "§ 77", "text", 0, 500)
+
+
+def test_search_text_groups_by_document(service):
+    res = service.search_text("underenhet", None, None, False, False, 10, 5)
+    paths = [r["path"] for r in res["results"]]
+    assert "lover/lov-2025-06-20-105.md" in paths
+    assert "forskrifter/forskrift-2025-08-06-1610.md" in paths
+    hit = next(r for r in res["results"] if r["refid"] == "lov/2025-06-20-105")
+    assert hit["hits"][0]["section"].startswith("§ 4-7")
+    only_lov = service.search_text("underenhet", "lov", None, False, False, 10, 5)
+    assert all(r["kind"] == "lov" for r in only_lov["results"])
+    regex = service.search_text(r"organisasjonsnummer av \w+", None, None, True, False, 10, 5)
+    assert regex["total_hits"] == 1
+    assert "Underenhet" in render.search_text(res) or "underenhet" in render.search_text(res)
+
+
+def test_find_definition_ranks_definition_phrase_first(service):
+    res = service.find_definition("underenheter", None, None, 10)
+    assert res["stem"] == "underenhet"
+    top = res["definitions"][0]
+    assert top["refid"] == "forskrift/2025-08-06-1610"
+    assert top["why"].startswith("definition phrase")
+    assert any(d["refid"] == "lov/2025-06-20-105" and d["section"].startswith("§ 4-7") for d in res["definitions"])
+    text = render.definitions(res)
+    assert "Med underenhet menes" in text
+    nothing = service.find_definition("sjiraff", None, None, 10)
+    assert nothing["definitions"] == [] and "No definition-like" in render.definitions(nothing)
+
+
+def test_recent_changes_window_and_filters(service):
+    res = service.recent_changes("2026-02-15", None, None, None, None, True, 50)
+    assert [c["sha"][:4] for c in res["commits"]] and len(res["commits"]) == 1
+    statuses = {d["path"]: d["status"] for d in res["text_documents"]}
+    assert statuses["lover/lov-2025-06-20-105.md"] == "modified"
+    assert statuses["forskrifter/forskrift-2026-01-01-1.md"] == "added"
+    everything = service.recent_changes("2025-12-01", None, None, None, None, True, 50)
+    assert len(everything["commits"]) == 3
+    assert any(d["path"] == "historie/aksjeloven.md" for d in everything["amendment_record_files"])
+    filtered = service.recent_changes("2025-12-01", None, None, None, "enhetsregister", True, 50)
+    assert {d["refid"] for d in filtered["text_documents"]} >= {"lov/2025-06-20-105", "forskrift/2025-08-06-1610"}
+    assert all(d["refid"] != "lov/1997-06-13-44" for d in filtered["text_documents"])
+    none = service.recent_changes("2026-03-02", None, None, None, None, True, 50)
+    assert none["commits"] == [] and "No commits" in render.recent_changes(none)
+    assert "modified" in render.recent_changes(res)
+
+
+def test_document_history_and_diff(service):
+    hist = service.document_history("enhetsregisterloven", None, None, 10)
+    assert len(hist["commits"]) == 2
+    assert hist["commits"][0]["added"] == 1 and hist["commits"][0]["deleted"] == 1
+    diff = service.diff_document("enhetsregisterloven", "2026-02-15", "HEAD", None, 1, 20000)
+    assert diff["changed"] and "+(2) Hver underenhet" in diff["diff"]
+    sec = service.diff_document("enhetsregisterloven", "HEAD~1", "HEAD", "§ 4-7", 1, 20000)
+    assert sec["changed"] and "registerføreren" in sec["diff"]
+    unchanged = service.diff_document("enhetsregisterloven", "HEAD~1", "HEAD", "§ 1-1", 1, 20000)
+    assert not unchanged["changed"]
+    before = service.diff_document("enhetsregisterforskriften", "HEAD~2", "HEAD", None, 1, 20000)
+    assert not before["from"]["existed"] and before["to"]["existed"] and before["changed"]
+    assert "```diff" in render.diff(diff)
+
+
+def test_blame_section(service):
+    res = service.blame_section("enhetsregisterloven", "§ 4-7")
+    dates = {r["last_changed"] for r in res["runs"]}
+    assert dates == {"2026-01-01", "2026-03-01"}
+    changed = next(r for r in res["runs"] if r["last_changed"] == "2026-03-01")
+    assert changed["first_line"].startswith("(2) Hver underenhet")
+
+
+def test_amendment_records(service):
+    res = service.amendment_records("asl", None, None, 50)
+    assert res["total"] == 3
+    assert res["records"][0]["date"] == "2021-05-05"
+    sec = service.amendment_records("aksjeloven", "§ 1-5", None, 50)
+    assert sec["total"] == 2 and sec["records"][0]["amending_act"] == "lov/2019-12-20-100"
+    since = service.amendment_records("aksjeloven", None, "2020-01-01", 50)
+    assert since["total"] == 2
+    none = service.amendment_records("enhetsregisterloven", None, None, 50)
+    assert none["records"] == [] and "No parsed amendment records" in render.amendment_records(none)
+    assert "skal lyde" in render.amendment_records(res)
+
+
+def test_related_documents(service):
+    res = service.related_documents("enhetsregisterloven", None, 10)
+    assert res["related"][0]["refid"] == "forskrift/2025-08-06-1610"
+    assert "20. juni 2025 nr. 105" in res["related"][0]["matched"]
+    assert "enhetsregisterloven" in res["related"][0]["matched"]
+
+
+def test_repo_status(service):
+    res = service.repo_status()
+    assert res["documents"] == {"total": 4, "lover": 2, "forskrifter": 2}
+    assert res["last_lovdata_update_commit"]["subject"].startswith("Oppdater")
+    assert res["commits_in_history"] == 3
+    assert "Repository status" in render.status(res)
+
+
+def test_search_documents_render(service):
+    items = service.search_documents("enhetsregister", None, 10, True)
+    assert items[0]["refid"] == "lov/2025-06-20-105"
+    assert "Enhetsregisterloven" in render.search_documents("enhetsregister", items)
