@@ -8,7 +8,7 @@ import threading
 from . import history, search
 from .catalog import Catalog, Entry
 from .errors import LawsError, ResolveError
-from .markdown import get_section, normalize_section_key, outline, parse_document
+from .markdown import get_section, normalize_section_key, outline, parse_document, parse_front_matter
 from .repo import CATALOG_FILE, DOC_DIRS, HISTORIE_DIR, Repo, RevInfo
 
 MONTHS = ["januar", "februar", "mars", "april", "mai", "juni", "juli", "august",
@@ -269,11 +269,18 @@ class LawsService:
             e = dc.entry
             if e is None and dc.path.startswith(HISTORIE_DIR + "/"):
                 e = self._entry_for_historie(dc.path, cat)
+            title = e.display_name if e else None
+            refid = e.refid if e else None
+            if e is None and "D" in dc.statuses:
+                last = max(dc.changes, key=lambda c: c.date)
+                meta, _ = parse_front_matter(self.repo.show(f"{last.sha}^", dc.path) or "")
+                title = str(meta.get("korttittel") or meta.get("tittel") or "") or None
+                refid = str(meta.get("refid") or "") or None
             return {
                 "path": dc.path,
-                "refid": e.refid if e else None,
-                "title": e.display_name if e else None,
-                "kind": e.kind if e else None,
+                "refid": refid,
+                "title": title,
+                "kind": e.kind if e else ("lov" if dc.path.startswith("lover/") else "forskrift" if dc.path.startswith("forskrifter/") else None),
                 "status": " → ".join(history.STATUS_WORDS.get(s, s) for s in dc.statuses),
                 "first_change": dc.first_date,
                 "last_change": dc.last_date,

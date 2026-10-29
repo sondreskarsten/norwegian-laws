@@ -186,6 +186,7 @@ def find_definitions(
     patterns = [
         (100, "definition phrase (med X menes/forstås)", re.compile(rf"{NB}med\s+(?:en\s+|et\s+|ei\s+)?{word}\s+(?:menes|forstås|forstaas)", re.I)),
         (90, "definition phrase (menes/forstås med X)", re.compile(rf"(?:menes|forstås)\s+(?:med\s+)?(?:en\s+|et\s+)?{word}", re.I)),
+        (90, "definition phrase (X menes/forstås/regnes ...)", re.compile(rf"{word}\s+(?:menes|forstås|regnes)\b", re.I)),
         (75, "definition phrase (X betyr / X: / X er i denne lov)", re.compile(rf"{word}\s*(?::|betyr|er i denne (?:lov|forskrift)|skal forstås som|omfatter i denne)", re.I)),
         (80, "definition list item", re.compile(rf"^\s*(?:[a-z]\.|\d+\.|-|\*)\s*{word}\s*(?::|,|\s+er\s+|\s+betyr\s+)", re.I)),
     ]
@@ -221,6 +222,11 @@ def find_definitions(
                 reason = (reason + "; " if reason else "") + "inside a definitions section"
             if score == 0:
                 continue
+            if sec and not stripped.startswith("#") and mention.search(sec.text):
+                score += 10
+                reason += "; section heading names the term"
+            if re.search(r"i denne (?:lov|forskrift|paragraf|kapittel)", text, re.I):
+                score += 5
             hit = DefinitionHit(score, reason, entry, path, sec, n, stripped)
             hits.append(hit)
     hits.sort(key=lambda h: (-h.score, h.entry.kind != "lov" if h.entry else True, h.path, h.line))

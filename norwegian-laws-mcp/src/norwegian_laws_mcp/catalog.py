@@ -43,6 +43,7 @@ class Entry:
     historie: str | None
     eli: str = ""
     names: list[str] = field(default_factory=list)
+    alt_names: list[str] = field(default_factory=list)
 
     @property
     def is_amendment_act(self) -> bool:
@@ -111,8 +112,31 @@ def entry_from_json(raw: dict) -> Entry:
     if e.korttittel:
         names.add(norm(e.korttittel))
     names.update(norm(a) for a in aliases)
+    m = re.search(r"\(([^()]*(?:lov|forskrift)[^()]*)\)\s*$", e.tittel or "", re.I)
+    if m and " " not in m.group(1).strip():
+        names.add(norm(m.group(1)))
     e.names = sorted(n for n in names if n)
+    alts = set()
+    for n in e.names:
+        stripped = re.sub(r"\s*\([^()]*\)", "", n).strip()
+        for cand in (stripped, n.rstrip("."), stripped.rstrip(".")):
+            if cand and cand not in names:
+                alts.add(cand)
+    e.alt_names = sorted(alts)
     return e
+
+
+def normalize_refid(ref: str) -> str:
+    """'LOV-2005-06-17-62', '/eli/lov/2005/06/17/62' -> 'lov/2005-06-17-62'; other strings unchanged."""
+    key = norm(ref)
+    key = re.sub(r"^https?://lovdata\.no/dokument/[a-z]+/", "", key)
+    m = re.match(r"^(lov|forskrift)[-/ _](\d{4}-\d{2}-\d{2}(?:-\d+)?)$", key)
+    if m:
+        return f"{m.group(1)}/{m.group(2)}"
+    m = re.match(r"^/?eli/(lov|forskrift)/(\d{4})/(\d{2})/(\d{2})(?:/(\d+))?$", key)
+    if m:
+        return f"{m.group(1)}/{m.group(2)}-{m.group(3)}-{m.group(4)}" + (f"-{m.group(5)}" if m.group(5) else "")
+    return key
 
 
 class Catalog:
@@ -121,12 +145,15 @@ class Catalog:
         self.by_refid: dict[str, Entry] = {}
         self.by_path: dict[str, Entry] = {}
         self.by_name: dict[str, list[Entry]] = {}
+        self.by_alt_name: dict[str, list[Entry]] = {}
         for e in entries:
             self.by_refid[norm(e.refid)] = e
             self.by_path[e.path] = e
             self.by_path[e.file] = e
             for n in e.names:
                 self.by_name.setdefault(n, []).append(e)
+            for n in e.alt_names:
+                self.by_alt_name.setdefault(n, []).append(e)
 
     @classmethod
     def from_json_text(cls, text: str) -> "Catalog":
@@ -142,20 +169,9 @@ class Catalog:
         """Resolve a refid, file path, alias, short title, or title to one entry."""
         if not ref or not ref.strip():
             raise ResolveError("Empty document reference.")
-        key = norm(ref)
-        key = re.sub(r"^https?://lovdata\.no/dokument/[a-z]+/", "", key)
+        key = normalize_refid(ref)
         if key in self.by_refid:
             return self.by_refid[key]
-        m = re.match(r"^(lov|forskrift)[-/ _](\d{4}-\d{2}-\d{2}(?:-\d+)?)$", key)
-        if m:
-            alt = f"{m.group(1)}/{m.group(2)}"
-            if alt in self.by_refid:
-                return self.by_refid[alt]
-        m = re.match(r"^/?eli/(lov|forskrift)/(\d{4})/(\d{2})/(\d{2})(?:/(\d+))?$", key)
-        if m:
-            alt = f"{m.group(1)}/{m.group(2)}-{m.group(3)}-{m.group(4)}" + (f"-{m.group(5)}" if m.group(5) else "")
-            if alt in self.by_refid:
-                return self.by_refid[alt]
         path_key = ref.strip().lstrip("/")
         for cand in (path_key, path_key + ".md"):
             if cand in self.by_path:
@@ -163,14 +179,12 @@ class Catalog:
             base = cand.rsplit("/", 1)[-1]
             if base in self.by_path:
                 return self.by_path[base]
-        if key in self.by_name:
-            hits = self.by_name[key]
-            if len(hits) == 1:
+        for table in (self.by_name, self.by_alt_name):
+            if key in table:
+                hits = sorted(table[key], key=lambda e: (e.kind != "lov", e.is_amendment_act, e.refid))
                 return hits[0]
-            hits = sorted(hits, key=lambda e: (e.kind != "lov", e.is_amendment_act, e.refid))
-            return hits[0]
         results = self.search(ref, limit=5)
-        if results and results[0][0] >= 90 and (len(results) == 1 or results[1][0] < results[0][0]):
+        if results and results[0][0] >= 80 and (len(results) == 1 or results[1][0] <= results[0][0] - 10):
             return results[0][1]
         suggestions = ", ".join(f"{e.refid} ({e.display_name})" for _, e in results)
         raise ResolveError(
@@ -186,7 +200,7 @@ class Catalog:
         limit: int = 20,
         include_amendment_acts: bool = True,
     ) -> list[tuple[float, Entry]]:
-        q = norm(query)
+        q = normalize_refid(query)
         q_tokens = tokens(query)
         if not q:
             return []
@@ -213,8 +227,13 @@ class Catalog:
                 score = max(score, 95)
             elif n.startswith(q):
                 score = max(score, 80)
-            elif q in n:
+            elif re.search(r"(?<![0-9a-zæøå])" + re.escape(q), n):
                 score = max(score, 70)
+            elif len(q) >= 5 and q in n:
+                score = max(score, 60)
+        for n in e.alt_names:
+            if q == n:
+                score = max(score, 93)
         title = norm(e.tittel)
         if q and q in title:
             score = max(score, 60 if len(q) > 3 else 30)

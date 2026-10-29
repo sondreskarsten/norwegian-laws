@@ -1,3 +1,5 @@
+import json
+
 import pytest
 
 from norwegian_laws_mcp.catalog import Catalog
@@ -24,6 +26,18 @@ def test_resolve_alias_and_short_title(catalog):
     assert catalog.resolve("asl").refid == "lov/1997-06-13-44"
     assert catalog.resolve("aksjeloven").refid == "lov/1997-06-13-44"
     assert catalog.resolve("Aksjeloven – asl").refid == "lov/1997-06-13-44"
+
+
+def test_resolve_alt_names_and_refid_forms():
+    raw = json.loads(catalog_json())
+    raw[0]["korttittel"] = "Grunnloven (bokmål) – Grl."
+    raw[1]["korttittel"] = ""
+    cat = Catalog.from_json_text(json.dumps(raw))
+    assert cat.resolve("grunnloven").refid == "lov/2025-06-20-105"
+    assert cat.resolve("grl").refid == "lov/2025-06-20-105"
+    assert cat.resolve("enhetsregisterforskriften").refid == "forskrift/2025-08-06-1610"
+    assert cat.search("LOV-2025-06-20-105")[0][0] == 100
+    assert cat.search("aml") == [] or all(e.refid != "lov/1997-06-13-44" for _, e in cat.search("aml"))
 
 
 def test_resolve_unknown_lists_suggestions(catalog):
