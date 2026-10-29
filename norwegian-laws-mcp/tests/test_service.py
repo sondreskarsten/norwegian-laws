@@ -117,3 +117,50 @@ def test_search_documents_render(service):
     items = service.search_documents("enhetsregister", None, 10, True)
     assert items[0]["refid"] == "lov/2025-06-20-105"
     assert "Enhetsregisterloven" in render.search_documents("enhetsregister", items)
+
+
+def test_dates_before_history_are_clamped_and_labelled(service):
+    res = service.diff_document("enhetsregisterloven", "2020-01-01", "HEAD", "§ 4-7", 1, 20000)
+    assert res["from"]["clamped_to_first_commit"] and res["from"]["requested"] == "2020-01-01"
+    assert res["from"]["date"].startswith("2026-01-01")
+    assert any("before the first commit" in n for n in res["limitations"])
+    text = render.diff(res)
+    assert "requested '2020-01-01'" in text and "Data coverage and limits" in text
+    future = service.diff_document("enhetsregisterloven", "HEAD~1", "2030-01-01", None, 1, 20000)
+    assert future["to"]["clamped_to_head"]
+    same = service.diff_document("enhetsregisterloven", "2026-03-01", "HEAD", None, 1, 20000)
+    assert not same["changed"] and any("same commit" in n for n in same["limitations"])
+
+
+def test_window_limitations_and_commit_kinds(service):
+    res = service.recent_changes("2 years ago", None, None, None, None, True, 50)
+    assert any("before or at the first commit" in n for n in res["limitations"])
+    assert {c["kind"] for c in res["commits"]} == {"source-update", "pipeline"}
+    assert res["coverage"]["first_commit"]["date"].startswith("2026-01-01")
+    statuses = {d["path"]: d["status"] for d in res["text_documents"]}
+    assert statuses["lover/lov-2025-06-20-105.md"] == "added → modified"
+    empty = service.recent_changes("2026-03-02", None, None, None, None, True, 50)
+    assert any("'No change'" in n for n in empty["limitations"])
+    assert "[pipeline]" in render.recent_changes(res)
+    hist = service.document_history("enhetsregisterloven", None, None, 10)
+    assert any("first appears in the repository on 2026-01-01" in n for n in hist["limitations"])
+    assert "Data coverage and limits" in render.document_history(hist)
+    blame = service.blame_section("enhetsregisterloven", "§ 4-7")
+    assert any("floor at 2026-01-01" in n for n in blame["limitations"])
+
+
+def test_amendment_records_report_coverage_and_inline_notes(service, fixture_repo):
+    res = service.amendment_records("asl", None, None, 50)
+    assert res["earliest_record"] == "2013-06-14" and res["latest_record"] == "2021-05-05"
+    assert res["lovtidend_from_year"] == 2001
+    assert any("new wording only" in n for n in res["limitations"])
+    text = render.amendment_records(res)
+    assert "file covers 2013-06-14 to 2021-05-05" in text and "Data coverage and limits" in text
+    sec = service.amendment_records("enhetsregisterloven", "§ 1-1", None, 50)
+    assert sec["records"] == [] and "Data coverage and limits" in render.amendment_records(sec)
+
+
+def test_inline_amendment_notes_are_extracted():
+    from norwegian_laws_mcp.history import inline_amendment_notes
+    lines = ["#### § 3-1. Plikt", "", "Tekst.", "", "*Endret ved lover 10 des 2004 nr. 81 (ikr. 1 jan 2005), 30 juni 2006 nr. 38.*", "*Ikke en note*"]
+    assert inline_amendment_notes(lines) == ["Endret ved lover 10 des 2004 nr. 81 (ikr. 1 jan 2005), 30 juni 2006 nr. 38."]

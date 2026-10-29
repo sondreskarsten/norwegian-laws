@@ -2,6 +2,23 @@
 from __future__ import annotations
 
 
+def _limits(res: dict) -> list[str]:
+    """Render the 'Data coverage and limits' block shared by the history tools."""
+    out = ["", "## Data coverage and limits"]
+    cov = res.get("coverage")
+    if cov:
+        out.append(f"- {cov['statement']}")
+    for note in res.get("limitations") or []:
+        out.append(f"- {note}")
+    if res.get("note"):
+        out.append(f"- {res['note']}")
+    return out
+
+
+def _kind_tag(kind: str | None) -> str:
+    return " [pipeline]" if kind == "pipeline" else ""
+
+
 def _doc_line(d: dict) -> str:
     title = d.get("short_title") or d.get("title") or d.get("refid")
     extra = []
@@ -104,12 +121,11 @@ def recent_changes(res: dict) -> str:
     lines = [f"# Changes {window}", ""]
     if not res["commits"]:
         lines.append("No commits touched the selected documents in this window.")
-        lines.append("")
-        lines.append(res["note"])
+        lines += _limits(res)
         return "\n".join(lines)
     lines.append(f"## Commits ({len(res['commits'])})")
     for c in res["commits"]:
-        lines.append(f"- {c['date'][:10]} `{c['sha'][:10]}` {c['subject']} ({c['files']} files)")
+        lines.append(f"- {c['date'][:10]} `{c['sha'][:10]}` {c['subject']} ({c['files']} files){_kind_tag(c.get('kind'))}")
     lines.append("")
     lines.append(f"## Law/regulation texts changed ({res['total_text_documents_changed']})")
     lines += _change_items(res["text_documents"]) or ["- none"]
@@ -120,8 +136,7 @@ def recent_changes(res: dict) -> str:
     lines += _change_items(res["amendment_record_files"]) or ["- none"]
     if res["total_amendment_record_files_changed"] > len(res["amendment_record_files"]):
         lines.append(f"- ... {res['total_amendment_record_files_changed'] - len(res['amendment_record_files'])} more")
-    lines.append("")
-    lines.append(res["note"])
+    lines += _limits(res)
     return "\n".join(lines)
 
 
@@ -131,27 +146,28 @@ def document_history(res: dict) -> str:
     if not res["commits"]:
         lines.append("No commits touched this document in the selected window.")
     for c in res["commits"]:
-        lines.append(f"- {c['date'][:10]} `{c['sha'][:10]}` +{c['added']}/-{c['deleted']} {c['subject']}")
-    lines += ["", res["note"]]
+        lines.append(f"- {c['date'][:10]} `{c['sha'][:10]}` +{c['added']}/-{c['deleted']} {c['subject']}{_kind_tag(c.get('kind'))}")
+    lines += _limits(res)
     return "\n".join(lines)
 
 
 def diff(res: dict) -> str:
     d = res["document"]
     sec = f" section {res['section']}" if res["section"] else ""
+    f, t = res["from"], res["to"]
+    f_req = f" (requested '{f['requested']}')" if f.get("clamped_to_first_commit") or f.get("clamped_to_head") else ""
+    t_req = f" (requested '{t['requested']}')" if t.get("clamped_to_first_commit") or t.get("clamped_to_head") else ""
     lines = [f"# Diff of {d.get('short_title') or d['refid']} `{d['refid']}`{sec}",
-             f"from `{res['from']['rev'][:10]}` ({res['from']['date'][:10]}) to `{res['to']['rev'][:10]}` ({res['to']['date'][:10]})", ""]
-    if not res["from"]["existed"] and res["to"]["existed"]:
-        lines.append("The document did not exist at the start revision; the diff shows it as added.")
-    if res["from"]["existed"] and not res["to"]["existed"]:
+             f"from `{f['rev'][:10]}` ({f['date'][:10]}){f_req} to `{t['rev'][:10]}` ({t['date'][:10]}){t_req}", ""]
+    if f["existed"] and not t["existed"]:
         lines.append("The document no longer exists at the end revision.")
     if not res["changed"]:
-        lines.append("No textual change between these revisions.")
+        lines.append("No textual change between these revisions in the repository.")
     else:
         lines += ["```diff", res["diff"].rstrip("\n"), "```"]
         if res["truncated"]:
             lines.append("[diff truncated; narrow with section=... or raise max_chars]")
-    lines += ["", res["note"]]
+    lines += _limits(res)
     return "\n".join(lines)
 
 
@@ -162,31 +178,40 @@ def blame(res: dict) -> str:
              f"Lines {res['lines'][0]}–{res['lines'][1]}", ""]
     for r in res["runs"]:
         span = f"L{r['lines'][0]}" if r["lines"][0] == r["lines"][1] else f"L{r['lines'][0]}–{r['lines'][1]}"
-        lines.append(f"- {span}: last changed {r['last_changed']} `{r['commit']}` ({r['subject']}) — {r['first_line']}")
-    lines += ["", res["note"]]
+        lines.append(f"- {span}: last changed {r['last_changed']} `{r['commit']}` ({r['subject']}){_kind_tag(r.get('kind'))} — {r['first_line']}")
+    lines += _limits(res)
     return "\n".join(lines)
 
 
 def amendment_records(res: dict) -> str:
     d = res["document"]
-    lines = [f"# Parsed amendment records: {d.get('short_title') or d['refid']} `{d['refid']}`", ""]
-    if res.get("message"):
-        lines.append(res["message"])
-        return "\n".join(lines)
+    lines = [f"# Amendment history: {d.get('short_title') or d['refid']} `{d['refid']}`", ""]
     flt = f" for § {res['section_filter']}" if res.get("section_filter") else ""
-    lines.append(f"{res['total']} records{flt} (source `{res['source_file']}`), newest first:")
-    lines.append("")
-    for r in res["records"]:
-        lines.append(f"## {r['date']} — {r['paragraph']} — by `{r['amending_act']}`")
-        if r["instruction"]:
-            lines.append(f"*{r['instruction']}*")
-        if r["text"]:
-            lines.append("")
-            lines += [f"> {t}" for t in r["text"].split("\n")]
+    if res.get("inline_amendment_notes"):
+        lines.append(f"## Lovdata's per-provision notes in the current text{flt} ({len(res['inline_amendment_notes'])})")
+        for n in res["inline_amendment_notes"]:
+            lines.append(f"- **{n['section']}**: {n['note']}")
         lines.append("")
-    if res["total"] > len(res["records"]):
-        lines.append(f"[... {res['total'] - len(res['records'])} more; raise limit or filter by section/since]")
-    lines.append(res["note"])
+    if res.get("message"):
+        lines.append(f"## Parsed Lovtidend records{flt}")
+        lines.append(res["message"])
+    else:
+        span = f"{res['earliest_record']} to {res['latest_record']}" if res.get("earliest_record") else "none"
+        lines.append(f"## Parsed Lovtidend records{flt}: {res['total']} of {res['total_in_file']} in `{res['source_file']}` "
+                     f"(file covers {span}), newest first")
+        lines.append("")
+        for r in res["records"]:
+            url = f" <{r['amending_act_url']}>" if r.get("amending_act_url") else ""
+            lines.append(f"### {r['date']} — {r['paragraph']} — by `{r['amending_act']}`{url}")
+            if r["instruction"]:
+                lines.append(f"*{r['instruction']}*")
+            if r["text"]:
+                lines.append("")
+                lines += [f"> {t}" for t in r["text"].split("\n")]
+            lines.append("")
+        if res["total"] > len(res["records"]):
+            lines.append(f"[... {res['total'] - len(res['records'])} more; raise limit or filter by section/since]")
+    lines += _limits(res)
     return "\n".join(lines)
 
 
@@ -221,4 +246,6 @@ def status(res: dict) -> str:
     if res["last_update_check"]:
         u = res["last_update_check"]
         lines.append(f"- Last update check: {u['checked_at']} ({'new commits' if u['changed'] else 'no change'})")
+    lines.append(f"- Parsed amendment records: Norsk Lovtidend avd. I from {res['lovtidend_from_year']}")
+    lines += _limits({"coverage": res["coverage"]})
     return "\n".join(lines)

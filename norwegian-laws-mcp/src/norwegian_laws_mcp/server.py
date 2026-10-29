@@ -30,8 +30,15 @@ Typical workflows:
   laws_related_documents, then laws_recent_changes(query=...) / laws_document_history / laws_diff_document,
   and laws_amendment_records for the parsed Lovtidend instructions.
 
-Caveats: Git commit dates say when this project observed a change in Lovdata's consolidated text,
-not when a provision entered into force. Diffs can include parser or formatting changes.
+Data coverage, which every history tool also states in its output:
+- Git history starts with the first import (February 2026). A date before that is clamped to the first
+  commit and flagged. 'No change in window' means no commit touched the file, not that the law was stable.
+- Commits are tagged 'source-update' (daily Lovdata import) or 'pipeline' (parser/format work); diffs and
+  blame can reflect the latter.
+- laws_amendment_records covers Norsk Lovtidend from 2001 and returns only new wording, never the replaced
+  text; it also returns Lovdata's own 'Endret ved lover ...' note per provision, which reaches back to adoption.
+- No tool can reconstruct what a provision said on a past date before the first import.
+Git commit dates say when this project observed a change, not when a provision entered into force.
 Amendment records are parsed views of Norsk Lovtidend, not a verified reconstruction of legal effect.
 """
 
@@ -221,11 +228,13 @@ def build_server(service: LawsService) -> MCPServer:
         since: Annotated[str | None, Field(description="Only records dated on/after this ISO date.")] = None,
         limit: Annotated[int, Field(ge=1, le=500)] = 50,
     ) -> str:
-        """Return the amendment instructions parsed from Norsk Lovtidend for a document (historie/ files).
+        """Amendment history of a document or one provision, from two sources.
 
-        Each record names the amending act, the targeted §, the instruction ('§ 4-7 første ledd skal lyde:')
-        and the new wording when present. This is the source-level change history, complementary to
-        the Git diff of the consolidated text.
+        1. Lovdata's own per-provision notes in the current text ('Endret ved lover 17 des 1999 nr. 93
+           (ikr. 1 jan 2000), ...'), which list every amending act since adoption with commencement.
+        2. Records parsed from Norsk Lovtidend (historie/ files, 2001 onward): amending act, targeted §,
+           instruction ('§ 4-7 første ledd skal lyde:') and the new wording when present.
+        Use this for 'how has § X changed over the years'; Git tools only cover 2026 onward.
         """
         res = service.amendment_records(ref, section, since, limit)
         return render.amendment_records(res)

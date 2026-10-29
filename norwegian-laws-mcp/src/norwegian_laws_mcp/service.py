@@ -8,8 +8,8 @@ import threading
 from . import history, search
 from .catalog import Catalog, Entry
 from .errors import LawsError, ResolveError
-from .markdown import get_section, outline, parse_document
-from .repo import CATALOG_FILE, DOC_DIRS, HISTORIE_DIR, Repo
+from .markdown import get_section, normalize_section_key, outline, parse_document
+from .repo import CATALOG_FILE, DOC_DIRS, HISTORIE_DIR, Repo, RevInfo
 
 MONTHS = ["januar", "februar", "mars", "april", "mai", "juni", "juli", "august",
           "september", "oktober", "november", "desember"]
@@ -19,6 +19,14 @@ DATA_NOTE = (
     "consolidated text, not when a law entered into force. Amendment records are parsed "
     "views of Norsk Lovtidend. Verify legal status at lovdata.no."
 )
+
+LOVTIDEND_DEFAULT_FROM = 2001
+MANIFEST_FILE = ".github/state/lovdata-manifest.json"
+
+
+def _rev_dict(r: RevInfo) -> dict:
+    return {"rev": r.sha, "date": r.date, "requested": r.requested,
+            "clamped_to_first_commit": r.clamped_to_first, "clamped_to_head": r.clamped_to_last}
 
 
 def citation_variants(refid: str) -> list[str]:
@@ -64,6 +72,52 @@ class LawsService:
         for r in refs:
             out.append(cat.resolve(r))
         return out
+
+    # -- coverage ----------------------------------------------------------
+
+    def git_coverage(self) -> dict:
+        first, last = self.repo.history_bounds()
+        return {
+            "first_commit": {"sha": first.sha, "date": first.date, "subject": first.subject},
+            "head": {"sha": last.sha, "date": last.date, "subject": last.subject},
+            "commits": self.repo.commit_count(),
+            "statement": (
+                f"Git history covers {first.day} to {last.day}. Versions of any text before "
+                f"{first.day} are not in this data source; the repository cannot show what a provision "
+                f"said at an earlier date. Diffs can include parser or formatting changes "
+                f"(commits of kind 'pipeline'), not only Lovdata source updates."
+            ),
+        }
+
+    def lovtidend_from_year(self) -> int:
+        years = []
+        if self.repo.exists(MANIFEST_FILE):
+            for m in re.finditer(r"lovtidend-avd1-(\d{4})", self.repo.read(MANIFEST_FILE)):
+                years.append(int(m.group(1)))
+        return min(years) if years else LOVTIDEND_DEFAULT_FROM
+
+    def window_limitations(self, since: str | None, until: str | None) -> list[str]:
+        first, last = self.repo.history_bounds()
+        notes = []
+        if since:
+            r = self.repo.resolve_rev_info(since)
+            if r.clamped_to_first or r.sha == first.sha and r.requested != first.sha:
+                notes.append(
+                    f"The window start '{since}' is before or at the first commit ({first.day}); only changes "
+                    f"observed from {first.day} onward can be reported. Earlier amendments are visible only in "
+                    f"laws_amendment_records (Norsk Lovtidend from {self.lovtidend_from_year()}) and in the "
+                    f"'Endret ved lover ...' notes inside each provision."
+                )
+        if until:
+            r = self.repo.resolve_rev_info(until)
+            if r.clamped_to_last:
+                notes.append(f"The window end '{until}' is after the newest commit ({last.day}); nothing newer exists in this clone. "
+                             f"Call laws_update_repo to fetch newer data.")
+        notes.append(
+            "'No change' in a window means no commit modified the consolidated text in this repository within "
+            "that window. It does not establish that the law in force was unchanged."
+        )
+        return notes
 
     def entries_for_filter(self, documents: list[str] | None, query: str | None, kind: str | None) -> list[Entry]:
         entries = self.resolve_many(documents)
@@ -207,7 +261,8 @@ class LawsService:
         record_docs = history.group_by_document(record_changes, cat)
         commits = {}
         for c in changes:
-            commits.setdefault(c.sha, {"sha": c.sha, "date": c.date, "subject": c.subject, "files": 0})
+            commits.setdefault(c.sha, {"sha": c.sha, "date": c.date, "subject": c.subject,
+                                       "kind": history.commit_kind(c.subject), "files": 0})
             commits[c.sha]["files"] += 1
 
         def doc_item(dc: history.DocumentChange) -> dict:
@@ -219,7 +274,7 @@ class LawsService:
                 "refid": e.refid if e else None,
                 "title": e.display_name if e else None,
                 "kind": e.kind if e else None,
-                "status": "".join(history.STATUS_WORDS.get(s, s) + " " for s in dc.statuses).strip(),
+                "status": " → ".join(history.STATUS_WORDS.get(s, s) for s in dc.statuses),
                 "first_change": dc.first_date,
                 "last_change": dc.last_date,
                 "commits": [c.sha[:10] for c in dc.changes],
@@ -234,6 +289,8 @@ class LawsService:
             "text_documents": [doc_item(d) for d in text_docs[:limit]],
             "total_amendment_record_files_changed": len(record_docs),
             "amendment_record_files": [doc_item(d) for d in record_docs[:limit]],
+            "coverage": self.git_coverage(),
+            "limitations": self.window_limitations(since, until),
             "note": DATA_NOTE,
         }
 
@@ -251,21 +308,57 @@ class LawsService:
     def document_history(self, ref: str, since: str | None, until: str | None, limit: int) -> dict:
         entry = self.resolve(ref)
         commits = history.document_log(self.repo, entry.path, since=since, until=until, limit=limit)
-        return {"document": entry.summary(), "commits": commits, "note": DATA_NOTE}
+        all_commits = history.document_log(self.repo, entry.path, since=None, until=None, limit=100000)
+        first_seen = all_commits[-1]["date"] if all_commits else None
+        limitations = self.window_limitations(since, until) if (since or until) else []
+        if first_seen:
+            limitations.insert(0, (
+                f"This file first appears in the repository on {first_seen[:10]}; {len(all_commits)} commit(s) touch it in total, "
+                f"of which {sum(c['kind'] == 'source-update' for c in all_commits)} are Lovdata source updates and "
+                f"{sum(c['kind'] == 'pipeline' for c in all_commits)} are pipeline/parser commits. "
+                f"Changes to the law before {first_seen[:10]} are not represented as Git commits."
+            ))
+        return {"document": entry.summary(), "commits": commits, "coverage": self.git_coverage(),
+                "limitations": limitations, "note": DATA_NOTE}
 
     def diff_document(self, ref: str, from_rev: str, to_rev: str, section: str | None, context: int, max_chars: int) -> dict:
         entry = self.resolve(ref)
         res = history.diff_document(self.repo, entry.path, from_rev=from_rev, to_rev=to_rev, section=section, context=context)
         diff = res.diff
         truncated = len(diff) > max_chars
+        first, _ = self.repo.history_bounds()
+        limitations = []
+        if res.from_rev.clamped_to_first:
+            limitations.append(
+                f"'{from_rev}' is before the first commit ({first.day}), so the earliest available version "
+                f"({first.day}) is used as the starting point. The text as it stood on {from_rev} is not in this "
+                f"data source. For amendments before {first.day} use laws_amendment_records (Norsk Lovtidend from "
+                f"{self.lovtidend_from_year()}) or the 'Endret ved lover ...' notes in the provision."
+            )
+        if res.to_rev.clamped_to_last:
+            limitations.append(f"'{to_rev}' is after the newest commit; HEAD ({res.to_rev.day}) is used. Call laws_update_repo for newer data.")
+        if res.from_rev.sha == res.to_rev.sha:
+            limitations.append("Both points resolve to the same commit, so no difference can be shown.")
+        if not res.existed_before and res.existed_after:
+            limitations.append(f"The document was not in the repository at {res.from_rev.day}; the diff shows the whole text as added, "
+                               f"which does not mean the law was adopted then.")
+        if not diff.strip() and res.from_rev.sha != res.to_rev.sha:
+            limitations.append(
+                f"No textual change was observed between {res.from_rev.day} and {res.to_rev.day} in this repository. "
+                f"This covers only what the repository recorded; amendments before {first.day} are outside Git history."
+            )
+        if diff.strip():
+            limitations.append("Diff hunks can include parser or formatting changes; compare with laws_document_history commit kinds.")
         return {
             "document": entry.summary(),
             "section": section,
-            "from": {"rev": res.from_sha, "date": res.from_date, "existed": res.existed_before},
-            "to": {"rev": res.to_sha, "date": res.to_date, "existed": res.existed_after},
+            "from": {**_rev_dict(res.from_rev), "existed": res.existed_before},
+            "to": {**_rev_dict(res.to_rev), "existed": res.existed_after},
             "changed": bool(diff.strip()),
             "diff": diff[:max_chars],
             "truncated": truncated,
+            "coverage": self.git_coverage(),
+            "limitations": limitations,
             "note": DATA_NOTE,
         }
 
@@ -281,39 +374,85 @@ class LawsService:
         else:
             start, end, heading = 1, len(doc.lines), None
         runs = history.blame_lines(self.repo, entry.path, start, end)
+        first, _ = self.repo.history_bounds()
+        all_commits = history.document_log(self.repo, entry.path, since=None, until=None, limit=100000)
+        first_seen = all_commits[-1]["date"][:10] if all_commits else first.day
+        limitations = [
+            f"Dates are repository commit dates with a floor at {first_seen} (when this file first appeared). "
+            f"A block dated {first_seen} has not changed since the file was imported; its wording may be decades older. "
+            f"Blocks attributed to 'pipeline' commits changed because of the parser or formatting, not necessarily because of an amendment.",
+            "For the legal amendment chain of a provision use laws_amendment_records with section=..., which also returns "
+            "Lovdata's own 'Endret ved lover ...' note for the provision.",
+        ]
         return {
             "document": entry.summary(),
             "section": heading,
             "lines": [start, end],
             "runs": [
-                {"lines": [r.start, r.end], "last_changed": r.date, "commit": r.sha[:10], "subject": r.subject, "first_line": r.first_line}
+                {"lines": [r.start, r.end], "last_changed": r.date, "commit": r.sha[:10], "subject": r.subject,
+                 "kind": history.commit_kind(r.subject), "first_line": r.first_line}
                 for r in runs
             ],
+            "coverage": self.git_coverage(),
+            "limitations": limitations,
             "note": DATA_NOTE,
         }
 
     def amendment_records(self, ref: str, section: str | None, since: str | None, limit: int) -> dict:
         entry = self.resolve(ref)
         path = history.historie_path_for(self.repo, entry)
+        lovtidend_from = self.lovtidend_from_year()
+        key = normalize_section_key(section) if section else None
+        inline_notes: list[dict] = []
+        doc = self.cache.get(entry.path)
+        if key:
+            sec = get_section(doc, section)
+            if sec is not None:
+                inline_notes = [{"section": sec.heading.text, "note": n} for n in history.inline_amendment_notes(sec.lines)]
+        else:
+            for h in doc.headings:
+                if not h.section:
+                    continue
+                sec = get_section(doc, h.section)
+                if sec is None:
+                    continue
+                for n in history.inline_amendment_notes(sec.lines):
+                    inline_notes.append({"section": h.text, "note": n})
+        limitations = [
+            f"Records are parsed from Norsk Lovtidend avd. I from {lovtidend_from} onward. Amendments before "
+            f"{lovtidend_from}, and instructions the parser did not recognise, are missing. The record text is the new "
+            f"wording only; the wording it replaced is not stored, and no text version at a past date can be reconstructed here.",
+            "Dates are the amendment act's display dates, not verified commencement dates.",
+            "The 'Endret ved lover ...' notes are Lovdata's own per-provision amendment list from the current consolidated "
+            "text; they go back to the law's adoption and name commencement decisions, but give no wording.",
+            "Amending acts are identified by refid only. They are not kept as documents in this repository, so their titles "
+            "are not available here; each record carries a Lovdata URL for the act.",
+        ]
+        base = {"document": entry.summary(), "section_filter": key, "inline_amendment_notes": inline_notes,
+                "lovtidend_from_year": lovtidend_from, "limitations": limitations}
         if path is None:
-            return {"document": entry.summary(), "records": [], "total": 0,
+            return {**base, "records": [], "total": 0, "earliest_record": None, "latest_record": None,
                     "message": "No parsed amendment records exist for this document in historie/."}
-        meta, records = history.parse_historie(self.repo.read(path))
-        key = None
-        if section:
-            from .markdown import normalize_section_key
-            key = normalize_section_key(section)
+        meta, all_records = history.parse_historie(self.repo.read(path))
+        records = all_records
+        if key:
             records = [r for r in records if normalize_section_key(r.paragraph) == key]
         if since:
             records = [r for r in records if r.date >= since]
         records.sort(key=lambda r: r.date, reverse=True)
+        dates = sorted(r.date for r in all_records if r.date)
         return {
-            "document": entry.summary(),
+            **base,
             "source_file": path,
-            "section_filter": key,
             "total": len(records),
+            "total_in_file": len(all_records),
+            "earliest_record": dates[0] if dates else None,
+            "latest_record": dates[-1] if dates else None,
             "records": [
-                {"paragraph": r.paragraph, "date": r.date, "amending_act": r.act, "instruction": r.instruction, "text": r.text}
+                {"paragraph": r.paragraph, "date": r.date, "amending_act": r.act,
+                 "amending_act_url": f"https://lovdata.no/dokument/NLO/{r.act}" if r.act.startswith("lov/") else
+                 f"https://lovdata.no/dokument/LTI/{r.act}" if r.act.startswith("forskrift/") else None,
+                 "instruction": r.instruction, "text": r.text}
                 for r in records[:limit]
             ],
             "note": "Dates are display dates from the parsed amendment act; they are not verified commencement dates.",
@@ -380,6 +519,8 @@ class LawsService:
             "documents": {"total": len(cat), "lover": sum(e.kind == "lov" for e in cat.entries),
                           "forskrifter": sum(e.kind == "forskrift" for e in cat.entries)},
             "last_update_check": self.repo.last_update,
+            "coverage": self.git_coverage(),
+            "lovtidend_from_year": self.lovtidend_from_year(),
         }
 
     def update_repo(self) -> dict:

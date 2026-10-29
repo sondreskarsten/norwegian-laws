@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 import shutil
 import subprocess
 import tempfile
@@ -44,6 +45,28 @@ class Commit:
     @property
     def short(self) -> str:
         return self.sha[:10]
+
+    @property
+    def day(self) -> str:
+        return self.date[:10]
+
+
+@dataclass
+class RevInfo:
+    """A resolved revision and how the request was interpreted."""
+
+    sha: str
+    date: str
+    requested: str
+    clamped_to_first: bool = False
+    clamped_to_last: bool = False
+
+    @property
+    def day(self) -> str:
+        return self.date[:10]
+
+
+DATE_ONLY_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
 class Repo:
@@ -213,21 +236,48 @@ class Repo:
     def is_shallow(self) -> bool:
         return self.git("rev-parse", "--is-shallow-repository").strip() == "true"
 
-    def resolve_rev(self, spec: str | None) -> str:
-        """Resolve a commit-ish, ISO date, or approximate date to a commit sha."""
-        if not spec or spec.upper() == "HEAD":
-            return self.head().sha
+    def history_bounds(self) -> tuple[Commit, Commit]:
+        """First and last commit reachable from HEAD (cached per HEAD)."""
+        head = self.head()
+        cached = getattr(self, "_bounds", None)
+        if cached and cached[1].sha == head.sha:
+            return cached
+        out = self.git("log", "--reverse", "--date=iso-strict", "--format=%H%x1f%ad%x1f%s", "HEAD").split("\n", 1)[0]
+        sha, date, subject = out.strip().split("\x1f", 2)
+        self._bounds = (Commit(sha, date, subject), head)
+        return self._bounds
+
+    def resolve_rev_info(self, spec: str | None) -> RevInfo:
+        """Resolve a commit-ish, ISO date, or approximate date.
+
+        Dates resolve to the last commit on or before that day. A date before the
+        first commit is clamped to the first commit and flagged; a date after HEAD
+        is clamped to HEAD and flagged.
+        """
+        first, last = self.history_bounds()
+        if not spec or spec.strip().upper() == "HEAD":
+            return RevInfo(last.sha, last.date, spec or "HEAD")
         spec = spec.strip()
         out = self.git("rev-parse", "--verify", "--quiet", f"{spec}^{{commit}}", check=False).strip()
         if out:
-            return out
-        before = self.git("rev-list", "-1", f"--before={spec}", "HEAD", check=False).strip()
-        if before:
-            return before
+            date = self.git("log", "-1", "--date=iso-strict", "--format=%ad", out).strip()
+            return RevInfo(out, date, spec)
+        before_spec = f"{spec}T23:59:59" if DATE_ONLY_RE.match(spec) else spec
+        probe = self.git("rev-list", "-1", f"--before={before_spec}", "HEAD", check=False).strip()
+        if probe:
+            date = self.git("log", "-1", "--date=iso-strict", "--format=%ad", probe).strip()
+            return RevInfo(probe, date, spec, clamped_to_last=(probe == last.sha and DATE_ONLY_RE.match(spec) is not None and spec > last.day))
+        # git accepted the date syntax but nothing is older: check that the spec is a date at all
+        check = self.git("rev-list", "-1", f"--after={before_spec}", "HEAD", check=False)
+        if check.strip() or DATE_ONLY_RE.match(spec):
+            return RevInfo(first.sha, first.date, spec, clamped_to_first=True)
         raise GitError(
             f"Could not resolve '{spec}' to a commit. Use a commit sha, HEAD~N, an ISO date like "
             f"2026-10-01, or a phrase like '2 weeks ago'."
         )
+
+    def resolve_rev(self, spec: str | None) -> str:
+        return self.resolve_rev_info(spec).sha
 
     def show(self, rev: str, relpath: str) -> str | None:
         """Return the file content at ``rev`` or None when it did not exist there."""

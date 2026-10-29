@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 
 from .catalog import Catalog, Entry
 from .markdown import Document, get_section, parse_document
-from .repo import DOC_DIRS, HISTORIE_DIR, Repo
+from .repo import DOC_DIRS, HISTORIE_DIR, Repo, RevInfo
 
 LOG_FORMAT = "%x1e%H%x1f%ad%x1f%an%x1f%s"
 
@@ -37,12 +37,13 @@ class DocumentChange:
         return max(c.date for c in self.changes)
 
     @property
-    def statuses(self) -> str:
-        order = []
-        for c in self.changes:
-            if c.status not in order:
+    def statuses(self) -> list[str]:
+        """Chronological, de-duplicated sequence of statuses (e.g. ['A', 'M'])."""
+        order: list[str] = []
+        for c in sorted(self.changes, key=lambda c: c.date):
+            if not order or order[-1] != c.status:
                 order.append(c.status)
-        return "".join(order)
+        return order
 
 
 STATUS_WORDS = {"A": "added", "M": "modified", "D": "deleted", "R": "renamed", "C": "copied", "T": "type-changed"}
@@ -132,17 +133,24 @@ def document_log(repo: Repo, path: str, *, since: str | None, until: str | None,
             if len(cols) >= 3 and cols[0].isdigit() and cols[1].isdigit():
                 added += int(cols[0])
                 deleted += int(cols[1])
-        commits.append({"sha": parts[0], "date": parts[1], "subject": parts[3], "added": added, "deleted": deleted})
+        commits.append({"sha": parts[0], "date": parts[1], "subject": parts[3], "kind": commit_kind(parts[3]),
+                        "added": added, "deleted": deleted})
     return commits
+
+
+SOURCE_UPDATE_RE = re.compile(r"^Oppdater (lover|forskrifter|lover og forskrifter) fra Lovdata", re.I)
+
+
+def commit_kind(subject: str) -> str:
+    """'source-update' for daily Lovdata imports, otherwise 'pipeline' (parser, formatting, repo work)."""
+    return "source-update" if SOURCE_UPDATE_RE.match(subject or "") else "pipeline"
 
 
 @dataclass
 class DiffResult:
     path: str
-    from_sha: str
-    to_sha: str
-    from_date: str
-    to_date: str
+    from_rev: RevInfo
+    to_rev: RevInfo
     diff: str
     section: str | None = None
     existed_before: bool = True
@@ -162,9 +170,10 @@ def diff_document(
     section: str | None = None,
     context: int = 3,
 ) -> DiffResult:
-    a = repo.resolve_rev(from_rev)
-    b = repo.resolve_rev(to_rev)
-    res = DiffResult(path, a, b, commit_date(repo, a), commit_date(repo, b), "", section)
+    ra = repo.resolve_rev_info(from_rev)
+    rb = repo.resolve_rev_info(to_rev)
+    a, b = ra.sha, rb.sha
+    res = DiffResult(path, ra, rb, "", section)
     old = repo.show(a, path)
     new = repo.show(b, path)
     res.existed_before = old is not None
@@ -287,3 +296,11 @@ def historie_path_for(repo: Repo, entry: Entry) -> str | None:
 
 def related_paths(entries: list[Entry]) -> list[str]:
     return [e.path for e in entries] or list(DOC_DIRS)
+
+
+INLINE_NOTE_RE = re.compile(r"^\*((?:Endret|Tilføyd|Opphevet|Endres|Oppheves|Tilføyes)\b.*)\*\s*$")
+
+
+def inline_amendment_notes(lines: list[str]) -> list[str]:
+    """Lovdata's per-provision notes such as '*Endret ved lover 17 des 1999 nr. 93 (ikr. 1 jan 2000), ...*'."""
+    return [m.group(1).strip() for m in (INLINE_NOTE_RE.match(l.strip()) for l in lines) if m]
