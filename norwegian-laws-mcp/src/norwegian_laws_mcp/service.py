@@ -85,7 +85,9 @@ class LawsService:
                 f"Git history covers {first.day} to {last.day}. Versions of any text before "
                 f"{first.day} are not in this data source; the repository cannot show what a provision "
                 f"said at an earlier date. Diffs can include parser or formatting changes "
-                f"(commits of kind 'pipeline'), not only Lovdata source updates."
+                f"(commits of kind 'pipeline' or 'parser-regeneration'), not only Lovdata source updates. From "
+                f"the provenance change onward every commit on main is either a pure source update or a pure "
+                f"parser regeneration and carries the source manifest digest and parser identity as trailers."
             ),
         }
 
@@ -321,8 +323,9 @@ class LawsService:
         if first_seen:
             limitations.insert(0, (
                 f"This file first appears in the repository on {first_seen[:10]}; {len(all_commits)} commit(s) touch it in total, "
-                f"of which {sum(c['kind'] == 'source-update' for c in all_commits)} are Lovdata source updates and "
-                f"{sum(c['kind'] == 'pipeline' for c in all_commits)} are pipeline/parser commits. "
+                f"of which {sum(c['kind'] == 'source-update' for c in all_commits)} are Lovdata source updates, "
+                f"{sum(c['kind'] == 'parser-regeneration' for c in all_commits)} are parser regenerations on unchanged sources and "
+                f"{sum(c['kind'] == 'pipeline' for c in all_commits)} are older pipeline commits that may mix both. "
                 f"Changes to the law before {first_seen[:10]} are not represented as Git commits."
             ))
         return {"document": entry.summary(), "commits": commits, "coverage": self.git_coverage(),
@@ -387,7 +390,7 @@ class LawsService:
         limitations = [
             f"Dates are repository commit dates with a floor at {first_seen} (when this file first appeared). "
             f"A block dated {first_seen} has not changed since the file was imported; its wording may be decades older. "
-            f"Blocks attributed to 'pipeline' commits changed because of the parser or formatting, not necessarily because of an amendment.",
+            f"Blocks attributed to 'pipeline' or parser-regeneration commits changed because of the parser or formatting, not because of an amendment.",
             "For the legal amendment chain of a provision use laws_amendment_records with section=..., which also returns "
             "Lovdata's own 'Endret ved lover ...' note for the provision.",
         ]

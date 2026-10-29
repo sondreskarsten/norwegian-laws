@@ -16,7 +16,11 @@ def _limits(res: dict) -> list[str]:
 
 
 def _kind_tag(kind: str | None) -> str:
-    return " [pipeline]" if kind == "pipeline" else ""
+    if kind == "pipeline":
+        return " [pipeline]"
+    if kind == "parser-regeneration":
+        return " [parser regeneration, not a source change]"
+    return ""
 
 
 def _doc_line(d: dict) -> str:

@@ -12,9 +12,22 @@ Status key: **fixed** (code changed in this branch, takes effect on the next pub
 | D2 | Replacement heading text duplicated | `lov/2024-06-21-42` "§ 3-1 paragrafoverskriften skal lyde:" produced the heading twice; 36 exact duplicate records across `historie/`. | `futureLegalArticleHeader` spans nested inside `futureLegalArticle` were collected in addition to their parent. | **fixed** (nested future elements skipped; a future article now yields one line per heading and ledd; test `test_new_format_future_article_text_not_duplicated`) |
 | D3 | Old-format acts lose wording that Lovdata encodes as a heading | `lov/2001-06-15-41` "Avsnittets tittel skal lyde:" (new title is an `h3`), "Nytt kapittel 1 A skal lyde:" and similar; part of the ~40 empty records per year before 2024. | `_parse_old_format_section` skipped every heading element. | **fixed** (headings after an instruction are kept; bare part markers such as `I`, `II` are not; test `test_old_format_heading_after_instruction_is_text`) |
 | D4 | Acts that change one document but match no instruction pattern vanish from that document's history | KOSTRA-forskriften: `forskrift/2025-10-29-2134` and `forskrift/2024-10-14-2624` ("Følgende art går ut", "Funksjon 211 endrer navn til …") produced zero records, so `historie/forskrift-2019-10-18-1412.md` ends in 2023 while README lists the act. 8,331 single-target acts in the database have zero records. | No fallback for unrecognised instruction forms. | **fixed** for single-target acts: the body is kept as one `unknown` record (test `test_unrecognised_single_target_act_keeps_body_as_unknown_record`). Multi-target acts without recognised instructions (see D5) stay empty. |
+| D4b | Old-format chapter replacements lost their wording | `lov/2001-06-15-62` "Nytt kapittel 1 A skal lyde:" and `lov/2002-03-15-5` "Overskriften til kapittel 7 skal lyde:" are followed by the new title in an italic paragraph that names the chapter. | The title paragraph matched the chapter-instruction pattern and was taken for a new instruction, flushing the pending replacement empty. | **fixed** (a chapter title without an instruction verb directly after a pending `lyde:` instruction is wording; test `test_old_format_chapter_title_paragraph_is_replacement_text`) |
 | D5 | Acts with several targets and no recognised instructions | 17,675 of 39,241 acts have zero records; 7,268 have no `changesToDocuments` at all (new laws, commencement decisions, delegations) and are not amendment acts; the remainder minus D4 are multi-target acts with unrecognised wording. | Attribution needs per-section preambles, which these acts lack. | **open**: recorded here; a per-section fallback would attribute text to the wrong law. |
 | D6 | Records carry only new wording, never the replaced text | By design of the Lovtidend parse. | — | **mitigated**: every MCP history tool states this; `laws_amendment_records` also returns Lovdata's own "Endret ved lover …" note per provision. |
 | D7 | Future-dated records | `historie/` holds 172 records dated 2027 and 2 dated 2028 (acts published with later commencement). | Display date is the act's commencement. | **open**: correct per source; labelled as display dates. |
+
+### Measured effect of D1–D4b (full 2001–2026 archives, 39,241 acts)
+
+| Measure | Before | After D1–D4 | After D4b |
+|---|---|---|---|
+| Amendment records | 100,025 | 108,356 | see below |
+| `lyde:` records without wording | 1,745 | 1,417 | see below |
+| of which 2024 / 2025 / 2026 | 167 / 173 / 119 | 56 / 67 / 30 | see below |
+| Single-target acts with no record | 8,331 | 0 | 0 |
+| Multi-target acts with no record | — | 2,148 | 2,148 |
+
+Regenerated `historie/` from the patched parser: `forskrift-2019-10-18-1412.md` (KOSTRA) now has 7 records ending with `forskrift/2025-10-29-2134` (2026-01-01) instead of stopping in 2023; `regnskapsloven.md` "§ 3-1 tredje ledd skal lyde:" carries its wording.
 
 ## Git history and reader
 
@@ -28,7 +41,9 @@ Status key: **fixed** (code changed in this branch, takes effect on the next pub
 | H6 | Reader version pages pinned to September commits | `book/versjoner.qmd` and the diff tool used a fixed catalog of 26 SHAs. | Pinning was the workaround for H5. | **fixed**: version refs are the live yearly tags; pages say the branch is rebuilt nightly and name the build tags. |
 | H7 | Issue #6: repealed documents absent from the reconstruction | Inherent to a baseline built from current consolidated text. | — | **open**. |
 | H8 | README said regeneration needs `ENABLE_LEGACY_HISTORY=true` | The variable gate still exists in `deploy.yml` but the referenced workflow no longer rebuilt anything. | Stale after the retirement. | **fixed**: README paragraph rewritten; the gate in `deploy.yml` is left as is (the nightly schedule does not need it). |
-| H9 | Git history on `main` begins 2026-02-18 and mixes parser commits with source updates | For regnskapsloven, 3 of 10 commits are parser/format work. | — | **mitigated**: MCP tags commits `source-update` or `pipeline` and states the history span. |
+| H9 | Git history on `main` begins 2026-02-18 and mixes parser commits with source updates | For regnskapsloven, 3 of 10 commits are parser/format work; the § 1-2 diff since February is the list being flattened at import and split later, not an amendment. | A deploy run regenerated everything from whatever sources and code it had, under one commit subject. | **fixed going forward** (H10); past commits are labelled by the MCP as `pipeline`. |
+| H10 | Commits were not bound to their inputs | Nothing in a commit said which archives or which parser produced it, and a run could carry a source change and a parser change together. | — | **fixed**: `.github/scripts/provenance.py` classifies each run against the acknowledged publication (`source_changed`, `parser_changed`), restores the previous archives from the public bundle and commits a `Regenerer … med endret parser` commit first when both changed, verifies the formatted output is byte-identical on a second pass before committing, and writes trailers (`Publikasjonstype`, `Kildemanifest`, `Kildearkiv` × 4, `Parser` tree hashes). The MCP tags such commits `parser-regeneration`. Pending: first production run after merge. |
+| H11 | Per-act history build exceeded memory | Local act+LFS build was killed by the OOM killer while `git fast-import` input was held as a Python list (full text of every changed file for ~17,000 commits). | — | **fixed**: the stream is spooled to a temporary file. |
 
 ## MCP server (`norwegian-laws-mcp/`)
 

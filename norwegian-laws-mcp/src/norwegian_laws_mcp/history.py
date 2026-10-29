@@ -139,11 +139,19 @@ def document_log(repo: Repo, path: str, *, since: str | None, until: str | None,
 
 
 SOURCE_UPDATE_RE = re.compile(r"^Oppdater (lover|forskrifter|lover og forskrifter) fra Lovdata", re.I)
+PARSER_REGENERATION_RE = re.compile(r"^Regenerer (lover|forskrifter|lover og forskrifter) med", re.I)
 
 
 def commit_kind(subject: str) -> str:
-    """'source-update' for daily Lovdata imports, otherwise 'pipeline' (parser, formatting, repo work)."""
-    return "source-update" if SOURCE_UPDATE_RE.match(subject or "") else "pipeline"
+    """'source-update' for Lovdata imports, 'parser-regeneration' for commits that rebuilt the
+    files from unchanged sources with changed code, otherwise 'pipeline' (older mixed commits,
+    repository work)."""
+    subject = subject or ""
+    if SOURCE_UPDATE_RE.match(subject):
+        return "source-update"
+    if PARSER_REGENERATION_RE.match(subject):
+        return "parser-regeneration"
+    return "pipeline"
 
 
 @dataclass
