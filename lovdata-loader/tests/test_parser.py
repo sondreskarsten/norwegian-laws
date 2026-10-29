@@ -519,3 +519,26 @@ def test_unrecognised_multi_target_act_stays_empty():
 </section>""", changes_to="<li>forskrift/2019-10-18-1412</li><li>forskrift/2019-10-18-1413</li>")
     result = parse_lovtidend_file(xml, "test.xml")
     assert result.amendments == []
+
+
+def test_old_format_chapter_title_paragraph_is_replacement_text():
+    """Real cases: lov/2001-06-15-62 'Nytt kapittel 1 A skal lyde:' and
+    lov/2002-03-15-5 'Overskriften til kapittel 7 skal lyde:' are followed by
+    the new title in an italic defaultP that names the chapter; it was taken
+    for a new instruction, leaving the replacement empty."""
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">I lov 17. juli 1998 nr. 56 om årsregnskap m.v. gjøres følgende endringer:</article>
+<article class="defaultP">Nytt kapittel 1 A skal lyde:</article>
+<article class="defaultP"><i>Kapittel 1 A Den sentrale domstoladministrasjonen</i></article>
+<article class="defaultP"><strong>§ 33.</strong> Domstoladministrasjonen ledes av et styre.</article>
+<article class="legalP">Kongen i statsråd kan treffe vedtak.</article>
+<article class="defaultP">Overskriften til kapittel 7 skal lyde:</article>
+<article class="defaultP"><i>Kapittel 7. Tilsyn med forurensninger og avfall</i></article>
+<article class="defaultP">Kapittel 7A (herunder kapitteloverskriften) oppheves og § 52 c går inn i kapittel 7.</article>
+</section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    recs = [(a.instruction, a.new_text) for a in result.amendments]
+    assert recs[0] == ("Nytt kapittel 1 A skal lyde:",
+                       "Kapittel 1 A Den sentrale domstoladministrasjonen\n§ 33.Domstoladministrasjonen ledes av et styre.\nKongen i statsråd kan treffe vedtak.")
+    assert recs[1] == ("Overskriften til kapittel 7 skal lyde:", "Kapittel 7. Tilsyn med forurensninger og avfall")
+    assert recs[2][0].startswith("Kapittel 7A (herunder kapitteloverskriften) oppheves")

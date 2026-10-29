@@ -605,6 +605,18 @@ def _is_law_preamble(text: str) -> bool:
 _PART_MARKER_RE = re.compile(r"^(?:[IVXLC]+|[A-Z]|\d+)\.?$")
 
 
+def _is_title_only(text: str) -> bool:
+    """A chapter/part title with no instruction verb, e.g. 'Kapittel 7. Tilsyn'."""
+    return bool(
+        _KAPITTEL_RE.search(text)
+        and not _INSTRUCTION_RE.search(text)
+        and not _NEW_SECTION_RE.search(text)
+        and not _RENUMBER_RE.match(text)
+        and not _HEADING_RE.search(text)
+        and not re.search(r"skal lyde|oppheves|endres til|flyttes til|blir ny|tilføyes|settes inn", text)
+    )
+
+
 def _is_part_marker(text: str) -> bool:
     return bool(_PART_MARKER_RE.match(text.strip()))
 
@@ -714,6 +726,16 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
                 continue
 
         is_instr = "defaultP" in classes and _is_old_instruction(text)
+
+        # 'Nytt kapittel 1 A skal lyde:' / 'Overskriften til kapittel 7 skal
+        # lyde:' are followed by the new title in its own paragraph, e.g.
+        # '<i>Kapittel 1 A Den sentrale domstoladministrasjonen</i>'. That
+        # title mentions a chapter and used to be taken for a new instruction,
+        # which flushed the pending replacement with no wording.
+        if (is_instr and current_instruction is not None and not text_parts
+                and current_instruction.rstrip().endswith("lyde:")
+                and _is_title_only(text)):
+            is_instr = False
 
         if is_instr:
             flush()
