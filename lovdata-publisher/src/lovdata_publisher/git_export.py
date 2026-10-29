@@ -260,8 +260,15 @@ def generate_tag_readme(law_files: dict[str, str], all_files: dict[str, str]) ->
     return "\n".join(lines)
 
 
-def create_yearly_tags(repo_path: str) -> dict[str, str]:
-    """Create yearly version tags based on the last commit of each year."""
+def create_yearly_tags(repo_path: str, max_year: int | None = None) -> dict[str, str]:
+    """Create yearly version tags based on the last commit of each year.
+
+    Years after ``max_year`` (default: the current UTC year) get no tag: a
+    published act with a future commencement is not a past version of the law
+    (issue #4).
+    """
+    if max_year is None:
+        max_year = datetime.now(timezone.utc).year
     log = subprocess.run(
         ["git", "log", "--format=%H %aI", "--reverse"],
         cwd=repo_path,
@@ -274,6 +281,8 @@ def create_yearly_tags(repo_path: str) -> dict[str, str]:
             continue
         sha, date = line.split(" ", 1)
         year = date[:4]
+        if int(year) > max_year:
+            continue
         year_commits[year] = sha
 
     tags = {}
@@ -308,6 +317,7 @@ def build_history(
     repo_path: str,
     mode: str = "year",
     use_lfs: bool = False,
+    cutoff_date: str | None = None,
 ) -> str:
     """Build a git repository with backdated commits from a snapshot.
 
@@ -319,10 +329,17 @@ def build_history(
         use_lfs: If True, configure git-lfs to track lover/*.md before
             committing. Required when mode='act' to dodge GitHub's
             HTTP 500 on dense object graphs.
+        cutoff_date: YYYY-MM-DD (default: today, UTC). Acts whose resolved
+            commencement is after this date are not applied; they are not in
+            force and the consolidated text does not contain them. The final
+            reset commit is dated on this day so graph order and date order
+            agree (issue #4).
 
     Returns:
         The repo path.
     """
+    if cutoff_date is None:
+        cutoff_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     from .formatter import format_law_markdown
     from lovdata_loader.reconstruct import (
         strip_trailing_text, apply_amendment, parse_instruction,
@@ -416,11 +433,15 @@ def build_history(
     year_files = defaultdict(dict)
     year_acts = defaultdict(list)
     year_last_date = {}
+    skipped_future = 0
 
     for row in rows:
         act = dict(row)
         changes_to = [r for r in act.get("changes_to", "").split(",") if r.strip()]
         date = act["date_in_force_resolved"] or "2001-01-01"
+        if date > cutoff_date:
+            skipped_future += 1
+            continue
         year = date[:4]
         year_last_date[year] = max(year_last_date.get(year, ""), date)
 
@@ -494,6 +515,9 @@ def build_history(
             }
             stream.add_amendment_commit(act_data, files)
 
+    if skipped_future:
+        print(f"  Skipped {skipped_future} acts with commencement after {cutoff_date}")
+
     # Single reset commit: snap all body-modified laws and forskrifter back to current text.
     reset_files = {}
     latest_date = "2001-01-01"
@@ -516,12 +540,13 @@ def build_history(
 
     if reset_files:
         act_data = {
-            "refid": f"gjeldende-lover/{latest_date}",
+            "refid": f"gjeldende-lover/{cutoff_date}",
             "title": f"Gjeldende konsolidert tekst ({len(reset_files)} lover)",
             "short_title": "",
-            "date_in_force": latest_date,
-            "date_in_force_resolved": latest_date,
-            "date_published": latest_date,
+            "date_in_force": cutoff_date,
+            "date_in_force_resolved": cutoff_date,
+            "date_published": cutoff_date,
+            "misc_info": f"Siste registrerte ikrafttredelse i kilden: {latest_date}",
         }
         stream.add_amendment_commit(act_data, reset_files)
 
@@ -538,8 +563,8 @@ def build_history(
     print("  Running git fast-import...")
     stream.execute()
 
-    # Yearly tags
-    tags = create_yearly_tags(repo_path)
+    # Yearly tags, never beyond the cutoff year
+    tags = create_yearly_tags(repo_path, max_year=int(cutoff_date[:4]))
     if tags:
         print(f"  Created {len(tags)} yearly tags: {min(tags)}..{max(tags)}")
 

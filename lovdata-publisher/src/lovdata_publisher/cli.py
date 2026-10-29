@@ -52,6 +52,11 @@ def main():
         help="Configure git-lfs for lover/*.md (recommended for --history-mode=act)",
     )
     parser.add_argument(
+        "--history-cutoff",
+        default=None,
+        help="YYYY-MM-DD; acts with commencement after this date are not applied to the law-history branch (default: today)",
+    )
+    parser.add_argument(
         "--quarto",
         action="store_true",
         help="Generate Quarto book chapters and config",
@@ -284,7 +289,8 @@ def main():
         print("=" * 60)
         print(f"Building git history (mode={args.history_mode}, lfs={args.use_lfs})")
         print("=" * 60)
-        build_history(args.snapshot, repo_path, mode=args.history_mode, use_lfs=args.use_lfs)
+        build_history(args.snapshot, repo_path, mode=args.history_mode, use_lfs=args.use_lfs,
+                      cutoff_date=args.history_cutoff)
         print(f"  Repository at: {repo_path}")
 
 

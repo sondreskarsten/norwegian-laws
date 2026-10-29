@@ -548,8 +548,8 @@ def generate_diff_page(book_dir: str, version_tags: list[str]):
         '',
         LEGACY_NOTICE,
         '',
-        'Velg en lov og to lagrede utgaver for å sammenligne tekst. Sammenligningen bruker',
-        'faste, registrerte kopier av den eldre historikken.',
+        'Velg en lov og to årstallsutgaver for å sammenligne tekst. Sammenligningen bruker',
+        f'årstallstaggene på grenen `{HISTORY_BRANCH}`, som bygges på nytt hver natt.',
         '',
         '<div style="display:flex;flex-direction:column;gap:12px;width:100%;max-width:600px;min-width:0;margin:16px 0;">',
         '<label for="diff-law" style="font-weight:600;">Velg lov:</label>',
@@ -1053,9 +1053,10 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
     ver_lines = [
         "# Eksperimentelle versjoner {.unnumbered}\n",
         LEGACY_NOTICE + "\n",
-        "Årstallene nedenfor er navn på eldre rekonstruksjoner, ikke bekreftede juridiske skjæringsdatoer.",
-        "Utvalget er registrert 25. september 2026. Lenker og sammenligninger er låst til disse kopiene.",
-        "Den frakoblede v2000 og utgaver merket med framtidige år er utelatt.\n",
+        "Årstallene nedenfor er navn på rekonstruksjoner, ikke bekreftede juridiske skjæringsdatoer.",
+        f"Grenen `{HISTORY_BRANCH}` bygges på nytt hver natt fra gjeldende tekst. Årstallstaggene flyttes ved hvert bygg;",
+        "hvert bygg får i tillegg en varig tagg `history-ÅÅÅÅ-MM-DD` som kan siteres.",
+        "Vedtak med ikrafttredelse fram i tid er ikke tatt med.\n",
         "## Lagrede rekonstruksjoner\n",
     ]
     if year_stats:
