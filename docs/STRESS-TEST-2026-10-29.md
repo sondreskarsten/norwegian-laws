@@ -49,6 +49,18 @@ Regenerated `historie/` from the patched parser: `forskrift-2019-10-18-1412.md` 
 | H12 | `--use-lfs` has no effect on the reconstruction | The build wrote `.gitattributes` LFS rules, but `git fast-import` bypasses clean filters, so every law text is a plain Git blob (`git lfs ls-files` lists nothing); `git lfs push --all` in the workflow pushes nothing. This was already so before the retirement. | fast-import does not run filters. | **open**: harmless for correctness; the branch is pushed as ordinary blobs (~750 MB packed per full rebuild, deduplicated against unchanged blobs on the remote). |
 | H11 | Per-act history build exceeded memory | Local act+LFS build was killed by the OOM killer while `git fast-import` input was held as a Python list (full text of every changed file for ~17,000 commits). | — | **fixed**: the stream is spooled to a temporary file. |
 
+### End-to-end reproduction check for H10
+
+The regeneration path the workflow will use was run here on the public observation bundle of the 2026-10-01 publication (`provenance.py fetch-previous` with the local bundle, then `lovdata-load --capture-source-bodies`, 810 s, then `lovdata-publish --format-only`, 413 s) with this branch's code, and compared with the tree committed at `bde2b580` (the commit that published those sources):
+
+| Directory | Committed files | Regenerated files | Differing |
+|---|---|---|---|
+| `lover/` | 754 | 754 | 0 |
+| `forskrifter/` | 5,118 | 5,118 | 0 |
+| `historie/` | 5,552 | 8,328 | 4,916 (expected: D1–D4b change the records; the D4 fallback gives 2,776 more documents a history) |
+
+A second formatting pass of the same snapshot produced 0 differing files, which is the gate `verify-reproducible` enforces. The law texts on `main` are therefore a byte-exact function of the archives plus the parser code, and the first run of the new workflow will commit the `historie/` change as a parser regeneration, not as a source update.
+
 ## MCP server (`norwegian-laws-mcp/`)
 
 Found and fixed during the same test; listed for completeness: dates before the first commit errored instead of clamping; no coverage statement in outputs; `grunnloven`/`Grl.` did not resolve; `aml` matched `saml`; refid spellings scored low in catalog search; definition patterns missed "X menes"; deleted documents lacked titles in change listings.
