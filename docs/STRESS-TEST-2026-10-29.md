@@ -21,11 +21,13 @@ Status key: **fixed** (code changed in this branch, takes effect on the next pub
 
 | Measure | Before | After D1–D4 | After D4b |
 |---|---|---|---|
-| Amendment records | 100,025 | 108,356 | see below |
-| `lyde:` records without wording | 1,745 | 1,417 | see below |
-| of which 2024 / 2025 / 2026 | 167 / 173 / 119 | 56 / 67 / 30 | see below |
+| Amendment records | 100,025 | 108,356 | 108,213 |
+| `lyde:` records without wording | 1,745 | 1,417 | 1,271 |
+| of which 2024 / 2025 / 2026 | 167 / 173 / 119 | 56 / 67 / 30 | 51 / 65 / 21 |
 | Single-target acts with no record | 8,331 | 0 | 0 |
 | Multi-target acts with no record | — | 2,148 | 2,148 |
+
+Remaining empty records are mostly old-format cases the parser still mis-splits, e.g. "I innhaldslista i kapittel 4 skal tiande strekpunkt lyde: …" where the wording follows the instruction on the same line but the split key is `skal lyde:`; left **open** with the examples in `measure_after2.log` of this session.
 
 Regenerated `historie/` from the patched parser: `forskrift-2019-10-18-1412.md` (KOSTRA) now has 7 records ending with `forskrift/2025-10-29-2134` (2026-01-01) instead of stopping in 2023; `regnskapsloven.md` "§ 3-1 tredje ledd skal lyde:" carries its wording.
 
