@@ -8,6 +8,7 @@ import re
 import subprocess
 import sqlite3
 import json
+import tempfile
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -116,6 +117,17 @@ def format_commit_message(act_row: dict) -> str:
 # ─── Git Fast-Import Stream ─────────────────────────────────────────────────
 
 
+class _SpooledCommands:
+    """List-like sink that writes each fast-import line straight to a file."""
+
+    def __init__(self, spool):
+        self._spool = spool
+
+    def append(self, line: str) -> None:
+        self._spool.write(line.encode("utf-8"))
+        self._spool.write(b"\n")
+
+
 class FastImportStream:
     """Build a git fast-import command stream for creating backdated commits."""
 
@@ -129,7 +141,11 @@ class FastImportStream:
         self.committer_name = committer_name
         self.committer_email = committer_email
         self.mark_counter = 0
-        self.commands = []
+        # The stream is spooled to disk as it is produced. A per-act build
+        # carries the full text of every changed file for ~17,000 commits,
+        # which exceeded memory when kept as a list of strings.
+        self._spool = tempfile.NamedTemporaryFile("w+b", prefix="law-fast-import-", suffix=".stream", delete=False)
+        self.commands = _SpooledCommands(self._spool)
 
     def _next_mark(self) -> int:
         self.mark_counter += 1
@@ -211,13 +227,18 @@ class FastImportStream:
 
     def execute(self):
         """Execute the fast-import stream against the repository."""
-        stream = "\n".join(self.commands) + "\n"
-        proc = subprocess.run(
-            ["git", "fast-import", "--quiet"],
-            input=stream.encode("utf-8"),
-            cwd=self.repo_path,
-            capture_output=True,
-        )
+        self._spool.flush()
+        self._spool.seek(0)
+        try:
+            proc = subprocess.run(
+                ["git", "fast-import", "--quiet"],
+                stdin=self._spool,
+                cwd=self.repo_path,
+                capture_output=True,
+            )
+        finally:
+            self._spool.close()
+            Path(self._spool.name).unlink(missing_ok=True)
         if proc.returncode != 0:
             raise RuntimeError(f"git fast-import failed: {proc.stderr.decode()}")
         subprocess.run(
