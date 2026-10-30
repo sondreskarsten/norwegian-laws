@@ -20,6 +20,7 @@ permissions:
   pages: write
   id-token: write
   models: read
+  issues: write
   actions: write
 
 concurrency:
@@ -99,6 +100,20 @@ jobs:
 
       - name: Download and parse laws
         run: lovdata-load --download --capture-source-bodies --output snapshot
+
+      - name: Classify every amendment instruction against the wording catalogue
+        run: |
+          python -m lovdata_loader.instruction_catalog --db snapshot/amendments.db \
+            --output "$RUNNER_TEMP/instruction-forms.json"
+
+      - name: Open or update the issue for uncatalogued instruction wordings
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/instruction_forms_issue.py \
+            --report "$RUNNER_TEMP/instruction-forms.json" \
+            --repository "$GITHUB_REPOSITORY" \
+            --run-url "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
 
       - name: Completeness gate
         run: |
