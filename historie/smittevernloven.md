@@ -95,6 +95,13 @@ refid: "lov/1994-08-05-55"
 > Når det er nødvendig for iverksetting av tiltak eller for oversikt og kontroll i forbindelse med smittsomme sykdommer, kan kommunelegen, fylkesmannen, Helsetilsynet i fylket, Sosial- og helsedirektoratet og Statens helsetilsyn kreve opplysninger fra offentlige kilder eller privat helsetjeneste uten hinder av lovbestemt taushetsplikt.
 >
 
+### 2011-06-24 — lov/2011-06-24-29
+
+*§ 2-2 åttende ledd skal lyde:*
+
+> Når det er nødvendig for iverksetting av tiltak eller for oversikt og kontroll i forbindelse med smittsomme sykdommer, kan kommunelegen, fylkesmannen, Helsetilsynet i fylket, Helsedirektoratet, Statens helsetilsyn og Nasjonalt folkehelseinstitutt kreve opplysninger fra offentlige kilder eller privat helse- og omsorgstjeneste uten hinder av lovbestemt taushetsplikt. Helsedirektoratet og Nasjonalt folkehelseinstitutt kan i en smittesituasjon behandle opplysninger samlet inn etter dette ledd i utbruddsregistre. Behandling av opplysninger skal være i tråd med bestemmelsene i helseregisterloven.
+>
+
 ### 2012-06-22 — lov/2012-06-22-46
 
 *§ 2-2 åttende ledd første punktum skal lyde:*
@@ -246,6 +253,13 @@ refid: "lov/1994-08-05-55"
 > Når det ved et alvorlig utbrudd av en allmennfarlig smittsom sykdom er nødvendig å vaksinere befolkningen eller deler av den med en gang for at folkehelsen ikke skal bli vesentlig skadelidende, kan Sosial- og helsedirektoratet påby vaksinering etter andre ledd og tiltak etter tredje ledd.
 >
 
+### 2002-01-01 — lov/2001-05-18-24
+
+*§ 3-8 femte ledd skal lyde:*
+
+> Kongen i Statsråd kan i forskrift fastsette at helsepersonell uten hinder av lovbestemt taushetsplikt skal gi nødvendige opplysninger for gjennomføring av et kontrollsystem basert på vaksinasjonsregistre, og gi regler for slike registre, jf. helseregisterloven.
+>
+
 ### 2023-12-20 — lov/2023-12-20-106
 
 *§ 3-8 nytt andre ledd skal lyde:*
@@ -288,6 +302,13 @@ refid: "lov/1994-08-05-55"
 >
 
 ## § 4-2
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 4-2 annet ledd skal lyde:*
+
+> Vedtak etter første ledd skal gjøres av kommunelegen sammen med legen som det regionale helseforetaket har utpekt etter § 7-3 tredje ledd.
+>
 
 ### 2001-12-21 — lov/2001-12-21-119
 
@@ -412,6 +433,23 @@ refid: "lov/1994-08-05-55"
 >
 > Næringsmiddelkontrollen skal straks underrette kommunelegen eller fylkesmannen ved mistanke om smittsom sykdom som formidles til mennesker via næringsmidler.
 >
+
+### 2011-06-24 — lov/2011-06-24-29
+
+*§ 4-10 første til tredje ledd skal lyde:*
+
+> Tjenestemenn ved politiet, skipskontrollen, losvesenet, tollvesenet og havnevesenet, på flyplasser og ansatte i Mattilsynet plikter å ha særlig oppmerksomhet rettet mot smittsomme sykdommer. De plikter å bistå med gjennomføringen og overholdelsen av de bestemmelser som er gitt i denne loven eller helse- og omsorgstjenesteloven, eller i medhold av disse lovene.
+>
+> Tjenestemenn etter første ledd skal uten hinder av lovbestemt taushetsplikt underrette kommunelegen når de har en sterk mistanke om en allmennfarlig smittsom sykdom eller oppdager et tilfelle av en slik sykdom. Det samme gjelder når de blir oppmerksom på forhold som kan medføre en nærliggende fare for overføring av en slik sykdom og det åpenbart er nødvendig med hjelp eller tiltak fra helse- og omsorgstjenesten. Hvis kommunelegen ikke er til stede, skal tjenestemennene underrette fylkesmannen.
+>
+
+### 2011-06-24 — lov/2011-06-24-29
+
+*§ 4-10 tredje ledd oppheves.*
+
+### 2011-06-24 — lov/2011-06-24-29
+
+*§ 4-10 femte ledd blir nytt fjerde ledd og sjette ledd blir nytt femte ledd.*
 
 ### 2017-03-03 — lov/2017-03-03-8
 
@@ -549,6 +587,13 @@ refid: "lov/1994-08-05-55"
 > De begrensninger i den smittedes rett til å se saksdokumentene som er fastsatt i forvaltningsloven § 19 første ledd bokstav d og de begrensinger i den smittedes rett til innsyn i sin journal med vedlegg som er fastsatt for innsynsretten, gjelder ikke når smittevernnemnda er anmodet om å gjøre vedtak etter loven.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 5-6 første ledd skal lyde:*
+
+> Smittevernnemnda skal sørge for at det blir oppnevnt advokat for de private parter. Advokaten skal omgående gjøres kjent med begjæring om tiltak med vedlagte dokumenter, og gis frist for tilsvar etter barnevernsloven § 14-10.
+>
+
 ## § 5-7
 
 ### 2006-12-01 — lov/2006-12-01-65
@@ -578,6 +623,13 @@ refid: "lov/1994-08-05-55"
 
 ## § 5-8
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 5-8 første ledd første punktum skal lyde:*
+
+> Hastevedtak etter § 5-2 kan gjøres av kommunelegen sammen med den legen som det regionale helseforetaket har utpekt etter § 7-3 tredje ledd.
+>
+
 ### 2019-06-21 — lov/2019-06-21-46
 
 *§ 5-8 skal lyde:*
@@ -601,18 +653,6 @@ refid: "lov/1994-08-05-55"
 >
 > Søksmål kan reises av den vedtaket retter seg mot eller vedkommendes nærmeste, av fylkeslegen eller statens helsetilsyn. En mindreårig kan opptre som part og gjøre partsrettigheter gjeldende dersom vedkommende er fylt 12 år og forstår hva saken gjelder.
 >
-> 107. I lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste skal § 5 femte ledd annet punktum lyde:
->
-> Tvisteloven §§ 22-1 og 22-3 gjelder ikke.
->
-> 108. I lov 25. august 1995 nr. 57 om pakkereiser skal § 10-6 tredje ledd lyde:
->
-> Departementet kan ved forskrift også fastsette regler om konsekvensene av at nemndas virksomhet opphører.
->
-> 109. I lov 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 8-6 fjerde ledd lyde:
->
-> Ved oversittelse av fristen i annet ledd kan klageinstansen etter reglene i forvaltningsloven § 31 vedta at tingretten tar saken til behandling. Vedtak om fristoversittelsen kan ankes til tingretten.
->
 
 ### 2012-06-22 — lov/2012-06-22-46
 
@@ -629,6 +669,13 @@ refid: "lov/1994-08-05-55"
 >
 
 ## § 6-1
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 6-1 første ledd annet punktum skal lyde:*
+
+> Smittevernhjelp er å anse som en del av rett til nødvendig helsehjelp fra kommunehelsetjenesten og spesialisthelsetjenesten, jf. pasientrettighetsloven § 2-1 første og annet ledd.
+>
 
 ### 2003-08-29 — lov/2003-08-29-87
 
@@ -722,6 +769,19 @@ refid: "lov/1994-08-05-55"
 
 ## § 7-3
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 7-3 skal lyde:*
+
+> § 7-3.Det regionale helseforetakets ansvar
+>
+> Det regionale helseforetaket skal sørge for at befolkningen i helseregionen med hensyn til smittsom sykdom er sikret nødvendig spesialistundersøkelse, laboratorieundersøkelse, poliklinisk behandling og sykehusbehandling, forsvarlig isolering i sykehus, og annen spesialisthelsetjeneste.
+>
+> Det regionale helseforetaket skal utarbeide en plan om det regionale helseforetakets tiltak og tjenester for å forebygge smittsomme sykdommer eller motvirke at de blir overført.
+>
+> Det regionale helseforetaket skal utpeke en sykehuslege som kan gjøre vedtak etter §§ 4-2 og 5-8 sammen med kommunelegen.
+>
+
 ### 2019-06-21 — lov/2019-06-21-46
 
 *§ 7-3 overskriften skal lyde:*
@@ -787,6 +847,15 @@ refid: "lov/1994-08-05-55"
 > § 7-5.Smittevernnemnda
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 7-5 første og annet ledd skal lyde:*
+
+> Gjennomføring av tiltak med tvang etter denne lovs §§ 5-2 og 5-3 avgjøres av smittevernnemnda. Smittevernnemnda er den av barneverns- og helsenemndene, jf. barnevernsloven § 14-1, som departementet utpeker til denne oppgaven. Når det foreligger et alvorlig utbrudd av allmennfarlig smittsom sykdom, jf. § 1-3 nr. 4, kan flere nemnder utpekes til smittevernnemnder.
+>
+> Reglene i barnevernsloven kapittel 14 gjelder i den utstrekning annet ikke fremgår av loven her.
+>
+
 ## § 7-6
 
 ### 2003-08-29 — lov/2003-08-29-87
@@ -814,6 +883,13 @@ refid: "lov/1994-08-05-55"
 *§ 7-6 første ledd skal lyde:*
 
 > Smittevernnemnda settes sammen etter reglene i barnevernloven § 7-2.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 7-6 første ledd skal lyde:*
+
+> Smittevernnemnda settes sammen etter reglene i barnevernsloven § 14-2.
 >
 
 ## § 7-7
@@ -844,6 +920,13 @@ refid: "lov/1994-08-05-55"
 > Folkehelseinstituttet skal overvåke den nasjonale epidemiologiske situasjonen og delta i overvåkingen av den internasjonale epidemiologiske situasjonen, utføre helseanalyser, drive forskning på smittevernområdet og sikre nødvendig vaksineforsyning og vaksineberedskap. Folkehelseinstituttet kan behandle helseopplysninger og andre personopplysninger som er nødvendig for å gjennomføre disse oppgavene.
 >
 > Folkehelseinstituttet skal gi faglig bistand, råd, veiledning og informasjon til kommunale, fylkeskommunale og statlige institusjoner, helsepersonell og befolkningen om smittsomme sykdommer, smittevern og valg av smitteverntiltak. Dette skal gis i forbindelse medsamordning, oppklaring og kontroll av utbrudd av smittsom sykdom i og utenfor helseinstitusjoner,antimikrobiell resistensutvikling,relevante laboratorieundersøkelser,skadedyrbekjempelse og entomologi.
+>
+
+### 2020-06-19 — lov/2020-06-19-80
+
+*§ 7-9 første ledd første punktum skal lyde:*
+
+> Folkehelseinstituttet er statens smitteverninstitutt.
 >
 
 ### 2023-12-20 — lov/2023-12-20-106
@@ -929,6 +1012,23 @@ refid: "lov/1994-08-05-55"
 > § 7-10 a.Statens helsetilsyn
 >
 
+## § 7-11
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 7-11 skal lyde:*
+
+> § 7-11.Forskrifter om organisering, samarbeid, oppgaver, utgiftsfordeling og smittevernberedskap
+>
+> Departementet kan i forskrift gi bestemmelser om samarbeid, og om hvilket ansvar og hvilke oppgaver kommuner, fylkeskommuner og regionale helseforetak skal ha etter denne loven, kommunehelsetjenesteloven og lov om spesialisthelsetjenesten m.m. i forbindelse med smittsomme sykdommer.
+>
+> Departementet kan bestemme at lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap helt eller delvis skal gjelde på tilsvarende måte når det er påkrevd av hensyn til smittevernet, bl.a for å kunne pålegge kommuner, fylkeskommuner, regionale helseforetak og helsepersonell nødvendig smittevernberedskap. Departementet kan i forskrift fastsette nærmere bestemmelser om beredskap og beredskapsplaner i forbindelse med et alvorlig utbrudd av en allmennfarlig smittsom sykdom.
+>
+
+### 2002-01-01 — lov/2001-05-18-24
+
+*§ 7-11 annet ledd første punktum oppheves.*
+
 ## § 8-1
 
 ### 2021-06-11 — lov/2021-06-11-66
@@ -980,6 +1080,83 @@ refid: "lov/1994-08-05-55"
 
 ## (annet)
 
+### 2002-01-01 — lov/2001-05-18-24
+
+*4 I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 2-3 lyde:*
+
+> § 2-3.Meldingsplikt for leger. Varslingsplikt for sykepleiere og jordmødre
+>
+> En lege som oppdager en smittet person, har meldingsplikt etter forskrifter gitt i medhold av fjerde ledd uten hinder av lovbestemt taushetsplikt. En sykepleier eller jordmor som i sin virksomhet oppdager en smittet person har varslingsplikt etter forskrifter gitt i medhold av fjerde ledd uten hinder av lovbestemt taushetsplikt.
+>
+> Den som etter første ledd mottar opplysninger undergitt taushetsplikt, har samme taushetsplikt som dem som gir opplysningene.
+>
+> Når en lege som er meldingspliktig etter bestemmelsen i første ledd, gir en melding som identifiserer en person, skal legen informere den meldingen angår, om hvem som skal få meldingen og hva den skal brukes til.
+>
+> Kongen i Statsråd kan gi forskrifter om behandling av helseopplysninger, herunder om bruk av navn, fødselsnummer eller andre personidentifiserende kjennetegn i samsvar med helseregisterloven. Forskriftene skal angi formålet med behandlingen av opplysningene, og hvilke smittsomme sykdommer som skal meldes eller varsles. Kongen i Statsråd kan også gi forskrifter om meldingsplikt for bivirkninger av forebyggende tiltak, og om undersøkelse, behandling og andre tiltak etter loven. Kongen kan gi nærmere bestemmelser om hvem som skal melde eller varsle, og om formkrav, meldingsskjemaer og frister for meldingene og varslene, herunder om hvem som kan eller skal motta meldinger og varsler.
+>
+> Uten samtykke fra departementet kan verken private eller offentlige sette i verk meldingsordninger for smittsomme sykdommer hos mennesker. Dette gjelder ikke interne systemer.
+>
+> Ved utbrudd av allmennfarlig smittsom sykdom, eller når det er fare for slikt utbrudd, og når det er nødvendig av hensyn til smittevernet, kan Statens helsetilsyn med øyeblikkelig virkning pålegge personer som nevnt i første ledd midlertidige meldings- og varslingsplikter som fraviker fra forskrifter etter fjerde ledd uten hinder av lovbestemt taushetsplikt.
+>
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*112. I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 7-6 tredje ledd lyde:*
+
+> Smittevernnemndas medlemmer og sekretariat har taushetsplikt i samsvar med bestemmelsene i helsepersonelloven kapittel 5.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*165. I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 8-1 lyde:*
+
+> Med unntak av overtredelse av plikter etter § 5-1 eller plikter som omfattes av helsepersonellovgivningen, straffes forsettlig eller uaktsom overtredelse av loven her eller vedtak gitt med hjemmel i loven med bot eller fengsel inntil 2 år. Dersom overtredelsen har tap av menneskeliv eller betydelig skade på legeme eller helse som følge, er straffen bot eller fengsel inntil 4 år.
+>
+
+### 2011-06-24 — lov/2011-06-24-29
+
+*Nåværende fjerde ledd blir nytt tredje ledd og skal lyde:*
+
+> Mattilsynet skal straks underrette kommunelegen eller fylkesmannen ved mistanke om eller tilfelle av smittsom dyresykdom som kan utgjøre en fare for mennesker eller ved mistanke om smittsom sykdom som formidles til mennesker via næringsmidler.
+>
+
+### 2012-01-01 — forskrift/2011-06-24-637
+
+*Loven trer i kraft fra 1. januar 2012.*
+
+> Loven trer i kraft fra 1. januar 2012.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1732
+
+*Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.*
+
+> Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.
+>
+> Lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger (helseregisterloven) trer i kraft 1. januar 2015.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2017-03-03 — forskrift/2017-03-03-242
+
+*Ikraftsetting av endringsloven. Endringsloven trer i kraft straks.*
+
+> Ikraftsetting av endringsloven. Endringsloven trer i kraft straks.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
 ### 2019-06-21 — lov/2019-06-21-46
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
@@ -987,6 +1164,31 @@ refid: "lov/1994-08-05-55"
 ### 2019-06-21 — lov/2019-06-21-46
 
 *Nåværende § 5-9 andre ledd blir nytt tredje ledd.*
+
+### 2019-07-01 — forskrift/2019-06-21-808
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-06-19 — lov/2020-06-19-80
+
+*Nåværende § 7-9 første ledd første og andre punktum blir første ledd andre og nytt tredje punktum.*
+
+### 2020-06-19 — forskrift/2020-06-19-1234
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. juli 2020, med unntak av § 10 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. juli 2020, med unntak av § 10 som trer i kraft straks.
+>
 
 ### 2020-06-23 — lov/2020-06-23-112
 
@@ -1004,6 +1206,13 @@ refid: "lov/1994-08-05-55"
 > Kongen kan for å forebygge eller motvirke overføring av covid-19 gi forskrift om hvor og hvordan personer som reiser inn til Norge, skal gjennomføre karantene. Kongen kan også gi forskrift om egenandel for personer i karantene eller deres arbeids- eller oppdragsgiver til dekning av kostnader ved karanteneopphold.
 >
 > Kongen kan gi forskrift om saksbehandlingsregler for vedtak gitt i medhold av forskrift etter andre ledd. Det kan her gjøres unntak fra forvaltningsloven kapittel IV, V og VI.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-11 — lov/2021-06-11-66
@@ -1097,6 +1306,13 @@ refid: "lov/1994-08-05-55"
 > Når sykdommen covid-19 utløst av SARS-CoV-2 regnes som en allmennfarlig smittsom sykdom, jf. § 1-4, kan departementet gi forskrifter for hele eller deler av landet om bruk av koronasertifikat som dokumentasjon når vaksinasjonsstatus, gjennomgått covid-19 eller testresultat inngår i avgrensningen av smitteverntiltak etter loven. Bestemmelser om at koronasertifikat er eneste aksepterte dokumentasjon, kan bare fastsettes når det anses nødvendig med effektiv og sikker verifikasjon, og det etter smitteverntiltakets art og forholdene ellers ikke vil være uforholdsmessig.
 >
 
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-106
 
 *Noverande andre og tredje ledd blir tredje og fjerde ledd.*
@@ -1112,6 +1328,13 @@ refid: "lov/1994-08-05-55"
 
 *Noverande femte ledd blir nytt sjette ledd.*
 
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
 ### 2024-01-12 — lov/2024-01-12-3
 
 *I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal ny § 4-3 a lyde:*
@@ -1121,6 +1344,28 @@ refid: "lov/1994-08-05-55"
 > Ved alvorlig utbrudd av en allmennfarlig smittsom sykdom, jf. § 1-3 nr. 3 og 4, kan Kongen, for å forebygge eller motvirke overføring av sykdommen, gi forskrift omisolering for smittede personer, jf. § 1-3 nr. 2, ogsmittekarantene for personer som har økt risiko for å være smittet av den allmennfarlige smittsomme sykdommen etter nærkontakt med en smittet eller antatt smittet person, eller annen smittekilde.
 >
 > Kongen kan i forskrift fastsette andre begrensninger i bevegelsesfriheten for personer som omfattes av første ledd, og nærmere krav til undersøkelser i forbindelse med, eller til erstatning for, isolering, smittekarantene eller begrensninger i bevegelsesfriheten.
+>
+
+### 2024-01-12 — forskrift/2024-01-12-59
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2024-06-01 — forskrift/2024-04-26-746
+
+*Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:*
+
+> Delt ikraftsetting av lov 28. april 2023 nr. 9 om endringer i pasient- og brukerrettighetsloven mv. (pasientforløp i spesialisthelsetjenesten). Følgende trer i kraft 1. juni 2024:
+>
+> Endringsloven del I
+>
+> Endringsloven del II
+>
+> Endringsloven del III med unntak av § 7-4 andre ledd
+>
+> Endringsloven del V.
 >
 
 ## § 1

@@ -14,13 +14,48 @@ refid: "lov/2007-06-15-40"
 > 263. I lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) gjøres følgende endring:
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 8-9 tredje punktum oppheves.*
+
+> 224. I lov 29. juni 2007 nr. 74 om regulerte markeder gjøres følgende endring:
+>
+
 ## (annet)
+
+### 2013-04-05 — lov/2013-04-05-12
+
+*52. I lov 15. juni 2007 nr. 40 om reindrift skal § 10 tredje ledd annet punktum lyde:*
+
+> Mindreårige barn hvis foreldre ikke lever sammen, har likevel adgang til å eie rein i siidaandel både hos fars slekt og hos mors slekt.
+>
+
+### 2014-01-01 — forskrift/2013-06-14-646
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
 
 ### 2014-03-28 — lov/2014-03-28-9
 
 *I lov 15. juni 2007 nr. 40 om reindrift skal § 23 annet ledd annet punktum lyde:*
 
 > Motorisert ferdsel eller flyging inn i område vernet i medhold av naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, skal foregå i samsvar med fastsatte forskrifter om vern.
+>
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2016-06-17 — lov/2016-06-17-70
@@ -53,11 +88,39 @@ refid: "lov/2007-06-15-40"
 
 *Nåværende §§ 81 til 83 blir §§ 82 til 84.*
 
+### 2017-01-01 — forskrift/2016-12-16-1645
+
+*Lov 16. september 2016 nr. 81 om endringer i reindriftsloven mv. (reingjerde mot Finland m.m.) trer i kraft 1. januar 2017.*
+
+> Lov 16. september 2016 nr. 81 om endringer i reindriftsloven mv. (reingjerde mot Finland m.m.) trer i kraft 1. januar 2017.
+>
+
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
 ### 2020-01-01 — forskrift/2019-06-21-785
 
 *Delt ikraftsetting. Loven del I for så vidt gjelder endringer i reindriftsloven § 18 tredje ledd trer i kraft fra 1. januar 2020.*
 
 > Delt ikraftsetting. Loven del I for så vidt gjelder endringer i reindriftsloven § 18 tredje ledd trer i kraft fra 1. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
 >
 
 ### 2023-06-09 — lov/2023-06-09-32
@@ -93,6 +156,13 @@ refid: "lov/2007-06-15-40"
 > Distriktsstyret, siidastyret, lederen av en siidaandel eller lederen av en sideordnet rekrutteringsandel kan kreve jordskifte med de virkemidlene som følger av jordskiftelova §§ 3-4, 3-8, 3-9 og 3-10.
 >
 > Jordskiftesak etter tredje ledd kan kreves uten hinder av jordskiftelova § 3-37, dersom det foreligger særlig endrede forhold.
+>
+
+### 2025-07-01 — forskrift/2025-06-06-946
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ## § 10
@@ -203,6 +273,13 @@ refid: "lov/2007-06-15-40"
 > Ommerking straffes etter reglene i straffeloven kapittel 29.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 35 annet ledd skal lyde:*
+
+> Ommerking straffes etter reglene i straffeloven kapittel 27.
+>
+
 ## § 37
 
 ### 2013-06-14 — lov/2013-06-14-45
@@ -242,6 +319,10 @@ refid: "lov/2007-06-15-40"
 ## § 48
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 48 fjerde ledd oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 48 fjerde ledd oppheves.*
 
@@ -524,6 +605,15 @@ refid: "lov/2007-06-15-40"
 > Også uaktsom overtredelse er straffbar.
 >
 > 262. I lov 29. juni 2007 nr. 73 om eiendomsmegling gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 80 annet punktum oppheves. Nåværende tredje punktum blir annet punktum og skal lyde:*
+
+> Også uaktsom overtredelse er straffbar.
+>
+> 223. I lov 29. juni 2007 nr. 73 om eiendomsmegling gjøres følgende endring:
 >
 
 ## § 82 a

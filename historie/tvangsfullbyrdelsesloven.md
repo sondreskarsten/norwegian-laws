@@ -7,6 +7,13 @@ refid: "lov/1992-06-26-86"
 
 ## § 1-2
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 1-2 annet ledd skal lyde:*
+
+> Pengekrav mot en kommune, fylkeskommune, et interkommunalt selskap, regionalt helseforetak eller helseforetak kan ikke tvangsfullbyrdes etter kapittel 7 eller sikres etter kapittel 14, jf. kommuneloven § 52, lov om interkommunale selskaper § 23 og lov 15. juni 2001 nr. 93 om helseforetak § 5.
+>
+
 ### 2007-02-27 — lov/2007-01-26-3
 
 *§ 1-2 første ledd annet punktum oppheves. I annet ledd fjernes ordene «eller sikres etter kapittel 14».*
@@ -39,6 +46,20 @@ refid: "lov/1992-06-26-86"
 *§ 1-2 andre ledd skal lyde:*
 
 > Pengekrav mot en kommune, fylkeskommune, et interkommunal selskap, regionalt helseforetak eller helseforetak kan ikke tvangsfullbyrdes etter kapittel 7, jf. kommuneloven § 55, lov om interkommunale selskaper § 23 og helseforetaksloven § 5.
+>
+
+### 2019-06-21 — lov/2019-06-21-31
+
+*§ 1-2 Overskriften skal lyde:*
+
+> § 1-2.Krav mot staten, fylkeskommuner, kommuner, samkommuner, interkommunale selskaper, regionale helseforetak, helseforetak og Norges Bank
+>
+
+### 2019-06-21 — lov/2019-06-21-31
+
+*§ 1-2 nytt tredje ledd skal lyde:*
+
+> Krav mot Norges Bank kan ikke tvangsfullbyrdes.
 >
 
 ## § 1-3
@@ -95,7 +116,11 @@ refid: "lov/1992-06-26-86"
 
 *§ 1-9 bokstav b til d skal lyde:*
 
-> Et krav som gjelder bruksrett eller servitutt over løsøre, anses for å være både der løsøregjenstanden er og der rettighetshaveren har alminnelig verneting. Dersom rettighetshaveren ikke har alminnelig verneting i riket, anses kravet dessuten for å være der eieren av løsøret har alminnelig verneting.Et krav som er knyttet til verdipapir, anses for å være der verdipapiret er.Et krav av annen art anses for å være der kravshaveren har alminnelig verneting. Dersom kravshaveren ikke har alminnelig verneting i riket, anses et krav som en bestemt person er forpliktet til å oppfylle, for å være der den forpliktede har alminnelig verneting. Dersom rettighetshaveren ikke har alminnelig verneting i riket, anses en immaterialrettighet som er registrert i et særskilt register, for å være der den registrerte fullmektig har alminnelig verneting. Finnes ingen registrert fullmektig med alminnelig verneting i riket, anses immaterialrettigheten for å være der registeret føres.
+> Et krav som gjelder bruksrett eller servitutt over løsøre, anses for å være både der løsøregjenstanden er og der rettighetshaveren har alminnelig verneting. Dersom rettighetshaveren ikke har alminnelig verneting i riket, anses kravet dessuten for å være der eieren av løsøret har alminnelig verneting.
+>
+> Et krav som er knyttet til verdipapir, anses for å være der verdipapiret er.
+>
+> Et krav av annen art anses for å være der kravshaveren har alminnelig verneting. Dersom kravshaveren ikke har alminnelig verneting i riket, anses et krav som en bestemt person er forpliktet til å oppfylle, for å være der den forpliktede har alminnelig verneting. Dersom rettighetshaveren ikke har alminnelig verneting i riket, anses en immaterialrettighet som er registrert i et særskilt register, for å være der den registrerte fullmektig har alminnelig verneting. Finnes ingen registrert fullmektig med alminnelig verneting i riket, anses immaterialrettigheten for å være der registeret føres.
 >
 
 ## § 1-10
@@ -288,7 +313,25 @@ refid: "lov/1992-06-26-86"
 > Krav om erstatning etter denne paragrafen kan gjøres gjeldende for tingretten i en sak om opphevelse av sikringen, eller ved ordinært søksmål etter tvistemålslovens regler.
 >
 
+### 2003-05-09 — lov/2003-05-09-31
+
+*§ 3-5 første ledd nytt tredje punktum skal lyde:*
+
+> Ved midlertidige forføyninger til sikring av hovedkrav som bygger på at bestemmelser som ivaretar miljøhensyn, er overtrådt, og som er besluttet på grunnlag av at kravet er sannsynliggjort, jf. § 15-6 første ledd, og etter muntlig forhandling, jf. § 15-7 første ledd, plikter saksøkeren bare å erstatte skade som nevnt i første punktum dersom denne visste eller burde vite at kravet ikke besto da sikringen ble besluttet.
+>
+
 ## § 4-1
+
+### 2004-05-14 — lov/2004-05-14-25
+
+*§ 4-1 annet ledd bokstav d, e og f skal lyde:*
+
+> voldgiftsdom etter voldgiftsloven og avgjørelser som ellers er tvangskraftige etter voldgiftsloven § 39,
+>
+> rettsforlik for norsk domstol og stadfestet forlik etter voldgiftsloven § 35,
+>
+> avgjørelse av utenlandsk domstol eller annen utenlandsk myndighet, utenlandsk offentlig forlik og voldgiftsdom, som etter lov eller overenskomst med fremmed stat vil være bindende og skal kunne fullbyrdes her i riket,
+>
 
 ### 2007-02-27 — lov/2007-01-26-3
 
@@ -311,6 +354,15 @@ refid: "lov/1992-06-26-86"
 > (3) Når krav på erstatning for sakskostnader i rettergang er fastsatt i et alminnelig tvangsgrunnlag etter annet ledd bokstav a, b, d og e, omfatter grunnlaget også forsinkelsesrente av kravet etter forsinkelsesrenteloven.
 >
 > (4) Et alminnelig eller særlig tvangsgrunnlag for krav på forsinkelsesrente etter forsinkelsesrenteloven gir for den del av kravet som har oppstått etter grunnlaget, fordringshaveren rett til dekning etter den rentesats som gjelder etter §§ 3 og 4 i loven. Er det ikke sannsynliggjort om grunnlaget gir rett til alminnelig forsinkelsesrente eller forsinkelsesrente i forbrukerforhold, beregnes kravet etter laveste sats.
+>
+
+## § 4-2
+
+### 2004-05-14 — lov/2004-05-14-25
+
+*§ 4-2 nytt fjerde ledd skal lyde:*
+
+> For innvendinger mot et krav som er fastslått i voldgiftsdom, gjelder voldgiftsloven kapittel 10.
 >
 
 ## § 4-6
@@ -672,7 +724,7 @@ refid: "lov/1992-06-26-86"
 
 *§ 7-2 bokstav d skal lyde:*
 
-> Beslutning om tvangsmulkt,administrativ sanksjoneller disiplinærstraff truffet av offentlig myndighet med hjemmel i lov.Beslutningen er også tvangsgrunnlag for renter og utenrettslige inndrivingskostnader.
+> Beslutning om tvangsmulkt, administrativ sanksjon eller disiplinærstraff truffet av offentlig myndighet med hjemmel i lov. Beslutningen er også tvangsgrunnlag for renter og utenrettslige inndrivingskostnader.
 >
 
 ### 2017-03-31 — lov/2017-03-31-14
@@ -684,6 +736,20 @@ refid: "lov/1992-06-26-86"
 > Tvangsgrunnlag for utlegg er foruten de alminnelige tvangsgrunnlagene:Gjeldsbrev som lyder på en bestemt pengesum og som inneholder vedtakelse av at gjelden kan inndrives uten søksmål. Gjeldsbrevet er tvangsgrunnlag overfor utstederen når vedkommendes underskrift er bekreftet av to myndige vitner eller i samsvar med forskrift gitt av Kongen. Gjeldsbrevet er også tvangsgrunnlag overfor enhver som ved påskrift på gjeldsbrevet har påtatt seg selvskyldneransvar ved en overdragelse eller stilt seg som selvskyldnerkausjonist eller som kausjonist på forfallsvilkår som nevnt i finansavtaleloven § 71, forutsatt at påskriften inneholder vedtakelse av inndriving uten søksmål, og at vedkommendes underskrift er bekreftet som nevnt ovenfor.Veksler for krav som nevnt i vekselloven §§ 47 til 49 jf § 77.Sjekker for krav som nevnt i sjekkloven §§ 44 til 46.Beslutning om tvangsmulkt eller disiplinærstraff truffet av offentlig myndighet med hjemmel i lov.Krav som etter særlig lovbestemmelse er tvangsgrunnlag for utlegg.Skriftlig meddelelse som fordringshaveren selv har sendt skyldneren og som viser kravets grunnlag og omfang.Elektronisk gjeldserklæring som lyder på en bestemt pengesum, når erklæringen er avgitt til foretak med rett til å drive finansieringsvirksomhet etter finansforetaksloven § 2-1 eller til institusjon som nevnt i finansforetaksloven § 1-6 første ledd, og erklæringen inneholder vedtakelse av at gjelden kan inndrives uten søksmål, samt elektronisk erklæring om kausjonsansvar som selvskyldner eller på forfallsvilkår som nevnt i finansavtaleloven § 71 for en slik forpliktelse når kausjonserklæringen er avgitt til foretak eller institusjon som nevnt og inneholder vedtakelse av inndrivelse uten søksmål.
 >
 > Tvangsgrunnlag som nevnt i første ledd er også tvangsgrunnlag for utenrettslige inndrivingskostnader og renter med mindre annet følger av lov eller tvangsgrunnlaget.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 7-2 første ledd bokstav a tredje punktum skal lyde:*
+
+> Gjeldsbrevet er også tvangsgrunnlag overfor enhver som ved påskrift på gjeldsbrevet har påtatt seg selvskyldneransvar ved en overdragelse eller stilt seg som selvskyldnerkausjonist eller som kausjonist på forfallsvilkår som nevnt i finansavtaleloven § 6-10, forutsatt at påskriften inneholder vedtakelse av inndriving uten søksmål, og at vedkommendes underskrift er bekreftet som nevnt ovenfor.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 7-2 første ledd bokstav g skal lyde:*
+
+> Elektronisk gjeldserklæring som lyder på en bestemt pengesum, når erklæringen er avgitt til foretak med rett til å drive finansieringsvirksomhet etter finansforetaksloven § 2-1 eller til institusjon som nevnt i finansforetaksloven § 1-6 første ledd, og erklæringen inneholder vedtakelse av at gjelden kan inndrives uten søksmål, samt elektronisk erklæring om kausjonsansvar som selvskyldner eller på forfallsvilkår som nevnt i finansavtaleloven § 6-10 for en slik forpliktelse når kausjonserklæringen er avgitt til foretak eller institusjon som nevnt og inneholder vedtakelse av inndrivelse uten søksmål.
 >
 
 ## § 7-3
@@ -713,7 +779,9 @@ refid: "lov/1992-06-26-86"
 
 *§ 7-3 annet ledd første punktum bokstav a og d og annet punktum skal lyde:*
 
-> det er sannsynlig at det ikke vil være tilstrekkelige eller hensiktsmessige formuesgoder å ta utlegg i i det distrikt der saksøkte har alminnelig verneting,saksøkte ikke har kjent alminnelig verneting i riket,For saksøkte som har kjent alminnelig verneting i riket, kan utleggstrekk bare besluttes av namsmannen i det distrikt der saksøkte har alminnelig verneting.
+> det er sannsynlig at det ikke vil være tilstrekkelige eller hensiktsmessige formuesgoder å ta utlegg i i det distrikt der saksøkte har alminnelig verneting,
+>
+> saksøkte ikke har kjent alminnelig verneting i riket,
 >
 
 ## § 7-4
@@ -815,6 +883,13 @@ refid: "lov/1992-06-26-86"
 > Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i et verdipapirregister, aksjer og adkomstdokumenter til leierett eller borett til husrom som saksøkte er registrert eller meldt som eier av.
 >
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 7-13 første ledd annet punktum skal lyde:*
+
+> Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i en verdipapirsentral, aksjer og adkomstdokumenter til leierett eller borett til husrom som saksøkte er registrert eller meldt som eier av.
+>
+
 ## § 7-14
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -829,6 +904,13 @@ refid: "lov/1992-06-26-86"
 *§ 7-14 annet punktum skal lyde:*
 
 > Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i et verdipapirregister, aksjer og adkomstdokumenter til leierett eller borett til husrom som en tredjeperson er registrert eller meldt som eier av.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 7-14 annet punktum skal lyde:*
+
+> Det samme gjelder realregistrerte formuesgoder, finansielle instrumenter registrert i en verdipapirsentral, aksjer og adkomstdokumenter til leierett eller borett til husrom som en tredjeperson er registrert eller meldt som eier av.
 >
 
 ## § 7-19
@@ -894,6 +976,15 @@ refid: "lov/1992-06-26-86"
 *§ 7-20 sjuende ledd første punktum skal lyde:*
 
 > Ved utlegg i adkomstdokumenter til leierett eller borett til husrom underretter namsmannen vedkommende utleier eller selskap, jf. panteloven § 5-8.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 7-20 fjerde og femte ledd skal lyde:*
+
+> Ved utlegg i finansielle instrumenter som er registrert i en verdipapirsentral, registrerer namsmannen omgående at bare namsmannen kan disponere kontoen.
+>
+> Ved utlegg i aksjer som ikke er registrert i en verdipapirsentral, underretter namsmannen, dersom det lar seg gjøre, snarest selskapet og forbyr selskapet å betale eller yte til saksøkte.
 >
 
 ## § 7-21
@@ -1040,6 +1131,13 @@ refid: "lov/1992-06-26-86"
 > Den som har salgspant i løsøre som ikke kan realregistreres, kan begjære pantet tilbakelevert etter dette kapitlet når det foreligger tvangskraftig tvangsgrunnlag og vilkårene for krav etter finansavtaleloven § 52 er oppfylt. Ved kjøp på kreditt i forbrukerforhold kan saksøkte kreve at saksøkeren tar tingen tilbake etter reglene i dette kapitlet før saksøkeren på annen måte søker dekning for kravet. Dette gjelder likevel ikke når tingen ikke finnes hos saksøkte, eller når det er fare for at saksøkeren ikke vil få full dekning ved å ta tingen tilbake på grunn av at tingen har vært utsatt for uvanlig verdiminking som skyldes saksøkte eller forhold som saksøkte har risikoen for.
 >
 
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 9-1 første punktum skal lyde:*
+
+> Den som har salgspant i løsøre som ikke kan realregistreres, kan begjære pantet tilbakelevert etter dette kapitlet når det foreligger tvangskraftig tvangsgrunnlag og vilkårene for krav etter finansavtaleloven § 3-51 er oppfylt.
+>
+
 ## § 9-2
 
 ### 2010-05-07 — lov/2010-05-07-15
@@ -1060,6 +1158,15 @@ refid: "lov/1992-06-26-86"
 *§ 9-2 første ledd skal lyde:*
 
 > Grunnlag for tilbakelevering er foruten de alminnelige tvangsgrunnlag avtale om salgspant når panteretten har rettsvern etter panteloven § 3-17 og avtalen inneholder opplysninger som nevnt i finansavtaleloven § 46 a første ledd bokstav f til h og k til o.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 9-2 første og annet ledd skal lyde:*
+
+> Grunnlag for tilbakelevering er foruten de alminnelige tvangsgrunnlag avtale om salgspant når panteretten har rettsvern etter panteloven § 3-17 og avtalen inneholder opplysninger som nevnt i finansavtaleloven § 3-28 bokstav a og c og § 3-34 første ledd bokstav b og bokstav d til g.
+>
+> Ved kjøp på kreditt i forbrukerforhold må dessuten bestemmelser om minste kontantinnsats med hjemmel i finansavtaleloven § 5-6 være overholdt.
 >
 
 ## § 9-3
@@ -1158,6 +1265,22 @@ refid: "lov/1992-06-26-86"
 > Tvangsdekningen gjennomføres i samsvar med avsnitt II til VI, og for øvrig på den måte som antas å ville gi størst utbytte.
 >
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 10-3 første ledd fjerde punktum skal lyde:*
+
+> Ved begjæring om dekning i finansielle instrumenter som er registrert i en verdipapirsentral eller immaterialrettigheter som kan registreres i særskilt register, skal utskrift fra vedkommende verdipapirsentral eller register legges ved begjæringen istedenfor utskrift fra Løsøreregisteret.
+>
+
+## § 10-4
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 10-4 første ledd første punktum skal lyde:*
+
+> Tvangsdekning i omsettelige verdipapirer som nevnt i verdipapirhandelloven § 2-4 og i finansielle instrumenter som er registrert i en verdipapirsentral, skjer ved salg av formuesgodet gjennom medhjelper.
+>
+
 ## § 10-6
 
 ### 2016-04-22 — lov/2016-04-22-3
@@ -1207,6 +1330,13 @@ refid: "lov/1992-06-26-86"
 
 ## § 11-1
 
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 11-1 nytt fjerde ledd skal lyde:*
+
+> Tvangsbruk kan ikke begjæres for akvakulturtillatelser.
+>
+
 ### 2016-04-22 — lov/2016-04-22-3
 
 *§ 11-1 femte ledd skal lyde:*
@@ -1215,20 +1345,24 @@ refid: "lov/1992-06-26-86"
 >
 > Fjerde ledd vedtatt ved lov 6. juni 2003 nr. 39 og fjerde ledd vedtatt ved lov 17. juni 2005 nr. 79 oppheves.
 >
-> 18. I lov 24. juni 1994 nr. 38 om gjennomføring i norsk rett av De forente nasjoners sikkerhetsråds vedtak om å opprette internasjonale domstoler for forbrytelser i det tidligere Jugoslavia og Rwanda skal § 7 lyde:
->
-> § 7.Straff for uriktig forklaring
->
-> Om straffansvar for uriktig forklaring for Domstolen gjelder straffeloven § 221 tilsvarende.
->
-> 19. I lov 4. august 1995 nr. 53 om politiet skal § 24 c fjerde og femte ledd lyde:
->
-> Studentene plikter å avlegge dopingprøve etter nærmere regler gitt av departementet. Bruk av ulovlige dopingmidler eller nektelse av å medvirke til dopingkontroll kan føre til utvisning eller utestengning for inntil tre år.
->
-> Vedtak om utvisning, bortvisning eller utestengning kan påklages til departementet etter reglene i forvaltningsloven. Studenten har rett til å la seg bistå av advokat eller annen medhjelper fra skikkethetssak eller sak om bortvisning eller utestengning er reist, eventuelt etter at advarsel etter annet ledd er gitt.
+
+## § 11-2
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 11-2 første ledd bokstav c skal lyde:*
+
+> lovbestemt panterett for skatt eller avgifter til stat eller kommune eller for sameiets krav etter sameieforholdet i seksjonssameier, lovbestemt pant etter akvakulturloven § 20, fjerde ledd, og
 >
 
 ## § 11-3
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 11-3 nytt tredje ledd skal lyde:*
+
+> Begjæring om tvangsdekning i akvakulturtillatelsen skal settes fram for tingretten ved hjemtinget til den som er registrert som innehaver, eller ved den rettskrets hvor akvakulturtillatelsen er registrert dersom innehaver av tillatelsen ikke har hjemting i Norge.
+>
 
 ### 2007-02-27 — lov/2007-01-26-3
 
@@ -1272,6 +1406,15 @@ refid: "lov/1992-06-26-86"
 *§ 11-25 første ledd andre punktum skal lyde:*
 
 > Kjøpsinteresserte skal gis adgang til å besiktige formuesgodet i samsvar med vanlig praksis ved frivillig omsetning, jf. § 5-9.
+>
+
+## § 11-31
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 11-31 nytt femte ledd skal lyde:*
+
+> Når kjøper av akvakulturtillatelse har betalt kjøpesummen, eventuelt med tillegg av renter, skal retten sørge for at kjøper straks blir innført i akvakulturregisteret.
 >
 
 ## § 11-33
@@ -1513,6 +1656,15 @@ refid: "lov/1992-06-26-86"
 > Det skal opplyses at fullbyrdelsen kan unngås ved at kravet blir oppfylt innen fristen etter første punktum, eller når fullbyrdelsen er begjært etter § 13-2 annet ledd bokstav a eller tredje ledd bokstav a, ved at leien, utenrettslige inndrivingskostnader, sakskostnader og forfalt leie fram til betalingstidspunktet, med renter, blir betalt innen fristen.
 >
 
+## § 15-6
+
+### 2003-05-09 — lov/2003-05-09-31
+
+*§ 15-6 nytt tredje ledd skal lyde:*
+
+> Ved midlertidige forføyninger til sikring av hovedkrav som bygger på at bestemmelser som ivaretar miljøhensyn, er overtrådt, kan saksøkeren ikke pålegges å stille sikkerhet som nevnt i første ledd dersom den midlertidige forføyningen er besluttet etter muntlig forhandling og kravet er sannsynliggjort.
+>
+
 ## (annet)
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -1538,6 +1690,27 @@ refid: "lov/1992-06-26-86"
 ### 2001-06-15 — lov/2001-06-15-60
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*Overskriften til § 1-2 skal lyde:*
+
+> Krav mot staten, fylkeskommuner, kommuner, interkommunale selskaper, regionale helseforetak og helseforetak.
+>
+
+### 2004-03-26 — lov/2004-03-26-17
+
+*1. Lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring (tvangsfullbyrdelsesloven) § 1-3 annet ledd nytt fjerde punktum skal lyde:*
+
+> For finansiell sikkerhetsstillelse kan det inngås skriftlig avtale om realisasjon, jf. lov om finansiell sikkerhetsstillelse § 7.
+>
+
+### 2004-03-26 — lov/2004-03-26-17
+
+*2. Lov 6. desember 1996 nr. 75 om sikringsordninger for banker og offentlig administrasjon m.v. av finansinstitusjoner (banksikringsloven) § 4-6 første ledd bokstav e skal lyde:*
+
+> Dekningsloven og lov om finansiell sikkerhetsstillelse gjelder tilsvarende. Fristdagen er dagen for vedtaket om å sette institusjonen under administrasjon.
+>
 
 ### 2005-06-17 — lov/2005-06-17-84
 
@@ -1587,6 +1760,13 @@ refid: "lov/1992-06-26-86"
 
 *Tredje del, kapittel 14 og 15 oppheves. Nåværende fjerde del blir tredje del. Nåværende kapittel 16 blir kapittel 14. §§ 16-1 til 16-3 blir §§ 14-1 til 14-3.*
 
+### 2007-06-29 — lov/2007-06-29-74
+
+*3. I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring (tvangsfullbyrdelsesloven) skal § 1-3 annet ledd lyde:*
+
+> Før et krav er misligholdt, kan det ikke gyldig avtales at tvangsdekning skal skje på annen måte enn gjennom namsmyndighetene. For enkle pantsatte krav gjelder panteloven § 4-6. For verdipapirer som er notert på regulert marked og fondsaktiver kan det inngås forhåndsavtale om salg gjennom uavhengig megler. For finansiell sikkerhetsstillelse kan det inngås skriftlig avtale om realisasjon, jf. lov om finansiell sikkerhetsstillelse § 7.
+>
+
 ### 2007-09-01 — lov/2007-06-29-57
 
 *I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring (tvangsfullbyrdelsesloven) gjer ein følgjande endring:*
@@ -1625,6 +1805,20 @@ refid: "lov/1992-06-26-86"
 
 *Nåværende første, annet og tredje ledd blir nye annet, tredje og fjerde ledd.*
 
+### 2010-06-11 — forskrift/2010-05-07-653
+
+*Lov om endringer i finansavtaleloven mv. (gjennomføring av direktiv 2008/48/EF om kredittavtaler for forbrukere mv.) trer i kraft 11. juni 2010.*
+
+> Lov om endringer i finansavtaleloven mv. (gjennomføring av direktiv 2008/48/EF om kredittavtaler for forbrukere mv.) trer i kraft 11. juni 2010.
+>
+
+### 2011-04-01 — forskrift/2011-03-28-322
+
+*Cape Town-konvensjonen og protokollen trer i kraft for Norge 1. april 2011. Dermed trer også lov 12. november 2010 nr. 58 om internasjonale sikkerhetsretter i mobilt løsøre i kraft fra samme dato, jf. ikrafttredelsesbestemmelsen i lovens § 2, samt kgl.res. 12. november 2010 nr. 1421.*
+
+> Cape Town-konvensjonen og protokollen trer i kraft for Norge 1. april 2011. Dermed trer også lov 12. november 2010 nr. 58 om internasjonale sikkerhetsretter i mobilt løsøre i kraft fra samme dato, jf. ikrafttredelsesbestemmelsen i lovens § 2, samt kgl.res. 12. november 2010 nr. 1421.
+>
+
 ### 2011-12-15 — forskrift/2011-12-09-1194
 
 *Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 15. desember 2011 for så vidt gjelder utleggsforretninger som holdes av skattekontorene og skatteoppkreverne:*
@@ -1634,6 +1828,13 @@ refid: "lov/1992-06-26-86"
 > endringene i § 7-19, § 7-20 første ledd og tredje til ellevte ledd, § 7-21, § 7-25 og ny § 7-29.
 >
 > Nr. 1 gjelder for utleggsforretninger som holdes etter ikrafttredelsen.
+>
+
+### 2012-01-01 — forskrift/2011-12-16-1244
+
+*Ikraftsetting av lov 24. juni 2011 nr. 39 om elsertifikater. Loven trer i kraft 1. januar 2012.*
+
+> Ikraftsetting av lov 24. juni 2011 nr. 39 om elsertifikater. Loven trer i kraft 1. januar 2012.
 >
 
 ### 2012-05-25 — lov/2012-05-25-28
@@ -1654,6 +1855,39 @@ refid: "lov/1992-06-26-86"
 > Nr. 1 gjelder for utleggsforretninger som holdes etter ikrafttredelsen.
 >
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*Ny del I i kapittel 2 med §§ 2-1 til 2-13 skal ha overskriften «I. De alminnelige namsmyndighetene».*
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*Ny del II i kapittel 2 skal lyde:*
+
+> § 2-14.Statens innkrevingssentrals namskompetanse
+>
+> For de krav den har til innfordring og som det foreligger tvangsgrunnlag for, kan Statens innkrevingssentral beslutte utleggstrekk eller stifte utleggspant dersom panterett kan gis rettsvern ved registrering i et register eller ved underretning til tredjeperson, jf. panteloven kapittel 5, og utleggsforretningen kan holdes på innkrevingssentralens kontor etter § 7-9 første ledd.
+>
+> Når innkrevingssentralen selv har stiftet utleggspant i enkle pengekrav, kan den gjennomføre tvangsdekning i kravet etter reglene i kapittel 10 del III.
+>
+> Bestemmelsene i §§ 5-1 til 5-5 og §§ 7-3 til 7-8 gjelder ikke for Statens innkrevingssentral når den utøver myndighet etter første og annet ledd.
+>
+> Før utleggsforretning etter første ledd finner sted, skal saksøkte varsles med oppfordring om innen to uker å uttale seg om forhold av betydning for om utlegg skal tas og om valg av gjenstand for utlegget. Saksøkte skal i oppfordringen gjøres oppmerksom på hvilke kostnader som er påløpt, på at ytterligere kostnader vil påløpe om utlegg blir tatt, og på at utlegg kan unngås ved at kravet med renter og kostnader betales innen fristen etter første punktum. Det kan samtidig opplyses om tid og sted for avholdelse av utleggsforretning. Første og annet punktum gjelder tilsvarende når innkrevingssentralen gjennomfører tvangsdekning i enkle pengekrav etter annet ledd. Vil tvangsfullbyrdelsen ellers bli vesentlig vanskeliggjort, kan meddelelse til saksøkte unnlates.
+>
+> Statens innkrevingssentral kan begjære utlegg hos de alminnelige namsmyndighetene for krav den har til innfordring og som det foreligger tvangsgrunnlag for.
+>
+> § 2-15.Verneting ved klage
+>
+> Klage etter § 5-16 over Statens innkrevingssentrals avgjørelser og handlemåte under tvangsfullbyrdelsen avgjøres av tingretten for det distrikt der Statens innkrevingssentral ligger.
+>
+> § 2-16.Innhenting og videreformidling av opplysninger
+>
+> Statens innkrevingssentral kan uten hinder av taushetsplikt innhente og utlevere opplysninger om skyldnerens inntekts- og formuesforhold og om avholdte utleggsforretninger til bruk for andre namsmyndigheters tvangsfullbyrdelse.
+>
+> § 2-17.Frister. Elektronisk kommunikasjon
+>
+> §§ 2-7 og 2-13 gjelder tilsvarende for Statens innkrevingssentrals tvangsfullbyrdelse.
+>
+
 ### 2013-03-16 — forskrift/2013-03-15-273
 
 *1. Følgende bestemmelser i lov 17. juni 2005 nr. 89 om endringar i lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring og andre lover, avsnitt III, trer i kraft 16. mars 2013 for så vidt gjelder utleggsforretninger som holdes av Arbeids- og velferdsetatens innkrevingssentral og som bestemmelsene ikke allerede er satt i kraft for:*
@@ -1663,6 +1897,13 @@ refid: "lov/1992-06-26-86"
 > endringene i § 7-19, § 7-20 første ledd og tredje til ellevte ledd, § 7-21, § 7-25 og ny § 7-29
 >
 > 2. Nr. 1 gjelder for forretninger for utleggspant som holdes etter 16. mars 2013, og for forretninger for utleggstrekk også der trekk løper på dette tidspunktet.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
 >
 
 ### 2015-01-23 — lov/2015-01-23-4
@@ -1686,9 +1927,104 @@ refid: "lov/1992-06-26-86"
 
 *Nåværende § 10-13 blir § 10-14.*
 
+### 2015-07-01 — forskrift/2015-05-12-494
+
+*Lov 23. januar 2015 nr. 4 om endringer i panteloven m.m. (pant i patenter og planteforedlerretter) trer i kraft 1. juli 2015.*
+
+> Lov 23. januar 2015 nr. 4 om endringer i panteloven m.m. (pant i patenter og planteforedlerretter) trer i kraft 1. juli 2015.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-04-18 — forskrift/2017-03-31-414
+
+*Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.*
+
+> Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.
+>
+> Lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing) gjelder fra 18. april 2017, med følgende unntak:
+>
+> endringene i tinglysingsloven gjelder ikke for tinglysing i Akvakulturregisteret.
+>
+> endringene i tinglysingsloven § 7 første ledd første og annet punktum gjelder ikke for tinglysing i Løsøreregisteret.
+>
+> Frem til tinglysingsloven § 7 første ledd første og annet punktum som endret ved lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. trer i kraft for tinglysing i Løsøreregisteret, skal et dokument som kreves tinglyst i Løsøreregisteret, registreres snarest mulig. Dokument som kommer inn til kontoret elektronisk eller på papir innen klokken 14.00, skal anses som registrert den dato det er kommet inn. Kommer det senere, skal det anses som registrert den neste kontordagen. Er kontortiden enkelte dager slutt før kl. 14.00, opphører adgangen til innføring i registeret ved kontortidens slutt.
+>
+
 ### 2017-05-11 — lov/2017-05-11-26
 
 *Nåværende tredje punktum blir fjerde punktum.*
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2017-07-01 — forskrift/2017-06-09-713
+
+*Lov 27. mai 2016 nr. 15 om endringer i forvaltningsloven mv. (administrative sanksjoner mv.) trer i kraft 1. juli 2017.*
+
+> Lov 27. mai 2016 nr. 15 om endringer i forvaltningsloven mv. (administrative sanksjoner mv.) trer i kraft 1. juli 2017.
+>
+> Loven får anvendelse for vedtak som treffes etter ikraftsettingen. Endringene i forvaltningsloven § 44 til § 46, § 50 og § 51 får bare anvendelse på handlinger som begås etter ikraftsettingen.
+>
+> Rammer som nevnt i forvaltningsloven § 44 annet ledd første punktum må fastsettes innen 1. juli 2020.
+>
+> Loven får ikke anvendelse for saker etter konkurranseloven.
+>
+
+### 2018-01-01 — forskrift/2017-09-15-1393
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).
+>
+> Loven trer i kraft fra 1. januar 2018 med unntak av § 9 som trer i kraft 1. juli 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1552
+
+*Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.*
+
+> Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
 
 ### 2021-05-28 — lov/2021-05-28-47
 
@@ -1704,11 +2040,55 @@ refid: "lov/1992-06-26-86"
 > Boken signeres av namsmannen. Domstolloven § 197 a annet ledd gjelder tilsvarende.
 >
 
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-12-01 — forskrift/2021-11-19-3238
+
+*Ikraftsetting av lov 4. juni 2021 nr. 55 om endringer i domstolloven mv. (signatur og elektronisk forkynnelse). Loven trer i kraft 1. desember 2021.*
+
+> Ikraftsetting av lov 4. juni 2021 nr. 55 om endringer i domstolloven mv. (signatur og elektronisk forkynnelse). Loven trer i kraft 1. desember 2021.
+>
+
+### 2023-01-01 — forskrift/2022-09-02-1528
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 146 om finansavtaler. Loven trer i kraft 1. januar 2023 med unntak av § 8-3 nr. 9.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *9.I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse skal § 11-44 andre ledd andre punktum lyde:*
 
 > Frist etter § 11-18 tredje ledd tredje punktum fastsettes av namsmyndigheten.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -1982,6 +2362,24 @@ refid: "lov/1992-06-26-86"
 > besøksbidrag og tvangsmulkt etter besøksbidragsloven.
 >
 
+### 2025-06-20 — forskrift/2025-06-20-1106
+
+*Lovens del I trer i kraft 1. januar 2026. Lovens del II og III trer i kraft straks.*
+
+> Lovens del I trer i kraft 1. januar 2026. Lovens del II og III trer i kraft straks.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-06-19 — lov/2026-06-19-45
 
 *Følgende steder endres ordene «namsmann», «namsmannen» og «namsmannens» til henholdsvis ordene «namsfogd», «namsfogden» og «namsfogdens»:*
@@ -2001,6 +2399,17 @@ refid: "lov/1992-06-26-86"
 *Ikraftsetting av lov 20. juni 2025 nr. 104 om besøksbidrag (besøksbidragsloven) med endring i tvangsfullbyrdelsesloven. Loven trer i kraft 1. juli 2026.*
 
 > Ikraftsetting av lov 20. juni 2025 nr. 104 om besøksbidrag (besøksbidragsloven) med endring i tvangsfullbyrdelsesloven. Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ### 2026-09-18 — forskrift/2026-09-18-1813

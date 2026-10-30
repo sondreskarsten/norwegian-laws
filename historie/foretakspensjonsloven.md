@@ -14,6 +14,13 @@ refid: "lov/2000-03-24-16"
 > (2) Pensjonsordning etter loven her kan opprettes ved avtale medselskap som har tillatelse fra norske myndigheter til å drive virksomhet her i riket som livsforsikringsselskap,selskap som er hjemmehørende i en annen stat innenfor EØS-området og som har adgang til å drive livsforsikringsvirksomhet i Norge,pensjonskasse som er forsikringsteknisk oppbygget og godkjent av Kredittilsynet,pensjonskasse etablert i annen stat innenfor EØS-området etter nærmere bestemmelser gitt av Kongen.
 >
 
+### 2006-01-01 — lov/2005-12-21-124
+
+*§ 1-1 første ledd skal lyde:*
+
+> Loven gjelder foretakspensjonsordning og foretak som har eller oppretter slik pensjonsordning.
+>
+
 ### 2011-01-01 — lov/2010-12-17-83
 
 *§ 1-1 annet ledd skal lyde:*
@@ -51,6 +58,13 @@ refid: "lov/2000-03-24-16"
 > Medlemmer: Arbeidsgiveren og de arbeidstakere som oppfyller opptaksvilkårene i regelverket for pensjonsordningen. Som medlem regnes også alderspensjonist som har tatt ut alderspensjon fra ordningen rett etter avsluttet arbeidsforhold, samt arbeidstaker som er blitt ufør mens han var i foretakets tjeneste og som det betales premie eller innskudd for i henhold til forsikring av premie- eller innskuddsfritak ved uførhet.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 1-2 første ledd bokstav h skal lyde:*
+
+> Lønn: Skattepliktig lønnsinntekt, beregnet personinntekt og godtgjørelse til deltaker for arbeidsinnsats i selskap med deltakerfastsetting.
+>
+
 ## § 2-1
 
 ### 2011-01-01 — lov/2010-12-17-83
@@ -74,6 +88,20 @@ refid: "lov/2000-03-24-16"
 >
 
 ## § 2-2
+
+### 2006-01-01 — lov/2005-12-21-124
+
+*§ 2-2 første ledd skal lyde:*
+
+> (1) Pensjonsordningen skal omfatte:minst to personer i foretaket som begge har en arbeidstid og lønn som utgjør 75 prosent eller mer av full stilling,minst én arbeidstaker uten eierinteresse i foretaket som har en arbeidstid og lønn i foretaket som utgjør 75 prosent eller mer av full stilling, ellerpersoner i foretaket som hver har en arbeidstid og lønn som utgjør 20 prosent eller mer av full stilling, og som til sammen utfører arbeid som tilsvarer minst to årsverk.
+>
+
+### 2006-01-01 — lov/2005-12-21-124
+
+*§ 2-2 tredje ledd skal lyde:*
+
+> Dersom pensjonsordningen ved utløpet av et kalenderår ikke oppfyller vilkårene i første ledd, og pensjonsordningen heller ikke i løpet av et kalenderår igjen oppfyller vilkårene, skal pensjonsordningen opphøre og avvikles etter reglene i kapittel 15. Pensjonsordning i pensjonskasse som i en periode på seks måneder ikke oppfyller vilkårene i annet ledd, skal opphøre og avvikles etter reglene i kapittel 15 eller videreføres som pensjonsforsikring i samsvar med første ledd.
+>
 
 ### 2009-06-19 — lov/2009-06-19-48
 
@@ -137,6 +165,24 @@ refid: "lov/2000-03-24-16"
 > Oversendelse kan skje ved bruk av elektronisk kommunikasjon dersom det er benyttet en betryggende metode som autentiserer avsender og sikrer kravets innhold.
 >
 
+## § 2-6
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-6 overskriften skal lyde:*
+
+> § 2-6.Skatteforhold
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-6 første og annet ledd skal lyde:*
+
+> (1) Det skal fremgå av regelverket for pensjonsordningen, premiekvitteringer og meldinger til skattemyndighetene at dokumentene gjelder foretakspensjonsordning etter loven her.
+>
+> (2) Premiekvitteringer og meldinger til skattemyndighetene skal inneholde spesifiserte opplysninger om de innbetalinger som foretaket har foretatt av årets premie, tilskudd til premiefond og tilskudd til pensjonistenes overskuddsfond.
+>
+
 ## § 2-8
 
 ### 2001-12-21 — lov/2001-12-21-117
@@ -151,6 +197,43 @@ refid: "lov/2000-03-24-16"
 ### 2011-01-01 — lov/2010-12-17-83
 
 *§ 2-9 annet ledd bokstav b oppheves. Nåværende bokstav c og d blir bokstav b og c.*
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2-9 skal lyde:*
+
+> § 2-9.Adgang til å ha parallelle pensjonsordninger
+>
+> (1) Et foretak med pensjonsordning etter loven her kan samtidig ha en pensjonsordning etter innskuddspensjonsloven og pensjonsordning etter tjenestepensjonsloven (parallelle pensjonsordninger). Et foretak kan også ha to pensjonsordninger etter loven her dersom den ene har ytelsesbasert og den andre engangsbetalt alderspensjon.
+>
+> (2) For et foretak som etter første ledd har flere pensjonsordninger, gjelder følgende:ingen arbeidstaker kan på samme tid være medlem av mer enn en av ordningene,regelverket i ordningene skal utformes slik at alderspensjonsytelsene står i et rimelig forhold til hverandre og slik at urimelig forskjellsbehandling av grupper av arbeidstakere unngås,rett til ytelser ved uførhet og til etterlatte skal være utformet på samme måte i ordningene.
+>
+> (3) Bestemmelsene i annet ledd gjelder tilsvarende ved endring av regelverket for en eller flere av pensjonsordningene.
+>
+
+## § 2-10
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2-10 skal lyde:*
+
+> § 2-10.Adgang til å ha parallelle pensjonsordninger
+>
+> (1) Et foretak med pensjonsordning etter loven her kan samtidig ha ytelsesbasert eller engangsbetalt foretakspensjonsordning og pensjonsordning etter tjenestepensjonsloven (parallelle pensjonsordninger).
+>
+> (2) For foretak som har parallelle pensjonsordninger etter første ledd gjelder følgende:ingen arbeidstaker kan på samme tid være medlem av mer enn en av ordningene,regelverket i ordningene skal utformes slik at alderspensjonsytelsene står i et rimelig forhold til hverandre og slik at urimelig forskjellsbehandling av grupper av arbeidstakere unngås,rett til ytelser ved uførhet og til etterlatte skal være utformet på samme måte i pensjonsordningene.
+>
+> (3) Bestemmelsene i annet ledd gjelder tilsvarende ved endring av regelverket for en eller flere av pensjonsordningene.
+>
+
+## § 2-11
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2-11 første ledd skal lyde:*
+
+> (1) Regelverket skal inneholde bestemmelser om i hvilke tilfeller en arbeidstaker kan flytte sitt medlemskap til en av de andre pensjonsordningene.
+>
 
 ## § 2-12
 
@@ -181,11 +264,38 @@ refid: "lov/2000-03-24-16"
 
 *§ 2-12 niende ledd oppheves.*
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2-12 første og annet ledd skal lyde:*
+
+> (1) Et foretak som har ordning med ytelsesbasert alderspensjon etter loven her, kan supplere denne med en pensjonsordning etter innskuddspensjonsloven, en pensjonsordning etter tjenestepensjonsloven eller en pensjonsordning med engangsbetalt alderspensjon etter loven her (kombinerte pensjonsordninger).
+>
+> (2) For kombinerte pensjonsordninger etter første ledd gjelder følgende:samtlige ansatte som omfattes av regelverkets bestemmelser om medlemskap i pensjonsordningen med ytelsesbasert alderspensjon, skal være medlem av begge pensjonsordningene,innskuddspensjonen, tjenestepensjonen eller den engangsbetalte alderspensjonen skal utgjøre et tillegg til ytelsene i den ytelsesbaserte alderspensjonsordningen,regelverket i pensjonsordningene skal utformes med sikte på at forskjellsbehandling mellom arbeidstakere unngås så langt det er mulig når det gjelder samlet pensjon sett i forhold til lønn og tjenestetid i foretaket,et foretak kan ikke samtidig ha kombinerte pensjonsordninger og parallelle pensjonsordninger etter § 2-9, tjenestepensjonsloven § 2-10 eller innskuddspensjonsloven § 2-10.
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2-12 første ledd skal lyde:*
+
+> (1) Regelverket skal inneholde bestemmelser om i hvilke tilfeller en arbeidstaker kan flytte sitt medlemskap til en av de andre pensjonsordningene.
+>
+
 ### 2021-12-22 — lov/2021-12-22-164
 
 *§ 2-12 åttende ledd skal lyde:*
 
 > (8) Bestemmelsen i annet ledd gjelder likevel ikke pensjonsordning for arbeidstakere som omfattes av foretakspensjonsloven § 3-9 annet ledd.
+>
+
+## § 2-13
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2-13 skal lyde:*
+
+> § 2-13.Adgang til å ha kombinerte pensjonsordninger
+>
+> Et foretak som har ordning med ytelsesbasert alderspensjon etter foretakspensjonsloven eller tjenestepensjonsordning etter tjenestepensjonsloven, kan supplere denne med pensjonsordning etter loven her i samsvar med bestemmelsene gitt i medhold av foretakspensjonsloven § 2-12 eller tjenestepensjonsloven § 2-9.
 >
 
 ## § 3-2
@@ -649,6 +759,13 @@ refid: "lov/2000-03-24-16"
 > (3) Endring i lønn som følge av særskilt avtale eller av den alminnelige lønnsutvikling i foretaket, skal tillegges virkning fra det tidspunkt endringen trer i kraft. Det samme gjelder når pensjonen er fastsatt som en bestemt del av folketrygdens grunnbeløp. Ved opptjening av pensjon etter nådd opptjeningsalder gjelder reglene i § 4-5.
 >
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 5-2 første ledd skal lyde:*
+
+> (1) Innskuddsplanen skal fastsettes slik at pensjonsinnskuddene ikke utgjør en større del av lønn for høytlønte enn for lavtlønte. Det kan likevel fastsettes at innskudd som andel av lønn for hvert medlem kan beregnes på grunnlag av en prosentsats for lønn inntil 12 G og et tilleggsinnskudd i prosent av lønn for lønn mellom 7,1 og 12 G.
+>
+
 ## § 5-3
 
 ### 2011-01-01 — lov/2010-12-17-83
@@ -658,6 +775,13 @@ refid: "lov/2000-03-24-16"
 > (4) Ved beregningen av ytelsene fra folketrygden gjelder reglene i § 5-5.
 >
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 5-3 første ledd bokstav d skal lyde:*
+
+> et beløp for hvert medlem beregnet på grunnlag av ulike prosentsatser for medlemmets lønnsgrunnlag for henholdsvis lønn inntil 7,1 G og de deler av lønnen som ligger mellom 7,1 og 12 G.
+>
+
 ## § 5-4
 
 ### 2011-01-01 — lov/2010-12-17-83
@@ -665,6 +789,13 @@ refid: "lov/2000-03-24-16"
 *§ 5-4 annet ledd bokstav b skal lyde:*
 
 > siste års lønn, eller gjennomsnittet av de to eller tre siste års lønn før medlemmet starter uttak av alderspensjon, skal legges til grunn,
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 5-4 første ledd skal lyde:*
+
+> (1) Kongen kan fastsette nærmere regler om at innskuddene i et år ikke skal overstige et fastsatt beløp for hvert medlem eller en fastsatt prosent av medlemmets lønn. Det kan fastsettes ulike prosentsatser for medlemmets lønn inntil 12 G og for tilleggsinnskudd for lønn mellom 7,1 og 12 G.
 >
 
 ## § 5-5
@@ -1046,11 +1177,34 @@ refid: "lov/2000-03-24-16"
 > (5) Når medlemmet slutter i foretaket med rett til straks begynnende alderspensjon, skal rett til opptjent pensjon med tilhørende premiereserve og en forholdsmessig andel av tilleggsavsetninger sikres ved fripolise etter reglene i §§ 4-7 til 4-10.
 >
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 11-2 tredje ledd skal lyde:*
+
+> (3) Har et foretak som deltar i sammenslåingen pensjonsordning etter foretakspensjonsloven eller tjenestepensjonsloven, kan den tidligere ordningen videreføres for medlemmene av ordningen på tidspunktet for sammenslåingen.
+>
+
 ### 2023-06-16 — lov/2023-06-16-43
 
 *§ 11-2 femte ledd skal lyde:*
 
 > (5) Når medlemmet slutter i foretaket med rett til straks begynnende alderspensjon, skal rett til opptjent pensjon med tilhørende premiereserve og en forholdsmessig andel av bufferfond sikres ved fripolise etter reglene i §§ 4-7 til 4-10.
+>
+
+## § 11-3
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 11-3 ny overskrift skal lyde:*
+
+> § 11-3.Foretaket som skal ha foretakspensjonsordning eller tjenestepensjonsordning
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 11-3 første ledd skal lyde:*
+
+> (1) Skal foretaket etter sammenslåingen ha pensjonsordning etter foretakspensjonsloven eller tjenestepensjonsloven, gjelder reglene i henholdsvis foretakspensjonsloven kapittel 13 eller tjenestepensjonsloven kapittel 10.
 >
 
 ## § 11-4
@@ -1139,6 +1293,19 @@ refid: "lov/2000-03-24-16"
 > (1) Blir en virksomhet i foretaket utskilt og avviklet, skal midlene knyttet til pensjonsordningen fordeles mellom den gruppe av medlemmer som må slutte i foretaket, og den gruppe av medlemmer som blir tilbake i foretaket, etter reglene i § 14-1 annet ledd. Er pensjonsordningen i pensjonskasse, skal risikoutjevningsfondet fordeles etter reglene § 14-1 tredje ledd.
 >
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*Ny § 14-3 skal lyde:*
+
+> § 14-3.Omdanning til tjenestepensjonsordning
+>
+> Ved omdanning av pensjonsordning etter loven her til pensjonsordning etter tjenestepensjonsloven, gjelder §§ 14-1 første, annet og fjerde ledd og 14-2 tilsvarende så langt de passer.
+>
+> IV
+>
+> I lov 21. desember 2005 nr. 124 om obligatorisk tjenestepensjon (OTP-loven) gjøres følgende endringer:
+>
+
 ## § 15-2
 
 ### 2007-06-15 — lov/2007-06-15-28
@@ -1219,6 +1386,27 @@ refid: "lov/2000-03-24-16"
 *§ 15-6 tredje ledd skal lyde:*
 
 > (3) Foretaket kan velge å kun videreføre ytelsesbasert foretakspensjonsordning for arbeidstakere som er medlem av ordningen på tidspunktet for opprettelse av ny innskuddspensjonsordning, og som da har 15 år eller mindre igjen til opptjeningsalderen. I så fall skal også medlemmer som er uføre eller arbeidsuføre med rett til sykepenger inngå i den videreførte ordningen. Ved slik videreføring av foretakspensjonsordning, omfattes ikke disse arbeidstakere av annet ledd annet punktum. Medlemmer som nevnt i annet punktum skal ved friskmelding uten rett til uførepensjon gå over til innskuddspensjonsordningen. § 15-5 femte ledd tredje punktum gjelder tilsvarende.
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 15-6 skal lyde:*
+
+> § 15-6.Omdanning til innskuddspensjonsordning eller tjenestepensjonsordning og lukking
+>
+> (1) Et foretak som har pensjonsordning etter loven her og som i stedet vil opprette pensjonsordning etter innskuddspensjonsloven eller tjenestepensjonsloven, skal avvikle pensjonsordningen etter reglene i kapitlet her. Premiefond knyttet til pensjonsordningen kan likevel overføres som innskuddsfond for den nye pensjonsordningen.
+>
+> (2) Foretaket kan velge å videreføre ytelsesbasert foretakspensjonsordning for arbeidstakere som er medlem av denne ordningen på tidspunktet for opprettelsen av ny innskuddspensjonsordning eller tjenestepensjonsordning. Arbeidstakerne skal kunne velge å gå over til ny innskuddspensjonsordning eller tjenestepensjonsordning. § 15-5 femte ledd tredje punktum gjelder tilsvarende.
+>
+> (3) Foretaket kan velge å kun videreføre ytelsesbasert foretakspensjonsordning for arbeidstakere som er medlem av ordningen på tidspunktet for opprettelse av ny innskuddspensjonsordning eller tjenestepensjonsordning, og som da har 15 år eller mindre igjen til opptjeningsalderen. I så fall skal også medlemmer som er uføre eller arbeidsuføre med rett til sykepenger inngå i den videreførte ordningen. Ved slik videreføring av foretakspensjonsordning, omfattes ikke disse arbeidstakere av annet ledd annet punktum. Medlemmer som nevnt i annet punktum skal ved friskmelding uten rett til uførepensjon gå over til innskuddspensjonsordningen eller tjenestepensjonsordningen. § 15-5 femte ledd tredje punktum gjelder tilsvarende.
+>
+> (4) Foretaket kan etter avtale med arbeidstakerne eller deres organisasjoner videreføre ytelsesbasert foretakspensjonsordning for medlemmer som er uføre eller arbeidsuføre med rett til sykepenger på tidspunktet for opprettelse av ny innskuddspensjonsordning eller tjenestepensjonsordning. Medlemmer med rett til uførepensjon med en uføregrad på 100 prosent skal likevel sikres ved fripolise. Medlemmer som nevnt i første punktum skal ha rett til å velge å gå over til ny innskuddspensjonsordning eller tjenestepensjonsordning. De skal gå over til innskuddspensjonsordningen eller tjenestepensjonsordningen ved friskmelding uten rett til uførepensjon, og det skal da utstedes fripolise fra den videreførte ytelsesbaserte foretakspensjonsordningen. § 15-5 femte ledd tredje punktum gjelder tilsvarende.
+>
+> (5) Dersom pensjonsordningens administrasjonsreserve ikke er tilstrekkelig til å dekke kostnadene knyttet til utstedelse av fripoliser ved omdanning og lukking etter paragrafen her, skal de resterende kostnadene først dekkes av midler i premiefondet og deretter ved innbetaling fra foretaket dersom midlene i premiefondet ikke er tilstrekkelig.
+>
+> III
+>
+> I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold (innskuddspensjonsloven) gjøres følgende endringer:
 >
 
 ## § 16-2
@@ -1323,7 +1511,31 @@ refid: "lov/2000-03-24-16"
 
 ### 2008-06-27 — lov/2008-06-27-53
 
-*I lov 24. mars 2000 nr. 16 om foretakspensjon skal § 1-2 annet ledd bokstav e lyde:Registrert partner: Partner i registrert partnerskap der partnerne ikke har samtykket til å omgjøre partnerskapet til ekteskap.*
+*I lov 24. mars 2000 nr. 16 om foretakspensjon skal § 1-2 annet ledd bokstav e lyde:*
+
+> Registrert partner: Partner i registrert partnerskap der partnerne ikke har samtykket til å omgjøre partnerskapet til ekteskap.
+>
+
+### 2008-06-27 — lov/2008-06-27-62
+
+*2. I lov 24. mars 2000 nr. 16 om foretakspensjon (foretakspensjonsloven) skal § 4-7 første ledd tredje punktum lyde:*
+
+> Er opptjent premiereserve knyttet til alderspensjon mindre enn 50 prosent av folketrygdens grunnbeløp, har medlemmet likevel bare rett til at premiereserven blir overført til annen foretakspensjonsordning eller individuell pensjonsavtale etter lov 27. juni 2008 nr. 62 om individuell pensjonsordning.
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
 
 ### 2011-01-01 — lov/2010-12-17-83
 
@@ -1366,6 +1578,15 @@ refid: "lov/2000-03-24-16"
 > (5) Kongen kan gi nærmere regler om opplysningsplikt for pensjonsinnretninger.
 >
 
+### 2013-01-01 — forskrift/2012-12-14-1230
+
+*Delt ikraftsetting av lovvedtaket.*
+
+> Delt ikraftsetting av lovvedtaket.
+>
+> Lovvedtaket del I, del II, del III § 5-1 annet ledd, § 5-6 annet ledd og § 5-7d tredje ledd, og del IV trer i kraft 1. januar 2013.
+>
+
 ### 2014-09-01 — forskrift/2014-06-27-884
 
 *Lov 14. desember 2012 nr. 84 om endringer i finanstilsynsloven, banksikringsloven og foretakspensjonsloven del III § 4-7a og § 4-7b trer i kraft 1. september 2014.*
@@ -1384,6 +1605,37 @@ refid: "lov/2000-03-24-16"
 
 *§§ 6-1 til 6-5 oppheves.*
 
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-15-1480
+
+*Lov 22. mai 2015 nr. 31 om endringer i tjenestepensjonsloven mv. (uførepensjon) trer i kraft 1. januar 2016.*
+
+> Lov 22. mai 2015 nr. 31 om endringer i tjenestepensjonsloven mv. (uførepensjon) trer i kraft 1. januar 2016.
+>
+> Uførepensjonsordninger etter foretakspensjonsloven kapittel 6 skal opphøre innen 31. desember 2016. Opphør er uten innvirkning for rett til uførepensjon som oppstod før avtalens opphør. Bestemmelser som tilsvarer foretakspensjonsloven § 6-1 til § 6-5 skal gjelde for rettigheter til uførepensjon som utgår fra disse uførepensjonsordningene.
+>
+> Ved overgang fra eksisterende til ny uførepensjonsordning skal sykmeldte, og delvis uføre arbeidstakere hva gjelder den arbeidsdyktige delen vurdert i forhold til fulltidsstilling, tas opp i den nye ordningen uten at det innhentes nye helseopplysninger.
+>
+> Bestemmelsene i tjenestepensjonsloven § 8-8 annet ledd annet og tredje punktum om fradrag i uførepensjonen gjelder til 1. januar 2017. Fradraget gjøres ved utbetaling og tilføres premiefondet, jf. foretakspensjonsloven § 10-2 første ledd bokstav d.
+>
+> Dette vedtaket trer i kraft 1. januar 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2019-12-13 — lov/2019-12-13-79
 
 *I lov 24. mars 2000 nr. 16 om foretakspensjon skal § 2-8 nytt tredje ledd lyde:*
@@ -1394,6 +1646,13 @@ refid: "lov/2000-03-24-16"
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
 
 ### 2020-04-17 — lov/2020-04-17-20
 
@@ -1408,6 +1667,107 @@ refid: "lov/2000-03-24-16"
 
 *Nåværende §§ 3-7 til 3-11 blir nye §§ 3-6 til 3-10.*
 
+### 2022-01-01 — forskrift/2021-12-22-3810
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-935
+
+*Delt ikraftsetting av lov om endringer i foretakspensjonsloven, innskuddspensjonsloven og forsikringsvirksomhetsloven mv. (bufferfond for private garanterte pensjonsprodukter).*
+
+> Delt ikraftsetting av lov om endringer i foretakspensjonsloven, innskuddspensjonsloven og forsikringsvirksomhetsloven mv. (bufferfond for private garanterte pensjonsprodukter).
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I (foretakspensjonsloven)
+>
+> Endringsloven del II (innskuddspensjonsloven)
+>
+> Endringsloven del III (forsikringsvirksomhetsloven)
+>
+> Følgende trer i kraft 1. juli 2023:
+>
+> Endringsloven del IV (finanstilsynsloven)
+>
+> Endringsloven del V
+>
+
 ### 2026-05-07 — lov/2026-05-07-16
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
+
+## § 1
+
+### 2026-06-25 — forskrift/2026-06-25-1341
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Ikrafttredelse
+>
+> Lov 7. mai 2026 nr. 16 om endringer i foretakspensjonsloven og forsikringsvirksomhetsloven (forvaltning av garanterte pensjonsprodukter) trer i kraft 1. juli 2026, med unntak av loven del II § 3-19 fjerde ledd og § 6-7 fjerde ledd første punktum, som trer i kraft 1. januar 2027.
+>
+> § 2
+>
+> .
+>
+> Overgangsregler
+>
+> For kollektive pensjonsordninger etablert i samsvar med foretakspensjonsloven, tjenestepensjonsloven eller innskuddspensjonsloven og kommunale pensjonsordninger gjelder lov 7. mai 2026 nr. 16 om endringer i foretakspensjonsloven og forsikringsvirksomhetsloven (forvaltning av garanterte pensjonsprodukter) del II fra 1. januar 2027.
+>
+> Denne forskriften trer i kraft straks.
+>
+
+## § 2
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 2 første ledd skal lyde:*
+
+> (1) Foretak som angitt i § 1 første ledd skal ha pensjonsordninger etter foretakspensjonsloven, innskuddspensjonsloven eller tjenestepensjonsloven som sikrer arbeidstakere i foretaket alderspensjon i samsvar med kravene i loven her.
+>
+
+## § 3
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 3 første ledd skal lyde:*
+
+> (1) Arbeidstaker i foretak med plikt til å etablere tjenestepensjonsordning etter § 2 har krav på at tjenestepensjonsordning etableres i samsvar med loven her. Dette gjelder ikke arbeidstaker som kan holdes utenfor foretakets pensjonsordning etter reglene i foretakspensjonsloven, innskuddspensjonsloven eller tjenestepensjonsloven.
+>
+
+## § 4
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 4 skal lyde:*
+
+> § 4.Minstekrav til pensjonsordning med innskuddspensjon eller tjenestepensjon
+>
+> (1) Oppretter et foretak en pensjonsordning med innskuddspensjon skal foretaket etter innskuddsplanen hvert år betale innskudd til alderspensjon for medlemmene. Innskuddet skal minst utgjøre 2 prosent av den lønn mellom 1 og 12 G som det enkelte medlem mottar fra foretaket i løpet av innskuddsåret, jf. innskuddspensjonsloven § 5-5. Kongen kan fastsette nærmere regler om beregning av innskudd.
+>
+> (2) Oppretter et foretak en pensjonsordning etter tjenestepensjonsloven, skal foretaket etter pensjonsplanen hvert år betale innskudd til alderspensjon for medlemmene. Årlig innskudd skal minst utgjøre 2 prosent av lønn mellom 1 og 12 G som det enkelte medlem mottar fra foretaket i løpet av premieåret, jf. tjenestepensjonsloven § 4-3. Kongen kan gi forskrift om beregning av årlig innskudd.
+>
+> (3) Det skal i regelverket for pensjonsordningen fastsettes at det for medlemmer som blir uføre skal være innskuddsfritak ved uførhet i samsvar med uføregraden dersom uføregraden er 20 prosent eller mer. Uføregraden fastsettes etter reglene i foretakspensjonsloven § 6-2. Innskuddsfritaket løper så lenge uføregraden er 20 prosent eller mer, men ikke lenger enn til medlemmet fyller 67 år. Foretaket dekker premiekostnadene ved innskuddsfritak ved uførhet i tillegg til innskudd etter første ledd.
+>
+> (4) Kostnadene ved administrasjon av pensjonsordningen skal dekkes av foretaket i tillegg til innskuddet etter første og annet ledd. Kostnader ved endring av investeringsporteføljen etter innskuddspensjonsloven § 3-3 første ledd skal dekkes av kontohaveren.
+>
+> (5) Paragrafen her gjelder tilsvarende for pensjonsordninger med engangsbetalt alderspensjon etter foretakspensjonsloven.
+>
+> (6) Kongen kan gi forskrift til utfylling og avgrensning av bestemmelsene i paragrafen her.
+>
+
+## § 5
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 5 første ledd skal lyde:*
+
+> (1) Oppretter et foretak en pensjonsordning med ytelsesbasert foretakspensjon, skal pensjonsplanen være utformet slik at den minst vil gi alderspensjon i samsvar med det minstekrav som følger av annet eller tredje ledd. § 4 tredje ledd gjelder tilsvarende for premiefritak under uførhet, men likevel slik at det kan benyttes samme minstekrav til uføregrad som for uførepensjon etter pensjonsordningen.
+>

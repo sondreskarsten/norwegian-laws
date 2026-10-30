@@ -11,7 +11,11 @@ refid: "lov/2000-06-02-39"
 
 *§ 1-3 første ledd bokstav a, b og c skal lyde:*
 
-> apotek: salgssted for legemidler til sluttbruker hvor det gis legemiddelfaglig veiledning, som er fysisk tilgjengelig for publikum;hovedapotek: det apotek hvor apotekeren har den stedlige ledelsen når driftskonsesjonen også omfatter filialapotek;filialapotek: apotek under samme apotekkonsesjon og driftskonsesjon som et hovedapotek;
+> apotek: salgssted for legemidler til sluttbruker hvor det gis legemiddelfaglig veiledning, som er fysisk tilgjengelig for publikum;
+>
+> hovedapotek: det apotek hvor apotekeren har den stedlige ledelsen når driftskonsesjonen også omfatter filialapotek;
+>
+> filialapotek: apotek under samme apotekkonsesjon og driftskonsesjon som et hovedapotek;
 >
 
 ### 2009-06-19 — lov/2009-06-19-71
@@ -74,7 +78,9 @@ refid: "lov/2000-06-02-39"
 
 *§ 2-3 første ledd bokstav c og d skal lyde:*
 
-> Søker er et foretak som direkte eller indirekte eies med 10 prosent eller mer av person med rekvireringsrett for legemidler eller av nærstående til denne eller av foretak som tar syke i behandling eller av foretak som har kontroll over slikt foretak. Grensen gjelder tilsvarende for samarbeidende grupper av slike personer. Departementet kan i det enkelte tilfellet gjøre unntak fra grensen i første punktum for nærstående til person med rekvireringsrett.Søker kontrolleres av en eller flere industrielle tilvirkere av legemidler eller av foretak som direkte eller indirekte eier 10 prosent eller mer av slike tilvirkere.
+> Søker er et foretak som direkte eller indirekte eies med 10 prosent eller mer av person med rekvireringsrett for legemidler eller av nærstående til denne eller av foretak som tar syke i behandling eller av foretak som har kontroll over slikt foretak. Grensen gjelder tilsvarende for samarbeidende grupper av slike personer. Departementet kan i det enkelte tilfellet gjøre unntak fra grensen i første punktum for nærstående til person med rekvireringsrett.
+>
+> Søker kontrolleres av en eller flere industrielle tilvirkere av legemidler eller av foretak som direkte eller indirekte eier 10 prosent eller mer av slike tilvirkere.
 >
 
 ### 2001-06-15 — lov/2001-06-15-94
@@ -153,7 +159,9 @@ refid: "lov/2000-06-02-39"
 
 *§ 2-8 første ledd ny bokstav f og g skal lyde:*
 
-> medvirkning til forsvarlig legemiddelberedskaptilvirkning og leveringsplikt av viktige legemidler av hensyn til den nasjonale legemiddelforsyningen.
+> medvirkning til forsvarlig legemiddelberedskap
+>
+> tilvirkning og leveringsplikt av viktige legemidler av hensyn til den nasjonale legemiddelforsyningen.
 >
 
 ## § 2-10
@@ -180,7 +188,9 @@ refid: "lov/2000-06-02-39"
 
 *§ 3-2 første ledd bokstav a og b skal lyde:*
 
-> Søker har norsk eksamen cand.pharm., master i farmasi eller utenlandsk utdannelse som anerkjennes som jevngod med norsk eksamen, jf. lov 2. juli 1999 nr. 64 om helsepersonell m.v. § 48 tredje ledd bokstav a.Søker har minst 2 års farmasøytisk praksis etter eksamen, hvorav minst 12 måneder ved apotek fra EØS-området. Apotekpraksis fra land utenfor EØS-området kan legges til grunn dersom den vurderes som relevant for norske forhold.
+> Søker har norsk eksamen cand.pharm., master i farmasi eller utenlandsk utdannelse som anerkjennes som jevngod med norsk eksamen, jf. lov 2. juli 1999 nr. 64 om helsepersonell m.v. § 48 tredje ledd bokstav a.
+>
+> Søker har minst 2 års farmasøytisk praksis etter eksamen, hvorav minst 12 måneder ved apotek fra EØS-området. Apotekpraksis fra land utenfor EØS-området kan legges til grunn dersom den vurderes som relevant for norske forhold.
 >
 
 ### 2009-06-19 — lov/2009-06-19-71
@@ -323,6 +333,12 @@ refid: "lov/2000-06-02-39"
 
 > Departementet kan gi forskrift som begrenser apotekets adgang til forsendelse av legemidler.
 >
+
+## § 6-5
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 6-5 annet punktum oppheves.*
 
 ## § 6-6
 
@@ -554,11 +570,43 @@ refid: "lov/2000-06-02-39"
 
 *Noverande § 9-4 blir ny § 9-3.*
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*210. I lov 2. juni 2000 nr. 39 om apotek skal § 9-5 lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer §§ 1-4, 1-5, 2-10, 3-7, 5-5, 6-5 annet punktum, 6-9, 6-11, 6-12, 7-2 første ledd og 8-2, straffes med bøter eller fengsel inntil 6 måneder.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2015-06-19 — lov/2015-06-19-59
 
 *I lov 2. juni 2000 nr. 39 om apotek skal § 3-2 første ledd bokstav a lyde:*
 
 > Søker har norsk eksamen cand.pharm., master i farmasi eller utenlandsk utdannelse som anerkjennes som jevngod med norsk eksamen, jf. helsepersonelloven § 48 a første ledd bokstav c.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*175. I lov 2. juni 2000 nr. 39 om apotek skal § 9-5 lyde:*
+
+> § 9-5.Straff
+>
+> Den som forsettlig eller uaktsomt overtrer §§ 1-4, 1-5, 2-10, 3-7, 5-5, 6-5 annet punktum, 6-9, 6-11, 6-12, 7-2 første ledd og 8-2, straffes med bøter eller fengsel inntil 6 måneder.
+>
+> 176. I lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap gjøres følgende endring:
+>
+
+### 2015-07-01 — forskrift/2015-06-19-678
+
+*Loven trer i kraft 1. juli 2015.*
+
+> Loven trer i kraft 1. juli 2015.
 >
 
 ### 2017-06-16 — lov/2017-06-16-53
@@ -568,6 +616,26 @@ refid: "lov/2000-06-02-39"
 > Søker har rett til driftskonsesjon til et bestemt apotek hvis følgende krav er oppfylt:Søker har autorisasjon som provisorfarmasøyt.Søker har minst 2 års farmasøytisk praksis etter eksamen, hvorav minst 12 måneder ved apotek fra EØS-området eller Sveits. Apotekpraksis fra land utenfor EØS-området og Sveits kan legges til grunn dersom den vurderes som relevant for norske forhold.Søker har hederlig vandel i henhold til politiattest.Søker skal være daglig leder for apoteket.Søker ikke er uskikket til å drive apotek.
 >
 
+### 2017-07-01 — forskrift/2017-06-16-762
+
+*Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.
+>
+
+### 2019-06-21 — lov/2019-06-21-42
+
+*I lov 2. juni 2000 nr. 39 om apotek skal ny § 9-6 lyde:*
+
+> § 9-6.Overtredelsesgebyr
+>
+> Departementet kan ilegge foretak eller fysisk person som bryter meldeplikten etter § 3-8 annet ledd, overtredelsesgebyr. Fysiske personer kan bare ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser.
+>
+> Departementet kan gi forskrift om utmåling og betaling av overtredelsesgebyr.
+>
+> Adgangen til å ilegge overtredelsesgebyr foreldes to år etter at overtredelsen opphørte. Fristen avbrytes ved at det gis forhåndsvarsel eller treffes vedtak om overtredelsesgebyr.
+>
+
 ### 2021-05-21 — lov/2021-05-21-40
 
 *I lov 2. juni 2000 nr. 39 om apotek skal § 6-6 annet og tredje ledd lyde:*
@@ -575,6 +643,24 @@ refid: "lov/2000-06-02-39"
 > Apoteket kan, uten hinder av første ledd, bytte rekvirert legemiddel med generisk likeverdig legemiddel, biotilsvarende likeverdig legemiddel eller parallellimportert legemiddel, hvis departementet har godkjent legemidlene som byttbare. Slikt bytte kan ikke skje i strid med rekvirentens eller kundens uttrykkelige ønske. Dersom rekvirenten ber om det, skal apoteket meddele rekvirenten om at slikt bytte er foretatt.
 >
 > Departementet kan i forskrift gi nærmere bestemmelser om at rekvirenten i det enkelte tilfelle skal journalføre en begrunnelse for at bytte etter annet ledd er uønsket.
+>
+
+### 2021-07-01 — forskrift/2021-05-21-1653
+
+*Endringsloven trer i kraft 1. juli 2021.*
+
+> Endringsloven trer i kraft 1. juli 2021.
+>
+
+### 2022-01-01 — forskrift/2021-09-17-2767
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall II, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28 og § 28a trer i kraft 1.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall II, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28 og § 28a trer i kraft 1. januar 2022.
+>
+> Lov 21. juni 2019 nr. 42 om endringer i apotekloven, legemiddelloven og folketrygdloven (overtredelsesgebyr) trer i kraft 1. januar 2022.
+>
+> Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Romertall VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28a trer i kraft 1. januar 2022.
 >
 
 ### 2024-06-25 — lov/2024-06-25-68
@@ -588,9 +674,23 @@ refid: "lov/2000-06-02-39"
 > Departementet kan gi forskrift om hvilke varer et apotek alltid skal ha på lager og stille minstekrav til leveringsgrad for legemidler og om apotekenes plikter ved mottak av legemidler fra leverandør og om adgangen for apotek til å levere legemidler til hverandre.
 >
 
+### 2024-07-01 — forskrift/2024-06-25-1268
+
+*Endringsloven trer i kraft 1. juli 2024.*
+
+> Endringsloven trer i kraft 1. juli 2024.
+>
+
 ### 2026-06-19 — lov/2026-06-19-44
 
 *I lov 2. juni 2000 nr. 39 om apotek skal § 5-4 tredje ledd lyde:*
 
 > Apotek plikter å gi departementet elektronisk tilgang til opplysninger om lagerstatus ved fare for tilgangen til legemidler i Norge. Apotek plikter også å gi departementet informasjon om tilgjengelighet av legemidler og prognoser for etterspørsel av legemidler. Departementet kan gi forskrift om gjennomføringen av første og andre punktum.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1235
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >

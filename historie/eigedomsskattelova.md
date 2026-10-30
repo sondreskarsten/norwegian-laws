@@ -14,6 +14,29 @@ refid: "lov/1975-06-06-29"
 > Føresegnene i lov nr. 2 frå 21. november 1952 § 48, nr. 5, 6 og 7, gjeld på tilsvarande vis for søksmål og tvistar for tingretten i sak om tvangsfullføring og mellombels sikring om eigedomsskatt. Kommunen er part i saker om eigedomsskatt.
 >
 
+### 2002-12-13 — lov/2002-12-13-85
+
+*2. I lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane skal § 5 ny bokstav f) lyde:*
+
+> Eigedom som statens lufthamnselskap eig, i same omfang som fritaket for statens eigedom etter bokstav a femte strekpunkt.
+>
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*69. I lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane skal § 7 bokstav c tredje punktum lyde:*
+
+> Formannskapet eller det utvalet som er nemnt i kommuneloven § 10, kan få fullmakt til å avgjera einskildsaker om skattefritak.
+>
+> 70. I lov 28. mai 1976 nr. 35 om voksenopplæring blir desse endringane gjort:
+>
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*42. I lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane (eigedomsskattelova) skal § 21 første ledd bokstav e lyde:*
+
+> når han styrer eller er med i styret for eit selskap, eit samvirkeforetak, eit lag, ein sparebank, ei stifting eller ein offentleg skipnad som eig, har pant i, leiger eller bur til leige på eigedomen.
+>
+
 ### 2008-12-12 — lov/2008-12-12-103
 
 *For skatteåret 2009 skal eigedomsskatten på anlegg som nemnd i skatteloven § 18-5 første leden reknast ut etter verdet (taksten) som vert sett ved likninga året før skatteåret, med følgjande korrigering:*
@@ -43,6 +66,10 @@ refid: "lov/1975-06-06-29"
 
 *Noverande § 8 A-4 blir ny § B-5.*
 
+### 2013-01-01 — lov/2012-06-22-44
+
+*Lov 17. desember 1982 nr. 82 om mellombels tillegg til lov 6. juni 1975 nr. 29 om eigedomsskatt blir oppheva.*
+
 ### 2013-09-27 — forskrift/2013-09-27-1142
 
 *Delvis ikraftsetting av lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane. § 18 trer i kraft straks med virkning for boliger som verdsettes etter § 8C.*
@@ -50,9 +77,64 @@ refid: "lov/1975-06-06-29"
 > Delvis ikraftsetting av lov 6. juni 1975 nr. 29 om eigedomsskatt til kommunane. § 18 trer i kraft straks med virkning for boliger som verdsettes etter § 8C.
 >
 
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2018-12-20 — lov/2018-12-20-99
 
 *Nåværende (vedtatt, ikke ikrafttrådt) annet punktum blir nytt tredje punktum.*
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-11-01 — forskrift/2020-10-30-2181
+
+*Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 87 om endring i vegtrafikkloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Delt ikraftsetting av lov 20. desember 2019 nr. 88 om endringer i eigedomsskattelova. Endringsloven del I trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 89 om endring i fjellova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 91 om endring i rettsgebyrloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 93 om endringer i folketrygdloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 95 om endring i brann- og eksplosjonsvernloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 99 om endring i vass- og avløpsanleggslova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 100 om endring i a-opplysningsloven. Endringsloven trer i kraft 1. november 2020.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 11
 
@@ -164,6 +246,13 @@ refid: "lov/1975-06-06-29"
 > Når taksten byggjer på likningsverdet, skal utskrivinga rettast berre så langt likninga vert brigda etter kapittel 9 i likningslova. Fristane for retting etter likningslova § 9-6 gjeld då tilsvarande for eigedomsskatten.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17 fjerde ledd skal lyde:*
+
+> Når taksten byggjer på verdet som er satt ved fastsetjinga av formues- og inntektsskatt, skal utskrivinga rettast berre så langt fastsetjinga vert brigda etter skatteforvaltningsloven § 9-4, kapittel 12 eller kapittel 13. Fristane for retting etter skatteforvaltningsloven § 12-6 gjeld då tilsvarande for eigedomsskatten.
+>
+
 ## § 18
 
 ### 2007-06-29 — lov/2007-06-29-50
@@ -198,7 +287,23 @@ refid: "lov/1975-06-06-29"
 > For anlegg for produksjon av elektrisk kraft kan klaga ikkje gjelda det verdet som er sett på eigedomen ved likninga, jf. likningslova § 9-4.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 19 annet ledd skal lyde:*
+
+> For anlegg for produksjon av elektrisk kraft og bustader som vert verdsette etter § 8 C, kan klaga ikkje gjelda det verdet som er sett på eigedomen ved fastsetjinga av formues- og inntektsskatt, jf. skatteforvaltningsloven § 13-2 fjerde ledd.
+>
+
 ## § 20
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 20 tredje ledd skal lyde:*
+
+> Slik opplæring forutsetter vedtak i et organ i bedriften med lik representasjon fra arbeidsgiveren og arbeidstakeren. Prinsippet i § 10 sjette ledd om deltakernes innflytelse på innhold og opplegg, skal også gjelde for opplæring organisert etter denne paragraf.
+>
+> 71. I lov 4. februar 1977 nr. 4 om arbeidervern og arbeidsmiljø m.v. blir desse endringane gjort:
+>
 
 ### 2013-01-01 — lov/2012-06-22-44
 
@@ -229,6 +334,13 @@ refid: "lov/1975-06-06-29"
 *§ 23 andre ledd skal lyde:*
 
 > Fristane i førre leden gjeld tilsvarande for kommunen. Kommunen må rette søksmål mot leiaren av klagenemnda. Skattytaren skal varslast om søksmålet.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 23 første ledd første punktum skal lyde:*
+
+> Føresegnene i skatteforvaltningsloven § 15-4 første ledd og § 15-6 første og andre ledd og skattebetalingsloven § 17-1 fjerde og femte ledd gjeld på tilsvarande vis for søksmål og tvistar for tingretten i sak om tvangsfullføring og mellombels sikring om eigedomsskatt.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -310,7 +422,28 @@ refid: "lov/1975-06-06-29"
 > Forvaltningslova § 36 gjeld ikkje i eigedomsskattesaker. Reglane om dekning av sakskostnader i likningslova § 9-11 gjeld på tilsvarande måte i eigedomsskattesaker.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 29 annet ledd skal lyde:*
+
+> Reglane i skatteforvaltningsloven kapittel 3 om teieplikt gjeld på tilsvarande måte for tenestemenn og nemndmedlemmer som er med på å skriva ut eigedomsskatt i staden for reglane om teieplikt i forvaltningslova.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 29 siste ledd skal lyde:*
+
+> Spørsmålet om dekning av sakskostnader blir avgjort av eigedomsskattekontoret når klagenemnda har endra eit vedtak til gunst for skattytar. Avgjerda kan klagast inn for klagenemnda.
+>
+
 ## § 3
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 3 nr. 2 bokstav d skal lyde:*
+
+> innsatte i kriminalomsorgens anstalter,
+>
 
 ### 2006-06-16 — lov/2006-06-16-25
 
@@ -460,6 +593,24 @@ refid: "lov/1975-06-06-29"
 > For kraftnett inngår grunnen under linjene i anlegget.
 >
 
+## § 42
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 42 andre ledd bokstav j skal lyde:*
+
+> arbeid av politi, brannvesen, tollvesen, kriminalomsorg, kirkelig betjening, arbeid ved redningssentraler og drift av kringkasting, aviser, telegram- og nyhetsbyråer.
+>
+
+## § 44
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 44 andre ledd bokstav i skal lyde:*
+
+> arbeid av politi, brannvesen, tollvesen, kriminalomsorg, kirkelig betjening, arbeid ved redningssentraler og drift av kringkasting, aviser, telegram- og nyhetsbyråer.
+>
+
 ## § 5
 
 ### 2003-12-12 — lov/2003-12-12-103
@@ -505,7 +656,9 @@ refid: "lov/1975-06-06-29"
 
 *§ 5 ny bokstav j og ny bostav k skal lyde:*
 
-> Område som er vedteke verna som nasjonalpark eller naturreservat i medhald av lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold (naturmangfoldloven). Fritaket gjeld også for område verna som nasjonalpark eller naturreservat etter den tidlegare lov 19. juni 1970 nr. 63 om naturvern. Fritaket gjeld ikkje bygning med tomt og tomteareal, jamvel om arealet ikkje er utbygd enno.Lavproduktiv grunneigedom som staten eig direkte eller indirekte, så langt den tener ålmennyttige føremål. Fritaket gjeld ikkje bygning med tomt og tomteareal, jamvel om arealet ikkje er utbygd enno.
+> Område som er vedteke verna som nasjonalpark eller naturreservat i medhald av lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold (naturmangfoldloven). Fritaket gjeld også for område verna som nasjonalpark eller naturreservat etter den tidlegare lov 19. juni 1970 nr. 63 om naturvern. Fritaket gjeld ikkje bygning med tomt og tomteareal, jamvel om arealet ikkje er utbygd enno.
+>
+> Lavproduktiv grunneigedom som staten eig direkte eller indirekte, så langt den tener ålmennyttige føremål. Fritaket gjeld ikkje bygning med tomt og tomteareal, jamvel om arealet ikkje er utbygd enno.
 >
 
 ### 2020-12-21 — lov/2020-12-21-162
@@ -513,6 +666,15 @@ refid: "lov/1975-06-06-29"
 *§ 5 første ledd bokstav h skal lyde:*
 
 > Eigedom som vert driven som gardsbruk eller skogbruk, herunder gartneri og planteskule tilknytta slik drift, samt anlegg i reindriftsnæringa.
+>
+
+## § 61
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 61 nr. 1 skal lyde:*
+
+> I søksmål om et arbeidsforhold består eller om erstatning i forbindelse med opphør av et arbeidsforhold, gjelder lov 13. august 1915 nr. 5 om domstolene og lov 13. august 1915 nr. 6 om rettergangsmåten for tvistemål, men med de særregler som går fram av paragrafen her og §§ 61 A, 61 B og 61 C. I søksmålet kan det også tas med krav som står i sammenheng med eller kommer i stedet for de krav som kan reises etter første punktum.
 >
 
 ## § 7
@@ -580,6 +742,13 @@ refid: "lov/1975-06-06-29"
 *§ 8 A-1 annet ledd siste punktum skal lyde:*
 
 > Slik korrigering vert første gong gjennomført med verknad for eigedomsskatteåret 2004.
+>
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 8 tredje ledd første punktum skal lyde:*
+
+> Når den normale arbeidsdeling fravikes, skal tilskott til organisasjonene gis etter de finansieringsordninger som gjelder for voksenopplæring i det offentlige utdanningssystem.
 >
 
 ### 2003-12-12 — lov/2003-12-12-103
@@ -752,6 +921,45 @@ refid: "lov/1975-06-06-29"
 > (3) Er verdet (taksten) for bustader sett ned ved likninga etter skatteloven § 4-10 første ledd andre eller tredje punktum, utgjer skattegrunnlaget det justerte verdet multiplisert med 2,67 for primærbustad og 0,83 for sekundærbustad.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 B-1 første til tredje ledd skal lyde:*
+
+> (1) Eigedomsskatt for anlegg for produksjon av elektrisk kraft skal reknast ut etter verdet (taksten) som anlegget vert sett til ved fastsetjinga av formues- og inntektsskatt året før skatteåret.
+>
+> (2) Vert det med heimel i § 12, bokstav b nytta ulike skattøyrar for bygningar og grunn, skal det fastsetjast særskilde skattegrunnlag for bygningar og for grunn i samband med den fastsetjinga som er nemnt i første leden.
+>
+> (3) Er det klaga på verdsetjinga, eller er verdsetjinga under prøving for domstolane, skal eigedomsskatten likevel reknast ut etter det verdet som vart sett ved fastsetjinga av formues- og inntektsskatt. Når spørsmålet er endeleg avgjort, skal skatten rettast i samsvar med den siste avgjerda.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 B-3 første ledd første punktum skal lyde:*
+
+> Kommunefordeling av grunnlaget for eigedomsskatt for kraftanlegg sett i drift etter 1. januar 2000, skal byggje på plasseringa av slike særskilte driftsmiddel i kraftanlegget som nemnt i § 8 B-2 første leden pr. 1. januar i skattefastsetjingsåret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 B-5 første punktum skal lyde:*
+
+> Reglane i skatteforvaltningsloven gjeld tilsvarande så langt dei passer ved fastsetjing av kommunefordeling av eigedomsskattegrunnlag etter reglane i denne lova.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 C-1 første ledd første punktum skal lyde:*
+
+> Kommunestyret avgjer om eigedomsskatten for bustader skal byggje på verdet (taksten) som vert sett på eigedomen ved fastsetjinga av formues- og inntektsskatt året før skatteåret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 C-1 tredje ledd skal lyde:*
+
+> (3) Er verdet (taksten) for bustader sett ned ved fastsetjinga etter skatteloven § 4-10 første ledd andre eller tredje punktum, utgjer skattegrunnlaget det justerte verdet mulitiplisert med 2,67 for primærbustad og 1,33 for sekundærbustad.
+>
+
 ### 2017-06-21 — lov/2017-06-21-76
 
 *§ 8 C-1 tredje ledd skal lyde:*
@@ -870,9 +1078,23 @@ refid: "lov/1975-06-06-29"
 
 ## § 9
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 9 tredje ledd skal lyde:*
+
+> Spørsmål om godkjenning av lærere i førstegangsutdanning og etterutdanning for voksne avgjøres av vedkommende ansvarlig myndighet etter §§ 4, 5 og 15.
+>
+
 ### 2012-12-07 — lov/2012-12-07-73
 
 *§ 9 siste punktum skal lyde:*
 
 > Føresegnene i § 8 B-1, andre leden, gjeld på tilsvarande måte.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9 annet punktum skal lyde:*
+
+> Seinare vert eigedomsskatten utrekna etter det verdet som eigedomen vert sett i ved fastsetjinga av formues- og inntektsskatt i skatteåret.
 >

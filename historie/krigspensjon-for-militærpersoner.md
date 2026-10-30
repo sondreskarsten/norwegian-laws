@@ -5,7 +5,71 @@ refid: "lov/1946-12-13-21"
 
 # Endringshistorikk: Lov om krigspensjon for militærpersoner
 
+## (annet)
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*27. I lov 13. desember 1946 nr. 21 om krigspensjonering for militærpersoner skal § 1 andre ledd første punktum lyde:*
+
+> Som militærperson anses enhver som deltar i krigen (krigsdeltaker) etter bestemmelsene i lov 17. juli 1953 nr. 29 om verneplikt eller som frivillig.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*25. I lov 13. desember 1946 nr. 21 om krigspensjonering for militærpersoner skal § 2 første ledd lyde:*
+
+> Den som antas å ha gjort seg skyldig i forhold som rammes av bestemmelsene i straffeloven kapittel 17, § 184 eller av krigsartiklene i den militære straffelov, skal nektes ytelser etter denne lov for seg og sine etterlatte. Det samme gjelder den som antas å ha gjort seg skyldig i forhold som rammes av de gjeldende straffebestemmelser for landssvik.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*18. I lov 13. desember 1946 nr. 21 om krigspensjonering for militærpersoner skal § 2 første ledd lyde:*
+
+> Den som antas å ha gjort seg skyldig i forhold som rammes av bestemmelsene i straffeloven kapittel 17, § 184 eller av krigsartiklene i den militære straffelov, skal nektes ytelser etter denne lov for seg og sine etterlatte. Det samme gjelder den som antas å ha gjort seg skyldig i forhold som rammes av de gjeldende straffebestemmelser for landssvik.
+>
+> 19. I lov 13. desember 1946 nr. 22 om krigspensjonering for hjemmestyrkepersonell og sivilpersoner skal § 1 nr. 2 første ledd lyde:
+>
+> Den som antas å ha gjort seg skyldig i forhold som rammes av bestemmelsene i straffeloven kapittel 17, § 184 eller av krigsartiklene i den militære straffelov, skal nektes ytelser etter denne lov for seg og sine etterlatte. Det samme gjelder den som antas å ha gjort seg skyldig i forhold som rammes av de gjeldende straffebestemmelser for landssvik.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-904
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
 ## § 13
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 13 sjette ledd annet punktum skal lyde:*
+
+> Når særlige grunner taler for det, kan det tilstås hel eller delvis pensjon selv om ekteskapet ikke har vart i fem år.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 13 åttende og niende ledd skal lyde:*
+
+> Blir hun igjen enke eller blir det nye ekteskap oppløst ved skilsmisse, og gjør hennes økonomiske forhold det rimelig, kan hun tilstås pensjon med inntil forskjellen mellom enkepensjonen etter bestemmelsene i denne lov og underhold eller pensjon hun måtte være sikret gjennom seinere ekteskap.
+>
+> I særlige tilfelle kan det ytes enkepensjon helt eller delvis til kvinne som før skaden inntraff har levd sammen med avdøde og har barn med ham.
+>
 
 ### 2014-06-20 — lov/2014-06-20-24
 
@@ -145,6 +209,26 @@ refid: "lov/1946-12-13-21"
 > Bestemmelsene i de foregående leddene gjelder tilsvarende for ventetillegg og særtillegg fra folketrygden, herunder også særtillegg til overgangsstønad eller pensjon til tidligere familiepleier etter folketrygdloven § 16-7 slik paragrafen lød før 1. januar 2024.
 >
 
+## § 20
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 20 første og annet ledd skal lyde:*
+
+> Krigspensjoneringen administreres av Arbeids- og velferdsetaten.
+>
+> Vedtak etter denne loven fattes av Arbeids- og velferdsdirektoratet, som kan delegere vedtaksmyndighet til underliggende organer.
+>
+
+## § 23
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 23 tredje og fjerde punktum skal lyde:*
+
+> Ytelsene regnes i så fall fra den dag han gjør kravet gjeldende for Arbeids- og velferdsetaten. Når det finnes rimelig, kan det gjøres unntak fra denne regel.
+>
+
 ## § 24
 
 ### 2008-12-19 — lov/2008-12-19-106
@@ -154,7 +238,43 @@ refid: "lov/1946-12-13-21"
 > Det samme gjelder hvis en trygdet som oppebærer stønad etter loven uten rimelig grunn unnlater å etterkomme legens råd, nekter å gjennomgå arbeidsrettede tiltak eller gjør seg skyldig i grov skjødesløshet med hensyn til sin helse.
 >
 
+## § 25
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25 første punktum skal lyde:*
+
+> Det kan bestemmes at barnepensjoner og barnetillegg skal utbetales til den som har omsorgen for barnet.
+>
+
+## § 26
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 26 skal lyde:*
+
+> Rett til pensjoner eller andre ytelser etter denne lov faller bort hvis det ikke er reist krav overfor Arbeids- og velferdsetaten innen tre år etter at skaden er inntruffet.
+>
+> Det kan ses bort fra denne fristen når særlige grunner foreligger.
+>
+
+## § 27
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 27 første punktum skal lyde:*
+
+> Midlertidig utbetaling av hel eller delvis pensjon kan settes i verk før pensjonskravet er endelig avgjort, når Arbeids- og velferdsetaten finner det overveiende sannsynlig at vilkårene for pensjon er til stede.
+>
+
 ## § 3
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 3 nr. 3 tredje ledd første punktum skal lyde:*
+
+> Når det finnes rimelig, kan det tilstås sykepenger til person under 18 år.
+>
 
 ### 2014-06-20 — lov/2014-06-20-24
 
@@ -174,7 +294,20 @@ refid: "lov/1946-12-13-21"
 
 *§ 3 nr. 4 nåværende tredje, fjerde og femte ledd blir nye fjerde, femte og sjette ledd.*
 
+## § 30
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 30 nr. 2 skal lyde:*
+
+> Arbeids- og velferdsetaten kan, når det finnes nødvendig for avgjørelsen av en sak etter denne lov la innhente forklaringer gjennom bevisopptakelse etter reglene i lov om rettergangsmåten for tvistemål eller ved politiet.
+>
+
 ## § 31
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 31 oppheves.*
 
 ### 2024-06-01 — lov/2024-05-24-24
 
@@ -183,4 +316,22 @@ refid: "lov/1946-12-13-21"
 > Krigspensjoneringen kan dekke krigsinvalidepensjonistens egenandeler til varig innleggelse i syke- eller aldershjem i utlandet ut over det som dekkes av bostedslandet. Dekningen begrenser seg til det som er normalt i bostedslandet.
 >
 > Ved egenandelsdekning etter første ledd beregnes pensjonen etter § 3 nr. 4 sjette ledd.
+>
+
+## § 8
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 8 annet punktum skal lyde:*
+
+> Det kan også ytes bidrag til vedlikehold og fornyelse av slike hjelpemidler.
+>
+
+## § 9
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 9 første punktum skal lyde:*
+
+> Invaliden kan tilstås bidrag til utdannelse, yrkesopplæring eller hjelp til erverv, når det antas at invaliden kan få varig nytte av dette og han selv ikke har midler til å bekoste det.
 >

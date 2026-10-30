@@ -32,6 +32,13 @@ refid: "lov/1992-12-04-127"
 > Kongen avgjør tvilstilfelle etter denne paragrafen. Kongen eller den Kongen bemyndiger kan i særlige tilfeller helt eller delvis unnta en tjeneste fra loven.
 >
 
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 1-1 første ledd bokstav a skal lyde:*
+
+> Kringkasting:utsending av tale, musikk, bilder og liknende via elektroniske kommunikasjonsnett, ment eller egnet til å ses eller høres direkte og samtidig av allmennheten.
+>
+
 ### 2025-02-28 — lov/2025-02-28-2
 
 *§ 1-1 første ledd bokstav g og ny bokstav h til l skal lyde:*
@@ -130,6 +137,10 @@ refid: "lov/1992-12-04-127"
 >
 > Kongen gir i forskrift regler om at fjernsynsprogram med scener eller innslag som kan være skadelige for mindreåriges fysiske, psykiske eller moralske utvikling bare skal sendes i perioder hvor mindreårige vanligvis ikke kan se eller høre sendingen, samt om andre tekniske tiltak som forhindrer at mindreårige kan se eller høre sendingene. Kongen gir i forskrift regler om akustisk og visuell varsling når slike program sendes i ukodet form.
 >
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 2-7 oppheves.*
 
 ## § 2-10
 
@@ -441,6 +452,13 @@ refid: "lov/1992-12-04-127"
 > Det kan ikke sendes reklameinnslag i tilknytning til barneprogram eller reklameinnslag som særlig er rettet mot barn i fjernsyn eller audiovisuelle bestillingstjenester.
 >
 
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 3-1 andre ledd skal lyde:*
+
+> Det kan ikke sendes reklameinnslag i tilknytning til barneprogram eller reklameinnslag som særlig er rettet mot barn i kringkasting eller audiovisuelle bestillingstjenester.
+>
+
 ### 2017-06-16 — lov/2017-06-16-68
 
 *§ 3-1 skal lyde:*
@@ -650,7 +668,9 @@ refid: "lov/1992-12-04-127"
 
 *§ 3-7 første ledd bokstav d og f skal lyde:*
 
-> For å unngå at publikum villedes skal programmer som inneholder produktplassering identifiseres på en tydelig og nøytral måte ved begynnelsen og slutten av programmet, samt når programmet fortsetter etter et reklameavbrudd.Programmer som er produsert eller bestilt av kringkastingsforetak underlagt norsk jurisdiksjon eller tilknyttede foretak, kan ikke inneholde produktplassering finansiert av politiske partiorganisasjoner.
+> For å unngå at publikum villedes skal programmer som inneholder produktplassering identifiseres på en tydelig og nøytral måte ved begynnelsen og slutten av programmet, samt når programmet fortsetter etter et reklameavbrudd.
+>
+> Programmer som er produsert eller bestilt av kringkastingsforetak underlagt norsk jurisdiksjon eller tilknyttede foretak, kan ikke inneholde produktplassering finansiert av politiske partiorganisasjoner.
 >
 
 ### 2025-02-28 — lov/2025-02-28-2
@@ -730,6 +750,20 @@ refid: "lov/1992-12-04-127"
 > Medietilsynet kan i forskrift eller enkeltvedtak forby salg, utleie eller markedsføring av innretninger eller tjenester som i det vesentlige har som formål å gi tilgang til fjernsynskanaler eller program som nevnt i første ledd bokstav b, d eller e.
 >
 > Kongen gir i forskrift nærmere regler om unntak fra forbudet i første ledd bokstav a og om prosedyrer mv. i forbindelse med nedlegging av forbud etter første og andre ledd.
+>
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 4-5 første ledd bokstav b skal lyde:*
+
+> sender program med pornografi eller vold i strid med norsk lov eller andre program som i alvorlig grad kan skade mindreåriges fysiske, mentale eller moralske utvikling
+>
+
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 4-5 første ledd bokstav c skal lyde:*
+
+> sender program som kan være skadelige for mindreårige, med mindre det ved valg av sendetid eller ved tekniske tiltak sørges for at mindreårige normalt ikke kan se eller høre slike sendinger
 >
 
 ### 2025-02-28 — lov/2025-02-28-2
@@ -908,6 +942,15 @@ refid: "lov/1992-12-04-127"
 
 ## § 8-4
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 8-4 fjerde ledd skal lyde:*
+
+> Krav som nevnt i tredje ledd innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
+> 17. I lov 4. desember 1992 nr. 132 om legemidler gjøres følgende endring:
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 8-4 fjerde ledd skal lyde:*
@@ -961,9 +1004,11 @@ refid: "lov/1992-12-04-127"
 
 *§ 10-1 fjerde ledd oppheves.*
 
-> 152. I lov 4. desember 1992 nr. 130 om husdyravl skal § 7 lyde:
->
-> Den som overtrer bestemmelser gitt i eller i medhold av denne lov straffes med bøter eller med fengsel inntil tre måneder.
+### 2015-02-06 — lov/2015-02-06-7
+
+*§ 10-1 første ledd skal lyde:*
+
+> Med bøter eller fengsel inntil 6 måneder straffes den som forsettlig eller uaktsomt grovt eller gjentatte ganger overtrer bestemmelsene i § 2-1 første eller tredje ledd, § 2-4, § 3-1 andre ledd, § 4-5 første ledd bokstav b og d, og kapittel 9 eller forskrift eller enkeltvedtak gitt med hjemmel i disse bestemmelser. Medvirkning straffes på samme måte.
 >
 
 ## § 10-2
@@ -1129,6 +1174,26 @@ refid: "lov/1992-12-04-127"
 > Kongen kan gi regler om forhøyet gebyr ved gjentatt overtredelse. Medietilsynet kan i særlige tilfeller frafalle ilagt overtredelsesgebyr.
 >
 
+### 2009-01-09 — lov/2009-01-09-2
+
+*2. I lov 4. desember 1992 nr. 127 om kringkasting (kringkastingsloven) skal § 2-12 første til tredje ledd lyde:*
+
+> Medietilsynet kan kreve skriftlig bekreftelse fra kringkaster under norsk jurisdiksjon på at overtredelse av bestemmelser som nevnt i § 44 tredje ledd i markedsføringsloven skal opphøre. Medietilsynet kan videre forby kringkasteren å sende innslag hvis det foreligger slik overtredelse i disse innslagene.
+>
+> Ved overtredelser som nevnt i første ledd kan Medietilsynet gjennomføre gransking og besiktigelse på stedet hvor kringkasteren utøver sin virksomhet hvis det er nødvendig for at Medietilsynet skal kunne utføre sine gjøremål etter markedsføringsloven § 47.
+>
+> Medietilsynets kompetanse etter denne bestemmelsen gjelder kun i forhold til de bestemmelsene Medietilsynet etter markedsføringsloven § 47 annet ledd er oppnevnt som vedkommende myndighet til å håndheve.
+>
+> 3. I lov 14. april 2000 nr. 31 om behandling av personopplysninger (personopplysningsloven) oppheves § 26.
+>
+
+### 2011-07-01 — forskrift/2011-06-17-598
+
+*Loven trer i kraft fra 1. juli 2011.*
+
+> Loven trer i kraft fra 1. juli 2011.
+>
+
 ### 2012-12-14 — lov/2012-12-14-91
 
 *Overskriften til § 3-5 skal lyde:*
@@ -1136,11 +1201,32 @@ refid: "lov/1992-12-04-127"
 > § 3-5.Premier i lyd- eller bildeprogrammer i kringkasting og audiovisuelle bestillingstjenester
 >
 
+### 2013-01-01 — forskrift/2012-12-14-1245
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2017-07-01 — forskrift/2017-06-16-765
 
 *Loven gjelder fra 1. juli 2017.*
 
 > Loven gjelder fra 1. juli 2017.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-812
+
+*Loven gjelder fra 1. juli 2019.*
+
+> Loven gjelder fra 1. juli 2019.
 >
 
 ### 2020-05-20 — lov/2020-05-20-43
@@ -1165,11 +1251,36 @@ refid: "lov/1992-12-04-127"
 > Loven trer i kraft 1. januar 2021.
 >
 
+### 2023-01-01 — forskrift/2022-03-18-414
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-09-01 — forskrift/2023-09-01-1380
+
+*Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Følgende trer i kraft straks:
+>
+> Endringsloven del I (markedsføringsloven) § 44 tredje ledd og § 47.
+>
+> Endringsloven del V (kringkastingsloven).
+>
+
 ### 2024-12-13 — lov/2024-12-13-76
 
 *2. I lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester skal § 2-2 første ledd lyde:*
 
 > Opprettelse eller drift av trådløse, bakkebaserte senderanlegg som hovedsakelig vil bli benyttet til kringkasting eller lokalkringkasting eller videresending av kringkasting eller lokalkringkasting krever konsesjon fra departementet eller den departementet bestemmer. Konsesjon gis i forbindelse med tildeling av frekvenskapasitet i medhold av ekomloven.
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3095
+
+*Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.*
+
+> Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.
 >
 
 ### 2025-02-28 — lov/2025-02-28-2
@@ -1226,3 +1337,20 @@ refid: "lov/1992-12-04-127"
 >
 > Kongen kan gi forskrift om tilsyn med etterlevelsen av bestemmelsene i kapittelet her.
 >
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+## § 33
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 33 oppheves.*

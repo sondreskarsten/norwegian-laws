@@ -18,12 +18,23 @@ refid: "lov/2003-12-12-108"
 
 *Nåværende annet ledd blir tredje ledd.*
 
+### 2010-01-01 — forskrift/2009-11-06-1347
+
+*Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.
+>
+
 ### 2011-06-24 — lov/2011-06-24-24
 
 *I lov 12. desember 2003 nr. 108 om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. skal § 15 andre ledd lyde:*
 
 > Kompensasjon tillegges renter fra den dag fristen for behandling av kravet etter § 9 er utløpt og til og med den dag kompensasjonsbeløpet utbetales.
 >
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§§ 13 til 15 oppheves.*
 
 ### 2016-06-17 — lov/2016-06-17-41
 
@@ -40,6 +51,34 @@ refid: "lov/2003-12-12-108"
 > Lov om kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. (merverdiavgiftskompensasjonsloven)
 >
 > Lova tek til å gjelde straks.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2022-06-15 — forskrift/2022-06-10-997
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
 >
 
 ## § 10
@@ -73,6 +112,21 @@ refid: "lov/2003-12-12-108"
 > Foreldelse avbrytes kun ved innsendelse av kompensasjonsoppgave etter bestemmelsene i denne lov.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10 skal lyde:*
+
+> § 10.Foreldelse
+>
+> Foreldelsesfristen for krav om kompensasjon er sammenfallende med fristen for å sende inn skattemelding for sjette periode påfølgende år.
+>
+> For virksomheter som nevnt i § 2 bokstav a er foreldelsesfristen sammenfallende med fristen for å sende inn skattemelding for neste periode.
+>
+> Foreldelsesfristen etter første og annet ledd begynner å løpe den datoen kompensasjonsbeløpet er eller skulle ha vært registrert i regnskapssystemet etter bestemmelsene i § 6 annet ledd.
+>
+> Foreldelse avbrytes kun ved innsendelse av skattemelding for merverdiavgiftskompensasjon etter bestemmelsene i skatteforvaltningsloven.
+>
+
 ### 2020-06-23 — lov/2020-06-23-104
 
 *§ 10 nytt femte ledd skal lyde:*
@@ -89,6 +143,10 @@ refid: "lov/2003-12-12-108"
 > Kravet på tilbakebetaling med tillegg av renter er tvangsgrunnlag for utlegg. Kravet er tvangskraftig selv om grunnlaget er påklaget eller innbrakt for domstolene.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11 oppheves.*
+
 ## § 12
 
 ### 2006-01-01 — lov/2005-12-09-114
@@ -97,6 +155,10 @@ refid: "lov/2003-12-12-108"
 
 > Bestemmelsene om oppbevaring av regnskapsmateriale i lov 19. november 2004 nr. 73 om bokføring (bokføringsloven) gjelder også for de som ikke er bokføringspliktige etter bokføringsloven.
 >
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12 annet og tredje ledd oppheves.*
 
 ## § 14
 
@@ -147,6 +209,35 @@ refid: "lov/2003-12-12-108"
 > Kompensasjonsordningen administreres av avgiftsmyndighetene ved skattekontoret.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17 oppheves.*
+
+## § 18
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 18 første punktum skal lyde:*
+
+> Departementet kan gi nærmere forskrifter om avgrensing, utfylling og gjennomføring av bestemmelsene i denne lov, herunder om beregning, inndekning og krav til innholdet av selgers salgsdokument.
+>
+
+## § 19
+
+### 2009-06-19 — lov/2009-06-19-58
+
+*§ 19 skal lyde:*
+
+> Ved overtredelse av denne loven eller forskrift gitt i medhold av denne loven gjelder straffebestemmelsene i merverdiavgiftsloven § 21-4 tilsvarende.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 19 oppheves.*
+
+> 27. I lov 5. mars 2004 nr. 12 om konkurranse mellom foretak og kontroll med foretakssammenslutninger gjøres følgende endring:
+>
+
 ## § 2
 
 ### 2008-05-09 — lov/2008-05-09-24
@@ -173,7 +264,9 @@ refid: "lov/2003-12-12-108"
 
 *§ 2 fyrste ledd bokstav f og ny bokstav g skal lyde:*
 
-> internatdelen ved skoler godkjent etter friskolelova, som er en del av skolens tilbud til egne elever,opplæring av voksne elever uten rett til videregående opplæring ved frittstående skoler etter forskrift fastsatt med hjemmel i friskolelova § 3-1 femte ledd og ved frittstående skoler som er godkjent for å drive særskilt opplæring for funksjonshemmede, jf. friskolelova § 3-1 andre ledd andre punktum.
+> internatdelen ved skoler godkjent etter friskolelova, som er en del av skolens tilbud til egne elever,
+>
+> opplæring av voksne elever uten rett til videregående opplæring ved frittstående skoler etter forskrift fastsatt med hjemmel i friskolelova § 3-1 femte ledd og ved frittstående skoler som er godkjent for å drive særskilt opplæring for funksjonshemmede, jf. friskolelova § 3-1 andre ledd andre punktum.
 >
 
 ### 2021-06-18 — lov/2021-06-18-106
@@ -181,6 +274,15 @@ refid: "lov/2003-12-12-108"
 *§ 2 fyrste ledd bokstav g skal lyde:*
 
 > opplæring av voksne elever uten rett til videregående opplæring ved frittstående skoler etter forskrift fastsatt med hjemmel i friskolelova § 3-1 andre ledd fjerde punktum og ved frittstående skoler som er godkjent for å drive særskilt opplæring for funksjonshemmede, jf. friskolelova § 3-1 andre ledd andre punktum.
+>
+
+## § 24
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 24 tredje ledd skal lyde:*
+
+> Opplysninger som kreves etter første og annet ledd, kan gis uten hinder av den lovbestemte taushetsplikt som ellers påhviler skatte- og avgiftsmyndigheter og myndigheter som har til oppgave å overvåke offentlig regulering av ervervsvirksomhet.
 >
 
 ## § 3
@@ -217,6 +319,15 @@ refid: "lov/2003-12-12-108"
 *§ 4 annet ledd skal lyde:*
 
 > Det ytes ikke kompensasjon:Når det foreligger fradrag for inngående merverdiavgift etter bestemmelsene i merverdiavgiftsloven kapittel VI.For merverdiavgift på anskaffelser som nevnt i merverdiavgiftsloven § 22 første ledd.For merverdiavgift på anskaffelser til bygg, anlegg eller annen fast eiendom for salg eller utleie.Når virksomheter som nevnt i § 2 første ledd bokstav a og b driver økonomisk aktivitet og denne aktiviteten kan være i konkurranse med virksomheter som ikke er kompensasjonsberettiget.
+>
+
+### 2009-06-19 — lov/2009-06-19-58
+
+*§ 4 annet ledd nr. 1 og 2 skal lyde:*
+
+> Når det foreligger rett til fradrag for inngående merverdiavgift etter bestemmelsene i merverdiavgiftsloven kapittel 8.
+>
+> For merverdiavgift på anskaffelser som nevnt i merverdiavgiftsloven § 8-3.
 >
 
 ### 2010-06-25 — lov/2010-06-25-39
@@ -263,6 +374,21 @@ refid: "lov/2003-12-12-108"
 > Kompensasjonsoppgave skal sendes inn elektronisk.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6 overskriften skal lyde:*
+
+> § 6.Beløpsgrenser og tidfesting
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6 første ledd oppheves. Nåværende annet ledd blir første ledd.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6 tredje ledd oppheves. Nåværende fjerde ledd blir annet ledd.*
+
 ## § 7
 
 ### 2007-06-29 — lov/2007-06-29-64
@@ -297,6 +423,16 @@ refid: "lov/2003-12-12-108"
 > Fristen for 3. periode, mai og juni, er likevel 31. august.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7 oppheves.*
+
+## § 8
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8 oppheves.*
+
 ## § 9
 
 ### 2004-12-10 — lov/2004-12-10-77
@@ -304,4 +440,13 @@ refid: "lov/2003-12-12-108"
 *§ 9 skal lyde:*
 
 > Kompensasjon etter denne lov skal utbetales innen 3 uker etter at fristen etter § 7 for å sende inn oppgave er utløpt. Dersom kompensasjonsoppgaven mottas etter utløpet av fristen i § 7 skal kravet avvises. Med de begrensninger som følger av § 10 kan kravet tas med i oppgaven for en senere periode. For krav som tas med i oppgaven for en senere periode, skal kompensasjon utbetales innen 3 uker etter at fristen for denne perioden er utløpt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9 skal lyde:*
+
+> § 9.Krav på kompensasjon
+>
+> Dersom skattemeldingen mottas etter utløpet av leveringsfristen skal kravet avvises. Med de begrensninger som følger av § 10 kan kravet tas med i skattemeldingen for en senere periode.
 >

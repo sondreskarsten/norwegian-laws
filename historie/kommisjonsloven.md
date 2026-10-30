@@ -7,6 +7,13 @@ refid: "lov/1916-06-30-1"
 
 ## (annet)
 
+### 2002-07-01 — lov/2002-06-21-34
+
+*1. I lov 30. juni 1916 nr. 1 om kommisjon (kommisjonsloven) skal § 56 første ledd nytt annet punktum lyde:*
+
+> Lovregler om krav mot tidligere salgsledd gjelder likevel tilsvarende for krav mot en kommittent.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I følgende bestemmelser skal ordene «gjeldsforhandling» og «gjeldsforhandlingen» endres til henholdsvis «rekonstruksjonsforhandling» og «rekonstruksjonsforhandlingen»:*

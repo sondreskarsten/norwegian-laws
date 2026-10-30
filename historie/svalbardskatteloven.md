@@ -5,6 +5,15 @@ refid: "lov/1996-11-29-68"
 
 # Endringshistorikk: Svalbardskatteloven – svalbsktl
 
+## § 1-1
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 1-1 første ledd skal lyde:*
+
+> Denne lov gjelder skatt til Svalbard av formue og inntekt, herunder fastsetting, betaling og innkreving av slik skatt.
+>
+
 ## § 1-3
 
 ### 2024-06-25 — lov/2024-06-25-63
@@ -43,6 +52,13 @@ refid: "lov/1996-11-29-68"
 > Skatteplikten etter denne paragraf faller bort fra og med det inntektsår personen har oppholdt seg utenfor Svalbard mer enn 183 dager i en tolvmånedersperiode.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-1 fjerde ledd skal lyde:*
+
+> Lønn og annen godtgjørelse for arbeid utført utenfor Svalbard er unntatt fra skatteplikten dersom det godtgjøres at inntekten er skattepliktig ved annen norsk skattlegging eller i fremmed stat.
+>
+
 ### 2024-06-25 — lov/2024-06-25-63
 
 *§ 2-1 fyrste ledd fyrste punktum skal lyde:*
@@ -73,6 +89,13 @@ refid: "lov/1996-11-29-68"
 *§ 2-3 overskriften skal lyde:*
 
 > Selskaper hjemmehørende på Svalbard
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-3 annet ledd skal lyde:*
+
+> Inntekt av næringsvirksomhet utøvet utenfor Svalbard unntas fra skatteplikt dersom det godtgjøres at inntekten er skattepliktig ved annen norsk skattlegging eller i fremmed stat.
 >
 
 ### 2024-06-25 — lov/2024-06-25-63
@@ -135,6 +158,13 @@ refid: "lov/1996-11-29-68"
 > Skattepliktig utdeling fra selskap og gevinst eller tap ved realisasjon av selskapsandel skal ikke oppjusteres etter reglene i skatteloven.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-1 første ledd tredje punktum skal lyde:*
+
+> I det samlede inntektsgrunnlaget etter forrige punktum inngår også inntekt som nevnt i § 3-2 fjerde ledd bokstav b.
+>
+
 ### 2024-06-25 — lov/2024-06-25-63
 
 *§ 3-1 fyrste ledd fyrste punktum skal lyde:*
@@ -165,6 +195,20 @@ refid: "lov/1996-11-29-68"
 *§ 3-2 første ledd første punktum skal lyde:*
 
 > Skatt av lønn, pensjoner og annen ytelse som nevnt i skatteloven 1 § 12-2 bokstavene a, b, c og j beregnes med en prosentvis fastsatt del av ytelsens bruttoverdi, jf. § 5-2.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-2 første ledd skal lyde:*
+
+> Formue og inntekt av annen art enn nevnt i § 3-1 skattlegges etter reglene i skatteloven, med mindre annet er bestemt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-2 fjerde ledd bokstav b første punktum skal lyde;*
+
+> Skatt av alminnelig inntekt fra enkeltpersonforetak beregnes med en prosentvis fastsatt del av denne inntekten og med samme satser som er fastsatt for lønnsinntekt, jf. § 3-1.
 >
 
 ### 2021-06-18 — lov/2021-06-18-104
@@ -349,6 +393,15 @@ refid: "lov/1996-11-29-68"
 > De funksjoner som etter skattebetalingsloven tilligger skatteoppkreveren i kommunen, skal tilligge skatteoppkreveren for Svalbard.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-1 skal lyde:*
+
+> § 5-1.Skattebetalingslovens anvendelse på Svalbard
+>
+> Skattebetalingsloven gjelder ved betaling og innkreving av skatt og trygdeavgift til Svalbard, jf. skattebetalingsloven § 1-1 annet ledd b.
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 5-1 skal lyde:*
@@ -404,6 +457,34 @@ refid: "lov/1996-11-29-68"
 > Arbeidsgiveren skal levere opplysninger om foretatt lønnstrekk for hver kalendermåned etter reglene i a-opplysningsloven. Opplysninger om foretatt lønnstrekk skal også leveres når arbeidsgiver opphører med virksomhet på Svalbard eller aktiviteten der på annen måte opphører. Forhåndsutfylte opplysninger om arbeidsgiveren etter denne bestemmelsen kan gjøres tilgjengelig for arbeidsgiveren ved elektronisk kommunikasjon.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-2 første ledd første punktum skal lyde:*
+
+> Ved utbetaling av lønn og annen godtgjørelse for arbeid skal arbeidsgiver gjøre fradrag i ytelsens verdi for skatt etter § 3-1.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-2 fjerde ledd skal lyde:*
+
+> Skattebetalingsloven kapittel 5 om forskuddstrekk får ikke anvendelse for lønnstrekk, med unntak av § 5-12.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-2 femte ledd første punktum skal lyde:*
+
+> Arbeidsgiveren skal levere melding om foretatt lønnstrekk etter reglene i skatteforvaltningsloven § 8-8 første ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-2 nytt niende ledd skal lyde:*
+
+> Departementet kan fastsette nærmere regler om gjennomføring av lønnstrekkordningen, herunder om lønnstrekk i naturalytelser og utgiftsgodtgjørelser.
+>
+
 ### 2024-06-25 — lov/2024-06-25-63
 
 *§ 5-2 sjette ledd skal lyde:*
@@ -438,6 +519,10 @@ refid: "lov/1996-11-29-68"
 > Departementet bestemmer hvilke organer som skal være skatteoppkrever for Svalbard, og kan fastsette nærmere regler om organiseringen av skatteoppkrevingen.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-3 oppheves.*
+
 ## § 6-3
 
 ### 2006-12-15 — lov/2006-12-15-79
@@ -464,6 +549,13 @@ refid: "lov/1996-11-29-68"
 > Ordningen med forenklet felles skatteoppgjør avvikles fra den tid Kongen bestemmer. Etter avvikling skattlegges denne gruppen etter ordinære regler og skattesatser. Overgang til ordinær beskatning skal tidligst skje for inntektsåret 2015.
 >
 > Ved forenklet felles skatteoppgjør i overgangsperioden benyttes skattesatser fastsatt av Stortinget.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-3 første ledd annet punktum skal lyde:*
+
+> Bestemmelsen gjelder ikke for forenklet oppgjør etter § 4-2 bokstav a.
 >
 
 ### 2025-12-22 — lov/2025-12-22-118
@@ -498,9 +590,40 @@ refid: "lov/1996-11-29-68"
 
 *Nåværende annet til fjerde ledd blir fjerde til sjette ledd.*
 
+### 2013-04-26 — forskrift/2013-04-26-413
+
+*Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.*
+
+> Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.
+>
+
 ### 2015-12-18 — lov/2015-12-18-113
 
 *Nåværende annet og tredje punktum blir tredje og nytt fjerde punktum.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Nåværende § 3-2 blir § 3-1.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Nåværende § 3-1 blir § 3-2 og overskriften skal lyde:*
+
+> § 3-2.Formue og annen inntekt enn lønn
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Kapittel 4 skal lyde:*
+
+> § 4-1.Skatteforvaltningslovens anvendelse på Svalbard
+>
+> Skatteforvaltningsloven gjelder ved fastsetting av skatt og trygdeavgift til Svalbard jf. skatteforvaltningsloven § 1-1 bokstav b.
+>
+> § 4-2.Særlige bestemmelser for visse grupper skattepliktige
+>
+> Departementet kan fastsette nærmere regler omforenklet felles skatteoppgjør for prosjektgrupper mv. med kortere opphold på Svalbard,krav til registrering og dokumentasjon av regnskapsopplysninger, årsregnskap og årsberetning for næringsdrivende selskaper, eller for grupper av slike.
+>
 
 ### 2016-06-17 — lov/2016-06-17-37
 
@@ -517,6 +640,37 @@ refid: "lov/1996-11-29-68"
 > Lov om skatt til Svalbard (Svalbardskatteloven)
 >
 > Lova tek til å gjelde straks.
+>
+
+### 2016-07-01 — forskrift/2016-01-22-43
+
+*Lov 19. desember 2014 nr. 77 del V om endringer i ligningsloven (Ny klagenemndsordning) trer i kraft 1. juli 2016.*
+
+> Lov 19. desember 2014 nr. 77 del V om endringer i ligningsloven (Ny klagenemndsordning) trer i kraft 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 78 del II om endringer i lov om skatt til Svalbard trer i kraft fra 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 84 del III om endringer i merverdiavgiftsloven trer i kraft fra 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 86 del II om endring i a-opplysningsloven trer i kraft fra 1. juli 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-01-01 — forskrift/2025-06-20-1086

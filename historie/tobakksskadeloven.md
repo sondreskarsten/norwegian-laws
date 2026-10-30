@@ -11,15 +11,25 @@ refid: "lov/1973-03-09-14"
 
 *Nåværende §§ 8 til 12 blir §§ 9 til 13.*
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2005-06-17 — lov/2005-06-17-62
 
-*93 a. I lov 30. mai 1975 nr. 18 sjømannsloven skal ny § 54 C lyde:*
+*4. I lov 9. mars 1973 nr. 14 om vern mot tobakkskader skal § 6 sjette ledd lyde:*
 
-> § 54 C.Straff
+> Reglene vedrørende kommunestyrets og Arbeidstilsynets virksomhet som tilsynsorgan etter henholdsvis §§ 4a-7 til 4a-9 og 4a-12 i lov 19. november 1982 nr. 66 om helsetjenesten i kommunene og §§ 18-4 til 18-8 i arbeidsmiljøloven får tilsvarende anvendelse ved tilsyn etter paragrafen her.
 >
-> Med bøter eller fengsel inntil 6 måneder straffes den som forsettlig eller grovt uaktsomt lar en sjømann være ansatt på vesentlig andre vilkår enn de som fremgår av loven, forskrifter gitt i medhold av loven eller tariffavtale som gjelder for sjømannen.
+
+### 2009-01-09 — lov/2009-01-09-2
+
+*4. I lov 9. mars 1973 nr. 14 om vern mot tobakksskader (tobakksskadeloven) skal § 8 syvende ledd lyde:*
+
+> Vedtak etter denne paragrafen kan påklages til Markedsrådet. Ved behandlingen i Markedsrådet gjelder de saksbehandlingsregler som er gitt i eller i medhold av markedsføringsloven så langt de passer.
 >
-> Ved vurderingen av om en overtredelse av første ledd er vesentlig, skal det særlig legges vekt på overtredelsens omfang, virkninger og graden av utvist skyld.
+
+### 2012-01-01 — forskrift/2011-06-24-637
+
+*Loven trer i kraft fra 1. januar 2012.*
+
+> Loven trer i kraft fra 1. januar 2012.
 >
 
 ### 2013-05-24 — lov/2013-05-24-17
@@ -112,6 +122,15 @@ refid: "lov/1973-03-09-14"
 > Kapittel 2, med unntak av § 6 annet ledd, trer i kraft 1. januar 2015.
 >
 > – – –
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*71. I lov 9. mars 1973 nr. 14 om vern mot tobakksskader skal § 42 første ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer forbud eller påbud gitt i eller i medhold av denne lov straffes med bøter. Forsøk straffes på samme måte.
+>
+> 72. I lov 7. juni 1974 nr. 22 om prisregler for jern og stål gjøres følgende endring:
 >
 
 ### 2016-01-01 — forskrift/2013-10-04-1180
@@ -284,6 +303,13 @@ refid: "lov/1973-03-09-14"
 
 *I kapittel 7 gjøres følgende endringer:*
 
+### 2017-07-01 — forskrift/2017-06-21-908
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. juli 2017 med unntak av romertall I § 4 tredje ledd, § 6 andre ledd, § 7 første til andre ledd, § 8 første til femte ledd, § 9 første til tredje ledd, § 10 første til fjerde ledd, § 11 og § 35, som trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. juli 2017 med unntak av romertall I § 4 tredje ledd, § 6 andre ledd, § 7 første til andre ledd, § 8 første til femte ledd, § 9 første til tredje ledd, § 10 første til fjerde ledd, § 11 og § 35, som trer i kraft 1. januar 2018.
+>
+
 ### 2018-06-22 — lov/2018-06-22-77
 
 *Nåværende § 10 blir § 7.*
@@ -442,6 +468,13 @@ refid: "lov/1973-03-09-14"
 
 *Nåværende fjerde og femte ledd blir femte og nytt sjette ledd.*
 
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
 ### 2020-11-01 — forskrift/2020-10-23-2122
 
 *Delt ikraftsetting av lov 22. juni 2018 nr. 77 om endringer i tobakksskadeloven (ulovlig handel med tobakksvarer mv.). Endringsloven trer i kraft fra 1. november 2020 med unntak av tobakksskadeloven nytt kapittel 3A og ny § 36a.*
@@ -452,6 +485,20 @@ refid: "lov/1973-03-09-14"
 ### 2021-05-07 — lov/2021-05-07-31
 
 *Nåværende § 13 tredje ledd blir nytt fjerde ledd.*
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
 
 ### 2021-07-01 — forskrift/2021-06-23-2065
 
@@ -467,9 +514,23 @@ refid: "lov/1973-03-09-14"
 > Loven trer i kraft 1. juli 2022.
 >
 
+### 2023-01-01 — forskrift/2022-09-16-1575
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-107
 
 *Nåværende § 2 tolvte ledd blir nytt trettende ledd.*
+
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
 
 ### 2024-01-01 — forskrift/2023-12-20-2137
 
@@ -483,6 +544,28 @@ refid: "lov/1973-03-09-14"
 *I lov 9. mars 1973 nr. 14 om vern mot tobakksskader skal § 29 tredje ledd første punktum lyde:*
 
 > Havindustritilsynet fører tilsyn med at reglene i og i medhold av §§ 25 og 28 a overholdes innen det ansvarsområdet tilsynet har i petroleumsvirksomheten i henhold til arbeidsmiljøloven.
+>
+
+### 2024-04-01 — forskrift/2024-03-22-516
+
+*Loven trer i kraft 1. april 2024.*
+
+> Loven trer i kraft 1. april 2024.
+>
+
+### 2024-12-20 — forskrift/2024-12-20-3306
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I (matloven)
+>
+> Endringsloven del III (lov 10. februar 2017 nr. 5 om endringer i tobakksskadeloven (gjennomføring av direktiv 2014/40/EU og standardiserte tobakkspakninger)
+>
+> Følgende trer i kraft 1. januar 2025:
+>
+> Endringsloven del II (tobakksskadeloven)
 >
 
 ### 2025-02-28 — lov/2025-02-28-2
@@ -534,6 +617,24 @@ refid: "lov/1973-03-09-14"
 *Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2025, med unntak av endringene i §§ 21b, 28, 29, 44 og 44a som trer i kraft 1. januar 2026.*
 
 > Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2025, med unntak av endringene i §§ 21b, 28, 29, 44 og 44a som trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1141
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av endringene i folkehelseloven § 20 fjerde ledd annet punktum.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av endringene i folkehelseloven § 20 fjerde ledd annet punktum.
 >
 
 ### 2026-03-30 — forskrift/2026-03-27-498
@@ -704,6 +805,13 @@ refid: "lov/1973-03-09-14"
 > Tilsynsmyndigheten kan i særlige tilfeller gi dispensasjon fra regler gitt i eller i medhold av § 12 og sette vilkår for eventuell dispensasjon. På arbeidsplasser med arbeidsmiljøutvalg skal uttalelse fra utvalget legges ved søknaden. På arbeidsplasser uten arbeidsmiljøutvalg skal uttalelse fra verneombud legges ved.
 >
 > Kongen kan gi nærmere regler om gjennomføring og utfylling av disse bestemmelser og kan gjøre unntak fra dem.
+>
+
+### 2011-06-24 — lov/2011-06-24-29
+
+*§ 13 annet ledd skal lyde:*
+
+> Reglene vedrørende kommunestyrets og Arbeidstilsynets virksomhet som tilsynsorgan etter henholdsvis folkehelseloven kapittel 3 og arbeidsmiljøloven § 18-4 til 18-8 får tilsvarende anvendelse ved tilsyn etter paragrafen her.
 >
 
 ### 2013-05-24 — lov/2013-05-24-17
@@ -1500,6 +1608,10 @@ refid: "lov/1973-03-09-14"
 > Loven kommer til anvendelse for petroleumsvirksomhet til havs i den grad slik virksomhet omfattes av arbeidsmiljøloven § 1-3.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 annet ledd oppheves.*
+
 ### 2017-02-10 — lov/2017-02-10-5
 
 *§ 3 første og annet ledd skal lyde:*
@@ -1565,6 +1677,19 @@ refid: "lov/1973-03-09-14"
 *§ 30 a tredje ledd skal lyde:*
 
 > Bestemmelsene i første ledd gjelder ikke for nikotinfrie elektroniske sigaretter til engangsbruk og nikotinfrie gjenoppfyllingsbeholdere. Forbudet mot informasjon om nikotininnhold i annet ledd bokstav b gjelder ikke for elektroniske sigaretter og gjenoppfyllingsbeholdere. Annet ledd bokstav d og bokstav f gjelder ikke for urtebaserte røykeprodukter, men det kan likevel ikke oppgis at produktet er fritt for tilsetningsstoffer eller aromatilsetninger.
+>
+
+## § 30a
+
+### 2017-04-01 — forskrift/2017-03-31-416
+
+*§ 30a første ledd gjelder inntil videre ikke for elektroniske sigaretter, gjenoppfyllingsbeholdere og urtebaserte tobakksvarer.*
+
+> § 30a første ledd gjelder inntil videre ikke for elektroniske sigaretter, gjenoppfyllingsbeholdere og urtebaserte tobakksvarer.
+>
+> § 35 første ledd gjelder inntil videre ikke for § 21a, § 30a annet og tredje ledd, § 32 første ledd og § 34a til § 34d.
+>
+> Forskriften trer i kraft 1. april 2017.
 >
 
 ## § 31
@@ -2217,10 +2342,6 @@ refid: "lov/1973-03-09-14"
 *§ 41 første ledd skal lyde:*
 
 > Den som forsettlig eller aktløst overtrer denne lov eller forskrifter, pålegg, forbud eller andre bestemmelser som er gitt eller opprettholdt i medhold av loven, straffes med bøter eller fengsel inntil tre måneder for så vidt ikke forholdet rammes av strengere straffebud.
->
-> 93. I lov 6. juni 1975 nr. 31 om utnytting av rettar og lunnende m.m. i statsallmenningane (fjellova) skal § 37 første ledd nytt siste punktum lyde:
->
-> Medverknad blir ikkje straffa.
 >
 
 ## § 42

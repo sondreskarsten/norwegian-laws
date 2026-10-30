@@ -243,9 +243,40 @@ refid: "lov/2013-12-13-106"
 
 *Gjeldende kapittel 8 med §§ 8-1 og 8-2 blir nytt kapittel 9 Sluttbestemmelser med §§ 9-1 og 9-2.*
 
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-15-1480
+
+*Lov 22. mai 2015 nr. 31 om endringer i tjenestepensjonsloven mv. (uførepensjon) trer i kraft 1. januar 2016.*
+
+> Lov 22. mai 2015 nr. 31 om endringer i tjenestepensjonsloven mv. (uførepensjon) trer i kraft 1. januar 2016.
+>
+> Uførepensjonsordninger etter foretakspensjonsloven kapittel 6 skal opphøre innen 31. desember 2016. Opphør er uten innvirkning for rett til uførepensjon som oppstod før avtalens opphør. Bestemmelser som tilsvarer foretakspensjonsloven § 6-1 til § 6-5 skal gjelde for rettigheter til uførepensjon som utgår fra disse uførepensjonsordningene.
+>
+> Ved overgang fra eksisterende til ny uførepensjonsordning skal sykmeldte, og delvis uføre arbeidstakere hva gjelder den arbeidsdyktige delen vurdert i forhold til fulltidsstilling, tas opp i den nye ordningen uten at det innhentes nye helseopplysninger.
+>
+> Bestemmelsene i tjenestepensjonsloven § 8-8 annet ledd annet og tredje punktum om fradrag i uførepensjonen gjelder til 1. januar 2017. Fradraget gjøres ved utbetaling og tilføres premiefondet, jf. foretakspensjonsloven § 10-2 første ledd bokstav d.
+>
+> Dette vedtaket trer i kraft 1. januar 2016.
+>
+
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
 
 ### 2020-04-17 — lov/2020-04-17-22
 
@@ -260,11 +291,25 @@ refid: "lov/2013-12-13-106"
 
 *Nåværende §§ 3-6 til 3-8 blir nye §§ 3-5 til 3-7.*
 
+### 2022-01-01 — forskrift/2021-12-22-3810
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
+
 ### 2022-04-01 — lov/2022-04-01-17
 
 *I lov 13. desember 2013 nr. 106 om tjenestepensjon skal § 4-14 første ledd andre punktum lyde:*
 
 > Slik regulering skal være i samsvar med et gjennomsnitt av lønns- og prisvekst.
+>
+
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
 >
 
 ### 2026-06-12 — lov/2026-06-12-24

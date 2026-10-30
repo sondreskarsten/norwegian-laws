@@ -21,11 +21,32 @@ refid: "lov/2001-06-15-93"
 > Reglene i aksjeloven § 20-6 om representasjon av begge kjønn i styret gjelder tilsvarende.
 >
 
+### 2004-07-01 — lov/2004-05-07-21
+
+*15. I lov 15. juni 2001 nr. 93 om helseforetak m.m. (helseforetaksloven) skal § 45 lyde:*
+
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i regionalt helseforetak, helseforetak og heleide datterselskaper til slike foretak etter lov om Riksrevisjonen og instruks fastsatt av Stortinget.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1210
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
 ### 2013-06-14 — lov/2013-06-14-41
 
 *I lov 15. juni 2001 nr. 93 om helseforetak m.m. skal § 47 tredje ledd lyde:*
 
 > Beslutning om oppløsning skal straks meldes til Foretaksregisteret. Foretaksregisteret skal samtidig med registrering av meldingen kunngjøre beslutningen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og varsle foretakets fordringshavere om at de må melde seg til foretaket innen seks uker fra kunngjøringen.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
 >
 
 ### 2025-06-20 — lov/2025-06-20-96
@@ -35,11 +56,36 @@ refid: "lov/2001-06-15-93"
 > Foretakene regnes som organer etter arkivlova § 2 bokstav h.
 >
 
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
+>
+
 ### 2026-06-19 — lov/2026-06-19-43
 
 *I lov 15. juni 2001 nr. 93 om helseforetak m.m. skal § 35 tredje ledd lyde:*
 
 > Regionalt helseforetak skal sørge for at den enkelte pasients utvidede rett til bruk av samisk språk i spesialisthelsetjenesten blir ivaretatt, jf. sameloven § 3-1 bokstav b og § 3-5.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1148
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 10

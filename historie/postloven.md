@@ -14,6 +14,15 @@ refid: "lov/2015-09-04-91"
 > Lov om posttjenester trer i kraft 1. januar 2016 med unntak av § 35, § 36, § 40 og § 41 første ledd nummer 1.
 >
 
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
 ### 2017-06-09 — lov/2017-06-09-41
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -21,6 +30,13 @@ refid: "lov/2015-09-04-91"
 ### 2017-06-09 — lov/2017-06-09-41
 
 *Nåværende annet og tredje ledd blir tredje og nytt fjerde ledd.*
+
+### 2017-07-01 — forskrift/2017-06-09-720
+
+*Lovendringene trer i kraft 1. juli 2017.*
+
+> Lovendringene trer i kraft 1. juli 2017.
+>
 
 ### 2019-07-01 — forskrift/2019-06-21-796
 
@@ -90,6 +106,17 @@ refid: "lov/2015-09-04-91"
 > Endringsloven del
 >
 > (postloven) resterende endringer
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 11
@@ -258,7 +285,9 @@ refid: "lov/2015-09-04-91"
 
 *§ 4 nytt nummer 9 og 10 skal lyde:*
 
-> sonenøkkel: systemnøkler eller andre adgangsmekanismer som i en bestemt geografisk sone åpner hovedlokk i et postkasseanlegg eller inngangsdør som fører til postkasseanleggsonenøkkelsystem: et system som administrerer, vedlikeholder og drifter bruk av sonenøkler, herunder inndeler i soner, fastsetter tekniske løsninger og rutiner for bruk og oppbevaring av sonenøkler
+> sonenøkkel : systemnøkler eller andre adgangsmekanismer som i en bestemt geografisk sone åpner hovedlokk i et postkasseanlegg eller inngangsdør som fører til postkasseanlegg
+>
+> sonenøkkelsystem : et system som administrerer, vedlikeholder og drifter bruk av sonenøkler, herunder inndeler i soner, fastsetter tekniske løsninger og rutiner for bruk og oppbevaring av sonenøkler
 >
 
 ## § 40
@@ -328,7 +357,11 @@ refid: "lov/2015-09-04-91"
 
 *§ 49 første ledd nr. 1, 2 og 3 skal lyde:*
 
-> overtrer §§ 7, 13, 17, 18, 20, 23, 26, 30, 32, 33, 33 a, 34, 43 eller 44overtrer forskrift gitt med hjemmel i §§ 7, 9, 10, 12, 17, 18, 20, 21, 23, 24, 25, 26, 27, 28, 32, 33, 33 a, 34, 42 eller 44unnlater å etterkomme enkeltvedtak fastsatt med hjemmel i §§ 7, 10, 16, 17, 18, 23, 26, 32, 33, 33 a, 34, 42, 44, 46 eller 48
+> overtrer §§ 7, 13, 17, 18, 20, 23, 26, 30, 32, 33, 33 a, 34, 43 eller 44
+>
+> overtrer forskrift gitt med hjemmel i §§ 7, 9, 10, 12, 17, 18, 20, 21, 23, 24, 25, 26, 27, 28, 32, 33, 33 a, 34, 42 eller 44
+>
+> unnlater å etterkomme enkeltvedtak fastsatt med hjemmel i §§ 7, 10, 16, 17, 18, 23, 26, 32, 33, 33 a, 34, 42, 44, 46 eller 48
 >
 
 ### 2023-06-16 — lov/2023-06-16-76
@@ -350,7 +383,9 @@ refid: "lov/2015-09-04-91"
 
 *§ 51 første ledd nr. 2 og 3 skal lyde:*
 
-> overtrer forskrift gitt med hjemmel §§ 20, 21, 33 eller 44unnlater å etterkomme enkeltvedtak fastsatt med hjemmel i §§ 33, 44 eller 46
+> overtrer forskrift gitt med hjemmel §§ 20, 21, 33 eller 44
+>
+> unnlater å etterkomme enkeltvedtak fastsatt med hjemmel i §§ 33, 44 eller 46
 >
 
 ### 2023-06-16 — lov/2023-06-16-76

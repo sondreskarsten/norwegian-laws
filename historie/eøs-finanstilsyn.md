@@ -22,6 +22,13 @@ refid: "lov/2016-06-17-30"
 
 *Nåværende § 6 blir ny § 8.*
 
+### 2017-01-01 — forskrift/2016-12-16-1607
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. januar 2017 med unntak for romertall IV, romertall VII § 2-6, kapittel 13, § 14-3, § 15-2 niende ledd, § 15-6, § 15-7, § 17-1 og romertall X.
+>
+
 ### 2017-01-01 — forskrift/2016-12-16-1608
 
 *Finansdepartementet viser til kongelig resolusjon 17. juni 2016 nr. 714 der myndigheten til å sette i kraft lov 17. juni 2016 nr. 30 om EØS-finanstilsyn etter § 6 ble delegert til departementet.*
@@ -34,6 +41,13 @@ refid: "lov/2016-06-17-30"
 ### 2021-04-30 — lov/2021-04-30-26
 
 *I § 7 oppheves ny § 13-6 a i nr. 1 om endringer i lov 29. juni 2007 nr. 75 om verdipapirhandel.*
+
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
 
 ### 2025-07-01 — forskrift/2025-05-27-867
 

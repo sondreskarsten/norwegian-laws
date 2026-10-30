@@ -68,6 +68,9 @@ refid: "lov/2020-04-17-29"
 
 *§ 11 overskriften skal lyde:*
 
+> Konkurransetilsynets oppgaver etter loven
+>
+
 ### 2025-12-22 — lov/2025-12-22-129
 
 *§ 11 fjerde ledd oppheves. Nåværende femte og sjette ledd blir fjerde og femte ledd. Femte ledd skal lyde:*
@@ -75,11 +78,32 @@ refid: "lov/2020-04-17-29"
 > Kongen eller departementet kan ikke omgjøre Konkurransetilsynets vedtak etter loven her.
 >
 
+## § 16
+
+### 2022-03-04 — lov/2022-03-04-7
+
+*§ 16 første ledd skal lyde:*
+
+> For å sikre at pålegg etter § 12 eller vedtak etter § 15 første ledd overholdes, kan det fastsettes tvangsmulkt til staten inntil forholdet er rettet.
+>
+
+## § 17
+
+### 2022-03-04 — lov/2022-03-04-7
+
+*§ 17 første ledd skal lyde:*
+
+> Dagligvaretilsynet kan ilegge overtredelsesgebyr ved overtredelse av vedtak etter § 15 første ledd.
+>
+
 ## § 18
 
 ### 2025-12-22 — lov/2025-12-22-129
 
 *§ 18 overskriften skal lyde:*
+
+> Konkurranseklagenemndas kompetanse etter loven
+>
 
 ### 2025-12-22 — lov/2025-12-22-129
 

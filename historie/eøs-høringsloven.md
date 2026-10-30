@@ -7,6 +7,27 @@ refid: "lov/2004-12-17-101"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-103
+
+*Nytt kapittel VI med §§ 16 til 18 skal lyde:*
+
+> § 16.Virkeområde for kapittel VI
+>
+> For §§ 17 og 18 skal tjenesteloven kapittel 1 gjelde.
+>
+> § 17.Meldeplikt for visse krav til tjenestevirksomhet i riket
+>
+> Forslag til følgende krav til å starte og utøve tjenestevirksomhet i riket skal meldes til EFTAs overvåkingsorgan gjennom departementet:kvantitative eller geografiske begrensninger,plikt for tjenesteyter til å ha en bestemt juridisk form,krav knyttet til eierskap i et foretak,krav om at en tjeneste bare kan ytes av tjenesteytere innenfor et bestemt yrke, unntatt krav som gjelder lovregulerte yrker som reguleres av EØS-avtalen vedlegg VII punkt 1 (direktiv 2005/36/EF) om godkjenning av yrkeskvalifikasjoner.krav om minste antall ansatte,krav om minstepriser eller høyeste priser for en tjeneste, ogkrav om å yte andre nærmere angitte tjenester sammen med hovedytelsen.
+>
+> Meldingen skal inneholde forslag til krav på norsk og engelsk og skal vise at kravetverken direkte eller indirekte forskjellsbehandler på grunnlag av statsborgerskap eller etableringsstat,er begrunnet ut fra tvingende allmenne hensyn, oger egnet og nødvendig for å oppnå formålet med kravet.
+>
+> § 18.Meldeplikt for krav til tjenesteytere fra annen EØS-stat
+>
+> Forslag til krav som kan gjøres gjeldende overfor en tjenesteyter fra en annen EØS-stat i henhold til tjenesteloven §§ 16 og 17, skal meldes til EFTAs overvåkingsorgan gjennom departementet.
+>
+> Meldingen skal inneholde forslag til krav på norsk og engelsk og skal vise at kravetverken direkte eller indirekte forskjellsbehandler på grunnlag av statsborgerskap eller etableringsstat,er begrunnet ut fra hensynet til offentlig orden og sikkerhet, folkehelsen eller miljøvern, oger egnet og nødvendig for å oppnå formålet med kravet.
+>
+
 ### 2014-08-15 — lov/2014-08-15-60
 
 *I kapittel V skal ny § 15 a lyde:*
@@ -28,6 +49,13 @@ refid: "lov/2004-12-17-101"
 *Loven trer i kraft 1. januar 2016.*
 
 > Loven trer i kraft 1. januar 2016.
+>
+
+### 2023-09-15 — forskrift/2023-09-15-1422
+
+*Ikraftsetting av lov 23. april 2021 nr. 25 om endringer i EØS-vareloven (gjensidig godkjenning av varer mv.). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 23. april 2021 nr. 25 om endringer i EØS-vareloven (gjensidig godkjenning av varer mv.). Loven trer i kraft straks.
 >
 
 ## § 1

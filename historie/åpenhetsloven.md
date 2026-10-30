@@ -14,6 +14,35 @@ refid: "lov/2021-06-18-99"
 > Ikraftsetting av lov 18. juni 2021 nr. 99 om virksomheters åpenhet og arbeid med grunnleggende menneskerettigheter og anstendige arbeidsforhold (åpenhetsloven). Loven trer i kraft 1. juli 2022.
 >
 
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
 ## § 3
 
 ### 2024-06-21 — lov/2024-06-21-42

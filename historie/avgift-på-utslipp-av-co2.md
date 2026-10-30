@@ -11,6 +11,13 @@ refid: "lov/1990-12-21-72"
 
 *Lov 21. desember 1990 nr. 72 om avgift på utslipp av CO2i petroleumsvirksomhet på kontinentalsokkelen oppheves.*
 
+### 2024-04-01 — forskrift/2024-03-22-516
+
+*Loven trer i kraft 1. april 2024.*
+
+> Loven trer i kraft 1. april 2024.
+>
+
 ## § 2
 
 ### 2007-01-01 — lov/2006-12-15-78

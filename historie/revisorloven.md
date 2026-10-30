@@ -523,6 +523,42 @@ refid: "lov/2020-11-20-128"
 > (2) Hvis foretaket ikke undersøker saken, skal Finanstilsynet underrettes. Hvis revisoren i god tro formidler opplysninger om eventuelle uregelmessigheter til Finanstilsynet, skal dette ikke anses som et brudd på taushetsplikt.
 >
 
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *I lov 20. november 2020 nr. 128 om revisjon og revisorer skal § 14-5 annet ledd annet punktum lyde:*

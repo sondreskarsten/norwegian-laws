@@ -348,7 +348,7 @@ refid: "lov/2008-06-27-71"
 
 *§ 11-8 tredje ledd bokstav e skal lyde:*
 
-> Sone med krav om felles planlegging for flere eiendommer, herunder med særlige samarbeids- eller eierformer, samt omforming og fornyelse.Bestemmelser til denne sonen kan fastsette at flere eiendommer i et område skal undergis felles planlegging og at det skal brukes særskilte gjennomføringsvirkemidler. Det kan også gis bestemmelser med hjemmel i § 11-9 nr. 3.
+> Sone med krav om felles planlegging for flere eiendommer, herunder med særlige samarbeids- eller eierformer, samt omforming og fornyelse. Bestemmelser til denne sonen kan fastsette at flere eiendommer i et område skal undergis felles planlegging og at det skal brukes særskilte gjennomføringsvirkemidler. Det kan også gis bestemmelser med hjemmel i § 11-9 nr. 3.
 >
 
 ### 2014-12-19 — lov/2014-12-19-91
@@ -362,7 +362,7 @@ refid: "lov/2008-06-27-71"
 
 *§ 11-8 tredje ledd bokstav c skal lyde:*
 
-> Sone med særlig hensyn til landbruk, reindrift, mineralressurser, friluftsliv, grønnstruktur, landskap eller bevaring av naturmiljø eller kulturmiljø, med angivelse av interesse.For randsonen til nasjonalparker og landskapsvernområder kan det, samtidig med fastsetting av verneforskrift for nytt verneområde eller revisjon av verneforskrift eller forvaltningsplan for etablerte verneområder, fastsettes bestemmelser for å hindre vesentlig forringelse av verneverdiene i verneområdet.Det kan gis retningslinjer om begrensninger av virksomhet og vilkår for tiltak for å ivareta interessen i sonen.Det kan gis retningslinjer om hvilke hensyn som skal vektlegges ved praktisering av annen lovgivning så langt kommunen er tillagt myndighet etter vedkommende lov.
+> Sone med særlig hensyn til landbruk, reindrift, mineralressurser, friluftsliv, grønnstruktur, landskap eller bevaring av naturmiljø eller kulturmiljø, med angivelse av interesse. For randsonen til nasjonalparker og landskapsvernområder kan det, samtidig med fastsetting av verneforskrift for nytt verneområde eller revisjon av verneforskrift eller forvaltningsplan for etablerte verneområder, fastsettes bestemmelser for å hindre vesentlig forringelse av verneverdiene i verneområdet. Det kan gis retningslinjer om begrensninger av virksomhet og vilkår for tiltak for å ivareta interessen i sonen. Det kan gis retningslinjer om hvilke hensyn som skal vektlegges ved praktisering av annen lovgivning så langt kommunen er tillagt myndighet etter vedkommende lov.
 >
 
 ### 2025-06-20 — lov/2025-06-20-93
@@ -2360,6 +2360,24 @@ refid: "lov/2008-06-27-71"
 
 ## (annet)
 
+### 2010-07-01 — forskrift/2010-06-18-896
+
+*Delt ikraftsetting av lov 8. mai 2009 nr. 27 om endringer i lov 27. juni 2008 om planlegging og byggesaksbehandling (plan- og bygningsloven).*
+
+> Delt ikraftsetting av lov 8. mai 2009 nr. 27 om endringer i lov 27. juni 2008 om planlegging og byggesaksbehandling (plan- og bygningsloven).
+>
+> Loven trer i kraft fra 1. juli 2010 med unntak av § 23-7 første ledd andre punktum, § 24-1 første ledd andre setning bokstav a og § 24-2 som trer i kraft 1. juli 2011. Fra 1. juli 2010 settes endringene i kapittel 15 fastsatt i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven) i kraft. Plan- og bygningsloven av 14. juni 1985 nr. 77 kapittel VIII–XXI, samt § 6, § 21 og § 32, oppheves fra samme tidspunkt. Frem til 1. juli 2011 er installasjon av nytt ildsted unntatt fra krav om søknad og tillatelse, jf. § 20-1 første ledd bokstav f, dersom arbeidet kontrolleres av kvalifisert kontrollør.
+>
+> Den myndighet som er tillagt departementet i lov om planlegging og byggesaksbehandling kapittel 16–33 legges til Kommunal- og regionaldepartementet. Den myndighet som er tillagt departementet i kapittel 15 legges til Miljøverndepartementet.
+>
+
+### 2012-07-01 — forskrift/2011-04-29-479
+
+*Utsatt ikraftsetting av lov 8. mai 2009 nr. 27 om endringer i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven) § 23-7 første ledd andre punktum, § 24-1 første ledd andre setning bokstav a og § 24-2. Bestemmelsene trer i kraft 1. juli 2012.*
+
+> Utsatt ikraftsetting av lov 8. mai 2009 nr. 27 om endringer i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven) § 23-7 første ledd andre punktum, § 24-1 første ledd andre setning bokstav a og § 24-2. Bestemmelsene trer i kraft 1. juli 2012.
+>
+
 ### 2013-01-01 — forskrift/2012-06-22-574
 
 *Lov 8. mai 2009 nr. 27 om endringer i lov om planlegging og byggesaksbehandling (plan- og bygningsloven) (byggesaksdelen) § 24-1 første ledd andre setning bokstav a og § 24-2 trer i kraft 1. januar 2013.*
@@ -2367,6 +2385,13 @@ refid: "lov/2008-06-27-71"
 > Lov 8. mai 2009 nr. 27 om endringer i lov om planlegging og byggesaksbehandling (plan- og bygningsloven) (byggesaksdelen) § 24-1 første ledd andre setning bokstav a og § 24-2 trer i kraft 1. januar 2013.
 >
 > Ikraftsetting av lov 8. mai 2009 nr. 27 om endringer i lov om planlegging og byggesaksbehandling (plan- og bygningsloven) (byggesaksdelen) § 23-7 første ledd andre punktum utsettes.
+>
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
 >
 
 ### 2014-06-20 — lov/2014-06-20-52
@@ -2408,6 +2433,13 @@ refid: "lov/2008-06-27-71"
 > Delt ikraftsetting av lov 20. juni 2014 om endringer i plan- og bygningsloven (forenklinger i byggesaksdelen og oppheving av krav om lokal godkjenning av foretak) m.m. Romertall I § 25-1 og resten av § 32-8 trer i kraft straks.
 >
 
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
 ### 2016-01-01 — forskrift/2015-09-04-1023
 
 *Loven trer i kraft fra 1. januar 2016.*
@@ -2420,6 +2452,13 @@ refid: "lov/2008-06-27-71"
 *I lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling skal § 3-7 tredje ledd lyde:*
 
 > Myndigheter med ansvar for større samferdselsanlegg og teknisk infrastruktur kan etter samråd med planmyndigheten utarbeide og fremme forslag til arealplan for slike tiltak og beslutte å legge slike planer ut til offentlig ettersyn etter bestemmelsene for vedkommende plantype. Tilsvarende kan departementet i forskrift legge slik myndighet til et statlig utbyggingsselskap for veg. Gjeldende kommunale eller regionale planstrategier skal vurderes i forbindelse med planarbeidet.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1606
+
+*Loven trer i kraft 1. januar 2017.*
+
+> Loven trer i kraft 1. januar 2017.
 >
 
 ### 2017-04-28 — lov/2017-04-28-20
@@ -2438,6 +2477,15 @@ refid: "lov/2008-06-27-71"
 
 *Nåværende femte til syvende ledd blir sjette til åttende ledd.*
 
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
 ### 2017-06-21 — lov/2017-06-21-97
 
 *Nåværende syvende ledd blir nytt åttende ledd.*
@@ -2445,6 +2493,62 @@ refid: "lov/2008-06-27-71"
 ### 2017-06-21 — lov/2017-06-21-97
 
 *Nåværende andre til fjerde punktum blir tredje til femte punktum.*
+
+### 2017-07-01 — forskrift/2017-04-28-501
+
+*Ikraftsetting av Stortingets vedtak til lov om endringer i plan- og bygningsloven (mer effektive planprosesser, forenklinger mv.). Loven trer i kraft 1. juli 2017.*
+
+> Ikraftsetting av Stortingets vedtak til lov om endringer i plan- og bygningsloven (mer effektive planprosesser, forenklinger mv.). Loven trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-757
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-04-20 — forskrift/2018-04-20-593
+
+*Delt ikraftsetting av endringsloven. Følgende endringer trer i kraft straks: Del I endringer i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 3, § 4, § 5a tredje ledd, § 6 fjerde ledd, § 7 – § 10, § 14, § 15, § 18, § 20 – § 22, § 24, § 25, § 27, § 29 – § 34, § 39, § 41 – § 43, §*
+
+> Delt ikraftsetting av endringsloven. Følgende endringer trer i kraft straks: Del I endringer i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 3, § 4, § 5a tredje ledd, § 6 fjerde ledd, § 7 – § 10, § 14, § 15, § 18, § 20 – § 22, § 24, § 25, § 27, § 29 – § 34, § 39, § 41 – § 43, § 47 og § 48 samt overskriftene til kapittel 7 og 8, og del II endringer i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven) § 26-1, § 29-4 fjerde ledd og § 33-1 første ledd.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-03-08 — forskrift/2019-03-08-195
+
+*Delt ikraftsetting av lov om endringer i plan- og bygningsloven m.m. Loven trer i kraft straks med unntak av endringene i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 5a andre ledd, § 26 andre og sjette ledd, § 38 andre ledd og § 46 første ledd bokstav d.*
+
+> Delt ikraftsetting av lov om endringer i plan- og bygningsloven m.m. Loven trer i kraft straks med unntak av endringene i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 5a andre ledd, § 26 andre og sjette ledd, § 38 andre ledd og § 46 første ledd bokstav d.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-869
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1548
+
+*Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.
+>
 
 ### 2020-05-26 — lov/2020-05-26-50
 
@@ -2604,6 +2708,13 @@ refid: "lov/2008-06-27-71"
 > Paragrafen oppheves 1. desember 2021.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-04 — lov/2021-06-04-57
 
 *I lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling skal ny § 28-9 lyde:*
@@ -2622,6 +2733,20 @@ refid: "lov/2008-06-27-71"
 *Delt ikraftsetting av lov 21. juni 2017 nr. 97 om endringer i plan- og bygningsloven og matrikkellova (mer effektive planprosesser, enklere saksbehandling og konsekvensutredninger). Endringsloven del I, endringer i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling, § 2-3 trer i kraft 1. juli 2021.*
 
 > Delt ikraftsetting av lov 21. juni 2017 nr. 97 om endringer i plan- og bygningsloven og matrikkellova (mer effektive planprosesser, enklere saksbehandling og konsekvensutredninger). Endringsloven del I, endringer i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling, § 2-3 trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2008
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
 >
 
 ### 2022-12-02 — lov/2022-12-02-87
@@ -2650,11 +2775,25 @@ refid: "lov/2008-06-27-71"
 > Departementets vedtak om statlig arealplan kan ikke påklages.
 >
 
+### 2023-07-01 — forskrift/2023-06-16-896
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ### 2024-01-01 — forskrift/2022-12-02-2058
 
 *Loven trer i kraft 1. januar 2024.*
 
 > Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
 >
 
 ### 2025-05-27 — lov/2025-05-27-21
@@ -2836,6 +2975,9 @@ refid: "lov/2008-06-27-71"
 
 *I følgende bestemmelser skal «grav- og urnelunder» endres til «gravplasser»:*
 
+> § 11-7 andre ledd nr. 1, § 12-5 andre ledd nr. 1, § 13-3 andre ledd, § 15-1 og § 15-2 første ledd.
+>
+
 ### 2026-01-17 — forskrift/2025-11-07-2226
 
 *Avtalen om bevaring og bruk av marint biologisk mangfold i områder utenfor nasjonal jurisdiksjon trer i kraft for Norge 17. januar 2026. Lov 27. mai 2025 nr. 21 om bevaring og bærekraftig bruk av marint naturmangfold i områder utenfor nasjonal jurisdiksjon trer dermed i kraft 17. januar 2026, jf. loven § 6-1. Endring i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling § 14-4 trer også i kraft 17. januar 2026, jf. lov 27. mai 2025 nr. 21 om bevaring og bærekraftig bruk av marint naturmangfold i områder utenfor nasjonal jurisdiksjon § 6-2.*
@@ -2844,6 +2986,13 @@ refid: "lov/2008-06-27-71"
 >
 
 ### 2026-07-01 — forskrift/2026-03-06-346
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
 
 *Loven trer i kraft 1. juli 2026.*
 

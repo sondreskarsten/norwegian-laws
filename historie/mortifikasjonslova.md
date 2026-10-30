@@ -14,6 +14,13 @@ refid: "lov/1959-12-18-1"
 > Oppmaninga skal utlysast ein gong i Norsk Lysingsblad.
 >
 
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *I lov 18. desember 1959 nr. 1 om mortifikasjon av skuldbrev m.v. skal § 4 lyde:*
@@ -21,6 +28,13 @@ refid: "lov/1959-12-18-1"
 > § 4.
 >
 > Krav om mortifikasjon som høyrer under norsk domstol, lyt søkjaren bera fram for Helgeland tingrett.
+>
+
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 14

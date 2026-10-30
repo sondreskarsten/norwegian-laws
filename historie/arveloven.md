@@ -14,6 +14,13 @@ refid: "lov/2019-06-14-21"
 > Lova gjeld frå 1. januar 2021.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2022-01-01 — forskrift/2021-05-28-1698
 
 *Delt ikrafttredelse av lov 18. desember 2020 nr. 149 om endringer i arveloven (landbrukseiendommer i dødsbo mv.). Endringsloven del I, ny § 99a i lov 14. juni 2019 nr. 21 om arv og dødsboskifte, trer i kraft 1. januar 2022.*
@@ -43,6 +50,13 @@ refid: "lov/2019-06-14-21"
 > Departementet kan i forskrift gi regler om statsforvalterens tilsyn med uskiftebo som nevnt i første punktum og om opplysningsplikt overfor statsforvalteren for den lengstlevende ektefellen eller samboeren der det er arvinger under vergemål.
 >
 
+### 2023-04-01 — forskrift/2023-03-31-445
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
+>
+
 ### 2023-06-16 — lov/2023-06-16-59
 
 *Nåværende annet og tredje ledd blir tredje og nytt fjerde ledd.*
@@ -50,6 +64,13 @@ refid: "lov/2019-06-14-21"
 ### 2023-06-16 — lov/2023-06-16-59
 
 *Nåværende syvende ledd blir nytt åttende ledd.*
+
+### 2023-10-01 — forskrift/2023-06-16-934
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
 
 ### 2026-06-19 — lov/2026-06-19-48
 

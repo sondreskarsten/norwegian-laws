@@ -20,6 +20,13 @@ refid: "lov/1936-07-10-6"
 > Oppgåvene med å førebu sakene for rådet, følgje opp vedtaka og krevje inn og administrere avgiftsmidlane vert lagt til det organet som departementet fastset. Til dette organet kan rådet delegere myndigheit til å treffe vedtak i saker som ikkje er av prinsipiell karakter.
 >
 
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
 ## § 1
 
 ### 2001-12-21 — lov/2001-12-21-115

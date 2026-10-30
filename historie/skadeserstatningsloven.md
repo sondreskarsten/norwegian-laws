@@ -16,6 +16,22 @@ refid: "lov/1969-06-13-26"
 > Den som har lidt skade som følge av korrupsjon, kan kreve erstatning fra den som med forsett eller uaktsomhet svarer for korrupsjonen eller for medvirkning til korrupsjonen. Erstatning kan også kreves fra den ansvarliges arbeidsgiver hvis korrupsjonen er skjedd i tilknytning til utføring av arbeid eller verv for arbeidsgiveren, med mindre denne påviser at det er truffet alle rimelige forholdsregler for å unngå korrupsjon og ansvar heller ikke vil være rimelig etter en samlet vurdering av omstendighetene i saken. Lovens § 2-1 nr. 2 og nr. 3, § 2-2 og § 2-3 gjelder tilsvarende.Erstatning skal dekke den skadelidtes økonomiske tap, jf. kapittel 3 og 4.Med korrupsjon menes atferd som nevnt i straffeloven §§ 276 a og 276 c. Dette gjelder uten hensyn til om noen er straffskyldig. Hører den ansvarlige eller dennes arbeidsgiver hjemme i Norge, gjelder ansvaret også om korrupsjonen skjer i utlandet eller skaden oppstår i utlandet.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 1-6 nr. 3 første punktum skal lyde:*
+
+> Med korrupsjon menes atferd som nevnt i straffeloven §§ 387 og 389.
+>
+
+## § 2-1
+
+### 2001-06-15 — lov/2001-06-15-53
+
+*§ 2-1 nytt nr. 4 skal lyde:*
+
+> Om pasientskadeerstatning gjelder pasientskadeloven.
+>
+
 ## § 3-1
 
 ### 2015-12-18 — lov/2015-12-18-124
@@ -101,6 +117,15 @@ refid: "lov/1969-06-13-26"
 > Bestemmelsene i §§ 3-1 og 3-2 gjelder tilsvarende ved erstatning for krenking eller mislig atferd som nevnt i straffeloven §§ 168, 169, 192-199, 200 tredje ledd, 217-221, kap. 24, § 271 eller §§ 327-331. § 3-2a anvendes ikke.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3-3 skal lyde:*
+
+> § 3-3.(erstatning for visse personlige krenkelser m.m.)
+>
+> Bestemmelsene i §§ 3-1 og 3-2 gjelder tilsvarende ved erstatning for krenking eller mislig atferd som nevnt i straffeloven §§ 222, 251, 253, 254, 257, 259, 262, 263, 266, 268 første ledd, 271, 282, 291, 294, 295, 296, 299, 302, 304, 312, 313, 314, 327 eller 330. § 3-2a anvendes ikke.
+>
+
 ### 2015-12-18 — lov/2015-12-18-124
 
 *§ 3-3 skal lyde:*
@@ -113,6 +138,13 @@ refid: "lov/1969-06-13-26"
 ## § 3-5
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 3-5 første ledd annet punktum skal lyde:*
+
+> Ved krenking eller mislig atferd som nevnt i straffeloven §§ 299 eller 302, skal det ved utmålingen av oppreisning særlig legges vekt på handlingens art, hvor lang tid forholdet har pågått, om handlingen er et misbruk av slektskapsforhold, omsorgsforhold, avhengighetsforhold eller tillitsforhold, og om handlingen er begått på en særlig smertefull eller krenkende måte.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 3-5 første ledd annet punktum skal lyde:*
 
@@ -147,6 +179,60 @@ refid: "lov/1969-06-13-26"
 > En ærekrenkende ytring medfører ikke ansvar etter første ledd dersom den anses berettiget etter en avveining av de hensyn som begrunner ytringsfrihet. Ved denne vurderingen skal det særlig legges vekt på om ytringen hviler på et fyldestgjørende faktisk grunnlag, på ytringens grad av krenkelse, og om hensynet til den krenkede er tilfredsstillende ivaretatt ved for eksempel adgang til imøtegåelse, om allmenne interesser eller andre gode grunner tilsa at den ble satt frem, og om ytreren har vært i aktsom god tro med hensyn til de momenter som kan gjøre ytringen berettiget.
 >
 > Reglene i § 3-6 annet og tredje ledd gjelder tilsvarende.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3-6 skal lyde:*
+
+> § 3-6.(erstatning for krenking av privatlivets fred)
+>
+> Den som har krenket privatlivets fred, skal, såfremt han har utvist uaktsomhet eller vilkårene for straff er oppfylt, yte erstatning for den lidte skade og slik erstatning for tap i fremtidig erverv som retten under hensyn til den utviste skyld og forholdene ellers finner rimelig. Han kan også pålegges å betale slik erstatning (oppreisning) for skade av ikke-økonomisk art som retten finner rimelig. I dom som går ut på straff, kan retten pålegge domfelte å betale til fornærmede et beløp til kunngjøring av dommen.
+>
+> Ansvaret etter første ledd omfatter ikke den som bare har deltatt ved teknisk fremstilling eller formidling av ytringen.
+>
+> Er noen som har handlet i tjenesten til en eier eller utgiver av et massemedium ansvarlig etter første ledd, hefter også eieren eller utgiveren for erstatningen. Det samme gjelder oppreisning, med mindre retten av særlige grunner fritar dem. Eieren eller utgiveren kan også pålegges slik ytterligere oppreisning som retten i forhold til dem finner rimelig.
+>
+
+### 2020-05-29 — lov/2020-05-29-59
+
+*§ 3-6 første ledd skal lyde:*
+
+> Den som uaktsomt har krenket privatlivets fred, skal yte erstatning for den lidte skade og slik erstatning for tap i fremtidig erverv som retten under hensyn til den utviste skyld og forholdene ellers finner rimelig. Han kan også pålegges å betale slik erstatning (oppreisning) for skade av ikke-økonomisk art som retten finner rimelig. I dom som går ut på straff, kan retten pålegge domfelte å betale til fornærmede et beløp til kunngjøring av dommen.
+>
+
+### 2020-05-29 — lov/2020-05-29-59
+
+*§ 3-6 andre og tredje ledd oppheves.*
+
+## § 3-6 a
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 3-6 a skal lyde:*
+
+> § 3-6 a.(erstatning for ærekrenkelser)
+>
+> Den som uaktsomt har satt frem en ytring som er egnet til å krenke en annens ærefølelse eller omdømme, skal yte erstatning for den lidte skade og slik erstatning for tap i fremtidig erverv som retten ut fra den utviste skyld og forholdene ellers finner rimelig. Han kan også pålegges å betale slik erstatning (oppreisning) for skade av ikke-økonomisk art som retten finner rimelig. Dersom den krenkede døde mindre enn 15 år før krenkelsen etter første ledd fant sted, kan krav om oppreisning settes frem av hans nærmeste.
+>
+> En ærekrenkende ytring medfører ikke ansvar etter første ledd dersom den anses berettiget etter en avveining av de hensyn som begrunner ytringsfrihet. Ved denne vurderingen skal det særlig legges vekt på om ytringen hviler på et fyldestgjørende faktisk grunnlag, på ytringens grad av krenkelse, og om hensynet til den krenkede er tilfredsstillende ivaretatt ved for eksempel adgang til imøtegåelse, om allmenne interesser eller andre gode grunner tilsa at den ble satt frem, og om ytreren har vært i aktsom god tro med hensyn til de momenter som kan gjøre ytringen berettiget.
+>
+> Reglene i § 3-6 annet og tredje ledd gjelder tilsvarende.
+>
+> 64. I lov 17. april 1970 nr. 21 om retten til oppfinnelser som er gjort av arbeidstakere skal § 11 lyde:
+>
+> Den som på urettmessig måte utnytter eller åpenbarer opplysning som han som følge av denne lovs bestemmelser får vedrørende andres oppfinnelser, straffes med bøter eller fengsel inntil 3 måneder.
+>
+> På samme måte straffes den som overtrer bestemmelsen i § 6 annet ledd første punktum.
+>
+> 65. I lov 26. juni 1970 nr. 74 om forskningsavgift på landbruksprodukter gjøres følgende endring:
+>
+
+### 2020-05-29 — lov/2020-05-29-59
+
+*§ 3-6 a tredje ledd oppheves.*
+
+> 2.I lov 20. mai 2005 nr. 28 om straff oppheves §§ 269 og 270.
 >
 
 ## § 3-8
@@ -194,6 +280,24 @@ refid: "lov/1969-06-13-26"
 
 ## § 3-10
 
+### 2001-06-15 — lov/2001-06-15-53
+
+*§ 3-10 første ledd tredje punktum skal lyde:*
+
+> Krav på erstatning etter § 3-2 eller oppreising etter § 3-5 eller § 3-6 kan heller ikke overføres ved arv, så lenge det ikke er godkjent eller gjort gjeldende ved søksmål, eller det er meldt til Norsk Pasientskadeerstatning etter pasientskadeloven § 9.
+>
+
+### 2001-06-15 — lov/2001-06-15-53
+
+*§ 3-10 tredje ledd skal lyde:*
+
+> Avgjørelse etter denne paragraf treffes ved kjennelse av herreds- eller byretten i den rettskrets der skadelidte har sitt heimting med mindre spørsmålet bringes inn for den dømmende rett eller Pasientskadenemnda til avgjørelse i samband med avgjørelsen av erstatningskravet eller ved kjennelse forut for dette.
+>
+> 2. Lov 13. juni 1980 nr. 24 om ligningsforvaltning (ligningsloven) skal § 6-7 lyde:
+>
+> Forsikringsselskaper og Norsk Pasientskadeerstatning skal ukrevet levere oppgave over utbetalinger i siste år, herunder tilbakebetaling av forsikringspremie, til forsikrede og skadelidte, med opplysninger om forsikringens art mv.
+>
+
 ### 2007-02-27 — lov/2007-01-26-3
 
 *§ 3-10 tredje ledd skal lyde:*
@@ -212,13 +316,48 @@ refid: "lov/1969-06-13-26"
 
 ## (annet)
 
-### 2007-02-27 — lov/2007-01-26-3
+### 2001-06-15 — lov/2001-06-15-53
 
-*54. I lov 17. april 1970 nr. 21 om retten til oppfinnelser som er gjort av arbeidstakere skal § 14 annet ledd oppheves.*
+*3. Lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer § 8-2 oppheves.*
+
+### 2016-01-01 — forskrift/2015-05-12-468
+
+*Loven gjelder fra 1. januar 2016.*
+
+> Loven gjelder fra 1. januar 2016.
+>
 
 ### 2017-06-21 — lov/2017-06-21-91
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2017-07-01 — forskrift/2017-06-16-778
+
+*Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.*
+
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-822
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
+### 2018-03-01 — forskrift/2018-02-16-235
+
+*Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.*
+
+> Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.
+>
+
+### 2020-07-01 — forskrift/2020-05-29-1107
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
 
 ### 2021-06-01 — forskrift/2021-04-30-1335
 
@@ -236,6 +375,13 @@ refid: "lov/1969-06-13-26"
 > Bestemmelsene i §§ 3-1, 3-2 og 3-2 a gjelder tilsvarende ved erstatning for krenking eller mislig atferd som nevnt i straffeloven §§ 222, 251, 254, 257, 259, 262, 263, 266, 267 a, 268 første ledd, 271, 282, 291, 294, 295, 296, 302, 304, 312, 313, 314, 327 eller 330.
 >
 
+### 2021-07-01 — forskrift/2021-06-11-1865
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2022-04-08 — lov/2022-04-08-22
 
 *I lov 13. juni 1969 nr. 26 om skadeserstatning skal § 3-3 lyde:*
@@ -245,6 +391,26 @@ refid: "lov/1969-06-13-26"
 > Bestemmelsene i §§ 3-1, 3-2 og 3-2 a gjelder tilsvarende ved erstatning for krenking eller mislig atferd som nevnt i straffeloven §§ 222, 251, 253, 254, 257, 259, 262, 263, 266, 267 a, 268 første ledd, 271, 282, 291, 294, 295, 296, 299, 302, 304, 312, 313, 314, 327 eller 330.
 >
 
+### 2022-07-01 — forskrift/2022-04-08-547
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
 ### 2026-06-19 — lov/2026-06-19-47
 
 *Tredje ledd nåværende fjerde til åttende punktum blir femte til niende punktum.*
+
+### 2027-01-01 — forskrift/2026-08-21-1650
+
+*Loven trer i kraft 1. januar 2027.*
+
+> Loven trer i kraft 1. januar 2027.
+>
+
+## § 6
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 6 annet punktum oppheves.*

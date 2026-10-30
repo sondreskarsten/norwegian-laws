@@ -907,6 +907,9 @@ refid: "lov/2021-06-18-97"
 
 *§ 12-11 sjette ledd fjerde punktum skal lyde:*
 
+> Plikten til å legge fram politiattest i samsvar med første punktum gjelder også den eller de som skal ta imot enslige mindreårige i et familiebasert botilbud som nevnt i § 11-1 femte ledd.
+>
+
 ### 2025-06-20 — lov/2025-06-20-39
 
 *§ 12-11 andre ledd skal lyde:*
@@ -1385,6 +1388,9 @@ refid: "lov/2021-06-18-97"
 
 *§ 17-3 andre ledd andre punktum skal lyde:*
 
+> Tilsynsansvaret gjelder også familiebaserte botilbud etter § 11-1 femte ledd.
+>
+
 ### 2025-06-20 — lov/2025-06-20-39
 
 *§ 17-3 andre ledd første punktum skal lyde:*
@@ -1419,9 +1425,93 @@ refid: "lov/2021-06-18-97"
 
 ## (annet)
 
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-06-15 — forskrift/2022-06-10-997
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1037
+
+*Delt iverksetjing av lov om forskriftsheimel for behandling av personopplysningar for frivillige tiltak på barne-, oppvekst- og familieområdet mv.*
+
+> Delt iverksetjing av lov om forskriftsheimel for behandling av personopplysningar for frivillige tiltak på barne-, oppvekst- og familieområdet mv.
+>
+> Følgjande blir sett i kraft 1. januar 2023:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 2 om endring i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 44.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 3 om endring i lov 22. juni 2013 nr. 43
+>
+> om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) § 8 første ledd første punktum.
+>
+> Følgjande blir sett i kraft straks:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 1–§ 5.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 1 om endring i lov 16. juni 2017 nr. 48 om adopsjon (adopsjonsloven) § 35.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 4 om endring i lov 4. september 2015 nr. 85 om gjennomføring av konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn (lov om Haagkonvensjonen 1996) § 2 annet ledd.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 5 om endring i lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven) § 13-4 sjette ledd.
+>
+> Skal vere lov 22. juni 2012 nr. 43. Lovtidend-redaksjonen sin merknad.
+>
+> Rettelser
+>
+> Det som er rettet er satt i kursiv.
+>
+> Andre ledd andre strekpunkt skal lyde:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 3 om endring i lov 22. juni
+>
+> nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) § 8 første ledd første punktum.
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1131
+
+*Delt ikraftsetting av lov 3. juni 2022*
+
+> Delt ikraftsetting av lov 3. juni 2022
+>
+> om endringer i barnevernsloven mv. (krav om politiattest ved ansettelser i barne-, ungdoms- og familieetaten mv.)
+>
+> Delt ikraftsetting av lov 3. juni 2022
+>
+> om endringer i barnevernsloven mv. (krav om politiattest ved ansettelser i barne-, ungdoms- og familieetaten mv.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del I.
+>
+> Følgende trer i kraft straks:
+>
+> Endringsloven del II og III.
+>
+> Skal være lov 17. juni 2022 nr. 45. Lovtidend-redaksjonens anmerkning.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-05-11 — lov/2023-05-11-13
 
-*I lov 18. juni 2021 nr. 97 om barnevern skal § 14-18 første ledd bokstav c lyde:kapittel 24 om vitnebevis og § 36-6 a*
+*I lov 18. juni 2021 nr. 97 om barnevern skal § 14-18 første ledd bokstav c lyde:*
+
+> kapittel 24 om vitnebevis og § 36-6 a
+>
 
 ### 2023-06-16 — lov/2023-06-16-41
 
@@ -1438,11 +1528,58 @@ refid: "lov/2021-06-18-97"
 
 *Nåværende femte til niende ledd blir sjette til nytt tiende ledd.*
 
+### 2023-09-01 — forskrift/2023-06-16-899
+
+*Loven trer i kraft 1. september 2023.*
+
+> Loven trer i kraft 1. september 2023.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-928
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I (barnevernsloven) med unntak av § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+> Endringsloven del II (barnelova) § 69 første punktum.
+>
+> Endringsloven del III (barnetrygdloven) § 1 annet ledd og overskriften til kapittel 3.
+>
+> Endringsloven del IV lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet § 2 annet ledd annet punktum bokstav a, § 3 og § 4.
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-08-01 — forskrift/2024-05-31-1028
+
+*Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.*
+
+> Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.
+>
+
 ### 2024-12-13 — lov/2024-12-13-78
 
 *I lov 18. juni 2021 nr. 97 om barnevern skal § 14-18 første ledd bokstav c lyde:*
 
 > kapittel 24 om vitnebevis
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3090
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
 >
 
 ### 2025-06-20 — lov/2025-06-20-39
@@ -1729,6 +1866,34 @@ refid: "lov/2021-06-18-97"
 
 *Nåværende annet og tredje punktum blir tredje og nytt fjerde punktum.*
 
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-01-23 — forskrift/2026-01-23-68
+
+*Følgende endringer trer i kraft straks:*
+
+> Følgende endringer trer i kraft straks:
+>
+> Endringsloven del I (passloven)
+>
+> Endringsloven del III (ID-kortloven)
+>
+> Endringsloven del IV (barnevernsloven)
+>
+> Følgende endringer trer i kraft 15. april 2026
+>
+> Endringsloven del II (straffeloven)
+>
+
 ### 2026-06-19 — lov/2026-06-19-35
 
 *Nåværende fjerde punktum blir nytt femte punktum.*
@@ -1740,3 +1905,10 @@ refid: "lov/2021-06-18-97"
 ### 2026-06-19 — lov/2026-06-19-35
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>

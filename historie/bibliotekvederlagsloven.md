@@ -5,6 +5,15 @@ refid: "lov/1987-05-29-23"
 
 # Endringshistorikk: Bibliotekvederlagsloven
 
+## (annet)
+
+### 2019-08-01 — forskrift/2019-06-21-807
+
+*Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.*
+
+> Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.
+>
+
 ## § 1
 
 ### 2018-12-20 — lov/2018-12-20-120

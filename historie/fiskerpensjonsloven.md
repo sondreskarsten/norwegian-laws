@@ -14,6 +14,13 @@ refid: "lov/1957-06-28-12"
 > Innkreving av medlemspremie til pensjonstrygden og andre innkrevingsoppgaver etter loven med forskrifter kan overføres til Arbeids- og velferdsetatens innkrevingssentral for innkreving etter reglene i bidragsinnkrevingsloven.
 >
 
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
+
 ### 2010-12-17 — lov/2010-12-17-77
 
 *Nåværende nr. 2 blir ny nr. 3.*
@@ -23,6 +30,27 @@ refid: "lov/1957-06-28-12"
 *I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 8 andre ledd første punktum lyde:*
 
 > Alderspensjon oppheves fra og med kalendermåneden etter den måned da pensjonisten fylte 67 år eller fra og med den kalendermåned da pensjonisten får rett til uførepensjon eller arbeidsavklaringspenger etter loven om folketrygd for hel uførhet eller tar ut full avtalefestet pensjon som nevnt i samordningsloven § 1 nr. 1 første ledd bokstav d.
+>
+
+### 2013-06-21 — lov/2013-06-21-75
+
+*3. I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 19 første ledd lyde:*
+
+> Avgift som nevnt i § 15 bokstav c skal betales av fiskesalgslagene jf. fiskesalslagslova.
+>
+
+### 2014-01-01 — forskrift/2013-06-21-726
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
 >
 
 ### 2017-12-19 — lov/2017-12-19-122
@@ -39,6 +67,13 @@ refid: "lov/1957-06-28-12"
 > Departementet gir forskrift med nærmere bestemmelser om trygdens administrasjon.
 >
 
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
+>
+
 ### 2019-11-22 — lov/2019-11-22-72
 
 *I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 6 andre ledd lyde:*
@@ -46,9 +81,48 @@ refid: "lov/1957-06-28-12"
 > For den som har minst 52 premieuker, kan opptjente pensjonsgivende fartsmåneder etter kapittel II og opptjeningstid etter kapittel X i lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs medregnes for å nå opp i minstekravet på 750 premieuker.
 >
 
+### 2020-01-01 — forskrift/2019-11-22-1551
+
+*Loven trer ikraft 1. januar 2020.*
+
+> Loven trer ikraft 1. januar 2020.
+>
+
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *Nåværende nr. 2 blir ny nr. 3.*
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-04-21 — forskrift/2023-04-21-527
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 13
 
@@ -81,6 +155,15 @@ refid: "lov/1957-06-28-12"
 > § 17.
 >
 > Innkreving av medlemspremie til pensjonstrygden og andre innkrevingsoppgaver etter loven med forskrifter kan overføres til Innkrevingsmyndigheten for innkreving.
+>
+
+## § 2
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 2 nr. 2 annet punktum skal lyde:*
+
+> Krav settes fram overfor trygdens organer straks vilkårene for trygdeplikt foreligger.
 >
 
 ## § 22
@@ -151,6 +234,19 @@ refid: "lov/1957-06-28-12"
 > Trygdens organer kan behandle innhentede personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, for å utvikle og teste IT-systemer, når dette er nødvendig for å sikre effektiv behandling av saker og riktige avgjørelser. Dette gjelder bare dersom det er umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
 >
 > Departementet kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke typer personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, adgangen til viderebehandling, utlevering, registerføring og tilgang til registre.
+>
+
+## § 3
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 3 nr. 1 annet punktum skal lyde:*
+
+> Krav herom og innbetaling av medlemspremie må skje til trygdens organer innen tre måneder etter utløpet av kalenderåret.
+>
+> I følgende bestemmelser skal betegnelsen «Rikstrygdeverket» endres til «Arbeids- og velferdsdirektoratet»:
+>
+> § 22 første punktum, § 24 nr. 1, § 30 nr. 2 første punktum og § 33 nr. 2 første og annet ledd.
 >
 
 ## § 4

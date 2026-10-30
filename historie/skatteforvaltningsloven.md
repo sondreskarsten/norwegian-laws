@@ -11,7 +11,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 1-1 bokstav j og ny bokstav k skal lyde:*
 
-> kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. etter merverdiavgiftskompensasjonsloven (merverdiavgiftskompensasjon)finansskatt på lønn etter folketrygdloven kapittel 23 (finansskatt på lønn).
+> kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. etter merverdiavgiftskompensasjonsloven (merverdiavgiftskompensasjon)
+>
+> finansskatt på lønn etter folketrygdloven kapittel 23 (finansskatt på lønn).
 >
 
 ### 2024-01-01 — lov/2024-01-12-7
@@ -113,7 +115,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 3-1 annet ledd bokstav b og ny bokstav c skal lyde:*
 
-> opplysninger om at en næringsdrivende er eller ikke er registrert i Merverdiavgiftsregisteret, etter forenklet registreringsordning for merverdiavgift eller i medhold av særavgiftslovenregistreringspliktig statsstøtte etter lov 27. november 1992 nr. 117 om offentlig støtte § 2 a.
+> opplysninger om at en næringsdrivende er eller ikke er registrert i Merverdiavgiftsregisteret, etter forenklet registreringsordning for merverdiavgift eller i medhold av særavgiftsloven
+>
+> registreringspliktig statsstøtte etter lov 27. november 1992 nr. 117 om offentlig støtte § 2 a.
 >
 
 ## § 3-3
@@ -510,7 +514,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 7-10 bokstav e og ny bokstav f skal lyde:*
 
-> den som selv eller gjennom andre har utbetalt vederlag for tjenester av teknisk, håndverksmessig, juridisk, regnskapsmessig eller annen artEnova om beløp som skal gis som avregningsfradrag for ENØK-tiltak på egen bolig.
+> den som selv eller gjennom andre har utbetalt vederlag for tjenester av teknisk, håndverksmessig, juridisk, regnskapsmessig eller annen art
+>
+> Enova om beløp som skal gis som avregningsfradrag for ENØK-tiltak på egen bolig.
 >
 
 ### 2017-12-19 — lov/2017-12-19-128
@@ -535,7 +541,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 7-10 første ledd bokstav g og ny bokstav h skal lyde:*
 
-> den som selv eller gjennom andre har utbetalt honorar eller annen godtgjøring til opphaver til åndsverkoppstartsselskaper om tildelte opsjoner til ansatte etter ordningen i skatteloven § 5-14 fjerde ledd.
+> den som selv eller gjennom andre har utbetalt honorar eller annen godtgjøring til opphaver til åndsverk
+>
+> oppstartsselskaper om tildelte opsjoner til ansatte etter ordningen i skatteloven § 5-14 fjerde ledd.
 >
 
 ### 2021-12-22 — lov/2021-12-22-158
@@ -1387,7 +1395,9 @@ refid: "lov/2016-05-27-14"
 
 *§ 14-7 første ledd bokstav c og ny bokstav d skal lyde:*
 
-> den som ikke oppfyller sine plikter til å føre og oppbevare personalliste gitt i medhold av bokføringslovenen bokføringspliktig som forsettlig eller uaktsomt overtrer sine plikter til å registrere og dokumentere kontantsalg etter regler gitt i eller i medhold av bokføringsloven § 10 a.
+> den som ikke oppfyller sine plikter til å føre og oppbevare personalliste gitt i medhold av bokføringsloven
+>
+> en bokføringspliktig som forsettlig eller uaktsomt overtrer sine plikter til å registrere og dokumentere kontantsalg etter regler gitt i eller i medhold av bokføringsloven § 10 a.
 >
 
 ### 2016-12-20 — lov/2016-12-20-120
@@ -1551,7 +1561,10 @@ refid: "lov/2016-05-27-14"
 
 ### 2016-12-20 — lov/2016-12-20-120
 
-*I endringen i § 1-1 tredje ledd skal bokstav a lyde:renter etter kapittel 11, omkostninger og gebyrer fastsatt i medhold av denne lov, lov 19. juni 1964 nr. 14 om avgift på arv og visse gaver, tolloven, skatteforvaltningsloven og kassasystemlova § 8,*
+*I endringen i § 1-1 tredje ledd skal bokstav a lyde:*
+
+> renter etter kapittel 11, omkostninger og gebyrer fastsatt i medhold av denne lov, lov 19. juni 1964 nr. 14 om avgift på arv og visse gaver, tolloven, skatteforvaltningsloven og kassasystemlova § 8,
+>
 
 ### 2016-12-20 — lov/2016-12-20-120
 
@@ -1662,6 +1675,24 @@ refid: "lov/2016-05-27-14"
 > (4) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.
 >
 
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
+
 ### 2017-12-19 — lov/2017-12-19-122
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning (skatteforvaltningsloven) skal § 7-9 annet ledd lyde:*
@@ -1688,6 +1719,36 @@ refid: "lov/2016-05-27-14"
 > Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning som har offentlig tjenestepensjon eller tjenestepensjon etter foretakspensjonsloven, innskuddspensjonsloven eller tjenestepensjonsloven, gis tilgang til opplysninger om pensjonsgivende inntekt for personer som mottar uførepensjon eller avtalefestet pensjon fra innretningen.
 >
 
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-869
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.
+>
+
+### 2019-10-01 — forskrift/2019-09-13-1120
+
+*Delt ikrafttredelse av lov 20. desember 2018 nr. 107 om endringer i lov 21. desember 2007 nr. 119 om toll og vareførsel (tolloven). Romertall I trer i kraft 1. oktober 2019.*
+
+> Delt ikrafttredelse av lov 20. desember 2018 nr. 107 om endringer i lov 21. desember 2007 nr. 119 om toll og vareførsel (tolloven). Romertall I trer i kraft 1. oktober 2019.
+>
+> Delt ikrafttredelse av lov 20. desember 2018 nr. 110 om endringer i lov 27. mai 2016 nr. 14 om skatteforvaltning (skatteforvaltningsloven). Romertall I trer i kraft 1. oktober 2019.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
 ### 2020-12-18 — lov/2020-12-18-161
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 7-5 syvende ledd lyde:*
@@ -1695,11 +1756,32 @@ refid: "lov/2016-05-27-14"
 > (7) Formidler av drosjetjenester og driftsansvarlig for kontrollutrustning skal gi opplysninger fra skiftlappen for løyvehavere som er tilknyttet virksomheten eller kontrollutrustningen.
 >
 
+### 2021-01-01 — forskrift/2020-11-06-2247
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2877
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2021-04-30 — lov/2021-04-30-28
 
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 8-13 tredje ledd lyde:*
 
 > (3) Den som er utpekt etter regler i eller i medhold av konkursloven §§ 79 og 138, skal levere melding om åpning og avslutning av behandlingen av konkursboet til en registrert skattepliktig.
+>
+
+### 2021-05-15 — forskrift/2021-04-30-1334
+
+*Loven trer i kraft 15. mai 2021.*
+
+> Loven trer i kraft 15. mai 2021.
 >
 
 ### 2021-12-22 — lov/2021-12-22-158
@@ -1715,9 +1797,32 @@ refid: "lov/2016-05-27-14"
 > Endringsloven del II.
 >
 
+### 2023-01-01 — forskrift/2022-09-16-1575
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2252
+
+*Ikraftsetting av lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte (støtteprosessloven). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 4. mars 2022 nr. 7 om nasjonale saksbehandlingsregler i saker om offentlig støtte (støtteprosessloven). Loven trer i kraft 1. januar 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-105
 
 *Nåværende § 14-12 blir § 14-13, og nåværende § 14-13 blir ny § 14-14.*
+
+### 2023-12-20 — forskrift/2023-12-20-2136
+
+*Delt ikraftsetting av lov 20. desember 2023 nr. 102 om endringer i skatteloven. Endringene under del III trer i kraft straks.*
+
+> Delt ikraftsetting av lov 20. desember 2023 nr. 102 om endringer i skatteloven. Endringene under del III trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 105 om endringer i skatteforvaltningsloven. Endringene i § 13-9 trer i kraft straks med virkning for alle klagenemndsvedtak hvor endringsfristene ikke er utløpt på ikrafttredelsestidspunktet. § 14-12 trer i kraft 1. januar 2024.
+>
 
 ### 2024-01-01 — lov/2024-01-12-7
 
@@ -1732,6 +1837,13 @@ refid: "lov/2016-05-27-14"
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-5 andre ledd lyde:*
 
 > (2) Opplysninger som skattemyndighetene får i henhold til § 8-10, kan gis til Energidepartementet uten hinder av taushetsplikten.
+>
+
+### 2024-04-01 — forskrift/2024-03-22-516
+
+*Loven trer i kraft 1. april 2024.*
+
+> Loven trer i kraft 1. april 2024.
 >
 
 ### 2024-05-31 — lov/2024-05-31-25
@@ -1750,6 +1862,27 @@ refid: "lov/2016-05-27-14"
 > Taushetsplikten etter § 3-1 er ikke til hinder for at opplysninger gis til Advokattilsynet til bruk for tilsynsformål.
 >
 
+### 2024-07-01 — forskrift/2024-05-31-871
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
+### 2025-01-01 — forskrift/2024-12-20-3303
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-59
 
 *Noverande § 15-4 fyrste ledd andre punktum vert nytt tredje punktum.*
@@ -1763,6 +1896,48 @@ refid: "lov/2016-05-27-14"
 *I lov 27. mai 2016 nr. 14 om skatteforvaltning skal § 3-6 nytt femte ledd lyde:*
 
 > (5) Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2, og opplysninger om pensjonsgivende inntekt, til bruk i arbeidet med tidligpensjon og særalderspåslag og etteroppgjør i kommunal sektor for arbeidstakere født i 1963 eller senere.
+>
+
+### 2025-12-22 — forskrift/2025-12-22-2817
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 4-8 femte ledd, § 4-10 andre ledd, 4-20 tredje ledd, § 8-2 tredje ledd, § 8-47 fjerde ledd første punktum, § 11-12 fjerde ledd første punktum, § 11-27 første ledd, § 11-28 første til tredje ledd, § 15-9, § 17-5 tredje ledd andre og tredje punktum, § 17-9, § 17A-3 andre ledd andre og tredje punktum og § 17 A-6.
+>
+> Endringsloven del VI (lov 12. februar 2010 nr. 4 om pensjonsordning for oppdragstaker i beredskapshjem eller spesialisert fosterhjem)
+>
+> Endringsloven del VIII (lov 10. juni 2025 nr. 31 om endringer i lov om Statens pensjonskasse og enkelte andre lover (nye pensjonsregler for personer med særaldersgrense)
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2026:
+>
+> Endringsloven del I (lov 28. juli 1949 nr. 26 om Statens pensjonskasse)
+>
+> Endringsloven del II (lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv.)
+>
+> Endringsloven del III (lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere)
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 4-19
+>
+> Endringsloven del V (lov 10. juni 2005 nr. 44 om forsikringsvirksomhet)
+>
+> Endringsloven del VII (lov 27. mai 2016 nr. 14 om skatteforvaltning)
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2026:
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 12-2, § 12-13 og § 12-14 første ledd første punktum og andre ledd første, andre og fjerde punktum. Endringene i § 12-9 og § 12-14 andre ledd tredje punktum trer i kraft 1. juli 2026 og får virkning fra 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-06-19 — lov/2026-06-19-41

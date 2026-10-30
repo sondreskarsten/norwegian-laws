@@ -7,6 +7,15 @@ refid: "lov/2004-12-17-99"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*245. I lov 17. desember 2004 nr. 99 om kvoteplikt og handel med kvoter for utslipp av klimagasser (klimakvoteloven) skal § 22 nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+> 246. I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven) gjøres følgende endring:
+>
+
 ### 2011-04-15 — lov/2011-04-15-12
 
 *§ 8. overskriften skal lyde:*
@@ -35,6 +44,15 @@ refid: "lov/2004-12-17-99"
 ### 2012-05-25 — lov/2012-05-25-29
 
 *Nåværende §§ 23 og 24 blir §§ 22 og 23.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*206. I lov 17. desember 2004 nr. 99 om kvoteplikt og handel med kvoter for utslipp av klimagasser skal § 21 nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+> 207. I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. gjøres følgende endring:
+>
 
 ### 2024-01-01 — lov/2023-12-15-91
 
@@ -109,6 +127,9 @@ refid: "lov/2004-12-17-99"
 ### 2026-06-19 — lov/2026-06-19-54
 
 *Overskriften til § 5 skal lyde:*
+
+> (søknad om tillatelse og kvotetildeling)
+>
 
 ## § 1
 
@@ -856,6 +877,16 @@ refid: "lov/2004-12-17-99"
 >
 > Kongen kan gi forskrift om gebyrer for saksbehandling og kontroll utført av klimakvotemyndigheten etter forskrifter gitt i medhold av denne paragrafen.
 >
+
+## § 33
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 33 fjerde ledd oppheves. Nåværende femte ledd blir nytt fjerde ledd.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 33 fjerde ledd oppheves. Nåværende femte ledd blir fjerde ledd.*
 
 ## § 4
 

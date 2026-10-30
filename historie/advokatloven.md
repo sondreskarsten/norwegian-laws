@@ -59,6 +59,13 @@ refid: "lov/2022-05-12-28"
 > lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand § 73 femte ledd
 >
 
+### 2026-10-01 — forskrift/2026-09-11-1775
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 82 om endringer i rettshjelpsloven mv. (prioriterte sakstyper for rettshjelp mv.). Loven del I, med unntak av endringene i § 11 andre ledd nr. 6 og 7, loven del II og loven del V trer i kraft 1. oktober 2026.
+>
+
 ## § 10
 
 ### 2024-06-21 — lov/2024-06-21-46

@@ -21,3 +21,34 @@ refid: "lov/2012-06-22-58"
 >
 > 5. Klagenemnda for industrielle rettar tek over alle saker frå Patentstyrets andre avdeling frå 1. april 2013. Dette gjeld også handteringa av ikkje avslutta søksmål mot avgjerder frå Patentstyrets andre avdeling. I den grad det er nødvendig, fordeler leiaren i Klagenemnda på nytt ikkje avslutta klagesaker etter føresegnene i patentstyrelova § 4.
 >
+
+### 2021-07-01 — forskrift/2021-05-28-1685
+
+*---.*
+
+> ---.
+>
+> Loven, med unntak av endringen i § 56 av åndsverkloven § 118, trer i kraft 1. juli 2021.
+>
+> Bestemmelser i loven som krever beslutning på årsmøtet, får ikke anvendelse før avholdelse av første ordinære årsmøte etter 1. juli 2021. Plikten til å utarbeide åpenhetsrapport etter § 36 gjelder ikke for regnskapsår som er påbegynt før 1. juli 2021. Registreringsplikten i § 52 får ikke anvendelse før 1. september 2021.
+>
+
+## § 1
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 1 skal lyde:*
+
+> § 1.Oppgåver og formål for Patentstyret
+>
+> Patentstyret skal behandle saker om industrielle rettar som fastsett i patentloven, foretaksnavneloven, designloven, varemerkeloven og edelmetalloven. Patentstyret skal også føre tilsyn med kollektive forvaltningsorganisasjonar etter lov om kollektiv forvaltning av opphavsrett mv. og behandle saker om godkjenning av organisasjonar etter åndsverkloven § 63. Patentstyret kan utføre informasjonstenester og skal elles leggje til rette for innovasjon og verdiskaping ved å vere eit kompetansesenter for immaterialrettar.
+>
+
+## § 6
+
+### 2021-05-28 — lov/2021-05-28-49
+
+*§ 6 første ledd skal lyde:*
+
+> Domstollova §§ 106 til 108 gjeld tilsvarande for dei tilsette i Patentstyret og dei tilsette og medlemmene i Klagenemnda ved behandling av saker etter lovgivinga om industrielt rettsvern. Det same gjeld for behandling av saker i Patentstyret etter lov om kollektiv forvaltning av opphavsrett mv. og etter åndsverkloven § 63.
+>

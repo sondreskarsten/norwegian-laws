@@ -7,6 +7,10 @@ refid: "lov/2005-04-29-21"
 
 ## (annet)
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 21 annet ledd annet punktum skal betegnelsen «trygdekontoret» endres til «det felles lokale kontoret».*
+
 ### 2006-12-22 — lov/2006-12-22-94
 
 *I lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg skal § 10 nytt andre ledd lyde:*
@@ -39,9 +43,23 @@ refid: "lov/2005-04-29-21"
 
 *Nåværende andre ledd blir nytt tredje ledd.*
 
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
 ### 2015-12-18 — lov/2015-12-18-103
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
 
 ### 2019-12-20 — lov/2019-12-20-84
 
@@ -50,6 +68,24 @@ refid: "lov/2005-04-29-21"
 ### 2020-12-18 — lov/2020-12-18-138
 
 *I § 5 første ledd bokstav a og b og § 10 andre ledd skal ordene «minste pensjonsnivå» endres til «garantipensjonsnivå».*
+
+### 2021-01-01 — forskrift/2020-12-18-2860
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 84 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del I, endringene i folketrygdlovens innholdsfortegnelse kapittel 1 og 11 og § 1-7, § 3-2, § 3-3, § 3-5, § 3-8, § 3-9, § 8-44, § 11-2, § 12-2, § 12-3, § 12-7, § 12-12, § 12-13, § 1*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 84 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del I, endringene i folketrygdlovens innholdsfortegnelse kapittel 1 og 11 og § 1-7, § 3-2, § 3-3, § 3-5, § 3-8, § 3-9, § 8-44, § 11-2, § 12-2, § 12-3, § 12-7, § 12-12, § 12-13, § 15-2, § 16-2, § 17-3, § 17-4, § 17-7, § 18-2, § 18-3, § 18-5, § 19-2, § 19-3, § 19-8, § 20-10 og § 22-8, del IV, endringene i lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg og del V nr. 6 til 8, trer i kraft 1. januar 2021.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ### 2026-05-07 — lov/2026-05-07-15
 
@@ -137,6 +173,17 @@ refid: "lov/2005-04-29-21"
 > Beløp som ikkje vert innkravde etter andre leddet, kan innkrevjast etter reglane i innkrevingsloven.
 >
 
+## § 17
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 17 skal lyde:*
+
+> § 17.Søknad
+>
+> Søknad om supplerande stønad skal setjast fram for det felles lokale kontoret i arbeids- og velferdsforvaltninga på bustaden til søkjaren på skjema fastsett av Arbeids- og velferdsdirektoratet. Søkjaren skal møte personleg på det felles lokale kontoret. Søkjaren skal få hjelp til utfyllinga av skjemaet så langt dette er naudsynt.
+>
+
 ## § 19
 
 ### 2016-06-17 — lov/2016-06-17-25
@@ -176,6 +223,17 @@ refid: "lov/2005-04-29-21"
 *§ 21 andre leddet skal lyde:*
 
 > Departementet kan gi forskrift om tiltak med sikte på å kontrollere at vilkåra i § 4 er oppfylte eller om ein stønadstakar har hatt opphald i utlandet i strid med reglane. Forskrifta kan bestemme at ein stønadstakar skal møte personleg på det felles lokale kontoret inntil to gonger i året og vise pass eller anna reisedokument.
+>
+
+## § 23
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 23 skal lyde:*
+
+> § 23.Andre reglar om saksbehandling
+>
+> Reglane i folketrygdlova §§ 21-10, 21-11, 22-1, 22-6 og 22-18 gjeld tilsvarande så langt dei høver.
 >
 
 ## § 3

@@ -7,6 +7,13 @@ refid: "lov/1981-03-06-5"
 
 ## (annet)
 
+### 2007-02-27 — lov/2007-01-26-3
+
+*75. I lov 6. mars 1981 nr. 5 om barneombud skal § 4 tredje ledd første punktum lyde:*
+
+> Reglene i tvisteloven §§ 22-1, 22-2, 22-4 til 22-11 får tilsvarende anvendelse for Ombudets rett til å kreve opplysninger.
+>
+
 ### 2009-06-19 — lov/2009-06-19-43
 
 *I lov 6. mars 1981 nr. 5 om barneombud skal § 2 lyde:*
@@ -21,4 +28,11 @@ refid: "lov/1981-03-06-5"
 > § 5 a.(politiattest)
 >
 > Den som skal ansettes i Barneombudet, skal fremlegge politiattest som nevnt i politiregisterloven § 39. Dette gjelder kun personer som skal utføre oppgaver som forutsetter et tillits- eller ansvarsforhold overfor mindreårige.
+>
+
+### 2023-09-01 — forskrift/2023-06-16-899
+
+*Loven trer i kraft 1. september 2023.*
+
+> Loven trer i kraft 1. september 2023.
 >

@@ -7,6 +7,20 @@ refid: "lov/1997-05-09-26"
 
 ## (annet)
 
+### 2004-07-01 — lov/2004-05-07-21
+
+*11. I lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland skal § 20 lyde:*
+
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i fondet etter lov 7. mai 2004 nr. 21 om Riksrevisjonen og instruks fastsatt av Stortinget.
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*17. I lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland skal § 5 første ledd første punktum lyde:*
+
+> Lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) gjelder ikke for fondet.
+>
+
 ### 2013-06-21 — lov/2013-06-21-55
 
 *Nåværende §§ 2 til 4 blir nye §§ 3 til 5.*
@@ -165,6 +179,13 @@ refid: "lov/1997-05-09-26"
 *I lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland (Nordfundloven) skal § 7 tredje ledd lyde:*
 
 > Lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjelder ikke for fondet.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
 >
 
 ## § 1

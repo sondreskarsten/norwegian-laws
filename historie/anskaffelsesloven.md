@@ -7,11 +7,32 @@ refid: "lov/2016-06-17-73"
 
 ## (annet)
 
+### 2017-01-01 — forskrift/2016-12-09-1459
+
+*Lov av 17. juni 2016 nr. 73 om offentlige anskaffelser (anskaffelsesloven) trer i kraft 1. januar 2017.*
+
+> Lov av 17. juni 2016 nr. 73 om offentlige anskaffelser (anskaffelsesloven) trer i kraft 1. januar 2017.
+>
+
 ### 2024-03-22 — lov/2024-03-22-11
 
 *I lov 17. juni 2016 nr. 73 om offentlige anskaffelser skal § 6 fjerde ledd lyde:*
 
 > Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet som nevnt i tredje ledd.
+>
+
+### 2024-04-01 — forskrift/2024-03-22-516
+
+*Loven trer i kraft 1. april 2024.*
+
+> Loven trer i kraft 1. april 2024.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1099
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-03-06 — lov/2026-03-06-8

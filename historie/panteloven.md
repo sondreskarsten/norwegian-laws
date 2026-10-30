@@ -110,6 +110,15 @@ refid: "lov/1980-02-08-2"
 
 ## § 3-1 a
 
+### 2020-05-07 — lov/2020-05-07-38
+
+*Ny § 3-1 a skal lyde:*
+
+> § 3-1 a.Pant for lån under rekonstruksjonsforhandling
+>
+> Panterett etter § 3-4, §§ 3-8 til 3-10 og § 3-11 til sikring av lån til finansiering under rekonstruksjonsforhandling etter § 19 i midlertidig lov om rekonstruksjon for å avhjelpe økonomiske problemer som følge av utbrudd av covid-19 går foran alle andre heftelser i formuesgodene pantsettelsen omfatter. Panteretten kan bare benyttes til å dekke slike lån.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *§ 3-1 a oppheves.*
@@ -231,6 +240,20 @@ refid: "lov/1980-02-08-2"
 > (3) Panteretten får rettsvern ved tinglysing på eierens eller den bruksberettigedes blad i Løsøreregisteret.
 >
 
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 3-9 annet ledd bokstav b skal lyde:*
+
+> merder og annet liknende utstyr som brukes eller er bestemt til bruk i akvakultur.
+>
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 3-9 annet ledd bokstav d skal lyde:*
+
+> dyr, herunder tamrein, pelsdyr, fjærfe, bier, muslinger og akvatiske organismer i akvakultur.
+>
+
 ## § 3-10
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -281,6 +304,26 @@ refid: "lov/1980-02-08-2"
 > Fristene avbrytes også når det er åpnet gjeldsforhandling etter gjeldsordningsloven, rekonstruksjonsforhandling eller konkurs hos skyldneren og salgspant uttrykkelig påberopes i fordringsanmeldelsen.
 >
 
+## § 4-1
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4-1 tredje og fjerde ledd skal lyde:*
+
+> (3) Finansielle instrumenter registrert i en verdipapirsentral med Norge som hjemstat kan pantsettes ved registrering i verdipapirsentralen, jf. verdipapirsentralloven.
+>
+> (4) En livsforsikring kan pantsettes ved registrering i livsforsikringsregisteret, jf. lov 16. juni 1989 nr. 69 om forsikringsavtaler § 17-1 annet ledd.
+>
+
+## § 4-2a
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4-2a første ledd skal lyde:*
+
+> (1) Aksjer som ikke er registrert i en verdipapirsentral, kan pantsettes med mindre noe annet er fastsatt i selskapets vedtekter.
+>
+
 ## § 4-3
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -318,6 +361,13 @@ refid: "lov/1980-02-08-2"
 > (2) Enkle pengekrav i form av innskudd på konto i kredittinstitusjon kan pantsettes til fordel for kredittinstitusjonen. I forbrukerforhold må slik panterett etableres ved skriftlig avtale, og panteretten kan bare omfatte innskudd som står på særskilt konto som er opprettet i forbindelse med avtalen.
 >
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4-4 tredje ledd skal lyde:*
+
+> (3) Som enkelt pengekrav regnes pengekrav som ikke er knyttet til verdipapir, finansielle instrumenter registrert i en verdipapirsentral eller innløsningspapir.
+>
+
 ## § 4-5
 
 ### 2010-12-10 — lov/2010-12-10-75
@@ -334,6 +384,13 @@ refid: "lov/1980-02-08-2"
 *§ 4-10 tredje ledd nytt annet punktum skal lyde:*
 
 > For næringsdrivende i landbruksnæring gjelder § 3-9 fjerde ledd tilsvarende.
+>
+
+### 2020-05-07 — lov/2020-05-07-38
+
+*§ 4-10 nytt fjerde ledd skal lyde:*
+
+> (4) § 3-1 a gjelder tilsvarende for panterett etter denne paragrafen til sikring av lån til finansiering under rekonstruksjonsforhandling etter § 19 i midlertidig lov om rekonstruksjon for å avhjelpe økonomiske problemer som følge av utbrudd av covid-19.
 >
 
 ### 2021-04-30 — lov/2021-04-30-28
@@ -404,6 +461,19 @@ refid: "lov/1980-02-08-2"
 > (3) For utlegg i leierett eller borett til husrom knyttet til verdipapir eller innløsningspapir gjelder § 5-8.
 >
 
+## § 5-3
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 5-3 skal lyde:*
+
+> § 5-3.Utlegg i realregistrerbart løsøre og andre realregistrerte formuesgoder enn fast eiendom.
+>
+> (1) Utleggspant i løsøre som kan registreres i et realregister og tilbehør til slikt løsøre, får rettsvern ved registrering i vedkommende register. Utleggspant i andre realregistrerte formuesgoder som ikke er fast eiendom, får rettsvern ved registrering i vedkommende register.
+>
+> (2) Første ledd første punktum gjør ingen endring i sjøloven § 41 tredje ledd.
+>
+
 ## § 5-4
 
 ### 2001-06-01 — lov/2001-06-01-28
@@ -411,6 +481,22 @@ refid: "lov/1980-02-08-2"
 *§ 5-4 første ledd skal lyde:*
 
 > (1) Utleggspant i næringsdrivendes driftstilbehør som nevnt i § 3-4 får rettsvern ved tinglysing på saksøktes blad i Løsøreregisteret. Bestemmelsene i §§ 3-4 og 3-5 gjelder tilsvarende.
+>
+
+## § 5-7
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 5-7 tredje ledd skal lyde:*
+
+> (3) Utleggspant i aksjer som ikke er registrert i en verdipapirsentral med Norge som hjemstat, får rettsvern etter reglene i § 4-2 a annet ledd.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 5-7 syvende ledd skal lyde:*
+
+> (7) Utleggspant i finansielle instrumenter registrert i en verdipapirsentral med Norge som hjemstat får rettsvern ved registrering i verdipapirsentralen, jf. verdipapirsentralloven.
 >
 
 ## § 5-8
@@ -519,11 +605,33 @@ refid: "lov/1980-02-08-2"
 
 ## § 6-5
 
+### 2020-05-07 — lov/2020-05-07-38
+
+*Ny § 6-5 skal lyde:*
+
+> § 6-5.Lovbestemt pant for lån under rekonstruksjonsforhandling
+>
+> (1) Den som yter lån til finansiering under rekonstruksjonsforhandling etter § 19 i midlertidig lov om rekonstruksjon for å avhjelpe økonomiske problemer som følge av utbrudd av covid-19, har lovbestemt pant i ethvert formuesgode beheftet med pant som tilhører skyldneren på tidspunktet da rekonstruksjonsforhandling ble åpnet, og som kan være gjenstand for utlegg eller konkursbeslag. Panteretten utgjør fem prosent av formuesgodets beregnede verdi eller av det et salg av formuesgodet innbringer, men maksimalt 700 ganger rettsgebyret i hvert realregistrerte panteobjekt. Panteretten går foran annet lovbestemt pant og alle andre heftelser i formuesgodet. Panteretten kan bare benyttes til å dekke lån som nevnt i første punktum. Benyttes panteretten etter denne paragrafen, reduseres boets panterett etter § 6-4 tilsvarende.
+>
+> (2) Reglene i denne paragrafen gjelder med de begrensningene som følger av overenskomst med fremmed stat. § 6-4 annet til syvende ledd og niende ledd gjelder tilsvarende.
+>
+> 3.I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett skal § 9-4 nytt fjerde ledd lyde:
+>
+> For å avhjelpe negative konsekvenser som følge av utbruddet av covid-19 kan departementet i forskrift gjøre midlertidig unntak fra fortrinnsretten etter denne paragrafen. Unntak kan gjøres helt eller delvis, herunder begrenses til rekonstruksjon etter midlertidig lov om rekonstruksjon for å avhjelpe økonomiske problemer som følge av utbrudd av covid-19.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *§ 6-5 oppheves.*
 
 ## (annet)
+
+### 2002-06-14 — lov/2002-06-14-20
+
+*4. I lov av 8. februar 1980 nr. 2 om pant skal § 6-1 (2) bokstav b) lyde:*
+
+> feieavgift etter brann- og eksplosjonsvernloven § 28 annet ledd
+>
 
 ### 2003-01-10 — lov/2003-01-10-1
 
@@ -536,11 +644,41 @@ refid: "lov/1980-02-08-2"
 > Den som har pant i verdipapirer, finansielle instrumenter registrert i et verdipapirregister, innløsningspapirer, aksjer eller enkle pengekrav, kan kreve og motta renter, utbytte og avdrag som forfaller mens panteretten består.
 >
 
+### 2005-04-29 — lov/2005-04-29-20
+
+*1. I lov 8. februar 1980 nr. 2 om pant skal § 5-13 andre ledd lyde:*
+
+> (2) Regelen i første ledd gjelder ikke namsutlegg for krav på skatt og offentlig avgift. Det samme gjelder namsutlegg for underholdsbidrag etter bidragsinnkrevingsloven § 13.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*72. I lov 8. februar 1980 nr. 2 om pant skal § 6-4 tredje ledd femte punktum lyde:*
+
+> I så fall kan retten også fastsette en godtgjørelse for skjønnsmedlemmene som fraviker fra de satsene som ellers gjelder ved skiftetakst.
+>
+> 73. I lov 13. juni 1980 nr. 24 om ligningsforvaltning (ligningsloven) skal § 3-13 nr. 3 bokstav b lyde:som vitneprov eller dokumenttilgang under rettergang.
+>
+
 ### 2007-03-16 — lov/2007-03-16-11
 
 *I lov 8. februar 1980 nr. 2 om pant skal § 6-4 første ledd tredje punktum lyde:*
 
 > Panteretten utgjør fem prosent av formuesgodets beregnede verdi eller av det et salg av formuesgodet innbringer, men maksimalt 700 ganger rettsgebyret i hvert realregistrerte panteobjekt.
+>
+
+### 2010-03-26 — lov/2010-03-26-8
+
+*3. I lov 8. februar 1980 nr. 2 om pant skal § 3-4 annet ledd bokstav b lyde:*
+
+> rett til varemerke, sekundært forretningskjennetegn, patent, design, kretsmønster for integrerte kretser og planteforedlerrett og ervervet opphavsrett, herunder rett til utøvende kunstneres fremføring av et verk,
+>
+
+### 2010-07-01 — forskrift/2010-06-25-936
+
+*Lov 26. mars 2010 nr. 8 om beskyttelse av varemerker trer i kraft 1. juli 2010.*
+
+> Lov 26. mars 2010 nr. 8 om beskyttelse av varemerker trer i kraft 1. juli 2010.
 >
 
 ### 2010-12-10 — lov/2010-12-10-75
@@ -550,6 +688,22 @@ refid: "lov/1980-02-08-2"
 ### 2010-12-10 — lov/2010-12-10-75
 
 *Nåværende annet ledd blir første ledd nytt annet punktum.*
+
+### 2011-01-01 — forskrift/2010-12-10-1592
+
+*Loven del I gjelder fra 1. januar 2011.*
+
+> Loven del I gjelder fra 1. januar 2011.
+>
+
+### 2012-10-16 — forskrift/2012-09-21-895
+
+*Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 1 til § 42 trer i kraft 16. oktober 2012 for nordiske arrestordrar.*
+
+> Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 1 til § 42 trer i kraft 16. oktober 2012 for nordiske arrestordrar.
+>
+> Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 43 om endringar i andre lover, trer i kraft 16. oktober 2012, med unntak av endringa i lov 13. juni 1975 nr. 39 om utlevering § 1.
+>
 
 ### 2015-01-23 — lov/2015-01-23-4
 
@@ -611,6 +765,20 @@ refid: "lov/1980-02-08-2"
 > (2) Panthaveren kan først utøve sin rett til å kreve realisasjon i medhold av avtale når to uker er gått etter at varsel er sendt innehaveren av den pantsatte søknaden eller rettigheten og andre kjente rettighetshavere. Den som forestår realisasjonen skal gi panthaveren og pantsetteren revidert regnskap. Skjer realisasjonen i form av overdragelse skal regnskapet gis senest tre måneder etter at oppgjør for overdragelsen fant sted. Skjer realisasjonen i form av at det utstedes lisenser eller at inntekter fra allerede etablerte lisenser innfordres, skal regnskap gis minst en gang i året. Andre rettighetshavere kan kreve kopi av regnskapet.
 >
 
+### 2015-07-01 — forskrift/2015-05-12-494
+
+*Lov 23. januar 2015 nr. 4 om endringer i panteloven m.m. (pant i patenter og planteforedlerretter) trer i kraft 1. juli 2015.*
+
+> Lov 23. januar 2015 nr. 4 om endringer i panteloven m.m. (pant i patenter og planteforedlerretter) trer i kraft 1. juli 2015.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2016-12-16 — lov/2016-12-16-101
 
 *I lov 8. februar 1980 nr. 2 om pant skal § 1-11 fjerde ledd fyrste punktum lyde:*
@@ -618,9 +786,88 @@ refid: "lov/1980-02-08-2"
 > Panterett i fast eiendom som erverves av stat, statsforetak, fylkeskommune eller kommune til veg- eller jernbaneformål, faller bort ved ervervet.
 >
 
+### 2017-01-01 — forskrift/2016-12-16-1591
+
+*Loven trer i kraft fra 1. januar 2017.*
+
+> Loven trer i kraft fra 1. januar 2017.
+>
+
+### 2018-01-01 — forskrift/2017-09-15-1393
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).
+>
+> Loven trer i kraft fra 1. januar 2018 med unntak av § 9 som trer i kraft 1. juli 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
 ### 2018-12-20 — lov/2018-12-20-120
 
-*I lov 8. februar 1980 nr. 2 om pant skal § 3-4 andre ledd bokstav b lyde:rett til varemerke, patent, design og planteforedlerrett, herunder rett til søknad om slike rettigheter, rett til supplerende beskyttelsessertifikat, sekundært forretningskjennetegn, kretsmønster for integrerte kretser, rettigheter til produsenter av lydopptak og film etter åndsverkloven § 20, databaser som er vernet etter åndsverkloven § 24, ervervet opphavsrett, herunder rett til utøvende kunstneres fremføring av et verk, og ervervet rett til fotografiske bilder, og*
+*I lov 8. februar 1980 nr. 2 om pant skal § 3-4 andre ledd bokstav b lyde:*
+
+> rett til varemerke, patent, design og planteforedlerrett, herunder rett til søknad om slike rettigheter, rett til supplerende beskyttelsessertifikat, sekundært forretningskjennetegn, kretsmønster for integrerte kretser, rettigheter til produsenter av lydopptak og film etter åndsverkloven § 20, databaser som er vernet etter åndsverkloven § 24, ervervet opphavsrett, herunder rett til utøvende kunstneres fremføring av et verk, og ervervet rett til fotografiske bilder, og
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*Overskriften til kapittel 4 skal lyde:*
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*Overskriften til § 4-1 skal lyde:*
+
+> § 4-1.Verdipapir og finansielle instrumenter registrert i en verdipapirsentral
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*Overskriften til § 4-2a skal lyde:*
+
+> § 4-2a.Aksjer som ikke er registrert i en verdipapirsentral
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*Overskriften til § 5-7 skal lyde:*
+
+> § 5-7.Utlegg i verdipapir, finansielle instrumenter registrert i en verdipapirsentral, innløsningspapir, aksjer, medlemskap i samvirkeforetak eller enkle krav
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*6.Lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker § 230 annet ledd første punktum skal lyde:*
+
+> Vitner som har taushetsplikt etter forsikringsloven § 1-6, finansforetaksloven § 9-6 eller § 9-7, verdipapirhandelloven § 10-5 eller verdipapirsentralloven § 8-1, plikter å gi forklaring til politiet om forhold som omfattes av taushetsplikten eller taushetsplikt etter avtale.
+>
+
+### 2019-08-01 — forskrift/2019-06-21-807
+
+*Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.*
+
+> Ikraftsetting av lov 20. desember 2018 nr. 120 om endringer i åndsverkloven mv. (portabilitet av nettbaserte innholdstjenester mv.). Loven trer i kraft 1. august 2019.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-05-11 — forskrift/2020-05-07-947
+
+*Loven trer i kraft 11. mai 2020.*
+
+> Loven trer i kraft 11. mai 2020.
+>
 
 ### 2020-06-12 — lov/2020-06-12-67
 
@@ -630,6 +877,30 @@ refid: "lov/1980-02-08-2"
 
 *Underoverskriften mellom § 4-10 og § 4-11 skal lyde:*
 
+### 2021-05-15 — forskrift/2021-04-30-1334
+
+*Loven trer i kraft 15. mai 2021.*
+
+> Loven trer i kraft 15. mai 2021.
+>
+
+### 2023-03-01 — forskrift/2023-02-17-229
+
+*Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Følgende deler av loven trer i kraft 1. mars 2023:*
+
+> Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Følgende deler av loven trer i kraft 1. mars 2023:
+>
+> del I (varemerkeloven)
+>
+> del II (patentloven)
+>
+> del III (panteloven)
+>
+> del IV (foretaksnavneloven)
+>
+> del V (designloven).
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *5.I lov 8. februar 1980 nr. 2 om pant skal § 2-4 første ledd lyde:*
@@ -637,9 +908,61 @@ refid: "lov/1980-02-08-2"
 > (1) Pantsettelse av eierseksjon skal omfatte:den bruksenhet i bygning som pantsetteren har eiendomsrett eller eksklusiv bruksrett til, ogden tilhørende sameieandel i eiendomen.
 >
 
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2025-06-06 — lov/2025-06-06-26
 
 *1.I lov 8. februar 1980 nr. 2 om pant skal § 6-1 andre ledd bokstav c lyde:*
 
 > årsgebyr for vann og avløp etter lov om kommunale vass- og avløpsanlegg
+>
+
+### 2026-01-01 — forskrift/2025-06-06-988
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >

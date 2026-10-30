@@ -15,17 +15,11 @@ refid: "lov/1999-07-02-64"
 
 *I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal ny § 29 a lyde:*
 
-> I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal ny § 29 a lyde:
->
-> § 29 a.
->
-> Opplysninger til etterkontroll av særreaksjonene
+> § 29 a.Opplysninger til etterkontroll av særreaksjonene
 >
 > Departementet kan bestemme at helseopplysninger kan eller skal gis til bruk ved etterkontroll av reglene om særreaksjonene overføring til tvungent psykisk helsevern og overføring til tvungen omsorg, og at det kan skje uten hinder av taushetsplikt etter § 21. Til slikt vedtak kan knyttes vilkår. Reglene om taushetsplikt etter denne lov gjelder tilsvarende for den som mottar opplysningene.
 >
 > Denne bestemmelsen gjelder i tre år fra den er satt i kraft.
->
-> Loven trer i kraft straks.
 >
 
 ### 2007-06-29 — lov/2007-06-29-78
@@ -70,85 +64,9 @@ refid: "lov/1999-07-02-64"
 
 ### 2009-06-19 — lov/2009-06-19-73
 
-*Endringer i følgende lover:*
+*1. I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 29 lyde:*
 
-> Endringer i følgende lover:
->
-> Lov 2. juli 1999 nr. 64 om helsepersonell m.v. (helsepersonelloven).
->
-> Lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning (helseforskningsloven).
->
-> § 1
->
-> .
->
-> Formål
->
-> Formålet med loven er å gi utvalg oppnevnt av Kongen i statsråd 24. april 2009 som skal undersøke mulig svikt i systemer og forløp knyttet til mennesker med psykisk lidelse og som har tatt liv, tilgang på opplysninger som er nødvendige for å få utført sitt arbeid i henhold til mandatet.
->
-> § 2
->
-> .
->
-> Opplysninger til utvalget
->
-> Uten hinder av taushetsplikt kan utvalget gis de opplysninger som er nødvendige for utvalgets arbeid.
->
-> § 3
->
-> .
->
-> Behandling av sensitive personopplysninger
->
-> Utvalget kan behandle sensitive personopplysninger som er nødvendige og relevante for formålet med utvalgets arbeid uten at det foreligger samtykke fra de personer opplysningene gjelder.
->
-> Utvalget trenger ikke konsesjon etter personopplysningsloven kapittel VI.
->
-> § 4
->
-> .
->
-> Taushetsplikt
->
-> Medlemmene av utvalget og enhver som utfører tjeneste eller arbeid for utvalget har taushetsplikt etter reglene i forvaltningsloven av 10. februar 1967 §§ 13 til 13 f.
->
-> Når personer som nevnt i første ledd mottar opplysninger som er undergitt strengere taushetsplikt enn det som følger av forvaltningsloven, skal tilsvarende strenge taushetsplikt gjelde.
->
-> Personer som nevnt i første ledd har taushetsplikt om opplysninger som er fremkommet under forklaring for utvalget etter § 2.
->
-> Taushetsplikt som nevnt i andre og tredje ledd er ikke til hinder for at opplysningene bringes videre i den grad den som har krav på taushet samtykker, dersom opplysningene gis i statistisk form, eller dersom de er alminnelig tilgjengelig andre steder.
->
-> Taushetsplikten gjelder også etter at vedkommende har avsluttet tjenesten eller arbeidet og etter at utvalget har avsluttet sin virksomhet.
->
-> § 5
->
-> .
->
-> Forbud mot bruk som bevis i senere straffesak eller sivil sak
->
-> Opplysninger som utvalget mottar i medhold av § 2 kan ikke brukes som bevis i en senere straffesak eller sivil sak mot den som har gitt opplysningene.
->
-> § 6
->
-> .
->
-> Ikrafttredelse mv.
->
-> §§ 1 til 6 trer i kraft straks. § 7 trer i kraft fra den tid Kongen bestemmer, og de enkelte endringene i andre lover kan settes i kraft til forskjellig tid.
->
-> §§ 1 til 3 gjelder til og med 30. juni 2012.
->
-> § 7
->
-> .
->
-> Endringer i andre lover
->
-> 1. I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 29 lyde:
->
-> § 29.
->
-> Opplysninger til forskning mv.
+> § 29.Opplysninger til forskning mv.
 >
 > Departementet kan bestemme at opplysninger kan eller skal gis til bruk i forskning, og at det kan skje uten hinder av taushetsplikt etter § 21. Til slikt vedtak kan knyttes vilkår. Reglene om taushetsplikt etter denne lov gjelder tilsvarende for den som mottar opplysningene.
 >
@@ -158,9 +76,18 @@ refid: "lov/1999-07-02-64"
 >
 > Departementet kan i forskrift regulere helsepersonells rett til utlevering og bruk av taushetsbelagte opplysninger til andre formål enn helsehjelp, når pasienten har gitt samtykke. Det gjelder formål som forsikring, kredittinstitusjoner o.l.
 >
-> 2. I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 53 første ledd første punktum lyde:
+
+### 2009-06-19 — lov/2009-06-19-97
+
+*Nåværende nr. 5 blir ny nr. 6.*
+
+### 2009-06-19 — lov/2009-06-19-97
+
+*c. I lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. (matloven) skal § 20 oppheves.*
+
+> Denne loven trer i kraft fra den tid Kongen bestemmer. Fra samme tidspunkt oppheves lov 20. desember 1974 nr. 73 om dyrevern samt lov 19. april 2002 nr. 11 om endringer i lov 20. desember 1974 nr. 73 om dyrevern.
 >
-> Statens helsetilsyn og Datatilsynet kan fastsette en løpende tvangsmulkt for hver dag, uke eller måned som går etter utløpet av den fristen som er satt for oppfylling av pålegget etter §§ 51 eller 52, inntil pålegget er oppfylt.
+> Forskrifter eller enkeltvedtak gitt i eller i medhold av lov 20. desember 1974 nr. 73 om dyrevern gjelder fortsatt inntil de blir opphevet.
 >
 
 ### 2009-06-19 — lov/2009-06-19-110
@@ -178,6 +105,13 @@ refid: "lov/1999-07-02-64"
 > Hvis det er grunn til å tro at tilbakekallsgrunn foreligger, kan Helsedirektoratet eller den det bemyndiger pålegge helsepersonell å underkaste seg undersøkelser som omtalt i § 60.
 >
 
+### 2010-01-01 — forskrift/2009-12-11-1501
+
+*Ikraftsetting av lov 19. juni 2009 nr. 70 om endringar i helsepersonelloven m.m. (oppfølging av born som pårørande). Loven trer i kraft fra 1. januar 2010.*
+
+> Ikraftsetting av lov 19. juni 2009 nr. 70 om endringar i helsepersonelloven m.m. (oppfølging av born som pårørande). Loven trer i kraft fra 1. januar 2010.
+>
+
 ### 2011-10-01 — forskrift/2011-09-16-950
 
 *Ikraftsetting av lov 19. juni 2009 nr. 110 om endringer i helsepersonelloven (opphevelse av adgangen til å delegere spesialistgodkjenningsmyndighet til private yrkesorganisasjoner). Loven trer i kraft fra 1. oktober 2011.*
@@ -188,6 +122,24 @@ refid: "lov/1999-07-02-64"
 ### 2012-01-20 — lov/2012-01-20-6
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2012-06-22 — lov/2012-06-22-47
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal ny § 62 a lyde:*
+
+> § 62 a.Pålegg om innlevering av pasientjournalarkiv
+>
+> Statens helsetilsyn kan ved tilbakekall og suspensjon av autorisasjon, lisens eller spesialistgodkjenning pålegge helsepersonell å levere inn sitt pasientjournalarkiv til fylkesmannen eller Norsk helsearkiv.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om vilkår for å gi pålegg om innlevering, innsyn i og bruk av arkivene og arkivenes depotstatus i Norsk helsearkiv.
+>
+
+### 2012-06-22 — forskrift/2012-06-22-578
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ### 2013-06-21 — lov/2013-06-21-82
 
@@ -206,9 +158,96 @@ refid: "lov/1999-07-02-64"
 > Den som har vedtatt forelegg eller er dømt for overtredelser som nevnt i annet ledd, er utelukket fra å yte helse- og omsorgstjeneste til barn eller personer med utviklingshemming.
 >
 
+### 2013-07-01 — forskrift/2013-06-14-641
+
+*Lova tek til å gjelde frå 1. juli 2013.*
+
+> Lova tek til å gjelde frå 1. juli 2013.
+>
+
+### 2014-01-01 — forskrift/2013-12-06-1398
+
+*Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.*
+
+> Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.
+>
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*Nåværende første ledd tredje punktum blir første ledd andre punktum.*
+
+### 2014-07-01 — forskrift/2014-06-13-721
+
+*Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 f*
+
+> Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 første ledd, § 30 første ledd bokstav g, § 37 første ledd bokstav d, § 37 første ledd bokstav i, § 52 a, § 52 b og § 52 c, samt del XI trer i kraft 1. juli 2014.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1732
+
+*Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.*
+
+> Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.
+>
+> Lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger (helseregisterloven) trer i kraft 1. januar 2015.
+>
+
+### 2015-04-24 — lov/2015-04-24-22
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal ny § 29 a lyde:*
+
+> § 29 a.Opplysninger om særreaksjonsdømte utlendinger
+>
+> Lovbestemt taushetsplikt er ikke til hinder for at det gis nødvendige opplysninger om særreaksjonsdømte utlendinger til utlendingsmyndighetene til bruk i en utvisningssak.
+>
+> Ved utvisning av en utlending som utholder en strafferettslig særreaksjon, er lovbestemt taushetsplikt ikke til hinder for at det til helse- og omsorgstjenesten i mottakerstaten gis opplysninger som er nødvendige for at mottakerstaten skal kunne vurdere vedkommendes behov for helsemessig oppfølging eller behov for å underlegges en behandling som kan beskytte samfunnet der mot gjentakelsesfare som nevnt i straffeloven § 39 nr. 1 og nr. 2.
+>
+
+### 2015-05-01 — forskrift/2015-04-24-405
+
+*Loven gjelder fra 1. mai 2015.*
+
+> Loven gjelder fra 1. mai 2015.
+>
+
 ### 2015-06-19 — lov/2015-06-19-61
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2015-07-01 — forskrift/2015-06-19-674
+
+*Loven trer i kraft 1. juli 2015.*
+
+> Loven trer i kraft 1. juli 2015.
+>
+
+### 2015-07-01 — forskrift/2015-06-19-678
+
+*Loven trer i kraft 1. juli 2015.*
+
+> Loven trer i kraft 1. juli 2015.
+>
+
+### 2015-07-01 — forskrift/2015-06-19-680
+
+*Loven trer i kraft 1. juli 2015.*
+
+> Loven trer i kraft 1. juli 2015.
+>
+
+### 2016-01-01 — forskrift/2015-12-11-1438
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
 
 ### 2016-06-17 — lov/2016-06-17-49
 
@@ -229,11 +268,47 @@ refid: "lov/1999-07-02-64"
 > Den som yter tjenester etter helse- og omsorgstjenesteloven skal fremlegge politiattest som nevnt i helse- og omsorgstjenesteloven § 5-4.
 >
 
+### 2016-07-01 — forskrift/2016-06-17-730
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2017-01-01 — forskrift/2016-12-09-1460
+
+*Ikraftsetting*
+
+> Ikraftsetting
+>
+> av lov 13. juni 2016 nr. 49
+>
+> om endringer i helse- og omsorgstjenesteloven og helsepersonelloven (politiattest i den kommunale helse- og omsorgstjenesten).
+>
+> Loven trer i kraft 1. januar 2017 (Lovtidend-redaksjonens anm.).
+>
+> Skal være lov 17. juni 2016 nr. 49 (Lovtidend-redaksjonens anm.).
+>
+
 ### 2017-06-21 — lov/2017-06-21-90
 
 *I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 12 andre ledd første punktum lyde:*
 
 > Lege skal etter anmodning fra påtalemyndigheten foreta kroppslig undersøkelse av mistenkte i straffesak når slik undersøkelse er besluttet etter straffeprosessloven §§ 157 eller 157 a.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-762
+
+*Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-821
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
 >
 
 ### 2018-04-20 — lov/2018-04-20-5
@@ -249,6 +324,63 @@ refid: "lov/1999-07-02-64"
 > Helsepersonell plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
 >
 > I helseinstitusjoner skal det utpekes en person som skal ha ansvaret for videreformidling av opplysninger etter annet og tredje ledd. Denne personen skal uten ugrunnet opphold gi melder tilbakemelding på om melding etter annet ledd er videreformidlet. Dersom meldingen ikke er videreformidlet, skal det begrunnes. Melder har fortsatt et ansvar for å melde, dersom melder mener at vilkårene etter annet ledd er oppfylt. Personen som har ansvaret for videreformidling av opplysningene skal også påse at barneverntjenestens tilbakemeldinger etter barnevernloven § 6-7 a, uten ugrunnet opphold videreformidles til melder.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-878
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 1, § 2, § 4 og § 20 trer i kraft straks.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 1, § 2, § 4 og § 20 trer i kraft straks.
+>
+
+### 2018-07-01 — forskrift/2018-04-06-553
+
+*Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.*
+
+> Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del III, IV, VII og endringene i pasientskadeloven § 18 første ledd i del VI trer i kraft 1. juli 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-08-839
+
+*Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.*
+
+> Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2019-04-10 — forskrift/2019-04-10-473
+
+*Delt ikraftsetting av lov om endringar i spesialisthelsetenestelova m.m. (avvikling av meldeordninga m.m.). Del III, IV og V trer i kraft straks. Del I og II trer i kraft 15. mai 2019, med unntak av endringen i lov 2. juli 1999 nr. 64 om helsepersonell m.v. § 36 andre ledd.*
+
+> Delt ikraftsetting av lov om endringar i spesialisthelsetenestelova m.m. (avvikling av meldeordninga m.m.). Del III, IV og V trer i kraft straks. Del I og II trer i kraft 15. mai 2019, med unntak av endringen i lov 2. juli 1999 nr. 64 om helsepersonell m.v. § 36 andre ledd.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
 >
 
 ### 2019-10-01 — forskrift/2019-06-21-794
@@ -269,11 +401,54 @@ refid: "lov/1999-07-02-64"
 > Tilgjengeliggjøring etter første ledd skal dokumenteres. Den dataansvarlige skal minst dokumentere informasjon om:identitet og organisatorisk tilhørighet til den som helseopplysninger har blitt gjort tilgjengelige forat grunnlaget for tilgjengeliggjøringen er læring og kvalitetssikring knyttet til tidligere pasienttidsperioden for tilgjengeliggjøringenhvilke opplysninger som blir tilgjengeliggjort.
 >
 
+### 2021-01-01 — forskrift/2020-12-04-2622
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-21-1578
+
+*Lov 4. desember 2020 nr. 133 om endringer i helseregisterloven m.m. (tilgjengeliggjøring av helsedata) del I, II og del III § 17 og § 19 til § 20 trer i kraft 1. juni 2021.*
+
+> Lov 4. desember 2020 nr. 133 om endringer i helseregisterloven m.m. (tilgjengeliggjøring av helsedata) del I, II og del III § 17 og § 19 til § 20 trer i kraft 1. juni 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-67
 
 *Overskriften til § 29 skal lyde:*
 
 > Dispensasjon fra taushetsplikt
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*13. I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 33 lyde:*
+
+> § 33.Opplysningsplikt til barnevernet
+>
+> Den som yter helsehjelp, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barnevernstjenesten.
+>
+> Helsepersonell skal uten hinder av taushetsplikt etter § 21 melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn har vist alvorlige atferdsvansker ved å begå alvorlige eller gjentatte lovbrudd, ved problematisk bruk av rusmidler, eller ved å ha vist annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Helsepersonell plikter også å gi opplysninger etter pålegg i samsvar med barnevernsloven § 13-4.
+>
+> I helseinstitusjoner skal det utpekes en person som skal ha ansvaret for videreformidling av opplysninger etter annet og tredje ledd. Denne personen skal uten ugrunnet opphold gi melder tilbakemelding på om melding etter annet ledd er videreformidlet. Dersom meldingen ikke er videreformidlet, skal det begrunnes. Melder har fortsatt et ansvar for å melde, dersom melder mener at vilkårene etter annet ledd er oppfylt. Personen som har ansvaret for videreformidling av opplysningene skal også påse at barnevernstjenestens tilbakemeldinger etter barnevernsloven § 13-3, uten ugrunnet opphold videreformidles til melder.
 >
 
 ### 2021-06-18 — lov/2021-06-18-116
@@ -292,6 +467,20 @@ refid: "lov/1999-07-02-64"
 > Lege, psykolog eller optiker kan uten hinder av taushetsplikt gi melding til offentlige myndigheter når det er grunn til å tro at en pasient som fører skinnegående kjøretøy eller fartøy på sjøen eller utfører tjeneste som los, har en helsesvekkelse som kan føre til skade på person. Første punktum gjelder kun dersom føreretten forutsetter helseerklæring. Pasienten skal få beskjed om at melding er gitt.
 >
 > Departementet kan gi forskrift om hvordan meldinger etter første ledd skal gis og behandles av mottakeren. Departementet kan også gi forskrift om at første ledd skal gjelde tilsvarende for andre som utfører tjeneste av betydning for sikkerheten på sjøen eller på skinnegående kjøretøy.
+>
+
+### 2021-07-01 — forskrift/2021-06-11-1869
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-10-01 — forskrift/2019-06-21-871
+
+*Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 15 nr. 4, for så vidt gjelder endringen i helsepersonelloven § 62a, trer i kraft 1. oktober 2021.*
+
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 15 nr. 4, for så vidt gjelder endringen i helsepersonelloven § 62a, trer i kraft 1. oktober 2021.
 >
 
 ### 2022-04-01 — forskrift/2022-03-04-326
@@ -314,6 +503,36 @@ refid: "lov/1999-07-02-64"
 > Loven del II.
 >
 
+### 2022-07-01 — forskrift/2022-04-01-518
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2022-07-01 — forskrift/2022-05-20-887
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-01-01 — forskrift/2022-12-16-2251
 
 *Delt ikraftsetting av lov 25. mars 2022 nr. 14 om endringer i helsepersonelloven (autorisasjon av naprapater, osteopater og paramedisinere). Følgende trer i kraft 1. januar 2023:*
@@ -334,11 +553,41 @@ refid: "lov/1999-07-02-64"
 > Departementet kan i enkeltsaker overta utøvelsen av statens partsstilling.
 >
 
+### 2023-07-01 — forskrift/2023-03-03-289
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *I lov 2. juli 1999 nr. 64 om helsepersonell mv. skal § 12 tredje ledd første punktum lyde:*
 
 > Ved anmodning om rusprøve fra politiet, ved vilkår for påtaleunnlatelse, fra kriminalomsorgen, ved vilkår for betinget dom, og fra konfliktrådet, ved gjennomføring av ungdomsstraff og ungdomsoppfølging, skal lege, sykepleier, helsesekretær og bioingeniør ta blodprøve eller lignende rusprøve av personer som var under 18 år på handlingstidspunket.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2024-06-21 — lov/2024-06-21-44
@@ -353,9 +602,47 @@ refid: "lov/1999-07-02-64"
 
 *Noverande § 62 a andre ledd blir nytt tredje ledd.*
 
+### 2025-01-01 — forskrift/2024-06-21-1100
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-71
 
 *Nåværende bokstav b og c blir bokstav c og ny bokstav d.*
+
+### 2025-09-01 — forskrift/2025-06-20-1109
+
+*Følgende trer i kraft 1. september 2025:*
+
+> Følgende trer i kraft 1. september 2025:
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 9-2.
+>
+> Følgende trer i kraft 1. juni 2026:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 3-11.
+>
+> Endringsloven del II (psykisk helsevernloven) § 1-1, § 1-2, § 2-1, § 3-2, § 3-3, § 3-3a, § 3-4, § 3-5, § 4-2a, § 4-4, § 4-4b, § 4-8a og § 6-4.
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 3-1, § 3-3, § 4-3, § 4-5, § 4-6, § 4-6a, § 4A-2, § 4A-3, § 7-2 og § 7-4.
+>
+> Endringsloven del IV (helsepersonelloven) § 22, § 25 og § 45.
+>
+> Endringsloven del V (behandlingsbiobankloven) § 11.
+>
+> Endringsloven del VI (alternativ behandlingsloven) § 7.
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 4-2a.
+>
+> Endringsloven del VIII (pasientjournalloven) § 17.
+>
+> Endringsloven del IX (helseregisterloven) § 15.
+>
+> Endringsloven del X (transplantasjonslova) § 5 og § 7.
+>
 
 ### 2025-12-22 — lov/2025-12-22-126
 
@@ -364,11 +651,36 @@ refid: "lov/1999-07-02-64"
 > Dersom tilgjengeliggjøring av opplysninger kan true samfunnets evne til å verne grunnleggende verdier og funksjoner og sette liv og helse i fare, skal opplysningene ikke gjøres tilgjengelig.
 >
 
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
+>
+
 ### 2026-01-23 — lov/2026-01-23-1
 
 *Kapittel 5 overskriften skal lyde:*
 
 > Kapittel 5. Taushetsplikt og tilgjengeliggjøring av opplysninger
+>
+
+### 2026-04-15 — forskrift/2026-03-13-401
+
+*Ikraftsetting av lov 22. desember 2025 nr. 126 om endringer i helselovgivningen (tilgjengeliggjøring av helsedata og krav til tekniske og organisatoriske sikkerhetstiltak). Loven trer i kraft 15. april 2026.*
+
+> Ikraftsetting av lov 22. desember 2025 nr. 126 om endringer i helselovgivningen (tilgjengeliggjøring av helsedata og krav til tekniske og organisatoriske sikkerhetstiltak). Loven trer i kraft 15. april 2026.
 >
 
 ### 2026-06-01 — forskrift/2026-03-13-400
@@ -391,6 +703,20 @@ refid: "lov/1999-07-02-64"
 > Den som yter helse- og omsorgstjenester, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
 >
 > Departementet kan i forskrift gi nærmere bestemmelser om plikten til informasjon etter første ledd.
+>
+
+### 2026-07-01 — forskrift/2026-03-13-402
+
+*Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.*
+
+> Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1142
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 10
@@ -501,6 +827,17 @@ refid: "lov/1999-07-02-64"
 > Lege, sykepleier, helsesekretær eller bioingeniør har ingen plikt til å foreta undersøkelser etter første til tredje ledd av:
 >
 
+## § 12 a
+
+### 2017-06-16 — lov/2017-06-16-56
+
+*Ny § 12 a skal lyde:*
+
+> § 12 a.Undersøkelser mv. etter pålegg fra Statens undersøkelseskommisjon for helse- og omsorgstjenesten
+>
+> Helsepersonell skal medvirke til eller underkaste seg utåndingsprøve, blodprøve og klinisk legeundersøkelse som pålegges av undersøkelseskommisjonen etter lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 9 andre ledd.
+>
+
 ## § 13
 
 ### 2012-06-22 — lov/2012-06-22-46
@@ -566,6 +903,13 @@ refid: "lov/1999-07-02-64"
 >
 
 ## § 18
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 18 første ledd første punktum skal lyde:*
+
+> Helsepersonell med autorisasjon eller lisens i privat virksomhet skal gi melding til kommune eller regionalt helseforetak når de åpner, overtar eller trer inn i virksomhet som er omfattet av loven.
+>
 
 ### 2006-12-22 — lov/2006-12-22-100
 
@@ -702,6 +1046,20 @@ refid: "lov/1999-07-02-64"
 
 ## § 23
 
+### 2009-06-19 — lov/2009-06-19-97
+
+*§ 23 nr. 4 skal lyde:*
+
+> at opplysninger gis videre når tungtveiende private eller offentlige interesser gjør det rettmessig å gi opplysningene videre,
+>
+
+### 2009-06-19 — lov/2009-06-19-97
+
+*§ 23 nr. 5 skal lyde:*
+
+> at opplysninger gis videre når helsepersonell gjennom sin yrkesutøvelse har grunn til å tro at dyr blir utsatt for slik mishandling eller alvorlig svikt vedrørende miljø, tilsyn og stell at det anses rettmessig å gi opplysningene videre til Mattilsynet eller politiet eller
+>
+
 ### 2021-06-18 — lov/2021-06-18-122
 
 *§ 23 tredje ledd oppheves.*
@@ -748,6 +1106,17 @@ refid: "lov/1999-07-02-64"
 *§ 25 nytt tredje ledd skal lyde:*
 
 > Med mindre pasienten motsetter seg det, kan taushetsbelagte opplysninger gis til samarbeidende personell når dette er nødvendig for å ivareta behovene til pasientens barn, jf. helsepersonelloven § 10 a.
+>
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*§ 25 første ledd andre punktum oppheves.*
+
+> § 26 nytt andre ledd:
+>
+> Ved samarbeid om behandlingsrettede helseregistre etter pasientjournalloven § 9 kan slike opplysninger også gis til ledelsen i samarbeidende virksomhet.
+>
+> Nåverende andre og tredje ledd blir tredje og fjerde ledd.
 >
 
 ### 2017-06-16 — lov/2017-06-16-53
@@ -867,6 +1236,20 @@ refid: "lov/1999-07-02-64"
 
 ## § 29
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 29 første ledd skal lyde:*
+
+> Departementet kan bestemme at opplysninger kan eller skal gjøres tilgjengelige til bruk for forskning, og at opplysningene skal kunne tilgjengeliggjøres og brukes uten hinder av taushetsplikt etter § 21. Reglene om taushetsplikt etter denne loven gjelder tilsvarende for den som mottar opplysningene. Departementet kan sette vilkår for bruken av opplysningene for å verne den registrertes grunnleggende rettigheter og interesser.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 29 fjerde ledd første punktum skal lyde:*
+
+> Departementet kan i forskrift regulere helsepersonells rett til tilgjengeliggjøring og bruk av taushetsbelagte opplysninger til andre formål enn helsehjelp når pasienten har gitt samtykke.
+>
+
 ### 2020-12-04 — lov/2020-12-04-133
 
 *§ 29 skal lyde:*
@@ -919,6 +1302,13 @@ refid: "lov/1999-07-02-64"
 
 ## § 29 a
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 29 a annet ledd skal lyde:*
+
+> Ved utvisning av en utlending som utholder en strafferettslig særreaksjon, er lovbestemt taushetsplikt ikke til hinder for at det til helse- og omsorgstjenesten i mottakerstaten gis opplysninger som er nødvendige for at mottakerstaten skal kunne vurdere vedkommendes behov for helsemessig oppfølging eller behov for å underlegges en behandling som kan beskytte samfunnet der mot gjentakelsesfare som nevnt i straffeloven § 62.
+>
+
 ### 2026-01-23 — lov/2026-01-23-1
 
 *§ 29 a skal lyde:*
@@ -943,6 +1333,30 @@ refid: "lov/1999-07-02-64"
 > Departementet kan bestemme at helseopplysninger kan eller skal gis til bruk ved kvalitetssikring, administrasjon, planlegging eller styring av helsetjenesten, og at det kan skje uten hensyn til taushetsplikt. Dette kan bare skje dersom behandlingen av opplysningene er av vesentlig interesse for samfunnet og hensynet til pasientens integritet og velferd er ivaretatt. Graden av personidentifikasjon skal ikke være større enn nødvendig for det aktuelle formålet. Kun i særskilte tilfeller kan det gis tillatelse til bruk av direkte personidentifiserbare opplysninger som for eksempel navn eller fødselsnummer. Reglene om taushetsplikt gjelder tilsvarende for den som mottar opplysningene.
 >
 > Departementet kan sette vilkår for bruken av opplysninger etter paragrafen her.
+>
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*§ 29 b skal lyde:*
+
+> § 29 b.Opplysninger til helseanalyser, kvalitetssikring, administrasjon mv.
+>
+> Departementet kan bestemme at helseopplysninger kan eller skal gis til bruk for helseanalyser og kvalitetssikring, administrasjon, planlegging eller styring av helse- og omsorgstjenesten, og at det skal skje uten hensyn til taushetsplikt. Dette kan bare skje dersom behandlingen av opplysningene er av vesentlig interesse for samfunnet og hensynet til pasientens integritet og velferd er ivaretatt. Graden av personidentifikasjon skal ikke være større enn nødvendig for det aktuelle formålet. Kun i særskilte tilfeller kan det gis tillatelse til bruk av direkte personidentifiserbare opplysninger som for eksempel navn eller fødselsnummer. Reglene om taushetsplikt gjelder tilsvarende for den som mottar opplysningene.
+>
+> Departementet kan sette vilkår for bruken av opplysninger etter paragrafen her.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 29 b skal lyde:*
+
+> § 29 b.Opplysninger til helseanalyser, kvalitetssikring, administrasjon mv.
+>
+> Departementet kan bestemme at opplysninger kan eller skal gjøres tilgjengelige til bruk for helseanalyser og kvalitetssikring, administrasjon, planlegging eller styring av helse- og omsorgstjenesten og at opplysningene skal kunne tilgjengeliggjøres og brukes uten hinder av taushetsplikt etter § 21. Reglene om taushetsplikt etter denne loven gjelder tilsvarende for den som mottar opplysningene.
+>
+> Tilgjengeliggjøring kan bare skje dersom bruken av opplysningene er av vesentlig interesse for samfunnet og hensynet til pasientens integritet og velferd er ivaretatt. Graden av personidentifikasjon skal ikke være større enn nødvendig for det aktuelle formålet. Kun i særskilte tilfeller kan det gis tillatelse til bruk av direkte personidentifiserbare opplysninger som for eksempel navn eller fødselsnummer.
+>
+> Departementet kan sette vilkår for bruken av opplysningene for å verne den registrertes grunnleggende rettigheter og interesser.
 >
 
 ### 2020-12-04 — lov/2020-12-04-133
@@ -982,6 +1396,22 @@ refid: "lov/1999-07-02-64"
 > Med mindre pasienten motsetter seg det, kan taushetsbelagte opplysninger etter særskilt anmodning gis til annet helsepersonell som tidligere har ytt helsehjelp til pasienten i et konkret behandlingsforløp, dersom utleveringen er begrunnet i lærings- og kvalitetssikringshensyn.
 >
 > Utlevering etter første ledd skal begrenses til de opplysninger som er nødvendige og relevante for formålet. I pasientens journal skal det dokumenteres hvem opplysninger har blitt utlevert til og hvilke opplysninger som har blitt utlevert, jf. § 40.
+>
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*§ 29 c skal lyde:*
+
+> Med mindre pasienten motsetter seg det, kan taushetsbelagte opplysninger etter særskilt anmodning gis til annet helsepersonell som tidligere har ytt helsehjelp til pasienten i et konkret behandlingsforløp, for kvalitetssikring av helsehjelpen eller egen læring. Behandlingen av anmodningen kan automatiseres. Helsepersonell kan bare gis de opplysninger som er nødvendige og relevante for formålet. I pasientens journal skal det dokumenteres hvem opplysninger har blitt utlevert til og hvilke opplysninger som har blitt utlevert, jf. § 40.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 29 c skal lyde:*
+
+> § 29 c.Opplysninger til bruk i læringsarbeid og kvalitetssikring
+>
+> Med mindre pasienten motsetter seg det, kan taushetsbelagte opplysninger etter særskilt anmodning gjøres tilgjengelige for annet helsepersonell som tidligere har ytt helsehjelp til pasienten i et konkret behandlingsforløp, for kvalitetssikring av helsehjelpen eller egen læring. Behandlingen av anmodningen kan automatiseres. Første punktum omfatter opplysninger som er nødvendige og relevante for formålet. I pasientens journal skal det dokumenteres hvem opplysninger har blitt gjort tilgjengelige for, og hvilke opplysninger som har blitt gjort tilgjengelige, jf. § 40.
 >
 
 ### 2026-01-23 — lov/2026-01-23-1
@@ -1091,6 +1521,28 @@ refid: "lov/1999-07-02-64"
 > Helsepersonell skal gi Statens helsetilsyn og Helsetilsynet i fylket adgang til virksomhetens lokaler, og gi alle de opplysninger som ansees påkrevd for utøvelsen av tilsyn med helsepersonells virksomhet. Helsepersonell skal uten hinder av taushetsplikten utlevere de dokumenter, lyd- og bildeopptak o.l. som kreves av Statens helsetilsyn og Helsetilsynet i fylket.
 >
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 30 skal lyde:*
+
+> § 30.Opplysningsplikt til Statens helsetilsyn og Fylkesmannen
+>
+> Bestemmelsene i helsetilsynsloven § 7 om plikt til å gi tilsynsmyndigheten opplysninger og adgang til virksomheten på anmodning og adgang til å gi tilsynsmyndigheten opplysninger av eget tiltak uten hinder av taushetsplikt, gjelder for alt helsepersonell og annet personell som yter helse- og omsorgstjenester.
+>
+
+## § 30 a
+
+### 2017-06-16 — lov/2017-06-16-56
+
+*Ny § 30 a skal lyde:*
+
+> § 30 a.Opplysninger til Statens undersøkelseskommisjon for helse- og omsorgstjenesten
+>
+> Helsepersonell skal gi undersøkelseskommisjonen adgang til virksomhetens lokaler og opplysninger etter lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 9.
+>
+> Helsepersonell skal forklare seg for Statens undersøkelseskommisjon for helse- og omsorgstjenesten etter lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 10.
+>
+
 ## § 32
 
 ### 2026-01-23 — lov/2026-01-23-1
@@ -1133,6 +1585,13 @@ refid: "lov/1999-07-02-64"
 
 ## § 35
 
+### 2002-01-01 — lov/2001-05-18-24
+
+*§ 35 fjerde ledd skal lyde:*
+
+> Lege eller jordmor skal gi melding om fødsel eller svangerskapsavbrudd etter tolvte uke til Medisinsk fødselsregister i samsvar med forskrift gitt i medhold av helseregisterloven.
+>
+
 ### 2007-06-29 — lov/2007-06-29-61
 
 *§ 35 første ledd første punktum skal lyde:*
@@ -1172,6 +1631,17 @@ refid: "lov/1999-07-02-64"
 > § 67 a blir oppheva.
 >
 
+## § 37
+
+### 2002-01-01 — lov/2001-05-18-24
+
+*§ 37 skal lyde:*
+
+> § 37.Melding til helseregistre m.v.
+>
+> Kongen kan pålegge helsepersonell med autorisasjon eller lisens å gi opplysninger til helseregistre i samsvar med forskrift gitt i medhold av helseregisterloven.
+>
+
 ## § 38
 
 ### 2003-08-29 — lov/2003-08-29-87
@@ -1209,6 +1679,15 @@ refid: "lov/1999-07-02-64"
 > Første ledd gjelder ikke korrektive inngrep eller annen behandling ved misdannelser, skade eller sykdom, eller etter behandling av slike tilstander, samt tannregulering eller annen tannbehandling som er odontologisk begrunnet, men som samtidig har en kosmetisk betydning.
 >
 
+## § 40
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 40 tredje ledd skal lyde:*
+
+> Departementet kan i forskrift gi nærmere regler om pasientjournalens innhold og ansvar for journalen etter denne bestemmelse, herunder om oppbevaring, overdragelse, opphør, avlevering og tilintetgjøring av journal.
+>
+
 ## § 42
 
 ### 2003-08-29 — lov/2003-08-29-87
@@ -1223,6 +1702,19 @@ refid: "lov/1999-07-02-64"
 *§ 42 tredje ledd skal lyde:*
 
 > Avslag på krav om retting kan påklages til Fylkesmannen som avgjør om retting kan foretas.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 42 skal lyde:*
+
+> § 42.Retting av journal
+>
+> Helsepersonell som nevnt i § 39 skal etter krav fra den opplysningen gjelder, eller av eget tiltak, rette uriktige eller ufullstendige opplysninger, jf. personvernforordningen artikkel 16. Opplysningene skal etter krav fra den opplysningen gjelder, eller av eget tiltak, også rettes dersom de er utilbørlige. Retting skal skje ved at journalen føres på nytt, eller ved at en datert rettelse tilføyes i journalen. Retting skal ikke skje ved at opplysninger eller utsagn slettes.
+>
+> Dersom et krav om retting avslås, skal kravet om retting og begrunnelse for avslaget nedtegnes i journalen. Avslag på krav om retting kan påklages til Fylkesmannen, som avgjør om retting kan foretas.
+>
+> Departementet kan gi forskrift om fremgangsmåten ved retting.
 >
 
 ## § 43
@@ -1281,6 +1773,17 @@ refid: "lov/1999-07-02-64"
 > Helseopplysninger som nevnt i første ledd kan gis av den databehandlingsansvarlige for opplysningene eller det helsepersonell som har dokumentert opplysningene, jf. § 39.
 >
 > Departementet kan i forskrift gi nærmere bestemmelser til utfylling av første ledd, og kan herunder bestemme at annet helsepersonell kan gis tilgang til journalen også i de tilfeller som faller utenfor første ledd.
+>
+
+### 2014-06-20 — lov/2014-06-20-43
+
+*§ 45 første ledd andre punktum oppheves.*
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 45 annet ledd skal lyde:*
+
+> Helseopplysninger som nevnt i første ledd kan gis av den dataansvarlige for opplysningene eller det helsepersonellet som har dokumentert opplysningene, jf. § 39.
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -1529,6 +2032,13 @@ refid: "lov/1999-07-02-64"
 > Autorisasjon, lisens eller spesialistgodkjenning kan kalles tilbake også dersom vilkår fastsatt i forskrift etter §§ 48 a, 49 eller 51 ikke er oppfylt.
 >
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 57 første ledd skal lyde:*
+
+> Statens helsetilsyn kan kalle tilbake autorisasjon, lisens eller spesialistgodkjenning dersom innehaveren er uegnet til å utøve sitt yrke forsvarlig på grunn av alvorlig sinnslidelse, psykisk eller fysisk svekkelse, langt fravær fra yrket, bruk av alkohol, narkotika eller midler med lignende virkning, vesentlig mangel på faglig innsikt, uforsvarlig virksomhet, vesentlige pliktbrudd etter denne lov eller bestemmelser gitt i medhold av den, eller på grunn av atferd som anses uforenlig med yrkesutøvelsen.
+>
+
 ### 2022-05-20 — lov/2022-05-20-29
 
 *§ 57 andre ledd skal lyde:*
@@ -1685,6 +2195,17 @@ refid: "lov/1999-07-02-64"
 
 ## § 62 a
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 62 a skal lyde:*
+
+> § 62 a.Pålegg om innlevering av pasientjournalarkiv
+>
+> Statens helsetilsyn kan ved tilbakekall og suspensjon av autorisasjon, lisens eller spesialistgodkjenning pålegge helsepersonell å levere inn sitt pasientjournalarkiv til Helsedirektoratet.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om vilkår for å gi pålegg om innlevering, innsyn i og bruk av arkivene og arkivenes depotstatus.
+>
+
 ### 2024-06-21 — lov/2024-06-21-44
 
 *§ 62 a nytt andre ledd skal lyde:*
@@ -1794,6 +2315,13 @@ refid: "lov/1999-07-02-64"
 > Den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller i medhold av den, straffes med bøter eller fengsel i inntil tre måneder.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 67 første ledd skal lyde:*
+
+> Den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller i medhold av den, straffes med bøter eller fengsel i inntil tre måneder.
+>
+
 ### 2017-06-16 — lov/2017-06-16-53
 
 *§ 67 skal lyde:*
@@ -1825,6 +2353,15 @@ refid: "lov/1999-07-02-64"
 >
 
 ## § 67 a
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 67 a skal lyde:*
+
+> § 67 a.Forbud mot bruk av meldinger til Helsedirektoratet om uønskede hendelser som grunnlag for å opprette tilsynssak mv.
+>
+> Melding til Helsedirektoratet etter spesialisthelsetjenesteloven § 3-3 kan ikke i seg selv danne grunnlag for å innlede sak eller fatte vedtak om reaksjon i medhold av kapittel 11 i loven her. Det samme gjelder for politianmeldelse eller begjæring om påtale etter § 67 annet ledd.
+>
 
 ### 2021-06-18 — lov/2021-06-18-122
 

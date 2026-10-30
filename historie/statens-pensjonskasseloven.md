@@ -7,6 +7,13 @@ refid: "lov/1949-07-28-26"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*30. I lov 28. juli 1949 nr. 26 om Statens Pensjonskasse skal § 32 andre ledd lyde:*
+
+> Hvis et medlem er forsvunnet, og det av denne grunn er avsagt dom eller kjennelse for at vedkommende formodes å være død, anses den annen ektefelle som gjenlevende ektefelle. Inntil dom eller kjennelse foreligger, kan Pensjonskassens styre gi ektefellen hel eller delvis pensjon i disse tilfellene.
+>
+
 ### 2009-12-18 — lov/2009-12-18-134
 
 *I lov 28. juli 1949 nr. 26 om Statens Pensjonskasse skal § 26 nytt sjette ledd lyde:*
@@ -17,6 +24,20 @@ refid: "lov/1949-07-28-26"
 ### 2010-01-15 — lov/2010-01-15-1
 
 *Nåværende tredje punktum blir nytt fjerde punktum.*
+
+### 2010-02-01 — forskrift/2010-01-15-54
+
+*Loven trer i kraft 1. februar 2010.*
+
+> Loven trer i kraft 1. februar 2010.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
 
 ### 2011-01-01 — lov/2010-06-25-29
 
@@ -141,6 +162,41 @@ refid: "lov/1949-07-28-26"
 
 *Nåværende sjette ledd blir femte ledd.*
 
+### 2015-01-01 — forskrift/2014-06-20-798
+
+*Ikraftsetting av lov 7. mars 2014 nr. 5 om endringer i lov om Statens pensjonskasse og enkelte andre lover (ny uførepensjonsordning). Loven trer i kraft 1. januar 2015.*
+
+> Ikraftsetting av lov 7. mars 2014 nr. 5 om endringer i lov om Statens pensjonskasse og enkelte andre lover (ny uførepensjonsordning). Loven trer i kraft 1. januar 2015.
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1717
+
+*Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kr*
+
+> Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kraft 1. januar 2015.
+>
+
+### 2016-03-01 — forskrift/2016-01-22-44
+
+*Loven trer i kraft 1. mars 2016.*
+
+> Loven trer i kraft 1. mars 2016.
+>
+
+### 2016-04-01 — forskrift/2016-03-18-267
+
+*Ikraftsetting av lov 18. desember 2015 nr. 107 om endringer i lov om Statens pensjonskasse mv. (minstegrense for rett til medlemskap). Loven trer i kraft 1. april 2016.*
+
+> Ikraftsetting av lov 18. desember 2015 nr. 107 om endringer i lov om Statens pensjonskasse mv. (minstegrense for rett til medlemskap). Loven trer i kraft 1. april 2016.
+>
+
 ### 2016-06-17 — lov/2016-06-17-25
 
 *I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 44 nytt ellevte ledd lyde:*
@@ -164,6 +220,13 @@ refid: "lov/1949-07-28-26"
 *I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 31 tredje ledd lyde:*
 
 > Dersom arbeidsavklaringspenger etter folketrygdloven kapittel 11 er redusert eller stanset av andre grunner enn ved samtidig arbeid etter folketrygdloven § 11-23, kan midlertidig uførepensjon reduseres eller stanses tilsvarende.
+>
+
+### 2019-01-01 — forskrift/2018-12-20-2051
+
+*Ikraftsetting av lov 15. juni 2018 nr. 30 om endringer i lov om Statens pensjonskasse, lov om samordning av pensjons- og trygdeytelser og enkelte andre lover (tilpasning av alderspensjon fra offentlig tjenestepensjonsordning til alderspensjon fra folketrygden opptjent etter nye regler – levealdersju*
+
+> Ikraftsetting av lov 15. juni 2018 nr. 30 om endringer i lov om Statens pensjonskasse, lov om samordning av pensjons- og trygdeytelser og enkelte andre lover (tilpasning av alderspensjon fra offentlig tjenestepensjonsordning til alderspensjon fra folketrygden opptjent etter nye regler – levealdersjustering og samordning). Loven trer i kraft 1. januar 2019.
 >
 
 ### 2019-06-21 — lov/2019-06-21-26
@@ -335,6 +398,20 @@ refid: "lov/1949-07-28-26"
 > Departementet kan gi forskrift om gjennomføringen av denne paragrafen.
 >
 
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-782
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2020-03-20 — lov/2020-03-20-3
 
 *I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 26 nytt sjette ledd lyde:*
@@ -342,11 +419,32 @@ refid: "lov/1949-07-28-26"
 > Løpende alderspensjon faller likevel ikke bort eller reduseres etter tredje ledd ved beordret tjeneste i forbindelse med covid-19, jf. lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 1-3 første ledd bokstav a til c. Frivillig tjeneste i offentlig helsetjeneste som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
 >
 
+### 2020-03-20 — forskrift/2020-03-20-580
+
+*Ikraftsetting av lov om endring i lov 28. juli 1949 nr. 26 om Statens pensjonskasse, lov om endring i lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. og lov om endring i lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere trer i kraft straks.*
+
+> Ikraftsetting av lov om endring i lov 28. juli 1949 nr. 26 om Statens pensjonskasse, lov om endring i lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. og lov om endring i lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere trer i kraft straks.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1277
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
 ### 2020-12-18 — lov/2020-12-18-138
 
 *I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 26 sjette ledd lyde:*
 
 > Løpende alderspensjon faller likevel ikke bort eller reduseres etter tredje ledd ved beordret tjeneste i forbindelse med covid-19, jf. helseberedskapsloven § 1-3 første ledd bokstav a til c og bokstav h. Frivillig tjeneste i offentlig helsetjeneste etter helseberedskapsloven § 1-3 første ledd bokstav a til c som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
+>
+
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
@@ -358,11 +456,80 @@ refid: "lov/1949-07-28-26"
 > Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i tredje ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
 >
 
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-904
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
 ### 2024-04-12 — lov/2024-04-12-15
 
 *I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 24 tredje ledd tredje og fjerde punktum lyde:*
 
 > For årskullene fra og med 1954-kullet til og med 1962-kullet skal det likevel kunne benyttes et lavere justeringstall enn 1,000 for justeringstall etter første ledd bokstav b. For de samme årskullene skal den nedre grensen for justeringstallet etter første ledd bokstav a settes lik forholdstallet ved den laveste alderen som gir et justeringstall etter første ledd bokstav b lik 1,000 for det aktuelle årskullet.
+>
+
+### 2024-04-12 — forskrift/2024-04-12-615
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2024-10-01 — forskrift/2024-09-20-2209
+
+*Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.*
+
+> Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.
+>
+> Loven trer i kraft 1. oktober 2024.
+>
+
+### 2024-12-20 — forskrift/2024-12-20-3298
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (folketrygdloven) §§ 8-49, 11-4, 11-13, 11-16, 11-18, 13-2, 13-11 og 20-4.
+>
+> Endringsloven del VI (lov om arbeidsmarkedstjenester), VII (lov om norsk statsborgerskap), IX (AFP-tilskottsloven), X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) og XI (lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover).
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) får virkning fra 1. oktober 2024, med unntak av endringene i §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (lov om Statens pensjonskasse), II (lov om pensjonsordning for apotekvirksomhet mv.), III (lov om samordning av pensjons- og trygdeytelser) og IV (lov om pensjonsordning for sykepleiere).
+>
+> Endringsloven del V (folketrygdloven) opphevelsen av overskriften «V. Forsørgingstillegg» i kapittel 3 og endringene i §§ 3-3, 3-24, 3-25, 3-26, 4-5, 4-9, 4-10, 4-15, 4-16, 4-20, 4-21, 4-23, 4-26, 12-15, 19-3, 19-8, 19-9a og 22-16.
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2025:
+>
+> Endringsloven del VIII (lov om pensjonsordning for oppdragstaker i statlig beredskapshjem eller spesialisert fosterhjem).
+>
+
+### 2025-01-01 — forskrift/2024-04-12-614
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
+### 2025-01-10 — forskrift/2025-01-10-12
+
+*Ikraftsetting av lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover (opphevelse av minstegrensen for rett til medlemskap). Loven trer i kraft straks og gis virkning fra 1. januar 2025.*
+
+> Ikraftsetting av lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover (opphevelse av minstegrensen for rett til medlemskap). Loven trer i kraft straks og gis virkning fra 1. januar 2025.
 >
 
 ### 2025-06-10 — lov/2025-06-10-31
@@ -504,6 +671,62 @@ refid: "lov/1949-07-28-26"
 
 *Noverande sjette ledd blir nytt sjuande ledd.*
 
+### 2025-12-22 — forskrift/2025-12-22-2817
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 4-8 femte ledd, § 4-10 andre ledd, 4-20 tredje ledd, § 8-2 tredje ledd, § 8-47 fjerde ledd første punktum, § 11-12 fjerde ledd første punktum, § 11-27 første ledd, § 11-28 første til tredje ledd, § 15-9, § 17-5 tredje ledd andre og tredje punktum, § 17-9, § 17A-3 andre ledd andre og tredje punktum og § 17 A-6.
+>
+> Endringsloven del VI (lov 12. februar 2010 nr. 4 om pensjonsordning for oppdragstaker i beredskapshjem eller spesialisert fosterhjem)
+>
+> Endringsloven del VIII (lov 10. juni 2025 nr. 31 om endringer i lov om Statens pensjonskasse og enkelte andre lover (nye pensjonsregler for personer med særaldersgrense)
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2026:
+>
+> Endringsloven del I (lov 28. juli 1949 nr. 26 om Statens pensjonskasse)
+>
+> Endringsloven del II (lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv.)
+>
+> Endringsloven del III (lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere)
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 4-19
+>
+> Endringsloven del V (lov 10. juni 2005 nr. 44 om forsikringsvirksomhet)
+>
+> Endringsloven del VII (lov 27. mai 2016 nr. 14 om skatteforvaltning)
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2026:
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 12-2, § 12-13 og § 12-14 første ledd første punktum og andre ledd første, andre og fjerde punktum. Endringene i § 12-9 og § 12-14 andre ledd tredje punktum trer i kraft 1. juli 2026 og får virkning fra 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-05-27-856
+
+*Loven trer i kraft 1. januar 2026. Bestemmelser i tariffavtaler om lavere aldersgrense enn 72 år for opphør av arbeidsforhold gjelder inntil tariffavtalen utløper, jf. arbeidstvistloven § 5, men likevel ikke lenger enn tre år fra lovens ikrafttredelse.*
+
+> Loven trer i kraft 1. januar 2026. Bestemmelser i tariffavtaler om lavere aldersgrense enn 72 år for opphør av arbeidsforhold gjelder inntil tariffavtalen utløper, jf. arbeidstvistloven § 5, men likevel ikke lenger enn tre år fra lovens ikrafttredelse.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-965
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-06-12 — lov/2026-06-12-24
 
 *Nåværende første ledd fjerde punktum blir tredje ledd nytt tredje punktum.*
@@ -641,6 +864,10 @@ refid: "lov/1949-07-28-26"
 *§ 2 andre og fjerde ledd oppheves.*
 
 ## § 20
+
+### 2005-06-17 — lov/2005-06-17-103
+
+*§ 20 første ledd bokstav f oppheves. Nåværende bokstav g blir ny bokstav f.*
 
 ### 2010-01-15 — lov/2010-01-15-1
 
@@ -808,6 +1035,10 @@ refid: "lov/1949-07-28-26"
 >
 
 ## § 24
+
+### 2005-06-17 — lov/2005-06-17-103
+
+*§ 24 tredje ledd oppheves.*
 
 ### 2011-01-01 — lov/2010-06-25-29
 
@@ -1028,6 +1259,17 @@ refid: "lov/1949-07-28-26"
 >
 
 ## § 27
+
+### 2005-06-17 — lov/2005-06-17-103
+
+*§ 27 annet ledd tredje punktum skal lyde:*
+
+> Bestemmelsen i dette ledd gjelder også permittert medlem.
+>
+> 2. I lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) skal § 3 annet ledd tredje punktum lyde:
+>
+> Vedtak om oppsigelse, suspensjon eller avskjed som treffes av et statlig, kommunalt eller fylkeskommunalt organ, er unntatt fra reglene om forhåndsvarsel i § 16 og klage i §§ 28 til 34.
+>
 
 ### 2010-01-15 — lov/2010-01-15-1
 

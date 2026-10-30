@@ -7,6 +7,13 @@ refid: "lov/1999-01-15-1"
 
 ## (annet)
 
+### 2010-02-01 — forskrift/2010-01-15-54
+
+*Loven trer i kraft 1. februar 2010.*
+
+> Loven trer i kraft 1. februar 2010.
+>
+
 ### 2016-12-20 — lov/2016-12-20-105
 
 *Nåværende andre punktum blir nytt tredje punktum.*
@@ -18,6 +25,13 @@ refid: "lov/1999-01-15-1"
 > § 1.Virkekrets
 >
 > Denne lov gjelder ektefeller som ledsager utsendte utenrikstjenestemenn. Loven gjelder også samboere som ledsager utsendte utenrikstjenestemenn, når paret lever sammen og har, eller har hatt, felles barn eller tidligere har vært gift med hverandre.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
 >
 
 ### 2020-12-04 — lov/2020-12-04-132
@@ -34,6 +48,20 @@ refid: "lov/1999-01-15-1"
 *I lov 15. januar 1999 nr. 1 om pensjonsordning for ledsagere i utenrikstjenesten skal § 3 syvende ledd første punktum lyde:*
 
 > Pensjon under utbetaling reguleres årlig fra 1. mai i samsvar med et gjennomsnitt av lønns- og prisvekst.
+>
+
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
 >
 
 ## § 1

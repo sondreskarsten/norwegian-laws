@@ -11,6 +11,10 @@ refid: "lov/2002-06-21-34"
 
 *Nåværende § 18 tredje ledd annet og tredje punktum oppheves.*
 
+### 2014-06-20 — lov/2014-06-20-27
+
+*Nåværende fjerde ledd blir nytt femte ledd.*
+
 ### 2023-06-16 — lov/2023-06-16-38
 
 *I lov 21. juni 2002 nr. 34 om forbrukerkjøp kapittel 12 skal ny § 61 a lyde:*
@@ -24,6 +28,20 @@ refid: "lov/2002-06-21-34"
 > Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.
 >
 
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-909
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
 ### 2024-06-14 — lov/2024-06-14-32
 
 *I lov 21. juni 2002 nr. 34 om forbrukerkjøp skal § 61 a første ledd første punktum lyde:*
@@ -31,7 +49,21 @@ refid: "lov/2002-06-21-34"
 > Forbrukertilsynet og Markedsrådet skal ut fra hensyn til forbrukerne føre tilsyn med at bestemmelsene gitt i § 6 første ledd, § 14 fjerde ledd, § 18 a og § 23 følges av en næringsdrivende.
 >
 
+### 2024-07-01 — forskrift/2024-06-14-956
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ## § 14
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*§ 14 nytt fjerde ledd skal lyde:*
+
+> Ved sendekjøp går risikoen over på forbrukeren når forbrukeren, eller en tredjeperson forbrukeren har pekt ut som ikke er fraktføreren, fysisk har fått varene i sin besittelse. Risikoen går likevel over på forbrukeren når varene overlates til fraktføreren, dersom det er forbrukeren som har gitt fraktføreren transportoppdraget, og det ikke var selgeren som tilbød dette transportalternativet. Annet punktum berører ikke forbrukerens rettigheter overfor fraktføreren.
+>
 
 ### 2023-06-16 — lov/2023-06-16-60
 
@@ -148,6 +180,13 @@ refid: "lov/2002-06-21-34"
 > Loven gjelder ikke forkjøp av fast eiendomavtale om oppføring av bygning eller annet anlegg på fast eiendomavtale med en kraftleverandør om levering av elektrisk energi. Kapittel 5 om forsinkelse gjelder likevel ved forsinket oppstart av levering av elektrisk energi. Bestemmelsene i § 61 a om nemndsbehandling av visse tvister gjelder også for slike avtaleravtale som pålegger den part som skal levere tingen, også å utføre et arbeid eller annen tjeneste, dersom dette utgjør den overveiende del av hans eller hennes forpliktelser.
 >
 
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 2 annet ledd bokstav c skal lyde:*
+
+> avtale med en kraftleverandør om levering av elektrisk energi. Kapittel 5 om forsinkelse gjelder likevel ved forsinket oppstart av levering av elektrisk energi.
+>
+
 ### 2023-06-16 — lov/2023-06-16-60
 
 *§ 2 skal lyde:*
@@ -159,6 +198,21 @@ refid: "lov/2002-06-21-34"
 > Loven gjelder ikke forkjøp av fast eiendomavtale om oppføring av bygning eller annet anlegg på fast eiendomavtale med en kraftleverandør om levering av elektrisk energi.Kapittel 5om forsinkelse gjelder likevel ved forsinket oppstart av levering av elektrisk energiavtale som pålegger den part som skal levere tingen, også å utføre et arbeid eller annen tjeneste, dersom dette utgjør den overveiende del av hans eller hennes forpliktelseravtale om levering av digitale ytelser som ikke er omfattet av første ledd bokstav ekjøp av fysiske medier som etter avtalen utelukkende brukes som bærere av digitalt innhold. §§ 6, 7 og 23 gjelder likevel for levering og forbrukerens krav ved forsinket levering av slike fysiske medier.
 >
 > Med digitale ytelser menes ytelser som nevnt i digitalytelsesloven § 1 annet ledd.
+>
+
+## § 23
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*§ 23 skal lyde:*
+
+> § 23.Heving
+>
+> Har selgeren ikke levert tingen i tide i samsvar med § 6, skal forbrukeren oppfordre selgeren til å levere innen en rimelig tilleggsfrist for oppfyllelse. Dersom selgeren ikke leverer innen denne tilleggsfristen, kan forbrukeren heve avtalen.
+>
+> Første ledd gjelder ikke hvis selgeren har nektet å levere varene, hvis levering innen avtalt tid er avgjørende for inngåelsen av avtalen, eller hvis forbrukeren før inngåelsen av avtalen har underrettet selgeren om at levering innen eller på et bestemt tidspunkt er avgjørende. Har selgeren i slike tilfeller ikke levert i tide i samsvar med § 6, kan forbrukeren umiddelbart heve avtalen.
+>
+> Er tingen levert, må kravet om heving gjøres gjeldende innen rimelig tid etter at forbrukeren fikk vite om leveringen.
 >
 
 ## § 26
@@ -343,6 +397,15 @@ refid: "lov/2002-06-21-34"
 
 *§ 58 oppheves.*
 
+## § 6
+
+### 2014-06-20 — lov/2014-06-20-27
+
+*§ 6 første ledd skal lyde:*
+
+> Tingen skal leveres uten unødig opphold og senest innen 30 dager etter kjøpet, hvis ikke noe annet er avtalt.
+>
+
 ## § 61 a
 
 ### 2006-06-30 — lov/2006-06-30-46
@@ -361,6 +424,10 @@ refid: "lov/2002-06-21-34"
 >
 > Nettselskaper og kraftleverandører som er tilknyttet nemnda, plikter å opplyse skriftlig om adgangen til nemndsbehandling ved utsending av faktura.
 >
+
+### 2016-06-17 — lov/2016-06-17-29
+
+*§ 61 a oppheves.*
 
 ## § 7
 

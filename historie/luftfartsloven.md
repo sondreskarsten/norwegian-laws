@@ -34,6 +34,13 @@ refid: "lov/1993-06-11-101"
 > Med hensyn til straffebestemmelsenes anvendelse på handlinger foretatt utenfor norsk område gjelder reglene i straffeloven §§ 5-8, jf. nærværende lovs § 15-2 annet ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 1-2 fjerde ledd skal lyde:*
+
+> Med hensyn til straffebestemmelsenes anvendelse på handlinger foretatt utenfor norsk område gjelder reglene i straffeloven §§ 5 til 8, jf. nærværende lovs § 15-2 annet ledd.
+>
+
 ## § 1-3
 
 ### 2024-06-25 — lov/2024-06-25-70
@@ -356,6 +363,13 @@ refid: "lov/1993-06-11-101"
 *§ 5-6 annet ledd skal lyde:*
 
 > Sertifikatet skal tilbakekalles for minst ett år dersom innehaveren blir ilagt straff for å ha gjort tjeneste ombord påvirket av alkohol eller annet berusende eller bedøvende middel. Det samme gjelder ved overtredelse av bestemmelsen i § 6-12 tredje ledd. Er han tidligere i de siste fem år ilagt straff for én av de nevnte overtredelser, skal sertifikatet tilbakekalles for alltid.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5-6 første ledd skal lyde:*
+
+> Luftfartsmyndigheten kan tilbakekalle norsk sertifikat for bestemt tid, inntil videre eller for resten av gyldighetstiden, dersom innehaveren i eller utenfor tjeneste gjør seg skyldig i lovbrudd av betydning for denne eller om han ellers ikke fyller vilkårene for å gjøre den tjeneste sertifikatet gjelder.
 >
 
 ### 2024-06-25 — lov/2024-06-25-70
@@ -1549,8 +1563,6 @@ refid: "lov/1993-06-11-101"
 
 > Reglene i første og andre ledd får anvendelse i den grad de ikke kommer i konflikt med lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse, tvisteloven sjuende del og Overenskomst om innføring av visse ensartede regler om arrest i luftfartøyer av 29. mai 1933.
 >
-> 104. Lov 25. mars 1994 nr. 6 om granskingskommisjon for gransking av påstander om ulovlig overvåking av norske borgere oppheves.
->
 
 ## § 13-4
 
@@ -1763,6 +1775,20 @@ refid: "lov/1993-06-11-101"
 > Første ledd gjelder tilsvarende for den som overtrer forskrift gitt i medhold av § 4-11 eller § 7-4 a.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 14-12 første ledd første punktum skal lyde:*
+
+> Den som gjør tjeneste ombord i strid med bestemmelsene i § 6-11 eller § 6-12, straffes med bøter eller med fengsel inntil 2 år.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 14-12 første ledd nytt tredje punktum skal lyde:*
+
+> Medvirkning straffes ikke.
+>
+
 ## § 14-13
 
 ### 2001-07-01 — lov/2001-05-04-18
@@ -1791,6 +1817,10 @@ refid: "lov/1993-06-11-101"
 ## § 14-22
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 14-22 annet punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 14-22 annet punktum oppheves.*
 
@@ -1847,6 +1877,10 @@ refid: "lov/1993-06-11-101"
 > Det samme gjelder den som i strid med reglene i § 12-14 fjerner eller rører luftfartøy, vrakrester eller annet etter en luftfartsulykke.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 14-25 annet ledd oppheves.*
+
 ## § 14-26
 
 ### 2012-08-10 — lov/2012-08-10-63
@@ -1890,6 +1924,10 @@ refid: "lov/1993-06-11-101"
 ## § 14-32
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 14-32 oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 14-32 oppheves.*
 
@@ -1953,6 +1991,13 @@ refid: "lov/1993-06-11-101"
 ## § 15-2
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 15-2 annet ledd skal lyde:*
+
+> For så vidt angår overtredelser av vedkommende bestemmelser, regnes et slikt fartøy som norsk etter straffelovens § 4.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 15-2 annet ledd skal lyde:*
 
@@ -2062,6 +2107,15 @@ refid: "lov/1993-06-11-101"
 > Forskriftsfullmakt – EØS-avtalen
 >
 
+### 2002-12-13 — lov/2002-12-13-85
+
+*4. I lov 11. juni 1993 nr. 101 om luftfart (luftfartsloven) skal § 13-2 første og annet ledd lyde:*
+
+> Er avgifter som påløper i forbindelse med et luftfartøys benyttelse av norsk landingsplass til allmenn bruk, eller andre luftfartsanlegg eller tjenester som er stilt til rådighet for eier eller bruker av luftfartøy, ikke blitt betalt til fastsatt tid eller tilstrekkelig sikkerhet stilt, kan innehaveren eller luftfartsmyndigheten hindre fartøyet i å forlate plassen eller holde tilbake et annet fartøy med samme eier eller bruker.
+>
+> Luftfartsmyndigheten kan i tillegg;nekte eier eller bruker adgang til norsk landingsplass,nekte eier eller bruker adgang til norsk luftrom,inntil avgiften er betalt eller tilstrekkelig sikkerhet stilt.
+>
+
 ### 2003-06-20 — lov/2003-06-20-52
 
 *Nåværende første ledd i § 13-8 blir nytt annet ledd.*
@@ -2114,6 +2168,13 @@ refid: "lov/1993-06-11-101"
 ### 2007-06-29 — lov/2007-06-29-95
 
 *§§ 3-1a og 3-2a oppheves.*
+
+### 2011-04-01 — forskrift/2011-03-28-322
+
+*Cape Town-konvensjonen og protokollen trer i kraft for Norge 1. april 2011. Dermed trer også lov 12. november 2010 nr. 58 om internasjonale sikkerhetsretter i mobilt løsøre i kraft fra samme dato, jf. ikrafttredelsesbestemmelsen i lovens § 2, samt kgl.res. 12. november 2010 nr. 1421.*
+
+> Cape Town-konvensjonen og protokollen trer i kraft for Norge 1. april 2011. Dermed trer også lov 12. november 2010 nr. 58 om internasjonale sikkerhetsretter i mobilt løsøre i kraft fra samme dato, jf. ikrafttredelsesbestemmelsen i lovens § 2, samt kgl.res. 12. november 2010 nr. 1421.
+>
 
 ### 2012-08-10 — lov/2012-08-10-63
 
@@ -2453,6 +2514,29 @@ refid: "lov/1993-06-11-101"
 > Loven gjelder fra 1. juli 2017.
 >
 
+### 2017-11-01 — forskrift/2017-09-15-1420
+
+*Lov 16. desember 2016 nr. 92 om undersøkelser av ulykker og hendelser i Forsvaret (forsvarsundersøkelsesloven) trer i kraft fra 1. november 2017.*
+
+> Lov 16. desember 2016 nr. 92 om undersøkelser av ulykker og hendelser i Forsvaret (forsvarsundersøkelsesloven) trer i kraft fra 1. november 2017.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
 ### 2020-05-29 — lov/2020-05-29-60
 
 *I lov 11. juni 1993 nr. 101 om luftfart skal § 7-24 annet ledd lyde:*
@@ -2465,6 +2549,13 @@ refid: "lov/1993-06-11-101"
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
 >
 
 ### 2024-06-25 — lov/2024-06-25-70
@@ -2493,6 +2584,28 @@ refid: "lov/1993-06-11-101"
 *Loven trer i kraft 1. juli 2024.*
 
 > Loven trer i kraft 1. juli 2024.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ## § 13

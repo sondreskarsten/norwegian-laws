@@ -38,6 +38,13 @@ refid: "lov/2006-06-16-20"
 > Departementet kan gi forskrift om rammene for slike bestemmelser, herunder om at en kommunalt ansatt leder skal ha rett til å utøve samme myndighet som en statlig leder ville hatt i saker om ansettelse, oppsigelse, suspensjon, avskjed og ileggelse av ordensstraff.
 >
 
+### 2010-01-01 — forskrift/2009-12-18-1584
+
+*Loven trer i kraft 1. januar 2010.*
+
+> Loven trer i kraft 1. januar 2010.
+>
+
 ### 2010-02-01 — forskrift/2010-01-29-64
 
 *Delvis ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). § 14a i arbeids- og velferdsforvaltningsloven skal tre i kraft fra 1. februar 2010.*
@@ -50,6 +57,36 @@ refid: "lov/2006-06-16-20"
 *I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal § 14 a tredje ledd lyde:*
 
 > Brukere som har fått fastslått at de har et bistandsbehov, har rett til å delta i utarbeidelsen av en konkret plan for hvordan de skal komme i arbeid (aktivitetsplan). Det skal likevel ikke utarbeides aktivitetsplaner for personer som har rett til kvalifiseringsprogram etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen § 29.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2156
+
+*Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.*
+
+> Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
 >
 
 ### 2019-01-01 — lov/2018-12-20-98
@@ -69,6 +106,27 @@ refid: "lov/2006-06-16-20"
 > Departementet kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke typer personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, registerføring og tilgang til registre.
 >
 
+### 2021-01-01 — forskrift/2020-11-06-2247
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal § 4 andre ledd andre punktum lyde:*
@@ -80,6 +138,55 @@ refid: "lov/2006-06-16-20"
 
 *Nåværende andre punktum blir nytt tredje punktum.*
 
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+## § 1
+
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 1 første punktum skal lyde:*
+
+> Formålet med loven er å legge til rette for en effektiv arbeids- og velferdsforvaltning, tilpasset den enkeltes og arbeidslivets behov og basert på en helhetlig og samordnet anvendelse av arbeidsmarkedsloven, folketrygdloven, lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen og andre lover som forvaltes av arbeids- og velferdsforvaltningen.
+>
+
+## § 10
+
+### 2011-12-16 — lov/2011-12-16-65
+
+*§ 10 skal lyde:*
+
+> § 10.Beredskap i Arbeids- og velferdsetaten
+>
+> Arbeids- og velferdsdirektoratet har ansvar for at det utarbeides beredskapsplaner for å sikre opprettholdelse av virksomheten i etaten ved krise i fred eller krig. Planene skal inneholde krav til driftssikkerhet for rekrutteringsbistand og behandling av krav om ytelser og utbetaling. Direktoratet skal påse at det foreligger rutiner for lagring av materiell og utstyr, og rutiner for øvelser og opplæring av personell. Avtaler med leverandører av varer og tjenester til Arbeids- og velferdsetaten skal inneholde krav til leveringsdyktighet og informasjonssikkerhet ved slike situasjoner.
+>
+> Arbeids- og velferdsetaten skal bistå med å håndtere endringer i arbeidskraftbehovet for prioriterte virksomheter ved kriser i fred eller krig. Dette omfatter blant annet formidling av registrerte arbeidsledige og frivillige som melder seg til etaten. Arbeids- og velferdsdirektoratet kan gjennomføre beredskapsplanlegging i samarbeid med bemanningsforetak og andre utleiere av arbeidskraft. Departementet kan i forskrift gi nærmere bestemmelser om prioritet og formidling av arbeidskraft.
+>
+
+## § 11
+
+### 2011-12-16 — lov/2011-12-16-65
+
+*§ 11 annet ledd annet punktum skal lyde:*
+
+> Med samtykke fra Arbeidsdepartementet kan Helse- og omsorgsdepartementet pålegge ansatte i etaten tjeneste i helse- og sosialetaten etter lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 4-1.
+>
+
 ## § 13
 
 ### 2007-10-26 — lov/2007-10-26-97
@@ -87,6 +194,13 @@ refid: "lov/2006-06-16-20"
 *§ 13 annet ledd skal lyde:*
 
 > Kontoret skal ivareta oppgaver for etaten og kommunens oppgaver etter sosialtjenesteloven kapittel 5 og 5A. Etaten og kommunen kan avtale at også andre av kommunens tjenester skal inngå i kontoret.
+>
+
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 13 andre ledd første punktum skal lyde:*
+
+> Kontoret skal ivareta oppgaver for etaten og kommunens oppgaver etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen.
 >
 
 ## § 14 a
@@ -134,6 +248,13 @@ refid: "lov/2006-06-16-20"
 
 ## § 16
 
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 16 første ledd skal lyde:*
+
+> Taushetsplikt etter denne loven eller etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen er ikke til hinder for at opplysninger er tilgjengelig for andre ansatte innen kontoret i den utstrekning som trengs for en hensiktsmessig arbeids- og arkivordning, blant annet til bruk ved veiledning i andre saker.
+>
+
 ### 2014-12-19 — lov/2014-12-19-74
 
 *§ 16 overskrifta skal lyde:*
@@ -147,6 +268,12 @@ refid: "lov/2006-06-16-20"
 
 > Taushetsplikten er heller ikke til hinder for at sentrale opplysninger om individuelle kommunale stønadssaker er tilgjengelige for ansatte ved Arbeids- og velferdsetatens kontaktsentertjeneste.
 >
+
+## § 18
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 18 annet ledd annet punktum oppheves.*
 
 ## § 7
 

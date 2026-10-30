@@ -5,6 +5,26 @@ refid: "lov/1976-12-17-91"
 
 # Endringshistorikk: Økonomiske soneloven – øksonl
 
+## (annet)
+
+### 2003-06-27 — lov/2003-06-27-57
+
+*Følgende oppheves:Kongelig resolusjon av 22. februar 1812, gjengitt i Cancelli-Promemoria av 25. februar 1812.*
+
+### 2014-01-01 — forskrift/2013-05-31-540
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-747
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
 ## § 1
 
 ### 2006-06-30 — lov/2006-06-30-60
@@ -23,29 +43,7 @@ refid: "lov/1976-12-17-91"
 > Opprettelse av den økonomiske sone endrer ikke innholdet i eller anvendelsesområdet for lov 21. juni 1963 nr. 12 om vitenskapelig utforskning og undersøkelse etter og utnyttelse av andre undersjøiske naturforekomster enn petroleumsforekomster og lov 29. november 1996 nr. 72 om petroleumsvirksomhet eller forskrifter gitt i medhold av disse lover.
 >
 
-## § 27
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 27 tredje og fjerde punktum oppheves.*
-
-> 101. I lov 21. desember 1979 nr. 77 om jordskifte o.a. skal § 95 nytt tredje punktum lyde:
->
-> Medverknad blir ikkje straffa.
->
-> 102. I lov 6. juni 1980 nr. 18 om gjennomføring av sanksjoner mot Iran skal § 2 lyde:
->
-> Ved overtredelse av bestemmelser gitt i medhold av denne lov gjelder §§ 2 og 3 i lov av 7. juni 1968 nr. 4 om gjennomføring av bindende vedtak av De Forente Nasjoners Sikkerhetsråd tilsvarende.
->
-
 ## § 3
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 3 siste ledd oppheves.*
-
-> 100. I lov 9. juni 1978 nr. 50 om kulturminner gjøres følgende endring:
->
 
 ### 2013-05-31 — lov/2013-05-31-24
 
@@ -122,6 +120,13 @@ refid: "lov/1976-12-17-91"
 > Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov, straffes med bøter.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 8 første ledd skal lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov, straffes med bøter.
+>
+
 ## § 9
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -130,13 +135,10 @@ refid: "lov/1976-12-17-91"
 
 > Bestemmelsene i straffelovens § 74 får tilsvarende anvendelse.
 >
-> 97. I lov 3. juni 1977 nr. 57 om sterilisering skal § 11 tredje ledd lyde:
->
-> Overtredelse av taushetsplikten straffes etter straffelovens § 209 selv om vedkommende ikke er offentlig tjenestemann.
->
-> 98. I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag skal § 12 første ledd lyde:
->
-> Den som forsettlig eller uaktsomt overtrer denne lov eller forskrifter, regler eller vilkår fastsatt i medhold av loven, straffes med bøter.
->
-> 99. I lov 9. juni 1978 nr. 45 om likestilling mellom kjønnene gjøres følgende endring:
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 9 fjerde punktum skal lyde:*
+
+> Bestemmelsene i straffelovens § 74 får tilsvarende anvendelse.
 >

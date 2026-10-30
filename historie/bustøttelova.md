@@ -32,9 +32,26 @@ refid: "lov/2012-08-24-64"
 > Personar som av helse- eller sosialfaglege årsaker bur i eit bufellesskap utan å høyre til same husstand, kan få bustøtte på individuelt grunnlag dersom kommunen godkjenner at bustaden er eigna. Kommunen kan i vurderinga av om bustaden er eigna gjere unntak frå kvalitetskravet i første ledd bokstav b. Kommunen kan også gjere unntak frå krava i bokstav c dersom funksjonane som er nemnde der, er del av bufellesskapet elles.
 >
 
+### 2016-11-01 — forskrift/2016-10-21-1227
+
+*Loven trer i kraft 1. november 2016.*
+
+> Loven trer i kraft 1. november 2016.
+>
+
 ### 2017-04-28 — lov/2017-04-28-21
 
-*I lov 24. august 2012 nr. 64 om bustøtte skal § 10 første ledd bokstav d lyde:husstanden i perioden det er motteke bustøtte for, har hatt inntekt eller formue som i ettertid syner seg å overskride den inntekta eller formuen som var lagd til grunn då støtta blei fastsett. Det gjeld utan omsyn til kven som er skuld i at det er betalt ut for mykje. For mykje utbetalt støtte kan også motreknast i seinare utbetalingar av bustøtte.*
+*I lov 24. august 2012 nr. 64 om bustøtte skal § 10 første ledd bokstav d lyde:*
+
+> husstanden i perioden det er motteke bustøtte for, har hatt inntekt eller formue som i ettertid syner seg å overskride den inntekta eller formuen som var lagd til grunn då støtta blei fastsett. Det gjeld utan omsyn til kven som er skuld i at det er betalt ut for mykje. For mykje utbetalt støtte kan også motreknast i seinare utbetalingar av bustøtte.
+>
+
+### 2017-06-01 — forskrift/2017-04-28-504
+
+*Loven trer i kraft 1. juni 2017.*
+
+> Loven trer i kraft 1. juni 2017.
+>
 
 ### 2017-06-16 — lov/2017-06-16-66
 
@@ -46,6 +63,51 @@ refid: "lov/2012-08-24-64"
 ### 2017-06-16 — lov/2017-06-16-66
 
 *Nåværende §§ 14 og 15 blir nye §§ 16 og 17 og skal inngå i kapittel III.*
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2020-01-01 — forskrift/2017-06-16-758
+
+*Delt ikraftsetting av loven. Del III om endringer i lov 24. august 2012 nr. 65*
+
+> Delt ikraftsetting av loven. Del III om endringer i lov 24. august 2012 nr. 65
+>
+> om bustøtte trer i kraft fra 1. januar 2020.
+>
+> Skal være lov 24. august 2012 nr. 64. Lovtidend-redaksjonens anm.
+>
+
+### 2021-01-01 — forskrift/2020-12-04-2591
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ### 2026-07-01 — forskrift/2026-06-19-1134
 
@@ -114,6 +176,13 @@ refid: "lov/2012-08-24-64"
 > § 8 andre ledd blir oppheva. Noverande tredje ledd blir andre ledd.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 8 første ledd fjerde punktum skal lyde:*
+
+> Informasjonsplikta i personvernforordninga artikkel 14 gjeld.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *§ 8 første ledd første punktum skal lyde:*
@@ -153,6 +222,13 @@ refid: "lov/2012-08-24-64"
 > Departementet kan i forskrift gje utfyllande reglar om gjennomføringa av masseinnhenting. Departementet kan også i forskrift gje reglar om at masseinnhentinga skal kunne omfatte andre opplysningar enn dei som er nemnde i tredje ledd, dersom opplysningane er av tilsvarande art og ikkje fører til vesentlege personvernkrenkingar. Det kan også fastsetjast i forskrift kva register opplysningar kan hentast inn frå.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 8 a tredje ledd annet punktum skal lyde:*
+
+> Opplysningar som nemnt i personvernforordninga artikkel 9 og 10 kan ikkje masseinnhentast.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *§ 8 a andre ledd skal lyde:*
@@ -183,6 +259,13 @@ refid: "lov/2012-08-24-64"
 > Personopplysningsloven § 20 om informasjonsplikt gjeld.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 8 b syvende ledd skal lyde:*
+
+> Informasjonsplikta i personvernforordninga artikkel 14 gjeld.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *§ 8 b femte ledd første punktum skal lyde:*
@@ -201,6 +284,25 @@ refid: "lov/2012-08-24-64"
 > Kommunen, Husbanken eller særskilt utpeika einingar kan påleggje alle som kan ha informasjon som er eigna til å belyse saka, å gje opplysningar som er nødvendige for å avdekkje eller avgrense urettmessig utbetaling av bustøtte. Vilkåret er at det ligg føre ein rimeleg grunn til mistanke om at det er skjedd eller vil skje urettmessig utbetaling av bustøtte. Opplysningar kan krevjast også om andre enn mottakaren av bustøtte.
 >
 > Reglane om informasjonsplikt i personopplysningsloven § 20 gjeld for opplysningar som er henta inn etter paragrafen her, men den registrerte har først krav på informasjon når kontrollen er ferdig utført. Den som blir pålagd å gje opplysningar eller innsyn i dokument m.m. i medhald av paragrafen her, skal gjere det utan hinder av teieplikt. Helseopplysningar som ligg under teieplikt i helsepersonelloven, kan ikkje hentast inn etter denne føresegna. Den som blir pålagd å gje opplysningar eller innsyn i dokument, pliktar å gjere dette utan godtgjering. Reglane om bevisfritak i tvisteloven §§ 22-8 og 22-9 gjeld tilsvarande.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 8 c annet ledd første punktum skal lyde:*
+
+> Informasjonsplikta i personvernforordninga artikkel 14 gjeld for opplysningar som er henta inn etter paragrafen her, men den registrerte har først krav på informasjon når kontrollen er ferdig utført.
+>
+> 29.I lov 11. januar 2013 nr. 3 om Statens innkrevingssentral oppheves § 6 annet og tredje ledd.
+>
+> 30.I lov 7. mai 2004 nr. 21 om Riksrevisjonen skal § 17 annet ledd lyde:
+>
+> Riksrevisjonens behandling av personopplysninger i revisjons- og kontrollarbeidet er unntatt fra artiklene 15, 16, 17, 18 og 19 i personvernforordningen.
+>
+> 31.I lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond skal § 1-6 lyde:
+>
+> § 1-6.Behandling av personopplysninger i tilknytning til autorisasjonsordninger for ansatte
+>
+> Næringsorganisasjon eller tilknyttet juridisk enhet som gir opplæring til og autoriserer personer som er ansatt hos en forvalter for et alternativt investeringsfond med tillatelse etter § 2-2, eller som er registreringspliktig etter § 1-4, kan behandle slike opplysninger som nevnt i personvernforordningen artikkel 10 som ledd i vurderingen av om en ansatt skal gis autorisasjon, fratas autorisasjon eller gis advarsel.
 >
 
 ## § 8 d

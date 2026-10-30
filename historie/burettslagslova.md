@@ -14,6 +14,17 @@ refid: "lov/2003-06-06-39"
 > Eit aksjeselskap eller eit allmennaksjeselskap kan heller ikkje endre føremålet eller eigarstrukturen slik at selskapet blir eit bustadaksjeselskap.
 >
 
+## § 1-5
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 1-5 første og annet ledd skal lyde:*
+
+> (1) I vedtektene kan det ikkje setjast vilkår for å vere andelseigar som tek omsyn til kjønn, etnisitet, nasjonalt opphav, avstamming, hudfarge, språk, religion, livssyn eller nedsett funksjonsevne. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller brukar eller ha vekt ved bruk av forkjøpsrett. Ved slik diskriminering gjeld likestillingsloven, diskrimineringsloven og diskriminerings- og tilgjengelighetsloven.
+>
+> (2) I vedtektene kan det heller ikkje setjast vilkår for å vere andelseigar som tek omsyn til seksuell orientering. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller brukar eller ha vekt ved bruk av forkjøpsrett.
+>
+
 ## § 1-6
 
 ### 2021-03-26 — lov/2021-03-26-16
@@ -202,6 +213,13 @@ refid: "lov/2003-06-06-39"
 > Ein andelseigar kan med godkjenning frå styret gjennomføre tiltak på eigedomen som trengst på grunn av funksjonshemming hos ein brukar av bustaden.
 >
 
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 5-11 annet ledd skal lyde:*
+
+> (2) Ein andelseigar kan med godkjenning frå styret gjennomføre tiltak på eigedomen som trengst på grunn av nedsett funksjonsevne hos ein brukar av bustaden. Godkjenning kan ikkje nektast utan sakleg grunn.
+>
+
 ## § 5-11 a
 
 ### 2020-12-04 — lov/2020-12-04-137
@@ -336,6 +354,10 @@ refid: "lov/2003-06-06-39"
 >
 > (4) Krav på betaling etter denne føresegna frå andre enn stat, fylkeskommune eller kommune er tvangsgrunnlag for utlegg. Når Statens innkrevjingssentral er pålagt å krevje inn gebyr for Statens kartverk, kan krava drivast inn ved trekk i lønn og liknande ytingar etter reglane i dekningslova § 2-7. Innkrevjingssentralen kan også drive inn krava ved å stifte utleggspant for kravet dersom panteretten kan få rettsvern ved registrering i eit register eller ved ei melding til ein tredjeperson, jf. pantelova kapittel 5, og utleggsforretninga kan haldast på kontoret til innkrevjingssentralen etter tvangsfullbyrdingslova § 7-9 første ledd.
 >
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 6-16 fjerde ledd annet og tredje punktum oppheves.*
 
 ### 2020-12-04 — lov/2020-12-04-137
 
@@ -543,6 +565,23 @@ refid: "lov/2003-06-06-39"
 
 ## (annet)
 
+### 2005-06-10 — lov/2005-06-10-40
+
+*5. I lov 6. juni 2003 nr. 39 om burettslag skal § 1-5 lyde:*
+
+> Forbod mot diskriminering
+>
+> (1) I vedtektene kan det ikkje setjast vilkår for å vere andelseigar som tek omsyn til etnisitet, nasjonalt opphav, avstamming, hudfarge, språk, religion eller livssyn. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller brukar eller ha vekt ved bruk av forkjøpsrett. Ved slik diskriminering gjeld diskrimineringsloven.
+>
+> (2) I vedtektene kan det heller ikkje setjast vilkår for å vere andelseigar som tek omsyn til homofil orientering. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller brukar eller ha vekt ved bruk av forkjøpsrett.
+>
+> (3) Dersom det ligg føre omstende som gir grunn til å tru at det har funne stad diskriminering i strid med andre ledd, skal slik diskriminering leggjast til grunn som bevist, med mindre den som har utført handlinga gjer det sannsynleg at diskriminering likevel ikkje har funne stad.
+>
+> (4) Om skadebotansvar for ulovleg diskriminering etter andre ledd gjeld vanlege skadebotreglar.
+>
+> (5) Likestillings- og diskrimineringsombodet og Likestillings- og diskrimineringsnemnda skal føre tilsyn med og medverke til gjennomføring av andre ledd, jf. diskrimineringsombudsloven.
+>
+
 ### 2005-06-17 — lov/2005-06-17-94
 
 *Kapittel 14 nytt avsnitt V skal lyde:*
@@ -605,6 +644,37 @@ refid: "lov/2003-06-06-39"
 > Pengar skal plasserast som innskott i norsk bank eller i annan finansinstitusjon som har rett til å tilby slik teneste i Noreg.
 >
 
+### 2007-02-27 — lov/2007-01-26-3
+
+*132. I lov 6. juni 2003 nr. 39 om burettslag (burettslagslova) skal § 13-2 annet og tredje ledd lyde:*
+
+> (2) Orskurdar og vedtak som retten gjer etter lova her, kan ankast.
+>
+> (3) Ein anke etter andre ledd kan ikkje grunnast på at avgjerda er utenleg eller uheldig. Dette gjeld ikkje orskurd etter §§ 7-14 til 7-16.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*233. I lov 6. juni 2003 nr. 39 om burettslag (burettslagslova) skal § 13-1 annet ledd lyde:*
+
+> Brot på teieplikta kan straffast med bøter. Medverknad blir ikkje straffa.
+>
+
+### 2010-07-01 — forskrift/2010-06-25-944
+
+*Overføring av ansvaret for tinglysingen fra Justis- og politidepartementet til Miljøverndepartementet.*
+
+> Overføring av ansvaret for tinglysingen fra Justis- og politidepartementet til Miljøverndepartementet.
+>
+> Overføring av forskriftskompetansen etter lov 7. juni 1935 nr. 2 om tinglysing og forskriftskompetanse etter lov 6. juni 2003 nr. 39 om burettslag kapittel 6 knyttet til registrering av borettslagsboliger fra Justis- og politidepartementet og Kommunal- og regionaldepartementet til Miljøverndepartementet.
+>
+> Delegering til Miljøverndepartementet til å foreta de endringer i forskrifter, avtaler, instrukser og bestemmelser som er nødvendige for overføringen.
+>
+> Overføring av forvaltningen av statens eierinteresser i Norsk Eiendomsinformasjon as fra Justis- og politidepartementet til Nærings- og handelsdepartementet.
+>
+> Overføringene skjer med virkning fra 1. juli 2010.
+>
+
 ### 2010-09-03 — lov/2010-09-03-54
 
 *Nåværende fjerde ledd blir nytt femte ledd og skal lyde:*
@@ -656,6 +726,74 @@ refid: "lov/2003-06-06-39"
 > Berre sikring etter §§ 5-26 til 5-29 kan marknadsførast som sikring mot tap av felleskostnader ved sal av andelar i burettslag. Andre ordningar kan heller ikkje marknadsførast på ein måte som gjer at dei kan forvekslast med å vere sikring etter §§ 5-26 til 5-29.
 >
 
+### 2011-01-01 — forskrift/2010-09-03-1238
+
+*Loven trer i kraft fra 1. januar 2011.*
+
+> Loven trer i kraft fra 1. januar 2011.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*4. I lov 6. juni 2003 nr. 39 om burettslag skal § 1-5 lyde:*
+
+> § 1-5.Forbod mot diskriminering
+>
+> I vedtektene kan det ikkje setjast vilkår for å vere andelseigar som tek omsyn til kjønn, etnisitet, religion, livssyn, nedsett funksjonsevne, seksuell orientering, kjønnsidentitet eller kjønnsuttrykk. Slike omstende kan ikkje reknast som sakleg grunn til å nekte godkjenning av ein andelseigar eller brukar eller ha vekt ved bruk av forkjøpsrett. Ved diskriminering gjeld likestillingsloven, diskrimineringsloven om etnisitet, diskriminerings- og tilgjengelighetsloven og diskrimineringsloven om seksuell orientering.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
+### 2014-01-01 — forskrift/2013-06-21-707
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2017-04-18 — forskrift/2017-03-31-414
+
+*Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.*
+
+> Lov om endringer i tinglysingsloven, inkassoloven og tvangsfullbyrdelsesloven mv. (teknologinøytralitet) gjelder fra 18. april 2017, med det unntak at endringene i tinglysingsloven ikke gjelder for tinglysing i Akvakulturregisteret.
+>
+> Lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing) gjelder fra 18. april 2017, med følgende unntak:
+>
+> endringene i tinglysingsloven gjelder ikke for tinglysing i Akvakulturregisteret.
+>
+> endringene i tinglysingsloven § 7 første ledd første og annet punktum gjelder ikke for tinglysing i Løsøreregisteret.
+>
+> Frem til tinglysingsloven § 7 første ledd første og annet punktum som endret ved lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. trer i kraft for tinglysing i Løsøreregisteret, skal et dokument som kreves tinglyst i Løsøreregisteret, registreres snarest mulig. Dokument som kommer inn til kontoret elektronisk eller på papir innen klokken 14.00, skal anses som registrert den dato det er kommet inn. Kommer det senere, skal det anses som registrert den neste kontordagen. Er kontortiden enkelte dager slutt før kl. 14.00, opphører adgangen til innføring i registeret ved kontortidens slutt.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-751
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
 ### 2019-12-13 — lov/2019-12-13-79
 
 *I lov 6. juni 2003 nr. 39 om burettslag skal § 5-28 lyde:*
@@ -665,13 +803,57 @@ refid: "lov/2003-06-06-39"
 > Departementet gir nærare forskrifter om krav til produktet, og kan i den samanhengen gi føresegner som vik frå forsikringsvirksomhetsloven og finansforetaksloven.
 >
 
+### 2020-01-01 — forskrift/2019-04-10-474
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *Kapittel 14 del IV og V blir oppheva.*
 
+### 2021-01-01 — forskrift/2020-12-04-2591
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-04-01 — forskrift/2021-03-26-966
+
+*Loven trer i kraft 1. april 2021.*
+
+> Loven trer i kraft 1. april 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
 ### 2025-12-19 — lov/2025-12-19-114
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2026-01-01 — forskrift/2025-12-19-2708
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
 
 ### 2026-06-19 — lov/2026-06-19-48
 

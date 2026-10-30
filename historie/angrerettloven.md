@@ -14,6 +14,58 @@ refid: "lov/2014-06-20-27"
 > Loven trer i kraft 20. juni 2014.
 >
 
+### 2018-01-01 — forskrift/2017-06-16-772
+
+*Lovendringene trer i kraft 1. januar 2018.*
+
+> Lovendringene trer i kraft 1. januar 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-885
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Nåværende bokstav f og g blir ny bokstav g og h. Ny bokstav h skal lyde:*
+
+> avtaler om salg av varer og andre tjenester enn forsikringstjenester utenom faste forretningslokaler når den samlede kontraktssummen, inkludert frakt- og tilleggskostnader som forbrukeren skal betale, er 300 kr eller mindre.
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Kapittel 2 overskriften skal lyde:*
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Kapittel 4 overskriften skal lyde:*
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Kapittel 5 overskriften skal lyde:*
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Kapittel 6 overskriften skal lyde:*
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Kapittel 7 overskriften skal lyde:*
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*Kapittel 8 overskriften skal lyde:*
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *Kapittel 2 overskriften skal lyde:*
@@ -46,6 +98,13 @@ refid: "lov/2014-06-20-27"
 
 *I nytt kapittel 8 blir nåværende §§ 43 og 44 nye §§ 30 og 31.*
 
+### 2022-07-01 — forskrift/2022-03-04-324
+
+*Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.
+>
+
 ### 2023-06-16 — lov/2023-06-16-38
 
 *I kapittel 2 skal ny § 9 a lyde:*
@@ -57,6 +116,13 @@ refid: "lov/2014-06-20-27"
 > Opplysningene etter første ledd bokstav a må gis i en særskilt del av det nettbaserte grensesnittet som er direkte og enkelt tilgjengelig fra siden der tilbudene presenteres.
 >
 > Departementet kan i forskrift stille krav om at tilbydere av nettbaserte markedsplasser må gi forbrukere ytterligere opplysninger.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
 >
 
 ### 2026-06-19 — lov/2026-06-19-34
@@ -121,6 +187,20 @@ refid: "lov/2014-06-20-27"
 
 ## § 2
 
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2 bokstav a skal lyde:*
+
+> avtaler om salg av varer og andre tjenester enn forsikringstjenester fra salgsautomater og automatiserte forretningslokaler,
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 2 bokstav f skal lyde:*
+
+> avtaler om tjenester som omfattes av finansavtaleloven,
+>
+
 ### 2022-02-18 — lov/2022-02-18-5
 
 *§ 2 bokstav a skal lyde:*
@@ -153,7 +233,11 @@ refid: "lov/2014-06-20-27"
 
 *§ 2 bokstav g til i skal lyde:*
 
-> avtaler om salg av varer og tjenester utenom faste forretningslokaler når den samlede kontraktssummen, inkludert frakt- og tilleggskostnader som forbrukeren skal betale, er 300 kr eller mindre,avtaler som er inngått med ekomtilbyder gjennom offentlig tilgjengelige betalingstelefoner for bruk av disse, eller som er inngått for bruk av én enkelt telefon-, Internett- eller telefaksforbindelse opprettet av en forbruker,avtaler om pengespill.
+> avtaler om salg av varer og tjenester utenom faste forretningslokaler når den samlede kontraktssummen, inkludert frakt- og tilleggskostnader som forbrukeren skal betale, er 300 kr eller mindre,
+>
+> avtaler som er inngått med ekomtilbyder gjennom offentlig tilgjengelige betalingstelefoner for bruk av disse, eller som er inngått for bruk av én enkelt telefon-, Internett- eller telefaksforbindelse opprettet av en forbruker,
+>
+> avtaler om pengespill.
 >
 
 ### 2026-06-19 — lov/2026-06-19-34
@@ -206,7 +290,15 @@ refid: "lov/2014-06-20-27"
 
 *§ 22 første ledd bokstav n skal lyde:*
 
-> levering av digitalt innhold som ikke leveres på et fysisk medium, dersom leveringen er begynt og følgende vilkår er oppfylt:avtalen forplikter forbrukeren til å betaleforbrukeren har uttrykkelig forhåndssamtykket til at levering begynner før angrefristen utløperforbrukeren har erkjent at angreretten dermed går tapt, ogden næringsdrivende har gitt bekreftelse etter angrerettloven § 11 eller § 18.
+> levering av digitalt innhold som ikke leveres på et fysisk medium, dersom leveringen er begynt og følgende vilkår er oppfylt: avtalen forplikter forbrukeren til å betale forbrukeren har uttrykkelig forhåndssamtykket til at levering begynner før angrefristen utløper forbrukeren har erkjent at angreretten dermed går tapt, og den næringsdrivende har gitt bekreftelse etter angrerettloven § 11 eller § 18.
+>
+> avtalen forplikter forbrukeren til å betale
+>
+> forbrukeren har uttrykkelig forhåndssamtykket til at levering begynner før angrefristen utløper
+>
+> forbrukeren har erkjent at angreretten dermed går tapt, og
+>
+> den næringsdrivende har gitt bekreftelse etter angrerettloven § 11 eller § 18.
 >
 
 ### 2023-06-16 — lov/2023-06-16-38
@@ -242,6 +334,40 @@ refid: "lov/2014-06-20-27"
 > Dersom angreretten brukes, kan den næringsdrivende ved avtaler om digitalt innhold eller digitale tjenester hindre forbrukeren fra å fortsette å bruke det digitale innholdet eller den digitale tjenesten så langt dette er forenlig med § 24 a annet ledd.
 >
 
+## § 28
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 28 paragrafoverskriften skal lyde:*
+
+> Opplysningsplikt før avtaleinngåelse ved fjernsalg av forsikringstjenester
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 28 første ledd innledningen skal lyde:*
+
+> I rimelig tid før det blir inngått en fjernsalgsavtale som gjelder forsikringstjenester skal den næringsdrivende gi forbrukeren opplysninger om:
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 28 første ledd bokstav c skal lyde:*
+
+> forsikringstjenestens viktigste egenskaper,
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 28 første ledd bokstav l skal lyde:*
+
+> avtalens korteste varighet for avtaler om løpende eller tilbakevendende forsikringstjenester,
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 28 annet ledd oppheves. Nåværende tredje til sjette ledd blir annet til femte ledd. I femte ledd oppheves tredje punktum.*
+
 ## § 29
 
 ### 2022-02-18 — lov/2022-02-18-5
@@ -261,6 +387,59 @@ refid: "lov/2014-06-20-27"
 >
 > Departementet kan ved forskrift gi nærmere regler om utmåling av overtredelsesgebyr.
 >
+
+## § 30
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 30 paragrafoverskriften skal lyde:*
+
+> Opplysninger og avtalevilkår på varig medium ved fjernsalg av forsikringstjenester
+>
+
+## § 31
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 31 paragrafoverskriften skal lyde:*
+
+> Rett for forbrukeren til ved fjernsalg av forsikringstjenester å få avtalevilkår på papir og til å bytte fjernkommunikasjonsmetode
+>
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 31 annet ledd skal lyde:*
+
+> Forbrukeren har rett til å bytte til en annen fjernkommunikasjonsmetode, med mindre dette er i strid med avtalen eller den typen forsikringstjeneste som ytes.
+>
+
+## § 32
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 32 skal lyde:*
+
+> § 32.Opplysninger på varig medium ved salg av forsikringstjenester utenom faste forretningslokaler
+>
+> I forbindelse med inngåelse av en avtale om forsikringstjenester utenom faste forretningslokaler, skal den næringsdrivende gi forbrukeren opplysninger som nevnt i § 28 første ledd bokstav j og k skriftlig på et varig medium som forbrukeren råder over.
+>
+
+## § 37
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 37 første og annet ledd skal lyde:*
+
+> Hvis det til en forsikringstjeneste er knyttet en annen fjernsalgsavtale om tjenester som skal leveres av den næringsdrivende, oppheves den andre avtalen uten at det kan kreves vederlag for opphevelsen dersom forbrukeren bruker angreretten etter § 34.
+>
+> Første ledd gjelder tilsvarende når den tilknyttede tjenesten ytes av en annen enn den som yter forsikringstjenesten på grunnlag av avtale mellom dem. Den som yter forsikringstjenesten, skal i så fall gi melding til den andre næringsdrivende umiddelbart etter at melding om bruk av angreretten er mottatt fra forbrukeren.
+>
+
+## § 40
+
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 40 oppheves.*
 
 ## § 41
 
@@ -304,11 +483,27 @@ refid: "lov/2014-06-20-27"
 
 ## § 5
 
+### 2020-12-18 — lov/2020-12-18-146
+
+*§ 5 bokstav e oppheves. Nåværende bokstav f til i blir ny bokstav e til h.*
+
 ### 2023-06-16 — lov/2023-06-16-38
 
 *§ 5 bokstav i og nye bokstaver j til o skal lyde:*
 
-> digitalt innhold: data som fremstilles og leveres i digital form, ved at de gjengir fysiske størrelser med diskrete tegn,digital tjeneste: tjeneste som gjør det mulig for brukeren å frembringe, behandle, lagre eller få tilgang til data i digital form, eller tjenester som gjør det mulig å dele eller å samhandle på annen måte med slike data,nettbasert markedsplass: enhver tjeneste som bruker programvare, herunder et nettsted eller en applikasjon, som drives av eller på vegne av en næringsdrivende, og som gir forbrukere mulighet til å inngå fjernsalgsavtaler med andre næringsdrivende eller forbrukere,tilbyder av en nettbasert markedsplass: enhver næringsdrivende som stiller til rådighet en nettbasert markedsplass for forbrukerne,kompatibilitet: evnen digitalt innhold eller digitale tjenester har til å fungere sammen med maskinvare eller programvare som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med, uten at det digitale innholdet eller den digitale tjenesten må konverteres,funksjonalitet: evnen digitalt innhold eller digitale tjenester har til å fungere med hensyn til formålet,samvirkingsevne: evnen digitalt innhold eller digitale tjenester har til å fungere sammen med annen maskinvare eller programvare enn den som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med.
+> digitalt innhold : data som fremstilles og leveres i digital form, ved at de gjengir fysiske størrelser med diskrete tegn,
+>
+> digital tjeneste : tjeneste som gjør det mulig for brukeren å frembringe, behandle, lagre eller få tilgang til data i digital form, eller tjenester som gjør det mulig å dele eller å samhandle på annen måte med slike data,
+>
+> nettbasert markedsplass : enhver tjeneste som bruker programvare, herunder et nettsted eller en applikasjon, som drives av eller på vegne av en næringsdrivende, og som gir forbrukere mulighet til å inngå fjernsalgsavtaler med andre næringsdrivende eller forbrukere,
+>
+> tilbyder av en nettbasert markedsplass : enhver næringsdrivende som stiller til rådighet en nettbasert markedsplass for forbrukerne,
+>
+> kompatibilitet : evnen digitalt innhold eller digitale tjenester har til å fungere sammen med maskinvare eller programvare som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med, uten at det digitale innholdet eller den digitale tjenesten må konverteres,
+>
+> funksjonalitet : evnen digitalt innhold eller digitale tjenester har til å fungere med hensyn til formålet,
+>
+> samvirkingsevne : evnen digitalt innhold eller digitale tjenester har til å fungere sammen med annen maskinvare eller programvare enn den som digitalt innhold eller digitale tjenester av samme type vanligvis brukes sammen med.
 >
 
 ### 2026-06-19 — lov/2026-06-19-34
@@ -334,7 +529,11 @@ refid: "lov/2014-06-20-27"
 
 *§ 8 første ledd bokstav b til d skal lyde:*
 
-> der dette er relevant, funksjonaliteten, herunder relevante tekniske beskyttelsestiltak, for varer med digitale elementer, digitalt innhold og digitale tjenester,der dette er relevant, kompatibiliteten og samvirkingsevnen til varer med digitale elementer, digitalt innhold og digitale tjenester som den næringsdrivende kjenner til eller med rimelighet kan forventes å kjenne til,den næringsdrivendes identitet, slik som foretaksnavn, geografisk adresse og telefonnummer, e-postadresse og eventuelt nettbaserte kommunikasjonsmidler som gir forbrukeren mulighet til å lagre all skriftlig korrespondanse på et varig medium, samt identitet og geografisk adresse til næringsdrivende det opptres på vegne av og som forbrukeren kan rette eventuelle klager til,
+> der dette er relevant, funksjonaliteten, herunder relevante tekniske beskyttelsestiltak, for varer med digitale elementer, digitalt innhold og digitale tjenester,
+>
+> der dette er relevant, kompatibiliteten og samvirkingsevnen til varer med digitale elementer, digitalt innhold og digitale tjenester som den næringsdrivende kjenner til eller med rimelighet kan forventes å kjenne til,
+>
+> den næringsdrivendes identitet, slik som foretaksnavn, geografisk adresse og telefonnummer, e-postadresse og eventuelt nettbaserte kommunikasjonsmidler som gir forbrukeren mulighet til å lagre all skriftlig korrespondanse på et varig medium, samt identitet og geografisk adresse til næringsdrivende det opptres på vegne av og som forbrukeren kan rette eventuelle klager til,
 >
 
 ### 2023-06-16 — lov/2023-06-16-38
@@ -355,7 +554,11 @@ refid: "lov/2014-06-20-27"
 
 *§ 8 første ledd bokstav p og nye bokstaver q og r skal lyde:*
 
-> der dette er relevant, utenrettslig klage- og erstatningsordning som den næringsdrivende er tilknyttet, samt fremgangsmåten for å få tilgang til denne,der dette er relevant, at prisen er personlig tilpasset basert på automatiserte beslutninger,eventuell ettersalgsservice og eventuelle kommersielle garantier, samt vilkårene for disse.
+> der dette er relevant, utenrettslig klage- og erstatningsordning som den næringsdrivende er tilknyttet, samt fremgangsmåten for å få tilgang til denne,
+>
+> der dette er relevant, at prisen er personlig tilpasset basert på automatiserte beslutninger,
+>
+> eventuell ettersalgsservice og eventuelle kommersielle garantier, samt vilkårene for disse.
 >
 
 ### 2026-06-19 — lov/2026-06-19-34

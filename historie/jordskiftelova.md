@@ -204,6 +204,13 @@ refid: "lov/2013-06-21-100"
 
 ## (annet)
 
+### 2014-01-01 — forskrift/2013-12-13-1474
+
+*Lov 13. desember 2013 nr. 131 om endringer i rettsgebyrloven, kraftledningsregisterloven og tinglysingsloven trer i kraft 1. januar 2014.*
+
+> Lov 13. desember 2013 nr. 131 om endringer i rettsgebyrloven, kraftledningsregisterloven og tinglysingsloven trer i kraft 1. januar 2014.
+>
+
 ### 2016-01-01 — forskrift/2015-12-11-1445
 
 *Loven trer i kraft fra 1. januar 2016.*
@@ -211,9 +218,48 @@ refid: "lov/2013-06-21-100"
 > Loven trer i kraft fra 1. januar 2016.
 >
 
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *I lov 21. juni 2013 nr. 100 om fastsetjing og endring av eigedoms- og rettshøve på fast eigedom m.m. skal § 2-5 annet ledd fjerde punktum lyde:*
 
 > Meddommarar og skjønnsmedlemmer er ikkje fritekne for val til utvalet av jordskiftemeddommarar.
+>
+
+### 2018-01-01 — forskrift/2017-10-13-1613
+
+*Lov 16. juni 2017 nr. 58 om endringer i straffeprosessloven mv. (oppheving av juryordningen) trer i kraft 1. januar 2018.*
+
+> Lov 16. juni 2017 nr. 58 om endringer i straffeprosessloven mv. (oppheving av juryordningen) trer i kraft 1. januar 2018.
+>
+> Loven får ikke anvendelse i tilfeller der anke til lagmannsretten er fremsatt før 1. januar 2018, jf. straffeprosessloven § 312. Det samme gjelder saker som henvises til ny fullstendig behandling i lagmannsretten dersom gjenåpning er besluttet innen samme tidspunkt, jf. straffeprosessloven § 400. Loven kommer likevel til anvendelse dersom ankeforhandlingen påbegynnes etter 31. desember 2018.
+>
+
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1035
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2025-07-01 — forskrift/2025-06-06-946
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >

@@ -288,3 +288,37 @@ refid: "lov/2008-06-27-62"
 
 > (1) Pensjonskapitalbevis utstedt etter § 5-2 første ledd kan benyttes av kunden etter § 2-5 annet ledd. Har kunden fripolise utgått fra ytelsesbasert tjenestepensjonsordning etter foretakspensjonsloven, kan pensjonskapitalen som følger av pensjonskapitalbeviset benyttes som engangspremie til alderspensjon etter fripolisen, forutsatt at institusjonen som forvalter fripolisen samtykker.
 >
+
+## (annet)
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2017-11-01 — forskrift/2017-06-21-836
+
+*Delt ikraftsetting av lov om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Romertall V trer i kraft 1. november 2017.*
+
+> Delt ikraftsetting av lov om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Romertall V trer i kraft 1. november 2017.
+>
+> Lov om endring i lov 27. juni 2008 nr. 62 om individuell pensjonsordning trer i kraft fra 1. november 2017.
+>

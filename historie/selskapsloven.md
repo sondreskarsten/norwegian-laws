@@ -211,6 +211,15 @@ refid: "lov/1985-06-21-83"
 > (2) Foretaksregisteret skal samtidig med registrering kunngjøre beslutningen eller avgjørelsen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og varsle selskapets kreditorer om at de må melde seg til selskapet innen seks uker regnet fra kunngjøringen.
 >
 
+## § 3-2
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 3-2 første ledd skal lyde:*
+
+> Finansieringsforetak kan ikke uten samtykke av Kongen organiseres på annen måte enn som aksjeselskap, allmennaksjeselskap, selveiende institusjon (stiftelse) eller samvirkeforetak av låntakere. Som vilkår for tillatelsen kan Kongen stille krav til foretakets organisasjon.
+>
+
 ## § 3-4
 
 ### 2001-12-21 — lov/2001-12-21-117
@@ -218,6 +227,17 @@ refid: "lov/1985-06-21-83"
 *§ 3-4 fjerde ledd nytt annet punktum skal lyde:*
 
 > Første punktum er ikke til hinder for at andeler tegnes på et elektronisk dokument, forutsatt at det også tilbys tegning på fysisk dokument dersom en tegner krever det.
+>
+
+## § 3-10
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 3-10 første og andre ledd skal lyde:*
+
+> Foretaket skal ha et representantskap med minst tolv medlemmer. Kongen kan samtykke i at representantskapet skal ha et lavere antall medlemmer. Er foretaket organisert som aksjeselskap eller samvirkeforetak, kan Kongen samtykke i at foretaket ikke skal ha representantskap.
+>
+> Er foretaket organisert på annen måte enn som aksjeselskap, allmennaksjeselskap eller samvirkeforetak, utøver representantskapet den øverste myndighet i foretaket.
 >
 
 ## § 3-20
@@ -255,6 +275,36 @@ refid: "lov/1985-06-21-83"
 
 *Nåværende annet punktum blir nytt tredje punktum.*
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*89. I lov 21. juni 1985 nr. 83 om ansvarlige selskaper og komandittselskaper skal § 3-13 femte ledd lyde:*
+
+> Bestemmelse som nevnt i første ledds tredje punktum, annet ledds annet punktum og fjerde ledds annet alternativ, kan bare gjøres gjeldende overfor tredjemann når den er registrert i Foretaksregisteret, med mindre tredjemann kjente eller burde kjenne bestemmelsen.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*86. I lov 21. juni 1985 nr. 83 om ansvarlige selskaper og komandittselskaper skal § 2-41 annet ledd annet punktum lyde:*
+
+> Rettens avgjørelse treffes ved kjennelse som kan ankes.
+>
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*23. I lov 21. juni 1985 nr. 83 om ansvarlige selskaper og kommandittselskaper (selskapsloven) skal § 2-13 første ledd fjerde punktum lyde:*
+
+> Bare myndige personer kan være styremedlemmer.
+>
+> 24. I lov 10. juni 1988 nr. 40 om finansieringsvirksomhet og finansinstitusjoner blir det gjort følgjande endringar:
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
 ### 2014-06-20 — lov/2014-06-20-25
 
 *Nåværende tredje og fjerde ledd blir fjerde og femte ledd og skal lyde:*
@@ -271,6 +321,36 @@ refid: "lov/1985-06-21-83"
 > Loven gjelder ikke for partrederier etter sjøloven kapittel 5. Den gjelder heller ikke for samarbeidsavtaler knyttet til tillatelse gitt i medhold av lov 29. november 1996 nr. 72 om petroleumsvirksomhet § 4-3 og samarbeidsavtaler med hjemmel i lovens § 3-3 fjerde ledd og § 4-7, jf. § 4-3, og tilsvarende avtaler inngått før petroleumslovens ikrafttredelse eller samarbeidsavtaler knyttet til tillatelse gitt i medhold av havbunnsmineralloven §§ 3-1 og 4-1, jf. § 4-7.
 >
 
+### 2019-07-01 — forskrift/2019-03-22-264
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*3. I lov 21. juni 1985 nr. 83 om ansvarlige selskaper og kommandittselskaper skal § 2-13 nytt sjette ledd lyde:*
+
+> (6) Styret skal hvert år ha et møte med revisor uten at daglig leder eller andre fra den daglige ledelsen er til stede. Aksjeloven § 7-5 a gjelder tilsvarende.
+>
+
 ### 2021-05-28 — lov/2021-05-28-51
 
 *Nåværende andre ledd blir nytt fjerde ledd.*
+
+### 2021-06-01 — forskrift/2021-05-28-1667
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del *
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
+>
+
+## § 2
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 2 a-2 bokstav d nytt annet punktum skal lyde:*
+
+> Som finansinstitusjon og morselskap i finanskonsern regnes også samvirkeforetak av låntakere som etter endring av sine vedtekter ikke har adgang til å drive annen virksomhet enn å forvalte sine eierinteresser i konsernet, og som har overført virksomheten som kredittinstitusjon til foretak i konsernet.
+>

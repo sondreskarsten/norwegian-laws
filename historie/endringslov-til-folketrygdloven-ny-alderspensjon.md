@@ -101,6 +101,29 @@ refid: "lov/2009-06-05-32"
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
 
+### 2010-02-19 — lov/2010-02-19-5
+
+*«Någjeldende §§ 19-7 og 19-8 blir nye §§ 19-16 og 19-17.»*
+
+### 2010-02-19 — lov/2010-02-19-5
+
+*Någjeldende § 19-9 blir ny § 19-18 og skal lyde:*
+
+> § 19-18.
+>
+> Forholdet til avtalefestet pensjon tilstått før 1. januar 2011
+>
+> For personer født i 1942 og tidligere år som fram til fylte 67 år hadde avtalefestet pensjon med statstilskott, skal beregningsgrunnlaget for tilleggspensjon mellom fylte 67 og 70 år være det samme som i perioden med avtalefestet pensjon. Tilleggspensjonen kan også beregnes på grunnlag av en avdød ektefelles opptjening, se § 3-23.
+>
+> Fra måneden etter at pensjonisten fyller 70 år, ytes det alderspensjon også på grunnlag av pensjonspoeng som vedkommende har opptjent eller fått godskrevet i perioden med avtalefestet pensjon.
+>
+> Departementet gir forskrifter om beregningsgrunnlaget for tilleggspensjon for personer født i 1943 og senere år som ble tilstått avtalefestet pensjon med statstilskott med virkningstidspunkt før 1. januar 2011.
+>
+
+### 2010-02-19 — lov/2010-02-19-5
+
+*Någjeldende §§ 19-10 og 19-11 blir nye §§ 19-19 og 19-20.*
+
 ### 2010-06-04 — lov/2010-06-04-17
 
 *Setningen «§ 19-16 skal lyde:*
@@ -143,4 +166,7 @@ refid: "lov/2009-06-05-32"
 
 ### 2010-11-26 — lov/2010-11-26-59
 
-*I endringa av innhaldslista til kapittel 19 skal fjortande strekpunkt lyde:forholdet til avtalefestet pensjon tilstått før 1. januar 2011 står i § 19-18*
+*I endringa av innhaldslista til kapittel 19 skal fjortande strekpunkt lyde:*
+
+> forholdet til avtalefestet pensjon tilstått før 1. januar 2011 står i § 19-18
+>

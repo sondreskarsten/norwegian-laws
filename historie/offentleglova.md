@@ -21,11 +21,92 @@ refid: "lov/2006-05-19-16"
 > For dokument som er utarbeidde av eller til Riksrevisjonen i saker som han vurderer å leggje fram for Stortinget som ledd i den konstitusjonelle kontrollen, gjeld innsyn først når saka er motteken i Stortinget, eller når Riksrevisjonen har varsla vedkommande organ om at saka er ferdigbehandla, jf. lov 7. mai 2004 nr. 21 om Riksrevisjonen § 18 andre ledd. Innsyn kan utsetjast for dokument som er utarbeidde av eller til ein revisor for ein kommune eller fylkeskommune, i saker som revisoren skal rapportere til kontrollutvalet, jf. kommuneloven § 78 nr. 5, inntil kontrollutvalet har motteke ein endeleg versjon av dokumentet. Det same gjeld dokument som er utarbeidde av eller til den som utfører selskapskontroll, jf. kommuneloven § 77 nr. 5.
 >
 
+### 2015-01-01 — forskrift/2014-12-19-1731
+
+*Endringane i kommunelova § 39a og § 78 og offentleglova § 5 tek til å gjelde frå 1. januar 2015.*
+
+> Endringane i kommunelova § 39a og § 78 og offentleglova § 5 tek til å gjelde frå 1. januar 2015.
+>
+
 ### 2017-04-21 — lov/2017-04-21-18
 
 *I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd skal § 23 tredje ledd lyde:*
 
 > Det kan gjerast unntak frå innsyn for tilbod og protokoll etter regelverk som er gitt i medhald av anskaffelsesloven, til valet av leverandør er gjort.
+>
+
+### 2017-04-28 — forskrift/2017-04-28-502
+
+*Lov om endringar i offentleglova (gjennomføring av endringsdirektivet til vidarebruksdirektivet) trer i kraft straks.*
+
+> Lov om endringar i offentleglova (gjennomføring av endringsdirektivet til vidarebruksdirektivet) trer i kraft straks.
+>
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2021-01-01 — forskrift/2020-04-24-855
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2021, med unntak av § 6 annet ledd.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2021, med unntak av § 6 annet ledd.
+>
+
+### 2021-01-01 — forskrift/2020-06-19-1231
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-01-01 — forskrift/2020-11-10-2296
+
+*Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven trer i kraft 1. januar 2021, med unntak av kapittel 7 og 8.*
+
+> Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven trer i kraft 1. januar 2021, med unntak av kapittel 7 og 8.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-11 — lov/2021-06-11-76
@@ -39,11 +120,32 @@ refid: "lov/2006-05-19-16"
 
 *Nåværende § 5 tredje ledd blir nytt fjerde ledd.*
 
+### 2021-07-01 — forskrift/2021-06-11-1870
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-1967
+
+*Delt ikraftsetting av lov om endringer i personopplysningsloven og offentleglova (ytrings- og informasjonsfrihet mv.). Endringsloven del I, endringene i lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd § 26, trer i kraft 1. juli 2021. Endringsloven del II trer i kraft 1. ja*
+
+> Delt ikraftsetting av lov om endringer i personopplysningsloven og offentleglova (ytrings- og informasjonsfrihet mv.). Endringsloven del I, endringene i lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd § 26, trer i kraft 1. juli 2021. Endringsloven del II trer i kraft 1. januar 2022.
+>
+
 ### 2025-03-28 — lov/2025-03-28-5
 
 *2.I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd skal § 2 fjerde ledd fjerde punktum lyde:*
 
 > Lova gjeld ikkje for dokument som blir behandla av Etterretningstenesta etter etterretningstjenesteloven, eller for straffesaksdokument som blir lånte ut frå politiet til Statens kommisjon for partnardrap.
+>
+
+### 2025-04-01 — forskrift/2025-03-28-544
+
+*Loven trer i kraft 1. april 2025.*
+
+> Loven trer i kraft 1. april 2025.
 >
 
 ### 2026-07-01 — forskrift/2026-05-29-920
@@ -104,6 +206,10 @@ refid: "lov/2006-05-19-16"
 
 > Det kan gjerast unntak frå innsyn for skriftleg oppgåve over utrekna lønn eller liknande godtgjering, utrekningsgrunnlag for feriepengar og trekk som blir gjorde ved utbetalinga. Unntaket i første punktum omfattar ikkje opplysningar om bruttoutbetalingar. Innsyn i opplysningar om bruttoutbetalingar kan givast ved oppstilling av opplysningane i eit anna dokument.
 >
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 25 tredje ledd oppheves. Nåværende fjerde ledd blir tredje ledd.*
 
 ## § 26
 

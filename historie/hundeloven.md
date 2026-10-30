@@ -11,13 +11,38 @@ refid: "lov/2003-07-04-74"
 
 *§ 12-4 tredje ledd oppheves.*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 12-4 tredje ledd oppheves.*
+
 ## (annet)
+
+### 2011-09-01 — forskrift/2011-08-26-866
+
+*Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.*
+
+> Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.
+>
 
 ### 2014-03-28 — lov/2014-03-28-9
 
 *I lov 4. juli 2003 nr. 74 om hundehold skal § 9 tredje ledd lyde:*
 
 > En hund som nyttes som jakthund eller er under trening eller prøve for dette, kan slippes på en aktsom måte slik det er naturlig ut fra bruksformålet, når dette ikke er i strid med viltloven, naturmangfoldloven eller regler om båndtvang. Det samme gjelder for trening og prøving av ettersøkshunder.
+>
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2022-06-17 — lov/2022-06-17-69
@@ -310,6 +335,13 @@ refid: "lov/2003-07-04-74"
 
 *Kapittel 8 oppheves.*
 
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
 ## § 1
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -355,6 +387,13 @@ refid: "lov/2003-07-04-74"
 > vesentlig skade på person: skader som anses som legemsbeskadigelse etter straffeloven § 273.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 2 bokstav d skal lyde:*
+
+> vesentlig skade på person: skader som anses som kroppsskade etter straffeloven § 273.
+>
+
 ## § 20
 
 ### 2023-06-16 — lov/2023-06-16-66
@@ -373,6 +412,13 @@ refid: "lov/2003-07-04-74"
 > En person som dømmes til straff av fengsel for et lovbrudd som innbefatter bruk av vold eller truende atferd, kan ved dommen forbys å ha med hunder å gjøre. Forbud skal bli satt dersom en hund er brukt til lovbruddet.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 22 tredje ledd skal lyde:*
+
+> En person som dømmes til straff av fengsel for et lovbrudd som innbefatter bruk av vold eller truende atferd, kan ved dommen forbys å ha med hunder å gjøre. Forbud skal bli satt dersom en hund er brukt til lovbruddet.
+>
+
 ## § 25
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -380,6 +426,19 @@ refid: "lov/2003-07-04-74"
 *§ 25 tredje ledd annet punktum skal lyde:*
 
 > Den skal foregå etter reglene i lov om dyrevelferd.
+>
+
+## § 27
+
+### 2007-06-15 — lov/2007-06-15-40
+
+*§ 27 første ledd skal lyde:*
+
+> Om erstatningsansvar for skade voldt av hund gjelder det som følger av andre lovfestede og ulovfestede regler, bl.a. skadeserstatningsloven § 1-5 om ansvar for dyr og reindriftsloven § 66 om hunder.
+>
+> 7. I lov 17. juni 2005 nr. 101 om eigedomsregistrering § 52 nr. 9 skal endringen i lov 21. desember 1979 nr. 77 om jordskifte o.a. § 88 a lyde:
+>
+> Eigar eller innehavar av alltidvarande bruksrett kan krevje at jordskifteretten skal klarleggje og fastsette eigedoms- og bruksrettstilhøva i sameiger, i andre område der det er sambruk mellom eigedomar og i område i det samiske reinbeiteområdet der det går føre seg reindrift, når dette er nødvendig av omsyn til ein rasjonell bruk av området eller for registrering av uregistrert jordsameige.
 >
 
 ## § 28
@@ -391,6 +450,23 @@ refid: "lov/2003-07-04-74"
 > På samme måte straffes forsøk.
 >
 > 238. I lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon (ekomloven) gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 28 første ledd annet punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 28 annet ledd annet og fjerde punktum oppheves. Nåværende tredje punktum blir annet punktum.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 28 tredje ledd siste punktum skal lyde:*
+
+> På samme måte straffes forsøk.
+>
+> 199. I lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon gjøres følgende endring:
 >
 
 ## § 29
@@ -415,7 +491,23 @@ refid: "lov/2003-07-04-74"
 > Kommunen kan gi forskrift om at hunder ikke har adgang til barnehager, skolegårder eller gravplasser.
 >
 
+## § 7
+
+### 2007-06-15 — lov/2007-06-15-40
+
+*§ 7 annet ledd skal lyde:*
+
+> Om ferdsel med hund i område hvor tamrein beiter, gjelder også reindriftsloven § 65.
+>
+
 ## § 8
+
+### 2007-06-15 — lov/2007-06-15-40
+
+*§ 8 annet ledd skal lyde:*
+
+> For bruk av hund under jakt og fangst mv. gjelder også viltloven § 23, jf. § 26, og reindriftsloven § 65.
+>
 
 ### 2025-06-20 — lov/2025-06-20-102
 

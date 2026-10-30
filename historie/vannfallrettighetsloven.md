@@ -7,6 +7,15 @@ refid: "lov/1917-12-14-16"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*7. I lov 14. desember 1917 nr. 16 om erverv av vannfall, bergverk og annen fast eiendom m.v. skal § 4 første ledd andre og tredje punktum lyde:*
+
+> Det samme gjelder aksjeselskaper, allmennaksjeselskaper, andelslag og andre sammenslutninger hvor minst 2/3 av kapitalen og stemmene eies av foretak organisert etter lov om statsforetak, en eller flere kommuner eller fylkeskommuner, såfremt utbyggingen av vedkommende vannfall hovedsakelig skal utnyttes til alminnelig kraftforsyning. Staten har forkjøpsrett til aksjer eller parter etter denne bestemmelse dersom 2/3 av kapitalen og stemmene i aksjeselskaper, allmennaksjeselskaper, andelslag og andre sammenslutninger ikke lenger eies av en eller flere kommuner eller fylkeskommuner.
+>
+> 8. I lov 14. desember 1917 nr. 17 om vasdragsreguleringer blir desse endringane gjort:
+>
+
 ### 2004-06-25 — lov/2004-06-25-57
 
 *I lov 14. desember 1917 nr. 16 om erverv av vannfall, bergverk og annen fast eiendom m.v. skal § 2 fjerde ledd post 12 sjette ledd lyde:*
@@ -14,11 +23,45 @@ refid: "lov/1917-12-14-16"
 > Prisen på kraften fastsettes basert på gjennomsnittlig selvkost for et representativt antall vannkraftverk i hele landet. Skatter beregnet av kraftproduksjonens overskudd ut over normalavkastningen inngår ikke i selvkostberegningen. Departementet skal hvert år fastsette prisen på kraften levert kraftstasjonens apparatanlegg for utgående ledninger. Bestemmelsene i første og tredje punktum gjelder ikke for konsesjoner gitt etter bestemmelser gjeldende før lov av 10. april 1959 nr. 2 trådte i kraft.
 >
 
+### 2007-06-29 — lov/2007-06-29-81
+
+*3. I lov 14. desember 1917 nr. 16 om erverv av vannfall, bergverk og annen fast eiendom m.v. skal § 4 første ledd andre og tredje punktum lyde:*
+
+> Det samme gjelder aksjeselskaper, allmennaksjeselskaper, samvirkeforetak og andre sammenslutninger hvor minst 2/3 av kapitalen og stemmene eies av foretak organisert etter lov om statsforetak, en eller flere kommuner eller fylkeskommuner, såfremt utbyggingen av vedkommende vannfall hovedsakelig skal utnyttes til alminnelig kraftforsyning. Staten har forkjøpsrett til aksjer eller parter etter denne bestemmelse dersom 2/3 av kapitalen og stemmene i aksjeselskaper, allmennaksjeselskaper, samvirkeforetak og andre sammenslutninger ikke lenger eies av en eller flere kommuner eller fylkeskommuner.
+>
+> 4. I lov 14. desember 1917 nr. 17 om vassdragsreguleringer skal § 10 nr. 2 første ledd lyde:Når en regulering hovedsakelig skal utnyttes til alminnelig kraftforsyning og hensynet til andre almene interesser ikke taler mot det, kan reguleringskonsesjon gis på ubegrenset tid for vassdrag hvor vannkraften skal utnyttes av foretak organisert etter lov om statsforetak, en norsk kommune eller flere norske kommuner eller fylkeskommuner i fellesskap eller av aksjeselskaper, allmennaksjeselskaper, samvirkeforetak eller andre sammenslutninger hvor minst 2/3 av kapitalen og stemmene eies av foretak organisert etter lov om statsforetak, en eller flere kommuner eller fylkeskommuner.
+>
+
+### 2009-06-19 — lov/2009-06-19-101
+
+*§ 11, § 12, § 13, § 17, § 18, § 28, § 40 og § 41a oppheves.*
+
 ### 2010-07-01 — forskrift/2010-06-25-938
 
 *Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall I trer i kraft 1. juli 2010.*
 
 > Lov 19. juni 2009 nr. 106 om endringer i industrikonsesjonsloven, vassdragsreguleringsloven og vannressursloven (utleie av vannkraftproduksjon mv.) romertall I trer i kraft 1. juli 2010.
+>
+
+### 2012-03-16 — forskrift/2012-03-16-225
+
+*Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.*
+
+> Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-782
+
+*Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.*
+
+> Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.
+>
+
+### 2014-12-12 — forskrift/2014-12-12-1584
+
+*Lov om endringer i industrikonsesjonsloven og vassdragsreguleringsloven trer i kraft straks.*
+
+> Lov om endringer i industrikonsesjonsloven og vassdragsreguleringsloven trer i kraft straks.
 >
 
 ### 2016-07-01 — forskrift/2016-06-17-720
@@ -28,11 +71,25 @@ refid: "lov/1917-12-14-16"
 > Lov om endringer i lov om erverv av vannfall mv. (erverv av andel i offentlig ansvarlig selskap med konsesjonspliktige rettigheter til vannfall) trer i kraft 1. juli 2016.
 >
 
+### 2018-01-01 — forskrift/2017-12-15-2034
+
+*Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.*
+
+> Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.
+>
+
 ### 2025-04-10 — lov/2025-04-10-9
 
 *1.I lov 14. desember 1917 nr. 16 om konsesjon for rettigheter til vannfall mv. skal § 5 første punktum lyde:*
 
 > Foretak som er organisert etter statsføretakslova, og norske kommuner og fylkeskommuner kan få konsesjon til å erverve eiendomsrett til vannfall på de nærmere vilkår Kongen fastsetter.
+>
+
+### 2026-01-01 — forskrift/2025-04-10-644
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ## § 1
@@ -65,17 +122,62 @@ refid: "lov/1917-12-14-16"
 
 ## § 10
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 10 nr. 2 første ledd skal lyde:*
+
+> Når en regulering hovedsakelig skal utnyttes til alminnelig kraftforsyning og hensynet til andre almene interesser ikke taler mot det, kan reguleringskonsesjon gis på ubegrenset tid for vassdrag hvor vannkraften skal utnyttes av foretak organisert etter lov om statsforetak, en norsk kommune eller flere norske kommuner eller fylkeskommuner i fellesskap eller av aksjeselskaper, allmennaksjeselskaper, andelslag eller andre sammenslutninger hvor minst 2/3 av kapitalen og stemmene eies av foretak organisert etter lov om statsforetak, en eller flere kommuner eller fylkeskommuner.
+>
+
 ### 2008-09-26 — lov/2008-09-26-78
 
 *§ 10 oppheves.*
 
+## § 11
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 11 nr. 4 første punktum skal lyde:*
+
+> Nærmere bestemmelser om avgiftens erleggelse og om kontroll med vannforbruket blir, forsåvidt de ikke er fastsatt av Kongen, med bindende virkning for hvert enkelt tilfelle å avgi av vedkommende departement.
+>
+
+## § 12
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 12 nr. 21 tredje ledd andre punktum skal lyde:*
+
+> Mot en innløsningssum beregnet på tilsvarende måte som etter bestemmelsene i § 10 nr. 5, kan i så fall staten kreve avstått reguleringsanlegget med tilliggende grunn og rettigheter og med de bygninger og andre innretninger som er oppført av hensyn til reguleringen.
+>
+
 ## § 14
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 14 første ledd annet punktum oppheves.*
 
-> 15. I lov 27. februar 1930 nr. 3 om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. gjøres følgende endring:
+> 11. I lov 27. februar 1930 nr. 3 om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. gjøres følgende endring:
+>
+
+## § 15
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 15 nr. 3 skal lyde:*
+
+> Avgifter som pålegges for benyttelse av innvunnet driftsvann etter nr. 1 og 2, forrentes fra forfall med rente som fastsatt i medhold av lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. § 3 første ledd og er tvangsgrunnlag for utlegg.
+>
+
+## § 16
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 16 nr. 5 niande ledd første punktum skal lyde:*
+
+> Når konsesjon er gitt på begrenset tid og med bestemmelse om hjemfall til staten, skal konsesjonæren stille slik sikkerhet som departementet godkjenner, for at det ved konsesjonstidens utløp, eller ved frafallelse av konsesjon etter § 10 nr. 3 første ledd eller ved innløsning etter § 12 nr. 21 tredje ledd stilles til statens disposisjon et beløp som tilsvarer det 15-dobbelte av de da gjeldende erstatninger.
+>
+> 9. I lov 31. mai 1918 nr. 4 om avslutning av avtaler, om fuldmagt og om ugyldige viljeserklæringer blir § 14 siste ledd oppheva.
 >
 
 ## § 18
@@ -164,6 +266,20 @@ refid: "lov/1917-12-14-16"
 > 11. I lov 17. juli 1925 nr. 11 om Svalbard gjøres følgende endring:
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24 tredje ledd skal lyde:*
+
+> Hvis de omhandlede erklæringer er uriktige, kommer straffelovens § 221 til anvendelse.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24 annet punktum oppheves.*
+
+> 9. I lov 17. juli 1925 nr. 11 om Svalbard gjøres følgende endring:
+>
+
 ## § 26
 
 ### 2008-09-26 — lov/2008-09-26-78
@@ -207,6 +323,15 @@ refid: "lov/1917-12-14-16"
 > Avtale som måtte komme i strid med bestemmelse i §§ 11 eller 36, kan bare forlanges fullbyrdet såfremt konsesjon til ervervet blir meddelt.
 >
 
+### 2009-06-19 — lov/2009-06-19-101
+
+*§ 29 skal lyde:*
+
+> Avtale som måtte komme i strid med bestemmelse i § 36, kan bare forlanges fullbyrdet såfremt konsesjon til ervervet blir meddelt.
+>
+> Håndgivelse eller annen rettshandel, hvorved noen betinger seg rett til å erverve eiendomsrett eller annen rettighet til vannfall, taper sin gyldighet etter 5 års forløp. Er den tinglyst, skal den ved fristens utløp utslettes av grunnboken.
+>
+
 ## § 3
 
 ### 2008-09-26 — lov/2008-09-26-78
@@ -216,6 +341,17 @@ refid: "lov/1917-12-14-16"
 > Ved direkte eller indirekte endringer av organiseringen i alle offentlige selskaper, foretak, lag eller sammenslutninger som innehar konsesjonspliktige vannfallsrettigheter etter denne lov eller tidligere lovgivning om erverv av vannfall, bergverk og annen fast eiendom, får § 2 første ledd tilsvarende anvendelse så langt den passer.
 >
 > Dersom selskapet, foretaket, laget eller sammenslutningen som følge av endringer som nevnt i første ledd ikke oppfyller vilkårene i § 2 første ledd, får reglene i §§ 30, 31 og 32 tilsvarende anvendelse.
+>
+
+## § 30
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 30 skal lyde:*
+
+> Innskotsbøker i bankar og samvirkeføretak fylgjer føresegnene om enkle gjeldsbrev.
+>
+> 7. I lov 8. juli 1949 nr. 13 om produksjon, transport og omsetning av agn skal § 1 første ledd nr. 1 lyde:at omsetningen av agn til fisker bare skal skje gjennom et samvirkeforetak av fiskere hvis vedtekter er godkjent av vedkommende departement;
 >
 
 ## § 36
@@ -310,13 +446,43 @@ refid: "lov/1917-12-14-16"
 > 10. I lov 14. desember 1917 nr. 17 om vasdragsreguleringer gjøres følgende endring:
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 39 b første ledd nytt annet punktum skal lyde:*
+
+> Medvirkning er ikke straffbar.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 39 b tredje ledd oppheves.*
+
+> 8. I lov 14. desember 1917 nr. 17 om vasdragsreguleringer gjøres følgende endring:
+>
+
 ## § 4
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 4 nr. 1 første ledd skal lyde:*
+
+> Den, som vil utføre et reguleringsforetagende, kan forlange erklæring fra vedkommende departement om, hvorvidt han må ha konsesjon etter denne lov, når han forelegger for departementet en plan for de påtenkte arbeider og de opplysninger, som trengs etter § 5.
+>
 
 ### 2004-06-25 — lov/2004-06-25-56
 
 *§ 4 andre ledd skal lyde:*
 
 > Hvis ervervet gjelder vannfall som ved regulering antas å kunne utbringes til mer enn 20.000 naturhestekrefter, eller hvis betydelige interesser står mot hverandre, skal saken forelegges for Stortinget før konsesjon blir gitt, med mindre departementet finner det unødvendig.
+>
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 4 skal lyde:*
+
+> Ihendehavargjeldsbrev skal betalast i forretningslokalet til skyldnaren når ikkje anna er sagt.
+>
+> Det same gjeld gjeldsbrev som blir utgjevne mange i samanheng og med sams tekst (mengdegjeldsbrev), og gjeldsbrev som bankar eller samvirkeføretak gjev ut for innlån.
 >
 
 ### 2008-09-26 — lov/2008-09-26-78
@@ -336,35 +502,6 @@ refid: "lov/1917-12-14-16"
 
 *§ 4 annet ledd annet punktum oppheves.*
 
-> 12. Lov 25. juni 1926 nr. 4 om straff for å delta i og medvirke til smugling på andre land oppheves.
->
-> 13. I lov 29. mai 1928 nr. 7 om tilvirkning og omsetning av alkoholholdige drikkevarer på Svalbard skal § 2 annet ledd lyde:
->
-> Overtredelsene er straffbare, også om de er begått ved uaktsomhet. Forsøk straffes som fullbyrdet overtredelse. Medvirkning straffes ikke.
->
-> 14. I lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg og elektrisk utstyr gjøres følgende endring:
->
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 4 annet punktum oppheves.*
-
-> 16. I lov 27. mai 1932 nr. 3 om chekker gjøres følgende endring:
->
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 4 annet ledd annet punktum oppheves.*
-
-> 19. I lov 19. mai 1933 nr. 11 om særavgifter skal § 2 første ledd lyde:
->
-> Overtredelse av forskrifter som utferdiges i henhold til denne lov, straffes også når overtredelsen er skjedd ved uaktsomhet, med bøter, for så vidt det ikke for overtredelsen er fastsatt særskilt straff i straffeloven.
->
-> 20. I lov 29. juni 1933 nr. 2 om flagging på kommunenes offentlige bygninger skal I tredje ledd lyde:
->
-> Overtredelse av denne lov straffes med bøter eller fengsel i inntil 3 måneder.
->
-
 ### 2009-06-19 — lov/2009-06-19-106
 
 *§ 4 tredje ledd første punktum skal lyde:*
@@ -379,6 +516,17 @@ refid: "lov/1917-12-14-16"
 > Departementet kan gi samtykke til at foretak mv. som oppfyller vilkårene i § 2 første ledd, kan erverve tidsubegrenset medeierskap til vannkraftproduksjon.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 4 annet ledd annet punktum oppheves.*
+
+> 10. I lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg og elektrisk utstyr gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 4 annet punktum oppheves.*
+
 ## § 41
 
 ### 2008-09-26 — lov/2008-09-26-78
@@ -386,6 +534,13 @@ refid: "lov/1917-12-14-16"
 *§ 41 første til tredje ledd oppheves. Nåværende fjerde og femte ledd blir første og annet ledd.*
 
 ## § 5
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 5 innledningen skal lyde:*
+
+> Søknad om konsesjon til å utføre et reguleringsforetagende i henhold til denne lov skal sendes til vedkommende departement og i alminnelighet være ledsaget av:
+>
 
 ### 2004-06-25 — lov/2004-06-25-56
 
@@ -422,15 +577,13 @@ refid: "lov/1917-12-14-16"
 > Søknad om omgjøring av tidligere fastsatte vilkår om tidsbegrensning og hjemfall, skal innvilges så fremt konsesjonæren oppfyller vilkårene i § 2 første ledd.
 >
 
-## § 66
+## § 6
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2003-06-20 — lov/2003-06-20-45
 
-*§ 66 annet ledd oppheves.*
+*§ 6 nr. 1 fjerde og femte ledd skal lyde:*
 
-> 17. Lov 17. juni 1932 nr. 2 om enkelte bestemmelser om fremmede konsulers rettsstilling oppheves.
+> Utgifter til nødvendig juridisk og annen sakkyndig hjelp som er påløpt etter at melding er lagt ut til offentlig ettersyn som bestemt i lov 14. juni 1985 nr. 77 § 33-3 annet ledd erstattes grunneiere, rettighetshavere, kommuner og andre interesserte av søkeren i den utstrekning det finnes rimelig. Avgjørelsen treffes av departementet. Departementet kan i spesielle tilfelle gi forhåndstilsagn om dekning av utgifter inntil et bestemt beløp.
 >
-> 18. I lov 17. juni 1932 nr. 6 om kvalitetskontroll med landbruksvarer m.v. skal § 4 annet ledd lyde:
->
-> Den som bruker en beskyttet betegnelse i strid med forskrifter gitt i medhold av § 2 a straffes med bøter eller fengsel i inntil 3 måneder.
+> Nødvendige utgifter til kommunal planlegger kan kreves erstattet av søkeren fra det tidspunkt meldingen er sendt til kommunen, jfr. lov av 14. juni 1985 nr. 77 § 33-3 annet ledd. Avgjørelsen treffes av departementet.
 >

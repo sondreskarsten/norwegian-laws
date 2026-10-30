@@ -40,11 +40,54 @@ refid: "lov/2005-06-17-101"
 > § 39.Geodetisk grunnlag
 >
 
+### 2009-12-04 — forskrift/2009-12-04-1453
+
+*Endring av kongelig resolusjon 5. juni 2009 nr. 600 om delvis ikraftsetting av lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova):*
+
+> Endring av kongelig resolusjon 5. juni 2009 nr. 600 om delvis ikraftsetting av lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova):
+>
+> Ikraftsettelsen av § 52 nr. 9 for så vidt gjelder endringene i lov 21. desember 1979 nr. 77 om jordskifte o.a. (jordskifteloven), gjelder ikke jordskifteloven § 24 og § 29 tredje ledd.
+>
+> Ikraftsettelsen av § 52 nr. 12 for så vidt gjelder endringene i lov 3. juli 1992 nr. 93 om avhending av fast eigedom (avhendingslova) § 2-6 første ledd, gjelder bare endringen av avhendingslova § 2-6 første ledd andre punktum.
+>
+
+### 2010-09-03 — forskrift/2010-09-03-1246
+
+*Delt ikraftsetting av lov om infrastruktur for geografisk informasjon (geodataloven).*
+
+> Delt ikraftsetting av lov om infrastruktur for geografisk informasjon (geodataloven).
+>
+> § 1, § 2, § 3, § 4, § 6, § 7, § 9, § 10 og § 11 nr. 1 og 3 trer i kraft straks.
+>
+
 ### 2015-09-18 — forskrift/2015-09-18-1059
 
 *Delt ikraftsetting av lov 20. januar 2012 nr. 7 om endringer i matrikkellova og tinglysingsloven mv. Romertall I for så vidt gjelder endringen i § 35 første ledd tredje punktum, trer i kraft straks.*
 
 > Delt ikraftsetting av lov 20. januar 2012 nr. 7 om endringer i matrikkellova og tinglysingsloven mv. Romertall I for så vidt gjelder endringen i § 35 første ledd tredje punktum, trer i kraft straks.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2017-01-01 — forskrift/2016-12-16-1591
+
+*Loven trer i kraft fra 1. januar 2017.*
+
+> Loven trer i kraft fra 1. januar 2017.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
 >
 
 ### 2017-06-21 — lov/2017-06-21-97
@@ -54,6 +97,24 @@ refid: "lov/2005-06-17-101"
 > Departementet kan gi forskrift og fatte enkeltvedtak eller avgjerd om tildeling av matrikkelnummer.
 >
 
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
+
+### 2018-01-01 — forskrift/2017-09-15-1393
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).
+>
+> Loven trer i kraft fra 1. januar 2018 med unntak av § 9 som trer i kraft 1. juli 2018.
+>
+
 ### 2018-04-20 — lov/2018-04-20-12
 
 *Kapittel 7 overskrifta skal lyde:*
@@ -61,6 +122,36 @@ refid: "lov/2005-06-17-101"
 ### 2018-04-20 — lov/2018-04-20-12
 
 *Kapittel 8 overskrifta skal lyde:*
+
+### 2018-04-20 — forskrift/2018-04-20-593
+
+*Delt ikraftsetting av endringsloven. Følgende endringer trer i kraft straks: Del I endringer i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 3, § 4, § 5a tredje ledd, § 6 fjerde ledd, § 7 – § 10, § 14, § 15, § 18, § 20 – § 22, § 24, § 25, § 27, § 29 – § 34, § 39, § 41 – § 43, §*
+
+> Delt ikraftsetting av endringsloven. Følgende endringer trer i kraft straks: Del I endringer i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 3, § 4, § 5a tredje ledd, § 6 fjerde ledd, § 7 – § 10, § 14, § 15, § 18, § 20 – § 22, § 24, § 25, § 27, § 29 – § 34, § 39, § 41 – § 43, § 47 og § 48 samt overskriftene til kapittel 7 og 8, og del II endringer i lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven) § 26-1, § 29-4 fjerde ledd og § 33-1 første ledd.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
 
 ### 2019-03-08 — lov/2019-03-08-5
 
@@ -117,6 +208,62 @@ refid: "lov/2005-06-17-101"
 ### 2019-03-08 — lov/2019-03-08-5
 
 *I § 51 første ledd skal «delingslova» endres til «delingsloven» og «eigarseksjonslova» endres til «eierseksjonsloven».*
+
+### 2019-03-08 — forskrift/2019-03-08-195
+
+*Delt ikraftsetting av lov om endringer i plan- og bygningsloven m.m. Loven trer i kraft straks med unntak av endringene i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 5a andre ledd, § 26 andre og sjette ledd, § 38 andre ledd og § 46 første ledd bokstav d.*
+
+> Delt ikraftsetting av lov om endringer i plan- og bygningsloven m.m. Loven trer i kraft straks med unntak av endringene i lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova) § 5a andre ledd, § 26 andre og sjette ledd, § 38 andre ledd og § 46 første ledd bokstav d.
+>
+
+### 2019-04-01 — forskrift/2018-11-30-1790
+
+*Delt ikraftsetting av lov 20. april 2018 nr. 12 om endringer i matrikkellova og plan- og bygningsloven. Del I endringer i lov 17. juni 2005 nr. 101 om eigedomsregistrering § 5a andre ledd tredje punktum trer i kraft 1. april 2019.*
+
+> Delt ikraftsetting av lov 20. april 2018 nr. 12 om endringer i matrikkellova og plan- og bygningsloven. Del I endringer i lov 17. juni 2005 nr. 101 om eigedomsregistrering § 5a andre ledd tredje punktum trer i kraft 1. april 2019.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-869
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1548
+
+*Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2008
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-01-01 — forskrift/2021-12-17-3632
+
+*Delt ikraftsetting av lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova). Loven § 52 nr. 3 trer i kraft 1. januar 2022.*
+
+> Delt ikraftsetting av lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova). Loven § 52 nr. 3 trer i kraft 1. januar 2022.
+>
 
 ## § 10
 
@@ -355,6 +502,13 @@ refid: "lov/2005-06-17-101"
 > Departementet kan gi forskrift om føring av matrikkelen og organ som kan utføre matrikkelføringsoppgåver, til dømes om informasjon til heimelshavarar eller andre saka vedkjem, om tidsfristar, rapportering, kvalitetssikring og oppbevaring av matrikkelopplysningar, og om godkjenning av personar som skal føre opplysningar i matrikkelen.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 22 femte ledd skal lyde:*
+
+> Personvernforordninga artikkel 13 og 14 gjeld ikkje for føring av matrikkelen.
+>
+
 ### 2018-06-22 — lov/2018-06-22-66
 
 *§ 22 tredje ledd nytt fjerde punktum skal lyde:*
@@ -503,6 +657,13 @@ refid: "lov/2005-06-17-101"
 > Departementet kan gi forskrift om rettingar, endringar og tilføyingar til matrikkelen og om sletting av matrikkeleining, til dømes om underretting og når underretting kan sløyfast.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 26 femte ledd skal lyde:*
+
+> Denne paragrafen går framom personvernforordninga artikkel 16 om retting av personopplysningar.
+>
+
 ### 2019-03-08 — lov/2019-03-08-5
 
 *§ 26 sjette ledd skal lyde:*
@@ -545,7 +706,7 @@ refid: "lov/2005-06-17-101"
 
 *§ 3 bokstav h skal lyde:*
 
-> oppmålingsforretning:den oppgåva som går ut på å klarleggje og beskrive grenser og rettar til fast eigedom, og gi nødvendig dokumentasjon for matrikkelføring, jf. § 33,
+> oppmålingsforretning: den oppgåva som går ut på å klarleggje og beskrive grenser og rettar til fast eigedom, og gi nødvendig dokumentasjon for matrikkelføring, jf. § 33,
 >
 > Bokstav i og j blir oppheva.
 >
@@ -556,7 +717,7 @@ refid: "lov/2005-06-17-101"
 
 *§ 3 bokstav f skal lyde:*
 
-> matrikulering:føre ei ny matrikkeleining inn i matrikkelen,
+> matrikulering: føre ei ny matrikkeleining inn i matrikkelen,
 >
 
 ## § 30
@@ -580,6 +741,21 @@ refid: "lov/2005-06-17-101"
 *§ 30 femte ledd skal lyde:*
 
 > Matrikkelinformasjon skal ikkje utleverast dersom vitale personlege eller offentlege interesser tilseier dette.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 30 syvende ledd skal lyde:*
+
+> Departementet kan i forskrift gi nærare reglar om behandling, utlevering og sal av opplysningar.
+>
+> 20.I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd skal § 10 tredje ledd annet punktum lyde:
+>
+> Kongen kan gi forskrift om tilgjengeleggjering av dokument på Internett og om at visse typar personopplysningar og dokument som ein tredjeperson har immaterielle rettar til, ikkje skal gjerast tilgjengelege på denne måten.
+>
+> 21.I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal § 3 tredje ledd første punktum lyde:
+>
+> Direktoratet er behandlingsansvarlig for etatens behandling av personopplysninger, jf. personvernforordningen artikkel 4 nr. 7.
 >
 
 ## § 31

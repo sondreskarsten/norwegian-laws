@@ -7,6 +7,15 @@ refid: "lov/2003-11-28-98"
 
 ## (annet)
 
+### 2005-06-17 — lov/2005-06-17-101
+
+*16. I lov 28. november 2003 nr. 98 om konsesjon ved erverv av fast eiendom (konsesjonsloven) mv. skal § 15 lyde:*
+
+> § 15.(konsesjon er et vilkår for tinglysing og matrikkelføring)
+>
+> Erverv som krever konsesjon etter denne loven, kan ikke tinglyses eller matrikkelføres med mindre konsesjon er gitt.
+>
+
 ### 2008-06-06 — lov/2008-06-06-39
 
 *I lov 28. november 2003 nr. 98 om konsesjon ved erverv av fast eiendom (konsesjonsloven) mv. skal § 14 nytt andre ledd lyde:*
@@ -14,11 +23,46 @@ refid: "lov/2003-11-28-98"
 > Departementet kan i forskrift fastsette krav til faglige kvalifikasjoner hos personell som forestår drift av mineralforekomster etter denne lov, samt regler om godkjenning av tilsvarende kompetanse for borgere fra EØS-området.
 >
 
+### 2012-03-16 — forskrift/2012-03-16-225
+
+*Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.*
+
+> Loven romertall II, III, IV, V, VI og de deler av romertall I som omhandler endringer i energiloven § 8-2 første ledd og § 10-1 tredje ledd trer i kraft straks.
+>
+
+### 2017-07-01 — forskrift/2017-06-21-829
+
+*Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2034
+
+*Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.*
+
+> Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2024-12-06 — lov/2024-12-06-74
 
 *I lov 28. november 2003 nr. 98 om konsesjon ved erverv av fast eiendom mv. skal § 2 første ledd lyde:*
 
 > Med de unntak som følger av loven, kan fast eiendom ikke erverves uten tillatelse av Kongen (konsesjon). Kongen kan gi forskrift om at myndigheten til å treffe avgjørelse i nærmere bestemte saker tildeles kommunen. Statsforvalteren er klageinstans for vedtak truffet av kommunen etter loven. Når vilkårene for omgjøring etter forvaltningsloven § 35 er oppfylt, kan vedtaket også omgjøres av departementet.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
 >
 
 ### 2025-06-20 — lov/2025-06-20-107
@@ -41,6 +85,13 @@ refid: "lov/2003-11-28-98"
 > Delt ikraftsetting av lov om endringer i konsesjonsloven (priskontroll på skogeiendommer, konsesjon til selskaper med begrenset ansvar og stiftelser m.m.). Følgende trer i kraft 1. januar 2026:
 >
 > Endringsloven § 4 første ledd nr. 1 og 2 og § 4 andre til fjerde ledd.
+>
+
+### 2026-07-01 — forskrift/2025-06-20-1108
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 10
@@ -147,6 +198,13 @@ refid: "lov/2003-11-28-98"
 
 ## § 2
 
+### 2009-06-19 — lov/2009-06-19-101
+
+*§ 2 andre ledd skal lyde:*
+
+> Loven omfatter ikke ervervsom er konsesjonspliktige etter lov 14. desember 1917 nr. 16 om erverv av vannfall mv. kapittel I,som er konsesjonspliktige etter lov 29. juni 1990 nr. 50 kapittel 3 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m.,som har sitt grunnlag i ekspropriasjonstillatelse etter lov 19. juni 2009 nr. 101 om erverv og utvinning av mineralressurser (mineralloven) § 37 andre ledd og § 38 andre ledd,som er nødvendig for drift på mineralsk forekomst når erververen sender søknad om driftskonsesjon etter lov 19. juni 2009 nr. 101 om erverv og utvinning av mineralressurser (mineralloven) § 43 og driftskonsesjon innvilges.
+>
+
 ### 2017-06-21 — lov/2017-06-21-101
 
 *§ 2 annet ledd nr. 1 skal lyde:*
@@ -164,6 +222,20 @@ refid: "lov/2003-11-28-98"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 20 annet ledd nytt tredje punktum skal lyde:*
+
+> Medvirkning straffes ikke.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 20 annet ledd første punktum skal lyde:*
+
+> Overtredelse av forbudet i første ledd straffes med bøter.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 20 annet ledd nytt tredje punktum skal lyde:*
 

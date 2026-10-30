@@ -7,11 +7,32 @@ refid: "lov/1995-05-12-23"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*169. I lov 12. mai 1995 nr. 23 om jord skal § 6 nytt annet punktum lyde:*
+
+> Medverknad blir ikkje straffa.
+>
+
 ### 2013-07-01 — forskrift/2013-06-14-642
 
 *Loven trer i kraft fra 1. juli 2013.*
 
 > Loven trer i kraft fra 1. juli 2013.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*138. I lov 12. mai 1995 nr. 23 om jord skal § 21 nytt annet punktum lyde:*
+
+> Medverknad blir ikkje straffa.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2017-06-16 — lov/2017-06-16-74
@@ -21,11 +42,53 @@ refid: "lov/1995-05-12-23"
 > Føresegnene i §§ 9 og 12 gjeld ikkje for tiltak med konsesjon etter energiloven § 3-1, vannressursloven eller vassdragsreguleringsloven.
 >
 
+### 2017-07-01 — forskrift/2017-06-21-829
+
+*Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-753
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2024-12-06 — lov/2024-12-06-74
 
 *Nåværende fjerde punktum blir nytt femte punktum.*
 
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
 ## § 11
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 11 først ledd annet punktum skal lyde:*
+
+> Føresegnene kan mellom anna ta sikte på å hindra erosjon og regulera bruk og lagring av gjødsel og andre innsatsvarer i produksjon, samt å ta omsyn til særlige naturverdiar.
+>
 
 ### 2019-05-24 — lov/2019-05-24-18
 

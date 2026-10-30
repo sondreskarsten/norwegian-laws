@@ -71,6 +71,15 @@ refid: "lov/2003-07-04-84"
 > Lova gjeld godkjenning med rett til statstilskot for private grunnskolar og private vidaregåande skolar og vilkår for å få slikt tilskot.
 >
 
+## § 1-2a
+
+### 2010-01-01 — lov/2009-06-19-95
+
+*§ 1-2a annet ledd skal lyde:*
+
+> Lova gjeld ikkje skolar som er omfatta av folkehøyskoleloven, fagskoleloven, voksenopplæringsloven eller skolar som driv verksemda si etter opplæringslova § 2-12. Lova gjeld heller ikkje skolar som blir drivne av politiske grupper eller parti på partipolitisk grunnlag.
+>
+
 ## § 1-3
 
 ### 2007-06-29 — lov/2007-06-29-92
@@ -927,6 +936,13 @@ refid: "lov/2003-07-04-84"
 > Siste punktum blir § 6A-5.
 >
 
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 4-2 fjerde ledd skal lyde:*
+
+> Ved tilsetjing av undervisningspersonale ved skolar som representerer eit fagleg-pedagogisk alternativ, kan departementet også godkjenne alternative kompetansekrav til dei som følgjer av § 10-1 i opplæringslova med tilhøyrande forskrift. Ved tilsetjing av undervisningspersonale ved skolar som representerer eit religiøst/etisk alternativ, kan departementet også godkjenne tilleggskompetansekrav til dei som følgjer av § 10-1 i opplæringslova med tilhøyrande forskrift. Ved tilsetjing gjeld arbeidsmiljølova §§ 13-3 og 13-4.
+>
+
 ### 2007-06-29 — lov/2007-06-29-92
 
 *§ 4-2 tredje ledd skal lyde:*
@@ -1205,6 +1221,10 @@ refid: "lov/2003-07-04-84"
 
 > Dei særskilde skolane for funksjonshemma får likevel alle driftsutgifter dekte ved statstilskot etter ein normalsats per elev per skoleår. Departementet kan gi forskrift om tilskotsordninga for dei særskilde skolane for funksjonshemma.
 >
+
+### 2010-01-01 — lov/2009-06-19-95
+
+*§ 6-1 femte ledd siste punktum oppheves.*
 
 ### 2024-06-14 — lov/2024-06-14-34
 
@@ -1563,6 +1583,19 @@ refid: "lov/2003-07-04-84"
 > Alle som utfører tenester eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernloven § 6-4.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 7-4 skal lyde:*
+
+> § 7-4.Opplysningsplikt til barnevernet
+>
+> Tilsette i skolen skal i arbeidet sitt vere merksame på forhold som kan føre til tiltak frå barnevernstenesta.
+>
+> Tilsette i skolen skal utan hinder av teieplikta melde frå til barnevernstenesta utan ugrunna opphaldnår det er grunn til å tru at eit barn blir eller vil bli mishandla, utsett for alvorlege manglar ved den daglege omsorga eller anna alvorleg omsorgssvikt,når det er grunn til å tru at eit barn har ein livstruande eller annan alvorleg sjukdom eller skade og ikkje kjem til undersøking eller behandling,når det er grunn til å tru at eit barn med nedsett funksjonsevne eller eit spesielt hjelpetrengande barn ikkje får dekt sitt særlege behov for behandling eller opplæring,når eit barn viser alvorlege åtferdsvanskar i form av alvorlege eller gjentatte brotsverk, problematisk bruk av rusmiddeler eller ei anna form for utprega normlaus åtferd,når det er grunn til å tru at eit barn blir eller vil bli utnytta til menneskehandel.
+>
+> Alle som utfører teneste eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernsloven § 13-4.
+>
+
 ### 2025-06-20 — lov/2025-06-20-39
 
 *§ 7-4 andre ledd bokstav c skal lyde:*
@@ -1582,6 +1615,15 @@ refid: "lov/2003-07-04-84"
 >
 
 ## § 7-7
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 7-7 overskriften og første ledd skal lyde:*
+
+> § 7-7.Rett til å ta avgjerder på vegner av barnet når barnevernstenesta har overteke omsorga
+>
+> Dersom barnevernstenesta har overteke omsorga etter barnevernslova § 5-1, har barnevernstenesta rett til å ta avgjerder på vegner av barnet. Tilsvarande gjeld ved vedtak om flytteforbod etter barnevernslova § 4-3 og vedtak om plassering etter barnevernslova § 4-2.
+>
 
 ### 2025-06-20 — lov/2025-06-20-39
 
@@ -1911,9 +1953,43 @@ refid: "lov/2003-07-04-84"
 > Til statsborgarar i Noreg eller ein annan EØS-stat som er elevar ved utanlandske eller internasjonale grunnskolar i Noreg eller grunnskole i utlandet, og som ikkje er elevar ved skole som er godkjend etter lova her, kan det givast tilskot til kompletterande undervisning. Departementet kan gi nærare forskrift.
 >
 
+### 2010-08-01 — forskrift/2010-06-25-982
+
+*Loven trer i kraft 1. august 2010.*
+
+> Loven trer i kraft 1. august 2010.
+>
+> Endret tidspunkt for ikrafttredelse av privatskolelova § 3-4a første ledd som ble tilføyd ved lov 19. juni 2009 nr. 94. Denne skal tre i kraft straks.
+>
+
 ### 2011-06-24 — lov/2011-06-24-37
 
 *Kapittel 4 overskrifta skal lyde:*
+
+### 2011-08-01 — forskrift/2011-06-24-639
+
+*Loven trer i kraft 1. august 2011.*
+
+> Loven trer i kraft 1. august 2011.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-582
+
+*Lov om endringar i opplæringslova og privatskolelova (undervisningskompetanse m.m.) trer i kraft 1. august 2012 med unntak av endringene i*
+
+> Lov om endringar i opplæringslova og privatskolelova (undervisningskompetanse m.m.) trer i kraft 1. august 2012 med unntak av endringene i
+>
+> romertall I § 2-12, § 5-5, § 10-1, § 10-2, § 10-6 og § 10-6a, og romertall II § 3-6 og § 4-2 som trer i kraft 1. januar 2014, og
+>
+> romertall II § 2-1 og § 2-2 som trer i kraft 1. juli 2012.
+>
+
+### 2013-08-01 — forskrift/2013-06-21-685
+
+*Lov om endringer i opplæringslova og privatskolelova (spesialundervisning m.m.) trer i kraft 1. august 2013.*
+
+> Lov om endringer i opplæringslova og privatskolelova (spesialundervisning m.m.) trer i kraft 1. august 2013.
+>
 
 ### 2014-06-20 — lov/2014-06-20-53
 
@@ -1926,11 +2002,57 @@ refid: "lov/2003-07-04-84"
 
 *Nåværende tredje til sjette ledd blir fjerde til syvende ledd.*
 
+### 2014-08-01 — forskrift/2014-06-20-842
+
+*Lov om endringer i opplæringslova, privatskolelova og folkehøyskoleloven (leksehjelp m.m.) trer i kraft 1. august 2014.*
+
+> Lov om endringer i opplæringslova, privatskolelova og folkehøyskoleloven (leksehjelp m.m.) trer i kraft 1. august 2014.
+>
+
 ### 2015-04-24 — lov/2015-04-24-23
 
 *I lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot skal § 3-3 første ledd lyde:*
 
 > Ein elev som har fått plass ved ein grunnskole som er godkjend etter denne lova, har rett til å fullføre opplæringa si ved skolen, så langt skolen er godkjend. Ein grunnskoleelev kan i særlege tilfelle likevel flyttast til ein offentleg skole i heimkommunen dersom omsynet til dei andre elevane tilseier det. Grunnen til at ein elev kan flyttast, kan til dømes vere at eleven mobbar ein eller fleire medelevar. Før det blir gjort enkeltvedtak om å flytte ein elev, skal ein ha prøvd andre tiltak. Heimkommunen gjer vedtak. Departementet er klageinstans.
+>
+
+### 2015-06-19 — lov/2015-06-19-76
+
+*I lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot skal ny § 7-7 lyde:*
+
+> § 7-7.Rett til å ta avgjerder på vegner av barnet når barneverntenesta har overteke omsorga
+>
+> Dersom barnevernstenesta har overteke omsorga etter barnevernlova §§ 4-8 eller 4-12, har barnevernstenesta rett til å ta avgjerder på vegner av barnet. Tilsvarande gjeld ved vedtak om flytteforbod etter barnevernlova § 4-8 og vedtak om plassering etter barnevernlova § 4-6 andre ledd.
+>
+> Det er likevel foreldra til barnet som har rett til å krevje fritak frå delar av undervisninga med omsyn til religion eller livssyn, jf. § 3-12, og til å velje privat skole, jf. opplæringslova § 2-1.
+>
+
+### 2015-08-01 — forskrift/2015-06-19-699
+
+*Lov om endringar i opplæringslova og privatskolelova (krav om relevant kompetanse i undervisningsfag m.m.) trer i kraft 1. august 2015.*
+
+> Lov om endringar i opplæringslova og privatskolelova (krav om relevant kompetanse i undervisningsfag m.m.) trer i kraft 1. august 2015.
+>
+
+### 2015-08-01 — forskrift/2015-06-19-701
+
+*Delt ikraftsetting av lov 15. juni 2015 om endringer i privatskolelova mv. (nytt navn på loven, nye godkjenningsgrunnlag m.m.). Loven trer i kraft 1. august 2015 med unntak av § 2-2 første ledd som trer i kraft 1. august 2016.*
+
+> Delt ikraftsetting av lov 15. juni 2015 om endringer i privatskolelova mv. (nytt navn på loven, nye godkjenningsgrunnlag m.m.). Loven trer i kraft 1. august 2015 med unntak av § 2-2 første ledd som trer i kraft 1. august 2016.
+>
+
+### 2017-08-01 — forskrift/2017-06-09-711
+
+*Loven trer i kraft fra 1. august 2017.*
+
+> Loven trer i kraft fra 1. august 2017.
+>
+
+### 2017-08-01 — forskrift/2017-06-16-754
+
+*Loven trer i kraft 1. august 2017.*
+
+> Loven trer i kraft 1. august 2017.
 >
 
 ### 2018-04-20 — lov/2018-04-20-5
@@ -1944,6 +2066,81 @@ refid: "lov/2003-07-04-84"
 > Tilsette i skolen skal utan hinder av teieplikta melde frå til barneverntenesta utan ugrunna opphaldnår det er grunn til å tru at eit barn blir eller vil bli mishandla, utsett for alvorlege manglar ved den daglege omsorga eller anna alvorleg omsorgssvikt,når det er grunn til å tru at eit barn har ein livstruande eller annan alvorleg sjukdom eller skade og ikkje kjem til undersøking eller behandling, eller at eit barn med nedsett funksjonsevne eller eit spesielt hjelpetrengande barn ikkje får dekt sitt særlege behov for behandling eller opplæring,når eit barn viser alvorlege åtferdsvanskar i form av alvorleg eller gjentatt kriminalitet, misbruk av rusmiddel eller ei anna form for utprega normlaus åtferd,når det er grunn til å tru at eit barn blir eller vil bli utnytta til menneskehandel.
 >
 > Alle som utfører teneste eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
+### 2018-06-08 — lov/2018-06-08-29
+
+*I lov 4. juli 2003 nr. 84 om frittståande skolar skal ny § 5-5 lyde:*
+
+> § 5-5.Plikt til å samarbeide med barnehagen om overgangen til skolen
+>
+> Skolen skal samarbeide med barnehagen om barna sin overgang frå barnehage til skole. Samarbeidet skal bidra til at barna får ein trygg og god overgang.
+>
+> Skoleeigaren har hovudansvaret for samarbeidet og skal utarbeide ein plan for overgangen frå barnehage til skole.
+>
+
+### 2018-06-22 — lov/2018-06-22-85
+
+*I lov 4. juli 2003 nr. 84 om frittståande skolar skal ny § 3-15 lyde:*
+
+> § 3-15.Forbod mot bruk av klesplagg som heilt eller delvis dekkjer ansiktet
+>
+> Elevar skal ikkje bruke klesplagg som heilt eller delvis dekkjer ansikteti undervisninga og vurderingssituasjonarpå turar og arrangement i regi av skolennår skoleeigaren tilbyr leksehjelpi skolefritidsordninga
+>
+> Forbodet i første ledd gjeld ikkje dersom bruken av slike plagg er grunngitt i klimatiske, pedagogiske, helsemessige eller tryggleiksmessige forhold.
+>
+> Ved brot på forbodet i første ledd kan det nyttast reaksjonar som følgjer av ordensreglementet til skolen.
+>
+> Dei som underviser på skolen, skal ikkje bruke klesplagg som heilt eller delvis dekkjer ansiktet når dei underviser elevane, med mindre bruken av slike plagg er grunngitt i klimatiske, pedagogiske, helsemessige eller tryggleiksmessige forhold. Dersom nokon bruker klesplagg i strid med forbodet, skal styret gi personen pålegg om å ta bort plagget. Gjentekne brot på forbodet kan vere grunnlag for oppseiing.
+>
+
+### 2018-07-01 — forskrift/2018-06-08-839
+
+*Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.*
+
+> Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.
+>
+
+### 2018-08-01 — forskrift/2018-06-08-825
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
+
+### 2018-08-01 — forskrift/2018-06-08-827
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
+
+### 2018-08-01 — forskrift/2018-06-22-946
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-08-01 — forskrift/2019-06-21-778
+
+*Lova gjeld frå 1. august 2019.*
+
+> Lova gjeld frå 1. august 2019.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
 >
 
 ### 2020-06-19 — lov/2020-06-19-91
@@ -2015,6 +2212,20 @@ refid: "lov/2003-07-04-84"
 
 *Nåværende § 8-3 blir § 8-2.*
 
+### 2021-01-01 — forskrift/2020-12-18-2842
+
+*Loven § 2 og § 5 trer i kraft 1. januar 2021.*
+
+> Loven § 2 og § 5 trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-80
 
 *I § 7-2 blir tredje ledd sletta. Noverande fjerde og femte ledd blir nye tredje og fjerde ledd.*
@@ -2022,6 +2233,43 @@ refid: "lov/2003-07-04-84"
 ### 2021-06-25 — forskrift/2021-06-25-2136
 
 *I § 7-2 blir tredje ledd sletta. Noverande fjerde og femte ledd blir nye tredje og fjerde ledd.*
+
+### 2021-08-01 — forskrift/2021-06-11-1899
+
+*Lova gjeld frå 1. august 2021.*
+
+> Lova gjeld frå 1. august 2021.
+>
+
+### 2022-06-15 — forskrift/2022-06-10-997
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
 
 ### 2023-08-01 — forskrift/2023-06-09-825
 
@@ -2056,6 +2304,13 @@ refid: "lov/2003-07-04-84"
 > Loven trer i kraft 1. juli 2024.
 >
 
+### 2024-08-01 — forskrift/2024-05-31-1028
+
+*Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.*
+
+> Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.
+>
+
 ### 2024-08-01 — forskrift/2024-06-14-960
 
 *Delt ikraftsetting av lov 14. juni 2024 om endringer i opplæringslova og privatskolelova (kompetansekrav, faglig ansvar og bruk av fysisk inngripen for å avverge skade m.m.).*
@@ -2075,6 +2330,20 @@ refid: "lov/2003-07-04-84"
 
 *Nåværende § 7-2 c blir ny § 7-2 d.*
 
+### 2025-08-01 — forskrift/2025-05-23-840
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
+>
+
+### 2025-08-01 — forskrift/2025-06-20-1091
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
+>
+
 ### 2026-06-19 — lov/2026-06-19-58
 
 *I lov 4. juli 2003 nr. 84 om private skolar med rett til statstilskot skal § 2-1 tredje ledd lyde:*
@@ -2091,6 +2360,25 @@ refid: "lov/2003-07-04-84"
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2026-06-19 — forskrift/2026-06-19-1137
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del III (barnehageloven) §§ 7a tredje ledd og 23a andre ledd
+>
+> Endringsloven del IV (folkehøgskoleloven)
+>
+> Følgende trer i kraft 1. august 2026:
+>
+> Endringsloven del I (opplæringslova)
+>
+> Endringsloven del II (privatskolelova)
+>
+> Endringsloven del III (barnehageloven) §§ 24 fjerde ledd og 25 tredje ledd
 >
 
 ## § 6A-1
@@ -2129,6 +2417,17 @@ refid: "lov/2003-07-04-84"
 >
 
 ## § 6A-4
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 6A-4 tredje ledd skal lyde:*
+
+> Ved tilsetjing gjeld arbeidsmiljølova §§ 13-3 og 13-4.
+>
+> 24. I lov 28. november 2003 nr. 96 om endringer i spesialisthelsetjenesteloven m.m. skal pkt. V nr. 2 tredje punktum lyde:
+>
+> Første og annet punktum gjør ingen innskrenkninger i rettighetene arbeidstakeren har etter arbeidsmiljøloven §§ 14-2 og 15-7 andre ledd
+>
 
 ### 2007-06-29 — lov/2007-06-29-92
 

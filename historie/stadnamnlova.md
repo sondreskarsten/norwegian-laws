@@ -22,6 +22,13 @@ refid: "lov/1990-05-18-11"
 
 *Noverande §§ 12-14 blir nye §§ 14-16.*
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ## § 1
 
 ### 2005-06-10 — lov/2005-06-10-53

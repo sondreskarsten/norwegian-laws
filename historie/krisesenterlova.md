@@ -7,6 +7,20 @@ refid: "lov/2009-06-19-44"
 
 ## (annet)
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*235. I lov 19. juni 2009 nr. 44 om kommunale krisesentertilbod skal § 5 første ledd annet punktum lyde:*
+
+> Brot på teieplikta straffast etter straffeloven § 209.
+>
+
+### 2017-05-22 — forskrift/2017-05-22-619
+
+*Delt ikraftsetting. Endringsloven trer i kraft fra 1. september 2017 med unntak av del II som trer i kraft straks.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft fra 1. september 2017 med unntak av del II som trer i kraft straks.
+>
+
 ### 2018-04-20 — lov/2018-04-20-5
 
 *I lov 19. juni 2009 nr. 44 om kommunale krisesentertilbod skal § 6 lyde:*
@@ -18,6 +32,77 @@ refid: "lov/2009-06-19-44"
 > Alle som utfører teneste eller arbeid etter denne lova, skal utan hinder av teieplikta melde frå til barnevernte nesta utan ugrunna opphaldnår det er grunn til å tru at eit barn blir eller vil bli mishandla, utsett for alvorlege manglar ved den daglege omsorga eller anna alvorleg omsorgssvikt,når det er grunn til å tru at eit barn har ein livstruande eller annan alvorleg sjukdom eller skade og ikkje kjem til undersøking eller behandling, eller at eit barn med nedsett funksjonsevne eller spesielt hjelpetrengande barn ikkje får dekt sitt særlege behov for behandling eller opplæring,når eit barn viser alvorlege åtferdsvanskar i form av alvorleg eller gjentatt kriminalitet, misbruk av rusmiddel eller ei anna form for utprega normlaus åtferd,når det er grunn til å tru at eit barn blir eller vil bli utnytta til menneskehandel.
 >
 > Alle som utfører teneste eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
+### 2018-07-01 — forskrift/2018-06-08-839
+
+*Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.*
+
+> Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2021-01-01 — forskrift/2020-09-25-1825
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapittel 25 trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapittel 25 trer i kraft 1. januar 2021.
+>
+> Ikraftsetting av lov 19. juni 2020 nr. 89 om endringer av internkontrollregler i sektorlovgivningen (tilpasning til ny kommunelov). Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*21. I lov 19. juni 2009 nr. 44 om kommunale krisesentertilbod skal § 6 lyde:*
+
+> § 6.Opplysningsplikt til barnevernet
+>
+> Alle som utfører teneste eller arbeid etter denne lova, skal i arbeidet sitt vere merksame på forhold som kan føre til tiltak frå barnevernstenesta.
+>
+> Alle som utfører teneste eller arbeid etter denne lova, skal utan hinder av teieplikta melde frå til barnevernstenesta utan ugrunna opphaldnår det er grunn til å tru at eit barn blir eller vil bli mishandla, utsett for alvorlege manglar ved den daglege omsorga eller anna alvorleg omsorgssvikt,når det er grunn til å tru at eit barn har ein livstruande eller annan alvorleg sjukdom eller skade og ikkje kjem til undersøking eller behandling,når det er grunn til å tru at eit barn med nedsett funksjonsevne eller eit spesielt hjelpetrengande barn ikkje får dekt sitt særlege behov for behandling eller opplæring,når eit barn har vist alvorlege åtferdsvanskar i form av alvorlege eller gjentatte brotsverk, problematisk bruk av rusmidler eller ei anna form for utprega normlaus åtferd,når det er grunn til å tru at eit barn blir eller vil bli utnytta til menneskehandel.
+>
+> Alle som utfører teneste eller arbeid etter denne lova, pliktar også å gi opplysningar etter pålegg i samsvar med barnevernsloven § 13-4.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
 >
 
 ### 2025-06-20 — lov/2025-06-20-42

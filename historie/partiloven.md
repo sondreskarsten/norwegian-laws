@@ -58,6 +58,13 @@ refid: "lov/2005-06-17-102"
 > Delt ikraftsetting av Stortingets vedtak 10. januar 2013 til lov om endringar i partiloven. Endringene, med unntak av ny § 18a, § 18b, § 20a og § 20b, trer i kraft 1. mars 2013. Ny § 18a, § 18b, § 20a og § 20b trer i kraft 1. januar 2014.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-18 — lov/2021-06-18-127
 
 *I lov 17. juni 2005 nr. 102 om visse forhold vedrørende de politiske partiene skal § 24 sjuende ledd andre punktum lyde:*
@@ -65,9 +72,34 @@ refid: "lov/2005-06-17-102"
 > Forvaltningsloven § 13 a første ledd nr. 1 til 3 og § 13 b første ledd nr. 2 til 7 får likevel anvendelse.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2024-05-01 — forskrift/2024-03-22-553
+
+*Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.*
+
+> Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.
+>
+
 ### 2025-06-20 — lov/2025-06-20-94
 
 *Nåværende femte ledd blir nytt sjette ledd.*
+
+### 2025-06-20 — forskrift/2025-06-20-1094
+
+*---.*
+
+> ---.
+>
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av bestemmelsene nevnt i punkt 3 nedenfor.
+>
+> Enhetsregisterloven § 6-5 andre ledd og § 8-3 første ledd tredje og fjerde punktum trer i kraft på et senere tidspunkt.
+>
 
 ### 2025-07-01 — forskrift/2025-06-20-1138
 
@@ -89,6 +121,13 @@ refid: "lov/2005-06-17-102"
 *§ 1 tredje ledd skal lyde:*
 
 > (3) Loven gjelder for de politiske partienes hovedorganisasjon, sentrale ungdomsorganisasjon, fylkesorganisasjon, fylkesungdomsorganisasjon og kommunale organisasjon. Gruppene i Stortinget, fylkesting og kommunestyrer omfattes ikke av loven. Kapittel 3 og 4 gjelder for partier som er registrert i samsvar med kapittel 2.
+>
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 1 første ledd første strekpunkt skal lyde:*
+
+> å legge til rette for valg etter valgloven gjennom en offentlig registreringsordning for de politiske partiene,
 >
 
 ## § 11
@@ -335,6 +374,10 @@ refid: "lov/2005-06-17-102"
 > (3) Partiet eller partileddet skal minst én gang årlig gi det sentrale registeret for ordningen opplysninger om hvem som er oppnevnt som kontaktperson. Opplysningene skal bekreftes av partiets hovedorganisasjon.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 21 annet punktum oppheves.*
+
 ## § 21 a
 
 ### 2013-02-01 — lov/2013-02-01-6
@@ -417,6 +460,13 @@ refid: "lov/2005-06-17-102"
 > (7) Enhver som utfører tjeneste eller arbeid for Partilovnemnda eller Partirevisjonsutvalget, plikter å hindre at andre får adgang eller kjennskap til det vedkommende i forbindelse med tjenesten eller arbeidet får vite om partiinterne forhold. Forvaltningsloven § 13 a første ledd nr. 1 til 3 og § 13 b første ledd nr. 2 til 6 får likevel anvendelse.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24 sjette ledd skal lyde:*
+
+> (6) Revisorloven § 6-1 om taushetsplikt er ikke til hinder for at Partirevisjonsutvalget legger fram opplysninger av betydning for etterlevelsen av denne loven eller straffeloven §§ 387 til 389, for Partilovnemnda.220. I lov 21. desember 2005 nr. 126 om kosmetikk og kroppspleieprodukt m.m. gjøres følgende endring:
+>
+
 ## § 25
 
 ### 2013-02-01 — lov/2013-02-01-6
@@ -441,6 +491,15 @@ refid: "lov/2005-06-17-102"
 > Departementet kan i forskrift gi nærmere bestemmelser om nemndas virksomhet og sammensetning. Departementet kan videre gi forskrift om klagerett over nemndas avgjørelser i saker om dokumentinnsyn etter forvaltningsloven og offentlighetsloven og saksomkostninger etter forvaltningsloven § 36. Departementet kan i forskrift gi tilsvarende bestemmelser om Partirevisjonsutvalget.
 >
 
+## § 3
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 3 andre ledd bokstav d skal lyde:*
+
+> erklæring fra minst 10 000 personer som har stemmerett ved stortingsvalg, om at de ønsker partinavnet registrert. Den som avgir erklæring, må ha nådd stemmerettsalderen innen utløpet av det kalenderår søknaden fremsettes. Settes søknaden frem mindre enn ett år før et valg, er det tilstrekkelig at stemmerettsalderen er nådd innen utløpet av valgåret. Av erklæringen skal fremgå navnet, fødselsdatoen og adressen til den som har avgitt den. Erklæringen skal være underskrevet og datert av den som har avgitt den. Ingen erklæring skal være mer enn ett år eldre enn søknaden.
+>
+
 ## § 4
 
 ### 2022-06-17 — lov/2022-06-17-66
@@ -455,4 +514,24 @@ refid: "lov/2005-06-17-102"
 *§ 4 andre ledd tredje punktum skal lyde:*
 
 > Hvis ett av partiene fikk minst 500 stemmer i ett valgdistrikt eller minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d.
+>
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 4 skal lyde:*
+
+> § 4.Endring av registrert partinavn. Sammenslåing av partier under nytt navn
+>
+> (1) Et registrert politisk parti kan søke om å få endre det registrerte partinavnet. Bestemmelsene i § 3 gjelder tilsvarende. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å endre navnet på partiet. Hvis partiet fikk minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d.
+>
+> (2) Hvis to eller flere registrerte partier slår seg sammen og søker registrering under et nytt navn, anses det for søknad om navneendring. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å slå partiene sammen og søke registrering under et nytt navn. Hvis ett av partiene fikk minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d.
+>
+
+## § 9
+
+### 2023-06-16 — lov/2023-06-16-62
+
+*§ 9 nytt andre punktum skal lyde:*
+
+> Departementet kan også gi forskrift om krav til elektronisk underskrift på erklæringer om ønske om registrering av partinavn etter § 3 og om endring av registrert partinavn etter § 4 gjennom en godkjent elektronisk løsning.
 >

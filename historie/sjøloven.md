@@ -106,6 +106,15 @@ refid: "lov/1994-06-24-39"
 > Reglene i avsnitt III gjelder bare hvis den som gjør gjeldende begrensning av ansvar begjærer det, og vedkommende på det tidspunkt da begjæringen fremsettes har sitt hovedforretningssted eller, hvis vedkommende ikke har noe hovedforretningssted, har sin bopel, i en fremmed stat som er bundet av London-konvensjonen 1976 om begrensning av ansvaret for sjørettslige krav (1976-begrensningskonvensjonen), men ikke av endringsprotokollen av 1996 til 1976-begrensningskonvensjonen (1996-endringsprotokollen).
 >
 
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) skal ny § 101 a lyde:*
+
+> § 101 a.Bruk av elektronisk kommunikasjon
+>
+> Krav i kapitlet her om at tilkjennegivelse, underretning, varsel eller liknende skal gis skriftlig, er ikke til hinder for bruk av elektronisk kommunikasjon dersom partene uttrykkelig har godtatt det.
+>
+
 ### 2002-04-05 — lov/2002-04-05-8
 
 *I lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) skal § 194 første ledd lyde:*
@@ -317,6 +326,26 @@ refid: "lov/1994-06-24-39"
 > Ingen, heller ikke eieren, befrakteren eller selskapet som er ansvarlig for skipets drift etter definisjonen i SOLAS-konvensjonens regel IX/1, skal på noen måte helt eller delvis forhindre skipsføreren i å treffe beslutninger eller iverksette tiltak som etter skipsførerens yrkesmessige skjønn er nødvendig for sikkerheten til menneskeliv til sjøs eller for vern av det marine miljøet.
 >
 
+### 2007-02-16 — lov/2007-02-16-9
+
+*I kapittel 18 gjøres følgende endringer:*
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*Overskriften i kapittel 18 skal lyde:*
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*Avsnitt I og § 471 oppheves.*
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*I kapittel 20 gjøres følgende endringer:*
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*Avsnitt II og § 506 oppheves.*
+
 ### 2007-12-21 — lov/2007-12-21-128
 
 *Kapitteloverskriften til kapittel 10 plasseres mellom § 182 og § 183 og skal lyde:*
@@ -425,6 +454,17 @@ refid: "lov/1994-06-24-39"
 > bokstav f skal lyde:ansatte hos personer som er omfattet av bokstav b, c, d og e, eller andre som personer som nevnt i bokstav b, c, d eller e svarer for, unntatt person som selv har voldt skaden ved forsett eller grov uaktsomhet, og med forståelse av at slik skade sannsynligvis ville oppstå.
 >
 
+### 2007-12-21 — lov/2007-12-21-128
+
+*I lov 7. januar 2005 nr. 2 om endringer i lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) og i enkelte andre lover oppheves del VII.*
+
+### 2008-06-06 — lov/2008-06-06-37
+
+*6. I lov 24. juni 1994 nr. 39 om sjøfarten skal ny § 16 femte ledd lyde:*
+
+> Departementet kan fastsette forskrift om forbud mot registrering i norsk ordinært skipsregister eller norsk internasjonalt skipsregister for fartøy som er oppført på lister i regionale fiskeriforvaltningsorganisasjoner over fartøy som driver ulovlig, urapportert eller uregulert fiske. Departementet kan likeledes fastsette forskrift om forbud mot registrering for fartøy som er underlagt forbud i medhold av lov om forvaltning av viltlevande marine ressursar § 51 første ledd a og b.
+>
+
 ### 2008-07-01 — forskrift/2007-02-23-226
 
 *Lov 7. januar 2005 nr. 2 om endringer i lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) og i enkelte andre lover trer i kraft 1. juli 2008.*
@@ -442,6 +482,13 @@ refid: "lov/1994-06-24-39"
 ### 2009-06-19 — lov/2009-06-19-102
 
 *Nåværende annet, tredje og fjerde punktum blir nytt tredje, fjerde og femte punktum.*
+
+### 2010-01-01 — forskrift/2009-10-16-1279
+
+*Lov 19. juni 2009 nr. 79 om endringer i tvisteloven m.m. avsnitt I, II, IV, VI og VII trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 79 om endringer i tvisteloven m.m. avsnitt I, II, IV, VI og VII trer i kraft 1. januar 2010.
+>
 
 ### 2010-03-26 — lov/2010-03-26-10
 
@@ -491,6 +538,13 @@ refid: "lov/1994-06-24-39"
 > § 182 c.Sanksjoner ved forsømt forsikrings- og sertifikatplikt
 >
 > Reglene i § 199 gjelder tilsvarende når et norsk skip ikke har påbudt forsikring eller annen sikkerhet eller påbudt sertifikat for forsikring eller sikkerhet om bord etter reglene i § 182 a.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
 >
 
 ### 2013-06-07 — lov/2013-06-07-30
@@ -550,6 +604,13 @@ refid: "lov/1994-06-24-39"
 > § 430 andre ledd vert oppheva.
 >
 
+### 2013-06-21 — lov/2013-06-21-102
+
+*5. I lov 24. juni 1994 nr. 39 om sjøfarten skal § 408 annet ledd annet punktum lyde:*
+
+> Om opptak av forklaring gjelder skipsarbeidsloven § 9-3 første ledd tilsvarende for passasjerer.
+>
+
 ### 2013-07-01 — forskrift/2013-04-05-341
 
 *Lovens del I trer i kraft 1. juli 2013.*
@@ -557,11 +618,33 @@ refid: "lov/1994-06-24-39"
 > Lovens del I trer i kraft 1. juli 2013.
 >
 
+### 2013-08-20 — forskrift/2013-06-21-730
+
+*---*
+
+> ---
+>
+> Delt ikraftsetting av skipsarbeidsloven. Loven settes i kraft 20. august 2013, med unntak av lovens kapittel 10 som settes i kraft 1. januar 2014.
+>
+> Delt opphevelse av sjømannslov 30. mai 1975 nr. 18. Loven oppheves fra 20. august 2013, med unntak av lovens kapittel IIA som oppheves fra 1. januar 2014.
+>
+> Delt ikraftsetting av lov 19. desember 2008 nr. 123 om endringar i sjømannslov 30. mai 1975 nr. 18 mv. Del III og IV settes i kraft fra 20. august 2013.
+>
+> ---
+>
+
 ### 2014-01-01 — forskrift/2013-12-06-1410
 
 *Lov 7. juni 2013 nr. 30 om endringar i sjøloven (reglar om passasjeransvar, m.a. gjennomføring av forordning (EF) nr. 392/2009) trer i kraft 1. januar 2014.*
 
 > Lov 7. juni 2013 nr. 30 om endringar i sjøloven (reglar om passasjeransvar, m.a. gjennomføring av forordning (EF) nr. 392/2009) trer i kraft 1. januar 2014.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
 >
 
 ### 2015-05-12 — lov/2015-05-12-30
@@ -751,6 +834,20 @@ refid: "lov/1994-06-24-39"
 > Lova gjeld frå 1. juli 2016.
 >
 
+### 2016-07-01 — forskrift/2016-06-17-667
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-885
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
 ### 2018-12-20 — lov/2018-12-20-115
 
 *Nytt kapittel 10 a skal lyde:*
@@ -897,13 +994,66 @@ refid: "lov/1994-06-24-39"
 > Reglene i §§ 411 til 417, § 418 d, §§ 419 til 429 og § 501 første ledd nr. 4 til 6 kan ikke ved forhåndsavtale fravikes til skade for passasjeren.
 >
 
+### 2020-05-07 — forskrift/2020-05-07-946
+
+*Delt ikraftsetting av loven. Del I gjelder fra det tidspunkt som tilleggsprotokoll 20. februar 2008 om elektroniske fraktbrev (eCMR) til Genève-konvensjonen 19. mai 1956 om fraktavtaler ved internasjonal godsbefordring på veg (CMR) trer i kraft for Norge.*
+
+> Delt ikraftsetting av loven. Del I gjelder fra det tidspunkt som tilleggsprotokoll 20. februar 2008 om elektroniske fraktbrev (eCMR) til Genève-konvensjonen 19. mai 1956 om fraktavtaler ved internasjonal godsbefordring på veg (CMR) trer i kraft for Norge.
+>
+
 ### 2020-05-20 — lov/2020-05-20-42
 
 *Gjeldende § 418 d blir ny § 418 e.*
 
+### 2020-07-01 — forskrift/2020-04-17-818
+
+*Endringsloven trer i kraft 1. juli 2020.*
+
+> Endringsloven trer i kraft 1. juli 2020.
+>
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-115
 
 *Nåværende andre ledd blir nytt tredje ledd.*
+
+### 2024-01-01 — forskrift/2023-12-20-2168
+
+*Endringsloven trer i kraft 1. januar 2024.*
+
+> Endringsloven trer i kraft 1. januar 2024.
+>
+
+### 2025-02-11 — forskrift/2024-11-11-2739
+
+*Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007, trer i kraft for Norge 11. februar 2025. Lov 20. desember 2018 nr. 115 om endringer i sjøloven mv. (fjerning av vrak) trer derfor i kraft 11. februar 2025, jf. kgl.res. 11. oktober 2024 nr. 2458 med hjemmel i lov 20. desember 2018 nr*
+
+> Den internasjonale Nairobi-konvensjonen om fjerning av vrak, 2007, trer i kraft for Norge 11. februar 2025. Lov 20. desember 2018 nr. 115 om endringer i sjøloven mv. (fjerning av vrak) trer derfor i kraft 11. februar 2025, jf. kgl.res. 11. oktober 2024 nr. 2458 med hjemmel i lov 20. desember 2018 nr. 115 om endringer i sjøloven mv. (fjerning av vrak) del IV.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
 
 ## § 1
 
@@ -938,6 +1088,20 @@ refid: "lov/1994-06-24-39"
 
 ## § 11
 
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 11 tredje ledd skal lyde:*
+
+> Norsk skip med største lengde under 15 meter kan på begjæring av eieren innføres i skipsregisteret, dersom største lengde er minst 7 meter eller skipet er merkepliktig etter lov 26. mars 1999 nr. 15 om retten til å delta i fiske og fangst (deltakerloven) eller skal brukes utelukkende eller hovedsakelig i næringsvirksomhet. Når skipet er innført i skipsregisteret, gjelder reglene i dette kapittel. Rettsvern etter panteloven §§ 3-2, 3-6, 3-12 eller 3-17 for avtalepant i skip mellom 7 og 10 meter bortfaller dersom rettsvernet ikke er fornyet i samsvar med panteloven § 3-3 innen ett år fra den datoen dette ledd trer i kraft. På samme måte bortfaller rettsvern etter panteloven §§ 5-4 og 5-6 for utleggspant dersom det ikke er fornyet i samsvar med panteloven § 5-3.
+>
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 11 niende ledd oppheves.*
+
+> 19. I lov 24. februar 1995 nr. 11 om lotterier mv. gjøres følgende endring:
+>
+
 ### 2013-12-13 — lov/2013-12-13-114
 
 *§ 11 åttende ledd oppheves.*
@@ -967,7 +1131,20 @@ refid: "lov/1994-06-24-39"
 > Avgjørelsen hører under tingretten og treffes i form av kjennelse, som kan ankes.
 >
 
+## § 13
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 13 annet ledd sjette punktum skal lyde:*
+
+> Ved salg gis melding av både kjøperen og selgeren, men av selgeren hvis salget medfører at skipet ikke lenger er å anse som norsk.
+>
+
 ## § 136
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 136 femte ledd oppheves.*
 
 ### 2023-06-16 — lov/2023-06-16-34
 
@@ -1009,6 +1186,12 @@ refid: "lov/1994-06-24-39"
 >
 > Departementet kan i forskrift fastsette at opplysninger eller attester som det finner nødvendig av hensyn til registerførerens kontroll, skal gis på fastsatt måte. Departementet kan i forskrift fastsette krav om innlevering av gjenpart av dokument som skal registreres, at gjenparten skal være bekreftet og hvem som kan gi slik bekreftelse.
 >
+
+## § 14 d
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 14 d annet ledd oppheves.*
 
 ## § 143
 
@@ -1128,7 +1311,9 @@ refid: "lov/1994-06-24-39"
 
 *§ 173 nr. 1 og nr. 2 skal lyde:*
 
-> krav på bergelønn, herunder særlig vederlag etter § 449, felleshavaribidrag eller vederlag i henhold til kontrakt vedrørende tiltak som nevnt i § 172 første ledd nr. 4 eller § 172a første ledd;krav i anledning oljesøl av den art som er nevnt i §§ 191 og 207;
+> krav på bergelønn, herunder særlig vederlag etter § 449, felleshavaribidrag eller vederlag i henhold til kontrakt vedrørende tiltak som nevnt i § 172 første ledd nr. 4 eller § 172a første ledd;
+>
+> krav i anledning oljesøl av den art som er nevnt i §§ 191 og 207;
 >
 
 ### 2015-05-12 — lov/2015-05-12-30
@@ -1153,14 +1338,30 @@ refid: "lov/1994-06-24-39"
 
 *§ 175 første ledd nr. 1 skal lyde:*
 
-> For krav i anledning personskade tilføyet skipets egne passasjerer er ansvarsgrensen 250 000 SDR multiplisert med det antall passasjerer som skipet ifølge sitt sertifikat har adgang til å føre.
+> For krav i anledning personskade tilføyet skipets egne passasjerer er ansvarsgrensen 250 000 SDR multiplisert med det antall passasjerer som skipet ifølge sitt sertifikat har adgang til å føre.
 >
 
 ### 2015-05-12 — lov/2015-05-12-30
 
 *§ 175 nr. 1 til 3 skal lyde:*
 
-> For krav i anledning personskade tilføyet skipets egne passasjerer er ansvarsgrensen 250 000 SDR multiplisert med det antall passasjerer som skipet ifølge sitt sertifikat har adgang til å føre.For andre krav i anledning av personskade er ansvarsgrensen 3.020.000 SDR. For skip med tonnasje på mer enn 2.000 tonn forhøyes ansvarsgrensen slik:for hvert tonn fra 2.001 til 30.000 tonn, med 1208 SDR,for hvert tonn fra 30.001 til 70.000 tonn, med 906 SDR, ogfor hvert tonn over 70.000 tonn, med 604 SDR.Ansvarsgrensen for alle andre krav, samt udekket rest av krav som nevnt i nr. 2, er 1.510.000 SDR. For skip med tonnasje på mer enn 2.000 tonn forhøyes ansvarsgrensen slik:for hvert tonn fra 2.001 til 30.000 tonn, med 604 SDR,for hvert tonn fra 30.001 til 70.000 tonn, med 453 SDR,for hvert tonn over 70.000 tonn, med 302 SDR.
+> For krav i anledning personskade tilføyet skipets egne passasjerer er ansvarsgrensen 250 000 SDR multiplisert med det antall passasjerer som skipet ifølge sitt sertifikat har adgang til å føre.
+>
+> For andre krav i anledning av personskade er ansvarsgrensen 3.020.000 SDR. For skip med tonnasje på mer enn 2.000 tonn forhøyes ansvarsgrensen slik: for hvert tonn fra 2.001 til 30.000 tonn, med 1208 SDR, for hvert tonn fra 30.001 til 70.000 tonn, med 906 SDR, og for hvert tonn over 70.000 tonn, med 604 SDR.
+>
+> for hvert tonn fra 2.001 til 30.000 tonn, med 1208 SDR,
+>
+> for hvert tonn fra 30.001 til 70.000 tonn, med 906 SDR, og
+>
+> for hvert tonn over 70.000 tonn, med 604 SDR.
+>
+> Ansvarsgrensen for alle andre krav, samt udekket rest av krav som nevnt i nr. 2, er 1.510.000 SDR. For skip med tonnasje på mer enn 2.000 tonn forhøyes ansvarsgrensen slik: for hvert tonn fra 2.001 til 30.000 tonn, med 604 SDR, for hvert tonn fra 30.001 til 70.000 tonn, med 453 SDR, for hvert tonn over 70.000 tonn, med 302 SDR.
+>
+> for hvert tonn fra 2.001 til 30.000 tonn, med 604 SDR,
+>
+> for hvert tonn fra 30.001 til 70.000 tonn, med 453 SDR,
+>
+> for hvert tonn over 70.000 tonn, med 302 SDR.
 >
 
 ## § 175 a
@@ -1684,6 +1885,15 @@ refid: "lov/1994-06-24-39"
 > Dersom noen som medfølger et skip uten å være passasjer eller høre til besetningen, blir drept eller lider tap som nevnt i § 418, gjelder reglene om bortfrakterens innsigelser og ansvarsbegrensning tilsvarende til fordel for enhver på rederens side som det blir gjort erstatningsansvar gjeldende mot.
 >
 
+## § 408
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 408 annet ledd skal lyde:*
+
+> Om bruk av maktmidler gjelder reglene i lov om skipssikkerhet (skipssikkerhetsloven) § 40 annet og tredje ledd. Om opptak av forklaring gjelder sjømannsloven § 49 tilsvarende for passasjerer.
+>
+
 ## § 418
 
 ### 2013-06-07 — lov/2013-06-07-30
@@ -2006,6 +2216,13 @@ refid: "lov/1994-06-24-39"
 
 ## § 475
 
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 475 fjerde ledd første punktum skal lyde:*
+
+> Ved arbeidsulykke som rammer arbeidstaker om bord på skipet skal melding i stedet skje etter reglene gitt i og i medhold av lov om skipssikkerhet (skipssikkerhetsloven) § 47.
+>
+
 ### 2008-06-27 — lov/2008-06-27-72
 
 *§ 475 skal lyde:*
@@ -2202,6 +2419,15 @@ refid: "lov/1994-06-24-39"
 > I særlige tilfelle kan lederen unnlate å delta i skjønnet og overlate til skjønnsmedlemmene å holde det alene med påfølgende avhjemling i rettsmøte.
 >
 
+## § 489
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 489 første ledd tredje punktum skal lyde:*
+
+> Er det skjellig grunn til mistanke om at reglene om skipssikkerhet eller sikkerhet til sjøs er overtrådt, skal også vedkommende politimester varsles.
+>
+
 ## § 490
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -2315,14 +2541,6 @@ refid: "lov/1994-06-24-39"
 >
 > Ved vurderingen av om en overtredelse av første ledd er vesentlig, skal det særlig legges vekt på overtredelsens omfang og virkninger og graden av utvist skyld.
 >
-> 165. I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 8-1 lyde:
->
-> Med unntak av overtredelse av plikter etter § 5-1 eller plikter som omfattes av helsepersonellovgivningen, straffes forsettlig eller uaktsom overtredelse av loven her eller vedtak gitt med hjemmel i loven med bot eller fengsel inntil 2 år. Dersom overtredelsen har tap av menneskeliv eller betydelig skade på legeme eller helse som følge, er straffen bot eller fengsel inntil 4 år.
->
-> 166. I lov 12. januar 1995 nr. 6 om medisinsk utstyr skal § 12 første ledd lyde:
->
-> Den som forsettlig eller uaktsomt overtrer bestemmelser eller pålegg gitt i eller i medhold av denne lov, straffes med bøter eller fengsel inntil 3 måneder, eller under særlig skjerpende omstendigheter med bøter eller fengsel inntil 2 år.
->
 
 ### 2018-12-20 — lov/2018-12-20-115
 
@@ -2355,6 +2573,26 @@ refid: "lov/1994-06-24-39"
 >
 > Flyttbare plattformer som er innført i et annet lands skipsregister, anses likevel som norske hvis de er bareboatregistrert i norsk skipsregister i henhold til § 40.
 >
+
+## § 7
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 7 annet ledd annet punktum skal lyde:*
+
+> Skipsregistrene kan samtykke i at skipet også i andre tilfeller blir gitt nytt navn når det er rimelig grunn til det.
+>
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 7 tredje ledd skal lyde:*
+
+> Skipsnavn kan ved melding til Skipsregistrene reserveres så snart det er sluttet avtale om kjøp eller bygging av skipet. Også i andre tilfeller kan Skipsregistrene, når det er grunn til det, reservere et skipsnavn for en søker for et tidsrom av inntil 5 år om gangen. Når et navn er reservert, har det samme vern som navn på skip som er innført i skipsregisteret.
+>
+
+### 2007-02-16 — lov/2007-02-16-9
+
+*§ 7 fjerde ledd oppheves.*
 
 ## § 8
 

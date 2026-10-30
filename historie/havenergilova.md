@@ -90,6 +90,20 @@ refid: "lov/2010-06-04-21"
 
 ## (annet)
 
+### 2010-07-01 — forskrift/2010-06-04-760
+
+*Lov om fornybar energiproduksjon til havs (havenergilova) trer i kraft fra 1. juli 2010.*
+
+> Lov om fornybar energiproduksjon til havs (havenergilova) trer i kraft fra 1. juli 2010.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2014-06-20 — lov/2014-06-20-56
 
 *I lov 4. juni 2010 nr. 21 om fornybar energiproduksjon til havs skal § 10-9 fjerde ledd lyde:*
@@ -97,9 +111,23 @@ refid: "lov/2010-06-04-21"
 > Ved avgjerd av om gebyr for brot på føresegn skal påleggjast og ved utmåling av sanksjonen skal det særleg leggjast vekt på:kor alvorleg brotet er,om den som bryt føresegna, ved retningslinjer, instruksjon, opplæring, kontroll eller andre tiltak kunne ha førebygd brotet,om brotet er gjort for å fremje den som bryt føresegna sine interesser,om den som bryt føresegna, har hatt eller kunne ha oppnådd ein fordel ved brotet,om det er tale om gjentaking,den økonomiske stillinga for den som bryt føresegna.
 >
 
+### 2014-07-01 — forskrift/2014-06-20-782
+
+*Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.*
+
+> Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.
+>
+
 ### 2020-12-18 — lov/2020-12-18-157
 
 *Gjeldende § 10-10 blir ny § 10-13.*
+
+### 2021-07-01 — forskrift/2021-06-04-1778
+
+*Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.*
+
+> Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.
+>
 
 ### 2022-12-16 — lov/2022-12-16-96
 

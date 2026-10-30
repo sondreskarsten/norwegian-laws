@@ -277,6 +277,13 @@ refid: "lov/1997-02-28-19"
 > mottar sykepenger eller foreldrepenger eller er under behandling i sykehus
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 2-14 tredje ledd bokstav b skal lyde:*
+
+> er godtatt som arbeidssøkende hos Arbeids- og velferdsetaten eller norsk mønstringsmyndighet, eller
+>
+
 ## § 2-17
 
 ### 2010-12-17 — lov/2010-12-17-81
@@ -296,11 +303,27 @@ refid: "lov/1997-02-28-19"
 > Departementet kan gi forskrift til utfylling og gjennomføring av bestemmelsene i paragrafen her, herunder om anvendelsen av andre og tredje ledd og om omfanget av dekningen av helsetjenester etter fjerde ledd.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 2-17 første ledd første punktum skal lyde:*
+
+> Vilkårene for medlemskap i trygden etter kapitlet her anses ikke oppfylt i tidsrom da en person sitter i varetekt, soner straff, utholder tvungent psykisk helsevern eller tvungen omsorg etter straffeloven eller er anbrakt i institusjon som nevnt i barnevernsloven § 6-2.
+>
+
 ### 2023-06-16 — lov/2023-06-16-36
 
 *§ 2-17 tredje ledd skal lyde:*
 
 > Dersom en person dør før det er fattet endelig vedtak om utvisning, kan barnepensjon og omstillingsstønad eller pensjon til gjenlevende ektefelle tilstås og beregnes uten hensyn til bestemmelsene i andre ledd.
+>
+
+## § 2-30
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 2-30 bokstav g nytt nr. 7 skal lyde:*
+
+> Regionalt helseforetak og helseforetak
 >
 
 ## § 3-1
@@ -533,6 +556,13 @@ refid: "lov/1997-02-28-19"
 > Trygdetid etter andre ledd regnes som botid, se §§ 17-4, 18-3 og 19-3.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-5 sjette ledd skal lyde:*
+
+> Trygdetid i alderspensjoner medregnes fra utløpet av det året fastsettingen av formues- og inntektsskatt for det aktuelle året er ferdig.
+>
+
 ### 2016-06-17 — lov/2016-06-17-25
 
 *§ 3-5 åttende ledd skal lyde:*
@@ -691,6 +721,13 @@ refid: "lov/1997-02-28-19"
 > pensjon, føderåd, livrente som er ledd i pensjonsordning i arbeidsforhold, engangs- og avløsningsbeløp for slike ytelser, utbetalinger etter innskuddspensjonsloven og utbetalinger under individuell pensjonsavtale etter skatteloven § 6-47 bokstav c.
 >
 
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 3-15 annet ledd ny bokstav d skal lyde:*
+
+> introduksjonsstønad beregnet etter lov om introduksjonsordning for nyankomne innvandrere kapittel 3.
+>
+
 ### 2006-01-01 — lov/2005-12-16-119
 
 *§ 3-15 annet ledd bokstav b skal lyde:*
@@ -847,6 +884,13 @@ refid: "lov/1997-02-28-19"
 > Dersom uføregraden på grunn av yrkesskaden var lavere enn 100 prosent, beregnes bare en tilsvarende andel av alderspensjonen etter bestemmelsene i første og andre ledd.
 >
 > Departementet kan gi forskrifter om godskriving av pensjonspoeng og beregning av alderspensjon når uførhet skyldes yrkesskade.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-18 annet ledd annet punktum skal lyde:*
+
+> Naturalytelser og overskudd på utgiftsgodtgjørelser regnes med og gis den verdien som legges til grunn ved fastsetting av inntektskatt.
 >
 
 ## § 3-19
@@ -1070,6 +1114,13 @@ refid: "lov/1997-02-28-19"
 > Til en person som har fylt 67 år og mottar hel alderspensjon etter kapittel 19, ytes det et barnetillegg for hvert barn vedkommende forsørger dersomvedkommende er medlem i trygden etter § 2-1, § 2-3 første ledd eller § 2-5 første ledd, ogbarnet er bosatt og oppholder seg lovlig i Norge, herunder Svalbard. Det gis likevel barnetillegg under utenlandsopphold hvis oppholdet eller oppholdene til sammen ikke varer mer enn 90 dager i løpet av en tolv månedersperiode, eller barnet er medlem i trygden etter § 2-5 andre ledd.
 >
 > For rett til barnetillegg må virkningstidspunktet ved fremsetting av krav være før 1. januar 2022. Til og med 31. desember 2022 utgjør fullt barnetillegg 20 prosent av minste pensjonsnivå med høy sats, se § 19-8. Dersom grunnpensjonen er redusert på grunn av manglende trygdetid, reduseres tilleggene tilsvarende. Fra og med 1. januar 2023 fases barnetillegget gradvis ut slik at fullt tillegg utgjør 67 prosent av tillegget etter andre punktum i 2024 og 33 prosent av tillegget etter andre punktum i 2024. Fra og med 1. januar 2025 bortfaller tillegget.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 3-25 fjerde ledd første punktum skal lyde:*
+
+> Barnetillegg for fosterbarn (se barnevernsloven § 9-1) ytes dersom pensjonisten har forsørget barnet i de siste to årene før krav om tillegg blir satt fram.
 >
 
 ### 2022-12-20 — lov/2022-12-20-100
@@ -1379,6 +1430,13 @@ refid: "lov/1997-02-28-19"
 
 ## § 4-6
 
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 4-6 første ledd skal lyde:*
+
+> Det ytes ikke dagpenger til medlem som gjennomgår utdanning eller opplæring, eller deltar i ulønnet arbeid. Departementet kan gi forskrifter om unntak fra denne bestemmelse når det gjelderutdanning eller opplæring utenfor normal arbeidstid,utdanning eller opplæring av kortere varighet innenfor normal arbeidstid,ulønnet arbeid av hobbypreget eller sosial karakter,ulønnet arbeid som pålegges etter sosialtjenesteloven,deltakelse i introduksjonsprogram etter lov om introduksjonsordning for nyankomne innvandrere.
+>
+
 ### 2005-06-17 — lov/2005-06-17-57
 
 *§ 4-6 første ledd, nytt tredje strekpunkt skal lyde:*
@@ -1386,6 +1444,20 @@ refid: "lov/1997-02-28-19"
 > deltakelse i arbeidsmarkedstiltak
 >
 > Gjeldande strekpunkt nr. tre blir nr. fire, nr. fire blir nr. fem osv.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 4-6 første ledd sjette strekpunkt skal lyde:*
+
+> deltakelse i introduksjonsprogram etter introduksjonsloven.
+>
+
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 4-6 første ledd annet punktum femte strekpunkt skal lyde:*
+
+> ulønnet arbeid som pålegges etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen,
 >
 
 ### 2016-06-17 — lov/2016-06-17-25
@@ -2020,7 +2092,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 4-25 første ledd bokstav d og e skal lyde:*
 
-> uførepensjon etter lovens kapittel 12, når denne er gitt med virkningstidspunkt i inneværende år eller innenfor de to siste kalenderår før dagpenger tilstås,fødselspenger, adopsjonspenger eller svangerskapspenger etter lovens kapittel 14,
+> uførepensjon etter lovens kapittel 12, når denne er gitt med virkningstidspunkt i inneværende år eller innenfor de to siste kalenderår før dagpenger tilstås,
+>
+> fødselspenger, adopsjonspenger eller svangerskapspenger etter lovens kapittel 14,
 >
 
 ### 2005-06-17 — lov/2005-06-17-57
@@ -2182,6 +2256,15 @@ refid: "lov/1997-02-28-19"
 > Stortinget fastsetter i tillegg et egenandelstak 2, som er det høyeste samlede beløp et medlem skal betale i godkjente egenandeler i løpet av et kalenderår for følgende helsetjenester:tannlege- og tannpleierhjelpfysioterapiopphold ved opptreningsinstitusjoner og andre private rehabiliteringsinstitusjoner som har driftsavtale med regionalt helseforetakbehandlingsreiser til utlandet (klimareiser).
 >
 
+## § 5-4
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 5-4 annet ledd første punktum skal lyde:*
+
+> Stønad til legehjelp gis bare dersom legen har fastlegeavtale med kommunen, jf. kommunehelsetjenesteloven § 5-1, eller avtale om driftstilskott med regionalt helseforetak, jf. lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-1a tredje ledd.
+>
+
 ## § 5-5
 
 ### 2005-02-11 — lov/2005-02-11-8
@@ -2225,6 +2308,13 @@ refid: "lov/1997-02-28-19"
 >
 
 ## § 5-7
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 5-7 annet ledd skal lyde:*
+
+> Stønad til psykologhjelp gis bare dersom psykologen har avtale om driftstilskott med regionalt helseforetak, jf. lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-1a tredje ledd.
+>
 
 ### 2015-06-05 — lov/2015-06-05-37
 
@@ -2340,6 +2430,13 @@ refid: "lov/1997-02-28-19"
 
 ## § 5-16
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 5-16 første ledd annet punktum skal lyde:*
+
+> Det samme gjelder når et medlem må reise til en helsestasjon eller et familievernkontor, og når et medlem må reise i forbindelse med en helsetjeneste som omfattes av lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. og som dekkes av et foretak etter lov 15. juni 2001 nr. 93 om helseforetak m.m.
+>
+
 ### 2001-12-21 — lov/2001-12-21-118
 
 *§ 5-16 femte og sjette ledd skal lyde:*
@@ -2358,6 +2455,13 @@ refid: "lov/1997-02-28-19"
 > § 5-20.Opptreningsinstitusjoner og helsesportssentra m.m.
 >
 > Trygden yter stønad til dekning av utgifter til opphold ved godkjente opptreningsinstitusjoner og helsesportssentra m.m.
+>
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 5-20 første ledd skal lyde:*
+
+> Trygden dekker de godkjente driftsutgiftene til enkelte institusjoner som ikke inngår i plan utarbeidet av regionalt helseforetak etter lov 15. juni 2001 nr. 93 om helseforetak m.m. § 34.
 >
 
 ### 2006-01-01 — lov/2005-12-21-127
@@ -2414,6 +2518,15 @@ refid: "lov/1997-02-28-19"
 > Grunnstønad og hjelpestønad er ytelser ved sykdom etter trygdeforordningen. Bestemmelsene i dette kapitlet skal fravikes i den utstrekning det er nødvendig av hensyn til relevante bestemmelser i EØS-avtalens hoveddel, trygdeforordningen, gjennomføringsforordningen og bi- og multilaterale trygdeavtaler, se §§ 1-3 a og 1-3 b.
 >
 
+## § 6-2
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-2 fjerde ledd annet punktum skal lyde:*
+
+> Revisor skal sende kopi av begrunnelse som nevnt i § 5-2 fjerde ledd nr. 5 som gjelder krav om bekreftelser etter skatteforvaltningsloven, til skattekontoret.
+>
+
 ## § 6-3
 
 ### 2001-06-15 — lov/2001-06-15-90
@@ -2463,6 +2576,13 @@ refid: "lov/1997-02-28-19"
 *§ 6-4 sjette ledd skal lyde:*
 
 > Dersom det kan være adgang til både hjelpestønad og kommunal omsorgsstønad, anvendes hjelpestønad først. Kommunen kan ta hensyn til hjelpestønaden ved tildeling og utmåling av omsorgsstønaden.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 6-4 første ledd tredje punktum skal lyde:*
+
+> Likestilt med et privat pleieforhold er tilsyn og pleie av et barn som er plassert i et fosterhjem etter barnevernsloven § 5-3 første ledd.
 >
 
 ## § 6-5
@@ -2548,6 +2668,13 @@ refid: "lov/1997-02-28-19"
 > Departementet gir forskrifter om ytterligere vilkår for gravferdsstønaden.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7-2 tredje ledd skal lyde:*
+
+> Formue som nevnt i andre ledd bokstav a og b skal være den formue som framgår av siste fastsetting av formues- og inntektsskatt.
+>
+
 ## § 7-3
 
 ### 2002-12-20 — lov/2002-12-20-111
@@ -2564,6 +2691,17 @@ refid: "lov/1997-02-28-19"
 *§ 7-5 andre ledd skal lyde:*
 
 > Stønaden skal dekke de nødvendige utgiftene med fradrag av en egenandel på 10 prosent av full gravferdsstønad.
+>
+
+## § 7-30b
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7-30b annet ledd annet punktum skal lyde:*
+
+> Transaksjoner mellom heleide konsoliderte foretak kan unnlates opplyst i selskapsregnskapet dersom selskapet er unntatt fra dokumentasjonsplikten etter skatteforvaltningsloven § 8-9 annet ledd.
+>
+> 21. I lov 15. januar 1999 nr. 2 om revisjon og revisorer (revisorloven) gjøres følgende endring:
 >
 
 ## § 8-1 a
@@ -2591,6 +2729,13 @@ refid: "lov/1997-02-28-19"
 *§ 8-2 andre ledd nytt andre og tredje punktum skal lyde:*
 
 > Foreldrepenger etter kapittel 14 opptjent på grunnlag av arbeidsavklaringspenger etter kapittel 11 likestilles likevel ikke med arbeid. Dersom medlemmet har vært sammenhengende yrkesaktiv (eller mottatt ytelse etter kapittel 8, 9 eller 14) i minst fire uker umiddelbart før uttaket av foreldrepenger starter, kan det likevel gis rett til sykepenger.
+>
+
+### 2020-06-12 — lov/2020-06-12-62
+
+*§ 8-2 nytt tredje ledd skal lyde:*
+
+> Likestilt med forutgående arbeid er også tidsrom da medlemmet har mottatt ytelse i medhold av midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet inntekt som følge av utbrudd av covid-19.
 >
 
 ### 2025-12-22 — lov/2025-12-22-117
@@ -2654,6 +2799,15 @@ refid: "lov/1997-02-28-19"
 ### 2021-05-21 — lov/2021-05-21-38
 
 *§ 8-4 andre ledd oppheves. Nåværende tredje og fjerde ledd blir andre og tredje ledd.*
+
+## § 8-5
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 8-5 annet ledd skal lyde:*
+
+> Det er et vilkår for rett til sykepenger etter denne paragrafen at medlemmet har meldt seg som arbeidssøker hos Arbeids- og velferdsetaten, og at et eventuelt arbeidsforhold har opphørt i samsvar med arbeidsmiljølovens bestemmelser.
+>
 
 ## § 8-6
 
@@ -2768,6 +2922,13 @@ refid: "lov/1997-02-28-19"
 > Tidligst mulig og senest når arbeidsuførheten har vart i 12 uker uten at en sykmeldt arbeidstaker er i arbeidsrelatert aktivitet, skal trygdekontoret innhente oppfølgingsplan, unntatt når en slik plan antas å være åpenbart unødvendig, jf. § 25-2 og arbeidsmiljøloven § 13 nr. 4.
 >
 > Trygdekontoret skal så tidlig som mulig vurdere om yrkesrettet attføring skal prøves dersom bedriftsinterne tiltak ikke fører frem, eller medlemmet ikke har et arbeidsforhold. En slik vurdering skal skje senest ved utløpet av sykepengeperioden.
+>
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 8-7 sjuende ledd skal lyde:*
+
+> Tidligst mulig og senest når arbeidsuførheten har vart i 12 uker uten at en sykmeldt arbeidstaker er i arbeidsrelatert aktivitet, skal trygdekontoret innhente oppfølgingsplan, unntatt når en slik plan antas å være åpenbart unødvendig, jf. § 25-2 og arbeidsmiljøloven § 4-6 tredje ledd.
 >
 
 ### 2005-12-21 — lov/2005-12-21-125
@@ -3026,14 +3187,18 @@ refid: "lov/1997-02-28-19"
 
 *§ 8-17 første ledd bokstav d og e skal lyde:*
 
-> under nødvendig kontrollundersøkelse som krever minst 24 timers fravær, se § 8-4 tredje ledd bokstav e,når arbeidstakeren er donor, se § 8-4 tredje ledd bokstav i.
+> under nødvendig kontrollundersøkelse som krever minst 24 timers fravær, se § 8-4 tredje ledd bokstav e,
+>
+> når arbeidstakeren er donor, se § 8-4 tredje ledd bokstav i.
 >
 
 ### 2022-12-20 — lov/2022-12-20-100
 
 *§ 8-17 første ledd bokstav d og e skal lyde:*
 
-> under nødvendig kontrollundersøkelse som krever minst 24 timers fravær, se § 8-4 andre ledd bokstav e,når arbeidstakeren er donor, se § 8-4 andre ledd bokstav i.
+> under nødvendig kontrollundersøkelse som krever minst 24 timers fravær, se § 8-4 andre ledd bokstav e,
+>
+> når arbeidstakeren er donor, se § 8-4 andre ledd bokstav i.
 >
 
 ## § 8-18
@@ -3094,6 +3259,13 @@ refid: "lov/1997-02-28-19"
 > Beløpet, med renter, kan innkreves etter bestemmelsene i bidragsinnkrevingsloven. Vedtak om tilbakekreving er tvangsgrunnlag for utlegg.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 8-22 tredje ledd skal lyde:*
+
+> Bestemmelser om anke over sykepenger i arbeidsgiverperioden finnes i § 21-13.
+>
+
 ### 2019-01-01 — lov/2018-12-20-98
 
 *§ 8-22 andre ledd første punktum skal lyde:*
@@ -3115,6 +3287,13 @@ refid: "lov/1997-02-28-19"
 *§ 8-24 tredje ledd innledningen skal lyde:*
 
 > Egenmelding kan likevel nyttes når vedkommende har vært i arbeid i fire uker etter avbruddet, dersom avbruddet skyldtes
+>
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 8-24 tredje ledd skal lyde:*
+
+> Egenmelding kan likevel nyttes når vedkommende har vært i arbeid i fire uker etter avbruddet, dersom avbruddet skyldtesbedriftspermitteringpermisjon etter arbeidsmiljøloven §§ 12-1 til 12-6permisjon etter sjømannsloven § 13, ellermilitær- eller siviltjeneste.
 >
 
 ### 2007-06-15 — lov/2007-06-15-21
@@ -3437,6 +3616,13 @@ refid: "lov/1997-02-28-19"
 *§ 8-47 nytt fjerde ledd skal lyde:*
 
 > Dersom et medlem mottar eller har mottatt sluttvederlag eller etterlønn i forbindelse med opphør av et arbeidsforhold, utvides fristen i første ledd til seks måneder. Ved utdanningspermisjon fra et arbeidsforhold i opptil ett år utvides fristen i første ledd til tolv måneder dersom utdanningen må avbrytes på grunn av sykdom.
+>
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 8-47 tredje ledd skal lyde:*
+
+> Likestilt med arbeid etter første ledd er også tidsromda medlemmet utfører militær- eller siviltjeneste,da en sjømann i utenriksfart avspaserer opparbeidet fritid,da medlemmet har lovbestemt ferie,da medlemmet har lovbestemt permisjon etter arbeidsmiljøloven §§ 12-1 til 12-5 dersom vedkommende har avtale om å gjenoppta arbeidet etter permisjonen.
 >
 
 ### 2019-12-20 — lov/2019-12-20-84
@@ -4473,7 +4659,11 @@ refid: "lov/1997-02-28-19"
 
 *§ 10-8 tredje ledd bokstavene e, f og ny bokstav g skal lyde:*
 
-> tidligere har mottatt rehabiliteringspenger, og igjen blir arbeidsufør på grunn av en annen sykdom innen seks måneder mens vedkommende er i arbeid uten å ha opparbeidet seg rett til sykepenger fra trygden på nytt,må avbryte yrkesrettet attføring etter kapittel 11 på grunn av sykdom, ellerer student under 26 år og har vært sammenhengende arbeidsufør i minst 20 uker på grunn av alvorlig sykdom.
+> tidligere har mottatt rehabiliteringspenger, og igjen blir arbeidsufør på grunn av en annen sykdom innen seks måneder mens vedkommende er i arbeid uten å ha opparbeidet seg rett til sykepenger fra trygden på nytt,
+>
+> må avbryte yrkesrettet attføring etter kapittel 11 på grunn av sykdom, eller
+>
+> er student under 26 år og har vært sammenhengende arbeidsufør i minst 20 uker på grunn av alvorlig sykdom.
 >
 
 ### 2003-06-20 — lov/2003-06-20-53
@@ -4728,6 +4918,13 @@ refid: "lov/1997-02-28-19"
 > Stønaden ytes i form av tilskott tilopplæring, trening og arbeidstilvenning ved skole, kurs, bedrift e.l.reise og flytting i forbindelse med attføring og nytt arbeiddekning av utgifter til medlemmets eller familiens underholdandre formål som har avgjørende betydning for å gjennomføre attføringstiltaket.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 11-7 første ledd skal lyde:*
+
+> For å ha rett til attføringspenger og attføringsstønad må medlemmet som hovedregel melde seg hos Arbeids- og velferdsetaten hver fjortende dag (meldeperioden).
+>
+
 ## § 11-8
 
 ### 2003-12-19 — lov/2003-12-19-116
@@ -4932,6 +5129,13 @@ refid: "lov/1997-02-28-19"
 *§ 11-20 femte ledd skal lyde:*
 
 > Barnetillegg etter tredje ledd ytes kun når barnet er bosatt og oppholder seg lovlig i Norge, herunder Svalbard. Det gis likevel barnetillegg under utenlandsopphold hvis oppholdet eller oppholdene til sammen ikke varer mer enn 90 dager i løpet av en tolvmånedersperiode, eller barnet er medlem i trygden etter § 2-5 andre ledd, eller barnet er med mottakeren av barnetillegg under utenlandsopphold etter § 11-3 andre ledd.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 11-20 fjerde ledd første punktum skal lyde:*
+
+> Som barn regnes egne barn og fosterbarn, se barnevernsloven § 9-1, dersom medlemmet har forsørget fosterbarnet i de to siste årene før krav om barnetillegg blir satt fram.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
@@ -5753,6 +5957,13 @@ refid: "lov/1997-02-28-19"
 
 *§ 12-15 tredje ledd andre punktum oppheves.*
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 12-15 sjette ledd første punktum skal lyde:*
+
+> Barnetillegg for fosterbarn (se barnevernsloven § 9-1) ytes dersom mottakeren har forsørget barnet i de siste to årene før krav om tillegg blir satt fram.
+>
+
 ### 2021-12-17 — lov/2021-12-17-146
 
 *§ 12-15 tredje ledd skal lyde:*
@@ -5954,7 +6165,18 @@ refid: "lov/1997-02-28-19"
 
 *§ 13-2 andre ledd sjette, sjuende og åttende strekpunkt skal lyde:*
 
-> rehabiliteringspenger står i § 10-18attføringspenger står i § 11-20tidsbegrenset uførestønad og uførepensjon står i § 12-18
+> rehabiliteringspenger står i § 10-18
+>
+> attføringspenger står i § 11-20
+>
+> tidsbegrenset uførestønad og uførepensjon står i § 12-18
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 13-2 tredje ledd skal lyde:*
+
+> Et felles lokalt kontor i arbeids- og velferdsforvaltningen kan bare godkjenne en skade eller sykdom som yrkesskade i forhold til de særytelser som kontoret kan innvilge.
 >
 
 ### 2008-12-19 — lov/2008-12-19-106
@@ -6049,11 +6271,32 @@ refid: "lov/1997-02-28-19"
 
 ## § 13-11
 
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 13-11 første ledd første punktum skal lyde:*
+
+> Medlemmer som deltar i arbeidsmarkedstiltak, attføringstiltak, kurs eller lignende i regi av arbeidsmarkedsetaten eller trygdeetaten, eller deltar i program i henhold til lov om introduksjonsordning for nyankomne innvandrere, er yrkesskadedekket.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 13-11 første ledd første punktum skal lyde:*
+
+> Medlemmer som deltar i arbeidsmarkedstiltak, attføringstiltak, kurs eller lignende i regi av Arbeids- og velferdsetaten, eller deltar i program i henhold til introduksjonsloven, er yrkesskadedekket.
+>
+
 ### 2007-10-26 — lov/2007-10-26-97
 
 *§ 13-11 første ledd første punktum skal lyde:*
 
 > Medlemmer som deltar i arbeidsmarkedstiltak, attføringstiltak, kurs eller lignende i regi av Arbeids- og velferdsetaten, i kvalifiseringsprogram i kommunal regi, eller i program i henhold til introduksjonsloven, er yrkesskadedekket.
+>
+
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 13-11 andre ledd skal lyde:*
+
+> Medlemmer som er pålagt å utføre arbeidsoppgaver etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen § 20, er yrkesskadedekket under slikt arbeid.
 >
 
 ### 2019-06-21 — lov/2019-06-21-25
@@ -6094,6 +6337,13 @@ refid: "lov/1997-02-28-19"
 >
 
 ### 2010-12-10 — lov/2010-12-10-76
+
+*§ 13-12 første ledd bokstav e skal lyde:*
+
+> medlemmer som utfører samfunnsstraff etter straffeloven § 48,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 13-12 første ledd bokstav e skal lyde:*
 
@@ -6189,6 +6439,15 @@ refid: "lov/1997-02-28-19"
 *§ 14-6 andre ledd oppheves.*
 
 > § 14-6 nåværende tredje til fjerde ledd blir andre til tredje ledd.
+>
+
+### 2020-06-12 — lov/2020-06-12-62
+
+*§ 14-6 tredje ledd bokstav e) og ny bokstav f) skal lyde:*
+
+> avtjening av militærtjeneste eller obligatorisk sivilforsvarstjeneste,
+>
+> ytelse i medhold av midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet inntekt som følge av utbrudd av covid-19.
 >
 
 ## § 14-7
@@ -6573,6 +6832,13 @@ refid: "lov/1997-02-28-19"
 > Faren kan ta ut foreldrepenger bare dersom moren etter fødselen eller omsorgsovertakelsengår ut i arbeid,tar offentlig godkjent utdanning på heltid,tar offentlig godkjent utdanning i kombinasjon med arbeid som i sum gir heltid,på grunn av sykdom eller skade er helt avhengig av hjelp til å ta seg av barnet,er innlagt i helseinstitusjon,deltar på heltid i introduksjonsprogram etter introduksjonsloven kapittel 2,deltar på heltid i kvalifiseringsprogram etter sosialtjenesteloven kapittel 5A.
 >
 
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 14-13 første ledd bokstav g skal lyde:*
+
+> deltar på heltid i kvalifiseringsprogram etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen,
+>
+
 ### 2021-06-11 — lov/2021-06-11-61
 
 *§ 14-13 første ledd bokstav f skal lyde:*
@@ -6776,6 +7042,24 @@ refid: "lov/1997-02-28-19"
 *§ 14-22 annet ledd bokstav c skal lyde:*
 
 > de seks ukene (30 stønadsdagene) som er forbeholdt faren (fedrekvote), se § 14-10.
+>
+
+## § 14-23
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 14-23 andre ledd skal lyde:*
+
+> Prosentsatsene i første ledd svarer til 90, 80, 75, 60 og 50 % av full stilling,
+>
+
+## § 14-26
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 14-26 andre ledd skal lyde:*
+
+> Prosentsatsene i første ledd svarer til 90, 80, 75, 60 og 50 % av full stilling,
 >
 
 ## § 15-1
@@ -7673,6 +7957,13 @@ refid: "lov/1997-02-28-19"
 > For fosterbarn (se barnevernloven § 4-22) kan det ytes stønad til barnetilsyn etter § 15-10 eller § 15-11 første ledd bokstav d) når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 17-9 tredje ledd skal lyde:*
+
+> For fosterbarn (se barnevernsloven § 9-1) kan det ytes stønad til barnetilsyn etter § 15-10 eller § 15-11 første ledd bokstav d) når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.
+>
+
 ### 2024-04-12 — lov/2024-04-12-14
 
 *§ 17-9 tredje ledd skal lyde:*
@@ -8040,6 +8331,13 @@ refid: "lov/1997-02-28-19"
 > Når det ytes barnepensjon på grunnlag av bestemmelsen i § 18-3 andre ledd bokstav b, skal trygdetiden i første og andre ledd svare til antall år med faktisk opptjent tilleggspensjon eller inntektspensjon.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 18-5 femte ledd skal lyde:*
+
+> Når barnepensjon til barna i et barnekull beregnes, skal det ses bort fra søsken som mottar redusert barnepensjon på grunn av opphold i helseinstitusjon, eller som blir forpleid etter barnevernsloven.
+>
+
 ## § 18-6
 
 ### 2003-06-20 — lov/2003-06-20-40
@@ -8097,6 +8395,15 @@ refid: "lov/1997-02-28-19"
 >
 
 ## § 18-8
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 18-8 første ledd første punktum skal lyde:*
+
+> Bestemmelsene i denne paragrafen gjelder for barn som mottar pensjon, og som har rett til fri forpleining under langtidsopphold i en helseinstitusjon under statlig ansvar.
+>
+> 11. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) gjøres følgende endring:
+>
 
 ### 2003-06-20 — lov/2003-06-20-53
 
@@ -8373,6 +8680,13 @@ refid: "lov/1997-02-28-19"
 > Ved uttak av alderspensjon skal basispensjonen divideres med et forholdstall, se §§ 19-7 og 19-10.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 19-5 annet ledd første punktum skal lyde:*
+
+> Pensjonspoeng etter §§ 3-13, 3-14 og 3-16 medregnes i tilleggspensjonen fra utløpet av det året fastsettingen av formues- og inntektsskatt for det aktuelle året er ferdig.
+>
+
 ## § 19-6
 
 ### 2001-12-21 — lov/2001-12-21-118
@@ -8624,6 +8938,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 19-9 a overskrifta skal lyde:*
 
+> Overgang fra uføretrygd til alderspensjon for personer født i perioden 1944 til 1962
+>
+
 ### 2024-12-20 — lov/2024-12-20-81
 
 *§ 19-9 a første ledd skal lyde:*
@@ -8725,6 +9042,13 @@ refid: "lov/1997-02-28-19"
 > Ved endring i sivilstand mv. som påvirker pensjonen, skal pensjonen og restpensjonen omregnes.
 >
 > Departementet gir forskrifter om pensjonsberegning etter denne paragrafen.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 19-13 første ledd annet punktum skal lyde:*
+
+> Beregningen foretas med virkning fra januar året etter at fastsettingen av formues- og inntektsskatt for det aktuelle året foreligger.
 >
 
 ## § 19-14
@@ -8964,7 +9288,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 20-4 første ledd bokstav d og e og andre ledd skal lyde:*
 
-> antatt inntekt ved mottak av uførepensjon (§ 20-7 a)omsorgsarbeid (§ 20-8).
+> antatt inntekt ved mottak av uførepensjon (§ 20-7 a)
+>
+> omsorgsarbeid (§ 20-8).
 >
 > Summen av årlig pensjonsopptjening etter første ledd bokstavene a til d kan ikke overstige 18,1 prosent av et beløp tilsvarende 7,1 ganger grunnbeløpet.
 >
@@ -8981,6 +9307,13 @@ refid: "lov/1997-02-28-19"
 *§ 20-4 første ledd bokstav d skal lyde:*
 
 > antatt inntekt ved mottak av uføretrygd (§ 20-7 a)
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 20-4 tredje ledd skal lyde:*
+
+> Pensjonsopptjeningen for et kalenderår oppreguleres med lønnsvekst og tilføres pensjonsbeholdningen ved utløpet av året fastsettingen av formues- og inntekstskatt for det aktuelle året er ferdig.
 >
 
 ### 2024-12-20 — lov/2024-12-20-81
@@ -9179,6 +9512,13 @@ refid: "lov/1997-02-28-19"
 > For den som ved fylte 67 år hadde rett til uføretrygd, skal trygdetiden minst svare til trygdetiden for uføretrygden.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 20-10 tredje ledd skal lyde:*
+
+> Trygdetid medregnes fra utløpet av det året fastsettingen av formues- og inntektsskatt for det aktuelle året er ferdig.
+>
+
 ### 2019-12-20 — lov/2019-12-20-84
 
 *§ 20-10 fjerde ledd skal lyde:*
@@ -9247,6 +9587,15 @@ refid: "lov/1997-02-28-19"
 *§ 20-15 tredje ledd skal lyde:*
 
 > Dersom vedkommende mottar pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven eller avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning, skal den delen som er gjenstand for regulering, medregnes i beregningene etter første ledd.
+>
+
+## § 20-17
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 20-17 tredje ledd skal lyde:*
+
+> Omregninger foretas med virkning fra januar året etter at fastsettingen av formues- og inntektsskatt foreligger.
 >
 
 ## § 20-18
@@ -9437,6 +9786,15 @@ refid: "lov/1997-02-28-19"
 > Krav om hjelpemidler, lese- og sekretærhjelp og tolkehjelp etter § 10-7 første ledd bokstavene a, e, f og g skal vanligvis settes fram for hjelpemiddelsentralen.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-2 skal lyde:*
+
+> § 21-2.Hvor kravet skal settes fram
+>
+> Krav om ytelser etter denne loven skal settes fram for det felles lokale kontoret i arbeids- og velferdsforvaltningen der vedkommende bor, med mindre Arbeids- og velferdsdirektoratet bestemmer noe annet.
+>
+
 ### 2008-12-19 — lov/2008-12-19-109
 
 *§ 21-2 annet ledd skal lyde:*
@@ -9457,6 +9815,19 @@ refid: "lov/1997-02-28-19"
 > Trygdeetaten kan kreve at den som mottar en ytelse, gir de opplysninger og leverer de erklæringer og attester som er nødvendige for å kontrollere ytelsens størrelse eller om vedkommende fortsatt har rett til ytelsen.
 >
 > Trygdeetaten kan kreve at den som krever eller mottar en ytelse, lar seg undersøke eller intervjue av lege eller annen sakkyndig dersom trygdeetaten finner at det er nødvendig.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-3 skal lyde:*
+
+> § 21-3.Medlemmets opplysningsplikt
+>
+> En person som krever en ytelse, plikter å gi de opplysninger og levere de dokumenter som er nødvendige for at Arbeids- og velferdsetaten skal kunne vurdere om vedkommende har rett til ytelsen. Den som mottar en ytelse, plikter å underrette etaten om endringer i forhold som kan være avgjørende for om vedkommende fortsatt har rett til ytelsen eller for å kunne kontrollere ytelsens størrelse.
+>
+> Arbeids- og velferdsetaten kan kreve at den som mottar eller har mottatt en ytelse, gir de opplysninger og leverer de dokumenter som er nødvendige for å kontrollere ytelsens størrelse eller vilkårene for rett til ytelsen.
+>
+> Arbeids- og velferdsetaten kan kreve at den som krever eller mottar en ytelse, lar seg undersøke eller intervjue av lege eller annen sakkyndig dersom den finner at det er nødvendig.
 >
 
 ### 2008-12-19 — lov/2008-12-19-109
@@ -9511,6 +9882,23 @@ refid: "lov/1997-02-28-19"
 > Trygdens organer kan pålegge helseinstitusjoner, fengsler og boformer for heldøgns omsorg og pleie å gi rutinemessige meldinger om innskriving og utskriving av klienter.
 >
 > § 21-4 nåværende tredje, fjerde og femte ledd blir fjerde, femte og sjette ledd.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-4 skal lyde:*
+
+> § 21-4.Innhenting av opplysninger og uttalelser
+>
+> Ved behandling av krav om ytelser eller kontroll av løpende ytelser og tidligere utbetalte ytelser etter denne loven har Arbeids- og velferdsetaten rett til å innhente nødvendige opplysninger fra behandlingspersonell og andre som yter tjenester for trygdens regning. Det samme gjelder i forhold til arbeidsgiver, tidligere arbeidsgivere, offentlig myndighet, bank, forsikringsselskap, privat pensjonsordning, utdanningsinstitusjon, samt Statens lånekasse for utdanning. De som blir pålagt å gi opplysninger, plikter å gjøre dette uten godtgjørelse.
+>
+> De som gir behandling eller yter tjenester for trygdens regning, plikter etter krav fra Arbeids- og velferdsetaten å gi de erklæringer og uttalelser som er nødvendige for at etaten skal kunne vurdere rettigheter og plikter etter denne loven. Det samme gjelder andre særskilt sakkyndige. I en legeerklæring om sykefravær plikter legen å opplyse om en sykdom eller en skade kan ha sammenheng med arbeidssituasjonen.
+>
+> Arbeids- og velferdsetaten kan pålegge helseinstitusjoner, fengsler og boformer for heldøgns omsorg og pleie å gi rutinemessige meldinger om innskriving og utskriving av klienter.
+>
+> De som blir pålagt å gi opplysninger, erklæringer og uttalelser, plikter å gjøre dette uten ugrunnet opphold og uten hinder av taushetsplikt.
+>
+> Arbeids- og velferdsetaten har videre rett til å innhente nødvendige opplysninger ved bevisopptak etter reglene i tvistemålsloven, eller ved politiet.
 >
 
 ### 2006-12-22 — lov/2006-12-22-94
@@ -9765,7 +10153,36 @@ refid: "lov/1997-02-28-19"
 > Ved Arbeids- og velferdsetatens innhenting av registrerte opplysninger om et større antall navngitte stønadsmottakere i medhold av § 21-4 første og sjette ledd for elektronisk sammenligning med opplysninger i et annet register (masseinnhenting), gjelder følgende:
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 21-4 d første ledd bokstav b annet punktum skal lyde:*
+
+> Helseopplysninger og andre opplysninger som omfattes av personvernforordningen artikkel 9 eller 10, kan ikke innhentes ved masseinnhenting.
+>
+
 ## § 21-5
+
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 21-5 skal lyde:*
+
+> § 21-5.Bistand fra barnevernstjenesten, sosialtjenesten og kommunale organer etter lov om introduksjonsordning for nyankomne innvandrere
+>
+> Barnevernstjenesten, sosialtjenesten og kommunale organer etter lov om introduksjonsordning for nyankomne innvandrere plikter å innhente opplysninger og gi uttalelser til trygdeetaten om forhold som har betydning for behandlingen av saker etter denne loven.
+>
+> Departementet gir forskrifter om trygdeetatens samarbeid med barnevernstjenesten, sosialtjenesten og kommunale organer etter lov om introduksjonsordning for nyankomne innvandrere.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-5 skal lyde:*
+
+> § 21-5.Bistand fra barnevernstjenesten, sosialtjenesten og kommunale organer etter introduksjonsloven
+>
+> Barnevernstjenesten, sosialtjenesten og kommunale organer etter introduksjonsloven plikter å innhente opplysninger og gi uttalelser til Arbeids- og velferdsetaten om forhold som har betydning for behandlingen av saker etter denne loven.
+>
+> Departementet gir forskrifter om samarbeid mellom Arbeids- og velferdsetaten og barnevernstjenesten, sosialtjenesten og kommunale organer etter introduksjonsloven.
+>
 
 ### 2008-12-19 — lov/2008-12-19-109
 
@@ -9823,6 +10240,12 @@ refid: "lov/1997-02-28-19"
 > Et krav om en ytelse som gis på grunnlag av sykdom, skade eller lyte, kan avslås, og en innvilget ytelse kan holdes tilbake eller stanses dersom medlemmet uten rimelig grunn nekter å ta imot tilbud om behandling, rehabilitering eller arbeidsrettede tiltak.
 >
 
+## § 21-9
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-9 oppheves.*
+
 ## § 21-10
 
 ### 2008-12-19 — lov/2008-12-19-106
@@ -9846,6 +10269,19 @@ refid: "lov/1997-02-28-19"
 *§ 21-10 tredje ledd skal lyde:*
 
 > Departementet kan gi forskrifter om at underretning om vedtak ikke behøver å gis når vedtaket gjelder stans av dagpenger under arbeidsløshet etter kapittel 4 eller arbeidsavklaringspenger etter kapittel 11 eller tilleggsstønader etter kapittel 11 A av grunner som er åpenbart kjent for medlemmet, og det er gitt forhåndsorientering om at retten til ytelsen bortfaller i slike tilfeller, eller om vedtak i etteroppgjør for uføretrygd etter kapittel 12 når vedkommende ikke har innsigelser til varselet om etteroppgjøret.
+>
+
+## § 21-11
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-11 skal lyde:*
+
+> § 21-11.Vedtak etter loven
+>
+> Vedtak etter denne loven fattes av Arbeids- og velferdsdirektoratet, som kan delegere vedtaksmyndighet til underliggende organer.
+>
+> Arbeids- og velferdsdirektoratet kan omgjøre underliggende organers vedtak. Det samme gjelder for et annet overordnet organ i Arbeids- og velferdsetaten på de saksområdene som hører inn under dette.
 >
 
 ## § 21-11a
@@ -9933,6 +10369,22 @@ refid: "lov/1997-02-28-19"
 > Ved behandling av saker etter kapittel 5 er Helsedirektoratet behandlingsansvarlig, jf. personopplysningsloven § 2 nr. 4, og har ansvaret for informasjonssikkerhet og internkontroll, jf. personopplysningsloven §§ 13 og 14. Nasjonalt klageorgan for helsetjenesten er behandlingsansvarlig ved behandling av klage på vedtak etter kapittel 5. Departementet kan i forskrift gi nærmere regler om behandlingsansvaret til Helsedirektoratet og Nasjonalt klageorgan for helsetjenesten.
 >
 
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 21-11 a syvende ledd første punktum skal lyde:*
+
+> Ved behandling av personopplysninger i saker etter kapittel 5 er Helsedirektoratet behandlingsansvarlig, jf. personvernforordningen artikkel 4 nr. 7.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 21-11 a åttende ledd første punktum oppheves. Någjeldende annet punktum blir nytt første punktum.*
+
+> 10.I lov 19. juni 1997 nr. 62 om familievernkontorer oppheves § 11 tredje ledd.
+>
+> Någjeldende fjerde ledd blir nytt tredje ledd.
+>
+
 ### 2021-06-18 — lov/2021-06-18-127
 
 *§ 21-11 a tredje ledd første punktum skal lyde:*
@@ -10005,6 +10457,25 @@ refid: "lov/1997-02-28-19"
 >
 
 ## § 21-12
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-12 skal lyde:*
+
+> § 21-12.Klage og anke i trygdesaker
+>
+> Vedtak etter folketrygdloven kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer. Etter at denne klageadgangen er benyttet, kan klageinstansens vedtak ankes inn for Trygderetten etter reglene i lov 16. desember 1966 nr. 9 om anke til Trygderetten.
+>
+> Departementet kan bestemme at visse vedtak skal kunne bringes direkte inn for Trygderetten. Overprøving av en sak skal i sin helhet skje i Trygderetten dersom hensynet til sammenhengen i saken tilsier det.
+>
+> Klage eller anke settes fram for det felles lokale kontoret i arbeids- og velferdsforvaltningen der vedkommende bor, med mindre Arbeids- og velferdsdirektoratet bestemmer noe annet. Ved klage etter første ledd gjelder lov 16. desember 1966 nr. 9 om anke til Trygderetten § 10, § 11 andre, tredje og fjerde ledd, § 13 første ledd første og andre punktum og § 14.
+>
+> Departementet kan bestemme at visse vedtak skal unntas fra anke til Trygderetten. Slike vedtak kan påklages etter reglene i forvaltningsloven kapittel VI til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
+> Fristen for klage og anke er seks uker, også i saker som nevnt i fjerde ledd.
+>
+> Et vedtak etter folketrygdloven kan ikke bringes inn for de alminnelige domstolene før mulighetene til å klage og anke er nyttet fullt ut.
+>
 
 ### 2008-12-19 — lov/2008-12-19-109
 
@@ -10099,11 +10570,60 @@ refid: "lov/1997-02-28-19"
 > Fristen for klage er seks uker, også i saker som nevnt i fjerde ledd.
 >
 
+## § 21-12 A
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-12 A oppheves.*
+
+## § 21-13
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-13 skal lyde:*
+
+> § 21-13.Ankenemnda for sykepenger i arbeidsgiverperioden
+>
+> En tvist mellom arbeidsgiver og arbeidstaker eller mellom arbeidsgiver og Arbeids- og velferdsetaten om rettigheter og plikter i arbeidsgiverperioden (§ 8-19) kan bringes inn for Ankenemnda for sykepenger i arbeidsgiverperioden. Ankefristen er tre uker fra det tidspunktet meldingen om vedtaket er mottatt.
+>
+> Ankenemnda skal ha tre medlemmer, som oppnevnes av departementet. Lederen av nemnda skal ha særlig innsikt i trygderettslige spørsmål. Ett medlem oppnevnes etter forslag fra Næringslivets Hovedorganisasjon og ett medlem etter forslag fra Landsorganisasjonen i Norge.
+>
+> Ankenemndas vedtak kan ikke påklages til et overordnet forvaltningsorgan eller ankes til Trygderetten, men kan bringes inn for domstolene, som kan prøve om vedtaket er i samsvar med loven.
+>
+
 ## § 21-14
 
 ### 2003-12-19 — lov/2003-12-19-116
 
 *§ 21-14 annet ledd bokstavene a-c oppheves.*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-14 oppheves.*
+
+## § 21-15
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21-15 skal lyde:*
+
+> § 21-15.Dagpenger under arbeidsløshet for fiskere og fangstmenn
+>
+> Dagpenger under arbeidsløshet for fiskere og fangstmenn etter § 4-18 behandles av de organer og etter de regler som departementet bestemmer.
+>
+> Lovhjemlet taushetsplikt er ikke til hinder for nødvendig utveksling av opplysninger i ytelsessaker mellom Arbeids- og velferdsetaten og de organer som er fastsatt med hjemmel i første ledd.
+>
+
+## § 21-16
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 21-16 skal lyde:*
+
+> § 21-16.Saksbehandling i avgiftssaker m.m.
+>
+> For saker som behandles av skattemyndighetene etter kapittel 24, gjelder ikke bestemmelsene i kapitlet her, og heller ikke bestemmelsene i forvaltningsloven.
+>
 
 ## § 22-1 a
 
@@ -10199,6 +10719,15 @@ refid: "lov/1997-02-28-19"
 > Grunnstønad og hjelpestønad til barn som er plassert i fosterhjem etter barnevernloven § 4-14, utbetales til fosterforeldrene. Ved plassering i midlertidig hjem i påvente av fosterhjemsplassering, skjer utbetaling til barnevernet.
 >
 
+## § 22-3b
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 22-3b første punktum skal lyde:*
+
+> Grunnstønad og hjelpestønad til barn som er plassert i fosterhjem etter barnevernsloven § 5-3 første ledd, utbetales til fosterforeldrene.
+>
+
 ## § 22-4
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -10213,6 +10742,13 @@ refid: "lov/1997-02-28-19"
 >
 
 ## § 22-6
+
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 22-6 første ledd første punktum skal lyde:*
+
+> Dersom en person ikke er i stand til å disponere ytelsen selv på grunn av sinnslidelse, psykisk utviklingshemning, alvorlig mental svekkelse, hjerneskade, eller misbruk av berusende eller bedøvende midler, kan ytelsen utbetales til en annen person eller til et Nav-kontor.
+>
 
 ### 2013-04-05 — lov/2013-04-05-12
 
@@ -10425,14 +10961,18 @@ refid: "lov/1997-02-28-19"
 
 *§ 22-10 andre ledd bokstav c og d skal lyde:*
 
-> opplæringspenger ved kurs for et medlem med omsorg for et funksjonshemmet barn (§ 9-14)pleiepenger for pleie av barn og nærstående (§§ 9-10 til 9-13)
+> opplæringspenger ved kurs for et medlem med omsorg for et funksjonshemmet barn (§ 9-14)
+>
+> pleiepenger for pleie av barn og nærstående (§§ 9-10 til 9-13)
 >
 
 ### 2019-01-01 — lov/2018-12-20-98
 
 *§ 22-10 fjerde ledd bokstav a og b skal lyde:*
 
-> stønad til bedring av funksjonsevnen (§§ 10-5 til 10-7)tilleggsstønader (kapittel 11 A)
+> stønad til bedring av funksjonsevnen (§§ 10-5 til 10-7)
+>
+> tilleggsstønader (kapittel 11 A)
 >
 
 ### 2019-01-01 — lov/2018-12-20-98
@@ -10446,7 +10986,11 @@ refid: "lov/1997-02-28-19"
 
 *§ 22-10 tredje ledd bokstavene d, e og f skal lyde:*
 
-> stønad til barnetilsyn (§§ 15-10 og 17-10)omstillingsstønad til gjenlevende ektefelle og tidligere familiepleier (kapittel 17)pensjon og overgangsstønad til gjenlevende ektefelle og tidligere familiepleier (kapittel 17 A)
+> stønad til barnetilsyn (§§ 15-10 og 17-10)
+>
+> omstillingsstønad til gjenlevende ektefelle og tidligere familiepleier (kapittel 17)
+>
+> pensjon og overgangsstønad til gjenlevende ektefelle og tidligere familiepleier (kapittel 17 A)
 >
 
 ### 2023-06-16 — lov/2023-06-16-36
@@ -10644,6 +11188,23 @@ refid: "lov/1997-02-28-19"
 *§ 22-15 tredje ledd skal lyde:*
 
 > Et beløp som blir krevd tilbake etter første ledd, kan enten dekkes ved trekk i framtidige trygdeytelser eller innkreves etter bestemmelsene i bidragsinnkrevingsloven. Vedtak om tilbakekreving er tvangsgrunnlag for utlegg.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 22-15 skal lyde:*
+
+> § 22-15.Tilbakebetaling etter feilaktig utbetaling
+>
+> Dersom et medlem har mottatt en ytelse etter denne loven i strid med redelighet og god tro, kan beløpet kreves tilbakebetalt. Feil utbetalt ytelse kan også kreves tilbakebetalt dersom et medlem eller noen som har handlet på medlemmets vegne, uaktsomt har gitt feilaktige eller mangelfulle opplysninger. Det samme gjelder dersom utbetalingen skyldes feil fra Arbeids- og velferdsetaten eller annet organ som foretar utbetaling på etatens vegne, og mottakeren burde ha forstått dette.
+>
+> I andre tilfeller enn nevnt i første ledd kan det som er utbetalt for mye, kreves tilbake dersom særlige grunner gjør det rimelig. Ved vurderingen av om det foreligger særlige grunner, skal det blant annet legges vekt på hvor lang tid det er gått siden den feilaktige utbetalingen fant sted, og om vedkommende har innrettet seg i tillit til utbetalingen. Kravet om tilbakebetaling etter dette leddet er begrenset til det beløp som er i behold når vedkommende blir kjent med at utbetalingen var feilaktig.
+>
+> Dersom det etterbetales lønn eller erstatning for lønn for tidsrom det allerede er utbetalt dagpenger under arbeidsløshet for, kan det som er utbetalt for mye kreves tilbakebetalt. Dersom ytelser etter folketrygdloven kapitlene 4 og 11 utbetales som forskudd, kan det som er utbetalt for mye kreves tilbakebetalt.
+>
+> Et beløp som blir krevd tilbakebetalt etter første eller tredje ledd, kan enten dekkes ved trekk i framtidige trygdeytelser eller innkreves etter bestemmelsene i bidragsinnkrevingsloven. Vedtak om tilbakekreving er tvangsgrunnlag for utlegg. Innkreving skjer gjennom Arbeids- og velferdsetatens innkrevingssentral.
+>
+> Dersom feilutbetalingen har medført høyere utlignet skatt, herunder trygdeavgift, kan beløpet som kreves tilbakebetalt reduseres med den merskatten som skyldes feilutbetalingen.
 >
 
 ### 2008-12-19 — lov/2008-12-19-109
@@ -11048,11 +11609,25 @@ refid: "lov/1997-02-28-19"
 > Det skal ikke betales arbeidsgiveravgift av godtgjørelse for arbeid i utlandet og på norsk kontinentalsokkel og i norsk territorialfarvann, når arbeidet er utført av en utenlandsk arbeidstaker som ikke er medlem i trygden. Det skal heller ikke betales arbeidsgiveravgift av godtgjørelse for religiøst, humanitært eller filantropisk arbeid utført av person utstasjonert i utlandet av misjonsselskap, menighet eller humanitær organisasjon, når oppholdet i utlandet varer i minst to år. Departementet kan i forskrift avgrense avgiftsfritaket etter andre punktum og gi regler til utfylling og gjennomføring av det.
 >
 
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 23-2 femte ledd annet punktum skal lyde:*
+
+> Det skal heller ikke betales arbeidsgiveravgift av introduksjonsstønad etter introduksjonsloven eller kvalifiseringsstønad etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen.
+>
+
 ### 2010-06-25 — lov/2010-06-25-37
 
 *§ 23-2 tredje ledd skal lyde:*
 
 > Av naturalytelser og av godtgjørelse som skal dekke utgifter i forbindelse med utførelse av arbeid, oppdrag eller verv som nevnt i skatteloven § 5-10 bokstavene a og b, skal det betales avgift i den utstrekning naturalytelsene og godtgjørelsene skal tas med ved beregningen av forskottstrekk, se skattebetalingsloven §§ 5-6 og 5-8. Det skal likevel betales avgift for verdien av fri kost på sokkelen, jf. skatteloven § 5-15 første ledd bokstav e nr. 1, uavhengig av om verdien inngår i trekkgrunnlaget.
+>
+
+### 2012-06-22 — lov/2012-06-22-43
+
+*§ 23-2 første ledd skal lyde:*
+
+> Arbeidsgiveren skal betale arbeidsgiveravgift av lønn og annen godtgjørelse for arbeid og oppdrag i og utenfor tjenesteforhold som han plikter å innrapportere. Arbeidsgiveravgiften fastsettes i prosent av det beløp som skal innrapporteres for vedkommende år. Plikten til å betale arbeidsgiveravgift gjelder selv om beløpet fritas for innrapporteringsplikt på grunn av beløpets størrelse.
 >
 
 ### 2014-07-01 — lov/2014-06-20-32
@@ -11074,6 +11649,13 @@ refid: "lov/1997-02-28-19"
 *§ 23-2 åttende ledd annet punktum skal lyde:*
 
 > Fritaket etter første punktum gjelder bare dersom institusjonens eller organisasjonens totale lønnsutgifter er opp til 550 000 kroner, og bare for lønnsutbetalinger opp til 55 000 kroner per ansatt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 23-2 tiende ledd skal lyde:*
+
+> Når det gjennomføres summarisk fellesoppgjør etter skatteforvaltningsloven § 12-4, inngår det beløp som arbeidsgiveren blir ansvarlig for etter denne bestemmelsen, i grunnlaget for arbeidsgiveravgiften.
 >
 
 ### 2016-12-20 — lov/2016-12-20-110
@@ -11159,6 +11741,13 @@ refid: "lov/1997-02-28-19"
 > Det skal ikke betales avgift når inntekten er mindre enn 23 000 kroner. Avgiften må ikke utgjøre mer enn 25 pst av den del av inntekten som overstiger 23 000 kroner.
 >
 
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 23-3 annet ledd nr. 1 ny bokstav d skal lyde:*
+
+> introduksjonsstønad beregnet etter lov om introduksjonsordning for nyankomne innvandrere kapittel 3.
+>
+
 ### 2004-01-01 — lov/2003-06-20-55
 
 *§ 23-3 andre ledd nr. 2 bokstav b skal lyde:*
@@ -11195,7 +11784,11 @@ refid: "lov/1997-02-28-19"
 
 *§ 23-3 annet ledd nr. 2 bokstav c, d og e skal lyde:*
 
-> personinntekt fastsatt etter skatteloven § 12-10 vunnet i næring der det svares produktavgift som nevnt i § 23-5,personinntekt fastsatt etter skatteloven § 12-10 vunnet ved jordbruk med binæringer og skogbruk,personinntekt fastsatt etter skatteloven § 12-10 for pass og stell av barn som ikke har fylt 12 år før utgangen av inntektsåret, eller som har særlig behov for omsorg og pleie, når barnepasset skjer i barnepasserens hjem.
+> personinntekt fastsatt etter skatteloven § 12-10 vunnet i næring der det svares produktavgift som nevnt i § 23-5,
+>
+> personinntekt fastsatt etter skatteloven § 12-10 vunnet ved jordbruk med binæringer og skogbruk,
+>
+> personinntekt fastsatt etter skatteloven § 12-10 for pass og stell av barn som ikke har fylt 12 år før utgangen av inntektsåret, eller som har særlig behov for omsorg og pleie, når barnepasset skjer i barnepasserens hjem.
 >
 
 ### 2006-12-15 — lov/2006-12-15-80
@@ -11258,6 +11851,13 @@ refid: "lov/1997-02-28-19"
 > pensjon i og utenfor arbeidsforhold, føderåd, livrente som er ledd i pensjonsordning i arbeidsforhold og engangs- og avløsningsbeløp for slike ytelser, engangsutbetaling fra pensjonsordning etter innskuddspensjonsloven, engangsutbetaling fra individuell pensjonsavtale som er i samsvar med regler gitt av departementet, engangsutbetaling fra pensjonsavtale etter lov om individuell pensjonsordning og støtte etter lov om supplerande stønad til personar med kort butid i Noreg.
 >
 
+### 2009-12-18 — lov/2009-12-18-131
+
+*§ 23-3 andre ledd nr. 2 bokstav f skal lyde:*
+
+> kvalifiseringsstønad etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen.
+>
+
 ### 2011-12-09 — lov/2011-12-09-55
 
 *§ 23-3 annet ledd nr. 2 bokstav d oppheves.*
@@ -11288,6 +11888,13 @@ refid: "lov/1997-02-28-19"
 *§ 23-3 fjerde ledd skal lyde:*
 
 > Det skal ikke betales avgift når inntekten er inntil 49 650 kroner. Avgiften må ikke utgjøre mer enn 25 prosent av den del av inntekten som overstiger 49 650 kroner.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 23-3 annet ledd nr. 2 bokstav f skal lyde:*
+
+> godtgjørelse til deltaker for arbeidsinnsats i selskap med deltakerfastsetting i næring der det svares produktavgift som nevnt i § 23-5,
 >
 
 ### 2016-12-20 — lov/2016-12-20-110
@@ -11571,6 +12178,12 @@ refid: "lov/1997-02-28-19"
 > Ved slik økning skal pensjonsopptjening og trygdeavgift økes tilsvarende.
 >
 
+## § 24-2
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 24-2 oppheves.*
+
 ## § 24-3
 
 ### 2005-06-17 — lov/2005-06-17-73
@@ -11610,6 +12223,31 @@ refid: "lov/1997-02-28-19"
 > Dersom arbeidsgiveren ikke gir årsoppgave etter § 24-2 andre ledd, eller gir en uriktig eller ufullstendig oppgave, kan ligningsmyndighetene fastsette eller endre grunnlaget for arbeidsgiveravgiften. For et slikt vedtak gjelder ligningsloven kapittel 9 om saksbehandling, §§ 10-2 til 10-5 om tilleggsskatt, og § 11-2 om søksmål fra det offentlige.
 >
 
+### 2012-06-22 — lov/2012-06-22-43
+
+*§ 24-3 første ledd skal lyde:*
+
+> Arbeidsgiver skal av eget tiltak beregne arbeidsgiveravgiften etter § 23-2. Opplysninger om beregnet avgift og grunnlaget for beregning av arbeidsgiveravgift for foregående måned skal leveres etter reglene i a-opplysningsloven.
+>
+
+### 2012-06-22 — lov/2012-06-22-43
+
+*§ 24-3 annet ledd oppheves.*
+
+> § 24-3 tredje til femte ledd blir annet til fjerde ledd.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24-3 fjerde ledd skal lyde:*
+
+> Med bot eller fengsel inntil 2 år straffes den som unnlater å medvirke til kontrollundersøkelse etter § 24-4.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 24-3 oppheves.*
+
 ## § 24-4
 
 ### 2007-06-29 — lov/2007-06-29-59
@@ -11638,6 +12276,30 @@ refid: "lov/1997-02-28-19"
 *§ 24-4 første ledd skal lyde:*
 
 > Skatteoppkreveren skal føre kontroll med at arbeidsgivere og andre sender meldinger og beregner arbeidsgiveravgift i samsvar med reglene og de pålegg som er gitt. Arbeidsgiveren plikter på anmodning å gi fullstendige opplysninger om forhold som kontrollmyndighetene finner er av betydning for fastsettelsen av avgiften og avgiftsgrunnlaget etter § 24-3 annet og tredje ledd i denne loven.
+>
+
+### 2012-06-22 — lov/2012-06-22-43
+
+*§ 24-4 skal lyde:*
+
+> § 24-4.Fastsetting og innkreving av avgifter
+>
+> For fastsetting av trygdeavgift gjelder ligningslovens bestemmelser, se også § 21-16.
+>
+> Dersom arbeidsgiveren ikke gir opplysninger om beregnet arbeidsgiveravgift etter § 24-3 første ledd, eller gir uriktige eller ufullstendige opplysninger, kan ligningsmyndighetene fastsette avgiften. For et slikt vedtak gjelder ligningsloven kapittel 9 om saksbehandling, §§ 10-2 til 10-5 om tilleggsskatt, og § 11-2 om søksmål fra det offentlige.
+>
+> Ved rettslig prøving av avgjørelser etter annet ledd gjelder ligningsloven § 11-1 tilsvarende.
+>
+> Den som forsettlig eller grovt uaktsomt gir eller medvirker til å gi uriktige eller ufullstendige opplysninger, eller unnlater å levere pliktige opplysninger i forbindelse med beregning, fastsetting eller endring av arbeidsgiveravgiften, straffes etter bestemmelsene i ligningsloven kapittel 12.
+>
+> Departementet kan sette ned eller ettergi arbeidsgiveravgift dersom det av særlige grunner knyttet til fastsettelsen virker særlig urimelig å fastholde hele kravet.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 24-4 annet ledd fjerde punktum skal lyde:*
+
+> Også Riksrevisjonen kan foreta slike ettersyn og kreve fremlagt dokumenter som nevnt.
 >
 
 ### 2016-12-20 — lov/2016-12-20-110
@@ -11697,7 +12359,30 @@ refid: "lov/1997-02-28-19"
 > Ved gjennomsyn av virksomhetens arkiver kan skatteoppkreveren eller skattekontoret foreta kopiering til datalagringsmedium for senere gjennomgang hos arbeidsgiver, skatteoppkrever eller skattekontor. Departementet kan i forskrift fastsette begrensninger for hvilke metoder for kopiering skatteoppkreveren kan benytte.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 24-5 annet og tredje ledd oppheves.*
+
+> 19. I lov 13. juni 1997 nr. 53 om eierskap i medier gjøres følgende endring:
+>
+
+## § 24-6
+
+### 2012-06-22 — lov/2012-06-22-43
+
+*§ 24-6 annet ledd skal lyde:*
+
+> Departementet gir forskrifter om hvor arbeidsgiveravgiften skal fastsettes og innbetales.
+>
+
 ## § 25-1
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-1 annet ledd tredje punktum skal lyde:*
+
+> Meldingen skal sendes dit Arbeids- og velferdsdirektoratet bestemmer.
+>
 
 ### 2007-06-15 — lov/2007-06-15-21
 
@@ -11744,6 +12429,13 @@ refid: "lov/1997-02-28-19"
 > En arbeidsgiver plikter å føre statistikk over sykefravær og fravær ved barns sykdom.
 >
 > En arbeidsgiver plikter etter krav fra trygdekontoret å utlevere oppfølgingsplanen som skal utarbeides etter arbeidsmiljøloven § 13 nr. 4.
+>
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 25-2 andre ledd skal lyde:*
+
+> En arbeidsgiver plikter etter krav fra trygdekontoret å utlevere oppfølgingsplanen som skal utarbeides etter arbeidsmiljøloven § 4-6 tredje ledd.
 >
 
 ### 2007-03-01 — lov/2007-02-23-10
@@ -12038,6 +12730,21 @@ refid: "lov/1997-02-28-19"
 
 ## § 25-10
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-10 oppheves.*
+
+### 2012-06-22 — lov/2012-06-22-43
+
+*Ny § 25-10 skal lyde:*
+
+> § 25-10.Arbeidsgivers opplysningsplikt
+>
+> Departementet kan i forskrift bestemme at arbeidsgivere uoppfordret skal gi opplysninger som nevnt i § 21-4 etter reglene i a-opplysningsloven.
+>
+> Departementet kan i forskrift bestemme at arbeidsgiver skal gi opplysninger om utbetalingen eller fordelen til den ansatte er for en avvikende periode.
+>
+
 ### 2016-05-27 — lov/2016-05-27-12
 
 *§ 25-10 første ledd skal lyde:*
@@ -12056,7 +12763,41 @@ refid: "lov/1997-02-28-19"
 > Departementet kan gi forskrift om at arbeidsgiver eller oppdragsgiver skal opplyse om utbetalingen eller fordelen til arbeidstakeren eller frilanseren er for en avvikende periode.
 >
 
+## § 25-10a
+
+### 2003-09-01 — lov/2003-07-04-80
+
+*Ny § 25-10a skal lyde:*
+
+> § 25-10a.Opplysningsplikt ved saker etter lov om introduksjonsordning for nyankomne innvandrere
+>
+> Trygdens organer kan uten hinder av taushetsplikt gi opplysninger til kommunen til bruk i saker om introduksjonsstønad etter lov om introduksjonsordning for nyankomne innvandrere.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-10a oppheves.*
+
+## § 25-11
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 25-11 skal lyde:*
+
+> § 25-11.Opplysningsplikt til barnevernet
+>
+> Enhver som gjør tjeneste i trygdens organer, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barnevernstjenesten.
+>
+> Enhver som gjør tjeneste i trygdens organer, skal uten hinder av taushetsplikt melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn har vist alvorlige atferdsvansker ved å begå alvorlige eller gjentatte lovbrudd, ved problematisk bruk av rusmidler, eller ved å ha vist annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Enhver som gjør tjeneste i trygdens organer, plikter også å gi opplysninger etter pålegg i samsvar med barnevernsloven § 13-4.
+>
+
 ## § 25-12
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-12 tredje ledd annet punktum oppheves.*
 
 ### 2008-12-19 — lov/2008-12-19-109
 
@@ -12072,6 +12813,10 @@ refid: "lov/1997-02-28-19"
 *§ 25-13 andre ledd andre punktum oppheves.*
 
 ## § 25-16
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-16 oppheves.*
 
 ### 2020-03-20 — lov/2020-03-20-7
 
@@ -12099,10 +12844,21 @@ refid: "lov/1997-02-28-19"
 
 *§ 25-16 andre ledd bokstav c, d og ny bokstav e skal lyde:*
 
-> rett til omsorgspenger,unntak fra pålagte plikter,plikt for arbeidsgiver til å forskuttere sykepenger fra trygden når en arbeidstaker ikke kan møte på arbeid som følge av innreiserestriksjoner.
+> rett til omsorgspenger,
+>
+> unntak fra pålagte plikter,
+>
+> plikt for arbeidsgiver til å forskuttere sykepenger fra trygden når en arbeidstaker ikke kan møte på arbeid som følge av innreiserestriksjoner.
 >
 
 ## § 25-17
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-17 nytt sjette ledd skal lyde:*
+
+> Kongen gir forskrifter om gjennomføringen av bestemmelsene i paragrafen her.
+>
 
 ### 2008-12-19 — lov/2008-12-19-109
 
@@ -12145,6 +12901,18 @@ refid: "lov/1997-02-28-19"
 
 > Dersom en krisesituasjon som nevnt i første ledd fører til at Arbeids- og velferdsetaten over et lengre tidsrom ikke ventes å ville kunne behandle alle nye krav om ytelser, skal behandling etter kapitlene 8, 10, 11, 12, 17, 17 A, 19 og 20 prioriteres foran krav om andre ytelser.
 >
+
+## § 25-18
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-18 oppheves.*
+
+## § 25-19
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 25-19 oppheves.*
 
 ## § 26-2
 
@@ -12207,6 +12975,15 @@ refid: "lov/1997-02-28-19"
 *I lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) skal § 4-7 annet ledd lyde:*
 
 > Dagpenger kan ytes i inntil 26 uker i løpet av en periode på 18 måneder ved hel eller delvis permittering hos samme arbeidsgiver.
+>
+
+### 2002-06-14 — lov/2002-06-14-20
+
+*7. I lov 28. februar 1997 nr. 19 om folketrygd skal § 13-9 bokstav a) og b) lyde:*
+
+> de som er utskrevet til tjeneste i brannvesenet etter brann- og eksplosjonsvernloven § 17
+>
+> de som på forlangende eller tilsigelse yter hjelp etter brann- og eksplosjonsvernloven § 5
 >
 
 ### 2002-06-14 — lov/2002-06-14-22
@@ -12336,7 +13113,10 @@ refid: "lov/1997-02-28-19"
 
 ### 2004-06-11 — lov/2004-06-11-36
 
-*I innholdsfortegnelsen til kapittel 25 skal nytt strekpunkt 11 lyde:opplysningsplikt ved saker etter lov om introduksjonsordning for nyankomne innvandrere står i § 25-10a,*
+*I innholdsfortegnelsen til kapittel 25 skal nytt strekpunkt 11 lyde:*
+
+> opplysningsplikt ved saker etter lov om introduksjonsordning for nyankomne innvandrere står i § 25-10a,
+>
 
 ### 2004-07-01 — lov/2004-06-18-41
 
@@ -12542,9 +13322,53 @@ refid: "lov/1997-02-28-19"
 > Departementet gir forskrifter til utfylling og gjennomføring av bestemmelsene i dette kapitlet.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 12-12 tredje ledd bokstav a skal betegnelsen «arbeidsmarkedsetaten» endres til «Arbeids- og velferdsetaten».*
+
+> I følgende bestemmelser skal betegnelsene «trygdeetaten» og «trygdeetatens» erstattes med henholdsvis «Arbeids- og velferdsetaten» og «Arbeids- og velferdsetatens»:
+>
+> § 2-7 femte ledd første punktum, § 2-8 femte ledd første punktum, § 8-8 første ledd, § 13-14 første ledd og fjerde ledd første punktum, kapittel 24 innledningen annet strekpunkt, § 24-2 overskriften, første ledd, annet ledd første punktum og tredje ledd, kapittel 25 innledningen niende strekpunkt, § 25-9 overskriften og bestemmelsen og § 25-17 første ledd første punktum, annet ledd første og annet punktum og fjerde ledd.
+>
+> I § 22-3a første punktum skal betegnelsen «Trygdeetatens innkrevingssentral» erstattes med «Arbeids- og velferdsetatens innkrevingssentral».
+>
+> I følgende bestemmelser skal betegnelsen «Rikstrygdeverket» erstattes med «Arbeids- og velferdsdirektoratet»:
+>
+> § 2-9 annet og tredje ledd, § 3-25 tredje ledd annet punktum, § 13-14 tredje ledd, § 21-6 tredje punktum, § 23-11, § 25-6 første punktum, § 25-7 første punktum, § 25-12 tredje ledd og § 25-17 tredje ledd.
+>
+> I følgende bestemmelser skal betegnelsene «trygdekontoret» og «trygdekontorets» endres til henholdsvis «Arbeids- og velferdsetaten» og «Arbeids- og velferdsetatens»:
+>
+> § 8-7 sjette ledd første og annet punktum, sjuende ledd og åttende ledd første punktum, § 8-9 tredje ledd annet punktum, § 8-20 første ledd tredje punktum, § 8-34 tredje ledd første og annet punktum, § 8-36 annet ledd første punktum, § 8-37 første ledd bokstav a, § 8-38 tredje ledd første og annet punktum, § 8-39 annet ledd første punktum, § 9-6 fjerde ledd, femte ledd annet punktum og sjette ledd annet punktum, § 10-3 tredje ledd annet punktum, § 10-8 annet ledd fjerde punktum og sjette ledd tredje punktum, § 12-12 tredje ledd bokstav b første punktum, § 12-16 første ledd, § 14-21 annet ledd annet punktum, § 15-8 annet ledd, § 25-1 første ledd tredje punktum, § 25-2 annet ledd, § 25-4 første ledd første og annet punktum og § 25-5 første ledd.
+>
+> I følgende bestemmelser skal ordene «gjøre», «gjøres» og «gjort» endres til heholdsvis «fatte», «fattes» og «fattet»:
+>
+> § 4-28 første ledd første punktum, § 8-7 sjette ledd annet punktum, § 21-6 første og annet punktum, § 22-4 fjerde ledd og § 22-14 annet ledd.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*Kapittel 20 oppheves.*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*Kapittel 25 innledningen syttende strekpunkt skal lyde:*
+
+> Unntak fra loven ved krise i freds- og krigstid står i § 25-17.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*111. I lov 28. februar 1997 nr. 19 om folketrygd skal § 21-4 femte ledd lyde:*
+
+> Trygdens organer har videre rett til å innhente nødvendige opplysninger ved bevissikring etter reglene i tvisteloven § 28-3 tredje ledd og § 28-4 eller ved politiet. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.
+>
+
 ### 2007-03-01 — lov/2007-02-23-10
 
-*I kapittel 25 innholdsoversikten skal andre strekpunkt lyde:arbeidsgiverens plikt til å føre statistikk over sykefravær, utarbeide oppfølgingsplan og gjennomføre dialogmøte står i § 25-2.*
+*I kapittel 25 innholdsoversikten skal andre strekpunkt lyde:*
+
+> arbeidsgiverens plikt til å føre statistikk over sykefravær, utarbeide oppfølgingsplan og gjennomføre dialogmøte står i § 25-2.
+>
 
 ### 2007-06-15 — lov/2007-06-15-21
 
@@ -12560,6 +13384,10 @@ refid: "lov/1997-02-28-19"
 ### 2007-12-14 — lov/2007-12-14-106
 
 *Nåværende sjette ledd blir syvende ledd.*
+
+### 2008-05-14 — forskrift/2008-05-14-460
+
+*Forskriften trer i kraft straks. Samtidig oppheves forskrift 15. april 1997 nr. 315 om trygdedekning for asylsøkere og deres familiemedlemmer med hjemmel i lov 28. februar 1997 nr. 19.*
 
 ### 2008-06-27 — lov/2008-06-27-52
 
@@ -12879,16 +13707,34 @@ refid: "lov/1997-02-28-19"
 
 ### 2008-12-19 — lov/2008-12-19-109
 
-*I listen over innholdet i kapittel 21 skal nytt tolvte strekpunkt lyde:saksbehandling m.m. etter kapittel 5 Stønad ved helsetjenester står i § 21-11a*
+*I listen over innholdet i kapittel 21 skal nytt tolvte strekpunkt lyde:*
+
+> saksbehandling m.m. etter kapittel 5 Stønad ved helsetjenester står i § 21-11a
+>
 
 ### 2008-12-19 — lov/2008-12-19-109
 
 *Nåværende § 25-17 sjette ledd blir nytt syvende ledd.*
 
+### 2008-12-19 — lov/2008-12-19-123
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal ny § 2-7 a lyde:*
+
+> § 2-7 a.Frivillig medlemskap for personer bosatt i Norge og som er i arbeid på skip registrert i utlandet
+>
+> En person som er bosatt i Norge, og som er i arbeid på et skip registrert i en stat utenfor EØS-området, har etter søknad rett til å bli tatt opp som frivillig medlem i trygden.
+>
+> Medlemskapet kangi full trygdedekning etter loven, elleromfatte stønad ved helsetjenester etter kapittel 5, sykepenger etter kapittel 8, stønad ved barns og andre nære pårørendes sykdom etter kapittel 9 og ytelser ved svangerskap, fødsel og adopsjon etter kapittel 14.
+>
+> Frivillig medlemskap gjelder tidligst fra det tidspunkt Arbeids- og velferdsetaten mottok søknaden. Vedkommende kan likevel tas opp som medlem fra et tidligere tidspunkt, dersom de øvrige vilkårene for rett til en ytelse fra folketrygden ennå ikke er oppfylt, og det anses rimelig.
+>
+
 ### 2009-01-01 — lov/2009-01-16-5
 
-*I lista over innhaldet i kapittel 21 skal det fjerde strekpunktet lyde:innhenting og utveksling av opplysninger mv. står i §§ 21-4 til 21-4 c*
+*I lista over innhaldet i kapittel 21 skal det fjerde strekpunktet lyde:*
 
+> innhenting og utveksling av opplysninger mv. står i §§ 21-4 til 21-4 c
+>
 > Niande strekpunktet vert oppheva.
 >
 
@@ -12907,7 +13753,30 @@ refid: "lov/1997-02-28-19"
 
 ### 2009-01-01 — lov/2009-01-16-5
 
-*I lista over innhaldet i kapittel 25 skal tredje strekpunktet lyde:gebyr og tvangsmulkt står i § 25-3*
+*I lista over innhaldet i kapittel 25 skal tredje strekpunktet lyde:*
+
+> gebyr og tvangsmulkt står i § 25-3
+>
+
+### 2009-06-19 — lov/2009-06-19-41
+
+*7. I lov 28. februar 1997 nr. 19 om folketrygd skal § 1-7 lyde:*
+
+> § 1-7.Flyktning
+>
+> Med flyktning menes i denne loven en person som er innvilget oppholdstillatelse i medhold av utlendingsloven § 28.
+>
+
+### 2009-06-19 — lov/2009-06-19-72
+
+*I lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) skal ny § 5-24 a lyde:*
+
+> § 5-24 a.Stønad til helsetjenester i et annet EØS-land
+>
+> Det ytes stønad til dekning av utgifter til helsetjenester som medlemmet har hatt i et annet EØS-land etter regler fastsatt av departementet i forskrift.
+>
+> Forskriften kan ha nærmere bestemmelser om blant annet:hvilke helsetjenester og varer det ytes stønad tilhvem som har rett til stønadvilkår for stønad, herunder krav til tjenesteyterenberegning av stønadendekning av reise- og oppholdsutgifterkrav til dokumentasjon og oversettelse av dokumenterforholdet til andre regler om stønad til helsehjelp mottatt i annet land.
+>
 
 ### 2009-12-11 — lov/2009-12-11-121
 
@@ -13148,6 +14017,47 @@ refid: "lov/1997-02-28-19"
 > Bestemmelser omformål og virkeområde står i § 20-1alder står i § 20-2sammensetning av alderspensjon står i § 20-3pensjonsbeholdning står i § 20-4pensjonsopptjening på grunnlag av pensjonsgivende inntekt står i § 20-5pensjonsopptjening ved avtjening av førstegangstjeneste står i § 20-6pensjonsopptjening for dagpengemottakere står i § 20-7pensjonsopptjening ved omsorgsarbeid står i § 20-8garantipensjon står i §§ 20-9, 20-10 og 20-11levealdersjustering, nøytralt uttak og delingstall står i §§ 20-12 og 20-13uttak av alderspensjon står i § 20-14vilkår for uttak av alderspensjon før 67 år står i § 20-15omregning av pensjon ved endring i pensjonsgrad står i § 20-16omregning av pensjon ved opptjening mv. etter pensjonsuttak står i § 20-17regulering av pensjonsbeholdning og pensjoner står i § 20-18alderspensjon til årskullene 1954–1962 står i § 20-19garanti for opptjente rettigheter står i § 20-20pensjon opptjent før 1. januar 2010 står i § 20-21.
 >
 
+### 2010-01-01 — forskrift/2009-10-30-1324
+
+*Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.*
+
+> Ikraftsetting av lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven). Loven trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 9. januar 2009 nr. 1 om endringar i utlendingslovgivinga (reglar for EØS- og EFTA-borgarar o.a.). Lovens del I trer i kraft 1. januar 2010.
+>
+> Delvis ikraftsetting av lov 19. juni 2009 nr. 38 (gjennomføring av forordning nr. 767/2008 og rådsbeslutning nr. 633/2008 vedrørende visuminformasjonssystemet VIS mv.). Lovens del II, endringen i utlendingsloven § 92 og § 94, og lovens del III trer i kraft 1. januar 2010.
+>
+> Ikraftsetting av lov 19. juni 2009 nr. 41 om endringer i utlendingsloven og i enkelte andre lover. Loven trer i kraft 1. januar 2010.
+>
+
+### 2010-01-01 — forskrift/2009-12-18-1583
+
+*Ikraftsetting av Stortingets vedtak 15. desember 2009 til lov om endringer i folketrygdloven og helseregisterloven m.m. (innføring av automatisk frikortordning og etablering av nødvendige registre m.m.). Loven skal gjelde fra 1. januar 2010.*
+
+> Ikraftsetting av Stortingets vedtak 15. desember 2009 til lov om endringer i folketrygdloven og helseregisterloven m.m. (innføring av automatisk frikortordning og etablering av nødvendige registre m.m.). Loven skal gjelde fra 1. januar 2010.
+>
+
+### 2010-01-01 — forskrift/2009-12-18-1584
+
+*Loven trer i kraft 1. januar 2010.*
+
+> Loven trer i kraft 1. januar 2010.
+>
+
+### 2010-02-19 — lov/2010-02-19-5
+
+*2. I lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) skal § 3-19 sjette ledd lyde:*
+
+> Bestemmelsene i paragrafen her gjelder også for den som mottar avtalefestet pensjon og som omfattes av AFP-tilskottsloven § 12.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
+
 ### 2010-06-04 — lov/2010-06-04-17
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
@@ -13157,6 +14067,13 @@ refid: "lov/1997-02-28-19"
 *I lov 28. februar 1997 nr. 19 om folketrygd skal § 14-12 første ledd lyde:*
 
 > Dersom begge foreldre fyller vilkårene for rett til foreldrepenger, er 50 stønadsdager (10 uker) av stønadsperioden forbeholdt faren (fedrekvote).
+>
+
+### 2010-07-01 — forskrift/2010-04-09-499
+
+*Loven trer i kraft 1. juli 2010.*
+
+> Loven trer i kraft 1. juli 2010.
 >
 
 ### 2010-11-26 — lov/2010-11-26-59
@@ -13185,8 +14102,10 @@ refid: "lov/1997-02-28-19"
 
 ### 2010-11-26 — lov/2010-11-26-59
 
-*I innhaldslista til kapittel 20 skal nytt åttande strekpunkt lyde:pensjonsopptjening for uførepensjonister står i § 20-7 a*
+*I innhaldslista til kapittel 20 skal nytt åttande strekpunkt lyde:*
 
+> pensjonsopptjening for uførepensjonister står i § 20-7 a
+>
 > Noverande åttande til attande strekpunkt blir nye niande til nittande strekpunkt.
 >
 
@@ -13201,6 +14120,13 @@ refid: "lov/1997-02-28-19"
 > utbetaling av grunnstønad og hjelpestønad til barn i fosterheim står i § 22-3 b
 >
 > Noverande femte til nittande strekpunktet blir sjette til tjuande strekpunktet.
+>
+
+### 2011-01-01 — forskrift/2010-12-03-1508
+
+*Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.*
+
+> Lov 19. juni 2009 nr. 72 om endringer i folketrygdloven m.m. (etablering av en ordning for refusjon av pasienters utgifter til helsehjelp i andre EØS-land) trer i kraft 1. januar 2011.
 >
 
 ### 2011-07-01 — lov/2011-06-24-18
@@ -13230,7 +14156,11 @@ refid: "lov/1997-02-28-19"
 
 *Fjerde, femte og sjette strekpunkt i innholdsfortegnelsen til kapittel 3 skal lyde:*
 
-> særregler for alderspensjon til mottakere av uføretrygd står i §§ 3-17 og 3-18godskriving av pensjonspoeng for mottakere av avtalefestet pensjon står i § 3-19garantert tilleggspensjon til unge uføre født før 1941 står i § 3-22
+> særregler for alderspensjon til mottakere av uføretrygd står i §§ 3-17 og 3-18
+>
+> godskriving av pensjonspoeng for mottakere av avtalefestet pensjon står i § 3-19
+>
+> garantert tilleggspensjon til unge uføre født før 1941 står i § 3-22
 >
 
 ### 2011-12-16 — lov/2011-12-16-59
@@ -13340,6 +14270,13 @@ refid: "lov/1997-02-28-19"
 > Bestemmelser omskatteetatens og Arbeids- og velferdsetatens oppgaver står i § 24,arbeidsgiverens plikter står i § 24-2,fastsetting og innkreving av avgifter står i § 24-3,forskrifter står i § 24-4.
 >
 
+### 2012-06-22 — lov/2012-06-22-43
+
+*Gjeldende § 24-3 sjette ledd blir femte ledd og skal lyde:*
+
+> Forhåndsutfylte opplysninger om arbeidsgiveren kan gjøres tilgjengelig for arbeidsgiveren ved elektronisk kommunikasjon.
+>
+
 ### 2012-07-01 — forskrift/2012-06-22-579
 
 *Lov 17. desember 2010 nr. 81 om endringer i folketrygdloven (medlemskap i folketrygden under fengselsopphold mv.) trer i kraft 1. juli 2012.*
@@ -13354,6 +14291,13 @@ refid: "lov/1997-02-28-19"
 > Kapittel 9 Stønad ved barns og andre nærståendes sykdom
 >
 
+### 2013-01-01 — forskrift/2012-10-19-978
+
+*Loven trer i kraft fra 1. januar 2013 med unntak av folketrygdloven § 22-15 sjette ledd.*
+
+> Loven trer i kraft fra 1. januar 2013 med unntak av folketrygdloven § 22-15 sjette ledd.
+>
+
 ### 2013-01-01 — forskrift/2012-12-14-1206
 
 *Loven trer i kraft fra 1. januar 2013.*
@@ -13364,45 +14308,6 @@ refid: "lov/1997-02-28-19"
 ### 2013-04-05 — lov/2013-04-05-12
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
-
-> 38. I lov 23. mai 1997 nr. 31 om eierseksjoner skal § 38 annet ledd tredje punktum lyde:
->
-> Bare myndige personer kan være styremedlemmer.
->
-> 39. I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 6-8 første ledd annet punktum lyde:
->
-> Det samme gjelder hvis et styremedlem blir fratatt rettslig handleevne eller blir satt i konkurskarantene etter konkursloven §§ 142 og 143.
->
-> 40. I lov 13. juni 1997 nr. 45 om allmennaksjeselskaper skal § 6-8 første ledd annet punktum lyde:
->
-> Det samme gjelder hvis et styremedlem blir fratatt rettslig handleevne eller blir satt i konkurskarantene etter konkursloven §§ 142 og 143.
->
-> 41. I lov 19. juni 1997 nr. 82 om pass skal § 4 lyde:
->
-> § 4.
->
-> Pass til mindreårige og personer som er fratatt rettslighandleevne
->
-> Til barn under 18 år utstedes ikke pass uten samtykke fra den eller de som har foreldreansvaret. Har foreldrene felles foreldreansvar, må begge samtykke. Pass kan likevel utstedes til barn med bare den ene av foreldrenes samtykke i tilfelle der vedkommende i henhold til barneloven har anledning til å ta med barnet ut av landet uten den annens samtykke. Dersom barneverntjenesten har overtatt omsorgen for barnet etter barnevernloven § 4-8 eller § 4-12, skal samtykke kun innhentes fra barneverntjenesten.
->
-> Til person som er fratatt rettslig handleevne, utstedes ikke pass uten samtykke fra vergen.
->
-> Pass kan i særlige tilfeller utstedes til person som nevnt i første og annet ledd uten samtykke dersom det er åpenbart ubetenkelig.
->
-> 42. I lov 25. juni 1999 nr. 46 om finansavtaler og finansoppdrag skal § 25 lyde:
->
-> § 25.Kontohaver under vergemål
->
-> (1) En mindreårig som har fylt 15 år, kan inngå avtale om innskuddskonto for midler han eller hun har rett til å disponere over, jf. vergemålsloven § 12. Den mindreårige kan selv disponere over en slik konto, med mindre institusjonen har fått melding fra fylkesmannen om at den mindreårige er fratatt rådigheten over midlene etter vergemålsloven § 12 tredje ledd.
->
-> (2) Midler som etter vergemålsloven eller vedtak om vergemål bare kan disponeres av vergen eller fylkesmannen, skal ikke settes inn på konto som personen under vergemål har rett til å disponere over på egen hånd.
->
-> (3) En verge kan inngå avtale om konto i den mindreåriges navn uten den andre vergens samtykke. Ved avtaleinngåelsen skal vergen opplyse om det finnes andre verger for den mindreårige. Dersom det finnes flere verger, skal institusjonen informere den andre vergen om opprettelsen av kontoen.
->
-> (4) Har en kontohaver under vergemål flere verger, disponerer de kontoen i fellesskap med mindre de skriftlig har gitt melding om noe annet, fylkesmannen har besluttet at en av vergene skal disponere kontoen, jf. vergemålsloven § 18 fjerde ledd, eller en gaveyter eller arvelater har besluttet at arven eller gaven skal forvaltes på en bestemt måte, jf. vergemålsloven § 95.
->
-> (5) Opplysninger som institusjonen etter loven her skal meddele kontohaveren, skal gis verge med mindre opplysningene gjelder midler personen under vergemål har rett til å disponere over på egen hånd. Kongen kan i forskrift fastsette at de samme opplysningene også skal gis fylkesmannen, eller at fylkesmannen skal gis en kontoutskrift for disse kontoene ved årets slutt.
->
 
 ### 2013-04-19 — forskrift/2013-04-19-389
 
@@ -13432,13 +14337,45 @@ refid: "lov/1997-02-28-19"
 
 ### 2013-06-21 — lov/2013-06-21-79
 
-*I lov 28. februar 1997 nr. 19 om folketrygd skal § 5-24 a andre ledd bokstav c ledd lyde:vilkår for stønad, herunder forhåndsgodkjenning og krav til tjenesteyteren*
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 5-24 a andre ledd bokstav c ledd lyde:*
+
+> vilkår for stønad, herunder forhåndsgodkjenning og krav til tjenesteyteren
+>
+
+### 2013-06-21 — lov/2013-06-21-102
+
+*6. I lov 28. februar 1997 nr. 19 om folketrygd skal § 8-24 tredje ledd bokstav c lyde:*
+
+> permisjon etter skipsarbeidsloven §§ 7-2 til 7-5, 7-8 og 7-9, eller
+>
+
+### 2013-06-21 — lov/2013-06-21-102
+
+*7. I lov 10. juni 2005 nr. 40 om Likestillings- og diskrimineringsombudet og Likestillings- og diskrimineringsnemnda skal § 1 annet ledd nr. 10 lyde:*
+
+> Skipsarbeidsloven kapittel 10, med unntak av §§ 10-1 tredje ledd og 10-9.
+>
 
 ### 2013-07-01 — forskrift/2012-06-15-525
 
 *Loven trer i kraft 1. juli 2013.*
 
 > Loven trer i kraft 1. juli 2013.
+>
+
+### 2013-08-20 — forskrift/2013-06-21-730
+
+*---*
+
+> ---
+>
+> Delt ikraftsetting av skipsarbeidsloven. Loven settes i kraft 20. august 2013, med unntak av lovens kapittel 10 som settes i kraft 1. januar 2014.
+>
+> Delt opphevelse av sjømannslov 30. mai 1975 nr. 18. Loven oppheves fra 20. august 2013, med unntak av lovens kapittel IIA som oppheves fra 1. januar 2014.
+>
+> Delt ikraftsetting av lov 19. desember 2008 nr. 123 om endringar i sjømannslov 30. mai 1975 nr. 18 mv. Del III og IV settes i kraft fra 20. august 2013.
+>
+> ---
 >
 
 ### 2014-06-20 — lov/2014-06-20-24
@@ -13517,6 +14454,31 @@ refid: "lov/1997-02-28-19"
 > Nytt strekpunkt tyve skal lyde:Alderspensjon under institusjonsopphold og straffegjennomføring står i §§ 20-22 og 20-23
 >
 
+### 2014-07-01 — forskrift/2014-06-20-793
+
+*Loven trer i kraft fra 1. juli 2014.*
+
+> Loven trer i kraft fra 1. juli 2014.
+>
+
+### 2014-09-26 — forskrift/2014-09-26-1220
+
+*Delt ikraftsetting av lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold med mer. Loven trer i kraft 1. januar 2015, med unntak av § 12a som trer i kraft straks.*
+
+> Delt ikraftsetting av lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold med mer. Loven trer i kraft 1. januar 2015, med unntak av § 12a som trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. juni 2014 nr. 23 om endringer i folketrygdloven og i skattelovgivningen mv. (tilpasning til a-ordningen). Loven trer i kraft 1. januar 2015, med unntak av del VI og folketrygdloven § 25-3a som er trådt i kraft.
+>
+
+### 2014-09-26 — forskrift/2014-09-26-1221
+
+*Ikraftsetting av lov 7. desember 2012 nr. 75 om endringer i folketrygdloven del I. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.*
+
+> Ikraftsetting av lov 7. desember 2012 nr. 75 om endringer i folketrygdloven del I. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+> Ikraftsetting av lov 7. desember 2012 nr. 76 om endringer i lov om skatt av formue og inntekt del V. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+
 ### 2014-12-19 — lov/2014-12-19-74
 
 *Endringa av § 12-15 tredje ledd skal lyde:*
@@ -13533,6 +14495,20 @@ refid: "lov/1997-02-28-19"
 *Delt ikraftsetting av lov 16. desember 2011 nr. 59 om endringer i folketrygdloven (ny uføretrygd og alderspensjon til uføre). Loven trer i kraft 1. januar 2015, med unntak av folketrygdloven § 19-9a og loven del II som trådte i kraft 1. februar 2012.*
 
 > Delt ikraftsetting av lov 16. desember 2011 nr. 59 om endringer i folketrygdloven (ny uføretrygd og alderspensjon til uføre). Loven trer i kraft 1. januar 2015, med unntak av folketrygdloven § 19-9a og loven del II som trådte i kraft 1. februar 2012.
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1717
+
+*Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kr*
+
+> Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kraft 1. januar 2015.
 >
 
 ### 2015-06-19 — lov/2015-06-19-41
@@ -13581,17 +14557,37 @@ refid: "lov/1997-02-28-19"
 
 ### 2016-01-01 — lov/2015-06-19-42
 
-*I innholdsfortegnelsen til kapittel 16 skal fjerde strekpunkt lyde:tilleggsstønader og stønad til skolepenger mv. står i § 16-9*
+*I innholdsfortegnelsen til kapittel 16 skal fjerde strekpunkt lyde:*
+
+> tilleggsstønader og stønad til skolepenger mv. står i § 16-9
+>
 
 ### 2016-01-01 — lov/2015-06-19-42
 
-*I innholdsfortegnelsen til kapittel 17 skal femte strekpunkt lyde:stønad til barnetilsyn, tilleggsstønader og stønad til skolepenger mv. står i § 17-9*
+*I innholdsfortegnelsen til kapittel 17 skal femte strekpunkt lyde:*
+
+> stønad til barnetilsyn, tilleggsstønader og stønad til skolepenger mv. står i § 17-9
+>
 
 ### 2016-01-01 — forskrift/2015-06-19-669
 
 *Ikraftsetting av Stortingets vedtak 15. juni 2015 til lov om endringer i folketrygdloven (midlertidig gjenlevendetillegg til ny alderspensjon). Loven trer i kraft 1. januar 2016.*
 
 > Ikraftsetting av Stortingets vedtak 15. juni 2015 til lov om endringer i folketrygdloven (midlertidig gjenlevendetillegg til ny alderspensjon). Loven trer i kraft 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
+### 2016-04-01 — forskrift/2015-12-18-1581
+
+*Loven trer i kraft fra 1. april 2016.*
+
+> Loven trer i kraft fra 1. april 2016.
 >
 
 ### 2016-05-27 — lov/2016-05-27-12
@@ -13618,11 +14614,32 @@ refid: "lov/1997-02-28-19"
 
 *Nåværende § 21-11a sjuende ledd blir nytt åttende ledd*
 
+### 2016-07-01 — forskrift/2016-06-03-572
+
+*Loven trer i kraft fra 1. juli 2016.*
+
+> Loven trer i kraft fra 1. juli 2016.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-730
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
 ### 2016-12-20 — lov/2016-12-20-110
 
 *Kapittel 24 innholdsfortegnelsen skal lyde:*
 
 > Bestemmelser omSkatteetatens og Arbeids- og velferdsetatens oppgaver står i § 24-1,kontroll av arbeidsgivere står i § 24-4,forskrifter står i § 24-5.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
 >
 
 ### 2017-01-01 — forskrift/2016-11-11-1309
@@ -13639,6 +14656,34 @@ refid: "lov/1997-02-28-19"
 > Delt ikraftsetting av lov 17. juni 2016 nr. 25 om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer). Endringene i folketrygdloven § 19-11 og endringsloven del VIII nr. 7 trer i kraft 1. februar 2017.
 >
 
+### 2017-05-22 — forskrift/2017-05-22-619
+
+*Delt ikraftsetting. Endringsloven trer i kraft fra 1. september 2017 med unntak av del II som trer i kraft straks.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft fra 1. september 2017 med unntak av del II som trer i kraft straks.
+>
+
+### 2017-06-16 — forskrift/2017-06-16-777
+
+*Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-776
+
+*Delt ikraftsetting av loven. Loven del II og III trer i kraft 1. juli 2017. Loven del I trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av loven. Loven del II og III trer i kraft 1. juli 2017. Loven del I trer i kraft 1. januar 2018.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-778
+
+*Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.*
+
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.
+>
+
 ### 2017-10-01 — lov/2017-05-11-25
 
 *Innledningen til kapittel 9 skal lyde:*
@@ -13649,6 +14694,15 @@ refid: "lov/1997-02-28-19"
 ### 2017-10-01 — lov/2017-05-11-25
 
 *Kapittel 9 romertall III overskriften skal lyde:*
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
 
 ### 2018-01-01 — lov/2017-06-16-43
 
@@ -13961,6 +15015,13 @@ refid: "lov/1997-02-28-19"
 > Delt ikraftsetting av loven. Loven § 14-17 trer i kraft 1. januar 2018.
 >
 
+### 2018-01-01 — forskrift/2017-12-19-2156
+
+*Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.*
+
+> Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.
+>
+
 ### 2018-04-20 — lov/2018-04-20-5
 
 *I lov 28. februar 1997 nr. 19 om folketrygd skal § 25-11 lyde:*
@@ -13978,6 +15039,15 @@ refid: "lov/1997-02-28-19"
 
 *Nåværende annet punktum blir tredje punktum.*
 
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
 ### 2018-06-22 — lov/2018-06-22-55
 
 *Kapittel 23. Finansiering*
@@ -13985,13 +15055,51 @@ refid: "lov/1997-02-28-19"
 > Bestemmelser omfolketrygdens utgifter står i § 23-1,arbeidsgiveravgift står i § 23-2,trygdeavgift står i § 23-3,avgifter for visse grupper står i § 23-4,produktavgift ved fiske m.m. står i § 23-5,premie for frivillig forsikring for sykepenger og frivillig yrkesskadetrygd står i § 23-6,refusjon av trygdeutgifter ved trafikkskade står i § 23-7,refusjon av trygdeutgifter ved yrkesskade står i § 23-8,tilskott fra staten står i § 23-10,folketrygdfondet står i § 23-11.
 >
 
+### 2018-07-01 — forskrift/2018-04-27-641
+
+*– – –*
+
+> – – –
+>
+> Loven trer i kraft 1. juli 2018.
+>
+> For saker der kjennelse etter straffeprosessloven § 220 er avsagt før 1. juli 2018, kommer loven til anvendelse dersom det avsies kjennelse for det.
+>
+
+### 2018-07-01 — forskrift/2018-06-08-839
+
+*Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.*
+
+> Lov 20. april 2018 nr. 5 om endringer i barnevernloven mv. (bedre rettssikkerhet for barn og foreldre) trer i kraft 1. juli 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-880
+
+*Delt ikraftsetting av endringsloven. Endringene i folketrygdloven trer i kraft 1. juli 2018, og endringene i kontantstøtteloven trer i kraft 1. august 2018.*
+
+> Delt ikraftsetting av endringsloven. Endringene i folketrygdloven trer i kraft 1. juli 2018, og endringene i kontantstøtteloven trer i kraft 1. august 2018.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 4 skal tolvte strekpunkt lyde:dagpenger til særskilte grupper står i §§ 4-18 og 4-19*
+*I innholdsfortegnelsen i kapittel 4 skal tolvte strekpunkt lyde:*
+
+> dagpenger til særskilte grupper står i §§ 4-18 og 4-19
+>
 
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 5 skal nytt tolvte strekpunkt lyde:stønad til helsetjenester i annet EØS-land står i § 5-24 a*
+*I innholdsfortegnelsen i kapittel 5 skal nytt tolvte strekpunkt lyde:*
+
+> stønad til helsetjenester i annet EØS-land står i § 5-24 a
+>
 
 ### 2019-01-01 — lov/2018-12-20-98
 
@@ -14011,7 +15119,10 @@ refid: "lov/1997-02-28-19"
 
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 10 skal andre strekpunkt lyde:generelle vilkår står i §§ 10-3 og 10-4*
+*I innholdsfortegnelsen i kapittel 10 skal andre strekpunkt lyde:*
+
+> generelle vilkår står i §§ 10-3 og 10-4
+>
 
 ### 2019-01-01 — lov/2018-12-20-98
 
@@ -14019,7 +15130,10 @@ refid: "lov/1997-02-28-19"
 
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 19 skal nytt sjette strekpunkt lyde:overgang fra uføretrygd til alderspensjon for personer født i 1944 til 1953 står i § 19-9 a*
+*I innholdsfortegnelsen i kapittel 19 skal nytt sjette strekpunkt lyde:*
+
+> overgang fra uføretrygd til alderspensjon for personer født i 1944 til 1953 står i § 19-9 a
+>
 
 ### 2019-01-01 — lov/2018-12-20-98
 
@@ -14037,22 +15151,28 @@ refid: "lov/1997-02-28-19"
 
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 21 skal fjerde strekpunkt lyde:innhenting og utveksling av opplysninger mv. står i §§ 21-4 til 21-4 d*
+*I innholdsfortegnelsen i kapittel 21 skal fjerde strekpunkt lyde:*
 
+> innhenting og utveksling av opplysninger mv. står i §§ 21-4 til 21-4 d
+>
 > Siste strekpunkt skal lyde:forskrifter står i § 21-17
 >
 
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 22 skal åttende strekpunkt lyde:utbetaling til Nav-kontor o.a. står i § 22-6*
+*I innholdsfortegnelsen i kapittel 22 skal åttende strekpunkt lyde:*
 
+> utbetaling til Nav-kontor o.a. står i § 22-6
+>
 > Kommaet i første, tiende og trettende strekpunkt fjernes, samt punktumet etter siste strekpunkt.
 >
 
 ### 2019-01-01 — lov/2018-12-20-98
 
-*I innholdsfortegnelsen i kapittel 23 skal tiende strekpunkt lyde:folketrygdens midler står i § 23-11*
+*I innholdsfortegnelsen i kapittel 23 skal tiende strekpunkt lyde:*
 
+> folketrygdens midler står i § 23-11
+>
 > Kommaene etter første til niende strekpunkt og punktumet etter tiende strekpunkt fjernes.
 >
 
@@ -14070,11 +15190,40 @@ refid: "lov/1997-02-28-19"
 > Lov 5. april 2017 nr. 15 om endringer i folketrygdloven (endret fastsetting av grunnlaget for sykepenger, foreldrepenger og pleiepenger mv.) trer i kraft 1. januar 2019.
 >
 
+### 2019-01-01 — forskrift/2018-06-22-945
+
+*Loven trer i kraft fra 1. januar 2019.*
+
+> Loven trer i kraft fra 1. januar 2019.
+>
+
 ### 2019-01-01 — forskrift/2018-12-07-1818
 
 *Delt ikraftsetting av lov 19. desember 2017 nr. 116 om endringer i folketrygdloven (forenklinger i foreldrepengeordningen). Loven § 14-6, § 14-7, § 14-10 og § 14-11 trer i kraft 1. januar 2019.*
 
 > Delt ikraftsetting av lov 19. desember 2017 nr. 116 om endringer i folketrygdloven (forenklinger i foreldrepengeordningen). Loven § 14-6, § 14-7, § 14-10 og § 14-11 trer i kraft 1. januar 2019.
+>
+
+### 2019-06-21 — lov/2019-06-21-42
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal ny § 25-6 a lyde:*
+
+> § 25-6 a.Overtredelsesgebyr
+>
+> Dersom en behandler uaktsomt eller forsettlig forskriver legemidler, næringsmidler eller medisinsk forbruksmateriell i strid med § 5-14 eller forskrift gitt i medhold av denne, og dette kan føre til uberettiget utbetaling av trygdeytelser, kan Helsedirektoratet eller det organ Helsedirektoratet bestemmer ilegge behandleren et overtredelsesgebyr.
+>
+> Departementet fastsetter i forskrift nærmere bestemmelser om utmåling og betaling av overtredelsesgebyr.
+>
+> Adgangen til å ilegge overtredelsesgebyr foreldes etter to år. Fristen regnes fra tidspunktet overtredelsen fant sted. Fristen avbrytes ved at det gis forhåndsvarsel eller treffes vedtak om overtredelsesgebyr.
+>
+> Vedtak fattet etter denne bestemmelsen kan påklages til Nasjonalt klageorgan for helsetjenesten.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
 >
 
 ### 2019-12-20 — lov/2019-12-20-84
@@ -14087,7 +15236,10 @@ refid: "lov/1997-02-28-19"
 
 ### 2019-12-20 — lov/2019-12-20-84
 
-*I kapittel 11 skal innholdsfortegnelsen sjuende strekpunkt lyde:beregning av arbeidsavklaringspenger står i §§ 11-19 og 11-20*
+*I kapittel 11 skal innholdsfortegnelsen sjuende strekpunkt lyde:*
+
+> beregning av arbeidsavklaringspenger står i §§ 11-19 og 11-20
+>
 
 ### 2019-12-20 — lov/2019-12-20-105
 
@@ -14095,170 +15247,11 @@ refid: "lov/1997-02-28-19"
 
 ### 2020-03-20 — lov/2020-03-20-7
 
-*I innholdsfortegnelsen i kapittel 25 skal sekstende strekpunkt lyde:forskrifter ved allmennfarlig smittsom sykdom står i § 25-16*
+*I innholdsfortegnelsen i kapittel 25 skal sekstende strekpunkt lyde:*
 
+> forskrifter ved allmennfarlig smittsom sykdom står i § 25-16
+>
 > Gjeldende sekstende strekpunkt blir nytt syttende strekpunkt.
->
-
-### 2020-06-12 — lov/2020-06-12-62
-
-*Endringer i følgende lov:*
-
-> Endringer i følgende lov:
->
-> Lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven).
->
-> § 1
->
-> .
->
-> Virkeområde
->
-> Loven gir bestemmelser om rett til kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet personinntekt som følge av utbrudd av covid-19.
->
-> Inntektstap som utløser rett til andre ytelser til livsopphold, gir ikke rett til kompensasjonsytelse. Kompensasjonsytelsen kan gis til næringsdrivende og frilansere som har hatt en nærings- eller frilansvirksomhet i Norge som var startet opp og aktiv før 1. mars 2020.
->
-> Loven får også anvendelse for personer på Svalbard som er medlemmer av folketrygden i henhold til folketrygdloven § 2-3.
->
-> § 2
->
-> .
->
-> Vilkår for ytelse
->
-> Selvstendig næringsdrivende og frilansere med personinntekt fra næring eller oppdrag på over 0,75 ganger folketrygdens grunnbeløp (G), i aldersgruppen 18–67 år, som etter 12. mars 2020 har mistet hele eller deler av denne inntekten som følge av utbrudd av covid-19, kan søke om kompensasjonsytelse etter denne loven.
->
-> Kompensasjonsytelsen ytes ikke til selvstendig næringsdrivende og frilansere som i den måneden det søkes ytelse for, har arbeidsinntekt, inkludert rett til trygdeytelser som erstatter bortfalt arbeidsinntekt, på til sammen 6 G eller høyere.
->
-> § 3
->
-> .
->
-> Grunnlag for beregning og ytelsens størrelse
->
-> Grunnlaget er den inntekten kompensasjonsytelsen regnes ut etter. Grunnlaget beregnes som et årlig beløp.
->
-> Grunnlaget for selvstendig næringsdrivende fastsettes med utgangspunkt i pensjonsgivende årsinntekt fra næring fra 2019. For selskaper som har startet opp etter 1. januar 2020 inngår inntekter fra næring fra januar og februar 2020 i grunnlaget.
->
-> Grunnlaget for frilansere fastsettes med utgangspunkt i den gjennomsnittlige inntekten som frilanseren har hatt i oppdrag og som er rapportert til a-ordningen de siste 12 månedene før mars 2020. For frilansere som startet virksomheten mellom 1. mars 2019 og 1. mars 2020, legges hele driftsperioden til grunn.
->
-> Maksimalt grunnlag er 6 G. Arbeidsinntekt, inkludert inntekt som ligger til grunn for trygdeytelser som erstatter bortfalt arbeidsinntekt, trekkes fra grensen på 6 G. Det samme gjelder for frilans- eller næringsinntekt det ikke er søkt kompensasjonsytelse for. Det gis ikke kompensasjon på et grunnlag større enn differansen mellom 6 G og summen av de nevnte inntektene.
->
-> Kompensasjonsytelsen gis med 80 prosent av grunnlaget begrenset oppad til 6 G. Ytelsen gis for fem dager per uke, og dagsatsen er den årlige ytelsen delt på 260.
->
-> § 4
->
-> .
->
-> Avkortning mot inntekt
->
-> Inntekter som selvstendig næringsdrivende og frilanser i stønadsperioden kommer til fradrag i ytelsen med 80 prosent.
->
-> § 5
->
-> .
->
-> Utbetalingsterminer
->
-> Ytelsen gis per dag, og den utbetales etterskuddsvis for den kalendermåneden det er søkt for.
->
-> § 6
->
-> .
->
-> Stønadsperiode
->
-> Ytelsen gis fra og med dag 17 etter dokumentert inntektsbortfall. Ved innvilgning av nye perioder innvilges ytelsen fra første dag.
->
-> Ytelsen kan gis for den perioden loven gjelder.
->
-> § 7
->
-> .
->
-> Fremsetting av krav
->
-> Krav om ytelse etter denne loven skal settes frem for Arbeids- og velferdsetaten på den måten Arbeids- og velferdsdirektoratet bestemmer.
->
-> Arbeids- og velferdsdirektoratet kan fastsette en frist for når krav om ytelse senest må være satt frem.
->
-> § 8
->
-> .
->
-> Saksbehandling
->
-> Forvaltningsloven gjelder med de særregler som er fastsatt i loven her.
->
-> Saksbehandlingsreglene i folketrygdloven §§ 21-3, 21-4, 21-4 a, 21-4 b, 21-4 c, 21-4 d, 21-6 og 21-7 gjelder så langt de passer for saker etter denne loven.
->
-> Ved krav om tilbakebetaling av feilutbetalte ytelser gjelder folketrygdloven § 22-15 tilsvarende.
->
-> § 9
->
-> .
->
-> Klage
->
-> Vedtak kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
->
-> Klage settes frem skriftlig eller muntlig for den enheten som Arbeids- og velferdsdirektoratet bestemmer.
->
-> Fristen for klage er seks uker.
->
-> § 10
->
-> .
->
-> Behandling av personopplysninger og automatisert saksbehandling
->
-> Arbeids- og velferdsetaten kan behandle personopplysninger, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9, når dette er nødvendig for å behandle saker etter denne loven eller gi informasjon om kompensasjonsytelsen til aktuelle søkere.
->
-> Avgjørelser etter denne loven kan treffes automatisk. Etaten skal fastsette retningslinjer for automatiserte avgjørelser, inkludert krav til jevnlig kontroll for å begrense faren for feil. Den registrerte har rett til manuell overprøving av avgjørelsen.
->
-> § 11
->
-> .
->
-> Opplysninger til bruk ved utredning og produksjon av statistikk
->
-> Arbeids- og velferdsetaten skal ha tilgang til opplysningene om kompensasjonsytelsen i forbindelse med utredning og produksjon av statistikk på de områdene etaten administrerer, se arbeids- og velferdsforvaltningsloven § 4 annet ledd.
->
-> § 12
->
-> .
->
-> Forskrifter
->
-> Departementet kan gi forskrifter til utfylling av bestemmelsene i denne loven. Departementet kan i forskrift fastsette en lavere kompensasjonsgrad enn det som følger av § 3 femte ledd.
->
-> § 13
->
-> .
->
-> Ikrafttredelse og opphevelse
->
-> Loven trer i kraft straks.
->
-> Loven oppheves 1. november 2020.
->
-> § 14
->
-> .
->
-> Endringer i andre lover
->
-> Fra det tidspunktet loven trer i kraft, gjøres følgende endringer i lov 28. februar 1997 nr. 19 om folketrygd:
->
-> § 8-2 nytt tredje ledd skal lyde:
->
-> Likestilt med forutgående arbeid er også tidsrom da medlemmet har mottatt ytelse i medhold av midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet inntekt som følge av utbrudd av covid-19.
->
-> § 14-6 tredje ledd bokstav e) og ny bokstav f) skal lyde:
->
-> avtjening av militærtjeneste eller obligatorisk sivilforsvarstjeneste,
->
-> ytelse i medhold av midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet inntekt som følge av utbrudd av covid-19.
 >
 
 ### 2020-07-01 — lov/2019-12-13-78
@@ -14280,9 +15273,46 @@ refid: "lov/1997-02-28-19"
 
 *Nåværende andre, tredje, fjerde, femte og sjette ledd blir tredje, fjerde, femte, sjette og nytt syvende ledd.*
 
+### 2020-07-01 — forskrift/2020-06-19-1245
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.). Loven trer i kraft 1. juli 2020 med unntak av loven del I, endringene i straffegjennomføringsloven § 16a fjerde ledd som trer*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.). Loven trer i kraft 1. juli 2020 med unntak av loven del I, endringene i straffegjennomføringsloven § 16a fjerde ledd som trer i kraft 1. september 2020, og loven del I, endringene i straffegjennomføringsloven § 10.
+>
+
+### 2020-11-01 — forskrift/2020-10-30-2181
+
+*Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 87 om endring i vegtrafikkloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Delt ikraftsetting av lov 20. desember 2019 nr. 88 om endringer i eigedomsskattelova. Endringsloven del I trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 89 om endring i fjellova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 91 om endring i rettsgebyrloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 93 om endringer i folketrygdloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 95 om endring i brann- og eksplosjonsvernloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 99 om endring i vass- og avløpsanleggslova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 100 om endring i a-opplysningsloven. Endringsloven trer i kraft 1. november 2020.
+>
+
 ### 2020-12-18 — lov/2020-12-18-138
 
-*I innholdsfortegnelsen i kapittel 25 skal første, tredje og tiende strekpunkt lyde:Arbeidsgiver- og arbeidstakerregisteret står i § 25-1overtredelsesgebyr og tvangsmulkt står i § 25-3arbeidsgivers og oppdragsgivers opplysningsplikt står i § 25-10*
+*I innholdsfortegnelsen i kapittel 25 skal første, tredje og tiende strekpunkt lyde:*
+
+> Arbeidsgiver- og arbeidstakerregisteret står i § 25-1
+>
+> overtredelsesgebyr og tvangsmulkt står i § 25-3
+>
+> arbeidsgivers og oppdragsgivers opplysningsplikt står i § 25-10
+>
 
 ### 2020-12-18 — lov/2020-12-18-139
 
@@ -14494,7 +15524,11 @@ refid: "lov/1997-02-28-19"
 
 *Innholdsfortegnelsen til kapittel 18 fjerde, femte og sjuende strekpunkt skal lyde:*
 
-> bortfall og reduksjon av barnepensjon ved adopsjon står i § 18-6forholdet til andre ytelser fra folketrygden står i § 18-7pensjon etter dødsfall som skyldes yrkesskade, står i § 18-10
+> bortfall og reduksjon av barnepensjon ved adopsjon står i § 18-6
+>
+> forholdet til andre ytelser fra folketrygden står i § 18-7
+>
+> pensjon etter dødsfall som skyldes yrkesskade, står i § 18-10
 >
 
 ### 2020-12-18 — lov/2020-12-18-139
@@ -14503,7 +15537,10 @@ refid: "lov/1997-02-28-19"
 
 ### 2021-01-01 — lov/2020-11-27-130
 
-*I kapittel 22 i den innledende opplistingen av bestemmelsene i kapitlet skal nytt 3. strekpunkt lyde:hjemmel for departementet til å gi forskrift om plikt til direkte oppgjør står i § 22-2 a.*
+*I kapittel 22 i den innledende opplistingen av bestemmelsene i kapitlet skal nytt 3. strekpunkt lyde:*
+
+> hjemmel for departementet til å gi forskrift om plikt til direkte oppgjør står i § 22-2 a.
+>
 
 ### 2021-01-01 — lov/2020-11-27-130
 
@@ -14522,6 +15559,20 @@ refid: "lov/1997-02-28-19"
 > Departementet gir forskrifter om egenandelsordningen, og kan herunder bestemme hvilke utgifter som skal medregnes under egenandelstaket.
 >
 
+### 2021-01-01 — forskrift/2020-11-06-2247
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2860
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 84 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del I, endringene i folketrygdlovens innholdsfortegnelse kapittel 1 og 11 og § 1-7, § 3-2, § 3-3, § 3-5, § 3-8, § 3-9, § 8-44, § 11-2, § 12-2, § 12-3, § 12-7, § 12-12, § 12-13, § 1*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 84 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del I, endringene i folketrygdlovens innholdsfortegnelse kapittel 1 og 11 og § 1-7, § 3-2, § 3-3, § 3-5, § 3-8, § 3-9, § 8-44, § 11-2, § 12-2, § 12-3, § 12-7, § 12-12, § 12-13, § 15-2, § 16-2, § 17-3, § 17-4, § 17-7, § 18-2, § 18-3, § 18-5, § 19-2, § 19-3, § 19-8, § 20-10 og § 22-8, del IV, endringene i lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg og del V nr. 6 til 8, trer i kraft 1. januar 2021.
+>
+
 ### 2021-02-01 — forskrift/2021-01-29-267
 
 *Delt ikraftsetting av lov 18. desember 2020 nr. 138 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del VI, endringene i lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 4-24 og § 4-25, trer i kraft 1. februar 2021.*
@@ -14536,6 +15587,13 @@ refid: "lov/1997-02-28-19"
 > Ikraftsetting av lov 18. desember 2020 nr. 140 om endringer i folketrygdloven (utfasing av forsørgingstillegg til alderspensjon). Endringsloven trer i kraft 1. mars 2021.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-01 — forskrift/2021-05-21-1627
 
 *Loven trer i kraft 1. juni 2021.*
@@ -14546,6 +15604,13 @@ refid: "lov/1997-02-28-19"
 ### 2021-06-18 — lov/2021-06-18-90
 
 *Nåværende sjette ledd blir nytt syvende ledd.*
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
 
 ### 2021-09-03 — forskrift/2021-09-03-2663
 
@@ -14570,7 +15635,28 @@ refid: "lov/1997-02-28-19"
 
 ### 2021-12-17 — lov/2021-12-17-146
 
-*I innholdsfortegnelsen til kapittel 4 skal det tiende strekpunktet lyde:dagpengegrunnlag og dagpengenes størrelse står i §§ 4-11 til 4-14*
+*I innholdsfortegnelsen til kapittel 4 skal det tiende strekpunktet lyde:*
+
+> dagpengegrunnlag og dagpengenes størrelse står i §§ 4-11 til 4-14
+>
+
+### 2022-01-01 — forskrift/2021-09-17-2767
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall II, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28 og § 28a trer i kraft 1.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall II, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28 og § 28a trer i kraft 1. januar 2022.
+>
+> Lov 21. juni 2019 nr. 42 om endringer i apotekloven, legemiddelloven og folketrygdloven (overtredelsesgebyr) trer i kraft 1. januar 2022.
+>
+> Delt ikraftsetting av lov 20. mai 2020 nr. 42 om endringer i markedsføringsloven mv. (gjennomføring av forordning (EU) 2017/2394 om forbrukervernsamarbeid). Romertall VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v., § 28a trer i kraft 1. januar 2022.
+>
+
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
+>
 
 ### 2022-06-10 — lov/2022-06-10-35
 
@@ -14579,171 +15665,290 @@ refid: "lov/1997-02-28-19"
 > Første ledd første punktum gjelder ikke overfor et medlem som mottar ugradert avtalefestet pensjon fra offentlig tjenestepensjonsordning, og som utfører arbeid der avlønningen skjer etter særskilt sats for pensjonistavlønning for tjeneste som er nødvendig for å ivareta et ekstraordinært personellbehov i forbindelse med personer fordrevet fra Ukraina. Unntaket gjelder fra 1. april 2022 til og med 31. desember 2022. Sykepenger som er tilstått i perioden, løper ut ordinær sykepengeperiode.
 >
 
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
 ### 2022-06-22 — lov/2022-06-22-72
 
-*I kapittel 11 innleiinga skal femte strekpunkt lyde:varighet står i §§ 11-12 og 11-12 a*
+*I kapittel 11 innleiinga skal femte strekpunkt lyde:*
+
+> varighet står i §§ 11-12 og 11-12 a
+>
 
 ### 2022-06-22 — lov/2022-06-22-72
 
-*I kapittel 11 innleiinga skal trettande strekpunkt lyde:nytt krav om arbeidsavklaringspenger står i § 11-31*
+*I kapittel 11 innleiinga skal trettande strekpunkt lyde:*
+
+> nytt krav om arbeidsavklaringspenger står i § 11-31
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1042
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-08-02 — forskrift/2022-03-18-416
+
+*Delt ikraftsetting av lov 8. mars 2022 nr. 40*
+
+> Delt ikraftsetting av lov 8. mars 2022 nr. 40
+>
+> om endringer i folketrygdloven mv. (styrking av fedres rett til foreldrepenger mv.)
+>
+> Delt ikraftsetting av lov 8. mars 2022 nr. 40
+>
+> om endringer i folketrygdloven mv. (styrking av fedres rett til foreldrepenger mv.):
+>
+> Loven del I trer i kraft 2. august 2022.
+>
+> Loven del II trer i kraft 1. august 2022.
+>
+> Skal være lov 18. mars 2022 nr. 11. Lovtidend-redaksjonens anmerkning.
+>
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 1 skal tredje og nytt fjerde og femte strekpunkt lyde:forholdet til EØS-avtalens hoveddel står i § 1-3gjennomføring av trygdeforordningen og gjennomføringsforordningen står i § 1-3 aandre folkerettslige bestemmelser om trygdekoordinering står i § 1-3 b*
+*I innholdsfortegnelsen i kapittel 1 skal tredje og nytt fjerde og femte strekpunkt lyde:*
 
+> forholdet til EØS-avtalens hoveddel står i § 1-3
+>
+> gjennomføring av trygdeforordningen og gjennomføringsforordningen står i § 1-3 a
+>
+> andre folkerettslige bestemmelser om trygdekoordinering står i § 1-3 b
+>
 > Innholdsfortegnelsens nåværende fjerde til niende strekpunkt blir sjette til ellevte strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 2 skal første og nytt andre strekpunkt lyde:pliktig medlemskap står i § 2-1 og §§ 2-2 til 2-6forholdet til bestemmelser om internasjonal trygdekoordinering står i § 2-1 a*
+*I innholdsfortegnelsen i kapittel 2 skal første og nytt andre strekpunkt lyde:*
 
+> pliktig medlemskap står i § 2-1 og §§ 2-2 til 2-6
+>
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 2-1 a
+>
 > Innholdsfortegnelsens nåværende andre til sjuende strekpunkt blir tredje til åttende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 3 skal nytt første strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 3-1*
+*I innholdsfortegnelsen i kapittel 3 skal nytt første strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 3-1
+>
 > Innholdsfortegnelsens nåværende første til femte strekpunkt blir andre til sjette strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 4 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 4-1 a*
+*I innholdsfortegnelsen i kapittel 4 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 4-1 a
+>
 > Innholdsfortegnelsens nåværende andre til fjortende strekpunkt blir tredje til femtende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 5 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 5-1 a*
+*I innholdsfortegnelsen i kapittel 5 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 5-1 a
+>
 > Innholdsfortegnelsens nåværende andre til fjortende strekpunkt blir tredje til femtende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 6 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 6-1 a*
+*I innholdsfortegnelsen i kapittel 6 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 6-1 a
+>
 > Innholdsfortegnelsens nåværende andre til åttende strekpunkt blir tredje til niende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 7 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 7-1 a*
+*I innholdsfortegnelsen i kapittel 7 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 7-1 a
+>
 > Innholdsfortegnelsens nåværende andre til femte strekpunkt blir tredje til sjette strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 8 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 8-1 a*
+*I innholdsfortegnelsen i kapittel 8 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 8-1 a
+>
 > Innholdsfortegnelsens nåværende andre til fjortende strekpunkt blir tredje til femtende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 9 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 9-1 a*
+*I innholdsfortegnelsen i kapittel 9 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 9-1 a
+>
 > Innholdsfortegnelsens nåværende andre til tiende strekpunkt blir tredje til ellevte strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 10 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 10-1 a*
+*I innholdsfortegnelsen i kapittel 10 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 10-1 a
+>
 > Innholdsfortegnelsens nåværende andre til fjerde strekpunkt blir tredje til femte strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 11 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 11-1 a*
+*I innholdsfortegnelsen i kapittel 11 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 11-1 a
+>
 > Innholdsfortegnelsens nåværende andre til trettende strekpunkt blir tredje til fjortende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 11 A skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 11 A-1 a*
+*I innholdsfortegnelsen i kapittel 11 A skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 11 A-1 a
+>
 > Innholdsfortegnelsens nåværende andre til femte strekpunkt blir tredje til sjette strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 12 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 12-1 a*
+*I innholdsfortegnelsen i kapittel 12 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 12-1 a
+>
 > Innholdsfortegnelsens nåværende andre til femtende strekpunkt blir tredje til sekstende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 13 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 13-1 a*
+*I innholdsfortegnelsen i kapittel 13 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 13-1 a
+>
 > Innholdsfortegnelsens nåværende andre til niende strekpunkt blir tredje til tiende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 14 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 14-1 a*
+*I innholdsfortegnelsen i kapittel 14 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 14-1 a
+>
 > Innholdsfortegnelsens nåværende andre til sjuende strekpunkt blir tredje til åttende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 16 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 16-1 a*
+*I innholdsfortegnelsen i kapittel 16 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 16-1 a
+>
 > Innholdsfortegnelsens nåværende andre til sjette strekpunkt blir tredje til sjuende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 17 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 17-1 a*
+*I innholdsfortegnelsen i kapittel 17 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 17-1 a
+>
 > Innholdsfortegnelsens nåværende andre til niende strekpunkt blir tredje til tiende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 18 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 18-1 a*
+*I innholdsfortegnelsen i kapittel 18 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 18-1 a
+>
 > Innholdsfortegnelsens nåværende andre til sjuende strekpunkt blir tredje til åttende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 19 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 19-1 a*
+*I innholdsfortegnelsen i kapittel 19 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 19-1 a
+>
 > Innholdsfortegnelsens nåværende andre til attende strekpunkt blir tredje til nittende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 20 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 20-1 a*
+*I innholdsfortegnelsen i kapittel 20 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 20-1 a
+>
 > Innholdsfortegnelsens nåværende andre til tjueførste strekpunkt blir tredje til tjueandre strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 21 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 21-1 a*
+*I innholdsfortegnelsen i kapittel 21 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 21-1 a
+>
 > Innholdsfortegnelsens nåværende andre til sekstende strekpunkt blir tredje til syttende strekpunkt.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86
 
-*I innholdsfortegnelsen i kapittel 22 skal nytt andre strekpunkt lyde:forholdet til bestemmelser om internasjonal trygdekoordinering står i § 22-1 a*
+*I innholdsfortegnelsen i kapittel 22 skal nytt andre strekpunkt lyde:*
 
+> forholdet til bestemmelser om internasjonal trygdekoordinering står i § 22-1 a
+>
 > Innholdsfortegnelsens nåværende andre til tjueførste strekpunkt blir tredje til tjueandre strekpunkt.
+>
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2022-12-20 — lov/2022-12-20-104
 
 *Nåværende fjerde og femte punktum blir femte og nytt sjette punktum.*
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2023-01-01 — forskrift/2022-12-20-2309
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
 
 ### 2023-03-03 — lov/2023-03-03-2
 
@@ -14752,6 +15957,10 @@ refid: "lov/1997-02-28-19"
 ### 2023-03-03 — lov/2023-03-03-2
 
 *I § 25-6 første, andre og tredje ledd skal «Helsedirektoratet» endres til «Helsedirektoratet eller det organ Helsedirektoratet bestemmer».*
+
+### 2023-06-02 — lov/2023-06-02-17
+
+*Del II om endring i lov 28. februar 1997 nr. 19 om folketrygd oppheves.*
 
 ### 2023-06-16 — lov/2023-06-16-55
 
@@ -14770,6 +15979,13 @@ refid: "lov/1997-02-28-19"
 > Medlemmer som nevnt i bokstav f er yrkesskadedekket etter bestemmelsene som gjelder for arbeidstakere. Medlemmene er likevel yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått første år av læretiden og ellers når medlemmene deltar i manøver eller utfører oppdrag under feltmessige forhold.
 >
 > Medlemmer som nevnt i første ledd bokstav g er yrkesskadedekket under kurs, øvelser og annen tjeneste for Forsvaret.
+>
+
+### 2023-07-01 — forskrift/2023-03-03-289
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
 >
 
 ### 2023-07-01 — forskrift/2023-05-11-685
@@ -14813,6 +16029,35 @@ refid: "lov/1997-02-28-19"
 > § 13-12. Medlemmer som oppholder seg i institusjon, utfører samfunnsstraff, ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktråd
 >
 
+### 2023-12-20 — forskrift/2023-12-20-2132
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (lov 18. desember 2020 nr. 139 om endringer i folketrygdloven)
+>
+> Endringsloven del III (folketrygdloven) § 4-6 fjerde ledd, § 4-16 første ledd andre punktum, § 8-9 tredje ledd, § 11-12a og § 12-15 femte ledd og sjette ledd.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2024:
+>
+> Endringsloven del II (lov 21. mai 1982 nr. 25 om tillegg til lov 28. juli 1949 om Statens pensjonskasse)
+>
+> Endringsloven del III (folketrygdloven) § 4-9.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. februar 2024:
+>
+> Endringsloven del III (folketrygdloven) § 11-20 tredje ledd.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2024:
+>
+> Endringsloven del I (lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs)
+>
+> Endringsloven del IV (sosialtjenesteloven)
+>
+> Endringsloven del III (folketrygdloven) § 11-20 første ledd, § 12-13 andre og tredje ledd, § 12-15 andre ledd og omnummereringen av de påfølgende leddene.
+>
+
 ### 2024-01-01 — forskrift/2023-06-16-929
 
 *Ikraftsetting av lov 18. desember 2020 nr. 139 om endringer i folketrygdloven (nye etterlatteytelser). Loven trer i kraft 1. januar 2024.*
@@ -14853,11 +16098,63 @@ refid: "lov/1997-02-28-19"
 > Ved tvillingfødsler, eller hvis to barn blir adoptert samtidig, blir stønadsperioden utvidet med 85 stønadsdager (17 uker) dersom full sats er valgt. Dersom redusert sats er valgt, blir utvidelsen 106 stønadsdager (21 uker og 1 dag). Ved fødsler av tre eller flere barn, eller hvis tre eller flere barn blir adoptert samtidig, blir stønadsperioden utvidet med 230 stønadsdager (46 uker) dersom full sats er valgt. Dersom redusert sats er valgt, blir utvidelsen 288 stønadsdager (57 uker og 3 dager). Bestemmelsene i § 14-10 første og sjette ledd gjelder tilsvarende.
 >
 
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
+
 ### 2024-06-25 — lov/2024-06-25-54
 
 *I lov 28. februar 1997 nr. 19 om folketrygd skal § 14-17 femte ledd lyde:*
 
 > Engangsstønad ytes kun til stønadsmottaker som har vært medlem i folketrygden i minst 12 måneder sammenhengende, direkte forut for tidspunktet for fødselsterminen eller omsorgsovertakelsen.
+>
+
+### 2024-07-01 — forskrift/2024-05-14-772
+
+*Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2024. Loven del II trer i kraft 1. august 2024.*
+
+> Delt ikraftsetting av loven. Loven del I trer i kraft 1. juli 2024. Loven del II trer i kraft 1. august 2024.
+>
+
+### 2024-07-01 — forskrift/2024-05-31-877
+
+*Ikraftsetting av lov 16. juni 2023 nr. 55 om endringer i forsvarsloven og folketrygdloven (kontrakt om tjenesteplikt for militære studenter). Loven trer i kraft 1. juli 2024.*
+
+> Ikraftsetting av lov 16. juni 2023 nr. 55 om endringer i forsvarsloven og folketrygdloven (kontrakt om tjenesteplikt for militære studenter). Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1211
+
+*Delt ikraftsetting av Stortingets vedtak 17. juni 2024 til lov om endringer i integreringsloven, folketrygdloven og tannhelsetjenesteloven (innstramminger). Følgende trer i kraft 1. juli 2024:*
+
+> Delt ikraftsetting av Stortingets vedtak 17. juni 2024 til lov om endringer i integreringsloven, folketrygdloven og tannhelsetjenesteloven (innstramminger). Følgende trer i kraft 1. juli 2024:
+>
+> Endringsloven del I (integreringsloven)
+>
+> Endringsloven del III (tannhelsetjenesteloven).
+>
+> Følgende trer i kraft 1. oktober 2024
+>
+> Endringsloven del II (folketrygdloven).
 >
 
 ### 2024-08-02 — forskrift/2024-06-25-1219
@@ -14867,6 +16164,15 @@ refid: "lov/1997-02-28-19"
 > Lova trer i kraft 2. august 2024.
 >
 
+### 2024-10-01 — forskrift/2024-09-20-2209
+
+*Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.*
+
+> Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.
+>
+> Loven trer i kraft 1. oktober 2024.
+>
+
 ### 2024-12-20 — lov/2024-12-20-81
 
 *§§ 3-24 til 3-26 blir oppheva.*
@@ -14874,6 +16180,38 @@ refid: "lov/1997-02-28-19"
 ### 2024-12-20 — lov/2024-12-20-81
 
 *Noverande § 22-16 andre ledd bokstav b til e blir bokstav a til d.*
+
+### 2024-12-20 — forskrift/2024-12-20-3298
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (folketrygdloven) §§ 8-49, 11-4, 11-13, 11-16, 11-18, 13-2, 13-11 og 20-4.
+>
+> Endringsloven del VI (lov om arbeidsmarkedstjenester), VII (lov om norsk statsborgerskap), IX (AFP-tilskottsloven), X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) og XI (lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover).
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) får virkning fra 1. oktober 2024, med unntak av endringene i §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (lov om Statens pensjonskasse), II (lov om pensjonsordning for apotekvirksomhet mv.), III (lov om samordning av pensjons- og trygdeytelser) og IV (lov om pensjonsordning for sykepleiere).
+>
+> Endringsloven del V (folketrygdloven) opphevelsen av overskriften «V. Forsørgingstillegg» i kapittel 3 og endringene i §§ 3-3, 3-24, 3-25, 3-26, 4-5, 4-9, 4-10, 4-15, 4-16, 4-20, 4-21, 4-23, 4-26, 12-15, 19-3, 19-8, 19-9a og 22-16.
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2025:
+>
+> Endringsloven del VIII (lov om pensjonsordning for oppdragstaker i statlig beredskapshjem eller spesialisert fosterhjem).
+>
+
+### 2025-01-01 — forskrift/2024-04-12-614
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
 
 ### 2025-04-10 — lov/2025-04-10-8
 
@@ -14893,6 +16231,63 @@ refid: "lov/1997-02-28-19"
 
 *Noverande tredje punktum blir andre punktum.*
 
+### 2025-12-22 — forskrift/2025-12-22-2817
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 4-8 femte ledd, § 4-10 andre ledd, 4-20 tredje ledd, § 8-2 tredje ledd, § 8-47 fjerde ledd første punktum, § 11-12 fjerde ledd første punktum, § 11-27 første ledd, § 11-28 første til tredje ledd, § 15-9, § 17-5 tredje ledd andre og tredje punktum, § 17-9, § 17A-3 andre ledd andre og tredje punktum og § 17 A-6.
+>
+> Endringsloven del VI (lov 12. februar 2010 nr. 4 om pensjonsordning for oppdragstaker i beredskapshjem eller spesialisert fosterhjem)
+>
+> Endringsloven del VIII (lov 10. juni 2025 nr. 31 om endringer i lov om Statens pensjonskasse og enkelte andre lover (nye pensjonsregler for personer med særaldersgrense)
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2026:
+>
+> Endringsloven del I (lov 28. juli 1949 nr. 26 om Statens pensjonskasse)
+>
+> Endringsloven del II (lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv.)
+>
+> Endringsloven del III (lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere)
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 4-19
+>
+> Endringsloven del V (lov 10. juni 2005 nr. 44 om forsikringsvirksomhet)
+>
+> Endringsloven del VII (lov 27. mai 2016 nr. 14 om skatteforvaltning)
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2026:
+>
+> Endringsloven del IV (lov 28. februar 1997 nr. 19 om folketrygd) § 12-2, § 12-13 og § 12-14 første ledd første punktum og andre ledd første, andre og fjerde punktum. Endringene i § 12-9 og § 12-14 andre ledd tredje punktum trer i kraft 1. juli 2026 og får virkning fra 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1113
+
+*Følgende trer i kraft 1. januar 2026:*
+
+> Følgende trer i kraft 1. januar 2026:
+>
+> Endringsloven del I § 8 femte ledd, § 10 første ledd bokstav a, § 29, § 31 første og andre ledd og § 34 tredje ledd.
+>
+> Følgende trer i kraft 1. januar 2027:
+>
+> Endringsloven del I § 9 andre og tredje ledd, § 11, § 13, § 13a fjerde og femte punktum, § 13b, § 21 fjerde ledd annet punktum, § 22 første ledd og § 28 første ledd.
+>
+> Endringsloven del II (endringer i folketrygdloven).
+>
+
 ### 2026-01-01 — forskrift/2025-08-29-1743
 
 *Delt ikraftsetting av lov 10. juni 2025 nr. 30 om endringer i folketrygdloven (yrkessykdommer og elektronisk melding av yrkesskade).*
@@ -14908,11 +16303,31 @@ refid: "lov/1997-02-28-19"
 > Endring i § 13-4 tredje ledd, samt et nytt fjerde ledd.
 >
 
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
 ### 2026-10-01 — forskrift/2026-06-12-1078
 
 *Endringsloven del IV trer kraft 1. oktober 2026 og får virkning fra 1. januar 2026.*
 
 > Endringsloven del IV trer kraft 1. oktober 2026 og får virkning fra 1. januar 2026.
+>
+
+### 2027-01-01 — forskrift/2026-09-25-1893
+
+*Delt ikraftsetting av lov 23. juni 2026 nr. 64 om endringer i folketrygdloven (utvidet arbeidsulykkesbegrep og tydeliggjøring av bevisbyrden). Følgende trer i kraft 1. januar 2027:*
+
+> Delt ikraftsetting av lov 23. juni 2026 nr. 64 om endringer i folketrygdloven (utvidet arbeidsulykkesbegrep og tydeliggjøring av bevisbyrden). Følgende trer i kraft 1. januar 2027:
+>
+> Endringsloven del I, § 13-3 andre ledd.
 >
 
 ## § 1
@@ -14988,6 +16403,17 @@ refid: "lov/1997-02-28-19"
 > § 11 A-1 a.Forholdet til bestemmelser om internasjonal trygdekoordinering
 >
 > Tilleggsstønader etter dette kapitlet er ytelser ved sykdom etter trygdeforordningen. Bestemmelsene i dette kapitlet skal fravikes i den utstrekning det er nødvendig av hensyn til relevante bestemmelser i EØS-avtalens hoveddel, trygdeforordningen, gjennomføringsforordningen og bi- og multilaterale trygdeavtaler, se §§ 1-3 a og 1-3 b.
+>
+
+## § 13
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 13 fjerde ledd første punktum skal lyde:*
+
+> Opplysninger som kreves etter første ledd, kan gis uten hinder av den lovbestemte taushetsplikt som ellers påhviler skattemyndigheter og myndigheter som har til oppgave å overvåke offentlig regulering av ervervsvirksomhet.
+>
+> 20. I lov 17. juli 1998 nr. 56 om årsregnskap m.v. (regnskapsloven) gjøres følgende endring:
 >
 
 ## § 17

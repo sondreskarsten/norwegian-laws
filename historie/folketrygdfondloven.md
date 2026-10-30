@@ -11,6 +11,13 @@ refid: "lov/2007-06-29-44"
 
 *Nåværende § 6 annet ledd blir nytt tredje ledd.*
 
+### 2014-07-01 — forskrift/2014-04-11-547
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
 ### 2021-01-01 — forskrift/2020-11-20-2419
 
 *Loven trer i kraft 1. januar 2021.*
@@ -18,11 +25,36 @@ refid: "lov/2007-06-29-44"
 > Loven trer i kraft 1. januar 2021.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2025-06-20 — lov/2025-06-20-96
 
 *6.I lov 29. juni 2007 nr. 44 om Folketrygdfondet skal § 6 tredje ledd lyde:*
 
 > Folketrygdfondet regnes som et organ etter arkivlova § 2 bokstav h.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
 >
 
 ## § 14

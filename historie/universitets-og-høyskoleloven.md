@@ -243,3 +243,37 @@ refid: "lov/2024-03-08-9"
 ### 2025-06-20 — lov/2025-06-20-101
 
 *§ 16-4 nåværende fjerde og femte ledd blir femte og nytt sjette ledd.*
+
+## (annet)
+
+### 2025-08-01 — forskrift/2025-06-20-1092
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
+>
+
+### 2025-08-01 — forskrift/2025-06-24-1203
+
+*Ikraftsetting av lov 10. april 2025 nr. 11 om endringer i finansforetaksloven mv. (syntetisk STS-verdipapirisering mv.). Loven trer i kraft 1. august 2025.*
+
+> Ikraftsetting av lov 10. april 2025 nr. 11 om endringer i finansforetaksloven mv. (syntetisk STS-verdipapirisering mv.). Loven trer i kraft 1. august 2025.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-08-01 — forskrift/2026-06-19-1141
+
+*Loven trer i kraft 1. august 2026.*
+
+> Loven trer i kraft 1. august 2026.
+>

@@ -157,7 +157,10 @@ refid: "lov/2020-12-18-139"
 
 ### 2023-06-16 — lov/2023-06-16-36
 
-*Formuleringen «I § 19-11 skal første ledd nytt sjette punktum lyde:» skal endres til:*
+*Formuleringen «I § 19-11 skal første ledd nytt sjette punktum lyde:*
+
+> » skal endres til:
+>
 
 ### 2023-06-16 — lov/2023-06-16-36
 
@@ -175,6 +178,35 @@ refid: "lov/2020-12-18-139"
 *Nr. 4 skal lyde:*
 
 > Et barn som allerede fyller vilkårene for rett til en ytelse etter folketrygdloven kapittel 18 når nye regler trer i kraft, skal få ytelsen beregnet etter det nye regelverket dersom dette ved ikrafttredelsen gir høyere ytelse enn etter det gamle regelverket.
+>
+
+### 2023-12-20 — forskrift/2023-12-20-2132
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (lov 18. desember 2020 nr. 139 om endringer i folketrygdloven)
+>
+> Endringsloven del III (folketrygdloven) § 4-6 fjerde ledd, § 4-16 første ledd andre punktum, § 8-9 tredje ledd, § 11-12a og § 12-15 femte ledd og sjette ledd.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2024:
+>
+> Endringsloven del II (lov 21. mai 1982 nr. 25 om tillegg til lov 28. juli 1949 om Statens pensjonskasse)
+>
+> Endringsloven del III (folketrygdloven) § 4-9.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. februar 2024:
+>
+> Endringsloven del III (folketrygdloven) § 11-20 tredje ledd.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2024:
+>
+> Endringsloven del I (lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs)
+>
+> Endringsloven del IV (sosialtjenesteloven)
+>
+> Endringsloven del III (folketrygdloven) § 11-20 første ledd, § 12-13 andre og tredje ledd, § 12-15 andre ledd og omnummereringen av de påfølgende leddene.
 >
 
 ## § 17

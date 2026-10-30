@@ -5,6 +5,26 @@ refid: "lov/1893-07-20-2"
 
 # Endringshistorikk: Vrakloven
 
+## (annet)
+
+### 2023-01-01 — forskrift/2022-09-16-1575
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
 ## § 10
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -55,6 +75,11 @@ refid: "lov/1893-07-20-2"
 ### 2004-06-25 — lov/2004-06-25-53
 
 *§ 13 første ledd oppheves. Nåværende annet ledd blir første ledd.I lov 21. juli 1894 nr. 5 om delvis Omordning af det civile Embedsværk oppheves § 3.I lov 14. juni 1912 nr. 1 om anlæg av taugbaner og løipestrenger mv. skal § 16 lyde:*
+
+> I lov 21. juli 1894 nr. 5 om delvis Omordning af det civile Embedsværk oppheves § 3.
+>
+> I lov 14. juni 1912 nr. 1 om anlæg av taugbaner og løipestrenger mv. skal § 16 lyde:
+>
 
 ### 2007-02-27 — lov/2007-01-26-3
 
@@ -122,6 +147,13 @@ refid: "lov/1893-07-20-2"
 > Rettens leder er tillike dens skriver.
 >
 
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 2 annet ledd skal lyde:*
+
+> Når departementet har fastsett det, kan offentlege styresmakter som fastset eller krev inn skatt, avgift eller tollavgift, få løyve til å gjera seg kjende med dei opplysningar som vert gjevne etter denne lova.
+>
+
 ## § 21
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -142,6 +174,15 @@ refid: "lov/1893-07-20-2"
 > Øvrige avgjørelser kan ankes etter reglene som gjelder for sivile tvister.
 >
 
+## § 3
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 3 femte ledd skal lyde:*
+
+> Når ikke annet følger av særlige forskrifter, skal berget eller strandet gods bringes til nærmeste tollsted dersom det er grunn til å tro at det er tollavgiftspliktig. Er utenlandsk skip berget eller strandet, skal politiet så vidt mulig underrette vedkommende konsul, som kan overta den videre ledelse av bergingen for så vidt dette er hjemlet ved traktat.
+>
+
 ## § 34
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -151,6 +192,35 @@ refid: "lov/1893-07-20-2"
 > Rettens avgjørelse, hvorved vergemaalet ophæves eller negtes ophævet, træffes ved dom.
 >
 
+## § 35
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 35 skal lyde:*
+
+> Det skal ikke beregnes tollavgift og andre avgifter ved innførsel av utstyr, redskap og andre varer som er nevnt i §§ 31 til 34.
+>
+> 3.I lov 9. mars 1973 nr. 14 om vern mot tobakksskader gjøres følgende endring:
+>
+
+## § 6
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 6 annet ledd skal lyde:*
+
+> Dersom bergeren eller finneren vet hvem som er eier, eller får brakt dette på det rene, skal han straks levere det bergete eller strandete tilbake til vedkommende eller stille det til hans rådighet, mot å få dekket bergelønn eller finnerlønn og andre påløpte kostnader. Gods som det er grunn til å tro er tollavgiftspliktig, skal likevel bringes til nærmeste tollsted, om det ikke allerede er gjort og ikke annet følger av særlige forskrifter.
+>
+
+## § 7
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 7 første ledd skal lyde:*
+
+> Skip eller gods som det er gitt melding om etter § 6 tredje ledd, skal samtidig eller snarest mulig deretter leveres til politiet. Vil levering volde særlig vanske eller kostnad, skal politiet sørge for avhenting. Gods som det er grunn til å tro er tollavgiftspliktig, lar politiet bringe til nærmeste tollsted. For øvrig avgjør politiet hvordan tingene skal oppbevares. Finner politiet det etter forholdene praktisk og forsvarlig, kan politiet samtykke i at bergeren eller finneren oppbevarer dem.
+>
+
 ## § 8
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -158,4 +228,26 @@ refid: "lov/1893-07-20-2"
 *§ 8 første ledd femte punktum skal lyde:*
 
 > Udebliver han uden lovligt fravær, kan Retten, hvor den finder hans Afhørelse nødvendig til Sagens Oplysning, lade ham afhente ved Politiet enten til samme eller et senere Retsmøde.
+>
+
+## § 9
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 9 første og annet ledd skal lyde:*
+
+> Tollbehandling skjer etter vanlige regler. Skal det svares tollavgift av gods som blir solgt etter reglene i hittegodsloven § 7, innbetales tollavgiften og påløpte kostnader av namsmyndighetene til tollvesenet innen 14 dager etter den betalingsfrist som er satt for salget.
+>
+> I tilfelle som nevnt i § 8 tredje ledd kan politiet samtykke i at det ikke betales tollavgift.
+>
+> 2.I lov 9. juni 1972 nr. 31 om svensk reinbeiting i Norge og norsk reinbeiting i Sverige gjøres følgende endring:
+>
+
+### 2022-03-11 — lov/2022-03-11-8
+
+*§ 9 første ledd skal lyde:*
+
+> Søkeren skal sammen med bevillingssøknaden fremlegge en uttømmende og utvidet politiattest for personer som nevnt i § 11, jf. politiregisterloven § 41. Attesten avgrenses til å omfatte overtredelser av tobakksskadeloven, alkoholloven, varemerkeloven, designloven, vareførselsloven, tollavgiftsloven, skatte-, avgifts- og regnskapslovgivningen, samt overtredelser av straffeloven 1902 kapittel 24, 25, 26, 27 og 31 og straffeloven 2005 kapittel 27, 30 og 31.
+>
+> 4.I lov 6. juni 1997 nr. 32 om innførsle- og utførsleregulering gjøres følgende endring:
 >

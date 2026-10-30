@@ -7,6 +7,20 @@ refid: "lov/1995-02-03-7"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*113. I lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste skal § 10 andre ledd lyde:*
+
+> Lovens regler gjelder tilsvarende for bistandspersoner. Bistandspersoner skal likevel bare autoriseres for slik beskyttelsesgrad som oppdraget krever.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*107. I lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste skal § 5 femte ledd annet punktum lyde:*
+
+> Tvisteloven §§ 22-1 og 22-3 gjelder ikke.
+>
+
 ### 2013-07-01 — lov/2013-06-21-81
 
 *I lov 3. februar 1995 nr. 7 om kontroll med etterretnings-, overvåkings- og sikkerhetstjeneste skal § 4 første ledd nytt tredje punktum lyde:*

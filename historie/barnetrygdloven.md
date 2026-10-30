@@ -25,9 +25,28 @@ refid: "lov/2002-03-08-4"
 
 *Nåværende femte ledd blir nytt sjette ledd.*
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 13 første ledd tredje punktum skal betegnelsen «trygdeetatens» endres til «Arbeids- og velferdsetatens».*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 14 annet ledd innledningen skal betegnelsen «Rikstrygdeverket» endres til «Arbeids- og velferdsdirektoratet».*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 23 annet ledd skal betegnelsen «Rikstrygdeverket» endres til «Arbeids- og velferdsdirektoratet».*
+
 ### 2007-06-15 — lov/2007-06-15-22
 
-*I lov 8. mars 2002 nr. 4 om barnetrygd (barnetrygdloven) skal § 9 andre ledd bokstav b, c og ny bokstav d lyde:den ene ektefellen har vært forsvunnet i minst 6 måneder. Tilsvarende gjelder for forsvunnet samboer eller partner,ektefellene er midlertidig separert ved kjennelse etter ekteskapsloven § 92, ellerden ene ektefellen er innsatt i fengsel med dom på fengselsstraff der den ubetingede delen av straffen ikke er lavere enn 6 måneder eller er idømt forvaring. Det samme gjelder hvis vedkommende er idømt overføring til tvungent psykisk helsevern reller tvungen omsorg og av den grunn ikke kan bo sammen med ektefellen. Videre kan utvidet barnetrygd gis ved utholdt varetekt i minst 6 måneder. Bestemmelsen gjelder tilsvarende for samboer eller partner.*
+*I lov 8. mars 2002 nr. 4 om barnetrygd (barnetrygdloven) skal § 9 andre ledd bokstav b, c og ny bokstav d lyde:*
+
+> den ene ektefellen har vært forsvunnet i minst 6 måneder. Tilsvarende gjelder for forsvunnet samboer eller partner,
+>
+> ektefellene er midlertidig separert ved kjennelse etter ekteskapsloven § 92, eller
+>
+> den ene ektefellen er innsatt i fengsel med dom på fengselsstraff der den ubetingede delen av straffen ikke er lavere enn 6 måneder eller er idømt forvaring. Det samme gjelder hvis vedkommende er idømt overføring til tvungent psykisk helsevern reller tvungen omsorg og av den grunn ikke kan bo sammen med ektefellen. Videre kan utvidet barnetrygd gis ved utholdt varetekt i minst 6 måneder. Bestemmelsen gjelder tilsvarende for samboer eller partner.
+>
 
 ### 2008-06-27 — lov/2008-06-27-53
 
@@ -71,13 +90,80 @@ refid: "lov/2002-03-08-4"
 > Hvis et utenlandsopphold varer mer enn tre måneder på grunn av utbrudd av covid-19, regnes barnet fortsatt som bosatt i riket dersomdet dokumenteres at oppholdet var planlagt å skulle vare under tre måneder, ogbarnet har reist fra Norge før 15. mars 2020.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*14. I lov 8. mars 2002 nr. 4 om barnetrygd skal § 2 annet ledd lyde:*
+
+> Annen omsorgsperson eller barnevernsinstitusjon som har barn under 18 år boende fast hos seg, har rett til barnetrygd dersom barnet er bosatt i riket etter bestemmelsene i § 4.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *Kapittel 1 overskriften skal lyde:*
 
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-06-16 — lov/2023-06-16-41
 
 *Kapittel 3 overskriften skal lyde:*
+
+### 2024-01-01 — forskrift/2023-06-16-928
+
+*Følgende trer i kraft straks:*
+
+> Følgende trer i kraft straks:
+>
+> Endringsloven del I (barnevernsloven) med unntak av § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+> Endringsloven del II (barnelova) § 69 første punktum.
+>
+> Endringsloven del III (barnetrygdloven) § 1 annet ledd og overskriften til kapittel 3.
+>
+> Endringsloven del IV lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet § 2 annet ledd annet punktum bokstav a, § 3 og § 4.
+>
+> Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I § 12-11 annet ledd, § 13-5 og § 13-6 første ledd.
+>
+
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 1
 
@@ -115,6 +201,21 @@ refid: "lov/2002-03-08-4"
 > Dersom vilkårene for rett til barnetrygd var oppfylt på et tidligere tidspunkt enn nevnt i andre ledd første punktum, kan barnetrygd gis for opptil tre år før kravet ble satt fram, når det er åpenbart at den som har rett til ytelsen, ikke har vært i stand til å sette fram krav tidligere. Det samme gjelder dersom vedkommende ikke har satt fram krav tidligere fordi Arbeids- og velferdsetaten har gitt misvisende opplysninger.
 >
 
+## § 12
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 12 skal lyde:*
+
+> § 12.Utbetaling av barnetrygd
+>
+> Barnetrygden utbetales etterskuddsvis hver måned av det organ som Arbeids- og velferdsdirektoratet bestemmer. Barnetrygden utbetales til den som har rett til stønad. I de tilfeller der barnetrygden tilstås automatisk etter reglene i § 14, utbetales barnetrygden til barnets mor hvis ikke foreldrene har gitt Arbeids- og velferdsetaten melding om at barnetrygden skal utbetales til barnets far. Hvis foreldrene bor sammen og begge søker om barnetrygd, utbetales stønaden til moren.
+>
+> Det kan i særlige tilfeller bestemmes at barnetrygden skal utbetales til en annen som skal sørge for at den kommer barnet til gode.
+>
+> Dersom vilkårene i § 2 tredje ledd er oppfylt, kan hver av foreldrene få utbetalt barnetrygd med 50 prosent av den stønaden hver av dem utløser rett til.
+>
+
 ## § 13
 
 ### 2006-04-07 — lov/2006-04-07-7
@@ -140,6 +241,50 @@ refid: "lov/2002-03-08-4"
 > barnets mor ikke er registrert som bosatt i Norge i henhold til lov 9. desember 2016 nr. 88 om folkeregistrering,
 >
 
+## § 15
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 15 første ledd skal lyde:*
+
+> Krav om barnetrygd avgjøres av det organ som Arbeids- og velferdsdirektoratet bestemmer. Vedtak etter barnetrygdloven kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer. Vedtak i klagesak kan ankes inn for Trygderetten.
+>
+
+## § 16
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 16 skal lyde:*
+
+> § 16.Saksbehandling
+>
+> Ved behandlingen av saker etter loven her gjelder reglene i forvaltningsloven, likevel slik at reglene i folketrygdloven § 21-4, § 21-10 første ledd, § 21-11 og § 21-12 gjelder så langt de passer.
+>
+
+## § 17
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 17 skal lyde:*
+
+> § 17.Stønadsmottakerens opplysningsplikt
+>
+> Den som mottar barnetrygd plikter straks, og senest innen 14 dager, å underrette Arbeids- og velferdsetaten om endringer i forhold som kan ha betydning for retten til barnetrygd og størrelsen på denne.
+>
+> Arbeids- og velferdsetaten kan kreve at stønadsmottakeren gir de opplysninger og leverer de erklæringer og attester som er nødvendige for at etaten skal kunne vurdere om vedkommende fortsatt har rett til barnetrygd.
+>
+
+## § 19
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 19 skal lyde:*
+
+> § 19.Administrasjon
+>
+> Barnetrygden administreres av Arbeids- og velferdsetaten.
+>
+
 ## § 2
 
 ### 2025-06-20 — lov/2025-06-20-40
@@ -147,6 +292,30 @@ refid: "lov/2002-03-08-4"
 *§ 2 tredje ledd skal lyde:*
 
 > Hvis foreldrene ikke bor sammen og skriftlig har avtalt at barnet skal bo hos begge eller det foreligger rettskraftig avgjørelse om at barnet skal bo hos begge, jf. barneloven § 7-1, kan hver av foreldrene få rett til 50 prosent barnetrygd, hvis de fremsetter krav om dette.
+>
+
+## § 20
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 20 skal lyde:*
+
+> § 20.Finansiering
+>
+> Arbeids- og velferdsetatens utgifter til utbetaling av barnetrygd og til administrasjon av barnetrygden dekkes av statskassen.
+>
+
+## § 21
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21 skal lyde:*
+
+> § 21.Hvem som disponerer tilskuddet på vegne av staten
+>
+> Staten stiller forskuddsvis og senest på betalingstidspunktet de nødvendige midler til rådighet for Arbeids- og velferdsdirektoratet.
+>
+> Arbeids- og velferdsetaten skal holde barnetrygdens midler regnskapsmessig adskilt fra andre midler som den har til rådighet.
 >
 
 ## § 22

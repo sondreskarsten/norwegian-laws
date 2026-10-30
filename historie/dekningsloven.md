@@ -63,7 +63,38 @@ refid: "lov/1984-06-08-59"
 > Med en umiddelbart forutgående rekonstruksjonsforhandling forstås en rekonstruksjonsforhandling hvor fristdagen i en etterfølgende konkurs bestemmes av reglene i § 1-2 annet ledd.
 >
 
+## § 2-1
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 2-1 første ledd skal lyde:*
+
+> Følgende norske foretak skal registreres:AksjeselskaperAllmennaksjeselskaper og europeiske selskaperAndre næringsdrivende selskaperSamvirkeforetak og europeiske samvirkeforetakNæringsdrivende stiftelser, jf. stiftelsesloven § 4 annet og tredje leddForeninger og andre innretninger som driver næringsvirksomhet eller har til formål å drive slik virksomhetEnkeltpersonforetak som driver handel med dertil innkjøpte varer eller som sysselsetter mer enn fem fast ansatte i hovedstillingStatsforetakInterkommunale selskaperKommunale og fylkeskommunale foretakRegionalt helseforetak og helseforetak, jf. lov 15. juni 2001 nr. 93 om helseforetak m.m.Foretak som i særlovgivningen er pålagt registreringsplikt.
+>
+
+## § 2-2
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 2-2 åttande ledd skal lyde:*
+
+> Foretaksnavn for samvirkeforetak skal inneholde ordet samvirkeforetak eller forkortelsen SA.
+>
+> Noverande § 2-2 åttande til fjortande ledd blir § 2-2 niande til femtande ledd.
+>
+
 ## § 2-7
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-7 tredje ledd tredje punktum skal lyde:*
+
+> For skattekrav kan utlegg alltid tas i krav som forfaller inntil fem år etter utgangen av det inntektsåret skatten gjelder, eller i tilfelle endring av fastsettingen av formues- og inntektsskatt fem år etter utgangen av det kalenderår da endringsvedtak ble truffet.
+>
+> § 9-4 annet ledd annet punktum:
+>
+> Fordring på refusjon etter skatteloven § 16-50 regnes i denne sammenheng som forfalt ved fastsettingen av den skatt som gir grunnlag for kravet.
+>
 
 ### 2023-12-20 — lov/2023-12-20-111
 
@@ -95,6 +126,15 @@ refid: "lov/1984-06-08-59"
 >
 
 ## § 2-8
+
+### 2022-06-17 — lov/2022-06-17-57
+
+*§ 2-8 første og andre ledd skal lyde:*
+
+> Dersom det er gitt pålegg om trekk for flere krav hos samme skyldner, og det som kan trekkes etter § 2-7 første ledd ikke er tilstrekkelig til å dekke alle kravene, har kravene prioritet som følger:krav som grunner seg på lovbestemt forsørgelsesplikt,krav på erstatning eller oppreisning for skade voldt ved en straffbar handling,statens regresskrav etter voldserstatningsloven § 11,krav på bøter,krav på skatt eller offentlig avgift,andre krav.
+>
+> Fortrinnsretten etter første ledd bokstavene a–e gjelder tilsvarende for ansvar for slike krav eller tilsvarende trekk.
+>
 
 ### 2025-04-25 — lov/2025-04-25-12
 
@@ -137,6 +177,21 @@ refid: "lov/1984-06-08-59"
 > Når retten har truffet avgjørelse etter første ledd, skal dividendefordringer som tidligere har blitt besluttet dekket ved utleggstrekk, ikke motta dekning av trekket så lenge konkursen varer. Krav som nevnt i § 2-8 første ledd bokstav a som skal dekkes ved utleggstrekk, har likevel prioritet foran boet.
 >
 > Dersom det er rom for det i skyldnerens inntekter, kan en namsmyndighet i en sak om utlegg for andre fordringer enn dividendefordringer fastsette at trekket skal være høyere enn retten har satt det til. Forhøyelsen tilkommer de nye kravene med innbyrdes prioritet som fastsatt i § 2-8. Det samme som for andre fordringer enn dividendefordringer gjelder også for krav som nevnt i dekningsloven § 2-8 første ledd bokstav a.
+>
+
+## § 3-2
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 3-2 skal lyde:*
+
+> § 3-2.(samvirkeforetak og andre foretak med begrenset ansvar)
+>
+> For samvirkeforetak og andre foretak hvor ikke noen av deltakerne har personlig ansvar for foretakets forpliktelser, udelt eller for deler som tilsammen utgjør selskapets forpliktelser, får § 3-1 første ledd nr. 1 til 6 tilsvarende anvendelse.
+>
+> For samvirkeforetak, boligbyggelag og gjensidige forsikringsselskaper skal registeret også inneholde opplysninger om foretaket er underlagt krav til kjønnsrepresentasjon i styret etter lov om samvirkeforetak § 69, lov 6. juni 2003 nr. 38 om bustadbyggjelag § 6-4 a og lov 10. juni 2005 nr. 44 om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. § 5-3 annet punktum. Dersom foretaket er underlagt et krav til kjønnsrepresentasjon, skal registeret også inneholde opplysninger om styremedlemmers og varamedlemmers kjønn, og om de er valgt blant de ansatte etter reglene i lov om samvirkeforetak § 67, lov 6. juni 2003 nr. 38 om bustadbyggjelag § 6-4 og lov 10. juni 2005 nr. 44 om om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. § 5-1.
+>
+> Dersom ikke annet er bestemt i lov eller med hjemmel i lov, skal vedtektene i foretak som omhandles i denne bestemmelse, inneholde regler om følgende forhold:Foretakets navnForetakets forretningskommuneForetakets formålDeltakernes ansvar for foretakets forpliktelserForetakets organer og deres myndighetsområderHvem som representerer foretaket utad og tegner dets foretaksnavnKrav om stemmeflertall ved beslutningerRett til eierskifte av foretaksandeler.
 >
 
 ## § 3-4
@@ -220,6 +275,43 @@ refid: "lov/1984-06-08-59"
 > Dersom det blir gjort vedtak om beslagsfrihet, kan Stiftelsestilsynet treffe nærmere bestemmelse om forvaltningen av midlene. Reglene i dette kapittel får tilsvarende anvendelse.
 >
 > Vedtak om beslagsfrihet og bestemmelser om forvaltningen kan senere endres etter anmodning fra skyldneren eller etter Stiftelsestilsynets eget tiltak. Oppheves beslagsfriheten, kan frigivelse av pengene til skyldneren først skje en måned etter at underretning om opphevelse er gitt til de av skyldnerens fordringshavere som har meldt sine krav til Stiftelsestilsynet.
+>
+
+## § 4-1
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 4-1 første ledd skal lyde:*
+
+> Registreringspliktige foretak skal meldes til registeret før næringsvirksomheten begynner. Aksjeselskaper, allmennaksjeselskaper og samvirkeforetak skal være meldt senest 3 måneder etter at stiftelsesdokumentet er undertegnet. Stiftelser skal være meldt innen de frister som følger av stiftelsesloven § 13 annet og tredje punktum. Andre foretak med begrenset ansvar, jf. § 3-2, og foreninger og andre innretninger som nevnt i § 3-6 og som har til formål å drive næringsvirksomhet skal, selv om næringsvirksomhet ikke har begynt, være meldt senest 6 måneder etter at stiftelsesdokumentet er undertegnet. Førstegangsmeldingen skal inneholde opplysninger som nevnt i kapittel III.
+>
+
+## § 4-4
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 4-4 bokstav a skal lyde:*
+
+> Gjenpart av stiftelsesdokument og utskrift av protokollen fra generalforsamlinger som viser meldte opplysninger i aksjeselskap, allmennaksjeselskap, samvirkeforetak og annet foretak med begrenset ansvar, forening og annen innretning; selskapsavtalen for ansvarlig selskap, kommandittselskap og europeisk økonomisk foretaksgruppe, selskapsavtalen for interkommunalt selskap, for stiftelser, stiftelsesdokumentet eller den disposisjonen som ellers danner grunnlaget for stiftelsen, og gjenpart av vedtak om opprettelse av regionalt helseforetak og helseforetak.
+>
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 4-4 bokstav e skal lyde:*
+
+> Erklæring fra revisor om at de opplysninger som er gitt om innbetaling av aksjekapital, selskapskapital i kommandittselskap, jf. § 3-3 nr. 6 og 7, grunnkapital i stiftelse og innskuddskapital i samvirkeforetak, statsforetak, interkommunalt selskap, regionalt helseforetak og helseforetak er riktige. I tilfelle også dokumenter og erklæringer som nevnt i: aksjeloven § 2-4 annet ledd, § 2-5 annet ledd, § 2-6, § 2-8, § 10-2, § 13-10, § 14-4 tredje ledd, jf § 13-10, og § 15-1 annet ledd annet punktum allmennaksjeloven § 2-4 annet ledd, § 2-5 annet ledd, § 2-6, § 2-8, § 10-2, § 13-10, og § 14-4 tredje ledd, jf § 13-10 samvirkeloven § 11, § 104 annet ledd nr. 7, § 121 første ledd, jf. § 104 annet ledd nr. 7, § 146 tredje ledd, jf. aksjeloven § 2-6 og allmennaksjeloven § 2-6, og § 148 første ledd nr. 2 og annet ledd selskapsloven § 3-3 tredje ledd tredje punktum stiftelsesloven § 12 første ledd bokstav d og annet ledd og § 23 annet punktum.
+>
+> aksjeloven § 2-4 annet ledd, § 2-5 annet ledd, § 2-6, § 2-8, § 10-2, § 13-10, § 14-4 tredje ledd, jf § 13-10, og § 15-1 annet ledd annet punktum
+>
+> allmennaksjeloven § 2-4 annet ledd, § 2-5 annet ledd, § 2-6, § 2-8, § 10-2, § 13-10, og § 14-4 tredje ledd, jf § 13-10
+>
+> samvirkeloven § 11, § 104 annet ledd nr. 7, § 121 første ledd, jf. § 104 annet ledd nr. 7, § 146 tredje ledd, jf. aksjeloven § 2-6 og allmennaksjeloven § 2-6, og § 148 første ledd nr. 2 og annet ledd
+>
+> selskapsloven § 3-3 tredje ledd tredje punktum
+>
+> stiftelsesloven § 12 første ledd bokstav d og annet ledd og § 23 annet punktum.
+>
+> 22. I lov 21. juni 1985 nr. 79 om enerett til foretaksnavn og andre forretningskjennetegn (foretaksnavneloven) blir det gjort følgjande endringar:
 >
 
 ## § 5-1
@@ -409,6 +501,13 @@ refid: "lov/1984-06-08-59"
 > Fordring på refusjon etter skatteloven § 16-50 regnes i denne sammenheng som forfalt ved utligningen av den skatt som gir grunnlag for kravet.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-4 annet ledd femte punktum skal lyde:*
+
+> Fortrinnsretten omfatter ikke skatt som er eller kunne vært fastsatt ved endring av skattefastsetting etter skatteforvaltningsloven kapittel 12.
+>
+
 ### 2021-04-30 — lov/2021-04-30-28
 
 *§ 9-4 første ledd nr. 4 skal lyde:*
@@ -423,6 +522,15 @@ refid: "lov/1984-06-08-59"
 ### 2021-04-30 — lov/2021-04-30-28
 
 *§ 9-4 annet ledd annet punktum oppheves. Nåværende tredje til femte punktum blir annet til fjerde punktum.*
+
+## § 9-7
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-7 nr. 4 bokstav a skal lyde:*
+
+> Fordring på tilleggsskatt pålagt som følge av uriktige eller ufullstendige opplysninger til skattemyndighetene, og annen skatte- eller avgiftsfordring av tilsvarende art.
+>
 
 ## (annet)
 
@@ -447,27 +555,43 @@ refid: "lov/1984-06-08-59"
 > Fristdagen ved tvangsoppløsning etter konkurslovens regler av aksjeselskaper i medhold av aksjeloven § 16-15, jf § 16-18, og av allmennaksjeselskaper i medhold av allmennaksjeloven § 16-15, jf § 16-18, er dagen da kunngjøring som nevnt i aksjeloven § 16-16 annet ledd eller allmennaksjeloven § 16-16 annet ledd for vedkommende selskap ble kunngjort i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon.
 >
 
+### 2005-06-17 — lov/2005-06-17-62
+
+*8. I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett skal § 9-3 fjerde ledd lyde:*
+
+> Fortrinnsretten omfatter ikke lønn og annet arbeidsvederlag for oppsigelsestid utover de oppsigelsesfrister som følger av arbeidsmiljøloven § 15-3 første til fjerde ledd, med mindre lengre oppsigelsesfrist følger av tariffavtale som er inngått tidligere enn seks måneder før fristdagen.
+>
+> 9. I lov 14. juni 1985 nr. 77 plan- og bygningslov skal § 74 nr. 1 andre ledd lyde:
+>
+> Bygning som faller inn under arbeidsmiljøloven, skal videre tilfredsstille kravene til et fullt forsvarlig arbeidsmiljø.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*17. I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven) § 7-11 fjerde ledd fjerde punktum skal betegnelsen «arbeidsformidlingen» endres til «Arbeids- og velferdsetaten».*
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*20. I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven) skal § 1-3 andre og tredje ledd lyde:*
+
+> Fristdagen ved tvangsoppløsning etter konkurslovens regler av aksjeselskaper i medhold av aksjeloven § 16-15, jf § 16-18, og av allmennaksjeselskaper i medhold av allmennaksjeloven § 16-15, jf § 16-18, er dagen da kunngjøring som nevnt i aksjeloven § 16-16 annet ledd eller allmennaksjeloven § 16-16 annet ledd for vedkommende selskap ble kunngjort i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon. Det samme gjelder ved tvansoppløsning av samvirkeforetak i medhold av samvirkeloven § 141, jf § 144.
+>
+> Fristdagen ved avvikling etter konkurslovens og dekningslovens regler av aksjeselskaper i medhold av aksjeloven § 16-14, jf § 16-18, og av allmennaksjeselskaper etter allmennaksjeloven § 16-14, jf § 16-18, er dagen da tingretten traff kjennelse om å overta ansvaret for avviklingen. Det samme gjelder ved avvikling av samvirkeforetak i medhold av samvirkeloven § 140, jf § 144.
+>
+> 21. I lov 21. juni 1985 nr. 78 om registrering av foretak blir det gjort følgjande endringar:
+>
+
 ### 2011-01-14 — lov/2011-01-14-2
 
-*Endring i følgende lov:*
+*I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett skal ny § 7-14 lyde:*
 
-> Endring i følgende lov:
->
-> Lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven).
->
-> I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett skal ny § 7-14 lyde:
->
-> § 7-14.
->
-> Avtaler om rett til å tre inn i langsiktige kraftavtaler m.m.
+> § 7-14.Avtaler om rett til å tre inn i langsiktige kraftavtaler m.m.
 >
 > Bestemmelsene i paragrafen her gjelder avtaler om kjøp av kraft der kjøperen driver kraftintensiv, industriell virksomhet som nærmere fastsatt i forskrift gitt av Kongen, og avtalen har en løpetid på syv år eller mer.
 >
 > Avtale om at den som ved kraftavtalens inngåelse har garantert overfor selgeren for kjøperens oppfyllelse av en kraftavtale som nevnt i første ledd, ved mislighold skal kunne tre inn i kraftavtalen, overdra kjøperens kontraktsposisjon til en ny kjøper eller innløse avtalen hos selgeren, kan uten særskilt rettsvernsakt gjøres gjeldende overfor kjøperens bo, enkeltforfølgende kreditorer og senere rettsstiftelser i kjøperens kontraktsposisjon. Slik avtale må inngås senest samtidig med inngåelsen av kraftavtalen. Overskudd etter at garantistens regresskrav med renter og omkostninger er dekket, tilfaller kraftkjøperen, dennes bo eller innehavere av andre rettigheter i kjøpers kontraktsposisjon.
 >
 > Annet ledd gjelder tilsvarende der en garantistiller ved inngåelsen av en kraftavtale som nevnt i første ledd har garantert overfor en långiver for en låneavtale inngått av kjøperen for å forskuddsbetale hele eller deler av vederlaget etter kraftavtalen.
->
-> Loven trer i kraft fra den tid Kongen bestemmer.
 >
 
 ### 2011-02-11 — forskrift/2011-02-11-132
@@ -484,6 +608,34 @@ refid: "lov/1984-06-08-59"
 > Kongen kan i forskrift fastsette satser for beregningen av det som med rimelighet trengs til underhold av skyldneren og skyldnerens husstand.
 >
 
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2020-05-11 — forskrift/2020-05-07-947
+
+*Loven trer i kraft 11. mai 2020.*
+
+> Loven trer i kraft 11. mai 2020.
+>
+
 ### 2020-12-18 — lov/2020-12-18-149
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -493,9 +645,59 @@ refid: "lov/1984-06-08-59"
 > Bestemmelsene i lov 14. juni 2019 nr. 21 om arv og dødsboskifte kapittel 17 avsnitt V gjelder tilsvarende så lenge de passer for rettens avgjørelse, om ikke annet blir fastsatt i forskrift av Kongen.
 >
 
+### 2021-05-15 — forskrift/2021-04-30-1334
+
+*Loven trer i kraft 15. mai 2021.*
+
+> Loven trer i kraft 15. mai 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2023-01-01 — forskrift/2022-09-23-1635
+
+*Ikraftsetting av lov 17. juni 2022 nr. 57 om erstatning fra staten til voldsutsatte (voldserstatningsloven). Loven trer i kraft 1. januar 2023.*
+
+> Ikraftsetting av lov 17. juni 2022 nr. 57 om erstatning fra staten til voldsutsatte (voldserstatningsloven). Loven trer i kraft 1. januar 2023.
+>
+
+### 2024-04-08 — forskrift/2024-03-22-488
+
+*Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.*
+
+> Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-06-19 — lov/2026-06-19-45
 
 *I følgende bestemmelser endres ordet «namsmannen» til ordet «namsfogden»:*
 
 > § 7-3 a annet ledd og § 7-10 tredje ledd.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >

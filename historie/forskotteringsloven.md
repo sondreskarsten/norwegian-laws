@@ -7,9 +7,29 @@ refid: "lov/1989-02-17-2"
 
 ## (annet)
 
+### 2005-04-29 — lov/2005-04-29-20
+
+*3. I lov 17. februar 1989 nr. 2 om bidragsforskott skal § 8 lyde:*
+
+> § 8.Tilbakekreving m.v.
+>
+> For meget utbetalt forskott tilbakekreves etter bestemmelsene i bidragsinnkrevingsloven §§ 25 til 29.
+>
+
 ### 2025-06-20 — lov/2025-06-20-40
 
 *I følgende bestemmelser skal uttrykket «bidragsfogden» endres til «Arbeids- og velferdsetaten»: § 3 andre ledd, § 5 tredje ledd, § 6 andre ledd, § 7 andre ledd og § 9 andre, tredje og fjerde ledd.*
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 1
 
@@ -30,6 +50,12 @@ refid: "lov/1989-02-17-2"
 
 > Folketrygdens tilgodehavende innkreves av Innkrevingsmyndigheten.
 >
+
+## § 11
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 11 oppheves.*
 
 ## § 3
 
@@ -192,6 +218,13 @@ refid: "lov/1989-02-17-2"
 *§ 9 fjerde ledd skal lyde:*
 
 > Den som setter fram krav om eller får utbetalt bidragsforskott plikter å opplyse bidragsfogden om alle forhold og endringer i forhold som har betydning for retten til bidragsforskott. Bidragsfogden kan innhente nødvendige opplysninger fra arbeidsgiver mv. i samsvar med bestemmelsene i barneloven § 10 andre ledd.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 9 tredje ledd skal lyde:*
+
+> Vedtak etter loven her treffes av bidragsfogden. Vedtak kan påklages innen 6 uker til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
 >
 
 ### 2009-01-01 — lov/2009-01-16-5

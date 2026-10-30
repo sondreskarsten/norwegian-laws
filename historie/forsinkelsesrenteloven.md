@@ -14,6 +14,13 @@ refid: "lov/1976-12-17-100"
 > Påkrav kan sendes ved bruk av elektronisk kommunikasjon dersom skyldneren uttrykkelig har godtatt dette.
 >
 
+### 2013-03-16 — forskrift/2013-02-15-173
+
+*Lova trer i kraft 16. mars 2013.*
+
+> Lova trer i kraft 16. mars 2013.
+>
+
 ### 2026-05-22 — lov/2026-05-22-19
 
 *1.I lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. skal § 4 bokstav b lyde:*
@@ -59,6 +66,12 @@ refid: "lov/1976-12-17-100"
 >
 > Er skyldneren en offentlig myndighet, gjelder i tillegg til lovens øvrige bestemmelser følgende regler:Det kan ikke avtales mellom skyldneren og fordringshaveren når en faktura skal anses mottatt av skyldneren.En kontrollprosedyre som nevnt i andre ledd bokstav d skal ikke overstige 30 dager fra mottak av varene eller tjenestene. Dette gjelder likevel ikke dersom noe annet er uttrykkelig bestemt i avtalen eller i anbudsdokumentene.Det kan ikke avtales at forsinkelsesrenten som skal svares av offentlige myndigheter etter bestemmelsen her, skal være lavere enn den lovbestemte forsinkelsesrenten etter § 3.
 >
+
+## § 27
+
+### 2026-05-15 — forskrift/2026-04-27-745
+
+*§ 27 Gebyr for tilsyn og kontroll av muslinger mv, oppheves.*
 
 ## § 3
 

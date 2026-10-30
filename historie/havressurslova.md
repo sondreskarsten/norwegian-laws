@@ -7,6 +7,31 @@ refid: "lov/2008-06-06-37"
 
 ## (annet)
 
+### 2009-01-09 — lov/2009-01-09-4
+
+*9. I lov 6. juni 2008 nr. 37 om forvaltning av viltlevande marine ressursar skal ny § 8 a lyde:*
+
+> § 8 a.Saker der fylkeskommunane har kompetanse
+>
+> Fylkeskommunane kan fatte vedtak på særskilde områder innanfor lova sitt verkeområde når dette er fastsett i forskrift. Departementet kan i forskrift fastsetje nærare reglar om fylkeskommunane sin kompetanse etter denne føresegna. I dei sakene der fylkeskommunane er gitt kompetanse til å fatte vedtak, er Fiskeridirektoratet klageinstans.
+>
+
+### 2011-02-01 — forskrift/2011-01-07-10
+
+*Lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold (naturmangfoldloven) § 78 nr. 15 trer i kraft 1. februar 2011.*
+
+> Lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold (naturmangfoldloven) § 78 nr. 15 trer i kraft 1. februar 2011.
+>
+> Lov 3. juni 1983 nr. 40 om saltvannsfiske § 4 siste ledd oppheves.
+>
+
+### 2013-01-01 — forskrift/2012-09-21-913
+
+*Loven trer i kraft fra 1. januar 2013.*
+
+> Loven trer i kraft fra 1. januar 2013.
+>
+
 ### 2013-05-31 — lov/2013-05-31-24
 
 *Nåværende § 22 sjette ledd blir åttende ledd*
@@ -18,6 +43,27 @@ refid: "lov/2008-06-06-37"
 > § 49 a.Fiskerioppsyn
 >
 > Når det er nødvendig for å gjennomføre avtale med framand stat, kan Kongen i forskrift gje føresegner om at norsk fiskerioppsyn skal kunne kontrollere og handheve avtalte fiskerireglar, medrekna å føre til land fartøy og setje i verk rettsleg forfølging, og om at utanlandske fiskerioppsyn utanfor territorialfarvatnet skal ha høve til å kontrollere og handheve avtalte fiskerireglar overfor norske fartøy, medrekna å føre til land fartøy og setje i verk rettsleg forfølging.
+>
+
+### 2013-06-21 — lov/2013-06-21-75
+
+*2. I lov 6. juni 2008 nr. 37 om forvaltning av viltlevande marine ressursar skal § 48 første ledd lyde:*
+
+> Fiskesalslag etter fiskesalslagslova skal kontrollere at føresegner som er fastsette i eller i medhald av lova vert følgde. Kontrollen skal avgrensast til opplysningar som naturleg følgjer av salslaget si verksemd etter fiskesalslagslova, særleg kontroll med at fangstuttak og landa fangst er i samsvar med føresegner som er fastsette i eller i medhald av lova her. Departementet kan påleggje salsorganisasjonane å kontrollere opplysningar om fangstar som ikkje kjem inn under den retten salslaget har til førstehandsomsetning.
+>
+
+### 2014-01-01 — forskrift/2013-05-31-540
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
+### 2014-01-01 — forskrift/2013-06-21-726
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
 >
 
 ### 2014-01-01 — forskrift/2013-12-13-1479
@@ -69,9 +115,34 @@ refid: "lov/2008-06-06-37"
 > I særlege tilfelle kan Kongen i forskrift gjere unntak frå føresegnene i dette kapitlet for bestemte område. Kongen kan gje føresegner om at fiskeriverksemd som får slikt unntak, heilt eller delvis ikkje skal vere underlagd norsk lovgjeving.
 >
 
+### 2017-07-01 — forskrift/2017-06-16-747
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
+### 2022-01-01 — forskrift/2021-12-17-3629
+
+*Delt ikraftsetting av lov 5. mars 2021 nr. 7 om endringar i deltakerloven og havressurslova (endringar i kvotesystemet): Følgjande trer i kraft 1. januar 2022:*
+
+> Delt ikraftsetting av lov 5. mars 2021 nr. 7 om endringar i deltakerloven og havressurslova (endringar i kvotesystemet): Følgjande trer i kraft 1. januar 2022:
+>
+> Endringslova del I (deltakerloven) § 5a tredje ledd
+>
+> Endringslova del II (havressurslova) § 23 tredje ledd, § 34 første ledd bokstavene g og h, § 49, § 51 andre ledd og § 66 første ledd.
+>
+
 ### 2023-04-21 — lov/2023-04-21-6
 
 *Noverande § 49 tredje ledd blir nytt fjerde ledd.*
+
+### 2023-04-21 — forskrift/2023-04-21-527
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ### 2025-06-06 — lov/2025-06-06-29
 
@@ -82,6 +153,17 @@ refid: "lov/2008-06-06-37"
 *Loven trer i kraft 1. januar 2026.*
 
 > Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 11
@@ -238,7 +320,9 @@ refid: "lov/2008-06-06-37"
 
 *§ 34 første ledd bokstavene g og h skal lyde:*
 
-> å ha om bord og bruke utstyr og dokumentasjon som sikrar kontroll med det kvantum som vert haustautstyr og innretningar for å sikre trygg tilkomst ved kontroll av fartøy.
+> å ha om bord og bruke utstyr og dokumentasjon som sikrar kontroll med det kvantum som vert hausta
+>
+> utstyr og innretningar for å sikre trygg tilkomst ved kontroll av fartøy.
 >
 
 ## § 46
@@ -359,6 +443,19 @@ refid: "lov/2008-06-06-37"
 > Grovt lovbrot som er gjort med grov aktløyse eller med vilje, kan straffast med fengsel i inntil seks år. Ved vurderinga av om lovbrotet er grovt, skal det særleg leggjast vekt på om den økonomiske eller potensielle økonomiske verdien av lovbrotet er stor, om lovbrotet har skjedd systematisk og over tid, om lovbrotet er av grenseoverskridande art, og om lovbrotet har skjedd som ledd i organisert verksemd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 64 femte ledd oppheves.*
+
+## § 65
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 65 annet ledd annet punktum skal lyde:*
+
+> Føresegnene i straffelova § 74 gjeld tilsvarande.
+>
+
 ## § 66
 
 ### 2021-03-05 — lov/2021-03-05-7
@@ -369,6 +466,13 @@ refid: "lov/2008-06-06-37"
 >
 
 ## § 7
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 7 nytt tredje ledd skal lyde:*
+
+> Det er forbode å setje ut organismar og levande rogn utan løyve frå departementet. Departementet kan i forskrift eller enkeltvedtak gjere unntak frå forbodet i første punktum.
+>
 
 ### 2013-05-31 — lov/2013-05-31-24
 

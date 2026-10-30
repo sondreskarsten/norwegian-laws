@@ -7,9 +7,23 @@ refid: "lov/2015-06-19-70"
 
 ## (annet)
 
+### 2017-06-16 — lov/2017-06-16-67
+
+*Kapittel 4 overskriften skal lyde:*
+
+### 2017-07-01 — forskrift/2017-06-16-763
+
+*Lov om statens ansatte mv. trer i kraft 1. juli 2017.*
+
+> Lov om statens ansatte mv. trer i kraft 1. juli 2017.
+>
+
 ### 2025-02-07 — lov/2025-02-07-1
 
 *I følgende bestemmelser skal ordet «tilsettingen» endres til «ansettelsen»:*
+
+> § 14 første ledd første punktum og § 14 fjerde ledd.
+>
 
 ### 2025-02-07 — lov/2025-02-07-1
 
@@ -30,6 +44,15 @@ refid: "lov/2015-06-19-70"
 > Loven trer i kraft 1. juli 2025.
 >
 
+## § 1
+
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 1 annet ledd skal lyde:*
+
+> Loven omfatter embetsmenn og statsansatte som går over til stilling eller verv utenfor statsforvaltningen, eller som etablerer næringsvirksomhet.
+>
+
 ## § 1 a
 
 ### 2025-02-07 — lov/2025-02-07-1
@@ -43,9 +66,63 @@ refid: "lov/2015-06-19-70"
 
 ## § 13
 
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 13 første ledd bokstav a og b skal lyde:*
+
+> det foreligger en konkret forbindelse mellom embetsmannens eller den statsansattes tidligere ansvar og arbeidsoppgaver i embetet eller stillingen eller bestemte saker som var til behandling i forvaltningsorganet i vedkommendes funksjonstid, og interessene til den virksomheten vedkommende blir tilknyttet eller etablerer, eller
+>
+> embetsmannens eller den statsansattes tidligere ansvar og arbeidsoppgaver har gitt eller kan gi virksomheten vedkommende blir tilknyttet eller etablerer særlige fordeler, eller
+>
+
 ### 2025-02-07 — lov/2025-02-07-1
 
 *§ 13 første ledd, § 13 andre ledd første punktum, § 14 andre ledd, § 14 fjerde ledd, § 15 første ledd, § 17 første ledd første punktum, § 17 første ledd tredje punktum, § 18 første ledd første punktum, § 18 andre ledd første punktum, § 18 tredje ledd andre punktum, § 19 første ledd første punktum, § 20 første ledd, § 20 fjerde ledd.*
+
+## § 14
+
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 14 annet ledd bokstav a skal lyde:*
+
+> overgangen kan gi virksomheten som embetsmannen eller den statsansatte blir tilknyttet eller etablerer, særlige fordeler på grunn av vedkommendes stilling, ansvar eller arbeidsoppgaver i statsforvaltningen, eller
+>
+
+## § 15
+
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 15 første og annet ledd skal lyde:*
+
+> Dersom embetsmann eller statsansatt som nevnt i § 13 første ledd, eller som har en klausul om karantene og saksforbud i arbeidskontrakten sin, jf. § 14 første ledd, tar imot tilbud om stilling eller verv utenfor statsforvaltningen eller etablerer næringsvirksomhet, skal vedkommende uten ugrunnet opphold gi alle opplysninger tilsettingsmyndigheten trenger for å fatte vedtak om karantene og saksforbud, inkludert opplysninger om embete og stilling og den nye stillingen, vervet eller virksomheten.
+>
+> Arbeidsgiver kan pålegge informasjonsplikt for andre embetsmenn og statsansatte enn dem som er nevnt i første ledd, dersom vedkommendes ansvarsområder og arbeidsoppgaver kan gi grunnlag for å ilegge karantene og saksforbud etter § 14 fjerde ledd.
+>
+
+## § 16
+
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 16 første ledd skal lyde:*
+
+> En embetsmann eller statsansatt som er ilagt karantene etter §§ 13 eller 14, mottar en godtgjørelse som tilsvarer den tidligere stillingens lønn, med tillegg av feriepenger.
+>
+
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 16 tredje ledd skal lyde:*
+
+> I karanteneperioden vil embetsmannen eller den statsansatte være omfattet av en ordning som tilsvarer gruppelivsordningen som følger av den til enhver tid gjeldende hovedtariffavtale i staten.
+>
+
+## § 17
+
+### 2017-06-16 — lov/2017-06-16-67
+
+*§ 17 første ledd skal lyde:*
+
+> Tilsettingsmyndigheten har frist på to uker til å treffe vedtak om karantene og saksforbud. Fristen regnes fra det tidspunkt vedkommende embetsmann eller statsansatt har oppfylt informasjonsplikten etter § 15. Embetsmannen eller den statsansatte kan ikke tiltre stilling eller verv eller etablere næringsvirksomhet før tilsettingsmyndigheten har truffet endelig vedtak i saken.
+>
 
 ## § 2
 

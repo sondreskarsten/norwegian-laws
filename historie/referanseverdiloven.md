@@ -7,6 +7,15 @@ refid: "lov/2015-12-04-95"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
 ### 2019-12-06 — lov/2019-12-06-76
 
 *§§ 1 til 13 skal lyde slik:*
@@ -126,6 +135,13 @@ refid: "lov/2015-12-04-95"
 
 *Nåværende § 7 blir ny § 14.*
 
+### 2019-12-20 — forskrift/2019-12-20-1913
+
+*Ikraftsetting av lov 6. desember 2019 nr. 76 om endringer i referanserenteloven mv. (gjennomføring av referanseverdiforordningen). Loven trer i kraft 20. desember 2019.*
+
+> Ikraftsetting av lov 6. desember 2019 nr. 76 om endringer i referanserenteloven mv. (gjennomføring av referanseverdiforordningen). Loven trer i kraft 20. desember 2019.
+>
+
 ### 2024-12-13 — lov/2024-12-13-76
 
 *4. I lov 4. desember 2015 nr. 95 om fastsettelse av finansielle referanseverdier skal § 5 andre ledd bokstav d lyde:*
@@ -133,11 +149,32 @@ refid: "lov/2015-12-04-95"
 > taushetsplikt som nevnt i ekomloven § 3-10 for så vidt gjelder opplysninger om avtalebasert hemmelig telefonnummer eller andre abonnementsopplysninger og elektronisk kommunikasjonsadresse.
 >
 
+### 2025-01-01 — forskrift/2024-12-13-3095
+
+*Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.*
+
+> Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *6.I lov 4. desember 2015 nr. 95 om fastsettelse av finansielle referanseverdier skal § 1 første ledd lyde:*
 
 > (1) EØS-avtalen vedlegg IX (forordning (EU) 2016/1011) om indekser brukt som referanseverdier i finansielle instrumenter og finansielle kontrakter eller for å måle resultatet i investeringsfond (referanseverdiforordningen), som endret ved forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-06-19 — lov/2026-06-19-40

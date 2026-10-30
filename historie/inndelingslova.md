@@ -21,6 +21,23 @@ refid: "lov/2001-06-15-70"
 > § 2.Verkeområde
 >
 
+### 2013-07-01 — forskrift/2013-02-08-144
+
+*– – –*
+
+> – – –
+>
+> Endringane i lov 25. september 1992 nr. 107 om kommuner og fylkeskommuner § 17 nr. 2 og 3, § 29 nr. 4, § 48 nr. 5, § 50 nr. 7 bokstav b, § 65 nr. 3, § 68 nr. 5, § 71 nr. 2, § 77 nr. 8 og § 80 tek til å gjelde 1. juli 2013.
+>
+> Endringa i lov 25. september 1992 nr. 107 om kommuner og fylkeskommuner § 77 nr. 2 tek til å gjelde 1. november 2015.
+>
+> Endringane i lov 29. januar 1999 nr. 6 om interkommunale selskaper § 18 tredje ledd, § 20 første og siste ledd, § 21 første ledd, § 22 og § 27 tek til å gjelde 1. januar 2014.
+>
+> Endringa i lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser § 26 første ledd tek til å gjelde 1. juli 2013.
+>
+> Endringa i lov 6. mars 2009 nr. 11 om tiltak mot hvitvasking og terrorfinansiering mv. § 4 andre ledd nr. 1 tek til å gjelde 1. juli 2013.
+>
+
 ### 2014-01-01 — forskrift/2013-06-21-735
 
 *Endringane i lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser tek til å gjelde frå 1. januar 2014.*
@@ -28,9 +45,41 @@ refid: "lov/2001-06-15-70"
 > Endringane i lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser tek til å gjelde frå 1. januar 2014.
 >
 
+### 2016-03-18 — forskrift/2016-03-18-266
+
+*Vedtak 18. januar 2007 nr. 47 om delegering av mynde etter lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser, blir oppheva.*
+
+### 2016-07-01 — forskrift/2016-06-17-681
+
+*Ikraftsetting av Stortingets vedtak til lov om endringar i inndelingslova og kommuneloven (behandling av kommunesamanslåingar mv.). Loven trer i kraft 1. juli 2016.*
+
+> Ikraftsetting av Stortingets vedtak til lov om endringar i inndelingslova og kommuneloven (behandling av kommunesamanslåingar mv.). Loven trer i kraft 1. juli 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2018-06-22 — lov/2018-06-22-84
 
 *Nåværende §§ 29 og 30 blir §§ 30 og ny 31.*
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
 
 ### 2020-01-01 — lov/2019-06-21-35
 
@@ -45,6 +94,13 @@ refid: "lov/2001-06-15-70"
 > § 12 fjerde ledd vert oppheva.
 >
 > Endringa under I tek til å gjelde frå og med 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2018-06-22-947
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
 >
 
 ### 2021-05-07 — lov/2021-05-07-35
@@ -69,11 +125,25 @@ refid: "lov/2001-06-15-70"
 > Endringsloven trer i kraft straks.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2023-06-02 — lov/2023-06-02-21
 
 *I lov 15. juni 2001 nr. 70 om fastsetjing og endring av kommune- og fylkesgrenser skal § 26 første ledd sjette punktum lyde:*
 
 > Nemnda vel sjølv leiar og nestleiar.
+>
+
+### 2023-07-01 — forskrift/2023-06-02-767
+
+*Lova trer i kraft 1. juli 2023.*
+
+> Lova trer i kraft 1. juli 2023.
 >
 
 ### 2023-12-15 — lov/2023-12-15-92
@@ -99,6 +169,13 @@ refid: "lov/2001-06-15-70"
 > Rikets fylke skal ha desse namna:ØstfoldOsloAkershusInnlandetBuskerudVestfoldTelemarkAgderRogalandVestlandMøre og RomsdalTrøndelag eller TrööndelageNordland eller NordlánndaTroms eller Romsa eller TromssaFinnmark eller Finnmárku eller Finmarkku
 >
 
+### 2024-05-01 — forskrift/2024-03-22-553
+
+*Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.*
+
+> Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.
+>
+
 ### 2025-07-01 — forskrift/2025-06-20-1096
 
 *Loven trer i kraft 1. juli 2025.*
@@ -115,6 +192,20 @@ refid: "lov/2001-06-15-70"
 > Når det med verknad frå byrjinga av eit kalenderår er gjennomført samanslåing av to eller fleire kommunar eller deling som nemnt i § 3 andre ledd bokstav b, blir alle skattepliktige i eit distrikt som tidlegare har danna ein sjølvstendig kommune, ved den første likninga etter samanslåinga eller deling som nemnt i § 3 andre ledd bokstav b, å ilikne kommuneskatt etter dei skattesatsane som i dette distriktet blei lagde til grunn ved fastsetjinga av forskot på skatt for vedkomande inntektsår. Dette gjeld likevel ikkje dersom kommunestyret i vedkomande distrikt før samanslåinga eller deling som nemnt i § 3 andre ledd bokstav b, har gjort vedtak om at det ved likninga skal nyttast andre skattesatsar, og slikt vedtak er godkjent av Fylkesmannen.
 >
 > Før samanslåing eller deling som nemnt i første ledd blir sett i verk, skal kommunestyret i den nye kommunen eller kommunane gjere vedtak om kva skattesatsar som skal nyttast ved berekning av forskot på skatt for det komande inntektsåret for alle forskotspliktige skatteytarar i den nye kommunen. Vedtaket må gjerast innan den fristen som er fastsett av Fylkesmannen. Dersom fristen ikkje blir halden, skal Fylkesmannen avgjere kva for satsar som skal brukast.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12 første ledd skal lyde:*
+
+> Når det med verknad frå byrjinga av eit kalenderår er gjennomført samanslåing av to eller fleire kommunar eller deling som nemnt i § 3 andre ledd bokstav b, blir alle skattepliktige i eit distrikt som tidlegare har danna ein sjølvstendig kommune, ved den første skattefastsetjinga etter samanslåinga eller deling som nemnt i § 3 andre ledd bokstav b, skattlagt for kommuneskatt etter dei skattesatsane som i dette distriktet blei lagde til grunn ved fastsetjinga av forskot på skatt for vedkomande inntektsår. Dette gjeld likevel ikkje dersom kommunestyret i vedkomande distrikt før samanslåinga eller deling som nemnt i § 3 andre ledd bokstav b, har gjort vedtak om at det ved skattefastsetjinga skal nyttast andre skattesatsar, og slikt vedtak er godkjent av Fylkesmannen.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12 tredje ledd skal lyde:*
+
+> Når eit område blir overført frå ein kommune til ein annan med verknad frå byrjinga av eit kalenderår, blir alle skattepliktige i dette området skattlagt for kommuneskatt i den kommunen som avstår området, ved skattefastsetjinga som gjeld inntektsåret før overføringa.
 >
 
 ## § 14
@@ -172,7 +263,9 @@ refid: "lov/2001-06-15-70"
 
 *§ 17 andre ledd bokstav d og ny bokstav e skal lyde:*
 
-> reglar om fristar og vilkår for å krevje inn eigedomsskattreglar om den inneverande kommunestyreperioden og om samansetjing av kommunestyret, slik at kommunane kan velje kommunestyret i den nye kommunen av og blant kommunestyra sjølve og korte ned kommunestyreperioden for dei som ikkje blir valde. Dei same unntaka kan gjerast for fylkestinga.
+> reglar om fristar og vilkår for å krevje inn eigedomsskatt
+>
+> reglar om den inneverande kommunestyreperioden og om samansetjing av kommunestyret, slik at kommunane kan velje kommunestyret i den nye kommunen av og blant kommunestyra sjølve og korte ned kommunestyreperioden for dei som ikkje blir valde. Dei same unntaka kan gjerast for fylkestinga.
 >
 
 ### 2019-03-01 — lov/2019-03-01-4

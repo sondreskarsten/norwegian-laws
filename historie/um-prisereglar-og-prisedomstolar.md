@@ -5,6 +5,15 @@ refid: "lov/1947-05-02-1"
 
 # Endringshistorikk: Lov um prisereglar og prisedomstolar
 
+## (annet)
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ## § 11
 
 ### 2007-02-27 — lov/2007-01-26-3

@@ -5,6 +5,15 @@ refid: "lov/2018-06-22-77"
 
 # Endringshistorikk: Endringslov til tobakkskadeloven
 
+## (annet)
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
 ## § 35
 
 ### 2020-05-20 — lov/2020-05-20-42

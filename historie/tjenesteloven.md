@@ -14,6 +14,13 @@ refid: "lov/2009-06-19-103"
 > Forbrukertilsynet og Markedsrådet skal føre kontroll med at bestemmelsen overholdes. Kontrollen utøves i samsvar med reglene i markedsføringsloven §§ 32 til 41, § 42 første ledd annet punktum og § 43. Ved forsettlig eller uaktsom overtredelse av bestemmelsen som anses som vesentlig eller har skjedd gjentatte ganger, kan det ilegges et overtredelsesgebyr som den som vedtaket retter seg mot, skal betale. Ved vedtak om overtredelsesgebyr gjelder markedsføringsloven § 42 annet og tredje ledd tilsvarende.
 >
 
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
+
 ### 2020-07-01 — forskrift/2020-06-12-1184
 
 *Endringsloven trer i kraft 1. juli 2020.*
@@ -26,6 +33,13 @@ refid: "lov/2009-06-19-103"
 *I lov 19. juni 2009 nr. 103 om tjenestevirksomhet skal § 19 fjerde ledd lyde:*
 
 > Forbrukertilsynet og Markedsrådet skal føre kontroll med at bestemmelsen overholdes. Kontrollen utøves i samsvar med reglene i markedsføringsloven §§ 32 til 41, § 42 første ledd annet punktum og § 43. Ved forsettlig eller uaktsom overtredelse av bestemmelsen som anses som vesentlig eller har skjedd gjentatte ganger, kan det ilegges et overtredelsesgebyr som den som vedtaket retter seg mot, skal betale.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-930
+
+*Endringsloven trer i kraft 1. oktober 2023.*
+
+> Endringsloven trer i kraft 1. oktober 2023.
 >
 
 ## § 1

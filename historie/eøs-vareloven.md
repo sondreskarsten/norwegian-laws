@@ -27,6 +27,13 @@ refid: "lov/2013-04-12-13"
 
 *Nåværende § 5 blir ny § 6.*
 
+### 2023-09-15 — forskrift/2023-09-15-1422
+
+*Ikraftsetting av lov 23. april 2021 nr. 25 om endringer i EØS-vareloven (gjensidig godkjenning av varer mv.). Loven trer i kraft straks.*
+
+> Ikraftsetting av lov 23. april 2021 nr. 25 om endringer i EØS-vareloven (gjensidig godkjenning av varer mv.). Loven trer i kraft straks.
+>
+
 ## § 1
 
 ### 2021-04-23 — lov/2021-04-23-25

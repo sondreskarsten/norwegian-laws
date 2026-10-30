@@ -7,6 +7,20 @@ refid: "lov/2017-06-16-50"
 
 ## (annet)
 
+### 2018-01-01 — forskrift/2017-06-16-750
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2155
+
+*Lovendringene trer i kraft 1. januar 2018.*
+
+> Lovendringene trer i kraft 1. januar 2018.
+>
+
 ### 2019-06-21 — lov/2019-06-21-57
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -15,9 +29,37 @@ refid: "lov/2017-06-16-50"
 
 *Nåværende annet og tredje ledd blir nytt tredje og fjerde ledd.*
 
+### 2020-01-01 — forskrift/2019-06-21-776
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2021-06-18 — lov/2021-06-18-93
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
+
+### 2021-07-01 — forskrift/2021-06-18-1973
+
+*Endringsloven trer i kraft 1. juli 2021.*
+
+> Endringsloven trer i kraft 1. juli 2021.
+>
+
+### 2022-01-01 — forskrift/2021-05-21-1619
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
+
+### 2022-01-01 — forskrift/2021-06-11-1910
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
 
 ### 2022-06-22 — lov/2022-06-22-83
 
@@ -26,209 +68,28 @@ refid: "lov/2017-06-16-50"
 > Dersom nemnda kommer til at det ikke foreligger brudd på bestemmelsene i § 1 annet og fjerde ledd, skal den avgi en uttalelse om det.
 >
 
-### 2023-06-16 — lov/2023-06-16-64
+### 2022-06-22 — forskrift/2022-06-22-1141
 
-*Endringer i følgende lov:*
+*Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft 1. januar 2023:*
 
-> Endringer i følgende lov:
+> Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft 1. januar 2023:
 >
-> Lov 16. juni 2017 nr. 50 om Likestillings- og diskrimineringsombudet og Diskrimineringsnemnda (diskrimineringsombudsloven).
+> Endringsloven del I (bildeprogramloven)
 >
-> § 1
+> Endringsloven del II (straffeloven)
 >
-> .
+> Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft straks:
 >
-> Formål
+> Endringsloven del III (diskrimineringsombudsloven).
 >
-> Lovens formål er å legge til rette for bredde, mangfold og kvalitet i litteraturen som utgis i Norge, og å sikre at alle i landet har god tilgang til denne litteraturen.
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
 >
-> Loven skal også
->
-> ivareta interessene til forfattere, oversettere, visuelle kunstnere og lesere
->
-> legge til rette for et mangfold av aktører
->
-> bidra til å fremme ytringsfrihet og kultur- og kunnskapsformidling
->
-> bidra til å styrke skriftkulturen for bokmål, nynorsk, de samiske språkene og de nasjonale minoritetsspråkene kvensk, romani og romanes.
->
-> § 2
->
-> .
->
-> Definisjoner
->
-> I denne loven menes med
->
-> bok: utgivelse med ISBN-nummer innenfor lovens virkeområde, som uavhengig av publiseringsformat tilgjengeliggjøres for publikum, for eksempel ulike formater av en papirbok, en e-bok eller en innlest parallellutgave av en papirbok eller en e-bok (lydbok)
->
-> utgiver: fysisk eller juridisk person som utgir bøker
->
-> forhandler: virksomhet som omsetter bøker til sluttkunde, fysisk eller digitalt
->
-> sluttkunde: enhver som kjøper eller på annen måte betaler for tilgang til bøker til andre formål enn videresalg
->
-> fastpris: bindende utsalgspris til sluttkunde på en bok.
->
-> § 3
->
-> .
->
-> Saklig og geografisk virkeområde
->
-> Loven gjelder for omsetning av bøker som
->
-> utgis på bokmål, nynorsk, samiske språk eller de nasjonale minoritetsspråkene kvensk, romani og romanes, og
->
-> utgis av norske utgivere for salg gjennom norske forhandlere.
->
-> Loven gjelder ikke ved salg til sluttkunder i en annen stat.
->
-> Loven gjelder på Svalbard.
->
-> Loven gjelder for omsetning av skjønnlitteratur, sakprosa, fagbøker for profesjonsmarkedet og lærebøker for høyere utdanning, uavhengig av publiseringsformat.
->
-> Loven gjelder ikke for omsetning av skolebøker til grunnskolen og videregående skole eller omsetning av brukte bøker.
->
-> Departementet kan gi forskrift om at §§ 5, 6, 7 og 11 helt eller delvis ikke skal gjelde for utgivere og forhandlere dersom bestemmelsene får urimelig store negative konsekvenser.
->
-> § 4
->
-> .
->
-> Normalkontrakter
->
-> Representanter for forfattere, illustratører og oversettere kan samarbeide om normalkontrakter med utgivere eller representanter for utgivere. Normalkontraktene kan inneholde bestemmelser om honorarsatser for forfattere og illustratører, provisjonssatser for deres agenter og oversetterhonorarer.
->
-> Departementet kan gi forskrift om særlige tilfeller hvor leverandør pålegges å tilby fremforhandlede normalkontrakter til forfattere, illustratører og oversettere.
->
-> § 5
->
-> .
->
-> Fastpris på bøker
->
-> Utgiveren skal sette en fastpris for salg til sluttkunde for hvert publiseringsformat av en bok. Fastprisen gjelder for utgivere og forhandlere i tolv måneder for hvert format fra første gang formatet av boka utgis.
->
-> Utgiveren kan forlenge fastprisperioden med inntil sju år for særlig ressurskrevende utgivelser, mot å tilby sine forhandlere full returrett.
->
-> I fastprisperioden etter første eller andre ledd kan e-bøker og digitale lydbøker bare omsettes ved eksemplarsalg.
->
-> Departementet kan gi forskrift om fastpris på reelle nyutgivelser av en bok etter at fastprisperioden etter første eller andre ledd er utløpt.
->
-> Departementet gir forskrift om vilkår for kvantumsrabatter til sluttkunder, rabatter til biblioteker og rabatter ved samtidig salg av ulike formater av samme bok i fastprisperioden.
->
-> § 6
->
-> .
->
-> Plikt til å skaffe og levere papirbøker og e-bøker
->
-> En forhandler som har omsetning av papirbøker som kjernevirksomhet, skal på forespørsel fra en sluttkunde skaffe papirbøker som en utgiver har gjort tilgjengelige i en distribusjonstjeneste for salg av bøker.
->
-> Ved bestillinger fra en forhandler skal en utgiver levere til forhandleren de papirbøkene og e-bøkene som utgiveren har gjort tilgjengelige til eksemplarsalg i en distribusjonstjeneste for salg av bøker. Plikten til å levere papirbøker gjelder bare overfor forhandlere som har omsetning av papirbøker som kjernevirksomhet.
->
-> § 7
->
-> .
->
-> Plikt til å tilby og levere digitale lydbøker
->
-> En forhandler som tilbyr digitale lydbøker, skal tilby eksemplarsalg av alle digitale lydbøker som utgivere har gjort tilgjengelige i en distribusjonstjeneste for salg av bøker.
->
-> En utgiver skal levere digitale lydbøker som nevnt i første ledd til eksemplarsalg til forhandlere som omsetter digitale lydbøker.
->
-> Departementet kan gi forskrift om gjennomføringen av forhandlernes og utgivernes plikter etter første og andre ledd.
->
-> § 8
->
-> .
->
-> Litteraturabonnement
->
-> Utgivere kan samarbeide om å tilby forhandlere kollektive abonnementsordninger der forhandlerne får rabatt når de forplikter seg til å motta et bestemt bokutvalg (litteraturabonnement). Utgiverne skal utforme litteraturabonnementene slik at de i størst mulig grad bidrar til å oppnå lovens formål.
->
-> Utgiverne skal tilby litteraturabonnementene på like vilkår til alle forhandlere som tegner samme type abonnement.
->
-> Departementet kan gi forskrift om rabattsatser og returbetingelser for litteraturabonnementene.
->
-> § 9
->
-> .
->
-> Samarbeid om felles salgsperioder
->
-> Utgivere og forhandlere kan samarbeide om felles salgsperioder for bøker uten fastpris. En utgiver kan i forbindelse med salgsperiodene kun fastsette veiledende utsalgspriser for sine bøker.
->
-> Samarbeidet kan ikke gå ut på å begrense en forhandlers adgang til å gjennomføre salg utenom de felles salgsperiodene eller å begrense felles salgsperioder til visse kampanjer.
->
-> § 10
->
-> .
->
-> Betalings-, frakt- og leveringsbetingelser
->
-> Utgivere og forhandlere kan samarbeide om felles standardbetingelser for betaling, frakt og levering ved omsetning av bøker.
->
-> Departementet kan gi forskrift om hvilke betingelser for betaling, frakt og levering som skal gjelde ved omsetning av bøker når ikke annet er avtalt og ved gjennomføring av pliktene etter §§ 6 og 7.
->
-> § 11
->
-> .
->
-> Forbud mot forskjellsbehandling
->
-> Ved gjennomføring av plikter etter denne loven eller avtaler som omfattes av loven, kan utgivere og forhandlere ikke gi hverandre særlig gunstige vilkår basert på eierskap.
->
-> § 12
->
-> .
->
-> Innkjøpsrabatt
->
-> For papirbøker med fastpris etter § 5 skal det være en maksimalsats og en minimumssats for innkjøpsrabatt fra utgiver til forhandler. Departementet gir forskrift om størrelsen på disse satsene.
->
-> Første ledd gjelder ikke for fagbøker for profesjonsmarkedet eller lærebøker for høyere utdanning.
->
-> Første ledd er ikke til hinder for at utgivere og forhandlere kan inngå avtaler om salgsfremmende tiltak, så lenge slike tiltak bidrar til å oppnå lovens formål og er målbare.
->
-> Rabatter ved litteraturabonnement etter § 8 gjelder uavhengig av første ledd.
->
-> Departementet kan gi forskrift om innkjøpsrabatt for e-bøker og digitale lydbøker.
->
-> § 13
->
-> .
->
-> Forholdet til konkurranseloven
->
-> Innenfor denne lovens virkeområde skal bestemmelsene i loven ved motstrid gå foran bestemmelsene i konkurranseloven.
->
-> § 14
->
-> .
->
-> Ikrafttredelse og overgangsregler
->
-> Loven gjelder fra den tiden Kongen bestemmer. Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.
->
-> Departementet kan gi forskrift om overgangsbestemmelser for bøker som omfattes av fastpris etter en gjeldende bokavtale på det tidspunktet loven begynner å gjelde.
->
-> § 15
->
-> .
->
-> Endringer i andre lover
->
-> Fra den tiden loven begynner å gjelde, gjøres følgende endringer i lov 16. juni 2017 nr. 50 om Likestillings- og diskrimineringsombudet og Diskrimineringsnemnda:
->
-> § 1 andre ledd bokstav g skal lyde:
->
-> skipsarbeidsloven kapittel 10, med unntak av § 10-1 tredje ledd.
->
-> § 10 tredje ledd første punktum skal lyde:
->
-> Nemnda kan henlegge en sak dersom forholdet er av bagatellmessig art, forholdet det er klaget over åpenbart ikke er i strid med de bestemmelser som er nevnt i § 1 annet og fjerde ledd, eller saken etter bevisets stilling ikke lar seg opplyse tilstrekkelig.
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
 >
 
 ### 2024-01-01 — forskrift/2023-09-01-1379
@@ -236,6 +97,24 @@ refid: "lov/2017-06-16-50"
 *Delt ikraftsetting av lov 16. juni 2023 nr. 64 om omsetning av bøker (bokloven). Loven § 7 trer i kraft 1. januar 2025. De andre bestemmelsene, med unntak av § 12, trer i kraft 1. januar 2024.*
 
 > Delt ikraftsetting av lov 16. juni 2023 nr. 64 om omsetning av bøker (bokloven). Loven § 7 trer i kraft 1. januar 2025. De andre bestemmelsene, med unntak av § 12, trer i kraft 1. januar 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-961
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 1
@@ -261,6 +140,13 @@ refid: "lov/2017-06-16-50"
 > Nemndas virksomhet omfatter også saker om gjengjeldelse etter arbeidsmiljøloven § 2 A-4 og oppreisning og erstatning etter § 2 A-5, med unntak av saker om oppsigelse eller avskjed.
 >
 
+### 2023-06-16 — lov/2023-06-16-64
+
+*§ 1 andre ledd bokstav g skal lyde:*
+
+> skipsarbeidsloven kapittel 10, med unntak av § 10-1 tredje ledd.
+>
+
 ## § 10
 
 ### 2019-06-21 — lov/2019-06-21-57
@@ -275,6 +161,13 @@ refid: "lov/2017-06-16-50"
 *§ 10 annet ledd skal lyde:*
 
 > Nemnda kan avvise en sak hvis saksforholdet ligger mer enn tre år tilbake i tid.
+>
+
+### 2023-06-16 — lov/2023-06-16-64
+
+*§ 10 tredje ledd første punktum skal lyde:*
+
+> Nemnda kan henlegge en sak dersom forholdet er av bagatellmessig art, forholdet det er klaget over åpenbart ikke er i strid med de bestemmelser som er nevnt i § 1 annet og fjerde ledd, eller saken etter bevisets stilling ikke lar seg opplyse tilstrekkelig.
 >
 
 ## § 11

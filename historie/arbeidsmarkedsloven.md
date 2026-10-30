@@ -7,11 +7,29 @@ refid: "lov/2004-12-10-76"
 
 ## (annet)
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*Kapittel 2 oppheves.*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*Kapittel 4 overskriften skal lyde:*
+
+> Kapittel 4 Registrering og behovsvurdering
+>
+
 ### 2006-12-22 — lov/2006-12-22-94
 
 *I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 19 første ledd lyde:*
 
 > Arbeids- og velferdsetaten kan pålegge arbeidssøkere, arbeidstakere, offentlige myndigheter, utdanningsinstitusjoner, Statens lånekasse for utdanning, Posten Norge AS, forsikringsselskaper, banker, private pensjonsordninger og tiltaks- og formidlingsaktører å gi opplysninger som er nødvendige for at Arbeids- og velferdsetaten skal kunne utføre sine oppgaver etter denne loven.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
 >
 
 ### 2010-12-17 — lov/2010-12-17-80
@@ -30,21 +48,11 @@ refid: "lov/2004-12-10-76"
 
 ### 2012-03-23 — lov/2012-03-23-13
 
-*Endring i følgende lov:*
+*I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal ny § 21 lyde:*
 
-> Endring i følgende lov:
->
-> Lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester (arbeidsmarkedsloven).
->
-> I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal ny § 21 lyde:
->
-> § 21.
->
-> Politiattest
+> § 21.Politiattest
 >
 > Departementet gir i forskrift nærmere bestemmelser om krav om politiattest i samsvar med reglene i politiregisterloven § 39 første ledd for person som skal ansettes i bedrift som arrangerer arbeidsmarkedstiltak rettet mot utviklingshemmede, og om hvilke tiltak dette skal gjelde.
->
-> Loven gjelder fra det tidspunkt Kongen bestemmer.
 >
 
 ### 2012-05-01 — forskrift/2012-03-23-247
@@ -65,6 +73,22 @@ refid: "lov/2004-12-10-76"
 
 *Nåværende annet ledd blir nytt tredje ledd.*
 
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
 ### 2019-01-01 — lov/2018-12-20-98
 
 *I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 8 første ledd tredje punktum lyde:*
@@ -79,11 +103,59 @@ refid: "lov/2004-12-10-76"
 > Det kan gis stønad til reiseutgifter til deltakere i arbeidsmarkedstiltak som mottar tiltakspenger etter første ledd, dagpenger under arbeidsløshet etter folketrygdloven kapittel 4 eller kvalifiseringsstønad etter sosialtjenesteloven kapittel 4. Reisestønad kan også gis til tiltaksdeltakere som ikke får utbetalt tiltakspenger fordi de er innsatt i fengsel. Departementet kan gi forskrifter om vilkårene for og størrelsen på reisestønaden.
 >
 
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2023-04-01 — forskrift/2022-12-20-2300
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
+>
+
 ### 2024-06-14 — lov/2024-06-14-31
 
 *I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 25 andre ledd andre punktum lyde:*
 
 > Ved vurderingen av om det foreligger utleie, gjelder arbeidsmiljøloven § 14-12 fjerde ledd tilsvarende.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-981
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-12-20 — forskrift/2024-12-20-3298
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (folketrygdloven) §§ 8-49, 11-4, 11-13, 11-16, 11-18, 13-2, 13-11 og 20-4.
+>
+> Endringsloven del VI (lov om arbeidsmarkedstjenester), VII (lov om norsk statsborgerskap), IX (AFP-tilskottsloven), X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) og XI (lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover).
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) får virkning fra 1. oktober 2024, med unntak av endringene i §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (lov om Statens pensjonskasse), II (lov om pensjonsordning for apotekvirksomhet mv.), III (lov om samordning av pensjons- og trygdeytelser) og IV (lov om pensjonsordning for sykepleiere).
+>
+> Endringsloven del V (folketrygdloven) opphevelsen av overskriften «V. Forsørgingstillegg» i kapittel 3 og endringene i §§ 3-3, 3-24, 3-25, 3-26, 4-5, 4-9, 4-10, 4-15, 4-16, 4-20, 4-21, 4-23, 4-26, 12-15, 19-3, 19-8, 19-9a og 22-16.
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2025:
+>
+> Endringsloven del VIII (lov om pensjonsordning for oppdragstaker i statlig beredskapshjem eller spesialisert fosterhjem).
 >
 
 ## § 11
@@ -137,7 +209,22 @@ refid: "lov/2004-12-10-76"
 > Departementet kan gi forskrift om ytelser til deltakere i forsøk med arbeidsmarkedstiltak.
 >
 
+## § 14
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 14 annet ledd oppheves.*
+
 ## § 15
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 15 skal lyde:*
+
+> § 15.Hvor krav om stønad skal settes fram
+>
+> Krav om stønad i forbindelse med arbeidsmarkedstiltak etter kapittel 5 i denne loven, settes fram for det felles lokale kontoret i arbeids- og velferdsforvaltningen der søkeren bor eller oppholder seg, med mindre Arbeids- og velferdsdirektoratet bestemmer noe annet.
+>
 
 ### 2016-01-01 — lov/2015-06-19-42
 
@@ -150,6 +237,19 @@ refid: "lov/2004-12-10-76"
 > Departementet kan gi forskrifter om når krav må være satt fram.
 >
 
+## § 17
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 17 skal lyde:*
+
+> § 17.Klage
+>
+> Enkeltvedtak etter loven kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
+> Fristen for å klage over enkeltvedtak er seks uker fra det tidspunkt underretning om vedtaket er kommet fram til vedkommende part. Klage settes fram for det felles lokale kontoret i arbeids- og velferdsforvaltningen der klageren bor eller oppholder seg, med mindre Arbeids- og velferdsdirektoratet bestemmer noe annet. For Arbeids- og velferdsetatens tildeling av tiltaksplass hos en arbeidsgiver gjelder likevel tre ukers klagefrist fra det tidspunkt underretning om vedtaket er kommet fram til arbeidssøker.
+>
+
 ## § 19
 
 ### 2010-12-17 — lov/2010-12-17-80
@@ -159,7 +259,49 @@ refid: "lov/2004-12-10-76"
 > Arbeids- og velferdsetaten kan pålegge arbeidssøkere, arbeidstakere, arbeidsgivere, offentlige myndigheter, utdanningsinstitusjoner, Statens lånekasse for utdanning, Posten Norge AS, forsikringsselskaper, banker, private pensjonsordninger og tiltaks- og formidlingsaktører å gi opplysninger som er nødvendige for at Arbeids- og velferdsetaten skal kunne utføre sine oppgaver etter denne loven.
 >
 
+## § 2
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 2 nytt fjerde ledd skal lyde:*
+
+> Departementet kan gi forskrift om lovens anvendelse for utsendte arbeidstakere, jf. arbeidsmiljøloven § 1-7.
+>
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 2 første ledd skal lyde:*
+
+> § 2.Virkeområde
+>
+> Kapittel 1 til 7 gjelder for alle personer med lovlig opphold i riket og for alle som driver lovlig virksomhet i Norge. Arbeids- og velferdsetaten skal også yte tjenester etter denne loven til andre rettssubjekter når dette følger av internasjonale forpliktelser.
+>
+
+## § 20
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 20 annet ledd skal lyde:*
+
+> Lovhjemlet taushetsplikt er heller ikke til hinder for nødvendig utveksling av opplysninger i ytelsessaker mellom Arbeids- og velferdsetatens organer og det eller de organer som er fastsatt med hjemmel i folketrygdloven § 21-15 første ledd.
+>
+
+## § 21
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 21 oppheves.*
+
 ## § 22
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 22 skal lyde:*
+
+> § 22.Tilbakebetaling mv.
+>
+> Ved krav om tilbakebetaling av feilutbetalte ytelser gjelder folketrygdloven §§ 22-15 og 22-17 tilsvarende.
+>
 
 ### 2024-12-20 — lov/2024-12-20-81
 
@@ -167,6 +309,18 @@ refid: "lov/2004-12-10-76"
 
 > Ved krav om tilbakebetaling av feilutbetalte ytelser gjelder folketrygdloven §§ 22-15 og 22-17 a tilsvarende.
 >
+
+## § 23
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 23 oppheves.*
+
+## § 24
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 24 oppheves.*
 
 ## § 25
 
@@ -199,3 +353,43 @@ refid: "lov/2004-12-10-76"
 
 > Departementet kan i forskrift fastsette nærmere regler om melding, rapportering, tilsyn, organisering, drift og godkjenning av utleievirksomheten. Departementet kan i forskrift fastsette vilkår for innleie av arbeidstaker fra utleievirksomhet og for tilsyn med slik innleie. Arbeidstilsynet kan gi de pålegg og treffe de enkeltvedtak ellers som er nødvendige for gjennomføringen av bestemmelser gitt i medhold av første og andre punktum. Arbeidsmiljøloven kapittel 18 får tilsvarende anvendelse.
 >
+
+## § 28
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 28 skal lyde:*
+
+> § 28.Utestengning
+>
+> Arbeidsgivere og arbeidstakere som ikke oppfyller rimelige krav som Arbeids- og velferdsetaten stiller i forbindelse med sine tjenester, kan for en tidsavgrenset periode utestenges fra hele eller deler av Arbeids- og velferdsetatens tilbud etter denne loven.
+>
+
+## § 8
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*§ 8 skal lyde:*
+
+> § 8.Arbeidsgivers meldeplikt og Aetats oppfølging ved masseoppsigelser og permitteringer
+>
+> Arbeidsgiver som vurderer å gå til masseoppsigelser, jf. arbeidsmiljøloven § 15-2 første ledd, skal tidligst mulig og senest samtidig med at arbeidsgiver innkaller til drøftinger, gi Aetat melding som fastsatt i arbeidsmiljøloven § 15-2 tredje ledd. Tilsvarende melding skal gis Aetat dersom arbeidstakerne vil bli permittert uten lønn eller i mer enn 4 uker vil få sin ukentlige arbeidstid innskrenket med mer enn 50 prosent. Melding skal også gis ved masseoppsigelser eller permitteringer av arbeidstakere som omfattes av tjenestemannsloven.
+>
+> Meldingen skal gis til Aetat i det distriktet virksomheten ligger.
+>
+> Planlagte masseoppsigelser får tidligst virkning 30 dager etter at Aetat er underrettet. Dersom det er nødvendig for å få til slik avtale som nevnt i arbeidsmiljøloven § 15-2 andre ledd, kan Aetat forlenge fristen etter første punktum med inntil 30 dager. Dersom Aetat endrer denne fristen, skal det gis skriftlig melding til arbeidsgiver om dette. Fristen kan ikke forlenges når en virksomhet opphører som følge av en rettsavgjørelse.
+>
+> Aetat skal benytte fristen etter tredje ledd, første eller andre punktum, til å finne løsninger på de problemer som de planlagte oppsigelsene reiser. Departementet kan i forskrift gi nærmere regler om hvordan retten til utsettelse av oppsigelser skal nyttes og Aetats rolle ved utsettelse.
+>
+> Aetat Arbeidsdirektoratet kan fastsette innskrenkninger i meldeplikten.
+>
+> 27. I lov 10. juni 2005 nr. 40 om Likestillings- og diskrimineringsombudet og Likestillings- og diskrimineringsnemnda (diskrimineringsombudsloven) skal § 1 andre ledd nr. 3 lyde:
+>
+> Lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern kapittel 13, med unntak av § 13-1 tredje ledd og § 13-9.
+>
+
+## § 9
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 9 oppheves.*

@@ -7,6 +7,17 @@ refid: "lov/2004-03-05-12"
 
 ## (annet)
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*26. I lov 5. mars 2004 nr. 12 om konkurranse mellom foretak og kontroll med foretakssammenslutninger skal § 26 lyde:*
+
+> § 26.Forholdet til offentleglova
+>
+> Offentleglova gjelder ikke i saker om overtredelse av §§ 10, 11, 18 første ledd, 19 første ledd eller vedtak i medhold av denne lov så lenge saken ikke er avsluttet. En sak regnes ikke som avsluttet hvis den er anmeldt til påtalemyndigheten.
+>
+> 27. I lov 7. mai 2004 nr. 21 om Riksrevisjonen blir desse endringane gjorde:
+>
+
 ### 2009-06-19 — lov/2009-06-19-83
 
 *Overskriften til § 26 skal lyde:*
@@ -16,7 +27,10 @@ refid: "lov/2004-03-05-12"
 
 ### 2013-06-14 — lov/2013-06-14-35
 
-*I kapittel 7 skal kapitteloverskriften lyde: «Kapittel 7 Sanksjoner og tvangsmulkt»*
+*I kapittel 7 skal kapitteloverskriften lyde:*
+
+> «Kapittel 7 Sanksjoner og tvangsmulkt»
+>
 
 ### 2013-06-14 — lov/2013-06-14-35
 
@@ -46,6 +60,13 @@ refid: "lov/2004-03-05-12"
 ### 2013-06-14 — lov/2013-06-14-35
 
 *Nåværende §§ 32 til 34 blir nye §§ 35 til 37.*
+
+### 2014-01-01 — forskrift/2013-06-14-633
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
 
 ### 2016-04-15 — lov/2016-04-15-2
 
@@ -111,6 +132,13 @@ refid: "lov/2004-03-05-12"
 > Delt ikraftsetting av lov 15. april 2016 nr. 2 om endringer i konkurranseloven (Konkurranseklagenemnda, kartellforlik mm.). Loven trer i kraft fra 1. juli 2016 med unntak av § 8, § 12, § 13, § 20a, § 21, § 21a, § 22, § 26 annet ledd, § 27a annet ledd, § 29 og nytt kapittel 8.
 >
 
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2017-04-01 — forskrift/2017-03-24-376
 
 *Delt ikraftsetting av lov 15. april 2016 nr. 2 om endringer i lov 5. mars 2004 nr. 12 om konkurranse mellom foretak og kontroll med foretakssammenslutninger (Konkurranseklagenemnda, kartellforlik mm.) § 8, § 12, § 13, § 20a, § 21, § 21a, § 22, § 26 annet ledd, § 27a annet ledd, § 29 og nytt kapittel 8 trer i kraft 1. april 2017.*
@@ -131,6 +159,22 @@ refid: "lov/2004-03-05-12"
 > Loven trer i kraft 1. juli 2019.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
 ### 2022-12-16 — lov/2022-12-16-94
 
 *Gjeldende § 26 andre ledd blir nytt tredje ledd.*
@@ -138,6 +182,13 @@ refid: "lov/2004-03-05-12"
 ### 2022-12-16 — lov/2022-12-16-94
 
 *Gjeldende § 37 første ledd blir nytt tredje ledd.*
+
+### 2023-01-01 — forskrift/2022-12-16-2248
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
 
 ### 2023-07-01 — forskrift/2023-06-20-959
 
@@ -350,17 +401,6 @@ refid: "lov/2004-03-05-12"
 > I saker av prinsipiell eller stor samfunnsmessig betydning kan Kongen i statsråd tillate atferd i strid med forbudet i § 10 eller § 11, og gi pålegg og omgjøre Konkurransetilsynets vedtak etter § 12 første ledd. En tillatelse til atferd i strid med § 10 eller § 11 har ingen virkning i forhold til overtredelser av lovens forbud eller vedtak truffet i medhold av loven før tillatelsen blir gitt.
 >
 
-## § 15
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 15 skal lyde:*
-
-> Den som betydelig overtrer bestemmelser om bokføring eller regnskap, straffes etter straffeloven §§ 392-394.
->
-> 244. I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester (arbeidsmarkedsloven) gjøres følgende endring:
->
-
 ## § 16
 
 ### 2004-12-17 — lov/2004-12-17-100
@@ -430,6 +470,29 @@ refid: "lov/2004-03-05-12"
 > Konkurransetilsynet kan i den enkelte sak lempe kravene til alminnelig melding etter denne bestemmelsen.
 >
 
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 18 første ledd skal lyde:*
+
+> Enhver kan hos Riksrevisjonen gjøre seg kjent med det offentlige innholdet av dokumenter i en bestemt sak når dokumentet er kommet inn til eller er sendt fra Riksrevisjonen. Bestemmelsene i offentleglova gjelder tilsvarende, så langt de passer.
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 18 tredje ledd skal lyde:*
+
+> Stortinget kan gi regler som utfyller eller gjør unntak fra offentleglovas anvendelse på Riksrevisjonen og fastsette i hvilken utstrekning forskrifter gitt i medhold av offentleglova skal gjelde for Riksrevisjonen.
+>
+> 28. I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke blir desse endringane gjorde:
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 18 andre ledd skal lyde:*
+
+> Finnmarkseiendommens saksdokumenter er offentlige etter reglene i offentleglova. Ved avslag på krav om innsyn kan spørsmålet om det er adgang til å unnta dokument fra offentlighet, påklages til fylkesmannen i Finnmark.
+>
+
 ### 2008-06-20 — lov/2008-06-20-43
 
 *§ 18 første ledd skal lyde:*
@@ -497,7 +560,11 @@ refid: "lov/2004-03-05-12"
 
 *§ 18 a første ledd bokstav d til f skal lyde:*
 
-> navn på de fem viktigste konkurrenter, kunder og leverandører i markeder i Norge, eller som Norge er en del av, hvor de involverte foretakene og foretak i samme konsern har horisontalt overlappende virksomhet,redegjørelse for horisontalt og vertikalt berørte markeder. Et marked er horisontalt berørt dersom minst to av partene er aktive på det samme produktmarkedet og partenes samlede markedsandel overstiger 20 prosent. Vertikalt berørte markeder er de markeder der en part opererer i et forutgående eller etterfølgende ledd til et marked hvor en annen part opererer og deres samlede markedsandel overstiger 30 prosent på hvert av de respektive markedene. Redegjørelsen skal inkludere en beskrivelse av markedsstrukturen i de berørte markedene, beskrivelse av de involverte foretakenes viktigste konkurrenter, kunder og leverandører i de berørte markedene, og beskrivelse av eventuelle etableringshindringer i de berørte markedene,en kortfattet beskrivelse av vertikalt overlappende markeder der en foretakssammenslutning er mellom en part som opererer i et forutgående eller etterfølgende ledd til et produktmarked hvor en annen part opererer, og partenes individuelle eller samlede markedsandel overstiger 30 prosent på minst ett av disse markedene. Beskrivelsen av disse markedene skal minst omfatte partenes tre viktigste konkurrenter, kunder og leverandører,
+> navn på de fem viktigste konkurrenter, kunder og leverandører i markeder i Norge, eller som Norge er en del av, hvor de involverte foretakene og foretak i samme konsern har horisontalt overlappende virksomhet,
+>
+> redegjørelse for horisontalt og vertikalt berørte markeder. Et marked er horisontalt berørt dersom minst to av partene er aktive på det samme produktmarkedet og partenes samlede markedsandel overstiger 20 prosent. Vertikalt berørte markeder er de markeder der en part opererer i et forutgående eller etterfølgende ledd til et marked hvor en annen part opererer og deres samlede markedsandel overstiger 30 prosent på hvert av de respektive markedene. Redegjørelsen skal inkludere en beskrivelse av markedsstrukturen i de berørte markedene, beskrivelse av de involverte foretakenes viktigste konkurrenter, kunder og leverandører i de berørte markedene, og beskrivelse av eventuelle etableringshindringer i de berørte markedene,
+>
+> en kortfattet beskrivelse av vertikalt overlappende markeder der en foretakssammenslutning er mellom en part som opererer i et forutgående eller etterfølgende ledd til et produktmarked hvor en annen part opererer, og partenes individuelle eller samlede markedsandel overstiger 30 prosent på minst ett av disse markedene. Beskrivelsen av disse markedene skal minst omfatte partenes tre viktigste konkurrenter, kunder og leverandører,
 >
 > § 18 a nåværende første ledd bokstav f til i blir til nye bokstav g til j.
 >
@@ -1008,20 +1075,6 @@ refid: "lov/2004-03-05-12"
 
 *§ 30 tredje ledd oppheves.*
 
-> 243. I lov 19. november 2004 nr. 73 om bokføring (bokføringsloven) skal § 15 lyde:
->
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 30 annet ledd oppheves.*
-
-> 245. I lov 17. desember 2004 nr. 99 om kvoteplikt og handel med kvoter for utslipp av klimagasser (klimakvoteloven) skal § 22 nytt annet punktum lyde:
->
-> Medvirkning straffes ikke.
->
-> 246. I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven) gjøres følgende endring:
->
-
 ### 2013-06-14 — lov/2013-06-14-35
 
 *§ 30 skal lyde:*
@@ -1057,18 +1110,16 @@ refid: "lov/2004-03-05-12"
 > Foretak som ikke oppfyller vilkårene for hel lempning i § 30, skal gis delvis lempning av overtredelsesgebyret dersom foretaket fremlegger bevis som vesentlig styrker Konkurransetilsynets muligheter til å bevise en overtredelse av konkurranseloven § 10 og oppfyller vilkårene i § 30 første ledd bokstav b og c. Reglene om bevisfremleggelse i § 30 annet ledd gjelder tilsvarende.
 >
 
+## § 32
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 32 tredje ledd oppheves. Nåværende fjerde ledd blir tredje ledd og skal lyde:*
+
+> Foretak straffes ikke etter denne paragrafen eller etter straffeloven § 27 for overtredelse av loven her.
+>
+
 ## § 33
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 33 fjerde ledd oppheves. Nåværende femte ledd blir nytt fjerde ledd.*
-
-> 247. I lov 27. mai 2005 nr. 31 om skogbruk (skogbrukslova) skal § 22 annet og tredje ledd lyde:
->
-> Den som forsettleg eller aktlaust bryt føresegnene i §§ 6, 7, 8, 11, 12, 13, 14 eller 15, forskrifter gitt med heimel i desse paragrafane eller vedtak i medhald av desse føresegnene eller forskriftene, blir straffa med bøter eller fengsel i inntil eitt år.
->
-> Den som forsettleg eller aktlaust bryt forskrifter gitt med heimel i §§ 4 tredje ledd eller 17 eller vedtak i medhald av desse forskriftene, blir straffa på same måte.
->
 
 ### 2021-06-18 — lov/2021-06-18-122
 
@@ -1129,6 +1180,15 @@ refid: "lov/2004-03-05-12"
 *§ 39 annet ledd skal lyde:*
 
 > I saker hvor Konkurransetilsynet har fattet vedtak om avhjelpende tiltak etter § 42, skal vedtaket gis oppsettende virkning frem til klageinstansen har ferdigbehandlet klagen. Første punktum gjelder ikke hvis konkurransebegrensningen klart vil forverres ved at vedtaket gis oppsettende virkning.
+>
+
+## § 46
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*§ 46 første ledd første punktum skal lyde:*
+
+> Domstolloven kapittel 6 om ugildhet og offentleglova gjelder så langt de passer for Finnmarkskommisjonens virksomhet. Ved avslag på krav om innsyn kan spørsmålet om det er adgang til å unnta dokument fra offentlighet, påklages til fylkesmannen i Finnmark.
 >
 
 ## § 7

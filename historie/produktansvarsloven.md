@@ -47,9 +47,23 @@ refid: "lov/1988-12-23-104"
 > Bestemmelsene i lov 16. juni 1989 nr. 69 om forsikringsavtaler gjelder for Legemiddelforsikringen, dersom ikke annet er bestemt i eller i medhold av reglene om legemiddelansvaret i loven her eller går fram av sammenhengen.
 >
 
+### 2022-07-01 — forskrift/2022-03-04-324
+
+*Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.). Loven trer i kraft 1. juli 2022.
+>
+
 ### 2026-05-07 — lov/2026-05-07-17
 
 *I lov 23. desember 1988 nr. 104 om produktansvar skal § 3-7 første ledd annet punktum lyde:*
 
 > Det samlete oppgjør må godkjennes ved kjennelse av Oslo tingrett.
+>
+
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >

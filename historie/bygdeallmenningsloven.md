@@ -56,6 +56,66 @@ refid: "lov/1992-06-19-59"
 
 ## (annet)
 
+### 2005-05-27 — lov/2005-05-27-31
+
+*5. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 5-3 første ledd annet punktum lyde:*
+
+> Avgiften skal dekke skogfond etter skogbrukslova kapittel 4, samt allmenningsstyrets utgifter i forbindelse med utvisningen og til nødvendig skogkultur for så vidt det ikke dekkes av skogfondmidler og offentlige tilskudd.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*145. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 9-3 første ledd nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+
+### 2013-04-05 — lov/2013-04-05-12
+
+*33. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 4-2 tredje og fjerde ledd lyde:*
+
+> For person som er mindreårig eller fratatt rettslig handleevne, utøves stemmeretten av vergen.
+>
+> Ingen kan avgi mer enn to stemmer. I tilfelle hvor både vergen og person som nevnt i tredje ledd har stemmerett, kan likevel vergen stemme både for seg selv og personen han eller hun er verge for.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*116. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 9-3 første ledd nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
 ### 2025-06-20 — lov/2025-06-20-102
 
 *3.I lov 19. juni 1992 nr. 59 om bygdeallmenninger oppheves § 7-3.*
+
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>

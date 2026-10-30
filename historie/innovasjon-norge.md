@@ -7,6 +7,13 @@ refid: "lov/2003-12-19-130"
 
 ## (annet)
 
+### 2004-07-01 — lov/2004-05-07-21
+
+*16. I lov 19. desember 2003 nr. 130 om Innovasjon Norge skal § 36 lyde:*
+
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i selskapet og heleide datterselskaper etter lov om Riksrevisjonen og instruks fastsatt av Stortinget.
+>
+
 ### 2009-01-09 — lov/2009-01-09-4
 
 *Nåværende § 32 annet ledd annet og tredje punktum blir nytt § 32 tredje ledd.*
@@ -38,11 +45,46 @@ refid: "lov/2003-12-19-130"
 > Ved oppløsning og avvikling gjelder bestemmelsene i lov 30. august 1991 nr. 71 om statsforetak §§ 46, 49, 50, 51, 52 og 53 så langt de passer.
 >
 
+### 2016-07-01 — forskrift/2016-06-17-685
+
+*Loven trer i kraft 1. januar 2017 med unntak av romertall I § 13, § 14, § 15, § 16, § 17, § 18, § 19, § 20, § 21, § 22, § 27, § 28, § 29a, § 30, § 31, § 31a, § 32 og § 35 som trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. januar 2017 med unntak av romertall I § 13, § 14, § 15, § 16, § 17, § 18, § 19, § 20, § 21, § 22, § 27, § 28, § 29a, § 30, § 31, § 31a, § 32 og § 35 som trer i kraft 1. juli 2016.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
 ### 2019-12-13 — lov/2019-12-13-79
 
 *I lov 19. desember 2003 nr. 130 om Innovasjon Norge skal § 6 annet ledd lyde:*
 
 > Lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjelder ikke for selskapet.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
+
+### 2021-06-18 — forskrift/2021-06-18-1986
+
+*Endringsloven trer i kraft straks.*
+
+> Endringsloven trer i kraft straks.
 >
 
 ### 2025-04-10 — lov/2025-04-10-9
@@ -59,6 +101,31 @@ refid: "lov/2003-12-19-130"
 *4.I lov 19. desember 2003 nr. 130 om Innovasjon Norge skal § 6 femte ledd lyde:*
 
 > Selskapet regnes som et organ etter arkivlova § 2 bokstav h.
+>
+
+### 2026-01-01 — forskrift/2025-04-10-644
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
 >
 
 ## § 1
@@ -718,10 +785,6 @@ refid: "lov/2003-12-19-130"
 > Beslutning om granskning krever tilslutning av minst en tiendedel av de avgitte stemmene.
 >
 > Den som på vegne av eierne forestår gransking, har rett til å foreta de undersøkelsene i selskapet som finnes nødvendig, og kan i denne forbindelse kreve nødvendig bistand av selskapet. Den som forestår gransking, kan av hovedstyret, administrerende direktør, regionstyrer og enhver ansatt eller tillitsvalgt i selskapet, kreve enhver opplysning om selskapets forhold som granskingen gjør nødvendig. Den som på vegne av eierne foretar granskingen har taushetsplikt etter samme regler som gjelder for revisorer, jf. revisorloven.
->
-> 7. I lov 1. april 2005 nr. 15 om universiteter og høyskoler skal § 9-4 femte ledd lyde:
->
-> Forslag til eksterne styremedlemmer og varamedlemmer for disse, fremmes av institusjonens styre. Det samme gjelder forslag til styreleder når rektor er ansatt. For kunsthøyskolene fremmes forslag av høyskolens styre og av Norsk kulturråd. Sametinget oppnevner på fritt grunnlag to av de eksterne styremedlemmene og personlige varamedlemmer for disse ved Samisk høgskole. Fylkeskommunene oppnevner på fritt grunnlag to av de eksterne styremedlemmene og personlige varamedlemmer for disse ved de øvrige statlige høyskolene. Departementet oppnevner på fritt grunnlag øvrige eksterne medlemmer og personlige varamedlemmer for disse for fire år. For institusjoner som har ansatt rektor, utpeker departementet styreleder blant de eksterne medlemmene, jf. § 9-3.
 >
 
 ### 2011-03-25 — lov/2011-03-25-7

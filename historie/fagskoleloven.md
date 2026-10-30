@@ -7,11 +7,63 @@ refid: "lov/2018-06-08-28"
 
 ## (annet)
 
+### 2018-08-01 — forskrift/2018-06-22-946
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
+
+### 2019-08-01 — forskrift/2019-06-21-777
+
+*Loven trer i kraft 1. august 2019.*
+
+> Loven trer i kraft 1. august 2019.
+>
+
 ### 2021-06-11 — lov/2021-06-11-81
 
 *Overskriften § 5 skal lyde:*
 
 > § 5.Akkreditering og kvalitetssikring
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-08-01 — forskrift/2021-06-11-1898
+
+*Delt ikraftsetting av loven. Loven del I med unntak av universitets- og høyskoleloven § 3-9, del II, del V og del VI trer i kraft 1. august 2021. Endringen i universitets- og høyskoleloven § 3-9 trer i kraft 1. august 2022. Loven del III og IV trer i kraft 1. januar 2022.*
+
+> Delt ikraftsetting av loven. Loven del I med unntak av universitets- og høyskoleloven § 3-9, del II, del V og del VI trer i kraft 1. august 2021. Endringen i universitets- og høyskoleloven § 3-9 trer i kraft 1. august 2022. Loven del III og IV trer i kraft 1. januar 2022.
+>
+
+### 2021-08-01 — forskrift/2021-06-18-1972
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 81 om endringer i universitets- og høyskoleloven, utdanningsstøtteloven, fagskoleloven og yrkeskvalifikasjonsloven mv. (formål og oppgaver for universiteter og høyskoler, studentrettigheter, fagskoleutdanningens omfang, behandling av personopplysninger, yr*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 81 om endringer i universitets- og høyskoleloven, utdanningsstøtteloven, fagskoleloven og yrkeskvalifikasjonsloven mv. (formål og oppgaver for universiteter og høyskoler, studentrettigheter, fagskoleutdanningens omfang, behandling av personopplysninger, yrkeskvalifikasjoner fra tredjeland mv.). Loven del I (opplæringslova), del II (universitets- og høyskoleloven) med unntak av § 3-9, del V (yrkeskvalifikajonsloven) og del VI (fagskoleloven) trer i kraft 1. august 2021. Loven del II (universitets- og høyskoleloven) § 3-9 trer i kraft 1. august 2022. Loven del III (utdanningsstøtteloven) og del IV (studentsamskipnadsloven) trer i kraft 1. januar 2022.
+>
+
+### 2022-08-01 — forskrift/2022-06-17-1067
+
+*Delt ikraftsetting av lov om endringer i opplæringsloven, universitets- og høyskoleloven og fagskoleloven (endring av NOKUTs oppgaver, studentrettigheter mv.).*
+
+> Delt ikraftsetting av lov om endringer i opplæringsloven, universitets- og høyskoleloven og fagskoleloven (endring av NOKUTs oppgaver, studentrettigheter mv.).
+>
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa) § 3-4a og § 3-4c.
+>
+> Endringsloven del II (lov 1. april 2005 nr. 15 om universiteter og høyskoler) § 2-1 andre og tredje ledd, § 3-4, § 3-4a, § 3-5h og § 3-7 syvende ledd.
+>
+> Endringsloven del III (lov 8. juni 2018 nr. 28 om høyere yrkesfaglig utdanning) § 7 og § 7b.
+>
+> De andre bestemmelsene i loven trer i kraft 1. august 2022.
 >
 
 ### 2024-05-31 — lov/2024-05-31-26
@@ -35,6 +87,13 @@ refid: "lov/2018-06-08-28"
 > Departementet kan fastsette forskrift om saksbehandlingsregler for NOKUTs virksomhet.
 >
 
+### 2024-08-01 — forskrift/2024-03-08-407
+
+*Lova tek til å gjelde 1. august 2024.*
+
+> Lova tek til å gjelde 1. august 2024.
+>
+
 ### 2024-08-01 — forskrift/2024-05-31-873
 
 *Delt ikraftsetjing av lov 31. mai 2024 om endringar i lov 8. juni 2018 nr. 28 om fagskoler.*
@@ -48,6 +107,49 @@ refid: "lov/2018-06-08-28"
 > Følgande tek til å gjelde 1. august 2025:
 >
 > Endringslova del I § 14a.
+>
+
+### 2024-08-01 — forskrift/2024-05-31-1028
+
+*Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.*
+
+> Ikraftsetting av lov 9. juni 2023 nr. 30 om grunnskoleopplæringa og den vidaregåande opplæringa (opplæringslova). Loven trer i kraft 1. august 2024.
+>
+
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
+### 2025-08-01 — forskrift/2025-06-20-1092
+
+*Loven trer i kraft 1. august 2025.*
+
+> Loven trer i kraft 1. august 2025.
 >
 
 ## § 14 a

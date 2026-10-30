@@ -20,6 +20,29 @@ refid: "lov/1990-06-15-27"
 > For overtredelse av denne bestemmelsen kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a.
 >
 
+### 2013-07-01 — forskrift/2013-05-31-543
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
 ## § 412
 
 ### 2013-05-31 — lov/2013-05-31-25
@@ -59,23 +82,6 @@ refid: "lov/1990-06-15-27"
 >
 
 ## § 7
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 7 annet punktum oppheves.*
-
-> 139. I lov 15. mars 1991 nr. 3 om megling i konfliktråd skal § 10 første ledd siste punktum lyde:
->
-> Brudd på taushetsplikten straffes etter straffeloven § 209.
->
-> 140. I lov 20. juli 1991 nr. 67 om overføring av domfelte skal § 5 annet ledd lyde:
->
-> Fullbyrding i Norge av en utenlandsk straffereaksjon mot en utilregnelig person kan bare skje etter dom på overføring til tvungent psykisk helsevern etter straffeloven § 62 eller til tvungen omsorg etter straffeloven § 63.
->
-> 141. I lov 30. august 1991 nr. 71 om statsforetak skal § 58 lyde:
->
-> Styremedlem, medlem av bedriftsforsamlingen eller administrerende direktør som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne lov, straffes med bøter eller under skjerpende forhold med fengsel inntil tre måneder.
->
 
 ### 2013-05-31 — lov/2013-05-31-25
 
@@ -128,15 +134,6 @@ refid: "lov/1990-06-15-27"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 9 tredje ledd oppheves.*
-
-> 137. I lov 29. juni 1990 nr. 50 om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. skal § 7-5 første og annet ledd lyde:
->
-> Den som overtrer denne lov eller bestemmelser eller pålegg gitt i medhold av loven, straffes med bøter eller fengsel i inntil 1 år eller begge deler. Forsøk straffes på samme måte.
->
-> Den som uaktsomt overtrer bestemmelse som nevnt i første ledd, straffes med bøter eller fengsel inntil tre måneder eller begge deler.
->
-> 138. I lov 21. desember 1990 nr. 72 om avgift på utslipp av CO2i petroleumsvirksomhet på kontinentalsokkelen gjøres følgende endring:
->
 
 ### 2013-05-31 — lov/2013-05-31-25
 

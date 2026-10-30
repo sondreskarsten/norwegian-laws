@@ -14,6 +14,20 @@ refid: "lov/1998-08-21-65"
 > Et medlem kan ha krav på et garantert pensjonsnivå etter reglene i lov om Statens pensjonskasse § 24 b, likevel slik at kravet til full tjenestetid fastsettes etter første og andre ledd i bestemmelsen her.
 >
 
+### 2019-01-01 — forskrift/2018-12-20-2051
+
+*Ikraftsetting av lov 15. juni 2018 nr. 30 om endringer i lov om Statens pensjonskasse, lov om samordning av pensjons- og trygdeytelser og enkelte andre lover (tilpasning av alderspensjon fra offentlig tjenestepensjonsordning til alderspensjon fra folketrygden opptjent etter nye regler – levealdersju*
+
+> Ikraftsetting av lov 15. juni 2018 nr. 30 om endringer i lov om Statens pensjonskasse, lov om samordning av pensjons- og trygdeytelser og enkelte andre lover (tilpasning av alderspensjon fra offentlig tjenestepensjonsordning til alderspensjon fra folketrygden opptjent etter nye regler – levealdersjustering og samordning). Loven trer i kraft 1. januar 2019.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-782
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ## § 1
 
 ### 2011-01-01 — lov/2010-12-17-79

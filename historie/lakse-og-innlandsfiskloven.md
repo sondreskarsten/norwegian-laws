@@ -5,7 +5,122 @@ refid: "lov/1992-05-15-47"
 
 # Endringshistorikk: Lakse- og innlandsfiskloven – laksfl
 
+## § 1-4
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 1-4 (jordskifte) skal lyde:*
+
+> Bygdeallmenning kan inngå i slikt jordskifte som omhandlet i jordskiftelova §§ 3-4 og 3-9.
+>
+> Jordskifteretten kan ordne beiteforhold i bygdeallmenning dersom styret for allmenningen først har gjennomført beiteordning der, og innehaver av beiteretten har krevet sak inn for jordskifteretten innen seks måneder.
+>
+> Jordskifteretten kan fastsette grenser mellom statsallmenning og bygdeallmenning, mellom bygdeallmenninger og mellom bygdeallmenning og annen tilstøtende eiendom. Jordskiftelova § 4-2 gjelder tilsvarende for fastsetting av grensene.
+>
+> For øvrig får jordskiftelovas bestemmelser ikke anvendelse på bygdeallmenninger.
+>
+
+## § 6-3
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*§ 6-3 andre ledd første punktum skal lyde:*
+
+> Beiteordning som er fastsatt av jordskifteretten etter § 1-4 annet ledd, skal allmenningsstyret besørge inntatt i bruksreglene for allmenningen.
+>
+
+## § 8-4
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 8-4 skal lyde:*
+
+> § 8-4.(felles fiskeområde)
+>
+> Når det anses formålstjenlig for utnyttelsen av fisket i allmenningen kan allmenningsstyret bestemme at bygdeallmenning eller del av bygdeallmenning skal inngå i et større fiskeområde med felles kortsalg og felles oppsynsordning. Før avgjørelse treffes skal saken forelegges kommunen til uttalelse.
+>
+
+## § 8-6
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 8-6 fjerde ledd skal lyde:*
+
+> Før avtale etter denne paragraf inngås, skal et utkast ha vært forelagt kommunen til uttalelse.
+>
+
+## § 8-7
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 8-7 skal lyde:*
+
+> § 8-7.(nærmere regler om forvaltning m.v.)
+>
+> Nærmere regler om forvaltningen av fiske i bygdeallmenning fastsettes i bruksregler for den enkelte allmenning, jfr. § 3-7. I reglene kan det fastsettes begrensninger med hensyn til tiden, området eller måten for utøvelsen av fiske – eventuelt gis retningslinjer for allmenningsstyrets regulering av utøvelsen.
+>
+> Utkast til slike regler skal, før det legges ut til gjennomsyn for de bruksberettigede etter § 3-8, ha vært forelagt kommunen til uttalelse. Det samme gjelder begrensninger i utøvelsen av fiske som allmenningsstyret beslutter å gjennomføre.
+>
+> 105. I lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring blir desse endringane gjort:
+>
+
+## § 11-50
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 11-50 tredje ledd andre punktum skal lyde:*
+
+> Underretning om at sikkerhet er stillet, må i tilfelle være kommet inn til tingretten innen en måned etter auksjonsdagen.
+>
+
+## § 15-13
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*§ 15-13 andre ledd første punktum skal lyde:*
+
+> For midlertidige forføyninger etter paragrafen her gjelder i tillegg til loven her reglene i tolloven § 39.
+>
+
 ## (annet)
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*103. I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk m.v. skal § 42 fjerde ledd lyde:*
+
+> Fiskeforvaltningen kan utenom statsallmenning tilsette oppsyn. Oppsynet bør gis politimyndighet etter lov 4. august 1995 nr. 53 om politiet § 20.
+>
+> 104. I lov 19. juni 1992 nr. 59 om bygdeallmenninger blir desse endringane gjort:
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*95. I lov 15. mai 1992 nr. 47 om laksefiske og innlandsfisk m.v. skal § 27 tredje ledd fjerde punktum lyde:*
+
+> Reglene i tvisteloven §§ 16-12 til 16-14 gjelder så langt de passer.
+>
+
+### 2007-06-15 — lov/2007-06-15-40
+
+*5. I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk m.v. skal § 22 annet ledd lyde:*
+
+> Reindriftssamenes fiske reguleres av reindriftsloven § 26.
+>
+
+### 2009-01-09 — lov/2009-01-09-4
+
+*3. I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk mv. skal § 6 første ledd lyde:*
+
+> Fiskeforvaltningen etter denne lov er:DepartementetDirektoratet for naturforvaltningFylkesmannenFylkeskommunenKommunen
+>
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§§ 8 og 9 oppheves.*
+
+### 2009-07-01 — forskrift/2009-06-26-851
+
+*Forskrifter eller enkeltvedtak fastsatt med hjemmel i lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk m.v., som gjelder fiske av ål, oppheves. Forskrifter eller enkeltvedtak som gjelder andre arter gjelder til annet blir bestemt.*
 
 ### 2012-12-14 — lov/2012-12-14-94
 
@@ -25,6 +140,61 @@ refid: "lov/1992-05-15-47"
 
 *Nåværende annet ledd til fjerde ledd blir tredje til femte ledd.*
 
+### 2013-01-01 — forskrift/2012-12-14-1204
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*12. I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk m.v. skal § 25 åttande ledd lyde:*
+
+> For gjennomføring av felles organisering kan bruksordning kreves etter jordskiftelova. Departementet kan kreve bruksordning etter jordskiftelova § 3-8 når ingen av partene vil kreve det eller resultatet av minnelig ordning ikke er hensiktsmessig.
+>
+> 13. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal det gjerast slike endringar:
+>
+
+### 2014-06-20 — lov/2014-06-20-51
+
+*3. I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk m.v. skal § 24 lyde:*
+
+> § 24.Særlige rettigheter i Finnmark
+>
+> Denne lov medfører ingen endringer i de særlige regler som gjelder for den lokale befolknings rett til fiske i Finnmark etter kgl. res. av 27. mai 1775 angående Jorddelingen i Finnmarken samt Bopladses Udvisning og Skyldlægning sammesteds, finnmarksloven kapittel 4 og Tanaloven.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1583
+
+*Delt ikraftsetting av lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold. Kapittel IV samt § 78 nr. 8 og den delen av § 78 nr. 7 som gjelder oppheving av viltloven § 47 trer i kraft 1. januar 2016.*
+
+> Delt ikraftsetting av lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold. Kapittel IV samt § 78 nr. 8 og den delen av § 78 nr. 7 som gjelder oppheving av viltloven § 47 trer i kraft 1. januar 2016.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2034
+
+*Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.*
+
+> Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.
+>
+
 ### 2020-06-19 — lov/2020-06-19-84
 
 *Nåværende § 7 fjerde ledd blir nytt femte ledd.*
@@ -40,6 +210,20 @@ refid: "lov/1992-05-15-47"
 > Kapittel XI overskriften skal lyde:
 >
 
+### 2020-07-01 — forskrift/2020-06-19-1251
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2024-12-06 — lov/2024-12-06-74
 
 *I lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk mv. skal § 6 nytt fjerde ledd lyde:*
@@ -47,15 +231,43 @@ refid: "lov/1992-05-15-47"
 > Departementet kan gi forskrift om at fylkeskommunen og kommunen tildeles ansvaret for nærmere bestemte oppgaver etter loven. Statlig klageinstans for vedtak fattet med hjemmel i, eller i medhold av, loven kan også fastsettes i forskrift.
 >
 
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
 ### 2025-07-01 — lov/2025-06-20-88
 
 *I følgende paragrafer oppheves punktumet i paragrafoverskriften:*
+
+> § 1, § 2, § 6, § 7, § 10, § 11, § 13, § 14, § 16, § 17, § 18, § 19, § 20, § 21, § 22, § 27, § 28, § 32, § 35, § 36, § 38, § 39, § 40, § 43, § 44, § 45, § 46, § 48 og § 50.
+>
 
 ### 2025-07-01 — lov/2025-06-20-88
 
 *Kapittel VI overskriften skal lyde:*
 
 > Kapittel VI. Statens fiskefond, statlig fiskeravgift og finansieringsmåter.
+>
+
+## § 1
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 1 første punktum skal lyde:*
+
+> Lovens formål er å sikre at naturlige bestander av anadrome laksefisk, innlandsfisk og deres leveområder samt andre ferskvannsorganismer forvaltes i samsvar med naturmangfoldloven og slik at naturens mangfold og produktivitet bevares.
+>
+
+## § 10
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 10 tredje ledd skal lyde:*
+
+> Departementet kan gi forskrift om etablering og drift av kultiveringsanlegg for anadrome laksefisk og innlandsfisk.
 >
 
 ## § 12
@@ -97,6 +309,15 @@ refid: "lov/1992-05-15-47"
 > Der fiske etter denne paragrafen vil være til skade for fiskekulturtiltak eller hvor barns fiske er til vesentlig fortrengsel for rettighetshavernes fiske, skal departementet regulere utøvelsen av fisket.
 >
 
+## § 19
+
+### 2005-06-17 — lov/2005-06-17-85
+
+*§ 19 tredje ledd skal lyde:*
+
+> Ved salg av fast eiendom i Finnmark fra staten eller Finnmarkseiendommen kan fiskeretten holdes tilbake til fordel for allmennheten.
+>
+
 ## § 2
 
 ### 2012-12-14 — lov/2012-12-14-94
@@ -116,6 +337,12 @@ refid: "lov/1992-05-15-47"
 
 > Loven gjelder på det norske fastland, og for anadrome laksefisk i norsk indre farvann, norsk territorialfarvann og i Norges økonomiske sone utenfor det norske fastland. Havressurslova § 4 tredje ledd får tilsvarende anvendelse. Tillatelse til vitenskapelige undersøkelser etter § 13 i loven her kan gis med virkning også i andre jurisdiksjonsområder opprettet i medhold av økonomiske soneloven § 1 og med virkning for norske fartøy for undersøkelser over den norske kontinentalsokkelen.
 >
+
+## § 22
+
+### 2005-06-17 — lov/2005-06-17-85
+
+*§ 22 fjerde og femte ledd oppheves.*
 
 ## § 23
 
@@ -299,7 +526,23 @@ refid: "lov/1992-05-15-47"
 > Skjønnet vert styrt av jordskifteretten.
 >
 
+## § 33
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 33 første ledd første punktum skal lyde:*
+
+> I samsvar med naturmangfoldloven og formålet i loven her kan Kongen tillate fiske etter anadrome laksefisk.
+>
+
 ## § 34
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 34 skal lyde:*
+
+> Kongen gir forskrift om regulering av fiske etter innlandsfisk i samsvar med naturmangfoldloven, herunder om redskapstyper, redskapsbruk og stenging av vassdrag av hensyn til fangst av ål. Det kan gis særskilte regler for forskjellige områder eller vassdrag. Ved fastsetting av forskrifter for vassdrag hvor det går anadrome laksefisk, skal det tas hensyn til denne bestanden.
+>
 
 ### 2012-12-14 — lov/2012-12-14-94
 
@@ -373,14 +616,9 @@ refid: "lov/1992-05-15-47"
 
 *§ 4 annet punktum oppheves.*
 
-> 145. I lov 19. juni 1992 nr. 59 om bygdeallmenninger skal § 9-3 første ledd nytt annet punktum lyde:
->
-> Medvirkning straffes ikke.
->
-> 146. I lov 19. juni 1992 nr. 60 om skogsdrift m.v. i statsallmenningene skal § 4-9 første ledd nytt annet punktum lyde:
->
-> Medvirkning straffes ikke.
->
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 4 oppheves.*
 
 ## § 41
 
@@ -509,6 +747,13 @@ refid: "lov/1992-05-15-47"
 > 144. I lov 29. mai 1992 nr. 50 om inspeksjoner i samsvar med Avtalen om konvensjonelle styrker i Europa (CFE-avtalen) og om immunitet og privilegier for inspektørene m.fl. gjøres følgende endring:
 >
 
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 49 første ledd skal lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer eller medvirker til overtredelse av bestemmelser gitt i eller i medhold av denne lov eller opprettholdt ved loven eller vilkår fastsatt i medhold av loven, straffes med bøter eller fengsel i inntil 1 år dersom forholdet ikke rammes av et strengere straffebud. Under særdeles skjerpende omstendigheter kan fengsel i inntil 2 år anvendes. Gjelder overtredelsen også naturmangfoldloven, skal straffebestemmelsen i naturmangfoldloven § 75 anvendes.
+>
+
 ### 2012-12-14 — lov/2012-12-14-94
 
 *§ 49 annet ledd skal lyde:*
@@ -533,6 +778,13 @@ refid: "lov/1992-05-15-47"
 
 ## § 5
 
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 5 første ledd bokstav a annet ledd skal lyde:*
+
+> Rømt eller utsatt oppdrettet laksefisk som kan vandre fra sjø til ferskvann regnes som anadrom laksefisk når de lever fritt i sjø eller vassdrag, med de begrensninger som følger av akvakulturloven §§ 13 og 17 og bestemmelser gitt i medhold av disse paragrafene.
+>
+
 ### 2012-12-14 — lov/2012-12-14-94
 
 *§ 5 skal lyde:*
@@ -543,6 +795,17 @@ refid: "lov/1992-05-15-47"
 >
 
 ## § 7
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 7 annet ledd oppheves. Tredje og fjerde ledd blir nytt annet og tredje ledd.*
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 7 femte ledd blir nytt fjerde ledd og skal lyde:*
+
+> Annet ledd gjelder ikke for kraftutbyggingstiltak som krever konsesjon etter lov 14. desember 1917 nr. 17 om vassdragsreguleringer eller vannressursloven, og heller ikke for andre tiltak som krever konsesjon etter vannressursloven, med mindre formålet med tiltaket er å øke fangsten av fisk på stedet, forskyve fangsten av fisk i vassdraget, eller forandre én eller flere arters produksjon, bestandsstørrelse eller utbredelse.
+>
 
 ### 2012-12-14 — lov/2012-12-14-94
 

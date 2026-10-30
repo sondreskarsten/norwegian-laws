@@ -7,6 +7,13 @@ refid: "lov/2011-06-24-39"
 
 ## (annet)
 
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
 ### 2013-12-13 — lov/2013-12-13-126
 
 *Nåværende § 26 annet ledd annet punktum oppheves.*
@@ -16,6 +23,13 @@ refid: "lov/2011-06-24-39"
 *I lov 24. juni 2011 nr. 39 om elsertifikater skal § 26 fjerde ledd lyde:*
 
 > Ved avgjørelsen av om overtredelsesgebyr skal ilegges og ved utmåling av sanksjonen, skal det særlig legges vekt på:overtredelsens grovhet,om overtreder ved retningslinjer, instruksjon, opplæring, kontroll eller andre tiltak kunne forebygge overtredelsen,om overtredelsen er begått for å fremme overtreders interesser,om overtreder har hatt eller kunne oppnådd noen fordel ved overtredelsen,om det foreligger gjentakelse,overtreders økonomiske evne.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-782
+
+*Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.*
+
+> Lov om endringer i industrikonsesjonsloven, vassdragsreguleringsloven, energiloven, elsertifikatloven og havenergilova trer i kraft 1. juli 2014.
 >
 
 ### 2016-01-01 — forskrift/2015-06-19-664
@@ -30,6 +44,13 @@ refid: "lov/2011-06-24-39"
 *Loven trer i kraft 1. januar 2018.*
 
 > Loven trer i kraft 1. januar 2018.
+>
+
+### 2021-07-01 — forskrift/2021-06-04-1778
+
+*Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.*
+
+> Lov 18. desember 2020 nr. 157 om endringer i vannressursloven og energiloven mv. (administrative reaksjoner og sanksjoner) trer i kraft 1. juli 2021.
 >
 
 ## § 17
@@ -117,6 +138,10 @@ refid: "lov/2011-06-24-39"
 >
 
 ## § 26
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 26 annet ledd annet til fjerde punktum oppheves.*
 
 ### 2013-12-13 — lov/2013-12-13-126
 

@@ -7,6 +7,44 @@ refid: "lov/1997-06-13-55"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-103
+
+*19. I lov 13. juni 1997 nr. 55 om serveringsvirksomhet, skal § 10 lyde:*
+
+> § 10.Behandlingsfrist
+>
+> Kommunene skal ta stilling til bevillingssøknaden så raskt som mulig og senest innen 60 dager.
+>
+> Kommunen skal så raskt som mulig gi søkeren et foreløpig svar med opplysning om den frist som gjelder for saksbehandlingen og om klagerett.
+>
+> Saksbehandlingsfristen regnes fra det tidspunkt da søkeren har gitt kommunen all nødvendig dokumentasjon. Mangler nødvendig dokumentasjon fra søkere, skal denne så snart som mulig oppfordres til å gi fullstendig dokumentasjon og opplyses om at saksbehandlingsfristen først løper fra det er gjort.
+>
+> Fristen kan forlenges én gang dersom sakens kompleksitet gjør det nødvendig. Fristforlengelsen skal begrunnes og skal meddeles søkeren før den opprinnelige fristen er ute.
+>
+> Bevilling anses ikke for gitt selv om fristen er ute.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-776
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2023-10-01 — forskrift/2023-05-11-690
 
 *Delt ikraftsetting av lov 19. juni 2009 nr. 85 om endringer i lov om vaktvirksomhet. Følgende trer i kraft 1. oktober 2023:*
@@ -161,15 +199,6 @@ refid: "lov/1997-06-13-55"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 21 annet ledd oppheves.*
-
-> 189. I lov 19. juni 1997 nr. 62 om familievernkontorer skal § 5 annet ledd lyde:
->
-> Overtredelse av taushetsplikt etter denne bestemmelsen kan straffes etter straffeloven § 209.
->
-> 190. I lov 19. juni 1997 nr. 82 om pass skal § 5 annet ledd bokstav b lyde:innskrenkninger pålagt i henhold til straffeloven §§ 18, 20 annet ledd, 62, 71 annet til fjerde ledd, 73, 79 bokstav a (jf. lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern § 5-3), straffegjennomføringsloven § 43 eller straffeprosessloven § 69 tredje ledd.
->
-> 191. Utgår.
->
 
 ## § 3
 

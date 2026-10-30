@@ -20,6 +20,22 @@ refid: "lov/2024-12-13-76"
 
 *2.I lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon oppheves § 11-17.*
 
+### 2026-07-01 — forskrift/2025-12-22-2816
+
+*Vedtaket utgår på grunn av feil dato i tittelen. Se ny kunngjøring ved ikrafttredelsesvedtak 22. desember 2025 nr. 2838.*
+
+> Vedtaket utgår på grunn av feil dato i tittelen. Se ny kunngjøring ved ikrafttredelsesvedtak 22. desember 2025 nr. 2838.
+>
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2025-12-22-2838
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
 ## § 1
 
 ### 2025-01-01 — forskrift/2024-12-20-3423

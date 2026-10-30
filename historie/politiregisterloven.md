@@ -5,13 +5,63 @@ refid: "lov/2010-05-28-16"
 
 # Endringshistorikk: Politiregisterloven
 
+## § 16-3
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 16-3 annet ledd bokstav d skal lyde:*
+
+> konfliktrådene etter krav fra avgiftsmyndighetene gi opplysninger om innholdet i avtale, ungdomsplan eller plan inngått under et møte i konfliktrådet, jf. konfliktrådsloven.
+>
+
 ## (annet)
+
+### 2013-09-27 — forskrift/2013-09-27-1132
+
+*– – –.*
+
+> – – –.
+>
+> Delt ikraftsetting av lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten (politiregisterloven).
+>
+> Loven trer i kraft 1. januar 2014, unntatt § 57 som trer i kraft senere. § 12 trer i kraft straks med virkning fra 13. september 2013.
+>
+> Lov 21. juni 2013 nr. 82 om endringer i politiregisterloven mv. trer i kraft 1. januar 2014.
+>
+
+### 2014-07-01 — forskrift/2014-06-13-721
+
+*Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 f*
+
+> Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 første ledd, § 30 første ledd bokstav g, § 37 første ledd bokstav d, § 37 første ledd bokstav i, § 52 a, § 52 b og § 52 c, samt del XI trer i kraft 1. juli 2014.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-792
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
 
 ### 2016-01-01 — forskrift/2015-12-04-1397
 
 *Lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten § 14 trer i kraft 1. januar 2016.*
 
 > Lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten § 14 trer i kraft 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-11-1438
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2017-06-21 — lov/2017-06-21-94
@@ -22,11 +72,46 @@ refid: "lov/2010-05-28-16"
 
 *Kapittel 10 overskriften skal lyde:*
 
+### 2018-05-06 — forskrift/2018-04-27-642
+
+*Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.*
+
+> Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-22-949
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-779
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
 ### 2020-04-24 — lov/2020-04-24-33
 
 *I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten (politiregisterloven) skal § 50 nytt tredje ledd lyde:*
 
 > Opplysninger innhentet ved kommunikasjonskontroll som ikke er brukt i saken, skal sperres når saken er avgjort ved rettskraftig dom eller endelig henleggelsesbeslutning. Sperrede opplysninger kan benyttes ved begjæring om gjenåpning, ved gjenopptakelse av etterforskning, eller for å ivareta siktedes legitime interesser. Opplysninger som det etter straffeprosessloven § 216 g ikke er adgang til å beholde, skal slettes så snart som mulig. Bestemmelsen gjelder tilsvarende for opplysninger innhentet etter straffeprosessloven §§ 216 m og 216 o, og for opplysninger innhentet etter straffeprosessloven §§ 202 a og 202 c så langt den passer. Kongen gir i forskrift nærmere regler om sletting og bruk av sperrede opplysninger fra kommunikasjonskontroll.
+>
+
+### 2020-12-04 — forskrift/2020-12-04-2592
+
+*Delt ikraftsetting av loven. Loven del I, endringene i straffeprosessloven § 84, § 94, § 96, § 157, § 188, § 196, § 216a, § 216m, § 216o, § 251, § 409 og § 459, del II, endringene i voldsoffererstatningsloven § 1, del III, endringene i straffeloven § 27, § 67, § 332 og § 337, og del IV, endringene i*
+
+> Delt ikraftsetting av loven. Loven del I, endringene i straffeprosessloven § 84, § 94, § 96, § 157, § 188, § 196, § 216a, § 216m, § 216o, § 251, § 409 og § 459, del II, endringene i voldsoffererstatningsloven § 1, del III, endringene i straffeloven § 27, § 67, § 332 og § 337, og del IV, endringene i politiregisterloven § 12, trer i kraft straks. Loven for øvrig trer i kraft 1. januar 2021.
+>
+
+### 2021-02-01 — forskrift/2020-12-11-2702
+
+*Ikraftsetting av lov 24. april 2020 nr. 33 om endringer i straffeprosessloven og politiregisterloven mv. (behandling av overskuddsinformasjon fra kommunikasjonskontroll mv.). Endringsloven trer i kraft 1. februar 2021.*
+
+> Ikraftsetting av lov 24. april 2020 nr. 33 om endringer i straffeprosessloven og politiregisterloven mv. (behandling av overskuddsinformasjon fra kommunikasjonskontroll mv.). Endringsloven trer i kraft 1. februar 2021.
 >
 
 ### 2021-06-11 — forskrift/2021-06-11-1873
@@ -47,13 +132,53 @@ refid: "lov/2010-05-28-16"
 
 ### 2022-04-29 — lov/2022-04-29-26
 
-*I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten skal § 69 første ledd nr. 11 lyde:gjennomføring av bestemmelsene om utlevering og taushetsplikt, jf. kapittel 5 og 6, herunder at opplysninger i nærmere bestemte registre alltid er omfattet av taushetsplikten.*
+*I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten skal § 69 første ledd nr. 11 lyde:*
+
+> gjennomføring av bestemmelsene om utlevering og taushetsplikt, jf. kapittel 5 og 6, herunder at opplysninger i nærmere bestemte registre alltid er omfattet av taushetsplikten.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2023-03-07 — forskrift/2023-02-10-173
+
+*Ikraftsetting av lov 18. februar 2022 nr. 6 om endringer i lov om Schengen informasjonssystem (SIS-loven) mv. Loven trer i kraft 7. mars 2023.*
+
+> Ikraftsetting av lov 18. februar 2022 nr. 6 om endringer i lov om Schengen informasjonssystem (SIS-loven) mv. Loven trer i kraft 7. mars 2023.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 
 *I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten skal § 40 nr. 6 lyde:*
 
 > I ordinær politiattest skal det ikke oppgis dom påbetinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten,ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er inntil 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, ellerungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er over 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2025-07-01 — forskrift/2025-06-06-961
@@ -65,6 +190,24 @@ refid: "lov/2010-05-28-16"
 > Endringsloven del II (politiregisterloven) § 65a.
 >
 
+### 2026-01-01 — forskrift/2025-06-20-1103
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-12-12-2510
+
+*Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).*
+
+> Delt iverksetjing av lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv (arkivlova).
+>
+> Paragrafane 1 til 10 og §§ 12 til 25 gjeld frå 1. januar 2026.
+>
+> Paragraf 9 innleiingsteksten og bokstav b i lov 4. desember 1992 nr. 126 om arkiv held fram å gjelde fram til § 11 i lov 20. juni 2025 nr. 96 om dokumentasjon og arkiv tek til å gjelde.
+>
+
 ### 2026-06-19 — lov/2026-06-19-46
 
 *Nåværende bokstav g til i blir bokstav f til h.*
@@ -74,6 +217,39 @@ refid: "lov/2010-05-28-16"
 *I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten skal § 50 tredje ledd fjerde punktum lyde:*
 
 > Bestemmelsen gjelder tilsvarende for opplysninger innhentet etter straffeprosessloven §§ 216 m og 216 o, og for opplysninger innhentet etter straffeprosessloven §§ 202 c, 202 e og 202 f så langt den passer.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1283
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II (politiloven) § 24b
+>
+> Endringsloven del III (utlendingsloven)
+>
+> Endringsloven del V (grenseloven)
+>
+> Endringsloven del IV (politiregisterloven) § 18
+>
+
+### 2026-10-01 — forskrift/2026-06-19-1135
+
+*Loven trer i kraft 1. oktober 2026.*
+
+> Loven trer i kraft 1. oktober 2026.
 >
 
 ## § 10
@@ -91,7 +267,11 @@ refid: "lov/2010-05-28-16"
 
 *§ 12 annet ledd nr. 1 til 3 skal lyde:*
 
-> er ilagt en straff som nevnt i straffeloven § 29 for en handling som etter loven kan medføre frihetsstraff. Registrering kan først skje når avgjørelsen er rettskraftig eller saken er endelig avgjort. Handling som det er utferdiget forenklet forelegg for, gir ikke grunnlag for registrering,på grunn av reglene i straffeloven § 20 første ledd ikke kan dømmes til straff for en handling som kvalifiserer for registrering. Det samme gjelder når tilstanden har medført at vedkommende ikke har utvist skyld,arbeider eller oppholder seg i Norge, og som i utlandet er ilagt en straff som svarer til dem som er nevnt i straffeloven § 29, og den begåtte handling kunne ha medført frihetsstraff om den hadde vært begått i Norge, eller
+> er ilagt en straff som nevnt i straffeloven § 29 for en handling som etter loven kan medføre frihetsstraff. Registrering kan først skje når avgjørelsen er rettskraftig eller saken er endelig avgjort. Handling som det er utferdiget forenklet forelegg for, gir ikke grunnlag for registrering,
+>
+> på grunn av reglene i straffeloven § 20 første ledd ikke kan dømmes til straff for en handling som kvalifiserer for registrering. Det samme gjelder når tilstanden har medført at vedkommende ikke har utvist skyld,
+>
+> arbeider eller oppholder seg i Norge, og som i utlandet er ilagt en straff som svarer til dem som er nevnt i straffeloven § 29, og den begåtte handling kunne ha medført frihetsstraff om den hadde vært begått i Norge, eller
 >
 
 ### 2017-06-21 — lov/2017-06-21-94
@@ -148,14 +328,28 @@ refid: "lov/2010-05-28-16"
 
 *§ 2 nr. 1, 2 og ny nr. 14 til 17 skal lyde:*
 
-> personopplysning: opplysning og vurdering som kan knyttes til fysisk person som kan identifiseres direkte eller indirekte,behandling av opplysninger: enhver elektronisk eller manuell bruk av opplysninger, som for eksempel innsamling, registrering, systematisering, strukturering, oppbevaring, tilpasning, endring, gjenfinning, søking, videreformidling ved overføring, spredning eller andre former for tilgjengeliggjøring, sammenstilling eller samkjøring, sperring, sletting eller tilintetgjøring eller en kombinasjon av slike bruksmåter,personvernbrudd: et brudd på sikkerheten som fører til utilsiktet eller ulovlig tilintetgjøring, tap, endring, ulovlig spredning av eller tilgang til personopplysninger som er overført, lagret eller på annen måte behandlet,genetisk opplysning: opplysning om en fysisk persons nedarvede eller ervervede genetiske egenskaper som gir entydig informasjon om den aktuelle fysiske personens fysiologi eller helse, og som særlig er framkommet etter analysering av en biologisk prøve fra den aktuelle fysiske personen,biometrisk opplysning: opplysning som stammer fra en særskilt teknisk behandling knyttet til en fysisk persons fysiske, fysiologiske eller atferdsmessige egenskaper, og som muliggjør eller bekrefter en entydig identifikasjon av nevnte fysiske person, for eksempel ansiktsbilder eller fingeravtrykk,internasjonal organisasjon: en organisasjon og dens underordnede organer som er underlagt folkeretten, eller ethvert annet organ opprettet ved eller på grunnlag av en avtale mellom to eller flere stater.
+> personopplysning: opplysning og vurdering som kan knyttes til fysisk person som kan identifiseres direkte eller indirekte,
+>
+> behandling av opplysninger: enhver elektronisk eller manuell bruk av opplysninger, som for eksempel innsamling, registrering, systematisering, strukturering, oppbevaring, tilpasning, endring, gjenfinning, søking, videreformidling ved overføring, spredning eller andre former for tilgjengeliggjøring, sammenstilling eller samkjøring, sperring, sletting eller tilintetgjøring eller en kombinasjon av slike bruksmåter,
+>
+> personvernbrudd: et brudd på sikkerheten som fører til utilsiktet eller ulovlig tilintetgjøring, tap, endring, ulovlig spredning av eller tilgang til personopplysninger som er overført, lagret eller på annen måte behandlet,
+>
+> genetisk opplysning: opplysning om en fysisk persons nedarvede eller ervervede genetiske egenskaper som gir entydig informasjon om den aktuelle fysiske personens fysiologi eller helse, og som særlig er framkommet etter analysering av en biologisk prøve fra den aktuelle fysiske personen,
+>
+> biometrisk opplysning: opplysning som stammer fra en særskilt teknisk behandling knyttet til en fysisk persons fysiske, fysiologiske eller atferdsmessige egenskaper, og som muliggjør eller bekrefter en entydig identifikasjon av nevnte fysiske person, for eksempel ansiktsbilder eller fingeravtrykk,
+>
+> internasjonal organisasjon: en organisasjon og dens underordnede organer som er underlagt folkeretten, eller ethvert annet organ opprettet ved eller på grunnlag av en avtale mellom to eller flere stater.
 >
 
 ### 2018-06-22 — lov/2018-06-22-81
 
 *§ 2 nr. 14 til 16 skal lyde:*
 
-> brudd på personopplysningssikkerheten: et brudd på sikkerheten som fører til utilsiktet eller ulovlig tilintetgjøring, tap, endring, ulovlig spredning av eller tilgang til personopplysninger som er overført, lagret eller på annen måte behandlet,genetisk opplysning: opplysning om en fysisk persons nedarvede eller ervervede genetiske egenskaper som gir unik informasjon om den aktuelle fysiske personens fysiologi eller helse, og som særlig er framkommet etter analysering av en biologisk prøve fra den aktuelle fysiske personen,biometrisk opplysning: opplysning som stammer fra en særskilt teknisk behandling knyttet til en fysisk persons fysiske, fysiologiske eller atferdsmessige egenskaper, og som muliggjør eller bekrefter en entydig identifikasjon av nevnte fysiske person, for eksempel ansiktsbilder eller fingeravtrykksopplysninger,
+> brudd på personopplysningssikkerheten: et brudd på sikkerheten som fører til utilsiktet eller ulovlig tilintetgjøring, tap, endring, ulovlig spredning av eller tilgang til personopplysninger som er overført, lagret eller på annen måte behandlet,
+>
+> genetisk opplysning: opplysning om en fysisk persons nedarvede eller ervervede genetiske egenskaper som gir unik informasjon om den aktuelle fysiske personens fysiologi eller helse, og som særlig er framkommet etter analysering av en biologisk prøve fra den aktuelle fysiske personen,
+>
+> biometrisk opplysning: opplysning som stammer fra en særskilt teknisk behandling knyttet til en fysisk persons fysiske, fysiologiske eller atferdsmessige egenskaper, og som muliggjør eller bekrefter en entydig identifikasjon av nevnte fysiske person, for eksempel ansiktsbilder eller fingeravtrykksopplysninger,
 >
 
 ## § 20
@@ -289,33 +483,74 @@ refid: "lov/2010-05-28-16"
 
 *§ 40 nr. 2 skal lyde:*
 
-> Med mindre annet fremgår av nr. 5, 6 eller 7, skal det i ordinær politiattest oppgisdom på betinget og ubetinget fengsel,dom på forvaring, eventuelt sikring,dom på samfunnsstraff, eventuelt samfunnstjeneste,dom på ungdomsstraff,dom på rettighetstap,bot for lovbrudd med øvre strafferamme på fengsel i mer enn 6 måneder, ogdom på overføring til tvunget psykisk helsevern eller tvungen omsorg, eventuelt sikring.
+> Med mindre annet fremgår av nr. 5, 6 eller 7, skal det i ordinær politiattest oppgis dom på betinget og ubetinget fengsel, dom på forvaring, eventuelt sikring, dom på samfunnsstraff, eventuelt samfunnstjeneste, dom på ungdomsstraff, dom på rettighetstap, bot for lovbrudd med øvre strafferamme på fengsel i mer enn 6 måneder, og dom på overføring til tvunget psykisk helsevern eller tvungen omsorg, eventuelt sikring.
+>
+> dom på betinget og ubetinget fengsel,
+>
+> dom på forvaring, eventuelt sikring,
+>
+> dom på samfunnsstraff, eventuelt samfunnstjeneste,
+>
+> dom på ungdomsstraff,
+>
+> dom på rettighetstap,
+>
+> bot for lovbrudd med øvre strafferamme på fengsel i mer enn 6 måneder, og
+>
+> dom på overføring til tvunget psykisk helsevern eller tvungen omsorg, eventuelt sikring.
 >
 
 ### 2012-01-20 — lov/2012-01-20-6
 
 *§ 40 nr. 6 skal lyde:*
 
-> I ordinær politiattest skal det ikke oppgisdom på betinget fengsel eller bot, dersom lovbruddet er begått mer enn 2 år før utstedelsen av person under 18 år, ellerdom på ungdomsstraff eller samfunnsstraff, dersom lovbruddet er begått mer enn 5 år før utstedelsen av person under 18 år.
+> I ordinær politiattest skal det ikke oppgis dom på betinget fengsel eller bot, dersom lovbruddet er begått mer enn 2 år før utstedelsen av person under 18 år, eller dom på ungdomsstraff eller samfunnsstraff, dersom lovbruddet er begått mer enn 5 år før utstedelsen av person under 18 år.
+>
+> dom på betinget fengsel eller bot, dersom lovbruddet er begått mer enn 2 år før utstedelsen av person under 18 år, eller
+>
+> dom på ungdomsstraff eller samfunnsstraff, dersom lovbruddet er begått mer enn 5 år før utstedelsen av person under 18 år.
 >
 
 ### 2014-06-20 — lov/2014-06-20-47
 
 *§ 40 nr. 6, som endret ved lov 20. januar 2012 nr. 6, skal lyde:*
 
-> I ordinær politiattest skal det ikke oppgisdom på betinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, ellerdom på ungdomsstraff eller samfunnsstraff, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
+> I ordinær politiattest skal det ikke oppgis dom på betinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, eller dom på ungdomsstraff eller samfunnsstraff, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
+>
+> dom på betinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, eller
+>
+> dom på ungdomsstraff eller samfunnsstraff, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten.
 >
 
 ### 2021-06-11 — lov/2021-06-11-72
 
 *§ 40 nr. 3 bokstav e–f og ny bokstav g–i skal lyde:*
 
-> overføring til behandling i konfliktråd, jf. straffeprosessloven § 71 a,overføring til barneverntjenesten,dom med straffutmålingsfrafall,tap av retten til å føre motorvogn mv., jf. vegtrafikkloven § 24 a annet ledd, § 33 nr. 1 og 2, og § 35 første ledd og tap av retten til å drive persontransport mot vederlag (kjøreseddel), jf. yrkestransportloven § 37 f annet ledd, ellerinndragning.
+> overføring til behandling i konfliktråd, jf. straffeprosessloven § 71 a,
+>
+> overføring til barneverntjenesten,
+>
+> dom med straffutmålingsfrafall,
+>
+> tap av retten til å føre motorvogn mv., jf. vegtrafikkloven § 24 a annet ledd, § 33 nr. 1 og 2, og § 35 første ledd og tap av retten til å drive persontransport mot vederlag (kjøreseddel), jf. yrkestransportloven § 37 f annet ledd, eller
+>
+> inndragning.
 >
 
 ### 2026-06-19 — lov/2026-06-19-46
 
 *§ 40 nr. 3 bokstav f oppheves.*
+
+## § 41
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 41 nr. 1 bokstav a skal lyde:*
+
+> overføring til konfliktråd etter straffeprosessloven § 71a første og annet ledd, dersom vedkommende ikke har begått nye lovbrudd 2 år etter at det er inngått godkjent avtale, ungdomsplan eller plan i konfliktrådet,
+>
+> 9. I lov 19. juni 2009 nr. 58 om merverdiavgift gjøres følgende endring:
+>
 
 ## § 42
 
@@ -486,7 +721,13 @@ refid: "lov/2010-05-28-16"
 
 *§ 64 tredje ledd nr. 1 skal lyde:*
 
-> ved opprettelse av forebyggende sak er grunn til å undersøke om noen forbereder et lovbrudd som Politiets sikkerhetstjeneste har til oppgave å forebygge,for øvrig anses nødvendig i forebyggende øyemed å behandle opplysninger av betydning for utførelsen av arbeidsoppgavene i politiloven §§ 17 b eller 17 d, herunder opplysninger om utlending der det etter en konkret sikkerhetsmessig vurdering anses nødvendig å behandle slike opplysninger. Ved denne nødvendighetsvurderingen må det tas i betraktning om behandlingen er forholdsmessig ut fra om utlendingen kommer fra land eller områder som det i henhold til aktuell trusselvurdering knytter seg en risiko til i forhold til oppgavene etter politiloven §§ 17 b og 17 c, eller hans bakgrunn for øvrig. Tilsvarende kan Politiets sikkerhetstjeneste også behandle opplysninger om referansepersoner i Norge for slike utlendinger, ellerer nødvendig for gjennomføring av båndlegging etter politiloven § 17 g,
+> ved opprettelse av forebyggende sak er grunn til å undersøke om noen forbereder et lovbrudd som Politiets sikkerhetstjeneste har til oppgave å forebygge, for øvrig anses nødvendig i forebyggende øyemed å behandle opplysninger av betydning for utførelsen av arbeidsoppgavene i politiloven §§ 17 b eller 17 d, herunder opplysninger om utlending der det etter en konkret sikkerhetsmessig vurdering anses nødvendig å behandle slike opplysninger. Ved denne nødvendighetsvurderingen må det tas i betraktning om behandlingen er forholdsmessig ut fra om utlendingen kommer fra land eller områder som det i henhold til aktuell trusselvurdering knytter seg en risiko til i forhold til oppgavene etter politiloven §§ 17 b og 17 c, eller hans bakgrunn for øvrig. Tilsvarende kan Politiets sikkerhetstjeneste også behandle opplysninger om referansepersoner i Norge for slike utlendinger, eller er nødvendig for gjennomføring av båndlegging etter politiloven § 17 g,
+>
+> ved opprettelse av forebyggende sak er grunn til å undersøke om noen forbereder et lovbrudd som Politiets sikkerhetstjeneste har til oppgave å forebygge,
+>
+> for øvrig anses nødvendig i forebyggende øyemed å behandle opplysninger av betydning for utførelsen av arbeidsoppgavene i politiloven §§ 17 b eller 17 d, herunder opplysninger om utlending der det etter en konkret sikkerhetsmessig vurdering anses nødvendig å behandle slike opplysninger. Ved denne nødvendighetsvurderingen må det tas i betraktning om behandlingen er forholdsmessig ut fra om utlendingen kommer fra land eller områder som det i henhold til aktuell trusselvurdering knytter seg en risiko til i forhold til oppgavene etter politiloven §§ 17 b og 17 c, eller hans bakgrunn for øvrig. Tilsvarende kan Politiets sikkerhetstjeneste også behandle opplysninger om referansepersoner i Norge for slike utlendinger, eller
+>
+> er nødvendig for gjennomføring av båndlegging etter politiloven § 17 g,
 >
 
 ### 2023-04-28 — lov/2023-04-28-11
@@ -500,7 +741,11 @@ refid: "lov/2010-05-28-16"
 
 *§ 64 tredje ledd nr. 4, 5 og nytt nr. 6 skal lyde:*
 
-> er nødvendig for personkontroll eller akkreditering med de begrensninger som følger av § 67,er nødvendig for å dokumentere hvilken overskuddsinformasjon som er gjort tilgjengelig for andre, ellerer nødvendig for å utarbeide analyser og etterretningsvurderinger som nevnt i politiloven § 17 a.
+> er nødvendig for personkontroll eller akkreditering med de begrensninger som følger av § 67,
+>
+> er nødvendig for å dokumentere hvilken overskuddsinformasjon som er gjort tilgjengelig for andre, eller
+>
+> er nødvendig for å utarbeide analyser og etterretningsvurderinger som nevnt i politiloven § 17 a.
 >
 
 ## § 65 a
@@ -560,7 +805,11 @@ refid: "lov/2010-05-28-16"
 
 *§ 69 første ledd nr. 2, 9 og 23 skal lyde:*
 
-> særregler for behandling av opplysninger i straffesaker,tilgang, herunder til formål som nevnt i politiregisterloven § 29, og hvem som har tjenestemessig behov for opplysninger, jf. § 21,ansvarsfordelingen av tilsynsmyndighet etter § 58 mellom Datatilsynet og andre kontrollorganer, som har tilsynsmyndighet fastsatt i lov eller i forskrift gitt i medhold av lov,
+> særregler for behandling av opplysninger i straffesaker,
+>
+> tilgang, herunder til formål som nevnt i politiregisterloven § 29, og hvem som har tjenestemessig behov for opplysninger, jf. § 21,
+>
+> ansvarsfordelingen av tilsynsmyndighet etter § 58 mellom Datatilsynet og andre kontrollorganer, som har tilsynsmyndighet fastsatt i lov eller i forskrift gitt i medhold av lov,
 >
 > § 69 første ledd nåværende nr. 23 blir nr. 24.
 >
@@ -590,14 +839,20 @@ refid: "lov/2010-05-28-16"
 
 *§ 69 første ledd punkt 24 og nytt punkt 25 skal lyde:*
 
-> saksbehandlingsregler i forbindelse med kontroll etter §§ 59 og 60,saksbehandling i båndleggingssaker utenfor straffesak.
+> saksbehandlingsregler i forbindelse med kontroll etter §§ 59 og 60,
+>
+> saksbehandling i båndleggingssaker utenfor straffesak.
 >
 
 ### 2021-06-11 — lov/2021-06-11-72
 
 *§ 69 første ledd nr. 15, nr. 25 og nytt nr. 26 skal lyde:*
 
-> hvordan innsyn skal gjennomføres og behandlingen av saker som gjelder innsyn, jf. §§ 49 og 66,saksbehandling i båndleggingssaker utenfor straffesak,særregler for militærpolitiets behandling av opplysninger.
+> hvordan innsyn skal gjennomføres og behandlingen av saker som gjelder innsyn, jf. §§ 49 og 66,
+>
+> saksbehandling i båndleggingssaker utenfor straffesak,
+>
+> særregler for militærpolitiets behandling av opplysninger.
 >
 
 ### 2025-06-20 — lov/2025-06-20-96

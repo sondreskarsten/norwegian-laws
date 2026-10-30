@@ -7,11 +7,35 @@ refid: "lov/2015-02-06-7"
 
 ## (annet)
 
+### 2015-07-01 — forskrift/2015-06-12-633
+
+*Lov 6. februar 2015 nr. 7 om beskyttelse av mindreårige mot skadelige bildeprogram mv. trer i kraft 1. juli 2015.*
+
+> Lov 6. februar 2015 nr. 7 om beskyttelse av mindreårige mot skadelige bildeprogram mv. trer i kraft 1. juli 2015.
+>
+> Fra samme tidspunkt oppheves § 2-5 og § 2-6 i forskrift 28. februar 1997 nr. 153 om kringkasting og audiovisuelle bestillingstjenester.
+>
+
 ### 2022-06-22 — lov/2022-06-22-83
 
 *Overskriften i § 6 skal lyde:*
 
 > § 6.Fastsettelse av aldersgrenser
+>
+
+### 2022-06-22 — forskrift/2022-06-22-1141
+
+*Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft 1. januar 2023:*
+
+> Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (bildeprogramloven)
+>
+> Endringsloven del II (straffeloven)
+>
+> Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft straks:
+>
+> Endringsloven del III (diskrimineringsombudsloven).
 >
 
 ## § 10
@@ -43,6 +67,17 @@ refid: "lov/2015-02-06-7"
 
 ## § 13
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 13 annet ledd skal lyde:*
+
+> Dersom Medietilsynet gjennom sin tilsynsvirksomhet blir kjent med bildeprogram som rammes av straffeloven § 311, skal forholdet meldes til politiet.
+>
+> Kongen kan gi nærmere overgangsregler.
+>
+> Loven her trer i kraft straks.
+>
+
 ### 2025-02-28 — lov/2025-02-28-2
 
 *§ 13 første ledd skal lyde:*
@@ -60,6 +95,13 @@ refid: "lov/2015-02-06-7"
 >
 
 ## § 5
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5 tredje ledd skal lyde:*
+
+> Medietilsynet kan ikke sette aldersgrense på kinofilmer som tilsynet mener er i strid med straffeloven §§ 236, 311 eller 317.
+>
 
 ### 2022-06-22 — lov/2022-06-22-83
 

@@ -136,7 +136,7 @@ refid: "lov/2011-12-16-59"
 
 ### 2013-06-14 — lov/2013-06-14-33
 
-* skal lyde:*
+*skal lyde:*
 
 > «§ 19-4 tredje punktum skal lyde:
 >

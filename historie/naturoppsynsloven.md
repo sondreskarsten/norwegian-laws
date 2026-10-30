@@ -7,6 +7,13 @@ refid: "lov/1996-06-21-38"
 
 ## (annet)
 
+### 2005-06-17 — lov/2005-06-17-85
+
+*6. I lov 21. juni 1996 nr. 38 om statlig naturoppsyn skal § 2 nytt fjerde ledd lyde:*
+
+> På Finnmarkseiendommens grunn skal oppsynet føre den ytterligere kontroll som departementet og Finnmarkseiendommen avtaler.
+>
+
 ### 2009-06-05 — lov/2009-06-05-35
 
 *Endringer i følgende lover:*
@@ -354,9 +361,20 @@ refid: "lov/1996-06-21-38"
 > For å lese kartet se her: (pdf)
 >
 
+### 2009-06-19 — lov/2009-06-19-100
+
+*Nåværende annet, tredje og fjerde ledd blir nye tredje, fjerde og femte ledd.*
+
 ### 2013-06-14 — lov/2013-06-14-49
 
 *Nåværende §§ 3 til 6 blir §§ 4 til 7.*
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
 
 ### 2025-06-10 — lov/2025-06-10-33
 
@@ -376,7 +394,37 @@ refid: "lov/1996-06-21-38"
 > lov 20. juni 2025 nr. 102 om jakt, fangst og felling av vilt mv.,
 >
 
+### 2026-01-01 — forskrift/2025-06-10-966
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
 ## § 2
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 2 første ledd skal lyde:*
+
+> Oppsynet skal føre kontroll med at bestemmelsene gitt i eller i medhold av:lov 28. juni 1957 nr. 16 om friluftslivet,lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag,lov 9. juni 1978 nr. 50 om kulturminner,lov 13. mars 1981 nr. 6 om vern mot forurensninger og om avfall, i den utstrekning departementet bestemmer,lov 29. mai 1981 nr. 38 om viltet,lov 15. mai 1992 nr. 47 om laksefisk og innlandsfisk m.v., oglov 19. juni 2009 nr. 100 om forvaltning av naturens mangfoldblir overholdt.
+>
+> Departementet kan gi forskrift om at oppsynet skal føre kontroll med overholdelsen av bestemmelser gitt i medhold av plan- og bygningsloven så langt disse er gitt for å gjennomføre naturmangfoldloven kapittel VI (utvalgte naturtyper).
+>
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 2 nytt sjette ledd skal lyde:*
+
+> Oppsynet har rett til å ferdes med bruk av motorkjøretøy, båt eller luftfartøy når dette er nødvendig for utføring av oppsynets oppgaver. Motorferdsel skal skje så skånsomt og begrenset som forholdene tillater.
+>
 
 ### 2013-06-14 — lov/2013-06-14-49
 

@@ -52,21 +52,6 @@ refid: "lov/1995-08-04-53"
 > Overskriften Kapittel III A. Adgangen for Politiets sikkerhetstjeneste til å bruke tvangsmidler i forebyggende øyemed, oppheves.
 >
 
-### 2009-06-19 — lov/2009-06-19-74
-
-*173. I lov 22. desember 1995 nr. 85 om europeiske økonomiske foretaksgrupper ved gjennomføring av EØS-avtalens vedlegg XXII nr. 10 (rådsforordning (EØF) nr. 2137/85) (EØFG-loven) § 4 første ledd nr. 2 og 3 skal lyde:*
-
-> når forretningsfører ikke lenger oppfyller vilkårene i § 3 eller vedkommende er ilagt dom på rettighetstap, jf. straffeloven § 56 første ledd bokstav b,når det inntrer slik hindring som nevnt i konkursloven § 142 for en deltaker, eller en deltaker blir ilagt dom på rettighetstap, jf. straffeloven § 56 første ledd bokstav b, og vedkommende ikke trer ut av foretaksgruppen.
->
-> 174. I lov 22. mars 1996 nr. 16 om regulering av byggje- og anleggsverksemd skal § 4 lyde:
->
-> Den som bryt lova her eller forskrift med heimel i lova, vert straffa med bøter.
->
-> 175. I lov 7. juni 1996 nr. 31 om Den norske kirke skal § 7 tredje ledd første punktum lyde:
->
-> Dersom det blir utferdiget siktelse eller reist tiltale mot et menighetsrådsmedlem for et straffbart forhold, som nevnt i straffeloven kapittel 19, 27, 28 og 30 og forholdet ifølge siktelsen eller tiltalen knytter seg til utøving av verv eller tjeneste for menighetsråd eller kirkelig fellesråd, kan menighetsrådet vedta å suspendere vedkommende fra vervet inntil saken er rettskraftig avgjort.
->
-
 ### 2011-04-15 — lov/2011-04-15-11
 
 *I lov 4. august 1995 nr. 53 om politiet (politiloven) skal § 17 f nytt tredje ledd lyde:*
@@ -94,6 +79,13 @@ refid: "lov/1995-08-04-53"
 *Ikraftsetting av lov 17. desember 2010 nr. 87 om endringar i politilova m.m. Lovens romertall I, endring i politiloven § 14 nytt tredje ledd, trer i kraft 1. juli 2012.*
 
 > Ikraftsetting av lov 17. desember 2010 nr. 87 om endringar i politilova m.m. Lovens romertall I, endring i politiloven § 14 nytt tredje ledd, trer i kraft 1. juli 2012.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1208
+
+*Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.*
+
+> Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.
 >
 
 ### 2013-06-21 — lov/2013-06-21-82
@@ -126,6 +118,20 @@ refid: "lov/1995-08-04-53"
 > Loven trer i kraft straks.
 >
 
+### 2013-06-21 — forskrift/2013-06-21-687
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-792
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
 ### 2015-09-04 — lov/2015-09-04-88
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 16 lyde:*
@@ -153,6 +159,22 @@ refid: "lov/1995-08-04-53"
 > Lov 4. september 2015 nr. 86 om endringer i politiloven (bistand fra Forsvaret) trer i kraft 1. desember 2015.
 >
 
+### 2016-04-22 — lov/2016-04-22-3
+
+*19. I lov 4. august 1995 nr. 53 om politiet skal § 24 c fjerde og femte ledd lyde:*
+
+> Studentene plikter å avlegge dopingprøve etter nærmere regler gitt av departementet. Bruk av ulovlige dopingmidler eller nektelse av å medvirke til dopingkontroll kan føre til utvisning eller utestengning for inntil tre år.
+>
+> Vedtak om utvisning, bortvisning eller utestengning kan påklages til departementet etter reglene i forvaltningsloven. Studenten har rett til å la seg bistå av advokat eller annen medhjelper fra skikkethetssak eller sak om bortvisning eller utestengning er reist, eventuelt etter at advarsel etter annet ledd er gitt.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2016-06-10 — lov/2016-06-10-22
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 19 første og annet ledd lyde:*
@@ -162,11 +184,32 @@ refid: "lov/1995-08-04-53"
 > Politimestere og visepolitimestere i politidistrikter utnevnes som embetsmenn på åremål for inntil 6 år. Etter utlysning kan vedkommende utnevnes for ytterligere en periode på inntil 6 år.
 >
 
+### 2016-07-01 — forskrift/2016-06-10-613
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-670
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
 ### 2017-01-27 — lov/2017-01-27-3
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 29 første ledd lyde:*
 
 > Kongen fastsetter en alminnelig tjenesteinstruks for politiet. Departementet gir tjenestereglementer og særinstrukser. Dette kan omfatte instruks om bevæpning av polititjenestemenn i daglig tjeneste for et begrenset tidsrom når det anses nødvendig for å håndtere en alvorlig trusselsituasjon. Politimesteren kan utstede utfyllende tjenesteregler når lokale forhold gjør dette påkrevd.
+>
+
+### 2017-01-27 — forskrift/2017-01-27-78
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2017-05-11 — lov/2017-05-11-26
@@ -182,11 +225,52 @@ refid: "lov/1995-08-04-53"
 > Kongen fastsetter hvilke namsmannsdistrikter norsk kontinentalsokkel og norsk økonomisk sone hører til.
 >
 
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2017-06-16 — forskrift/2017-06-16-783
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2017-06-21 — lov/2017-06-21-94
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 14 tredje ledd lyde:*
 
 > Kommunale vedtekter som nevnt i første ledd nr. 1 og 2 kan i tillegg håndheves av kommunen eller personer utpekt av kommunen dersom kommunen har fastsatt dette i politivedtektene. Slik håndhevelse gjelder likevel ikke opprettholdelse av ro og orden. Ved overtredelse av de kommunale vedtektene som nevnt overfor kan kommunen, eller dens utpekte, ilegge overtredelsesgebyr. Departementet kan i forskrift gi nærmere regler om gjennomføring av bestemmelsene i dette ledd, herunder hvilke deler av ferdselen kommunene kan sikre.
+>
+
+### 2017-10-01 — forskrift/2017-06-09-718
+
+*Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.*
+
+> Delt ikraftsetting av lov 9. desember 2016 nr. 88 om folkeregistrering.
+>
+> Loven trer i kraft 1. oktober 2017, med unntak av § 10-1 tredje ledd.
+>
+
+### 2018-05-06 — forskrift/2018-04-27-642
+
+*Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.*
+
+> Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
 >
 
 ### 2018-06-22 — lov/2018-06-22-81
@@ -196,6 +280,45 @@ refid: "lov/1995-08-04-53"
 > Kongen fastsetter en alminnelig tjenesteinstruks for politiet. Departementet gir tjenestereglementer og særinstrukser. Dette kan omfatte instruks om bevæpning av polititjenestemenn i daglig tjeneste for et begrenset tidsrom når det anses nødvendig for å håndtere en alvorlig trusselsituasjon, samt for et ubegrenset tidsrom når det ut fra trusselbildet anses nødvendig for å gi tilstrekkelig beskyttelse av sårbare objekter. Politimesteren kan utstede utfyllende tjenesteregler når lokale forhold gjør dette påkrevd.
 >
 
+### 2018-07-01 — forskrift/2018-06-22-949
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-779
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2020-02-01 — forskrift/2020-01-10-13
+
+*Loven trer i kraft 1. februar 2020.*
+
+> Loven trer i kraft 1. februar 2020.
+>
+
+### 2021-01-01 — forskrift/2020-12-11-2709
+
+*Følgende forskrifter fastsatt med hjemmel i lov 4. august 1995 nr. 53 om politiet oppheves:Forskrift 1. mars 2002 nr. 249 om regulering av distriktsinndelingen i politi- og lensmannsetaten, Troms.Forskrift 7. mai 2002 nr. 441 om regulering av distriktsinndelingen i politi- og lensmannsetaten – Vestf*
+
+### 2021-04-16 — forskrift/2021-04-16-1182
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2021-07-01 — lov/2021-06-11-68
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 17 andre ledd lyde:*
@@ -203,11 +326,48 @@ refid: "lov/1995-08-04-53"
 > Namsmann for Svalbard er sysselmesteren.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-05-01 — forskrift/2022-04-29-638
+
+*Loven trer i kraft 1. mai 2022, med unntak av § 8 første ledd nr. 2.*
+
+> Loven trer i kraft 1. mai 2022, med unntak av § 8 første ledd nr. 2.
+>
+
 ### 2022-09-01 — forskrift/2022-08-12-1443
 
 *Ikraftsetting av lov 18. juni 2021 nr. 123 om endringer i politiloven (erstatning for skader som skyldes pålagt trening, mv.). Loven trer i kraft 1. september 2022.*
 
 > Ikraftsetting av lov 18. juni 2021 nr. 123 om endringer i politiloven (erstatning for skader som skyldes pålagt trening, mv.). Loven trer i kraft 1. september 2022.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2024-05-31 — lov/2024-05-31-25
@@ -238,6 +398,13 @@ refid: "lov/1995-08-04-53"
 > I forbindelse med en naturkatastrofe, en ulykke eller et terrorangrep kan politiet oppta biometriske opplysninger i form av ansiktsfoto og fingeravtrykk fra ukjente personer ute av stand til å legitimere seg og fra uidentifiserte menneskelige levninger. Opplysningene kan bare brukes til å fastslå vedkommendes identitet med søk som angitt i artikkel 20 nr. 4 i forordning (EU) 2019/817 og i artikkel 20 nr. 4 i forordning (EU) 2019/818, jf. grenseloven § 8 første ledd nr. 4 og 5, og til søk i foto- og fingeravtrykkregisteret, jf. politiregisterloven § 13 første ledd første punktum. Opplysningene skal slettes straks søket er gjennomført.
 >
 
+### 2024-07-01 — forskrift/2024-05-31-871
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2025-06-20 — lov/2025-06-20-83
 
 *I lov 4. august 1995 nr. 53 om politiet skal ny § 9 a lyde:*
@@ -265,6 +432,39 @@ refid: "lov/1995-08-04-53"
 *I følgende bestemmelser erstattes uttrykket «politi- og lensmannsetaten» av «politiet»:*
 
 > §§ 1, 18, 21 og 24 b.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1283
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i politiregisterloven og grenseloven mv. (testing og utvikling av informasjonssystemer). Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II (politiloven) § 24b
+>
+> Endringsloven del III (utlendingsloven)
+>
+> Endringsloven del V (grenseloven)
+>
+> Endringsloven del IV (politiregisterloven) § 18
+>
+
+### 2026-10-01 — forskrift/2026-06-19-1135
+
+*Loven trer i kraft 1. oktober 2026.*
+
+> Loven trer i kraft 1. oktober 2026.
 >
 
 ## § 10 a
@@ -338,7 +538,9 @@ refid: "lov/1995-08-04-53"
 
 *§ 16 annet ledd nr. 3 og nytt nr. 4 skal lyde:*
 
-> at en politimester, som en varig ordning, helt eller delvis skal fritas for bestemte gjøremål, og at de legges til en annen politimester eller til et annet politiorgan,at enkelte namsfogder skal ligge direkte under Politidirektoratet.
+> at en politimester, som en varig ordning, helt eller delvis skal fritas for bestemte gjøremål, og at de legges til en annen politimester eller til et annet politiorgan,
+>
+> at enkelte namsfogder skal ligge direkte under Politidirektoratet.
 >
 
 ### 2017-05-11 — lov/2017-05-11-26
@@ -427,6 +629,20 @@ refid: "lov/1995-08-04-53"
 > sabotasje og politisk motivert vold eller tvang, eller overtredelser av straffeloven kapittel 18. Åpen etterforsking i slike saker foretas likevel av det øvrige politi, med mindre annet bestemmes av overordnet påtalemyndighet.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17 b første ledd nr. 1 skal lyde:*
+
+> overtredelser av straffeloven kapittel 17 og § 184 og sikkerhetsloven,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17 b første ledd nr. 5 skal lyde:*
+
+> sabotasje og politisk motivert vold eller tvang, eller overtredelser av straffeloven §§ 131 til 136 a. Åpen etterforsking i slike saker foretas likevel av det øvrige politi, med mindre annet bestemmes av overordnet påtalemyndighet.
+>
+
 ### 2016-06-17 — lov/2016-06-17-52
 
 *§ 17 b første ledd nr. 5 første punktum skal lyde:*
@@ -507,7 +723,22 @@ refid: "lov/1995-08-04-53"
 
 *§ 17 d første ledd bokstav a til c skal lyde:*
 
-> straffeloven §§ 131, 133 og 134,straffeloven §§ 121-126 ellerstraffeloven §§ 251, 254, 273, 274 og 275 og som retter seg mot medlemmer av Kongehuset, Stortinget, regjeringen, Høyesterett eller representanter for tilsvarende organer i andre stater.
+> straffeloven §§ 131, 133 og 134,
+>
+> straffeloven §§ 121-126 eller
+>
+> straffeloven §§ 251, 254, 273, 274 og 275 og som retter seg mot medlemmer av Kongehuset, Stortinget, regjeringen, Høyesterett eller representanter for tilsvarende organer i andre stater.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17 d første ledd bokstav a til c skal lyde:*
+
+> straffeloven §§ 131, 133 og 134,
+>
+> straffeloven §§ 121 til 126 eller
+>
+> straffeloven §§ 251, 253, 254, 256, 263, 273, 274 eller 275 og som retter seg mot medlemmer av Kongehuset, Stortinget, regjeringen, Høyesterett eller representanter for tilsvarende organer i andre stater.
 >
 
 ### 2016-06-17 — lov/2016-06-17-54
@@ -556,11 +787,22 @@ refid: "lov/1995-08-04-53"
 > som bevis for en terrorhandling, jf. straffeloven §§ 131, 133 og 134,
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 17 f annet ledd bokstav c skal lyde:*
+
+> som bevis for en terrorhandling, jf. straffeloven §§ 131, 133 og 134,
+>
+
 ### 2017-06-16 — lov/2017-06-16-59
 
 *§ 17 f annet ledd bokstav d, e og ny bokstav f skal lyde:*
 
-> for å forebygge at noen uskyldig blir straffet,for å forhindre en alvorlig straffbar handling som kan krenke andres liv, helse eller frihet, ellerfor at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål.
+> for å forebygge at noen uskyldig blir straffet,
+>
+> for å forhindre en alvorlig straffbar handling som kan krenke andres liv, helse eller frihet, eller
+>
+> for at Politiets sikkerhetstjeneste kan utlevere opplysninger til Etterretningstjenesten dersom det er nødvendig for forebyggelses- og sikkerhetsmessige formål.
 >
 
 ### 2026-06-19 — lov/2026-06-19-46
@@ -749,6 +991,13 @@ refid: "lov/1995-08-04-53"
 > Personer som tildeles begrenset politimyndighet etter tredje ledd, skal fremlegge uttømmende og utvidet politiattest, jf. politiregisterloven § 41. Personer som tildeles begrenset politimyndighet etter fjerde og femte ledd, skal undergis vandelsvurdering, jf. politiregisterloven § 45. Dersom situasjonen som begrunner tildelingen ikke tillater vandelsvurdering, kan godkjent sikkerhetsklarering tre i stedet. Dersom situasjonen krever det, kan kravet om sikkerhetsklarering fravikes.
 >
 
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 20 fjerde ledd første punktum skal lyde:*
+
+> Kongen kan bestemme at militært personell fra Forsvaret kan tildeles begrenset politimyndighet ved utøvelse av grenseovervåking på landegrensen mellom Norge og Russland.
+>
+
 ### 2021-06-18 — lov/2021-06-18-123
 
 *§ 20 andre og tredje ledd skal lyde:*
@@ -773,6 +1022,9 @@ refid: "lov/1995-08-04-53"
 
 *§ 20 a overskriften skal lyde:*
 
+> Utenlandske polititjenestepersoner
+>
+
 ## § 21
 
 ### 2021-06-18 — lov/2021-06-18-123
@@ -795,6 +1047,8 @@ refid: "lov/1995-08-04-53"
 
 *§ 22 annet ledd sjette punktum oppheves.I lov 20. desember 1996 nr. 106 om tomtefeste skal § 43 første ledd lyde:*
 
+> I lov 20. desember 1996 nr. 106 om tomtefeste skal § 43 første ledd lyde:
+>
 > Skjønn etter lova her vert haldne som rettslege skjønn. Skjønnet kan styrast av lensmannen eller namsfuten dersom partane er samde om det.I lov 22. desember 1999 nr. 105 om handelsverksemd med brukte og kasserte ting skal § 3 første ledd lyde:
 >
 > Føresegnene i § 2 gjeld ikkje for auksjonsverksemd som vert driven av advokatar.I lov 26. april 2002 nr. 12 om notarius publicus skal § 2 første ledd lyde:
@@ -883,6 +1137,13 @@ refid: "lov/1995-08-04-53"
 > Kongen gir nærmere bestemmelser om Forsvarets bistand til politiet.
 >
 
+### 2018-04-20 — lov/2018-04-20-8
+
+*§ 27 a annet ledd skal lyde:*
+
+> Ved bistand som nevnt i første ledd kan Forsvaret utøve makt innenfor de rammer som følger av § 6. Det samme gjelder når Kystvakten yter bistand etter kystvaktloven § 17 første ledd.
+>
+
 ## § 29
 
 ### 2005-06-17 — lov/2005-06-17-84
@@ -939,11 +1200,12 @@ refid: "lov/1995-08-04-53"
 
 > hvis ikke forholdet går inn under en strengere straffebestemmelse.
 >
-> 171. I lov 25. august 1995 nr. 57 om pakkereiser og reisegaranti skal § 11-7 lyde:
->
-> Med bøter eller med fengsel i inntil tre måneder straffes den som forsettlig eller uaktsomt overtrer § 3-1 og bestemmelsene i dette kapittel eller bestemmelser gitt i medhold av § 11-6.
->
-> 172. Lov 15. desember 1995 nr. 74 om forbud mot kjønnslemlestelse oppheves.
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 30 avslutningsvis skal lyde:*
+
+> hvis ikke forholdet går inn under en strengere straffebestemmelse.
 >
 
 ## § 6
@@ -1006,6 +1268,13 @@ refid: "lov/1995-08-04-53"
 *§ 7 a tredje ledd skal lyde:*
 
 > Med våpen menes i denne paragrafen våpen og andre gjenstander som omfattes av våpenlovgivningen, kniv eller lignende skarpt redskap som det er forbudt å bære på offentlig sted, jf. straffeloven § 389, og andre farlige gjenstander som kan tas i forvaring etter politiloven § 7.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 7 a tredje ledd skal lyde:*
+
+> Med våpen menes i denne paragrafen våpen og andre gjenstander som omfattes av våpenlovgivningen, kniv eller lignende skarpt redskap som det er forbudt å bære på offentlig sted, jf. straffeloven § 189, og andre farlige gjenstander som kan tas i forvaring etter politiloven § 7.
 >
 
 ## § 8

@@ -7,11 +7,34 @@ refid: "lov/2009-06-19-100"
 
 ## (annet)
 
+### 2010-10-01 — forskrift/2010-09-17-1276
+
+*Endringene i lov 29. mai 1981 nr. 38 om jakt og fangst av vilt § 26 og lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold § 17 skal gjelde fra 1. oktober 2010.*
+
+> Endringene i lov 29. mai 1981 nr. 38 om jakt og fangst av vilt § 26 og lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold § 17 skal gjelde fra 1. oktober 2010.
+>
+
+### 2011-02-01 — forskrift/2011-01-07-10
+
+*Lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold (naturmangfoldloven) § 78 nr. 15 trer i kraft 1. februar 2011.*
+
+> Lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold (naturmangfoldloven) § 78 nr. 15 trer i kraft 1. februar 2011.
+>
+> Lov 3. juni 1983 nr. 40 om saltvannsfiske § 4 siste ledd oppheves.
+>
+
 ### 2012-06-22 — lov/2012-06-22-56
 
 *I lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold skal § 17 annet ledd lyde:*
 
 > Vilt kan avlives når det må anses påkrevd for å fjerne en aktuell og betydelig fare for skade på person. Eieren, eller en som opptrer på vegne av eieren, kan avlive vilt under direkte angrep på bufe, tamrein, gris, hund og fjørfe.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-587
+
+*Loven trer i kraft 1. juli 2012.*
+
+> Loven trer i kraft 1. juli 2012.
 >
 
 ### 2012-07-01 — forskrift/2012-06-22-588
@@ -32,11 +55,29 @@ refid: "lov/2009-06-19-100"
 > Lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold § 17a trer i kraft fra 1. juli 2012.
 >
 
+### 2012-07-01 — forskrift/2013-01-25-72
+
+*---*
+
+> ---
+>
+> Kongelig resolusjon 22. juni 2012 nr. 588 om delt ikraftsetting av Stortingets vedtak til lov om forvaltning av naturens mangfold kapittel IV oppheves.
+>
+> Delvis ikraftsetting av kapittel IV i lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold. § 28, § 30, § 31 og § 32 gjelder fra 1. juli 2012 for utenlandske treslag.
+>
+
 ### 2012-08-10 — lov/2012-08-10-62
 
 *I lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold skal § 75 første ledd annet punktum lyde:*
 
 > På samme måte straffes den som forsettlig eller uaktsomt overtrer bestemmelser i forskrifter eller i enkeltvedtak som nevnt i § 77 første punktum.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1204
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
 >
 
 ### 2013-06-14 — lov/2013-06-14-51
@@ -54,15 +95,59 @@ refid: "lov/2009-06-19-100"
 > Loven trer i kraft fra 1. juli 2013.
 >
 
+### 2013-07-01 — forskrift/2013-06-14-674
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
 ### 2014-03-28 — lov/2014-03-28-9
 
 *Nåværende femte ledd blir til nytt sjette ledd.*
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
 
 ### 2014-06-20 — forskrift/2014-06-20-801
 
 *Loven trer i kraft straks.*
 
 > Loven trer i kraft straks.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1583
+
+*Delt ikraftsetting av lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold. Kapittel IV samt § 78 nr. 8 og den delen av § 78 nr. 7 som gjelder oppheving av viltloven § 47 trer i kraft 1. januar 2016.*
+
+> Delt ikraftsetting av lov 19. juni 2009 nr. 100 om forvaltning av naturens mangfold. Kapittel IV samt § 78 nr. 8 og den delen av § 78 nr. 7 som gjelder oppheving av viltloven § 47 trer i kraft 1. januar 2016.
+>
+
+### 2016-11-18 — forskrift/2016-11-18-1343
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-786
+
+*Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.
 >
 
 ### 2020-06-19 — forskrift/2020-06-19-1236
@@ -79,6 +164,13 @@ refid: "lov/2009-06-19-100"
 > Delt ikraftsetting av lov 21. juni 2019 nr. 54 om endringer i forurensningsloven, produktkontrolloven, naturmangfoldloven og svalbardmiljøloven mv. (innføring av overtredelsesgebyr og heving av strafferammer). Loven del V, endringene i naturmangfoldloven § 74, trer i kraft 1. januar 2021.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2022-06-17 — forskrift/2022-06-17-1039
 
 *Loven trer i kraft 17. juni 2022.*
@@ -86,11 +178,36 @@ refid: "lov/2009-06-19-100"
 > Loven trer i kraft 17. juni 2022.
 >
 
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ### 2026-01-01 — forskrift/2025-12-22-2814
 
 *Loven trer i kraft 1. januar 2026.*
 
 > Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 14

@@ -30,6 +30,13 @@ refid: "lov/2021-12-22-163"
 > opplysninger om identiteten til fysiske og juridiske personer som må anses å ha nære forbindelser med foretaket, jf. finanstilsynsloven § 3-3 tredje ledd annet punktum med tilhørende forskrifter.
 >
 
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
+>
+
 ### 2026-06-19 — lov/2026-06-19-40
 
 *Nye §§ 10-6 til 10-8 skal lyde:*

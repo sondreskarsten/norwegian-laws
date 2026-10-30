@@ -14,6 +14,41 @@ refid: "lov/2010-06-25-45"
 > Loven gjelder fra 1. januar 2013.
 >
 
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1548
+
+*Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.
+>
+
 ### 2021-04-16 — lov/2021-04-16-20
 
 *Overskriften i § 18 skal lyde:*
@@ -143,6 +178,17 @@ refid: "lov/2010-06-25-45"
 > Loven trer i kraft 1. juli 2025.
 >
 
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2012-12-14 — lov/2012-12-14-90
@@ -160,6 +206,12 @@ refid: "lov/2010-06-25-45"
 >
 > Lovens formål er å beskytte liv, helse, miljø, materielle verdier og kritisk infrastruktur og å tilrettelegge for bruk av det sivile samfunnets samlede ressurser ved bruk av ikke-militær makt når riket er i krig, når krig truer, når rikets selvstendighet eller sikkerhet er i fare, og ved uønskede hendelser i fredstid.
 >
+
+## § 11
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 11 annet ledd oppheves. Tredje ledd blir nytt annet ledd.*
 
 ## § 12
 
@@ -264,7 +316,9 @@ refid: "lov/2010-06-25-45"
 
 *§ 3 første ledd ny bokstav d og e skal lyde:*
 
-> Kritisk infrastruktur: anlegg, systemer eller deler av disse som er nødvendige for å opprettholde sentrale samfunnsfunksjoner, menneskers helse, sikkerhet, trygghet og økonomiske eller sosiale velferd og hvor driftsforstyrrelse eller ødeleggelse av disse vil kunne få betydelige konsekvenser.Europeisk kritisk infrastruktur: kritisk infrastruktur hvis driftsforstyrrelse eller ødeleggelse vil kunne få betydelige konsekvenser for to eller flere EØS-stater. Betydningen av konsekvensene skal vurderes ut fra de sektorovergripende kriteriene i § 24a fjerde ledd.
+> Kritisk infrastruktur: anlegg, systemer eller deler av disse som er nødvendige for å opprettholde sentrale samfunnsfunksjoner, menneskers helse, sikkerhet, trygghet og økonomiske eller sosiale velferd og hvor driftsforstyrrelse eller ødeleggelse av disse vil kunne få betydelige konsekvenser.
+>
+> Europeisk kritisk infrastruktur: kritisk infrastruktur hvis driftsforstyrrelse eller ødeleggelse vil kunne få betydelige konsekvenser for to eller flere EØS-stater. Betydningen av konsekvensene skal vurderes ut fra de sektorovergripende kriteriene i § 24a fjerde ledd.
 >
 
 ### 2021-04-16 — lov/2021-04-16-20

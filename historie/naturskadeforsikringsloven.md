@@ -18,6 +18,36 @@ refid: "lov/1989-06-16-70"
 > Loven gjelder fra 1. januar 2018.
 >
 
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1033
+
+*Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del II (atomenergiloven)
+>
+> Endringsloven del IV (lov 18. desember 2020 nr. 146 om finansavtaler)
+>
+> Endringsloven del V (lov 18. februar 2022 nr. 5 om endringer i forsikringsavtaleloven mv. (forsikringsdistribusjon mv.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del III (straffeprosessloven)
+>
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (naturskadeforsikringsloven) § 1 første ledd annet punktum
+>
+> Endringsloven del VI nr. 2.
+>
+
 ### 2024-12-13 — lov/2024-12-13-78
 
 *I lov 16. juni 1989 nr. 70 om naturskadeforsikring skal § 1 første ledd nytt fjerde punktum lyde:*
@@ -43,9 +73,23 @@ refid: "lov/1989-06-16-70"
 > del VI nr. 3.
 >
 
+### 2025-01-01 — forskrift/2024-12-13-3090
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-20 — lov/2025-06-20-78
 
 *Noverande femte ledd blir nytt sjette ledd.*
+
+### 2025-06-20 — forskrift/2025-06-20-1106
+
+*Lovens del I trer i kraft 1. januar 2026. Lovens del II og III trer i kraft straks.*
+
+> Lovens del I trer i kraft 1. januar 2026. Lovens del II og III trer i kraft straks.
+>
 
 ## § 1
 
@@ -54,6 +98,13 @@ refid: "lov/1989-06-16-70"
 *§ 1 første ledd skal lyde:*
 
 > Ting i Norge som er forsikret mot brannskade, er også forsikret mot naturskade, dersom skaden på vedkommende ting ikke dekkes av annen forsikring. Med naturskade forstås skade som direkte skyldes naturulykke, så som skred, storm, flom, stormflo, jordskjelv eller vulkanutbrudd. Er den forsikrede ting et bolighus eller fritidshus, omfatter forsikringen også naturskader på hage, hageanlegg og gårdsplass oppad begrenset til 5 dekar, inkludert den delen av en tilførselsvei som ligger innenfor hagen, hageanlegget og gårdsplassen.
+>
+
+### 2014-08-15 — lov/2014-08-15-59
+
+*§ 1 fjerde ledd skal lyde:*
+
+> Er det nedlagt bygge- og deleforbud etter lov om sikring mot naturskader § 22, gis ikke erstatning for skade på byggverk som siden er oppført på vedkommende område, eller for løsøre som befinner seg i byggverket når skaden er av slik art som vedtaket gjelder.
 >
 
 ### 2017-04-21 — lov/2017-04-21-17
@@ -76,6 +127,15 @@ refid: "lov/1989-06-16-70"
 
 ## § 2
 
+### 2014-08-15 — lov/2014-08-15-59
+
+*§ 2 skal lyde:*
+
+> Er det tvil om det foreligger naturskade etter § 1 første ledd eller om betingelsene for nedsettelse eller nektelse av erstatning etter § 1 tredje ledd, er til stede, kan forsikringsselskapet eller den sikrede forelegge spørsmålet for Klagenemnda for naturskadesaker, jf. naturskadeerstatningsloven § 21. Selskapet skal underrette sikrede om hans rett etter bestemmelsen her. Klagenemndas vedtak kan ikke påklages.
+>
+> Hvis forsikringsselskapet ved behandlingen av en skadesak finner at et område er særlig utsatt for skred eller annen naturskade, jf. lov om sikring mot naturskader § 20, skal det snarest underrette vedkommende kommune om dette.
+>
+
 ### 2017-04-21 — lov/2017-04-21-17
 
 *§ 2 første ledd første punktum skal lyde:*
@@ -84,6 +144,17 @@ refid: "lov/1989-06-16-70"
 >
 
 ## § 3
+
+### 2014-08-15 — lov/2014-08-15-59
+
+*§ 3 fjerde ledd skal lyde:*
+
+> Oppstår det tvil om det er inntruffet én eller flere naturkatastrofer, kan forsikringsselskapet eller den sikrede forelegge spørsmålet for Klagenemnda for naturskadesaker, jf. naturskadeerstatningsloven § 21. Selskapet skal underrette sikrede om hans rett etter bestemmelsen her. Klagenemndas vedtak kan ikke påklages.
+>
+> 3. I lov 17. desember 1982 nr. 86 om rettsgebyr oppheves § 11 fjerde ledd annet punktum.
+>
+> 4. I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal § 30 nr. 27 lyde:Lov 25. mars 1994 nr. 7 om sikring mot naturskader.
+>
 
 ### 2025-06-20 — lov/2025-06-20-78
 

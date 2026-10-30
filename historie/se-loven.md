@@ -7,9 +7,44 @@ refid: "lov/2005-04-01-14"
 
 ## (annet)
 
+### 2007-02-27 — lov/2007-01-26-3
+
+*139. I lov 1. april 2005 nr.14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001) (SE-loven) skal § 8 annet ledd lyde:*
+
+> En anke over kjennelse om oppløsning når et europeisk selskap ikke lenger oppfyller kravene i SE-forordningen artikkel 7, har oppsettende virkning.
+>
+
+### 2007-06-29 — lov/2007-06-29-74
+
+*5. I lov 1. april 2005 nr. 14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001) (SE-loven) skal § 7 annet ledd bokstav e lyde:*
+
+> lov 29. juni 2007 nr. 74 om regulerte markeder § 7,
+>
+
 ### 2011-11-18 — lov/2011-11-18-42
 
 *I lov 1. april 2005 nr. 14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001) skal § 7 første ledd bokstav f oppheves.*
+
+### 2012-01-01 — forskrift/2011-11-18-1107
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-28-1667
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del *
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
+>
 
 ### 2022-12-20 — lov/2022-12-20-122
 

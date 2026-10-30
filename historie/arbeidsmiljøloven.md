@@ -107,7 +107,9 @@ refid: "lov/2005-06-17-62"
 
 *§ 2-2 første ledd bokstav b og ny bokstav c skal lyde:*
 
-> samarbeide med andre arbeidsgivere for å sikre et fullt forsvarlig arbeidsmiljø,sørge for at innleid arbeidstakers arbeidstid er i samsvar med bestemmelsene i kapittel 10.
+> samarbeide med andre arbeidsgivere for å sikre et fullt forsvarlig arbeidsmiljø,
+>
+> sørge for at innleid arbeidstakers arbeidstid er i samsvar med bestemmelsene i kapittel 10.
 >
 
 ### 2023-03-17 — lov/2023-03-17-3
@@ -203,6 +205,13 @@ refid: "lov/2005-06-17-62"
 *§ 4-1 sjette ledd skal lyde:*
 
 > (6) Departementet kan gi forskrift som pålegger bruk av identitetskort for arbeidstakere innenfor bransjer der det er nødvendig eller hensiktsmessig for å ivareta arbeidstakernes helse, miljø og sikkerhet og om oversiktslister over hvem som til enhver tid er sysselsatt på arbeidsplassen. Etter pålegg fra departementet plikter offentlige myndigheter uten hinder av taushetsplikt å gi utsteder av identitetskort alle opplysninger fra offentlige registre som er nødvendige for utstedelse av identitetskort.
+>
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 4-1 fjerde ledd skal lyde:*
+
+> (4) Atkomstveier, sanitæranlegg, arbeidsutstyr mv. skal så langt det er mulig og rimelig være utformet og innrettet slik at arbeidstakere med nedsatt funksjonsevne kan arbeide i virksomheten.
 >
 
 ### 2009-06-19 — lov/2009-06-19-39
@@ -307,6 +316,19 @@ refid: "lov/2005-06-17-62"
 ### 2014-06-20 — lov/2014-06-20-26
 
 *§ 4-6 nåværende femte ledd blir nytt sjette ledd.*
+
+## § 5-1
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 5-1 fjerde ledd skal lyde:*
+
+> (4) Arbeidsgiver skal føre statistikk over sykefravær og fravær ved barns sykdom etter nærmere retningslinjer fra Arbeids- og velferdsdirektoratet, jf. folketrygdloven § 25-2 første ledd.
+>
+> I følgende bestemmelser skal betegnelsen «Aetat» endres til «Arbeids- og velferdsetaten»:
+>
+> § 14-9 første ledd bokstav d, § 15-2 tredje ledd tredje punktum, fjerde ledd, femte ledd første og annet punktum og § 15-11 fjerde ledd.
+>
 
 ## § 5-4
 
@@ -456,6 +478,26 @@ refid: "lov/2005-06-17-62"
 > § 9-5.Innsyn i arbeidstakers e-post mv.
 >
 > Arbeidsgivers rett til innsyn i arbeidstakers e-post mv. reguleres i forskrift gitt i medhold av personopplysningsloven § 3 fjerde ledd første punktum.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 9-5 skal lyde:*
+
+> § 9-5.Innsyn i arbeidstakers e-postkasse mv.
+>
+> Departementet kan gi forskrift om arbeidsgivers rett til innsyn i arbeidstakers e-postkasse og annet elektronisk lagret materiale, blant annet om adgangen til innsyn, prosedyrer ved innsyn og plikten til å slette opplysninger.
+>
+
+## § 9-6
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*Ny § 9-6 skal lyde:*
+
+> § 9-6.Kameraovervåking
+>
+> Departementet kan gi forskrift om kameraovervåking i virksomheten, blant annet om adgangen til å iverksette kameraovervåking, varsling om at slik overvåking finner sted, og utlevering og sletting av opptak gjort ved slik overvåking.
 >
 
 ## § 10-2
@@ -746,6 +788,20 @@ refid: "lov/2005-06-17-62"
 
 ## § 12-9
 
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 12-9 tredje ledd første punktum skal lyde:*
+
+> Dersom barnet har kronisk sykdom, langvarig sykdom eller har nedsatt funksjonsevne og det derfor er en markert økning av risikoen for at arbeidstaker får fravær fra arbeidet, har arbeidstaker rett til fri etter første ledd i inntil 20 dager hvert kalenderår.
+>
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 12-9 femte ledd annet punktum skal lyde:*
+
+> Det samme gjelder hvis det er to om omsorgen, men en av dem er langvarig avskåret fra tilsynet med barnet på grunn av nedsatt funksjonsevne, innleggelse i helseinstitusjon som langtidspasient eller tilsvarende forhold.
+>
+
 ### 2017-10-01 — lov/2017-05-11-25
 
 *§ 12-9 andre ledd skal lyde:*
@@ -804,6 +860,41 @@ refid: "lov/2005-06-17-62"
 
 ## § 13-1
 
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 13-1 første ledd skal lyde:*
+
+> (1) Direkte og indirekte diskriminering på grunn av politisk syn, medlemskap i arbeidstakerorganisasjon, seksuell orientering eller alder er forbudt.
+>
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 13-1 nytt sjette ledd skal lyde:*
+
+> (6) Ved diskriminering på grunn av nedsatt funksjonsevne gjelder diskriminerings- og tilgjengelighetsloven.
+>
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*§ 13-1 skal lyde:*
+
+> § 13-1.Forbud mot diskriminering
+>
+> (1) Direkte og indirekte diskriminering på grunn av politisk syn, medlemskap i arbeidstakerorganisasjon eller alder er forbudt.
+>
+> (2) Trakassering og instruks om å diskriminere personer av grunner nevnt i første ledd anses som diskriminering.
+>
+> (3) Bestemmelsene i dette kapittel gjelder tilsvarende ved diskriminering av arbeidstaker som arbeider deltid eller er midlertidig ansatt.
+>
+> (4) Ved diskriminering på grunn av kjønn gjelder likestillingsloven.
+>
+> (5) Ved diskriminering på grunn av etnisitet, religion og livssyn gjelder diskrimineringsloven om etnisitet.
+>
+> (6) Ved diskriminering på grunn av nedsatt funksjonsevne gjelder diskriminerings- og tilgjengelighetsloven.
+>
+> (7) Ved diskriminering på grunn av seksuell orientering, kjønnsidentitet og kjønnsuttrykk gjelder diskrimineringsloven om seksuell orientering.
+>
+
 ### 2018-06-22 — lov/2018-06-22-45
 
 *§ 13-1 femte til sjuende ledd oppheves.*
@@ -839,6 +930,25 @@ refid: "lov/2005-06-17-62"
 > Tilsvarende gjelder for opplysninger om søkerens samlivsform.
 >
 
+### 2013-06-21 — lov/2013-06-21-61
+
+*§ 13-4 skal lyde:*
+
+> § 13-4.Innhenting av opplysninger ved ansettelse
+>
+> (1) Arbeidsgiver må ikke i utlysing etter nye arbeidstakere eller på annen måte be om at søkerne skal gi opplysninger om hvordan de stiller seg til politiske spørsmål eller om de er medlemmer av arbeidstakerorganisasjoner. Arbeidsgiver må heller ikke iverksette tiltak for å innhente slike opplysninger på annen måte.
+>
+> (2) Forbudet i første ledd gjelder ikke dersom innhenting av opplysninger om hvordan søkerne stiller seg til politiske spørsmål eller om de er medlemmer av arbeidstakerorganisasjon er begrunnet i stillingens karakter eller det inngår i formålet for vedkommende virksomhet å fremme bestemte politiske syn og arbeidstakerens stilling vil være av betydning for gjennomføringen av formålet. Dersom slike opplysninger vil bli krevet, må dette angis i utlysingen av stillingen.
+>
+> (3) Arbeidsgiver kan heller ikke innhente opplysninger som angitt i likestillingsloven § 18, diskrimineringsloven om etnisitet § 17 og diskrimineringsloven om seksuell orientering § 16.
+>
+
+## § 13-5
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*§ 13-5 oppheves.*
+
 ## § 13-8
 
 ### 2006-12-01 — lov/2006-12-01-64
@@ -860,6 +970,21 @@ refid: "lov/2005-06-17-62"
 >
 > (2) Erstatning for økonomisk tap som følge av diskriminering i strid med dette kapittel, kan kreves etter de alminnelige regler.
 >
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*§ 13-9 første ledd skal lyde:*
+
+> (1) Den som er blitt diskriminert i strid med § 13-1 kan kreve oppreisning og erstatning uavhengig av om arbeidsgiveren kan bebreides for diskrimineringen. Erstatningen skal dekke økonomisk tap som følge av diskrimineringen. Oppreisning for ikke-økonomisk skade fastsettes til det som er rimelig ut fra skadens omfang og art, partenes forhold og omstendighetene for øvrig.
+>
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*§ 13-9 andre ledd oppheves.*
+
+### 2013-06-21 — lov/2013-06-21-61
+
+*§ 13-9 tredje ledd blir nytt andre ledd.*
 
 ## § 14-1
 
@@ -1130,7 +1255,11 @@ refid: "lov/2005-06-17-62"
 
 *§ 14-9 første ledd andre punktum bokstav d, bokstav e og ny bokstav f skal lyde:*
 
-> med deltaker i arbeidsmarkedstiltak i regi av eller i samarbeid med arbeids- og velferdsetaten,med idrettsutøvere, idrettstrenere, dommere og andre ledere innen den organiserte idretten ellerfor en periode på inntil tolv måneder. Slike avtaler kan omfatte inntil 15 prosent av arbeidstakerne i virksomheten, avrundet oppover, likevel slik at det kan inngås avtale med minst én arbeidstaker.
+> med deltaker i arbeidsmarkedstiltak i regi av eller i samarbeid med arbeids- og velferdsetaten,
+>
+> med idrettsutøvere, idrettstrenere, dommere og andre ledere innen den organiserte idretten eller
+>
+> for en periode på inntil tolv måneder. Slike avtaler kan omfatte inntil 15 prosent av arbeidstakerne i virksomheten, avrundet oppover, likevel slik at det kan inngås avtale med minst én arbeidstaker.
 >
 
 ### 2015-04-24 — lov/2015-04-24-20
@@ -1567,6 +1696,15 @@ refid: "lov/2005-06-17-62"
 *§ 15-1 annet punktum skal lyde:*
 
 > Både grunnlaget for oppsigelsen og eventuell utvelgelse mellom flere ansatte av hvem som skal sies opp, skal drøftes.
+>
+
+## § 15-2
+
+### 2008-06-06 — lov/2008-06-06-38
+
+*§ 15-2 andre ledd skal lyde:*
+
+> (2) Arbeidsgiver som vurderer å gå til masseoppsigelser, skal så tidlig som mulig innlede drøftinger med arbeidstakernes tillitsvalgte med sikte på å komme fram til en avtale for å unngå masseoppsigelser eller for å redusere antall oppsagte. Vurderer arbeidsgiver å legge ned virksomheten eller en selvstendig del av denne, og nedleggelsen innebærer en masseoppsigelse, skal også muligheten for videre drift drøftes, herunder om mulighetene for de ansattes overtakelse av virksomheten. Dersom oppsigelser ikke kan unngås, skal de uheldige sidene ved dem søkes redusert. Drøftingene skal omfatte mulige sosiale tiltak med sikte på blant annet støtte til omplassering eller omskolering av de oppsagte. Arbeidstakernes tillitsvalgte kan la seg bistå av sakkyndige. Arbeidsgiver har plikt til å innlede drøftinger selv om de planlagte oppsigelsene skyldes andre enn arbeidsgiver og som har beslutningsmyndighet overfor denne, f.eks. en konsernledelse.
 >
 
 ## § 15-3
@@ -2364,145 +2502,6 @@ refid: "lov/2005-06-17-62"
 > Foreldrene har rett til permisjon etter reglene i paragrafen her og i §§ 12-2 og 12-4 i til sammen tolv måneder. Foreldrene har uansett rett til permisjon når det ytes foreldrepenger fra folketrygden.
 >
 
-### 2008-06-06 — lov/2008-06-06-38
-
-*Endring i følgjande lov:*
-
-> Endring i følgjande lov:
->
-> Lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljølova).
->
-> § 1
->
-> .
->
-> Formålet med lova
->
-> Lova skal leggje til rette for ein prosess der ein vurderer tiltak for vidare drift og andre tiltak som reduserer dei negative konsekvensane for dei tilsette og for lokalsamfunnet når det er på tale å leggje ned ei bedrift.
->
-> § 2
->
-> .
->
-> Verkeområde
->
-> Lova gjeld når det er planar om å leggje ned ei bedrift der det har arbeidd 30 tilsette eller fleire i dei siste 12 månadene, eller når det er planar om å seie opp meir enn ni tidelar av dei tilsette som arbeider i ei slik bedrift.
->
-> Lova gjeld ikkje dersom bedrifta skal flytte innanfor den same fylkeskommunen eller dersom bedrifta vert handsama etter lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs.
->
-> Departementet kan i forskrift gje utfyllande reglar om når lova skal gjelde.
->
-> § 3
->
-> .
->
-> Plikt til å sende inn melding til fylkeskommunen
->
-> Eigaren av ei bedrift som er omfatta av § 2, skal sende melding til fylkeskommunen der bedrifta ligg, om planane om nedlegging.
->
-> Meldinga skal innehalde:
->
-> talet på tilsette som arbeider ved bedrifta
->
-> informasjon om verksemda ved bedrifta
->
-> ei vurdering av konsekvensane for dei tilsette og lokalsamfunnet om bedrifta vert lagd ned
->
-> bakgrunnen for planane om nedlegging
->
-> informasjon om kva vurderingar eigaren eller andre har gjort om alternativ verksemd for bedrifta
->
-> ei vurdering av kva som må til for at verksemda i bedrifta kan halde fram
->
-> informasjon om det har vore forhandlingar med dei tilsette om nedlegginga
->
-> Meldinga skal også innehalde annan informasjon som er nødvendig for at drøftingane etter § 5 kan ta til. Fylkeskommunen kan be eigaren om meir informasjon i tillegg til eller til utdjuping av informasjonen som er gitt etter andre ledd.
->
-> § 4
->
-> .
->
-> Endeleg avgjerd om nedlegging
->
-> Bedrifta kan ikkje treffe endeleg avgjerd om nedlegging før 30 dagar etter at fylkeskommunen har fått meldinga etter § 3. Dersom det er aktuelle alternativ til å legge ned bedrifta, kan fylkeskommunen i særlege tilfelle forlengje denne perioden med inntil 30 dagar.
->
-> § 5
->
-> .
->
-> Behandling av meldinga
->
-> Når fylkeskommunen har mottatt melding etter § 3, skal den så snart som mogleg kalle inn representantar for eigaren, leiinga og dei tilsette i bedrifta, kommunen, Innovasjon Noreg og Arbeids- og velferdsetaten til drøftingsmøte. Fylkeskommunen kan også kalle inn andre til møtet.
->
-> Fylkeskommunen skal saman med deltakarane kartleggje og vurdere tiltak for vidare drift eller andre alternativ til å legge ned bedrifta. I drøftingane skal ein alltid vurdere kompensasjons- og omstillingsmoglegheiter for dei tilsette og moglege tiltak for lokalsamfunnet.
->
-> Dersom det er heilt klart at drøftingane ikkje vil føre fram, skal fylkeskommunen så snart som mogleg melde frå til alle deltakarane om at drøftinga er avslutta, sjølv om perioden etter § 4 første ledd ikkje er omme.
->
-> Alle som deltek i behandlinga av meldingar etter denne lova, skal ha teieplikt etter reglane i forvaltningslova §§ 13 til 13 e.
->
-> § 6
->
-> .
->
-> Råderettsband
->
-> Etter at det er sendt melding etter § 3 til fylkeskommunen og fram til drøftingane er avslutta etter § 5 eller perioden på 30 dagar etter § 4 er omme, kan eigaren ikkje gjere rettslege eller faktiske disposisjonar som vesentleg svekkjer verdien av bedrifta.
->
-> Fylkeskommunen kan gjere unnatak frå denne føresegna i kvart enkelt tilfelle.
->
-> § 7
->
-> .
->
-> Tvangsmulkt
->
-> Dersom den ansvarlege ikkje oppfyller pliktene etter §§ 3, 4 og 6 eller forskrift eller enkeltvedtak som er fastsett i medhald av desse føresegnene, kan fylkeskommunen påleggje den ansvarlege ei tvangsmulkt.
->
-> Tvangsmulkta kan vere laupande eller eit eingongsbeløp. Skal mulkta vere laupande, kan fylkeskommunen bestemme at mulkta skal betalast frå ei veke etter vedtaket om å påleggje tvangsmulkt, eller frå ein særskilt frist som er satt for å rette forholdet, om forholdet ikkje er retta innan fristen. Skal mulkta vere eit eingongsbeløp, kan fylkeskommunen fastsetje at mulkta skal betalast når ein særskilt frist som er sett for å rette forholdet er omme, og forholdet ikkje er retta innan fristen.
->
-> Tvangsmulkta går til statskassen og er tvangsgrunnlag for utlegg.
->
-> Fylkeskommunen kan i særlege tilfelle redusere eller gje opp tvangsmulkta.
->
-> Kongen kan i forskrift fastsetje nærmare føresegner om påleggjing av tvangsmulkt, herunder om vilkår for tvangsmulkt og om storleiken på tvangsmulkta og renter ved forseinka betaling.
->
-> § 8
->
-> .
->
-> Lovbrotsgebyr
->
-> Fylkeskommunen kan ved brot på § 4 påleggje eit lovbrotsgebyr til staten. Kongen gir i forskrift føresegner om storleiken på gebyret.
->
-> Lovbrotsgebyrer vert pålagt den som etter § 3 har plikt til å sende melding til fylkeskommunen. Kongen kan gi reglar om auka gebyr ved gjentekne brot på pliktene. Fylkeskommunen kan i særlege tilfelle gje opp kravet om lovbrotsgebyr.
->
-> Pålagt lovbrotsgebyr er tvangsgrunnlag for utlegg.
->
-> Kongen kan gi nærmare reglar om gjennomføringa av føresegnen i denne paragrafen, herunder om inndrivinga og om betalingsfrist. Det kan fastsetjast at det skal betalast renter av ilagt lovbrotsgebyr.
->
-> § 9
->
-> .
->
-> Iverksetjing
->
-> Lova gjeld frå den tid Kongen fastset.
->
-> § 10
->
-> .
->
-> Endringar i andre lover
->
-> Frå den tida lova blir sett i verk, blir det gjort følgjande endringar i andre lover:
->
-> 1. I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljølova) blir det gjort følgjande endringar:
->
-> § 15-2 andre ledd skal lyde:
->
-> (2) Arbeidsgiver som vurderer å gå til masseoppsigelser, skal så tidlig som mulig innlede drøftinger med arbeidstakernes tillitsvalgte med sikte på å komme fram til en avtale for å unngå masseoppsigelser eller for å redusere antall oppsagte. Vurderer arbeidsgiver å legge ned virksomheten eller en selvstendig del av denne, og nedleggelsen innebærer en masseoppsigelse, skal også muligheten for videre drift drøftes, herunder om mulighetene for de ansattes overtakelse av virksomheten. Dersom oppsigelser ikke kan unngås, skal de uheldige sidene ved dem søkes redusert. Drøftingene skal omfatte mulige sosiale tiltak med sikte på blant annet støtte til omplassering eller omskolering av de oppsagte. Arbeidstakernes tillitsvalgte kan la seg bistå av sakkyndige. Arbeidsgiver har plikt til å innlede drøftinger selv om de planlagte oppsigelsene skyldes andre enn arbeidsgiver og som har beslutningsmyndighet overfor denne, f.eks. en konsernledelse.
->
-
 ### 2008-06-13 — lov/2008-06-13-40
 
 *I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) skal § 10-2 fjerde ledd første punktum lyde:*
@@ -2520,13 +2519,37 @@ refid: "lov/2005-06-17-62"
 
 ### 2009-06-19 — lov/2009-06-19-83
 
-*I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) skal § 1-6 første ledd bokstav c lyde:sivile tjenestepliktige og tjenestepliktige i sivilforsvaret,*
+*I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) skal § 1-6 første ledd bokstav c lyde:*
+
+> sivile tjenestepliktige og tjenestepliktige i sivilforsvaret,
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
 
 ### 2010-04-09 — lov/2010-04-09-11
 
 *Overskriften i § 12-10 skal lyde:*
 
 > Omsorg for og pleie av nære pårørende
+>
+
+### 2010-04-09 — forskrift/2010-04-09-501
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2010-07-01 — forskrift/2010-04-09-499
+
+*Loven trer i kraft 1. juli 2010.*
+
+> Loven trer i kraft 1. juli 2010.
 >
 
 ### 2010-07-01 — forskrift/2010-06-25-976
@@ -2543,6 +2566,17 @@ refid: "lov/2005-06-17-62"
 > (8) Når hensynet til helse, miljø og sikkerhet tilsier det, kan departementet i forskrift gi bestemmelser om at virksomheter som tilbyr renholdstjenester må godkjennes av Arbeidstilsynet, og om det nærmere innholdet i en slik godkjenningsordning. Når det stilles krav om slik godkjenning, vil det være ulovlig å benytte tjenester fra virksomheter uten godkjenning.
 >
 
+### 2012-01-27 — lov/2012-01-27-9
+
+*2. I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. skal § 15-17 lyde:*
+
+### 2012-03-01 — forskrift/2012-01-27-71
+
+*Loven trer i kraft fra 1. mars 2012.*
+
+> Loven trer i kraft fra 1. mars 2012.
+>
+
 ### 2012-12-14 — lov/2012-12-14-80
 
 *I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. skal § 18-3 første og andre ledd lyde:*
@@ -2550,6 +2584,20 @@ refid: "lov/2005-06-17-62"
 > (1) Virksomhet som går inn under denne lov, kan pålegges å betale til statskassen et årlig tilsynsgebyr eller gebyrer til dekning av utgifter til kontroll, godkjenning, sertifisering eller til pålagte undersøkelser eller prøver, herunder sektoravgift til dekning av utgifter ved andre oppfølgingsoppgaver som retter seg mot hele eller deler av petroleumsvirksomheten.
 >
 > (2) Departementet kan i forskrift gi nærmere regler om slike gebyrer og sektoravgift. Gebyrene og sektoravgift er tvangsgrunnlag for utlegg.
+>
+
+### 2013-01-01 — forskrift/2012-06-22-607
+
+*Loven trer i kraft fra 1. januar 2013 med unntak av tjenestemannsloven § 3D, arbeidsmiljøloven § 14-12c og ferieloven § 11 nr. 6 overskrift og andre punktum, som trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft fra 1. januar 2013 med unntak av tjenestemannsloven § 3D, arbeidsmiljøloven § 14-12c og ferieloven § 11 nr. 6 overskrift og andre punktum, som trer i kraft 1. juli 2013.
+>
+
+### 2013-01-01 — forskrift/2012-10-19-978
+
+*Loven trer i kraft fra 1. januar 2013 med unntak av folketrygdloven § 22-15 sjette ledd.*
+
+> Loven trer i kraft fra 1. januar 2013 med unntak av folketrygdloven § 22-15 sjette ledd.
 >
 
 ### 2013-06-07 — lov/2013-06-07-27
@@ -2574,9 +2622,37 @@ refid: "lov/2005-06-17-62"
 > Loven trer i kraft 1. januar 2014.
 >
 
+### 2014-01-01 — forskrift/2013-06-21-707
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2014-07-01 — forskrift/2014-06-20-793
+
+*Loven trer i kraft fra 1. juli 2014.*
+
+> Loven trer i kraft fra 1. juli 2014.
+>
+
 ### 2015-04-24 — lov/2015-04-24-21
 
 *Nåværende andre, tredje og fjerde ledd blir nytt femte, sjette og sjuende ledd.*
+
+### 2015-07-01 — forskrift/2015-04-24-398
+
+*Loven trer i kraft fra 1. juli 2015.*
+
+> Loven trer i kraft fra 1. juli 2015.
+>
+
+### 2015-07-01 — forskrift/2015-04-24-399
+
+*Loven trer i kraft fra 1. juli 2015 med unntak av sosialtjenesteloven § 20.*
+
+> Loven trer i kraft fra 1. juli 2015 med unntak av sosialtjenesteloven § 20.
+>
 
 ### 2015-12-18 — lov/2015-12-18-103
 
@@ -2640,6 +2716,13 @@ refid: "lov/2005-06-17-62"
 > (1) Med rekrutteringsklausul menes i dette kapittel avtale mellom arbeidsgiver og andre virksomheter som hindrer eller begrenser arbeidstakers muligheter til å ta ansettelse i annen virksomhet.
 >
 > (2) Arbeidsgiver kan ikke inngå rekrutteringsklausul. En rekrutteringsklausul kan likevel inngås ved forhandlinger om virksomhetsoverdragelse, og gjøres gjeldende under forhandlingene og i inntil seks måneder etter at forhandlingene er avsluttet, dersom disse ikke fører frem. En rekrutteringsklausul kan også inngås fra tidspunktet for virksomhetsoverdragelsen og gjøres gjeldende i inntil seks måneder, dersom arbeidsgiver skriftlig har informert alle berørte arbeidstakere.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1578
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2017-06-16 — lov/2017-06-16-42
@@ -2720,11 +2803,55 @@ refid: "lov/2005-06-17-62"
 > (1) Arbeidstilsynet gir de pålegg og treffer de enkeltvedtak ellers som er nødvendig for gjennomføringen av bestemmelsene i og i medhold av § 1-7, kapittel 2 til kapittel 11, samt §§ 14-1 a, 14-5 til 14-8, 14-9 første ledd bokstav f andre punktum og første ledd siste punktum, 14-12 andre ledd andre punktum, 14-12 tredje ledd, 14-15 femte ledd, 15-2 og 15-15. Dette gjelder likevel ikke §§ 2 A-1, 2 A-2, 10-2 andre til fjerde ledd og § 10-6 tiende ledd.
 >
 
+### 2018-01-01 — forskrift/2017-06-16-751
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2156
+
+*Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.*
+
+> Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
 ### 2019-01-01 — lov/2018-12-20-98
 
 *I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. skal § 14-9 sjette ledd andre punktum lyde:*
 
 > Ved beregning av ansettelsestid etter første punktum skal det ikke gjøres fradrag for arbeidstakers fravær.
+>
+
+### 2019-01-01 — forskrift/2018-06-22-944
+
+*Loven trer i kraft 1. januar 2019. Endringen i § 14-12 andre ledd gis virkning fra 1. juli 2019 når det gjelder konkrete innleieforhold som allerede eksisterer ved ikrafttredelsen.*
+
+> Loven trer i kraft 1. januar 2019. Endringen i § 14-12 andre ledd gis virkning fra 1. juli 2019 når det gjelder konkrete innleieforhold som allerede eksisterer ved ikrafttredelsen.
+>
+
+### 2019-01-01 — forskrift/2018-06-22-945
+
+*Loven trer i kraft fra 1. januar 2019.*
+
+> Loven trer i kraft fra 1. januar 2019.
 >
 
 ### 2019-06-21 — lov/2019-06-21-24
@@ -2797,6 +2924,13 @@ refid: "lov/2005-06-17-62"
 > Midlertidige arbeidsavtaler opphører ved det avtalte tidsrommets utløp, eller når det bestemte arbeidet er avsluttet, med mindre noe annet er skriftlig avtalt eller fastsatt i tariffavtale. I avtaleperioden gjelder lovens regler om opphør av arbeidsforhold.
 >
 
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
+>
+
 ### 2020-01-01 — forskrift/2019-06-21-806
 
 *Loven trer i kraft fra 1. januar 2020.*
@@ -2822,13 +2956,62 @@ refid: "lov/2005-06-17-62"
 > Rett til permisjon ved religiøse høytider for arbeidstaker som har andre religiøse høytidsdager enn de offentlige helligdagene, reguleres av trossamfunnsloven § 18.
 >
 
+### 2020-07-01 — forskrift/2020-06-19-1233
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2020-12-30 — forskrift/2020-11-27-2486
+
+*Ikraftsetting av lov 23. juni 2020 nr. 97 om endringer i gravferdsloven mv. (urnevegg mv.). Loven trer i kraft 30. desember 2020.*
+
+> Ikraftsetting av lov 23. juni 2020 nr. 97 om endringer i gravferdsloven mv. (urnevegg mv.). Loven trer i kraft 30. desember 2020.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1281
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2021-05-07 — lov/2021-05-07-29
 
-*I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. skal § 1-2 andre ledd bokstav a lyde:sjøfart, fangst og fiske, herunder bearbeiding av fangsten ombord i skip, men likevel slik at dykkeoperasjoner og losing er omfattet av loven*
+*I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. skal § 1-2 andre ledd bokstav a lyde:*
+
+> sjøfart, fangst og fiske, herunder bearbeiding av fangsten ombord i skip, men likevel slik at dykkeoperasjoner og losing er omfattet av loven
+>
 
 ### 2021-06-11 — lov/2021-06-11-59
 
 *Nåværende andre til femte ledd blir tredje til sjette ledd.*
+
+### 2021-07-01 — forskrift/2021-06-11-1872
+
+*Delt ikraftsetting av lov 10. juni 2021*
+
+> Delt ikraftsetting av lov 10. juni 2021
+>
+> om endringer i arbeidsmiljøloven mv. (tiltak for å bekjempe arbeidslivskriminalitet). Endringsloven trer i kraft 1. januar 2022 med unntak av del I, som trer i kraft 1. juli 2021.
+>
+> Skal være lov 11. juni 2021 nr. 59 om endringer i arbeidsmiljøloven mv. (tiltak for å bekjempe arbeidslivskriminalitet). Lovtidend-redaksjonens anmerkning.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-1973
+
+*Endringsloven trer i kraft 1. juli 2021.*
+
+> Endringsloven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
 
 ### 2022-04-08 — lov/2022-04-08-19
 
@@ -2878,11 +3061,32 @@ refid: "lov/2005-06-17-62"
 > Loven trer i kraft 1. januar 2023.
 >
 
+### 2023-01-01 — forskrift/2022-12-20-2309
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-04-01 — forskrift/2022-12-20-2300
+
+*Loven trer i kraft 1. april 2023.*
+
+> Loven trer i kraft 1. april 2023.
+>
+
 ### 2023-12-01 — lov/2023-12-01-86
 
 *I lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. skal § 1-2 andre ledd lyde:*
 
 > (2) Unntatt fra loven er:sjøfart, fangst og fiske, herunder bearbeiding av fangsten ombord i skip, men likevel slik at dykkeoperasjoner og losing er omfattet av lovenmilitær luftfart som omfattes av luftfartsloven.Departementet kan gi forskrift om unntak fra loven for sivil luftfart og annen statsluftfart enn militær luftfart og om særregler for slik luftfart og om lovens anvendelse for dykkeoperasjoner og om særregler og unntak for slike operasjoner.
+>
+
+### 2024-01-01 — forskrift/2023-03-17-341
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
 >
 
 ### 2024-01-01 — forskrift/2023-06-16-943
@@ -2915,6 +3119,20 @@ refid: "lov/2005-06-17-62"
 > Loven trer i kraft 1. juli 2024.
 >
 
+### 2024-07-01 — forskrift/2023-12-15-2066
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
+### 2024-07-01 — forskrift/2024-06-14-981
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2025-06-20 — lov/2025-06-20-36
 
 *Nåværende tredje og fjerde ledd blir andre og tredje ledd.*
@@ -2922,6 +3140,13 @@ refid: "lov/2005-06-17-62"
 ### 2025-06-20 — lov/2025-06-20-37
 
 *Nåværende første til femte ledd blir tredje til sjuende ledd.*
+
+### 2025-07-01 — forskrift/2025-06-20-1099
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
 
 ### 2025-07-01 — forskrift/2025-06-20-1118
 
@@ -2945,6 +3170,24 @@ refid: "lov/2005-06-17-62"
 > (4) Departementet kan gi forskrift om at virksomhet som nevnt i første til tredje ledd skal unntas helt eller delvis fra loven. Departementet kan også gi forskrift om at loven helt eller delvis skal gjelde for virksomhet som nevnt i første ledd i områder utenfor den norske del av kontinentalsokkelen dersom det foretas undersøkelser eller utnyttelse av naturforekomster på havbunnen eller i dens undergrunn fra en innretning registrert i norsk skipsregister, eller det gjennomføres bemannede undervannsoperasjoner fra en innretning eller et fartøy registrert i norsk skipsregister. Departementet kan også gi forskrift om at loven skal gjelde ved forflytning av innretning eller fartøy som nevnt.
 >
 > (5) I forskrift etter denne paragrafen kan det også fastsettes særregler.
+>
+
+### 2026-01-01 — forskrift/2025-05-27-856
+
+*Loven trer i kraft 1. januar 2026. Bestemmelser i tariffavtaler om lavere aldersgrense enn 72 år for opphør av arbeidsforhold gjelder inntil tariffavtalen utløper, jf. arbeidstvistloven § 5, men likevel ikke lenger enn tre år fra lovens ikrafttredelse.*
+
+> Loven trer i kraft 1. januar 2026. Bestemmelser i tariffavtaler om lavere aldersgrense enn 72 år for opphør av arbeidsforhold gjelder inntil tariffavtalen utløper, jf. arbeidstvistloven § 5, men likevel ikke lenger enn tre år fra lovens ikrafttredelse.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-01-01 — forskrift/2025-06-20-1120

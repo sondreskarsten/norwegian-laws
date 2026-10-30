@@ -161,6 +161,20 @@ refid: "lov/2020-06-19-77"
 
 ## (annet)
 
+### 2021-01-01 — forskrift/2020-11-10-2296
+
+*Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven trer i kraft 1. januar 2021, med unntak av kapittel 7 og 8.*
+
+> Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven trer i kraft 1. januar 2021, med unntak av kapittel 7 og 8.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2022-01-01 — forskrift/2021-08-26-2581
 
 *Delt ikraftsetting av lov 19. juni 2020 nr. 77 om Etterretningstjenesten (etterretningstjenesteloven). Loven kapittel 7 og 8 trer i kraft 1. januar 2022, med unntak av § 7-3.*
@@ -210,4 +224,11 @@ refid: "lov/2020-06-19-77"
 *7. I lov 19. juni 2020 nr. 77 om Etterretningstjenesten skal § 2-7 andre ledd første punktum lyde:*
 
 > Bestemmelsene i ekomloven kapittel 15 gjelder ikke i den utstrekning de vil gi myndigheten innsyn i Etterretningstjenestens virksomhet.
+>
+
+### 2025-01-01 — forskrift/2024-12-13-3095
+
+*Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.*
+
+> Lov om elektronisk kommunikasjon trer i kraft 1. januar 2025.
 >

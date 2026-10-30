@@ -156,6 +156,13 @@ refid: "lov/2013-06-21-102"
 
 ## (annet)
 
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
 ### 2017-06-16 — lov/2017-06-16-72
 
 *Nåværende § 4-7 tredje ledd blir nytt sjette ledd.*
@@ -165,6 +172,13 @@ refid: "lov/2013-06-21-102"
 *Loven trer i kraft 1. juli 2017.*
 
 > Loven trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-751
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
 >
 
 ### 2019-06-14 — lov/2019-06-14-22
@@ -212,6 +226,13 @@ refid: "lov/2013-06-21-102"
 > (3) Dersom tidligere eller ny arbeidsgiver planlegger tiltak overfor arbeidstakerne, skal de så tidlig som mulig drøfte tiltakene med de tillitsvalgte med sikte på å oppnå en avtale.
 >
 
+### 2019-08-01 — forskrift/2019-06-14-726
+
+*Loven trer i kraft 1. august 2019.*
+
+> Loven trer i kraft 1. august 2019.
+>
+
 ### 2022-11-25 — lov/2022-11-25-86
 
 *I lov 21. juni 2013 nr. 102 om stillingsvern mv. for arbeidstakere på skip skal ny § 4-9 lyde:*
@@ -221,4 +242,25 @@ refid: "lov/2013-06-21-102"
 > Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.
 >
 > Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i første ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
+>
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
+
+### 2026-07-01 — forskrift/2026-04-10-566
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >

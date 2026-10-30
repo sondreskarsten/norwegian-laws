@@ -21,13 +21,96 @@ refid: "lov/2011-06-24-29"
 > Den som utfører granskingen, skal uhindret ha adgang til å inspisere eiendom og virksomhet og til å ta nødvendige prøver uten godtgjøring. Det kan kreves fremlagt dokumenter og materiale og kreves foretatt undersøkelser som kan ha betydning for kommunens gjøremål etter dette kapittel. Kommunen kan videre pålegge virksomhet å innhente ny vurdering som nevnt i § 10 annet ledd. Omkostninger forbundet med granskingen betales av den ansvarlige for eiendommen eller virksomheten.
 >
 
+### 2013-07-01 — forskrift/2013-06-14-641
+
+*Lova tek til å gjelde frå 1. juli 2013.*
+
+> Lova tek til å gjelde frå 1. juli 2013.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1732
+
+*Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.*
+
+> Lov 20. juni 2014 nr. 42 om behandling av helseopplysninger ved ytelse av helsehjelp (pasientjournalloven) trer i kraft 1. januar 2015.
+>
+> Lov 20. juni 2014 nr. 43 om helseregistre og behandling av helseopplysninger (helseregisterloven) trer i kraft 1. januar 2015.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1593
+
+*Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.*
+
+> Loven trer i kraft 1. januar 2016 med unntak av del II, III, IV, VI endringene i § 18 første ledd og VII.
+>
+
 ### 2017-03-03 — lov/2017-03-03-8
 
 *Nåværende § 29 tredje ledd blir nytt fjerde ledd.*
 
+### 2017-03-03 — forskrift/2017-03-03-242
+
+*Ikraftsetting av endringsloven. Endringsloven trer i kraft straks.*
+
+> Ikraftsetting av endringsloven. Endringsloven trer i kraft straks.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-808
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
 ### 2020-06-19 — lov/2020-06-19-89
 
 *Nåværende § 9 andre ledd blir nytt tredje ledd.*
+
+### 2021-01-01 — forskrift/2020-09-25-1825
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapittel 25 trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapittel 25 trer i kraft 1. januar 2021.
+>
+> Ikraftsetting av lov 19. juni 2020 nr. 89 om endringer av internkontrollregler i sektorlovgivningen (tilpasning til ny kommunelov). Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
 
 ### 2025-06-20 — lov/2025-06-20-69
 
@@ -95,6 +178,13 @@ refid: "lov/2011-06-24-29"
 *Kapittel 6 kapitteloverskriften skal stå mellom §§ 32 og 33 og skal lyde:*
 
 > Forskrifter og ikrafttredelse mv.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1141
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av endringene i folkehelseloven § 20 fjerde ledd annet punktum.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av endringene i folkehelseloven § 20 fjerde ledd annet punktum.
 >
 
 ### 2026-02-01 — forskrift/2026-01-23-69

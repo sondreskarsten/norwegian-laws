@@ -1,12 +1,15 @@
 ---
 tittel: "Tilleggslov om krigspensjonering"
-refid: "lov/1968-03-22-2"
+refid: "lov/1951-06-29-34"
 ---
 
 # Endringshistorikk: Tilleggslov om krigspensjonering
 
-## § 5
+## (annet)
 
-### 2005-12-16 — lov/2005-12-16-118
+### 2022-04-01 — forskrift/2022-04-01-496
 
-*§ 5 oppheves.*
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
+>

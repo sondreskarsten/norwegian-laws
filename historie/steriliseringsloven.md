@@ -5,6 +5,42 @@ refid: "lov/1977-06-03-57"
 
 # Endringshistorikk: Steriliseringsloven – sterill
 
+## (annet)
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*97. I lov 3. juni 1977 nr. 57 om sterilisering skal § 11 tredje ledd lyde:*
+
+> Overtredelse av taushetsplikten straffes etter straffelovens § 209 selv om vedkommende ikke er offentlig tjenestemann.
+>
+
+### 2013-04-05 — lov/2013-04-05-12
+
+*19. I lov 3. juni 1977 nr. 57 om sterilisering skal § 4 fjerde ledd lyde:*
+
+> Er en person uten verge i tilfelle som nevnt i annet eller tredje ledd, skal fylkesmannen etter begjæring fra vedkommende lege eller nemnda (jfr. § 6 annet ledd) eller rådet (jfr. § 6 første ledd), oppnevne verge.
+>
+> 20. I lov 10. juni 1977 nr. 71 om anerkjennelse og fullbyrding av nordiske dommer på privatrettens område skal § 7 nr. 1 bokstav a lyde:avgjørelse eller forlik om oppheving av formuesfellesskapet, separasjon, skilsmisse, omstøting av ekteskap, stiftelse eller oppheving av adopsjonsforhold, hel eller delvis fratakelse av rettslig handleevne eller endring av vedtak om dette, eller om deling av formue eller erstatning i forbindelse med separasjon, skilsmisse eller omstøting av ekteskap, for så vidt gjelder fullbyrding får loven dog anvendelse på avgjørelse som har bindende virkning her i landet etter artikkel 22 i konvensjon 6 februar 1931 mellom Danmark, Finland, Island, Norge og Sverige angående internasjonal-privatrettslige bestemmelser om ekteskap, adopsjon og vergemål,
+>
+> 21. I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 12 nr. 1 bokstav a lyde:person under vergemål mot verge, eller
+>
+> 22. I lov 13. juni 1980 nr. 24 om ligningsforvaltning skal § 4-5 nr. 2 lyde:For skattyter som er mindreårig eller fratatt rettslig handleevne, skal selvangivelse m.v. leveres av vergen. Dette gjelder ikke barn som har nådd den alder da det etter skatteloven anses som selvstendig skattyter og leverer selvangivelse selv.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*80. I lov 3. juni 1977 nr. 57 om sterilisering skal § 11 tredje ledd lyde:*
+
+> Overtredelse av taushetsplikten straffes etter straffelovens § 209 selv om vedkommende ikke er offentlig tjenestemann.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ## § 10
 
 ### 2003-08-29 — lov/2003-08-29-87

@@ -48,3 +48,10 @@ refid: "lov/2022-12-16-91"
 >
 > Enhver som utfører arbeid eller tjeneste for Finanstilsynet eller departementet, har taushetsplikt overfor uvedkommende om opplysninger som omhandler forvaltningstiltak og administrative sanksjoner som gjelder overtredelse av regler gitt i eller i medhold av loven her, dersom offentliggjøring av opplysningene kan skape alvorlig uro på finansmarkedene eller påføre de berørte partene uforholdsmessig stor skade. Forvaltningsloven § 13 og §§ 13 b til 13 e gjelder ikke for opplysninger som nevnt i første punktum.
 >
+
+### 2026-08-01 — forskrift/2026-06-19-1152
+
+*Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.*
+
+> Ikraftsetting av lov 6. februar 2026 nr. 2 om folkefinansiering av næringsvirksomhet (folkefinansieringsloven). Loven trer i kraft 1. august 2026.
+>

@@ -11,6 +11,135 @@ refid: "lov/2012-06-22-43"
 
 *§ 13-3 nr. 3 endring av folketrygdloven § 24-6 annet ledd endres til endring av folketrygdloven § 24-5.*
 
+## (annet)
+
+### 2014-09-26 — forskrift/2014-09-26-1220
+
+*Delt ikraftsetting av lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold med mer. Loven trer i kraft 1. januar 2015, med unntak av § 12a som trer i kraft straks.*
+
+> Delt ikraftsetting av lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold med mer. Loven trer i kraft 1. januar 2015, med unntak av § 12a som trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. juni 2014 nr. 23 om endringer i folketrygdloven og i skattelovgivningen mv. (tilpasning til a-ordningen). Loven trer i kraft 1. januar 2015, med unntak av del VI og folketrygdloven § 25-3a som er trådt i kraft.
+>
+
+### 2016-07-01 — forskrift/2016-01-22-43
+
+*Lov 19. desember 2014 nr. 77 del V om endringer i ligningsloven (Ny klagenemndsordning) trer i kraft 1. juli 2016.*
+
+> Lov 19. desember 2014 nr. 77 del V om endringer i ligningsloven (Ny klagenemndsordning) trer i kraft 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 78 del II om endringer i lov om skatt til Svalbard trer i kraft fra 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 84 del III om endringer i merverdiavgiftsloven trer i kraft fra 1. juli 2016.
+>
+> Lov 19. desember 2014 nr. 86 del II om endring i a-opplysningsloven trer i kraft fra 1. juli 2016.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2018-12-20 — lov/2018-12-20-108
+
+*I lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. skal ny § 6 a lyde:*
+
+> § 6 a.Bruk av personopplysninger ved utvikling og testing av IT-systemer
+>
+> Skattemyndighetene kan bruke nødvendige personopplysninger som det har hjemmel for å innhente, for å utvikle og teste IT-systemer, men bare dersom det er umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
+>
+> Departementet kan i forskrift gi nærmere regler om behandling etter første ledd.
+>
+
+### 2020-11-01 — forskrift/2020-10-30-2181
+
+*Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.*
+
+> Ikraftsetting av lov 20. desember 2019 nr. 86 om endring i lov 17. juli 1925 nr. 2 om avgift av kull, jordoljer og andre mineraler og bergarter som utføres fra Svalbard. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 87 om endring i vegtrafikkloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Delt ikraftsetting av lov 20. desember 2019 nr. 88 om endringer i eigedomsskattelova. Endringsloven del I trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 89 om endring i fjellova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 91 om endring i rettsgebyrloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 93 om endringer i folketrygdloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 95 om endring i brann- og eksplosjonsvernloven. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 99 om endring i vass- og avløpsanleggslova. Endringsloven trer i kraft 1. november 2020.
+>
+> Ikraftsetting av lov 20. desember 2019 nr. 100 om endring i a-opplysningsloven. Endringsloven trer i kraft 1. november 2020.
+>
+
+### 2021-01-01 — forskrift/2020-12-11-2698
+
+*Delt ikrafttredelse av lov 21. juni 2019 nr. 32 om offisiell statistikk og Statistisk sentralbyrå (statistikkloven). Loven § 1–§ 5, § 6 første, fjerde og femte ledd, § 7–§ 18 og § 20–§ 23 trer i kraft 1. januar 2021.*
+
+> Delt ikrafttredelse av lov 21. juni 2019 nr. 32 om offisiell statistikk og Statistisk sentralbyrå (statistikkloven). Loven § 1–§ 5, § 6 første, fjerde og femte ledd, § 7–§ 18 og § 20–§ 23 trer i kraft 1. januar 2021.
+>
+> 1. januar 2021 oppheves kapitlene 1–3, § 4-1 første ledd og kapitlene 5 og 6 i lov 16. juni 1989 nr. 54 om offisiell statistikk og Statistisk sentralbyrå (statistikkloven).
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1037
+
+*Delt iverksetjing av lov om forskriftsheimel for behandling av personopplysningar for frivillige tiltak på barne-, oppvekst- og familieområdet mv.*
+
+> Delt iverksetjing av lov om forskriftsheimel for behandling av personopplysningar for frivillige tiltak på barne-, oppvekst- og familieområdet mv.
+>
+> Følgjande blir sett i kraft 1. januar 2023:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 2 om endring i lov 8. april 1981 nr. 7 om barn og foreldre (barnelova) § 44.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 3 om endring i lov 22. juni 2013 nr. 43
+>
+> om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) § 8 første ledd første punktum.
+>
+> Følgjande blir sett i kraft straks:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 1–§ 5.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 1 om endring i lov 16. juni 2017 nr. 48 om adopsjon (adopsjonsloven) § 35.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 4 om endring i lov 4. september 2015 nr. 85 om gjennomføring av konvensjon 19. oktober 1996 om jurisdiksjon, lovvalg, anerkjennelse, fullbyrdelse og samarbeid vedrørende foreldremyndighet og tiltak for beskyttelse av barn (lov om Haagkonvensjonen 1996) § 2 annet ledd.
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 5 om endring i lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven) § 13-4 sjette ledd.
+>
+> Skal vere lov 22. juni 2012 nr. 43. Lovtidend-redaksjonen sin merknad.
+>
+> Rettelser
+>
+> Det som er rettet er satt i kursiv.
+>
+> Andre ledd andre strekpunkt skal lyde:
+>
+> Lov om forskriftshjemmel for behandling av personopplysninger for frivillige tiltak på barne-, oppvekst- og familieområdet mv. § 6 nr. 3 om endring i lov 22. juni
+>
+> nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold m.m. (a-opplysningsloven) § 8 første ledd første punktum.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2014-12-19 — lov/2014-12-19-86
@@ -177,6 +306,15 @@ refid: "lov/2012-06-22-43"
 > folketrygdloven §§ 24-2, 25-1 annet ledd og 25-10,
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3 første ledd bokstav a og b skal lyde:*
+
+> skatteforvaltningsloven §§ 7-2 og 8-6,
+>
+> folketrygdloven §§ 25-1 annet ledd og 25-10, jf. 21-4,
+>
+
 ### 2021-01-01 — lov/2020-12-21-169
 
 *§ 3 første ledd bokstav c skal lyde:*
@@ -206,6 +344,13 @@ refid: "lov/2012-06-22-43"
 > Meldinger etter folketrygdloven § 25-1 andre ledd til arbeidstakerregisteret om inntak av en arbeidstaker og om opphør av et arbeidsforhold skal leveres innen fredag i uken etter at arbeidsforholdet tok til eller opphørte, med mindre det gis dispensasjon i medhold av forskrift gitt med hjemmel i fjerde ledd i paragrafen her.
 >
 > Departementet kan i forskrift gi regler om fristen for å levere opplysninger, herunder at det kan gjøres unntak fra fristen i tredje ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4 annet ledd skal lyde:*
+
+> Opplysninger om føderåd etter skatteforvaltningsloven § 7-2 første ledd bokstav b kan leveres en gang per år og skal senest leveres samtidig med fristen for å levere opplysninger i januar i året etter inntektsåret.
 >
 
 ### 2022-01-01 — lov/2021-12-22-156

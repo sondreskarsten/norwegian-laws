@@ -28,6 +28,13 @@ refid: "lov/2004-12-10-82"
 > Begjæring om fullbyrding rettes til Oslo tingrett.
 >
 
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
 ## § 2
 
 ### 2023-06-20 — lov/2023-06-20-81

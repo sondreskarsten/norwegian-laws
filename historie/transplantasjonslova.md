@@ -7,6 +7,13 @@ refid: "lov/2015-05-07-25"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2015-11-13-1289
+
+*Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.
+>
+
 ### 2017-06-16 — lov/2017-06-16-54
 
 *I kapittel 4 skal ny § 23 a lyde:*
@@ -29,6 +36,73 @@ refid: "lov/2015-05-07-25"
 > Ved avgjerda av om brotet er grovt skal det særleg leggjast vekt på om den som blei utsett for handlinga, var under 18 år, om det blei brukt grov vald eller tvang og om handlinga har ført til betydeleg utbytte. Den som var uvitande om at den fornærma var under 18 år, blir straffa dersom vedkommande på noko punkt kan klandrast for å ikkje ha kjent til dette.
 >
 > Påtale skal finne stad dersom Statens helsetilsyn krev det. Elles gjeld straffeprosessloven § 62 a.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-761
+
+*Loven trer i kraft fra 1. juli 2017.*
+
+> Loven trer i kraft fra 1. juli 2017.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2025-09-01 — forskrift/2025-06-20-1109
+
+*Følgende trer i kraft 1. september 2025:*
+
+> Følgende trer i kraft 1. september 2025:
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 9-2.
+>
+> Følgende trer i kraft 1. juni 2026:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 3-11.
+>
+> Endringsloven del II (psykisk helsevernloven) § 1-1, § 1-2, § 2-1, § 3-2, § 3-3, § 3-3a, § 3-4, § 3-5, § 4-2a, § 4-4, § 4-4b, § 4-8a og § 6-4.
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 3-1, § 3-3, § 4-3, § 4-5, § 4-6, § 4-6a, § 4A-2, § 4A-3, § 7-2 og § 7-4.
+>
+> Endringsloven del IV (helsepersonelloven) § 22, § 25 og § 45.
+>
+> Endringsloven del V (behandlingsbiobankloven) § 11.
+>
+> Endringsloven del VI (alternativ behandlingsloven) § 7.
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 4-2a.
+>
+> Endringsloven del VIII (pasientjournalloven) § 17.
+>
+> Endringsloven del IX (helseregisterloven) § 15.
+>
+> Endringsloven del X (transplantasjonslova) § 5 og § 7.
 >
 
 ## § 1
@@ -84,6 +158,15 @@ refid: "lov/2015-05-07-25"
 > § 23.Pålegg og administrative sanksjonar
 >
 > Spesialisthelsetjenesteloven §§ 7-1 og 7-2 gjeld tilsvarande ved brot på transplantasjonslova eller forskrifter som er gjevne med heimel i lova.
+>
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 23 skal lyde:*
+
+> § 23.Pålegg og tvangsmulkt
+>
+> Statens helsetilsyn kan gi pålegg om retting og stenging, og fastsette tvangsmulkt etter reglane i helsetilsynsloven §§ 8 og 9.
 >
 
 ## § 23 a

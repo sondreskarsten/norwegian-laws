@@ -20,7 +20,17 @@ refid: "lov/2012-01-27-9"
 
 ### 2023-03-17 — lov/2023-03-17-3
 
-*I lov 27. januar 2012 nr. 9 om arbeidstvister skal § 1 bokstav a lyde:arbeidstaker: enhver som utfører arbeid for og underordnet en annen, og som ikke går inn under lov om offentlige tjenestetvister.*
+*I lov 27. januar 2012 nr. 9 om arbeidstvister skal § 1 bokstav a lyde:*
+
+> arbeidstaker: enhver som utfører arbeid for og underordnet en annen, og som ikke går inn under lov om offentlige tjenestetvister.
+>
+
+### 2024-01-01 — forskrift/2023-03-17-341
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
 
 ## § 1
 
@@ -28,7 +38,7 @@ refid: "lov/2012-01-27-9"
 
 *§ 1 første ledd ny bokstav k skal lyde:*
 
-> virkedag: alle dager som ikke er søndager eller lovbestemte hellig- eller høytidsdager.
+> virkedag : alle dager som ikke er søndager eller lovbestemte hellig- eller høytidsdager.
 >
 
 ## § 18

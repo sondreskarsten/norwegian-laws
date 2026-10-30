@@ -92,6 +92,22 @@ refid: "lov/1925-07-17-11"
 
 *Nåværende §§ 29 og 30 blir nye §§ 45 og 46.*
 
+### 2003-07-04 — lov/2003-07-04-83
+
+*5. I lov 17. juli 1925 nr. 11 om Svalbard skal § 3 lyde:*
+
+> Lovene om offentlige tjenestemenn, om betaling for offentlige forretninger, om mynt, mål og vekt, om formidling av landsdekkende postsendinger, om elektronisk kommunikasjon, om arbeidervern og om arbeidstvister skal gjelde for Svalbard med de endringer som Kongen fastsetter av hensyn til de stedlige forhold.
+>
+> 6. I lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal § 30 nr. 2 lyde:Lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon § 12-3.
+>
+
+### 2006-05-19 — lov/2006-05-19-16
+
+*2. I lov 17. juli 1925 nr. 11 om Svalbard skal § 32 lyde:*
+
+> Forvaltningsloven og offentleglova gjelder tilsvarende for Longyearbyen lokalstyre som for kommunene.
+>
+
 ### 2006-12-15 — lov/2006-12-15-90
 
 *I lov 17. juli 1925 nr. 11 om Svalbard skal § 43 lyde:*
@@ -106,9 +122,43 @@ refid: "lov/1925-07-17-11"
 > Bestemmelsene i dette kapitlet skal også legge til rette for en tillitskapende forvaltning som bygger på en høy etisk standard.
 >
 
+### 2014-01-01 — forskrift/2013-05-31-540
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2017-06-16 — lov/2017-06-16-62
+
+*I lov 17. juli 1925 nr. 11 om Svalbard skal ny § 36 b lyde:*
+
+> Lokalstyret kan selv velge et ungdomsråd. Ungdomsrådet skal ha en valgperiode på inntil to år. Medlemmene i ungdomsrådet skal på valgtidspunktet ikke ha fylt 19 år. Ungdomsrådet er et rådgivende organ for lokalstyret og har rett til å uttale seg i saker som gjelder ungdom.
+>
+> Lokalstyret kan selv etablere en annen medvirkningsordning for ungdom enn et ungdomsråd. Første ledd andre til fjerde punktum gjelder tilsvarende for funksjonstiden og oppgavene til en slik annen medvirkningsordning og valgperioden for representanter til ordningen.
+>
+> Departementet gir forskrift om oppgaver, organisering og saksbehandling for ungdomsrådet og en annen medvirkningsordning for ungdom.
+>
+
 ### 2017-06-16 — lov/2017-06-16-62
 
 *Nogjeldande § 36 b blir ny § 36 c.*
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
 
 ### 2019-05-24 — lov/2019-05-24-17
 
@@ -136,6 +186,27 @@ refid: "lov/1925-07-17-11"
 > Delt ikraftsetting. Loven del I, endringene i Svalbardloven § 40, § 41 bokstav b, j og k og opphevingen av § 43, for så vidt denne viser til kommuneloven § 60, trer i kraft 1. januar 2020. Øvrige deler av loven del I, med unntak av endringen i Svalbardloven § 41 bokstav g, trer i kraft fra og med det konstituerende møtet i lokalstyret ved oppstart av valgperioden 2019–2023. Det samme gjør loven del IV nr. 2.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-01-01 — forskrift/2021-12-17-3632
+
+*Delt ikraftsetting av lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova). Loven § 52 nr. 3 trer i kraft 1. januar 2022.*
+
+> Delt ikraftsetting av lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova). Loven § 52 nr. 3 trer i kraft 1. januar 2022.
+>
+
+### 2023-07-01 — forskrift/2023-06-02-767
+
+*Lova trer i kraft 1. juli 2023.*
+
+> Lova trer i kraft 1. juli 2023.
+>
+
 ### 2023-08-25 — forskrift/2023-08-25-1356
 
 *Delt ikraftsetting av lov 24. mai 2019 nr. 17 om endringer i Svalbardloven m.m. (tilpasning til ny kommunelov). Følgende trer i kraft straks:*
@@ -143,6 +214,17 @@ refid: "lov/1925-07-17-11"
 > Delt ikraftsetting av lov 24. mai 2019 nr. 17 om endringer i Svalbardloven m.m. (tilpasning til ny kommunelov). Følgende trer i kraft straks:
 >
 > Endringene i Svalbardloven § 41 bokstav g under endringsloven del I.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
 
 ## § 10
@@ -198,8 +280,6 @@ refid: "lov/1925-07-17-11"
 
 > Skjønnsmedlemmer og rettsvitner oppnevnes av retten.
 >
-> 12. Lov 26. juni 1926 nr. 21om forandring i lovgivningen om Høiesterett oppheves.
->
 
 ## § 12
 
@@ -229,14 +309,12 @@ refid: "lov/1925-07-17-11"
 >
 > Med hensyn til vergemål under offentlig skifte for arvinger som er forsvunnet etter arvefallet eller hvis oppholdssted ikke kjennes, får vergemålsloven kapittel 5 og § 34 tilsvarende anvendelse.
 >
-> 8. I lov 17. februar 1939 nr. 1 om gjeldsbrev skal § 17 lyde:
->
-> § 17.
->
-> Utgjevaren kann likeins gjera gjeldande at gjeldsbrevet er falskt eller forfalska, underskrive på hans vegner utan fullmakt eller ugildt på grunn av grov tvang (§ 28 i avtalelova), manglande rettsleg handleevne eller sinnssjukdom, at gjeldsbrevet er sagt maktlaust, eller at kravet er bortfalle eller brigda etter reglane om deponering, forelding, preklusjon eller tvangsakkord.
->
 
 ## § 14
+
+### 2010-03-26 — lov/2010-03-26-9
+
+*§ 14 oppheves.*
 
 ### 2013-04-05 — lov/2013-04-05-12
 
@@ -244,14 +322,13 @@ refid: "lov/1925-07-17-11"
 
 ## § 15
 
-### 2013-04-05 — lov/2013-04-05-12
+### 2010-03-26 — lov/2010-03-26-9
 
 *§ 15 oppheves.*
 
-> 6. Lov 22. april 1927 nr. 3 om vergemål for umyndige oppheves.
->
-> 7. I lov 21. februar 1930 om skifte gjøres følgende endringer:
->
+### 2013-04-05 — lov/2013-04-05-12
+
+*§ 15 oppheves.*
 
 ## § 18
 
@@ -292,6 +369,12 @@ refid: "lov/1925-07-17-11"
 >
 > Departementet kan gi forskrift om gjennomføring av kart- og delingsforretninger og fastsette gebyr for forretninger etter denne paragrafen.
 >
+
+## § 26
+
+### 2001-06-15 — lov/2001-06-15-79
+
+*§ 26 annet ledd oppheves. Tillatelser gitt med hjemmel i bestemmelsen bortfaller når loven trer i kraft.*
 
 ## § 29
 
@@ -556,6 +639,13 @@ refid: "lov/1925-07-17-11"
 *§ 39 a oppheves.*
 
 ## § 4
+
+### 2001-06-15 — lov/2001-06-15-79
+
+*§ 4 første ledd skal lyde:*
+
+> Kongen kan utferdige alminnelige forskrifter om kirke-, skole- og forsorgsvesenet, om den offentlige orden, om utvisning, lege- og sunnhetsvesenet, om bygnings- og brannvesenet, om ildsfarlige gjenstander, om skipsfart, luftfart og annen samferdsel, om turisme, om industrielt rettsvern, om bergverksdrift, saltvannsfiske, fangst av ikke stedegne sjøpattedyr og annen næringsdrift og om oppgaver til den offisielle statistikk.
+>
 
 ### 2005-12-21 — lov/2005-12-21-128
 

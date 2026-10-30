@@ -7,6 +7,13 @@ refid: "lov/2017-05-22-30"
 
 ## (annet)
 
+### 2017-07-01 — forskrift/2017-05-22-618
+
+*Loven trer i kraft fra 1. juli 2017.*
+
+> Loven trer i kraft fra 1. juli 2017.
+>
+
 ### 2023-06-20 — lov/2023-06-20-82
 
 *I kapittel 3 skal ny § 11 a lyde:*
@@ -133,6 +140,13 @@ refid: "lov/2017-05-22-30"
 ### 2023-06-20 — lov/2023-06-20-82
 
 *Noverande §§ 25, 26 og 27 blir §§ 26, 27 og ny § 28.*
+
+### 2024-01-01 — forskrift/2023-06-20-958
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
 
 ## § 1
 

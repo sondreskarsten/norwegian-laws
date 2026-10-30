@@ -7,6 +7,22 @@ refid: "lov/1984-06-08-58"
 
 ## (annet)
 
+### 2001-06-15 — lov/2001-06-15-59
+
+*3. I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs skal § 142 femte ledd lyde:*
+
+> Med selskap i tredje og fjerde ledd menes aksjeselskap, allmennaksjeselskap, forretningsavdeling av utenlandsk selskap, stiftelse, boligbyggelag, borettslag, selskap som har til formål å fremme medlemmenes forbruksmessige interesser (samvirkelag), gjensidig forsikringsselskap, statsforetak, statens postselskap og statens jernbanetrafikkselskap.
+>
+
+### 2002-06-21 — lov/2002-06-21-43
+
+*5. I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs skal § 142 femte ledd lyde:*
+
+> Med selskap i tredje og fjerde ledd menes aksjeselskap, allmennaksjeselskap, forretningsavdeling av utenlandsk selskap, næringsdrivende stiftelse, boligbyggelag, borettslag, selskap som har til formål å fremme medlemmenes forbruksmessige interesser (samvirkelag), gjensidig forsikringsselskap og statsforetak.
+>
+> 6. I lov 10. juni 1988 nr. 40 om finansieringsvirksomhet og finansinstitusjoner skal § 2-1 annet ledd nr. 2 lyde:Posten Norge AS når det etter avtale som nevnt i lov 21. juni 2002 nr. 44 om tilbud av grunnleggende banktjenester gjennom Posten Norge AS' ekspedisjonsnett utfører tjenester for finansinstitusjon.
+>
+
 ### 2004-04-23 — lov/2004-04-23-18
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -29,7 +45,32 @@ refid: "lov/1984-06-08-58"
 
 *Nåværende § 155 annet punktum blir tredje punktum.*
 
-> 83. Lov 7. juni 1985 nr. 51 om utmarkskommisjon for Nordland og Troms oppheves.
+### 2007-06-29 — lov/2007-06-29-81
+
+*19. I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs (konkursloven) skal § 142 femte ledd lyde:*
+
+> Med selskap i tredje og fjerde ledd menes aksjeselskap, allmennaksjeselskap, forretningsavdeling av utenlandsk selskap, næringsdrivende stiftelse, boligbyggelag, borettslag, samvirkeforetak, gjensidig forsikringsselskap og statsforetak.
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
+### 2010-01-01 — forskrift/2009-11-06-1347
+
+*Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.
+>
+
+### 2012-01-01 — forskrift/2011-12-16-1244
+
+*Ikraftsetting av lov 24. juni 2011 nr. 39 om elsertifikater. Loven trer i kraft 1. januar 2012.*
+
+> Ikraftsetting av lov 24. juni 2011 nr. 39 om elsertifikater. Loven trer i kraft 1. januar 2012.
 >
 
 ### 2012-12-14 — lov/2012-12-14-80
@@ -39,6 +80,13 @@ refid: "lov/1984-06-08-58"
 > Det skal ikke stilles sikkerhet etter første ledd når konkurs begjæres åpnet av skyldneren eller en arbeidstaker med fortrinnsberettiget fordring etter dekningsloven § 9-3 eller et dekningsberettiget krav etter lønnsgarantiloven § 1 tredje ledd andre og tredje punktum.
 >
 
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
 ### 2014-12-19 — lov/2014-12-19-74
 
 *I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs skal § 67 fjerde leddet lyde:*
@@ -46,9 +94,111 @@ refid: "lov/1984-06-08-58"
 > Det skal ikke stilles sikkerhet etter første ledd når konkurs begjæres åpnet av skyldneren eller en arbeidstaker med fortrinnsberettiget fordring etter dekningsloven § 9-3 eller et dekningsberettiget krav etter lønnsgarantiloven § 1 fjerde ledd nr. 1 og nr. 2 første punktum.
 >
 
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2016-06-17 — lov/2016-06-17-55
 
 *Nåværende §§ 161 og 162 blir §§ 176 og 177 i fjerde del.*
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2018-10-15 — forskrift/2018-09-14-1326
+
+*Ikraftsetting av lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsloven). Loven trer i kraft 15. oktober 2018.*
+
+> Ikraftsetting av lov 1. juni 2018 nr. 23 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsloven). Loven trer i kraft 15. oktober 2018.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*8.Lov 24. mai 1985 nr. 28 om Norges Bank og pengevesenet mv. § 27 første ledd første punktum skal lyde:*
+
+> Kongen kan ved forskrift eller enkeltvedtak bestemme at foretak i finansiell sektor, herunder banker, forsikringsselskaper, finansieringsforetak, verdipapirforetak, regulerte markeder, verdipapirsentraler og sentrale motparter, skal gi banken opplysninger om sin virksomhet, finansiering av virksomheten, sitt regnskap, transaksjoner og beholdninger på egne og kunders vegne, samt andre opplysninger som er nødvendige for bankens arbeid.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*9.Lov 21. juni 1985 nr. 78 om registrering av foretak § 5-3 første ledd tredje punktum skal lyde:*
+
+> Gjelder registerførerens vedtak emisjon av finansielle instrumenter, skal også verdipapirsentralen underrettes.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-05-11 — forskrift/2020-05-07-947
+
+*Loven trer i kraft 11. mai 2020.*
+
+> Loven trer i kraft 11. mai 2020.
+>
+
+### 2021-05-15 — forskrift/2021-04-30-1334
+
+*Loven trer i kraft 15. mai 2021.*
+
+> Loven trer i kraft 15. mai 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-07-01 — forskrift/2021-05-28-1699
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 55 om endringer i konkursloven mv. (grenseoverskridende insolvensbehandling). Endringsloven trer i kraft 1. juli 2021 med unntak for del II, endringen i lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 4-4 fjerde ledd, som foreløpig ikk*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 55 om endringer i konkursloven mv. (grenseoverskridende insolvensbehandling). Endringsloven trer i kraft 1. juli 2021 med unntak for del II, endringen i lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 4-4 fjerde ledd, som foreløpig ikke trer i kraft.
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
 
 ### 2026-05-22 — lov/2026-05-22-19
 
@@ -636,6 +786,17 @@ refid: "lov/1984-06-08-58"
 
 *Nåværende tredje til sjette ledd blir femte til åttende ledd.*
 
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
 ## § 1
 
 ### 2003-01-01 — forskrift/2002-10-11-1094
@@ -721,11 +882,6 @@ refid: "lov/1984-06-08-58"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 111 nr. 2 annet punktum oppheves.*
-
-> 118. I lov 21. juni 1985 nr. 78 om registrering av foretak skal § 10-4 nytt tredje punktum lyde:
->
-> Medvirkning straffes ikke.
->
 
 ## § 117
 
@@ -918,6 +1074,13 @@ refid: "lov/1984-06-08-58"
 > Med mindre retten beslutter å gjøre det selv, skal føreren av Konkursregisteret sørge for at meldinger som er gitt i henhold til § 79 andre ledd nr. 2 og nr. 5 og fjerde ledd blir slettet. Videre skal føreren av Konkursregisteret gi melding i samsvar med lov 19. juni 1969 nr. 66 om merverdiavgift § 27 annet ledd.
 >
 
+### 2009-06-19 — lov/2009-06-19-58
+
+*§ 138 første ledd fjerde punktum skal lyde:*
+
+> Videre skal føreren av Konkursregisteret gi melding i samsvar med merverdiavgiftsloven § 14-2 første ledd annet punktum.
+>
+
 ### 2021-04-30 — lov/2021-04-30-28
 
 *§ 138 skal lyde:*
@@ -958,11 +1121,25 @@ refid: "lov/1984-06-08-58"
 > Etter begjæring fra påtalemyndigheten kan retten bestemme at virkningene av kjennelsen skal forlenges inntil rettskraftig dom foreligger i straffesak hvor påtalemyndigheten har nedlagt eller overveier å nedlegge påstand om rettighetstap etter straffeloven § 56.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 143 annet ledd annet punktum skal lyde:*
+
+> Etter begjæring fra påtalemyndigheten kan retten bestemme at virkningene av kjennelsen skal forlenges inntil rettskraftig dom foreligger i straffesak hvor påtalemyndigheten har nedlagt eller overveier å nedlegge påstand om rettighetstap etter straffeloven § 56.
+>
+
 ## § 143 a
 
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 143 a første ledd skal lyde:*
+
+> Den som forsettlig eller uaktsomt opptrer i strid med kjennelse etter § 143, straffes med bøter eller med fengsel inntil 3 måneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 143 a skal lyde:*
 
 > Den som forsettlig eller uaktsomt opptrer i strid med kjennelse etter § 143, straffes med bøter eller med fengsel inntil 3 måneder.
 >
@@ -1410,6 +1587,13 @@ refid: "lov/1984-06-08-58"
 > 117. I lov 14. juni 1985 nr. 77 Plan- og bygningslov gjøres følgende endring:
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 160 annet ledd skal lyde:*
+
+> Overtredelse av taushetsplikten straffes som bestemt i straffeloven § 209.
+>
+
 ## § 2
 
 ### 2003-01-01 — forskrift/2002-10-11-1094
@@ -1429,7 +1613,9 @@ refid: "lov/1984-06-08-58"
 
 *§ 21 første ledd nr. 4 og 5 skal lyde:*
 
-> opplysning om skyldneren antas å ha foretatt disposisjoner som kan omstøtes i tilfelle av forhandling om tvangsakkord eller konkurs, og om det er holdt tvangsforretninger hos skyldneren som i så fall vil være uvirksomme;opplysning om skyldneren tidligere har søkt frivillig gjeldsordning eller vært under forhandling om tvangsakkord eller konkurs, i tilfelle med angivelse av den dividende fordringshaverne oppnådde;
+> opplysning om skyldneren antas å ha foretatt disposisjoner som kan omstøtes i tilfelle av forhandling om tvangsakkord eller konkurs, og om det er holdt tvangsforretninger hos skyldneren som i så fall vil være uvirksomme;
+>
+> opplysning om skyldneren tidligere har søkt frivillig gjeldsordning eller vært under forhandling om tvangsakkord eller konkurs, i tilfelle med angivelse av den dividende fordringshaverne oppnådde;
 >
 
 ## § 24
@@ -1528,6 +1714,13 @@ refid: "lov/1984-06-08-58"
 > Gjeldsnemnda skal videre sende underretning om åpningen av forhandling om tvangsakkord til de banker og tilsvarende institusjoner hvor skyldneren har innskudd.
 >
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 36 første ledd nr. 3) skal lyde:*
+
+> en verdipapirsentral, dersom det er registrert rettigheter der som gjeldsnemnda mener tilhører skyldneren, og
+>
+
 ## § 37
 
 ### 2006-01-27 — lov/2006-01-27-4
@@ -1607,6 +1800,15 @@ refid: "lov/1984-06-08-58"
 *§ 47 første ledd tredje punktum skal lyde:*
 
 > Avgjørelsen tas i forbindelse med avgjørelsen av spørsmålet om stadfestelse og kan bare ankes sammen med denne.
+>
+
+## § 49
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 49 nr. 2 annet punktum skal lyde:*
+
+> Er skyldneren en sammenslutning eller en stiftelse, kan stadfestelse nektes dersom forretningsfører eller styremedlem i det nevnte tidsrom har gjort seg skyldig i slike straffbare forhold til skyldnerens fordel eller på skyldnerens vegne.
 >
 
 ## § 52
@@ -1818,7 +2020,9 @@ refid: "lov/1984-06-08-58"
 
 *§ 78 første ledd nr. 4 og 5 skal lyde:*
 
-> oppfordring til fordringshaverne om å melde sine krav til bostyreren innen en nærmere angitt frist, jf. § 109,opplysning om hvilken domstol som behandler boet.
+> oppfordring til fordringshaverne om å melde sine krav til bostyreren innen en nærmere angitt frist, jf. § 109,
+>
+> opplysning om hvilken domstol som behandler boet.
 >
 
 ### 2006-01-27 — lov/2006-01-27-4
@@ -1879,6 +2083,20 @@ refid: "lov/1984-06-08-58"
 *§ 79 sjuande ledd andre punktum skal lyde:*
 
 > Videre skal det gis melding til skattekontoret dersom abandoneringen gjelder formuesgoder som vil kunne medføre krav på merverdiavgift ved salg fra skyldnerens side.
+>
+
+### 2009-06-19 — lov/2009-06-19-58
+
+*§ 79 tredje ledd skal lyde:*
+
+> Føreren av Konkursregisteret skal sende melding om konkursåpningen i samsvar med merverdiavgiftsloven § 14-2 første ledd annet punktum.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 79 fjerde ledd nr. 2) skal lyde:*
+
+> en verdipapirsentral, dersom det er registrert rettigheter der som bostyreren mener er omfattet av boets beslagsrett.
 >
 
 ### 2021-04-30 — lov/2021-04-30-28

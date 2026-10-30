@@ -342,6 +342,13 @@ refid: "lov/1999-07-02-62"
 
 ## § 3-11
 
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 3-11 første ledd skal lyde:*
+
+> Statens helsetilsyn kan etter klage endre kontrollkommisjonens vedtak om ikke å innlegge en person som søkes overført fra annen institusjon eller anstalt. Klageordningen gjelder bare overføringer som søkes for pasienter under tvungent psykisk helsevern og bare for:pasienter i institusjoner for døgnopphold som er godkjent for tvungent psykisk helsevern. Overføring mellom institusjoner for døgnopphold under samme regionale helseforetak omfattes likevel ikke av klageordningen.innsatte i fengselsvesenets anstalter.
+>
+
 ### 2001-12-21 — lov/2001-12-21-119
 
 *§ 3-11 overskrift og første ledd første punktum skal lyde:*
@@ -691,6 +698,30 @@ refid: "lov/1999-07-02-62"
 > Straffeloven § 65 gir regler om opphør av reaksjonen.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5-1 skal lyde:*
+
+> § 5-1.Forholdet til de øvrige bestemmelsene i loven her
+>
+> Ved dom på overføring til tvungent psykisk helsevern etter straffeloven § 62 gjelder bestemmelsene i loven her så langt de passer, med unntak av §§ 3-1 til 3-4 og §§ 3-7 til 3-9.
+>
+> Straffeloven § 65 gir regler om opphør av reaksjonen.
+>
+
+## § 5-2
+
+### 2001-06-15 — lov/2001-06-15-93
+
+*§ 5-2 skal lyde:*
+
+> § 5-2.Vedtak om behandlingsansvaret
+>
+> Det regionale helseforetaket i domfeltes bostedsregion avgjør hvilken institusjon som skal ha behandlingsansvaret for den domfelte. Kongen kan ved forskrift overføre kompetansen etter denne bestemmelsen til en annen myndighet.
+>
+> Det regionale helseforetaket har ansvaret for at det tvungne psykiske helsevernet settes i verk umiddelbart etter at dommen er rettskraftig.
+>
+
 ## § 5-2a
 
 ### 2012-06-22 — lov/2012-06-22-48
@@ -786,6 +817,20 @@ refid: "lov/1999-07-02-62"
 > Finner retten at vilkåret om gjentakelsesfare i straffeloven § 62 annet og tredje ledd ikke er oppfylt, skal reaksjonen opphøre, jf. straffeloven § 65.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5-6 første ledd annet og tredje punktum skal lyde:*
+
+> Overføring kan bare skje når den domfeltes sinnstilstand ikke lenger er som beskrevet i straffeloven § 20 første ledd bokstav b og d. Vilkåret om gjentakelsesfare i straffeloven § 62 annet og tredje ledd må fortsatt være oppfylt.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5-6 tredje ledd skal lyde:*
+
+> Finner retten at vilkåret om gjentakelsesfare i straffeloven § 62 annet og tredje ledd ikke er oppfylt, skal reaksjonen opphøre, jf. straffeloven § 65.
+>
+
 ## § 5-6a
 
 ### 2012-06-22 — lov/2012-06-22-48
@@ -797,6 +842,13 @@ refid: "lov/1999-07-02-62"
 > Uten hinder av lovbestemt taushetsplikt skal den faglig ansvarlige gi påtalemyndigheten og retten de opplysninger som er nødvendige for å vurdere om tvungent psykisk helsevern skal opprettholdes, jf. straffeloven § 39 b.
 >
 > Den domfelte skal informeres, om mulig på forhånd, om hvilke opplysninger som gis etter første ledd.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5-6a første ledd skal lyde:*
+
+> Uten hinder av lovbestemt taushetsplikt skal den faglig ansvarlige gi påtalemyndigheten og retten de opplysninger som er nødvendige for å vurdere om tvungent psykisk helsevern skal opprettholdes, jf. straffeloven § 65, og om besøksforbud bør nedlegges, jf. straffeprosessloven § 222a.
 >
 
 ## § 5-6 a
@@ -860,6 +912,15 @@ refid: "lov/1999-07-02-62"
 > Er den domfelte overført til anstalt under kriminalomsorgen i medhold av § 5-6, gjelder reglene i straffeloven § 65 om opphør av reaksjonen så langt de passer. I stedet for opphør kan retten i slike tilfeller beslutte prøveløslatelse etter reglene i straffeloven §§ 44 og 45.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5-7 skal lyde:*
+
+> § 5-7.Opphør av reaksjonen og prøveløslatelse der domfelte er overført til anstalt under kriminalomsorgen
+>
+> Er den domfelte overført til anstalt under kriminalomsorgen i medhold av § 5-6, gjelder reglene i straffeloven § 65 om opphør av reaksjonen så langt de passer. I stedet for opphør kan retten i slike tilfeller beslutte prøveløslatelse etter reglene i straffeloven §§ 44 og 45.
+>
+
 ## § 5-8
 
 ### 2001-12-21 — lov/2001-12-21-119
@@ -870,6 +931,13 @@ refid: "lov/1999-07-02-62"
 >
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 5-8 første ledd skal lyde:*
+
+> Dersom den domfeltes sinnstilstand etter overføring til kriminalomsorgen igjen blir som beskrevet i straffeloven § 20 første ledd bokstav b og d, skal den domfelte tilbakeføres til tvungent psykisk helsevern.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 5-8 første ledd skal lyde:*
 
@@ -948,44 +1016,17 @@ refid: "lov/1999-07-02-62"
 
 > Kontrollkommisjonens vedtak i sak om videre undersøkelse, etablering eller opprettholdelse av tvungent psykisk helsevern etter §§ 3-8 og 3-9, kan av pasienten eller vedkommendes nærmeste bringes inn for tingretten etter reglene i tvisteloven kapittel 36.
 >
-> 122. I lov 2. juli 1999 nr. 63 om pasientrettigheter (pasientrettighetsloven) skal § 8-5 annet punktum lyde:
->
-> Reglene i tvisteloven kapittel 22 får tilsvarende anvendelse for ombudets rett til å kreve opplysninger.
->
-> 123. I lov 2. juli 1999 nr. 64 om helsepersonell (helsepersonelloven) oppheves § 71 annet ledd første punktum. Nåværende annet punktum blir annet ledd.
->
-> 124. I lov 16. juli 1999 nr. 69 om offentlige anskaffelser skal § 8 annet ledd første punktum lyde:
->
-> Ved begjæring om midlertidig forføyning mot overtredelser under anskaffelsesprosedyrer innenfor sektorene vannforsyning, energi, transport og telekommunikasjon kan det heller ikke før kontrakt er inngått, besluttes midlertidige forføyninger som nevnt i tvisteloven § 34-3 første ledd.
->
-> 125. I lov 21. desember 2000 nr. 105 om opplysningsplikt og angrerett m.v. ved fjernsalg og salg utenfor fast utsalgssted (angrerettloven) skal § 4 annet ledd lyde:
->
-> Dersom ikke annet følger av lov, kan forbrukeren ikke vedta annet verneting enn de lovbestemte, med unntak av sitt alminnelige verneting.
->
-> 126. I lov 26. april 2002 nr. 12 om notarius publicus skal § 5 overskriften og første til femte ledd lyde:
->
-> Anke
->
-> Dersom ikkje anna er fastsett i eller i medhald av lov, kan avgjerd under notarialforretningar ankast til lagmannsretten. For anke gjeld reglane i tvisteloven og domstollova dersom ikkje anna følgjer av andre til sjette leddet.
->
-> Anken høyrer under lagmannsretten i lagdømet der notarius publicus har sete. For avgjerd teken av norsk notarius publicus i utlandet er Borgarting lagmannsrett ankeinstans. For avgjerd teken av Sysselmannen på Svalbard som notarius publicus, er Hålogaland lagmannsrett ankeinstans.
->
-> For den som har fått underretning om avgjerda, er fristen for å anke avgjerda ein månad frå den dag vedkomande mottok meldinga. For andre er fristen ein månad frå den dag då vedkomande har fått eller burde ha skaffa seg kjennskap til avgjerda, likevel ikkje ut over tre månader frå tidspunktet avgjerda blei teken.
->
-> Er fristen for anke gått ut, gjeld forvaltningslova § 31 tilsvarande.
->
-> Notarius publicus skal leggje saka til rette for ankeinstansen og gjere greie for saka på forsvarleg måte.
->
-> 127. I lov 3. mai 2002 nr. 13 om utenrikstjenesten skal § 20 annet ledd første punktum lyde:
->
-> Utsendt utenrikstjenestemann, andre utsendinger og utsendt administrativt personell, som oppholder seg utenlands i norsk statstjeneste har alminnelig verneting i Oslo hvis vedkommende ikke har bopel annet sted i riket.
->
-> 128. I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) skal § 34 lyde:
->
-> Styringsorgan som har gjort vedtak etter denne lova, kan fastsetje at fristen for å reise søksmål skal vere to månader frå det kom fram melding om vedtaket til vedkommande part.
->
 
 ## (annet)
+
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern skal ny § 1-8 lyde:*
+
+> § 1-8.Bruk av elektronisk kommunikasjon
+>
+> Bestemmelser i eller i medhold av loven her som krever eller forutsetter skriftlighet eller underskrift, er ikke til hinder for bruk av elektronisk kommunikasjon. Dette gjelder også meldinger, varsel og lignende til pasient eller dennes nærmeste, såfremt vedkommende uttrykkelig har godtatt bruk av elektronisk kommunikasjon.
+>
 
 ### 2006-06-30 — lov/2006-06-30-45
 
@@ -1099,6 +1140,13 @@ refid: "lov/1999-07-02-62"
 *I lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern (psykisk helsevernloven) skal § 7-1 første punktum lyde:*
 
 > Kontrollkommisjonens vedtak i sak om tvungen observasjon, etablering eller opprettholdelse av tvungent psykisk helsevern etter §§ 3-2, 3-3 og 3-7, kan av pasienten eller vedkommendes nærmeste pårørende bringes inn for tingretten etter reglene i tvisteloven kapittel 36.
+>
+
+### 2010-01-01 — forskrift/2009-12-18-1584
+
+*Loven trer i kraft 1. januar 2010.*
+
+> Loven trer i kraft 1. januar 2010.
 >
 
 ### 2012-06-22 — lov/2012-06-22-48
@@ -1260,19 +1308,74 @@ refid: "lov/1999-07-02-62"
 > Loven trer i kraft 1. januar 2014 med unntak av romertall I § 4A-6a, som trer i kraft straks.
 >
 
+### 2016-07-01 — forskrift/2016-06-10-614
+
+*Lova gjeld frå 1. juli 2016.*
+
+> Lova gjeld frå 1. juli 2016.
+>
+
+### 2016-10-01 — forskrift/2016-09-09-1045
+
+*Lov 29. april 2016 nr. 7 om endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.) trer i kraft 1. oktober 2016.*
+
+> Lov 29. april 2016 nr. 7 om endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.) trer i kraft 1. oktober 2016.
+>
+
+### 2016-11-01 — forskrift/2016-08-26-1002
+
+*Lov 20. mai 2016 nr. 10 om endringer i psykisk helsevernloven mv. (rettigheter og bruk av tvang på rusfeltet) trer i kraft 1. november 2016.*
+
+> Lov 20. mai 2016 nr. 10 om endringer i psykisk helsevernloven mv. (rettigheter og bruk av tvang på rusfeltet) trer i kraft 1. november 2016.
+>
+
 ### 2017-02-10 — lov/2017-02-10-6
 
 *Nåværende andre, tredje, fjerde og femte ledd blir fjerde, femte, sjette og syvende ledd.*
 
+### 2017-09-01 — forskrift/2017-02-10-146
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. september 2017 med unntak av romertall I § 1-7 tredje ledd og romertall II, som trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft fra 1. september 2017 med unntak av romertall I § 1-7 tredje ledd og romertall II, som trer i kraft 1. juli 2017.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
+>
+
 ### 2019-06-21 — lov/2019-06-21-48
 
 *§§ 5-6, 5-7 og 5-8 oppheves.*
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
 
 ### 2021-06-11 — lov/2021-06-11-78
 
 *I lov 2. juli 1999 nr. 62 om etablering og gjennomføring av psykisk helsevern skal § 4-1 tredje ledd lyde:*
 
 > Kongen i statsråd kan i forskrift gi nærmere bestemmelser om hvilke pasientgrupper plikten omfatter etter første ledd, og om innholdet i individuelle planer.
+>
+
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -1283,6 +1386,37 @@ refid: "lov/1999-07-02-62"
 
 *Nåværende fjerde og femte ledd blir nye sjuende og åttende ledd.*
 
+### 2025-09-01 — forskrift/2025-06-20-1109
+
+*Følgende trer i kraft 1. september 2025:*
+
+> Følgende trer i kraft 1. september 2025:
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 9-2.
+>
+> Følgende trer i kraft 1. juni 2026:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 3-11.
+>
+> Endringsloven del II (psykisk helsevernloven) § 1-1, § 1-2, § 2-1, § 3-2, § 3-3, § 3-3a, § 3-4, § 3-5, § 4-2a, § 4-4, § 4-4b, § 4-8a og § 6-4.
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 3-1, § 3-3, § 4-3, § 4-5, § 4-6, § 4-6a, § 4A-2, § 4A-3, § 7-2 og § 7-4.
+>
+> Endringsloven del IV (helsepersonelloven) § 22, § 25 og § 45.
+>
+> Endringsloven del V (behandlingsbiobankloven) § 11.
+>
+> Endringsloven del VI (alternativ behandlingsloven) § 7.
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 4-2a.
+>
+> Endringsloven del VIII (pasientjournalloven) § 17.
+>
+> Endringsloven del IX (helseregisterloven) § 15.
+>
+> Endringsloven del X (transplantasjonslova) § 5 og § 7.
+>
+
 ## § 4A-10
 
 ### 2016-06-10 — lov/2016-06-10-21
@@ -1290,6 +1424,22 @@ refid: "lov/1999-07-02-62"
 *§ 4A-10 andre ledd skal lyde:*
 
 > Når det er grunn til mistanke om at farlige gjenstander, rusmidler, legemidler, skadelige stoffer eller rømningshjelpemidler, herunder mobiltelefon eller andre kommunikasjonsmidler, er tilgjengelig i eller vil bli forsøkt innført i institusjonen, skal det foretas nødvendige undersøkelser av pasientens person, rom og eiendeler.
+>
+
+## § 4A-11
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 4A-11 tredje ledd skal lyde:*
+
+> Etter anmodning fra regional sikkerhetsavdeling, skal politiet gi opplysninger om personen er siktet, tiltalt eller ilagt straff for lovbrudd med en strafferamme på fengsel i mer enn ett år, med mindre dette kan skade arbeidet med kriminalitetsbekjempelse.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 4A-11 femte ledd skal lyde:*
+
+> Personer som etter politiets opplysninger er siktet, tiltalt eller ilagt straff for lovbrudd med en strafferamme på fengsel i mer enn ett år, skal nektes adgang, med mindre anmerkningen gjelder forhold som åpenbart ikke har noen relevans for sikkerhetsvurderingen.
 >
 
 ## § 4A-4

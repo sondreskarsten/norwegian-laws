@@ -7,11 +7,70 @@ refid: "lov/1957-06-28-16"
 
 ## (annet)
 
+### 2012-01-01 — forskrift/2011-09-16-949
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-587
+
+*Loven trer i kraft 1. juli 2012.*
+
+> Loven trer i kraft 1. juli 2012.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-674
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*39. I lov 28. juni 1957 nr. 16 om friluftslivet skal § 39 lyde:*
+
+> § 39.(Straff.)
+>
+> Den som forsettlig eller uaktsomt overtrer regler gitt i eller i medhold av denne lov, straffes med bøter for så vidt ikke forholdet rammes av strengere straffebud.
+>
+> 40. I lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser skal § 26 tredje ledd første punktum lyde:
+>
+> Den som unnlater å gi opplysninger etter første og andre ledd, eller som gir uriktige opplysninger, straffes med bøter.
+>
+> 41. I lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter gjøres følgende endringer:
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2024-12-06 — lov/2024-12-06-74
 
 *I lov 28. juni 1957 nr. 16 om friluftslivet skal § 22 andre ledd andre punktum lyde:*
 
 > Departementet kan i forskrift tildele fylkeskommunen ansvaret for nærmere bestemte oppgaver for å fremme og tilrettelegge for friluftslivet.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
 >
 
 ## § 1 a
@@ -80,11 +139,11 @@ refid: "lov/1957-06-28-16"
 
 ## § 2
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2015-06-19 — lov/2015-06-19-65
 
-*§ 2 annet ledd oppheves.*
+*§ 2 skal lyde:*
 
-> 53. I lov 3. februar 1961 om ansvar for skade som motorvogner gjer gjøres følgende endring:
+> Med bot eller fengsel inntil 2 år straffes den som unnlater å medvirke til kontrollundersøkelse etter forskrifter gitt i medhold av denne lov.
 >
 
 ### 2020-06-19 — lov/2020-06-19-85
@@ -103,14 +162,9 @@ refid: "lov/1957-06-28-16"
 
 ## § 20
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 20 annet ledd oppheves.*
-
-> 54. I lov 3. mars 1961 nr. 4 om varemerker skal § 3 første punktum lyde:
->
-> Den som bruker varekjennetegn i strid med denne lov, straffes med bøter eller fengsel inntil 3 måneder.
->
 
 ## § 22
 
@@ -159,6 +213,17 @@ refid: "lov/1957-06-28-16"
 *§ 24 femte ledd skal lyde:*
 
 > Kommunens vedtak etter §§ 2 annet ledd, 3 a annet ledd, 15 og 16 kan bringes inn for departementet av eieren eller brukeren av den grunn vedtaket gjelder, av fylkesmannen, av annen kommune som er interessert i at retten til ferdsel ikke innskrenkes på denne måte, av fylkeskommunen eller av et interessert friluftslag. Fylkesmannens vedtak etter § 3 tredje ledd kan bringes inn for departementet av eieren eller brukeren av den grunn vedtaket gjelder, av den kommune hvor grunnen ligger, av annen kommune som er interessert i at retten til ferdsel ikke innskrenkes på denne måte, av fylkeskommunen eller av et interessert friluftslag.
+>
+
+## § 3
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 første ledd første punktum skal lyde:*
+
+> Dersom den avgiftspliktige forsettlig eller uaktsomt har overtrådt bestemmelser gitt i medhold av denne lov, kan han av vedkommende departement pålegges å betale inntil det dobbelte av det avgiftsbeløp som er eller kunne vært unndratt statskassen.
+>
+> 42. I lov 3. februar 1961 om ansvar for skade som motorvogner gjer gjøres følgende endring:
 >
 
 ## § 3 a
@@ -215,12 +280,6 @@ refid: "lov/1957-06-28-16"
 *§ 39 skal lyde:*
 
 > Den som forsettlig eller uaktsomt overtrer regler gitt i eller i medhold av denne lov, straffes med bøter for så vidt ikke forholdet rammes av strengere straffebud.
->
-> 51. I lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser skal § 24 tredje ledd første punktum lyde:
->
-> Den som unnlater å gi opplysninger etter første og andre ledd, eller som gir uriktige opplysninger, straffes med bøter.
->
-> 52. I lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter gjøres følgende endring:
 >
 
 ## § 40

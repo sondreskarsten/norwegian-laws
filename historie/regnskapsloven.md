@@ -7,6 +7,13 @@ refid: "lov/1998-07-17-56"
 
 ## § 1-1
 
+### 2001-06-15 — lov/2001-06-15-59
+
+*§ 1-1 første ledd skal lyde:*
+
+> Loven gjelder regnskapspliktige som nevnt i § 1-2 første ledd nr. 1 til 13 og annet og tredje ledd som er hjemmehørende i Norge, samt regnskapspliktige som nevnt i § 1-2 nr. 14.
+>
+
 ### 2005-06-10 — lov/2005-06-10-46
 
 *§ 1-1 første ledd skal lyde:*
@@ -15,6 +22,13 @@ refid: "lov/1998-07-17-56"
 >
 
 ## § 1-2
+
+### 2001-06-15 — lov/2001-06-15-59
+
+*§ 1-2 første ledd nr. 11 skal lyde:*
+
+> stiftelser,
+>
 
 ### 2005-06-10 — lov/2005-06-10-46
 
@@ -34,7 +48,9 @@ refid: "lov/1998-07-17-56"
 
 *§ 1-2 første ledd nr. 9 oppheves. Nåværende nr. 10 til 14 blir nye 9 til 13, der nr. 9 og 11 skal lyde:*
 
-> andre foreninger som i året har hatt eiendeler med verdi over 20 millioner kroner eller et gjennomsnittlig antall ansatte høyere enn 20 årsverk,enhver som driver enkeltpersonforetak og som i året samlet har hatt eiendeler med verdi over 20 millioner kroner eller et gjennomsnittlig antall ansatte høyere enn 20 årsverk,
+> andre foreninger som i året har hatt eiendeler med verdi over 20 millioner kroner eller et gjennomsnittlig antall ansatte høyere enn 20 årsverk,
+>
+> enhver som driver enkeltpersonforetak og som i året samlet har hatt eiendeler med verdi over 20 millioner kroner eller et gjennomsnittlig antall ansatte høyere enn 20 årsverk,
 >
 
 ### 2005-06-10 — lov/2005-06-10-46
@@ -62,6 +78,13 @@ refid: "lov/1998-07-17-56"
 >
 
 ## § 1-3
+
+### 2001-06-15 — lov/2001-06-15-59
+
+*§ 1-3 annet ledd første punktum skal lyde:*
+
+> Regnskapspliktige etter § 1-2 første ledd som ikke faller under nr. 12 eller 14, er morselskap hvis vedkommende på grunn av avtale eller som eier av aksjer eller andeler har bestemmende innflytelse over et annet foretak.
+>
 
 ### 2005-06-10 — lov/2005-06-10-46
 
@@ -423,6 +446,13 @@ refid: "lov/1998-07-17-56"
 > Det skal gis opplysninger om forsknings- og utviklingsaktiviteter.
 >
 
+### 2008-06-20 — lov/2008-06-20-42
+
+*Nytt § 3-3 syvende ledd skal lyde:*
+
+> Foretak som jevnlig sysselsetter mer enn 50 ansatte, skal redegjøre for tiltak som er iverksatt og tiltak som planlegges iverksatt for å fremme formålet i diskrimineringsloven og i diskriminerings- og tilgjengelighetsloven.
+>
+
 ### 2017-12-15 — lov/2017-12-15-105
 
 *§ 3-3 oppheves.*
@@ -444,6 +474,13 @@ refid: "lov/1998-07-17-56"
 >
 
 ## § 3-3a
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*Nytt § 3-3a ellevte ledd skal lyde:*
+
+> Foretak som jevnlig sysselsetter mer enn 50 ansatte, skal redegjøre for tiltak som er iverksatt og tiltak som planlegges iverksatt for å fremme formålet i diskrimineringsloven og i diskriminerings- og tilgjengelighetsloven.
+>
 
 ### 2018-01-01 — lov/2017-12-19-115
 
@@ -532,6 +569,13 @@ refid: "lov/1998-07-17-56"
 > Opplysninger om fremtidig utvikling eller forhold som det forhandles om, kan utelates fra redegjørelsen dersom styret mener at offentliggjøring vil være til alvorlig skade for foretakets forretningsmessige situasjon, forutsatt at en slik utelatelse ikke hindrer en rimelig og balansert forståelse av foretakets utvikling, resultat, stilling og konsekvenser av dets virksomhet.
 >
 > Redegjørelse etter denne paragrafen kan utarbeides i samsvar med et rammeverk for slik rapportering fastsatt nasjonalt, av Den europeiske union eller av et annet organ. Dersom utarbeidelsen er i samsvar med et slikt rammeverk, skal det opplyses om hvilket rammeverk som er benyttet. Departementet kan i forskrift fastsette nærmere krav til slik rapportering, herunder krav om at det skal gis tilleggsopplysninger i foretakets årsberetning.
+>
+
+### 2021-12-22 — lov/2021-12-22-161
+
+*§ 3-3 c tiende ledd skal lyde:*
+
+> Foretak som nevnt i direktiv (EU) 2013/34 artikkel 19a og 29a, skal i tillegg gi informasjon som beskrevet i artikkel 8 i taksonomiforordningen, jf. lov om offentliggjøring av bærekraftsinformasjon i finanssektoren og et rammeverk for bærekraftige investeringer § 3.
 >
 
 ## § 3-3c
@@ -732,6 +776,15 @@ refid: "lov/1998-07-17-56"
 > Prinsippanvendelsen i konsernregnskapet og selskapsregnskapet kan være forskjellig.
 >
 
+## § 4-6
+
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 4-6 skal lyde:*
+
+> Utarbeidelse av årsregnskap skal foretas i samsvar med god regnskapsskikk.
+>
+
 ## § 5-4
 
 ### 2005-06-10 — lov/2005-06-10-46
@@ -795,6 +848,9 @@ refid: "lov/1998-07-17-56"
 ### 2024-06-21 — lov/2024-06-21-42
 
 *§ 5-8 første ledd nr. 3 skal lyde:*
+
+> 3. omsettes på regulert marked i EØS eller tilsvarende markedsplass utenfor EØS, og
+>
 
 ## § 5-9a
 
@@ -907,7 +963,11 @@ refid: "lov/1998-07-17-56"
 
 *§ 6-1 første ledd nr. 19 til 21 skal lyde:*
 
-> Resultat før skattekostnadSkattekostnadÅrsresultat
+> Resultat før skattekostnad
+>
+> Skattekostnad
+>
+> Årsresultat
 >
 
 ### 2021-04-30 — lov/2021-04-30-26
@@ -931,7 +991,11 @@ refid: "lov/1998-07-17-56"
 
 *§ 6-1 a første ledd nr. 14 til 16 skal lyde:*
 
-> Resultat før skattekostnadSkattekostnadÅrsresultat
+> Resultat før skattekostnad
+>
+> Skattekostnad
+>
+> Årsresultat
 >
 
 ### 2021-04-30 — lov/2021-04-30-26
@@ -951,7 +1015,9 @@ refid: "lov/1998-07-17-56"
 
 *§ 6-2 første ledd A III nr. 7 og nytt nr. 8 skal lyde:*
 
-> ObligasjonerAndre fordringer
+> Obligasjoner
+>
+> Andre fordringer
 >
 
 ### 2005-06-10 — lov/2005-06-10-46
@@ -1290,6 +1356,17 @@ refid: "lov/1998-07-17-56"
 > Det skal opplyses om antall årsverk som den regnskapspliktige har sysselsatt i regnskapsåret.
 >
 
+## § 7-30a
+
+### 2006-01-01 — lov/2005-12-21-124
+
+*Ny § 7-30a skal lyde:*
+
+> § 7-30a.Obligatorisk tjenestepensjon
+>
+> Det skal opplyses om foretaket er pliktig til å ha tjenestepensjonsordning etter lov om obligatorisk tjenestepensjon og om foretaket har pensjonsordning som oppfyller kravene etter denne loven.
+>
+
 ## § 7-30 b
 
 ### 2010-06-25 — lov/2010-06-25-33
@@ -1623,6 +1700,19 @@ refid: "lov/1998-07-17-56"
 > Det skal opplyses om antall årsverk som den regnskapspliktige har sysselsatt i regnskapsåret.
 >
 
+## § 7-43a
+
+### 2006-01-01 — lov/2005-12-21-124
+
+*Ny § 7-43a skal lyde:*
+
+> § 7-43a.
+>
+> Obligatorisk tjenestepensjon
+>
+> Det skal opplyses om foretaket er pliktig til å ha tjenestepensjonsordning etter lov om obligatorisk tjenestepensjon og om foretaket har pensjonsordning som oppfyller kravene etter denne loven.
+>
+
 ## § 7-43 a
 
 ### 2021-04-30 — lov/2021-04-30-26
@@ -1824,6 +1914,15 @@ refid: "lov/1998-07-17-56"
 
 ## § 8-4
 
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 8-4 skal lyde:*
+
+> Krav som nevnt i § 8-3 innkreves av Statens innkrevingssentral med mindre departementet bestemmer annet.
+>
+> 22. I lov 14. april 2000 nr. 31 om behandling av personopplysninger gjøres følgende endring:
+>
+
 ### 2025-04-25 — lov/2025-04-25-12
 
 *§ 8-4 skal lyde:*
@@ -1831,6 +1930,17 @@ refid: "lov/1998-07-17-56"
 > § 8-4. Innkreving av gebyr
 >
 > Krav som nevnt i § 8-3 innkreves av Innkrevingsmyndigheten med mindre departementet bestemmer annet.
+>
+
+## § 9-1
+
+### 2001-06-15 — lov/2001-06-15-59
+
+*§ 9-1 tredje ledd skal lyde:*
+
+> For regnskapspliktige som nevnt i § 1-2 første ledd nr. 5, 6 , 7, 8, 10, 11, 12 eller 14, kan departementet gi forskrift som utfyller eller fraviker kapittel 3 til 7, og som unntar regnskapspliktig som nevnt i § 1-2 første ledd nr. 14 fra regnskapsplikt.
+>
+> 10. I lov 15. januar 1999 nr. 2 om revisjon og revisorer (revisorloven) skal § 2-1 annet ledd fjerde punktum nr. 3, 4 og nytt nr. 5 lyde:kommandittselskap hvor komplementaren er en juridisk person hvor ikke noen av deltakerne har personlig ansvar for forpliktelsene, udelt eller for deler som til sammen utgjør den juridiske personens samlede forpliktelser,ansvarlige selskaper hvor samtlige deltakere er juridiske personer hvor ikke noen av deltakerne har personlig ansvar for forpliktelsene, udelt eller for deler som til sammen utgjør den juridiske personens samlede forpliktelser, ellerstiftelser.
 >
 
 ## § 9-2
@@ -1866,6 +1976,18 @@ refid: "lov/1998-07-17-56"
 > Departementet kan ved forskrift bestemme at forvaltningsorgan skal gi opplysninger til Regnskapsregisteret som er egnet til å fastslå regnskapsplikt etter § 1-2 første til fjerde ledd.
 >
 
+## § 9-4
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 9-4 oppheves.*
+
+## § 9-7 a
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 9-7 a annet ledd oppheves.*
+
 ## § 10-1
 
 ### 2005-06-10 — lov/2005-06-10-46
@@ -1896,6 +2018,14 @@ refid: "lov/1998-07-17-56"
 *§ 10-3 sjette ledd oppheves. Nåværende åttende ledd blir nytt sjette ledd.*
 
 ## (annet)
+
+### 2001-06-15 — lov/2001-06-15-59
+
+*Nåværende nr. 11 blir ny nr. 12.*
+
+### 2001-06-15 — lov/2001-06-15-59
+
+*Nåværende nr. 12 blir ny nr. 14.*
 
 ### 2001-12-21 — lov/2001-12-21-117
 
@@ -1958,6 +2088,10 @@ refid: "lov/1998-07-17-56"
 ### 2004-01-01 — lov/2003-12-19-122
 
 *Nåværende annet og tredje ledd blir nye tredje og fjerde ledd.*
+
+### 2004-11-19 — lov/2004-11-19-73
+
+*Følgende bestemmelser oppheves:§ 1-2 annet og tredje ledd.Kapittel 2 (kapitteloverskriften og §§ 2-1 til 2-8).§ 10-1 første og annet ledd.§ 10-2 annet og tredje punktum.§ 10-3 syvende ledd.*
 
 ### 2004-12-10 — lov/2004-12-10-81
 
@@ -2031,11 +2165,81 @@ refid: "lov/1998-07-17-56"
 > Som fusjon regnes sammenslåing som nevnt i aksjeloven § 13-2 og allmennaksjeloven § 13-2, samt sammenslåing som omfatter annen regnskapspliktig og som gjennomføres på tilsvarende måte. Som fusjon regnes også en sammenslåing som nevnt i allmennaksjeloven §§ 13-25 til 13-36, jf. aksjeloven § 13-25, om fusjoner over landegrensene når kontantvederlaget som ytes til aksjeeierne i det overdragende selskapet ikke overstiger 20 prosent av det samlede vederlaget.
 >
 
+### 2008-06-20 — lov/2008-06-20-42
+
+*Nåværende § 3-3 syvende og åttende ledd blir nytt åttende og niende ledd.*
+
+### 2008-06-20 — lov/2008-06-20-42
+
+*Nåværende § 3-3a ellevte og tolvte ledd blir nytt tolvte og trettende ledd.*
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*195. I lov 17. juli 1998 nr. 56 om årsregnskap m.v. (regnskapsloven) skal § 8-5 lyde:*
+
+> Den som betydelig overtrer bestemmelser om bokføring eller regnskap, straffes etter straffeloven §§ 392-394.
+>
+> 196. I lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa gjøres følgende endring:
+>
+
+### 2009-12-21 — forskrift/2009-12-18-1603
+
+*Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.*
+
+> Lov 19. juni 2009 nr. 48 om endringer i lov 12. juni 1981 nr. 52 om verdipapirfond og enkelte andre lover del VIII, IX, X, XI, XII, XIII og XIV trer i kraft 21. desember 2009.
+>
+
+### 2010-07-01 — forskrift/2010-06-25-980
+
+*Delt ikraftsetting av lov 25. juni 2010 om endringer i regnskapsloven og enkelte andre lover.*
+
+> Delt ikraftsetting av lov 25. juni 2010 om endringer i regnskapsloven og enkelte andre lover.
+>
+> Loven trer i kraft 1. juli 2010 med unntak av:
+>
+> del VII § 2-3 som trer i kraft 1. januar 2011.
+>
+
+### 2011-05-01 — forskrift/2011-04-15-400
+
+*Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.*
+
+> Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.
+>
+
 ### 2012-06-22 — lov/2012-06-22-35
 
 *I lov 17. juli 1998 nr. 56 om årsregnskap m.v. skal § 7-30 b fjerde ledd lyde:*
 
 > Departementet kan i forskrift gi nærmere bestemmelser om definisjonen av nærstående parter og bestemmelser om at regnskapspliktige som direkte eller indirekte eies helt eller delvis av offentlig myndighet, kan unnlate å gi opplysninger som kreves etter første ledd.
+>
+
+### 2013-06-01 — forskrift/2013-04-19-395
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. juni 2013 med unntak av del I § 3-3c og § 3-5 samt del II § 5-1 og § 5-6, som trer i kraft 1. juni 2013 med virkning for regnskapsår påbegynt etter 31. desember 2012.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. juni 2013 med unntak av del I § 3-3c og § 3-5 samt del II § 5-1 og § 5-6, som trer i kraft 1. juni 2013 med virkning for regnskapsår påbegynt etter 31. desember 2012.
+>
+
+### 2013-06-01 — forskrift/2013-05-24-533
+
+*Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.*
+
+> Lov 11. januar 2013 nr. 3 om Statens innkrevingssentral trer i kraft 1. juni 2013.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-635
+
+*Delt ikraftsetting av lov om endringer i aksjelovgivningen mv. (forenklinger). Med unntak av endringen av aksjeloven § 2-1 første ledd i lovens del I gjelder loven fra 1. juli 2013.*
+
+> Delt ikraftsetting av lov om endringer i aksjelovgivningen mv. (forenklinger). Med unntak av endringen av aksjeloven § 2-1 første ledd i lovens del I gjelder loven fra 1. juli 2013.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
 >
 
 ### 2014-06-20 — lov/2014-06-20-29
@@ -2044,6 +2248,86 @@ refid: "lov/1998-07-17-56"
 
 > Det samme unntaket gjelder dersom opplysninger etter første ledd første punktum er tatt inn i morselskapets årlige rapport om konsernets betalinger til myndigheter utarbeidet som konsernrapportering etter reglene i denne paragraf med tilhørende forskrift eller etter tilsvarende utenlandsk regelverk.
 >
+
+### 2014-07-01 — forskrift/2014-06-26-866
+
+*Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, sam*
+
+> Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, samt del XV til XVIII, trer i kraft 1. juli 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*160. I lov 17. juli 1998 nr. 56 om årsregnskap m.v. skal § 8-5 lyde:*
+
+> § 8-5.Straff
+>
+> Den som betydelig overtrer bestemmelser om bokføring eller regnskap, straffes etter straffeloven §§ 392-394.
+>
+> 161. I lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa gjøres følgende endring:
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
+### 2018-01-01 — forskrift/2017-06-16-751
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-01-01 — forskrift/2017-09-15-1393
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).
+>
+> Loven trer i kraft fra 1. januar 2018 med unntak av § 9 som trer i kraft 1. juli 2018.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2041
+
+*Loven trer i kraft 1. januar 2018, med virkning for regnskapsår avsluttet 31. desember 2017 eller senere.*
+
+> Loven trer i kraft 1. januar 2018, med virkning for regnskapsår avsluttet 31. desember 2017 eller senere.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2154
+
+*Lovendringene trer i kraft 1. januar 2018.*
+
+> Lovendringene trer i kraft 1. januar 2018.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-776
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*7. I lov 17. juli 1998 nr. 56 om årsregnskap m.v. skal § 3-3a ellevte ledd lyde:*
+
+> Det skal gis opplysninger om det er tegnet forsikring for styrets medlemmer og daglig leder for deres mulige ansvar overfor foretaket og tredjepersoner og i tilfelle om forsikringsdekningen.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*Nåværende ellevte og tolvte ledd blir tolvte og trettende ledd.*
 
 ### 2021-04-30 — lov/2021-04-30-26
 
@@ -2064,82 +2348,16 @@ refid: "lov/1998-07-17-56"
 
 *Nåværende fjerde til sjette ledd blir nye første til tredje ledd.*
 
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2021-12-22 — lov/2021-12-22-161
 
-*Endring i følgende lov:*
-
-> Endring i følgende lov:
->
-> Lov 17. juli 1998 nr. 56 om årsregnskap m.v. (regnskapsloven).
->
-> § 1
->
-> .
->
-> Anvendelsesområde
->
-> Loven gjelder for:
->
-> Finansmarkedsdeltagere og finansrådgivere nevnt i offentliggjøringsforordningen artikkel 2(1) og 2(11).
->
-> Foretak nevnt i taksonomiforordningen artikkel 8 nr. 1.
->
-> § 2
->
-> .
->
-> Offentliggjøringsforordningen
->
-> EØS-avtalen vedlegg IX forordning (EU) 2019/2088 om offentliggjøring av bærekraftsrelaterte opplysninger i sektoren for finansielle tjenester (offentliggjøringsforordningen) gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
->
-> Når det i loven her vises til offentliggjøringsforordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første ledd eller fjerde ledd.
->
-> Offentliggjøringsforordningen skal også gjelde for forsikringsformidlere og verdipapirforetak, jf. offentliggjøringsforordningen artikkel 17 nr. 2.
->
-> Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført etter første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
->
-> § 3
->
-> .
->
-> Taksonomiforordningen
->
-> EØS-avtalen vedlegg IX forordning (EU) 2020/852 som etablerer rammeverket for et klassifiseringssystem for ulike bærekraftige aktiviteter (taksonomiforordningen), gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
->
-> Når det i loven her vises til taksonomiforordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første eller tredje ledd.
->
-> Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført etter første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen.
->
-> § 4
->
-> .
->
-> Tilsyn
->
-> Finanstilsynet fører tilsyn med overholdelse av bestemmelsene i denne loven og i forskrift gitt med hjemmel i denne loven etter reglene i finanstilsynsloven.
->
-> § 5
->
-> .
->
-> Ikrafttredelse
->
-> Loven gjelder fra den tid Kongen bestemmer. Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.
->
-> § 6
->
-> .
->
-> Endringer i annen lov
->
-> I lov 17. juli 1998 nr. 56 om årsregnskap m.v. gjøres følgende endringer:
->
-> § 3-3 c tiende ledd skal lyde:
->
-> Foretak som nevnt i direktiv (EU) 2013/34 artikkel 19a og 29a, skal i tillegg gi informasjon som beskrevet i artikkel 8 i taksonomiforordningen, jf. lov om offentliggjøring av bærekraftsinformasjon i finanssektoren og et rammeverk for bærekraftige investeringer § 3.
->
-> Nåværende tiende ledd blir nytt ellevte ledd.
->
+*Nåværende tiende ledd blir nytt ellevte ledd.*
 
 ### 2023-01-01 — forskrift/2022-12-20-2293
 
@@ -2350,6 +2568,42 @@ refid: "lov/1998-07-17-56"
 > § 7-31 b første ledd
 >
 
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
+### 2025-04-01 — forskrift/2025-03-21-479
+
+*Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 41 om Finanstilsynet (finanstilsynsloven). Loven trer i kraft 1. april 2025.
+>
+
 ### 2025-04-10 — lov/2025-04-10-11
 
 *Nåværende tredje og fjerde ledd blir annet og tredje ledd og skal lyde:*
@@ -2362,6 +2616,31 @@ refid: "lov/1998-07-17-56"
 ### 2025-04-10 — lov/2025-04-10-11
 
 *Nåværende femte ledd blir fjerde ledd.*
+
+### 2025-07-01 — forskrift/2025-06-20-1110
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2025-08-01 — forskrift/2025-06-24-1203
+
+*Ikraftsetting av lov 10. april 2025 nr. 11 om endringer i finansforetaksloven mv. (syntetisk STS-verdipapirisering mv.). Loven trer i kraft 1. august 2025.*
+
+> Ikraftsetting av lov 10. april 2025 nr. 11 om endringer i finansforetaksloven mv. (syntetisk STS-verdipapirisering mv.). Loven trer i kraft 1. august 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
 
 ## § 1
 
@@ -2385,3 +2664,18 @@ refid: "lov/1998-07-17-56"
 >
 > Denne forskriften trer i kraft 3. juni 2013.
 >
+
+## § 47 a
+
+### 2013-01-11 — lov/2013-01-11-3
+
+*§ 47 a annet ledd oppheves.*
+
+> 23. I lov 2. juni 2000 nr. 39 om apotek gjøres følgende endring:
+>
+
+## § 9a-7
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 9a-7 annet ledd oppheves. Nåværende tredje ledd blir annet ledd.*

@@ -14,6 +14,10 @@ refid: "lov/1988-05-06-22"
 > Arbeidstaker som i løpet av de siste 18 måneder har vært helt eller delvis permittert uten lønn i 26 uker til sammen, har krav på lønn og annet arbeidsvederlag fra arbeidsgiver for den overskytende permitteringstid.
 >
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 3 nr. 2 tredje ledd skal betegnelsen «arbeidsmarkedsetaten» endres til «Arbeids- og velferdsetaten».*
+
 ### 2009-04-01 — lov/2009-02-27-8
 
 *Endring i følgende lov:*
@@ -154,6 +158,17 @@ refid: "lov/1988-05-06-22"
 ### 2020-09-01 — lov/2020-06-23-96
 
 *§ 3 b oppheves.*
+
+## § 3a
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 3a skal lyde:*
+
+> § 3a.Meldeplikt til offentlig myndighet (Arbeids- og velferdsetaten)
+>
+> Før permittering skal arbeidsgiver gi melding til offentlig myndighet (Arbeids- og velferdsetaten) i henhold til arbeidsmarkedsloven § 8.
+>
 
 ## § 4
 

@@ -7,6 +7,22 @@ refid: "lov/2005-04-29-20"
 
 ## (annet)
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*I § 1 annet punktum og § 4 første ledd første punktum skal betegnelsen «Trygdeetatens innkrevingssentral» endres til «Arbeids- og velferdsetatens innkrevingssentral».*
+
+> I følgende bestemmelser skal betegnelsen «Rikstrygdeverket» endres til «Arbeids- og velferdsdirektoratet»:
+>
+> § 4 første ledd annet punktum, § 21 fjerde ledd og § 31 tredje ledd.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*141. I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal § 6 annet punktum lyde:*
+
+> Bidrag som blir krevd inn før en dom er rettskraftig, eller etter at en farskapssak er gjenåpnet eller det er reist sak om endring av farskapet, skal avsettes og gjøres opp først når saken er endelig avgjort.
+>
+
 ### 2009-01-01 — lov/2009-01-16-5
 
 *I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven) skal § 22 første ledd lyde:*
@@ -27,6 +43,13 @@ refid: "lov/2005-04-29-20"
 > Innkrevingssentralen kan kreve at arbeidsgiver eller andre som utbetaler lønn eller ytelse, gir opplysninger om bidragspliktiges inntekts- og formuesforhold.
 >
 
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2017-12-15 — lov/2017-12-15-104
 
 *I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal § 2 fjerde ledd lyde:*
@@ -36,23 +59,13 @@ refid: "lov/2005-04-29-20"
 
 ### 2019-07-01 — lov/2018-12-20-105
 
-*Endring i følgende lov:*
+*I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal ny § 7a lyde:*
 
-> Endring i følgende lov:
->
-> Lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven).
->
-> I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal ny § 7a lyde:
->
-> § 7a.
->
-> Bruk av personopplysninger ved utvikling og testing av IT-systemer
+> § 7a.Bruk av personopplysninger ved utvikling og testing av IT-systemer
 >
 > (1) Innkrevingssentralen kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
 >
 > (2) Departementet kan i forskrift gi nærmere regler om behandling etter første ledd.
->
-> Endringen under I trer i kraft 1. juli 2019.
 >
 
 ### 2022-01-01 — forskrift/2021-12-22-3800
@@ -60,6 +73,36 @@ refid: "lov/2005-04-29-20"
 *Loven trer i kraft 1. januar 2022.*
 
 > Loven trer i kraft 1. januar 2022.
+>
+
+### 2022-06-17 — forskrift/2022-06-17-1131
+
+*Delt ikraftsetting av lov 3. juni 2022*
+
+> Delt ikraftsetting av lov 3. juni 2022
+>
+> om endringer i barnevernsloven mv. (krav om politiattest ved ansettelser i barne-, ungdoms- og familieetaten mv.)
+>
+> Delt ikraftsetting av lov 3. juni 2022
+>
+> om endringer i barnevernsloven mv. (krav om politiattest ved ansettelser i barne-, ungdoms- og familieetaten mv.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del I.
+>
+> Følgende trer i kraft straks:
+>
+> Endringsloven del II og III.
+>
+> Skal være lov 17. juni 2022 nr. 45. Lovtidend-redaksjonens anmerkning.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -82,6 +125,17 @@ refid: "lov/2005-04-29-20"
 
 *§§ 30 til 35 oppheves.*
 
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
 ## § 1
 
 ### 2017-12-19 — lov/2017-12-19-122
@@ -93,6 +147,13 @@ refid: "lov/2005-04-29-20"
 > Etter reglene i loven her innkreves underholdsbidrag som påhviler noen etter barneloven, ekteskapsloven eller barnevernloven. Det samme gjelder andre krav som etter loven her eller andre lover skal innkreves av Innkrevingssentralen for bidrag og tilbakebetalingskrav (Innkrevingssentralen). Også krav på saksomkostninger som det offentlige er tilkjent i rettssaker om krav som nevnt i første og andre punktum, innkreves etter reglene i loven her.
 >
 > Departementet kan i forskrift gi regler om at Innkrevingssentralen skal innkreve andre krav enn de som er nevnt i første ledd, samt bestemme hvilke av lovens bestemmelser som skal gjelde ved innkrevingen av kravene.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 1 første ledd første punktum skal lyde:*
+
+> Etter reglene i loven her innkreves underholdsbidrag som påhviler noen etter barneloven, ekteskapsloven eller barnevernsloven.
 >
 
 ### 2025-04-25 — lov/2025-04-25-12
@@ -202,6 +263,13 @@ refid: "lov/2005-04-29-20"
 
 ## § 24
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 24 første ledd skal lyde:*
+
+> Enkeltvedtak som fattes av innkrevingssentralen og som ikke går ut på tvangsfullbyrdelse, kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer etter reglene i forvaltningsloven kapittel VI.
+>
+
 ### 2017-12-19 — lov/2017-12-19-122
 
 *§ 24 første ledd skal lyde:*
@@ -248,6 +316,13 @@ refid: "lov/2005-04-29-20"
 
 ## § 29
 
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 29 første ledd annet punktum skal lyde:*
+
+> Vedtaket kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
+
 ### 2017-12-19 — lov/2017-12-19-122
 
 *§ 29 første ledd andre punktum skal lyde:*
@@ -291,6 +366,17 @@ refid: "lov/2005-04-29-20"
 > Skattedirektoratet kan overta utøvelsen av partsstillingen i enkeltsaker eller i grupper av saker.
 >
 
+## § 35
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*§ 35 skal lyde:*
+
+> § 35.Folketrygdens midler
+>
+> Reglene om plikt til å holde folketrygdens midler skilt fra øvrige midler mv. etter folketrygdloven § 23-11 gjelder tilsvarende.
+>
+
 ## § 36
 
 ### 2025-12-22 — lov/2025-12-22-124
@@ -316,6 +402,13 @@ refid: "lov/2005-04-29-20"
 *§ 4 oppheves.*
 
 ## § 5
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 5 annet ledd annet punktum skal lyde:*
+
+> Innkrevingssentralen skal også kreve inn bidrag fastsatt etter barnevernsloven § 15-13 på grunnlag av omsorgsovertakelse.
+>
 
 ### 2025-04-25 — lov/2025-04-25-12
 

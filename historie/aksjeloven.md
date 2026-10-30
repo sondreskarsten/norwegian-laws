@@ -130,7 +130,9 @@ refid: "lov/1997-06-13-44"
 
 *§ 2-3 første ledd nr. 5 og nytt nr. 6 skal lyde:*
 
-> hvem som skal være medlemmer av selskapets styre;hvem som skal være selskapets revisor dersom selskapets årsregnskap skal revideres, jf. § 7-6 fjerde ledd.
+> hvem som skal være medlemmer av selskapets styre;
+>
+> hvem som skal være selskapets revisor dersom selskapets årsregnskap skal revideres, jf. § 7-6 fjerde ledd.
 >
 
 ### 2013-06-14 — lov/2013-06-14-40
@@ -317,6 +319,13 @@ refid: "lov/1997-06-13-44"
 > Skal aksjeinnskuddene utelukkende gjøres opp i penger, kan bekreftelsen gis av et finansforetak, en advokat eller en autorisert regnskapsfører.
 >
 
+### 2022-12-16 — lov/2022-12-16-90
+
+*§ 2-18 annet ledd femte punktum skal lyde:*
+
+> Skal aksjeinnskuddene utelukkende gjøres opp i penger, kan bekreftelsen gis av et finansforetak, en advokat eller en statsautorisert regnskapsfører.
+>
+
 ### 2023-06-16 — lov/2023-06-16-67
 
 *§ 2-18 andre ledd femte punktum skal lyde:*
@@ -465,7 +474,11 @@ refid: "lov/1997-06-13-44"
 
 *§ 3-8 første ledd annet punktum nr. 5 og nytt nr. 6 og 7 skal lyde:*
 
-> avtale der selskapets ytelse har en virkelig verdi som utgjør mindre enn 50 000 kroner, og som er godkjent av styret,avtale som omfattes av § 8-7 tredje ledd første punktum nr. 2 og 3, jf. annet punktum, dersom morselskapet eller den juridiske personen eier samtlige aksjer i selskapet,avtale inngått i samsvar med reglene i § 8-10.
+> avtale der selskapets ytelse har en virkelig verdi som utgjør mindre enn 50 000 kroner, og som er godkjent av styret,
+>
+> avtale som omfattes av § 8-7 tredje ledd første punktum nr. 2 og 3, jf. annet punktum, dersom morselskapet eller den juridiske personen eier samtlige aksjer i selskapet,
+>
+> avtale inngått i samsvar med reglene i § 8-10.
 >
 
 ### 2013-06-14 — lov/2013-06-14-40
@@ -525,6 +538,15 @@ refid: "lov/1997-06-13-44"
 > § 4-4.Registrering av aksjer i et verdipapirregister
 >
 > Det kan bestemmes i vedtektene at selskapets aksjer skal registreres i et verdipapirregister. Er selskapets aksjer registrert i et verdipapirregister, gjelder reglene i lov om allmennaksjeselskaper om slik registrering for aksjene, herunder § 4-10 om forvalterregistrering.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4-4 skal lyde:*
+
+> § 4-4.Registrering av aksjer i en verdipapirsentral
+>
+> Det kan bestemmes i vedtektene at selskapets aksjer skal registreres i en verdipapirsentral som har tillatelse etter eller er anerkjent etter verdipapirsentralforordningen (forordning (EU) 909/2014). Det skal i så fall også fastsettes i vedtektene i hvilken verdipapirsentral aksjene blir registrert. Er selskapets aksjer registrert i en verdipapirsentral, gjelder reglene i lov om allmennaksjeselskaper om slik registrering for aksjene, herunder § 4-10 om forvalterregistrering.
 >
 
 ### 2021-06-11 — lov/2021-06-11-84
@@ -588,6 +610,21 @@ refid: "lov/1997-06-13-44"
 *§ 4-11 annet ledd skal lyde:*
 
 > (2) Varselet etter første ledd skal senest to måneder før registreringen sendes alle som ifølge aksjeeierboken er aksjeeiere, og kunngjøres i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4-11 skal lyde:*
+
+> § 4-11.Overgang fra aksjeeierbok til aksjeeierregistrering i en verdipapirsentral og omvendt
+>
+> (1) Dersom et aksjeselskap har besluttet at selskapets aksjer skal registreres i en verdipapirsentral, skal selskapet varsle om at den som aksjeeierboken angir som aksjeeier, vil bli registrert som eier for det antall aksjer aksjeeierboken viser, med mindre det godtgjøres at en annen er aksjeeier. Varselet skal angi tidspunktet for registreringen.
+>
+> (2) Varselet etter første ledd skal senest to måneder før registreringen sendes alle som ifølge aksjeeierboken er aksjeeiere, og kunngjøres i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon.
+>
+> (3) Dersom et aksjeselskap har besluttet at selskapets aksjer ikke lenger skal være registrert i en verdipapirsentral, skal selskapet varsle om at den som er angitt som aksjeeier i aksjeeierregisteret, vil bli innført i aksjeeierboken som eier for det antall aksjer aksjeeierregisteret viser, med mindre det godtgjøres at en annen er aksjeeier. Varselet skal angi tidspunktet for innføringen. Annet ledd gjelder tilsvarende. Rettigheter i en aksje som er registrert i en verdipapirsentral, anses ved overgangen til aksjeeierboken som meldt til selskapet med den prioritet rettighetene har etter registreringen i verdipapirsentralen.
+>
+> (4) Kongen kan gi forskrift om fremgangsmåten ved overgang fra aksjeeierbok til aksjeeierregister i en verdipapirsentral, og ved overgang fra aksjeeierregister i en verdipapirsentral til aksjeeierbok.
 >
 
 ## § 4-15
@@ -1021,6 +1058,13 @@ refid: "lov/1997-06-13-44"
 > (4) Retten fastsetter godtgjørelse for granskerne ved kjennelse. Kostnadene ved granskingen bæres av selskapet. Retten bestemmer ved kjennelse om granskeren kan kreve at selskapet på forhånd skal deponere et passende beløp. Retten bestemmer i tilfelle også beløpets størrelse.
 >
 
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 5-26 tredje ledd annet punktum skal lyde:*
+
+> Det som er bestemt om revisor i revisorloven § 8-1 til § 8-7 og § 10-1 første og tredje til femte ledd, samt annet ledd bokstav a, c og d, gjelder tilsvarende for granskere.
+>
+
 ## § 5-27
 
 ### 2010-06-25 — lov/2010-06-25-33
@@ -1036,6 +1080,20 @@ refid: "lov/1997-06-13-44"
 > (3) Granskerens krav etter annet ledd som gjelder dokumenter eller andre gjenstander som kan inneholde informasjon av betydning for granskingen, og som selskapet ved lov er pålagt å utarbeide eller oppbevare, er særlig tvangsgrunnlag etter tvangsfullbyrdelsesloven § 13-2 første ledd.
 >
 > (4) Selskapets bankforbindelser skal uten hinder av taushetsplikt gi granskeren adgang til opplysninger om selskapets kundeforhold i banken.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 5-27 første ledd første punktum skal lyde:*
+
+> Selskapets ledende ansatte, medlemmer av styre og bedriftsforsamling, revisor og eventuelle autoriserte regnskapsførere etter regnskapsførerloven skal på forespørsel og uten hinder av taushetsplikt gi granskeren alle opplysninger de er kjent med, som kan være av betydning for de temaene som granskes.
+>
+
+### 2022-12-16 — lov/2022-12-16-90
+
+*§ 5-27 første ledd første punktum skal lyde:*
+
+> Selskapets ledende ansatte, medlemmer av styre og bedriftsforsamling, revisor og eventuelle statsautoriserte regnskapsførere etter regnskapsførerloven skal på forespørsel og uten hinder av taushetsplikt gi granskeren alle opplysninger de er kjent med, som kan være av betydning for de temaene som granskes.
 >
 
 ## § 6-1
@@ -1295,6 +1353,22 @@ refid: "lov/1997-06-13-44"
 *§ 7-6 annet ledd annet punktum skal lyde:*
 
 > Har selskapet ikke fastsatt sitt første årsregnskap, kan beslutning som nevnt i første ledd treffes hvis selskapets ansatte ikke overstiger ti på tidspunktet for generalforsamlingens beslutning og aksjeinnskuddene i forbindelse med stiftelsen er mindre enn en terskelverdi fastsatt av departementet i forskrift.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 7-6 første ledd nytt tredje punktum skal lyde:*
+
+> Beslutning om å unnlate revisjon kan ikke treffes hvis selskapet er revisjonspliktig etter annen lov eller forskrift gitt med hjemmel i lov.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*§ 7-6 sjette og sjuende ledd skal lyde:*
+
+> (6) Selskapet skal straks gi melding til Foretaksregisteret dersom generalforsamlingen har truffet beslutning som nevnt i første ledd. Beslutning som nevnt i første ledd får ikke virkning før den er registrert til Foretaksregisteret.
+>
+> (7) Dersom vilkårene for fritak fra revisjon ikke lenger er til stede, skal selskapet straks gi melding til Foretaksregisteret. Styret skal straks sørge for å innkalle generalforsamlingen og foreslå valg av revisor. Det samme gjelder dersom generalforsamlingen har stilt krav om revisjon etter fjerde ledd.
 >
 
 ## § 7-7
@@ -1656,6 +1730,13 @@ refid: "lov/1997-06-13-44"
 *§ 10-9 annet ledd fjerde punktum skal lyde:*
 
 > Skal aksjeinnskuddene utelukkende gjøres opp i penger, kan bekreftelsen gis av et finansforetak, en advokat eller en autorisert regnskapsfører.
+>
+
+### 2022-12-16 — lov/2022-12-16-90
+
+*§ 10-9 annet ledd fjerde punktum skal lyde:*
+
+> Skal aksjeinnskuddene utelukkende gjøres opp i penger, kan bekreftelsen gis av et finansforetak, en advokat eller en statsautorisert regnskapsfører.
 >
 
 ### 2023-06-16 — lov/2023-06-16-67
@@ -2523,6 +2604,14 @@ refid: "lov/1997-06-13-44"
 
 *§ 19-1 tredje ledd første punktum oppheves.*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-1 første ledd annet punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-1 tredje ledd første punktum oppheves.*
+
 ## § 19-2
 
 ### 2009-06-19 — lov/2009-06-19-74
@@ -2530,6 +2619,14 @@ refid: "lov/1997-06-13-44"
 *§ 19-2 første ledd tredje punktum oppheves.*
 
 ### 2009-06-19 — lov/2009-06-19-74
+
+*§ 19-2 annet ledd første punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 19-2 første ledd tredje punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
 
 *§ 19-2 annet ledd første punktum oppheves.*
 
@@ -2604,6 +2701,10 @@ refid: "lov/1997-06-13-44"
 
 ## (annet)
 
+### 2001-08-29 — forskrift/2001-08-29-1021
+
+*Forskrift av 9. november 1998 nr. 1061 om overgangsregler til lov av 13. juni 1997 nr. 44 om aksjeselskaper og lov av 13. juni 1997 nr. 45 om allmennaksjeselskaper oppheves.*
+
 ### 2001-12-21 — lov/2001-12-21-117
 
 *Nåværende annet og tredje punktum blir nye tredje og fjerde punktum.*
@@ -2611,6 +2712,13 @@ refid: "lov/1997-06-13-44"
 ### 2001-12-21 — lov/2001-12-21-117
 
 *Nåværende annet og tredje punktum blir nye tredje og fjerde punktum.*
+
+### 2002-06-21 — lov/2002-06-21-43
+
+*7. I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 8-7 fjerde ledd lyde:*
+
+> (4) Tredje ledd nr 2 gjelder tilsvarende når et boligbyggelag har bestemmende innflytelse som nevnt i § 1-3 i selskapet.
+>
 
 ### 2003-04-25 — lov/2003-04-25-25
 
@@ -2624,9 +2732,23 @@ refid: "lov/1997-06-13-44"
 
 *Nåværende § 20-6 blir ny § 20-7.*
 
+### 2004-07-01 — lov/2004-05-07-21
+
+*12. I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 20-6 lyde:*
+
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i selskaper der staten eier alle aksjene og heleide datterselskaper til slike selskaper etter lov 7. mai 2004 nr. 21 om Riksrevisjonen og instruks fastsatt av Stortinget.
+>
+
 ### 2005-04-29 — lov/2005-04-29-22
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*16. I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 13-11 første ledd lyde:*
+
+> (1) Tillitsvalgte i de selskapene som skal fusjonere, skal ha informasjon og har rett til drøfting i samsvar med reglene i arbeidsmiljøloven § 16-5.
+>
 
 ### 2006-12-15 — lov/2006-12-15-88
 
@@ -2742,6 +2864,17 @@ refid: "lov/1997-06-13-44"
 
 *Nåværende § 5-27 blir ny § 5-28.*
 
+### 2010-07-01 — forskrift/2010-06-25-980
+
+*Delt ikraftsetting av lov 25. juni 2010 om endringer i regnskapsloven og enkelte andre lover.*
+
+> Delt ikraftsetting av lov 25. juni 2010 om endringer i regnskapsloven og enkelte andre lover.
+>
+> Loven trer i kraft 1. juli 2010 med unntak av:
+>
+> del VII § 2-3 som trer i kraft 1. januar 2011.
+>
+
 ### 2011-04-15 — lov/2011-04-15-10
 
 *Kapittel 7 nytt avsnitt II skal lyde:*
@@ -2783,9 +2916,44 @@ refid: "lov/1997-06-13-44"
 > (2) Retten innkaller generalforsamlingen til behandling av uttalelsen. Uttalelsen skal senest en uke før møtet sendes til hver aksjeeier med kjent adresse. § 7-5 gjelder tilsvarende.
 >
 
+### 2011-05-01 — forskrift/2011-04-15-400
+
+*Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.*
+
+> Lov om endringer i revisorloven og enkelte andre lover (unntak fra revisjonsplikt for små aksjeselskaper) trer i kraft 1. mai 2011.
+>
+
 ### 2011-06-24 — lov/2011-06-24-33
 
 *Overskrifta til kapittel 11 skal lyde:*
+
+### 2011-06-30 — forskrift/2011-06-24-646
+
+*Lovens del I og II gjelder fra 30. juni 2011.*
+
+> Lovens del I og II gjelder fra 30. juni 2011.
+>
+
+### 2011-07-01 — forskrift/2011-06-24-647
+
+*Loven gjelder fra 1. juli 2011.*
+
+> Loven gjelder fra 1. juli 2011.
+>
+
+### 2012-01-01 — forskrift/2011-12-16-1260
+
+*Loven gjelder fra 1. januar 2012.*
+
+> Loven gjelder fra 1. januar 2012.
+>
+
+### 2013-04-05 — lov/2013-04-05-12
+
+*39. I lov 13. juni 1997 nr. 44 om aksjeselskaper skal § 6-8 første ledd annet punktum lyde:*
+
+> Det samme gjelder hvis et styremedlem blir fratatt rettslig handleevne eller blir satt i konkurskarantene etter konkursloven §§ 142 og 143.
+>
 
 ### 2013-06-14 — lov/2013-06-14-40
 
@@ -2849,6 +3017,27 @@ refid: "lov/1997-06-13-44"
 
 *Nåværende annet punktum blir nytt tredje punktum.*
 
+### 2013-07-01 — forskrift/2013-06-14-635
+
+*Delt ikraftsetting av lov om endringer i aksjelovgivningen mv. (forenklinger). Med unntak av endringen av aksjeloven § 2-1 første ledd i lovens del I gjelder loven fra 1. juli 2013.*
+
+> Delt ikraftsetting av lov om endringer i aksjelovgivningen mv. (forenklinger). Med unntak av endringen av aksjeloven § 2-1 første ledd i lovens del I gjelder loven fra 1. juli 2013.
+>
+
+### 2013-07-01 — forskrift/2013-06-14-638
+
+*Loven gjelder fra 1. juli 2013.*
+
+> Loven gjelder fra 1. juli 2013.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
 ### 2014-06-20 — lov/2014-06-20-25
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -2860,6 +3049,13 @@ refid: "lov/1997-06-13-44"
 > Hvis oppdraget opphørte før utløpet av tjenestetiden, skal selskaper av allmenn interesse, jf. revisorloven § 5a-1, sende melding om dette til Finanstilsynet. Departementet kan i forskrift fastsette regler om at melding om begrunnelse for avslutning av revisjonsoppdrag etter andre punktum også skal gjelde andre revisjonspliktige aksjeselskaper.
 >
 
+### 2014-07-01 — forskrift/2014-06-26-866
+
+*Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, sam*
+
+> Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, samt del XV til XVIII, trer i kraft 1. juli 2014.
+>
+
 ### 2015-10-30 — forskrift/2015-10-30-1242
 
 *Delt ikraftsetting av lov 14. juni 2013 nr. 40 om endringer i lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven). Romertall I § 2-1 første ledd tredje og fjerde punktum trer i kraft straks.*
@@ -2867,9 +3063,76 @@ refid: "lov/1997-06-13-44"
 > Delt ikraftsetting av lov 14. juni 2013 nr. 40 om endringer i lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven). Romertall I § 2-1 første ledd tredje og fjerde punktum trer i kraft straks.
 >
 
+### 2016-01-01 — forskrift/2015-04-10-350
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
 ### 2017-06-16 — lov/2017-06-16-71
 
 *Kapittel 5 avsnitt II overskriften skal lyde:*
+
+### 2017-07-01 — forskrift/2017-06-16-760
+
+*Loven trer i kraft 1. juli 2017, med unntak av endringene nevnt i punkt 1 og 2*
+
+> Loven trer i kraft 1. juli 2017, med unntak av endringene nevnt i punkt 1 og 2
+>
+> nedenfor.
+>
+> Skal vel være pkt. 2 og 3, Lovtidend-redaksjonens anmerkning.
+>
+> Endringene i aksjeloven § 4-5 annet ledd og § 4-6 første ledd trer i kraft 1. januar 2018.
+>
+> Følgende endringer trer i kraft på et senere tidspunkt:
+>
+> Lovvedtaket romertall I (lov 13. juni 1997 nr. 44 om aksjeselskaper)
+>
+> § 2-18 annet ledd femte punktum
+>
+> § 2-19 første ledd første punktum
+>
+> § 7-6 første ledd første punktum nr. 1 og 2
+>
+> § 7-6 annet ledd annet punktum nr. 1 og 2
+>
+> § 10-9 annet ledd fjerde punktum
+>
+> Lovvedtaket romertall II (lov 13. juni 1997 nr. 45 om allmennaksjeselskaper)
+>
+> § 2-18 annet ledd femte punktum
+>
+> § 2-19 første ledd første punktum
+>
+> § 10-9 annet ledd fjerde punktum
+>
+> Lovvedtaket romertall III (lov 21. juni 1985 nr. 78 om registrering av foretak)
+>
+> § 4-4 bokstav e første punktum
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2041
+
+*Loven trer i kraft 1. januar 2018, med virkning for regnskapsår avsluttet 31. desember 2017 eller senere.*
+
+> Loven trer i kraft 1. januar 2018, med virkning for regnskapsår avsluttet 31. desember 2017 eller senere.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2044
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 71 om endringer i aksjelovgivningen mv. (modernisering og forenkling). Romertall I (aksjeloven) § 7-6 første ledd første punktum nr. 1 og 2 trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 71 om endringer i aksjelovgivningen mv. (modernisering og forenkling). Romertall I (aksjeloven) § 7-6 første ledd første punktum nr. 1 og 2 trer i kraft 1. januar 2018.
+>
+
+### 2018-05-02 — forskrift/2018-04-27-637
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 71 om endringer i aksjelovgivningen mv. (modernisering og forenkling). Romertall I (aksjeloven) § 2-18 annet ledd femte punktum, § 2-19 første ledd første punktum og § 10-9 annet ledd fjerde punktum, romertall II (allmennaksjeloven) § 2-18 annet ledd femte*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 71 om endringer i aksjelovgivningen mv. (modernisering og forenkling). Romertall I (aksjeloven) § 2-18 annet ledd femte punktum, § 2-19 første ledd første punktum og § 10-9 annet ledd fjerde punktum, romertall II (allmennaksjeloven) § 2-18 annet ledd femte punktum, § 2-19 første ledd første punktum og § 10-9 annet ledd fjerde punktum og romertall III (foretaksregisterloven) § 4-4 bokstav e første punktum trer i kraft 2. mai 2018.
+>
 
 ### 2018-06-22 — lov/2018-06-22-45
 
@@ -2889,6 +3152,35 @@ refid: "lov/1997-06-13-44"
 ### 2018-12-14 — lov/2018-12-14-95
 
 *Nåværende annet og tredje ledd blir tredje og fjerde ledd.*
+
+### 2019-01-01 — forskrift/2018-06-22-945
+
+*Loven trer i kraft fra 1. januar 2019.*
+
+> Loven trer i kraft fra 1. januar 2019.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-11-20 — lov/2020-11-20-128
+
+*I kapittel 7 romertall I skal ny § 7-5 a lyde:*
+
+> § 7-5 a.Møte mellom styret og revisor
+>
+> (1) Styret skal hvert år ha et møte med revisor uten at daglig leder eller andre fra den daglige ledelsen er til stede. Dersom et flertall av styrets medlemmer også inngår i selskapets daglige ledelse skal likevel hele styret delta i møtet, med unntak av daglig leder.
+>
+> (2) Formålet med møtet skal være at styret og revisor drøfter sentrale regnskapsmessige forhold og andre forhold som revisor mener styret bør informeres om, herunder regnskapsmessige forhold der revisor ser vesentlige svakheter og mangler ved de vurderingene den daglige ledelsen har gjort.
+>
+> (3) Kravet etter første ledd gjelder ikke for:selskaper som er omfattet av regnskapsloven § 1-6,datterselskaper som har samme revisor som morselskapet dersom morselskapet er omfattet av kravet i første ledd,datterselskaper som har samme revisor som morselskapet, dersom morselskapet uten å være omfattet av kravet i første ledd likevel avholder et slikt møte med revisor som nevnt der.
+>
+> (4) Møtet skal gjennomføres som et fysisk eller elektronisk møte. Revisor deltar i møtet på samme måte som styremedlemmene. Dersom møtet avholdes som et fysisk møte, kan revisor delta elektronisk om dette godkjennes av styremedlemmene.
+>
 
 ### 2021-05-28 — lov/2021-05-28-51
 
@@ -2926,9 +3218,67 @@ refid: "lov/1997-06-13-44"
 > Fortegnelse over aksjeeiere som nevnt i § 5-13 skal inntas i eller vedlegges protokollen.
 >
 
+### 2021-06-01 — forskrift/2021-05-28-1667
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del *
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I (selskapsloven), del II (lov om statsforetak), del III (aksjeloven) med unntak av § 6-11 første ledd, del IV (allmennaksjeloven) med unntak av § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) med unntak av § 27 andre ledd, del VI (SE-loven), del VII (samvirkelova) med unntak av § 75, del VIII (finansforetaksloven) og del IX trer i kraft 1. juni 2021.
+>
+
 ### 2021-06-11 — lov/2021-06-11-84
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2021-06-18 — forskrift/2021-06-18-1986
+
+*Endringsloven trer i kraft straks.*
+
+> Endringsloven trer i kraft straks.
+>
+
+### 2021-06-23 — forskrift/2021-06-23-2064
+
+*Delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav). Endringsloven del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre le*
+
+> Delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav). Endringsloven del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre ledd og del VII (samvirkelova) § 75, trer i kraft samtidig som frihandelsavtalen mellom Island, Liechtenstein, Norge og Storbritannia trer i kraft.
+>
+
+### 2021-12-01 — forskrift/2021-12-01-3309
+
+*Frihandelsavtale mellom Island, Fyrstedømmet Liechtenstein og Kongeriket Norge og Det forente kongerike Storbritannia og Nord-Irland trer midlertidig i kraft for Norge 1. desember 2021. Lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskra*
+
+> Frihandelsavtale mellom Island, Fyrstedømmet Liechtenstein og Kongeriket Norge og Det forente kongerike Storbritannia og Nord-Irland trer midlertidig i kraft for Norge 1. desember 2021. Lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav) del III (aksjeloven) § 6-11 første ledd, del IV (allmennaksjeloven) § 6-11 første ledd og § 6-36 andre ledd, del V (stiftelsesloven) § 27 andre ledd og del VII (samvirkelova) § 75 trer derfor i kraft 1. desember 2021, jf. loven del X nr. 1 og kongelig resolusjon 23. juni 2021 nr. 2064 om delt ikraftsetting av lov 28. mai 2021 nr. 51 om endringer i foretakslovgivningen (gjennomføring av møter og geografiske tilknytningskrav).
+>
+
+### 2022-01-01 — forskrift/2021-12-17-3657
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Del I (aksjeloven) § 4-5 andre ledd og del II (allmennaksjeloven) § 1-7, § 4-4 annet og tredje ledd, § 4-5 første, tredje, fjerde og femte ledd, § 5-11b, § *
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Del I (aksjeloven) § 4-5 andre ledd og del II (allmennaksjeloven) § 1-7, § 4-4 annet og tredje ledd, § 4-5 første, tredje, fjerde og femte ledd, § 5-11b, § 18-4 første ledd og § 18-5 trer i kraft 1. januar 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2255
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-07-01 — forskrift/2022-09-02-1527
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Del I (aksjeloven) § 1-7 tredje og fjerde ledd og § 4-4, del II (allmennaksjeloven) § 1-8, oppheving av § 4-2 tredje ledd, § 4-10, § 4-15 femte ledd, § 5-2,*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Del I (aksjeloven) § 1-7 tredje og fjerde ledd og § 4-4, del II (allmennaksjeloven) § 1-8, oppheving av § 4-2 tredje ledd, § 4-10, § 4-15 femte ledd, § 5-2, § 5-3, § 5-10 første ledd og oppheving av § 5-10 fjerde ledd tredje punktum og del III (verdipapirsentralloven) trer i kraft 1. juli 2023.
+>
 
 ### 2024-01-01 — lov/2023-12-20-114
 
@@ -2973,4 +3323,107 @@ refid: "lov/1997-06-13-44"
 > (2) Den som attesterer bærekraftsrapporteringen, skal hvert regnskapsår avgi en attestasjonsuttalelse om bærekraftsrapportering etter revisorloven § 9-7 a til generalforsamlingen. Uttalelsen skal være styret i hende senest to uker før den ordinære generalforsamlingen.
 >
 > (3) §§ 7-2, 7-3 og 7-5 gjelder tilsvarende for den som er valgt til å attestere bærekraftsrapporteringen etter første ledd.
+>
+
+### 2024-11-01 — forskrift/2024-10-11-2454
+
+*Følgende trer i kraft 1. november 2024:*
+
+> Følgende trer i kraft 1. november 2024:
+>
+> Endringsloven del I (regnskapsloven)
+>
+> Endringsloven del II (revisorloven) med unntak av § 12-1.
+>
+> Endringsloven del III (statsforetaksloven)
+>
+> Endringsloven del IV (aksjeloven)
+>
+> Endringsloven del V (allmennaksjeloven)
+>
+> Endringsloven del VI (bustadbyggjelagslova)
+>
+> Endringsloven del VIII (verdipapirhandelloven)
+>
+> Endringsloven del IX (samvirkelova)
+>
+> Endringsloven del X (finansforetaksloven)
+>
+> Endringsloven del XI (fagskoleloven)
+>
+> Endringsloven del XII (åpenhetsloven).
+>
+
+## § 1
+
+### 2011-05-01 — forskrift/2011-04-15-401
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> For aksjeselskaper som er stiftet etter 1. juli 2010, men før lovens ikrafttredelse, gjelder terskelverdiene etter aksjeloven § 7-6 første ledd først for regnskapsåret etter første avlagt årsregnskap, såfremt selskapets åpningsbalanse viser en balansesum på mindre enn 20 millioner kroner.
+>
+> § 2
+>
+> .
+>
+> Revisjonsoppdrag som er avsluttet på grunnlag av at fullmakt til å fravelge revisjon er benyttet i samsvar med aksjeloven § 7-6, anses avsluttet etter utløpet av tjenestetiden, og plikten til å sende begrunnelse til Finanstilsynet etter revisorloven § 2-1 syvende ledd fjerde punktum og aksjeloven § 7-2 fjerde ledd annet punktum kommer derfor ikke til anvendelse.
+>
+> Denne forskrift trer i kraft 1. mai 2011.
+>
+
+### 2013-07-01 — forskrift/2013-06-19-662
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Endringen av aksjeloven § 2-8 og allmennaksjeloven § 2-8 ved lov 14. juni 2013 nr. 40 gjelder når stiftelsesdokumentet undertegnes etter lovens ikrafttredelse. Er stiftelsesdokumentet undertegnet før lovens ikrafttredelse, gjelder de tidligere reglene.
+>
+> § 2
+>
+> .
+>
+> Beslutning om nedsetting av overkursfondet etter aksjeloven § 3-2 annet ledd nr. 4 og allmennaksjeloven § 3-2 annet ledd nr. 4, slik bestemmelsene lød før endringen ved lov 14. juni 2013 nr. 40, kan gjennomføres etter de tidligere reglene.
+>
+> § 3
+>
+> .
+>
+> Endringen av aksjeloven § 3-8 og allmennaksjeloven § 3-8 ved lov 14. juni 2013 nr. 40 gjelder for avtaler som inngås etter lovens ikrafttredelse. Er avtalen inngått før lovens ikrafttredelse, gjelder de tidligere reglene.
+>
+> § 4
+>
+> .
+>
+> Endringen av aksjeloven § 7-6 ved lov 14. juni 2013 nr. 40 gjelder når generalforsamlingen treffer beslutning om styrefullmakt etter lovens ikrafttredelse. Er beslutningen truffet før lovens ikrafttredelse, gjelder de tidligere reglene.
+>
+> § 5
+>
+> .
+>
+> Endringen av aksjeloven § 8-1 og allmennaksjeloven § 8-1 ved lov 14. juni 2013 nr. 40 gjelder for beslutninger om utbytte som treffes etter lovens ikrafttredelse. Fradrag etter annet ledd annet punktum i de nevnte bestemmelsene skal omfatte kreditt og sikkerhetsstillelse som var gitt eller stilt før lovens ikrafttredelse, og som måtte ligge innenfor rammen av de midler selskapet kunne benytte til utdeling av utbytte etter reglene i § 8-7 til § 8-10 på dette tidspunktet.
+>
+> § 6
+>
+> .
+>
+> Endringen av aksjeloven § 8-7 og allmennaksjeloven § 8-7 ved lov 14. juni 2013 nr. 40 gjelder for kreditt som gis eller sikkerhet som stilles etter lovens ikrafttredelse.
+>
+> § 7
+>
+> .
+>
+> Endringen av aksjeloven § 10-1 annet ledd nr. 9 og allmennaksjeloven § 10-1 annet ledd nr. 10 ved lov 14. juni 2013 nr. 40 gjelder når innkallingen til generalforsamling sendes etter lovens ikrafttredelse. Er innkallingen sendt før lovens ikrafttredelse, gjelder de tidligere reglene.
+>
+> § 8
+>
+> .
+>
+> Overgangsreglene her trer i kraft 1. juli 2013.
 >

@@ -30,6 +30,13 @@ refid: "lov/2005-06-17-90"
 > Første ledd gjelder tilsvarende for samarbeidskommuner i et vertskommunesamarbeid, jf. kommuneloven kapittel 20, og for Longyearbyen lokalstyre.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 1-4 a annet ledd skal lyde:*
+
+> Første ledd gjelder ikke enkeltvedtak som er truffet i medhold av barnevernsloven.
+>
+
 ## § 1-5
 
 ### 2012-05-25 — lov/2012-05-25-28
@@ -109,10 +116,6 @@ refid: "lov/2005-06-17-90"
 > (2) En mindreårig over 15 år skal varsles til rettsmøtene. Retten skal opplyse om at den mindreårige har rett, men ikke plikt, til å være til stede i rettsmøtet. Den mindreårige skal meddeles prosesskriv samtidig med vergen, hvis ikke den mindreårige selv har erklært at det er unødvendig. For mindreåriges rett til innsyn i dokumenter gjelder § 14-1 første ledd.
 >
 > (3) Gjelder søksmålet midler som forvaltes av fylkesmannen etter vergemålsloven kapittel 7, skal stevningen forkynnes også for fylkesmannen. Fylkesmannen har rett til å tre inn i saken dersom personen mangler prosessdyktighet etter § 2-2 tredje ledd. Fylkesmannens prosesshandlinger kommer i så fall personen til gode selv om de strider mot personens egne prosesshandlinger.
->
-> 52. I lov 15. juni 2007 nr. 40 om reindrift skal § 10 tredje ledd annet punktum lyde:
->
-> Mindreårige barn hvis foreldre ikke lever sammen, har likevel adgang til å eie rein i siidaandel både hos fars slekt og hos mors slekt.
 >
 
 ## § 3-3
@@ -234,7 +237,7 @@ refid: "lov/2005-06-17-90"
 
 *§ 6-2 annet ledd bokstav a skal lyde:*
 
-> tvistesummen er minst kr 200 000, og begge parter har vært bistått av advokat,
+> tvistesummen er minst kr 200 000, og begge parter har vært bistått av advokat,
 >
 
 ### 2023-05-11 — lov/2023-05-11-13
@@ -299,6 +302,15 @@ refid: "lov/2005-06-17-90"
 *§ 6-7 første ledd bokstav c skal lyde:*
 
 > den som er godkjent prosessfullmektig i et fremmedinkassoforetak etter inkassoloven § 11 med inkassooppdrag for saken,
+>
+
+## § 6-8
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 6-8 femte ledd skal lyde:*
+
+> (5) Parter og vitner avgir ikke forsikring, men skal oppfordres til å forklare seg sannferdig og gjøres kjent med ansvaret ved uriktig forklaring.
 >
 
 ## § 6-10
@@ -531,6 +543,15 @@ refid: "lov/2005-06-17-90"
 > Innsynsretten gjelder heller ikke så langt det er nødvendig for å ivareta formålet med en beslutning etter § 24-8 tredje ledd.
 >
 
+## § 14-4
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*§ 14-4 tredje ledd bokstav a skal lyde:*
+
+> forretningshemmeligheter,
+>
+
 ## § 14-6
 
 ### 2023-05-11 — lov/2023-05-11-13
@@ -756,6 +777,17 @@ refid: "lov/2005-06-17-90"
 > (3) Selv om samtykke er nektet, kan retten ved kjennelse bestemme at beviset skal føres når det er strengt nødvendig for sakens opplysning, og hensynet til sakens opplysning klart veier tyngre enn hensynene som tilsier hemmelighold. Riksadvokaten skal få redegjøre for sitt syn før retten treffer avgjørelse. Redegjørelsen meddeles partene.
 >
 
+## § 22-10
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*§ 22-10 skal lyde:*
+
+> § 22-10.Bevisfritak for forretningshemmeligheter
+>
+> En part eller et vitne kan nekte å gi tilgang til bevis som ikke kan gjøres tilgjengelig uten å røpe en forretningshemmelighet. Retten kan likevel gi pålegg om at beviset skal gjøres tilgjengelig når den etter en avveining finner det påkrevd.
+>
+
 ## § 22-11
 
 ### 2007-12-21 — lov/2007-12-21-127
@@ -778,6 +810,15 @@ refid: "lov/2005-06-17-90"
 > Når et bevis omhandlet i dette kapittel føres med vedkommendes samtykke, skal retten pålegge de tilstedeværende taushetsplikt, hvis ikke samtykket bestemmer noe annet.
 >
 > I § 28-A1 tredje ledd første punktum erstattes ordet «planteforedlerett» av «planteforedlerrett».
+>
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*§ 22-12 nye tredje og fjerde ledd skal lyde:*
+
+> (3) Når bevis omhandlet i § 22-10 føres etter pålegg fra retten, skal retten pålegge de tilstedeværende taushetsplikt og forbud mot bruk av forretningshemmeligheten som kan utledes av beviset. Retten kan bestemme at muntlig forhandling om beviset skal skje for lukkede dører. Retten kan i særlige tilfeller begrense partenes adgang til å benytte rettslige medhjelpere etter § 3-7 til det retten anser nødvendig.
+>
+> (4) Forbud og påbud etter tredje ledd første punktum skal gjelde inntil det i rettskraftig dom eller kjennelse fastslås at opplysningene ikke utgjør forretningshemmeligheter, eller vernet bortfaller som følge av at opplysningene blir allment kjent eller lett tilgjengelig.
 >
 
 ## § 23-2
@@ -813,6 +854,20 @@ refid: "lov/2005-06-17-90"
 >
 
 ## § 24-8
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24-8 annet ledd annet punktum skal lyde:*
+
+> Er det fare for at vitnet eller noen som vitnet står i et slikt forhold til som nevnt i § 22-8, kan bli utsatt for et lovbrudd som krenker liv, helse eller frihet, eller vesentlig velferdstap av annen art, kan rettens leder beslutte at opplysning om bopelen eller arbeidsstedet bare skal opplyses skriftlig til retten.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 24-8 fjerde ledd første punktum skal lyde:*
+
+> Før forklaring gis, skal retten formane vitnet til å forklare seg sannferdig og fullstendig og gjøre klart for vitnet det ansvar som følger med uriktig forklaring og forsikring.
+>
 
 ### 2024-12-13 — lov/2024-12-13-78
 
@@ -885,6 +940,15 @@ refid: "lov/2005-06-17-90"
 *§ 29-17 andre punktum skal lyde:*
 
 > § 9-12 første til tredje ledd gjelder tilsvarende.
+>
+
+## § 31-3
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 31-3 første ledd bokstav c skal lyde:*
+
+> hvis et vitne med skjellig grunn mistenkes for uriktig forklaring,
 >
 
 ## § 32-7
@@ -1013,6 +1077,19 @@ refid: "lov/2005-06-17-90"
 > (3) Paragrafen her gjelder tilsvarende ved innførsel eller utførsel av varer som krenker markedsføringsloven § 30, og ved innførsel eller utførsel av varer som krenker markedsføringsloven §§ 25 og 26, når krenkelsen består i etterligning av annens produkt, kjennetegn, reklamemidler eller andre frembringelser.
 >
 
+## § 34-8
+
+### 2020-03-27 — lov/2020-03-27-15
+
+*Ny § 34-8 skal lyde:*
+
+> § 34-8.Særregler om midlertidige forføyninger til sikring av forretningshemmeligheter
+>
+> (1) Når retten beslutter midlertidig forføyning til sikring av en forretningshemmelighet, skal det settes en frist for saksøkeren til å reise søksmål om kravet, jf. § 34-3 tredje ledd. Fristen skal ikke overstige det lengste alternativet av 20 virkedager eller 31 kalenderdager.
+>
+> (2) § 34-3 annet ledd sjette punktum gjelder ikke for midlertidig forføyning som forbyr formidling av forretningshemmeligheter.
+>
+
 ## § 35-8
 
 ### 2023-05-11 — lov/2023-05-11-13
@@ -1029,6 +1106,15 @@ refid: "lov/2005-06-17-90"
 *§ 35-12 første ledd skal lyde:*
 
 > (1) Grupperepresentanten har rett og plikt til sakskostnader i gruppesøksmålet.
+>
+
+## § 36-3
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 36-3 tredje ledd skal lyde:*
+
+> Søksmålet rettes mot staten ved departementet. I saker som gjelder vedtak truffet av barneverns- og helsenemnda, rettes søksmålet mot kommunen. Er det kommunen som reiser søksmålet, må dette rettes mot den eller de private parter i det vedtak som blir angrepet.
 >
 
 ## § 36-4
@@ -1070,6 +1156,13 @@ refid: "lov/2005-06-17-90"
 > dommen går ut på tvang som ikke er vedtatt av fylkesnemnda.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 36-10 tredje ledd skal lyde:*
+
+> Anke over tingrettens dom i sak om barneverns- og helsenemndas vedtak etter barnevernsloven kan ikke fremmes uten lagmannsrettens samtykke. Samtykke kan bare gis nåranken gjelder spørsmål som har betydning utenfor den foreliggende sak,det er grunn til å behandle saken på ny fordi det er framkommet nye opplysninger,det er vesentlige svakheter ved tingrettens avgjørelse eller saksbehandling, ellerdommen går ut på tvang som ikke er vedtatt av nemnda.
+>
+
 ## § 37-3
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -1079,54 +1172,6 @@ refid: "lov/2005-06-17-90"
 ### 2007-12-21 — lov/2007-12-21-127
 
 *§ 37-3 nr. 17 skal lyde:*
-
-> 17. I lov 27. mai 1932 nr. 2 om veksler skal § 71 første ledd lyde:
->
-> Vekselforeldelsen avbrytesved at stevning er sendt til retten eller i tilfelle klage til forliksrådet, eller ved at vekselkravet under rettssak gjøres gjeldende til motregning, eller for øvrig inndras i saken (jf. tvisteloven § 15-1) ellerved at vekselfordringen anmeldes i skyldnerens bo dersom dette behandles av offentlige myndigheter ellerved at den mot hvem søksmål (motregningskrav) som foran omtalt er reist, gir en leder varsel om søksmålet (tvisteloven § 15-9). Den som har mottatt sådan innvarsling, kan avbryte foreldelsen ved likeledes å gi sin formann prosessvarsel.
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*§ 37-3 nr. 18 skal lyde:*
-
-> 18. I lov 27. mai 1932 nr. 3 om chekker skal § 53 første ledd lyde:
->
-> Sjekkforeldelse avbrytesved at stevning er sendt til retten eller i tilfelle klage til forliksrådet, eller ved at sjekkravet under rettssak gjøres gjeldende til motregning, eller for øvrig inndras i saken (jf. tvisteloven § 15-1) ellerved at chekkfordringen anmeldes i skyldnerens bo dersom dette behandles av offentlige myndigheter ellerved at den mot hvem søksmål (motregningskrav) som foran omtalt er reist, gir en leder varsel om søksmålet (tvisteloven § 15-9). Den som har mottatt sådan innvarsling, kan avbryte foreldelsen ved likeledes å gi sin formann prosessvarsel.
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*§ 37-3 nr. 21 skal lyde:*
-
-> 21. I lov 13. desember 1946 nr. 21 om krigspensjonering for militærpersoner skal § 30 nr. 2 lyde:Arbeids- og velferdsetaten kan, når det finnes nødvendig for avgjørelsen av en sak etter denne lov la innhente forklaringer gjennom bevissikring etter reglene i tvisteloven § 28-3 tredje ledd og § 28-4 eller ved politiet. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*§ 37-3 nr. 22 skal lyde:*
-
-> 22. I lov 13. desember 1946 nr. 22 om krigspensjonering for hjemmestyrkepersonell og sivilpersoner skal § 39 nr. 2 lyde:Arbeids- og velferdsetaten kan, når det finnes nødvendig for avgjørelsen av en sak etter denne lov la innhente forklaringer gjennom bevissikring etter reglene i tvisteloven § 28-3 tredje ledd og § 28-4 eller ved politiet. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.
->
-> § 37-3 nr. 25 vert oppheva.
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*§ 37-3 nr. 31 skal lyde:*
-
-> 31. I lov 26. november 1954 nr. 3 om stønad ved krigsskade på person skal § 37 nr. 2 lyde:Finner Arbeids- og velferdsetaten det påkrevd, kan bevis opptas i samsvar med tvisteloven.
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*§ 37-3 nr. 35 skal lyde:*
-
-> 35. I lov 12. desember 1958 nr. 10 om yrkesskadetrygd skal § 45 lyde:
->
-> Arbeids- og velferdsetaten kan, dersom det finner det nødvendig for avgjørelsen av en sak etter denne lov, innhente forklaring gjennom bevissikring etter reglene i tvisteloven § 28-3 tredje ledd og § 28-4. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.
->
-> I § 37-3 nr. 48 vert det gjort følgjande endringar:
->
 
 ## (annet)
 
@@ -1141,6 +1186,15 @@ refid: "lov/2005-06-17-90"
 ### 2007-02-27 — lov/2007-01-26-3
 
 *Nåværende fjerde ledd blir femte ledd.*
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*40. I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister (tvisteloven) skal § 2-1 bokstav d lyde:*
+
+> samvirkeforetak, sparebanker og stiftelser,
+>
+> 41. I lov 30. juni 2006 nr. 50 om europeiske samvirkeforetak ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10c (rådsforordning (EF) nr. 1435/2003) (SCE-loven) blir det gjort følgjande endringar:
+>
 
 ### 2007-09-01 — lov/2007-06-29-68
 
@@ -1173,71 +1227,11 @@ refid: "lov/2005-06-17-90"
 > Bestemmelsene i tvisteloven første, annen, fjerde, femte og sjette del, med unntak for kapittel 5, 6 og 16 III, samt § 9-6 får, for så vidt de passer, og ikke annet er bestemt, tilsvarende anvendelse på tvister for tingretten under offentlig skiftebehandling, dog således at det med hensyn til bevis og bevisførsel gjelder samme regler som under hovedforhandling i sivile tvister. For adgangen til å opptre som prosessfullmektig gjelder tvisteloven § 3-3 første til fjerde ledd. Ved behandling av tvister ved allmennprosess og ved anke gjelder tvisteloven § 3-3 første til tredje ledd.
 >
 
-### 2007-12-21 — lov/2007-12-21-127
+### 2010-01-01 — forskrift/2009-10-16-1279
 
-*Innleiinga til § 37-3 nr. 28 skal lyde:*
+*Lov 19. juni 2009 nr. 79 om endringer i tvisteloven m.m. avsnitt I, II, IV, VI og VII trer i kraft 1. januar 2010.*
 
-> 28. I lov 29. mai 1953 nr. 1 om rett for handverkarar o.a. til å selja ting som ikkje vert henta skal § 4 første punktum lyde:
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*Lov om toll § 8 nr. 3 bokstav b skal lyde:*
-
-> som vitneprov eller ved dokumenttilgang under rettergang.
->
-> Endringane i lov om toll § 39 første, fjerde og sjette ledd skal vere i andre, femte og sjuande ledd.
->
-> I § 37-3 nr. 49 skal endringa i lov om anke til Trygderetten § 23 femte ledd andre punktum vere i § 23 fjerde ledd andre punktum.
->
-> I § 37-3 nr. 50 skal innleiinga til endringa i forvaltningsloven § 27 tredje ledd tredje og fjerde punktum lyde:
->
-> § 27 tredje ledd tredje og nytt fjerde punktum skal lyde:
->
-> I § 37-3 nr. 70 skal innleiinga til endringa i foreldelsesloven § 15 nr. 3 første og andre punktum lyde:
->
-> § 15 nr. 3 første og nytt annet punktum skal lyde:
->
-> I § 37-3 nr. 77 skal endringa i barneloven § 29b andre ledd lyde:
->
-> For å vareta offentlege interesser har Arbeids- og velferdsetaten rett til å møte i ei slektskapssak og til å anke eller krevje gjenopning av saka. Retten skal gje melding til Arbeids- og velferdsetaten om saka og om nokon av partane ikkje møter.
->
-> I § 37-3 nr. 78 vert det gjort følgjande endringar:
->
-> Endringa i straffeprosessloven § 230 tredje ledd fjerde punktum skal vere i § 230 tredje ledd tredje punktum.
->
-> Endringa i § 277 andre ledd vert oppheva.
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*Endringa i straffeprosessloven § 281 første ledd nr. 2 skal lyde:*
-
-> er uteblitt uten at det er opplyst eller sannsynliggjort at han har gyldig fravær eller
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*Endringa i straffeprosessloven § 288 andre ledd nr. 2 siste punktum skal lyde:*
-
-> Kjennelsen trenger ikke grunner og kan ikke ankes.
->
-> I § 37-3 nr. 82 vert det gjort følgjande endringar:
->
-
-### 2007-12-21 — lov/2007-12-21-127
-
-*Innleiinga til endringa i § 12-5 første ledd annet og tredje punktum skal lyde:*
-
-> § 12-5 første ledd annet og tredje punktum skal lyde:
->
-> § 37-3 nr. 127 vert oppheva.
->
-> I § 37-3 nr. 148 skal endringa i skattebetalingsloven 19-3 nr. 11 lyde:
->
-> I § 19-3 nr. 11 skal endringen av lov 13. juni 1980 nr. 24 om ligningsforvaltning (ligningsloven) § 11-1 nr. 4 fjerde punktum lyde:
->
-> Det kan gis oppfriskning for oversittelse av fristen etter reglene i tvisteloven §§ 16-12 til 16-14.
+> Lov 19. juni 2009 nr. 79 om endringer i tvisteloven m.m. avsnitt I, II, IV, VI og VII trer i kraft 1. januar 2010.
 >
 
 ### 2010-12-10 — lov/2010-12-10-76
@@ -1245,6 +1239,15 @@ refid: "lov/2005-06-17-90"
 *I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister (tvisteloven) skal § 29-13 femte ledd lyde:*
 
 > (5) Avgjørelse etter første og annet ledd treffes ved beslutning uten muntlig forhandling. Beslutning etter første ledd skal være begrunnet når særlige grunner tilsier det. Nektelse etter annet ledd krever enstemmighet og skal være begrunnet. Beslutningen kan bare ankes på grunnlag av feil i saksbehandlingen. At en anke ikke er nektet fremmet etter annet ledd, kan ikke ankes eller brukes som ankegrunn.
+>
+
+### 2010-12-10 — forskrift/2010-12-10-1574
+
+*Delt ikraftsetting av lovendringene.*
+
+> Delt ikraftsetting av lovendringene.
+>
+> Lovendringene, med unntak av endringene i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272, trer i kraft 10. desember 2010.
 >
 
 ### 2011-04-15 — lov/2011-04-15-11
@@ -1314,6 +1317,20 @@ refid: "lov/2005-06-17-90"
 > (2) Mellom partene i et søksmål om inngrep gjelder bestemmelsene om sakskostnader i kapittel 20 for kostnader og utlegg knyttet til behandling og gjennomføring av en begjæring om informasjon.
 >
 
+### 2013-07-01 — forskrift/2013-05-31-543
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2016-06-17 — lov/2016-06-17-55
 
 *I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 4-4 fjerde, femte og nytt sjette ledd lyde:*
@@ -1325,11 +1342,80 @@ refid: "lov/2005-06-17-90"
 > (6) Boer har alminnelig verneting i den rettskrets hvor de behandles.
 >
 
+### 2017-06-16 — lov/2017-06-16-63
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal ny § 1-4 a lyde:*
+
+> § 1-4 a.Tvister mellom stat og kommune eller fylkeskommune om gyldigheten av statlig organs avgjørelse
+>
+> En kommune eller en fylkeskommune kan reise søksmål mot staten om gyldigheten av et statlig organs avgjørelse somopphever eller endrer kommunens eller fylkeskommunens enkeltvedtak etter klage,omgjør kommunens eller fylkeskommunens enkeltvedtak uten klage,opphever kommunens eller fylkeskommunens avgjørelse etter lovlighetskontroll, jf. kommuneloven § 59,pålegger kommunen eller fylkeskommunen å betale sakskostnader til en part etter forvaltningsloven § 36,pålegger kommunen eller fylkeskommunen plikter etter tilsyn,fordeler rettigheter eller plikter mellom kommuner eller fylkeskommuner.Første ledd gjelder ikke enkeltvedtak som er truffet i medhold av barnevernloven.Første ledd gjelder tilsvarende for samarbeidskommuner i et vertskommunesamarbeid, jf. kommuneloven kapittel 5 A, og for Longyearbyen lokalstyre.Søksmålet må reises innen seks måneder etter at avgjørelsen ble truffet.En rettskraftig avgjørelse er også bindende for tredjeperson som fylte vilkårene i § 15-3, og som var varslet av saksøker om søksmålet etter fremgangsmåten fastsatt i § 15-4. Varselet skal opplyse om hvilke konsekvenser det kan ha enten å tre inn eller ikke tre inn i saken. Varslet skal sette en frist for å tre inn i saken som skal være minst 3 uker. Fristen skal være senest 1 måned før avsluttet saksforberedelse.En kommune eller fylkeskommune kan i forbindelse med søksmål etter første ledd fremme krav om erstatning fra staten. Erstatning kan kun idømmes der avgjørelsen det er reist søksmål om gyldigheten av, blir kjent ugyldig.
+>
+
+### 2017-07-01 — forskrift/2017-04-28-500
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-757
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-06-15 — lov/2018-06-15-37
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal ny § 22-3 a lyde:*
+
+> § 22-3 a.Bevisforbud om opplysninger undergitt lovbestemt taushetsplikt for verger
+>
+> Det kan ikke føres bevis når dette vil krenke en oppnevnt verges lovbestemte taushetsplikt etter vergemålsloven.
+>
+> I den utstrekning personen med verge ikke er i stand til å forstå hva et samtykke innebærer, kan retten ved kjennelse beslutte om beviset kan føres. Det samme gjelder hvis personen med verge er mindreårig og ikke selv kan samtykke, og vergen treffer avgjørelser som tilkommer den som har foreldreansvaret etter vergemålsloven § 17 annet ledd. Om den mindreåriges medbestemmelsesrett ved rettens beslutning gjelder reglene i barnelova § 31.
+>
+
 ### 2018-06-22 — lov/2018-06-22-80
 
 *I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 6-14 fjerde ledd lyde:*
 
 > Har forliksrådet avsagt fraværsdom, kan klagemotparten kreve oppfriskning. Reglene i §§ 16-12 til 16-14 gjelder ikke. Fristen for å kreve oppfriskning er én måned. Det kan gis oppfriskning mot oversittelse av fristen. Forliksrådets beslutning om oppfriskning kan bare ankes dersom den nekter oppfriskning. Oppfriskning etter første punktum kan kun kreves én gang i samme sak. I stedet for oppfriskning, kan klagemotparten ta ut stevning til tingretten etter første ledd. Det kan for øvrig ikke begjæres oppfriskning i forliksrådet.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2018-09-01 — forskrift/2018-08-10-1229
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 80 om endringer i domstolloven mv. (elektronisk kommunikasjon mv.). Loven trer i kraft 1. september 2018 med unntak av del II, som trer i kraft 1. januar 2019.
+>
+
+### 2018-10-01 — forskrift/2018-09-28-1470
+
+*Ikraftsetting av lov 22. juni 2018 nr. 79 om endringer i straffeprosessloven og tvisteloven (opptak og gjenbruk av forklaringer i retten mv.). Loven trer i kraft 1. oktober 2018.*
+
+> Ikraftsetting av lov 22. juni 2018 nr. 79 om endringer i straffeprosessloven og tvisteloven (opptak og gjenbruk av forklaringer i retten mv.). Loven trer i kraft 1. oktober 2018.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1552
+
+*Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.*
+
+> Delt ikraftsetting av lov 22. april 2016 nr. 4 om endringar i kommuneloven mv. (avvikling av samkommunemodellen). Endringsloven romertall I siste setning og romertall II–VII trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
 >
 
 ### 2020-07-01 — forskrift/2020-04-17-807
@@ -1345,13 +1431,23 @@ refid: "lov/2005-06-17-90"
 
 ### 2020-12-18 — lov/2020-12-18-147
 
-*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 6-13 første ledd bokstav d lyde:et beløp inntil fire ganger rettsgebyret for rettshjelp ved forliksklage eller tilsvar og saksforberedelse ellers, men inntil et halvt rettsgebyr dersom klageren i tillegg krever erstatning for kostnader ved utenrettslig inndriving etter annet ledd, og*
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 6-13 første ledd bokstav d lyde:*
+
+> et beløp inntil fire ganger rettsgebyret for rettshjelp ved forliksklage eller tilsvar og saksforberedelse ellers, men inntil et halvt rettsgebyr dersom klageren i tillegg krever erstatning for kostnader ved utenrettslig inndriving etter annet ledd, og
+>
 
 ### 2021-02-01 — forskrift/2020-12-18-2831
 
 *Loven trer i kraft 1. februar 2021.*
 
 > Loven trer i kraft 1. februar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-18 — lov/2021-06-18-126
@@ -1361,6 +1457,50 @@ refid: "lov/2005-06-17-90"
 > Retten kan ikke ta imot bevis fra prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, advokater, forsvarere i straffesaker, patentrådgivere oppført på listen nevnt i artikkel 134 nr. 1 i konvensjonen om meddelelse av europeiske patenter 5. oktober 1973, meklere i ekteskapssaker, leger, psykologer, apotekere, jordmødre eller sykepleiere om noe som er betrodd dem i deres stilling.
 >
 
+### 2021-07-01 — forskrift/2021-05-28-1699
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 55 om endringer i konkursloven mv. (grenseoverskridende insolvensbehandling). Endringsloven trer i kraft 1. juli 2021 med unntak for del II, endringen i lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 4-4 fjerde ledd, som foreløpig ikk*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 55 om endringer i konkursloven mv. (grenseoverskridende insolvensbehandling). Endringsloven trer i kraft 1. juli 2021 med unntak for del II, endringen i lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 4-4 fjerde ledd, som foreløpig ikke trer i kraft.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-1975
+
+*Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Loven del VI (endringer i tvisteloven) og del VII (endringer i tolloven) trer i kraft 1. juli 2021.*
+
+> Delt ikraftsetting av lov 12. juni 2020 nr. 67 om endringer i varemerkeloven og tolloven mv. (gjennomføring av nytt varemerkedirektiv mv.). Loven del VI (endringer i tvisteloven) og del VII (endringer i tolloven) trer i kraft 1. juli 2021.
+>
+> Endringene i tolloven og tvisteloven gjelder for innførsel eller utførsel som finner sted etter ikrafttredelsen.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2027
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1035
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-09-16-1574
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *10.I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister oppheves § 4-4 fjerde ledd tredje punktum.*
@@ -1368,6 +1508,29 @@ refid: "lov/2005-06-17-90"
 ### 2023-12-20 — lov/2023-12-20-110
 
 *I del II i endringen av lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 4-4 oppheves fjerde ledd.*
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
+>
 
 ### 2024-06-21 — lov/2024-06-21-46
 
@@ -1380,43 +1543,45 @@ refid: "lov/2005-06-17-90"
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
 
-## § 152
+### 2025-01-01 — forskrift/2024-10-11-2461
 
-### 2007-12-21 — lov/2007-12-21-127
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
 
-*§ 152 skal lyde:*
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
 
-> Kjennelser som avgjør tvist om utlevering eller dekning av midler som er under tingrettens behandling, og dommer som nevnt i § 76 tredje ledd, er gjenstand for anke etter reglene om anke over kjennelser. Etter at partene har fått anledning til å uttale seg, kan retten bestemme at anke over kjennelse i tvist om anmeldte fordringer skal behandles etter reglene om anke over kjennelser.
+### 2025-01-01 — forskrift/2024-12-13-3090
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
 >
-> Overfor kjennelser som åpner konkurs, kan gjenåpning kreves etter reglene for dommer i tvisteloven kapittel 31.
+
+### 2026-07-01 — forskrift/2026-05-07-743
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
-> I § 37-3 nr. 94 vert det gjort følgjande endringar:
+
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
 >
-> Endringane i sosialtjenesteloven §§ 9-8, 9-9, 9-10 og 9-10 a vert oppheva.
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
 >
-> I § 37-3 nr. 97 vert det gjort følgjande endringar:
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
 >
-> Endringa «I følgende bestemmelser fjernes uttrykket «eller midlertidig sikring»:» skal lyde:
->
-> §§ 1-3 første ledd, 1-6 tredje ledd, 2-1 annet ledd, 2-2 tredje ledd, 2-3 første ledd, 2-5 tredje ledd, 3-7 i nåværende tredje ledd og nåværende § 16-2 første ledd.
->
-> Endringa «I følgende bestemmelser fjernes uttrykket «og midlertidig sikring»:» skal lyde:
->
-> §§ 1-5 første til tredje ledd, 1-6 første ledd første og annet punktum, 1-7 første og annet punktum, 2-8 første ledd, 3-6 første ledd og nåværende 16-2 første ledd.
->
-> I endringa av § 1-9 bokstav b til d vert bokstavnummereringa b), c) og d) endra til (b), (c) og (d).
->
-> I § 4-1 nytt tredje og fjerde ledd vert leddnummereringa (3) og (4) teke bort.
->
-> § 37-3 nr. 99 vert oppheva.
->
-> I § 37-3 nr. 110 vert det gjort følgjande endring:
->
-> Endringa i tomtefesteloven § 43 annet ledd annet punktum vert oppheva.
->
-> I § 37-3 nr. 111 vert uttrykket «Trygdens organer» i lov om folketrygd § 21-4 femte ledd erstatta med «Arbeids- og velferdsetaten».
->
-> I § 37-3 nr. 119 vert det gjort følgjande endring:
+
+## § 12
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 12 andre ledd skal lyde:*
+
+> Ved tvungen avvikling av et SCE-foretak etter SCE-forordningen artikkel 73 gjelder bestemmelsene i samvirkeloven §§ 141 til 144 tilsvarende så langt de passer.
 >
 
 ## § 28-A3
@@ -1427,20 +1592,56 @@ refid: "lov/2005-06-17-90"
 
 > Retter begjæringen seg mot flere, kan den fremmes der én av disse har verneting.
 >
-> 26. I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her skal § 66 annet ledd bokstav b lyde:når utlendingen ikke er gitt en utreisefristfordi det er fare for unndragelse, jf. § 90 femte ledd bokstav a og § 106 a,fordi en søknad er avslått som åpenbart grunnløs eller som følge av vesentlig uriktige eller åpenbart villedende opplysninger, jf. § 90 femte ledd bokstav b,fordi utlendingen er funnet å utgjøre en trussel mot offentlig orden, jf. § 90 femte ledd bokstav c, ellerfordi utlendingen er funnet å utgjøre en trussel mot grunnleggende nasjonale interesser, jf. § 129 femte ledd.
->
-> 27. I lov 26. mars 2010 nr. 9 om vergemål skal § 5 første ledd lyde:
->
-> Området for hvert fylkesmannsembete utgjør et vergemålsdistrikt. Svalbard er et eget vergemålsdistrikt.
->
-> 28. I lov 28. mai 2010 nr. 16 om behandling av opplysninger i politiet og påtalemyndigheten erstattes i § 40 nr. 7 bokstav e og nr. 8 ordet «tvunget» av «tvungent».
+
+## § 5
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 5 første ledd første punktum skal lyde:*
+
+> Ved stiftelse av et europeisk samvirkeforetak ved fusjon etter SCE-forordningen artikkel 2 nr. 1, jf. artikkel 19 til 34, gjelder reglene om fusjon mellom samvirkeforetak tilsvarende så langt de passer for norske foretak som deltar i fusjonen, jf. SCE-forordningen artikkel 20.
 >
 
-## § 76
+## § 6
 
-### 2007-12-21 — lov/2007-12-21-127
+### 2007-06-29 — lov/2007-06-29-81
 
-*§ 76 tredje ledd skal lyde:*
+*§ 6 første ledd første punktum skal lyde:*
 
-> Dersom krav etter første og annet ledd bringes inn for retten, treffer den sin avgjørelse ved dom.
+> Ved offentliggjøring av omdanningsplanen etter SCE-forordningen artikkel 35 nr. 4 gjelder reglene i samvirkeloven § 151 tilsvarende så langt de passer.
+>
+
+## § 7
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 7 andre ledd første punktum skal lyde:*
+
+> Ved flytting av et europeisk samvirkeforetak gjelder reglene i samvirkeloven §§ 113 til 116 om gjennomføring av fusjon tilsvarende så langt de passer.
+>
+
+## § 8
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 8 første og andre ledd skal lyde:*
+
+> For et europeisk samvirkeforetak som er organisert etter to-nivåsystemet etter SE-forordningen artikkel 37 til 41, gjelder reglene i samvirkeloven kapittel 6 og andre regler i samvirkeloven om foretakets ledelse så langt de passer, og såfremt noe annet ikke følger av SCE-forordningen. For ledelsesorganet gjelder samvirkelovens regler om styret tilsvarende så langt de passer, og for kontrollorganet gjelder samvirkelovens regler om kontrollkomiteen tilsvarende så langt de passer. Foretaket skal ha en daglig leder med mindre vedtektene bestemmer noe annet. For den daglige lederen gjelder samvirkelovens regler om daglig leder tilsvarende så langt de passer.
+>
+> Ledelsesorganet skal ha minst tre medlemmer.
+>
+> Noverande andre og tredje ledd blir nye tredje og fjerde ledd.
+>
+
+## § 9
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 9 skal lyde:*
+
+> For et europeisk samvirkeforetak som er organisert etter ett-nivåsystemet etter SE-forordningen artikkel 42 til 44, gjelder reglene i samvirkeloven kapittel 6 og andre regler i samvirkeloven om foretakets ledelse så langt de passer, og såfremt noe annet ikke følger av SCE-forordningen. For administrasjonsorganet gjelder samvirkelovens regler om styret tilsvarende så langt de passer.
+>
+> Foretaket skal ha en daglig leder med mindre vedtektene bestemmer noe annet. For den daglige lederen gjelder samvirkelovens regler om daglig leder tilsvarende så langt de passer.
+>
+> Administrasjonsorganet skal ha minst tre medlemmer.
 >

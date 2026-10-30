@@ -7,6 +7,24 @@ refid: "lov/2005-06-17-85"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*257. I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke (finnmarksloven) skal § 17 første ledd nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+> 258. I midlertidig lov 17. juni 2005 nr. 95 om arbeids- og oppholdstillatelse for vietnamesere på Filippinene med nære slektninger i Norge skal § 4 bokstav f lyde:når utlendingen har overtrådt straffeloven §§ 131-136, eller har gitt trygt tilholdssted til noen som utlendingen kjenner til at har begått en slik forbrytelse eller
+>
+> 259. I lov 21. desember 2005 nr. 126 om kosmetikk og kroppspleieprodukt m.m. (kosmetikklova) gjøres følgende endring:
+>
+
+### 2013-01-01 — forskrift/2012-09-21-913
+
+*Loven trer i kraft fra 1. januar 2013.*
+
+> Loven trer i kraft fra 1. januar 2013.
+>
+
 ### 2014-03-28 — lov/2014-03-28-9
 
 *I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal § 19 lyde:*
@@ -16,11 +34,39 @@ refid: "lov/2005-06-17-85"
 > Grunn som Finnmarkseiendommen eier, kan legges ut som nasjonalpark etter reglene i naturmangfoldloven kapittel V. Ved utformingen av bruksregler skal det legges vekt på at tradisjonell bruk kan videreføres. Finnmarkseiendommen og bruksrettshavere som berøres, kan kreve erstatning for økonomisk tap etter reglene i naturmangfoldloven § 50.
 >
 
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
 ### 2014-06-20 — lov/2014-06-20-29
 
 *I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal § 13 annet ledd første punktum lyde:*
 
 > Regnskapet skal revideres av registrert eller statsautorisert revisor.
+>
+
+### 2014-07-01 — forskrift/2014-06-26-866
+
+*Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, sam*
+
+> Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, samt del XV til XVIII, trer i kraft 1. juli 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*217. I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal § 17 første ledd nytt annet punktum lyde:*
+
+> Medvirkning straffes ikke.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2016-12-16 — lov/2016-12-16-93
@@ -47,11 +93,32 @@ refid: "lov/2005-06-17-85"
 > Loven gjelder fra 1. januar 2017.
 >
 
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
 ### 2020-01-01 — forskrift/2019-12-20-1927
 
 *Loven trer i kraft 1. januar 2020.*
 
 > Loven trer i kraft 1. januar 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2022-05-12 — lov/2022-05-12-28
@@ -75,11 +142,25 @@ refid: "lov/2005-06-17-85"
 > Advokatloven § 27 andre ledd gjelder ikke for advokater som konstitueres som medlemmer av Utmarksdomstolen.
 >
 
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
+
 ### 2025-06-20 — lov/2025-06-20-102
 
 *7.I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark skal § 21 første ledd første punktum lyde:*
 
 > Finnmarkseiendommen skal forvalte de fornybare ressursene på sin grunn i samsvar med lovens formål og innenfor de rammer som følger av viltressursloven, lakse- og innlandsfiskloven og annen lovgivning.
+>
+
+### 2026-07-01 — forskrift/2025-06-20-1105
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 1
@@ -119,6 +200,12 @@ refid: "lov/2005-06-17-85"
 
 > Loven gjelder for fast eiendom og vassdrag med naturressurser i Finnmark. Med Finnmark menes det området som utgjorde Finnmark fylke 1. juli 2006. I strandlinjen gjelder loven så langt ut i sjøen som den private eiendomsretten strekker seg.
 >
+
+## § 21
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 21 annet punktum oppheves.*
 
 ## § 25
 

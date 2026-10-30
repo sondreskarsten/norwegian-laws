@@ -21,6 +21,15 @@ refid: "lov/1999-03-26-14"
 > (3) Stortinget pålegger skatt til staten.
 >
 
+## § 1-3
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 1-3 bokstav c skal lyde:*
+
+> nedsette eller frafalle lovlig fastsatt skatt, uten særlig hjemmel i denne lov.
+>
+
 ## § 2-1
 
 ### 2002-06-21 — lov/2002-06-21-31
@@ -31,7 +40,21 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-1 nytt åttende ledd skal lyde:*
 
-> En person som nevnt i første ledd som har et arbeidsopphold utenfor riket av minst tolv måneders sammenhengende varighet, kan kreve den samlede skatt nedsatt med et beløp som tilsvarer den delen av skatten som faller på lønnsinntekt ved arbeid utført utenfor riket under arbeidsoppholdet der. Når det gjelder lønn mottatt fra den norske stat, unntatt lønn i anledning tjenester som er ytet i forbindelse med forretningsvirksomhet, kan nedsettelse etter forrige punktum også kreves når personen har flere arbeidsopphold utenfor riket, som hver er av minst seks måneders sammenhengende varighet, og som til sammen utgjør minst tolv måneder innenfor en periode på 30 måneder.Kortvarige opphold i riket anses ikke å avbryte et sammenhengende arbeidsopphold etter bokstav a. Slike opphold i riket må ikke overstige seks dager i gjennomsnitt hver hele måned. Skyldes oppholdet i riket forhold som var upåregnelige da arbeidsoppholdet ble påbegynt og som verken personen eller dennes arbeidsgiver rår over, er den tilsvarende grense ni dager.Bestemmelsen i bokstav a kommer ikke til anvendelse for:inntekt som i henhold til overenskomst med annen stat bare kan skattlegges i Norge.inntekt ved arbeidsopphold som hovedsakelig finner sted utenfor andre staters territorium. Opphold på annen stats kontinentalsokkel i forbindelse med arbeid knyttet til undersøkelse av eller utnyttelse av ressurser knyttet til havbunnen eller undergrunnen på denne kontinentalsokkel, likestilles med arbeidsopphold på annen stats territorium.For så vidt gjelder lønn mottatt fra den norske stat, unntatt lønn i anledning tjenester som er ytet i forbindelse med forretningsvirksomhet, gjelder bestemmelsen i bokstav a bare skatt til kommune og fylkeskommune.Med «riket» og «Norge» menes i dette ledd norsk territorium og virkeområdet for lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. § 1 første ledd bokstav a.Bestemmelsene i dette ledd kommer ikke til anvendelse for personer som nevnt i femte ledd.
+> En person som nevnt i første ledd som har et arbeidsopphold utenfor riket av minst tolv måneders sammenhengende varighet, kan kreve den samlede skatt nedsatt med et beløp som tilsvarer den delen av skatten som faller på lønnsinntekt ved arbeid utført utenfor riket under arbeidsoppholdet der. Når det gjelder lønn mottatt fra den norske stat, unntatt lønn i anledning tjenester som er ytet i forbindelse med forretningsvirksomhet, kan nedsettelse etter forrige punktum også kreves når personen har flere arbeidsopphold utenfor riket, som hver er av minst seks måneders sammenhengende varighet, og som til sammen utgjør minst tolv måneder innenfor en periode på 30 måneder.
+>
+> Kortvarige opphold i riket anses ikke å avbryte et sammenhengende arbeidsopphold etter bokstav a. Slike opphold i riket må ikke overstige seks dager i gjennomsnitt hver hele måned. Skyldes oppholdet i riket forhold som var upåregnelige da arbeidsoppholdet ble påbegynt og som verken personen eller dennes arbeidsgiver rår over, er den tilsvarende grense ni dager.
+>
+> Bestemmelsen i bokstav a kommer ikke til anvendelse for: inntekt som i henhold til overenskomst med annen stat bare kan skattlegges i Norge. inntekt ved arbeidsopphold som hovedsakelig finner sted utenfor andre staters territorium. Opphold på annen stats kontinentalsokkel i forbindelse med arbeid knyttet til undersøkelse av eller utnyttelse av ressurser knyttet til havbunnen eller undergrunnen på denne kontinentalsokkel, likestilles med arbeidsopphold på annen stats territorium.
+>
+> inntekt som i henhold til overenskomst med annen stat bare kan skattlegges i Norge.
+>
+> inntekt ved arbeidsopphold som hovedsakelig finner sted utenfor andre staters territorium. Opphold på annen stats kontinentalsokkel i forbindelse med arbeid knyttet til undersøkelse av eller utnyttelse av ressurser knyttet til havbunnen eller undergrunnen på denne kontinentalsokkel, likestilles med arbeidsopphold på annen stats territorium.
+>
+> For så vidt gjelder lønn mottatt fra den norske stat, unntatt lønn i anledning tjenester som er ytet i forbindelse med forretningsvirksomhet, gjelder bestemmelsen i bokstav a bare skatt til kommune og fylkeskommune.
+>
+> Med «riket» og «Norge» menes i dette ledd norsk territorium og virkeområdet for lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. § 1 første ledd bokstav a.
+>
+> Bestemmelsene i dette ledd kommer ikke til anvendelse for personer som nevnt i femte ledd.
 >
 
 ### 2002-06-21 — lov/2002-06-21-31
@@ -77,6 +100,13 @@ refid: "lov/1999-03-26-14"
 > Departementet kan i forskrift gi utfyllende regler for gjennomføringen av bestemmelsen i tiende ledd og bestemmelser om fritak fra skattlegging i Norge i skatteavtaler med andre stater.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-1 syvende ledd skal lyde:*
+
+> (7) Plikten til å svare formuesskatt er betinget av at skattyteren bor i riket 1. januar i det år skatten fastsettes.
+>
+
 ### 2022-12-20 — lov/2022-12-20-105
 
 *§ 2-1 tiende ledd bokstav b skal lyde:*
@@ -106,6 +136,17 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 2-2
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-2 tredje til femte ledd skal lyde:*
+
+> (3) Deltakerne i selskap som nevnt i annet ledd fastsetter skatt hver for seg for sin andel i selskapets formue og inntekt, jf. §§ 4-40 og 10-40 til 10-45.
+>
+> (4) Skatt av inntekt kan fastsettes selv om selskapet eller innretningen er oppløst eller boet er sluttet og midlene utdelt til parthaverne før utgangen av inntektsåret.
+>
+> (5) For selskap m.v. som har plikt til å svare formuesskatt, er formuesskatteplikten betinget av at selskapet, innretningen eller boet ikke er oppløst eller sluttet 1. januar i det år skatten fastsettes.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -219,7 +260,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-3 første ledd ny bokstav i og j skal lyde:*
 
-> renter etter bestemmelsene i § 10-80,vederlag for bruk av eller retten til å bruke immaterielle rettigheter eller skip, fartøy, rigger mv., fly og helikopter, etter bestemmelsene i § 10-81.
+> renter etter bestemmelsene i § 10-80,
+>
+> vederlag for bruk av eller retten til å bruke immaterielle rettigheter eller skip, fartøy, rigger mv., fly og helikopter, etter bestemmelsene i § 10-81.
 >
 
 ### 2023-12-20 — lov/2023-12-20-98
@@ -307,6 +350,15 @@ refid: "lov/1999-03-26-14"
 
 ## § 2-10
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-10 skal lyde:*
+
+> § 2-10.Fastsetting av skatt for ektefeller under ett
+>
+> Ektefeller fastsetter skatt av begges formue og inntekt under ett når ikke annet er bestemt i denne lov.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 2-10 skal lyde:*
@@ -342,6 +394,19 @@ refid: "lov/1999-03-26-14"
 > § 2-11 fjerde ledd blir oppheva.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-11 skal lyde:*
+
+> § 2-11.Særskilt fastsetting av ektefellers inntekt
+>
+> (1) Har begge ektefeller inntekt, kan hver av dem fastsette inntekten særskilt.
+>
+> (2) Skattemyndighetene kan gjennomføre særskilt fastsetting også uten at ektefellene selv har foretatt særskilt fastsetting, hvis det gir lavere eller samme samlede skatt som fastsetting under ett.
+>
+> (3) Ved inntekt av bedrift som tilhører den ene eller begge ektefeller, kan ektefellene etter nærmere dokumentasjon fastsette en forholdsmessig andel av overskuddet som svarer til arbeidsinnsats og deltakelse i virksomheten. Departementet kan gi forskrift om dokumentasjon.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 2-11 skal lyde:*
@@ -365,6 +430,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 2-12
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-12 skal lyde:*
+
+> § 2-12.Fastsetting av skatt for ektefeller hver for seg
+>
+> Ektefeller fastsetter skatt hver for segnår ekteskapet er inngått etter 31. oktober året før inntektsåret. Den ektefellen som har lavest alminnelig inntekt, kan likevel fastsette skatt under ett med den andre ektefellen hvis de har stiftet felles hjem før utløpet av inntektsåret,når de ved utløpet av inntektsåret var separert eller levde varig atskilt.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -393,6 +467,17 @@ refid: "lov/1999-03-26-14"
 > (1) Ektefeller som helt eller delvis er lignet under ett, jf. §§ 2-10 og 2-12 bokstav a andre punktum, skal ha skatt avalminnelig inntekt fordelt etter størrelsen av den alminnelige inntekt hver ektefelle har,personinntekt fordelt etter størrelsen av den personinntekt hver ektefelle har,formue fordelt etter størrelsen av den nettoformue hver ektefelle har.
 >
 > Andre, tredje, fjerde, femte og sjette ledd blir oppheva. Sjuande ledd blir andre ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-13 skal lyde:*
+
+> § 2-13.Fordeling av skatt mellom ektefeller
+>
+> (1) Ektefeller som helt eller delvis fastsetter skatt under ett, jf. §§ 2-10 og 2-12 bokstav a annet punktum, skal fordele skatt avalminnelig inntekt etter størrelsen av den alminnelige inntekt hver ektefelle har,personinntekt etter størrelsen av den personinntekt hver ektefelle har,formue etter størrelsen av den nettoformue hver ektefelle har.
+>
+> (2) Endret skatt ved endring av fastsatt skatt senere enn to år etter utløpet av inntektsåret, skal i sin helhet tilregnes den ektefellen som endringen gjelder. Departementet kan gi forskrift til utfylling og gjennomføring av dette ledd.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -451,6 +536,23 @@ refid: "lov/1999-03-26-14"
 > (5) Barn som lignes sammen med foreldre etter reglene i første ledd og som har mottatt engangserstatning eller annen ytelse som omfattes av § 4-22, kan lignes særskilt for formue og avkastning av ytelsen. Departementet kan gi forskrift til utfylling og gjennomføring av reglene i første punktum.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-14 skal lyde:*
+
+> § 2-14.Fastsetting av barns formue og inntekt
+>
+> (1) Når barn er 16 år eller yngre ved utløpet av inntektsåret, fastsettes skatten av barnets inntekt og formue med en halvpart på hver av foreldrene hvis foreldrene lever sammen ved utgangen av året. Foreldrene kan fastsette en annen fordeling.
+>
+> (2) Lever ikke foreldrene sammen ved utgangen av året, fastsettes skatten av barnets inntekt og formue på den av foreldrene som barnet er folkeregistrert sammen med på dette tidspunkt. Hvis denne av foreldrene ikke har hatt omsorgen for barnet det meste av året, kan vedkommende kreve at barnets formue og inntekt fastsettes hos den annen hvis sistnevnte har hatt omsorgen for barnet det meste av året.
+>
+> (3) Skatt på særkullsbarns formue og inntekt fastsettes med en halvpart hos hver av ektefellene. Den av ektefellene som ikke er barnets biologiske mor eller far og som heller ikke har adoptert barnet, kan kreve at barnets formue og inntekt fastsettes hos den andre ektefellen.
+>
+> (4) Skatt på arbeidsinntekt fastsettes likevel særskilt hos barn som i inntektsåret er 13 år eller eldre, og har hatt arbeidsinntekt.
+>
+> (5) Selv om øvrig skatt for barnet fastsettes sammen med foreldrene etter reglene i første ledd, kan skatt av engangserstatning eller annen ytelse som omfattes av § 4-22 fastsettes særskilt hos barnet.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 2-14 skal lyde:*
@@ -490,6 +592,15 @@ refid: "lov/1999-03-26-14"
 
 ## § 2-20
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-20 skal lyde:*
+
+> § 2-20.Fordeling av inntekt ved eierskifte
+>
+> Når eiendom eller virksomhet skifter eier i inntektsåret, skattlegges hver av eierne for den inntekten som etter tidfestingsreglene faller i vedkommendes eiertid, jf. likevel § 2-15 om fastsetting av skatt etter dødsfall og § 10-41 om realisasjon av andel i selskap med deltakerfastsetting m.v.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 2-20 skal lyde:*
@@ -519,7 +630,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-30 første ledd bokstav g nr. 1 og 7 skal lyde:*
 
-> Petoro a.s.Regionalt helseforetak og helseforetak
+> Petoro a.s.
+>
+> Regionalt helseforetak og helseforetak
 >
 
 ### 2001-12-21 — lov/2001-12-21-112
@@ -544,28 +657,60 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-30 første ledd bokstav k nr. 1 og 2 skal lyde:*
 
-> følgende sikringsfond m.v.:Bankenes sikringsfond– – –
+> følgende sikringsfond m.v.: Bankenes sikringsfond – – –
+>
+> Bankenes sikringsfond
+>
+> – – –
 >
 
 ### 2005-12-09 — lov/2005-12-09-113
 
 *§ 2-30 første ledd bokstav e skal lyde:*
 
-> følgende banker mv.:Norges BankDen Norske Stats HusbankStatens lånekasse for utdanningStatens bankinvesteringsfondInnovasjon NorgeStatens investeringsfond for næringsvirksomhet i utviklingsland
+> følgende banker mv.: Norges Bank Den Norske Stats Husbank Statens lånekasse for utdanning Statens bankinvesteringsfond Innovasjon Norge Statens investeringsfond for næringsvirksomhet i utviklingsland
+>
+> Norges Bank
+>
+> Den Norske Stats Husbank
+>
+> Statens lånekasse for utdanning
+>
+> Statens bankinvesteringsfond
+>
+> Innovasjon Norge
+>
+> Statens investeringsfond for næringsvirksomhet i utviklingsland
 >
 
 ### 2005-12-09 — lov/2005-12-09-113
 
 *§ 2-30 første ledd bokstav g skal lyde:*
 
-> følgende offentlige bedrifter:Petoro a.s.Andelslaget BiblioteksentralenNorsk Tipping A/SStiftelsen Norsk RikstotoRegionalt helseforetak og helseforetak
+> følgende offentlige bedrifter: Petoro a.s. Andelslaget Biblioteksentralen Norsk Tipping A/S Stiftelsen Norsk Rikstoto Regionalt helseforetak og helseforetak
+>
+> Petoro a.s.
+>
+> Andelslaget Biblioteksentralen
+>
+> Norsk Tipping A/S
+>
+> Stiftelsen Norsk Rikstoto
+>
+> Regionalt helseforetak og helseforetak
 >
 
 ### 2005-12-09 — lov/2005-12-09-113
 
 *§ 2-30 første ledd bokstav k skal lyde:*
 
-> følgende sikringsfond mv.:Bankenes sikringsfondSamvirkelagenes Garantifond A/L når vedtektene er godkjent av departementetBoligbyggelagenes sikringsfond
+> følgende sikringsfond mv.: Bankenes sikringsfond Samvirkelagenes Garantifond A/L når vedtektene er godkjent av departementet Boligbyggelagenes sikringsfond
+>
+> Bankenes sikringsfond
+>
+> Samvirkelagenes Garantifond A/L når vedtektene er godkjent av departementet
+>
+> Boligbyggelagenes sikringsfond
 >
 
 ### 2006-06-16 — lov/2006-06-16-29
@@ -575,6 +720,28 @@ refid: "lov/1999-03-26-14"
 > Verdipapirforetakenes sikringsfond
 >
 > Nåverande nr. 2 og 3 blir ny nr. 3 og 4.
+>
+
+### 2007-06-29 — lov/2007-06-29-44
+
+*§ 2-30 nr. (1) bokstav e nr. 7 skal lyde:*
+
+> Folketrygdfondet
+>
+
+### 2007-06-29 — lov/2007-06-29-44
+
+*§ 2-30 nr. (1) bokstav f skal lyde:*
+
+> folketrygden
+>
+> 2. I lov 21. desember 2005 nr. 123 om Statens pensjonsfond oppheves § 7 annet punktum.
+>
+> Overføring til det selvstendige rettssubjektet Folketrygdfondet av forpliktelser knyttet til forvaltningsorganet Folketrygdfondet har frigjørende virkning for staten. Fordringshavere og andre rettighetshavere kan ikke motsette seg overføringen eller gjøre gjeldende at overføringen utgjør en bortfallsgrunn for rettsforholdet.
+>
+> Lov 4. mars 1983 nr. 3 om statens tjenestemenn m.m. (tjenestemannsloven) § 13 nr. 2-6 om fortrinnsrett til annen statsstilling og ventelønn, skal fortsatt gjelde for arbeidstakere i forvaltningsorganet Folketrygdfondet som blir sagt opp av grunn som nevnt i tjenestemannsloven § 13 nr. 1 bokstav a, b og c, og som var omfattet av disse reglene før lovens ikrafttredelse. Fortrinnsretten til annen statsstilling og retten til ventelønn etter forrige punktum opphører tre år etter lovens ikrafttredelse.
+>
+> Øvrige overgangsbestemmelser fastsettes av Kongen.
 >
 
 ### 2007-06-29 — lov/2007-06-29-60
@@ -600,6 +767,15 @@ refid: "lov/1999-03-26-14"
 *§ 2-30 første ledd bokstav g ny nr. 6 skal lyde:*
 
 > Eksportutvalget for fisk AS
+>
+
+### 2010-02-19 — lov/2010-02-19-5
+
+*§ 2-30 første ledd bokstavene n og o skal lyde:*
+
+> A/S Vinmonopolet
+>
+> organ som nevnt i AFP-tilskottsloven § 18.
 >
 
 ### 2010-09-03 — lov/2010-09-03-54
@@ -628,7 +804,17 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-30 første ledd bokstav e skal lyde:*
 
-> følgende banker mv.:Norges BankStatens lånekasse for utdanningInnovasjon NorgeStatens investeringsfond for næringsvirksomhet i utviklingslandFolketrygdfondet
+> følgende banker mv.: Norges Bank Statens lånekasse for utdanning Innovasjon Norge Statens investeringsfond for næringsvirksomhet i utviklingsland Folketrygdfondet
+>
+> Norges Bank
+>
+> Statens lånekasse for utdanning
+>
+> Innovasjon Norge
+>
+> Statens investeringsfond for næringsvirksomhet i utviklingsland
+>
+> Folketrygdfondet
 >
 
 ### 2024-12-20 — lov/2024-12-20-86
@@ -652,6 +838,13 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 2-33
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-33 første ledd annet og tredje punktum skal lyde*
+
+> Ved siden av boet kan skyldneren fastsette skatt av inntekt som skyldneren eller ektefellen erverver, og som ikke tilflyter boet. Skyldneren skal fastsette skatt av formue som skyldneren eller ektefellen eier ved utløpet av inntektsåret, som ikke er inndratt i boet.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -725,6 +918,13 @@ refid: "lov/1999-03-26-14"
 *§ 2-35 annet ledd bokstav a siste punktum skal lyde:*
 
 > Foregående punktum gjelder likevel ikke § 2-3 fjerde ledd, § 2-38, § 10-13 og §§ 10-60 til 10-68.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 2-35 annet ledd bokstav c skal lyde:*
+
+> personer bosatt på fastlandet og selskaper hjemmehørende på fastlandet ikke fastsette skatt av inntekt og formue som er skattlagt til Svalbard.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -936,7 +1136,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 2-38 sjette ledd ny bokstav a, b og c skal lyde:*
 
-> For skattytere som nevnt i første ledd bokstav a til h, skal tre prosent av utbytte nevnt i annet ledd bokstav a som er fritatt for skatt etter de foregående ledd, likevel anses som skattepliktig inntekt. Første punktum gjelder tilsvarende for utdeling på eierandel i selskap som nevnt i § 10-40 første ledd, jf. § 10-42 annet ledd.Bestemmelsene i bokstav a gjelder på samme måte for skattytere hjemmehørende i utlandet som er skattepliktige til riket etter § 2-3 første ledd bokstav b.Bestemmelsene i bokstav a gjelder ikke for utbytte mottatt av selskap mv. som tilhører samme konsern som det utdelende selskap, jf. aksjeloven § 1-3 og allmennaksjeloven § 1-3, dersom vilkår som fastsatt i § 10-4 første ledd er oppfylt. § 10-2 første ledd tredje punktum gjelder tilsvarende. Bestemmelsene i første og annet punktum i denne bokstav gjelder på samme vilkår så langt de passer for utbytte mottatt fra selskap mv. hjemmehørende i land innenfor EØS, og for utbytte betalt til slikt selskap. For selskaper som nevnt i tredje punktum i denne bokstav, gjelder vilkårene fastsatt i § 10-64 b tilsvarende.
+> For skattytere som nevnt i første ledd bokstav a til h, skal tre prosent av utbytte nevnt i annet ledd bokstav a som er fritatt for skatt etter de foregående ledd, likevel anses som skattepliktig inntekt. Første punktum gjelder tilsvarende for utdeling på eierandel i selskap som nevnt i § 10-40 første ledd, jf. § 10-42 annet ledd.
+>
+> Bestemmelsene i bokstav a gjelder på samme måte for skattytere hjemmehørende i utlandet som er skattepliktige til riket etter § 2-3 første ledd bokstav b.
+>
+> Bestemmelsene i bokstav a gjelder ikke for utbytte mottatt av selskap mv. som tilhører samme konsern som det utdelende selskap, jf. aksjeloven § 1-3 og allmennaksjeloven § 1-3, dersom vilkår som fastsatt i § 10-4 første ledd er oppfylt. § 10-2 første ledd tredje punktum gjelder tilsvarende. Bestemmelsene i første og annet punktum i denne bokstav gjelder på samme vilkår så langt de passer for utbytte mottatt fra selskap mv. hjemmehørende i land innenfor EØS, og for utbytte betalt til slikt selskap. For selskaper som nevnt i tredje punktum i denne bokstav, gjelder vilkårene fastsatt i § 10-64 b tilsvarende.
 >
 
 ### 2012-06-22 — lov/2012-06-22-36
@@ -1061,6 +1265,20 @@ refid: "lov/1999-03-26-14"
 > Person som faktisk har flyttet fra riket, men som fortsatt er skattemessig bosatt her, anses som bosatt i den kommunen hvor vedkommende var skattepliktig på utflyttingstidspunktet. Norsk sjømann som faktisk har flyttet fra riket, men som fortsatt er skattemessig bosatt her, anses som bosatt i rederiets kontorkommune dersom vedkommende ble overført til ligning i denne kommunen for inntektsåret 2003 eller tidligere.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-1 tredje ledd skal lyde:*
+
+> (3) Ved fastsetting av skatt under ett etter § 2-12 a svares skatt til bostedskommunen til den av ektefellene som har høyest alminnelig inntekt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 3-1 syvende ledd tredje punktum skal lyde:*
+
+> Personens ektefelle og barn i felles husstand anses bosatt samme sted, med mindre de har særlig svak tilknytning til denne boligen og ikke fastsetter under ett med personen.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 3-1 tredje ledd skal lyde:*
@@ -1105,6 +1323,13 @@ refid: "lov/1999-03-26-14"
 *§ 3-1 sjette ledd oppheves. Nåværende syvende og åttende ledd blir sjette og syvende ledd.*
 
 ## § 3-3
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 3-3 nr. 2 bokstav g skal lyde:*
+
+> Fiskevær, akvakulturinnretning, opplagsinnretning for hummer o.l.,
+>
 
 ### 2014-12-19 — lov/2014-12-19-80
 
@@ -1159,6 +1384,17 @@ refid: "lov/1999-03-26-14"
 
 ## § 4-1
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-1 skal lyde:*
+
+> § 4-1.Hovedregel om formue
+>
+> (1) Skattepliktig formue fastsettes til omsetningsverdien pr. 1. januar i skattefastsettingsåret av skattyterens eiendeler med økonomisk verdi, med fradrag for gjeld som skattyteren hefter for.
+>
+> (2) For skattyter med avvikende regnskapsår etter forskriftsbestemmelse vedtatt med hjemmel i skatteforvaltningsloven § 8-14 skal formuesfastsettelsen omfatte formuen ved utløpet av siste regnskapsår før 1. januar i skattefastsettingsåret.
+>
+
 ### 2024-01-01 — lov/2024-01-12-4
 
 *§ 4-1 andre ledd skal lyde:*
@@ -1175,6 +1411,13 @@ refid: "lov/1999-03-26-14"
 > (2) Uten hensyn til bestemmelsen i første ledd c, skal livrenteforsikring som nevnt i forsikringsavtaleloven § 10-2 e medtas ved fastsettelse av skattepliktig formue, forutsatt at forsikringen er tegnet i selskap som har eller har hatt tillatelse til å drive forsikringsvirksomhet her i landet. Dette omfatter likevel ikke rettigheter etter folketrygdloven, lov om foretakspensjon og lov om innskuddspensjon, samt rettigheter etter offentlige tjenestepensjonsordninger og andre pensjonsordninger som er pålagt i lov eller i medhold av lov. Det samme gjelder kollektiv livrenteforsikring som nevnt i forsikringsavtaleloven § 10-1 g, samt uforfalt krav i tilknytning til uførepensjon under utbetaling.
 >
 > Annet ledd blir nytt tredje ledd.
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 4-2 annet ledd skal lyde:*
+
+> (2) Uten hensyn til bestemmelsen i første ledd c, skal livrenteforsikring som nevnt i forsikringsavtaleloven § 10-2 e medtas ved fastsettelse av skattepliktig formue, forutsatt at forsikringen er tegnet i selskap som har eller har hatt tillatelse til å drive forsikringsvirksomhet her i landet. Dette omfatter likevel ikke rettigheter etter folketrygdloven, foretakspensjonsloven, innskuddspensjonsloven og tjenestepensjonsloven, samt rettigheter etter offentlige tjenestepensjonsordninger og andre pensjonsordninger som er pålagt i lov eller i medhold av lov. Det samme gjelder kollektiv livrenteforsikring som nevnt i forsikringsavtaleloven § 10-1 g, samt uforfalt krav i tilknytning til uførepensjon under utbetaling.
 >
 
 ### 2017-12-19 — lov/2017-12-19-121
@@ -1212,6 +1455,15 @@ refid: "lov/1999-03-26-14"
 *§ 4-3 nytt annet ledd skal lyde:*
 
 > (2) Uten hensyn til bestemmelsen i første ledd c, gis det fradrag for verdien av plikt til å yte livrente som er skattepliktig formue etter § 4-2 annet ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-3 første ledd bokstav e og f skal lyde:*
+
+> forskuddsskatt, forhåndsskatt og terminskatt som ikke er forfalt, samt restskatt og resterende skatt som ikke er fastsatt ved utløpet av inntektsåret,
+>
+> skatt, trygdeavgift eller tilleggsskatt og renter som fastsettes ved endring av fastsatt skatt etter utløpet av inntektsåret.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -1458,6 +1710,15 @@ refid: "lov/1999-03-26-14"
 > Prosentandelen skal likevel være 70 for den delen av den beregnede eller dokumenterte omsetningsverdien som overstiger 14 000 000 kroner.
 >
 
+## § 4-11
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-11 annet ledd skal lyde:*
+
+> (2) Verdien av skog settes til den avkastningsverdien skogen har på lengre sikt ved rasjonell skjøtsel og drift etter forskrift, jf. skatteforvaltningsloven § 9-8 tredje ledd.
+>
+
 ## § 4-12
 
 ### 2001-12-21 — lov/2001-12-21-112
@@ -1575,6 +1836,25 @@ refid: "lov/1999-03-26-14"
 > (5) Grunnfondsbevis i sparebank, gjensidig forsikringsselskap, kreditt- og hypotekforening og selveiende finansieringsforetak verdsettes til kursverdien 1. januar i ligningsåret. Er kursen ikke notert eller kjent, settes verdien til den antatte salgsverdi.
 >
 > (6) Andel i verdipapirfond verdsettes til andelsverdien 1. januar i ligningsåret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-12 skal lyde:*
+
+> § 4-12.Aksje, grunnfondsbevis og andel i verdipapirfond
+>
+> (1) Børsnotert aksje verdsettes i alminnelighet til kursverdien 1. januar i skattefastsettingsåret.
+>
+> (2) Ikke-børsnotert aksje verdsettes til aksjens forholdsmessige andel av aksjeselskapets eller allmennaksjeselskapets samlede skattemessige formuesverdi 1. januar året før skattefastsettingsåret fordelt etter pålydende.
+>
+> (3) Ikke-børsnotert aksje i utenlandsk selskap verdsettes til aksjens antatte salgsverdi 1. januar i skattefastsettingsåret. Aksjen skal verdsettes etter annet ledd når skattyteren krever dette og kan sannsynliggjøre selskapets skattemessige formuesverdi.
+>
+> (4) Departementet kangi forskrift om beregning av aksjeverdien i annet ledd, og om dokumentasjonskrav etter tredje ledd,fastsette skjema til bruk ved beregningen,ved forskrift bestemme at ikke-børsnoterte aksjer som er undergitt annen kursnotering, verdsettes som bestemt i første ledd,ved forskrift gi bestemmelser om samordning av verdsettelse av ikke-børsnoterte aksjer i utenlandske selskaper mellom forskjellige skattekontorer.
+>
+> (5) Grunnfondsbevis i sparebank, gjensidig forsikringsselskap, kreditt- og hypotekforening og selveiende finansieringsforetak verdsettes til kursverdien 1. januar i skattefastsettingsåret. Er kursen ikke notert eller kjent, settes verdien til den antatte salgsverdi.
+>
+> (6) Andel i verdipapirfond verdsettes til andelsverdien 1. januar i skattefastsettingsåret.
 >
 
 ### 2016-12-20 — lov/2016-12-20-111
@@ -1748,6 +2028,17 @@ refid: "lov/1999-03-26-14"
 > For aksjeselskap eller allmennaksjeselskap som er stiftet året før ligningsåret, settes aksjeverdien til summen av aksjenes pålydende beløp og overkurs.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-13 skal lyde:*
+
+> § 4-13.Aksje i nystiftet aksjeselskap og allmennaksjeselskap eller hvor aksjekapitalen er endret i året før skattefastsettingsåret
+>
+> (1) For aksjeselskap eller allmennaksjeselskap som er stiftet året før skattefastsettingsåret, settes aksjeverdien til summen av aksjenes pålydende beløp og overkurs. Er stiftelsen skjedd ved overgang fra personlig firma til aksjeselskap eller allmennaksjeselskap, legges verdien 1. januar i skattefastsettingsåret til grunn, fastsatt i samsvar med § 4-12 annet ledd.
+>
+> (2) For aksjeselskap eller allmennaksjeselskap hvor aksjekapitalen i året før skattefastsettingsåret er forhøyet eller satt ned ved innbetaling fra eller utbetaling til aksjonærene, legges verdien 1. januar i skattefastsettingsåret til grunn ved skattefastsettingen. Det samme gjelder såfremt selskapet det forutgående år har ervervet egne aksjer uten nedskrivning av aksjekapitalen, eller aksjen i året før skattefastsettingsåret er strøket fra notering på børs eller notering på SMB-listen ved Oslo Børs. For øvrig gjelder § 4-12 annet ledd.
+>
+
 ### 2017-12-19 — lov/2017-12-19-121
 
 *§ 4-13 første ledd første punktum skal lyde:*
@@ -1787,6 +2078,17 @@ refid: "lov/1999-03-26-14"
 > Det samme gjelder såfremt selskapet det forutgående år har ervervet egne aksjer uten nedskrivning av aksjekapitalen, eller aksjen i året før skattefastsettingsåret er strøket fra notering på børs.
 >
 
+## § 4-14
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 4-14 skal lyde:*
+
+> § 4-14.Ihendehaverobligasjon, obligasjon registrert i en verdipapirsentral og lignende verdipapir
+>
+> Ihendehaverobligasjon, obligasjon registrert i en verdipapirsentral og lignende verdipapir verdsettes til kursverdien, eller til antatt omsetningsverdi dersom kursen ikke er notert.
+>
+
 ## § 4-16
 
 ### 2006-12-15 — lov/2006-12-15-81
@@ -1799,6 +2101,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 4-17
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-17 skal lyde:*
+
+> § 4-17.Varebeholdning
+>
+> Beholdning av varer og råstoffer i virksomhet verdsettes til samme verdi som legges til grunn ved fastsettingen av inntekt, jf. § 14-5 annet ledd.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -1889,7 +2200,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 4-19 første ledd bokstav a og c skal lyde:*
 
-> § 4-10 fjerde ledd og sekundærbolig i § 4-10 andre ledd§ 4-13 første ledd første punktum,
+> § 4-10 fjerde ledd og sekundærbolig i § 4-10 andre ledd
+>
+> § 4-13 første ledd første punktum,
 >
 > Gjeldende § 4-19 første ledd bokstav c og d blir bokstav d og ny e.
 >
@@ -1930,6 +2243,13 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 4-20
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-20 annet ledd skal lyde:*
+
+> (2) Personer som fastsetter skatt under ett, har ett felles fribeløp etter første ledd.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -1980,6 +2300,15 @@ refid: "lov/1999-03-26-14"
 
 ## § 4-31
 
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 4-31 annet og tredje ledd skal lyde:*
+
+> (2) Regnskapspliktig skattyter gis ikke fradrag for gjeld som svarer til forholdet mellom verdien av fast eiendom og eiendeler i virksomhet som nevnt i første ledd og verdien av skattyters samlede eiendeler, basert på bokført verdi i regnskap oppgjort i samsvar med regnskapsloven.
+>
+> (3) Skattyter som har bokføringsplikt, men ikke regnskapsplikt, gis ikke fradrag for gjeld som svarer til forholdet mellom verdien av fast eiendom og eiendeler i virksomhet som nevnt i første ledd og verdien av skattyters samlede eiendeler, basert på ligningsmessig verdi.
+>
+
 ### 2006-06-16 — lov/2006-06-16-29
 
 *§ 4-31 tredje ledd skal lyde:*
@@ -2008,6 +2337,13 @@ refid: "lov/1999-03-26-14"
 > Ved fordeling av gjeld etter forrige punktum, skal eiendom som nevnt i første ledd annet punktum bare tas med i verdien av skattyters samlede eiendeler.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-31 tredje ledd første punktum skal lyde:*
+
+> Andre skattytere enn nevnt i annet ledd gis ikke fradrag for gjeld som svarer til forholdet mellom verdien av fast eiendom og eiendeler i virksomhet som nevnt i første ledd og verdien av skatteyters samlede eiendeler, basert på verdien ved skattefastsettingen.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 4-31 tredje ledd fyrste punktum skal lyde:*
@@ -2023,6 +2359,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 4-40
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-40 skal lyde:*
+
+> § 4-40.Fastsetting av formue for deltaker i selskap med deltakerfastsetting
+>
+> For deltaker i selskap med deltakerfastsetting som omfattes av § 10-40, settes verdien av deltakerens selskapsandel ved fastsettingen av formue til en andel av selskapets nettoformue beregnet som om selskapet var skattyter.
+>
 
 ### 2017-12-19 — lov/2017-12-19-121
 
@@ -2090,6 +2435,15 @@ refid: "lov/1999-03-26-14"
 
 ## § 4-50
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-50 skal lyde:*
+
+> § 4-50.Fastsetting av formue for inntekts- eller bruksnyter
+>
+> Er det ved testament eller annen gyldig disposisjon bestemt at inntektsnytelsen av en kapital eller bruksnytelsen av en eiendom i kortere eller lengre tid skal tilkomme en person, men at selve kapitalen eller eiendommen skal tilfalle en annen person, stiftelse eller innretning, fastsetter rente- eller bruksnyteren formue av kapitalen eller eiendommen så lenge denne retten vedvarer.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 4-50 skal lyde:*
@@ -2100,6 +2454,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 4-51
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 4-51 skal lyde:*
+
+> § 4-51.Forsømmelse av meldeplikt ved realisasjon av aksje og grunnfondsbevis mv.
+>
+> Er det i innsendt aksjonæroppgave oppført noen som har forsømt å gi melding til selskapets eller innretningens styre om at aksje eller grunnfondsbevis m.v. er realisert, skal vedkommende fastsette skatten som eier av aksjen eller grunnfondsbeviset mv., med mindre vedkommende påviser hvem som er den virkelige eieren.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -2217,6 +2580,13 @@ refid: "lov/1999-03-26-14"
 > Skatteplikten gjelder ikke slik gave som er nevnt i § 9-7 fjerde ledd.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-2 første ledd annet punktum skal lyde:*
+
+> Ved uttak fra enkeltpersonforetak eller sameie, gjelder skatteplikten bare hvor kostprisen helt eller delvis er kommet til fradrag ved fastsettingen av skatt.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 5-2 fyrste ledd andre punktum skal lyde:*
@@ -2265,6 +2635,13 @@ refid: "lov/1999-03-26-14"
 *§ 5-11 tredje ledd skal lyde:*
 
 > (3) Departementet kan gi forskrift til utfylling av første ledd og om i hvilken utstrekning reglene om forskuddstrekk i utgiftsgodtgjørelser skal gis tilsvarende anvendelse ved ligningen, jf. skattebetalingsloven § 5 nr. 1 bokstav c.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-11 tredje ledd skal lyde:*
+
+> (3) Departementet kan gi forskrift til utfylling av første ledd og om i hvilken utstrekning reglene for forskuddstrekk i utgiftsgodtgjørelser skal gis tilsvarende anvendelse ved fastsettingen av skatt, jf. skattebetalingsloven § 5-8 tredje ledd.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -2430,7 +2807,7 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-14 første ledd bokstav a skal lyde:*
 
-> Fordelen settes til differansen mellom den verdien som kan oppnås ved reelt salg av aksjen, redusert med 25 prosent, og det den ansatte betaler for aksjen. Den skattefrie fordelen kan likevel ikke overstige 7 500 kroner per inntektsår.
+> Fordelen settes til differansen mellom den verdien som kan oppnås ved reelt salg av aksjen, redusert med 25 prosent, og det den ansatte betaler for aksjen. Den skattefrie fordelen kan likevel ikke overstige 7 500 kroner per inntektsår.
 >
 
 ### 2021-12-22 — lov/2021-12-22-152
@@ -2485,21 +2862,41 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd bokstav e nr. 1 skal lyde:*
 
-> inntekt om bord på skip i form avverdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretningekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forliskrigsrisikotillegg opptjent under fart i erklært krigssone,
+> inntekt om bord på skip i form av verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis krigsrisikotillegg opptjent under fart i erklært krigssone,
+>
+> verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning
+>
+> ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis
+>
+> krigsrisikotillegg opptjent under fart i erklært krigssone,
 >
 
 ### 2005-06-17 — lov/2005-06-17-74
 
 *§ 5-15 første ledd bokstav e nr. 1 skal lyde:*
 
-> inntekt om bord på skip i form avtariffmessig hyretillegg for egen kostverdien av fritt opphold om bordekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forliskrigsrisikotillegg opptjent under fart i erklært krigssone,
+> inntekt om bord på skip i form av tariffmessig hyretillegg for egen kost verdien av fritt opphold om bord ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis krigsrisikotillegg opptjent under fart i erklært krigssone,
+>
+> tariffmessig hyretillegg for egen kost
+>
+> verdien av fritt opphold om bord
+>
+> ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis
+>
+> krigsrisikotillegg opptjent under fart i erklært krigssone,
 >
 
 ### 2005-12-09 — lov/2005-12-09-113
 
 *§ 5-15 første ledd bokstav e nr. 1 skal lyde:*
 
-> inntekt om bord på skip i form avverdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretningekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forliskrigsrisikotillegg opptjent under fart i erklært krigssone,
+> inntekt om bord på skip i form av verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis krigsrisikotillegg opptjent under fart i erklært krigssone,
+>
+> verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning
+>
+> ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis
+>
+> krigsrisikotillegg opptjent under fart i erklært krigssone,
 >
 
 ### 2005-12-09 — lov/2005-12-09-116
@@ -2510,7 +2907,15 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd bokstav e nr. 1 skal lyde:*
 
-> inntekt om bord på skip i form avtariffmessig hyretillegg for egen kost opptil 1 375 kroner per månedverdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kronerekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forliskrigsrisikotillegg opptjent under fart i erklært krigssone,
+> inntekt om bord på skip i form av tariffmessig hyretillegg for egen kost opptil 1 375 kroner per måned verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kroner ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis krigsrisikotillegg opptjent under fart i erklært krigssone,
+>
+> tariffmessig hyretillegg for egen kost opptil 1 375 kroner per måned
+>
+> verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kroner
+>
+> ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis
+>
+> krigsrisikotillegg opptjent under fart i erklært krigssone,
 >
 
 ### 2006-12-15 — lov/2006-12-15-81
@@ -2531,7 +2936,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd bokstav e nr. 1 første strekpunkt skal lyde:*
 
-> inntekt om bord på skip i form avtariffmessig hyretillegg for egen kost opptil 1 6 500 kroner per år. For arbeidstakere som bare har vært ansatt i deler av inntektsåret, reduseres det skattefrie beløpet forholdsmessig basert på antall dager vedkommende ikke har vært ansatt om bord.
+> inntekt om bord på skip i form av tariffmessig hyretillegg for egen kost opptil 1 6 500 kroner per år. For arbeidstakere som bare har vært ansatt i deler av inntektsåret, reduseres det skattefrie beløpet forholdsmessig basert på antall dager vedkommende ikke har vært ansatt om bord.
+>
+> tariffmessig hyretillegg for egen kost opptil 1 6 500 kroner per år. For arbeidstakere som bare har vært ansatt i deler av inntektsåret, reduseres det skattefrie beløpet forholdsmessig basert på antall dager vedkommende ikke har vært ansatt om bord.
 >
 
 ### 2007-12-14 — lov/2007-12-14-107
@@ -2587,6 +2994,13 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd bokstav a oppheves.*
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-15 første ledd bokstav i skal lyde:*
+
+> arbeidsvederlag som ikke er virksomhetsinntekt, når beløpet er under grensen for opplysningsplikt etter forskrift gitt med hjemmel i skatteforvaltningsloven § 7-13, jf. § 7-2,
+>
+
 ### 2016-12-20 — lov/2016-12-20-111
 
 *§ 5-15 annet ledd nytt fjerde punktum skal lyde:*
@@ -2605,7 +3019,17 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd bokstav e skal lyde:*
 
-> følgende ytelser til sjøfolk m.v.:inntekt om bord på skip i form avverdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kroner,ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis,krigsrisikotillegg opptjent under fart i erklært krigssone,ytelse fra Nortraships Sjømannsfond og utbetaling i henhold til Stortingets vedtak av 27. april 1972 vedrørende norske sjømenn som seilte for Nortraship i tiden 1. juli 1940 til 30. juni 1945,
+> følgende ytelser til sjøfolk m.v.: inntekt om bord på skip i form av verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kroner, ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis, krigsrisikotillegg opptjent under fart i erklært krigssone, ytelse fra Nortraships Sjømannsfond og utbetaling i henhold til Stortingets vedtak av 27. april 1972 vedrørende norske sjømenn som seilte for Nortraship i tiden 1. juli 1940 til 30. juni 1945,
+>
+> inntekt om bord på skip i form av verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kroner, ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis, krigsrisikotillegg opptjent under fart i erklært krigssone,
+>
+> verdien av fritt opphold om bord, med unntak for fri kost på sokkelinnretning til arbeidstaker med samlet personinntekt på over 600 000 kroner,
+>
+> ekstrahyre, effektgodtgjørelse og annen godtgjørelse ved forlis,
+>
+> krigsrisikotillegg opptjent under fart i erklært krigssone,
+>
+> ytelse fra Nortraships Sjømannsfond og utbetaling i henhold til Stortingets vedtak av 27. april 1972 vedrørende norske sjømenn som seilte for Nortraship i tiden 1. juli 1940 til 30. juni 1945,
 >
 
 ### 2017-12-19 — lov/2017-12-19-121
@@ -2619,14 +3043,26 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-15 første ledd ny bokstav q skal lyde:*
 
-> arbeidsgivers dekning av følgende merkostnader for skattyter som av hensyn til arbeidet må bo utenfor hjemmet (pendlere):Kostutgifter opp til satser fastsatt av departementet eller høyere kostutgifter dersom disse dokumenteres. Det gis ikke skattefritak for dekning av kost dersom det kan oppbevares og tilberedes mat i pendlerboligen.Dokumenterte utgifter til losji.Utgifter til besøksreiser til hjemmet etter tilsvarende regler som i skatteloven § 6-44. Øvre beløpsgrense gjelder ikke for arbeidsgivers dekning av faktisk dokumenterte utgifter til besøksreiser med rutegående fly til hjem innenfor EØS.
+> arbeidsgivers dekning av følgende merkostnader for skattyter som av hensyn til arbeidet må bo utenfor hjemmet (pendlere): Kostutgifter opp til satser fastsatt av departementet eller høyere kostutgifter dersom disse dokumenteres. Det gis ikke skattefritak for dekning av kost dersom det kan oppbevares og tilberedes mat i pendlerboligen. Dokumenterte utgifter til losji. Utgifter til besøksreiser til hjemmet etter tilsvarende regler som i skatteloven § 6-44. Øvre beløpsgrense gjelder ikke for arbeidsgivers dekning av faktisk dokumenterte utgifter til besøksreiser med rutegående fly til hjem innenfor EØS.
+>
+> Kostutgifter opp til satser fastsatt av departementet eller høyere kostutgifter dersom disse dokumenteres. Det gis ikke skattefritak for dekning av kost dersom det kan oppbevares og tilberedes mat i pendlerboligen.
+>
+> Dokumenterte utgifter til losji.
+>
+> Utgifter til besøksreiser til hjemmet etter tilsvarende regler som i skatteloven § 6-44. Øvre beløpsgrense gjelder ikke for arbeidsgivers dekning av faktisk dokumenterte utgifter til besøksreiser med rutegående fly til hjem innenfor EØS.
 >
 
 ### 2020-06-23 — lov/2020-06-23-103
 
 *§ 5-15 første ledd bokstav q skal lyde:*
 
-> arbeidsgivers dekning av følgende merkostnader for skattyter som av hensyn til arbeidet må bo utenfor hjemmet (pendlere):Kostutgifter opp til satser fastsatt av departementet eller høyere kostutgifter dersom disse dokumenteres. Det gis ikke skattefritak for dekning av kost dersom det kan oppbevares og tilberedes mat i pendlerboligen.Dokumenterte utgifter til losji.Utgifter til besøksreiser til hjemmet etter tilsvarende regler som i skatteloven § 6-44. Øvre beløpsgrense gjelder ikke for arbeidsgivers dekning av faktisk dokumenterte utgifter til besøksreiser med rutegående fly til hjem innenfor EØS.Skattefritaket gjelder ikke arbeidsgivers dekning av utgifter til kost, losji og besøksreiser til hjemmet for arbeidstaker som er pendler, og som får standardfradrag for utenlandsk arbeidstaker eller som skattlegges etter særreglene for utenlandske arbeidstakere i skatteloven kapittel 19.
+> arbeidsgivers dekning av følgende merkostnader for skattyter som av hensyn til arbeidet må bo utenfor hjemmet (pendlere): Kostutgifter opp til satser fastsatt av departementet eller høyere kostutgifter dersom disse dokumenteres. Det gis ikke skattefritak for dekning av kost dersom det kan oppbevares og tilberedes mat i pendlerboligen. Dokumenterte utgifter til losji. Utgifter til besøksreiser til hjemmet etter tilsvarende regler som i skatteloven § 6-44. Øvre beløpsgrense gjelder ikke for arbeidsgivers dekning av faktisk dokumenterte utgifter til besøksreiser med rutegående fly til hjem innenfor EØS. Skattefritaket gjelder ikke arbeidsgivers dekning av utgifter til kost, losji og besøksreiser til hjemmet for arbeidstaker som er pendler, og som får standardfradrag for utenlandsk arbeidstaker eller som skattlegges etter særreglene for utenlandske arbeidstakere i skatteloven kapittel 19.
+>
+> Kostutgifter opp til satser fastsatt av departementet eller høyere kostutgifter dersom disse dokumenteres. Det gis ikke skattefritak for dekning av kost dersom det kan oppbevares og tilberedes mat i pendlerboligen.
+>
+> Dokumenterte utgifter til losji.
+>
+> Utgifter til besøksreiser til hjemmet etter tilsvarende regler som i skatteloven § 6-44. Øvre beløpsgrense gjelder ikke for arbeidsgivers dekning av faktisk dokumenterte utgifter til besøksreiser med rutegående fly til hjem innenfor EØS.
 >
 
 ### 2022-06-22 — lov/2022-06-22-73
@@ -2756,6 +3192,13 @@ refid: "lov/1999-03-26-14"
 > Bestemmelsen gjelder ikke for lån knyttet til mengdegjeldsbrev som er gjenstand for omsetning i organiserte marked innen seks måneder etter utstedelse, og innskudd i bank.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-22 første ledd første punktum skal lyde:*
+
+> Bestemmelsene i denne paragraf gjelder for renter på lån fra personlig skattyter til aksjeselskap, allmennaksjeselskap, likestilt selskap og sammenslutning etter § 10-1, tilsvarende utenlandsk selskap, samt til selskap med deltakerfastsetting, jf. § 10-40.
+>
+
 ### 2020-12-21 — lov/2020-12-21-164
 
 *§ 5-22 annet ledd nytt tredje punktum skal lyde:*
@@ -2864,7 +3307,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-31 bokstav a skal lyde:*
 
-> følgende tilskudd innenfor det geografiske området for distriktsrettet investeringsstøtte:distriktsrettet investeringsstøtte etter regelverk under Kommunal- og distriktsdepartementet, ogtilskudd til investeringer i faste anlegg og tilhørende produksjonsutstyr etter forskrift om midler til investering og bedriftsutvikling i landbruket av 19. desember 2014 nr. 1816, jf. likevel § 14-44 første ledd siste punktum.
+> følgende tilskudd innenfor det geografiske området for distriktsrettet investeringsstøtte: distriktsrettet investeringsstøtte etter regelverk under Kommunal- og distriktsdepartementet, og tilskudd til investeringer i faste anlegg og tilhørende produksjonsutstyr etter forskrift om midler til investering og bedriftsutvikling i landbruket av 19. desember 2014 nr. 1816, jf. likevel § 14-44 første ledd siste punktum.
+>
+> distriktsrettet investeringsstøtte etter regelverk under Kommunal- og distriktsdepartementet, og
+>
+> tilskudd til investeringer i faste anlegg og tilhørende produksjonsutstyr etter forskrift om midler til investering og bedriftsutvikling i landbruket av 19. desember 2014 nr. 1816, jf. likevel § 14-44 første ledd siste punktum.
 >
 
 ## § 5-40
@@ -2906,6 +3353,13 @@ refid: "lov/1999-03-26-14"
 > (2) Departementet kan gi forskrift om beskatning av utbetalinger fra individuelle pensjonsavtaler hvor sparebeløpet eller premien er innbetalt før 12. mai 2006 og kollektive livrenter hvor premien er innbetalt før 1. januar 2007.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 5-41 første ledd skal lyde:*
+
+> (1) For livrente som er tegnet i selskap som har eller har hatt tillatelse til å drive forsikringsvirksomhet her i landet, er skatteplikten etter § 5-1 begrenset til den del av livrenten som anses å gå ut over tilbakebetalingen av premie for forsikringen. Det gjelder under forutsetning av at det ikke er gitt fradrag for premien ved fastsettingen av skatt. Departementet kan gi forskrift om størrelsen av den skattepliktige delen, om vilkår for begrensning av skatteplikten og om hel eller delvis skatteplikt ved brudd på vilkår.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 5-41 fyrste ledd andre punktum skal lyde:*
@@ -2914,6 +3368,13 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 5-42
+
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 5-42 ny bokstav e skal lyde:*
+
+> introduksjonsstønad beregnet etter lov om introduksjonsordning for nyankomne innvandrere kapittel 3.
+>
 
 ### 2004-01-01 — lov/2003-06-20-55
 
@@ -3012,7 +3473,23 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-43 første ledd bokstav d skal lyde:*
 
-> følgende ytelser etter folketrygdloven:stønad ved helsetjenester etter kapittel 5grunnstønad og hjelpestønad etter kapittel 6gravferdsstønad etter § 7-2stønad etter § 10-5, jf. § 10-7attføringsstønad etter § 11-8engangsstønad ved fødsel eller adopsjon etter § 14-17stønad til barnetilsyn etter §§ 15-11, 17-9 og 17-10utdanningsstønad mv. etter §§ 15-12, 15-13, 16-9, 17-9 og 17-10,
+> følgende ytelser etter folketrygdloven: stønad ved helsetjenester etter kapittel 5 grunnstønad og hjelpestønad etter kapittel 6 gravferdsstønad etter § 7-2 stønad etter § 10-5, jf. § 10-7 attføringsstønad etter § 11-8 engangsstønad ved fødsel eller adopsjon etter § 14-17 stønad til barnetilsyn etter §§ 15-11, 17-9 og 17-10 utdanningsstønad mv. etter §§ 15-12, 15-13, 16-9, 17-9 og 17-10,
+>
+> stønad ved helsetjenester etter kapittel 5
+>
+> grunnstønad og hjelpestønad etter kapittel 6
+>
+> gravferdsstønad etter § 7-2
+>
+> stønad etter § 10-5, jf. § 10-7
+>
+> attføringsstønad etter § 11-8
+>
+> engangsstønad ved fødsel eller adopsjon etter § 14-17
+>
+> stønad til barnetilsyn etter §§ 15-11, 17-9 og 17-10
+>
+> utdanningsstønad mv. etter §§ 15-12, 15-13, 16-9, 17-9 og 17-10,
 >
 
 ### 2008-12-19 — lov/2008-12-19-106
@@ -3026,7 +3503,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-43 første ledd ny bokstav i og j skal lyde:*
 
-> kompensasjonstillegg etter AFP-tilskottsloven § 9.ektefelletillegg etter folketrygdloven § 3-24 som utbetales til mottaker av alderspensjon, og tilsvarende ektefelletillegg som utbetales til mottaker av avtalefestet pensjon. Dette gjelder likevel bare for de som allerede er mottakere av ektefelletillegget 31. desember 2010.
+> kompensasjonstillegg etter AFP-tilskottsloven § 9.
+>
+> ektefelletillegg etter folketrygdloven § 3-24 som utbetales til mottaker av alderspensjon, og tilsvarende ektefelletillegg som utbetales til mottaker av avtalefestet pensjon. Dette gjelder likevel bare for de som allerede er mottakere av ektefelletillegget 31. desember 2010.
 >
 
 ### 2012-06-22 — lov/2012-06-22-36
@@ -3047,7 +3526,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 5-43 første ledd bokstav d nr. 7 og 8 skal lyde:*
 
-> stønad til barnetilsyn etter §§ 15-10, 17-9 og 17-10tilleggsstønader og stønad til skolepenger mv. etter §§ 15-11, 16-9, 17-9 og 17-10
+> stønad til barnetilsyn etter §§ 15-10, 17-9 og 17-10
+>
+> tilleggsstønader og stønad til skolepenger mv. etter §§ 15-11, 16-9, 17-9 og 17-10
 >
 
 ### 2018-06-22 — lov/2018-06-22-57
@@ -3146,6 +3627,15 @@ refid: "lov/1999-03-26-14"
 *§ 6-3 fjerde ledd siste punktum skal lyde:*
 
 > Foreldrefradrag etter § 6-48 og særfradrag etter §§ 6-80 til 6-85 tas ikke i betraktning ved fastsettelse av underskudd til fremføring.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-3 fjerde og femte ledd skal lyde:*
+
+> (4) Udekket underskudd ved årets fastsetting av skatt kan fremføres til fradrag etter § 14-6. Foreldrefradrag etter § 6-48 og særfradrag etter §§ 6-80 til 6-85 tas ikke i betraktning ved fastsettelse av underskudd til fremføring.
+>
+> (5) Når det i skatteavtale med fremmed stat er bestemt at inntekt skal være unntatt fra skattlegging i Norge, kommer tilhørende kostnad eller tilsvarende tap ikke for noen del til fradrag ved fastsetting av skatt på inntekt her i landet.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -3364,6 +3854,13 @@ refid: "lov/1999-03-26-14"
 *§ 6-19 annet ledd fjerde punktum skal lyde:*
 
 > Fradrag kan enten gis med inntil 3 850 kroner eller med inntil to promille av samlet utbetalt lønn.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-19 annet ledd tredje punktum skal lyde:*
+
+> Fradrag gis kun til aktiv yrkesutøver eller næringsdrivende og er betinget av at det senest ved utløpet av fristen for å levere skattemelding legges frem attest for innbetalt kontingent.
 >
 
 ### 2021-12-22 — lov/2021-12-22-152
@@ -3739,6 +4236,13 @@ refid: "lov/1999-03-26-14"
 > Minstefradrag i pensjonsinntekt, jf. § 6-31 første ledd bokstav b, gis med 29 prosent av summen av slik inntekt.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-32 annet ledd første punktum skal lyde:*
+
+> Minstefradrag beregnes særskilt for hver person som fastsetter skatt under ett etter §§ 2-10, 2-12 a annet punktum og 2-14 første ledd.
+>
+
 ### 2016-12-20 — lov/2016-12-20-111
 
 *§ 6-32 første ledd bokstav a første punktum skal lyde:*
@@ -3778,7 +4282,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-32 første ledd bokstav a og b skal lyde:*
 
-> Minstefradrag i lønnsinntekt, jf. skatteloven § 6-31 første ledd bokstav a, c, d og annet ledd, gis med 46 prosent av summen av slik inntekt. Tilsvarende gjelder for minstefradrag i arbeidsavklaringspenger, uføretrygd etter folketrygdloven kapittel 12 og uføreytelser fra andre ordninger samt minstefradrag i overgangsstønad etter folketrygdloven § 15-6.Minstefradrag i pensjonsinntekt, jf. § 6-31 første ledd bokstav b, gis med 32 prosent av summen av slik inntekt.
+> Minstefradrag i lønnsinntekt, jf. skatteloven § 6-31 første ledd bokstav a, c, d og annet ledd, gis med 46 prosent av summen av slik inntekt. Tilsvarende gjelder for minstefradrag i arbeidsavklaringspenger, uføretrygd etter folketrygdloven kapittel 12 og uføreytelser fra andre ordninger samt minstefradrag i overgangsstønad etter folketrygdloven § 15-6.
+>
+> Minstefradrag i pensjonsinntekt, jf. § 6-31 første ledd bokstav b, gis med 32 prosent av summen av slik inntekt.
 >
 
 ### 2021-06-18 — lov/2021-06-18-105
@@ -3806,7 +4312,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-32 første ledd bokstav c og d skal lyde:*
 
-> Stortinget fastsetter øvre grenser for minstefradrag etter bokstav a og b.Skattyter som både har inntekt som nevnt i bokstav a og b, skal ha summen av minstefradrag i lønnsinntekt og pensjonsinntekt. Summen av minstefradrag skal ikke overstige øvre grense for minstefradrag i lønnsinntekt.
+> Stortinget fastsetter øvre grenser for minstefradrag etter bokstav a og b.
+>
+> Skattyter som både har inntekt som nevnt i bokstav a og b, skal ha summen av minstefradrag i lønnsinntekt og pensjonsinntekt. Summen av minstefradrag skal ikke overstige øvre grense for minstefradrag i lønnsinntekt.
 >
 
 ### 2022-12-20 — lov/2022-12-20-105
@@ -3895,18 +4403,29 @@ refid: "lov/1999-03-26-14"
 > (8) Renter og andre kostnader til finansiering ved egentilvirkning av driftsmidler kan behandles som del av kostprisen for vedkommende driftsmiddel.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-40 sjette ledd skal lyde:*
+
+> (6) Ved fradrag for rente av gjeld til utenlandsk fordringshaver skal rentekostnaden dokumenteres på den måten departementet har bestemt.
+>
+
 ### 2018-12-20 — lov/2018-12-20-102
 
 *§ 6-40 femte ledd bokstav b og c skal lyde:*
 
-> rentetillegg som omfattes av skattebetalingsloven § 11-5, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt,renter som omfattes av skattebetalingsloven § 11-2, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt, med unntak for renter ved for lite innbetalt skatt etter petroleumsskatteloven.
+> rentetillegg som omfattes av skattebetalingsloven § 11-5, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt,
+>
+> renter som omfattes av skattebetalingsloven § 11-2, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt, med unntak for renter ved for lite innbetalt skatt etter petroleumsskatteloven.
 >
 
 ### 2019-12-20 — lov/2019-12-20-94
 
 *§ 6-40 femte ledd bokstav b og c skal lyde:*
 
-> rentetillegg som omfattes av skattebetalingsloven § 11-5, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt. Fradrag gis likevel for renter ved for lite innbetalt skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5,renter som omfattes av skattebetalingsloven § 11-2, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt. Fradrag gis likevel for renter ved for lite innbetalt skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5.
+> rentetillegg som omfattes av skattebetalingsloven § 11-5, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt. Fradrag gis likevel for renter ved for lite innbetalt skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5,
+>
+> renter som omfattes av skattebetalingsloven § 11-2, og tilsvarende rente beregnet etter andre lands lovgivning, ved for lite innbetalt skatt. Fradrag gis likevel for renter ved for lite innbetalt skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5.
 >
 
 ### 2020-06-23 — lov/2020-06-23-103
@@ -4351,6 +4870,40 @@ refid: "lov/1999-03-26-14"
 > Det gis fradrag etter annet ledd for tilskudd til pensjonsordning etter innskuddspensjonsloven § 2-3 annet ledd for selvstendig næringsdrivende, deltakere som nevnt i § 10-40 og person som nevnt i innskuddspensjonsloven § 2-3 annet ledd annet punktum. Det gis fradrag etter første ledd bokstav a for premie til risikoytelser etter lov om foretakspensjon knyttet til pensjonsordning etter innskuddspensjonsloven § 2-3 annet ledd.
 >
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 6-46 overskriften skal lyde:*
+
+> § 6-46.Tilskudd til pensjonsordninger etter lov om foretakspensjon, lov om innskuddspensjon og lov om tjenestepensjon fra arbeidsgiver, selvstendig næringsdrivende mv.
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 6-46 nytt tredje ledd skal lyde:*
+
+> (3) Arbeidsgiver gis fradrag for tilskudd til tjenestepensjonsordninger etter tjenestepensjonsloven. Fradraget omfatter:den skattepliktiges andel av årlig innskudd og premie,tilskudd til premiefond med inntil 50 prosent av gjennomsnittet av det beløp som er nevnt under bokstav a og den skattepliktiges andel av årets premie i de to foregående årene, likevel bare så langt fondet ikke overstiger seks ganger gjennomsnittet av det beløp som er nevnt under a og den skattepliktiges andel av premie i de to foregående år,den skattepliktiges andel av tilskudd til regulering av pensjonsbeholdningen etter tjenestepensjonsloven § 4-6 tredje ledd og til regulering av pensjoner under utbetaling etter § 4-14 første ledd,årlige kostnader og risikopremier i henhold til tjenestepensjonsloven § 4-8.
+>
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 6-46 tredje ledd blir nytt fjerde ledd.*
+
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 6-46 femte og sjette ledd skal lyde:*
+
+> (5) Fradrag kan kreves når premien, tilskuddet eller innskuddet etter første, annet og tredje ledd er endelig betalt til pensjonsordningen innen tre måneder etter utgangen av vedkommende inntektsår.
+>
+> (6) Fradrag etter første, annet, tredje og femte ledd gis bare hvis arbeidsgiver har avtale med det selskapet mv. der pensjonsordningen er tegnet, om at dette ukrevet innberetter opplysninger om utbetalinger fra pensjonsordningen til ligningsmyndighetene i henhold til ligningsloven.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-46 sjette ledd skal lyde:*
+
+> (6) Fradrag etter første, annet, tredje og femte ledd gis bare hvis arbeidsgiver har avtale med det selskapet mv. der pensjonsordningen er tegnet, om at dette ukrevet innberetter opplysninger om utbetalinger fra pensjonsordningen til skattemyndighetene i henhold til skatteforvaltningsloven.
+>
+
 ### 2021-12-22 — lov/2021-12-22-152
 
 *§ 6-46 første ledd bokstav f skal lyde:*
@@ -4374,6 +4927,13 @@ refid: "lov/1999-03-26-14"
 > Det gis fradrag for tap på sparedelen ved utbetaling fra en individuell livrente etter § 5-41 første ledd og livsforsikring (kapitalforsikring) i forsikringsselskap hjemmehørende i en stat innenfor EØS-området. Departementet kan i forskrift gi regler til utfylling og gjennomføring av første punktum.
 >
 
+### 2008-06-27 — lov/2008-06-27-62
+
+*§ 6-47 første ledd ny bokstav c skal lyde:*
+
+> premie, innskudd og kostnader knyttet til administrasjon av individuell pensjonsavtale etter lov 27. juni 2008 nr. 62 om individuell pensjonsordning, herunder kostnader til forvaltning av årets premie eller innskudd til individuell pensjonsavtale. Samlet fradrag kan ikke overstige 15 .000 kroner.
+>
+
 ### 2008-12-12 — lov/2008-12-12-99
 
 *§ 6-47 første ledd bokstav b skal lyde:*
@@ -4381,11 +4941,22 @@ refid: "lov/1999-03-26-14"
 > den trygdedes tilskudd til pensjonsordning i arbeidsforhold, som omhandlet i § 6-46 første ledd a og e, § 6-46 annet ledd bokstav a og § 6-46 fjerde ledd.
 >
 
+### 2013-12-13 — lov/2013-12-13-106
+
+*§ 6-47 første ledd bokstav b skal lyde:*
+
+> den trygdedes tilskudd til pensjonsordning i arbeidsforhold, som omhandlet i § 6-46 første ledd a og e, § 6-46 annet ledd bokstav a, § 6-46 tredje ledd bokstav a og § 6-46 femte ledd.
+>
+> II
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 6-47 fyrste ledd bokstav c og d skal lyde:*
 
-> premie, innskudd og kostnader knyttet til administrasjon av individuell pensjonsavtale etter lov 27. juni 2008 nr. 62 om individuell pensjonsordning, herunder kostnader til forvaltning av årets premie eller innskudd til individuell pensjonsavtale.premie, innskudd og kostnader knyttet til administrasjon av avtaler om individuell sparing til pensjon herunder kostnader til forvaltning av årets premie eller innskudd til slike avtaler. Samlet fradrag etter bokstav c og d kan ikke overstige 40 000 kroner per år. Departementet kan gi forskrift om vilkår for fradrag etter første punktum.
+> premie, innskudd og kostnader knyttet til administrasjon av individuell pensjonsavtale etter lov 27. juni 2008 nr. 62 om individuell pensjonsordning, herunder kostnader til forvaltning av årets premie eller innskudd til individuell pensjonsavtale.
+>
+> premie, innskudd og kostnader knyttet til administrasjon av avtaler om individuell sparing til pensjon herunder kostnader til forvaltning av årets premie eller innskudd til slike avtaler. Samlet fradrag etter bokstav c og d kan ikke overstige 40 000 kroner per år. Departementet kan gi forskrift om vilkår for fradrag etter første punktum.
 >
 > Noverande bokstav d til f vert bokstav e til g.
 >
@@ -4425,6 +4996,13 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 6-49
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-49 første ledd skal lyde:*
+
+> (1) Barn gis særskilt inntektsfradrag når barnet har arbeidsinntekt og barnet fastsetter skatt av underholdsbidrag, barnepensjon o.l.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -4614,6 +5192,13 @@ refid: "lov/1999-03-26-14"
 > (4) Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf, herunder nærmere bestemmelser om at andre betalingsmåter skal likestilles med betaling via bank, gjøre unntak fra kravet om betaling via bank i særlige tilfeller, anvendelse av beløpsgrensen og om krav til dokumentasjon.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-51 annet ledd skal lyde:*
+
+> (2) Er det fastsatt fradrag for en kostnad, men fradragsrett for kostnaden likevel ikke foreligger som følge av denne bestemmelsen, skal tidligere fradragsført beløp tas til inntekt det år betalingen skjer.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 6-51 andre ledd skal lyde:*
@@ -4784,7 +5369,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 6-70 første ledd bokstav b og ny bokstav c skal lyde:*
 
-> har begrenset skatteplikt etter § 2-3 første ledd d og annet ledd, kan kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.har begrenset skatteplikt etter § 2-3 første ledd h, skal ha standardfradrag etter denne paragraf. Har personen utelukkende skatteplikt etter § 2-3 første ledd h, skal han ha standardfradrag uansett hvor lenge denne skatteplikten består.
+> har begrenset skatteplikt etter § 2-3 første ledd d og annet ledd, kan kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.
+>
+> har begrenset skatteplikt etter § 2-3 første ledd h, skal ha standardfradrag etter denne paragraf. Har personen utelukkende skatteplikt etter § 2-3 første ledd h, skal han ha standardfradrag uansett hvor lenge denne skatteplikten består.
 >
 
 ### 2005-12-09 — lov/2005-12-09-113
@@ -4809,11 +5396,20 @@ refid: "lov/1999-03-26-14"
 > tilskudd til pensjonsordning, jf. §§ 6-47 a og b og 6-72.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-70 første ledd skal lyde:*
+
+> (1) Skattyter sometablerer skatteplikt som bosatt i riket, jf. § 2-1 første ledd, kan ved fastsettingen av skatt for de to første inntektsårene kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.har begrenset skatteplikt etter § 2-3 første ledd d og annet ledd, kan fastsette standardfradrag etter denne paragraf i stedet for ordinære fradrag.har begrenset skatteplikt etter § 2-3 første ledd h, skal ha standardfradrag etter denne paragraf. Har personen utelukkende skatteplikt etter § 2-3 første ledd h, skal han ha standardfradrag uansett hvor lenge denne skatteplikten består.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 6-70 fyrste ledd bokstav a og b skal lyde:*
 
-> etablerer skatteplikt som bosatt i riket, jf. § 2-1 første ledd, kan for de to første inntektsårene kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.har begrenset skatteplikt etter § 2-3 første ledd d og annet ledd, kan kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.
+> etablerer skatteplikt som bosatt i riket, jf. § 2-1 første ledd, kan for de to første inntektsårene kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.
+>
+> har begrenset skatteplikt etter § 2-3 første ledd d og annet ledd, kan kreve standardfradrag etter denne paragraf i stedet for ordinære fradrag.
 >
 
 ### 2018-06-22 — lov/2018-06-22-57
@@ -5168,6 +5764,13 @@ refid: "lov/1999-03-26-14"
 > særfradrag etter §§ 6-80 til 6-83,
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-90 tredje ledd skal lyde:*
+
+> (3) Fastsetter ektefellene skatten særskilt etter § 2-11, eller fordeler de skatten etter § 2-13, gjelder første og tredje ledd særskilt for hver av dem.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 6-90 tredje ledd skal lyde:*
@@ -5176,6 +5779,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 6-91
+
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 6-91 annet og tredje ledd skal lyde:*
+
+> (2) Regnskapspliktig skattyter gis ikke fradrag for gjeldsrenter som svarer til forholdet mellom verdien av fast eiendom og eiendeler i virksomhet som nevnt i første ledd og verdien av skattyters samlede eiendeler, basert på bokført verdi i regnskap oppgjort i samsvar med regnskapsloven
+>
+> (3) Skattyter som har bokføringsplikt, men ikke regnskapsplikt, gis ikke fradrag for gjeldsrenter som svarer til forholdet mellom verdien av fast eiendom og eiendeler i virksomhet som nevnt i første ledd og verdien av skattyters samlede eiendeler, basert på ligningsmessig verdi.
+>
 
 ### 2006-06-16 — lov/2006-06-16-29
 
@@ -5203,6 +5815,13 @@ refid: "lov/1999-03-26-14"
 *§ 6-91 tredje ledd nytt annet punktum skal lyde:*
 
 > Ved fordeling av gjeldsrenter etter forrige punktum, skal eiendom som nevnt i første ledd annet punktum bare tas med i verdien av skattyters samlede eiendeler.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 6-91 tredje ledd første punktum skal lyde:*
+
+> Andre skattytere enn nevnt i annet ledd har ikke krav på fradrag for gjeldsrenter som svarer til forholdet mellom verdien av fast eiendom og eiendeler i virksomheten som nevnt i første ledd og verdien av skattyters samlede eiendeler, basert på verdien ved skattefastsettingen.
 >
 
 ### 2025-12-22 — lov/2025-12-22-119
@@ -5291,6 +5910,20 @@ refid: "lov/1999-03-26-14"
 
 *§ 7-3 femte ledd bokstav d oppheves.*
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7-3 første ledd skal lyde:*
+
+> (1) Boligselskaper fastsetter ikke skatt som selskaper. I stedet fastsetter andelshaverne skatten etter denne paragraf.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7-3 fjerde ledd første punktum skal lyde:*
+
+> Bestemmelsene i denne paragraf gjelder selv om vilkårene i tredje ledd ikke er oppfylt, når skattemyndighetene finner at dette vil gi et resultat som stemmer bedre med det virkelige forhold enn ordinær skattefastsetting etter regnskap ville gjøre.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 7-3 fyrste ledd skal lyde:*
@@ -5309,7 +5942,13 @@ refid: "lov/1999-03-26-14"
 
 *§ 7-3 tredje ledd bokstav a skal lyde:*
 
-> minst 85 prosent av leieinntektene og dekning av felleskostnader kommer fraandelshavere eller aksjonærer, ellerelever og studenter som er tildelt bolig gjennom elev- eller studentsamskipnad, ellerleietaker i boligselskap opprettet som ledd i organisert fornyelse av tettbygd strøk.
+> minst 85 prosent av leieinntektene og dekning av felleskostnader kommer fra andelshavere eller aksjonærer, eller elever og studenter som er tildelt bolig gjennom elev- eller studentsamskipnad, eller leietaker i boligselskap opprettet som ledd i organisert fornyelse av tettbygd strøk.
+>
+> andelshavere eller aksjonærer, eller
+>
+> elever og studenter som er tildelt bolig gjennom elev- eller studentsamskipnad, eller
+>
+> leietaker i boligselskap opprettet som ledd i organisert fornyelse av tettbygd strøk.
 >
 
 ### 2021-12-22 — lov/2021-12-22-152
@@ -5365,6 +6004,15 @@ refid: "lov/1999-03-26-14"
 *§ 7-11 første ledd bokstav d første punktum skal lyde:*
 
 > Ved beregning av nettoinntekt etter bokstav a skal det gjøres et fradrag på 90 000 kroner i ligningsverdien.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 7-11 skal lyde:*
+
+> § 7-11.Forskrift
+>
+> Departementet kan gi forskrift til utfylling og gjennomføring av bestemmelsene i dette kapittel, herunder om skattlegging i boligsameier og levering av opplysninger fra slike.
 >
 
 ### 2024-12-20 — lov/2024-12-20-86
@@ -5463,6 +6111,22 @@ refid: "lov/1999-03-26-14"
 *§ 8-1 åttende ledd skal lyde:*
 
 > (8) Fradrag etter § 8-1 femte, sjette og sjuende ledd kan til sammen ikke overskride 71 500 kroner.
+>
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 8-1 nr. 1 bokstav a skal lyde:*
+
+> § 8-1.Jordbruk, fiske, akvakultur m.v.
+>
+> (1) Som inntekt regnes ikketilvekst i beholdning av fisk, akvatiske organismer i akvakultur, pelsdyr og rein,
+>
+
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 8-1 nr. 4 skal lyde:*
+
+> Dyr som inngår i buskap på gårdsbruk, reinflokk i reindriftsnæringen eller bestand i pelsdyrnæringen, anses som omløpsmidler i virksomhet. Det samme gjelder akvatiske organismer i akvakultur.
 >
 
 ### 2006-06-16 — lov/2006-06-16-29
@@ -5688,6 +6352,13 @@ refid: "lov/1999-03-26-14"
 > Frigitte skogavgiftsmidler som brukes til skogkultur og opprusting av skogsveier, samt til alternative avvirkningsfremmende investeringer i et vernet skogsområde hvor det er fastsatt restriktive forskrifter for bygging av skogsveier, tas til inntekt med 40 prosent.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-2 femte ledd skal lyde:*
+
+> (5) Skattyter som i en kommune enten ikke har skog eller bare har skog som ennå ikke er inntektsgivende, gis fradrag for kostnad til skogreising på egen eiendom med inntil ti prosent av nettoinntekten ved skattefastsettingen i samme kommune. Fradrag gis bare for skogreising i område som etter departementets bestemmelse skal anses som skogløst eller skogfattig.
+>
+
 ### 2016-12-20 — lov/2016-12-20-111
 
 *§ 8-2 annet ledd bokstav b annet punktum oppheves. Nåværende bokstav c blir bokstav b.*
@@ -5734,6 +6405,19 @@ refid: "lov/1999-03-26-14"
 *§ 8-3 tredje ledd andre punktum skal lyde:*
 
 > Erklæring fra banken om at skattekontoret vil få skriftlig underretning når det skjer bevegelse på kontoen eller innskuddet stilles som sikkerhet for gjeld, må vedlegges selvangivelsen.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-3 annet til femte ledd skal lyde:*
+
+> (2) Avsetningsbeløpet kan for det enkelte år sammen med andre fradragsberettigede fondsavsetninger utgjøre høyst 80 pst. av det beløp inntekten av reindrift eventuelt ved gjennomsnittsfastsetting etter § 14-82 fastsettes til. Avsetningsbeløpet kan ikke være mindre enn 30 000 kroner.
+>
+> (3) Fradrag for avsetning gis bare dersom skattyteren innen utløpet av fristen for å levere skattemelding har satt avsetningsbeløpet inn på særskilt konto i innenlandsk bank. Fradraget skal dokumenteres med erklæring fra banken om at skattekontoret vil få skriftlig underretning når det skjer bevegelse på kontoen eller innskuddet stilles som sikkerhet for gjeld.
+>
+> (4) Fører skattefastsettingen til at skattyteren kunne ha foretatt større avsetning enn det beløp skattyteren regnet med som maksimum, er det adgang til å øke fradraget tilsvarende, forutsatt at økningen utgjør minst 5 000 kroner.
+>
+> (5) Beløp som det er gitt fradrag for etter bestemmelsene foran, skal legges til skattyterens inntekt – eventuelt ved gjennomsnittsfastsetting etter § 14-82 – for det året eller de årene midlene på bankkontoen heves. Skattlegging skal skje senest ved skattefasttingen for det syvende året etter at det ble gitt fradrag for beløpet. Rentebeløp som godskrives fondskontoen, behandles på samme måte. Innestående midler anses som hevet dersom de stilles som sikkerhet for gjeld. Skattyteren anses for å ha disponert over fondsmidlene i samme rekkefølge som beløpene ble avsatt. Ved skattlegging av fondsmidler gjelder bestemmelsen i § 6-90 annet ledd tilsvarende.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -5829,6 +6513,13 @@ refid: "lov/1999-03-26-14"
 > (2) Bestemmelsene i §§ 8-11 til 8-20 gjelder også for selskap hjemmehørende i annen EØS-stat, som tilsvarer selskap som nevnt i første ledd, og som kun driver virksomhet som nevnt i § 8-13 med skatteplikt etter § 2-3 første ledd bokstav b eller petroleumsskatteloven § 2, jf. § 1.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-10 første ledd skal lyde:*
+
+> (1) Bestemmelsene i §§ 8-11 til 8-20 gjelder for aksjeselskap som er stiftet i henhold til aksjeloven og allmennaksjeselskap som er stiftet i henhold til allmennaksjeloven, og som fastsetter skatt etter den særskilte beskatningsordningen i henhold til bestemmelsene i §§ 8-11 til 8-20.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 8-10 fyrste ledd skal lyde:*
@@ -5842,7 +6533,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 8-11 første ledd bokstav e og f skal lyde:*
 
-> andel i deltakerlignet selskap mv. som nevnt i § 10-40, som kun eier eiendeler som nevnt under a-f, og hvor inntekten fastsettes etter § 8-15,aksjer i selskap som nevnt i § 10-60, som kun eier eiendeler som nevnt under a-f, og hvor inntekten fastsettes etter § 8-15,
+> andel i deltakerlignet selskap mv. som nevnt i § 10-40, som kun eier eiendeler som nevnt under a-f, og hvor inntekten fastsettes etter § 8-15,
+>
+> aksjer i selskap som nevnt i § 10-60, som kun eier eiendeler som nevnt under a-f, og hvor inntekten fastsettes etter § 8-15,
 >
 
 ### 2002-12-20 — lov/2002-12-20-99
@@ -5891,14 +6584,41 @@ refid: "lov/1999-03-26-14"
 
 *§ 8-11 første ledd bokstav g og ny bokstav h skal lyde:*
 
-> aksjer i selskap som nevnt i § 8-10, som kun eier eiendeler som nevnt under a-f, og aksjer i selskap som nevnt i denne bokstav,driftsmidler i virksomhet som nevnt i § 8-13 første ledd a og b, unntatt driftsmidler som nevnt i § 14-41 h og i og annen fast eiendom.
+> aksjer i selskap som nevnt i § 8-10, som kun eier eiendeler som nevnt under a-f, og aksjer i selskap som nevnt i denne bokstav,
+>
+> driftsmidler i virksomhet som nevnt i § 8-13 første ledd a og b, unntatt driftsmidler som nevnt i § 14-41 h og i og annen fast eiendom.
 >
 
 ### 2008-12-12 — lov/2008-12-12-99
 
 *§ 8-11 første ledd bokstav e, f og g skal lyde:*
 
-> andel i deltakerlignet selskap mv. som nevnt i § 10-40, som kun eier eiendeler som nevnt under a-f og h, og hvor inntekten fastsettes etter § 8-15,aksjer i selskap som nevnt i § 10-60, som kun eier eiendeler som nevnt under a-f og h, og hvor inntekten fastsettes etter § 8-15,aksjer i selskap som nevnt i § 8-10, som kun eier eiendeler som nevnt under a-f og h, og aksjer i selskap som nevnt i denne bokstav,
+> andel i deltakerlignet selskap mv. som nevnt i § 10-40, som kun eier eiendeler som nevnt under a-f og h, og hvor inntekten fastsettes etter § 8-15,
+>
+> aksjer i selskap som nevnt i § 10-60, som kun eier eiendeler som nevnt under a-f og h, og hvor inntekten fastsettes etter § 8-15,
+>
+> aksjer i selskap som nevnt i § 8-10, som kun eier eiendeler som nevnt under a-f og h, og aksjer i selskap som nevnt i denne bokstav,
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-11 første ledd bokstav c nr. 2 skal lyde:*
+
+> andeler i selskaper med deltakerfastsetting m.v. som nevnt i § 10-40 hvor inntekten ikke fastsettes etter § 8-15
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-11 første ledd bokstav e skal lyde:*
+
+> andel i selskap med deltakerfastsetting mv. som nevnt i § 10-40, som kun eier eiendeler som nevnt under a-f og h, og hvor inntekten fastsettes etter § 8-15,
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-11 niende ledd annet punktum skal lyde:*
+
+> Departementet kan gi nærmere regler om selskapenes plikt til å innrapportere opplysninger til skattemyndighetene.
 >
 
 ### 2016-12-20 — lov/2016-12-20-111
@@ -5962,6 +6682,13 @@ refid: "lov/1999-03-26-14"
 > (2) Valg om å tre inn i ordningen skal skje samlet for alle kvalifiserende selskap som tilhører samme konsern, jf. aksjeloven § 1-3 og allmennaksjeloven § 1-3, på det tidspunkt selskapene leverer selvangivelsen.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-12 annet ledd skal lyde:*
+
+> (2) Valg om å tre inn i ordningen skal skje samlet for alle kvalifiserende selskap som tilhører samme konsern, jf. aksjeloven § 1-3 og allmennaksjeloven § 1-3, på det tidspunkt selskapene leverer skattemeldingen.
+>
+
 ## § 8-13
 
 ### 2005-06-17 — lov/2005-06-17-74
@@ -5999,6 +6726,13 @@ refid: "lov/1999-03-26-14"
 *§ 8-13 første ledd første punktum skal lyde:*
 
 > Selskap innenfor ordningen kan ikke drive annen virksomhet enn utleie og drift av egne og innleide skip eller hjelpefartøy som nevnt i § 8-11 første ledd a og b.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-13 første ledd bokstav b skal lyde:*
+
+> annen virksomhet med nær tilknytning til sjøtransportvirksomheten som drives av det aktuelle selskapet eller konsernforbundet selskap som skattlegges etter bestemmelsene i §§ 8-10 til 8-20.
 >
 
 ### 2016-12-20 — lov/2016-12-20-111
@@ -6067,6 +6801,13 @@ refid: "lov/1999-03-26-14"
 > (7) Gevinst beregnet etter reglene i de fire foregående ledd føres på gevinst- og tapskonto.
 >
 > Noverande § 8-14 sjuande ledd vert nytt åttande ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 8-14 fjerde ledd skal lyde:*
+
+> (4) Ved realisasjon av andel i selskap som nevnt i §§ 10-40 og 10-60, som omfattes av § 2-38, til selskap som skattlegges etter bestemmelsene i §§ 8-10 til 8-20 fra selskap med direkte eller indirekte eierinteresser i det overtakende selskapet, skal det foretas et inntektsoppgjør slik at en positiv differanse mellom skattemessig verdi og markedsverdi for andelen på realisasjonstidspunktet kommer til beskatning i det overtakende selskapet. Tilsvarende gjelder når realisasjonen skjer fra selskap som slikt selskap har direkte eller indirekte eierinteresser i. Inntektsoppgjør etter dette ledd skal ikke foretas ved realisasjon fra selskap som skattlegges etter bestemmelsene i §§ 8-10 til 8-20.
 >
 
 ## § 8-15
@@ -6296,7 +7037,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 8-17 første ledd bokstav a og b skal lyde:*
 
-> det fremsettes krav om skattlegging etter alminnelige regler, ellervilkårene etter §§ 8-11 til 8-13 brytes.
+> det fremsettes krav om skattlegging etter alminnelige regler, eller
+>
+> vilkårene etter §§ 8-11 til 8-13 brytes.
 >
 
 ### 2010-12-10 — lov/2010-12-10-67
@@ -6511,6 +7254,13 @@ refid: "lov/1999-03-26-14"
 > Skattepliktig gevinst på givers hånd som følge av gavesalg til mottaker i andre tilfeller enn dem som er nevnt i foregående punktum, legges til den inngangsverdi mottaker trer inn i etter første ledd. Fradragsberettiget tap på givers hånd som følge av gavesalg til mottaker trekkes fra den inngangsverdi mottaker trer inn i etter første ledd.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-7 syvende ledd skal lyde:*
+
+> (7) Ved arv og gave av aksjer og andeler i selskap som nevnt i § 10-10, jf. 10-1, fra person omfattet av § 10-12 til arving eller gavemottaker som omfattes av § 10-12, gjelder § 10-33. Ved arv og gave av andel i selskap med deltakerfastsetting gjelder § 10-46, jf. § 10-33.
+>
+
 ### 2020-12-18 — lov/2020-12-18-149
 
 *§ 9-7 annet ledd fjerde punktum skal lyde:*
@@ -6553,6 +7303,26 @@ refid: "lov/1999-03-26-14"
 > (6) Verdipapiret anses realisert, og gevinst tas til inntekt og tap kommer til fradrag, når det anses klart at verdipapirlånet ikke vil bli innfridd med tilbakeføring av et identisk verdipapir til utlåneren.
 >
 > (7) Departementet kan gi bestemmelsen i første ledd første punktum anvendelse for andre finansielle instrumenter enn nevnt i fjerde ledd a.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 9-11 fjerde ledd bokstav a skal lyde:*
+
+> lånet gjelder aksje, egenkapitalbevis eller ihendehaverobligasjon, tatt opp til notering på regulert marked som definert i verdipapirhandelloven § 2-7 fjerde ledd, eller tilsvarende notering på utenlandsk børs, og
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 9-11 fjerde ledd bokstav c skal lyde:*
+
+> transaksjonen registreres som lånetransaksjon i vedkommende verdipapirsentral, når lånet omfatter verdipapir som er registrert i verdipapirsentral som omfattes av opplysningsplikt etter skatteforvaltningsloven § 7-3 første ledd bokstav i.
+>
+> 16.I lov 17. desember 1999 nr. 95 om betalingssystemer m.v. skal § 4-4 tredje ledd lyde:
+>
+> Dersom finansielle instrumenter som nevnt i verdipapirhandelloven § 2-2 er stilt som sikkerhet etter første ledd, og retten til de finansielle instrumentene er registrert i et register, en konto eller i en verdipapirsentral i en EØS-stat, skal lovgivningen i dette landet være bestemmende for rettighetene til innehaver av sikkerhetsstillelsen.
+>
+> 17.I lov 26. mars 2004 nr. 17 om finansiell sikkerhetsstillelse skal § 1 tredje ledd bokstav d lyde:avregningssentraler, sentrale motparter og lignende lovregulerte institusjoner som handler med finansielle instrumenter som nevnt i verdipapirhandelloven § 2-4 syvende ledd, eller juridiske personer som handler i egenskap av formuesforvalter eller etter fullmakt fra en eller flere personer, for eksempel tillitsmenn for obligasjonseiere i obligasjonsmarkedet eller spesialforetak opprettet i forbindelse med verdipapirisering.
 >
 
 ## § 9-12
@@ -6602,6 +7372,15 @@ refid: "lov/1999-03-26-14"
 *§ 9-13 åttende ledd skal lyde:*
 
 > Gevinst ved vern av skog i forbindelse med etablering eller utvidelse av verneområde etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, er fritatt for skatteplikt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-13 fjerde og femte ledd skal lyde:*
+
+> (4) Fritaket gjelder også for selskap med deltakerfastsetting ved overdragelse av landbrukseiendom eiet av selskapet i minst ti år, hvor alle deltakerne er slektninger som nevnt, og hvor eiendommen overdras til en av deltakerne eller et annet familiemedlem innenfor kretsen. Overdras en landbrukseiendom fra et selskap med deltakerfastsetting etter foregående punktum til en av deltakerne eller til en av deltakernes ektefelle eller til person innenfor familiekretsen, anses forskjellen mellom antatt salgsverdi og vederlaget ikke som skattepliktig utdeling fra selskapet i henhold til § 10-42 første og annet ledd.
+>
+> (5) Ved oppløsning av selskap med deltakerfastsetting i landbruket blir gevinst som skriver seg fra salg av landbrukseiendom som for seg ville vært skattefri for deltakeren etter første ledd, å holde utenfor ved beregning av over- eller underskudd på deltakerens andel.
 >
 
 ### 2017-12-19 — lov/2017-12-19-121
@@ -6717,6 +7496,20 @@ refid: "lov/1999-03-26-14"
 
 *§ 9-14 niende ledd syvende punktum blir nytt åttende punktum.*
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-14 sjette ledd tredje punktum skal lyde;*
+
+> Tapet fastsettes ved skattefastsettingen for det året realisasjonen anses å ha funnet sted, jf. § 14-27.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 9-14 niende ledd tredje og fjerde punktum skal lyde:*
+
+> Retten til utsettelse etter denne paragraf begrenses til årets netto fastsatte skatt på inntekten. Det skal beregnes renter som nevnt i skattebetalingsloven § 11-6 annet ledd, fra det tidspunkt restskatt knyttet til fastsatt skatt etter denne paragraf skulle vært betalt etter bestemmelsene i skattebetalingsloven § 10-21.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 9-14 sjette ledd tredje punktum skal lyde:*
@@ -6774,6 +7567,13 @@ refid: "lov/1999-03-26-14"
 > (2) Det kan ikke kreves fradrag i inntekt som skattlegges etter reglene i petroleumsskatteloven. Det kan ikke kreves fradrag for konsernbidrag til dekning av underskudd i virksomhet som nevnt i petroleumsskatteloven §§ 3 og 5. Det kan ikke kreves fradrag for konsernbidrag til dekning av underskudd som etter § 14-6 femte ledd ikke kan fremføres til fradrag i senere år.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-2 første ledd første punktum skal lyde:*
+
+> Aksjeselskap og allmennaksjeselskap har krav på fradrag for konsernbidrag ved fastsettingen av skatt så langt dette ligger innenfor den ellers skattepliktige alminnelige inntekt, og for så vidt konsernbidraget ellers er lovlig i forhold til aksjelovens og allmennaksjelovens regler.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 10-2 fyrste ledd fyrste og andre punktum skal lyde:*
@@ -6809,6 +7609,10 @@ refid: "lov/1999-03-26-14"
 
 > (2) Utenlandsk selskap hjemmehørende i land innenfor EØS anses likestilt med norsk selskap hvis:det utenlandske selskapet tilsvarer et norsk selskap eller sammenslutning som nevnt i § 10-2 første ledd,selskapet er skattepliktig etter § 2-3 første ledd b eller petroleumsskatteloven § 2, jf. § 1, ogdet mottatte konsernbidrag er skattepliktig inntekt i Norge for mottakeren.
 >
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-4 tredje ledd oppheves.*
 
 ### 2017-12-19 — lov/2017-12-19-121
 
@@ -7105,6 +7909,13 @@ refid: "lov/1999-03-26-14"
 *§ 10-13 første ledd siste punktum skal lyde:*
 
 > Reglene i denne paragraf gjelder ikke for den delen av utdeling fra verdipapirfond som behandles som rente etter § 10-20 første ledd annet punktum.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-13 første ledd skal lyde:*
+
+> (1) Av utbytte som utdeles til aksjonær som er hjemmehørende i utlandet, svares skatt til staten etter en sats som fastsettes av Stortinget i det årlige skattevedtak, jf. kapittel 15. Ansvaret for skatt på utbyttekompensasjon som nevnt i § 10-11 tredje ledd påhviler innlåner som etter avtale om verdipapirlån, jf. § 9-11, svarer slik kompensasjon til kontraktsmotpart hjemmehørende i utlandet. Reglene i denne paragraf gjelder ikke for utdeling fra obligasjonsfond.
 >
 
 ### 2017-12-19 — lov/2017-12-19-121
@@ -7657,6 +8468,13 @@ refid: "lov/1999-03-26-14"
 > (2) Når det har skjedd en slik omfordeling skal selskapet uten ugrunnet opphold, og senest ved utgangen av omfordelingsåret, sende melding om omfordelingen til skattekontoret. Dette gjelder likevel ikke selskap som omfattes av ligningsloven § 5-7 nr. 1-2. Departementet kan gi nærmere regler om omfordelingsmelding etter denne bestemmelse.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-34 annet ledd skal lyde:*
+
+> (2) Når det har skjedd en slik omfordeling skal selskapet uten ugrunnet opphold, og senest ved utgangen av omfordelingsåret, sende melding om omfordelingen til skattekontoret. Dette gjelder likevel ikke selskap som omfattes av skatteforvaltningsloven § 7-7 første og annet ledd. Departementet kan gi nærmere regler om omfordelingsmelding etter denne bestemmelse.
+>
+
 ## § 10-36
 
 ### 2012-12-07 — lov/2012-12-07-76
@@ -7737,6 +8555,13 @@ refid: "lov/1999-03-26-14"
 *§ 10-41 annet ledd skal lyde:*
 
 > (2) Inntekter og tap som nevnt i § 2-38 annet ledd, inngår ikke i inntekten som fastsettes etter denne paragraf. Bestemmelsene i § 2-38 tredje, fjerde og syvende ledd gjelder tilsvarende. Det skal likevel inntektsføres 3 prosent av utbytte som nevnt i § 2-38 annet ledd a.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-41 første ledd skal lyde:*
+
+> (1) Ved fastsettelse av alminnelig inntekt settes deltakers overskudd eller underskudd på deltakelsen til en andel av selskapets overskudd eller underskudd fastsatt etter reglene i skattelovgivningen som om selskapet var skattyter. Andel av underskudd i utenlandsk selskap kommer bare til fradrag dersom deltakeren uttrykkelig erklærer at alt underlagsmateriale til selskapets regnskap vil bli fremlagt på skattemyndighetenes begjæring.
 >
 
 ### 2020-06-23 — lov/2020-06-23-103
@@ -7905,6 +8730,17 @@ refid: "lov/1999-03-26-14"
 > Tilsvarende gjelder for personlig deltakers konkursbo, dødsbo eller administrasjonsbo.
 >
 
+## § 10-46
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-46 skal lyde:*
+
+> § 10-46.Skattemessig kontinuitet ved arv og gave av andel i selskap med deltakerfastsetting
+>
+> Skatteloven § 10-33 gjelder tilsvarende ved arv og gave av andel i selskap med deltakerfastsetting.
+>
+
 ## § 10-47
 
 ### 2008-05-09 — lov/2008-05-09-23
@@ -7924,6 +8760,15 @@ refid: "lov/1999-03-26-14"
 > (5) Krav etter første og annet ledd må fremsettes før utløpet av selvangivelsesfristen, eller om kravet ikke kan godtgjøres da, senest seks måneder etter at kravet kan godtgjøres. Kravet kan ikke under noen omstendighet fremsettes senere enn tre år etter inntektsåret.
 >
 > (6) Departementet kan i forskrift gi nærmere regler om fradrag for skjerming i utenlandsforhold, jf. § 10-42 tredje og femte ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-47 fjerde og femte ledd skal lyde:*
+
+> (4) Krav etter første og annet ledd må dokumenteres på den måten departementet fastsetter i forskrift.
+>
+> (5) Krav etter første og annet ledd må fremsettes før utløpet av fristen for å levere skattemelding, eller om kravet ikke kan godtgjøres da, senest seks måneder etter at kravet kan godtgjøres. Kravet kan ikke under noen omstendighet fremsettes senere enn tre år etter inntektsåret.
 >
 
 ## § 10-48
@@ -8004,6 +8849,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 10-63
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-63 skal lyde:*
+
+> § 10-63.Lavskattland
+>
+> Som lavskattland regnes land hvor den alminnelige inntektsskatt på selskapets eller innretningens samlede overskudd utgjør mindre enn to tredjedeler av den skatten selskapet eller innretningen skulle ha fastsatt dersom det/den hadde vært hjemmehørende i Norge.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -8095,6 +8949,15 @@ refid: "lov/1999-03-26-14"
 *§ 10-66 skal lyde:*
 
 > Underskudd kan bare fremføres dersom det uttrykkelig erklæres at alt underlagsmateriale til selskapets regnskap vil bli fremlagt på ligningsmyndighetenes begjæring.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-66 skal lyde:*
+
+> § 10-66.Fradragsbegrensning for underskudd
+>
+> Underskudd kan bare fremføres dersom det uttrykkelig erklæres at alt underlagsmateriale til selskapets regnskap vil bli fremlagt på skattemyndighetenes begjæring.
 >
 
 ## § 10-67
@@ -8224,6 +9087,27 @@ refid: "lov/1999-03-26-14"
 > (8) Retten til utsettelse med betaling av skatten etter bestemmelsen i forrige ledd bortfaller ved gaveoverføring til person som ikke er skattemessig bosatt i Norge og ved opphør av virksomhet i selskap med andel som nevnt i første ledd jf. andre ledd bokstav b. Departementet kan gi forskrift til utfylling av dette ledd.
 >
 > (9) Den beregnede skatten reduseres eller bortfaller etter følgende regler:Dersom skattyter realiserer aksjen eller andelen til en lavere verdi enn verdien fastsatt etter femte ledd, kan skattyteren kreve å få redusert utlignet skatt på aksjen eller andelen som om gevinsten var fastsatt etter faktisk realisasjonsverdi. Realisasjonsverdien kan ikke settes lavere enn inngangsverdien. Lavt eller ikke beskattet utbytte de foregående fem år legges til realisasjonsverdien. Valg av realisasjonsverdien gjelder ikke ved tap eller ved gaveoverføringer som nevnt i forrige ledd. Departementet kan gi forskrift til utfylling av denne bokstav.Dersom gevinsten er skattepliktig til annen stat, gis fradrag i skatt etter denne paragraf etter reglene i skatteloven § 16-20 til § 16-28 så langt de passer.Skatteplikten bortfaller hvis skattyteren ikke har realisert aksjen eller andelen innen fem år etter at skatteplikten opphørte etter § 2-1 tredje ledd eller skatteavtale med annen stat.Skatteplikten bortfaller hvis skattyteren igjen blir bosatt i riket etter § 2-1 eller skal anses bosatt i Norge etter skatteavtale.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-70 tredje ledd tredje punktum skal lyde:*
+
+> Tapet fastsettes i skattefastsettingen for utflytningsåret, jf. § 14-25, men avregningen utsettes til aksjen eller andelen er realisert.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-70 syvende ledd skal lyde:*
+
+> (7) Skattyter kan gis utsettelse med innbetaling av fastsatt skatt dersom det stilles betryggende sikkerhet for skatteforpliktelsen. Ved flytting til annen EØS-stat gis utsettelse uten sikkerhetsstillelse når Norge i medhold av folkerettslig overenskomst kan kreve utlevert opplysninger fra denne staten om skattyterens inntekts- og formuesforhold, samt bistand til innfordring. Betalingsutsettelsen gjennomføres ved at den fastsatte skatt ikke medtas ved avregningen for inntektsåret. Departementet kan gi forskrift om vilkår for utsettelse og sikkerhetsstillelse etter dette ledd.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 10-70 niende ledd bokstav a første punktum skal lyde:*
+
+> Dersom skattyter realiserer aksjen eller andelen til en lavere verdi enn verdien fastsatt etter femte ledd, kan skattyteren fastsette redusert skatt på aksjen eller andelen som om gevinsten var fastsatt etter faktisk realisasjonsverdi.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -8473,6 +9357,15 @@ refid: "lov/1999-03-26-14"
 > To eller flere selskaper hvor deltakerne lignes etter §§ 10-40 til 10-45, kan fusjoneres uten skattlegging ved at ett eller flere selskaper overdrar sine samlede eiendeler, rettigheter og forpliktelser til et annet selskap med samme selskaps- og ansvarsform, eller ved at et selskap erverver alle andeler i et annet selskap med samme selskaps- og ansvarsform, når deltakerne som vederlag mottar andeler i det overtakende selskapet eller andeler med et tillegg som ikke overstiger 20 prosent av det samlede vederlaget.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-3 skal lyde:*
+
+> § 11-3.Skattefri fusjon av selskap med deltakerfastsetting
+>
+> To eller flere selskaper hvor deltakerne skattlegges etter §§ 10-40 til 10-45, kan fusjoneres uten skattlegging ved at ett eller flere selskaper overdrar sine samlede eiendeler, rettigheter, og forpliktelser til et annet selskap med samme selskaps- og ansvarsform, eller ved at et selskap erverver alle andeler i et annet selskap med samme selskaps- og ansvarsform, når deltakerne som vederlag mottar andeler i det overtakende selskapet eller andeler med et tillegg som ikke overstiger 20 prosent av det samlede vederlaget.
+>
+
 ## § 11-4
 
 ### 2023-12-20 — lov/2023-12-20-98
@@ -8556,6 +9449,13 @@ refid: "lov/1999-03-26-14"
 > Det samme gjelder tillegg til fradragsramme i henhold til overgangsregler til skattereformen, fremførbart underskudd etter oppfylt fradragsramme i kommandittselskapet, jf. § 10-43 fjerde ledd, differansesaldoer knyttet til driftsmidler som nevnt i § 14-41 første ledd a-d og differanse som nevnt i § 11-7 fjerde ledd første punktum.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-8 annet ledd første punktum skal lyde:*
+
+> Ved fisjon av selskap med deltakerfastsetting hvor deltakerne eier andeler i flere av de fisjonerte selskapene, skal over- og underpris på selskapsandeler fordeles i samme forhold som selskapets nettoverdier.
+>
+
 ## § 11-11
 
 ### 2011-06-10 — lov/2011-06-10-16
@@ -8614,7 +9514,16 @@ refid: "lov/1999-03-26-14"
 
 *§ 11-20 første ledd bokstav f og ny bokstav g skal lyde:*
 
-> statsforetak,norskregistrert utenlandsk foretak skattepliktig etter § 2-2 første ledd e.
+> statsforetak,
+>
+> norskregistrert utenlandsk foretak skattepliktig etter § 2-2 første ledd e.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-20 første ledd skal lyde:*
+
+> (1) Departementet kan gi forskrift om at følgende selskap eller foretak kan omdannes til aksjeselskap eller allmennaksjeselskap uten å utløse skattlegging:enkeltpersonforetak,virksomhet drevet av kommune eller fylkeskommune,interkommunalt selskap,selskap med deltakerfastsetting som omfattes av § 10-40,samvirkeforetak,statsforetak,norskregistrert utenlandsk foretak skattepliktig etter § 2-2 første ledd e.Departementet kan også gi forskrift om omdanning fra enkeltpersonforetak til selskap med deltakerfastsetting som omfattes av 10-40.
 >
 
 ## § 11-21
@@ -8651,7 +9560,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 11-21 første ledd ny bokstav c, d, e og siste setning skal lyde:*
 
-> Når et aksjeselskap eller allmennaksjeselskap overfører eiendeler og forpliktelser ved fast driftssted skattepliktig til annen stat til nystiftet datterselskap i denne staten og vederlaget i sin helhet er aksjer i det nystiftede selskapet.Når et selskap med begrenset ansvar hjemmehørende i en stat Norge har inngått skatteavtale med, som gir Norge rett til å kreve utlevert opplysninger om skattyterens inntekts- og formuesforhold samt få bistand til innfordring, overfører eiendeler og forpliktelser med tilknytning til virksomhet skattepliktig til Norge etter § 2-3 til selskap med begrenset ansvar i samme konsern hjemmehørende i Norge.Når et selskap med begrenset ansvar overfører eiendeler og forpliktelser med tilknytning til virksomhet som er skattepliktig til Norge etter § 2-3 til annet konsernselskaps virksomhet med tilsvarende skatteplikt til Norge og konsernselskapene er hjemmehørende i en stat Norge har inngått skatteavtale med.
+> Når et aksjeselskap eller allmennaksjeselskap overfører eiendeler og forpliktelser ved fast driftssted skattepliktig til annen stat til nystiftet datterselskap i denne staten og vederlaget i sin helhet er aksjer i det nystiftede selskapet.
+>
+> Når et selskap med begrenset ansvar hjemmehørende i en stat Norge har inngått skatteavtale med, som gir Norge rett til å kreve utlevert opplysninger om skattyterens inntekts- og formuesforhold samt få bistand til innfordring, overfører eiendeler og forpliktelser med tilknytning til virksomhet skattepliktig til Norge etter § 2-3 til selskap med begrenset ansvar i samme konsern hjemmehørende i Norge.
+>
+> Når et selskap med begrenset ansvar overfører eiendeler og forpliktelser med tilknytning til virksomhet som er skattepliktig til Norge etter § 2-3 til annet konsernselskaps virksomhet med tilsvarende skatteplikt til Norge og konsernselskapene er hjemmehørende i en stat Norge har inngått skatteavtale med.
 >
 > I tilfeller som nevnt i bokstav d og e kan det gis bestemmelser om at skatteposisjoner knyttet til virksomheten, skal overføres.
 >
@@ -8661,6 +9574,20 @@ refid: "lov/1999-03-26-14"
 *§ 11-21 første ledd bokstav c skal lyde:*
 
 > Fra et selskap som nevnt i første ledd bokstav a, b eller e til et tilsvarende selskap hjemmehørende i en stat Norge har inngått skatteavtale med. Ved overføring etter denne bestemmelsen fra selskap som nevnt i bokstav e, er det et vilkår at Norge etter folkerettslig overenskomst med den andre staten kan kreve bistand til innfordring.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-21 første ledd bokstav b skal lyde:*
+
+> Mellom selskap med deltakerfastsetting som omfattes av § 10-40, forutsatt at selskapene i det vesentlige har samme eiere.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-21 annet ledd annet punktum skal lyde:*
+
+> Overdragende skattyters fastsatte naturressursskatt til fremføring etter skatteloven § 18-2 fjerde ledd siste punktum og negative grunnrenteinntekt til fremføring etter skatteloven § 18-3 fjerde ledd på tidspunktet for overføring av kraftverk, kan overføres tilsvarende.
 >
 
 ## § 11-22
@@ -8693,6 +9620,20 @@ refid: "lov/1999-03-26-14"
 > (2) Fritak eller nedsettelse kan bare gis når særlige grunner taler for det, og fritaket eller nedsettelsen klart vil lette omorganiseringen eller omleggingen.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-22 første ledd bokstav d skal lyde:*
+
+> andeler i selskap med deltakerfastsetting etter § 10-40,
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 11-22 tredje ledd skal lyde:*
+
+> (3) Til fritaket eller nedsettelsen kan det knyttes vilkår, herunder med hensyn til bruken av vederlaget eller deler av det. Overdragende skattyters fastsatte naturressursskatt til fremføring etter skatteloven § 18-2 fjerde ledd siste punktum og negative grunnrenteinntekt til fremføring etter skatteloven § 18-3 fjerde ledd på tidspunktet for overføring av kraftverk, kan tillates overført. Overdragende sparebanks og gjensidige livsforsikringsselskaps skatteposisjoner, herunder fremførbare underskudd etter skatteloven § 14-6 og ubenyttede godtgjørelsesfradrag etter skatteloven § 10-12 fjerde ledd på tidspunktet for overføring, kan tillates overført.
+>
+
 ## § 12-1
 
 ### 2015-12-18 — lov/2015-12-18-115
@@ -8700,6 +9641,15 @@ refid: "lov/1999-03-26-14"
 *§ 12-1 annet punktum skal lyde:*
 
 > Personinntekt er grunnlag for utligning av trinnskatt til staten og trygdeavgift til folketrygden.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12-1 skal lyde:*
+
+> § 12-1.Anvendelsesområde
+>
+> Dette kapittel gjelder fastsettelse av personinntekt. Personinntekt er grunnlag for fastsetting av toppskatt til staten og trygdeavgift til folketrygden.
 >
 
 ### 2019-06-21 — lov/2019-06-21-34
@@ -8727,6 +9677,15 @@ refid: "lov/1999-03-26-14"
 > pensjon, føderåd, livrente som er ledd i pensjonsordning i arbeidsforhold og engangs- og avløsningsbeløp for slike ytelser. Som personinntekt regnes likevel ikke barnepensjon til barn som ikke er fylt 17 år ved utløpet av inntektsåret og etterlønn og etterpensjon etter § 5-40 første ledd.
 >
 
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 12-2 ny bokstav h skal lyde:*
+
+> introduksjonsstønad beregnet etter lov om introduksjonsordning for nyankomne innvandrere kapittel 3.
+>
+> 2. I lov 27. juni 1947 nr. 9 om tiltak for å fremme sysselsetting gjøres følgende endring:
+>
+
 ### 2004-01-01 — lov/2003-06-20-55
 
 *§ 12-2 bokstav c skal lyde:*
@@ -8745,7 +9704,9 @@ refid: "lov/1999-03-26-14"
 
 *§ 12-2 bokstav h og ny bokstav i skal lyde:*
 
-> introduksjonsstønad beregnet etter lov om introduksjonsordning for nyankomne innvandrere kapittel 3,støtte etter lov om supplerande stønad til personar med kort butid i Noreg.
+> introduksjonsstønad beregnet etter lov om introduksjonsordning for nyankomne innvandrere kapittel 3,
+>
+> støtte etter lov om supplerande stønad til personar med kort butid i Noreg.
 >
 
 ### 2006-12-15 — lov/2006-12-15-81
@@ -8816,6 +9777,13 @@ refid: "lov/1999-03-26-14"
 *§ 12-2 ny bokstav j skal lyde:*
 
 > uføretrygd etter folketrygdloven kapittel 12 og uføreytelser fra andre ordninger.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12-2 første ledd bokstav f skal lyde:*
+
+> godtgjørelse til deltaker for arbeidsinnsats i selskap med deltakerfastsetting,
 >
 
 ### 2019-06-21 — lov/2019-06-21-34
@@ -8986,6 +9954,13 @@ refid: "lov/1999-03-26-14"
 > mottatt skattepliktig konsernbidrag,
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 12-12 annet ledd bokstav e nr. 1 skal lyde:*
+
+> Ikke-avskrivbar eiendel skal verdsettes til den høyeste verdi av eiendelens historiske kostpris og verdien ved skattefastsettingen.
+>
+
 ## § 12-13
 
 ### 2005-12-09 — lov/2005-12-09-116
@@ -9072,6 +10047,20 @@ refid: "lov/1999-03-26-14"
 > Er skatteplikten avhengig av bostedet og skattyteren anses som bosatt i riket bare en del av inntektsåret, jf. § 2-1 annet til sjette ledd, fastsettes inntekten til det beløpet som etter bestemmelsene i dette kapittel skal tas til inntekt i vedkommende tidsrom.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-1 tredje ledd skal lyde:*
+
+> (3) For næringsdrivende regnskapspliktig skattyter som etter regnskapsloven § 1-7 første ledd annet og tredje punktum benytter et annet regnskapsår enn kalenderåret (avvikende regnskapsår), fastsettes inntekten til det beløpet den har utgjort i det siste regnskapsåret som er utløpt før 1. januar det året skatten fastsettes.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-1 fjerde ledd skal lyde:*
+
+> (4) Tredje ledd gjelder tilsvarende når staten, Opplysningsvesenets fond eller en kommune skal fastsette skatt og det foreligger regnskap som ikke følger kalenderåret.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 14-1 fjerde ledd skal lyde:*
@@ -9120,6 +10109,13 @@ refid: "lov/1999-03-26-14"
 
 ## § 14-4
 
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 14-4 første ledd skal lyde:*
+
+> (1) Denne paragraf gjelder for virksomhet som det er fastsatt bokføringsplikt for i lov eller med hjemmel i lov. Bestemmelsene i annet og tredje ledd gjelder likevel bare for skattyter med regnskapsplikt.
+>
+
 ### 2005-12-09 — lov/2005-12-09-116
 
 *§ 14-4 skal lyde:*
@@ -9145,6 +10141,20 @@ refid: "lov/1999-03-26-14"
 *§ 14-4 tredje ledd oppheves.*
 
 ## § 14-5
+
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 14-5 første ledd skal lyde:*
+
+> (1) Denne paragraf gjelder for virksomhet som det er fastsatt bokføringsplikt for i lov eller med hjemmel i lov.
+>
+
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 14-5 sjette ledd skal lyde:*
+
+> (6) Departementet kan gi forskrift om at grupper av skattytere uavhengig av regnskapsloven og bokføringsloven skal ta hensyn til endringer i varebeholdning, utestående fordringer og gjeld.
+>
 
 ### 2005-12-09 — lov/2005-12-09-116
 
@@ -9175,14 +10185,24 @@ refid: "lov/1999-03-26-14"
 
 *§ 14-5 fjerde ledd bokstav h skal lyde:*
 
-> For institusjoner nevnt under f som kan føre til fradrag tap på utlån og garantier som er ført til kostnad i årsregnskapet i samsvar med regnskapslovgivningens regler i g, som går over til anvendelse av IFRS 9 i regnskapsåret 2018 og der det oppstår en differanse i utgående tapsavsetninger beregnet etter IAS 39, sammenlignet med de inngående tapsavsetningene beregnet etter IFRS 9, gjelder følgende:Økte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, kan fradras i sin helhet i inntektsåret 2019.Reduserte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, skal inntektsføres i sin helhet i inntektsåret 2019.
+> For institusjoner nevnt under f som kan føre til fradrag tap på utlån og garantier som er ført til kostnad i årsregnskapet i samsvar med regnskapslovgivningens regler i g, som går over til anvendelse av IFRS 9 i regnskapsåret 2018 og der det oppstår en differanse i utgående tapsavsetninger beregnet etter IAS 39, sammenlignet med de inngående tapsavsetningene beregnet etter IFRS 9, gjelder følgende: Økte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, kan fradras i sin helhet i inntektsåret 2019. Reduserte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, skal inntektsføres i sin helhet i inntektsåret 2019.
+>
+> Økte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, kan fradras i sin helhet i inntektsåret 2019.
+>
+> Reduserte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, skal inntektsføres i sin helhet i inntektsåret 2019.
 >
 
 ### 2019-12-20 — lov/2019-12-20-94
 
 *§ 14-5 fjerde ledd bokstav h skal lyde:*
 
-> For institusjoner nevnt under f som kan føre til fradrag tap på utlån og garantier som er ført til kostnad i årsregnskapet i samsvar med regnskapslovgivningens regler i g, som går over til anvendelse av IFRS 9 og der det oppstår en differanse i utgående tapsavsetninger beregnet etter IAS 39 eller utlånsforskriften, sammenlignet med de inngående tapsavsetningene beregnet etter IFRS 9, gjelder følgende:Økte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, kan fradras i sin helhet i overgangsåret.Reduserte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, skal inntektsføres i sin helhet i overgangsåret.Institusjoner som gikk over til IFRS 9 i regnskapsåret 2018, kan fradra økte tapsavsetninger og skal inntektsføre reduserte tapsavsetninger i inntektsåret 2019.
+> For institusjoner nevnt under f som kan føre til fradrag tap på utlån og garantier som er ført til kostnad i årsregnskapet i samsvar med regnskapslovgivningens regler i g, som går over til anvendelse av IFRS 9 og der det oppstår en differanse i utgående tapsavsetninger beregnet etter IAS 39 eller utlånsforskriften, sammenlignet med de inngående tapsavsetningene beregnet etter IFRS 9, gjelder følgende: Økte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, kan fradras i sin helhet i overgangsåret. Reduserte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, skal inntektsføres i sin helhet i overgangsåret. Institusjoner som gikk over til IFRS 9 i regnskapsåret 2018, kan fradra økte tapsavsetninger og skal inntektsføre reduserte tapsavsetninger i inntektsåret 2019.
+>
+> Økte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, kan fradras i sin helhet i overgangsåret.
+>
+> Reduserte tapsavsetninger knyttet til tap på utlån og garantier som føres direkte mot egenkapitalen i forbindelse med implementering av IFRS 9, jf. regnskapsloven § 4-3 annet ledd og IAS 8, skal inntektsføres i sin helhet i overgangsåret.
+>
+> Institusjoner som gikk over til IFRS 9 i regnskapsåret 2018, kan fradra økte tapsavsetninger og skal inntektsføre reduserte tapsavsetninger i inntektsåret 2019.
 >
 
 ## § 14-6
@@ -9234,6 +10254,20 @@ refid: "lov/1999-03-26-14"
 > (4) Denne paragraf gjelder ikke for inntekt fra gjennomsnittslignet skogbruk, jf. § 14-81.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-6 første ledd skal lyde:*
+
+> (1) Det gis fradrag for underskudd som omfattes av § 6-3 første ledd, som skattyteren har hatt i et forutgående år. Underskudd i et tidligere år skal være fratrukket i sin helhet før det gis fradrag for underskudd i et senere år. Dette gjelder ikke ved gjennomsnittsfastsetting av inntekt av skogbruk, jf. § 14-81.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-6 fjerde ledd skal lyde:*
+
+> (4) Denne paragraf gjelder ikke skatt på inntekt fra skogbruk fastsatt ved gjennomsnittsfastsetting, jf. § 14-81.
+>
+
 ### 2016-12-20 — lov/2016-12-20-111
 
 *§ 14-6 første ledd siste punktum oppheves.*
@@ -9276,6 +10310,13 @@ refid: "lov/1999-03-26-14"
 > (3) Denne paragraf gjelder ikke for inntekt fra gjennomsnittslignet skogbruk, jf. § 14-81.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-7 første ledd skal lyde:*
+
+> (1) Når det ved opphør av en virksomhet er et udekket underskudd som er oppstått i det året da virksomheten opphører, skal fastsatt skatt for det foregående, og om nødvendig også for det nest foregående, året endres, idet det i inntekten for disse år gis fradrag for det udekkede underskuddet. Er underskuddet oppstått i året forut for opphørsåret, skal fastsatt skatt for det foregående året endres tilsvarende.
+>
+
 ### 2016-12-20 — lov/2016-12-20-111
 
 *§ 14-7 tredje ledd oppheves.*
@@ -9298,6 +10339,15 @@ refid: "lov/1999-03-26-14"
 ### 2005-12-09 — lov/2005-12-09-113
 
 *§ 14-9 blir ny § 14-8.*
+
+## § 14-20
+
+### 2004-11-19 — lov/2004-11-19-73
+
+*§ 14-20 første ledd skal lyde:*
+
+> (1) Denne paragraf gjelder ikke for virksomhet som det er fastsatt bokføringsplikt for i lov eller med hjemmel i lov.
+>
 
 ## § 14-23
 
@@ -9423,7 +10473,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 14-41 første ledd bokstav g, h og i skal lyde:*
 
-> anlegg for overføring og distribusjon av elektrisk kraft og elektroteknisk utrusting i kraftforetakbygg og anlegg, hoteller, losjihus, bevertningssteder mv.forretningsbygg.
+> anlegg for overføring og distribusjon av elektrisk kraft og elektroteknisk utrusting i kraftforetak
+>
+> bygg og anlegg, hoteller, losjihus, bevertningssteder mv.
+>
+> forretningsbygg.
 >
 > Fjerde ledd siste punktum skal lyde:
 >
@@ -9848,6 +10902,15 @@ refid: "lov/1999-03-26-14"
 > Driftsmiddel som nevnt i foregående punktum anses tatt ut av beskatningsområdet med en forholdsmessig del, svarende til den overførte andelen.
 >
 
+## § 14-63
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-63 annet ledd annet punktum skal lyde:*
+
+> Opplysninger til slik sannsynliggjøring må senest være gitt innen skattyters frist for å levere skattemelding for vedkommende inntektsår.
+>
+
 ## § 14-64
 
 ### 2013-06-21 — lov/2013-06-21-69
@@ -9855,6 +10918,19 @@ refid: "lov/1999-03-26-14"
 *§ 14-64 tredje ledd nytt tredje punktum skal lyde:*
 
 > Ved uttak av driftsmiddel gjennom overføring av andel i selskap som nevnt i § 10-40, jf. § 14-60 tredje ledd fjerde punktum bokstav a, skal inntekten ved inntektsoppgjøret tas med ved beregning av årets overskudd eller underskudd på andelen uten fordeling mellom overdrager og erverver etter § 10-41 tredje ledd.
+>
+
+## § 14-65
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-65 skal lyde:*
+
+> § 14-65.Andel i selskap med deltakerfastsetting
+>
+> (1) For andel i selskap med deltakerfastsetting som tas inn i norsk beskatningsområde, får reglene i §§ 14-61 til 14-63 anvendelse for den forholdsmessige del av selskapets driftsmidler som andelen representerer.
+>
+> (2) For andel i selskap med deltakerfastsetting som tas ut av norsk beskatningsområde, får reglene i § 14-64 anvendelse for den forholdsmessige del av selskapets driftsmidler som andelen representerer. Fristen etter § 14-64 annet ledd regnes fra utgangen av det år driftsmidlet ble påbegynt avskrevet av selskapet. Ved inntektsoppgjøret etter § 14-64 tredje ledd skal bare medregnes foretatte avskrivninger i vedkommende deltakers eiertid.
 >
 
 ## § 14-70
@@ -9880,6 +10956,13 @@ refid: "lov/1999-03-26-14"
 > Nytt formuesobjekt må være ervervet eller bindende avtale om erverv må være inngått innen utløpet av det tredje året etter realisasjonsåret. Departementet kan i forskrift gi bestemmelser om sikkerhetsstillelse i de tilfeller der reinvestering ikke har funnet sted innen utløpet av året etter realisasjonsåret.
 >
 
+### 2006-01-01 — lov/2005-06-17-79
+
+*§ 14-70 nr. 6 bokstav d skal lyde:*
+
+> akvatiske organismer i akvakultur.
+>
+
 ### 2006-06-16 — lov/2006-06-16-29
 
 *§ 14-70 sjuande ledd skal lyde:*
@@ -9898,6 +10981,20 @@ refid: "lov/1999-03-26-14"
 > For gevinst på driftsmiddel i saldogruppe e til h og negativ saldo i saldogruppe j gjelder § 14-44 fjerde ledd tredje og fjerde punktum.
 >
 > § 17-1 tredje ledd siste punktum blir oppheva.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-70 tredje ledd tredje punktum skal lyde:*
+
+> Gevinsten skal fradras det nye objektets kostpris uten å komme til fradrag ved fastsettingen av skatt på inntekt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-70 fjerde ledd første punktum skal lyde:*
+
+> Oppfylles ikke vilkårene for fritak som nevnt under annet ledd, skal fastsatt skatt endres for gevinsten eller en forholdsmessig del av den etter skatteforvaltningsloven § 12-1.
 >
 
 ### 2016-12-20 — lov/2016-12-20-111
@@ -9999,6 +11096,13 @@ refid: "lov/1999-03-26-14"
 > Fordelingen av inntekt etter første punktum legges til grunn for beregning av trinnskatt etter Stortingets årlige skattevedtak, for beregning av pensjonsgivende inntekt etter folketrygdloven § 3-15, og for beregning av trygdeavgift etter folketrygdloven § 23-3.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-80 tredje og fjerde punktum skal lyde:*
+
+> Endring av fastsatt skatt skal i tilfelle foretas for de to forutgående årene. Kravet må fremsettes innen den fristen som gjelder for innlevering av skattemeldingen.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 14-80 tredje punktum skal lyde:*
@@ -10065,6 +11169,25 @@ refid: "lov/1999-03-26-14"
 > (6) Aktivitet i skog som ikke utøves som virksomhet alene eller sammen med jordbruk, anses ikke som skogbruk etter denne paragraf, men skattlegges sammen med skattyterens øvrige inntekt. Sammen med skattyters øvrige inntekt skattlegges også inntekter fra skog som kun er tilstrekkelig til å dekke gårdens behov for brensel, gjerdematerialer og til mindre reparasjoner. Når skog etter første punktum ikke skal gjennomsnittslignes og summen av de inntil fire siste års skogbruksinntekter, slik de er kommet til beskatning i gjennomsnittsligningen, overstiger summen av de faktiske skogbruksinntekter i samme periode, skal dette gjennomsnittsoverhenget komme til fradrag i inntekten for året etter det siste året med gjennomsnittsligning. Dersom summen av de inntil fire siste års skogbruksinntekter, slik de er kommet til beskatning i gjennomsnittsligningen, er lavere enn summen av de faktiske skogbruksinntekter i samme periode, skal dette gjennomsnittsunderhenget tas til inntekt for året etter det siste året med gjennomsnittsligning.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-81 skal lyde:*
+
+> § 14-81.Gjennomsnittsfastsetting for skogbruk
+>
+> (1) Ved gjennomsnittsfastsetting for skogbruk fastsettes inntekten på følgende måte:Inntekten fastsettes til gjennomsnittlig årsinntekt de siste fem hele kalenderårene.Gjennomsnittsberegning foretas før fradrag for gjeldsrenter. Gjeldsrenter fradras særskilt med det beløpet de har utgjort det siste året.Ved fastsettelsen av avkastningen av skogbruk tas medverdien av skogvirke uttatt til eget bruk og av jakt, fiske, torvtak o.l., samt leieinntekter herfra,utbetalt offentlig tilskudd til skogkulturarbeid.Vedtak om endring av fastsatt skatt som treffes før fastsatt skatt for det påfølgende året legges ut, skal det tas hensyn til ved gjennomsnittsfastsettingen. Senere endring tilregnes det året endringen gjelder.
+>
+> (2) Gjennomsnittsfastsetting skal foretas når næringen har vært drevet i åtte år. Gjennomsnittsfastsetting kan foretas for tidligere år, forutsatt at skattyteren har drevet næringen i minst to år og gjennomsnittsfastsettingen skjer innen fristen for å levere skattemelding.
+>
+> (3) Når det på grunn av naturkatastrofe som brann, vindfall, insektangrep o.l. foretas en ekstraordinær hogst som i vesentlig grad minsker skogens kubikkmasse, kan departementet etter søknad vedta at utbyttet av denne hogsten skal fordeles til skattlegging over flere år.
+>
+> (4) Gjennomsnittsfastsetting skal ikke foretasnår skog går over til ny innehaver. Inntekten i overdragelsesåret holdes utenfor gjennomsnittsberegningen både for den tidligere og den nye innehaveren. Ved skattyterens død gjelder likevel § 14-82 annet ledd a og b tilsvarende,når skog er kjøpt til uthogst, jf. § 8-2 tredje ledd.
+>
+> (5) Dersom det ved avbrudd av gjennomsnittsfastsettingen viser seg at summen av faktiske årsinntekter for de siste fire årene overstiger summen av gjennomsnittsfastsatte inntekter for samme tidsrom med mer enn 15 000 kroner, skal differansen skattlegges ved endring av fastsatt skatt. Ved endringen skal differansen fordeles forholdsmessig til skattlegging for de årene faktisk årsinntekt overstiger gjennomsnittsfastsatt inntekt. Har inntekt i skogbruket ikke vært gjennomsnittsfastsatt så lenge som fire år, gjelder det samme for de årene hvor inntekt i skogbruket har vært gjennomsnittsfastsatt.
+>
+> (6) Skog som kun er tilstrekkelig til å dekke gårdens behov for brensel, gjerdematerialer og til mindre reparasjoner, anses ikke som skogbruk etter denne paragraf, men skattlegges sammen med skattyterens øvrige inntekt.
+>
+
 ### 2016-06-17 — lov/2016-06-17-40
 
 *§ 14-81 sjette ledd nytt femte punktum skal lyde:*
@@ -10079,6 +11202,19 @@ refid: "lov/1999-03-26-14"
 *§ 14-82 første ledd første punktum skal lyde:*
 
 > (1) Inntekt fra enkeltpersonforetak av reindrift og bierverv knyttet til denne, fastsettes på følgende måte:
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 14-82 skal lyde:*
+
+> § 14-82.Gjennomsnittsfastsetting for reindrift
+>
+> (1) Inntekt fra enkeltpersonforetak av reindrift og bierverv knyttet til denne, fastsettes på følgende måte:Når skattyteren har drevet næringen i tre hele år, fastsettes inntekten til gjennomsnittet av de beløp årsinntektene utgjorde i det siste og de to foregående årene. Det foretas likevel ikke gjennomsnittsfastsetting for tredje og fjerde år dersom årsinntekten ligger mer enn 15 prosent under gjennomsnittsinntekten for vedkommende år. Når det før gjennomsnittsfastsettingen er påbegynt, fremkommer et underskudd som overføres eller fremføres til fradrag i annen inntekt skattyteren har, skal årsinntekten ved gjennomsnittsfastsetting for senere år settes til 0 kroner.Gjennomsnittsberegning foretas før fradrag for gjeldsrenter. Dersom kostprisen ved kjøp og omsetningsverdien ved arv eller arveforskudd av livdyr overstiger den summen som er fastsatt for direkte kostnadsføring av avskrivbare driftsmidler, skal kostnadsfordelingen skje over tre år med like store årlige beløp.Vedtak om endring av fastsatt skatt som treffes før skattefastsettingen for det påfølgende året legges ut, skal det tas hensyn til ved gjennomsnittsfastsettingen. Senere endring tilregnes det året endringen gjelder.
+>
+> (2) Ved opphør eller realisasjon av virksomheten og dersom skattyteren går konkurs, avbrytes gjennomsnittsfastsettingen. Gjennomsnittsfastsetting foretas ikke for dette året. Gjennomsnittsfastsettingen avbrytes likevel ikkenår virksomheten innen utgangen av skattyterens dødsår overtas udelt av arving eller av gjenlevende ektefelle i uskifte, og vedkommende fastsetter skatt under ett med avdøde og dennes dødsbo for dødsåret,når avdøde og skattyterens dødsbo fastsetter skatt under ett for dødsåret.
+>
+> (3) Dersom det ved avbrudd av gjennomsnittsfastsettingen viser seg at gjennomsnittsinntekten i det siste eller nest siste året avviker mer enn ti prosent fra det beløpet årsinntekten utgjorde, legges årsinntekten til grunn for inntektsfastsettelsen gjennom endring av fastsatt skatt for vedkommende inntektsår.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -10172,6 +11308,13 @@ refid: "lov/1999-03-26-14"
 
 ## § 15-3
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15-3 tredje ledd skal lyde:*
+
+> (3) De skattesatsene som gjelder ved utskrivning av forskudd på skatt, skal gjelde også ved skattyters og skattemyndighetenes fastsetting av skatt. Kommunestyre og fylkesting kan likevel innen utgangen av april måned i året etter inntektsåret vedta andre skattesatser som skal gjelde ved fastsettingen av skatt. Vedtaket må godkjennes av fylkesmannen for å bli gyldig.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 15-3 tredje ledd skal lyde:*
@@ -10211,6 +11354,20 @@ refid: "lov/1999-03-26-14"
 *§ 15-4 fjerde ledd skal lyde:*
 
 > (4) Er ektefellene skilt eller separert i inntektsåret, kan den ektefellen som det meste av året har forsørget den andre, gis personfradrag i klasse 2 i stedet for fradrag for bidrag etter § 6-52.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15-4 annet ledd skal lyde:*
+
+> (2) Personfradrag i klasse 2 gis til ektefeller som fastsetter skatt under ett for begges samlede formue og inntekt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 15-4 femte ledd skal lyde:*
+
+> (5) Er en av ektefellene avgått ved døden i inntektsåret, skal gjenlevende ektefelle som fastsetter sin og avdødes inntekt under ett, ha personfradrag i klasse 2. Fastsettes ektefellens inntekt særskilt etter § 2-11 første ledd, gis personfradrag i klasse 1 i avdødes inntekt. Det samme gjelder når arving som har overtatt boet uskiftet, krever sin og avdødes inntekt skattlagt særskilt. Dødsbo skal for det inntektsåret dødsfallet fant sted, ha samme personfradrag som avdøde ville ha hatt i live. Hvis gjenlevende ektefelle fastsetter skatt eller sannsynligvis vil fastsette skatt særskilt, skal boet ha personfradrag i klasse 1. Boet skal ikke ha personfradrag for de etterfølgende inntektsårene. Reglene om ektefeller i dette ledd gjelder tilsvarende for gjenlevende samboer som overtar boet uskiftet i medhold av arveloven § 28c.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -10408,7 +11565,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 16-1 første ledd bokstav b, c og ny d skal lyde:*
 
-> mottar avtalefestet pensjon (AFP) etter lov 25. juni 2010 nr. 28 om avtalefestet pensjon for medlemmer av Statens pensjonskasse eller andre tilsvarende avtaler eller lovfestede ordninger eller omfattes av § 12 i AFP-tilskottsloven,mottar stønad etter lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg, ellerer skattepliktig hit for tilsvarende pensjonsinntekt som angitt i bokstav a, b og c, fra annen EØS-stat.
+> mottar avtalefestet pensjon (AFP) etter lov 25. juni 2010 nr. 28 om avtalefestet pensjon for medlemmer av Statens pensjonskasse eller andre tilsvarende avtaler eller lovfestede ordninger eller omfattes av § 12 i AFP-tilskottsloven,
+>
+> mottar stønad etter lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg, eller
+>
+> er skattepliktig hit for tilsvarende pensjonsinntekt som angitt i bokstav a, b og c, fra annen EØS-stat.
 >
 
 ### 2014-12-19 — lov/2014-12-19-80
@@ -10416,6 +11577,13 @@ refid: "lov/1999-03-26-14"
 *§ 16-1 tredje ledd skal lyde:*
 
 > (3) Fradraget nedtrappes når skattyters samlede pensjonsinntekt mv. etter § 12-2 bokstav b, i og j overstiger fastsatte beløpsgrenser. Beløpsgrensene fastsettes årlig av Stortinget i to trinn. Fradraget nedtrappes med 15,3 prosent av pensjonsinntekt mv. som overstiger beløpsgrensen i trinn 1, og med 6 prosent av pensjonsinntekt mv. som overstiger beløpsgrensen i trinn 2. Beløpsgrensene reduseres tilsvarende som etter annet ledd. Pensjonsinntekt fra utlandet som ikke er skattepliktig hit, inngår i samlet pensjonsinntekt mv. etter dette ledd. I samlet pensjonsinntekt mv. etter dette ledd inngår ikke ytelser som nevnt i skatteloven § 12-2 bokstav j og § 17-1 første ledd forut for overgang fra slike ytelser til alderspensjon i løpet av inntektsåret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-1 sjette ledd skal lyde:*
+
+> (6) Skattefradraget fastsettes ikke med høyere beløp enn summen av fastsatte inntektsskatter og trygdeavgift.
 >
 
 ### 2019-12-20 — lov/2019-12-20-94
@@ -10488,6 +11656,27 @@ refid: "lov/1999-03-26-14"
 *§ 16-10 tredje ledd skal lyde*
 
 > (3) Innbetalt sparebeløp kan ikke overstige 25 000 kroner per inntektsår. Samlet innbetalt sparebeløp på kontoen kan ikke overstige 300 000 kroner. For ektefeller som lignes under ett for begges samlede formue og inntekt gjelder beløpsgrensene i dette ledd for hver av dem. Sparebeløp fra barn som lignes under ett med foreldrene, jf. § 2-14, kommer bare til fradrag i skatt på inntekt som lignes særskilt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-10 tredje ledd tredje og fjerde punktum skal lyde:*
+
+> For ektefeller som fastsetter skatt under ett for begges samlede formue og inntekt gjelder beløpsgrensene i dette ledd for hver av dem. Sparebeløp fra barn som fastsettes under ett med foreldrene, jf. § 2-14, kommer bare til fradrag i skatt på inntekt som fastsettes særskilt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-10 fjerde ledd skal lyde:*
+
+> (4) Skattefradrag gis ikke med høyere beløp enn summen av fastsatte inntektsskatter og trygdeavgift. Det overskytende beløpet kan ikke fremføres til senere fradrag.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-10 sjette ledd skal lyde:*
+
+> (6) Når det er gitt skattefradrag etter første ledd, og vilkårene for boligsparing anses brutt, skal det gjøres et tillegg i fastsatt skatt for det året vilkårene anses brutt. Tillegget skal svare til det skattebeløpet som det tidligere er gitt fradrag for.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -10681,6 +11870,15 @@ refid: "lov/1999-03-26-14"
 > Krav om fradrag etter §§ 16-20 til 16-29 må fremsettes før utløpet av selvangivelsesfristen for det året inntekten fra utlandet er skattepliktig her i riket, eller om kravet ikke kan godtgjøres før, senest seks måneder etter at endelig skatt er fastsatt i utlandet. Kravet kan ikke under noen omstendighet fremsettes senere enn ti år etter utløpet av det året inntekten fra utlandet er skattepliktig her i riket.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-25 skal lyde:*
+
+> § 16-25.Frist for fremsetting av krav om skattefradrag
+>
+> Krav om fradrag etter §§ 16-20 til 16-29 må fremsettes før utløpet av fristen for å levere skattemelding for det året inntekten fra utlandet er skattepliktig her i riket, eller om kravet ikke kan godtgjøres før, senest seks måneder etter at endelig skatt er fastsatt i utlandet. Kravet kan ikke under noen omstendighet fremsettes senere enn ti år etter utløpet av det året inntekten fra utlandet er skattepliktig her i riket.
+>
+
 ## § 16-27
 
 ### 2007-06-15 — lov/2007-06-15-23
@@ -10697,6 +11895,13 @@ refid: "lov/1999-03-26-14"
 ### 2002-06-21 — lov/2002-06-21-31
 
 *§ 16-28 annet ledd oppheves.*
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-28 tredje ledd skal lyde:*
+
+> (3) Skattyteren kan kreve utsettelse med inntektsbeskatningen så lenge han fortsatt fastsetter skatt som eier av de enkelte eiendeler etter bestemmelsene i § 2-37 fjerde ledd eller §§ 10-60 til 10-68.
+>
 
 ### 2017-06-21 — lov/2017-06-21-78
 
@@ -10856,6 +12061,13 @@ refid: "lov/1999-03-26-14"
 *§ 16-40 annet ledd skal lyde:*
 
 > (2) Følgende kostnader gir grunnlag for fradrag, dersom de også er fradragsberettiget etter kapittel 6:Skattyters kostnader til egenutført forsknings- og utviklingsprosjekt, begrenset til 20 millioner kroner i inntektsåret. Prosjektet må være godkjent av Norges forskningsråd.Skattyters kostnader til forsknings- og utviklingsprosjekt utført av forskningsinstitusjoner godkjent av Norges forskningsråd, begrenset til 40 millioner kroner i inntektsåret. Prosjektet må være godkjent av Norges forskningsråd. Samlet fradragsgrunnlag etter bokstav a og b skal ikke overstige 40 millioner kroner i inntektsåret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 16-40 syvende ledd annet punktum skal lyde:*
+
+> Departementet kan gi forskrift om utveksling av opplysninger tilknyttet et forsknings- og utviklingsprosjekt mellom Norges forskningsråd og skattemyndighetene uavhengig av taushetsplikt, og gi forskrift om sanksjoner ved brudd på vilkårene for godkjenning av prosjekt.
 >
 
 ### 2016-12-20 — lov/2016-12-20-111
@@ -11087,6 +12299,20 @@ refid: "lov/1999-03-26-14"
 > (6) Ved bruk av alminnelig inntekt etter denne paragraf medtas ikke oppjustering etter § 10-11, § 10-31, § 10-42 og § 10-44.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17-1 første ledd skal lyde:*
+
+> (1) Hvis alminnelig inntekt med tillegg etter tredje ledd, fradratt tillegg i alminnelig inntekt etter § 10-42, ikke overstiger et beløp fastsatt av Stortinget, skal det ikke fastsettes skatt eller trygdeavgift for skattyter sommottar overgangsstønad etter §§ 16-7 eller 17-6 i folketrygdloven, ellermottar pensjon etter §§ 16-7 eller 17-5 i folketrygdloven.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17-1 tredje ledd første punktum skal lyde:*
+
+> Ved anvendelsen av første og annet ledd skal alminnelig inntekt tillegges en og en halv prosent av skattyters nettoformue ved statsskattefastsettingen, utover 200 000 kroner for enslige og 100 000 kroner for hver ektefelle.
+>
+
 ### 2016-06-17 — lov/2016-06-17-40
 
 *§ 17-1 andre ledd bokstav d skal lyde:*
@@ -11132,6 +12358,20 @@ refid: "lov/1999-03-26-14"
 > (2) Ektefellers inntekt skal likevel fastsettes under ett for ektefeller som får skattebegrensning ved liten skatteevne etter § 17-4, uansett om ektefellene lignes under ett eller særskilt. Skattenedsettelsen fordeles forholdsmessig på hver ektefelles andel av skatten før nedsettelsen.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17-2 første ledd første punktum skal lyde:*
+
+> Ved skattebegrensning etter § 17-1 skal ektefellers inntekt fastsettes hver for seg uansett om ektefellene fastsetter skatt under ett eller særskilt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17-2 annet ledd første punktum skal lyde:*
+
+> Ektefellers inntekt skal likevel fastsettes under ett for ektefeller som får skattebegrensning ved liten skatteevne etter § 17-4, uansett om ektefellene fastsetter skatt under ett eller særskilt.
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *§ 17-2 fyrste og andre ledd skal lyde:*
@@ -11167,6 +12407,15 @@ refid: "lov/1999-03-26-14"
 >
 
 ## § 17-4
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 17-4 tredje og fjerde ledd skal lyde:*
+
+> (3) Skattebegrensning skal i alminnelighet ikke gis nårskattyters inntekt og formue er fastsatt ved skjønn,skattyter har rett til lån i Statens lånekasse for utdanning for en større del av året,inntektsnedgangen er forbigående,den lave inntekt skyldes deltidsarbeid, kortvarig opphold i riket e.l.
+>
+> (4) Ved utøvelse av skjønn etter første til tredje ledd skal det ses bort fra fradrag for kostnader som reelt sett ikke bidrar til skattyterens evne til å sørge for underhold for seg selv eller andre som vedkommende plikter å forsørge.
+>
 
 ### 2018-12-20 — lov/2018-12-20-102
 
@@ -11252,6 +12501,15 @@ refid: "lov/1999-03-26-14"
 *§ 18-2 annet ledd annet punktum skal lyde:*
 
 > Av produksjon i kraftverk med generatorer som i inntektsåret har en samlet påstemplet merkeytelse under 10 000 kVA, fastsettes ikke naturressursskatt.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 18-2 fjerde og femte ledd skal lyde:*
+
+> (4) Naturressursskatt kan ikke kreves som fradrag i alminnelig inntekt. Naturressursskatt kan kreves fratrukket i fastsatt fellesskatt til staten. Selskaper og innretninger som nevnt i § 2-36 annet ledd kan kreve naturressursskatt fratrukket i fastsatt skatt til staten av alminnelig inntekt. Dersom naturressursskatten overstiger fellesskatt eller fastsatt inntektsskatt til staten for inntektsåret, kan det overskytende fremføres til fradrag senere år med rente som departementet fastsetter i forskrift.
+>
+> (5) Ved fastsetting og betaling av naturressursskatt gjelder skatteforvaltningsloven og skattebetalingsloven.
 >
 
 ### 2024-12-20 — lov/2024-12-20-86
@@ -11449,6 +12707,13 @@ refid: "lov/1999-03-26-14"
 > Departementet kan i forskrift gi nærmere bestemmelser om verdsetting av kraft som forbrukes i skattyters produksjonsvirksomhet, og kraft som tas ut av eier og forbrukes i egen produksjonsvirksomhet, herunder selskap i samme konsern, til markedspris.
 >
 
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 18-3 ellevte ledd skal lyde:*
+
+> (11) I kraftverk som skattlegges etter en bruttometode, jf. § 10-40 annet ledd, fastsettes grunnrenteinntekt for hver deltaker.
+>
+
 ### 2020-12-21 — lov/2020-12-21-164
 
 *§ 18-3 nåværende annet ledd bokstav b annet punktum blir nytt tredje punktum.*
@@ -11551,6 +12816,8 @@ refid: "lov/1999-03-26-14"
 
 > Kraft som leveres til en strømleverandør i henhold til langsiktig fastpriskontrakt, og som leveres videre i henhold til standard fastprisavtaler i sluttbrukermarkedet, verdsettes til kontraktsprisen. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift. Bestemmelsene i dette nummer gjelder ikke konsesjonskraft eller kraft som forbrukes i produksjonsvirksomhet.
 >
+> Kraft som leveres til en strømleverandør i henhold til langsiktig fastpriskontrakt, og som leveres videre i henhold til standard fastprisavtaler i sluttbrukermarkedet, verdsettes til kontraktsprisen. Den nærmere avgrensningen og retningslinjene for unntaket fastsettes av departementet i forskrift. Bestemmelsene i dette nummer gjelder ikke konsesjonskraft eller kraft som forbrukes i produksjonsvirksomhet.
+>
 
 ### 2023-12-20 — lov/2023-12-20-98
 
@@ -11609,6 +12876,33 @@ refid: "lov/1999-03-26-14"
 *§ 18-5 tredje ledd skal lyde:*
 
 > (3) Fradraget etter første ledd for kostnader settes til gjennomsnittet av summen for hver av de siste fem årenes kostnader for verket som nevnt i § 18-3 tredje ledd a nr. 1 og nr. 2, eller de færre årene verket har vært omfattet av reglene i § 18-3. Fradraget for pliktig skatt på grunnrenteinntekt for kraftverket fastsatt etter bestemmelsene i § 18-3 for inntektsår til og med 2006 og deretter kraftverkets andel fastsatt etter § 18-3 sjette ledd annet punktum, settes til gjennomsnittet av summen av slik skatt for verket for hver av de siste fem årene, eller de færre årene verket har vært omfattet av reglene om beregning av slik inntekt. Kostnader og grunnrenteskatt fra de foregående årene justeres med den årlige gjennomsnittlige endringen i konsumprisindeksen til og med inntektsåret.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 18-5 første ledd første punktum skal lyde:*
+
+> Kraftanlegg verdsettes til antatt salgsverdi pr. 1. januar i fastsettingsåret ved taksering av fremtidige inntekter og utgifter over ubegrenset tid.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 18-5 fjerde ledd tredje punktum skal lyde:*
+
+> Gjenstående levetid fastsatt etter bestemmelsen i annet punktum kan fravikes dersom skattemyndighetene på bakgrunn av befaring finner å måtte legge til grunn en annen gjenstående levetid for driftsmidlet.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 18-5 femte ledd til åttende ledd skal lyde:*
+
+> (5) Formue i kraftanlegg med generatorer som i inntektsåret har en samlet påstemplet merkeytelse under 10 000 kVA, settes til skattemessig verdi pr. 1. januar i fastsettingsåret.
+>
+> (6) Formue i et kraftanleggs anleggsdeler som ikke er satt i drift, settes lik investert kapital pr. 1. januar i fastsettingsåret.
+>
+> (7) I kraftanlegg som skattlegges etter en bruttometode, jf. § 10-40 annet ledd, verdsettes formuen for hver deltaker.
+>
+> (8) Formue i anlegg for overføring og distribusjon av elektrisk kraft settes til skattemessig verdi pr. 1. januar i fastsettingsåret.
 >
 
 ### 2017-06-21 — lov/2017-06-21-78
@@ -11774,7 +13068,11 @@ refid: "lov/1999-03-26-14"
 
 *§ 19-2 annet ledd bokstav a nr. 1 skal lyde:*
 
-> Ved realisasjon kommer tap bare til fradrag i den utstrekning realisasjonsverdien er lavere enn den høyeste av:aksjens andel av selskapets samlede skattemessige formuesverdi pr. 1. januar 1992, elleraksjens historiske kostpris.
+> Ved realisasjon kommer tap bare til fradrag i den utstrekning realisasjonsverdien er lavere enn den høyeste av: aksjens andel av selskapets samlede skattemessige formuesverdi pr. 1. januar 1992, eller aksjens historiske kostpris.
+>
+> aksjens andel av selskapets samlede skattemessige formuesverdi pr. 1. januar 1992, eller
+>
+> aksjens historiske kostpris.
 >
 
 ### 2001-06-15 — lov/2001-06-15-46
@@ -11786,6 +13084,13 @@ refid: "lov/1999-03-26-14"
 *§ 19-2 femte ledd første punktum skal lyde:*
 
 > Til bestemmelsen i § 5-14 tredje ledd bokstav a, gjelder følgende overgangsregler for rett til erverv eller salg av opsjoner ervervet i inntektsårene 1996–2001:
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*§ 19-2 annet ledd bokstav a nr. 3 skal lyde:*
+
+> Skattemyndighetene er bundet av den oversikt over aksjer som kan oppreguleres som skattyter rettidig har gitt melding om, dersom skattyter ikke har fått annen beskjed innen 1. januar 2002.
 >
 
 ## § 19-5
@@ -11869,6 +13174,8 @@ refid: "lov/1999-03-26-14"
 
 > Er aksjens inngangsverdi regulert i henhold til § 10-34 slik den lød frem til 1. januar 2006 før endring i henhold til lov 10. desember 2004 nr. 77, og § 10-35, skal verdiene under strekpunktene ovenfor reguleres tilsvarende.
 >
+> Er aksjens inngangsverdi regulert i henhold til § 10-34 slik den lød frem til 1. januar 2006 før endring i henhold til lov 10. desember 2004 nr. 77, og § 10-35, skal verdiene under strekpunktene ovenfor reguleres tilsvarende.
+>
 
 ## § 20-3
 
@@ -11906,6 +13213,13 @@ refid: "lov/1999-03-26-14"
 ### 2001-06-15 — lov/2001-06-15-37
 
 *Nåværende tredje punktum oppheves.*
+
+### 2001-06-15 — lov/2001-06-15-59
+
+*11. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 6-50 annet ledd annet punktum lyde:*
+
+> Stiftelser må i det år gaven gis motta offentlig støtte.
+>
 
 ### 2001-12-21 — lov/2001-12-21-112
 
@@ -11953,6 +13267,21 @@ refid: "lov/1999-03-26-14"
 ### 2003-06-06 — lov/2003-06-06-36
 
 *Nåværende niende ledd blir tiende ledd.*
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*118. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 9-2 første ledd bokstav b lyde:*
+
+> tvangsavståelse ved blant annet ekspropriasjon, odelsløsning og tvangssalg
+>
+> 119. I lov 30. april 1999 nr. 22 om endringer i utlendingsloven og i enkelte andre lover blir desse endringane gjort:
+>
+> I avsnitt I skal andre ledd i endringa av § 37 d i lov 24. juni 1988 nr. 64 om utlendingers adgang til riket og deres opphold her lyde:
+>
+> Utlendingsinternatet er ikke underlagt kriminalomsorgen, men administreres av politiet.
+>
+> Avsnitt II blir oppheva.
+>
 
 ### 2003-12-12 — lov/2003-12-12-107
 
@@ -12076,7 +13405,17 @@ refid: "lov/1999-03-26-14"
 
 ### 2005-06-10 — lov/2005-06-10-45
 
-*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) skal § 6-47 første ledd bokstav b lyde:den trygdedes tilskudd til pensjonsordning i arbeidsforhold, som omhandlet i § 6-46 første ledd a og e, § 6-46 andre ledd bokstav a og § 6-46 tredje ledd.*
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) skal § 6-47 første ledd bokstav b lyde:*
+
+> den trygdedes tilskudd til pensjonsordning i arbeidsforhold, som omhandlet i § 6-46 første ledd a og e, § 6-46 andre ledd bokstav a og § 6-46 tredje ledd.
+>
+
+### 2005-06-17 — lov/2005-06-17-62
+
+*19. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-10 bokstav e lyde:*
+
+> erstatning for ikke-økonomisk skade ved usaklig oppsigelse eller urettmessig avskjed, jf. arbeidsmiljøloven § 15-11 og § 15-14, så langt erstatningen overstiger 1 1/2 ganger folketrygdens grunnbeløp.
+>
 
 ### 2005-06-17 — lov/2005-06-17-74
 
@@ -12242,7 +13581,9 @@ refid: "lov/1999-03-26-14"
 
 *Del VIII, § 12-12 annet ledd bokstav a nr. 4, skal lyde:*
 
-> ervervet forretningsverdi og annet ervervet immaterielt formuesobjekt. Skjermingsgrunnlaget kan tilleggesforsknings-og utviklingskostnader i den utstrekning de ikke er skattemessig fradratt.
+> ervervet forretningsverdi og annet ervervet immaterielt formuesobjekt. Skjermingsgrunnlaget kan tillegges forsknings- og utviklingskostnader i den utstrekning de ikke er skattemessig fradratt.
+>
+> ervervet forretningsverdi og annet ervervet immaterielt formuesobjekt. Skjermingsgrunnlaget kan tillegges forsknings- og utviklingskostnader i den utstrekning de ikke er skattemessig fradratt.
 >
 
 ### 2005-12-09 — lov/2005-12-09-113
@@ -12356,6 +13697,13 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende §§ 16-23 til 16-28 blir ny §§ 16-24 til 16-29*
 
+### 2007-06-29 — lov/2007-06-29-74
+
+*4. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) skal § 9-11 fjerde ledd bokstav a lyde:*
+
+> lånet gjelder aksje, grunnfondsbevis eller ihendehaverobligasjon, tatt opp til notering på regulert marked som definert i lov om regulerte markeder § 3 første ledd, eller tilsvarende notering på utenlandsk børs, og
+>
+
 ### 2007-12-14 — lov/2007-12-14-107
 
 *Ny deloverskrift til § 10-70 og ny § 10-71 skal lyde:*
@@ -12381,6 +13729,10 @@ refid: "lov/1999-03-26-14"
 ### 2008-06-27 — lov/2008-06-27-60
 
 *Noverande § 2-38 første ledd bokstav i blir ny bokstav k.*
+
+### 2008-06-27 — lov/2008-06-27-62
+
+*Nåværende bokstav c, d og e blir d, e og f.*
 
 ### 2008-12-12 — lov/2008-12-12-99
 
@@ -12480,9 +13832,34 @@ refid: "lov/1999-03-26-14"
 > Bindingstid og valg om å tre inn i ordningen for selskap som tilhører samme konsern
 >
 
+### 2009-06-19 — lov/2009-06-19-58
+
+*7. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) skal § 14-3 annet ledd lyde:*
+
+> Første ledd gjelder tilsvarende for inntekt ved salg av egenproduserte kunstverk som nevnt i merverdiavgiftsloven § 3-7 fjerde ledd.
+>
+
 ### 2009-12-11 — lov/2009-12-11-123
 
 *Nåværende § 7-3 femte ledd bokstav e blir bokstav d.*
+
+### 2010-01-01 — forskrift/2009-11-06-1347
+
+*Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.*
+
+> Lov 19. juni 2009 nr. 58 om merverdiavgift trer i kraft 1. januar 2010.
+>
+
+### 2010-02-19 — lov/2010-02-19-5
+
+*I § 5-15 første ledd bokstav a nr. 1 tredje punktum og § 17-1 første ledd bokstav e første punktum skal tallet «1947» endres til «1948».*
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
 
 ### 2010-08-06 — forskrift/2010-08-06-1167
 
@@ -12494,6 +13871,13 @@ refid: "lov/1999-03-26-14"
 ### 2010-09-03 — lov/2010-09-03-54
 
 *Nåværende § 2-30 første ledd bokstav m til n blir bokstav l til m.*
+
+### 2011-01-01 — forskrift/2010-09-03-1238
+
+*Loven trer i kraft fra 1. januar 2011.*
+
+> Loven trer i kraft fra 1. januar 2011.
+>
 
 ### 2011-06-10 — lov/2011-06-10-16
 
@@ -12532,6 +13916,13 @@ refid: "lov/1999-03-26-14"
 > Departementet kan gi forskrift om utveksling av opplysninger tilknyttet et forsknings- og utviklingsprosjekt mellom Norges forskningsråd og ligningsmyndighetene uavhengig av taushetsplikt, og gi forskrift om sanksjoner ved brudd på vilkårene for godkjenning av prosjekt.
 >
 
+### 2011-09-01 — forskrift/2011-08-26-866
+
+*Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.*
+
+> Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.
+>
+
 ### 2011-12-09 — lov/2011-12-09-52
 
 *Nåværende § 2-30 første ledd bokstav o blir bokstav m.*
@@ -12554,7 +13945,10 @@ refid: "lov/1999-03-26-14"
 
 ### 2012-06-22 — lov/2012-06-22-36
 
-*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 2-30 første ledd bokstav j ny nummer 6 lyde:Stiftelsen Borettslagenes Sikringsfond*
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 2-30 første ledd bokstav j ny nummer 6 lyde:*
+
+> Stiftelsen Borettslagenes Sikringsfond
+>
 
 ### 2012-06-22 — lov/2012-06-22-40
 
@@ -12600,6 +13994,20 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende bokstav b til d blir bokstav a til c.*
 
+### 2013-04-26 — forskrift/2013-04-26-413
+
+*Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.*
+
+> Delt ikraftsetting av loven. Loven del IX trer i kraft straks. Loven del I med unntak av § 10-9 og § 11-1, del II, III, IV, VI og VIII trer i kraft 1. juli 2013. Loven del I § 10-9 og § 11-1 og loven del V trer i kraft 1. januar 2014.
+>
+
+### 2013-06-21 — lov/2013-06-21-100
+
+*16. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 9-2 tredje ledd bokstav g lyde:*
+
+> jordskifte etter jordskiftelova
+>
+
 ### 2013-12-13 — lov/2013-12-13-117
 
 *Nåværende femte punktum blir nytt syvende punktum.*
@@ -12620,9 +14028,48 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende annet ledd blir nytt tredje ledd.*
 
+### 2013-12-13 — lov/2013-12-13-118
+
+*Lov 17. desember 1999 nr. 94 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) oppheves.*
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
 ### 2014-06-20 — lov/2014-06-20-23
 
-*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd bokstav i lyde:arbeidsvederlag som ikke er virksomhetsinntekt, når beløpet er under grensen for opplysningsplikt etter forskrift gitt med hjemmel i ligningsloven § 5-12, jf. § 5-2,*
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd bokstav i lyde:*
+
+> arbeidsvederlag som ikke er virksomhetsinntekt, når beløpet er under grensen for opplysningsplikt etter forskrift gitt med hjemmel i ligningsloven § 5-12, jf. § 5-2,
+>
+
+### 2014-07-01 — forskrift/2014-06-13-721
+
+*Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 f*
+
+> Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 første ledd, § 30 første ledd bokstav g, § 37 første ledd bokstav d, § 37 første ledd bokstav i, § 52 a, § 52 b og § 52 c, samt del XI trer i kraft 1. juli 2014.
+>
+
+### 2014-09-26 — forskrift/2014-09-26-1220
+
+*Delt ikraftsetting av lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold med mer. Loven trer i kraft 1. januar 2015, med unntak av § 12a som trer i kraft straks.*
+
+> Delt ikraftsetting av lov 22. juni 2012 nr. 43 om arbeidsgivers innrapportering av ansettelses- og inntektsforhold med mer. Loven trer i kraft 1. januar 2015, med unntak av § 12a som trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. juni 2014 nr. 23 om endringer i folketrygdloven og i skattelovgivningen mv. (tilpasning til a-ordningen). Loven trer i kraft 1. januar 2015, med unntak av del VI og folketrygdloven § 25-3a som er trådt i kraft.
+>
+
+### 2014-09-26 — forskrift/2014-09-26-1221
+
+*Ikraftsetting av lov 7. desember 2012 nr. 75 om endringer i folketrygdloven del I. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.*
+
+> Ikraftsetting av lov 7. desember 2012 nr. 75 om endringer i folketrygdloven del I. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
+> Ikraftsetting av lov 7. desember 2012 nr. 76 om endringer i lov om skatt av formue og inntekt del V. Loven trer i kraft straks med virkning fra og med inntektsåret 2015.
+>
 
 ### 2014-12-19 — lov/2014-12-19-80
 
@@ -12675,11 +14122,65 @@ refid: "lov/1999-03-26-14"
 
 ### 2015-12-18 — lov/2015-12-18-124
 
-*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd ny bokstav p lyde:standardisert inntektstaperstatning til barn etter skadeserstatningsloven § 3-2 a annet ledd.*
+*I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd ny bokstav p lyde:*
+
+> standardisert inntektstaperstatning til barn etter skadeserstatningsloven § 3-2 a annet ledd.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til § 2-15 og paragrafens første ledd skal lyde:*
+
+> § 2-15.Fastsetting av skatt etter dødsfall
+>
+> (1) Ved dødsfall i inntektsåret fastsetter boet eller arving som har overtatt boet udelt, skatten for sin egen og avdødes samlede inntekt i dette året. Arving kan likevel fastsette skatten for sin og avdødes inntekt hver for seg.
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til § 7-10 skal lyde:*
+
+> § 7-10.Fradrag for kostnad ved overgang fra skattefritak til skatteplikt
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til § 11-5 skal lyde:*
+
+> § 11-5.Skattefri fisjon av selskap med deltakerfastsetting
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til §§ 14-80 til 14-83 skal lyde:*
+
+> Inntektsutjevning, gjennomsnittsfastsetting
+>
+
+### 2016-05-27 — lov/2016-05-27-14
+
+*Overskriften til § 16-63 skal lyde:*
+
+> § 16-63.Skatteavregning, endring av fastsatt skatt mv.
+>
 
 ### 2016-06-17 — lov/2016-06-17-40
 
 *Noverande § 10-42 ellevte ledd blir nytt tolvte ledd.*
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*13. I lov 26. mars 1999 nr. 14 om skatt av formue og inntekt skal § 5-15 første ledd bokstav f lyde:*
+
+> følgende ytelser til tjenestepliktige i Forsvaret og sivile tjenestepliktige: dagpenger, dimisjonsgodtgjørelse, utdanningsbonus av samme størrelse og forsørgertillegg m.v. til tjenestepliktige som ikke er tilsatt samt lagførere og mannskap i Sivilforsvaret etter offentlig regulativ,
+>
 
 ### 2016-09-09 — forskrift/2016-09-09-1049
 
@@ -12708,6 +14209,30 @@ refid: "lov/1999-03-26-14"
 
 *Deloverskrift til § 10-20 flg. skal lyde:*
 
+### 2016-12-20 — lov/2016-12-20-117
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 9. desember 2011 nr. 52 om endringer i skatteloven.
+>
+> I lov 9. desember 2011 nr. 52 om endringer i skatteloven gjøres følgende endringer:
+>
+> Del III oppheves.
+>
+> Del IV tredje ledd oppheves.
+>
+> Endringene under I trer i kraft straks.
+>
+
+### 2017-01-01 — forskrift/2016-05-27-531
+
+*Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).*
+
+> Ikraftsetting 1. januar 2017 av lov om skatteforvaltning (skatteforvaltningsloven).
+>
+
 ### 2017-06-21 — lov/2017-06-21-78
 
 *Overskriften til § 2-15 og paragrafens fyrste ledd skal lyde:*
@@ -12731,6 +14256,29 @@ refid: "lov/1999-03-26-14"
 > § 16-63.Skatteavregning, endring av skattefastsetting mv.
 >
 
+### 2017-07-01 — forskrift/2017-06-16-778
+
+*Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.*
+
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.
+>
+
+### 2017-09-01 — forskrift/2017-06-21-833
+
+*Delt ikraftsetting av lov 20. desember 2016 nr. 111 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Romertall V trer i kraft 1. september 2017.*
+
+> Delt ikraftsetting av lov 20. desember 2016 nr. 111 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Romertall V trer i kraft 1. september 2017.
+>
+
+### 2017-11-01 — forskrift/2017-06-21-836
+
+*Delt ikraftsetting av lov om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Romertall V trer i kraft 1. november 2017.*
+
+> Delt ikraftsetting av lov om endringar i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Romertall V trer i kraft 1. november 2017.
+>
+> Lov om endring i lov 27. juni 2008 nr. 62 om individuell pensjonsordning trer i kraft fra 1. november 2017.
+>
+
 ### 2017-12-19 — lov/2017-12-19-121
 
 *Nåværende annet og tredje ledd blir tredje og nytt fjerde ledd.*
@@ -12740,6 +14288,22 @@ refid: "lov/1999-03-26-14"
 *Del V i Stortingets vedtak til lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2018.*
 
 > Del V i Stortingets vedtak til lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2018.
+>
+
+### 2018-01-26 — forskrift/2018-01-26-107
+
+*Delt ikrafttredelse av lov 20. desember 2016 nr. 111 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Del IV trer i kraft straks med virkning fra og med inntektsåret 2017.*
+
+> Delt ikrafttredelse av lov 20. desember 2016 nr. 111 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Del IV trer i kraft straks med virkning fra og med inntektsåret 2017.
+>
+> Delt ikrafttredelse av lov 19. desember 2017 nr. 129 om endringer i lov 20. desember 2016 nr. 111 om endring i lov 26. mars 1999 nr. 14 om skatt på formue og inntekt (skatteloven). Del II trer i kraft straks med virkning fra og med inntektsåret 2017.
+>
+
+### 2018-03-01 — forskrift/2018-02-16-235
+
+*Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.*
+
+> Ikraftsetting av lov 18. desember 2015 nr. 124 om endringer i skadeserstatningsloven mv. (standardisert inntektstaperstatning til barn). Loven trer i kraft 1. mars 2018.
 >
 
 ### 2018-06-22 — lov/2018-06-22-57
@@ -12787,6 +14351,27 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende åttende og niende ledd blir tiende og nytt ellevte ledd.*
 
+### 2019-01-01 — forskrift/2018-03-23-453
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*18.Lov 1. april 2005 nr. 14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001) § 7 annet ledd bokstav e skal lyde:*
+
+> lov 29. juni 2007 nr. 75 om verdipapirhandel § 11-4,
+>
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*19.Lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister § 34-4 fjerde ledd annet punktum skal lyde:*
+
+> Tilsvarende gjelder for rettigheter registrert i en verdipapirsentral eller i et særskilt register for immaterialrettigheter.
+>
+
 ### 2019-11-29 — lov/2019-11-29-73
 
 *Overskriften til kapittel 13 skal lyde:*
@@ -12806,6 +14391,19 @@ refid: "lov/1999-03-26-14"
 > § 15-5.Særskilt fradrag i alminnelig inntekt i Troms og Finnmark fylke
 >
 
+### 2019-12-20 — forskrift/2019-12-20-1920
+
+*Romertall I i Stortingets vedtak 17. desember 2019*
+
+> Romertall I i Stortingets vedtak 17. desember 2019
+>
+> om lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2020.
+>
+> Skal være lov 20. desember 2019 nr. 102 om endring i lov 20. desember 2018 nr. 102 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven), Lovtidend-redaksjonens anm.
+>
+> Ved en inkurie ble tilrådingsposten til resolusjonen forstått å gjelde lov 20. desember 2019 nr. 102 i stedet for lov 20. desember 2019 nr. 94. Herværende kunngjøring må derfor anses som en nullitet. Se ikrafttredelsesvedtak 20. desember 2019 nr. 2141. Lovtidend-redaksjonens anmerkning.
+>
+
 ### 2019-12-20 — forskrift/2019-12-20-2141
 
 *Romertall I i Stortingets vedtak 17. desember 2019*
@@ -12815,6 +14413,13 @@ refid: "lov/1999-03-26-14"
 > om lov om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven) trer i kraft straks med virkning fra og med inntektsåret 2020.
 >
 > Skal være lov 20. desember 2019 nr. 94 om endringer i skatteloven. Lovtidend-redaksjonens anmerkning.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
 >
 
 ### 2020-03-27 — lov/2020-03-27-9
@@ -12866,6 +14471,19 @@ refid: "lov/1999-03-26-14"
 > (4) Det kan ikke tas opp spørsmål om endring av fastsetting, jf. skatteforvaltningsloven kapittel 13, som gjelder skattefradrag for underskudd i 2020, i tilfeller der skattyter som følge av endring av fastsettingen for et år forut for inntektsåret får redusert eller økt grunnlag for skattefradrag, jf. § 16-62 første ledd.
 >
 
+### 2020-06-23 — lov/2020-06-23-109
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 20. desember 2019 nr. 94 om endringer i skatteloven.
+>
+> I lov 20. desember 2019 nr. 94 om endringer i skatteloven VI femte ledd gjer ein følgjande endring:
+>
+> Endringene under V trer i kraft straks med virkning fra og med inntektsåret 2020, med unntak for endringen i § 14-5 fjerde ledd bokstav h, som trer i kraft med virkning fra og med inntektsåret 2019.
+>
+
 ### 2020-07-20 — forskrift/2020-09-29-1900
 
 *Lov 23. juni 2020 nr. 103 om endring i skatteloven del IV settes i kraft fra 20. juli 2020.*
@@ -12881,9 +14499,30 @@ refid: "lov/1999-03-26-14"
 
 *Ny deloverskrift til § 10-80 og nye §§ 10-81 og § 10-82 skal lyde:*
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2021-06-18 — lov/2021-06-18-105
 
 *Ny deloverskrift til ny §§ 16-70 og 16-71 skal lyde:*
+
+### 2023-01-01 — forskrift/2022-03-18-414
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
 
 ### 2023-06-16 — lov/2023-06-16-34
 
@@ -12963,6 +14602,13 @@ refid: "lov/1999-03-26-14"
 
 *Nåværende kapittel 19 og 20 blir nytt kapittel 20 og kapittel 21. Tilhørende paragrafer omnummereres tilsvarende.*
 
+### 2023-10-01 — forskrift/2023-06-16-944
+
+*Loven trer i kraft 1. oktober 2023.*
+
+> Loven trer i kraft 1. oktober 2023.
+>
+
 ### 2023-11-24 — forskrift/2023-11-24-1904
 
 *Delt ikraftsetting av lov 16. juni 2023 nr. 44 om endringer i lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (skatteloven). Følgende trer i kraft straks:*
@@ -12977,6 +14623,15 @@ refid: "lov/1999-03-26-14"
 *Overskriften i § 15-5 skal lyde:*
 
 > § 15-5. Særskilt fradrag i alminnelig inntekt i Finnmark og Nord-Troms
+>
+
+### 2023-12-20 — forskrift/2023-12-20-2136
+
+*Delt ikraftsetting av lov 20. desember 2023 nr. 102 om endringer i skatteloven. Endringene under del III trer i kraft straks.*
+
+> Delt ikraftsetting av lov 20. desember 2023 nr. 102 om endringer i skatteloven. Endringene under del III trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 105 om endringer i skatteforvaltningsloven. Endringene i § 13-9 trer i kraft straks med virkning for alle klagenemndsvedtak hvor endringsfristene ikke er utløpt på ikrafttredelsestidspunktet. § 14-12 trer i kraft 1. januar 2024.
 >
 
 ### 2024-01-12 — lov/2024-01-12-2
@@ -13010,6 +14665,13 @@ refid: "lov/1999-03-26-14"
 *Deloverskriften til skatteloven §§ 6-80 til 6-86 skal lyde:*
 
 > Særfradrag og arbeidsfradrag i alminnelig inntekt
+>
+
+### 2026-01-01 — forskrift/2025-04-10-644
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ## § 1
@@ -13104,4 +14766,24 @@ refid: "lov/1999-03-26-14"
 > For inntektsårene 2013 og 2014 gis særfradrag med henholdsvis 67 prosent og 33 prosent av fradragsberettigede utgifter.
 >
 > Denne forskriften trer i kraft straks og gjelder for inntektsårene 2012, 2013 og 2014.
+>
+
+## § 3
+
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 3 nr. 2 ny bokstav h skal lyde:*
+
+> personer som deltar i program etter lov om introduksjonsordning for nyankomne innvandrere.
+>
+
+## § 39
+
+### 2003-09-01 — lov/2003-07-04-80
+
+*§ 39 nytt annet ledd skal lyde:*
+
+> Reglene i første ledd gjelder tilsvarende i forhold til kommunens virksomhet etter lov om introduksjonsordning for nyankomne innvandrere.
+>
+> 3. I lov 4. februar 1977 nr. 4 om arbeidervern og arbeidsmiljø m.v. gjøres følgende endring:
 >

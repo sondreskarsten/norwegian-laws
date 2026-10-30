@@ -14,6 +14,13 @@ refid: "lov/1974-06-28-58"
 > Blir odelstaksten oppheva utan å bli heimvist, må den part som vil ha ny takst, setje fram krav om det innan 4 veker etter at opphevingsorskurden er blitt endeleg.
 >
 
+### 2003-06-20 — lov/2003-06-20-45
+
+*67. I lov 28. juni 1974 nr. 58 om odelsretten og åsetesretten skal § 50 tredje punktum lyde:*
+
+> Avtale om forpakting for lengre tid enn 5 år, og avtale om leige av husrom, kan løysingsmannen seie opp etter reglane i lov 25. juni 1965 nr. 1 om forpakting § 8 og lov 26. mars 1999 nr. 17 om husleieavtaler § 9-6, endå om avtala ikkje gjev høve til slik oppseiing.
+>
+
 ### 2009-06-19 — lov/2009-06-19-98
 
 *Nåværende § 27 oppheves. Nåværende § 27 a blir ny § 27 og skal lyde:*
@@ -39,6 +46,20 @@ refid: "lov/1974-06-28-58"
 > Loven trer i kraft fra 1. januar 2014.
 >
 
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
 ### 2017-06-21 — lov/2017-06-21-99
 
 *I lov 28. juni 1974 nr. 58 om odelsretten og åsetesretten skal § 2 første ledd lyde:*
@@ -46,15 +67,36 @@ refid: "lov/1974-06-28-58"
 > Ein eigedom blir rekna som odlingsjord når fulldyrka eller overflatedyrka jord på eigedomen er over 35 dekar, eller det produktive skogarealet på eigedomen er over 500 dekar.
 >
 
+### 2017-07-01 — forskrift/2017-06-21-829
+
+*Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting. Endringsloven trer i kraft 1. september 2017 med unntak av endringene i jordloven § 18 og konsesjonsloven § 9 og § 9a første ledd samt overgangsbestemmelsen i lovvedtaket V punkt 2 som gjelder konsesjonsloven § 9 og § 9a første ledd og som trer i kraft 1. juli 2017.
+>
+
 ### 2020-12-18 — lov/2020-12-18-149
 
 *6.I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 15 nr. 1 tredje punktum oppheves. Nåværende fjerde punktum blir nytt tredje punktum.*
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
 
 ### 2024-12-06 — lov/2024-12-06-74
 
 *I lov 28. juni 1974 nr. 58 om odelsretten og åsetesretten skal § 33 tredje ledd lyde:*
 
 > Departementet kan gi forskrift om sakshandsaminga og om kommunen sine oppgåver ved søknad om odelsfrigjering etter § 30 og § 32 andre ledd.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
 >
 
 ## § 1
@@ -1239,24 +1281,6 @@ refid: "lov/1974-06-28-58"
 *§ 74 annet ledd skal lyde:*
 
 > Føresegna i første stykket gjeld tilsvarande dersom saksøkjaren misser si rettslege handleevne før løysingssaka er sluttførd, og fylkesmannen fråfell saka på hans vegner.
->
-> 18. I lov 13. juni 1975 nr. 50 om svangerskapsavbrudd skal § 4 tredje ledd lyde:
->
-> Er kvinnen uten verge i tilfelle som nevnt i første ledd tredje punktum eller annet ledd, skal fylkesmannen etter begjæring fra hennes lege eller nemnda (jfr. § 7) oppnevne verge.
->
-> 19. I lov 3. juni 1977 nr. 57 om sterilisering skal § 4 fjerde ledd lyde:
->
-> Er en person uten verge i tilfelle som nevnt i annet eller tredje ledd, skal fylkesmannen etter begjæring fra vedkommende lege eller nemnda (jfr. § 6 annet ledd) eller rådet (jfr. § 6 første ledd), oppnevne verge.
->
-> 20. I lov 10. juni 1977 nr. 71 om anerkjennelse og fullbyrding av nordiske dommer på privatrettens område skal § 7 nr. 1 bokstav a lyde:avgjørelse eller forlik om oppheving av formuesfellesskapet, separasjon, skilsmisse, omstøting av ekteskap, stiftelse eller oppheving av adopsjonsforhold, hel eller delvis fratakelse av rettslig handleevne eller endring av vedtak om dette, eller om deling av formue eller erstatning i forbindelse med separasjon, skilsmisse eller omstøting av ekteskap, for så vidt gjelder fullbyrding får loven dog anvendelse på avgjørelse som har bindende virkning her i landet etter artikkel 22 i konvensjon 6 februar 1931 mellom Danmark, Finland, Island, Norge og Sverige angående internasjonal-privatrettslige bestemmelser om ekteskap, adopsjon og vergemål,
->
-> 21. I lov 18. mai 1979 nr. 18 om foreldelse av fordringer skal § 12 nr. 1 bokstav a lyde:person under vergemål mot verge, eller
->
-> 22. I lov 13. juni 1980 nr. 24 om ligningsforvaltning skal § 4-5 nr. 2 lyde:For skattyter som er mindreårig eller fratatt rettslig handleevne, skal selvangivelse m.v. leveres av vergen. Dette gjelder ikke barn som har nådd den alder da det etter skatteloven anses som selvstendig skattyter og leverer selvangivelse selv.
->
-> 23. I lov 13. juni 1980 nr. 35 om fri rettshjelp skal § 16 første ledd lyde:
->
-> Fri sakførsel innvilges uten behovsprøving i saker som nevnt i § 11 første ledd nr. 4, 5 og 7, samt i følgende tilfeller:for den vernepliktige i militærnektersaker etter lov 19. mars 1965 nr. 3 om fritaking for militærtjeneste av overbevisningsgrunner,for den et tvangstiltak retter seg mot i saker om overprøving av administrative tvangsvedtak i helse- og sosialsektoren etter tvisteloven kapittel 36,for den private part i saker hvor søksmål er anbefalt av Stortingets ombudsmann for forvaltningen,for utlending i tilfeller som nevnt i utlendingsloven § 92 tredje ledd annet punktum og fjerde ledd eller for den som har rett til fri sakførsel etter statsborgerloven § 27 sjuende ledd annet punktum,til den som er begjært fratatt rettslig handleevne, eller som begjærer et vedtak om fratakelse av rettslig handleevne opphevet etter vergemålsloven,til den det oppnevnes advokat for i medhold av barneloven § 61 første ledd nr. 5.
 >
 
 ## § 75

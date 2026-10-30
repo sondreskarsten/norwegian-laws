@@ -7,11 +7,48 @@ refid: "lov/2017-06-16-65"
 
 ## (annet)
 
+### 2018-01-01 — forskrift/2017-09-15-1393
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven).
+>
+> Loven trer i kraft fra 1. januar 2018 med unntak av § 9 som trer i kraft 1. juli 2018.
+>
+
+### 2020-01-01 — forskrift/2019-04-10-474
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
 ### 2020-12-04 — lov/2020-12-04-137
 
 *Overskriften til § 21 skal lyde:*
 
 > § 21.Reseksjonering i andre tilfeller
+>
+
+### 2021-01-01 — forskrift/2020-12-04-2591
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-04-01 — forskrift/2021-03-26-966
+
+*Loven trer i kraft 1. april 2021.*
+
+> Loven trer i kraft 1. april 2021.
+>
+
+### 2026-01-01 — forskrift/2025-12-19-2708
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ## § 13
@@ -210,14 +247,18 @@ refid: "lov/2017-06-16-65"
 
 *§ 49 andre ledd bokstav e og ny bokstav f skal lyde:*
 
-> samtykke til reseksjonering som nevnt i § 20 annet ledd annet punktumsamtykke til sammenslåing av eierseksjonssameier som nevnt i § 22.
+> samtykke til reseksjonering som nevnt i § 20 annet ledd annet punktum
+>
+> samtykke til sammenslåing av eierseksjonssameier som nevnt i § 22.
 >
 
 ### 2021-05-11 — lov/2021-05-11-37
 
 *§ 49 annet ledd bokstav f og ny bokstav g skal lyde:*
 
-> samtykke til sammenslåing av eierseksjonssameier som nevnt i § 22 aombygging eller annen tilrettelegging som fører til at bruksenheten kan brukes som bolig for flere personer enn det som er vanlig for bruksenheter med tilsvarende størrelse og romløsning.
+> samtykke til sammenslåing av eierseksjonssameier som nevnt i § 22 a
+>
+> ombygging eller annen tilrettelegging som fører til at bruksenheten kan brukes som bolig for flere personer enn det som er vanlig for bruksenheter med tilsvarende størrelse og romløsning.
 >
 
 ## § 52

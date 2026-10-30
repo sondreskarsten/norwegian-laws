@@ -197,12 +197,6 @@ refid: "lov/1996-11-29-72"
 > Bestemmelsene i § 4-12 annet ledd kommer tilsvarende til anvendelse såfremt den spesielle situasjon ikke tilsier noe annet.
 >
 
-## § 5-1
-
-### 2009-06-19 — lov/2009-06-19-74
-
-*§ 5-1 annet ledd oppheves.*
-
 ## § 5-3
 
 ### 2009-06-19 — lov/2009-06-19-104
@@ -314,13 +308,6 @@ refid: "lov/1996-11-29-72"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 10-17 tredje punktum oppheves. Nåværende fjerde punktum blir nytt tredje punktum.*
-
-> 177. I lov 29. november 1996 nr. 73 om formidling av landsdekkende postsendinger skal § 24 første punktum lyde:
->
-> Den som forsettlig eller uaktsomt overtrer bestemmelsene i § 4, § 6 og § 7 eller forskrifter gitt med hjemmel i disse, straffes med bøter eller med fengsel i inntil tre måneder, dersom forholdet ikke går inn under noen strengere straffebestemmelse.
->
-> 178. I lov 6. desember 1996 nr. 75 om sikringsordninger for banker, forsikringsselskapenes garantiordninger og offentlig administrasjon m.v. av finansinstitusjoner gjøres følgende endring:
->
 
 ## § 10-18
 
@@ -455,6 +442,20 @@ refid: "lov/1996-11-29-72"
 > Reglene i sjøloven om undersøkelse av sjøulykker og forskrifter gitt med hjemmel i sjøloven kapittel 18 II gjelder tilsvarende så langt de passer.
 >
 
+### 2005-06-17 — lov/2005-06-17-101
+
+*13. I lov 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 3-12 andre ledd lyde:*
+
+> Bestemmelsen i første ledd gjelder tilsvarende for nødvendige trasé- og grunnundersøkelser forut for slik plassering. For grunnlagsmåling gjelder lov om eigedomsregistrering.
+>
+
+### 2007-02-27 — lov/2007-01-26-3
+
+*109. I lov 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 8-6 fjerde ledd lyde:*
+
+> Ved oversittelse av fristen i annet ledd kan klageinstansen etter reglene i forvaltningsloven § 31 vedta at tingretten tar saken til behandling. Vedtak om fristoversittelsen kan ankes til tingretten.
+>
+
 ### 2010-06-18 — lov/2010-06-18-27
 
 *Nåværende andre og tredje ledd blir hhv. nytt fjerde og femte ledd.*
@@ -471,6 +472,20 @@ refid: "lov/1996-11-29-72"
 *I lov 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 10-3 tredje ledd lyde:*
 
 > Utgifter vedrørende tilsynet kan kreves dekket av rettighetshaver eller den som tilsynet i det enkelte tilfelle retter seg mot eller finner sted hos. Det kan også kreves en sektoravgift til dekning av utgifter ved andre oppfølgingsoppgaver som retter seg mot hele eller deler av petroleumsvirksomheten.
+>
+
+### 2021-06-18 — lov/2021-06-18-89
+
+*3. I lov av 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 1-6 bokstav l lyde:*
+
+> kontinentalsokkelen, Norges kontinentalsokkel som fastsatt i lov 18. juni 2021 nr. 89.
+>
+
+### 2021-06-18 — forskrift/2021-06-18-2009
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
 >
 
 ### 2025-07-01 — lov/2025-06-20-109

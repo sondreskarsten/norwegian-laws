@@ -7,6 +7,33 @@ refid: "lov/1977-06-10-82"
 
 ## (annet)
 
+### 2002-06-21 — lov/2002-06-21-45
+
+*3. I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag skal § 4 f) lyde:*
+
+> rutetransport som drives med løyve i henhold til yrkestransportloven
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*98. I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag skal § 12 første ledd lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer denne lov eller forskrifter, regler eller vilkår fastsatt i medhold av loven, straffes med bøter.
+>
+> 99. I lov 9. juni 1978 nr. 45 om likestilling mellom kjønnene gjøres følgende endring:
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*81. I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag skal § 12 lyde:*
+
+> § 12.(straffeansvar).
+>
+> Den som forsettlig eller uaktsomt overtrer denne lov eller forskrifter, regler eller vilkår fastsatt i medhold av loven, straffes med bøter.
+>
+> 82. I lov 9. juni 1978 nr. 50 om kulturminner gjøres følgende endringer:
+>
+
 ### 2017-06-16 — lov/2017-06-16-61
 
 *I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag (motorferdselloven) skal § 4 a lyde:*
@@ -31,11 +58,25 @@ refid: "lov/1977-06-10-82"
 > Loven trer i kraft straks.
 >
 
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2025-06-06 — lov/2025-06-06-25
 
 *I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag skal § 2 nytt sjette ledd lyde:*
 
 > For områder som omfattes av markaloven, gjelder markaloven §§ 10 og 15 i stedet for loven her.
+>
+
+### 2025-07-01 — forskrift/2025-06-06-945
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-06-19 — lov/2026-06-19-53
@@ -96,6 +137,25 @@ refid: "lov/1977-06-10-82"
 > § 14 a.(opphevelse av midlertidig bestemmelse)
 >
 > § 4 b oppheves 1. juni 2015.
+>
+
+## § 27
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 27 tredje og fjerde punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 27 tredje og fjerde punktum oppheves.*
+
+## § 3
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 3 siste ledd oppheves.*
+
+> 100. I lov 9. juni 1978 nr. 50 om kulturminner gjøres følgende endring:
 >
 
 ## § 4 a

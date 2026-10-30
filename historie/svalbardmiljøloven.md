@@ -7,6 +7,15 @@ refid: "lov/2001-06-15-79"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*223. I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard (svalbardmiljøloven) skal § 99 annet ledd lyde:*
+
+> Den offentlige påtalemyndighet skal påtale overtredelse av denne bestemmelsen, jf. straffeprosessloven § 62 a.
+>
+> 224. I lov 15. juni 2001 nr. 81 om elektronisk signatur (esignaturloven) gjøres følgende endring:
+>
+
 ### 2012-07-01 — forskrift/2012-04-20-332
 
 *Loven trer i kraft 1. juli 2012.*
@@ -14,15 +23,43 @@ refid: "lov/2001-06-15-79"
 > Loven trer i kraft 1. juli 2012.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*187. I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard skal § 99 annet ledd lyde:*
+
+> Den offentlige påtalemyndighet skal påtale overtredelse av denne bestemmelsen, jf. straffeprosessloven § 62 a.
+>
+> 188. I lov 15. juni 2001 nr. 81 om elektronisk signatur gjøres følgende endring:
+>
+
 ### 2016-12-09 — lov/2016-12-09-89
 
-*I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard skal § 3 bokstav b lyde:avfall: løsøregjenstander eller stoffer som noen har kassert, har til hensikt å kassere, eller er forpliktet til å kassere. Som avfall regnes ikke avløpsvann og avgasser. Bestemmelsene om skillet mellom avfall og biprodukter, og om når avfall opphører å være avfall, i forurensningsloven § 27 annet og tredje ledd gjelder tilsvarende.*
+*I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard skal § 3 bokstav b lyde:*
+
+> avfall: løsøregjenstander eller stoffer som noen har kassert, har til hensikt å kassere, eller er forpliktet til å kassere. Som avfall regnes ikke avløpsvann og avgasser. Bestemmelsene om skillet mellom avfall og biprodukter, og om når avfall opphører å være avfall, i forurensningsloven § 27 annet og tredje ledd gjelder tilsvarende.
+>
 
 ### 2019-06-21 — lov/2019-06-21-54
 
 *I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard skal § 99 første ledd andre punktum lyde:*
 
 > Er det inntrådt eller voldt fare for betydelig miljøskade, eller det for øvrig foreligger særdeles skjerpende omstendigheter, kan fengsel inntil 5 år anvendes.
+>
+
+### 2019-07-01 — forskrift/2019-06-21-786
+
+*Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Del I–IV og del V § 75 annet ledd trer i kraft 1. juli 2019.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
 >
 
 ### 2025-01-01 — forskrift/2024-06-07-941
@@ -37,6 +74,17 @@ refid: "lov/2001-06-15-79"
 *Loven trer i kraft 1. januar 2025.*
 
 > Loven trer i kraft 1. januar 2025.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 1
@@ -56,6 +104,16 @@ refid: "lov/2001-06-15-79"
 
 > I nasjonalparker skal ingen varig påvirkning av naturmiljø eller kulturminner finne sted. Landskapet, og i tilfelle havbunnen, med planter, dyreliv og geologiske forekomster skal vernes mot utbygging, anlegg, forurensning og annen virksomhet, herunder ferdsel, som kan påvirke eller forstyrre naturmiljøet eller kulturminner.
 >
+
+## § 21
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 21 annet ledd oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 21 annet ledd oppheves.*
 
 ## § 23
 

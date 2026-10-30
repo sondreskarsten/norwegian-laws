@@ -14,6 +14,29 @@ refid: "lov/1957-07-06-26"
 > Denne paragrafen gjelder ikke for pensjonstrygden for sjømenn og pensjonstrygden for fiskere, se likevel lov 3. desember 1948 nr. 7 om pensjonstrygd for sjømenn § 4 nr. 1 andre ledd bokstav a og lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere § 6 nr. 1 andre ledd.
 >
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*51. I lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser skal § 24 tredje ledd første punktum lyde:*
+
+> Den som unnlater å gi opplysninger etter første og andre ledd, eller som gir uriktige opplysninger, straffes med bøter.
+>
+> 52. I lov 19. juni 1959 nr. 2 om avgifter vedrørende motorkjøretøyer og båter gjøres følgende endring:
+>
+
+### 2010-02-01 — forskrift/2010-01-15-54
+
+*Loven trer i kraft 1. februar 2010.*
+
+> Loven trer i kraft 1. februar 2010.
+>
+
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
+
 ### 2011-01-01 — lov/2010-06-25-29
 
 *Nåværende kapittel VII blir nytt kapittel VIII. Nåværende §§ 24 til 26 blir nye §§ 26 til 28 og nåværende §§ 26 a til 29 blir nye §§ 29 til 32.*
@@ -48,6 +71,27 @@ refid: "lov/1957-07-06-26"
 
 *Nåværende § 24 nr. 3, 4 og 5 blir nr. 2, 3 og 4.*
 
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1717
+
+*Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kr*
+
+> Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kraft 1. januar 2015.
+>
+
+### 2019-01-01 — forskrift/2018-12-20-2051
+
+*Ikraftsetting av lov 15. juni 2018 nr. 30 om endringer i lov om Statens pensjonskasse, lov om samordning av pensjons- og trygdeytelser og enkelte andre lover (tilpasning av alderspensjon fra offentlig tjenestepensjonsordning til alderspensjon fra folketrygden opptjent etter nye regler – levealdersju*
+
+> Ikraftsetting av lov 15. juni 2018 nr. 30 om endringer i lov om Statens pensjonskasse, lov om samordning av pensjons- og trygdeytelser og enkelte andre lover (tilpasning av alderspensjon fra offentlig tjenestepensjonsordning til alderspensjon fra folketrygden opptjent etter nye regler – levealdersjustering og samordning). Loven trer i kraft 1. januar 2019.
+>
+
 ### 2019-06-21 — lov/2019-06-21-25
 
 *Nåværende § 24 b andre ledd blir nytt tredje ledd og skal lyde:*
@@ -59,9 +103,94 @@ refid: "lov/1957-07-06-26"
 
 *Nåværende første til fjerde ledd blir andre til fjerde og nytt femte ledd.*
 
+### 2019-06-21 — forskrift/2019-06-21-781
+
+*Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.*
+
+> Delt ikraftsetting av loven. Endringen i folketrygdloven § 13-11 andre ledd trer i kraft straks, og gis virkning fra 1. januar 2017. Endringen i samordningsloven § 3 trer i kraft 1. januar 2020. Loven for øvrig trer i kraft 1. juli 2019.
+>
+
+### 2020-01-01 — forskrift/2019-06-21-782
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1277
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2024-01-01 — forskrift/2023-06-16-904
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-10-01 — forskrift/2024-09-20-2209
+
+*Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.*
+
+> Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.
+>
+> Loven trer i kraft 1. oktober 2024.
+>
+
+### 2024-12-20 — forskrift/2024-12-20-3298
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (folketrygdloven) §§ 8-49, 11-4, 11-13, 11-16, 11-18, 13-2, 13-11 og 20-4.
+>
+> Endringsloven del VI (lov om arbeidsmarkedstjenester), VII (lov om norsk statsborgerskap), IX (AFP-tilskottsloven), X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) og XI (lov 24. november 2023 nr. 83 om endringer i lov om Statens pensjonskasse og enkelte andre lover).
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) får virkning fra 1. oktober 2024, med unntak av endringene i §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2025:
+>
+> Endringsloven del I (lov om Statens pensjonskasse), II (lov om pensjonsordning for apotekvirksomhet mv.), III (lov om samordning av pensjons- og trygdeytelser) og IV (lov om pensjonsordning for sykepleiere).
+>
+> Endringsloven del V (folketrygdloven) opphevelsen av overskriften «V. Forsørgingstillegg» i kapittel 3 og endringene i §§ 3-3, 3-24, 3-25, 3-26, 4-5, 4-9, 4-10, 4-15, 4-16, 4-20, 4-21, 4-23, 4-26, 12-15, 19-3, 19-8, 19-9a og 22-16.
+>
+> Endringsloven del X (lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse) §§ 3 og 4.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2025:
+>
+> Endringsloven del VIII (lov om pensjonsordning for oppdragstaker i statlig beredskapshjem eller spesialisert fosterhjem).
+>
+
+### 2025-01-01 — forskrift/2024-04-12-614
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-06-10 — lov/2025-06-10-31
 
 *Nåværende andre punktum blir nytt tredje punktum.*
+
+### 2026-01-01 — forskrift/2025-06-10-965
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
 
 ## § 1
 
@@ -69,7 +198,17 @@ refid: "lov/1957-07-06-26"
 
 *§ 1 nr. 1 første ledd skal lyde:*
 
-> Denne lov gjelder samordning av ytelser som en person kan få samtidig fra to eller flere av følgende pensjonsordninger og trygder:Tjenestepensjonsordning som er fastsatt ved lov eller vedtak av Stortinget, eller som er fastsatt av kommuner og fylkeskommuner for kommunale og fylkeskommunale tillitsmenn, tjenestemenn og arbeidere, herunder pensjonsordning som yter avtalefestet pensjon som tas ut mellom 65 og 67 år.Personskadetrygd fastsatt ved lov.Ytelser fra folketrygden.Offentlig pensjonsordning som yter avtalefestet pensjon før fylte 65 år som det kan godskrives pensjonspoeng for etter folketrygdloven § 3-19. Det samme gjelder pensjonsordning som yter avtalefestet pensjon i privat sektor mellom 62 og 67 år etter overgangsordningen i AFP-tilskottsloven kapittel 4.Pensjonsordning som yter avtalefestet pensjon i privat sektor etter AFP-tilskottsloven kapittel 2, jf. kapittel 3.
+> Denne lov gjelder samordning av ytelser som en person kan få samtidig fra to eller flere av følgende pensjonsordninger og trygder: Tjenestepensjonsordning som er fastsatt ved lov eller vedtak av Stortinget, eller som er fastsatt av kommuner og fylkeskommuner for kommunale og fylkeskommunale tillitsmenn, tjenestemenn og arbeidere, herunder pensjonsordning som yter avtalefestet pensjon som tas ut mellom 65 og 67 år. Personskadetrygd fastsatt ved lov. Ytelser fra folketrygden. Offentlig pensjonsordning som yter avtalefestet pensjon før fylte 65 år som det kan godskrives pensjonspoeng for etter folketrygdloven § 3-19. Det samme gjelder pensjonsordning som yter avtalefestet pensjon i privat sektor mellom 62 og 67 år etter overgangsordningen i AFP-tilskottsloven kapittel 4. Pensjonsordning som yter avtalefestet pensjon i privat sektor etter AFP-tilskottsloven kapittel 2, jf. kapittel 3.
+>
+> Tjenestepensjonsordning som er fastsatt ved lov eller vedtak av Stortinget, eller som er fastsatt av kommuner og fylkeskommuner for kommunale og fylkeskommunale tillitsmenn, tjenestemenn og arbeidere, herunder pensjonsordning som yter avtalefestet pensjon som tas ut mellom 65 og 67 år.
+>
+> Personskadetrygd fastsatt ved lov.
+>
+> Ytelser fra folketrygden.
+>
+> Offentlig pensjonsordning som yter avtalefestet pensjon før fylte 65 år som det kan godskrives pensjonspoeng for etter folketrygdloven § 3-19. Det samme gjelder pensjonsordning som yter avtalefestet pensjon i privat sektor mellom 62 og 67 år etter overgangsordningen i AFP-tilskottsloven kapittel 4.
+>
+> Pensjonsordning som yter avtalefestet pensjon i privat sektor etter AFP-tilskottsloven kapittel 2, jf. kapittel 3.
 >
 
 ### 2019-06-21 — lov/2019-06-21-25
@@ -225,6 +364,15 @@ refid: "lov/1957-07-06-26"
 > Dersom det ytes uføretrygd eller arbeidsavklaringspenger samtidig med tidligpensjon etter lov om Statens pensjonskasse § 26 o og § 26 p eller tilsvarende pensjon, skal tidligpensjonen ikke samordnes etter paragrafen her.
 >
 
+## § 2
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 2 annet ledd oppheves.*
+
+> 53. I lov 3. februar 1961 om ansvar for skade som motorvogner gjer gjøres følgende endring:
+>
+
 ## § 20
 
 ### 2004-01-01 — lov/2003-06-20-55
@@ -240,6 +388,10 @@ refid: "lov/1957-07-06-26"
 
 > Bestemmelsene i første og annet ledd gjelder tilsvarende for samordning av pensjon fra personskadetrygd med uførepensjon, foreløpig uførepensjon eller arbeidsavklaringspenger etter loven om folketrygd. Er ytelsen fra folketrygden ikke bereknet for hel uførhet, skal fradragsbeløpet nedsettes forholdsmessig.
 >
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*§ 20 annet ledd oppheves.*
 
 ### 2011-01-01 — lov/2010-06-25-29
 
@@ -375,7 +527,9 @@ refid: "lov/1957-07-06-26"
 
 *§ 22 nye nr. 4 og 5 skal lyde:*
 
-> Bestemmelsene i nr. 2 gjelder tilsvarende for samordning av alderspensjon fra tjenestepensjonsordning før fylte 67 år med omstillingsstønad fra folketrygden. Oppsatt brutto alderspensjon for dem som er født etter 1962, skal ikke samordnes med gjenlevendeytelse eller omstillingsstønad fra folketrygden.Bestemmelsene i nr. 2 gjelder tilsvarende for samordning av uførepensjon etter § 3 tredje ledd første og tredje punktum med omstillingsstønad fra folketrygden. Dersom utbetalingsgraden for uførepensjonen er lavere enn uføregraden, er det utbetalingsgraden som inngår i beregningen.
+> Bestemmelsene i nr. 2 gjelder tilsvarende for samordning av alderspensjon fra tjenestepensjonsordning før fylte 67 år med omstillingsstønad fra folketrygden. Oppsatt brutto alderspensjon for dem som er født etter 1962, skal ikke samordnes med gjenlevendeytelse eller omstillingsstønad fra folketrygden.
+>
+> Bestemmelsene i nr. 2 gjelder tilsvarende for samordning av uførepensjon etter § 3 tredje ledd første og tredje punktum med omstillingsstønad fra folketrygden. Dersom utbetalingsgraden for uførepensjonen er lavere enn uføregraden, er det utbetalingsgraden som inngår i beregningen.
 >
 
 ### 2024-12-20 — lov/2024-12-20-81
@@ -675,6 +829,9 @@ refid: "lov/1957-07-06-26"
 
 *§ 24 c overskrifta skal lyde:*
 
+> Samordning av oppsatt alderspensjon fra tjenestepensjonsordning med alderspensjon fra folketrygden for medlemmer født i 1963 eller senere som er omfattet av påslagspensjon mv. fra tjenestepensjonsordningen
+>
+
 ## § 24 d
 
 ### 2023-06-16 — lov/2023-06-16-35
@@ -708,7 +865,9 @@ refid: "lov/1957-07-06-26"
 
 *§ 27 skal lyde:*
 
-> Pensjons- eller trygdeordninger som foretar beregning og utbetaling av ytelser som omfattes av denne loven, skal bistå hverandre med opplysninger om at ytelser er innvilget, endret eller opphørt. Dette gjelder også saker der det ikke skal foretas samordning etter bestemmelsene i loven her. Der ytelsene skal samordnes, skal det utveksles opplysninger som er nødvendig for å foreta samordningen.Nødvendige opplysninger kan utveksles mellom ordningene uten hinder av taushetsplikt. Svikt ved utveksling av opplysninger skal ikke gi grunnlag for erstatning etter lov 13. juni 1969 nr. 26 om skadeserstatning kapittel 2. Departementet gir forskrift om registrering og utveksling av opplysninger (meldesystem).
+> Pensjons- eller trygdeordninger som foretar beregning og utbetaling av ytelser som omfattes av denne loven, skal bistå hverandre med opplysninger om at ytelser er innvilget, endret eller opphørt. Dette gjelder også saker der det ikke skal foretas samordning etter bestemmelsene i loven her. Der ytelsene skal samordnes, skal det utveksles opplysninger som er nødvendig for å foreta samordningen.
+>
+> Nødvendige opplysninger kan utveksles mellom ordningene uten hinder av taushetsplikt. Svikt ved utveksling av opplysninger skal ikke gi grunnlag for erstatning etter lov 13. juni 1969 nr. 26 om skadeserstatning kapittel 2. Departementet gir forskrift om registrering og utveksling av opplysninger (meldesystem).
 >
 
 ## § 3

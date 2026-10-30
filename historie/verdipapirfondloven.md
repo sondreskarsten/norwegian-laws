@@ -30,6 +30,13 @@ refid: "lov/2011-11-25-44"
 
 ## § 1-5
 
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 1-5 nytt fjerde ledd skal lyde:*
+
+> (4) Departementet kan ved forskrift unnta forvaltningsselskap som ikke forvalter UCITS, og som har tillatelse eller er registrert etter lov om forvaltning av alternative investeringsfond, fra én eller flere bestemmelser i loven og forskrifter gitt i medhold av loven.
+>
+
 ### 2016-12-16 — lov/2016-12-16-90
 
 *§ 1-5 tredje ledd oppheves. Nåværende fjerde ledd blir nytt tredje ledd.*
@@ -76,6 +83,19 @@ refid: "lov/2011-11-25-44"
 > (2) Forvaltningsselskap med tillatelse etter første ledd kan gis tillatelse til å drive porteføljeforvaltning som angitt i verdipapirhandelloven § 2-3 tredje ledd.
 >
 
+## § 2-4
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 2-4 nytt annet ledd skal lyde:*
+
+> (2) Forvaltningsselskap som er registrert etter § 1-4 eller har tillatelse etter § 2-2 i lov om forvaltning av alternative investeringsfond, kan i tillegg forvalte alternative investeringsfond.
+>
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 2-4 nåværende annet ledd blir nytt tredje ledd.*
+
 ## § 2-5
 
 ### 2012-06-22 — lov/2012-06-22-35
@@ -94,7 +114,18 @@ refid: "lov/2011-11-25-44"
 > Personer som nevnt i annet og tredje punktum skal fremlegge ordinær politiattest etter politiregisterloven § 40.
 >
 
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 2-7 femte ledd oppheves. Nåværende sjette ledd blir femte ledd.*
+
 ## § 2-10
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 2-10 tredje punktum skal lyde:*
+
+> Bestemmelsene gitt i eller i medhold av verdipapirhandelloven § 10-22 annet til sjette ledd gjelder tilsvarende så langt de passer.
+>
 
 ### 2021-04-30 — lov/2021-04-30-26
 
@@ -141,6 +172,15 @@ refid: "lov/2011-11-25-44"
 > (5) Forvaltningsselskapet skal informere Finanstilsynet og myndigheten i vertslandet skriftlig før det gjennomfører endringer i det som tidligere er opplyst. Der det er etablert filial, skal informasjon om endring gis minst én måned før endringen gjennomføres. Dersom endringen i en filial medfører at forvaltningsselskapet ikke vil overholde loven, skal Finanstilsynet innen 15 virkedager fra komplett melding er mottatt, informere forvaltningsselskapet om at endringen ikke kan iverksettes, samt informere myndigheten i vertslandet. Dersom forvaltningsselskapet likevel gjennomfører endringen, skal Finanstilsynet iverksette nødvendige tiltak og uten ugrunnet opphold informere vertslandet.
 >
 
+## § 4-1
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 4-1 første ledd skal lyde:*
+
+> (1) Etablering av verdipapirfond krever tillatelse fra Finanstilsynet. Tillatelse gis for hvert enkelt fond. Tillatelse til å etablere UCITS kan gis forvaltningsselskap med tillatelse fra en annen EØS-stat. Tillatelse til å etablere nasjonale fond kan gis forvalter av alternative investeringsfond med tillatelse fra en annen EØS-stat som i hjemstaten har tillatelse til å forvalte tilsvarende fond. Denne bestemmelsen gjelder tilsvarende når et forvaltningsselskap med tillatelse fra en annen EØS-stat søker om å overta forvaltningen av et norsk UCITS, eller når en forvalter av alternative investeringsfond med tillatelse fra en annen EØS-stat søker å overta forvaltningen av et nasjonalt fond.
+>
+
 ## § 4-10
 
 ### 2014-04-11 — lov/2014-04-11-12
@@ -157,6 +197,15 @@ refid: "lov/2011-11-25-44"
 *§ 5-6 første ledd nr. 1 skal lyde:*
 
 > at fusjonen er gjennomført i tråd med de prinsippene som er fastsatt i fusjonsavtalen for verdsetting av fondenes eiendeler og eventuelle forpliktelser, jf. § 5-3 annet ledd nr. 4,
+>
+
+## § 6-5
+
+### 2019-03-15 — lov/2019-03-15-6
+
+*§ 6-5 første ledd nr. 1 skal lyde:*
+
+> er opptatt til offisiell notering eller omsettes på et regulert marked i en EØS-stat, herunder et norsk regulert marked, som definert i direktiv 2014/65/EU art. 4 nr. 1 punkt 21 og verdipapirhandelloven § 2-7 fjerde ledd,
 >
 
 ## § 6-6
@@ -222,6 +271,21 @@ refid: "lov/2011-11-25-44"
 > Finanstilsynet kan samtykke til at spesialfond fraviker bestemmelsen i § 6-9.
 >
 
+## § 7-7
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 7-7 første og annet ledd skal lyde:*
+
+> (1) Ved markedsføring av spesialfond og tilsvarende utenlandsk innretning (utenlandsk spesialfond) til ikke-profesjonelle investorer skal det fremgå klart at det er tale om spesialfond.
+>
+> (2) Finanstilsynet kan i særlige tilfeller forby forvalter å markedsføre og å selge spesialfond til ikke-profesjonelle investorer. Departementet kan gi nærmere regler om slikt forbud i forskrift.
+>
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 7-7 nåværende annet ledd blir nytt tredje ledd.*
+
 ## § 8-1 a
 
 ### 2019-12-06 — lov/2019-12-06-77
@@ -250,7 +314,9 @@ refid: "lov/2011-11-25-44"
 
 *§ 8-3 annet ledd nr. 7 og ny nr. 8 skal lyde:*
 
-> opplysning om at nøkkelinformasjon ikke alene gir grunnlag for ansvar, hvis ikke informasjonen er villedende, unøyaktig eller inkonsistent i forhold til opplysninger i prospekt,angivelse av at informasjon om forvaltningsselskapets godtgjørelsesordning er tilgjengelig på forvaltningsselskapets nettsted, og at papirkopi av informasjonen sendes investor kostnadsfritt på forespørsel.
+> opplysning om at nøkkelinformasjon ikke alene gir grunnlag for ansvar, hvis ikke informasjonen er villedende, unøyaktig eller inkonsistent i forhold til opplysninger i prospekt,
+>
+> angivelse av at informasjon om forvaltningsselskapets godtgjørelsesordning er tilgjengelig på forvaltningsselskapets nettsted, og at papirkopi av informasjonen sendes investor kostnadsfritt på forespørsel.
 >
 
 ### 2024-06-21 — lov/2024-06-21-40
@@ -336,6 +402,20 @@ refid: "lov/2011-11-25-44"
 >
 
 ## § 9-4
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 9-4 første ledd første punktum skal lyde:*
+
+> (1) Utenlandsk verdipapirfond som ikke omfattes av EØS-regler som svarer til rådsdirektiv 2009/65/EF, kan markedsføres til ikke-profesjonelle investorer i Norge etter tillatelse fra Finanstilsynet.
+>
+
+### 2014-06-20 — lov/2014-06-20-28
+
+*§ 9-4 første ledd annet punktum nr. 6 skal lyde:*
+
+> salg i Norge av andeler i verdipapirfondet skjer gjennom forvaltningsselskap med tillatelse etter §§ 2-1, 3-3 eller 3-4, kredittinstitusjon med rett til å drive finansieringsvirksomhet i Norge, forsikringsselskap med rett til å drive forsikringsvirksomhet i Norge, verdipapirforetak med rett til å yte investeringstjenester i Norge eller forvalter av alternative investeringsfond som har tillatelse til å forvalte tilsvarende fond i hjemstaten.
+>
 
 ### 2022-06-22 — lov/2022-06-22-79
 
@@ -424,6 +504,10 @@ refid: "lov/2011-11-25-44"
 >
 
 ## § 11-6
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 11-6 annet og tredje ledd oppheves.*
 
 ### 2016-12-16 — lov/2016-12-16-90
 
@@ -551,6 +635,38 @@ refid: "lov/2011-11-25-44"
 
 ## (annet)
 
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 25. november 2011 nr. 44 om verdipapirfond skal ny § 1-6 lyde:*
+
+> § 1-6.Behandling av personopplysninger i tilknytning til autorisasjonsordninger for ansatte
+>
+> Næringsorganisasjon eller tilknyttet juridisk enhet som gir opplæring til og autoriserer personer ansatt i et forvaltningsselskap, tilknyttet agent, eller utenlandsk forvaltningsselskap som nevnt i §§ 3-3 første ledd eller 3-4 første ledd, kan behandle slike opplysninger som nevnt i personopplysningsloven § 2 nr. 8 bokstav b som ledd i vurderingen av om en ansatt skal gis autorisasjon, fratas autorisasjon eller gis advarsel.
+>
+
+### 2014-07-01 — forskrift/2014-04-11-547
+
+*Loven trer i kraft 1. juli 2014.*
+
+> Loven trer i kraft 1. juli 2014.
+>
+
+### 2014-07-01 — forskrift/2014-06-26-866
+
+*Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, sam*
+
+> Bestemmelser i lov 20. juni 2014 nr. 29 om endringer i lov 29. juni 2007 nr. 74 om regulerte markeder (børsloven) og lov om verdipapirhandel (verdipapirhandelloven) del XIX som gjelder lovens del I til X, del XII til XIV, med unntak av bestemmelsene i § 13-1 til § 13-6, § 14-3, § 15-1 og § 15-2, samt del XV til XVIII, trer i kraft 1. juli 2014.
+>
+
+### 2016-01-01 — forskrift/2015-12-04-1399
+
+*Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.*
+
+> Lov om fastsettelse av referanserenter trer i kraft 1. januar 2016.
+>
+> Delt ikraftsetting av lov om endringer i finanslovgivningen mv. Loven trer i kraft 1. januar 2016, med unntak av del VI som trer i kraft straks og del XII § 6-10 og § 6-11 som trer i kraft 1. juli 2016.
+>
+
 ### 2016-12-16 — lov/2016-12-16-90
 
 *Kapittel 10 skal lyde:*
@@ -635,6 +751,50 @@ refid: "lov/2011-11-25-44"
 > Med bøter eller fengsel inntil 1 år straffes den som grovt eller gjentatte ganger forsettlig eller uaktsomt overtrer § 1-3 første punktum, § 2-1 første ledd, § 2-4, § 2-7 femte ledd, § 2-9, § 2-15, § 3-1, § 3-2, § 4-1 første ledd, § 4-6, § 4-7, § 6-1 til § 6-9, § 6-10 første ledd, § 6-11, § 8-2, § 8-3, § 8-4, § 10-3, § 11-3, § 11-4 første, annet eller fjerde ledd, § 12-1 eller § 12-2, eller forskrifter gitt i medhold av de nevnte bestemmelsene, eller vilkår i tillatelser gitt i medhold av de nevnte bestemmelsene.
 >
 
+### 2018-01-01 — forskrift/2017-12-15-2043
+
+*Delt ikraftsetting av lov 16. desember 2016 nr. 90 om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del III trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov 16. desember 2016 nr. 90 om endringer i verdipapirfondloven mv. (UCITS V-direktivet mv.). Lovens del III trer i kraft 1. januar 2018.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2019-07-21 — forskrift/2019-06-21-802
+
+*Delt ikraftsetting av loven. Loven trer i kraft 21. juli 2019 med unntak av endringene i verdipapirhandelloven kapittel 3, 4, 5, 12, 19 og 21.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 21. juli 2019 med unntak av endringene i verdipapirhandelloven kapittel 3, 4, 5, 12, 19 og 21.
+>
+
+### 2020-01-01 — forskrift/2019-12-06-1656
+
+*Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 15. mars 2019 nr. 6 om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-01-01 — forskrift/2019-12-13-1778
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finansko*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. januar 2020 med unntak av del I, endringene i lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) § 28, og del XIV, endringene i lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven) § 16-2 syvende ledd.
+>
+
 ### 2021-04-30 — lov/2021-04-30-26
 
 *Nåværende tredje punktum blir nytt fjerde punktum og skal lyde:*
@@ -649,11 +809,105 @@ refid: "lov/2011-11-25-44"
 > Forvaltningsloven §§ 13, 13 b til 13 e og 13 g gjelder ikke for opplysninger som nevnt i første punktum.
 >
 
+### 2021-07-01 — forskrift/2021-04-30-1316
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2022-07-08 — forskrift/2022-05-23-893
+
+*Loven trer i kraft 8. juli 2022.*
+
+> Loven trer i kraft 8. juli 2022.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2265
+
+*Delt ikraftsetting av lov 18. juni nr. 101 om endringer i verdipapirfondloven mv. (gjennomføring av EØS-rett, administrative sanksjoner og andre forvaltningstiltak). Følgende trer i kraft 1. januar 2023:*
+
+> Delt ikraftsetting av lov 18. juni nr. 101 om endringer i verdipapirfondloven mv. (gjennomføring av EØS-rett, administrative sanksjoner og andre forvaltningstiltak). Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del II (verdipapirfondloven) med unntak av § 1-7 og § 11-6 første ledd nr. 2
+>
+> Endringsloven del III (AIF-loven) § 1a-3 og § 9-6 første ledd bokstav d.
+>
+> Følgende trer i kraft 1. februar 2023:
+>
+> Endringsloven del II (verdipapirfondloven) § 1-7 og § 11-6 første ledd nr. 2
+>
+> Endringsloven del III (AIF-loven) § 1a-4 og § 9-6 første ledd bokstav e.
+>
+
+### 2023-08-11 — forskrift/2023-08-11-1319
+
+*Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 6. desember 2019 nr. 77 om endringer i aksjelovgivningen mv. (langsiktig eierskap i noterte selskaper mv.). Følgende trer i kraft straks:
+>
+> Endringsloven del III (finansforetaksloven) med unntak av § 15-6 første ledd
+>
+> Endringsloven del IV (lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond)
+>
+> Endringsloven del VI (verdipapirfondloven)
+>
+> Endringsloven del VII (verdipapirhandelloven).
+>
+
+### 2024-10-01 — forskrift/2024-08-09-1912
+
+*Ikraftsetting av lov 21. juni 2024 nr. 40 om nøkkelinformasjon om sammensatte og forsikringsbaserte investeringsprodukter (PRIIPs-loven). Loven trer i kraft 1. oktober 2024.*
+
+> Ikraftsetting av lov 21. juni 2024 nr. 40 om nøkkelinformasjon om sammensatte og forsikringsbaserte investeringsprodukter (PRIIPs-loven). Loven trer i kraft 1. oktober 2024.
+>
+> Norge meddeler at de forfatningsrettslige krav er oppfylt for at EØS-komiteens beslutning nr. 67/2020 av 30. april 2020 og EØS-komiteens beslutning nr. 329/2022 av 9. desember 2022 kan bli bindende for Norge.
+>
+
+### 2024-10-01 — forskrift/2024-08-09-1913
+
+*Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. oktober 2024:*
+
+> Delt ikraftsetting av lov 22. juni 2022 nr. 79 om endringer i verdipapirhandelloven mv. (samleproposisjon). Følgende trer i kraft 1. oktober 2024:
+>
+> Endringsloven del II (verdipapirfondloven)
+>
+> Endringsloven del III (AIF-loven)
+>
+
+### 2025-01-01 — forskrift/2024-12-20-3303
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *2.I lov 25. november 2011 nr. 44 om verdipapirfond skal § 2-11 første ledd nr. 1 lyde:*
 
 > gode administrasjons- og regnskapsrutiner og kontroll- og sikkerhetsordninger for elektronisk databehandling, herunder for nettverk og systemer som er etablert og håndtert etter forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1,
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1084
+
+*Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.*
+
+> Delt ikraftsetting av lov 27. mai 2025 nr. 18 om digital operasjonell motstandsdyktighet i finanssektoren (DORA-loven). DORA-loven trer i kraft 1. juli 2025 med unntak av DORA-loven § 6 nr. 1 om endringer i verdipapirhandelloven § 17-1 første ledd, som trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2025-07-01 — forskrift/2025-05-27-868
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-06-19 — lov/2026-06-19-40

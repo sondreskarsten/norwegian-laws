@@ -35,3 +35,22 @@ refid: "lov/2026-02-06-2"
 ### 2026-06-19 — lov/2026-06-19-40
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2026-07-01 — forskrift/2026-06-19-1154
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i bokføringsloven og enkelte andre lover på finansmarkedsområdet (pliktig digital bokføring og e-fakturering mv.)*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i bokføringsloven og enkelte andre lover på finansmarkedsområdet (pliktig digital bokføring og e-fakturering mv.)
+>
+> Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II–VI
+>
+> Følgende trer i kraft 1. januar 2027:
+>
+> Endringsloven del I § 3, § 10, § 11 og § 13
+>
+> Følgende trer i kraft 1. januar 2030
+>
+> Endringsloven del I § 7 fjerde ledd
+>

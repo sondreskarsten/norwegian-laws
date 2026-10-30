@@ -5,6 +5,22 @@ refid: "lov/1931-06-12-1"
 
 # Endringshistorikk: Vassdragslov i h.t. konvensjon Norge/Sverige
 
+## (annet)
+
+### 2003-06-20 — lov/2003-06-20-45
+
+*17. I lov 12. juni 1931 nr. 1 i henhold til konvensjonen mellem Norge og Sverige om visse spørsmål vedrørende vassdragsretten av 11 mai 1929 skal § 27 fjerde punktum lyde:*
+
+> Departementet skal bekjentgjøre fullmektigens navn og adresse i Norsk lysingsblad.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2034
+
+*Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.*
+
+> Lov 21. juni 2017 nr. 101 om endringer i konsesjonslovgivningen for vannkraft (lovrevisjon) trer i kraft 1. januar 2018.
+>
+
 ## § 18
 
 ### 2007-02-27 — lov/2007-01-26-3

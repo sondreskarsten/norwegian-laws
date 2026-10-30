@@ -16,11 +16,34 @@ refid: "lov/1951-06-29-19"
 > Bruk av elektronisk kommunikasjon ved underretning om et vedtak fra et forvaltningsorgan er bare tillatt når den vedtaket retter seg mot uttrykkelig har godtatt dette.
 >
 
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
 ### 2023-11-24 — lov/2023-11-24-84
 
 *I lov 29. juni 1951 nr. 19 om militære rekvisisjoner skal § 16 andre ledd lyde:*
 
 > Reglene i § 15 annet til fjerde ledd gjelder tilsvarende, likevel slik at reglene i tvisteloven § 19-3 fjerde ledd kommer til anvendelse når det ikke er flertall for noe beløp.
+>
+
+### 2024-07-01 — forskrift/2024-05-31-875
+
+*Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet) del I–V og del VII og VIII. Loven trer i kraft 1. juli 2024.*
+
+> Delt ikraftsetting av lov 24. november 2023 nr. 84 om endringer i forsvarsloven mv. (militær disiplinærmyndighet) del I–V og del VII og VIII. Loven trer i kraft 1. juli 2024.
 >
 
 ## § 13
@@ -64,6 +87,17 @@ refid: "lov/1951-06-29-19"
 *§ 20 annet ledd skal lyde:*
 
 > Den som ellers overtrer noen bestemmelse utferdiget med hjemmel i lov, straffes med bøter eller fengsel inntil 3 måneder hvis ikke forholdet rammes av et strengere straffebud.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 20 første ledd siste punktum oppheves.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 20 annet ledd skal lyde:*
+
+> Den som ellers overtrer noen bestemmelse utferdiget med hjemmel i denne lov, straffes med bøter eller fengsel inntil 3 måneder hvis ikke forholdet rammes av et strengere straffebud.
 >
 
 ## § 8

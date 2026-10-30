@@ -18,6 +18,69 @@ refid: "lov/1996-06-07-32"
 > § 1.Grunnleggende bestemmelser
 >
 
+### 2011-09-01 — forskrift/2011-08-26-866
+
+*Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.*
+
+> Lov om endringer i gravferdsloven og enkelte andre lover trer i kraft 1. januar 2012. Bestemmelsen i lov 7. juni 1996 nr. 31 om Den norske kirke § 25 tredje ledd tredje punktum trer i kraft 1. september 2011.
+>
+
+### 2012-07-01 — forskrift/2012-06-08-502
+
+*Lov om endringer i kirkeloven m.m. trer i kraft 1. juli 2012.*
+
+> Lov om endringer i kirkeloven m.m. trer i kraft 1. juli 2012.
+>
+
+### 2015-05-07 — lov/2015-05-07-26
+
+*I lov 7. juni 1996 nr. 32 om gravplasser, kremasjon og gravferd skal § 13 første ledd lyde:*
+
+> Fristene i § 10 annet ledd og § 12 gjelder ikke når avdødes legeme skal nyttes i samsvar med bestemmelsene i obduksjonslova eller det er besluttet sakkyndig likundersøkelse i medhold av straffeprosessloven § 228.
+>
+
+### 2016-01-01 — forskrift/2015-11-13-1289
+
+*Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av 1. lov om donasjon og transplantasjon av organ, celler og vev (transplantasjonslova) 2. lov om obduksjon og avgjeving av lik til undervisning og forsking (obduksjonslova). Lovene trer i kraft 1. januar 2016.
+>
+
+### 2020-12-30 — forskrift/2020-11-27-2486
+
+*Ikraftsetting av lov 23. juni 2020 nr. 97 om endringer i gravferdsloven mv. (urnevegg mv.). Loven trer i kraft 30. desember 2020.*
+
+> Ikraftsetting av lov 23. juni 2020 nr. 97 om endringer i gravferdsloven mv. (urnevegg mv.). Loven trer i kraft 30. desember 2020.
+>
+
+### 2021-01-01 — forskrift/2020-04-24-855
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2021, med unntak av § 6 annet ledd.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2021, med unntak av § 6 annet ledd.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1281
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2021-06-18 — lov/2021-06-18-98
+
+*2. I lov 7. juni 1996 nr. 32 om gravplasser, kremasjon og gravferd skal § 16 andre ledd andre punktum lyde:*
+
+> Ved uenighet treffer gravplassmyndigheten avgjørelsen.
+>
+
 ### 2022-07-01 — forskrift/2022-06-17-1036
 
 *Loven tek til å gjelde 1. juli 2022.*
@@ -32,6 +95,17 @@ refid: "lov/1996-06-07-32"
 ### 2023-06-16 — lov/2023-06-16-40
 
 *Noverande §§ 26, 27 og 28 blir nye §§ 30 til 32.*
+
+### 2023-07-01 — forskrift/2023-06-16-898
+
+*Delt ikraftsetjing av Stortingets vedtak 5. juni 2023 til lov om endringar i gravplassloven m.m. (digitalisering av gravferdsmeldinga og behandling av personopplysningar). Følgjande tek til å gjelde 1. juli 2023:*
+
+> Delt ikraftsetjing av Stortingets vedtak 5. juni 2023 til lov om endringar i gravplassloven m.m. (digitalisering av gravferdsmeldinga og behandling av personopplysningar). Følgjande tek til å gjelde 1. juli 2023:
+>
+> Endringslova del I (gravplassloven) § 3, § 10 og § 23
+>
+> Endringslova del II.
+>
 
 ### 2024-07-01 — forskrift/2024-06-14-955
 
@@ -204,6 +278,22 @@ refid: "lov/1996-06-07-32"
 > Kirkelig fellesråd og kommunen kan uten hinder av taushetsplikt innhente opplysninger fra Folkeregisteret når det er nødvendig for å løse oppgaver etter loven her.
 >
 
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 23 første og annet ledd skal lyde:*
+
+> Det organet som etter Kirkemøtets beslutning opptrer på soknets vegne i saker som gjelder drift og forvaltning av gravplasser, er lokal gravplassmyndighet etter denne loven.
+>
+> Etter søknad fra kommunen kan fylkesmannen fastsette at ansvaret som lokal gravplassmyndighet etter loven skal ligge til kommunen.
+>
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 23 nytt femte ledd skal lyde:*
+
+> Lokal gravplassmyndighet, krematorium eller i særlige tilfeller annen virksomhet med oppgaver etter loven, skal skaffe til veie opplysninger og gi slik uttalelse som departementet ber om.
+>
+
 ### 2020-06-23 — lov/2020-06-23-97
 
 *§ 23 fjerde ledd skal lyde:*
@@ -247,6 +337,19 @@ refid: "lov/1996-06-07-32"
 > Graver for utenlandske soldater og krigsfanger (krigsgraver) fra første og andre verdenskrig skal være fredet uten tidsbegrensning, holdes i hevd og forvaltes med den verdighet som deres egenart tilsier.
 >
 
+## § 24
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 24 skal lyde:*
+
+> § 24.Klageadgang
+>
+> Enkeltvedtak som er truffet av gravplassmyndigheten eller kommunen etter loven eller etter regler i medhold av loven, kan påklages til fylkesmannen.
+>
+> Enkeltvedtak som er truffet av fylkesmannen etter loven eller etter regler i medhold av loven, kan påklages til departementet.
+>
+
 ## § 25
 
 ### 2023-06-16 — lov/2023-06-16-40
@@ -285,6 +388,15 @@ refid: "lov/1996-06-07-32"
 >
 
 ## § 3
+
+### 2020-04-24 — lov/2020-04-24-31
+
+*§ 3 annet og nytt tredje ledd skal lyde:*
+
+> Utgifter til anlegg, drift og forvaltning av gravplasser utredes av kommunen etter budsjettforslag fra soknet. Etter avtale med soknet kan kommunen yte tjenester i stedet for å gi tilskudd.
+>
+> Kommunen kan ta opp lån for å finansiere investeringer i gravplasser og tilhørende varige driftsmidler.
+>
 
 ### 2023-06-16 — lov/2023-06-16-40
 

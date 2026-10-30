@@ -7,6 +7,13 @@ refid: "lov/2001-01-05-1"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-74
+
+*214. I lov 5. januar 2001 nr. 1 om vaktvirksomhet skal § 16 lyde:*
+
+> Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av loven, straffes med bøter eller fengsel i inntil 3 måneder.
+>
+
 ### 2009-06-19 — lov/2009-06-19-85
 
 *Nåværende § 12 blir § 14.*
@@ -55,6 +62,24 @@ refid: "lov/2001-01-05-1"
 > Lov 19. juni 2009 nr. 85 om endringer i lov om vaktvirksomhet romertall I og II trer i kraft fra 1. april 2011.
 >
 
+## § 1
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 1 første ledd siste punktum skal lyde:*
+
+> Voldsoffererstatning ytes selv om gjerningspersonen ikke kan straffes fordi vedkommende var utilregnelig som nevnt i straffeloven § 20 første ledd, eller det foreligger overskridelse av nødverge som kan føre til straffritak etter straffeloven § 81 bokstav b nr. 2.
+>
+
+## § 12
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 12 første ledd skal lyde:*
+
+> Den som utfører vakttjeneste, har ingen adgang til bruk av fysisk makt utover den enhver har adgang til, jf. straffeloven § 18 og straffeprosessloven § 176 første ledd, jf. § 170 a.
+>
+
 ## § 19
 
 ### 2009-06-19 — lov/2009-06-19-85
@@ -79,6 +104,28 @@ refid: "lov/2001-01-05-1"
 *§ 19 første ledd skal lyde:*
 
 > Departementet skal gi forskrifter om egenvakthold, krav til uttømmende og utvidet politiattest for personer som nevnt i § 3, den nærmere gjennomføringen av § 4 første ledd annet punktum (årlig kontroll), § 8 første ledd første og annet punktum (kravet om tilfredsstillende vandel og om politiattest), § 9 (krav til utdanning, herunder om dispensasjon fra utdanningskravet og om godkjenning av utenlandske utdanninger), § 10 (uniformering), § 11 (legitimasjon), § 13 (bruk av hund) og § 16 (opplysnings- og rapporteringsplikt).
+>
+
+## § 20
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 20 skal lyde:*
+
+> § 20.Straff
+>
+> Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av loven, straffes med bøter eller fengsel i inntil 3 måneder.
+>
+> 179. I lov 20. april 2001 nr. 13 om erstatning fra staten for personskade voldt ved straffbar handling m.m. gjøres følgende endringer:
+>
+
+## § 6
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 6 annet punktum skal lyde:*
+
+> Ved krenking eller mislig adferd som nevnt i straffeloven §§ 299, 302 og 304 skal det ved utmålingen av oppreisningen særlig legges vekt på handlingens art, hvor lang tid forholdet har pågått, om handlingen er misbruk av slektskapsforhold, omsorgsforhold, avhengighetsforhold eller tillitsforhold, og om handlingen er begått på en særlig smertefull eller krenkende måte.
 >
 
 ## § 8

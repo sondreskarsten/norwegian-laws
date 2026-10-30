@@ -9,7 +9,10 @@ refid: "lov/2021-05-21-42"
 
 ### 2022-12-20 — lov/2022-12-20-115
 
-*I lov 21. mai 2021 nr. 42 om språk skal § 3 andre ledd bokstav d lyde:Stortinget, Riksrevisjonen, Sivilombodet og andre organ for Stortinget*
+*I lov 21. mai 2021 nr. 42 om språk skal § 3 andre ledd bokstav d lyde:*
+
+> Stortinget, Riksrevisjonen, Sivilombodet og andre organ for Stortinget
+>
 
 ### 2025-07-01 — forskrift/2025-06-20-1104
 

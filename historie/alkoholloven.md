@@ -597,6 +597,17 @@ refid: "lov/1989-06-02-27"
 > Utlevering av alkoholholdig drikk ved privat innførsel er forbudt på søn- og helligdager, 1. og 17. mai og julaften.
 >
 
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 2-5 første ledd bokstav c skal lyde:*
+
+> i Forsvarets tjeneste i utlandet, herunder militært tilsatte som deltar i internasjonale operasjoner,
+>
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 2-5 første ledd bokstav d oppheves. Nåværende bokstav e til i blir bokstav d til h.*
+
 ### 2020-06-23 — lov/2020-06-23-111
 
 *§ 2-5 første ledd skal lyde:*
@@ -1061,6 +1072,15 @@ refid: "lov/1989-06-02-27"
 > Departementet kan gi forskrifter som utfyller og presiserer innholdet i plikten til å utøve bevillingen i samsvar med bestemmelser gitt i eller i medhold av denne lov.
 >
 
+## § 4-19
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 4-19 første ledd skal lyde:*
+
+> Til medlem som i de siste 12 måneder før han eller hun søker dagpenger har utført minst tre måneders militærtjeneste eller obligatorisk sivilforsvarstjeneste, ytes det dagpenger uten hensyn til vilkårene i § 4-3 om tap av arbeidsinntekt og i § 4-4 om krav til minsteinntekt.
+>
+
 ## § 5-2
 
 ### 2004-12-17 — lov/2004-12-17-86
@@ -1080,21 +1100,6 @@ refid: "lov/1989-06-02-27"
 ### 2009-06-19 — lov/2009-06-19-74
 
 *§ 5-2 siste punktum oppheves.*
-
-> 133. I lov 16. juni 1989 nr. 54 om offisiell statistikk og Statistisk Sentralbyrå skal § 5-1 lyde:
->
-> (1) Overtredelse av § 2-2 eller vedtak med hjemmel i § 2-2 om oppgaveplikt, av § 2-5 om bruk av opplysninger eller av § 2-6 om offentliggjøring av opplysninger, kan straffes med bøter, med mindre overtredelsen faller inn under strengere straffebestemmelser.
->
-> (2) Brudd på taushetsplikt eller på vilkår etter § 2-5 kan straffes etter straffeloven § 209.
->
-> 134. I lov 16. juni 1989 nr. 59 om lostjenesten m.v. skal § 22 første ledd lyde:
->
-> Med bøter straffes den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av lovens kapittel III.
->
-> 135. I lov 27. april 1990 nr. 9 om regulering av eksporten av fisk og fiskevarer skal § 9 annet punktum lyde:
->
-> På samme måte straffes forsøk.
->
 
 ### 2011-05-06 — lov/2011-05-06-13
 
@@ -1126,6 +1131,15 @@ refid: "lov/1989-06-02-27"
 > Befalsmesser som drives i samsvar med retningslinjene for slik virksomhet kan gis bevilling av departementet til å skjenke alkoholholdig drikk.
 >
 > Når særlige grunner tilsier det, kan departementet gi Forsvaret og Direktoratet for samfunnssikkerhet og beredskap adgang til å gi skjenkebevilling til befalsmesser ved anlegg som av hensyn til rikets sikkerhet er sikkerhetsgradert.
+>
+
+## § 5-23
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 5-23 første ledd skal lyde:*
+
+> En menig som kan få helsetjenester i Forsvaret, har ikke rett til stønad etter dette kapitlet.
 >
 
 ## § 6-1
@@ -1419,6 +1433,33 @@ refid: "lov/1989-06-02-27"
 > Det er forbudt å selge, utlevere eller skjenke alkoholholdig drikk til personer som er åpenbart påvirket av rusmidler, eller skjenke alkoholholdig drikk på en slik måte at vedkommende må antas å bli åpenbart påvirket.
 >
 
+## § 8-24
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 8-24 tredje ledd bokstav d skal lyde:*
+
+> militærtjeneste.
+>
+
+## § 8-46
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 8-46 første ledd skal lyde:*
+
+> Et medlem som har utført militærtjeneste, har rett til sykepenger ved arbeidsuførhet uten hensyn til vilkårene i §§ 8-2 og 8-3 dersom arbeidsuførheten oppstår under tjenesten.
+>
+
+## § 8-47
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 8-47 tredje ledd bokstav a skal lyde:*
+
+> da medlemmet utfører militærtjeneste,
+>
+
 ## § 9-2
 
 ### 2004-12-17 — lov/2004-12-17-86
@@ -1653,6 +1694,50 @@ refid: "lov/1989-06-02-27"
 > Helsedirektoratet kan ilegge overtredelsesgebyr overfor virksomheter som forsettlig eller uaktsomt overtrerkravet om registrering i § 2-4 eller kravene i §§ 1-5, 2-5 og 8-11 ved utlevering av alkoholholdig drikk ved privat innførsel,kravene til bevillingshaver i §§ 6-6, 6-7 og 6-8 ellerreklameforbudet i §§ 9-1 og 9-2.
 >
 
+## § 13-8
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 13-8 skal lyde:*
+
+> § 13-8.Militærpersoner o.a.
+>
+> Følgende grupper av medlemmer er yrkesskadedekket:vernepliktige og frivillig tjenestegjørende etter forsvarsloven,tjenestepliktige og frivillig tjenestegjørende etter lov 25. juni 2010 nr. 45 om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret,tjenestepliktige og frivillig tjenestegjørende etter lov 21. november 1952 nr. 3 om tjenesteplikt i politiet,militært tilsatte etter forsvarsloven,personer som etter avtale deltar i Forsvarets tjeneste som lotter.
+>
+> Medlemmer som nevnt i første ledd bokstav a til c er yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått i tidsrommet fra de møter til tjeneste til de blir dimittert.
+>
+> Medlemmer som nevnt i første ledd bokstav d er yrkesskadedekket etter bestemmelsene som gjelder for arbeidstakere. Når medlemmene deltar i manøver eller utfører oppdrag under feltmessige forhold, gjelder likevel bestemmelsene i andre ledd i denne paragrafen. Når medlemmene tjenestegjør i internasjonale operasjoner, er de yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått under opphold i utlandet.
+>
+> Medlemmer som nevnt i første ledd bokstav e er yrkesskadedekket under kurs, øvelser og annen tjeneste for Forsvaret.
+>
+
+## § 13-14
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 13-14 første ledd skal lyde:*
+
+> Arbeidsgivere, rektorer, forlegningssjefer og andre i tilsvarende stilling plikter snarest å sende skademelding til Arbeids- og velferdsetaten når en arbeidstaker, elev, student, tjenestepliktig i Forsvaret osv. blir påført en skade eller sykdom som kan gi rett til yrkesskadedekning.
+>
+
+## § 14-6
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 14-6 fjerde ledd bokstav e skal lyde:*
+
+> avtjening av militærtjeneste eller obligatorisk sivilforsvarstjeneste.
+>
+
+## § 14-7
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*§ 14-7 tredje ledd skal lyde:*
+
+> Til et medlem som avtjener militærtjeneste eller obligatorisk sivilforsvarstjeneste i opptjeningstiden etter § 14-6, skal beregningsgrunnlaget minst svare til en årsinntekt på tre ganger grunnbeløpet, dersom tjenesten har vart eller var ment å vare mer enn 28 dager.
+>
+
 ## (annet)
 
 ### 2003-05-23 — lov/2003-05-23-34
@@ -1680,6 +1765,38 @@ refid: "lov/1989-06-02-27"
 > Kapittel 7. Gebyrer, avgifter og anvendelse av AS Vinmonopolets overskudd
 >
 
+### 2005-05-20 — lov/2005-05-20-28
+
+*5. I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. skal § 10-3 lyde:*
+
+> Dersom vilkårene for inndragning etter straffeloven er oppfylt, kan påtalemyndigheten beslutte at brennevin og gjærende eller gjæret udestillert væske tilintetgjøres. Det samme gjelder annen alkoholholdig drikk når den er skjenket i glass eller finnes i opptrukket flaske. Beslutning om inndragning av lovlig tilvirket brennevin skal være skriftlig og begrunnet. Eieren eller besitteren skal så vidt mulig underrettes om påtalemyndighetens beslutning ved kopi av beslutningen og kan kreve saken forelagt for retten innen 1 måned etter at beslaget ble foretatt.
+>
+
+### 2008-03-07 — lov/2008-03-07-4
+
+*6. I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. skal § 10-3 lyde:*
+
+> Dersom vilkårene for inndragning etter straffeloven er oppfylt, kan påtalemyndigheten beslutte at brennevin og gjærende eller gjæret udestillert væske tilintetgjøres. Det samme gjelder annen alkoholholdig drikk når den er skjenket i glass eller finnes i opptrukket flaske. Beslutning om inndragning av lovlig tilvirket brennevin skal være skriftlig og begrunnet. Eieren eller besitteren skal så vidt mulig underrettes om påtalemyndighetens beslutning ved kopi av beslutningen og kan kreve saken forelagt for retten innen 1 måned etter at beslaget ble foretatt.
+>
+
+### 2009-01-09 — lov/2009-01-09-2
+
+*5. I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk mv. (alkoholloven) skal § 9-5 annet ledd lyde:*
+
+> Ved behandlingen i Markedsrådet gjelder de saksbehandlingsregler som er gitt i eller i medhold av markedsføringsloven så langt de passer.
+>
+> 6. I lov 18. desember 1981 nr. 90 om merking av forbruksvarer mv. oppheves § 8 annet ledd.
+>
+
+### 2009-06-19 — lov/2009-06-19-103
+
+*13. I lov 2. juni 1989 nr. 27 om omsetning av alkoholdig drikk m.v., skal ny § 1-11 lyde:*
+
+> § 1-11.Saksbehandlingsregler
+>
+> Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven for bevillinger og andre tillatelser i loven her, herunder om saksbehandlingsfrister og rettsvirkninger av fristoverskridelser. Saksbehandlingsreglene kan fravike reglene i forvaltningsloven.
+>
+
 ### 2011-05-06 — lov/2011-05-06-13
 
 *Kapittel 3 del II overskriften skal lyde:*
@@ -1691,6 +1808,13 @@ refid: "lov/1989-06-02-27"
 ### 2011-12-09 — lov/2011-12-09-50
 
 *Nåværende § 7-3 blir § 7-2.*
+
+### 2012-01-01 — forskrift/2011-05-06-466
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
 
 ### 2015-01-01 — forskrift/2014-12-12-1595
 
@@ -1717,15 +1841,75 @@ refid: "lov/1989-06-02-27"
 > Loven trer i kraft fra 1. januar 2016.
 >
 
+### 2016-07-01 — forskrift/2016-06-17-708
+
+*Loven trer i kraft fra 1. juli 2016.*
+
+> Loven trer i kraft fra 1. juli 2016.
+>
+
+### 2016-08-12 — lov/2016-08-12-77
+
+*9. I lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. skal § 5-3 lyde:*
+
+> § 5-3.Skjenkebevilling til Forsvarets messer for militært tilsatte m.v.
+>
+> Messer for militært tilsatte som drives i samsvar med retningslinjene for slik virksomhet kan gis bevilling av departementet til å skjenke alkoholholdig drikk.
+>
+> Når særlige grunner tilsier det, kan departementet gi Forsvaret og Direktoratet for samfunnssikkerhet og beredskap adgang til å gi skjenkebevilling til messer for militært tilsatte ved anlegg som av hensyn til rikets sikkerhet er sikkerhetsgradert.
+>
+> Før bevilling etter første ledd blir gitt, skal det foreligge uttalelser fra politiet, sosialtjenesten og kommunestyret. Melding om gitte bevillinger sendes politiet.
+>
+> Departementet fastsetter de nærmere vilkår og innskrenkninger for utøvelsen av bevillingen som det til enhver tid finner nødvendig.
+>
+> For øvrig gis bevillingen etter første ledd etter bestemmelsene i kapittel 4.
+>
+> 10. I lov 16. juni 1989 nr. 65 om yrkesskadeforsikring skal § 2 bokstav b lyde:arbeidstaker: enhver som gjør arbeid eller utfører verv i arbeidsgiverens tjeneste, herunder ombudsmann i offentlig virksomhet, tjenestepliktige i Forsvaret og andre under pålagt tjenestegjøring for det offentlige, samt innsatte, pasienter e.l. som deltar i arbeidsvirksomhet i kriminalomsorgens anstalter, i helseinstitusjoner e.l.
+>
+> 11. I lov 28. februar 1997 nr. 19 om folketrygd gjøres følgende endringer:
+>
+
+### 2017-07-01 — forskrift/2017-06-16-778
+
+*Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.*
+
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. trer i kraft fra 1. juli 2017.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *Kapittel 10 skal lyde:*
+
+### 2018-06-22 — lov/2018-06-22-76
+
+*Lov 17. desember 2004 nr. 86 om endringer i lov 2. juni 1989 nr. 27 om omsetning av alkoholholdig drikk m.v. og enkelte andre lover oppheves.*
+
+### 2018-11-01 — forskrift/2018-09-28-1482
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall I § 3-1 tredje ledd, § 3-1b første ledd, § 4-4 åttende ledd og § 5-2 første ledd, og romertall*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall I § 3-1 tredje ledd, § 3-1b første ledd, § 4-4 åttende ledd og § 5-2 første ledd, og romertall IV § 56a trer i kraft 1. november 2018.
+>
+
+### 2020-07-01 — forskrift/2020-05-20-1032
+
+*Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestilli*
+
+> Delt ikraftsetting av endringsloven. Endringsloven trer i kraft 1. juli 2020 med unntak av del I, endringer i lov 9. januar 2009 nr. 2 om kontroll med markedsføring og avtalevilkår mv. § 44 tredje ledd og § 47, del V, endringer i lov 4. desember 1992 nr. 127 om kringkasting og audiovisuelle bestillingstjenester og del VI, endringer i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 a.
+>
 
 ### 2020-09-01 — forskrift/2020-06-23-1297
 
 *Loven trer i kraft 1. september 2020.*
 
 > Loven trer i kraft 1. september 2020.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2024-06-21 — lov/2024-06-21-43
@@ -1735,6 +1919,13 @@ refid: "lov/1989-06-02-27"
 ### 2024-06-21 — lov/2024-06-21-43
 
 *Nåverande fjerde til syvende ledd blir tredje til sjette ledd.*
+
+### 2024-07-01 — forskrift/2024-06-21-1101
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
 
 ### 2024-09-17 — forskrift/2024-09-13-2148
 
@@ -1750,6 +1941,17 @@ refid: "lov/1989-06-02-27"
 > § 9-6. Begrensninger i omgjørings- og instruksjonsmyndighet
 >
 > Kongen kan ikke instruere Helsedirektoratet om behandlingen av enkeltsaker etter § 9-2 som retter seg mot tilbydere av fjernsyn, audiovisuelle bestillingstjenester eller videodelingsplattformer, eller omgjøre Helsedirektoratets vedtak i slike saker.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ### 2026-05-29 — lov/2026-05-29-21

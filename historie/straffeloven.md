@@ -5,7 +5,43 @@ refid: "lov/2005-05-20-28"
 
 # Endringshistorikk: Straffeloven – strl.
 
+## § 3-1
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 3-1 tredje ledd skal lyde:*
+
+> Aksjeloven og samvirkeloven gjelder ikke for gjensidige forsikringsselskaper, med mindre noe annet er bestemt i eller i medhold av loven her.
+>
+
+## § 4-1
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 4-1 andre ledd andre punktum skal lyde:*
+
+> Like med personer som er bosatt i riket, regnes staten og norske kommuner samt norske selskaper med begrenset ansvar, samvirkeforetak, foreninger og stiftelser.
+>
+
+## § 5-3
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 5-3 nytt andre punktum skal lyde:*
+
+> For gjensidige forsikringsselskaper med mer enn 1 000 medlemmer på tidspunktet for valg av styremedlemmer gjelder samvirkeloven § 69 tilsvarende.
+>
+
 ## (annet)
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*37. I lov 20. mai 2005 nr. 28 om straff (straffeloven) skal § 27 andre ledd lyde:*
+
+> Med foretak menes selskap, samvirkeforetak, forening eller annen sammenslutning, enkeltpersonforetak, stiftelse, bo eller offentlig virksomhet.
+>
+> 38. I lov 10. juni 2005 nr. 44 om forsikringsselskaper, pensjonsforetak og deres virksomhet mv. blir det gjort følgjande endringar:
+>
 
 ### 2008-03-07 — lov/2008-03-07-4
 
@@ -59,24 +95,20 @@ refid: "lov/2005-05-20-28"
 
 *1. Militær straffelov 22. mai 1902 nr. 13 § 107 oppheves.*
 
-> 2. Lov 13. desember 1946 nr. 14 om straff for utlendske krigsbrotsmenn oppheves.
->
-> 3. I lov 13. juni 1975 nr. 39 om utlevering av lovbrytere mv. skal § 9 annet punktum lyde:
->
-> Utlevering kan likevel skje dersom siktelsen, tiltalen eller domfellelsen gjelder folkemord, forbrytelse mot menneskeheten, og har en strafferamme på fengsel i 15 år eller mer.
+### 2010-06-11 — forskrift/2010-05-07-653
+
+*Lov om endringer i finansavtaleloven mv. (gjennomføring av direktiv 2008/48/EF om kredittavtaler for forbrukere mv.) trer i kraft 11. juni 2010.*
+
+> Lov om endringer i finansavtaleloven mv. (gjennomføring av direktiv 2008/48/EF om kredittavtaler for forbrukere mv.) trer i kraft 11. juni 2010.
 >
 
-### 2009-06-19 — lov/2009-06-19-74
+### 2010-12-10 — forskrift/2010-12-10-1574
 
-*Nåværende § 402 blir § 412 og skal lyde:*
+*Delt ikraftsetting av lovendringene.*
 
-> § 412.Endringer i andre lover
+> Delt ikraftsetting av lovendringene.
 >
-> Med virkning fra den tid hele straffeloven 20. mai 2005 nr. 28 settes i kraft, gjøres følgende endringer i annen lovgivning:
->
-> 1. I lov 2. oktober 1751 Første Codicill og Tillæg til Grendse-Tractaten imellem Kongerigerne Norge og Sverrig Lapperne betreffende (Lappekodisillen) skal § 19 siste punktum lyde:
->
-> For hver Gang saadan lovbrud skeer, fordobles Straffen; forgriber Lappen sig paa bemelte Personer videre, end det til simpel Opsetsighet kand regnes, Straffes han desuden derfor efter Loven.
+> Lovendringene, med unntak av endringene i domstolloven § 159a og straffeprosessloven § 42, § 107b, § 109a, § 149a, § 185, § 248, § 271 og § 272, trer i kraft 10. desember 2010.
 >
 
 ### 2011-06-24 — lov/2011-06-24-32
@@ -91,6 +123,13 @@ refid: "lov/2005-05-20-28"
 ### 2011-09-16 — lov/2011-09-16-41
 
 *I lov 20. mai 2005 nr. 28 om straff § 412 nr. 50 om endringer i lov 28. juni 1957 nr. 16 om friluftslivet oppheves ny § 10 a.*
+
+### 2012-01-01 — forskrift/2011-09-16-949
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
 
 ### 2012-01-20 — lov/2012-01-20-6
 
@@ -119,6 +158,13 @@ refid: "lov/2005-05-20-28"
 > Reglene om forsvarer og om pågripelse og varetektsfengsel i straffeprosessloven § 96 tredje ledd og § 99 første ledd tredje punktum og kapittel 14 gjelder tilsvarende. Reglene om varsling i straffeprosessloven § 243 gjelder tilsvarende for rettsmøter om omgjøring. Kriminalomsorgen skal varsles etter de samme regler som påtalemyndigheten.
 >
 
+### 2012-01-20 — forskrift/2012-01-20-41
+
+*Lovendringene i straffeloven § 18, § 28 annet ledd, § 28a annet ledd og § 39c annet ledd, straffeprosessloven § 69 annet ledd tredje punktum, § 98 første ledd annet punktum, § 161a, § 183 annet og tredje ledd, § 184 annet ledd annet punktum, § 185 annet ledd, § 186 annet ledd tredje punktum og § 186*
+
+> Lovendringene i straffeloven § 18, § 28 annet ledd, § 28a annet ledd og § 39c annet ledd, straffeprosessloven § 69 annet ledd tredje punktum, § 98 første ledd annet punktum, § 161a, § 183 annet og tredje ledd, § 184 annet ledd annet punktum, § 185 annet ledd, § 186 annet ledd tredje punktum og § 186a, del VI, straffegjennomføringsloven § 6 tredje ledd, § 10 fjerde ledd, § 11 femte ledd, § 16 første ledd annet punktum og annet ledd, straffeloven 2005 § 40 første ledd annet punktum, § 48 annet ledd, § 53 fjerde ledd, § 55 tredje ledd og § 78 bokstav h og i, samt del XII trer i kraft straks.
+>
+
 ### 2012-05-11 — lov/2012-05-11-26
 
 *I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd lyde:*
@@ -126,17 +172,182 @@ refid: "lov/2005-05-20-28"
 > Den som alvorlig eller gjentatte ganger unndrar en umyndig eller holder denne unndratt fra noen som i henhold til lov, avtale eller rettsavgjørelse skal ha den umyndige boende fast hos seg, eller som urettmessig unndrar den umyndige fra noen som har omsorgen etter barnevernloven, straffes med bot eller fengsel inntil 2 år. På samme måte straffes den som tar en umyndig ut av landet eller holder tilbake en umyndig i utlandet og ved det ulovlig unndrar den umyndige fra noen som i henhold til lov, avtale eller rettsavgjørelse har foreldreansvar eller som har omsorgen etter barnevernloven.
 >
 
+### 2013-04-05 — lov/2013-04-05-12
+
+*50. I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd lyde:*
+
+> Den som alvorlig eller gjentatte ganger unndrar en mindreårig eller holder denne unndratt fra noen som i henhold til lov, avtale eller rettsavgjørelse skal ha den mindreårige boende fast hos seg, eller som urettmessig unndrar den mindreårige fra noen som har omsorgen etter barnevernloven, straffes med bot eller fengsel inntil 2 år. På samme måte straffes den som tar en mindreårig ut av landet eller holder tilbake en mindreårig i utlandet og ved det ulovlig unndrar den mindreårige fra noen som i henhold til lov, avtale eller rettsavgjørelse har foreldreansvar eller som har omsorgen etter barnevernloven.
+>
+
 ### 2013-06-21 — lov/2013-06-21-85
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
 
+### 2013-06-21 — forskrift/2013-06-21-687
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2013-07-01 — forskrift/2013-05-31-543
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
 ### 2014-03-28 — lov/2014-03-28-9
 
-*I lov 20. mai 2005 nr. 28 om straff skal § 240 annet ledd bokstav b lyde:påfører betydelig skade på område som er vernet etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, viltloven § 7, svalbardmiljøloven kapittel III, lov om Jan Mayen § 2 eller lov om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. § 2.*
+*I lov 20. mai 2005 nr. 28 om straff skal § 240 annet ledd bokstav b lyde:*
+
+> påfører betydelig skade på område som er vernet etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, viltloven § 7, svalbardmiljøloven kapittel III, lov om Jan Mayen § 2 eller lov om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. § 2.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
+>
+
+### 2014-06-01 — forskrift/2014-03-28-371
+
+*Loven trer i kraft 1. juni 2014.*
+
+> Loven trer i kraft 1. juni 2014.
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*Nåværende bokstav j blir ny bokstav k.*
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*I § 52 a, slik ny § 52 a lyder etter endringer ved lov 20. januar 2012 nr. 6 del X, skal første ledd innledningen lyde:*
+
+> Ungdomsstraff med ungdomsstormøte og ungdomsplan etter konfliktrådsloven kapittel IV kan idømmes i stedet for fengselsstraff når
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*I § 52 b, slik ny § 52 b lyder etter endringer ved lov 20. januar 2012 nr. 6 del X, skal annet ledd lyde:*
+
+> Når en dom på ungdomsstraff blir lest opp eller forkynt for den domfelte, skal han gjøres nærmere kjent med hva dommen går ut på, og med følgene av brudd på bestemmelsene gitt i eller i medhold av konfliktrådsloven § 31, og av at det begås en ny straffbar handling før utløpet av gjennomføringstiden.
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*I § 52 c, slik ny § 52 c lyder etter endringer ved lov 20. januar 2012 nr. 6 del X, skal første ledd bokstav a lyde:*
+
+> brutt bestemmelser gitt i eller i medhold av konfliktrådsloven § 31, eller
+>
+> I § 53, slik § 53 lyder etter endringer ved lov 20. januar 2012 nr. 6 del X, skal fjerde ledd fjerde punktum lyde:
+>
+> I tillegg kan retten fastsette særvilkår som nevnt i § 36 og § 37 bokstav a til j.
+>
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*Nåværende åttende ledd blir nytt niende ledd.*
+
+### 2014-07-01 — forskrift/2014-06-13-721
+
+*Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 f*
+
+> Lovendringene i straffeloven § 15, § 28 c, § 53 nr. 3 bokstav c, § 53 nr. 3 bokstav h, § 53 nr. 6, straffeprosessloven § 76 femte ledd, § 96 tredje ledd, § 99 første ledd tredje punktum, § 100 annet ledd annet punktum, § 107 a første ledd bokstav d, del V, del VII, del VIII, straffeloven 2005 § 29 første ledd, § 30 første ledd bokstav g, § 37 første ledd bokstav d, § 37 første ledd bokstav i, § 52 a, § 52 b og § 52 c, samt del XI trer i kraft 1. juli 2014.
+>
+
+### 2015-05-29 — forskrift/2015-05-29-553
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*I lov 20. mai 2005 nr. 28 om straff skal § 411 første ledd lyde:*
+
+> Loven trer i kraft 1. oktober 2015. Fra samme tid oppheves straffeloven 22. mai 1902 nr. 10. Forskrifter gitt i medhold av straffeloven 1902 gjelder også etter at loven her har trådt i kraft.
+>
+> Med virkning fra den tid straffeloven 2005 trer i kraft oppheves følgende lover:lov 18. august 1914 nr. 3 om forsvarshemmeligheterlov 25. juni 1926 nr. 4 om straff for å delta i og medvirke til smugling på andre landlov 17. juni 1932 nr. 2 om enkelte bestemmelser om fremmede konsulers rettsstillinglov 19. mars 1937 nr. 1 angående forholdsregler for å hindre deltagelse i krig i fremmed landlov 13. mai 1937 nr. 1 om forbud mot å bære uniform m.v.lov 15. desember 1995 nr. 74 om forbud mot kjønnslemlestelselov 29. juni 2007 nr. 83 om endringer i straffegjennomføringsloven og straffeloven (opplysningsplikt, vandelskrav og varsel til fornærmede mv.)lov 29. juni 2007 nr. 84 om endringer i straffegjennomføringsloven mv. (tiltak for å avvikle soningskøen og bedre innholdet i soningen)
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende femte ledd blir sjette ledd.*
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende annet punktum blir tredje punktum, og skal lyde:*
+
+> Verv som medlem av kommunestyre, fylkesting eller Stortinget kan bare fratas for valgperioden.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Nåværende tredje punktum blir fjerde punktum.*
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1625
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
+### 2016-04-22 — forskrift/2016-04-22-407
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-669
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-670
+
+*Loven trer i kraft 1. juli 2016.*
+
+> Loven trer i kraft 1. juli 2016.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-708
+
+*Loven trer i kraft fra 1. juli 2016.*
+
+> Loven trer i kraft fra 1. juli 2016.
+>
+
+### 2016-10-01 — forskrift/2016-09-09-1045
+
+*Lov 29. april 2016 nr. 7 om endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.) trer i kraft 1. oktober 2016.*
+
+> Lov 29. april 2016 nr. 7 om endringer i straffeloven 2005 mv. (strafferettslige særreaksjoner m.m.) trer i kraft 1. oktober 2016.
+>
 
 ### 2016-12-16 — lov/2016-12-16-98
 
 *Nåværende tredje til sjette ledd blir nye fjerde til sjuende ledd.*
+
+### 2017-01-01 — forskrift/2016-12-16-1604
+
+*Loven trer i kraft fra 1. januar 2017.*
+
+> Loven trer i kraft fra 1. januar 2017.
+>
 
 ### 2017-06-21 — lov/2017-06-21-94
 
@@ -145,15 +356,124 @@ refid: "lov/2005-05-20-28"
 > Med bot eller fengsel inntil 2 år straffes den som forsettlig eller grovt uaktsomt, og gjentatt eller på graverende måte, overtrer bestemmelsene om ulovlig innføring, avhendelse, erverv eller besittelse av skytevåpen eller ammunisjon i våpenloven.
 >
 
+### 2017-07-01 — forskrift/2017-06-21-821
+
+*Loven trer i kraft 1. juli 2017.*
+
+> Loven trer i kraft 1. juli 2017.
+>
+
+### 2018-05-06 — forskrift/2018-04-27-642
+
+*Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.*
+
+> Ikraftsetting av lov 21. juni 2017 nr. 94 om endringer i politiregisterloven mv. (gjennomføring av direktiv (EU) 2016/680 mv.). Loven trer i kraft 6. mai 2018.
+>
+
+### 2018-06-01 — forskrift/2018-06-01-790
+
+*Loven gjelder fra 1. juni 2018.*
+
+> Loven gjelder fra 1. juni 2018.
+>
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>
+
+### 2019-01-01 — forskrift/2018-04-20-600
+
+*Delt ikraftsetting av endringsloven. Loven trer i kraft 1. januar 2019, med unntak av endringen i barneloven § 56 andre ledd andre punktum.*
+
+> Delt ikraftsetting av endringsloven. Loven trer i kraft 1. januar 2019, med unntak av endringen i barneloven § 56 andre ledd andre punktum.
+>
+
+### 2019-01-01 — forskrift/2018-05-25-759
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-06-07 — forskrift/2019-06-07-705
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2019-06-21 — lov/2019-06-21-48
 
 *Nåværende bokstav i og j blir bokstav h og i.*
+
+### 2019-07-01 — forskrift/2019-06-21-779
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2020-01-01 — forskrift/2019-11-22-1548
+
+*Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.*
+
+> Ikraftsetting av lov 21. juni 2019 nr. 52 om endringer i andre lover som følge av lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven). Loven trer i kraft 1. januar 2020.
+>
+
+### 2020-07-01 — forskrift/2020-05-29-1107
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2020-07-01 — forskrift/2020-06-19-1252
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2020-12-04 — forskrift/2020-12-04-2592
+
+*Delt ikraftsetting av loven. Loven del I, endringene i straffeprosessloven § 84, § 94, § 96, § 157, § 188, § 196, § 216a, § 216m, § 216o, § 251, § 409 og § 459, del II, endringene i voldsoffererstatningsloven § 1, del III, endringene i straffeloven § 27, § 67, § 332 og § 337, og del IV, endringene i*
+
+> Delt ikraftsetting av loven. Loven del I, endringene i straffeprosessloven § 84, § 94, § 96, § 157, § 188, § 196, § 216a, § 216m, § 216o, § 251, § 409 og § 459, del II, endringene i voldsoffererstatningsloven § 1, del III, endringene i straffeloven § 27, § 67, § 332 og § 337, og del IV, endringene i politiregisterloven § 12, trer i kraft straks. Loven for øvrig trer i kraft 1. januar 2021.
+>
 
 ### 2021-04-01 — forskrift/2021-03-05-606
 
 *Loven del II trer i kraft 1. april 2021.*
 
 > Loven del II trer i kraft 1. april 2021.
+>
+
+### 2021-04-16 — forskrift/2021-04-16-1182
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1415
+
+*---*
+
+> ---
+>
+> Endringsloven trer i kraft 1. juni 2021.
+>
+> Ikraftsetting av lov 20. april 2018 nr. 7 om våpen, skytevåpen, våpendelar og ammunisjon (våpenlova). Loven trer i kraft 1. juni 2021.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*17. I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd lyde:*
+
+> Den som alvorlig eller gjentatte ganger unndrar en mindreårig eller holder denne unndratt fra noen som i henhold til lov, avtale eller rettsavgjørelse skal ha den mindreårige boende fast hos seg, eller som urettmessig unndrar den mindreårige fra noen som har omsorgen etter barnevernsloven, straffes med bot eller fengsel inntil 2 år. På samme måte straffes den som tar en mindreårig ut av landet eller holder tilbake en mindreårig i utlandet og ved det ulovlig unndrar den mindreårige fra noen som i henhold til lov, avtale eller rettsavgjørelse har foreldreansvar. Tilsvarende gjelder der det er fattet vedtak om omsorgsovertakelse, flytteforbud eller institusjonsplassering etter barnevernsloven §§ 5-1, § 4-3, 6-2 eller § 6-6 eller der begjæring om slike tiltak er sendt barneverns- og helsenemnda etter barnevernsloven § 14-9, eller der det i en akuttsituasjon er iverksatt midlertidig vedtak etter barnevernsloven §§ 4-2, 4-4 og 4-5.
 >
 
 ### 2021-06-18 — lov/2021-06-18-117
@@ -171,6 +491,31 @@ refid: "lov/2005-05-20-28"
 > Medvirkning straffes ikke.
 >
 
+### 2021-07-01 — forskrift/2021-06-11-1865
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-07-01 — forskrift/2021-06-11-1872
+
+*Delt ikraftsetting av lov 10. juni 2021*
+
+> Delt ikraftsetting av lov 10. juni 2021
+>
+> om endringer i arbeidsmiljøloven mv. (tiltak for å bekjempe arbeidslivskriminalitet). Endringsloven trer i kraft 1. januar 2022 med unntak av del I, som trer i kraft 1. juli 2021.
+>
+> Skal være lov 11. juni 2021 nr. 59 om endringer i arbeidsmiljøloven mv. (tiltak for å bekjempe arbeidslivskriminalitet). Lovtidend-redaksjonens anmerkning.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-1963
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2022-05-12 — lov/2022-05-12-28
 
 *5.I lov 20. mai 2005 nr. 28 om straff skal § 211 lyde:*
@@ -178,6 +523,51 @@ refid: "lov/2005-05-20-28"
 > § 211. Brudd på taushetsplikt for enkelte yrkesgrupper
 >
 > Med bot eller fengsel inntil 1 år straffes prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, forsvarere i straffesaker, meklingsmenn i ekteskapssaker, og disses hjelpere, som uberettiget røper eller unnlater å hindre at andre får adgang eller kjennskap til hemmeligheter som er betrodd dem eller deres foresatte i anledning av stillingen eller oppdraget.
+>
+
+### 2022-06-22 — forskrift/2022-06-22-1141
+
+*Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft 1. januar 2023:*
+
+> Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I (bildeprogramloven)
+>
+> Endringsloven del II (straffeloven)
+>
+> Delt ikraftsetting av vedtak 13. juni 2022 til til lov om endringer i bildeprogramloven mv. (oppheving av statlig forhåndskontroll av kinofilm). Følgende trer i kraft straks:
+>
+> Endringsloven del III (diskrimineringsombudsloven).
+>
+
+### 2022-07-01 — forskrift/2021-09-24-2837
+
+*Ikraftsetting av lov 18. juni 2021 nr. 117 om endringer i straffeloven. Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 117 om endringer i straffeloven. Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-547
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
@@ -192,6 +582,43 @@ refid: "lov/2005-05-20-28"
 *Loven trer i kraft 1. januar 2024.*
 
 > Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-04-08 — forskrift/2024-03-22-488
+
+*Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.*
+
+> Ikraftsetting av lov 20. desember 2023 nr. 111 om endringer i straffeprosessloven mv. (elektronisk kontroll av besøksforbud). Loven trer i kraft 8. april 2024.
+>
+
+### 2024-05-01 — forskrift/2024-03-22-553
+
+*Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.*
+
+> Delt ikraftsetjing av lov 16. juni 2023 nr. 62 om valg til Stortinget, fylkesting og kommunestyrer (valgloven). Lova tek til å gjelde 1. mai 2024, med unntak av endringane i partilova § 3, § 4 og § 9 i vallova § 22-2 nr. 3.
+>
+
+### 2024-05-24 — forskrift/2024-05-24-811
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 105 om endringer i straffegjennomføringsloven mv. (gjennomføringstiden for straffegjennomføring med elektronisk kontroll mv.).
+>
+> Endringene i straffegjennomføringsloven § 10 under del I trer i kraft straks.
+>
+> Delt ikraftsetting av lov 20. desember 2023 nr. 110 om endringer i konfliktrådsloven, straffeloven og straffeprosessloven mv. (strafferettslige reaksjoner for ungdom og varetekt med elektronisk kontroll).
+>
+> Følgende trer i kraft straks:
+>
+> endringene i straffeloven § 361 første ledd bokstav a under del II
+>
+> endringene i straffeprosessloven § 21a tredje ledd, § 28 femte ledd, § 56 første ledd fjerde punktum, § 57 første ledd tredje punktum, § 230 andre ledd første punktum og § 434 sjette ledd under del III
+>
+> endringene i domstolloven § 41 første ledd under del IV
+>
+> del XI med unntak av endringene i oreigningslova § 30.
+>
+> Loven for øvrig trer i kraft 1. september 2024, med unntak av endringene i straffeprosessloven § 184b under del III og endringene i oreigningslova § 30 under del XI.
 >
 
 ### 2024-05-31 — lov/2024-05-31-25
@@ -212,9 +639,30 @@ refid: "lov/2005-05-20-28"
 > Med bot eller fengsel inntil 1 år straffes prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, forsvarere i straffesaker, meklingsmenn i ekteskapssaker, og disses hjelpere, som uberettiget røper eller unnlater å hindre at andre får adgang eller kjennskap til hemmeligheter som er betrodd dem eller deres foresatte i anledning av stillingen eller oppdraget.
 >
 
+### 2024-07-01 — forskrift/2024-05-31-871
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2024-11-29 — lov/2024-11-29-73
 
 *Nåværende andre ledd blir tredje ledd.*
+
+### 2024-12-01 — forskrift/2024-11-29-2890
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. desember 2024, med unntak av endringene under del V.
+>
+
+### 2025-01-01 — forskrift/2024-10-11-2461
+
+*Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.*
+
+> Delt ikraftsetting av lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand. Loven trer i kraft 1. januar 2025 med unntak av § 24, § 41 tredje ledd og § 42 andre ledd andre punktum.
+>
 
 ### 2025-06-10 — lov/2025-06-10-33
 
@@ -241,6 +689,41 @@ refid: "lov/2005-05-20-28"
 *I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd tredje punktum lyde:*
 
 > Tilsvarende gjelder der det er fattet vedtak om omsorgsovertakelse, flytteforbud, utreiseforbud eller institusjonsplassering etter barnevernsloven §§ 5-1, 4-3, 5-13, 6-2 eller 6-6 eller der en begjæring om slike tiltak er sendt barneverns- og helsenemnda etter barnevernsloven § 14-9, eller der det i en akuttsituasjon er iverksatt midlertidig vedtak etter barnevernsloven §§ 4-2, 4-4 og 4-5 eller er fattet akuttvedtak etter barnevernsloven § 4-6.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-966
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
+>
+
+### 2026-01-23 — forskrift/2026-01-23-68
+
+*Følgende endringer trer i kraft straks:*
+
+> Følgende endringer trer i kraft straks:
+>
+> Endringsloven del I (passloven)
+>
+> Endringsloven del III (ID-kortloven)
+>
+> Endringsloven del IV (barnevernsloven)
+>
+> Følgende endringer trer i kraft 15. april 2026
+>
+> Endringsloven del II (straffeloven)
 >
 
 ### 2026-04-10 — forskrift/2026-04-10-567
@@ -272,11 +755,31 @@ refid: "lov/2005-05-20-28"
 > Ilagt inndragning av utbytte kan fullbyrdes etter den ansvarliges død, dersom det blir besluttet ved kjennelse av den retten som har pådømt saken i første instans, eller av den tingrett som saken hører under etter straffeprosessloven § 12 når inndragningen er vedtatt ved forelegg. Retten kan beslutte inndragning av et beløp istedenfor en ting.
 >
 
+### 2026-07-01 — forskrift/2026-06-19-1146
+
+*Loven trer i kraft 1. juli 2026 med følgende unntak:*
+
+> Loven trer i kraft 1. juli 2026 med følgende unntak:
+>
+> Endringen i loven del I nr. 16 av rettsgebyrloven § 14 første ledd annet punktum trer i kraft når lov 20. juni 2025 nr. 40 om barn og foreldre trer i kraft.
+>
+> Endringene i loven del I nr. 30 av utlendingsloven §§ 103b og 104a trer i kraft når §§ 103b og 104a blir tilføyd ved ikrafttredelsen av lov 20. desember 2022 nr. 120 om endringer i utlendingsloven (visitasjon og undersøkelse i forbindelse med registrering av søknad om beskyttelse mv.).
+>
+
 ### 2026-07-01 — forskrift/2026-06-23-1238
 
 *Loven trer i kraft 1. juli 2026.*
 
 > Loven trer i kraft 1. juli 2026.
+>
+
+## § 10
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 10 annet ledd annet punktum skal lyde:*
+
+> Består handlingen i fremsettelse av en ytring, er handlingen også offentlig når ytringen er fremsatt på en måte som gjør den egnet til å nå et større antall personer.
 >
 
 ## § 100
@@ -391,7 +894,9 @@ refid: "lov/2005-05-20-28"
 
 *§ 135 første ledd bokstav a og b skal lyde:*
 
-> til å utføre en handling som nevnt i §§ 131, 134, 136 b eller §§ 137 til 144,av en person eller gruppe som har til formål å begå handlinger som nevnt i §§ 131, 134, 136 b eller §§ 137 til 144, når personen eller gruppen har tatt skritt for å realisere formålet med ulovlige midler,
+> til å utføre en handling som nevnt i §§ 131, 134, 136 b eller §§ 137 til 144,
+>
+> av en person eller gruppe som har til formål å begå handlinger som nevnt i §§ 131, 134, 136 b eller §§ 137 til 144, når personen eller gruppen har tatt skritt for å realisere formålet med ulovlige midler,
 >
 
 ## § 136
@@ -624,6 +1129,15 @@ refid: "lov/2005-05-20-28"
 
 ## § 168
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 168 skal lyde:*
+
+> § 168.Brudd på oppholds- og kontaktforbud
+>
+> Med bot eller fengsel inntil 1 år straffes den somved dom er forvist til eller fra bestemte deler av riket og som rettsstridig igjen oppholder seg på et sted der dette er forbudt for vedkommende, eller som på annen måte bryter kontaktforbud i medhold av straffeloven § 57,krenker forbud etter straffeprosessloven §§ 222 a eller 222 b, ellerforsettlig eller grovt uaktsomt hindrer at elektronisk kontroll i medhold av straffeloven § 57 kan iverksettes eller hindrer pågående kontroll.
+>
+
 ### 2019-06-21 — lov/2019-06-21-50
 
 *§ 168 skal lyde:*
@@ -654,6 +1168,15 @@ refid: "lov/2005-05-20-28"
 *§ 169 andre ledd skal lyde:*
 
 > Hvis forholdet ikke rammes av en strengere straffebestemmelse, straffes på samme måte den som tross pålegg fra en alminnelig eller særskilt namsmyndighet forsettlig eller uaktsomt unnlater å foreta utleggstrekk eller å betale beløp som er trukket slik det er bestemt.
+>
+
+## § 170
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 170 bokstav c skal lyde:*
+
+> trykker opp, frembyr for salg eller utleie eller søker alminnelig utbredt innholdet av en informasjonsbærer som nevnt i § 76 når den er beslaglagt eller inndratt fordi den strider mot § 185 eller § 267, eller som på annen måte er erklært beslaglagt eller inndratt for mindre enn 15 år siden.
 >
 
 ## § 174
@@ -689,6 +1212,17 @@ refid: "lov/2005-05-20-28"
 > Grov tvungen forsvinning straffes med fengsel inntil 21 år.
 >
 > Ved avgjørelsen av om en tvungen forsvinning er grov, skal det særlig legges vekt påom den fornærmede som følge av forsvinningen dør eller får betydelig skade på kropp eller helse,om den fornærmede var syk eller såret, gravid, mindreårig, hadde nedsatt funksjonsevne eller på annen måte var særlig sårbar, ellerom den fornærmede ble utsatt for kroppskrenkelse begått av flere i fellesskap eller voldtekt.
+>
+
+## § 176
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 176 skal lyde:*
+
+> § 176.Overtredelse av forbud mot ferdsel
+>
+> Den som tar seg inn på et område der myndighetene har forbudt ferdsel, straffes med bot.
 >
 
 ## § 184
@@ -1649,6 +2183,28 @@ refid: "lov/2005-05-20-28"
 > Med bot eller fengsel inntil 6 måneder straffes den som i ervervsmessig eller liknende virksomhet nekter en person varer eller tjenester på grunn av personenshudfarge eller nasjonale eller etniske opprinnelse,religion eller livssyn,seksuelle orientering,kjønnsidentitet eller kjønnsuttrykk, ellernedsatte funksjonsevne, såfremt nektelsen ikke skyldes manglende fysisk tilrettelegging.
 >
 
+## § 189
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 189 annet ledd skal lyde:*
+
+> På samme måte straffes den som på et offentlig sted bærer kniv eller lignende skarpt redskap som er egnet til å påføre noen en kroppskrenkelse.
+>
+
+## § 189 a
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 189 a skal lyde:*
+
+> § 189 a.Grov ulovlig bevæpning med skytevåpen på offentlig sted
+>
+> Grov ulovlig bevæpning med skytevåpen på offentlig sted straffes med bot eller fengsel inntil 3 år.
+>
+> Ved avgjørelsen av om bevæpningen er grov, skal det særlig legges vekt påhvilken type våpen overtredelsen gjelder,om våpenet er ladd eller lett kan lades, ogom bevæpningen av andre grunner er særlig farlig eller samfunnsskadelig.
+>
+
 ## § 190
 
 ### 2015-05-29 — lov/2015-05-29-36
@@ -1727,6 +2283,15 @@ refid: "lov/2005-05-20-28"
 >
 
 ## § 196
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 196 første og annet ledd skal lyde:*
+
+> Med bot eller fengsel inntil 1 år straffes den som unnlater gjennom anmeldelse eller på annen måte å søke å avverge en straffbar handling eller følgene av den, på et tidspunkt da dette fortsatt er mulig og det fremstår som sikkert eller mest sannsynlig at handlingen er eller vil bli begått. Avvergingsplikten gjelder uten hensyn til taushetsplikt og gjelder straffbare handlinger som nevnt i§§ 111, 113, 115, 117, 119, 121, 123, 128, 129, 138, 139, 140, 141, 142, 143, 144, 192, 193, 194, 223, 239, 255, 256, 259, 274, 275, 279, 282, 283, 288, 291, 295, 299, 312, 314, 327, 329, 355 og 357,militær straffelov §§ 50, 52 eller 96, ellersikkerhetsloven § 18 a, jf. § 31 fjerde ledd.
+>
+> Ved overtredelse av §§ 312 eller 314 gjelder avvergingsplikten bare når den fornærmede er under 16 år.
+>
 
 ### 2020-12-04 — lov/2020-12-04-135
 
@@ -1866,6 +2431,15 @@ refid: "lov/2005-05-20-28"
 > Forsett foreligger når noen begår en handling som dekker gjerningsbeskrivelsen i et straffebudmed hensikt,med bevissthet om at handlingen sikkert eller mest sannsynlig dekker gjerningsbeskrivelsen, ellerholder det for mulig at handlingen dekker gjerningsbeskrivelsen, og velger å handle selv om det skulle være tilfellet.
 >
 
+## § 226
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 226 første ledd nytt annet punktum skal lyde:*
+
+> Opplysningsplikten gjelder uten hensyn til taushetsplikt.
+>
+
 ## § 231
 
 ### 2025-06-20 — lov/2025-06-20-83
@@ -1943,6 +2517,15 @@ refid: "lov/2005-05-20-28"
 > § 24.Uforsettlig følge
 >
 > En uforsettlig følge inngår i vurderingen av om et lovbrudd er grovt dersom lovbryteren har opptrådt uaktsomt med hensyn til følgen eller unnlatt etter evne å avverge følgen etter å ha blitt oppmerksom på at den kunne inntre.
+>
+
+## § 240
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 240 annet ledd bokstav b skal lyde:*
+
+> påfører betydelig skade på område som er vernet ved vedtak med hjemmel i naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, svalbardmiljøloven kapittel III, lov om Jan Mayen § 2 eller lov om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. § 2.
 >
 
 ## § 241
@@ -2160,7 +2743,11 @@ refid: "lov/2005-05-20-28"
 
 *§ 274 første ledd annet punktum bostav d, e og f skal lyde:*
 
-> er begått av flere i fellesskap,er motivert av fornærmedes hudfarge, nasjonale eller etniske opprinnelse, religion, livssyn, homofile orientering eller nedsatte funksjonsevne, ellerer forøvd ved bruk av kniv eller annet særlig farlig redskap.
+> er begått av flere i fellesskap,
+>
+> er motivert av fornærmedes hudfarge, nasjonale eller etniske opprinnelse, religion, livssyn, homofile orientering eller nedsatte funksjonsevne, eller
+>
+> er forøvd ved bruk av kniv eller annet særlig farlig redskap.
 >
 
 ### 2020-12-04 — lov/2020-12-04-135
@@ -2286,11 +2873,25 @@ refid: "lov/2005-05-20-28"
 
 ## § 292
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 292 bokstav b skal lyde:*
+
+> innføring av penis i fornærmedes munn,
+>
+
 ### 2025-06-20 — lov/2025-06-20-86
 
 *§ 292 oppheves.*
 
 ## § 293
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 293 første ledd annet punktum skal lyde:*
+
+> Det samme gjelder dersom den skyldige tidligere er straffet for handlinger som nevnt i §§ 291, 294 eller 299.
+>
 
 ### 2025-06-20 — lov/2025-06-20-86
 
@@ -2348,6 +2949,13 @@ refid: "lov/2005-05-20-28"
 
 ## § 296
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 296 bokstav b skal lyde:*
+
+> får noen som han står i et forhold til som nevnt i bokstav a til å utføre handlinger som svarer til seksuell omgang med seg selv, eller
+>
+
 ### 2016-06-17 — lov/2016-06-17-53
 
 *§ 296 bokstav b skal lyde:*
@@ -2370,6 +2978,10 @@ refid: "lov/2005-05-20-28"
 
 > Bestemmelsene i kapittel 16 anvendes på handlinger begått før ikrafttredelsen dersom handlingen på gjerningstidspunktet var straffbar ifølge dagjeldende straffelovgivning og ansett som folkemord, forbrytelse mot menneskeheten eller krigsforbrytelse etter folkeretten. Straffen kan likevel ikke overskride straffen som ville ha blitt idømt etter straffelovgivningen på gjerningstidspunktet.
 >
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 3 annet ledd oppheves. Nåværende tredje til sjette ledd blir annet til femte ledd.*
 
 ## § 30
 
@@ -2397,6 +3009,13 @@ refid: "lov/2005-05-20-28"
 >
 
 ## § 301
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 301 første ledd annet punktum skal lyde:*
+
+> Det samme gjelder dersom den skyldige tidligere er straffet for handlinger som nevnt i §§ 291, 294 eller 299.
+>
 
 ### 2025-06-20 — lov/2025-06-20-86
 
@@ -2428,6 +3047,24 @@ refid: "lov/2005-05-20-28"
 > § 308. Mulighet for straffbortfall
 >
 > Straff etter bestemmelsene i §§ 299–304, § 305 bokstav b annet alternativ og § 306 kan falle bort dersom de involverte er omtrent jevnbyrdige i alder og utvikling.
+>
+
+## § 309
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 309 innledningen skal lyde:*
+
+> Med bot eller fengsel inntil 2 år straffes den som
+>
+
+## § 310
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 310 første punktum skal lyde:*
+
+> Med bot eller fengsel inntil 3 år straffes den som overværer en fremvisning av seksuelle overgrep mot barn eller fremvisning som seksualiserer barn.
 >
 
 ## § 311
@@ -2516,6 +3153,17 @@ refid: "lov/2005-05-20-28"
 > Hvitvasking straffes selv om ingen kan straffes for handlingen som utbyttet stammer fra på grunn av manglende skyldevne etter § 20.
 >
 
+## § 345
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 345 skal lyde:*
+
+> § 345.Besittelseskrenkelse
+>
+> Den som urettmessig setter seg eller andre i besittelse av en løsøregjenstand, straffes med bot.
+>
+
 ## § 352
 
 ### 2020-12-04 — lov/2020-12-04-135
@@ -2590,11 +3238,41 @@ refid: "lov/2005-05-20-28"
 > møte til megling i konfliktrådet etter konfliktrådsloven kapittel II og oppfylle eventuelle avtaler som inngås i meglingsmøte, forutsatt at både fornærmede og domfelte har samtykket til megling i konfliktrådet, eller
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 37 første ledd bokstav d skal lyde:*
+
+> avstå fra å bruke alkohol eller andre berusende eller bedøvende midler og avgi nødvendige rusprøver,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 37 første ledd bokstav f skal lyde:*
+
+> gjennomføre narkotikaprogram med domstolskontroll, jf. § 38, eller program mot ruspåvirket kjøring for personer som er dømt for overtredelse av vegtrafikkloven § 31, jf. § 22 første ledd, og som har problem med alkohol eller annet berusende eller bedøvende middel, forutsatt at domfelte har samtykket til å gjennomføre programmene,
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 37 nytt annet ledd skal lyde:*
+
+> Straffeprosessloven § 461 gjelder tilsvarende for særvilkårene nevnt i bokstav f.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 37 nytt tredje ledd skal lyde:*
+
+> Når en domfelt som var under 18 år på handlingstidspunktet, skal avgi rusprøve etter bokstav d, gjelder helsepersonelloven § 12 tredje ledd.
+>
+
 ### 2021-06-18 — lov/2021-06-18-117
 
 *§ 37 første ledd bokstav j og k skal lyde:*
 
-> gjennomføre ungdomsoppfølging i konfliktrådet med varighet på inntil ett år, forutsatt at domfelte var mellom 15 og 18 år på handlingstidspunktet, at saken egner seg for slik behandling og at det foreligger samtykke fra domfelte og domfeltes eventuelle verger,møte hos rådgivende enhet for russaker etter innkalling, forutsatt at domfellelsen gjelder bruk, erverv, besittelse eller oppbevaring av narkotika til domfeltes egen bruk etter § 231 eller legemiddelloven § 31, jf. § 24 første ledd, eller
+> gjennomføre ungdomsoppfølging i konfliktrådet med varighet på inntil ett år, forutsatt at domfelte var mellom 15 og 18 år på handlingstidspunktet, at saken egner seg for slik behandling og at det foreligger samtykke fra domfelte og domfeltes eventuelle verger,
+>
+> møte hos rådgivende enhet for russaker etter innkalling, forutsatt at domfellelsen gjelder bruk, erverv, besittelse eller oppbevaring av narkotika til domfeltes egen bruk etter § 231 eller legemiddelloven § 31, jf. § 24 første ledd, eller
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
@@ -2606,6 +3284,17 @@ refid: "lov/2005-05-20-28"
 *§ 37 første ledd bokstav j skal lyde:*
 
 > møte inntil tre ganger hos rådgivende enhet for russaker etter innkalling i løpet av en periode på inntil tre måneder, forutsatt at domfellelsen gjelder bruk, erverv eller oppbevaring av narkotika til domfeltes egen bruk etter § 231 eller legemiddelloven § 31 annet ledd, jf. § 24 første ledd, eller
+>
+
+## § 370
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*Ny § 370 skal lyde:*
+
+> § 370.Forberedelse av dokumentfalsk
+>
+> Den, som til forberedelse av dokumentfalsk tilvirker, erverver, innfører, utfører, overdrar, besitter eller oppbevarer falsk segl, stempel eller merke eller andre gjenstander, som tilkjennegir seg som bestemte til å benyttes til ettergjørelse eller forfalskning, eller i slik hensikt tilvender seg et ekte segl, stempel eller merke, straffes med bot eller med fengsel inntil 3 år.
 >
 
 ## § 374
@@ -2621,11 +3310,29 @@ refid: "lov/2005-05-20-28"
 
 ## § 38
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 38 skal lyde:*
+
+> § 38.Forskrift om særvilkår m.m.
+>
+> Kongen kan gi forskrift om gjennomføringen av særvilkår for fullbyrdingsutsettelse. Kongen kan som en prøveordning bestemme at det skal etableres narkotikaprogram med domstolskontroll for rusmiddelmisbrukere som er dømt for narkotikarelatert kriminalitet. Kongen gir nærmere bestemmelser om programmet, herunder hvem det skal gjelde for, innholdet i og gjennomføringen av det. Kriminalomsorgen har ansvaret for å følge opp domfelte som gjennomfører narkotikaprogram med domstolskontroll, som gjennomfører program mot ruspåvirket kjøring eller som er under 18 år og pålagt vilkår om avholdenhet etter § 37 bokstav d. Straffegjennomføringsloven § 56 gjelder tilsvarende ved slikt vilkår om avholdenhet.
+>
+
 ### 2016-12-16 — lov/2016-12-16-98
 
 *§ 38 skal lyde:*
 
 > Kongen kan gi forskrift om gjennomføringen av særvilkår for fullbyrdingsutsettelse. Kongen gir nærmere bestemmelser om narkotikaprogram med domstolskontroll, herunder hvem det skal gjelde for, innholdet i og gjennomføringen av det. Kriminalomsorgen har ansvaret for å følge opp domfelte som gjennomfører narkotikaprogram med domstolskontroll, som gjennomfører program mot ruspåvirket kjøring eller som er under 18 år og pålagt vilkår om avholdenhet etter § 37 bokstav d. Straffegjennomføringsloven § 56 gjelder tilsvarende ved vilkår om narkotikaprogram med domstolskontroll, vilkår om program mot ruspåvirket kjøring og vilkår om avholdenhet som nevnt i tredje punktum.
+>
+
+## § 39
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 39 annet ledd nytt sjette og syvende punktum skal lyde:*
+
+> Reglene om varsling i straffeprosessloven § 243 gjelder tilsvarende for rettsmøter om omgjøring. Kriminalomsorgen skal varsles etter samme regler som påtalemyndigheten.
 >
 
 ## § 395
@@ -2669,7 +3376,31 @@ refid: "lov/2005-05-20-28"
 
 *§ 412 nr. 75 skal lyde:*
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 412 oppheves.*
+
+## § 43
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 43 skal lyde:*
+
+> § 43.Varigheten av forvaringen
+>
+> I dom på forvaring fastsettes en tidsramme som vanligvis ikke bør overstige 15 år, og som ikke kan overstige 21 år. For lovbrudd som har en strafferamme på fengsel i inntil 30 år, kan retten fastsette en tidsramme som ikke kan overstige 30 år. Var den domfelte under 18 år på handlingstidspunktet, bør tidsrammen vanligvis ikke overstige 10 år, og den kan ikke overstige 15 år. Etter begjæring fra påtalemyndigheten kan retten ved dom forlenge den fastsatte rammen med inntil 5 år om gangen. Sak om forlengelse reises ved tingretten senest 3 måneder før utløpet av forvaringstiden.
+>
+> Retten bør også fastsette en minstetid for forvaringen som ikke må overstige 10 år. I de tilfeller hvor retten fastsetter en tidsramme som overstiger 15 år, kan retten likevel fastsette en minstetid som ikke kan overstige 14 år. I tilfeller der retten fastsetter en tidsramme som overstiger 21 år, kan retten fastsette en minstetid som ikke kan overstige 20 år.
+>
+
 ## § 45
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 45 nytt sjette ledd skal lyde:*
+
+> Dersom det er av betydning for fornærmede i straffesaken eller dennes etterlatte å få kjennskap til tidspunktet for prøveløslatelsen, skal kriminalomsorgen varsle fornærmede eller dennes etterlatte på forhånd. Varselet skal også omfatte vilkår fastsatt med hjemmel i lov eller forskrift, når vilkårene direkte gjelder fornærmede eller dennes etterlatte.
+>
 
 ### 2016-12-16 — lov/2016-12-16-98
 
@@ -2746,6 +3477,17 @@ refid: "lov/2005-05-20-28"
 > Straffelovgivningen gjelder også for handlinger som er foretatt i utlandet av andre personer enn dem som omfattes av første til fjerde ledd, dersom handlingen har en lengstestraff på fengsel i 6 år eller mer og er rettet mot noen som er norsk statsborger eller er bosatt i Norge.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 5 første til tredje ledd skal lyde:*
+
+> Utenfor virkeområdet etter § 4 gjelder straffelovgivningen for handlinger foretattav en norsk statsborger,av en person med bosted i Norge, ellerpå vegne av et foretak registrert i Norge,når handlingene:er straffbare også etter loven i landet der de er foretatt,anses som krigsforbrytelse, folkemord eller forbrytelse mot menneskeheten,anses som brudd på krigens folkerett,anses som barneekteskap eller tvangsekteskap,anses som kjønnslemlestelse,er rettet mot den norske stat eller norsk statsmyndighet,er foretatt utenfor området for noen stats høyhetsrett og kan straffes med fengsel,anses som omsorgsunndragelse,rammes av §§ 257, 291-296, 299-306 eller §§ 309-316,anses som terror- eller terrorrelatert handling etter straffeloven kapittel 18, elleranses som oppfordring til en straffbar handling etter straffeloven § 183 eller innebærer fremsettelse av en hatefull ytring etter straffeloven § 185.
+>
+> Første ledd gjelder tilsvarende for handlinger foretattav en person som etter handlingstidspunktet er blitt norsk statsborger eller har fått bosted i Norge,av en person som er eller etter handlingen er blitt statsborger i eller bosatt i et annet nordisk land, og som oppholder seg i Norge, ellerpå vegne av et utenlandsk foretak som etter handlingstidspunktet har overført sin samlede virksomhet til et foretak registrert i Norge.
+>
+> Første ledd nr. 1, 2, 3, 6, 7, 8, 10 og 11 gjelder tilsvarende for handlinger foretatt av andre personer enn dem som omfattes av første og annet ledd, når personen oppholder seg i Norge, og handlingen har en lengstestraff på fengsel i mer enn 1 år.
+>
+
 ### 2016-06-17 — lov/2016-06-17-52
 
 *§ 5 første ledd nr. 6 skal lyde:*
@@ -2771,7 +3513,11 @@ refid: "lov/2005-05-20-28"
 
 *§ 5 første ledd bokstav c) nr. 10 til ny nr. 12 skal lyde:*
 
-> anses som terror- eller terrorrelatert handling etter straffeloven kapittel 18, eller rammes av §§ 145 eller 146,anses som oppfordring til en straffbar handling etter straffeloven § 183 eller innebærer fremsettelse av en hatefull ytring etter straffeloven § 185, elleranses som korrupsjon eller påvirkningshandel etter §§ 387 til 389.
+> anses som terror- eller terrorrelatert handling etter straffeloven kapittel 18, eller rammes av §§ 145 eller 146,
+>
+> anses som oppfordring til en straffbar handling etter straffeloven § 183 eller innebærer fremsettelse av en hatefull ytring etter straffeloven § 185, eller
+>
+> anses som korrupsjon eller påvirkningshandel etter §§ 387 til 389.
 >
 
 ### 2020-06-19 — lov/2020-06-19-81
@@ -2793,6 +3539,15 @@ refid: "lov/2005-05-20-28"
 *§ 5 første ledd nr. 9 skal lyde:*
 
 > rammes av §§ 257, 270, 291–296, 299–306 eller §§ 309–316,
+>
+
+## § 51
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 51 bokstav a skal lyde:*
+
+> ubetinget fengselsstraff på inntil 60 dager når særlige grunner tilsier det, jf. § 32 første ledd bokstav a,
 >
 
 ## § 52 a
@@ -2831,6 +3586,9 @@ refid: "lov/2005-05-20-28"
 ### 2024-11-29 — lov/2024-11-29-73
 
 *§ 52 b overskriften skal lyde:*
+
+> Gjennomføringstid, vilkår og subsidiær fengselsstraff
+>
 
 ### 2024-11-29 — lov/2024-11-29-73
 
@@ -2940,7 +3698,21 @@ refid: "lov/2005-05-20-28"
 > Er bot ilagt et foretak etter § 27 eller lovbryter som var under 18 år på handlingstidspunktet, fastsettes ikke fengselsstraff etter første ledd.
 >
 
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 55 første ledd annet punktum skal lyde:*
+
+> Den subsidiære straffen kan fullbyrdes når vilkårene i straffeprosessloven § 456 annet ledd første punktum er oppfylt.
+>
+
 ## § 57
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 57 nytt femte ledd skal lyde:*
+
+> Dersom det anses nødvendig for at kontaktforbudet skal bli overholdt, kan retten bestemme at den kontaktforbudet retter seg mot, skal ilegges elektronisk kontroll i hele eller deler av perioden kontaktforbudet gjelder for. Slik kontroll kan bare omfatte registrering av opplysninger om at den domfelte beveger seg innenfor områder omfattet av kontaktforbudet, opplysninger om at den domfelte beveger seg i nærheten av fornærmede, og opplysninger om uteblitte signaler fra kontrollutstyret. Domfelte plikter å yte den bistand og å følge de instruksjoner som gis av politiet og som er nødvendig for å gjennomføre kontrollen. Kongen kan gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om behandling av personopplysninger i forbindelse med slik kontroll.
+>
 
 ### 2023-12-20 — lov/2023-12-20-111
 
@@ -2954,6 +3726,29 @@ refid: "lov/2005-05-20-28"
 *§ 57 femte ledd tredje til sjette punktum skal lyde:*
 
 > Domfelte plikter å yte den bistand og å følge de instruksjoner som gis av politiet, som er nødvendig for å gjennomføre kontrollen, herunder å vedlikeholde og sørge for signaler fra kontrollutstyret. Utenfor områder omfattet av forbudet kan handlinger som ellers ville utløst alarmen, bare foretas med bistand fra politiet. Opphold innenfor forbudssonen kan bare skje etter tillatelse fra politiet. Kongen kan i forskrift gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om saksbehandlingen og behandling av personopplysninger i forbindelse med slik kontroll.
+>
+
+## § 58
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 58 annet ledd nytt annet punktum skal lyde:*
+
+> Elektronisk kontroll kan likevel ikke ilegges på ubestemt tid.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 58 tredje ledd skal lyde:*
+
+> Rettighetstap som nevnt i annet ledd kan etter 3 år prøves på ny av tingretten. Påbud om elektronisk kontroll kan etter 6 måneder prøves på ny av tingretten. Begjæringen fremsettes for påtalemyndigheten, som forbereder saken for retten. Straffeprosessloven § 222 a åttende ledd annet og tredje punktum gjelder tilsvarende ved fornyet prøving av kontaktforbud og påbud om elektronisk kontroll. Rettens avgjørelse treffes ved kjennelse. Opprettholdes rettighetstapet helt eller delvis, kan saken ikke prøves på ny før etter 3 år. Opprettholdes et påbud om elektronisk kontroll, kan påbudet ikke prøves på ny før etter 6 måneder.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 58 nytt siste ledd skal lyde:*
+
+> Tingretten i den rettskrets et kontaktforbud gjelder, kan på begjæring fra påtalemyndigheten og av hensyn til den eller de personene som skal beskyttes av forbudet, endre innholdet i kontaktforbudet, jf. § 57 annet ledd. Tredje ledd tredje og femte punktum og straffeprosessloven § 222 a åttende ledd annet og tredje punktum gjelder tilsvarende.
 >
 
 ## § 59
@@ -3039,6 +3834,13 @@ refid: "lov/2005-05-20-28"
 >
 
 ## § 65
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 65 nytt femte ledd skal lyde:*
+
+> Dersom en person som er idømt en særreaksjon, utvises og forlater riket, opphører særreaksjonen midlertidig. Vender vedkommende tilbake til riket, skal påtalemyndigheten avgjøre om reaksjonen skal opprettholdes eller opphøre. Dersom påtalemyndigheten beslutter opprettholdelse og det er gått mer enn tre år siden siste rettskraftige dom, skal påtalemyndigheten bringe saken inn for tingretten, jf. fjerde ledd.
+>
 
 ### 2016-04-29 — lov/2016-04-29-7
 
@@ -3129,6 +3931,15 @@ refid: "lov/2005-05-20-28"
 > Selvstendig inndragning kan foretas av formuesgode som befinner seg i Norge. Inndragning kan også foretas av formuesgode som befinner seg utenfor Norge, dersom saken har tilstrekkelig tilknytning til Norge.
 >
 > Reglene i denne paragrafen kommer til anvendelse uavhengig av når formuesgodet er ervervet.
+>
+
+## § 70
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 70 første ledd annet punktum skal lyde:*
+
+> Er tingen egnet til bruk ved kroppskrenkelser, er det tilstrekkelig at det er fare for slik bruk.
 >
 
 ## § 72
@@ -3255,7 +4066,9 @@ refid: "lov/2005-05-20-28"
 
 *§ 78 bokstav h og ny bokstav i skal lyde:*
 
-> det er gode utsikter til rehabilitering,lovbryteren var under 18 år på handlingstidspunktet.
+> det er gode utsikter til rehabilitering,
+>
+> lovbryteren var under 18 år på handlingstidspunktet.
 >
 
 ### 2019-06-21 — lov/2019-06-21-48
@@ -3278,7 +4091,7 @@ refid: "lov/2005-05-20-28"
 
 *§ 79 første ledd bokstav c skal lyde:*
 
-> når en straffbar handling er utøvet som ledd i aktivitetene til en organisert kriminell gruppe.Med organisert kriminell gruppe menes et samarbeid mellom tre eller flere personer som har som et hovedformål å begå en handling som kan straffes med fengsel i minst 3 år, eller som går ut på at en ikke ubetydelig del av aktivitetene består i å begå slike handlinger.
+> når en straffbar handling er utøvet som ledd i aktivitetene til en organisert kriminell gruppe. Med organisert kriminell gruppe menes et samarbeid mellom tre eller flere personer som har som et hovedformål å begå en handling som kan straffes med fengsel i minst 3 år, eller som går ut på at en ikke ubetydelig del av aktivitetene består i å begå slike handlinger.
 >
 
 ### 2014-05-09 — lov/2014-05-09-16
@@ -3288,8 +4101,6 @@ refid: "lov/2005-05-20-28"
 > Forhøyelse av lengstestraffen etter denne bokstav får anvendelse i forhold til lovbestemmelser som tillegger strafferammen rettslig virkning, når ikke annet er bestemt.
 >
 > I § 203 blir tredje ledd annet punktum nytt fjerde ledd. Nåværende fjerde ledd blir femte ledd.
->
-> 23. I lov 16. februar 2007 nr. 9 om skipssikkerhet skal § 52 første ledd bokstav c og ny bokstav d lyde:skipet ikke har nødvendige sertifikater om bord,rederiet eller noen i dets tjeneste hindrer tilsynsmyndigheten i å gå om bord i skipet for å foreta tilsyn som ikke er etterkommet etter § 45.
 >
 
 ## § 80
@@ -3305,10 +4116,19 @@ refid: "lov/2005-05-20-28"
 
 *§ 80 bokstav f og g skal lyde:*
 
-> på handlingstidspunktet har en betydelig svekket virkelighetsforståelse på grunn av sterkt avvikende sinnstilstand, psykisk utviklingshemming eller bevissthetsforstyrrelse, men ikke er utilregnelig etter § 20 annet ledd,har handlet under selvforskyldt rus eller i en selvforskyldt utilregnelighetstilstand etter § 20 fjerde ledd, og det foreligger særdeles formildende omstendigheter,
+> på handlingstidspunktet har en betydelig svekket virkelighetsforståelse på grunn av sterkt avvikende sinnstilstand, psykisk utviklingshemming eller bevissthetsforstyrrelse, men ikke er utilregnelig etter § 20 annet ledd,
+>
+> har handlet under selvforskyldt rus eller i en selvforskyldt utilregnelighetstilstand etter § 20 fjerde ledd, og det foreligger særdeles formildende omstendigheter,
 >
 
 ## § 83
+
+### 2014-06-20 — lov/2014-06-20-49
+
+*§ 83 nytt åttende ledd skal lyde:*
+
+> Ved idømming av ungdomsstraff gis varetektsfradraget i den subsidiære fengselsstraffen.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 
@@ -3324,6 +4144,13 @@ refid: "lov/2005-05-20-28"
 *§ 87 første ledd annet punktum skal lyde:*
 
 > Ved overtredelse av §§ 257, 284, 299 og 302 skal fristen likevel regnes fra den dag den fornærmede fyller 18 år.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 87 første ledd annet punktum skal lyde:*
+
+> Ved overtredelse av §§ 253, 257, 282, 284, 299 og 302 skal fristen likevel regnes fra den dag den fornærmede fyller 18 år.
 >
 
 ### 2020-12-04 — lov/2020-12-04-135
@@ -3356,6 +4183,13 @@ refid: "lov/2005-05-20-28"
 *§ 91 skal lyde:*
 
 > Straffansvaret for folkemord, forbrytelser mot menneskeheten, krigsforbrytelser og terrorhandlinger foreldes ikke dersom handlingene kan straffes med fengsel i 15 år eller mer.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*§ 91 første ledd nytt annet og tredje punktum skal lyde:*
+
+> Straffansvaret for fullbyrdede overtredelser av §§ 275, 291, 299 og 302 foreldes ikke. Straffansvaret for overtredelser av § 355 første handlingsalternativ foreldes heller ikke såfremt noen omkommer på grunn av lovbruddet.
 >
 
 ### 2020-12-04 — lov/2020-12-04-135

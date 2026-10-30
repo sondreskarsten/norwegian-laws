@@ -58,7 +58,15 @@ refid: "lov/2011-06-24-30"
 
 *§ 3-2 første ledd nr. 3 skal lyde:*
 
-> Hjelp ved ulykker og andre akutte situasjoner, herunder:legevakt,heldøgns medisinsk akuttberedskap,medisinsk nødmeldetjeneste, ogpsykososial beredskap og oppfølging.
+> Hjelp ved ulykker og andre akutte situasjoner, herunder: legevakt, heldøgns medisinsk akuttberedskap, medisinsk nødmeldetjeneste, og psykososial beredskap og oppfølging.
+>
+> legevakt,
+>
+> heldøgns medisinsk akuttberedskap,
+>
+> medisinsk nødmeldetjeneste, og
+>
+> psykososial beredskap og oppfølging.
 >
 
 ### 2017-06-16 — lov/2017-06-16-55
@@ -86,7 +94,13 @@ refid: "lov/2011-06-24-30"
 
 *§ 3-2 første ledd nr. 6 og andre ledd skal lyde:*
 
-> Andre helse- og omsorgstjenester, herunder:helsetjenester i hjemmet,personlig assistanse, herunder praktisk bistand og opplæring og støttekontakt ogplass i institusjon, herunder sykehjem.
+> Andre helse- og omsorgstjenester, herunder: helsetjenester i hjemmet, personlig assistanse, herunder praktisk bistand og opplæring og støttekontakt og plass i institusjon, herunder sykehjem.
+>
+> helsetjenester i hjemmet,
+>
+> personlig assistanse, herunder praktisk bistand og opplæring og støttekontakt og
+>
+> plass i institusjon, herunder sykehjem.
 >
 > Kongen i statsråd kan i forskrift gi nærmere bestemmelser om krav til innhold i tjenestene etter bestemmelsen her, herunder bestemmelser om kompetansekrav for ulike typer tjenester.
 >
@@ -153,6 +167,15 @@ refid: "lov/2011-06-24-30"
 >
 
 ## § 3-9 a
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 3-9 a skal lyde:*
+
+> § 3-9 a.Helse- og omsorgstjenester for barn plassert utenfor hjemmet etter barnevernsloven
+>
+> Kommunen skal ha tilbud om nødvendige helse- og omsorgstjenester for barn som er plassert utenfor hjemmet etter barnevernsloven.
+>
 
 ### 2024-05-03 — lov/2024-05-03-20
 
@@ -253,6 +276,17 @@ refid: "lov/2011-06-24-30"
 *§ 5-6 tredje punktum skal lyde:*
 
 > Kommunen kan ikke inngå avtale med andre private enn ideelle organisasjoner om drift av brukerromsordning.
+>
+
+## § 5-9
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 5-9 skal lyde:*
+
+> § 5-9.Opplysningsplikt til Statens helsetilsyn og Fylkesmannen
+>
+> Bestemmelsene i helsetilsynsloven § 7 om plikt til å gi tilsynsmyndigheten opplysninger og adgang til virksomheten på anmodning, og adgang til å gi tilsynsmyndigheten opplysninger av eget tiltak uten hinder av taushetsplikt, gjelder for enhver som utfører tjeneste eller arbeid som angår helse- og omsorgstjenester som omfattes av denne loven.
 >
 
 ## § 5-11
@@ -371,6 +405,13 @@ refid: "lov/2011-06-24-30"
 > Vedtaket skal samtidig sendes spesialisthelsetjenesten, verge og pårørende som kan avgi uttalelse til Fylkesmannen.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 9-7 fjerde ledd femte punktum skal lyde:*
+
+> Dersom vedtaket er påklaget etter § 9-11 andre ledd, kan vedtaket ikke iverksettes før barneverns- og helsenemnda har godkjent vedtaket.
+>
+
 ## § 9-8
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -396,6 +437,23 @@ refid: "lov/2011-06-24-30"
 > Vedtak etter § 9-5 tredje ledd bokstavene b og c som er overprøvd av Fylkesmannen etter § 9-8, kan påklages av brukeren eller pasienten, vergen og pårørende, til fylkesnemnda for barnevern og sosiale saker.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 9-11 skal lyde:*
+
+> § 9-11.Klage
+>
+> Beslutning etter § 9-5 tredje ledd bokstav a kan påklages av brukeren eller pasienten, verge og pårørende til statsforvalteren. Statsforvalteren skal prøve alle sider av saken.
+>
+> Vedtak etter § 9-5 tredje ledd bokstavene b og c som er overprøvd av statsforvalteren etter § 9-8, kan påklages av brukeren eller pasienten, vergen og pårørende, til barneverns- og helsenemnda. Klageadgangen gjelder også hvis statsforvalteren har nektet å godkjenne kommunens vedtak, forutsatt at kommunen fortsatt ønsker å gjennomføre tiltaket. Nemnda skal prøve alle sider av saken.
+>
+> Det kan oppnevnes et eget utvalg av fagkyndige for saker som etter reglene i dette kapitlet skal behandles av nemnda. Forhandlingsmøte for saker etter denne bestemmelsen, skal holdes snarest og hvis mulig innen to uker etter at nemnda mottok saken, jf. barnevernsloven § 14-16. For øvrig gjelder reglene i barnevernsloven §§ 14-1 til 14-7, §§ 14-9 til 14-12, §§ 14-15 til 14-21 og § 14-24. Kongen kan gi forskrift om at disse reglene skal gjelde helt eller delvis.
+>
+> Klagesaken skal forberedes av statsforvalteren etter bestemmelsene i forvaltningsloven § 33 første til fjerde ledd. Statsforvalteren skal redegjøre for de omstendigheter som ligger til grunn for vedtaket. De skriftlige uttalelser og forklaringer som vedtaket bygger på, skal vedlegges. Det skal opplyses om hvilke personer som skal gi forklaring for nemnda.
+>
+> Klagefristen er tre uker fra vedtaket eller melding om beslutning er kommet frem til den som har klagerett etter første og andre ledd.
+>
+
 ## § 9-12
 
 ### 2013-04-05 — lov/2013-04-05-12
@@ -407,6 +465,13 @@ refid: "lov/2011-06-24-30"
 > 56. I lov 20. januar 2012 nr. 6 om endringer i straffeloven, straffeprosessloven, straffegjennomføringsloven, konfliktrådsloven m.fl. (barn og straff) skal endringen i loven del V av § 18 tredje ledd i lov 15. mars 1991 nr. 3 om megling i konfliktråd lyde:
 >
 > Under ungdomsstormøtet skal domfelte, domfeltes verger, samt representanter fra kriminalomsorgen og politiet være til stede. Dersom vergene ikke kan eller vil være til stede, skal fylkesmannen oppnevne en midlertidig verge som kan opptre i stedet for den opprinnelige vergen under ungdomsstormøtet. Fornærmede og fornærmedes verger har rett til å være til stede. Forsvarer og bistandsadvokat som er oppnevnt etter straffeprosessloven § 100 annet ledd og § 107 a første ledd bokstav d, kan være til stede.
+>
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 9-12 første ledd skal lyde:*
+
+> Vedtak i klagesak etter § 9-11 andre ledd kan bringes inn for tingretten etter reglene i tvisteloven kapittel 36. Søksmålsadgangen gjelder ikke hvis barneverns- og helsenemnda har nektet å godkjenne kommunens vedtak.
 >
 
 ## § 10-2
@@ -421,6 +486,19 @@ refid: "lov/2011-06-24-30"
 ### 2016-05-20 — lov/2016-05-20-10
 
 *§ 10-2 andre ledd andre punktum oppheves.*
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 10-2 annet til femte ledd skal lyde:*
+
+> Vedtak etter første ledd skal treffes av barneverns- og helsenemnda.
+>
+> Nemndas vedtak etter første ledd kan bare settes i verk dersom institusjonen faglig og materielt er i stand til å tilby vedkommende tilfredsstillende hjelp sett i forhold til formålet med inntaket i institusjonen. Kommunen kan la være å sette et vedtak i verk om forholdene tilsier det. Er vedtaket ikke satt i verk innen seks uker, faller det bort.
+>
+> Et midlertidig vedtak etter første ledd kan treffes av kommunen dersom de interesser bestemmelsen skal ivareta kan bli vesentlig skadelidende dersom vedtak ikke treffes og gjennomføres straks. For øvrig gjelder reglene i barnevernsloven §§ 14-22 og 14-23.
+>
+> Er det truffet midlertidig vedtak, skal et forslag til endelig vedtak sendes nemnda innen to uker. Dersom saken ikke er sendt til nemnda innen denne fristen, faller vedtaket bort.
+>
 
 ### 2022-06-10 — lov/2022-06-10-37
 
@@ -449,6 +527,17 @@ refid: "lov/2011-06-24-30"
 > Når fylkesnemnda har fattet vedtak etter første ledd og kvinnen er tatt inn på institusjon, skal kommunen uten hinder av taushetsplikt gi barneverntjenesten melding om dette. Meldingen skal omfatte opplysninger om hvem kvinnen er, den vurdering av rusavhengighet og fare for skade på barnet som lå til grunn for vedtaket, forventet termin og hvilken institusjon kvinnen er tatt inn på. Tilsvarende gjelder når kommunen har truffet midlertidig vedtak etter femte ledd, og vedtaket er godkjent av fylkesnemnda etter barnevernloven § 7-22 første ledd.
 >
 
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 10-3 femte til syvende ledd skal lyde:*
+
+> Et midlertidig vedtak etter første ledd kan treffes av kommunen dersom de interesser bestemmelsen skal ivareta kan bli vesentlig skadelidende dersom vedtaket ikke treffes og gjennomføres straks. For øvrig gjelder reglene i barnevernsloven §§ 14-22 og 14-23.
+>
+> Er det truffet midlertidig vedtak, skal forslag til endelig vedtak sendes barneverns- og helsenemnda innen to uker. Dersom saken ikke er sendt til nemnda innen denne fristen, faller vedtaket bort.
+>
+> Når nemnda har fattet vedtak etter første ledd og kvinnen er tatt inn på institusjon, skal kommunen uten hinder av taushetsplikt gi barnevernstjenesten melding om dette. Meldingen skal omfatte opplysninger om hvem kvinnen er, den vurdering av rusavhengighet og fare for skade på barnet som lå til grunn for vedtaket, forventet termin og hvilken institusjon kvinnen er tatt inn på. Tilsvarende gjelder når kommunen har truffet midlertidig vedtak etter femte ledd, og vedtaket er godkjent av nemnda etter barnevernsloven § 14-22 første ledd.
+>
+
 ## § 10-4
 
 ### 2012-06-22 — lov/2012-06-22-46
@@ -461,6 +550,19 @@ refid: "lov/2011-06-24-30"
 ### 2016-05-20 — lov/2016-05-20-10
 
 *§ 10-4 fjerde ledd oppheves. Nåværende femte ledd blir fjerde ledd.*
+
+## § 10-5
+
+### 2021-06-18 — lov/2021-06-18-97
+
+*§ 10-5 skal lyde:*
+
+> § 10-5.Bruk av barneverns- og helsenemnda i saker etter §§ 10-2 og 10-3
+>
+> Barnevernsloven §§ 14-1 til 14-7, §§ 14-9 til 14-12 og §§ 14-15 til 14-24 gjelder tilsvarende for saker etter §§ 10-2 og 10-3 i den utstrekning annet ikke fremgår av loven her.
+>
+> Forhandlingsmøte for saker etter §§ 10-2 og 10-3 skal holdes snarest og hvis mulig innen to uker etter at nemnda mottok saken, jf. barnevernsloven § 14-16.
+>
 
 ## § 11-1
 
@@ -508,6 +610,13 @@ refid: "lov/2011-06-24-30"
 
 ## § 12-3
 
+### 2017-12-15 — lov/2017-12-15-107
+
+*§ 12-3 andre ledd skal lyde:*
+
+> Kommuneloven kapittel 10 A gjelder tilsvarende for tilsynsvirksomheten etter første ledd, med unntak av § 60 d. Statens helsetilsyn kan gi pålegg om retting og stenging etter helsetilsynsloven § 8.
+>
+
 ### 2025-06-20 — lov/2025-06-20-74
 
 *§ 12-3 andre ledd skal lyde:*
@@ -516,6 +625,15 @@ refid: "lov/2011-06-24-30"
 >
 
 ## § 12-3 a
+
+### 2017-12-15 — lov/2017-12-15-107
+
+*Ny § 12-3 a skal lyde:*
+
+> § 12-3 a.Varsel til Statens helsetilsyn om alvorlige hendelser
+>
+> Virksomheter som er omfattet av loven her, skal straks varsle Statens helsetilsyn om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6. Varslingsplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
 
 ### 2025-06-20 — lov/2025-06-20-74
 
@@ -567,6 +685,17 @@ refid: "lov/2011-06-24-30"
 
 ## (annet)
 
+### 2013-06-07 — lov/2013-06-07-29
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 4-2 a lyde:*
+
+> § 4-2 a.Om informasjon
+>
+> Kommunen skal sørge for at det gis slik informasjon som pasient og bruker har rett til å motta etter pasient- og brukerrettighetsloven § 3-2. Tilsvarende gjelder for informasjon til pasientens og brukerens nærmeste pårørende etter pasient- og brukerrettighetsloven § 3-3 tredje ledd.
+>
+> Departementet kan gi forskrift om det nærmere innhold i informasjonsplikten etter første ledd.
+>
+
 ### 2013-06-21 — lov/2013-06-21-79
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 11-2 andre ledd lyde:*
@@ -585,11 +714,25 @@ refid: "lov/2011-06-24-30"
 > Den som har vedtatt forelegg eller er dømt for overtredelser som nevnt i straffeloven §§ 192, 193, 194, 195, 196, 197, 199, 200 andre ledd, 201 bokstav c, 203 eller 204 a, er utelukket fra å utføre arbeid eller oppgaver som omhandlet i første ledd.
 >
 
+### 2014-01-01 — forskrift/2013-12-06-1398
+
+*Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.*
+
+> Lov 7. juni 2013 nr. 29 om endringer i pasient- og brukerrettighetsloven mv. (styrking av pasienters, brukeres og pårørendes stilling m.m.) trer i kraft fra 1. januar 2014.
+>
+
 ### 2014-04-01 — forskrift/2014-03-21-305
 
 *Delt ikraftsetting av lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Lovens § 13-3 andre ledd trer i kraft 1. april 2014.*
 
 > Delt ikraftsetting av lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Lovens § 13-3 andre ledd trer i kraft 1. april 2014.
+>
+
+### 2015-03-01 — forskrift/2014-12-19-1735
+
+*Romertall II, III og IV trer i kraft 1. mars 2015.*
+
+> Romertall II, III og IV trer i kraft 1. mars 2015.
 >
 
 ### 2016-01-01 — forskrift/2015-11-13-1286
@@ -606,6 +749,63 @@ refid: "lov/2011-06-24-30"
 *Ikraftsetting av § 3-5 tredje ledd i lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Bestemmelsen trer i kraft 1. januar 2016.*
 
 > Ikraftsetting av § 3-5 tredje ledd i lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. Bestemmelsen trer i kraft 1. januar 2016.
+>
+
+### 2016-06-17 — lov/2016-06-17-45
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 3-2 a lyde:*
+
+> § 3-2 a.Kommunens ansvar for tilbud om opphold i sykehjem eller tilsvarende bolig særskilt tilrettelagt for heldøgns tjenester
+>
+> Kommunen skal tilby opphold i sykehjem eller tilsvarende bolig særskilt tilrettelagt for heldøgns tjenester dersom dette etter en helse- og omsorgsfaglig vurdering er det eneste tilbudet som kan sikre pasienten eller brukeren nødvendige og forsvarlige helse- og omsorgstjenester.
+>
+> Kommunen skal gi forskrift med kriterier for tildeling av langtidsopphold i sykehjem eller tilsvarende bolig særskilt tilrettelagt for heldøgns tjenester. Forskriften skal også omfatte pasienter og brukere som vil være best tjent med langtidsopphold, men hvor kommunen vurderer at vedkommende med forsvarlig hjelp kan bo hjemme i påvente av langtidsopphold. Forskriften skal videre regulere hvordan kommunen skal følge opp pasienter eller brukere som venter på langtidsopphold.
+>
+> Kongen gir forskrift med kriterier for tildeling av langtidsopphold i sykehjem eller tilsvarende bolig særskilt tilrettelagt for heldøgns tjenester. Forskriften skal også omfatte pasienter og brukere som vil være best tjent med langtidsopphold, men hvor kommunen vurderer at vedkommende med forsvarlig hjelp kan bo hjemme i påvente av langtidsopphold.
+>
+> Kommunen skal treffe vedtak om kriteriene etter andre ledd er oppfylt. Kommunen skal føre ventelister over pasienter og brukere som venter på langtidsopphold etter andre ledd.
+>
+
+### 2016-07-01 — forskrift/2016-06-17-729
+
+*Delt ikraftsetting av lov 13. juni 2016*
+
+> Delt ikraftsetting av lov 13. juni 2016
+>
+> til lov om endringer i pasient- og brukerrettighetsloven og helse- og omsorgstjenesteloven (rett til opphold i sykehjem eller tilsvarende bolig særskilt tilrettelagt for heldøgns tjenester – kriterier og ventelister). Romertall I § 2-1e første ledd, II § 3-2a første og andre ledd og III trer i kraft 1. juli 2016.
+>
+> Skal vel være 17. juni 2016, Lovdatas anm.
+>
+
+### 2016-11-01 — forskrift/2016-08-26-1002
+
+*Lov 20. mai 2016 nr. 10 om endringer i psykisk helsevernloven mv. (rettigheter og bruk av tvang på rusfeltet) trer i kraft 1. november 2016.*
+
+> Lov 20. mai 2016 nr. 10 om endringer i psykisk helsevernloven mv. (rettigheter og bruk av tvang på rusfeltet) trer i kraft 1. november 2016.
+>
+
+### 2017-01-01 — forskrift/2016-12-09-1460
+
+*Ikraftsetting*
+
+> Ikraftsetting
+>
+> av lov 13. juni 2016 nr. 49
+>
+> om endringer i helse- og omsorgstjenesteloven og helsepersonelloven (politiattest i den kommunale helse- og omsorgstjenesten).
+>
+> Loven trer i kraft 1. januar 2017 (Lovtidend-redaksjonens anm.).
+>
+> Skal være lov 17. juni 2016 nr. 49 (Lovtidend-redaksjonens anm.).
+>
+
+### 2017-06-16 — lov/2017-06-16-53
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 3-9 a lyde:*
+
+> § 3-9 a.Helse- og omsorgstjenester for barn plassert utenfor hjemmet etter barnevernloven
+>
+> Kommunen skal ha tilbud om nødvendige helse- og omsorgstjenester for barn som er plassert utenfor hjemmet etter barnevernloven.
 >
 
 ### 2017-06-16 — lov/2017-06-16-55
@@ -627,6 +827,47 @@ refid: "lov/2011-06-24-30"
 
 *Nåværende fjerde til sjette ledd blir femte til syvende ledd.*
 
+### 2017-06-16 — lov/2017-06-16-63
+
+*I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal ny § 12-6 lyde:*
+
+> § 12-6.Oppfyllelse av enkeltvedtak som er kjent ugyldig
+>
+> En kommune må oppfylle et vedtak fra et statlig forvaltningsorgan som gir en privat part rett til tjenester etter loven her, selv om kommunen får vedtaket kjent ugyldig gjennom søksmål etter tvisteloven § 1-4 a. Vedtak kan i tilfeller som nevnt i første punktum bare omgjøres til skade for den private parten etter forvaltningsloven § 35 første ledd bokstav c dersom det er ugyldig fordi den private parten, eller noen som handlet på den private partens vegne, forsettlig eller grovt uaktsomt har gitt uriktige opplysninger eller holdt tilbake opplysninger.
+>
+
+### 2017-06-16 — forskrift/2017-06-16-777
+
+*Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Romertall I trer i kraft fra 1. januar 2018, med unntak av endringen i lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 2-5 c første til tredje ledd som settes i kraft straks. Romertall II trer i kraft fra 1. januar 2020. Romertall V trer i kraft straks.
+>
+
+### 2017-07-01 — forskrift/2017-06-16-762
+
+*Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.*
+
+> Delt ikraftsetting av loven. Del III § 6, § 11 andre ledd andre punktum, § 17, § 38, § 62 andre ledd og § 74 første ledd første punktum, del IV, del V, del VI og del IX trer i kraft 1. juli 2017.
+>
+
+### 2018-01-01 — forskrift/2017-06-16-757
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
+### 2018-01-01 — forskrift/2017-12-15-2039
+
+*Lovens del III trer i kraft straks.*
+
+> Lovens del III trer i kraft straks.
+>
+> I lovens kapittel I trer barnevernloven § 4-2a i kraft 1. januar 2018.
+>
+> Lovens del II trer i kraft 1. januar 2018.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 5-4 femte ledd lyde:*
@@ -639,6 +880,33 @@ refid: "lov/2011-06-24-30"
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 3-2 andre ledd første punktum lyde:*
 
 > For å oppfylle ansvaret etter § 3-1 skal kommunen ha knyttet til seg lege, sykepleier, fysioterapeut, jordmor og helsesykepleier.
+>
+
+### 2018-12-20 — forskrift/2018-12-20-2062
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 o*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven). Kapitlene 1 til 13, 17 til 24, 26, 27, 30 og 31 trer i kraft fra og med det konstituerende møtet i det enkelte kommunestyret og fylkestinget ved oppstart av valgperioden 2019–2023. Kapitlene 14, 15, 16, 28 og 29 trer i kraft 1. januar 2020.
+>
+
+### 2019-01-01 — forskrift/2018-12-20-2060
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
+### 2019-05-01 — forskrift/2019-04-26-541
+
+*Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.*
+
+> Delt ikraftsetting av lov 16. juni 2017 nr. 56 om Statens undersøkelseskommisjon for helse- og omsorgstjenesten. Loven § 3, § 5 til § 19 og § 21 trer i kraft 1. mai 2019.
+>
+> Delt ikraftsetting av lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. Loven § 1 til § 15 nr. 2, § 15 nr. 3 for så vidt gjelder endringene i lov 2. juni 1999 nr. 63
+>
+> om pasient- og brukerrettigheter § 7-6, samt § 15 nr. 4 til 7, trer i kraft 1. juli 2019.
+>
+> Skal være lov 2. juli 1999 nr. 63, Lovtidend-redaksjonens anm.
 >
 
 ### 2019-06-21 — lov/2019-06-21-45
@@ -656,6 +924,13 @@ refid: "lov/2011-06-24-30"
 > Lova tek til å gjelda frå det tidspunkt Kongen fastset.
 >
 
+### 2019-11-01 — forskrift/2019-06-25-879
+
+*Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.*
+
+> Delt ikrafttredelse. Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven) § 31-6 trer i kraft 1. november 2019.
+>
+
 ### 2020-01-01 — forskrift/2019-06-21-790
 
 *Loven trer i kraft 1. januar 2020.*
@@ -670,6 +945,20 @@ refid: "lov/2011-06-24-30"
 > § 12-3 a.Varsel om alvorlige hendelser
 >
 > Virksomheter som er omfattet av loven her, skal straks varsle Statens helsetilsyn og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Varslingsplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+
+### 2021-05-07 — forskrift/2021-05-07-1444
+
+*Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens un*
+
+> Delt ikraftsetting av loven. Loven del I (tobakksskadeloven) trer i kraft straks. Loven del II (tannhelsetjenesteloven), del III (spesialisthelsetjenesteloven), del IV (pasient- og brukerrettighetsloven), del V (helsepersonelloven), del VI (helse- og omsorgstjenesteloven), del VII (lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten) og del VIII (helsetilsynsloven) trer i kraft 1. juli 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
 >
 
 ### 2021-06-18 — lov/2021-06-18-118
@@ -708,6 +997,13 @@ refid: "lov/2011-06-24-30"
 > Loven gjelder fra den tiden Kongen bestemmer.
 >
 
+### 2021-07-01 — forskrift/2021-06-18-2026
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
 ### 2021-09-01 — forskrift/2021-06-18-1977
 
 *Loven trer i kraft 1. september 2021.*
@@ -739,6 +1035,27 @@ refid: "lov/2011-06-24-30"
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
 >
 
+### 2022-06-15 — forskrift/2022-06-10-994
+
+*Loven trer i kraft 15. juni 2022.*
+
+> Loven trer i kraft 15. juni 2022.
+>
+
+### 2022-07-01 — forskrift/2021-09-24-2837
+
+*Ikraftsetting av lov 18. juni 2021 nr. 117 om endringer i straffeloven. Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 117 om endringer i straffeloven. Loven trer i kraft 1. juli 2022.
+>
+
+### 2022-07-01 — forskrift/2022-05-20-887
+
+*Loven trer i kraft 1. juli 2022.*
+
+> Loven trer i kraft 1. juli 2022.
+>
+
 ### 2022-08-01 — forskrift/2021-12-03-3377
 
 *Ikraftsetting av lov 18. juni 2021 nr. 120 om endringer i helse- og omsorgstjenesteloven. Loven trer i kraft 1. august 2022.*
@@ -746,11 +1063,46 @@ refid: "lov/2011-06-24-30"
 > Ikraftsetting av lov 18. juni 2021 nr. 120 om endringer i helse- og omsorgstjenesteloven. Loven trer i kraft 1. august 2022.
 >
 
+### 2022-08-01 — forskrift/2022-05-20-871
+
+*Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.*
+
+> Ikraftsetting av lov 11. juni 2021 nr. 78 om endringer i velferdstjenestelovgivningen (samarbeid, samordning og barnekoordinator). Loven trer i kraft 1. august 2022.
+>
+
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2023-01-01 — forskrift/2022-10-14-1739
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 97 om barnevern (barnevernsloven). Loven trer i kraft 1. januar 2023, med unntak av § 2-6 og § 15-7 fjerde ledd. Loven § 15-7 fjerde ledd trer i kraft 1. juli 2023.
+>
+
+### 2023-07-01 — forskrift/2022-12-20-2299
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-106
 
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 12-5 første ledd lyde:*
 
 > Helsedirektoratet skal utvikle, formidle og vedlikeholde nasjonale faglige retningslinjer og veiledere som understøtter de mål som er satt for helse- og omsorgstjenesten. Departementet kan bestemme på hvilke områder direktoratet skal utarbeide slike retningslinjer og veiledere. Retningslinjer og veiledere skal baseres på kunnskap om god praksis og skal bidra til kontinuerlig forbedring av virksomhet og tjenester.
+>
+
+### 2024-01-01 — forskrift/2023-12-20-2128
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
 >
 
 ### 2024-05-03 — lov/2024-05-03-20
@@ -766,6 +1118,13 @@ refid: "lov/2011-06-24-30"
 > Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å kunne foreta omstillinger eller prioriteringer for å bidra til å sikre at den kommunale helse- og omsorgstjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 7-1 om individuell plan§ 7-2 om koordinator§ 7-2 a om barnekoordinator.
 >
 
+### 2024-07-01 — forskrift/2024-06-25-1212
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ### 2025-01-01 — forskrift/2024-12-13-3501
 
 *Ikraftsetjing av lov 3. mai 2024 nr. 20 om endringar i helse- og omsorgstjenesteloven (overføring av ansvaret for helsetilbodet ved utlendingsinternat). Lova trer i kraft 1. januar 2025.*
@@ -778,6 +1137,51 @@ refid: "lov/2011-06-24-30"
 *I lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. skal § 3-9 c første ledd nytt tredje punktum lyde:*
 
 > Enheten skal også ha ansvar for å møte personer som er henvist til enheten etter politiloven § 9 a.
+>
+
+### 2025-06-20 — forskrift/2025-06-20-1101
+
+*Delt ikraftsetting av endringsloven. Endringen i spesialisthelsetjenesteloven § 7-1, jf. lovvedtaket del II, endringen i helse- og omsorgstjenesteloven § 12-3 andre ledd, jf. lovvedtaket del IV og endringen i helsetilsynsloven § 8 første ledd, jf. lovvedtaket del VI, trer i kraft straks.*
+
+> Delt ikraftsetting av endringsloven. Endringen i spesialisthelsetjenesteloven § 7-1, jf. lovvedtaket del II, endringen i helse- og omsorgstjenesteloven § 12-3 andre ledd, jf. lovvedtaket del IV og endringen i helsetilsynsloven § 8 første ledd, jf. lovvedtaket del VI, trer i kraft straks.
+>
+
+### 2025-07-01 — forskrift/2025-06-20-1122
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2025-09-01 — forskrift/2025-06-20-1109
+
+*Følgende trer i kraft 1. september 2025:*
+
+> Følgende trer i kraft 1. september 2025:
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 9-2.
+>
+> Følgende trer i kraft 1. juni 2026:
+>
+> Endringsloven del I (spesialisthelsetjenesteloven) § 3-11.
+>
+> Endringsloven del II (psykisk helsevernloven) § 1-1, § 1-2, § 2-1, § 3-2, § 3-3, § 3-3a, § 3-4, § 3-5, § 4-2a, § 4-4, § 4-4b, § 4-8a og § 6-4.
+>
+> Endringsloven del III (pasient- og brukerrettighetsloven) § 3-1, § 3-3, § 4-3, § 4-5, § 4-6, § 4-6a, § 4A-2, § 4A-3, § 7-2 og § 7-4.
+>
+> Endringsloven del IV (helsepersonelloven) § 22, § 25 og § 45.
+>
+> Endringsloven del V (behandlingsbiobankloven) § 11.
+>
+> Endringsloven del VI (alternativ behandlingsloven) § 7.
+>
+> Endringsloven del VII (helse- og omsorgstjenesteloven) § 4-2a.
+>
+> Endringsloven del VIII (pasientjournalloven) § 17.
+>
+> Endringsloven del IX (helseregisterloven) § 15.
+>
+> Endringsloven del X (transplantasjonslova) § 5 og § 7.
 >
 
 ### 2026-01-23 — lov/2026-01-23-1
@@ -809,4 +1213,32 @@ refid: "lov/2011-06-24-30"
 > § 4-2 b. Om medvirkning
 >
 > Kommunen eller andre som yter tjenester etter loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+>
+
+### 2026-07-01 — forskrift/2026-03-13-402
+
+*Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.*
+
+> Ikraftsetting av lov 23. januar 2026 nr. 1 om endringer i helsepersonelloven og pasientjournalloven mv. (taushetsplikt og tilgjengeliggjøring av pasientopplysninger). Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1076
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1142
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1148
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >

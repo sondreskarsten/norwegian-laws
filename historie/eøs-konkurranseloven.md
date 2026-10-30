@@ -5,6 +5,19 @@ refid: "lov/2004-03-05-11"
 
 # Endringshistorikk: EØS-konkurranseloven
 
+## (annet)
+
+### 2004-04-30 — forskrift/2004-04-30-681
+
+*Vedtak 5. mars 2004 nr. 478 om ikrafttredelse av lov 5. mars 2004 nr. 11 om gjennomføring og kontroll av EØS-avtalens konkurranseregler mv. (EØS-konkurranseloven) oppheves.*
+
+### 2014-01-01 — forskrift/2013-06-14-633
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
 ## § 3
 
 ### 2004-12-17 — lov/2004-12-17-100

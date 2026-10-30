@@ -7,9 +7,59 @@ refid: "lov/1948-12-03-7"
 
 ## (annet)
 
+### 2010-03-01 — forskrift/2010-02-19-189
+
+*Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.*
+
+> Ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). Loven trer i kraft 1. mars 2010.
+>
+
 ### 2010-12-17 — lov/2010-12-17-77
 
 *Nåværende nr. 3 og 4 blir nye nr. 4 og 5.*
+
+### 2013-06-21 — lov/2013-06-21-102
+
+*1. I lov 3. desember 1948 nr. 7 om pensjonstrygd for sjømenn skal § 1 annet ledd bokstav b lyde:*
+
+> Skip under 100 tonnasjeenheter/registertonn brutto som er innført i norsk skipsregister, dersom rederiet samtidig disponerer større skip som går inn under bokstav a, og arbeidstakerne om bord er fast ansatt i rederiet etter bestemmelser i skipsarbeidsloven med rett og plikt til å tjenestegjøre på samtlige av rederiets skip,
+>
+
+### 2013-08-20 — forskrift/2013-06-21-730
+
+*---*
+
+> ---
+>
+> Delt ikraftsetting av skipsarbeidsloven. Loven settes i kraft 20. august 2013, med unntak av lovens kapittel 10 som settes i kraft 1. januar 2014.
+>
+> Delt opphevelse av sjømannslov 30. mai 1975 nr. 18. Loven oppheves fra 20. august 2013, med unntak av lovens kapittel IIA som oppheves fra 1. januar 2014.
+>
+> Delt ikraftsetting av lov 19. desember 2008 nr. 123 om endringar i sjømannslov 30. mai 1975 nr. 18 mv. Del III og IV settes i kraft fra 20. august 2013.
+>
+> ---
+>
+
+### 2015-01-01 — forskrift/2014-06-20-799
+
+*Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraf*
+
+> Delt ikraftsetting av Stortingets vedtak 20. juni 2014 til lov om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (tilpasninger til ny uføretrygd i folketrygden og ny uførepensjonsordning for offentlig tjenestepensjon). Loven, med unntak av del XX og XXI, trer i kraft 1. januar 2015.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1717
+
+*Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kr*
+
+> Delt ikraftsetting av Stortingets vedtak 15. desember 2014 til lov om endringer i lov om Statens pensjonskasse, folketrygdloven og i enkelte andre lover (justeringer i reglene om uføretrygd og ny uførepensjonsordning i offentlig tjenestepensjon mv.). Loven, med unntak av del VIII, X og XI, trer i kraft 1. januar 2015.
+>
+
+### 2018-01-01 — forskrift/2017-12-19-2156
+
+*Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.*
+
+> Delt ikraftsetjing av Stortinget sitt vedtak 15. desember 2017 til lov om endringar i lov om pensjonstrygd for sjømenn, trygderettslova, folketrygdlova og einskilde andre lover. Del VI punkt 1, endringar i lov om pensjonstrygd for sjømenn, setjast i kraft 1. januar 2018.
+>
 
 ### 2019-11-22 — lov/2019-11-22-72
 
@@ -18,6 +68,29 @@ refid: "lov/1948-12-03-7"
 ### 2019-11-22 — lov/2019-11-22-72
 
 *Nåværende § 30 blir ny § 43.*
+
+### 2020-01-01 — forskrift/2019-11-22-1551
+
+*Loven trer ikraft 1. januar 2020.*
+
+> Loven trer ikraft 1. januar 2020.
+>
+
+### 2022-04-01 — forskrift/2022-04-01-496
+
+*Loven trer i kraft 1. april 2022.*
+
+> Loven trer i kraft 1. april 2022.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
 
 ### 2022-11-25 — lov/2022-11-25-86
 
@@ -32,11 +105,63 @@ refid: "lov/1948-12-03-7"
 
 *Nåværende andre ledd blir nytt tredje ledd.*
 
+### 2022-11-25 — forskrift/2022-11-25-2013
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2023-12-20 — lov/2023-12-20-95
 
 *I lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs skal § 1 nr. 2 første ledd bokstav b lyde:*
 
 > Skip under 100 tonnasjeenheter/registertonn brutto som er innført i norsk skipsregister, dersom rederiet samtidig disponerer større skip som går inn under bokstav a, og arbeidstakerne om bord er fast ansatt i rederiet i medhold av skipsarbeidsloven eller arbeidsmiljøloven § 1-2 andre ledd bokstav a, med rett og plikt til å tjenestegjøre på samtlige av rederiets skip,
+>
+
+### 2023-12-20 — forskrift/2023-12-20-2132
+
+*Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft straks:
+>
+> Endringsloven del V (lov 18. desember 2020 nr. 139 om endringer i folketrygdloven)
+>
+> Endringsloven del III (folketrygdloven) § 4-6 fjerde ledd, § 4-16 første ledd andre punktum, § 8-9 tredje ledd, § 11-12a og § 12-15 femte ledd og sjette ledd.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. januar 2024:
+>
+> Endringsloven del II (lov 21. mai 1982 nr. 25 om tillegg til lov 28. juli 1949 om Statens pensjonskasse)
+>
+> Endringsloven del III (folketrygdloven) § 4-9.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. februar 2024:
+>
+> Endringsloven del III (folketrygdloven) § 11-20 tredje ledd.
+>
+> Delt ikraftsetting av loven. Følgende endringer trer i kraft 1. juli 2024:
+>
+> Endringsloven del I (lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs)
+>
+> Endringsloven del IV (sosialtjenesteloven)
+>
+> Endringsloven del III (folketrygdloven) § 11-20 første ledd, § 12-13 andre og tredje ledd, § 12-15 andre ledd og omnummereringen av de påfølgende leddene.
+>
+
+### 2024-10-01 — forskrift/2024-09-20-2209
+
+*Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.*
+
+> Ikrafttredelsestidspunktet for lov om endringer i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse og enkelte andre lover (ny avtalefestet pensjon) fremskyndes.
+>
+> Loven trer i kraft 1. oktober 2024.
+>
+
+### 2025-01-01 — forskrift/2024-04-12-614
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
 >
 
 ## § 14
@@ -311,7 +436,9 @@ refid: "lov/1948-12-03-7"
 
 *§ 8 første ledd bokstav a og b skal lyde:*
 
-> avgift på arbeidstakere, jf. § 9 og § 40,avgift på rederier, jf. § 11 og § 41,
+> avgift på arbeidstakere, jf. § 9 og § 40,
+>
+> avgift på rederier, jf. § 11 og § 41,
 >
 > Nytt kapittel X skal lyde:
 >

@@ -15,6 +15,31 @@ refid: "lov/1978-06-09-50"
 
 *Noverande § 23b blir ny § 23c.*
 
+### 2005-06-17 — lov/2005-06-17-101
+
+*8. I lov 9. juni 1978 nr. 50 om kulturminner skal § 4 femte ledd lyde:*
+
+> Objekt eller område registrert av vedkommende myndighet eller avmerket i matrikkelen, jf. lov om eigedomsregistrering, som automatisk fredet kulturminne, skal alltid regnes som et automatisk fredet kulturminne, med mindre det føres bevis for det motsatte.
+>
+> 9. I lov 21. desember 1979 nr. 77 om jordskifte o.a. (jordskifteloven) blir gjort følgjande endringar:
+>
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*Overskrifta til kapittel 10 skal lyde:*
+
+> Kapittel 10 Oppretting av nye matrikkeleiningar
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
 ## § 11
 
 ### 2017-05-11 — lov/2017-05-11-26
@@ -46,6 +71,44 @@ refid: "lov/1978-06-09-50"
 *§ 12 første ledd bokstav c skal lyde:*
 
 > Samiske kulturminner av den art som er nevnt under a og som er fra år 1917 eller eldre.
+>
+
+## § 15
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 15 annet ledd skal lyde:*
+
+> Byggverk og anlegg som kan fredes etter første ledd er bl.a. kulturminner som nevnt i § 4 første ledd bokstavene a til j uavhengig av alder, særskilte anlegg som parker, hageanlegg, alleer mv. og offentlige minnesmerker og andre steder som viktige historiske minner knytter seg til. Fredningen kan omfatte naturelementer når de bidrar til helheten i parker, hageanlegg, alleer mv.
+>
+
+## § 2
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 2 tredje og fjerde ledd skal lyde:*
+
+> Reglene om kulturminner og kulturmiljøer gjelder så langt de passer også for botaniske, zoologiske eller geologiske forekomster som det knytter seg kulturhistoriske verdier til.
+>
+> Etter denne lov er det kulturhistorisk eller arkitektonisk verdifulle kulturminner og kulturmiljøer som kan vernes. Ved vurdering av verneverdier kan det i tillegg legges vekt på viktige naturverdier knyttet til kulturminnene.
+>
+
+## § 20
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 20 første ledd skal lyde:*
+
+> Et kulturmiljø kan fredes av Kongen for å bevare områdets kulturhistoriske verdi. Fredningen kan omfatte naturelementer når de bidrar til å skape områdets egenart.
+>
+
+## § 22
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 22 nr. 1 skal lyde:*
+
+> Når et arbeid med fredning etter denne lov (jf. §§ 15, 19 og 20) starter opp skal det tas kontakt med berørte fylkeskommuner og kommuner for å drøfte avgrensing av området, innhold i fredningsbestemmelser og spørsmål om samtidig oppstart av kommunalt eller regionalt planarbeid og spørsmål for øvrig av betydning for kommunens og fylkeskommunens planarbeid. Kongen kan gi forskrift om samordnet behandling av planer etter plan- og bygningsloven og fredning etter denne lov.
 >
 
 ## § 23
@@ -172,6 +235,17 @@ refid: "lov/1978-06-09-50"
 
 *§ 24 oppheves.*
 
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 24 første og nytt andre ledd skal lyde:*
+
+> Så snart råd er etter at saka er rettskraftig, skal rettsformannen ta eit rettskjent utdrag av rettsboka og få dette tinglyst. Alt av varig verdi skal takast med i utdraget. Dersom det er oppretta nye matrikkeleiningar i saka, må dette vere ført inn i matrikkelen før utdraget blir sendt til tinglysing. Etter tinglysinga skal utdraget oppbevarast på jordskiftekontoret.
+>
+> Så snart saka er rettskraftig, skal rettsformannen gi melding til kommunen i samsvar med lov om eigedomsregistrering.
+>
+> Noverande andre ledd blir tredje ledd.
+>
+
 ## § 28
 
 ### 2005-06-10 — lov/2005-06-10-52
@@ -203,6 +277,15 @@ refid: "lov/1978-06-09-50"
 > Kongen fastsetter hvem det er som er rette myndighet i medhold av §§ 3, 4, 5, 6, 8, 9, 10, 11, 13, 14, 15, 15a, 16, 17, 18, 19, 20, 21, 22, 23, 23c og 25.
 >
 
+## § 29
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 29 tredje ledd skal lyde:*
+
+> I samband med jordskifte kan formannen i jordskifteretten gi attest for samanslåing i samsvar med lov om eigedomsregistrering § 18.
+>
+
 ## § 4
 
 ### 2018-06-22 — lov/2018-06-22-82
@@ -210,4 +293,89 @@ refid: "lov/1978-06-09-50"
 *§ 4 andre ledd skal lyde:*
 
 > Det samme gjelder samiske kulturminner som nevnt ovenfor fra år 1917 eller eldre.
+>
+
+## § 58
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 58 nytt fjerde ledd skal lyde:*
+
+> Alle jordsameiger som ligg i skiftefeltet, og som tidlegare ikkje er ført inn i matrikkelen, skal registrerast i matrikkelen så sant jordskifteretten av omsyn til saka elles har klarlagt grensene og kven som har part i sameiga. Med omsyn til klarlegging av grenser og partar i sameige gjeld krav som fastsett i lov om eigedomsregistrering.
+>
+> Noverande fjerde ledd blir femte ledd.
+>
+
+## § 8
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 8 siste ledd første og andre punktum skal lyde:*
+
+> Tillatelse i medhold av første ledd skal ikke innhentes for bygge- og anleggstiltak som er i samsvar med reguleringsplan som er vedtatt etter denne lovs ikrafttreden. Tilsvarende gjelder for områder som i kommuneplanens arealdel er utlagt til bebyggelse og anlegg, og der vedkommende myndighet etter loven her har sagt seg enig i arealbruken.
+>
+
+## § 86
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 86 skal lyde:*
+
+> § 86.
+>
+> På bruk som ligg under offentleg jordskifte, kan ingen andre enn jordskifteretten opprette nye matrikkeleiningar utan samtykke frå retten. Dei oppmålingsforretningane som offentleg jordskiftesak fører med seg, skal jordskifteretten alltid halde.
+>
+> Når partane i eit avtaleskjønn etter § 6 fjerde ledd er samde om det, held jordskifteretten oppmålingsforretning.
+>
+
+## § 87
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 87 første punktum skal lyde:*
+
+> For oppmålingsforretningar som jordskifteretten held etter § 86, gjeld reglane i lov om eigedomsregistrering på tilsvarande måte, så langt dei høver.
+>
+
+## § 88
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 88 første ledd første punktum skal lyde:*
+
+> Eigar kan krevje at jordskifteretten i særskild sak skal klarleggje, merkje av og beskrive grenser for grunneigedom, anleggseigedom, uteareal til eigarseksjon og jordsameige, grenser for alltidvarande bruksrett eller grenser for offentleg regulering av eigarrådvelde.
+>
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 88 tredje ledd skal lyde:*
+
+> Tilsvarande kan eigar eller festar krevje grensegang for matrikkeleining som er festa bort.
+>
+
+## § 88a
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 88a første ledd skal lyde:*
+
+> Eigar eller innehavar av alltidvarande bruksrett kan krevje at jordskifteretten skal klarleggje og fastsette eigedoms- og bruksrettstilhøva i sameiger og i andre områder der det er sambruk mellom eigedomar eller går føre seg reindrift etter lov 9. juni 1978 nr. 49 om reindrift § 2, når dette er nødvendig av omsyn til ein rasjonell bruk av området, eller for registrering av uregistrert jordsameige.
+>
+
+## § 89a
+
+### 2005-06-17 — lov/2005-06-17-101
+
+*§ 89a femte ledd skal lyde:*
+
+> § 88 tredje og femte ledd og § 89 andre ledd gjeld ikkje.
+>
+
+## § 9
+
+### 2009-06-19 — lov/2009-06-19-100
+
+*§ 9 tredje ledd skal lyde:*
+
+> Bestemmelsene i første og andre ledd får tilsvarende anvendelse ved utarbeiding av reguleringsplan.
 >

@@ -17,3 +17,14 @@ refid: "lov/2012-01-20-6"
 >
 > Bruk av sikkerhetscelle som overstiger 3 døgn, skal meldes til regionalt nivå som tar stilling til om tiltaket skal opprettholdes. Tiltaket skal meldes til Kriminalomsorgsdirektoratet når bruk av sikkerhetscelle overstiger 6 døgn. For innsatte under 18 år skal bruk av sikkerhetscelle som overstiger 24 timer, meldes til regionalt nivå, som tar stilling til om tiltaket skal opprettholdes. Tiltaket skal meldes til direktoratet når bruk av sikkerhetscelle overstiger 3 døgn.
 >
+
+### 2018-06-15 — lov/2018-06-15-37
+
+*15.I lov 20. januar 2012 nr. 6 om endringer i straffeloven, straffeprosessloven, straffegjennomføringsloven, konfliktrådsloven m.fl. blir del II og III oppheva.*
+
+### 2018-07-01 — forskrift/2018-06-15-887
+
+*Loven gjelder fra 1. juli 2018.*
+
+> Loven gjelder fra 1. juli 2018.
+>

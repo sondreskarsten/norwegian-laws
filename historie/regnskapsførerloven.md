@@ -68,3 +68,31 @@ refid: "lov/2022-12-16-90"
 
 > Den som forsettlig eller uaktsomt overtrer §§ 2-1, 4-1, 5-3, 5-4 eller 5-5, straffes med bøter eller fengsel inntil ett år.
 >
+
+## (annet)
+
+### 2025-07-01 — forskrift/2025-06-20-1110
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
+### 2026-07-01 — forskrift/2026-06-19-1154
+
+*Delt ikraftsetting av lov 19. juni 2026 om endringer i bokføringsloven og enkelte andre lover på finansmarkedsområdet (pliktig digital bokføring og e-fakturering mv.)*
+
+> Delt ikraftsetting av lov 19. juni 2026 om endringer i bokføringsloven og enkelte andre lover på finansmarkedsområdet (pliktig digital bokføring og e-fakturering mv.)
+>
+> Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del II–VI
+>
+> Følgende trer i kraft 1. januar 2027:
+>
+> Endringsloven del I § 3, § 10, § 11 og § 13
+>
+> Følgende trer i kraft 1. januar 2030
+>
+> Endringsloven del I § 7 fjerde ledd
+>

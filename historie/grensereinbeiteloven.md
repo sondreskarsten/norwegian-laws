@@ -5,6 +5,52 @@ refid: "lov/1972-06-09-31"
 
 # Endringshistorikk: Grensereinbeiteloven
 
+## (annet)
+
+### 2014-01-01 — forskrift/2013-06-14-646
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
+### 2015-06-19 — lov/2015-06-19-65
+
+*69. I lov 9. juni 1972 nr. 31 om svensk reinbeiting i Norge og norsk reinbeiting i Sverige skal § 55 lyde:*
+
+> Offentlig påtale for lovbrudd som nevnt i § 54, finner bare sted på begjæring av fylkesmannen eller lantbruksnämnden.
+>
+
+### 2019-07-01 — forskrift/2019-05-24-673
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2022-07-01 — forskrift/2022-04-08-570
+
+*Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 122 om endringer i straffeprosessloven mv. (aktiv saksstyring mv.). Loven trer i kraft 1. juli 2022.
+>
+> Private straffesaker etter straffeprosessloven kapittel 28, som er innkommet ved stevning, erklæring eller er til behandling i en domstol før 1. juli 2022, behandles i henhold til reglene i straffeprosessloven kapittel 28 også etter 1. juli 2022. Dette gjelder også ankebehandling.
+>
+
+### 2023-01-01 — forskrift/2022-09-16-1575
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
+>
+
 ## § 1
 
 ### 2005-06-17 — lov/2005-06-17-100

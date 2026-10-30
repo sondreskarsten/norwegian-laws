@@ -14,6 +14,13 @@ refid: "lov/1973-12-14-61"
 > Kravene dekkes av garantien i den utstrekning de har fortrinnsrett etter kapittel 9 i lov om fordringshavernes dekningsrett, dog begrenset i det enkelte tilfelle til et beløp som svarer til to ganger folketrygdens grunnbeløp på fristdagen.
 >
 
+### 2005-06-17 — lov/2005-06-17-62
+
+*5. I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 6 lyde:*
+
+> Når staten dekker krav etter garantien, trer den inn i arbeidstakerens krav mot arbeidsgiveren og hans bo. Dette gjelder selv om vilkårene for utbetaling av lønnsgarantien ikke forelå. Ved virksomhetsoverdragelse kan staten også rette regresskrav mot den nye arbeidsgiveren, jf. arbeidsmiljøloven § 16-2 første ledd.
+>
+
 ### 2005-12-21 — lov/2005-12-21-120
 
 *I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 tredje ledd nytt annet punktum lyde:*
@@ -24,6 +31,10 @@ refid: "lov/1973-12-14-61"
 ### 2005-12-21 — lov/2005-12-21-120
 
 *Nåværende andre og tredje punktum blir tredje og fjerde punktum.*
+
+### 2006-06-16 — lov/2006-06-16-20
+
+*11. I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. § 10 første ledd annet punktum skal betegnelsen «arbeidsformidlingen» endres til «Arbeids- og velferdsetaten».*
 
 ### 2012-12-14 — lov/2012-12-14-80
 
@@ -52,6 +63,17 @@ refid: "lov/1973-12-14-61"
 *I lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. skal § 1 sjette ledd lyde:*
 
 > Garantien omfatter i tillegg rimelige omkostninger arbeidstaker eller en arbeidstakerorganisasjon har i forbindelse med konkursbegjæringen. Kravene dekkes i den utstrekning de er massefordringer etter dekningsloven § 9-2 andre ledd nr. 1, og boet selv ikke har midler til å dekke dem.
+>
+
+### 2026-01-01 — forskrift/2025-06-10-967
+
+*Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av*
+
+> Delt ikraftsetting av lov 25. april 2025 nr. 12 om innkreving av statlige krav mv. (innkrevingsloven). Loven trer i kraft 1. januar 2026, med unntak av
+>
+> lovendringene om utlegg som i saker om utlegg kommer gradvis til anvendelse, og
+>
+> innkrevingsloven § 21 som trer i kraft 1. januar 2027.
 >
 
 ## § 10

@@ -7,184 +7,70 @@ refid: "lov/1975-06-13-39"
 
 ## (annet)
 
-### 2001-06-15 — lov/2001-06-15-65
+### 2008-09-19 — lov/2008-09-19-77
 
-*Endringer i følgende lov:*
+*Nåværende tredje punktum blir nytt fjerde punktum.*
 
-> Endringer i følgende lov:
->
-> Lov av 13. juni 1975 nr. 39 om utlevering av lovbrytere m.v.
->
-> § 1
->
-> .
->
-> Lovens virkeområde mv.
->
-> Anmodninger om overlevering og andre former for bistand satt fram av Den internasjonale straffedomstol (Domstolen) i samsvar med Domstolens vedtekter 17. juli 1998 (Roma-vedtektene), behandles i samsvar med bestemmelsene i denne loven.
->
-> Slike anmodninger skal settes fram for departementet.
->
-> Anmodninger fra Domstolen skal etterkommes så langt dette følger av Roma-vedtektene.
->
-> § 2
->
-> .
->
-> Overlevering
->
-> Etter anmodning fra Domstolen kan en person som er mistenkt, tiltalt eller domfelt for en forbrytelse som er omfattet av Domstolens myndighetsområde og som oppholder seg her i riket, overleveres til Domstolen.
->
-> Ved behandling av anmodningen om overlevering gjelder reglene i lov 13. juni 1975 nr. 39 om utlevering av lovbrytere kapittel II så langt de passer.
->
-> Departementet kan samtykke til at en person som overleveres fra en fremmed stat til Domstolen, føres over norsk område.
->
-> § 3
->
-> .
->
-> Annen bistand
->
-> Norske domstoler og andre myndigheter kan etter anmodning gi Domstolen slik bistand som nevnt i Roma-vedtektene artikkel 93.
->
-> Anmodningen behandles og gjennomføres i samsvar med norsk lov så langt den passer. Har Domstolen anmodet om at en særlig framgangsmåte benyttes, skal dette etterkommes hvis framgangsmåten ikke er forbudt etter norsk lov.
->
-> Departementet kan etter anmodning gi Domstolen adgang til å avhøre vitner og foreta andre undersøkelser her i riket.
->
-> § 4
->
-> .
->
-> Bruk av tvangsmidler
->
-> Etter anmodning fra Domstolen kan det benyttes tvangsmidler. Reglene i lov 13. juni 1975 nr. 39 om utlevering av lovbrytere m.v. §§ 15, 20 og 24 gjelder tilsvarende så langt de passer. Dersom det er et vilkår for å benytte tvangsmidlet at det foreligger skjellig grunn til mistanke om en straffbar handling, skal Domstolens vurdering av dette legges til grunn. En person kan pågripes og fengsles etter begjæring fra Domstolen, selv om vilkårene i straffeprosessloven §§ 170 a og 171 ikke er oppfylt.
->
-> En person som er pågrepet, har rett til å begjære foreløpig løslatelse i påvente av overlevering. Vedkommende kan foreløpig løslates dersom Roma-vedtektenes vilkår for dette foreligger. Før retten løslater vedkommende, skal Domstolen underrettes og gis anledning til å uttale seg.
->
-> § 5
->
-> .
->
-> Mistenktes rett til forsvarer
->
-> En person som er mistenkt eller tiltalt for handlinger som er omfattet av Domstolens myndighetsområde, har rett til å la seg bistå av forsvarer etter eget valg på ethvert trinn av saken. Dette skal vedkommende gjøres kjent med før første avhør tar til.
->
-> Dersom Domstolen har anmodet om overlevering eller annen bistand fra norske myndigheter, skal det oppnevnes offentlig forsvarer for vedkommende i samme utstrekning som etter utleveringsloven § 16 første ledd første punktum og § 20, og straffeprosessloven §§ 97, 98, 100 andre ledd og 100 a.
->
-> § 6
->
-> .
->
-> Fornærmedes rett til advokat
->
-> Fornærmede i saker som er til behandling i Domstolen, kan på begjæring få oppnevnt advokat hvis det er grunn til å tro at fornærmede som følge av handlingen får betydelig skade på legeme eller helbred og det anses å være behov for advokat. Reglene i straffeprosessloven kapittel 9 a gjelder tilsvarende så langt de passer.
->
-> § 7
->
-> .
->
-> Fritak fra taushetsplikt ved forklaring og framleggelse av andre bevis for Domstolen
->
-> Kongen kan gi tillatelse til at Domstolen kan ta imot forklaring om noe som holdes hemmelig av hensyn til rikets sikkerhet eller forholdet til fremmed stat.
->
-> Taushetsplikt etter annen lovgivning eller instruks er ikke til hinder for at en person forklarer seg for Domstolen, i den utstrekning Domstolen pålegger dette.
->
-> Bestemmelsene i første og annet ledd gjelder tilsvarende for utlevering av dokumenter eller andre ting som inneholder taushetsbelagte opplysninger.
->
-> § 8
->
-> .
->
-> Anonym vitneførsel
->
-> Etter anmodning eller samtykke fra Domstolen kan retten bestemme anonym vitneførsel for retten eller for politiet i samme utstrekning som i saker om lovbrudd av tilsvarende art som forfølges her i riket. Straffeprosessloven §§ 130 a og 234 a gjelder tilsvarende så langt de passer.
->
-> § 9
->
-> .
->
-> Rettskraftsvirkninger
->
-> Det kan ikke reises straffesak eller avsies straffedom her i riket for en handling som vedkommende er dømt eller frifunnet for av Domstolen.
->
-> § 10
->
-> .
->
-> Fullbyrding av frihetsstraff i Norge
->
-> Departementet kan samtykke i at frihetsstraff som er idømt av Domstolen fullbyrdes i Norge, og anmode påtalemyndigheten om å iverksette fullbyrdingen. Fullbyrdingen gjennomføres i samsvar med bestemmelsene i Roma-vedtektene del 10 og de vilkår departementet har satt for å motta domfelte til soning.
->
-> § 11
->
-> .
->
-> Fullbyrding av andre rettsfølger i Norge
->
-> Bøtestraff som er idømt av Domstolen kan fullbyrdes i Norge. Det samme gjelder krav om inndragning og erstatning til fornærmede som er idømt av Domstolen. For inndragning av pengekrav gjelder straffeprosessloven §§ 456 og 457 tilsvarende så langt de passer.
->
-> § 12
->
-> .
->
-> Straff for forbrytelser mot Domstolen mv.
->
-> For straffansvar for falsk forklaring for Domstolen gjelder straffeloven §§ 163 til 167 tilsvarende.
->
-> For straffansvar for forbrytelser mot Domstolens tjenestemenn gjelder straffeloven §§ 127, 128, 132 og 132 a tilsvarende.
->
-> Straffeloven §§ 112-114 gjelder tilsvarende for Domstolens dommere og andre ansatte ved Domstolen.
->
-> Denne paragraf kommer også til anvendelse på handlinger som er foretatt i utlandet av norsk statsborger.
->
-> § 13
->
-> .
->
-> Strafforfølgning her i riket
->
-> Straffeloven § 13 første ledd gjelder ikke for strafforfølgning her i riket av handlinger som omfattes av Domstolens myndighetsområde.
->
-> § 14
->
-> .
->
-> Forskrifter
->
-> Kongen kan gi nærmere forskrifter til utfylling og gjennomføring av denne loven.
->
-> § 15
->
-> .
->
-> Ikrafttredelse
->
-> Loven gjelder fra den tid Roma-vedtektene trer i kraft for Norge.
->
-> § 16
->
-> .
->
-> Endringer i andre lover
->
-> I lov 13. juni 1975 nr. 39 om utlevering av lovbrytere m.v. gjøres følgende endringer:
->
-> § 15 nr. 1 første punktum skal lyde:
->
-> Til fremme av undersøkelsen og for å sikre utlevering kan de tvangsmidler som er nevnt i straffeprosessloven kapitler 14, 15, 15 a, 16, 16 a og 16 b anvendes i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket.
->
-> § 20 nr. 1 første punktum skal lyde:
->
-> Når en person i fremmed stat er siktet, tiltalt eller domfelt for en straffbar handling som kan begrunne utlevering etter denne lov, kan tvangsmidler etter straffeprosessloven kapitler 14, 15, 15 a, 16, 16 a og 16 b anvendes overfor ham i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket, såframt kompetent myndighet i den fremmede stat ber om det før utleveringsbegjæring er framsatt.
->
-> § 24 nr. 1 skal lyde:
->
-> Til bruk for straffesak i fremmed stat kan det på begjæring bestemmes at tvangsmidler som nevnt i straffeprosessloven kapitler 15, 15 a, 16, 16 a og 16 b og 17 skal kunne anvendes på samme måte som i saker om lovbrudd av tilsvarende art som forfølges her i riket.
+### 2009-06-19 — lov/2009-06-19-74
+
+*3. I lov 13. juni 1975 nr. 39 om utlevering av lovbrytere mv. skal § 9 annet punktum lyde:*
+
+> Utlevering kan likevel skje dersom siktelsen, tiltalen eller domfellelsen gjelder folkemord, forbrytelse mot menneskeheten, og har en strafferamme på fengsel i 15 år eller mer.
+>
+
+### 2009-06-19 — lov/2009-06-19-74
+
+*Nåværende § 402 blir § 412 og skal lyde:*
+
+> § 412.Endringer i andre lover
+>
+> Med virkning fra den tid hele straffeloven 20. mai 2005 nr. 28 settes i kraft, gjøres følgende endringer i annen lovgivning:
+>
+> 1. I lov 2. oktober 1751 Første Codicill og Tillæg til Grendse-Tractaten imellem Kongerigerne Norge og Sverrig Lapperne betreffende (Lappekodisillen) skal § 19 siste punktum lyde:
+>
+> For hver Gang saadan lovbrud skeer, fordobles Straffen; forgriber Lappen sig paa bemelte Personer videre, end det til simpel Opsetsighet kand regnes, Straffes han desuden derfor efter Loven.
+>
+
+### 2012-10-16 — forskrift/2012-09-21-895
+
+*Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 1 til § 42 trer i kraft 16. oktober 2012 for nordiske arrestordrar.*
+
+> Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 1 til § 42 trer i kraft 16. oktober 2012 for nordiske arrestordrar.
+>
+> Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 43 om endringar i andre lover, trer i kraft 16. oktober 2012, med unntak av endringa i lov 13. juni 1975 nr. 39 om utlevering § 1.
+>
+
+### 2013-01-01 — forskrift/2012-12-14-1208
+
+*Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.*
+
+> Lov 22. juni 2012 nr. 52 om endringer i utleveringsloven m.m. del I, II, III, IV og V trer i kraft 1. januar 2013.
+>
+
+### 2014-05-09 — forskrift/2014-05-09-625
+
+*Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.*
+
+> Delt ikraftsetting av lov om retting av feil i lovverket m.m. Endringene i loven del I nr. 16 og 17 – endringer i aksjeloven og allmennaksjeloven – trer ikraft 1. juli 2014. For øvrig trer loven i kraft straks.
 >
 
 ### 2019-06-21 — lov/2019-06-21-50
 
 *Nåværende annet og tredje punktum blir tredje og nytt fjerde punktum.*
+
+### 2019-07-01 — forskrift/2019-06-21-779
+
+*Loven trer i kraft 1. juli 2019.*
+
+> Loven trer i kraft 1. juli 2019.
+>
+
+### 2019-11-01 — forskrift/2019-10-18-1387
+
+*Delt ikraftsetjing av lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre. Loven §§ 1 til 42 tek til å gjelde 1. november 2019 for så vidt gjeld nordisk-europeiske arrestordrar. Loven § 43 om endringar i andre lover tek til å *
+
+> Delt ikraftsetjing av lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre. Loven §§ 1 til 42 tek til å gjelde 1. november 2019 for så vidt gjeld nordisk-europeiske arrestordrar. Loven § 43 om endringar i andre lover tek til å gjelde 1. november 2019.
+>
 
 ### 2026-06-12 — forskrift/2026-06-12-1056
 
@@ -212,6 +98,13 @@ refid: "lov/1975-06-13-39"
 > Departementets vedtak kan ikke påklages.
 >
 
+### 2026-10-01 — forskrift/2026-06-19-1135
+
+*Loven trer i kraft 1. oktober 2026.*
+
+> Loven trer i kraft 1. oktober 2026.
+>
+
 ## § 13
 
 ### 2026-06-12 — lov/2026-06-12-30
@@ -224,6 +117,13 @@ refid: "lov/1975-06-13-39"
 >
 
 ## § 15
+
+### 2001-06-15 — lov/2001-06-15-65
+
+*§ 15 nr. 1 første punktum skal lyde:*
+
+> Til fremme av undersøkelsen og for å sikre utlevering kan de tvangsmidler som er nevnt i straffeprosessloven kapitler 14, 15, 15 a, 16, 16 a og 16 b anvendes i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket.
+>
 
 ### 2019-06-21 — lov/2019-06-21-50
 
@@ -257,6 +157,15 @@ refid: "lov/1975-06-13-39"
 > Kjennelsen kan ankes i samsvar med reglene i straffeprosessloven kapittel 26. Fristen for å anke kjennelsen er 3 dager. Anke har alltid oppsettende virkning.
 >
 
+## § 18
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 18 nr. 2 skal lyde:*
+
+> I tilfelle som nevnt i § 11 andre ledd innhentes uttalelse fra kriminalomsorgen før avgjørelse treffes, såframt den det gjelder soner straff eller er anbrakt i anstalt.
+>
+
 ## § 19
 
 ### 2007-02-27 — lov/2007-01-26-3
@@ -268,6 +177,13 @@ refid: "lov/1975-06-13-39"
 
 ## § 20
 
+### 2001-06-15 — lov/2001-06-15-65
+
+*§ 20 nr. 1 første punktum skal lyde:*
+
+> Når en person i fremmed stat er siktet, tiltalt eller domfelt for en straffbar handling som kan begrunne utlevering etter denne lov, kan tvangsmidler etter straffeprosessloven kapitler 14, 15, 15 a, 16, 16 a og 16 b anvendes overfor ham i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket, såframt kompetent myndighet i den fremmede stat ber om det før utleveringsbegjæring er framsatt.
+>
+
 ### 2007-02-27 — lov/2007-01-26-3
 
 *§ 20 nr. 1 fjerde punktum skal lyde:*
@@ -275,10 +191,6 @@ refid: "lov/1975-06-13-39"
 > Rettens kjennelse om bruk av tvangsmidler kan ankes etter reglene i straffeprosessloven kapittel 26.
 >
 > 65. I lov 10. juni 1977 nr. 71 om anerkjennelse og fullbyrding av nordiske dommer på privatrettens område skal § 8 nr. 1 bokstav c lyde:en vernetingsavtale som ikke fyller kravene i tvisteloven § 4-6, såframt avgjørelsen gjelder en saksøkt som på avtaletidspunktet hadde alminnelig verneting i Norge og framleis har det.
->
-> 66. I lov 10. juni 1977 nr. 73 om jernbaneansvar (jernbaneansvarsloven) skal § 7 lyde:
->
-> Søksmål kan reises i rettskrets hvor det er verneting etter tvisteloven kapittel 4 II, og dessuten i rettskrets på avreise- eller bestemmelsesstedet.
 >
 
 ### 2019-06-21 — lov/2019-06-21-50
@@ -295,13 +207,49 @@ refid: "lov/1975-06-13-39"
 > Når en person i fremmed stat er siktet, tiltalt eller domfelt for en straffbar handling som kan begrunne utlevering etter denne lov, kan tvangsmidler etter straffeprosessloven kapitler 14, 15, 15 a, 15 b, 16, 16 a, 16 b og 16 d, samt båndlegging etter politiloven § 17 g, anvendes overfor ham i samme utstrekning som i saker angående lovbrudd av tilsvarende art som forfølges her i riket, såframt kompetent myndighet i den fremmede stat ber om det før utleveringsbegjæring er framsatt.
 >
 
+## § 21
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 21 nr. 2 første punktum skal lyde:*
+
+> Samtykke kan bare gis når handlingen kunne ha begrunnet utlevering etter denne lov.
+>
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 21 nr. 2 nytt tredje punktum skal lyde:*
+
+> Dersom saken tidligere ikke har vært prøvd for retten, skal den tingretten hvor den ettersøkte sist oppholdt seg, avgjøre spørsmålet.
+>
+
+## § 22
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 22 andre punktum oppheves.*
+
 ## § 23 a
 
 ### 2012-06-22 — lov/2012-06-22-52
 
 *Ny § 23 a skal lyde:*
 
-> En begjæring om rettslig bistand fra utenlandsk myndighet i forbindelse med straffesak i fremmed stat som er fremsatt overfor departementet eller i samsvar med overenskomst med vedkommende stat, skal så vidt mulig etterkommes.Begjæringen skal avslås dersom gjennomføringen ville krenke Norges suverenitet, medføre fare for rikets sikkerhet eller stride mot rettsordenen eller andre vesentlige interesser.Begjæringen kan også avslås dersomden gjelder en handling som etter bestemmelsene i §§ 4 og 5 ikke kan begrunne utlevering,den fullbyrdende myndighet har kjennskap til at det i Norge eller i en stat som er tilknyttet Schengen-samarbeidet eller Den europeiske union er avsagt dom eller foreligger annen avgjørelse som avskjærer videre strafforfølgning for det forhold begjæringen gjelder,det foreligger tungtveiende grunner for at begjæringen ikke bør etterkommes,Tredje ledd bokstav a gjelder ikke anmodning fra en stat som er tilsluttet Schengen-samarbeidet eller Den europeiske union.Det er ikke til hinder for gjennomføringen av anmodningen at handlingen som anmodningen gjelder, ikke er straffbar etter norsk rett. Dette gjelder likevel ikke anmodninger som involverer bruk av tvangsmidler, jf. § 24 tredje ledd.
+> En begjæring om rettslig bistand fra utenlandsk myndighet i forbindelse med straffesak i fremmed stat som er fremsatt overfor departementet eller i samsvar med overenskomst med vedkommende stat, skal så vidt mulig etterkommes.
+>
+> Begjæringen skal avslås dersom gjennomføringen ville krenke Norges suverenitet, medføre fare for rikets sikkerhet eller stride mot rettsordenen eller andre vesentlige interesser.
+>
+> Begjæringen kan også avslås dersom den gjelder en handling som etter bestemmelsene i §§ 4 og 5 ikke kan begrunne utlevering, den fullbyrdende myndighet har kjennskap til at det i Norge eller i en stat som er tilknyttet Schengen-samarbeidet eller Den europeiske union er avsagt dom eller foreligger annen avgjørelse som avskjærer videre strafforfølgning for det forhold begjæringen gjelder, det foreligger tungtveiende grunner for at begjæringen ikke bør etterkommes,
+>
+> den gjelder en handling som etter bestemmelsene i §§ 4 og 5 ikke kan begrunne utlevering,
+>
+> den fullbyrdende myndighet har kjennskap til at det i Norge eller i en stat som er tilknyttet Schengen-samarbeidet eller Den europeiske union er avsagt dom eller foreligger annen avgjørelse som avskjærer videre strafforfølgning for det forhold begjæringen gjelder,
+>
+> det foreligger tungtveiende grunner for at begjæringen ikke bør etterkommes,
+>
+> Tredje ledd bokstav a gjelder ikke anmodning fra en stat som er tilsluttet Schengen-samarbeidet eller Den europeiske union.
+>
+> Det er ikke til hinder for gjennomføringen av anmodningen at handlingen som anmodningen gjelder, ikke er straffbar etter norsk rett. Dette gjelder likevel ikke anmodninger som involverer bruk av tvangsmidler, jf. § 24 tredje ledd.
 >
 
 ## § 23 b
@@ -310,7 +258,9 @@ refid: "lov/1975-06-13-39"
 
 *Ny § 23 b skal lyde:*
 
-> Påtalemyndigheten kan beslutte å fremme anmodning til utenlandsk myndighet om bistand til bevisopptak. Slik anmodning sendes via Justisdepartementet, hvis ikke annet er bestemt ved overenskomst med fremmed stat.Kongen kan gi nærmere forskrifter om rettsanmodninger etter denne bestemmelsen.
+> Påtalemyndigheten kan beslutte å fremme anmodning til utenlandsk myndighet om bistand til bevisopptak. Slik anmodning sendes via Justisdepartementet, hvis ikke annet er bestemt ved overenskomst med fremmed stat.
+>
+> Kongen kan gi nærmere forskrifter om rettsanmodninger etter denne bestemmelsen.
 >
 
 ## § 23 c
@@ -325,6 +275,27 @@ refid: "lov/1975-06-13-39"
 >
 
 ## § 24
+
+### 2001-06-15 — lov/2001-06-15-65
+
+*§ 24 nr. 1 skal lyde:*
+
+> Til bruk for straffesak i fremmed stat kan det på begjæring bestemmes at tvangsmidler som nevnt i straffeprosessloven kapitler 15, 15 a, 16, 16 a og 16 b og 17 skal kunne anvendes på samme måte som i saker om lovbrudd av tilsvarende art som forfølges her i riket.
+>
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 24 nytt fjerde ledd skal lyde:*
+
+> Endringen i utleveringsloven § 9 trer i kraft straks.
+>
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 24 nr. 3 tredje punktum skal lyde:*
+
+> Ved begjæring fra Danmark, Finland, Island eller Sverige gjelder heller ikke første punktum første alternativ.
+>
 
 ### 2012-06-22 — lov/2012-06-22-52
 
@@ -367,7 +338,17 @@ refid: "lov/1975-06-13-39"
 
 *Ny § 24 a skal lyde:*
 
-> Til bruk for straffesak i fremmed stat kan utenlandsk domstol eller annen myndighet som er kompetent etter vedkommende lands lovgivning, på begjæring avhøre vitner og sakkyndige som befinner seg i Norge ved fjernavhør. Begjæringen fremsettes overfor departementet, med mindre annet er fastsatt ved overenskomst med fremmed stat.Fjernavhør etter denne bestemmelsen gjennomføres ved norsk domstol. Innkallelse av den som skal avgi forklaring skjer etter reglene i straffeprosessloven. For plikten til å møte som vitne eller sakkyndig gjelder straffeprosessloven §§ 108, 109 og 143 tredje ledd tilsvarende. Tredje punktum gjelder ikke for fjernavhør ved hjelp av telefon.Avhøret kan gjennomføres i henhold til lovgivningen i den stat som har fremsatt begjæringen, så lenge en slik fremgangsmåte ikke er forbudt etter norsk rett. En dommer skal være til stede under hele avhøret og føre kontroll med utspørringen.For vitnet og den sakkyndiges adgang og plikt til å forklare seg mv. gjelder bestemmelsene i straffeprosessloven kapittel 10 og 11 tilsvarende så langt de passer. Den som avhøres kan også nekte å avgi forklaring i den utstrekning dette følger av den anmodende stats lovgivning. Fjernavhør ved hjelp av telefon kan bare skje dersom vitnet eller den sakkyndige samtykker.For straffansvar for falsk forklaring gjelder straffeloven §§ 163 til 167 tilsvarende.Kongen kan gi forskrifter om fjernavhør etter denne bestemmelsen, herunder regler om blant annet føring av referat, bruk av tolk og dommerens kontroll med avhøret mv.
+> Til bruk for straffesak i fremmed stat kan utenlandsk domstol eller annen myndighet som er kompetent etter vedkommende lands lovgivning, på begjæring avhøre vitner og sakkyndige som befinner seg i Norge ved fjernavhør. Begjæringen fremsettes overfor departementet, med mindre annet er fastsatt ved overenskomst med fremmed stat.
+>
+> Fjernavhør etter denne bestemmelsen gjennomføres ved norsk domstol. Innkallelse av den som skal avgi forklaring skjer etter reglene i straffeprosessloven. For plikten til å møte som vitne eller sakkyndig gjelder straffeprosessloven §§ 108, 109 og 143 tredje ledd tilsvarende. Tredje punktum gjelder ikke for fjernavhør ved hjelp av telefon.
+>
+> Avhøret kan gjennomføres i henhold til lovgivningen i den stat som har fremsatt begjæringen, så lenge en slik fremgangsmåte ikke er forbudt etter norsk rett. En dommer skal være til stede under hele avhøret og føre kontroll med utspørringen.
+>
+> For vitnet og den sakkyndiges adgang og plikt til å forklare seg mv. gjelder bestemmelsene i straffeprosessloven kapittel 10 og 11 tilsvarende så langt de passer. Den som avhøres kan også nekte å avgi forklaring i den utstrekning dette følger av den anmodende stats lovgivning. Fjernavhør ved hjelp av telefon kan bare skje dersom vitnet eller den sakkyndige samtykker.
+>
+> For straffansvar for falsk forklaring gjelder straffeloven §§ 163 til 167 tilsvarende.
+>
+> Kongen kan gi forskrifter om fjernavhør etter denne bestemmelsen, herunder regler om blant annet føring av referat, bruk av tolk og dommerens kontroll med avhøret mv.
 >
 
 ## § 25
@@ -376,14 +357,25 @@ refid: "lov/1975-06-13-39"
 
 *§ 25 nr. 1 og nr. 4 skal lyde:*
 
-> Til bruk for straffesak i fremmed stat kan det på begjæring bestemmes at person som her i riket er fengslet eller etter dom berøvet friheten på grunn av straffbar handling, skal sendes til fremmed stat for å avhøres som vitne eller framstilles til konfrontasjon. Overføring som nevnt i første punktum, kan også skje med vedkommendes samtykke for å bistå ved andre etterforskningsskritt.[...]Dersom vedkommende ikke samtykker i overføring etter nr. 1 første punktum, avgjør retten ved kjennelse om det er lovlig adgang til overføring. Er vedkommende under strafforfølgning her i riket, hører saken inn under den domstol som behandler straffesaken. Reglene i § 17 tredje ledd og § 18 første ledd gjelder tilsvarende. I samband med overenskomst som nevnt i annet ledd, kan det dog bestemmes at saken skal avgjøres av annen myndighet enn departementet. Før retten, eller i tilfelle departementet, treffer sin avgjørelse, skal det innhentes uttalelse fra fengsels- eller anstaltmyndigheten såframt vedkommende soner straff eller er anbrakt i anstalt.
+> Til bruk for straffesak i fremmed stat kan det på begjæring bestemmes at person som her i riket er fengslet eller etter dom berøvet friheten på grunn av straffbar handling, skal sendes til fremmed stat for å avhøres som vitne eller framstilles til konfrontasjon. Overføring som nevnt i første punktum, kan også skje med vedkommendes samtykke for å bistå ved andre etterforskningsskritt. [...]
+>
+> Dersom vedkommende ikke samtykker i overføring etter nr. 1 første punktum, avgjør retten ved kjennelse om det er lovlig adgang til overføring. Er vedkommende under strafforfølgning her i riket, hører saken inn under den domstol som behandler straffesaken. Reglene i § 17 tredje ledd og § 18 første ledd gjelder tilsvarende. I samband med overenskomst som nevnt i annet ledd, kan det dog bestemmes at saken skal avgjøres av annen myndighet enn departementet. Før retten, eller i tilfelle departementet, treffer sin avgjørelse, skal det innhentes uttalelse fra fengsels- eller anstaltmyndigheten såframt vedkommende soner straff eller er anbrakt i anstalt.
+>
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 25 nr. 3 fjerde punktum skal lyde:*
+
+> Første punktum gjelder ikke for begjæringer fra Danmark, Finland, Island eller Sverige.
 >
 
 ### 2012-06-22 — lov/2012-06-22-52
 
 *§ 25 nr. 1 og 2 skal lyde:*
 
-> Til bruk for straffesak her i landet eller i fremmed stat kan det bestemmes at en person som her i landet er frihetsberøvet på grunn av straffbar handling, skal midlertidig overføres til en fremmed stat for å avhøres som vitne eller fremstilles til konfrontasjon. Overføring som nevnt i første punktum, kan også skje med vedkommendes samtykke for å bistå ved andre etterforskningsskritt, eller skje i forbindelse med fornyet prøving av dom.Begjæring om overføring etter nr. 1 fremsendes via departementet med mindre annet er fastsatt ved overenskomst med fremmed stat. Begjæringen skal inneholde opplysninger om arten av den straffbare handling.
+> Til bruk for straffesak her i landet eller i fremmed stat kan det bestemmes at en person som her i landet er frihetsberøvet på grunn av straffbar handling, skal midlertidig overføres til en fremmed stat for å avhøres som vitne eller fremstilles til konfrontasjon. Overføring som nevnt i første punktum, kan også skje med vedkommendes samtykke for å bistå ved andre etterforskningsskritt, eller skje i forbindelse med fornyet prøving av dom.
+>
+> Begjæring om overføring etter nr. 1 fremsendes via departementet med mindre annet er fastsatt ved overenskomst med fremmed stat. Begjæringen skal inneholde opplysninger om arten av den straffbare handling.
 >
 
 ### 2012-06-22 — lov/2012-06-22-52
@@ -406,7 +398,13 @@ refid: "lov/1975-06-13-39"
 
 *Ny § 25 a skal lyde:*
 
-> En person som i utlandet er berøvet friheten på grunn av straffbar handling, kan overføres midlertidig til Norge for å avhøres som vitne eller bistå ved andre etterforskningsskritt. Det samme gjelder ved fornyet prøving av dom.Begjæring om overføring etter nr. 1 fremsettes av påtalemyndigheten og sendes via departementet med mindre annet er fastsatt ved overenskomst med fremmed stat.Personen som overføres skal holdes i fengslig forvaring, med mindre vedkommende utenlandske myndighet anmoder om at fengslingen skal opphøre. Det er et vilkår for fengsling at det godtgjøres å foreligge beslutning om bruk av fengslig forvaring i samsvar med vedkommende stats lovgivning. Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 13 tredje ledd første og annet punktum gjelder tilsvarende.Personen som er overført skal under oppholdet her i riket ikke bli satt under rettsforfølgning, straffet eller utlevert for handling han har begått før overføringen. Vedkommende skal tilbakeføres til den fremmede stat så snart som mulig eller innen en nærmere fastsatt frist.
+> En person som i utlandet er berøvet friheten på grunn av straffbar handling, kan overføres midlertidig til Norge for å avhøres som vitne eller bistå ved andre etterforskningsskritt. Det samme gjelder ved fornyet prøving av dom.
+>
+> Begjæring om overføring etter nr. 1 fremsettes av påtalemyndigheten og sendes via departementet med mindre annet er fastsatt ved overenskomst med fremmed stat.
+>
+> Personen som overføres skal holdes i fengslig forvaring, med mindre vedkommende utenlandske myndighet anmoder om at fengslingen skal opphøre. Det er et vilkår for fengsling at det godtgjøres å foreligge beslutning om bruk av fengslig forvaring i samsvar med vedkommende stats lovgivning. Lov 20. januar 2012 nr. 4 om pågriping og overlevering til og frå Noreg for straffbare forhold på grunnlag av ein arrestordre § 13 tredje ledd første og annet punktum gjelder tilsvarende.
+>
+> Personen som er overført skal under oppholdet her i riket ikke bli satt under rettsforfølgning, straffet eller utlevert for handling han har begått før overføringen. Vedkommende skal tilbakeføres til den fremmede stat så snart som mulig eller innen en nærmere fastsatt frist.
 >
 
 ## § 3
@@ -419,6 +417,13 @@ refid: "lov/1975-06-13-39"
 >
 
 ## § 9
+
+### 2008-09-19 — lov/2008-09-19-77
+
+*§ 9 nytt tredje punktum skal lyde:*
+
+> Med hensyn til avbrytelse av foreldelsesfristen er det den anmodende stats bestemmelser som kommer til anvendelse dersom utleveringsbegjæringen er fremmet av en stat som deltar i Schengensamarbeidet.
+>
 
 ### 2026-06-12 — lov/2026-06-12-30
 

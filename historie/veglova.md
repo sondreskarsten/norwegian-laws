@@ -35,6 +35,19 @@ refid: "lov/1963-06-21-23"
 > Lova gjeld frå den tid Kongen fastset.
 >
 
+### 2007-06-29 — lov/2007-06-29-81
+
+*11. I lov 21. juni 1963 nr. 23 Veglov skal § 55 sjette ledd lyde:*
+
+> Det som er bestemt i paragrafen her om den einskilde sine rettar og plikter, gjeld òg om ansvaret for drifta av vegen ligg i eit sameige, eit samvirkeføretak, eller er skipa på annan måte.
+>
+> 12. I lov om 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) skal § 6 første ledd bokstav e lyde:når han leder eller har ledende stilling i, eller er medlem av styret eller bedriftsforsamling for, et selskap som er part i saken og ikke helt ut eies av stat eller kommune, et samvirkeforetak, eller en forening, sparebank eller stiftelse som er part i saken.
+>
+> 13. I lov 7. juli 1967 nr. 13 om husleieregulering m.v. for boliger skal § 3 andre ledd nr. 2 lyde:utleie av bolig i hus som eies av aksjeselskap, allmennaksjeselskap eller samvirkeforetak der leietakeren er aksjonær eller andelshaver. Det samme gjelder ved fremleie av slik bolig.
+>
+> 14. I lov 19. juni 1969 nr. 66 om merverdiavgift blir det gjort følgjande endringar:
+>
+
 ### 2008-04-04 — lov/2008-04-04-8
 
 *I veglov 21. juni 1963 nr. 23 skal § 27 fyrste ledd lyde:*
@@ -44,6 +57,17 @@ refid: "lov/1963-06-21-23"
 > Med samtykke frå Stortinget kan departementet fastsette at det skal krevjast bompengar på offentleg veg, fastsette storleiken på avgiftene, og sette vilkår om bestemt bruk av avgiftsmidlane. Bompengane kan nyttast til alle tiltak som denne lova gir heimel for. Dessutan kan dei nyttast til investeringar i faste anlegg og installasjonar for kollektivtrafikk på jernbane, inkludert sporveg og tunnelbane. Som del av ein plan om eit heilskapleg og samordna transportsystem i eit byområde, kan bompengar nyttast til tiltak for drift av kollektivtrafikk.
 >
 > Lova gjeld frå den tid Kongen fastset.
+>
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*Nåværende tredje ledd blir fjerde ledd.*
+
+### 2016-01-01 — forskrift/2013-06-21-736
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
 >
 
 ### 2016-12-16 — lov/2016-12-16-99
@@ -138,6 +162,29 @@ refid: "lov/1963-06-21-23"
 > Loven trer i kraft 1. januar 2017.
 >
 
+### 2017-01-01 — forskrift/2016-12-16-1606
+
+*Loven trer i kraft 1. januar 2017.*
+
+> Loven trer i kraft 1. januar 2017.
+>
+
+### 2017-03-20 — forskrift/2017-03-17-337
+
+*Loven trer i kraft 20. mars 2017.*
+
+> Loven trer i kraft 20. mars 2017.
+>
+
+### 2017-06-01 — forskrift/2017-05-11-563
+
+*Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av lov om endringer i rettergangslovgivningen mv. (organiseringen av den sivile rettspleien på grunnplanet). Lovens del I og del III trer i kraft 1. juni 2017. Lovens del II trer i kraft 1. januar 2018.
+>
+> Loven får ikke virkning for lensmannsskjønn som er begjært før ikraftsettingen av lovens del II.
+>
+
 ### 2017-06-16 — lov/2017-06-16-75
 
 *I lov 21. juni 1963 nr. 23 om vegar skal § 27 lyde:*
@@ -153,6 +200,68 @@ refid: "lov/1963-06-21-23"
 > Med samtykke frå departementet kan rett til å krevje inn bompengar pantsetjast. Ei slik pantsetjing omfattar den rett pantsetjaren har til den eller dei eigedomane der det ligg eller skal liggja bomstasjon eller til eigedom som har samanheng med drifta av bompengeinnkrevinga. Panterett i rett til å krevje inn bompengar får rettvern ved å tinglysast i grunnboka på den eller dei eigedomane som er nemnde i førre punktum. Andre fordringshavarar enn panthavaren har ikkje rett til dekking i retten til å krevje inn bompengar.
 >
 > Departementet kan i forskrift fastsetje generelle føresegner om takstar etter første og andre ledd og føresegner om plikta til å betale bompengar.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*Någjeldende § 27 femte ledd blir nytt sjuende ledd.*
+
+> 3.I lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs oppheves § 156 femte ledd annet punktum.
+>
+
+### 2018-06-15 — forskrift/2018-06-15-875
+
+*Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving *
+
+> Loven trer i kraft samtidig med at EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft.
+>
+> Det administrative ansvaret for Datatilsynet og Personvernnemnda hører under Kommunal- og moderniseringsdepartementet med virkning fra lovens ikrafttreden.
+>
+
+### 2018-07-20 — forskrift/2018-07-17-1195
+
+*EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell pers*
+
+> EØS-komiteens beslutning om innlemmelse i EØS-avtalen av Europaparlaments- og rådsforordning (EU) 2016/679 av 27. april 2016 om vern av fysiske personer i forbindelse med behandling av personopplysninger og om fri utveksling av slike opplysninger samt om oppheving av direktiv 95/46/EF (generell personvernforordning) trer i kraft 20. juli 2018. Lov 15. juni 2018 nr. 38 om behandling av personopplysninger (personopplysningsloven) trer derfor i kraft 20. juli 2018, jf. loven § 32 og kongelig resolusjon 15. juni 2018 nr. 875.
+>
+
+### 2019-06-21 — forskrift/2019-06-21-869
+
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2020 med unntak av loven del VII nr. 2, 3 og 4 som trer i kraft straks.
+>
+
+### 2020-05-07 — lov/2020-05-07-40
+
+*2. I lov 21. juni 1963 nr. 23 om vegar skal § 32 andre og nytt tredje ledd lyde:*
+
+> Departementet kan gi forskrift om vilkår for løyve, sakshandsaming, utgiftsdeling og gebyr i samband med løyve etter denne paragrafen og § 30.
+>
+> Dersom ein frist som er fastsett i eit vedtak om igangsetting og avslutning av leidningsarbeid, fjerning eller flytting av leidningar, eller istandsetting av veggrunn etter leidningsarbeid, er overskriden, kan vegstyresmakta gjere vedtak om tvangsmulkt. Vedtaket om tvangsmulkt er tvangsgrunnlag for utlegg. Departementet kan gi forskrift om fastsetjing, utrekning og ettergiving av tvangsmulkt.
+>
+> Loven gjelder fra den tid Kongen bestemmer. Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.
+>
+
+### 2020-07-01 — forskrift/2020-05-07-944
+
+*Loven trer i kraft 1. juli 2020, med unntak av kapittel 6 om sentral informasjonstjeneste, som trer i kraft når Kommunal- og moderniseringsdepartementet bestemmer.*
+
+> Loven trer i kraft 1. juli 2020, med unntak av kapittel 6 om sentral informasjonstjeneste, som trer i kraft når Kommunal- og moderniseringsdepartementet bestemmer.
+>
+
+### 2021-06-01 — forskrift/2021-05-07-1416
+
+*Lova tek til å gjelde 1. juni 2021.*
+
+> Lova tek til å gjelde 1. juni 2021.
+>
+
+### 2025-01-01 — forskrift/2024-12-06-2938
+
+*Lova trer i kraft 1. januar 2025.*
+
+> Lova trer i kraft 1. januar 2025.
 >
 
 ## § 10
@@ -172,6 +281,13 @@ refid: "lov/1963-06-21-23"
 > §§ 9 første og annet ledd, 30 tredje ledd, 31 femte ledd, 32 annet ledd, 33 femte ledd, 34 annet ledd, 36 annet ledd, 37 annet ledd, 40 tredje ledd, 41 første ledd, 42 annet ledd, 43 fjerde ledd, 48 sjette ledd og 51 annet ledd.
 >
 
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 10 nytt tredje ledd skal lyde:*
+
+> Når det gjeld arbeid med saker som gjeld fylkesvegar, er det fylkeskommunen som har ansvaret som arbeidsgjevar etter reglane i skadeserstatningslova § 2-1 for dei tilsette ved regionvegkontoret.
+>
+
 ### 2019-06-21 — lov/2019-06-21-68
 
 *§ 10 skal lyde:*
@@ -182,6 +298,13 @@ refid: "lov/1963-06-21-23"
 >
 
 ## § 11
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 11 andre ledd tredje punktum skal lyde:*
+
+> Bestemmelsene i dette ledd gjelder ikke institusjoner eller virksomhet som er organisert som aksjeselskap, allmennaksjeselskap, samvirkeforetak eller statsforetak.
+>
 
 ### 2016-12-16 — lov/2016-12-16-100
 
@@ -199,11 +322,26 @@ refid: "lov/1963-06-21-23"
 > Fylkeskommunen er klageinstans der styremakt er lagd til Statens vegvesen eller kommunen ved forskrift etter § 9 andre ledd andre punktum.
 >
 
+## § 16
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 16 første punktum skal lyde:*
+
+> Departementet gir nærare føresegner om drift og vedlikehald av offentlig veg.
+>
+
 ## § 19
 
 ### 2019-06-21 — lov/2019-06-21-68
 
 *§ 19 oppheves.*
+
+## § 2
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 2 annet ledd oppheves.*
 
 ## § 20
 
@@ -232,6 +370,59 @@ refid: "lov/1963-06-21-23"
 > Departementet kan i forskrift fastsettje mellombelse tidsdifferensierte bompengetakstar til bruk i avgrensa periodar innanfor bompengesystem i byområde når det er fare for og ved overskriding av grenseverdiane for konsentrasjon av forureining i luft utandørs fastsett i forskrift med heimel i forurensningsloven § 9. Bruken av takstane føreset vedtak av kommunen og fylkeskommunen.
 >
 > § 27 noverande andre og tredje ledd blir tredje og fjerde ledd.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 27 femte ledd skal lyde:*
+
+> Selskap eller andre juridiske personar som er gitt fullmakt frå departementet til å krevje inn bompengar, kan handsame personopplysningar når det er naudsynt for å utføre denne oppgåva. Det same gjeld selskap eller andre juridiske personar som utfører tenester på bompengeområdet i medhald av forskrift til denne lova, og når Statens vegvesen utfører oppgåver på bompengeområdet. Personopplysningar som nemnt i personvernforordninga artikkel 9 nr. 1 kan berre handsamast etter første og andre punktum dersom det er strengt naudsynt ut frå formålet med handsaminga. Dei som har heimel etter første og andre punktum til å handsame personopplysningar, kan levere ut opplysningar til tredjepartar når internasjonale rettsakter eller avtaler som Noreg er bunde av, opnar for ei slik utlevering.
+>
+
+### 2018-06-15 — lov/2018-06-15-38
+
+*§ 27 sjette ledd skal lyde:*
+
+> Departementet kan gi forskrift om handsaming av personopplysningar, slik som føresegner om formålet med handsaminga, kva for opplysningar som kan handsamast, korleis opplysningar skal handsamast, vilkår for eventuell utlevering, bruk av datahandsamar, vilkår for handsaming av sensitive personopplysningar, krav til sletting og krav til eventuelle samanstillingar av personopplysningar til bruk for forsking og statistiske formål.
+>
+
+## § 29
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 29 annet ledd første punktum skal lyde:*
+
+> Byggegrensene skal gå i ein avstand på 50 meter frå riksveg og fylkesveg og 15 meter frå kommunal veg.
+>
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 29 annet ledd tredje punktum skal lyde:*
+
+> Føresegnene i dette leddet gjeld dersom ikkje anna følgjer av føresegnene i tredje, fjerde og femte ledd.
+>
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 29 nytt fjerde ledd skal lyde:*
+
+> For fylkesveg kan fylkeskommunen for særskilt fastsett strekning sette byggegrensa til ein mindre avstand enn den som er nemnt i andre ledd, likevel ikkje mindre enn 15 meter.
+>
+> § 29 nåværende fjerde til sjette ledd blir femte til sjuende ledd.
+>
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 29 femte ledd første punktum skal lyde:*
+
+> Ved kryss i plan mellomoffentlege vegar,offentlege vegar og andre vegar som er opne for allmen ferdsle,offentlege vegar og jarnveg eller sporveg,skal byggegrensa følgje den rette lina mellom punkt på midtlina åt vegane (jernbana, sporvegen) 60 meter frå skjeringspunktet åt midtlinene ved kryss med riksveg og fylkesveg og 40 meter frå skjeringspunktet ved andre kryss.
+>
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 29 sjette ledd første punktum skal lyde:*
+
+> Før det blir tatt avgjerd etter tredje, fjerde eller femte ledd, skal vedkomande kommune få høve til å seie si meining.
 >
 
 ## § 30
@@ -309,6 +500,10 @@ refid: "lov/1963-06-21-23"
 
 ## § 40
 
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 40 annet ledd siste punktum oppheves.*
+
 ### 2019-06-21 — lov/2019-06-21-68
 
 *§ 40 andre ledd skal lyde:*
@@ -358,6 +553,15 @@ refid: "lov/1963-06-21-23"
 > Statens vegvesen tar avgjerd etter denne paragrafen for riksvegar, fylkeskommunen for fylkesvegar og kommunen for kommunale vegar.
 >
 
+## § 44 a
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 44 a første ledd første punktum skal lyde:*
+
+> Departementet kan gi forskrifter om at foreninger og samvirkeforetak som hovedsakelig omsetter produkter fra medlemmenes fiske, skogbruk eller jordbruk med binæringer, skal kunne anføre avgift i sitt avregningsoppgjør med leverandør som ikke er registrert hos avgiftsmyndigheten.
+>
+
 ## § 48
 
 ### 2019-06-21 — lov/2019-06-21-68
@@ -378,6 +582,13 @@ refid: "lov/1963-06-21-23"
 
 ## § 51
 
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 51 første ledd skal lyde:*
+
+> Oppgaveplikten etter bestemmelsene i dette kapittel påhviler i enkeltpersonforetak innehaver, i selskap, samvirkeforetak, forening, institusjon eller innretning den daglige leder av virksomheten eller styrets formann hvis det ikke er noen slik leder.
+>
+
 ### 2019-06-21 — lov/2019-06-21-68
 
 *§ 51 skal lyde:*
@@ -386,6 +597,22 @@ refid: "lov/1963-06-21-23"
 >
 
 ## § 52
+
+### 2007-06-29 — lov/2007-06-29-81
+
+*§ 52 andre ledd skal lyde:*
+
+> Pålegg til selskap, samvirkeforetak, forening, innretning eller organisasjon rettes til styret og sendes hvert medlem i rekommandert brev. Tvangsmulkten kan inndrives såvel hos medlemmene av styret som hos selskapet, samvirkeforetaket, foreningen, innretningen eller organisasjonen.
+>
+> 15. I lov 10. juni 1977 nr. 71 om anerkjennelse og fullbyrding av nordiske dommer på privatrettens område skal § 7 nr. 1 bokstav f lyde:avgjørelse eller forlik om konkursbehandling eller offentlig akkordforhandling, omstøting eller tilsidesetting av rettsstiftelser på grunn av konkurs, dersom ikkje avgjørelsen eller forliket gjelder omstøting eller tilsidesetting av rettsstiftelser på grunn av en konkurs som er åpnet i Danmark, Finland, Island, Norge eller Sverige, og retten ved åpningen av konkurs grunnet sin kompetanse på at skyldneren er eller ved sin død var bosatt i landet, eller at et selskap, et samvirkeforetak, en forening eller en stiftelse hadde sitt sete i landet.
+>
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 52 nytt annet ledd skal lyde:*
+
+> Omregistrering i grunnboka eller matrikkelen i samband med overføring av vegmyndighet skjer ved namneendring. Det skal ikkje betales dokumentavgift etter § 6 i lov 12. desember 1975 nr. 59 om dokumentavgift eller rettsgebyr etter § 21 i lov 17. desember 1982 nr. 86 om rettsgebyr ved overføringa.
+>
 
 ### 2026-06-19 — lov/2026-06-19-41
 
@@ -404,6 +631,19 @@ refid: "lov/1963-06-21-23"
 >
 
 ## § 62
+
+### 2009-06-19 — lov/2009-06-19-109
+
+*§ 62 nye tredje og fjerde ledd skal lyde:*
+
+> Samferdselsdepartementet kan med samtykke frå Stortinget ta opp veg som riksveg og gjere vedtak om at riksveg vert gjort om til fylkesveg eller kommunal veg i samband med gjennomføring av forvaltningsreforma utan at føresegnene i §§ 3 og 7 er følgt.
+>
+> Departementet gjev nærare føresegner som pålegg fylkeskommunane, kommunane og private å innhente, kvalitetssikre, formidle og standardisere data som gjeld det offentlege vegnettet og trafikken på det, og å dekke utgifter i samband med dette.
+>
+> 2. I vegtrafikklov 18. juni 1965 nr. 4 skal § 40 a nytt annet ledd lyde:
+>
+> Departementet kan gi forskrifter med nærmere bestemmelser om at fylkeskommunen, i Oslo Oslo kommune, pålegges å utarbeide og gjennomføre ulike tiltak knyttet til trafikksikkerhet.
+>
 
 ### 2019-06-21 — lov/2019-06-21-68
 
