@@ -77,6 +77,11 @@ def main():
         help="Quarto output directory (default: _site)",
     )
     parser.add_argument(
+        "--history-removed-from",
+        default=None,
+        help="Checkout of the publication repository; documents deleted from its main branch are kept in the reconstruction until a dated deletion commit (issue #6)",
+    )
+    parser.add_argument(
         "--repo-path",
         default=None,
         help="Git repo path for history operations (default: temp dir)",
@@ -284,7 +289,8 @@ def main():
         print("=" * 60)
         print(f"Building git history (mode={args.history_mode})")
         print("=" * 60)
-        build_history(args.snapshot, repo_path, mode=args.history_mode, cutoff_date=args.history_cutoff)
+        build_history(args.snapshot, repo_path, mode=args.history_mode, cutoff_date=args.history_cutoff,
+                      removed_source=args.history_removed_from)
         print(f"  Repository at: {repo_path}")
 
 

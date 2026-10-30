@@ -91,7 +91,7 @@ class TestBuildHistoryCutoff:
         repo = tmp_path / "repo"
         build_history(str(snap), str(repo), mode="act", cutoff_date="2026-10-29")
         log = _git(repo, "log", "--format=%ad|%s", "--date=short").splitlines()
-        assert log[0].startswith("2026-10-29|Gjeldende konsolidert tekst")
+        assert log[0].startswith("2026-10-29|Tilbakestilling til gjeldende tekst")
         assert not any("2027" in line.split("|")[0] for line in log)
         bodies = _git(repo, "log", "--format=%B")
         assert "lov/2026-05-01-20" in bodies
@@ -102,3 +102,76 @@ class TestBuildHistoryCutoff:
         assert tags == ["v2001", "v2024", "v2026"]
         dates = [line.split("|")[0] for line in log]
         assert dates == sorted(dates, reverse=True)
+
+
+def _source_repo(tmp_path, removed_refid="lov/2010-01-01-5", removal_date="2026-07-21T03:00:00+00:00"):
+    """A publication repository whose main once carried a document that was later deleted."""
+    src = tmp_path / "source"
+    (src / "lover").mkdir(parents=True)
+    _git(src, "init", "-q", "-b", "main")
+    path = src / "lover" / (removed_refid.replace("/", "-") + ".md")
+    path.write_text(f'---\ntittel: "Lov om gammelt"\nrefid: "{removed_refid}"\n---\n\n# Lov om gammelt\n\n### § 1\n\nGammel tekst.\n', encoding="utf-8")
+    (src / "lover" / "lov-2020-01-01-1.md").write_text("current\n", encoding="utf-8")
+    _git(src, "add", "-A")
+    _git(src, "commit", "-q", "-m", "publish", date="2026-02-18T03:00:00+00:00")
+    path.unlink()
+    _git(src, "add", "-A")
+    _git(src, "commit", "-q", "-m", "Oppdater lover [skip ci]", date=removal_date)
+    return src
+
+
+class TestRemovedDocuments:
+    def test_reads_terminal_text_and_detected_exit(self, tmp_path):
+        from lovdata_publisher.git_export import removed_documents
+        src = _source_repo(tmp_path)
+        removed = removed_documents(str(src))
+        assert list(removed) == ["lover/lov-2010-01-01-5.md"]
+        info = removed["lover/lov-2010-01-01-5.md"]
+        assert "Gammel tekst." in info["text"] and info["detected_exit"] == "2026-07-21"
+        assert len(info["removal_commit"]) == 40
+        assert removed_documents(str(src), cutoff_date="2026-07-01") == {}
+
+    def test_repealed_document_stays_until_a_dated_deletion_commit(self, tmp_path):
+        snap = _snapshot(tmp_path, [
+            ("lov/2024-06-01-10", "2024-07-01", "2024-06-01", "§ 1. Formål\nTekst fra 2024."),
+        ])
+        with sqlite3.connect(snap / "amendments.db") as conn:
+            conn.execute("INSERT INTO amendment_acts VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                         ("lov/2025-12-01-99", "y.xml", "Lov om oppheving", "", "2026-01-01", "2026-01-01", 0,
+                          "2025-12-01", "Testdepartementet", "lov/2010-01-01-5", "", "", 1))
+            conn.execute("INSERT INTO amendments (act_refid, change_type, target, target_law, instruction, new_text) VALUES (?,?,?,?,?,?)",
+                         ("lov/2025-12-01-99", "repeal", "", "lov/2010-01-01-5", "Lov 1. januar 2010 nr. 5 om gammelt oppheves.", ""))
+        src = _source_repo(tmp_path)
+        repo = tmp_path / "repo"
+        build_history(str(snap), str(repo), mode="act", cutoff_date="2026-10-29", removed_source=str(src))
+        log = _git(repo, "log", "--format=%ad|%s", "--date=short").splitlines()
+        assert log[0].startswith("2026-10-29|Tilbakestilling til gjeldende tekst (")
+        assert any(line.startswith("2026-01-01|Opphevet: Lov om gammelt") for line in log)
+        assert log[-1].startswith("2001-01-01|Utgangspunkt: gjeldende tekst for 2 dokumenter")
+        assert "Gammel tekst." in _git(repo, "show", "v2024:lover/lov-2010-01-01-5.md")
+        assert "lov-2010-01-01-5" not in _git(repo, "ls-tree", "--name-only", "-r", "v2026")
+        body = _git(repo, "log", "-1", "--format=%B", "v2026~1")
+        assert "Rettslig opphevelse: lov/2025-12-01-99 i kraft 2026-01-01" in body
+        assert "Registrert fjernet fra kilden: 2026-07-21" in body
+        manifest = json.loads(_git(repo, "show", "HEAD:reconstruction-manifest.json"))
+        assert manifest["counts"] == {"documents": 1, "diverged": 1, "removed": 1}
+        assert manifest["documents"]["lov/2020-01-01-1"]["diverged"] is True
+        assert manifest["documents"]["lov/2020-01-01-1"]["replayed_acts"] == 1
+        removed = manifest["documents"]["lov/2010-01-01-5"]["removed"]
+        assert removed["legal_repeal_date"] == "2026-01-01" and removed["deletion_date"] == "2026-01-01"
+        assert removed["detected_exit"] == "2026-07-21"
+        dates = [line.split("|")[0] for line in log]
+        assert dates == sorted(dates, reverse=True)
+
+    def test_without_legal_repeal_the_deletion_is_dated_on_the_detected_exit(self, tmp_path):
+        snap = _snapshot(tmp_path, [("lov/2024-06-01-10", "2024-07-01", "2024-06-01", "§ 1. Formål\nTekst.")])
+        src = _source_repo(tmp_path)
+        repo = tmp_path / "repo"
+        build_history(str(snap), str(repo), mode="year", cutoff_date="2026-10-29", removed_source=str(src))
+        log = _git(repo, "log", "--format=%ad|%s", "--date=short")
+        assert "2026-07-21|Opphevet: Lov om gammelt" not in log  # year mode batches the deletion into the 2026 commit
+        assert "lov-2010-01-01-5" in _git(repo, "ls-tree", "--name-only", "-r", "v2024")
+        assert "lov-2010-01-01-5" not in _git(repo, "ls-tree", "--name-only", "-r", "v2026")
+        manifest = json.loads(_git(repo, "show", "HEAD:reconstruction-manifest.json"))
+        assert manifest["documents"]["lov/2010-01-01-5"]["removed"]["legal_repeal_act"] == ""
+        assert manifest["documents"]["lov/2010-01-01-5"]["removed"]["deletion_date"] == "2026-07-21"

@@ -233,8 +233,17 @@ def _tree_digest(root: Path) -> dict[str, str]:
     return files
 
 
-def verify_reproducible(snapshot: Path, output: Path) -> list[str]:
-    """Format the snapshot again elsewhere and list every differing file."""
+def index_digest(index: Path) -> str:
+    from lovdata_publisher.index_build import read_meta
+    return read_meta(index).get("logical_digest", "")
+
+
+def verify_reproducible(snapshot: Path, output: Path, index: Path | None = None) -> list[str]:
+    """Format the snapshot again elsewhere and list every differing file.
+
+    With ``index``, the corpus index is built again from the second pass and
+    its logical digest must equal the one recorded in the index being published.
+    """
     differences = []
     with tempfile.TemporaryDirectory(prefix="law-repro-") as temp:
         subprocess.run([sys.executable, "-m", "lovdata_publisher.cli", "--snapshot", str(snapshot),
@@ -248,11 +257,18 @@ def verify_reproducible(snapshot: Path, output: Path) -> list[str]:
             for rel in sorted(set(committed) | set(again)):
                 if committed.get(rel) != again.get(rel):
                     differences.append(f"{name}/{rel}")
+        if index is not None:
+            again_index = Path(temp) / "laws-index.sqlite"
+            subprocess.run([sys.executable, "-m", "lovdata_publisher.index_build", "build", "--laws", temp,
+                            "--db", str(snapshot / "amendments.db"), "--output", str(again_index)],
+                           check=True, capture_output=True)
+            if index_digest(index) != index_digest(again_index):
+                differences.append(str(index))
     return differences
 
 
 def message(kind: str, date: str, manifest_path: Path, identity: dict, previous_identity: dict,
-            summary_file: Path | None = None) -> str:
+            summary_file: Path | None = None, index: Path | None = None) -> str:
     from lovdata_loader.download import select_source_manifest
     manifest = select_source_manifest(json.loads(manifest_path.read_text(encoding="utf-8")))
     lines = [SUBJECTS[kind].format(date=date), ""]
@@ -270,6 +286,8 @@ def message(kind: str, date: str, manifest_path: Path, identity: dict, previous_
     for name in PARSER_PATHS:
         before = previous_identity.get(name, "")
         lines.append(f"Parser: {name} {identity[name]}" + (f" (var {before})" if before and before != identity[name] else ""))
+    if index is not None and index.exists():
+        lines.append(f"Indeks: sha256:{index_digest(index)}")
     return "\n".join(lines) + "\n"
 
 
@@ -299,12 +317,17 @@ def main(argv: list[str] | None = None) -> int:
     p = sub.add_parser("verify-reproducible")
     p.add_argument("--snapshot", type=Path, required=True)
     p.add_argument("--output", type=Path, default=Path("."))
+    p.add_argument("--index", type=Path, help="Corpus index built from this run; rebuilt and compared by logical digest")
+
+    p = sub.add_parser("manifest-digest")
+    p.add_argument("--manifest", type=Path, required=True)
 
     p = sub.add_parser("message")
     p.add_argument("--plan", type=Path, required=True)
     p.add_argument("--kind", choices=sorted(SUBJECTS), required=True)
     p.add_argument("--manifest", type=Path, required=True)
     p.add_argument("--summary-file", type=Path)
+    p.add_argument("--index", type=Path, help="Corpus index whose logical digest becomes the Indeks trailer")
     p.add_argument("--date", default=datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     p.add_argument("--output", type=Path, required=True)
 
@@ -328,17 +351,21 @@ def main(argv: list[str] | None = None) -> int:
                         "lovtidend": " ".join(paths["lovtidend"])})
         print(json.dumps(paths, indent=2))
     elif args.command == "verify-reproducible":
-        differences = verify_reproducible(args.snapshot, args.output)
+        differences = verify_reproducible(args.snapshot, args.output, args.index)
         if differences:
             print("Formatting the same snapshot twice produced different files:", file=sys.stderr)
             for rel in differences[:50]:
                 print(f"  {rel}", file=sys.stderr)
             return 1
-        print(f"Reproducible: {', '.join(PARSER_OUTPUT_DIRS)} identical on a second formatting pass")
+        print(f"Reproducible: {', '.join(PARSER_OUTPUT_DIRS)}{' and the index' if args.index else ''} identical on a second pass")
+    elif args.command == "manifest-digest":
+        from lovdata_loader.download import select_source_manifest
+        manifest = select_source_manifest(json.loads(args.manifest.read_text(encoding="utf-8")))
+        print(f"sha256:{canonical_sha256(manifest)}")
     elif args.command == "message":
         current = json.loads(args.plan.read_text(encoding="utf-8"))
         text = message(args.kind, args.date, args.manifest, current["identity"], current.get("previous_identity", {}),
-                       args.summary_file)
+                       args.summary_file, args.index)
         args.output.write_text(text, encoding="utf-8")
         print(text)
     return 0

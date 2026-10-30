@@ -37,6 +37,9 @@ Data coverage, which every history tool also states in its output:
   blame can reflect the latter.
 - laws_amendment_records covers Norsk Lovtidend from 2001 and returns only new wording, never the replaced
   text; it also returns Lovdata's own 'Endret ved lover ...' note per provision, which reaches back to adoption.
+- The corpus index (laws_outline, laws_provision, laws_index_search, laws_references_to, laws_definitions,
+  laws_query_sql) is built from the same publication as the checkout; laws_index_status says which. Node
+  text is current wording; earlier wording exists only where an amendment record carries it.
 - laws_get_document version='vYYYY' and laws_diff_document between 'vYYYY' tags read the law-history
   branch: a reconstruction built from the current text by applying parsed amendments, labelled unverified.
 - Repealed or replaced acts leave Lovdata's current corpus. Their refid still resolves; the last observed
@@ -272,6 +275,128 @@ def build_server(service: LawsService) -> MCPServer:
         """
         res = service.related_documents(ref, kind, limit)
         return render.related(res)
+
+    @mcp.tool(name="laws_outline", title="Outline of a document from the index", annotations=READ_ONLY)
+    @_guard
+    def laws_outline(
+        ref: Annotated[str, Field(description="refid, alias or short title.")],
+        format: Format = "markdown",
+    ) -> str:
+        """Chapters and §§ of a document with their headings and line ranges, from the corpus index.
+
+        Cheaper than reading the document to find the right provision. Use laws_provision for one §.
+        """
+        return _out(format, service.outline(ref), render.outline)
+
+    @mcp.tool(name="laws_provision", title="One provision with its amendment history", annotations=READ_ONLY)
+    @_guard
+    def laws_provision(
+        ref: Annotated[str, Field(description="refid, alias or short title.")],
+        section: Annotated[str, Field(description="The § to read, e.g. '§ 1-2', '1-2', '§ 4 a'.")],
+        at: Annotated[str | None, Field(description="ISO date: also report the last recorded wording set by an act "
+                                                    "in force on or before this date, and say when none exists.")] = None,
+        format: Format = "markdown",
+    ) -> str:
+        """Current text of one § by ledd and item, plus every parsed amendment record that targets it.
+
+        Node text is current wording; the records (Norsk Lovtidend from 2001, classified with the
+        instruction catalogue) show which acts changed it and the wording they set where the act
+        carried it. With at=, the answer states the last recorded wording before that date or that
+        none exists, so a 'regime, clock, era' question gets an honest boundary.
+        """
+        return _out(format, service.provision(ref, section, at), render.provision)
+
+    @mcp.tool(name="laws_index_search", title="Ranked full-text search over provisions", annotations=READ_ONLY)
+    @_guard
+    def laws_index_search(
+        query: Annotated[str, Field(description="FTS5 query: words, \"quoted phrase\", AND/OR/NOT, prefix*.", min_length=1)],
+        kind: Annotated[Kind, Field(description="Restrict to 'lov' or 'forskrift'.")] = None,
+        limit: Annotated[int, Field(ge=1, le=100)] = 20,
+        format: Format = "markdown",
+    ) -> str:
+        """BM25-ranked search over every ledd of every current document, with the § address and a snippet.
+
+        Prefer this over laws_search_text for ranked discovery; laws_search_text is exact/regex.
+        """
+        return _out(format, service.index_search(query, kind, limit), render.index_search)
+
+    @mcp.tool(name="laws_references_to", title="Provisions that cite a document or §", annotations=READ_ONLY)
+    @_guard
+    def laws_references_to(
+        ref: Annotated[str, Field(description="refid, alias or short title of the cited document.")],
+        section: Annotated[str | None, Field(description="Restrict to citations of this §.")] = None,
+        limit: Annotated[int, Field(ge=1, le=500)] = 100,
+        format: Format = "markdown",
+    ) -> str:
+        """Incoming references: which provisions in other documents cite this document or one of its §§.
+
+        Answers 'what depends on regnskapsloven § 1-3'. Built from short-title and 'lov DATE nr. N'
+        citations in the text; laws_related_documents is the document-level, grep-based view.
+        """
+        return _out(format, service.references_to(ref, section, limit), render.references)
+
+    @mcp.tool(name="laws_definitions", title="Defined terms from the index", annotations=READ_ONLY)
+    @_guard
+    def laws_definitions(
+        term: Annotated[str, Field(description="Term or part of it, e.g. 'underenhet', 'konsern'.", min_length=2)],
+        limit: Annotated[int, Field(ge=1, le=100)] = 20,
+        format: Format = "markdown",
+    ) -> str:
+        """Where a term is defined, from the extracted definitions table (exact term first).
+
+        Complements laws_find_definition, which searches all text for definitional phrasing.
+        """
+        return _out(format, service.index_definitions(term, limit), render.index_definitions)
+
+    @mcp.tool(name="laws_query_sql", title="Read-only SQL over the index", annotations=READ_ONLY)
+    @_guard
+    def laws_query_sql(
+        sql: Annotated[str, Field(description="One SELECT. Tables: documents(refid, kind, path, title, short_title, "
+                                              "department, rettsomrade, in_force, last_amended_act, last_amended_in_force), "
+                                              "nodes(id, refid, address, kind, parent_id, ordinal, heading, note, line_start, "
+                                              "line_end, section_key), node_text(node_id, text), node_fts (MATCH), "
+                                              "acts(refid, title, short_title, date_in_force, date_in_force_resolved, "
+                                              "date_published, ministry, changes_to), amendments(id, act_refid, target_law, "
+                                              "target, target_section, change_type, instruction, new_text, operations, "
+                                              "date_in_force, date_published), refs(from_refid, from_node_id, to_refid, "
+                                              "to_section, kind, text), definitions(node_id, refid, term, definition), meta.",
+                                  min_length=6)],
+        limit: Annotated[int, Field(ge=1, le=1000)] = 200,
+        format: Format = "markdown",
+    ) -> str:
+        """Run your own join over the corpus index (read-only, one statement, 20 s, row cap).
+
+        Example: provisions changed by acts in force in 2026 that other documents cite:
+        SELECT a.target_law, a.target_section, COUNT(r.from_node_id) FROM amendments a LEFT JOIN refs r
+        ON r.to_refid = a.target_law AND r.to_section = a.target_section WHERE a.date_in_force LIKE '2026%'
+        GROUP BY 1, 2 ORDER BY 3 DESC.
+        """
+        return _out(format, service.query_sql(sql, limit), render.sql)
+
+    @mcp.tool(name="laws_index_status", title="Index status", annotations=READ_ONLY)
+    @_guard
+    def laws_index_status(format: Format = "markdown") -> str:
+        """Which index is loaded, which publication it was built from, and whether that matches the checkout."""
+        return _out(format, service.index_status(), render.index_status)
+
+    @mcp.tool(name="search", title="Search (connector-compatible)", annotations=READ_ONLY)
+    @_guard
+    def connector_search(
+        query: Annotated[str, Field(min_length=1)],
+    ) -> str:
+        """Connector-style search: returns {"results": [{"id", "title", "url"}]}; pass an id to fetch.
+
+        Ids are a refid ('lov/1998-07-17-56') or refid#§ address ('lov/1998-07-17-56#§ 1-2 (1)').
+        """
+        return to_json(service.connector_search(query))
+
+    @mcp.tool(name="fetch", title="Fetch (connector-compatible)", annotations=READ_ONLY)
+    @_guard
+    def connector_fetch(
+        id: Annotated[str, Field(min_length=3, description="An id returned by search.")],
+    ) -> str:
+        """Connector-style fetch: returns {"id", "title", "text", "url", "metadata"} for a search result id."""
+        return to_json(service.connector_fetch(id))
 
     @mcp.tool(name="laws_repo_status", title="Repository status", annotations=READ_ONLY)
     @_guard

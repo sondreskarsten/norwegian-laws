@@ -8,6 +8,7 @@ import threading
 from . import history, search
 from .catalog import Catalog, Entry, entry_from_front_matter, norm, refid_to_path
 from .errors import LawsError, ResolveError
+from .index import Index, IndexUnavailable
 from .markdown import get_section, normalize_section_key, outline, parse_document, parse_front_matter
 from .repo import CATALOG_FILE, DOC_DIRS, HISTORIE_DIR, Repo, RevInfo
 
@@ -51,6 +52,7 @@ class LawsService:
     def __init__(self, repo: Repo) -> None:
         self.repo = repo
         self.cache = search.DocCache(repo)
+        self.index = Index(repo)
         self._catalog: Catalog | None = None
         self._catalog_sha: str | None = None
         self._lock = threading.Lock()
@@ -640,6 +642,120 @@ class LawsService:
             "removed_documents": len(self.removed_documents()),
             "corpus_scope": CORPUS_SCOPE,
         }
+
+    # -- index-backed queries ------------------------------------------------
+
+    INDEX_COVERAGE = ("The index is built from the same publication as the checkout: current text at node level "
+                      "(chapter, §, ledd, item) plus the parsed Norsk Lovtidend records from 2001. Node text is the "
+                      "current wording; earlier wording exists only where an amendment record carries it.")
+
+    def _index_entry(self, ref: str) -> Entry:
+        entry = self.resolve_removed(ref) if ref.startswith(("lov/", "forskrift/")) else None
+        return entry or self.resolve(ref)
+
+    def index_status(self) -> dict:
+        self.repo.ready()
+        st = self.index.status()
+        return {"path": st.path, "source": st.source, "meta": st.meta, "counts": st.counts,
+                "publication_source_sha": st.publication_source_sha, "matches_publication": st.matches_publication,
+                "note": st.note, "coverage": {"statement": self.INDEX_COVERAGE}}
+
+    def outline(self, ref: str) -> dict:
+        self.repo.ready()
+        entry = self._index_entry(ref)
+        doc = self.index.document(entry.refid)
+        if doc is None:
+            raise LawsError(f"{entry.refid} is not in the index (removed documents are not indexed; use laws_get_document)")
+        nodes = self.index.outline(entry.refid)
+        return {"document": entry.summary(), "nodes": nodes,
+                "coverage": {"statement": self.INDEX_COVERAGE}}
+
+    def provision(self, ref: str, section: str, at: str | None) -> dict:
+        self.repo.ready()
+        entry = self._index_entry(ref)
+        node = self.index.provision(entry.refid, section)
+        if node is None:
+            raise LawsError(f"{entry.refid} has no § {section} in the index")
+        history = self.index.history(entry.refid, section, until=at)
+        with_text = [h for h in history if h.get("new_text")]
+        limitations = [
+            "Node text is the current wording from the publication; the index does not store earlier states.",
+            "Amendment records come from Norsk Lovtidend avd. I from 2001; records before that do not exist here.",
+        ]
+        wording_at = None
+        if at:
+            if with_text:
+                last = with_text[-1]
+                wording_at = {"act": last["act_refid"], "date_in_force": last["date_in_force"],
+                              "instruction": last["instruction"], "text": last["new_text"],
+                              "note": "Last wording set by an act in force on or before the date; it may cover only part "
+                                      "of the provision (one ledd or item) and later unrecorded changes are possible."}
+            else:
+                limitations.append(f"No amendment record with wording for this provision on or before {at}: the text "
+                                   "in force then is not reconstructable from the index; use laws_get_document with "
+                                   "at= (git history from 2026-02-18) or version='vYYYY' (law-history reconstruction).")
+        return {"document": entry.summary(), "section": node["section"], "ledd": node["ledd"],
+                "items": node["items"], "history": history, "at": at, "wording_at": wording_at,
+                "coverage": {"statement": self.INDEX_COVERAGE}, "limitations": limitations}
+
+    def index_search(self, query: str, kind: str | None, limit: int) -> dict:
+        self.repo.ready()
+        return {"query": query, "hits": self.index.search(query, kind, limit),
+                "coverage": {"statement": self.INDEX_COVERAGE}}
+
+    def references_to(self, ref: str, section: str | None, limit: int) -> dict:
+        self.repo.ready()
+        entry = self._index_entry(ref)
+        return {"document": entry.summary(), "section": section,
+                "references": self.index.references_to(entry.refid, section, limit),
+                "coverage": {"statement": self.INDEX_COVERAGE},
+                "limitations": ["References are recognised by short title (regnskapsloven § 1-3), by 'lov 17. juli 1998 "
+                                "nr. 56' citations and by bare § numbers inside the same document; other phrasings are missed."]}
+
+    def index_definitions(self, term: str, limit: int) -> dict:
+        self.repo.ready()
+        return {"term": term, "definitions": self.index.definitions(term, limit),
+                "coverage": {"statement": self.INDEX_COVERAGE},
+                "limitations": ["Definitions are 'Med X menes/forstås ...' sentences and 'term: text' items in definition "
+                                "sections; laws_find_definition searches the full text for other forms."]}
+
+    def query_sql(self, sql: str, limit: int) -> dict:
+        self.repo.ready()
+        result = self.index.sql(sql, limit)
+        result["coverage"] = {"statement": self.INDEX_COVERAGE}
+        return result
+
+    def connector_search(self, query: str, limit: int = 10) -> dict:
+        """OpenAI-connector shaped search: document hits with ids the fetch tool accepts."""
+        self.repo.ready()
+        results = []
+        try:
+            for hit in self.index.search(query, None, limit):
+                results.append({"id": f"{hit['refid']}#{hit['address']}",
+                                "title": f"{hit.get('short_title') or hit.get('title')} {hit['address']}",
+                                "url": self.catalog().resolve(hit["refid"]).github if hit["refid"] else ""})
+        except IndexUnavailable:
+            pass
+        for entry in self.search_documents(query, None, limit, True, False):
+            results.append({"id": entry["refid"], "title": entry.get("short_title") or entry.get("title"), "url": entry.get("github", "")})
+        seen = set()
+        unique = []
+        for r in results:
+            if r["id"] not in seen:
+                seen.add(r["id"])
+                unique.append(r)
+        return {"results": unique[:limit]}
+
+    def connector_fetch(self, identifier: str) -> dict:
+        self.repo.ready()
+        ref, _, address = identifier.partition("#")
+        entry = self._index_entry(ref)
+        section = None
+        if address.startswith("§"):
+            section = address.split(" (")[0].replace("§", "").strip()
+        res = self.get_document(ref, section, "text", 0, 60000, None, None)
+        return {"id": identifier, "title": entry.korttittel or entry.tittel, "text": res["text"],
+                "url": entry.github, "metadata": {"refid": entry.refid, "kind": entry.kind, "section": section}}
 
     def update_repo(self) -> dict:
         self.repo.ready()

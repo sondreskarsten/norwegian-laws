@@ -59,6 +59,7 @@ jobs:
           lovdata-publish --snapshot snapshot --build-history \
               --history-mode act \
               --history-cutoff "$BUILD_DATE" \
+              --history-removed-from "$GITHUB_WORKSPACE" \
               --repo-path /tmp/law-repo
           cd /tmp/law-repo
           git tag -f "history-$BUILD_DATE" HEAD

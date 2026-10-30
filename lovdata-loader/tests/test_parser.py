@@ -564,3 +564,143 @@ def test_instruction_with_embedded_preamble_reanchors_target_law():
     ]
     assert result.amendments[0].instruction.endswith("skal § 3 lyde:")
     assert result.amendments[0].target == "§ 3"
+
+
+def test_new_law_final_provision_amending_other_laws_is_read():
+    """Real case: lov/2001-05-18-24 (helseregisterloven) carries its changes
+    to five other laws in '§ 38. Endringer i andre lover'. The walker read
+    only a section's direct children, so a new law amending others produced
+    no records (stress test D5)."""
+    xml = _act("""<section class="section"><h2>Kapittel 8 Ikrafttredelse</h2>
+<article class="legalArticle"><h3 class="legalArticleHeader"><span class="legalArticleValue">§ 37</span><span class="legalArticleTitle">Ikraftsetting</span></h3>
+<article class="legalP">Loven trer i kraft fra den tid Kongen bestemmer.</article></article>
+<article class="legalArticle"><h3 class="legalArticleHeader"><span class="legalArticleValue">§ 38</span><span class="legalArticleTitle">Endringer i andre lover</span></h3>
+<article class="defaultP">1 I lov 19. november 1982 nr. 66 om helsetjenesten i kommunene skal § 3-4 første ledd lyde:</article>
+<article class="legalP">Kommunen kan pålegge helsepersonell å gi opplysninger.</article>
+<article class="defaultP">3 Lov 4. desember 1992 nr. 126 om arkiv endres slik:</article>
+<article class="defaultP">§ 9 bokstav c tredje punktum skal lyde:</article>
+<article class="legalP">Personregister kan likevel slettast.</article>
+<article class="defaultP">§ 7-11 annet ledd første punktum oppheves.</article>
+</article></section>""", changes_to="<li>lov/1982-11-19-66</li><li>lov/1992-12-04-126</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    recs = [(a.target_law, a.change_type, a.target, a.new_text) for a in result.amendments]
+    assert recs == [
+        ("lov/1982-11-19-66", "change", "§ 3-4", "Kommunen kan pålegge helsepersonell å gi opplysninger."),
+        ("lov/1992-12-04-126", "change", "§ 9", "Personregister kan likevel slettast."),
+        ("lov/1992-12-04-126", "repeal", "§ 7-11", ""),
+    ]
+    assert "Loven trer i kraft" not in " ".join(a.new_text for a in result.amendments)
+
+
+def test_whole_document_repeal_in_commencement_provision_is_a_repeal_record():
+    """Real case: a new forskrift's '§ 13. Ikrafttredelse' says 'Fra samme tid
+    oppheves forskrift 10. februar 2010 nr. 158 om ...'; the repealed
+    document had no record of its own end."""
+    xml = _act("""<article class="legalArticle"><h2 class="legalArticleHeader"><span class="legalArticleValue">§ 13</span><span class="legalArticleTitle">Ikrafttredelse</span></h2>
+<article class="legalP">Forskriften trer i kraft 1. januar 2018.</article>
+<article class="legalP">Fra samme tid oppheves forskrift 10. februar 2010 nr. 158 om arbeidsavklaringspenger og forskrift 1. mars 2011 nr. 200 om noe annet.</article>
+</article>""", changes_to="<li>forskrift/2010-02-10-158</li><li>forskrift/2011-03-01-200</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    recs = [(a.target_law, a.change_type, a.target) for a in result.amendments]
+    assert recs == [("forskrift/2010-02-10-158", "repeal", ""), ("forskrift/2011-03-01-200", "repeal", "")]
+    assert result.amendments[0].instruction.startswith("Fra samme tid oppheves")
+
+
+def test_repeal_wording_inside_replacement_text_is_not_a_repeal_record():
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">I lov 17. juli 1998 nr. 56 om årsregnskap m.v. gjøres følgende endringer:</article>
+<article class="defaultP">§ 3-1 skal lyde:</article>
+<article class="legalP">Forskrift 1. mars 2011 nr. 200 om noe annet oppheves ikke av denne bestemmelsen.</article>
+</section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [(a.change_type, a.target) for a in result.amendments] == [("change", "§ 3-1")]
+    assert result.amendments[0].new_text.startswith("Forskrift 1. mars 2011")
+
+
+def test_margin_numbered_ledd_is_replacement_text():
+    """Real case: lov/2003-06-20-47 '§ 1 første ledd skal lyde:' followed by a
+    marginIdArticle (margin number '1.' and the ledd in a nested legalP);
+    the wording was dropped."""
+    xml = _act("""<section><h2>I</h2>
+<article class="legalP">I lov 3. juni 1977 nr. 50 om arbeidstiden og hviletiden på skip gjøres følgende endringer:</article>
+<article class="defaultP">§ 1 første ledd skal lyde:</article>
+<article class="marginIdArticle"><span class="data-marginOriginalId">1.</span><article class="legalP">Loven her gjelder arbeidstid og hviletid for sjøfolk.</article></article>
+<article class="defaultP">§ 2 nr. 4 skal lyde:</article>
+<article class="marginIdArticle"><span class="data-marginOriginalId">4.</span><article class="legalP">fiske- og fangstfartøy: fartøy som benyttes til fangst.</article></article>
+</section>""", changes_to="<li>lov/1977-06-03-50</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [a.new_text for a in result.amendments] == [
+        "Loven her gjelder arbeidstid og hviletid for sjøfolk.",
+        "fiske- og fangstfartøy: fartøy som benyttes til fangst.",
+    ]
+
+
+def test_new_format_item_wording_in_plain_paragraph_is_replacement_text():
+    """Real case: lov/2024-06-21-42 '§ 5-8 første ledd nr. 3 skal lyde:' with
+    the new item in a defaultP after the instruction."""
+    xml = _act("""<section><h2>I</h2>
+<article class="document-change" data-document="lov/1998-07-17-56">
+<article class="change" data-change-part="lov/1998-07-17-56/§5-8/ledd/1/nr/3">
+<article class="defaultP">§ 5-8 første ledd nr. 3 skal lyde:</article>
+<article class="defaultP">3. omsettes på regulert marked i EØS eller tilsvarende markedsplass utenfor EØS, og</article>
+</article></article></section>""")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert result.amendments[0].new_text == "3. omsettes på regulert marked i EØS eller tilsvarende markedsplass utenfor EØS, og"
+
+
+def test_commencement_decision_naming_several_laws_gets_one_record_per_law():
+    """Real cases: forskrift/2022-12-02-2075 'Ikraftsetting av lov ...' and
+    forskrift/2022-12-16-2249 'Delt ikraftsetting ...' name every affected law
+    in the header and had no records at all."""
+    xml = _act("""<article class="legalP">Følgende trer i kraft 1. januar 2023:<ul class="defaultList"><li>Endringsloven del I (spesialisthelsetjenesteloven) § 4-3</li><li>Endringsloven del II (pasient- og brukerrettighetsloven) § 2-4</li></ul></article>
+<article class="legalP">Følgende trer i kraft 1. januar 2024:<ul class="defaultList"><li>Endringsloven del II (pasient- og brukerrettighetsloven) § 2-6.</li></ul></article>""",
+               changes_to="<li>lov/1999-07-02-61</li><li>lov/1999-07-02-63</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [(a.target_law, a.change_type, a.target) for a in result.amendments] == [
+        ("lov/1999-07-02-61", "commencement", ""), ("lov/1999-07-02-63", "commencement", ""),
+    ]
+    assert "1. januar 2024" in result.amendments[1].new_text
+    assert result.amendments[0].instruction.startswith("Følgende trer i kraft 1. januar 2023")
+
+
+def test_commencement_sentence_with_listed_repeals_records_each_document():
+    """Real cases: forskrift/2004-07-21-1131 'Denne forskrift trer i kraft
+    1. august 2004. Fra samme tid oppheves følgende forskrifter:' + list, and
+    forskrift/2003-05-09-565 (nynorsk) naming two documents in one sentence."""
+    xml = _act("""<article class="legalArticle"><h2 class="legalArticleHeader"><span class="legalArticleValue">§ 9</span><span class="legalArticleTitle">Ikrafttredelse</span></h2>
+<article class="legalP">Denne forskrift trer i kraft 1. august 2004. Fra samme tid oppheves følgende forskrifter:</article>
+<article class="defaultP"><ul class="defaultList"><li>Forskrift 9. januar 2004 nr. 169 om a.</li><li>Forskrift 11. februar 2004 nr. 382 om b.</li></ul></article>
+<article class="legalP">Denne forskrifta tek til å gjelde frå 9. mai 2003. Frå same tid vert forskrift av 7. januar 2000 nr. 16 om c og forskrift av 8. januar 1999 nr. 8 om d oppheva.</article>
+</article>""", changes_to="<li>forskrift/2004-01-09-169</li><li>forskrift/2004-02-11-382</li><li>forskrift/2000-01-07-16</li><li>forskrift/1999-01-08-8</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [(a.change_type, a.target_law) for a in result.amendments] == [
+        ("repeal", "forskrift/2004-01-09-169"), ("repeal", "forskrift/2004-02-11-382"),
+        ("repeal", "forskrift/2000-01-07-16"), ("repeal", "forskrift/1999-01-08-8"),
+    ]
+
+
+def test_numbered_whole_document_repeal_is_not_swallowed_as_wording():
+    """Real case: lov/2002-06-14-20 '5. Lov 5. juni 1987 nr. 26 om brannvern m.v.
+    oppheves.' followed the embedded instruction '4. I lov ... skal § 6-1 (2)
+    bokstav b) lyde:' whose wording sits in a nested list."""
+    xml = _act("""<section><h2>I</h2>
+<article class="defaultP">4. I lov av 8. februar 1980 nr. 2 om pant skal § 6-1 (2) bokstav b) lyde:<ul class="defaultList"><li>krav på skatt og avgift,</li><li>krav på gebyr.</li></ul></article>
+<article class="defaultP">5. Lov 5. juni 1987 nr. 26 om brannvern m.v. oppheves.</article>
+</section>""", changes_to="<li>lov/1980-02-08-2</li><li>lov/1987-06-05-26</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    recs = [(a.change_type, a.target_law, a.target, a.new_text) for a in result.amendments]
+    assert recs == [
+        ("change", "lov/1980-02-08-2", "§ 6-1", "krav på skatt og avgift,\nkrav på gebyr."),
+        ("repeal", "lov/1987-06-05-26", "", ""),
+    ]
+
+
+def test_embedded_instruction_with_new_section_is_recognised():
+    xml = _act("""<section><h2>II</h2>
+<article class="legalP">I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold (samelova) skal ny § 1-6 lyde:</article>
+<article class="legalP">Samisk og norsk er likeverdige språk.</article>
+</section>""", changes_to="<li>lov/1933-06-29-2</li><li>lov/1987-06-12-56</li>")
+    result = parse_lovtidend_file(xml, "test.xml")
+    assert [(a.target_law, a.target, a.new_text) for a in result.amendments] == [
+        ("lov/1987-06-12-56", "§ 1-6", "Samisk og norsk er likeverdige språk."),
+    ]

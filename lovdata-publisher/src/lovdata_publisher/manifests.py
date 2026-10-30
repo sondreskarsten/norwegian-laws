@@ -314,11 +314,12 @@ _AMENDMENTS_SCHEMA = {
         },
         "change_type": {
             "type": ["string", "null"],
-            "enum": ["change", "add", "remove", "repeal", "renumber", "move", "unknown", None],
+            "enum": ["change", "add", "remove", "repeal", "renumber", "move", "commencement", "unknown", None],
             "description": (
                 "Whether the amendment changed, added, removed, repealed, "
-                "renumbered, or moved the paragraph. 'unknown' when Lovdata "
-                "wording didn't fit any specific pattern."
+                "renumbered, or moved the paragraph; 'commencement' for a "
+                "decision that sets a document or provision in force. 'unknown' "
+                "when Lovdata wording didn't fit any specific pattern."
             ),
         },
         "instruction": {

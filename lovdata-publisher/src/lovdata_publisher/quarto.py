@@ -1059,7 +1059,10 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         "Årstallene nedenfor er navn på rekonstruksjoner, ikke bekreftede juridiske skjæringsdatoer.",
         f"Grenen `{HISTORY_BRANCH}` bygges på nytt hver natt fra gjeldende tekst. Årstallstaggene flyttes ved hvert bygg;",
         "hvert bygg får i tillegg en varig tagg `history-ÅÅÅÅ-MM-DD` som kan siteres.",
-        "Vedtak med ikrafttredelse fram i tid er ikke tatt med.\n",
+        "Vedtak med ikrafttredelse fram i tid er ikke tatt med. "
+        "Dokumenter som er tatt ut av kilden ligger i grenen fram til en datert slettingscommit "
+        "(rettslig opphevelsesdato der Lovtidend har den, ellers dagen uttaket ble registrert). "
+        "`reconstruction-manifest.json` på grenen sier per dokument om gjenavspillingen traff gjeldende tekst.\n",
         "## Lagrede rekonstruksjoner\n",
     ]
     if year_stats:

@@ -501,11 +501,123 @@ _INSTRUCTION_RE = re.compile(
 
 _NEW_SECTION_RE = re.compile(r"Ny(?:tt?)?\s+§\s*[\d]", re.I)
 # 'skal § 3 lyde', 'skal § 12-5 første punktum lyde' (verb before the target)
-_EMBEDDED_INSTRUCTION_RE = re.compile(r"\bskal\s+(§\s*\d+[\w-]*(?:\s+[a-z](?!\w))?)[^.:]*?\blyde\b")
-_EMBEDDED_PREAMBLE_RE = re.compile(r"^\s*I\s+(?:lov|forskrift)\b")
+_EMBEDDED_INSTRUCTION_RE = re.compile(r"\bskal\s+(?:(?:ny|nytt|nye)\s+)?(§\s*\d+[\w-]*(?:\s+[a-z](?!\w))?)[^.:]*?\blyde\b")
+# An optional list marker precedes the preamble in a numbered final provision:
+# '1 I lov 19. november 1982 nr. 66 ... skal § 3-4 første ledd lyde:'.
+_EMBEDDED_PREAMBLE_RE = re.compile(r"^\s*(?:\d+\.?\s+)?I\s+(?:lov|forskrift)\b")
 _RENUMBER_RE = re.compile(r"Nåværende\s+", re.I)
 _KAPITTEL_RE = re.compile(r"(?:Kapittel|kapittel|Kap\.)\s+\d+", re.I)
 _HEADING_RE = re.compile(r"[Oo]verskriften?\s+(?:til\s+)?§", re.I)
+# A whole document ceases to apply: 'Fra samme tid oppheves forskrift 10.
+# februar 2010 nr. 158 om ...', 'Følgende lover oppheves:' followed by a list.
+_WHOLE_DOC_REPEAL_RE = re.compile(
+    r"\b(?:oppheves|opphevast|opphevd|vert\s+oppheva|blir\s+oppheva|vert\s+opphevd)\b", re.I
+)
+# Provisions of a new law or forskrift that carry amendments to other
+# documents: 'Endringer i andre lover', 'Ikrafttredelse og endringer i andre
+# lover', 'Oppheving av forskrifter', 'Ikraftsetjing og overgangsreglar'.
+_AMENDING_ARTICLE_TITLE_RE = re.compile(
+    r"endring(?:er|ar)?\s+i\s+(?:andre|annen|anna)\s+(?:lov|lover|forskrift|forskrifter|regelverk)"
+    r"|opphev(?:ing|else|ingar|elser)\b|ikraft(?:tredelse|treding|setting|setjing)|iverksetjing|overgangs",
+    re.I,
+)
+_LAW_REF_RE = re.compile(
+    r"(lov|forskrift|Lov|Forskrift)\s+(?:av\s+)?(\d+)\.\s*(\w+)\s+(\d{4})\s+nr\.\s*(\d+)"
+)
+
+
+def _extract_all_law_refids(text: str) -> list[str]:
+    """Every 'lov 17. juni 2005 nr. 90'-style reference in ``text``, in order, without duplicates."""
+    found = []
+    for m in _LAW_REF_RE.finditer(text):
+        kind, day, month_name, year, nr = m.groups()
+        month = _MONTHS.get(month_name.lower(), "")
+        if not month:
+            continue
+        refid = f"{kind.lower()}/{year}-{month}-{day.zfill(2)}-{nr}"
+        if refid not in found:
+            found.append(refid)
+    return found
+
+
+_REPEAL_VERB_RE = re.compile(
+    r"\b(?:oppheves|opphevast|opphevd|oppheva|opphører|opphøyrer|utgår|vert\s+oppheva|blir\s+oppheva|vert\s+opphevd|fell\s+bort|faller\s+bort)\b",
+    re.I,
+)
+_PROVISION_UNIT_RE = re.compile(r"§\s*\d|\b(?:ledd|punktum|bokstav|kapittel|kap\.|vedlegg|avsnitt|del\s+[IVX\d])\b", re.I)
+_SENTENCE_SPLIT_RE = re.compile(r"(?<=[.:])\s+(?=[A-ZÆØÅ])")
+
+
+def _whole_document_repeals(text: str) -> tuple[list[str], bool]:
+    """Documents a text repeals outright, by refid, and whether a list of them follows.
+
+    'Fra samme tid oppheves forskrift 10. februar 2010 nr. 158 om ...' names
+    the document; 'Fra samme tid oppheves følgende forskrifter:' announces a
+    list in the next element. A sentence that names a provision unit (§, ledd,
+    kapittel, vedlegg) is a partial repeal and is left to the instruction rules.
+    """
+    text = " ".join(text.split())
+    refids: list[str] = []
+    expects_list = False
+    for sentence in _SENTENCE_SPLIT_RE.split(text):
+        if not _REPEAL_VERB_RE.search(sentence):
+            continue
+        if _PROVISION_UNIT_RE.search(sentence):
+            continue
+        found = _extract_all_law_refids(sentence)
+        if found:
+            refids.extend(r for r in found if r not in refids)
+        elif sentence.rstrip().endswith(":") or re.search(r"\bfølg(?:ende|jande)\b|\bherunder\b", sentence, re.I):
+            expects_list = True
+    return refids, expects_list
+
+
+def _list_refids(el: Tag) -> list[str]:
+    """Refids of the list items of an element, or of its text when it is one line per document."""
+    items = el.find_all("li")
+    texts = [li.get_text(" ", strip=True) for li in items] if items else [el.get_text(" ", strip=True)]
+    refids = []
+    for t in texts:
+        for r in _extract_all_law_refids(t):
+            if r not in refids:
+                refids.append(r)
+    return refids
+
+
+def _article_carries_amendments(article: Tag) -> bool:
+    """A legalArticle of a new act whose provision amends other documents."""
+    header = article.find(class_="legalArticleHeader")
+    title = header.get_text(" ", strip=True) if header else ""
+    if _AMENDING_ARTICLE_TITLE_RE.search(title):
+        return True
+    for para in article.find_all("article", class_=("defaultP", "legalP")):
+        text = para.get_text(strip=True)
+        if _is_law_preamble(text) or (_EMBEDDED_PREAMBLE_RE.match(text) and _EMBEDDED_INSTRUCTION_RE.search(text)):
+            return True
+    return False
+
+
+def _expand_amending_articles(children: list[Tag]) -> list[Tag]:
+    """Replace a legalArticle that carries amendments with its paragraphs.
+
+    New laws and forskrifter put their changes to other documents in a final
+    provision ('§ 38. Endringer i andre lover', '§ 13. Ikrafttredelse ... Fra
+    samme tid oppheves forskrift ...'). The walker only reads a section's direct
+    children, so those instructions were never seen (stress test D5).
+    """
+    expanded = []
+    for child in children:
+        classes = child.get("class", [])
+        if child.name == "article" and "legalArticle" in classes and _article_carries_amendments(child):
+            for sub in child.children:
+                if not isinstance(sub, Tag):
+                    continue
+                if sub.name in ("h1", "h2", "h3", "h4", "h5", "h6"):
+                    continue
+                expanded.append(sub)
+        else:
+            expanded.append(child)
+    return expanded
 
 
 def _is_old_instruction(text: str) -> bool:
@@ -670,7 +782,7 @@ def _unparsed_body_text(body: Tag, title: str) -> str:
 
 
 def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendment]:
-    children = [c for c in section.children if isinstance(c, Tag)]
+    children = _expand_amending_articles([c for c in section.children if isinstance(c, Tag)])
     amendments = []
 
     if not target_law:
@@ -686,6 +798,7 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
     current_target = ""
     current_type = "unknown"
     text_parts = []
+    pending_repeal_list = None
 
     def flush() -> None:
         if current_instruction is not None:
@@ -728,6 +841,35 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
                 target_law = new_law
                 continue
 
+        # 'Fra samme tid oppheves forskrift 10. februar 2010 nr. 158 om ...'
+        # and 'Følgende lover oppheves:' + list: the whole document is the
+        # target, so the record is keyed by its refid with no § target.
+        if pending_repeal_list is not None:
+            listed = _list_refids(child) if not _is_old_instruction(text) and not _is_law_preamble(text) else []
+            if listed:
+                for refid in listed:
+                    amendments.append(Amendment(
+                        change_type="repeal", target="", instruction=pending_repeal_list[:300],
+                        new_text="", target_law=refid,
+                    ))
+                continue
+            pending_repeal_list = None
+        if "defaultP" in classes or ("legalP" in classes and current_instruction is None):
+            repealed, expects_list = _whole_document_repeals(text)
+            if repealed or expects_list:
+                flush()
+                current_instruction = None
+                current_target = ""
+                current_type = "unknown"
+                text_parts = []
+                for refid in repealed:
+                    amendments.append(Amendment(
+                        change_type="repeal", target="", instruction=" ".join(text.split())[:300],
+                        new_text="", target_law=refid,
+                    ))
+                pending_repeal_list = " ".join(text.split()) if expects_list else None
+                continue
+
         is_instr = "defaultP" in classes and _is_old_instruction(text)
 
         # Multi-law acts from the early 2000s fold the preamble into the
@@ -761,11 +903,16 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
             current_target = _extract_target(text)
             current_type = _classify_old_instruction(text)
 
-            if "skal lyde:" in text:
-                parts = text.split("skal lyde:", 1)
-                current_instruction = parts[0].strip() + " skal lyde:"
-                tail = parts[1].strip()
-                text_parts = [tail] if tail else []
+            lyde = re.search(r"\blyde\s*:", text)
+            if lyde:
+                # 'skal lyde:' and the embedded 'skal § 13-9 bokstav a) og b)
+                # lyde:' both end the instruction; wording after the colon, or
+                # the items of a list nested in the same element, is the text.
+                current_instruction = text[:lyde.end()].strip()
+                items = [li.get_text(" ", strip=True) for li in child.find_all("li")]
+                items = [" ".join(t.split()) for t in items if t.strip()]
+                tail = text[lyde.end():].strip()
+                text_parts = items if items else ([tail] if tail else [])
             else:
                 current_instruction = text
                 text_parts = []
@@ -786,6 +933,15 @@ def _parse_old_format_section(section: Tag, target_law: str = "") -> list[Amendm
                     )):
                         text_parts.append(sub_text)
                     elif sub_text:
+                        text_parts.append(sub_text)
+            elif "marginIdArticle" in classes:
+                # Replacement ledd carrying its number in the margin: the
+                # wording is in the nested legalP, the span holds '1.'.
+                for sub in child.find_all("article", class_=_BODY_TEXT_CLASSES):
+                    if sub.find_parent("article", class_=_BODY_TEXT_CLASSES) is not None:
+                        continue
+                    sub_text = sub.get_text(strip=True)
+                    if sub_text:
                         text_parts.append(sub_text)
             elif any(c in classes for c in (
                 "legalP", "numberedLegalP",
@@ -867,6 +1023,15 @@ def parse_amendment(change_el: Tag) -> Amendment:
         if text:
             new_text_parts.append(text)
 
+    if not new_text_parts and instruction_el is not None:
+        # Some acts put the new wording of a numbered item in a plain
+        # defaultP after the instruction ('§ 5-8 første ledd nr. 3 skal
+        # lyde:' / '3. omsettes på regulert marked ...').
+        for sibling in instruction_el.find_next_siblings("article", class_="defaultP"):
+            text = sibling.get_text(strip=True)
+            if text and not _is_old_instruction(text) and not _is_law_preamble(text):
+                new_text_parts.append(text)
+
     target_law = ""
     if target:
         m = re.match(r"((?:lov|forskrift)/[\d-]+)(?=/|$)", target)
@@ -880,6 +1045,36 @@ def parse_amendment(change_el: Tag) -> Amendment:
         new_text="\n".join(new_text_parts),
         target_law=target_law,
     )
+
+
+def _decision_records(body: Tag, title: str, changes_to: list[str]) -> list[Amendment]:
+    """Records for a short decision that names several documents.
+
+    Commencement decisions ('Ikraftsetting av lov ...', 'Delt ikraftsetting
+    ...'), whole-document repeals and delegations list every affected document
+    in the header and apply to all of them, so one record per target is the
+    correct attribution. Longer bodies with unrecognised wording are left
+    without records: attributing them to every target would be a guess.
+    """
+    from .instruction_catalog import InstructionCatalog
+    body_text = _unparsed_body_text(body, title)
+    if not body_text or len(body_text) > 4000:
+        return []
+    operations = set(InstructionCatalog().classify(body_text[:1000]))
+    if "replace_text" in operations or "new_provision" in operations:
+        return []
+    repealed = [r for r in _extract_all_law_refids(body_text) if r in changes_to]
+    if "repeal" in operations and repealed and "commencement" not in operations:
+        kind, targets = "repeal", repealed
+    elif "commencement" in operations:
+        kind, targets = "commencement", changes_to
+    elif "delegation" in operations:
+        kind, targets = "unknown", changes_to
+    else:
+        return []
+    first_line = body_text.split("\n", 1)[0]
+    return [Amendment(change_type=kind, target="", instruction=first_line[:300],
+                      new_text=body_text, target_law=refid) for refid in targets]
 
 
 def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActData | None:
@@ -914,6 +1109,8 @@ def parse_lovtidend_file(content: bytes | str, filename: str) -> AmendmentActDat
                 changes_to[0] if len(changes_to) == 1 else ""
             )
             amendments = _parse_old_format_amendments(body, header_fallback_law)
+            if not amendments and len(changes_to) > 1:
+                amendments = _decision_records(body, title_text, changes_to)
             if not amendments and header_fallback_law:
                 # The act changes exactly one document but none of its
                 # instructions matched a known form (code lists, renamed
