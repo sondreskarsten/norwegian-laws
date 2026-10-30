@@ -603,6 +603,8 @@ Se uverifisert rekonstruksjonslogg
 <div id="diff-info" style="color:#666;font-size:0.9em;">
 
 </div>
+<p id="diff-reliability" class="note" style="color:#8a4b00;font-size:0.9em;">
+</p>
 </div>
 <div id="diff-output" style="width:100%;max-width:100%;min-width:0;overflow-x:auto;margin-top:20px;">
 
@@ -647,6 +649,37 @@ document.addEventListener("DOMContentLoaded", function() {
   var laws = [];
   var fuse = null;
   var renderRequest = 0;
+  var reliabilityDiv = document.getElementById("diff-reliability");
+  var manifestByPath = null;
+  fetch(raw + "/law-history/reconstruction-manifest.json").then(function(r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  }).then(function(m) {
+    manifestByPath = {};
+    Object.keys(m.documents || {}).forEach(function(refid) {
+      var d = m.documents[refid]; d.refid = refid; manifestByPath[d.path] = d;
+    });
+    showReliability();
+  }).catch(function() { manifestByPath = null; });
+
+  function showReliability() {
+    reliabilityDiv.textContent = "";
+    if (!manifestByPath) return;
+    var d = manifestByPath[lawSelect.value];
+    if (!d) return;
+    var parts = [];
+    if (d.removed) {
+      parts.push("Dokumentet er tatt ut av kilden (registrert " + d.removed.detected_exit +
+        (d.removed.legal_repeal_date ? ", opphevet ved " + d.removed.legal_repeal_act + " i kraft " + d.removed.legal_repeal_date : ", rettslig opphevelse ikke funnet i Lovtidend") +
+        "). Årsversjoner etter " + d.removed.deletion_date.substring(0, 4) + " mangler det.");
+    }
+    if (d.diverged) {
+      parts.push("Gjenavspillingen av " + d.replayed_acts + " endringslover traff ikke gjeldende tekst for dette dokumentet; årsversjonene er upålitelige der.");
+    } else if (d.replayed_acts === 0 && !d.removed) {
+      parts.push("Ingen endringslov med ordlyd er spilt av for dette dokumentet; alle årsversjoner viser gjeldende tekst.");
+    }
+    reliabilityDiv.textContent = parts.join(" ");
+  }
 
   function clearDiff() {
     renderRequest++;
@@ -681,6 +714,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function onLawSelect() {
     clearDiff();
+    showReliability();
     var opt = lawSelect.options[lawSelect.selectedIndex];
     var tags = opt ? JSON.parse(opt.dataset.tags || "[]") : [];
     tags = tags.filter(function(tag) { return Object.prototype.hasOwnProperty.call(versionRefs, tag); });
