@@ -126,9 +126,19 @@ refid: "lov/2003-06-06-38"
 
 *§ 6-4 a skal lyde:*
 
-> § 6-4 a.Krav til kjønnssamansetjing i styret(1) Føresegnene i denne paragrafen gjeld for bustadbyggjelag som på balansedagen for årsrekneskapen anten har:samla driftsinntekter og finansinntekter på meir enn 50 millionar kroner,fleire enn 30 tilsette, som skal reknast likt som etter § 6-4, ellermeir enn 500 andelseigarar.(2) Kjønnssamansetjinga i styret skal oppfylle følgjande krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha same kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha same kjønn.Har styret sju medlemmer, kan maksimalt fire styremedlemmer ha same kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha same kjønn.Har styret ni eller fleire medlemmer, kan maksimalt 60 prosent av styremedlemmene ha same kjønn.(3) Andre ledd gjeld tilsvarande for varamedlemmer.(4) Får eit lag plikt til å oppfylle krava til kjønnssamansetjing, skal styret seinast ein månad etter første etterfølgjande ordinære generalforsamling oppfylle krava til kjønnssamansetjing etter andre og tredje ledd.(5) For styremedlemmer som dei tilsette skal velje etter § 6-4, gjeld krava til kjønnssamansetjing i § 6-4 b.(6) Departementet kan i forskrift gi føresegner om kva som skal reknast som driftsinntekter og finansinntekter etter første ledd nr. 1.
+> § 6-4 a. Krav til kjønnssamansetjing i styret
 >
-> § 6-4 a.Krav til kjønnssamansetjing i styret
+> (1) Føresegnene i denne paragrafen gjeld for bustadbyggjelag som på balansedagen for årsrekneskapen anten har:samla driftsinntekter og finansinntekter på meir enn 50 millionar kroner,fleire enn 30 tilsette, som skal reknast likt som etter § 6-4, ellermeir enn 500 andelseigarar.
+>
+> (2) Kjønnssamansetjinga i styret skal oppfylle følgjande krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha same kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha same kjønn.Har styret sju medlemmer, kan maksimalt fire styremedlemmer ha same kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha same kjønn.Har styret ni eller fleire medlemmer, kan maksimalt 60 prosent av styremedlemmene ha same kjønn.
+>
+> (3) Andre ledd gjeld tilsvarande for varamedlemmer.
+>
+> (4) Får eit lag plikt til å oppfylle krava til kjønnssamansetjing, skal styret seinast ein månad etter første etterfølgjande ordinære generalforsamling oppfylle krava til kjønnssamansetjing etter andre og tredje ledd.
+>
+> (5) For styremedlemmer som dei tilsette skal velje etter § 6-4, gjeld krava til kjønnssamansetjing i § 6-4 b.
+>
+> (6) Departementet kan i forskrift gi føresegner om kva som skal reknast som driftsinntekter og finansinntekter etter første ledd nr. 1.
 >
 
 ## § 6-4 b
@@ -137,9 +147,11 @@ refid: "lov/2003-06-06-38"
 
 *Ny § 6-4 b skal lyde:*
 
-> § 6-4 b.Krav til kjønnssamansetjing for styremedlemmer valde av og blant dei tilsette(1) Dersom det skal veljast to eller fleire styremedlemmer etter § 6-4, kan ikkje alle desse styremedlemmene ha same kjønn. Det same gjeld for varamedlemmer. Første og andre punktum gjeld ikkje dersom meir enn 80 prosent av det samla talet på dei tilsette i laget på det tidspunktet valet skjer, har same kjønn.(2) For lag med fleire enn 200 tilsette, skal kjønnssamansetjinga blant styremedlemmer som skal veljast av dei tilsette etter § 6-4, oppfylle krava i § 6-4 a andre og tredje ledd, likevel slik at om det blir valt to styremedlemmer etter § 6-4, kan ikkje desse ha same kjønn. Talet på tilsette skal reknast likt som etter § 6-4.
+> § 6-4 b. Krav til kjønnssamansetjing for styremedlemmer valde av og blant dei tilsette
 >
-> § 6-4 b.Krav til kjønnssamansetjing for styremedlemmer valde av og blant dei tilsette
+> (1) Dersom det skal veljast to eller fleire styremedlemmer etter § 6-4, kan ikkje alle desse styremedlemmene ha same kjønn. Det same gjeld for varamedlemmer. Første og andre punktum gjeld ikkje dersom meir enn 80 prosent av det samla talet på dei tilsette i laget på det tidspunktet valet skjer, har same kjønn.
+>
+> (2) For lag med fleire enn 200 tilsette, skal kjønnssamansetjinga blant styremedlemmer som skal veljast av dei tilsette etter § 6-4, oppfylle krava i § 6-4 a andre og tredje ledd, likevel slik at om det blir valt to styremedlemmer etter § 6-4, kan ikkje desse ha same kjønn. Talet på tilsette skal reknast likt som etter § 6-4.
 >
 
 ## § 6-17
@@ -166,9 +178,13 @@ refid: "lov/2003-06-06-38"
 
 *Ny § 8-7 skal lyde:*
 
-> § 8-7.Berekraftsrapportering(1) I føretak som har plikt til å utarbeide berekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere berekraftsrapporteringa. Generalforsamlinga kan i staden velje ein annan revisor til å attestere berekraftsrapporteringa eller ein uavhengig tilbydar av attestasjonstenester dersom det er høve til dette etter revisorloven § 1-3. Generalforsamlinga skal godkjenne godtgjersla.(2) Den som attesterer berekraftsrapporteringa, skal for kvart rekneskapsår gi ei attestasjonsmelding om berekraftsrapportering etter revisorloven § 9-7 a til generalforsamlinga. Meldinga skal vere styret i hende seinast to veker før den ordinære generalforsamlinga.(3) §§ 8-3, 8-4 og 8-6 gjeld tilsvarande for den som er vald til å attestere berekraftsrapporteringa etter første ledd.
+> § 8-7. Berekraftsrapportering
 >
-> § 8-7.Berekraftsrapportering
+> (1) I føretak som har plikt til å utarbeide berekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere berekraftsrapporteringa. Generalforsamlinga kan i staden velje ein annan revisor til å attestere berekraftsrapporteringa eller ein uavhengig tilbydar av attestasjonstenester dersom det er høve til dette etter revisorloven § 1-3. Generalforsamlinga skal godkjenne godtgjersla.
+>
+> (2) Den som attesterer berekraftsrapporteringa, skal for kvart rekneskapsår gi ei attestasjonsmelding om berekraftsrapportering etter revisorloven § 9-7 a til generalforsamlinga. Meldinga skal vere styret i hende seinast to veker før den ordinære generalforsamlinga.
+>
+> (3) §§ 8-3, 8-4 og 8-6 gjeld tilsvarande for den som er vald til å attestere berekraftsrapporteringa etter første ledd.
 >
 
 ## § 9-9
@@ -279,6 +295,34 @@ refid: "lov/2003-06-06-38"
 >
 
 ## (annet)
+
+### 2012-06-08 — lov/2012-06-08-31
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 6. juni 2003 nr. 38 om bustadbyggjelag (bustadbyggjelagslova).
+>
+> I lov 6. juni 2003 nr. 38 om bustadbyggjelag skal ny § 9-14 lyde:
+>
+> § 9-14.
+>
+> Fusjon mellom bustadbyggjelag og heileigd dotterselskap
+>
+> (1) Dersom eit bustadbyggjelag eig alle aksjane i eit aksjeselskap eller allmennaksjeselskap, kan styra i foretaka vedta ein fusjonsplan som går ut på at dotterselskapet vederlagsfritt skal overføre eigedelar, rettar og skyldnader under eitt til morforetaket.
+>
+> (2) For gjennomføringa av fusjonen gjeld aksjelova § 13-23 og allmennaksjelova § 13-24 tilsvarande.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+
+### 2012-07-01 — forskrift/2012-06-08-495
+
+*Loven trer i kraft fra 1. juli 2012.*
+
+> Loven trer i kraft fra 1. juli 2012.
+>
 
 ### 2020-12-04 — lov/2020-12-04-137
 

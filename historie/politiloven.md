@@ -67,6 +67,108 @@ refid: "lov/1995-08-04-53"
 > Dersom det blir utferdiget siktelse eller reist tiltale mot et menighetsrådsmedlem for et straffbart forhold, som nevnt i straffeloven kapittel 19, 27, 28 og 30 og forholdet ifølge siktelsen eller tiltalen knytter seg til utøving av verv eller tjeneste for menighetsråd eller kirkelig fellesråd, kan menighetsrådet vedta å suspendere vedkommende fra vervet inntil saken er rettskraftig avgjort.
 >
 
+### 2011-04-15 — lov/2011-04-15-11
+
+*I lov 4. august 1995 nr. 53 om politiet (politiloven) skal § 17 f nytt tredje ledd lyde:*
+
+> Overtredelse av taushetsplikt etter denne bestemmelsen kan straffes etter straffeloven § 121. Dette gjelder også for personer som ikke er i tjeneste eller arbeid for statlig eller kommunalt organ, dersom vedkommende er gjort oppmerksom på at overtredelsen kan straffes.
+>
+
+### 2012-06-22 — lov/2012-06-22-52
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 20 a lyde:*
+
+> § 20 a.Utenlandsk polititjenestemann
+>
+> Utenlandsk tjenestemann kan delta i felles etterforskningsgrupper, felles politioperasjoner, eller på annen måte utføre tjenestehandlinger i Norge i den grad det følger av overenskomst med fremmed stat. Tilsvarende gjelder for adgangen til å fortsette observasjon og forfølgelse på norsk territorium.
+>
+> Det kan unntaksvis gis politimyndighet til utenlandsk tjenestemann. § 20 tredje ledd gjelder tilsvarende.
+>
+> Utenlandsk tjenestemann som nevnt i første ledd, er å anse som offentlig tjenestemann i forhold til straffelovens bestemmelser.
+>
+> Kongen kan gi nærmere regler om vilkår for og gjennomføringen av internasjonalt samarbeid som nevnt i første ledd, herunder særlig om vilkårene for adgangen til å fortsette observasjon og forfølgelse som nevnt i første ledd annet punktum.
+>
+
+### 2012-07-01 — forskrift/2012-06-22-589
+
+*Ikraftsetting av lov 17. desember 2010 nr. 87 om endringar i politilova m.m. Lovens romertall I, endring i politiloven § 14 nytt tredje ledd, trer i kraft 1. juli 2012.*
+
+> Ikraftsetting av lov 17. desember 2010 nr. 87 om endringar i politilova m.m. Lovens romertall I, endring i politiloven § 14 nytt tredje ledd, trer i kraft 1. juli 2012.
+>
+
+### 2013-06-21 — lov/2013-06-21-82
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 24 lyde:*
+
+> § 24.Taushetsplikt
+>
+> For politiets behandling av opplysninger til politimessige formål, jf. politiregisterloven § 2 nr. 13, gjelder taushetsplikten i kapittel 5 og 6 i politiregisterloven. For politiets øvrige virksomhet gjelder forvaltningsloven §§ 13 til 13 f med de tillegg og begrensninger som følger av paragrafen her.
+>
+> Taushetsplikten gjelder for enhver som utfører tjeneste eller arbeid for politiet. Politiet kan pålegge personer, private institusjoner og andre offentlige organer taushetsplikt når det innhentes opplysninger med hjemmel i § 14 d eller dersom reell identitet til en person som benytter fiktive personopplysninger, er eller vil bli avslørt.
+>
+> Forvaltningsloven § 13 a nr. 1 gjelder ikke for opplysninger som kan skade politiets arbeid med å forebygge eller avdekke lovbrudd eller opprettholde ro og orden dersom de blir gjort kjent.
+>
+> Taushetsplikt etter forvaltningsloven § 13 er ikke til hinder for at opplysninger fra politiets forvaltningsvirksomhet og sivile gjøremål gjøres kjent for andre tjenestemenn i politiet og påtalemyndigheten i den utstrekning tjenestemessige behov tilsier det, med mindre formålet med behandlingen av opplysningene er begrenset i lov eller i forskrift gitt i medhold av lov.
+>
+
+### 2013-06-21 — lov/2013-06-21-83
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 4. august 1995 nr. 53 om politiet (politiloven).
+>
+> I lov 4. august 1995 nr. 53 om politiet skal § 14 første ledd nytt nr. 8 lyde:
+>
+> om eller overlates til politiet nærmere å utforme bestemmelser om vilkår for å opprettholde den offentlige ro og orden, herunder med hensyn til tid og sted, for den som vil samle inn penger på offentlig sted til egne eller andres formål. Adgangen til å sette vilkår kan også omfatte den som vil framføre sang og musikk eller stelle til oppvisning eller fremvisning. Politiet kan gis adgang til å pålegge meldeplikt og føre et register over dem som har meldt at de vil samle inn penger på offentlig sted. Kongen gir forskrift om registeret i henhold til politiregisterloven § 14.
+>
+> Loven trer i kraft straks.
+>
+
+### 2015-09-04 — lov/2015-09-04-88
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 16 lyde:*
+
+> Riket inndeles i politidistrikter med en politimester som sjef for hvert distrikt. Inndelingen fastsettes av Kongen. Kongen fastsetter også hvordan distriktsinndelingen skal være for den norske del av kontinentalsokkelen og områder utenfor sjøterritoriet som norsk rett får anvendelse på.
+>
+> Politidistriktene inndeles i lensmanns- og politistasjonsdistrikter. I politistasjonsdistrikter der de oppgavene som i lov er lagt til lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver, ikke ivaretas av politistasjonen, skal de ivaretas av et namsfogdkontor som en egen driftsenhet ledet av en namsfogd. Lensmannsdistrikter, namsfogddistrikter og politistasjonsdistrikter med sivile rettspleieoppgaver skal omfatte én eller flere hele kommuner. Inndelingen fastsettes av Kongen.
+>
+> Kongen kan bestemmeat det for ett eller flere bestemte politigjøremål skal opprettes egne politiorganer,at visse politigjøremål skal utføres under en samlet ledelse i flere politidistrikter,at en politimester, som en varig ordning, helt eller delvis skal fritas for bestemte gjøremål, og at de legges til en annen politimester eller til et annet politiorgan,at enkelte namsfogder skal ligge direkte under Politidirektoratet.
+>
+> For øvrig gir departementet organisatoriske bestemmelser. Departementet kan herunder fastsette samarbeidsordninger mellom distrikter, gi bestemmelser om bruk av politistyrker ut over distriktsgrenser og om ordninger som nevnt i tredje ledd nr. 3 når dette skjer for en bestemt anledning eller for et avgrenset tidsrom.
+>
+
+### 2015-09-04 — forskrift/2015-09-04-1024
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2015-12-01 — forskrift/2015-11-27-1361
+
+*Lov 4. september 2015 nr. 86 om endringer i politiloven (bistand fra Forsvaret) trer i kraft 1. desember 2015.*
+
+> Lov 4. september 2015 nr. 86 om endringer i politiloven (bistand fra Forsvaret) trer i kraft 1. desember 2015.
+>
+
+### 2016-06-10 — lov/2016-06-10-22
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 19 første og annet ledd lyde:*
+
+> Politidirektøren og assisterende politidirektører beskikkes av Kongen på åremål for et tidsrom av inntil 6 år. Etter utlysning kan vedkommende beskikkes for ytterligere en periode på inntil 6 år.
+>
+> Politimestere og visepolitimestere i politidistrikter utnevnes som embetsmenn på åremål for inntil 6 år. Etter utlysning kan vedkommende utnevnes for ytterligere en periode på inntil 6 år.
+>
+
+### 2017-01-27 — lov/2017-01-27-3
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 29 første ledd lyde:*
+
+> Kongen fastsetter en alminnelig tjenesteinstruks for politiet. Departementet gir tjenestereglementer og særinstrukser. Dette kan omfatte instruks om bevæpning av polititjenestemenn i daglig tjeneste for et begrenset tidsrom når det anses nødvendig for å håndtere en alvorlig trusselsituasjon. Politimesteren kan utstede utfyllende tjenesteregler når lokale forhold gjør dette påkrevd.
+>
+
 ### 2017-05-11 — lov/2017-05-11-26
 
 *I kapittel III skal ny § 17 lyde:*
@@ -78,6 +180,34 @@ refid: "lov/1995-08-04-53"
 > Namsmann for Svalbard er Sysselmannen.
 >
 > Kongen fastsetter hvilke namsmannsdistrikter norsk kontinentalsokkel og norsk økonomisk sone hører til.
+>
+
+### 2017-06-21 — lov/2017-06-21-94
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 14 tredje ledd lyde:*
+
+> Kommunale vedtekter som nevnt i første ledd nr. 1 og 2 kan i tillegg håndheves av kommunen eller personer utpekt av kommunen dersom kommunen har fastsatt dette i politivedtektene. Slik håndhevelse gjelder likevel ikke opprettholdelse av ro og orden. Ved overtredelse av de kommunale vedtektene som nevnt overfor kan kommunen, eller dens utpekte, ilegge overtredelsesgebyr. Departementet kan i forskrift gi nærmere regler om gjennomføring av bestemmelsene i dette ledd, herunder hvilke deler av ferdselen kommunene kan sikre.
+>
+
+### 2018-06-22 — lov/2018-06-22-81
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 29 første ledd lyde:*
+
+> Kongen fastsetter en alminnelig tjenesteinstruks for politiet. Departementet gir tjenestereglementer og særinstrukser. Dette kan omfatte instruks om bevæpning av polititjenestemenn i daglig tjeneste for et begrenset tidsrom når det anses nødvendig for å håndtere en alvorlig trusselsituasjon, samt for et ubegrenset tidsrom når det ut fra trusselbildet anses nødvendig for å gi tilstrekkelig beskyttelse av sårbare objekter. Politimesteren kan utstede utfyllende tjenesteregler når lokale forhold gjør dette påkrevd.
+>
+
+### 2021-07-01 — lov/2021-06-11-68
+
+*I lov 4. august 1995 nr. 53 om politiet skal § 17 andre ledd lyde:*
+
+> Namsmann for Svalbard er sysselmesteren.
+>
+
+### 2022-09-01 — forskrift/2022-08-12-1443
+
+*Ikraftsetting av lov 18. juni 2021 nr. 123 om endringer i politiloven (erstatning for skader som skyldes pålagt trening, mv.). Loven trer i kraft 1. september 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 123 om endringer i politiloven (erstatning for skader som skyldes pålagt trening, mv.). Loven trer i kraft 1. september 2022.
 >
 
 ### 2024-05-31 — lov/2024-05-31-25
@@ -94,6 +224,13 @@ refid: "lov/1995-08-04-53"
 > Når tjenestehandlingen berører eller skjer overfor eller i nærvær av barn, skal barnets beste være et grunnleggende hensyn.
 >
 
+### 2024-06-07 — forskrift/2024-06-07-929
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2024-06-21 — lov/2024-06-21-47
 
 *I lov 4. august 1995 nr. 53 om politiet skal § 12 nytt sjette ledd lyde:*
@@ -105,14 +242,23 @@ refid: "lov/1995-08-04-53"
 
 *I lov 4. august 1995 nr. 53 om politiet skal ny § 9 a lyde:*
 
-> § 9 a.Henvisning til rådgivende enhet for russakerPolitiet kan henvise en person til frivillig oppmøte hos kommunal rådgivende enhet for russaker når det er grunn til å tro at personen har brukt narkotika eller ervervet eller oppbevart en mindre mengde narkotika til egen bruk.Henvisning etter første ledd skal være skriftlig og begrunnet. Før henvisningen skal personen, og verger for personer under 18 år, gis anledning til å uttale seg. Reglene om underretning i forvaltningsloven § 27 første ledd gjelder tilsvarende.
+> § 9 a. Henvisning til rådgivende enhet for russaker
 >
-> § 9 a.Henvisning til rådgivende enhet for russaker
+> Politiet kan henvise en person til frivillig oppmøte hos kommunal rådgivende enhet for russaker når det er grunn til å tro at personen har brukt narkotika eller ervervet eller oppbevart en mindre mengde narkotika til egen bruk.
+>
+> Henvisning etter første ledd skal være skriftlig og begrunnet. Før henvisningen skal personen, og verger for personer under 18 år, gis anledning til å uttale seg. Reglene om underretning i forvaltningsloven § 27 første ledd gjelder tilsvarende.
 >
 
 ### 2025-06-20 — lov/2025-06-20-87
 
 *Gjeldende femte ledd blir nytt sjette ledd.*
+
+### 2025-06-20 — forskrift/2025-06-20-1111
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ### 2026-06-19 — lov/2026-06-19-45
 
@@ -223,9 +369,13 @@ refid: "lov/1995-08-04-53"
 
 *§ 17 skal lyde:*
 
-> § 17.NamsfogdenPolitistasjonssjefen er namsfogd i sitt distrikt med mindre oppgaven som namsfogd ivaretas av et namsfogdkontor ledet av en egen namsfogd. Distriktene skal omfatte en eller flere hele kommuner. Kongen kan bestemme at én politistasjonssjef skal ivareta oppgaven som namsfogd for flere politistasjonsdistrikter i samme politidistrikt.Namsfogd for Svalbard er sysselmesteren.Kongen fastsetter hvilke namsfogddistrikter norsk kontinentalsokkel og norsk økonomisk sone hører til.
+> § 17. Namsfogden
 >
-> § 17.Namsfogden
+> Politistasjonssjefen er namsfogd i sitt distrikt med mindre oppgaven som namsfogd ivaretas av et namsfogdkontor ledet av en egen namsfogd. Distriktene skal omfatte en eller flere hele kommuner. Kongen kan bestemme at én politistasjonssjef skal ivareta oppgaven som namsfogd for flere politistasjonsdistrikter i samme politidistrikt.
+>
+> Namsfogd for Svalbard er sysselmesteren.
+>
+> Kongen fastsetter hvilke namsfogddistrikter norsk kontinentalsokkel og norsk økonomisk sone hører til.
 >
 
 ## § 17 a
@@ -744,18 +894,6 @@ refid: "lov/1995-08-04-53"
 > Kongen fastsetter en alminnelig tjenesteinstruks for politiet. Departementet gir tjenestereglementer og særinstrukser. Politimesteren kan utstede utfyllende tjenesteregler når lokale forhold gjør dette påkrevd.
 >
 > Departementet gir nærmere regler om i hvilken utstrekning lensmenn, namsfogder og politistasjonssjefer kan overlate oppgaver som i lov er lagt til lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver, til sine underordnede.Nr. 38 om endringer i lov 20. desember 1996 nr. 106 om tomtefeste skal lyde:
->
-> I lov 20. desember 1996 nr. 106 om tomtefeste skal § 43 lyde:
->
-> Skjønn
->
-> Skjønn etter kapittel VII vert haldne som rettslege skjønn. Skjønnet kan styrast av lensmannen, namsfuten eller politistasjonssjef med sivile rettspleieoppgåver dersom partane er samde om det.
->
-> Skjønn etter §§ 15 og 37 skal styrast av lensmannen, namsfuten eller politistasjonssjef med sivile rettspleieoppgåver. Det skal vere to skjønnsmenn både ved skjønn og overskjønn. Om dekking av sakskostnader gjeld lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker § 43.I nr. 41 skal endringen i lov 6. juni 2003 nr. 39 om burettslag § 4-18 annet ledd annet punktum lyde:
->
-> Skjønet skal styrast av lensmannen, namsfuten eller politistasjonssjef med sivile rettspleieoppgåver.I nr. 42 skal endringen i lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon § 12-3 tredje ledd fjerde punktum lyde:
->
-> Skjønnet styres av lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver.
 >
 
 ### 2017-05-11 — lov/2017-05-11-26

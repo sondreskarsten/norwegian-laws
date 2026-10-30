@@ -79,9 +79,9 @@ refid: "lov/2024-03-08-9"
 
 *§ 5-2 skal lyde:*
 
-> § 5-2.DelegeringStyret kan delegere avgjørelsesmyndigheten til andre ved institusjonen med mindre det er fastsatt i loven at styret selv skal ta avgjørelsen, eller det er andre særlige begrensninger i adgangen til å delegere.
+> § 5-2. Delegering
 >
-> § 5-2.Delegering
+> Styret kan delegere avgjørelsesmyndigheten til andre ved institusjonen med mindre det er fastsatt i loven at styret selv skal ta avgjørelsen, eller det er andre særlige begrensninger i adgangen til å delegere.
 >
 
 ## § 6-2

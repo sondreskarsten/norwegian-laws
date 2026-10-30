@@ -7,6 +7,13 @@ refid: "lov/1976-12-17-100"
 
 ## (annet)
 
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. skal § 2 første ledd nytt tredje punktum lyde:*
+
+> Påkrav kan sendes ved bruk av elektronisk kommunikasjon dersom skyldneren uttrykkelig har godtatt dette.
+>
+
 ### 2026-05-22 — lov/2026-05-22-19
 
 *1.I lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. skal § 4 bokstav b lyde:*

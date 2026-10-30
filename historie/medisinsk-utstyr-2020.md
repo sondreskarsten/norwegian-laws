@@ -20,21 +20,14 @@ refid: "lov/2020-05-07-37"
 
 > Forordning (EU) 2017/745 om medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II, kapittel XXX nr. 11, gjelder som lov. Forordningen gjelder med tilpasninger som følger av vedlegg II, protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av:forordning (EU) 2020/561forordning (EU) 2023/502forordning (EU) 2023/607forordning (EU) 2023/2197
 >
-> forordning (EU) 2020/561
->
-> forordning (EU) 2023/502
->
-> forordning (EU) 2023/607
->
-> forordning (EU) 2023/2197
->
 > Forordning (EU) 2017/746 om in vitro-diagnostisk medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II, kapittel XXX nr. 12, gjelder som lov. Forordningen gjelder med tilpasninger som følger av vedlegg II, protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av:forordning (EU) 2022/112forordning (EU) 2023/503forordning (EU) 2023/607
 >
-> forordning (EU) 2022/112
->
-> forordning (EU) 2023/503
->
-> forordning (EU) 2023/607
+
+### 2025-07-01 — forskrift/2025-06-20-1121
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
 >
 
 ### 2026-06-19 — lov/2026-06-19-44
@@ -49,25 +42,7 @@ refid: "lov/2020-05-07-37"
 
 > Forordning (EU) 2017/745 om medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II, kapittel XXX nr. 11, gjelder som lov. Forordningen gjelder med tilpasninger som følger av vedlegg II, protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av:forordning (EU) 2020/561forordning (EU) 2023/502forordning (EU) 2023/607forordning (EU) 2023/2197forordning (EU) 2024/1860
 >
-> forordning (EU) 2020/561
->
-> forordning (EU) 2023/502
->
-> forordning (EU) 2023/607
->
-> forordning (EU) 2023/2197
->
-> forordning (EU) 2024/1860
->
 > Forordning (EU) 2017/746 om in vitro-diagnostisk medisinsk utstyr, som inntatt i EØS-avtalens vedlegg II, kapittel XXX nr. 12, gjelder som lov. Forordningen gjelder med tilpasninger som følger av vedlegg II, protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av:forordning (EU) 2022/112forordning (EU) 2023/503forordning (EU) 2023/607forordning (EU) 2024/1860
->
-> forordning (EU) 2022/112
->
-> forordning (EU) 2023/503
->
-> forordning (EU) 2023/607
->
-> forordning (EU) 2024/1860
 >
 
 ## § 11

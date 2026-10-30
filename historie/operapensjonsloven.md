@@ -5,6 +5,15 @@ refid: "lov/1998-08-21-65"
 
 # Endringshistorikk: Operapensjonsloven
 
+## (annet)
+
+### 2018-06-15 — lov/2018-06-15-30
+
+*I lov 21. august 1998 nr. 65 om pensjonsordning for ballettdansere, sangsolister og korsangere ved Den Norske Opera & Ballett skal § 4 tredje ledd lyde:*
+
+> Et medlem kan ha krav på et garantert pensjonsnivå etter reglene i lov om Statens pensjonskasse § 24 b, likevel slik at kravet til full tjenestetid fastsettes etter første og andre ledd i bestemmelsen her.
+>
+
 ## § 1
 
 ### 2011-01-01 — lov/2010-12-17-79

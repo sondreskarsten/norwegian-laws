@@ -180,9 +180,9 @@ refid: "lov/1996-11-29-68"
 
 *Ny § 3-3 skal lyde:*
 
-> § 3-3.Fribeløp for ungdomUngdom som ved utløpet av inntektsåret er fra og med 13 til og med 19 år, skal ikke betale skatt av lønn, feriepenger, annen godtgjørelse vunnet ved arbeid i tjenesteforhold og sykepenger innenfor et beløp svarende til beløpsgrensen for frikort på det norske fastlandet, jf. skattebetalingsloven kapittel 5 med forskrifter. Arbeidsgiver trekker skatt etter § 3-1 uten hensyn til fribeløpet. Trukket skatt innenfor fribeløpet refunderes fra skattemyndighetene. Refusjonsbeløpet utbetales så snart som mulig og senest tre uker etter at vedtaket om tilbakebetaling ble truffet. Skattebetalingsloven § 11-3 gjelder tilsvarende. Skattebetalingsloven § 11-4 gjelder ikke.
+> § 3-3. Fribeløp for ungdom
 >
-> § 3-3.Fribeløp for ungdom
+> Ungdom som ved utløpet av inntektsåret er fra og med 13 til og med 19 år, skal ikke betale skatt av lønn, feriepenger, annen godtgjørelse vunnet ved arbeid i tjenesteforhold og sykepenger innenfor et beløp svarende til beløpsgrensen for frikort på det norske fastlandet, jf. skattebetalingsloven kapittel 5 med forskrifter. Arbeidsgiver trekker skatt etter § 3-1 uten hensyn til fribeløpet. Trukket skatt innenfor fribeløpet refunderes fra skattemyndighetene. Refusjonsbeløpet utbetales så snart som mulig og senest tre uker etter at vedtaket om tilbakebetaling ble truffet. Skattebetalingsloven § 11-3 gjelder tilsvarende. Skattebetalingsloven § 11-4 gjelder ikke.
 >
 
 ## § 4-2
@@ -353,9 +353,9 @@ refid: "lov/1996-11-29-68"
 
 *§ 5-1 skal lyde:*
 
-> § 5-1.Skattebetalingslovens og innkrevingslovens anvendelse på SvalbardSkattebetalingsloven og innkrevingsloven gjelder ved betaling og innkreving av skatt og trygdeavgift til Svalbard.
+> § 5-1. Skattebetalingslovens og innkrevingslovens anvendelse på Svalbard
 >
-> § 5-1.Skattebetalingslovens og innkrevingslovens anvendelse på Svalbard
+> Skattebetalingsloven og innkrevingsloven gjelder ved betaling og innkreving av skatt og trygdeavgift til Svalbard.
 >
 
 ## § 5-2
@@ -501,3 +501,27 @@ refid: "lov/1996-11-29-68"
 ### 2015-12-18 — lov/2015-12-18-113
 
 *Nåværende annet og tredje punktum blir tredje og nytt fjerde punktum.*
+
+### 2016-06-17 — lov/2016-06-17-37
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 29. november 1996 nr. 68 om skatt til Svalbard.
+>
+> I lov 29. november 1996 nr. 68 om skatt til Svalbard blir det gjort følgjande endring:
+>
+> Tittelen til lova skal lyde:
+>
+> Lov om skatt til Svalbard (Svalbardskatteloven)
+>
+> Lova tek til å gjelde straks.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1086
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>

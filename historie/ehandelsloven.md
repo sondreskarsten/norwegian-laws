@@ -7,6 +7,17 @@ refid: "lov/2003-05-23-35"
 
 ## (annet)
 
+### 2005-06-17 — lov/2005-06-17-104
+
+*I lov 23. mai 2003 nr. 35 om visse sider av elektronisk handel og andre informasjonssamfunnstjenester skal § 19 første ledd lyde:*
+
+> Bestemmelsene i §§ 16 til 18 medfører ikke at tjenesteyteren har en generell plikt til å kontrollere eller overvåke den informasjonen som lagres eller overføres på oppfordring fra en tjenestemottaker, eller en generell plikt til å undersøke forhold som antyder ulovlig virksomhet.
+>
+
+### 2011-11-18 — lov/2011-11-18-42
+
+*I lov 23. mai 2003 nr. 35 om visse sider av elektronisk handel og andre informasjonssamfunnstjenester skal § 6 første ledd bokstav h lyde:utstedelse av elektroniske penger av en institusjon som går inn under et unntak gitt i medhold av finansieringsvirksomhetsloven § 4c-3 tredje ledd, og*
+
 ### 2023-06-16 — lov/2023-06-16-38
 
 *I lov 23. mai 2003 nr. 35 om visse sider av elektronisk handel og andre informasjonssamfunnstjenester skal ny § 20 a lyde:*

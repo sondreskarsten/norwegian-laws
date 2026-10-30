@@ -7,6 +7,27 @@ refid: "lov/1962-06-22-12"
 
 ## (annet)
 
+### 2006-04-21 — lov/2006-04-21-10
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 28 første ledd lyde:*
+
+> Innskott betales for den tid sykepleieren oppebærer lønn for stillingen eller mottar sykepenger, svangerskapspenger eller foreldrepenger etter lov om folketrygd.
+>
+
+### 2008-06-27 — lov/2008-06-27-53
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 19 annet ledd første punktum lyde:*
+
+> Gjenlevende registrerte partner har samme rett til ytelser etter dette kapitlet som gjenlevende ektefelle og gjenlevende fraskilt ektefelle.
+>
+
+### 2009-12-18 — lov/2009-12-18-134
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 11 tredje ledd nytt andre og tredje punktum lyde:*
+
+> Dette gjelder likevel ikke ved beordret tjeneste i forbindelse med influensa A (H1N1), jf. lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 1-3 bokstav a til c. Frivillig tjeneste i offentlig helsetjeneste som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med influensa A (H1N1), likestilles med beordret tjeneste.
+>
+
 ### 2011-01-01 — lov/2010-06-25-29
 
 *Nåværende tredje og fjerde ledd blir nye fjerde og femte ledd.*
@@ -18,13 +39,56 @@ refid: "lov/1962-06-22-12"
 
 *I § 20 tredje ledd og § 21 tredje ledd første punktum skal navnet «Statens Pensjonskasse» endres til «Statens pensjonskasse».*
 
+### 2011-11-25 — lov/2011-11-25-43
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 39 tredje ledd nytt fjerde punktum lyde:*
+
+> Dersom medlemmet dør før omregningstidspunktet ved 65 eller 67 år, skal pensjonsgrunnlaget ved beregningen av ektefellepensjon etter kapittel VI og barnepensjon etter kapittel VII omregnes ved at det oppreguleres med lønnsveksten fra fratredelsestidspunktet og fram til virkningstidspunktet for pensjonen.
+>
+
 ### 2014-06-20 — lov/2014-06-20-24
 
 *Nåværende § 10 a sjette og sjuende ledd blir femte og sjette ledd.*
 
+### 2015-12-18 — lov/2015-12-18-107
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 3 første ledd bokstav b lyde:Sykepleier som har en arbeidstid på mindre enn 20 prosent av full stilling. Unntaket gjelder likevel ikke når sykepleieren har flere stillinger omfattet av pensjonsordningen, og stillingene til sammen utgjør 20 prosent eller mer av full stilling.*
+
+### 2016-06-17 — lov/2016-06-17-25
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 3 første ledd ny bokstav c lyde:Sykepleier som gjør tjeneste på pensjonistvilkår. Departementet kan gi forskrift med utfyllende bestemmelser om tjeneste på pensjonistvilkår.*
+
+### 2018-01-01 — lov/2017-06-16-43
+
+*I lov av 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 17 tredje ledd lyde:*
+
+> Dersom arbeidsavklaringspenger etter folketrygdloven kapittel 11 er redusert eller stanset av andre grunner enn ved samtidig arbeid etter folketrygdloven § 11-23, kan midlertidig uførepensjon reduseres eller stanses tilsvarende.
+>
+
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 1 nytt fjerde ledd lyde:*
+
+> For å kunne være medlem av pensjonsordningen må arbeidstakeren samtidig være medlem i folketrygden etter folketrygdloven kapittel 2 og betale folketrygdavgift for de samme inntektene som ligger til grunn for pensjonsopptjeningen i pensjonsordningen. Styret kan i særlige tilfeller vedta unntak for en eller flere personer og fastsette vilkår for blant annet innskuddsbetaling etter særskilt fastsatt sats.
+>
+
+### 2020-03-20 — lov/2020-03-20-5
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 11 tredje ledd nytt andre og tredje punktum lyde:*
+
+> Dette gjelder likevel ikke ved beordret tjeneste i forbindelse med covid-19, jf. lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 1-3 første ledd bokstav a til c. Frivillig tjeneste i offentlig helsetjeneste som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
+>
+
 ### 2020-06-19 — lov/2020-06-19-70
 
 *Någjeldende § 20 første ledd tredje punktum oppheves.*
+
+### 2020-12-18 — lov/2020-12-18-138
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 11 tredje ledd andre og tredje punktum lyde:*
+
+> Dette gjelder likevel ikke ved beordret tjeneste i forbindelse med covid-19, jf. helseberedskapsloven § 1-3 første ledd bokstav a til c og bokstav h. Frivillig tjeneste i offentlig helsetjeneste etter helseberedskapsloven § 1-3 første ledd bokstav a til c som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
+>
 
 ### 2021-06-18 — lov/2021-06-18-91
 
@@ -33,6 +97,15 @@ refid: "lov/1962-06-22-12"
 ### 2021-12-17 — lov/2021-12-17-146
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2022-11-25 — lov/2022-11-25-86
+
+*I lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere skal § 37 andre og nytt tredje ledd lyde:*
+
+> Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.
+>
+> Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i andre ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
+>
 
 ### 2024-04-12 — lov/2024-04-12-15
 
@@ -47,29 +120,71 @@ refid: "lov/1962-06-22-12"
 
 > Kapittel 4 b Alderspensjon – tidligpensjon og særalderspåslag til personer med særaldersgrense
 >
-> § 11 m.VirkeområdeKapittelet gjelder alderspensjon for personer født i 1963 eller senere og omfatter tidligpensjon og særalderspåslag til personer med lavere aldersgrense enn 70 år (særaldersgrense).
+> § 11 m. Virkeområde
 >
-> § 11 m.Virkeområde
+> Kapittelet gjelder alderspensjon for personer født i 1963 eller senere og omfatter tidligpensjon og særalderspåslag til personer med lavere aldersgrense enn 70 år (særaldersgrense).
 >
-> § 11 n.Særskilt tidligpensjonsordning til personer i årskullene 1963 og 1964Personer født i 1963 og 1964 med særaldersgrense to år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen med minst 10 prosent målt i forhold til full stilling, ved eller etter fylte 65 år.Tidligpensjonen gis fra tidspunktet for fylte 65 år. Fratrer et medlem tre år eller kortere tid før det nevnte tidspunktet, har vedkommende rett til tidligpensjon dersom summen av tjenestetid og alder er minst 85 år.Ved overgang fra en stilling med særaldersgrense 65 år til en stilling med aldersgrense 70 år skal særaldersgrensen på 65 år legges til grunn i inntil ti år dersom vedkommende ville hatt rett til alderspensjon etter den tidligere særaldersgrensen. Det er et vilkår at vedkommende har hatt stillinger med særaldersgrense i minst 15 år.Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 4 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.Tidligpensjonen løper fra den første dagen medlemmet ikke mottar lønn. For øvrig gjelder § 11 første ledd andre til fjerde punktum.Tidligpensjonen gis fram til medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden.Ved overgang fra en stilling med aldersgrense 70 år til en stilling med særaldersgrense 65 år skal særaldersgrensen først legges til grunn etter ett års tjeneste.Tidligpensjonen skal beregnes etter bestemmelsene i § 7 sjette og sjuende ledd, § 8, § 9 første, tredje og fjerde ledd og § 11 tredje og fjerde ledd.
+> § 11 n. Særskilt tidligpensjonsordning til personer i årskullene 1963 og 1964
 >
-> § 11 n.Særskilt tidligpensjonsordning til personer i årskullene 1963 og 1964
+> Personer født i 1963 og 1964 med særaldersgrense to år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen med minst 10 prosent målt i forhold til full stilling, ved eller etter fylte 65 år.
 >
-> § 11 o.Pensjonsgrunnlag for særalderspåslagGrunnlaget for beregning av særalderspåslag (pensjonsgrunnlaget) er medlemmets innskottsgrunnlag etter § 27 når det fratrer stillingen. Kun innskottsgrunnlag fra arbeidsforhold med særaldersgrense skal inngå i beregningen. Andre punktum gjelder ikke innskottsgrunnlag før 1. januar 2025.Det kan ved tariffavtale settes begrensninger for medregning av lønnsforhøyelser de siste to årene før fratreden med alderspensjon.Når et medlem er gått over til en stilling med lavere innskottsgrunnlag, eller når grunnlaget for medlemmets stilling er blitt satt ned uten at dette skyldes en alminnelig lønnsregulering, får medlemmet pensjon beregnet etter det høyere grunnlaget for så mange tjenesteår som han eller hun hadde da vedkommende fratrådte den høyere stillingen, eller da grunnlaget for stillingen ble satt ned. I tillegg får medlemmet pensjon beregnet etter det lavere grunnlaget for så mange tjenesteår som han eller hun har hatt etter at vedkommende gikk over i den lavere stillingen, eller etter at grunnlaget for stillingen ble satt ned, men ikke for flere tjenesteår enn at den samlede tjenestetiden blir 30 år. Det samme gjelder for et medlem som tidligere har hatt oppsatt pensjon for en høyere stilling.Det kan ved tariffavtale fastsettes minstegrenser for hvor lenge et medlem må ha hatt det høyere pensjonsgrunnlaget for at det skal gi rett til økt pensjon.For tjeneste i en stilling med kortere arbeidstid enn det fastsatte for en tilsvarende full stilling, skal pensjonsgrunnlaget reduseres ut fra arbeidstiden (det reduserte innskottsgrunnlaget). Har medlemmet en tid betalt innskott bare av en del av stillingens innskottsgrunnlag, skal pensjonsgrunnlaget for denne tjenesten reduseres ut fra det betalte innskottet.Er den samlede tjenestetiden lengre enn den tjenestetiden som kreves for å få full pensjon, skal det sees bort fra tjenestetiden med lavest pensjonsgrunnlag.
+> Tidligpensjonen gis fra tidspunktet for fylte 65 år. Fratrer et medlem tre år eller kortere tid før det nevnte tidspunktet, har vedkommende rett til tidligpensjon dersom summen av tjenestetid og alder er minst 85 år.
 >
-> § 11 o.Pensjonsgrunnlag for særalderspåslag
+> Ved overgang fra en stilling med særaldersgrense 65 år til en stilling med aldersgrense 70 år skal særaldersgrensen på 65 år legges til grunn i inntil ti år dersom vedkommende ville hatt rett til alderspensjon etter den tidligere særaldersgrensen. Det er et vilkår at vedkommende har hatt stillinger med særaldersgrense i minst 15 år.
 >
-> § 11 p.SæralderspåslagMedlemmer født i 1963 eller senere som har fratrådt medlemspliktig stilling med minst 10 prosent målt i forhold til full stilling, har rett til særalderspåslag. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av særalderspåslag, har hatt en medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak. Vilkåret gjelder ikke for personer som har mottatt tidligpensjon etter dette kapittelet eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.Det er et vilkår for rett til særalderspåslag etter denne paragrafen at medlemmet ikke mottar tidligpensjon etter dette kapittelet, tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning eller avtalefestet pensjon som en tidligpensjonsordning.Særalderspåslaget skal beregnes som en prosentandel av pensjonsgrunnlaget. Fullt særalderspåslag skal være 5,8 prosent. Fullt særalderspåslag krever at medlemmet har minst 30 års tjenestetid. Er tjenestetiden kortere enn 30 år, avkortes særalderspåslaget forholdsmessig.Har medlemmet en medlemspliktig stilling etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt være 100 prosent med fratrekk for høyeste uføregrad etter uttaket. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter uttaket. Dersom medlemmet mottar særalderspåslag etter mottak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent fratrukket stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter særaldersgrensen. Dersom uføregraden for midlertidig uførepensjon, uførepensjon og uføretrygd er forskjellig, skal den høyeste uføregraden legges til grunn.Ved endringer i forhold som nevnt i fjerde ledd skal det fastsettes en ny uttaksgrad. Det skal likevel ikke fastsettes en ny uttaksgrad ved økt stillingsandel i den medlemspliktige stillingen etter uttaket. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.Særalderspåslaget utbetales tidligst fra tidspunktet medlemmet når laveste uttaksalder for alderspensjon fra folketrygden.
+> Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 4 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.
 >
-> § 11 p.Særalderspåslag
+> Tidligpensjonen løper fra den første dagen medlemmet ikke mottar lønn. For øvrig gjelder § 11 første ledd andre til fjerde punktum.
 >
-> § 11 q.Livsvarig reduksjon av særalderspåslagNår uttaksgraden av særalderspåslaget fastsettes, skal det fastsettes en inntektsgrense. Inntektsgrensen per kalenderår er pensjonsgrunnlaget i en medlemspliktig stilling etter uttak, tillagt folketrygdens grunnbeløp. Ved endring i pensjonsgrunnlaget i en medlemspliktig stilling etter uttak skal inntektsgrensen fastsettes på nytt. Inntektsgrensen skal likevel ikke fastsettes på nytt ved økt pensjonsgrunnlag som følge av økt stillingsandel i den medlemspliktige stillingen etter uttaket. Inntektsgrensen skal periodiseres i uttaksåret avhengig av hvor mange måneder i året det utbetales særalderspåslag. Ved endring av inntektsgrensen underveis i et kalenderår skal det tas hensyn til antallet måneder med hver inntektsgrense.Det livsvarige nivået på særalderspåslaget reduseres for hvert år medlemmet har inntekt over inntektsgrensen. Særalderspåslaget skal reduseres med en brøk hvor inntekten over inntektsgrensen er telleren og tre ganger pensjonsgrunnlaget for særalderspåslaget er nevneren. Reduksjonen får virkning fra året etter at skatteoppgjøret foreligger. Som inntekt regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet. Det skal gjøres unntak for inntekt fra en avsluttet aktivitet. Dersom særalderspåslag er gradert på grunn av mottak av midlertidig uførepensjon eller uførepensjon, skal arbeidsavklaringspenger etter folketrygdloven kapittel 11 ikke medføre reduksjon av særalderspåslaget.Ved uttak av særalderspåslaget senere enn to år før medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden, uten at det tidligere er mottatt tidligpensjon etter dette kapittelet, alderspensjon etter § 6 a slik den lød før 1. januar 2026, eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning, reduseres også det livsvarige nivået på særalderspåslaget med 1/36 av ytelsen for hver måned det senere uttaket skjer.Departementet kan gi forskrift om reduksjon av særalderspåslag og periodisering.
+> Tidligpensjonen gis fram til medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden.
 >
-> § 11 q.Livsvarig reduksjon av særalderspåslag
+> Ved overgang fra en stilling med aldersgrense 70 år til en stilling med særaldersgrense 65 år skal særaldersgrensen først legges til grunn etter ett års tjeneste.
 >
-> § 11 r.Uttak av særalderspåslag – opphør og endringerFor medlemmer som mottar tidligpensjon etter dette kapittelet eller tilsvarende tidligpensjon fra en annen offentlig tjenestepensjonsordning, utbetales særalderspåslaget fra måneden etter siste utbetaling av tidligpensjon. Særalderspåslag utbetales ellers tidligst fra og med måneden etter at meldingen om uttak blir gitt, men likevel tidligst fra måneden etter at retten til særalderspåslag inntreffer. Særalderspåslaget opphører ved utgangen av måneden etter måneden medlemmet døde.Endringer i særalderspåslaget får virkning fra måneden etter at forholdet som førte til endringen, inntraff, se likevel § 11 q andre ledd tredje punktum.
+> Tidligpensjonen skal beregnes etter bestemmelsene i § 7 sjette og sjuende ledd, § 8, § 9 første, tredje og fjerde ledd og § 11 tredje og fjerde ledd.
 >
-> § 11 r.Uttak av særalderspåslag – opphør og endringer
+> § 11 o. Pensjonsgrunnlag for særalderspåslag
+>
+> Grunnlaget for beregning av særalderspåslag (pensjonsgrunnlaget) er medlemmets innskottsgrunnlag etter § 27 når det fratrer stillingen. Kun innskottsgrunnlag fra arbeidsforhold med særaldersgrense skal inngå i beregningen. Andre punktum gjelder ikke innskottsgrunnlag før 1. januar 2025.
+>
+> Det kan ved tariffavtale settes begrensninger for medregning av lønnsforhøyelser de siste to årene før fratreden med alderspensjon.
+>
+> Når et medlem er gått over til en stilling med lavere innskottsgrunnlag, eller når grunnlaget for medlemmets stilling er blitt satt ned uten at dette skyldes en alminnelig lønnsregulering, får medlemmet pensjon beregnet etter det høyere grunnlaget for så mange tjenesteår som han eller hun hadde da vedkommende fratrådte den høyere stillingen, eller da grunnlaget for stillingen ble satt ned. I tillegg får medlemmet pensjon beregnet etter det lavere grunnlaget for så mange tjenesteår som han eller hun har hatt etter at vedkommende gikk over i den lavere stillingen, eller etter at grunnlaget for stillingen ble satt ned, men ikke for flere tjenesteår enn at den samlede tjenestetiden blir 30 år. Det samme gjelder for et medlem som tidligere har hatt oppsatt pensjon for en høyere stilling.
+>
+> Det kan ved tariffavtale fastsettes minstegrenser for hvor lenge et medlem må ha hatt det høyere pensjonsgrunnlaget for at det skal gi rett til økt pensjon.
+>
+> For tjeneste i en stilling med kortere arbeidstid enn det fastsatte for en tilsvarende full stilling, skal pensjonsgrunnlaget reduseres ut fra arbeidstiden (det reduserte innskottsgrunnlaget). Har medlemmet en tid betalt innskott bare av en del av stillingens innskottsgrunnlag, skal pensjonsgrunnlaget for denne tjenesten reduseres ut fra det betalte innskottet.
+>
+> Er den samlede tjenestetiden lengre enn den tjenestetiden som kreves for å få full pensjon, skal det sees bort fra tjenestetiden med lavest pensjonsgrunnlag.
+>
+> § 11 p. Særalderspåslag
+>
+> Medlemmer født i 1963 eller senere som har fratrådt medlemspliktig stilling med minst 10 prosent målt i forhold til full stilling, har rett til særalderspåslag. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av særalderspåslag, har hatt en medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak. Vilkåret gjelder ikke for personer som har mottatt tidligpensjon etter dette kapittelet eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.
+>
+> Det er et vilkår for rett til særalderspåslag etter denne paragrafen at medlemmet ikke mottar tidligpensjon etter dette kapittelet, tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning eller avtalefestet pensjon som en tidligpensjonsordning.
+>
+> Særalderspåslaget skal beregnes som en prosentandel av pensjonsgrunnlaget. Fullt særalderspåslag skal være 5,8 prosent. Fullt særalderspåslag krever at medlemmet har minst 30 års tjenestetid. Er tjenestetiden kortere enn 30 år, avkortes særalderspåslaget forholdsmessig.
+>
+> Har medlemmet en medlemspliktig stilling etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt være 100 prosent med fratrekk for høyeste uføregrad etter uttaket. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter uttaket. Dersom medlemmet mottar særalderspåslag etter mottak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent fratrukket stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter særaldersgrensen. Dersom uføregraden for midlertidig uførepensjon, uførepensjon og uføretrygd er forskjellig, skal den høyeste uføregraden legges til grunn.
+>
+> Ved endringer i forhold som nevnt i fjerde ledd skal det fastsettes en ny uttaksgrad. Det skal likevel ikke fastsettes en ny uttaksgrad ved økt stillingsandel i den medlemspliktige stillingen etter uttaket. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.
+>
+> Særalderspåslaget utbetales tidligst fra tidspunktet medlemmet når laveste uttaksalder for alderspensjon fra folketrygden.
+>
+> § 11 q. Livsvarig reduksjon av særalderspåslag
+>
+> Når uttaksgraden av særalderspåslaget fastsettes, skal det fastsettes en inntektsgrense. Inntektsgrensen per kalenderår er pensjonsgrunnlaget i en medlemspliktig stilling etter uttak, tillagt folketrygdens grunnbeløp. Ved endring i pensjonsgrunnlaget i en medlemspliktig stilling etter uttak skal inntektsgrensen fastsettes på nytt. Inntektsgrensen skal likevel ikke fastsettes på nytt ved økt pensjonsgrunnlag som følge av økt stillingsandel i den medlemspliktige stillingen etter uttaket. Inntektsgrensen skal periodiseres i uttaksåret avhengig av hvor mange måneder i året det utbetales særalderspåslag. Ved endring av inntektsgrensen underveis i et kalenderår skal det tas hensyn til antallet måneder med hver inntektsgrense.
+>
+> Det livsvarige nivået på særalderspåslaget reduseres for hvert år medlemmet har inntekt over inntektsgrensen. Særalderspåslaget skal reduseres med en brøk hvor inntekten over inntektsgrensen er telleren og tre ganger pensjonsgrunnlaget for særalderspåslaget er nevneren. Reduksjonen får virkning fra året etter at skatteoppgjøret foreligger. Som inntekt regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet. Det skal gjøres unntak for inntekt fra en avsluttet aktivitet. Dersom særalderspåslag er gradert på grunn av mottak av midlertidig uførepensjon eller uførepensjon, skal arbeidsavklaringspenger etter folketrygdloven kapittel 11 ikke medføre reduksjon av særalderspåslaget.
+>
+> Ved uttak av særalderspåslaget senere enn to år før medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden, uten at det tidligere er mottatt tidligpensjon etter dette kapittelet, alderspensjon etter § 6 a slik den lød før 1. januar 2026, eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning, reduseres også det livsvarige nivået på særalderspåslaget med 1/36 av ytelsen for hver måned det senere uttaket skjer.
+>
+> Departementet kan gi forskrift om reduksjon av særalderspåslag og periodisering.
+>
+> § 11 r. Uttak av særalderspåslag – opphør og endringer
+>
+> For medlemmer som mottar tidligpensjon etter dette kapittelet eller tilsvarende tidligpensjon fra en annen offentlig tjenestepensjonsordning, utbetales særalderspåslaget fra måneden etter siste utbetaling av tidligpensjon. Særalderspåslag utbetales ellers tidligst fra og med måneden etter at meldingen om uttak blir gitt, men likevel tidligst fra måneden etter at retten til særalderspåslag inntreffer. Særalderspåslaget opphører ved utgangen av måneden etter måneden medlemmet døde.
+>
+> Endringer i særalderspåslaget får virkning fra måneden etter at forholdet som førte til endringen, inntraff, se likevel § 11 q andre ledd tredje punktum.
 >
 
 ### 2025-06-10 — lov/2025-06-10-31
@@ -91,6 +206,13 @@ refid: "lov/1962-06-22-12"
 ### 2026-06-12 — lov/2026-06-12-24
 
 *Nåværende første ledd fjerde punktum blir tredje ledd nytt tredje punktum.*
+
+### 2026-07-01 — forskrift/2026-06-12-1074
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
+>
 
 ## § 1
 
@@ -332,9 +454,13 @@ refid: "lov/1962-06-22-12"
 
 *Ny § 11 s skal lyde:*
 
-> § 11 s.Innhenting av opplysninger til bruk for arbeidet med tidligpensjon og særalderspåslagArbeids- og velferdsetaten skal utlevere opplysninger som er nødvendige for pensjonsordningens beregning av framtidig pensjon, vilkårsprøving og beregning av pensjon etter kapittelet her for arbeidstakere født i 1963 eller senere. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og pensjonsordningen i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.Pensjonsordningen kan uten hinder av taushetsplikt innhente nødvendige lønnsopplysninger som er gitt etter skatteforvaltningsloven § 7-2, og opplysninger om pensjonsgivende inntekt fra skattemyndighetene, til bruk i etteroppgjør og arbeidet med tidligpensjon og særalderspåslag etter dette kapittelet.Pensjonsordningen har rett til å innhente opplysninger fra nåværende og tidligere arbeidsgiver om arbeidstakerens eller pensjonistens arbeidsforhold som er nødvendige for å forvalte og beregne tidligpensjon og særalderspåslag for arbeidstakere født i 1963 eller senere. Den som pålegges å gi opplysninger, plikter å gjøre dette uten godtgjørelse og uten hinder av taushetsplikt.
+> § 11 s. Innhenting av opplysninger til bruk for arbeidet med tidligpensjon og særalderspåslag
 >
-> § 11 s.Innhenting av opplysninger til bruk for arbeidet med tidligpensjon og særalderspåslag
+> Arbeids- og velferdsetaten skal utlevere opplysninger som er nødvendige for pensjonsordningens beregning av framtidig pensjon, vilkårsprøving og beregning av pensjon etter kapittelet her for arbeidstakere født i 1963 eller senere. Taushetsplikten etter arbeids- og velferdsforvaltningsloven § 7 er ikke til hinder for utveksling av opplysninger mellom Arbeids- og velferdsetaten og pensjonsordningen i den utstrekning det er nødvendig for å fremme oppgaver etter denne bestemmelsen.
+>
+> Pensjonsordningen kan uten hinder av taushetsplikt innhente nødvendige lønnsopplysninger som er gitt etter skatteforvaltningsloven § 7-2, og opplysninger om pensjonsgivende inntekt fra skattemyndighetene, til bruk i etteroppgjør og arbeidet med tidligpensjon og særalderspåslag etter dette kapittelet.
+>
+> Pensjonsordningen har rett til å innhente opplysninger fra nåværende og tidligere arbeidsgiver om arbeidstakerens eller pensjonistens arbeidsforhold som er nødvendige for å forvalte og beregne tidligpensjon og særalderspåslag for arbeidstakere født i 1963 eller senere. Den som pålegges å gi opplysninger, plikter å gjøre dette uten godtgjørelse og uten hinder av taushetsplikt.
 >
 
 ## § 13

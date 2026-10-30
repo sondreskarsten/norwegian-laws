@@ -359,6 +359,63 @@ refid: "lov/1987-06-12-56"
 
 ## (annet)
 
+### 2002-12-13 — lov/2002-12-13-81
+
+*I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold skal § 3-12 lyde:*
+
+> § 3-12.Organisering av samisk språkarbeid
+>
+> Sametinget skal arbeide for vern og videre utvikling av samiske språk i Norge.
+>
+> Sametinget utarbeider hvert fjerde år en rapport til Kongen om situasjonen for samiske språk i Norge.
+>
+
+### 2004-05-14 — lov/2004-05-14-26
+
+*I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold (sameloven) skal § 2-6 lyde:*
+
+> § 2-6.Samemanntallet
+>
+> Alle som avgir erklæring om at de oppfatter seg selv som same, og som entenhar samisk som hjemmespråk, ellerhar eller har hatt forelder, besteforelder eller oldeforelder med samisk som hjemmespråk, ellerer barn av person som står eller har stått i manntalletkan kreve seg innført i samemanntallet.
+>
+> Begjæring om innføring i samemanntallet rettes til Sametinget.
+>
+> Samemanntallet utarbeides av Sametinget på grunnlag av folkeregisteret, samemanntallet ved siste valg og de krav om innføring eller strykning som er kommet i løpet av valgperioden. Samemanntallet skal føres kommunevis.
+>
+> Når en person er innført i samemanntallet, kan dette registreres i folkeregisteret. Denne registrering skal være tilgjengelig kun for den myndighet som har ansvaret for gjennomføring av valg til Sameting, eller etter samtykke fra Sametinget.
+>
+> Samemanntallet kan føres ved hjelp av EDB.
+>
+
+### 2005-04-15 — lov/2005-04-15-19
+
+*I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold (sameloven) skal § 2-4 nytt annet ledd lyde:*
+
+> Det velges i tillegg fire utjevningsmandater som fordeles til de fire valgkretsene som har oppnådd flest godkjente stemmer ved valget. Sametingets valgnemnd utpeker utjevningsmandatene og samtlige vararepresentanter.
+>
+
+### 2005-06-17 — lov/2005-06-17-99
+
+*I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold skal § 3-1 lyde:*
+
+> § 3-1.Definisjoner
+>
+> I dette kapitlet menes med:forvaltningsområdet for samisk språk: de kommunene som Kongen i forskrift har fastsatt at skal inngå i forvaltningsområdet for samisk språk,offentlige organ: ethvert organ for stat og kommune,lokalt offentlig organ i forvaltningsområdet: ethvert kommunalt, fylkeskommunalt og statlig organ som har en tjenestekrets som omfatter en kommune eller en del av en kommune i forvaltningsområdet for samisk språk,regionalt offentlig organ i forvaltningsområdet: ethvert fylkeskommunalt og statlig organ som har en tjenestekrets som helt eller delvis omfatter flere av kommunene i forvaltningsområdet for samisk språk, men som likevel ikke er landsomfattende.
+>
+
+### 2020-06-23 — lov/2020-06-23-114
+
+*I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold skal § 2-4 lyde:*
+
+> § 2-4.Valgkretser og mandatfordeling.
+>
+> Ved valg til Sametinget velges medlemmer med varamedlemmer fra følgende valgkretser:Østre valgkrets/Nuortaguovllu válgabiire: kommunene Sør-Varanger, Nesseby, Vadsø, Vardø, Båtsfjord, Tana, Berlevåg, Lebesby og Gamvik i Troms og Finnmark fylkeÁvjovári valgkrets/Ávjovári válgabiire: kommunene Karasjok, Kautokeino og Porsanger i Troms og Finnmark fylkeNordre valgkrets/Davveguovllu válgabiire: kommunene Nordkapp, Måsøy, Hammerfest, Alta, Hasvik, Loppa, Skjervøy, Kvænangen og Nordreisa i Troms og Finnmark fylkeGáisi valgkrets/Gáiseguovllu válgabiire: kommunene Kåfjord, Storfjord, Lyngen, Karlsøy, Tromsø, Balsfjord, Målselv, Bardu, Senja og Sørreisa i Troms og Finnmark fylkeVesthavet valgkrets/Viestarmera válggabijrra/Viesttarmeara válgabiire: kommunene Dyrøy, Salangen, Lavangen, Gratangen, Tjeldsund, Ibestad, Harstad og Kvæfjord i Troms og Finnmark fylke og kommunene fra og med Saltdal, Beiarn og Meløy og nordover i Nordland fylkeSørsamisk valgkrets/Åarjel-Saepmie veeljemegievlie: kommunene fra og med Rana og Rødøy og sørover i Nordland fylke, Trøndelag fylke, kommunene Surnadal og Sunndal i Møre og Romsdal fylke og kommunene Engerdal, Rendalen, Os, Tolga, Tynset og Folldal i Innlandet fylkeSør-Norge valgkrets/Lulli-Norgga válgabiire: de kommunene i Møre og Romsdal og Innlandet fylker som ikke tilhører valgkrets 6, samt fylkene Vestland, Rogaland, Agder, Vestfold og Telemark, Viken og Oslo.
+>
+> Det skal velges 39 representanter til Sametinget. Valgkretsene tildeles først to mandater hver. Deretter fordeles de øvrige 25 mandatene forholdsmessig mellom valgkretsene på grunnlag av antall manntallsførte etter fordelingsmåten fastsatt i valgloven § 11-3 tredje ledd. Sør-Norge valgkrets skal likevel ikke tildeles flere mandater enn valgkretsen ville fått dersom alle 39 mandater var fordelt forholdsmessig mellom valgkretsene.
+>
+> Kongen gir forskrift med utfyllende bestemmelser om mandatfordelingen og kandidatkåring.
+>
+
 ### 2020-12-18 — lov/2020-12-18-152
 
 *I lov 12. juni 1987 nr. 56 om Sametinget og andre samiske rettsforhold (sameloven) skal ny § 2-7 a lyde:*
@@ -366,6 +423,20 @@ refid: "lov/1987-06-12-56"
 > § 2-7 a.Adgang til elektronisk underskrift på listeforslag
 >
 > Departementet kan gi forskrift om adgang til elektronisk underskrift på listeforslag etter sameloven § 2-7 andre ledd ved sametingsvalget i 2021.
+>
+
+### 2020-12-18 — forskrift/2020-12-18-2839
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2021-01-01 — forskrift/2020-06-23-1286
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
 >
 
 ### 2021-06-11 — lov/2021-06-11-76
@@ -443,3 +514,10 @@ refid: "lov/1987-06-12-56"
 ### 2023-06-09 — lov/2023-06-09-28
 
 *Overskriften til kapittel 3 skal lyde:*
+
+### 2024-01-01 — forskrift/2023-06-09-807
+
+*Lova trer i kraft 1. januar 2024.*
+
+> Lova trer i kraft 1. januar 2024.
+>

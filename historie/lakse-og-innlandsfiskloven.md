@@ -240,9 +240,11 @@ refid: "lov/1992-05-15-47"
 
 *§ 29 skal lyde:*
 
-> § 29.Statens fiskefondFor å finansiere tiltak som skal sikre og utvikle bestander av vill anadrom laksefisk og legge til rette for fiske etter anadrome laksefisk, skal den statlige fiskeravgiften gå inn i et statlig fiskefond. I fondet inngår de inntektene som er nevnt i §§ 30 og 47.Fondet styres av departementet innenfor de rammene Kongen gir for fondets forvaltning og bruken av midlene.
+> § 29. Statens fiskefond
 >
-> § 29.Statens fiskefond
+> For å finansiere tiltak som skal sikre og utvikle bestander av vill anadrom laksefisk og legge til rette for fiske etter anadrome laksefisk, skal den statlige fiskeravgiften gå inn i et statlig fiskefond. I fondet inngår de inntektene som er nevnt i §§ 30 og 47.
+>
+> Fondet styres av departementet innenfor de rammene Kongen gir for fondets forvaltning og bruken av midlene.
 >
 
 ## § 3
@@ -269,9 +271,15 @@ refid: "lov/1992-05-15-47"
 
 *§ 30 skal lyde:*
 
-> § 30.Statlig fiskeravgiftDen som vil fiske etter anadrome laksefisk etter å ha fylt 18 år, skal betale avgift til Statens fiskefond. Departementet kan gi forskrift om avgift på faststående redskap som benyttes til fangst av anadrome laksefisk.Stangfiske i sjøen er unntatt fra avgiftsplikten etter første ledd. Norske og svenske flyttsamer er fritatt for å betale avgift for fiske som de etter reindriftslovgivningen har rett til å drive.Betaling av avgift til Statens fiskefond er et vilkår for utøving av fiske, men gir ikke rett til fiske i noe bestemt område.Departementet fastsetter størrelsen på avgiften og for hvilket tidsrom betalingen gjelder. Departementet kan gi forskrift om dispensasjon fra plikten til å betale avgift, om betalingen og om kontroll med slik betaling.
+> § 30. Statlig fiskeravgift
 >
-> § 30.Statlig fiskeravgift
+> Den som vil fiske etter anadrome laksefisk etter å ha fylt 18 år, skal betale avgift til Statens fiskefond. Departementet kan gi forskrift om avgift på faststående redskap som benyttes til fangst av anadrome laksefisk.
+>
+> Stangfiske i sjøen er unntatt fra avgiftsplikten etter første ledd. Norske og svenske flyttsamer er fritatt for å betale avgift for fiske som de etter reindriftslovgivningen har rett til å drive.
+>
+> Betaling av avgift til Statens fiskefond er et vilkår for utøving av fiske, men gir ikke rett til fiske i noe bestemt område.
+>
+> Departementet fastsetter størrelsen på avgiften og for hvilket tidsrom betalingen gjelder. Departementet kan gi forskrift om dispensasjon fra plikten til å betale avgift, om betalingen og om kontroll med slik betaling.
 >
 
 ## § 31
@@ -310,9 +318,7 @@ refid: "lov/1992-05-15-47"
 
 *§ 35 overskriften skal lyde:*
 
-> § 35.Friløp og midtstrømslinje
->
-> § 35.Friløp og midtstrømslinje
+> § 35. Friløp og midtstrømslinje
 >
 
 ## § 36
@@ -328,9 +334,7 @@ refid: "lov/1992-05-15-47"
 
 *§ 36 overskriften skal lyde:*
 
-> § 36.Fiske i friløpet og tilstopping
->
-> § 36.Fiske i friløpet og tilstopping
+> § 36. Fiske i friløpet og tilstopping
 >
 
 ## § 37

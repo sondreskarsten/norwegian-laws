@@ -10,3 +10,90 @@ refid: "lov/1918-08-14-4"
 ### 2007-02-27 — lov/2007-01-26-3
 
 *§§ 9, 10, 11, 95, 97, 103 og 105 oppheves.*
+
+## § 1
+
+### 2002-04-26 — lov/2002-04-26-12
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Notarius publicus
+>
+> Utføringa av notarialforretningar høyrer under tingretten. Har eit domssokn fleire domstolar, fastset Kongen kva domstol notarialoppgåvene skal høyre under. Dommarane ved embetet er notarius publicus.
+>
+> For Svalbard er Sysselmannen notarius publicus.
+>
+> I utlandet er norsk utanrikstenestemann eller den han eller ho gjev fullmakt, notarius publicus.
+>
+> Kongen kan ved forskrift gje andre notarialkompetanse.
+>
+> Kongen kan gje forskrift om delegasjon av notarialkompetanse.
+>
+> § 2
+>
+> .
+>
+> Notarialforretningar
+>
+> Notarialforretningar er utføring av dei oppgåvene som er lagt til notarius publicus i lov eller forskrift, mellom anna å utføre vigslar og registrere partnerskap, ta opp veksel- og sjekkprotestar og gje notarialstadfestingar, som stadfesting av underskrift og rett kopi.
+>
+> Dersom notarius publicus skal ta imot forsikring, kan forsikringa bli teken imot etter reglane i domstollova § 141.
+>
+> Kongen kan gje forskrift om den praktiske utføringa av notarialforretningar.
+>
+> § 3
+>
+> .
+>
+> Notarialstadfestingar
+>
+> Notarius publicus har til oppgåve å gje stadfestingar. Stadfesting blir gjeve for faktiske forhold notarius publicus kan stå inne for er rette. Stadfesting for anna enn faktiske forhold kan bli gjeve i særlege høve.
+>
+> Notarius publicus kan avvise krav om notarialstadfesting dersom notarialstadfestinga etter norsk eller utanlandsk rett ikkje har særleg beviskraft, eller notarialstadfestinga av andre grunnar ikkje er nødvendig.
+>
+> Notarius publicus skal avvise krav om notarialstadfesting for handlingar eller dokument som strir mot norsk lov eller sømd eller som kan bli utnytta på ein uakseptabel måte i reklame eller annan kommersiell samanheng.
+>
+> Notarius publicus kan avvise krav om notarialstadfesting der krava til utføring ikkje står i rimeleg høve til behovet for forretninga.
+>
+> § 4
+>
+> .
+>
+> Habilitet
+>
+> Om habilitet for notarius publicus gjeld reglane i forvaltningslova kapittel 2.
+>
+> § 5
+>
+> .
+>
+> Kjæremål
+>
+> Dersom ikkje anna er fastsett i eller i medhald av lov, kan avgjerd under notarialforretningar påkjærast til lagmannsretten. For kjæremål gjeld reglane i tvistemålslova og domstollova dersom ikkje anna følgjer av andre til sjette leddet.
+>
+> Kjæremålet høyrer under lagmannsretten i lagdømet der notarius publicus har sete. For avgjerd teken av norsk notarius publicus i utlandet er Borgarting lagmannsrett kjæremålsinstans. For avgjerd teken av Sysselmannen på Svalbard som notarius publicus er Hålogaland lagmannsrett kjæremålsinstans.
+>
+> For den som har fått underretning om avgjerda, er fristen for å påkjære avgjerda ein månad frå den dag vedkomande mottok meldinga. For andre er fristen ein månad frå den dag då vedkomande har fått eller burde ha skaffa seg kjennskap til avgjerda, likevel ikkje ut over tre månader frå tidspunktet avgjerda blei teken.
+>
+> Er fristen for kjæremål gått ut, gjeld forvaltningslova § 31 tilsvarande.
+>
+> Notarius publicus skal leggje saka til rette for kjæremålsretten og gjere greie for saka på forsvarleg måte.
+>
+> Om dekning av sakskostnader frå det offentlege gjeld forvaltningslova § 36 første leddet og tredje leddet første og andre punktumet tilsvarande.
+>
+> § 6
+>
+> .
+>
+> Ikraftsetjings- og overgangsføresegner
+>
+> Lova gjeld frå den tid Kongen fastset.
+>
+> Frå same tid blir lov av 14. august 1918 nr. 4 om rettergangsordningens ikrafttræden §§ 6-8 oppheva.
+>
+> Tildelingar av notarialkompetanse i medhald av lov om rettergangsordningens ikrafttræden § 6 første leddet gjeld inntil dei blir oppheva.
+>

@@ -59,6 +59,13 @@ refid: "lov/1976-06-11-79"
 > § 10.Rett til informasjon om produkter fra produsent, importør, bearbeider, omsetter eller bruker av produkt
 >
 
+### 2020-07-01 — forskrift/2020-06-19-1273
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
 ## § 10
 
 ### 2005-04-29 — lov/2005-04-29-23

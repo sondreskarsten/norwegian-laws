@@ -1000,13 +1000,70 @@ refid: "lov/2000-11-24-81"
 > Et foretak som har ordning med ytelsesbasert alderspensjon etter lov om foretakspensjon, kan supplere denne med pensjonsordning etter loven her i samsvar med bestemmelsene gitt i eller i medhold av lov om foretakspensjon § 2-12.
 >
 
+### 2005-10-07 — forskrift/2005-10-07-1115
+
+*Lov 10. juni 2005 nr. 45 om endringer i lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold (innskuddspensjonsloven) og i andre lover del I og III trer i kraft straks.*
+
+> Lov 10. juni 2005 nr. 45 om endringer i lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold (innskuddspensjonsloven) og i andre lover del I og III trer i kraft straks.
+>
+> Lov 10. juni 2005 nr. 45 om endringer i lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold (innskuddspensjonsloven) og i andre lover del II trer i kraft straks og med virkning fra og med inntektsåret 2005.
+>
+
+### 2007-03-16 — lov/2007-03-16-11
+
+*I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold (innskuddspensjonsloven) skal § 2-3 annet ledd lyde:*
+
+> (2) Et foretak som ikke omfattes av første ledd kan opprette pensjonsordning for selvstendig næringsdrivende, for personlig deltaker i deltakerlignet selskap eller for ansatt eier av aksjeselskap eller allmennaksjeselskap. Årlig innskudd til ordning som nevnt i foregående punktum kan ikke overstige 4 prosent av vedkommende persons samlede beregnede personinntekt fra næringsvirksomhet mellom 1 og 12 G eller lønn mellom 1 og 12 G. Frilansere kan også opprette slik pensjonsordning, hvor årlig innskudd til ordningen ikke kan overstige 4 prosent av samlet beregnet personinntekt fra oppdragsvirksomhet mellom 1 og 12 G. Dersom et foretak som nevnt i første punktum oppretter pensjonsordning, gjelder bestemmelsene i kapittel 4 om medlemskap for arbeidstakere og i kapittel 5 om innskudd for arbeidstakere tilsvarende så langt de passer.
+>
+
 ### 2008-03-14 — lov/2008-03-14-6
 
 *Nåværende bokstaver e til p blir nye bokstaver f til q.*
 
+### 2015-05-22 — lov/2015-05-22-31
+
+*I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold skal § 2-4 lyde:*
+
+> (1) Foretak som har alderspensjonsordning etter § 2-1, kan etter tjenestepensjonsloven tegne særskilt forsikring som kan gi uførepensjon til medlemmer som helt eller delvis mister inntektsevnen. Foretaket kan videre etter foretakspensjonsloven tegne særskilt forsikring som kan gi ytelser til barn og andre etterlatte av medlemmer som dør.
+>
+> (2) Foretaket skal tegne forsikring som ved uførhet gir rett til innskuddsfritak i samsvar med den faktiske graden av uførhet, tilsvarende innskuddsfritak etter tjenestepensjonsloven § 2-1 annet ledd. Forsikringen skal omfatte alle medlemmer som ikke har fylt 67 år, og den skal gi innskuddsfritak i samsvar med den faktiske graden av uførhet fram til medlemmet har fylt 67 år. Samlet opptjening av rett til alderspensjon på grunnlag av arbeidsinntekt og innskuddsfritak skal ikke på noe tidspunkt overstige opptjening svarende til 100 prosent av full stilling.
+>
+> (3) Første og annet ledd gjelder tilsvarende for foretak og frilansere som omfattes av § 2-3 annet ledd. Forsikring som gir innskuddsfritak i alderspensjonsordningen etter § 2-3 annet ledd, kan likevel ikke gi rett til innskudd som overstiger innskuddsgrensen i § 2-3 annet ledd.
+>
+
+### 2019-12-13 — lov/2019-12-13-79
+
+*I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold skal § 2-7 nytt annet ledd lyde:*
+
+> Foretaket skal på anmodning fra en arbeidstaker gi informasjon om vilkårene for opptjening av rett til pensjon, hvilken betydning det har for pensjonsrettighetene å avslutte arbeidsforholdet, verdien av de opptjente pensjonsrettigheter og vilkårene for forvaltning og regulering av opptjente pensjonsrettigheter.
+>
+
 ### 2019-12-13 — lov/2019-12-13-79
 
 *Nåværende annet og tredje ledd blir nye tredje og fjerde ledd.*
+
+### 2020-04-17 — lov/2020-04-17-21
+
+*I lov 24. november 2000 nr. 81 om innskuddspensjon i arbeidsforhold skal § 4-3 nytt fjerde og femte ledd lyde:*
+
+> (4) Foretak som ikke har bestemmelser i regelverket som nevnt i tredje ledd, kan beslutte at arbeidstakere likevel skal være medlem av pensjonsordningen under permitteringen. Foretaket har ikke plikt til å betale innskudd til pensjonssparing, forsikring som gir rett til innskuddsfritak ved uførhet, eller eventuelle uføre- og etterlatteforsikringer for de permitterte arbeidstakerne.
+>
+> (5) Adgangen til å beholde medlemskap under permittering som nevnt i fjerde ledd, gjelder så lenge arbeidstaker er lovlig permittert fra foretaket. Arbeidstaker som blir sykemeldt under permittering og fortsatt er sykemeldt når permitteringsperioden avsluttes, skal likevel beholde medlemskapet i pensjonsordningen frem til vedkommende gjeninntrer i arbeidsforholdet eller arbeidsforholdet opphører. Arbeidstakeren skal beholde medlemskapet i pensjonsordningen under permittering selv om arbeidstakeren meldes inn i ny pensjonsordning hos annen arbeidsgiver.
+>
+
+### 2020-10-16 — forskrift/2020-10-16-2065
+
+*Delt ikraftsetting av lov 3. mai 2019 nr. 14 om endringer i innskuddspensjonsloven mv. (egen pensjonskonto). Endringsloven del I, innskuddspensjonsloven § 2-7 nytt femte ledd, trer i kraft straks. Endringsloven del I, endringene i innskuddspensjonsloven § 6-1 og § 6-2, trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av lov 3. mai 2019 nr. 14 om endringer i innskuddspensjonsloven mv. (egen pensjonskonto). Endringsloven del I, innskuddspensjonsloven § 2-7 nytt femte ledd, trer i kraft straks. Endringsloven del I, endringene i innskuddspensjonsloven § 6-1 og § 6-2, trer i kraft 1. januar 2021.
+>
+
+### 2021-01-01 — forskrift/2020-11-06-2270
+
+*Delt ikraftsetting av lov 3. mai 2019 nr. 14 om endringer i innskuddspensjonsloven mv. (egen pensjonskonto). Endringsloven del I, endringene i innskuddspensjonsloven § 2-1 annet ledd, § 2-7 annet og tredje ledd, § 2-12 tredje ledd, § 3-3 tredje ledd, § 5-7, § 6-3 første ledd, § 6-4 første ledd og § 9-2 samt innskuddspensjonsloven § 2-7 nytt fjerde og sjette ledd, ny § 3-6 og ny § 3-7, trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av lov 3. mai 2019 nr. 14 om endringer i innskuddspensjonsloven mv. (egen pensjonskonto). Endringsloven del I, endringene i innskuddspensjonsloven § 2-1 annet ledd, § 2-7 annet og tredje ledd, § 2-12 tredje ledd, § 3-3 tredje ledd, § 5-7, § 6-3 første ledd, § 6-4 første ledd og § 9-2 samt innskuddspensjonsloven § 2-7 nytt fjerde og sjette ledd, ny § 3-6 og ny § 3-7, trer i kraft 1. januar 2021.
+>
 
 ### 2022-04-08 — lov/2022-04-08-20
 

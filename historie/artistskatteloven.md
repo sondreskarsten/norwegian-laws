@@ -11,6 +11,23 @@ refid: "lov/1996-12-13-87"
 
 *Nåværende femte ledd blir nytt sjette ledd.*
 
+### 2016-06-17 — lov/2016-06-17-39
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 13. desember 1996 nr. 87 om skatt på honorar til utenlandske artister m.v.
+>
+> I lov 13. desember 1996 nr. 87 om skatt på honorar til utenlandske artister m.v. blir det gjort følgjande endring:
+>
+> Tittelen til lova skal lyde:
+>
+> Lov om skatt på honorar til utenlandske artister mv (artistskatteloven)
+>
+> Lova tek til å gjelde straks.
+>
+
 ## § 1
 
 ### 2004-05-28 — lov/2004-05-28-31

@@ -11,6 +11,13 @@ refid: "lov/2002-06-28-61"
 
 *Nåværende § 8 blir ny § 14.*
 
+### 2023-06-16 — lov/2023-06-16-69
+
+*I lov 28. juni 2002 nr. 61 om felles regler for det indre marked for naturgass skal § 13 første ledd lyde:*
+
+> Departementet kan gi forskrift til gjennomføring og utfylling av denne loven, blant annet nærmere bestemmelser om retten til adgang til systemet, driften av systemet, krav til naturgassforetakenes virksomhet, konsesjon, regnskap, krav om oppbevaring av opplysninger, leverandørbytte, beskyttelse av forbrukere og andre kunder, måling og fakturering, unntak fra loven i geografisk avgrensete områder og for ny infrastruktur, behandling av tvister, saksbehandlingsfrister og utsatt iverksetting av vedtak.
+>
+
 ## § 2
 
 ### 2006-06-30 — lov/2006-06-30-60

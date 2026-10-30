@@ -52,6 +52,34 @@ refid: "lov/1988-05-13-26"
 
 *Noverande kapittel VIII vert nytt kapittel IX og §§ 27-29 blir nye §§ 33-35.*
 
+### 2004-06-25 — lov/2004-06-25-51
+
+*I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav (inkassoloven) skal § 26 første punktum lyde:*
+
+> Foreldelse avbrytes etter foreldelsesloven § 16 nr. 2 bokstav a når tvist om krav som nemnda har myndighet til å behandle (jf. § 22 første ledd), bringes inn til avgjørelse for nemnda.
+>
+
+### 2010-12-10 — lov/2010-12-10-75
+
+*I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 4 femte ledd nytt annet punktum lyde:*
+
+> Kongen kan i forskrift gi regler om at Finanstilsynet uhindret av taushetsplikten kan eller skal gi opplysninger om en inkassator som har norsk inkassobevilling og midlertidig utøver inkassovirksomhet i en annen EØS-stat, til relevant myndighet i vedkommende EØS-stat.
+>
+
+### 2012-06-22 — lov/2012-06-22-35
+
+*I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 30 første ledd lyde:*
+
+> Tilsyn med inkassovirksomhet som drives i medhold av en inkassobevilling etter § 5, føres av Finanstilsynet etter finanstilsynsloven.
+>
+
+### 2013-06-21 — lov/2013-06-21-82
+
+*I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 5 sjette ledd lyde:*
+
+> Politiattest etter paragrafen her skal bare vise merknader om strafferettslige reaksjoner for overtredelse av straffeloven kapittel 15, 18, 22, 24 til 28 og 31, inkassoloven, konkurranselovgivningen, konkurslovgivningen, regnskapslovgivningen, selskapslovgivningen, skatte- og avgiftslovgivningen og verdipapirlovgivningen. Overtredelsene skal anmerkes i samsvar med politiregisterloven § 41 nr. 1. Fornyet vandelskontroll kan foretas i samsvar med politiregisterloven § 43.
+>
+
 ### 2022-05-12 — lov/2022-05-12-28
 
 *4.I lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav skal § 19 andre ledd lyde:*

@@ -257,30 +257,14 @@ refid: "lov/2011-11-25-44"
 
 *§ 8-3 overskriften skal lyde:*
 
-> § 8-3.Krav om nøkkelinformasjon
->
-> § 8-3.Krav om nøkkelinformasjon
+> § 8-3. Krav om nøkkelinformasjon
 >
 
 ### 2024-06-21 — lov/2024-06-21-40
 
 *§ 8-3 annet ledd skal lyde:*
 
-> identifisering av fondet og tilsynsmyndigheten for fondet,
->
-> kort beskrivelse av investeringsmandat,
->
-> presentasjon av historisk avkastning eller antatt avkastning,
->
-> informasjon om kostnader og tilknyttede gebyrer,
->
-> risiko- og avkastningsprofil, herunder veiledning og advarsler om risiko knyttet til investering i fondet,
->
-> angivelse av hvor og hvordan prospekt, årsrapport og halvårsrapport er tilgjengelig, på hvilket språk dokumentene er utformet og at disse dokumentene er kostnadsfritt tilgjengelige,
->
-> opplysning om at nøkkelinformasjon ikke alene gir grunnlag for ansvar, hvis ikke informasjonen er villedende, unøyaktig eller inkonsistent i forhold til opplysninger i prospekt,
->
-> angivelse av at informasjon om forvaltningsselskapets godtgjørelsesordning er tilgjengelig på forvaltningsselskapets nettsted, og at papirkopi av informasjonen sendes investor kostnadsfritt på forespørsel.
+> (2) For fond som markedsføres eller selges til ikke-profesjonelle investorer som definert i PRIIPs-loven, gjelder reglene i PRIIPs-loven med forskrifter. For øvrige fond skal nøkkelinformasjonen inneholde følgende, med mindre annet er bestemt i forskrift:identifisering av fondet og tilsynsmyndigheten for fondet,kort beskrivelse av investeringsmandat,presentasjon av historisk avkastning eller antatt avkastning,informasjon om kostnader og tilknyttede gebyrer,risiko- og avkastningsprofil, herunder veiledning og advarsler om risiko knyttet til investering i fondet,angivelse av hvor og hvordan prospekt, årsrapport og halvårsrapport er tilgjengelig, på hvilket språk dokumentene er utformet og at disse dokumentene er kostnadsfritt tilgjengelige,opplysning om at nøkkelinformasjon ikke alene gir grunnlag for ansvar, hvis ikke informasjonen er villedende, unøyaktig eller inkonsistent i forhold til opplysninger i prospekt,angivelse av at informasjon om forvaltningsselskapets godtgjørelsesordning er tilgjengelig på forvaltningsselskapets nettsted, og at papirkopi av informasjonen sendes investor kostnadsfritt på forespørsel.
 >
 
 ### 2024-06-21 — lov/2024-06-21-40
@@ -415,15 +399,28 @@ refid: "lov/2011-11-25-44"
 
 *§ 11-5 tredje ledd skal lyde:*
 
+> (3) Når tillatelsen bortfaller eller blir kalt tilbake, skal den konsesjonspliktige virksomheten avvikles. Finanstilsynet fører tilsyn under avviklingsperioden og kan gi pålegg om gjennomføringen av avviklingen. Departementet kan fastsette utfyllende forskrifter om avviklingen.
+>
+
 ## § 11-5 a
 
 ### 2024-12-20 — lov/2024-12-20-93
 
 *Ny § 11-5 a skal lyde:*
 
-> § 11-5 a.Oppnevning av administrator(1) Dersom forvaltningsselskapet ikke overholder pålegg gitt etter § 11-5 tredje ledd annet punktum, og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket ikke vil overholde et pålegg gitt etter § 11-5 tredje ledd annet punktum, og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.(2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.(3) Hvis administratoren helt eller delvis skal overta styrets oppgaver og myndighet, skal Finanstilsynet gi melding til Foretaksregisteret om at det er oppnevnt en administrator, og hvem dette er. Meldingen skal også angi hvilke av styrets oppgaver og hvilken myndighet administratoren har overtatt. Meldingen skal kunngjøres av Foretaksregisteret.(4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.(5) Kostnadene til administratoren skal dekkes av forvaltningsselskapet.(6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
+> § 11-5 a. Oppnevning av administrator
 >
-> § 11-5 a.Oppnevning av administrator
+> (1) Dersom forvaltningsselskapet ikke overholder pålegg gitt etter § 11-5 tredje ledd annet punktum, og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket ikke vil overholde et pålegg gitt etter § 11-5 tredje ledd annet punktum, og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.
+>
+> (2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.
+>
+> (3) Hvis administratoren helt eller delvis skal overta styrets oppgaver og myndighet, skal Finanstilsynet gi melding til Foretaksregisteret om at det er oppnevnt en administrator, og hvem dette er. Meldingen skal også angi hvilke av styrets oppgaver og hvilken myndighet administratoren har overtatt. Meldingen skal kunngjøres av Foretaksregisteret.
+>
+> (4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.
+>
+> (5) Kostnadene til administratoren skal dekkes av forvaltningsselskapet.
+>
+> (6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.
 >
 
 ## § 11-6
@@ -503,9 +500,9 @@ refid: "lov/2011-11-25-44"
 
 *§ 11-7 skal lyde:*
 
-> § 11-7.StraffMed bøter eller fengsel inntil 1 år straffes den som grovt eller gjentatte ganger forsettlig eller uaktsomt overtrer § 1-3 første punktum, § 2-1 første ledd, § 2-4, § 2-7 femte ledd, § 2-9, § 2-15, § 3-1, § 3-2, § 4-1 første ledd, § 4-6, § 4-7, § 6-1 til § 6-9, § 6-10 første ledd, § 6-11, § 8-2, § 8-3, § 8-4, § 10-3, § 11-3, § 11-4 første, annet eller fjerde ledd, § 12-1 eller § 12-2, SFTR, jf. verdipapirhandelloven § 17A-1, artikkel 14, eller forskrifter gitt i medhold av de nevnte bestemmelsene, eller vilkår i tillatelser gitt i medhold av de nevnte bestemmelsene.
+> § 11-7. Straff
 >
-> § 11-7.Straff
+> Med bøter eller fengsel inntil 1 år straffes den som grovt eller gjentatte ganger forsettlig eller uaktsomt overtrer § 1-3 første punktum, § 2-1 første ledd, § 2-4, § 2-7 femte ledd, § 2-9, § 2-15, § 3-1, § 3-2, § 4-1 første ledd, § 4-6, § 4-7, § 6-1 til § 6-9, § 6-10 første ledd, § 6-11, § 8-2, § 8-3, § 8-4, § 10-3, § 11-3, § 11-4 første, annet eller fjerde ledd, § 12-1 eller § 12-2, SFTR, jf. verdipapirhandelloven § 17A-1, artikkel 14, eller forskrifter gitt i medhold av de nevnte bestemmelsene, eller vilkår i tillatelser gitt i medhold av de nevnte bestemmelsene.
 >
 
 ## § 11-8
@@ -539,6 +536,9 @@ refid: "lov/2011-11-25-44"
 ### 2024-06-25 — lov/2024-06-25-60
 
 *§ 11-9 første ledd skal lyde:*
+
+> (1) Dersom styremedlemmer, oppdragstakere eller ansatte i foretak med tillatelse til å drive virksomhet som omfattes av denne loven, har overtrådt eller medvirket til overtredelse av bestemmelser gitt i eller i medhold av loven her, lov om forvaltning av alternative investeringsfond, eller SFTR, jf. verdipapirhandelloven § 17A-1, artikkel 13 og 14, kan Finanstilsynet fatte vedtak om at vedkommende ikke kan ha ledelsesfunksjon i et foretak som må ha tillatelse til å drive virksomhet etter loven her eller lov om forvaltning av alternative investeringsfond, dersom overtredelsen eller medvirkningen til denne medfører at vedkommende må anses uskikket til å ha ledelsesfunksjon i et foretak som må ha tillatelse til å drive virksomhet etter loven her eller lov om forvaltning av alternative investeringsfond.
+>
 
 ## § 12-3
 
@@ -642,6 +642,13 @@ refid: "lov/2011-11-25-44"
 > Bestemmelsene gitt i eller i medhold av verdipapirhandelloven § 10-22 annet til fjerde ledd gjelder tilsvarende så langt de passer.
 >
 
+### 2021-06-18 — lov/2021-06-18-127
+
+*I lov 25. november 2011 nr. 44 om verdipapirfond skal § 11-8 første ledd andre punktum lyde:*
+
+> Forvaltningsloven §§ 13, 13 b til 13 e og 13 g gjelder ikke for opplysninger som nevnt i første punktum.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *2.I lov 25. november 2011 nr. 44 om verdipapirfond skal § 2-11 første ledd nr. 1 lyde:*
@@ -652,3 +659,6 @@ refid: "lov/2011-11-25-44"
 ### 2026-06-19 — lov/2026-06-19-40
 
 *I lov 25. november 2011 nr. 44 om verdipapirfond skal § 11-6 femte ledd lyde:*
+
+> (5) Foretak kan ilegges overtredelsesgebyr når foretaket eller noen som har handlet på foretakets vegne, forsettlig eller uaktsomt har begått en overtredelse som nevnt i første eller annet ledd.
+>

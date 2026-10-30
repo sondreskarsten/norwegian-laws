@@ -5,6 +5,24 @@ refid: "lov/2024-06-25-69"
 
 # Endringshistorikk: Bærekraftige produkter-loven
 
+## (annet)
+
+### 2027-01-01 — forskrift/2026-06-19-1143
+
+*Forskriften utgår pga. feil henvisning i tittelen. Se ny kunngjøring ved forskrift 19. juni 2026 nr. 1150.*
+
+> Forskriften utgår pga. feil henvisning i tittelen. Se ny kunngjøring ved forskrift 19. juni 2026 nr. 1150.
+>
+> Loven trer i kraft 1. januar 2027.
+>
+
+### 2027-01-01 — forskrift/2026-06-19-1150
+
+*Loven trer i kraft 1. januar 2027.*
+
+> Loven trer i kraft 1. januar 2027.
+>
+
 ## § 14
 
 ### 2026-06-19 — lov/2026-06-19-55
@@ -13,12 +31,6 @@ refid: "lov/2024-06-25-69"
 
 > Kongen kan gi forskrift om ileggelse og utmåling av overtredelsesgebyr til den som forsettlig eller uaktsomt overtrerbestemmelser i forskrift gitt med hjemmel i §§ 3, 4, 4 a, 6, 7, 8, 10 og 11plikter som følger av enkeltvedtak gitt med hjemmel i §§ 6 til 9plikter som følger av enkeltvedtak gitt med hjemmel i forskrift i medhold av §§ 3, 4, 4 a, 6, 8, 10 og 11.
 >
-> bestemmelser i forskrift gitt med hjemmel i §§ 3, 4, 4 a, 6, 7, 8, 10 og 11
->
-> plikter som følger av enkeltvedtak gitt med hjemmel i §§ 6 til 9
->
-> plikter som følger av enkeltvedtak gitt med hjemmel i forskrift i medhold av §§ 3, 4, 4 a, 6, 8, 10 og 11.
->
 
 ## § 15
 
@@ -26,9 +38,9 @@ refid: "lov/2024-06-25-69"
 
 *§ 15 skal lyde:*
 
-> § 15.StraffI forskrift etter §§ 3, 4, 4 a, 6, 8, 10 og 11 kan det bestemmes at forsettlig eller uaktsom overtredelse av forskriften straffes med bøter.
+> § 15. Straff
 >
-> § 15.Straff
+> I forskrift etter §§ 3, 4, 4 a, 6, 8, 10 og 11 kan det bestemmes at forsettlig eller uaktsom overtredelse av forskriften straffes med bøter.
 >
 
 ## § 4 a
@@ -37,9 +49,9 @@ refid: "lov/2024-06-25-69"
 
 *Ny § 4 a skal lyde:*
 
-> § 4 a.Bærekraftskrav for brenslerKongen kan gi forskrift for å gjennomføre EØS-rettslige forpliktelser om bærekraftskrav for brensler, blant annet ombærekraft i livsløpet, herunder krav til reduksjon av klimagassutslipp, energibruk og økt energieffektivitetdokumentasjon av bærekraftsaspekterrestriksjoner på, forbud mot og krav til omsetning og bruktildeling av økonomisk støtte.
+> § 4 a. Bærekraftskrav for brensler
 >
-> § 4 a.Bærekraftskrav for brensler
+> Kongen kan gi forskrift for å gjennomføre EØS-rettslige forpliktelser om bærekraftskrav for brensler, blant annet ombærekraft i livsløpet, herunder krav til reduksjon av klimagassutslipp, energibruk og økt energieffektivitetdokumentasjon av bærekraftsaspekterrestriksjoner på, forbud mot og krav til omsetning og bruktildeling av økonomisk støtte.
 >
 
 ## § 7
@@ -48,7 +60,9 @@ refid: "lov/2024-06-25-69"
 
 *§ 7 skal lyde:*
 
-> § 7.Nødvendige vedtak for gjennomføring av lovenTilsynsmyndigheten kan fatte enkeltvedtak som er nødvendige for gjennomføringen av bestemmelser gitt i medhold av §§ 3, 4, 4 a, 6, 8, 10 og 11, blant annetforby produksjon, innførsel, omsetning, eksport, bruk eller annen behandling av produkterpålegge tilbakekall eller tilbaketrekking av produkterpålegge gjennomføring av tiltak for å bringe et produkt eller et tilfelle i samsvar med bestemmelser gitt i medhold av denne loven.Kongen kan gi forskrifter som er nødvendige for å gjennomføre bestemmelser gitt i medhold av §§ 3, 4, 4 a, 6, 8, 10 og 11.
+> § 7. Nødvendige vedtak for gjennomføring av loven
 >
-> § 7.Nødvendige vedtak for gjennomføring av loven
+> Tilsynsmyndigheten kan fatte enkeltvedtak som er nødvendige for gjennomføringen av bestemmelser gitt i medhold av §§ 3, 4, 4 a, 6, 8, 10 og 11, blant annetforby produksjon, innførsel, omsetning, eksport, bruk eller annen behandling av produkterpålegge tilbakekall eller tilbaketrekking av produkterpålegge gjennomføring av tiltak for å bringe et produkt eller et tilfelle i samsvar med bestemmelser gitt i medhold av denne loven.
+>
+> Kongen kan gi forskrifter som er nødvendige for å gjennomføre bestemmelser gitt i medhold av §§ 3, 4, 4 a, 6, 8, 10 og 11.
 >

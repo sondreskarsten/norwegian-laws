@@ -7,6 +7,27 @@ refid: "lov/2001-06-15-93"
 
 ## (annet)
 
+### 2003-09-08 — lov/2003-09-05-92
+
+*I lov 15. juni 2001 nr. 93 om helseforetak m.m. (helseforetaksloven) skal § 47 tredje ledd lyde:*
+
+> Beslutning om oppløsning skal straks meldes til Foretaksregisteret. Foretaksregisteret skal samtidig med registrering av meldingen kunngjøre beslutningen og varsle foretakets fordringshavere om at de må melde seg til foretaket innen to måneder. Fristen regnes fra kunngjøringen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon. Kunngjøringen skal rykkes inn i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og to ganger med minst en ukes mellomrom i en avis som er alminnelig lest på stedet.
+>
+
+### 2003-12-19 — lov/2003-12-19-120
+
+*I lov 15. juni 2001 nr. 93 om helseforetak m.m. skal § 21 første ledd nytt annet punktum lyde:*
+
+> Reglene i aksjeloven § 20-6 om representasjon av begge kjønn i styret gjelder tilsvarende.
+>
+
+### 2013-06-14 — lov/2013-06-14-41
+
+*I lov 15. juni 2001 nr. 93 om helseforetak m.m. skal § 47 tredje ledd lyde:*
+
+> Beslutning om oppløsning skal straks meldes til Foretaksregisteret. Foretaksregisteret skal samtidig med registrering av meldingen kunngjøre beslutningen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og varsle foretakets fordringshavere om at de må melde seg til foretaket innen seks uker fra kunngjøringen.
+>
+
 ### 2025-06-20 — lov/2025-06-20-96
 
 *5.I lov 15. juni 2001 nr. 93 om helseforetak m.m. skal § 5 fjerde ledd lyde:*

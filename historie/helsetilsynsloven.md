@@ -21,9 +21,9 @@ refid: "lov/2017-12-15-107"
 
 *§ 1 skal lyde:*
 
-> § 1.Lovens formålLovens formål er å bidra til å styrke pasient- og brukersikkerheten og kvaliteten i helse- og omsorgstjenesten gjennom statlig tilsyn og andre tiltak som støtter opp om helse- og omsorgstjenestens arbeid med læring og forbedring. Loven skal også bidra til å styrke befolkningens tillit til helsepersonell og helse- og omsorgstjenesten.
+> § 1. Lovens formål
 >
-> § 1.Lovens formål
+> Lovens formål er å bidra til å styrke pasient- og brukersikkerheten og kvaliteten i helse- og omsorgstjenesten gjennom statlig tilsyn og andre tiltak som støtter opp om helse- og omsorgstjenestens arbeid med læring og forbedring. Loven skal også bidra til å styrke befolkningens tillit til helsepersonell og helse- og omsorgstjenesten.
 >
 
 ## § 10
@@ -100,9 +100,15 @@ refid: "lov/2017-12-15-107"
 
 *§ 6 skal lyde:*
 
-> § 6.Melding og rapport om alvorlige hendelserFormålet med melding og rapport om alvorlige hendelser er å bidra til å styrke arbeidet med læring og forbedring for å kunne forebygge, avdekke og avverge alvorlige hendelser i helse- og omsorgstjenesten.En virksomhet som yter helse- og omsorgstjenester, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren med kopi til Statens helsetilsyn om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at meldingen er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.Departementet kan i forskrift gi nærmere bestemmelser om melding og rapport som nevnt i andre og tredje ledd, herunder om innholdet i meldingene og rapportene.
+> § 6. Melding og rapport om alvorlige hendelser
 >
-> § 6.Melding og rapport om alvorlige hendelser
+> Formålet med melding og rapport om alvorlige hendelser er å bidra til å styrke arbeidet med læring og forbedring for å kunne forebygge, avdekke og avverge alvorlige hendelser i helse- og omsorgstjenesten.
+>
+> En virksomhet som yter helse- og omsorgstjenester, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren med kopi til Statens helsetilsyn om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.
+>
+> Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at meldingen er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om melding og rapport som nevnt i andre og tredje ledd, herunder om innholdet i meldingene og rapportene.
 >
 
 ## § 8

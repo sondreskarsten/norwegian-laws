@@ -24,6 +24,13 @@ refid: "lov/2005-05-20-28"
 > Med virkning fra den tid hele straffeloven 20. mai 2005 nr. 28 settes i kraft, gjøres følgende endringer i annen lovgivning:
 >
 
+### 2008-06-27 — lov/2008-06-27-53
+
+*I lov 20. mai 2005 nr. 28 om straff skal § 9 fjerde ledd lyde:*
+
+> Likestilt med ekteskap er registrert partnerskap og andre tilfeller når to personer bor fast sammen under ekteskapsliknende forhold.
+>
+
 ### 2009-06-19 — lov/2009-06-19-74
 
 *Nåværende femte til sjette ledd blir sjette til syvende ledd.*
@@ -72,6 +79,19 @@ refid: "lov/2005-05-20-28"
 > For hver Gang saadan lovbrud skeer, fordobles Straffen; forgriber Lappen sig paa bemelte Personer videre, end det til simpel Opsetsighet kand regnes, Straffes han desuden derfor efter Loven.
 >
 
+### 2011-06-24 — lov/2011-06-24-32
+
+*I lov 20. mai 2005 nr. 28 om straff skal § 282 bokstav a og b lyde:*
+
+> sin nåværende eller tidligere ektefelle eller samboer,
+>
+> sin eller nåværende eller tidligere ektefelles eller samboers slektning i rett nedstigende linje,
+>
+
+### 2011-09-16 — lov/2011-09-16-41
+
+*I lov 20. mai 2005 nr. 28 om straff § 412 nr. 50 om endringer i lov 28. juni 1957 nr. 16 om friluftslivet oppheves ny § 10 a.*
+
 ### 2012-01-20 — lov/2012-01-20-6
 
 *Nytt kapittel 8 a skal lyde:*
@@ -99,17 +119,42 @@ refid: "lov/2005-05-20-28"
 > Reglene om forsvarer og om pågripelse og varetektsfengsel i straffeprosessloven § 96 tredje ledd og § 99 første ledd tredje punktum og kapittel 14 gjelder tilsvarende. Reglene om varsling i straffeprosessloven § 243 gjelder tilsvarende for rettsmøter om omgjøring. Kriminalomsorgen skal varsles etter de samme regler som påtalemyndigheten.
 >
 
+### 2012-05-11 — lov/2012-05-11-26
+
+*I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd lyde:*
+
+> Den som alvorlig eller gjentatte ganger unndrar en umyndig eller holder denne unndratt fra noen som i henhold til lov, avtale eller rettsavgjørelse skal ha den umyndige boende fast hos seg, eller som urettmessig unndrar den umyndige fra noen som har omsorgen etter barnevernloven, straffes med bot eller fengsel inntil 2 år. På samme måte straffes den som tar en umyndig ut av landet eller holder tilbake en umyndig i utlandet og ved det ulovlig unndrar den umyndige fra noen som i henhold til lov, avtale eller rettsavgjørelse har foreldreansvar eller som har omsorgen etter barnevernloven.
+>
+
 ### 2013-06-21 — lov/2013-06-21-85
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2014-03-28 — lov/2014-03-28-9
+
+*I lov 20. mai 2005 nr. 28 om straff skal § 240 annet ledd bokstav b lyde:påfører betydelig skade på område som er vernet etter naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, viltloven § 7, svalbardmiljøloven kapittel III, lov om Jan Mayen § 2 eller lov om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. § 2.*
 
 ### 2016-12-16 — lov/2016-12-16-98
 
 *Nåværende tredje til sjette ledd blir nye fjerde til sjuende ledd.*
 
+### 2017-06-21 — lov/2017-06-21-94
+
+*I lov 20. mai 2005 nr. 28 om straff skal § 190 første ledd lyde:*
+
+> Med bot eller fengsel inntil 2 år straffes den som forsettlig eller grovt uaktsomt, og gjentatt eller på graverende måte, overtrer bestemmelsene om ulovlig innføring, avhendelse, erverv eller besittelse av skytevåpen eller ammunisjon i våpenloven.
+>
+
 ### 2019-06-21 — lov/2019-06-21-48
 
 *Nåværende bokstav i og j blir bokstav h og i.*
+
+### 2021-04-01 — forskrift/2021-03-05-606
+
+*Loven del II trer i kraft 1. april 2021.*
+
+> Loven del II trer i kraft 1. april 2021.
+>
 
 ### 2021-06-18 — lov/2021-06-18-117
 
@@ -130,36 +175,41 @@ refid: "lov/2005-05-20-28"
 
 *5.I lov 20. mai 2005 nr. 28 om straff skal § 211 lyde:*
 
-> § 211.Brudd på taushetsplikt for enkelte yrkesgrupperMed bot eller fengsel inntil 1 år straffes prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, forsvarere i straffesaker, meklingsmenn i ekteskapssaker, og disses hjelpere, som uberettiget røper eller unnlater å hindre at andre får adgang eller kjennskap til hemmeligheter som er betrodd dem eller deres foresatte i anledning av stillingen eller oppdraget.
+> § 211. Brudd på taushetsplikt for enkelte yrkesgrupper
 >
-> § 211.Brudd på taushetsplikt for enkelte yrkesgrupper
+> Med bot eller fengsel inntil 1 år straffes prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, forsvarere i straffesaker, meklingsmenn i ekteskapssaker, og disses hjelpere, som uberettiget røper eller unnlater å hindre at andre får adgang eller kjennskap til hemmeligheter som er betrodd dem eller deres foresatte i anledning av stillingen eller oppdraget.
 >
 
 ### 2023-12-20 — lov/2023-12-20-110
 
 *Overskriften i § 93 skal lyde:*
 
-> § 93.Foreldelsesfristen for idømt frihetsstraff, samfunnsstraff og ungdomsstraff
+> § 93. Foreldelsesfristen for idømt frihetsstraff, samfunnsstraff og ungdomsstraff
 >
-> § 93.Foreldelsesfristen for idømt frihetsstraff, samfunnsstraff og ungdomsstraff
+
+### 2024-01-01 — forskrift/2023-12-20-2130
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
 >
 
 ### 2024-05-31 — lov/2024-05-31-25
 
 *I kapittel 17 skal ny § 130 lyde:*
 
-> § 130.Påvirkning fra fremmed etterretningMed bot eller fengsel inntil 3 år straffes den som på vegne av eller etter avtale med en fremmed etterretningsaktør bidrar i virksomhet som har til formål å påvirke beslutninger eller den allmenne meningsdannelsen, når virksomheten kan skade betydelige samfunnsinteresser.
+> § 130. Påvirkning fra fremmed etterretning
 >
-> § 130.Påvirkning fra fremmed etterretning
+> Med bot eller fengsel inntil 3 år straffes den som på vegne av eller etter avtale med en fremmed etterretningsaktør bidrar i virksomhet som har til formål å påvirke beslutninger eller den allmenne meningsdannelsen, når virksomheten kan skade betydelige samfunnsinteresser.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
 
 *5.I lov 20. mai 2005 nr. 28 om straff skal § 211 lyde:*
 
-> § 211.Brudd på taushetsplikt for enkelte yrkesgrupperMed bot eller fengsel inntil 1 år straffes prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, forsvarere i straffesaker, meklingsmenn i ekteskapssaker, og disses hjelpere, som uberettiget røper eller unnlater å hindre at andre får adgang eller kjennskap til hemmeligheter som er betrodd dem eller deres foresatte i anledning av stillingen eller oppdraget.
+> § 211. Brudd på taushetsplikt for enkelte yrkesgrupper
 >
-> § 211.Brudd på taushetsplikt for enkelte yrkesgrupper
+> Med bot eller fengsel inntil 1 år straffes prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, forsvarere i straffesaker, meklingsmenn i ekteskapssaker, og disses hjelpere, som uberettiget røper eller unnlater å hindre at andre får adgang eller kjennskap til hemmeligheter som er betrodd dem eller deres foresatte i anledning av stillingen eller oppdraget.
 >
 
 ### 2024-11-29 — lov/2024-11-29-73
@@ -173,11 +223,35 @@ refid: "lov/2005-05-20-28"
 > påfører betydelig skade på område som er vernet ved vedtak med hjemmel i naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, svalbardmiljøloven kapittel III, lov om Jan Mayen § 2, bilandsloven § 2 og havvernloven §§ 7 eller 15.
 >
 
+### 2025-07-01 — forskrift/2025-06-20-1123
+
+*Følgende trer i kraft 1. juli 2025:*
+
+> Følgende trer i kraft 1. juli 2025:
+>
+> Endringsloven del I (straffeloven) med unntak av § 91.
+>
+> Følgende trer i kraft 1. januar 2026:
+>
+> Endringsloven del I (straffeloven) § 91.
+>
+
 ### 2025-12-22 — lov/2025-12-22-115
 
 *I lov 20. mai 2005 nr. 28 om straff skal § 261 første ledd tredje punktum lyde:*
 
 > Tilsvarende gjelder der det er fattet vedtak om omsorgsovertakelse, flytteforbud, utreiseforbud eller institusjonsplassering etter barnevernsloven §§ 5-1, 4-3, 5-13, 6-2 eller 6-6 eller der en begjæring om slike tiltak er sendt barneverns- og helsenemnda etter barnevernsloven § 14-9, eller der det i en akuttsituasjon er iverksatt midlertidig vedtak etter barnevernsloven §§ 4-2, 4-4 og 4-5 eller er fattet akuttvedtak etter barnevernsloven § 4-6.
+>
+
+### 2026-04-10 — forskrift/2026-04-10-567
+
+*– – –*
+
+> – – –
+>
+> Loven trer i kraft straks.
+>
+> Endringen i straffeloven § 91 får virkning i tilfeller der straffansvaret ikke er foreldet ved ikrafttredelsen.
 >
 
 ### 2026-06-12 — lov/2026-06-12-28
@@ -196,6 +270,13 @@ refid: "lov/2005-05-20-28"
 *Nåværende annet ledd blir nytt tredje ledd og skal lyde:*
 
 > Ilagt inndragning av utbytte kan fullbyrdes etter den ansvarliges død, dersom det blir besluttet ved kjennelse av den retten som har pådømt saken i første instans, eller av den tingrett som saken hører under etter straffeprosessloven § 12 når inndragningen er vedtatt ved forelegg. Retten kan beslutte inndragning av et beløp istedenfor en ting.
+>
+
+### 2026-07-01 — forskrift/2026-06-23-1238
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 100
@@ -228,9 +309,11 @@ refid: "lov/2005-05-20-28"
 
 *§ 11 skal lyde:*
 
-> § 11.Betydelig skade på kropp eller helseMed betydelig skade på kropp eller helse menes tap eller vesentlig svekkelse av en sans, et viktig organ eller en viktig kroppsdel, vesentlig vansirethet, livsfarlig eller langvarig sykdom, eller alvorlig psykisk skade.Betydelig skade er det også når et foster dør eller skades som følge av en straffbar handling.
+> § 11. Betydelig skade på kropp eller helse
 >
-> § 11.Betydelig skade på kropp eller helse
+> Med betydelig skade på kropp eller helse menes tap eller vesentlig svekkelse av en sans, et viktig organ eller en viktig kroppsdel, vesentlig vansirethet, livsfarlig eller langvarig sykdom, eller alvorlig psykisk skade.
+>
+> Betydelig skade er det også når et foster dør eller skades som følge av en straffbar handling.
 >
 
 ## § 120 a
@@ -272,9 +355,9 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 130 a skal lyde:*
 
-> § 130 a.Grov påvirkning fra fremmed etterretningGrov overtredelse av § 130 straffes med fengsel inntil 10 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt påovertredelsens karakter og omfang,om gjerningspersonen i kraft av sin stilling nyter en særlig tillit,om overtredelsen av andre grunner er særlig samfunnsskadelig, ogom gjerningspersonen har skaffet seg selv eller andre en betydelig vinning.
+> § 130 a. Grov påvirkning fra fremmed etterretning
 >
-> § 130 a.Grov påvirkning fra fremmed etterretning
+> Grov overtredelse av § 130 straffes med fengsel inntil 10 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt påovertredelsens karakter og omfang,om gjerningspersonen i kraft av sin stilling nyter en særlig tillit,om overtredelsen av andre grunner er særlig samfunnsskadelig, ogom gjerningspersonen har skaffet seg selv eller andre en betydelig vinning.
 >
 
 ## § 131
@@ -1711,9 +1794,13 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 200 skal lyde:*
 
-> § 200.Involvering av mindreårige i kriminalitetDen som involverer en mindreårig i en straffbar handling som kan medføre fengsel i 3 år eller mer, eller som nevnt i §§ 160, 189, 190, 231, 263, 271, 321, 332, 336, 337 eller 341, straffes med bot eller fengsel inntil 3 år. Involveringen kan for eksempel gå ut på å gi oppdrag, yte fordeler eller overlevere gjenstander til den mindreårige eller å medbringe den mindreårige.På samme måte straffes den som rekrutterer en mindreårig til å begå en straffbar handling som nevnt i første ledd.Uvitenhet om den mindreåriges alder fører ikke til straffrihet hvis gjerningspersonen kan klandres for sin uvitenhet.
+> § 200. Involvering av mindreårige i kriminalitet
 >
-> § 200.Involvering av mindreårige i kriminalitet
+> Den som involverer en mindreårig i en straffbar handling som kan medføre fengsel i 3 år eller mer, eller som nevnt i §§ 160, 189, 190, 231, 263, 271, 321, 332, 336, 337 eller 341, straffes med bot eller fengsel inntil 3 år. Involveringen kan for eksempel gå ut på å gi oppdrag, yte fordeler eller overlevere gjenstander til den mindreårige eller å medbringe den mindreårige.
+>
+> På samme måte straffes den som rekrutterer en mindreårig til å begå en straffbar handling som nevnt i første ledd.
+>
+> Uvitenhet om den mindreåriges alder fører ikke til straffrihet hvis gjerningspersonen kan klandres for sin uvitenhet.
 >
 
 ## § 200 a
@@ -1722,9 +1809,11 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 200 a skal lyde:*
 
-> § 200 a.Grov involvering av mindreårige i kriminalitetGrov overtredelse av § 200 straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den mindreårige ble involvert i eller rekruttert til å begå en alvorlig straffbar handling, om overtredelsen har et systematisk eller organisert preg, og om den mindreårige var under 15 år.§ 200 tredje ledd gjelder tilsvarende.
+> § 200 a. Grov involvering av mindreårige i kriminalitet
 >
-> § 200 a.Grov involvering av mindreårige i kriminalitet
+> Grov overtredelse av § 200 straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den mindreårige ble involvert i eller rekruttert til å begå en alvorlig straffbar handling, om overtredelsen har et systematisk eller organisert preg, og om den mindreårige var under 15 år.
+>
+> § 200 tredje ledd gjelder tilsvarende.
 >
 
 ## § 203
@@ -2013,9 +2102,11 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 270 skal lyde:*
 
-> § 270.KonverteringsterapiMed bot eller fengsel inntil 3 år straffes den som krenker en annen ved å anvende psykoterapeutisk, medisinsk, alternativmedisinsk eller religiøst baserte metoder eller lignende systematiske fremgangsmåter i den hensikt å påvirke vedkommende til å endre, fornekte eller undertrykke sin seksuelle orientering eller kjønnsidentitet.På samme måte straffes den som utsetter en person under 18 år for metoder eller fremgangsmåter som nevnt i første ledd, i den hensikt å påvirke vedkommende til å endre, fornekte eller undertrykke sin seksuelle orientering eller kjønnsidentitet. Uvitenhet om barnets riktige alder fører ikke til straffrihet hvis gjerningspersonen kan klandres for sin uvitenhet.
+> § 270. Konverteringsterapi
 >
-> § 270.Konverteringsterapi
+> Med bot eller fengsel inntil 3 år straffes den som krenker en annen ved å anvende psykoterapeutisk, medisinsk, alternativmedisinsk eller religiøst baserte metoder eller lignende systematiske fremgangsmåter i den hensikt å påvirke vedkommende til å endre, fornekte eller undertrykke sin seksuelle orientering eller kjønnsidentitet.
+>
+> På samme måte straffes den som utsetter en person under 18 år for metoder eller fremgangsmåter som nevnt i første ledd, i den hensikt å påvirke vedkommende til å endre, fornekte eller undertrykke sin seksuelle orientering eller kjønnsidentitet. Uvitenhet om barnets riktige alder fører ikke til straffrihet hvis gjerningspersonen kan klandres for sin uvitenhet.
 >
 
 ## § 270 a
@@ -2024,9 +2115,9 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 270 a skal lyde:*
 
-> § 270 a.Grov konverteringsterapiGrov overtredelse av § 270 straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den har medført betydelig skade på kropp eller helse, dens varighet og om den er utført av et større antall personer.
+> § 270 a. Grov konverteringsterapi
 >
-> § 270 a.Grov konverteringsterapi
+> Grov overtredelse av § 270 straffes med fengsel inntil 6 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den har medført betydelig skade på kropp eller helse, dens varighet og om den er utført av et større antall personer.
 >
 
 ## § 270 b
@@ -2035,9 +2126,9 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 270 b skal lyde:*
 
-> § 270 b.Markedsføring av konverteringsterapiMed bot eller fengsel inntil 6 måneder straffes den som markedsfører konkrete tilbud om å utsette andre for psykoterapeutisk, medisinsk, alternativmedisinsk eller religiøst baserte metoder eller lignende systematiske fremgangsmåter som anvendes i den hensikt å påvirke noen til å endre, fornekte eller undertrykke sin seksuelle orientering eller kjønnsidentitet.
+> § 270 b. Markedsføring av konverteringsterapi
 >
-> § 270 b.Markedsføring av konverteringsterapi
+> Med bot eller fengsel inntil 6 måneder straffes den som markedsfører konkrete tilbud om å utsette andre for psykoterapeutisk, medisinsk, alternativmedisinsk eller religiøst baserte metoder eller lignende systematiske fremgangsmåter som anvendes i den hensikt å påvirke noen til å endre, fornekte eller undertrykke sin seksuelle orientering eller kjønnsidentitet.
 >
 
 ## § 272
@@ -2085,9 +2176,7 @@ refid: "lov/2005-05-20-28"
 
 *§ 279 overskriften skal lyde:*
 
-> § 279.Forbund om drap eller å volde betydelig skade på kropp eller helse
->
-> § 279.Forbund om drap eller å volde betydelig skade på kropp eller helse
+> § 279. Forbund om drap eller å volde betydelig skade på kropp eller helse
 >
 
 ## § 28
@@ -2188,9 +2277,11 @@ refid: "lov/2005-05-20-28"
 
 *§ 291 skal lyde:*
 
-> § 291.VoldtektMed fengsel inntil 6 år straffes den som har seksuell omgang med noen som verken i ord eller handling har samtykket til det.Straffen er fengsel inntil 10 år for den somskaffer seg seksuell omgang ved vold eller truende atferd,har seksuell omgang med noen som i ord eller handling gir uttrykk for ikke å ville det,har seksuell omgang med noen som er ute av stand til å motsette seg handlingen, ellerved vold eller truende atferd får noen til å ha seksuell omgang med en annen, eller til å utføre handlinger som svarer til seksuell omgang med seg selv.
+> § 291. Voldtekt
 >
-> § 291.Voldtekt
+> Med fengsel inntil 6 år straffes den som har seksuell omgang med noen som verken i ord eller handling har samtykket til det.
+>
+> Straffen er fengsel inntil 10 år for den somskaffer seg seksuell omgang ved vold eller truende atferd,har seksuell omgang med noen som i ord eller handling gir uttrykk for ikke å ville det,har seksuell omgang med noen som er ute av stand til å motsette seg handlingen, ellerved vold eller truende atferd får noen til å ha seksuell omgang med en annen, eller til å utføre handlinger som svarer til seksuell omgang med seg selv.
 >
 
 ## § 292
@@ -2205,18 +2296,20 @@ refid: "lov/2005-05-20-28"
 
 *§ 293 skal lyde:*
 
-> § 293.Grov voldtektGrov overtredelse av § 291 andre ledd straffes med fengsel inntil 15 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den er begått av flere i fellesskap eller på en særlig smertefull eller særlig krenkende måte.Straffen er fengsel inntil 21 år dersom den fornærmede som følge av handlingen dør eller får betydelig skade på kropp eller helse.
+> § 293. Grov voldtekt
 >
-> § 293.Grov voldtekt
+> Grov overtredelse av § 291 andre ledd straffes med fengsel inntil 15 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den er begått av flere i fellesskap eller på en særlig smertefull eller særlig krenkende måte.
+>
+> Straffen er fengsel inntil 21 år dersom den fornærmede som følge av handlingen dør eller får betydelig skade på kropp eller helse.
 >
 
 ### 2026-04-10 — lov/2026-04-10-13
 
 *§ 293 skal lyde:*
 
-> § 293.Grov voldtektGrov overtredelse av § 291 andre ledd straffes med fengsel inntil 21 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den er begått av flere i fellesskap, om den er begått på en særlig smertefull eller særlig krenkende måte, eller om den fornærmede som følge av handlingen dør eller får betydelig skade på kropp eller helse.
+> § 293. Grov voldtekt
 >
-> § 293.Grov voldtekt
+> Grov overtredelse av § 291 andre ledd straffes med fengsel inntil 21 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om den er begått av flere i fellesskap, om den er begått på en særlig smertefull eller særlig krenkende måte, eller om den fornærmede som følge av handlingen dør eller får betydelig skade på kropp eller helse.
 >
 
 ## § 294
@@ -2232,9 +2325,9 @@ refid: "lov/2005-05-20-28"
 
 *§ 294 skal lyde:*
 
-> § 294.Grovt uaktsom voldtektGrovt uaktsom overtredelse av § 291 andre ledd straffes med fengsel inntil 6 år. Foreligger omstendigheter som nevnt i § 293, er straffen fengsel inntil 10 år.
+> § 294. Grovt uaktsom voldtekt
 >
-> § 294.Grovt uaktsom voldtekt
+> Grovt uaktsom overtredelse av § 291 andre ledd straffes med fengsel inntil 6 år. Foreligger omstendigheter som nevnt i § 293, er straffen fengsel inntil 10 år.
 >
 
 ## § 295
@@ -2293,9 +2386,7 @@ refid: "lov/2005-05-20-28"
 
 *§ 300 overskriften skal lyde:*
 
-> § 300.Voldtekt til samleie av barn under 14 år
->
-> § 300.Voldtekt til samleie av barn under 14 år
+> § 300. Voldtekt til samleie av barn under 14 år
 >
 
 ### 2025-06-20 — lov/2025-06-20-86
@@ -2334,9 +2425,9 @@ refid: "lov/2005-05-20-28"
 
 *§ 308 skal lyde:*
 
-> § 308.Mulighet for straffbortfallStraff etter bestemmelsene i §§ 299–304, § 305 bokstav b annet alternativ og § 306 kan falle bort dersom de involverte er omtrent jevnbyrdige i alder og utvikling.
+> § 308. Mulighet for straffbortfall
 >
-> § 308.Mulighet for straffbortfall
+> Straff etter bestemmelsene i §§ 299–304, § 305 bokstav b annet alternativ og § 306 kan falle bort dersom de involverte er omtrent jevnbyrdige i alder og utvikling.
 >
 
 ## § 311
@@ -2380,14 +2471,6 @@ refid: "lov/2005-05-20-28"
 *§ 32 første ledd skal lyde:*
 
 > Sammen med fengselsstraff kan det idømmessamfunnsstraff på vilkår som angitt i § 51 bokstav a,bot, jf. § 54 første punktum bokstav a, jf. annet punktum,rettighetstap, jf. § 59 bokstav a, ellerungdomsstraff, jf. § 52 a fjerde ledd.
->
-> samfunnsstraff på vilkår som angitt i § 51 bokstav a,
->
-> bot, jf. § 54 første punktum bokstav a, jf. annet punktum,
->
-> rettighetstap, jf. § 59 bokstav a, eller
->
-> ungdomsstraff, jf. § 52 a fjerde ledd.
 >
 
 ## § 33
@@ -2718,9 +2801,15 @@ refid: "lov/2005-05-20-28"
 
 *§ 52 a skal lyde:*
 
-> § 52 a.Vilkår for å idømme ungdomsstraffUngdomsstraff etter konfliktrådsloven kapittel IV kan idømmes i stedet for fengselsstraff nårlovbryteren var under 18 år på handlingstidspunktet,ungdomsstraff anses som en egnet reaksjon,lovbryteren har bosted i Norge, oghensynet til straffens formål ikke med tyngde taler mot en reaksjon i frihet.Ungdomsstraff etter første ledd kan idømmes når det skal utmåles en felles straff for flere lovbrudd og lovbryteren var over 18 år på handlingstidspunktet for ett eller flere av lovbruddene. Det er en forutsetning for slik pådømmelse at lovbruddene i hovedsak ble begått før lovbryteren fylte 18 år, og at de lovbruddene som ble begått etter fylte 18 år, vurderes som mindre alvorlige. Vilkårene i første ledd bokstav b til d gjelder tilsvarende.Lovbryteren har rett til å medvirke i vurderingen av om ungdomsstraff er en egnet reaksjon.Dersom hensynet til straffens formål med tyngde taler mot at hele reaksjonen gjennomføres i frihet, kan ungdomsstraff idømmes sammen med en ubetinget fengselsstraff i inntil 6 måneder når fengselsstraff er særlig påkrevd.
+> § 52 a. Vilkår for å idømme ungdomsstraff
 >
-> § 52 a.Vilkår for å idømme ungdomsstraff
+> Ungdomsstraff etter konfliktrådsloven kapittel IV kan idømmes i stedet for fengselsstraff nårlovbryteren var under 18 år på handlingstidspunktet,ungdomsstraff anses som en egnet reaksjon,lovbryteren har bosted i Norge, oghensynet til straffens formål ikke med tyngde taler mot en reaksjon i frihet.
+>
+> Ungdomsstraff etter første ledd kan idømmes når det skal utmåles en felles straff for flere lovbrudd og lovbryteren var over 18 år på handlingstidspunktet for ett eller flere av lovbruddene. Det er en forutsetning for slik pådømmelse at lovbruddene i hovedsak ble begått før lovbryteren fylte 18 år, og at de lovbruddene som ble begått etter fylte 18 år, vurderes som mindre alvorlige. Vilkårene i første ledd bokstav b til d gjelder tilsvarende.
+>
+> Lovbryteren har rett til å medvirke i vurderingen av om ungdomsstraff er en egnet reaksjon.
+>
+> Dersom hensynet til straffens formål med tyngde taler mot at hele reaksjonen gjennomføres i frihet, kan ungdomsstraff idømmes sammen med en ubetinget fengselsstraff i inntil 6 måneder når fengselsstraff er særlig påkrevd.
 >
 
 ### 2024-11-29 — lov/2024-11-29-73
@@ -2756,9 +2845,21 @@ refid: "lov/2005-05-20-28"
 
 *§ 52 c skal lyde:*
 
-> § 52 c.Brudd på vilkår for ungdomsstraffEtter begjæring kan tingretten ved dom bestemme at hele eller deler av den subsidiære fengselsstraffen skal fullbyrdes eller omgjøres til samfunnsstraff eller betinget fengsel når den domfelte harbrutt bestemmelser gitt i eller i medhold av konfliktrådsloven § 31, ellerbegått en ny straffbar handling før utløpet av gjennomføringstiden.Ved omgjøringen skal retten ta hensyn til ungdomsstraff som allerede er gjennomført.Ved omgjøring etter første ledd bokstav b kan retten avsi samlet dom for begge handlinger eller særskilt dom for den nye handlingen.Dersom elektronisk kontroll anses nødvendig for å sikre at domfelte overholder vilkår om oppholdssted eller vilkår om å unngå kontakt med bestemte personer, kan retten, etter begjæring, istedenfor omgjøring etter første ledd bokstav a ved dom fastsette at straffegjennomføringen skal fortsette med slike vilkår. Domfelte har rett til å medvirke ved fastsetting av vilkår etter første punktum.Vilkår etter fjerde ledd fastsettes for en bestemt tid inntil 6 måneder og kan prøves på nytt etter 3 måneder. Vilkårene kan forlenges med 6 måneder inntil gjennomføringstidens utløp. Etter begjæring fra kriminalomsorgen kan retten beslutte at vilkår etter fjerde ledd skal lempes eller opphøre. Rettens avgjørelse om forlengelse, lemping eller opphør treffes ved kjennelse. Kongen kan i forskrift gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om saksbehandlingen og behandling av personopplysninger ved slik kontroll.Begjæring etter første ledd bokstav a og fjerde og femte ledd fremmes av kriminalomsorgen. Begjæring etter første ledd bokstav b fremmes av påtalemyndigheten. Begjæringen etter første ledd bokstav a og b må være brakt inn for retten innen 3 måneder etter utløpet av gjennomføringstiden. Begjæring etter fjerde og femte ledd må være brakt inn for retten før utløpet av gjennomføringstiden.Reglene om forsvarer og om pågripelse og varetektsfengsel i straffeprosessloven § 96 tredje ledd og § 99 første ledd tredje punktum og kapittel 14 gjelder tilsvarende. Reglene om varsling i straffeprosessloven § 243 gjelder tilsvarende for rettsmøter om omgjøring. Kriminalomsorgen skal varsles etter de samme regler som påtalemyndigheten.
+> § 52 c. Brudd på vilkår for ungdomsstraff
 >
-> § 52 c.Brudd på vilkår for ungdomsstraff
+> Etter begjæring kan tingretten ved dom bestemme at hele eller deler av den subsidiære fengselsstraffen skal fullbyrdes eller omgjøres til samfunnsstraff eller betinget fengsel når den domfelte harbrutt bestemmelser gitt i eller i medhold av konfliktrådsloven § 31, ellerbegått en ny straffbar handling før utløpet av gjennomføringstiden.
+>
+> Ved omgjøringen skal retten ta hensyn til ungdomsstraff som allerede er gjennomført.
+>
+> Ved omgjøring etter første ledd bokstav b kan retten avsi samlet dom for begge handlinger eller særskilt dom for den nye handlingen.
+>
+> Dersom elektronisk kontroll anses nødvendig for å sikre at domfelte overholder vilkår om oppholdssted eller vilkår om å unngå kontakt med bestemte personer, kan retten, etter begjæring, istedenfor omgjøring etter første ledd bokstav a ved dom fastsette at straffegjennomføringen skal fortsette med slike vilkår. Domfelte har rett til å medvirke ved fastsetting av vilkår etter første punktum.
+>
+> Vilkår etter fjerde ledd fastsettes for en bestemt tid inntil 6 måneder og kan prøves på nytt etter 3 måneder. Vilkårene kan forlenges med 6 måneder inntil gjennomføringstidens utløp. Etter begjæring fra kriminalomsorgen kan retten beslutte at vilkår etter fjerde ledd skal lempes eller opphøre. Rettens avgjørelse om forlengelse, lemping eller opphør treffes ved kjennelse. Kongen kan i forskrift gi nærmere regler om gjennomføringen av elektronisk kontroll, herunder om saksbehandlingen og behandling av personopplysninger ved slik kontroll.
+>
+> Begjæring etter første ledd bokstav a og fjerde og femte ledd fremmes av kriminalomsorgen. Begjæring etter første ledd bokstav b fremmes av påtalemyndigheten. Begjæringen etter første ledd bokstav a og b må være brakt inn for retten innen 3 måneder etter utløpet av gjennomføringstiden. Begjæring etter fjerde og femte ledd må være brakt inn for retten før utløpet av gjennomføringstiden.
+>
+> Reglene om forsvarer og om pågripelse og varetektsfengsel i straffeprosessloven § 96 tredje ledd og § 99 første ledd tredje punktum og kapittel 14 gjelder tilsvarende. Reglene om varsling i straffeprosessloven § 243 gjelder tilsvarende for rettsmøter om omgjøring. Kriminalomsorgen skal varsles etter de samme regler som påtalemyndigheten.
 >
 
 ### 2024-11-29 — lov/2024-11-29-73
@@ -2788,9 +2889,9 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 52 d skal lyde:*
 
-> § 52 d.Forening av ungdomsstraff med andre strafferSammen med ungdomsstraff kan det idømmesubetinget fengselsstraff på inntil 6 måneder, jf. § 52 a fjerde ledd, jf. § 32 bokstav d, ellerrettighetstap, jf. § 59 bokstav e.
+> § 52 d. Forening av ungdomsstraff med andre straffer
 >
-> § 52 d.Forening av ungdomsstraff med andre straffer
+> Sammen med ungdomsstraff kan det idømmesubetinget fengselsstraff på inntil 6 måneder, jf. § 52 a fjerde ledd, jf. § 32 bokstav d, ellerrettighetstap, jf. § 59 bokstav e.
 >
 
 ### 2024-11-29 — lov/2024-11-29-73
@@ -3019,9 +3120,15 @@ refid: "lov/2005-05-20-28"
 
 *Ny § 68 a skal lyde:*
 
-> § 68 a.Selvstendig inndragningFormuesgode som mest sannsynlig stammer fra lovbrudd, kan inndras uten at det er påvist et bestemt lovbrudd (selvstendig inndragning). Selvstendig inndragning skal ikke foretas i den utstrekning det vil være uforholdsmessig ut fra konsekvensene for eieren av formuesgodet og eventuelle andre berørte og omstendighetene for øvrig.Hvis inndragning av formuesgodet vil være uforholdsmessig eller andre særlige grunner taler for det, kan i stedet hele eller deler av formuesgodets verdi inndras. Ved slik verdiinndragning kan det bestemmes at formuesgodet hefter til sikkerhet for inndragningsbeløpet.Selvstendig inndragning kan foretas av formuesgode som befinner seg i Norge. Inndragning kan også foretas av formuesgode som befinner seg utenfor Norge, dersom saken har tilstrekkelig tilknytning til Norge.Reglene i denne paragrafen kommer til anvendelse uavhengig av når formuesgodet er ervervet.
+> § 68 a. Selvstendig inndragning
 >
-> § 68 a.Selvstendig inndragning
+> Formuesgode som mest sannsynlig stammer fra lovbrudd, kan inndras uten at det er påvist et bestemt lovbrudd (selvstendig inndragning). Selvstendig inndragning skal ikke foretas i den utstrekning det vil være uforholdsmessig ut fra konsekvensene for eieren av formuesgodet og eventuelle andre berørte og omstendighetene for øvrig.
+>
+> Hvis inndragning av formuesgodet vil være uforholdsmessig eller andre særlige grunner taler for det, kan i stedet hele eller deler av formuesgodets verdi inndras. Ved slik verdiinndragning kan det bestemmes at formuesgodet hefter til sikkerhet for inndragningsbeløpet.
+>
+> Selvstendig inndragning kan foretas av formuesgode som befinner seg i Norge. Inndragning kan også foretas av formuesgode som befinner seg utenfor Norge, dersom saken har tilstrekkelig tilknytning til Norge.
+>
+> Reglene i denne paragrafen kommer til anvendelse uavhengig av når formuesgodet er ervervet.
 >
 
 ## § 72

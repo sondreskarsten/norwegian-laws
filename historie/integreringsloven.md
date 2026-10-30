@@ -85,29 +85,53 @@ refid: "lov/2020-11-06-127"
 
 > Kapittel 6A Midlertidige regler for personer som har fått oppholdstillatelse etter utlendingsloven § 34
 >
-> § 37 a.Unntak fra plikt til å delta i opplæring i mottakAsylsøkere som er i målgruppen for ordningen med kollektiv beskyttelse, har ikke plikt til å delta i opplæring i mottak etter § 5 i loven her.
+> § 37 a. Unntak fra plikt til å delta i opplæring i mottak
 >
-> § 37 a.Unntak fra plikt til å delta i opplæring i mottak
+> Asylsøkere som er i målgruppen for ordningen med kollektiv beskyttelse, har ikke plikt til å delta i opplæring i mottak etter § 5 i loven her.
 >
-> § 37 b.Kompetansekartlegging og karriereveiledningRetten og plikten til å gjennomføre kompetansekartlegging før bosetting etter § 6 i loven her gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre kompetansekartlegging etter § 10 i loven her. Personer som deltar i introduksjonsprogram etter § 37 c, har rett og plikt til å gjennomføre kompetansekartleggingen. Kartleggingen skal bidra til å avklare om vedkommende er kvalifisert for tilgjengelige arbeidsplasser i kommunen, og til at introduksjonsprogrammet etter § 37 c blir tilpasset den enkeltes behov.Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre karriereveiledning etter § 11 i loven her. § 11 fjerde ledd gjelder ikke.
+> § 37 b. Kompetansekartlegging og karriereveiledning
 >
-> § 37 b.Kompetansekartlegging og karriereveiledning
+> Retten og plikten til å gjennomføre kompetansekartlegging før bosetting etter § 6 i loven her gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
 >
-> § 37 c.IntroduksjonsprogramPersoner som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i et introduksjonsprogram etter kapittel 4 i loven her. For øvrig gjelder §§ 8 og 9 i loven her. Kommunen kan avslå krav om deltagelse i introduksjonsprogram etter integreringsloven § 37 c for personer som har jobb eller tilbud om jobb på tilnærmet fulltid.Personer som nevnt i første ledd kan delta i programmet i inntil seks måneder dersom de har utdanning på videregående nivå eller høyere fra før. Sluttmålet for programmet skal være overgang til lønnet arbeid, høyere utdanning eller høyere yrkesfaglig utdanning. Programmet kan forlenges med inntil seks måneder. § 13 første, femte og sjette ledd i loven her gjelder. Programmet avsluttes hvis deltageren får jobb eller tilbud om jobb på tilnærmet fulltid.Personer som nevnt i første ledd kan delta i et program etter § 13 tredje eller fjerde ledd i loven her dersom de ikke har utdanning på videregående nivå fra før. § 13 første, femte og sjette ledd gjelder.Programmet etter andre eller tredje ledd skal minst bestå av arbeids- eller utdanningsrettede elementer og et språktilbud. For deltagere som har barn under 18 år, skal også kurs i foreldreveiledning inngå. Det samme gjelder for deltagere som får barn i løpet av programmet. Kravene i § 14 første ledd bokstav a, b og c og kravet i § 14 fjerde ledd om at programmet skal være på fulltid, gjelder ikke. Dersom forhold på kommunens side medfører at programmet må være på deltid, skal det utbetales introduksjonsstønad tilsvarende deltagelse på fulltid.Retten til å delta i et introduksjonsprogram etter andre eller tredje ledd gjelder også for personer som har gått ut i arbeid i Norge, og derfor tidligere har avvist eller avbrutt deltagelse i programmet. § 3 tredje ledd gjelder ikke.Kapittel 5 om introduksjonsstønad gjelder ved introduksjonsprogram etter andre eller tredje ledd.Kommunen skal, samtidig som det treffes vedtak om introduksjonsprogram, utarbeide en integreringsplan. Planen skal utarbeides sammen med deltageren og utformes på bakgrunn av gjennomført kompetansekartlegging og en vurdering av hvilke elementer deltageren kan nyttiggjøre seg. Planen skal minst inneholde deltagerens sluttmål for programmet, programmets varighet, elementene i programmet og klagemuligheter. Kommunen avgjør innholdet i integreringsplanen dersom det er uenighet mellom kommunen og den enkelte. §§ 15 og 16 gjelder ikke.Departementet kan gi forskrift om hva som regnes som utdanning på videregående nivå etter paragrafen her.
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre kompetansekartlegging etter § 10 i loven her. Personer som deltar i introduksjonsprogram etter § 37 c, har rett og plikt til å gjennomføre kompetansekartleggingen. Kartleggingen skal bidra til å avklare om vedkommende er kvalifisert for tilgjengelige arbeidsplasser i kommunen, og til at introduksjonsprogrammet etter § 37 c blir tilpasset den enkeltes behov.
 >
-> § 37 c.Introduksjonsprogram
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre karriereveiledning etter § 11 i loven her. § 11 fjerde ledd gjelder ikke.
 >
-> § 37 d.Opplæring i norskPersoner som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i opplæring i norsk etter kapittel 6 i loven her. De har ikke rett eller plikt til opplæring i samfunnskunnskap. For øvrig gjelder § 26.Retten til opplæring i norsk gjelder i ett år fra oppstartstidspunktet. For øvrig gjelder §§ 30 og 32 i loven her. Deltagere i opplæringen bør oppnå et minimums-nivå i norsk. Plikten til å avlegge prøver etter § 37 gjelder ikke. Kommunen skal likevel sørge for at deltagerne får mulighet til å avlegge gratis avsluttende prøve i norsk. Departementet kan gi forskrift om utvidet opplæring i norsk.Kommunen skal, samtidig som det treffes vedtak om opplæring i norsk, utarbeide en norskplan. Norskplanen skal inneholde deltagerens norskmål, omfanget av opplæringen og klagemuligheter. § 34 gjelder ikke.
+> § 37 c. Introduksjonsprogram
 >
-> § 37 d.Opplæring i norsk
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i et introduksjonsprogram etter kapittel 4 i loven her. For øvrig gjelder §§ 8 og 9 i loven her. Kommunen kan avslå krav om deltagelse i introduksjonsprogram etter integreringsloven § 37 c for personer som har jobb eller tilbud om jobb på tilnærmet fulltid.
 >
-> § 37 e.ForskriftshjemmelNår det er nødvendig for å tilpasse integreringstiltak til personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan departementet gi midlertidig forskrift ommålgruppene for og rettigheter og plikter til opplæring i mottak, introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 5, 8, 9, 26, 27, 28, 37 c og 37 dretten til karriereveiledning etter §§ 11 og 37 butsettelse av frister for oppstart av introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 12, 30, 37 c og 37 dsluttmål, varighet og kravene til innhold i introduksjonsprogrammet etter §§ 13, 14 og 37 cretten til, beregningen av og reduksjon i introduksjonsstønaden etter kapittel 5 ved deltagelse i introduksjonsprogram etter § 37 cvarigheten og omfanget av opplæring og kravene til opplæringen etter §§ 30 til 33 og 37 dprøver i norsk og samfunnskunnskap etter § 37behandling av personopplysninger etter §§ 41 til 44.Forskrifter etter første punktum kan fravike bestemmelsene som nevnt i bokstav a til h.Dersom kapasitetshensyn i kommunen eller fylkeskommunen gjør det nødvendig, kan en midlertidig forskrift etter første ledd også fravike kravene som følger av bestemmelsene som nevnt i første ledd bokstav a til h, for andre enn personer som har fått oppholdstillatelse etter utlendingsloven § 34.
+> Personer som nevnt i første ledd kan delta i programmet i inntil seks måneder dersom de har utdanning på videregående nivå eller høyere fra før. Sluttmålet for programmet skal være overgang til lønnet arbeid, høyere utdanning eller høyere yrkesfaglig utdanning. Programmet kan forlenges med inntil seks måneder. § 13 første, femte og sjette ledd i loven her gjelder. Programmet avsluttes hvis deltageren får jobb eller tilbud om jobb på tilnærmet fulltid.
 >
-> § 37 e.Forskriftshjemmel
+> Personer som nevnt i første ledd kan delta i et program etter § 13 tredje eller fjerde ledd i loven her dersom de ikke har utdanning på videregående nivå fra før. § 13 første, femte og sjette ledd gjelder.
 >
-> § 37 f.Behandling av kompetanseopplysningerDepartementet kan gi midlertidig forskrift om innhenting og utlevering av kompetanseopplysninger, uten hinder av taushetsplikt, fra Integrerings- og mangfoldsdirektoratets registre for å legge til rette for at personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan sysselsettes i det statlige, kommunale eller fylkeskommunale tjenestetilbudet. Med kompetanseopplysninger menes opplysninger som er innhentet ved kompetansekartlegging eller karriereveiledning etter § 37 b, eller opplysninger om den enkeltes kompetanse som er innhentet før bosetting, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9.
+> Programmet etter andre eller tredje ledd skal minst bestå av arbeids- eller utdanningsrettede elementer og et språktilbud. For deltagere som har barn under 18 år, skal også kurs i foreldreveiledning inngå. Det samme gjelder for deltagere som får barn i løpet av programmet. Kravene i § 14 første ledd bokstav a, b og c og kravet i § 14 fjerde ledd om at programmet skal være på fulltid, gjelder ikke. Dersom forhold på kommunens side medfører at programmet må være på deltid, skal det utbetales introduksjonsstønad tilsvarende deltagelse på fulltid.
 >
-> § 37 f.Behandling av kompetanseopplysninger
+> Retten til å delta i et introduksjonsprogram etter andre eller tredje ledd gjelder også for personer som har gått ut i arbeid i Norge, og derfor tidligere har avvist eller avbrutt deltagelse i programmet. § 3 tredje ledd gjelder ikke.
+>
+> Kapittel 5 om introduksjonsstønad gjelder ved introduksjonsprogram etter andre eller tredje ledd.
+>
+> Kommunen skal, samtidig som det treffes vedtak om introduksjonsprogram, utarbeide en integreringsplan. Planen skal utarbeides sammen med deltageren og utformes på bakgrunn av gjennomført kompetansekartlegging og en vurdering av hvilke elementer deltageren kan nyttiggjøre seg. Planen skal minst inneholde deltagerens sluttmål for programmet, programmets varighet, elementene i programmet og klagemuligheter. Kommunen avgjør innholdet i integreringsplanen dersom det er uenighet mellom kommunen og den enkelte. §§ 15 og 16 gjelder ikke.
+>
+> Departementet kan gi forskrift om hva som regnes som utdanning på videregående nivå etter paragrafen her.
+>
+> § 37 d. Opplæring i norsk
+>
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i opplæring i norsk etter kapittel 6 i loven her. De har ikke rett eller plikt til opplæring i samfunnskunnskap. For øvrig gjelder § 26.
+>
+> Retten til opplæring i norsk gjelder i ett år fra oppstartstidspunktet. For øvrig gjelder §§ 30 og 32 i loven her. Deltagere i opplæringen bør oppnå et minimums-nivå i norsk. Plikten til å avlegge prøver etter § 37 gjelder ikke. Kommunen skal likevel sørge for at deltagerne får mulighet til å avlegge gratis avsluttende prøve i norsk. Departementet kan gi forskrift om utvidet opplæring i norsk.
+>
+> Kommunen skal, samtidig som det treffes vedtak om opplæring i norsk, utarbeide en norskplan. Norskplanen skal inneholde deltagerens norskmål, omfanget av opplæringen og klagemuligheter. § 34 gjelder ikke.
+>
+> § 37 e. Forskriftshjemmel
+>
+> Når det er nødvendig for å tilpasse integreringstiltak til personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan departementet gi midlertidig forskrift ommålgruppene for og rettigheter og plikter til opplæring i mottak, introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 5, 8, 9, 26, 27, 28, 37 c og 37 dretten til karriereveiledning etter §§ 11 og 37 butsettelse av frister for oppstart av introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 12, 30, 37 c og 37 dsluttmål, varighet og kravene til innhold i introduksjonsprogrammet etter §§ 13, 14 og 37 cretten til, beregningen av og reduksjon i introduksjonsstønaden etter kapittel 5 ved deltagelse i introduksjonsprogram etter § 37 cvarigheten og omfanget av opplæring og kravene til opplæringen etter §§ 30 til 33 og 37 dprøver i norsk og samfunnskunnskap etter § 37behandling av personopplysninger etter §§ 41 til 44.Forskrifter etter første punktum kan fravike bestemmelsene som nevnt i bokstav a til h.
+>
+> Dersom kapasitetshensyn i kommunen eller fylkeskommunen gjør det nødvendig, kan en midlertidig forskrift etter første ledd også fravike kravene som følger av bestemmelsene som nevnt i første ledd bokstav a til h, for andre enn personer som har fått oppholdstillatelse etter utlendingsloven § 34.
+>
+> § 37 f. Behandling av kompetanseopplysninger
+>
+> Departementet kan gi midlertidig forskrift om innhenting og utlevering av kompetanseopplysninger, uten hinder av taushetsplikt, fra Integrerings- og mangfoldsdirektoratets registre for å legge til rette for at personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan sysselsettes i det statlige, kommunale eller fylkeskommunale tjenestetilbudet. Med kompetanseopplysninger menes opplysninger som er innhentet ved kompetansekartlegging eller karriereveiledning etter § 37 b, eller opplysninger om den enkeltes kompetanse som er innhentet før bosetting, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9.
 >
 
 ### 2024-06-25 — lov/2024-06-25-54
@@ -130,38 +154,52 @@ refid: "lov/2020-11-06-127"
 
 > Kapittel 6A Midlertidige regler for personer som har fått oppholdstillatelse etter utlendingsloven § 34 mv.
 >
-> § 37 a.Unntak fra plikt til å delta i opplæring i mottakAsylsøkere som er i målgruppen for ordningen med kollektiv beskyttelse, har ikke plikt til å delta i opplæring i mottak etter § 5 i loven her.
+> § 37 a. Unntak fra plikt til å delta i opplæring i mottak
 >
-> § 37 a.Unntak fra plikt til å delta i opplæring i mottak
+> Asylsøkere som er i målgruppen for ordningen med kollektiv beskyttelse, har ikke plikt til å delta i opplæring i mottak etter § 5 i loven her.
 >
-> § 37 b.Kompetansekartlegging og karriereveiledningRetten og plikten til å gjennomføre kompetansekartlegging før bosetting etter § 6 i loven her gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre kompetansekartlegging etter § 10 i loven her. Personer som deltar i introduksjonsprogram etter § 37 c, har rett og plikt til å gjennomføre kompetansekartleggingen. Kartleggingen skal bidra til å avklare om vedkommende er kvalifisert for tilgjengelige arbeidsplasser i kommunen, og til at introduksjonsprogrammet etter § 37 c blir tilpasset den enkeltes behov.Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre karriereveiledning etter § 11 i loven her. § 11 fjerde ledd gjelder ikke.
+> § 37 b. Kompetansekartlegging og karriereveiledning
 >
-> § 37 b.Kompetansekartlegging og karriereveiledning
+> Retten og plikten til å gjennomføre kompetansekartlegging før bosetting etter § 6 i loven her gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
 >
-> § 37 c.IntroduksjonsprogramBestemmelsene i § 14 a første ledd bokstav c om at introduksjonsprogrammet skal inneholde opplæring i samfunnskunnskap, gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre kompetansekartlegging etter § 10 i loven her. Personer som deltar i introduksjonsprogram etter § 37 c, har rett og plikt til å gjennomføre kompetansekartleggingen. Kartleggingen skal bidra til å avklare om vedkommende er kvalifisert for tilgjengelige arbeidsplasser i kommunen, og til at introduksjonsprogrammet etter § 37 c blir tilpasset den enkeltes behov.
 >
-> § 37 c.Introduksjonsprogram
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å gjennomføre karriereveiledning etter § 11 i loven her. § 11 fjerde ledd gjelder ikke.
 >
-> § 37 d.Opplæring i norskPersoner som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i opplæring i norsk etter kapittel 6 i loven her. De har ikke rett eller plikt til opplæring i samfunnskunnskap. For øvrig gjelder § 26.Retten til opplæring i norsk gjelder i ett år fra oppstartstidspunktet. For øvrig gjelder §§ 30 og 32 i loven her. Deltagere i opplæringen bør oppnå et minimumsnivå i norsk. Plikten til å avlegge prøver etter § 37 gjelder ikke. Kommunen skal likevel sørge for at deltagerne får mulighet til å avlegge gratis avsluttende prøve i norsk. Departementet kan gi forskrift om utvidet opplæring i norsk.Kommunen skal, samtidig som det treffes vedtak om opplæring i norsk, utarbeide en norskplan. Norskplanen skal inneholde deltagerens norskmål, omfanget av opplæringen og klagemuligheter. § 34 gjelder ikke.
+> § 37 c. Introduksjonsprogram
 >
-> § 37 d.Opplæring i norsk
+> Bestemmelsene i § 14 a første ledd bokstav c om at introduksjonsprogrammet skal inneholde opplæring i samfunnskunnskap, gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
 >
-> § 37 e.ForskriftshjemmelDersom høye ankomster av asylsøkere gjør det nødvendig å tilpasse integreringstiltak til personer som er omfattet av loven, kan departementet av hensyn til kapasiteten i kommunen eller fylkeskommunen gi midlertidig forskrift ommålgruppene for og rettigheter og plikter til opplæring i mottak, introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 5, 8, 9, 26, 27, 28, 37 c og 37 dretten til karriereveiledning etter §§ 11 og 37 butsettelse av frister for oppstart av introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 12, 30, 37 c og 37 dsluttmål, varighet og kravene til innhold i introduksjonsprogrammet etter §§ 13, 14, 14 a og 37 cretten til, beregningen av og reduksjon i introduksjonsstønaden etter kapittel 5 ved deltagelse i introduksjonsprogram etter § 37 cvarigheten og omfanget av opplæring og kravene til opplæringen etter §§ 30 til 33 og 37 dprøver i norsk og samfunnskunnskap etter § 37behandling av personopplysninger etter §§ 41 til 44.Forskrifter etter første punktum kan fravike bestemmelsene som nevnt i bokstav a til h.Departementet kan også gi midlertidig forskrift som fraviker kravene som følger av bestemmelsene som nevnt i første ledd bokstav a til h, for personer som har hatt oppholdstillatelse etter utlendingsloven § 34 ved overgang til status som asylsøkere.
+> § 37 d. Opplæring i norsk
 >
-> § 37 e.Forskriftshjemmel
+> Personer som har fått oppholdstillatelse etter utlendingsloven § 34, har rett, men ikke plikt, til å delta i opplæring i norsk etter kapittel 6 i loven her. De har ikke rett eller plikt til opplæring i samfunnskunnskap. For øvrig gjelder § 26.
 >
-> § 37 f.Behandling av kompetanseopplysningerDepartementet kan gi midlertidig forskrift om innhenting og utlevering av kompetanseopplysninger, uten hinder av taushetsplikt, fra Integrerings- og mangfoldsdirektoratets registre for å legge til rette for at personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan sysselsettes i det statlige, kommunale eller fylkeskommunale tjenestetilbudet. Med kompetanseopplysninger menes opplysninger som er innhentet ved kompetansekartlegging eller karriereveiledning etter § 37 b, eller opplysninger om den enkeltes kompetanse som er innhentet før bosetting, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9.
+> Retten til opplæring i norsk gjelder i ett år fra oppstartstidspunktet. For øvrig gjelder §§ 30 og 32 i loven her. Deltagere i opplæringen bør oppnå et minimumsnivå i norsk. Plikten til å avlegge prøver etter § 37 gjelder ikke. Kommunen skal likevel sørge for at deltagerne får mulighet til å avlegge gratis avsluttende prøve i norsk. Departementet kan gi forskrift om utvidet opplæring i norsk.
 >
-> § 37 f.Behandling av kompetanseopplysninger
+> Kommunen skal, samtidig som det treffes vedtak om opplæring i norsk, utarbeide en norskplan. Norskplanen skal inneholde deltagerens norskmål, omfanget av opplæringen og klagemuligheter. § 34 gjelder ikke.
+>
+> § 37 e. Forskriftshjemmel
+>
+> Dersom høye ankomster av asylsøkere gjør det nødvendig å tilpasse integreringstiltak til personer som er omfattet av loven, kan departementet av hensyn til kapasiteten i kommunen eller fylkeskommunen gi midlertidig forskrift ommålgruppene for og rettigheter og plikter til opplæring i mottak, introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 5, 8, 9, 26, 27, 28, 37 c og 37 dretten til karriereveiledning etter §§ 11 og 37 butsettelse av frister for oppstart av introduksjonsprogram og opplæring i norsk og samfunnskunnskap etter §§ 12, 30, 37 c og 37 dsluttmål, varighet og kravene til innhold i introduksjonsprogrammet etter §§ 13, 14, 14 a og 37 cretten til, beregningen av og reduksjon i introduksjonsstønaden etter kapittel 5 ved deltagelse i introduksjonsprogram etter § 37 cvarigheten og omfanget av opplæring og kravene til opplæringen etter §§ 30 til 33 og 37 dprøver i norsk og samfunnskunnskap etter § 37behandling av personopplysninger etter §§ 41 til 44.Forskrifter etter første punktum kan fravike bestemmelsene som nevnt i bokstav a til h.
+>
+> Departementet kan også gi midlertidig forskrift som fraviker kravene som følger av bestemmelsene som nevnt i første ledd bokstav a til h, for personer som har hatt oppholdstillatelse etter utlendingsloven § 34 ved overgang til status som asylsøkere.
+>
+> § 37 f. Behandling av kompetanseopplysninger
+>
+> Departementet kan gi midlertidig forskrift om innhenting og utlevering av kompetanseopplysninger, uten hinder av taushetsplikt, fra Integrerings- og mangfoldsdirektoratets registre for å legge til rette for at personer som er innvilget midlertidig kollektiv beskyttelse etter utlendingsloven § 34, kan sysselsettes i det statlige, kommunale eller fylkeskommunale tjenestetilbudet. Med kompetanseopplysninger menes opplysninger som er innhentet ved kompetansekartlegging eller karriereveiledning etter § 37 b, eller opplysninger om den enkeltes kompetanse som er innhentet før bosetting, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9.
 >
 
 ### 2026-06-12 — lov/2026-06-12-23
 
 *I lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid skal § 16 lyde:*
 
-> § 16.IntegreringserklæringDeltageren skal signere en integreringserklæring i forbindelse med at det utarbeides en integreringsplan etter § 15.Integreringserklæringen skal angi deltagerens forpliktelser som deltager i introduksjonsprogrammet, og sentrale plikter og rettigheter som gjelder for personer som bor i Norge.Departementet kan gi forskrift om innholdet i integreringserklæringen.
+> § 16. Integreringserklæring
 >
-> § 16.Integreringserklæring
+> Deltageren skal signere en integreringserklæring i forbindelse med at det utarbeides en integreringsplan etter § 15.
+>
+> Integreringserklæringen skal angi deltagerens forpliktelser som deltager i introduksjonsprogrammet, og sentrale plikter og rettigheter som gjelder for personer som bor i Norge.
+>
+> Departementet kan gi forskrift om innholdet i integreringserklæringen.
 >
 
 ## § 1
@@ -171,6 +209,21 @@ refid: "lov/2020-11-06-127"
 *§ 1 første ledd andre punktum skal lyde:*
 
 > Loven skal bidra til at innvandrere får gode norskkunnskaper, kunnskap om norsk samfunnsliv, formelle kvalifikasjoner og en stabil tilknytning til arbeidslivet.
+>
+
+### 2026-07-01 — forskrift/2026-06-12-1077
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Overgangsregler om integreringsloven kapittel 6A
+>
+> Integreringsloven kapittel 6A gjelder for personer som har fått oppholdstillatelse etter utlendingsloven § 34 fra og med 11. mars 2022.
+>
+> Plikten til å gjennomføre kompetansekartlegging etter integreringsloven § 37b andre ledd gjelder for personer som startet i introduksjonsprogram etter 2. juni 2023.
 >
 
 ## § 10
@@ -207,9 +260,9 @@ refid: "lov/2020-11-06-127"
 
 *Ny § 12 a skal lyde:*
 
-> § 12 a.Samordning av introduksjonsprogrammetKommunen skal sørge for at innholdet i introduksjonsprogrammet er helhetlig og samordnet. Kommunen skal samarbeide med relevante tjenesteytere og aktører om introduksjonsprogrammet.
+> § 12 a. Samordning av introduksjonsprogrammet
 >
-> § 12 a.Samordning av introduksjonsprogrammet
+> Kommunen skal sørge for at innholdet i introduksjonsprogrammet er helhetlig og samordnet. Kommunen skal samarbeide med relevante tjenesteytere og aktører om introduksjonsprogrammet.
 >
 
 ## § 13
@@ -239,9 +292,13 @@ refid: "lov/2020-11-06-127"
 
 *§ 13 skal lyde:*
 
-> § 13.Introduksjonsprogram for deltagere med utdanning på videregående nivå eller høyereIntroduksjonsprogrammet for deltagere med utdanning på videregående nivå eller høyere skal kvalifisere for arbeid eller forberede for utdanning over videregående nivå eller yrkesfaglig rekvalifisering etter opplæringslova § 18-4. Programmet for deltagere over 55 år skal kvalifisere for arbeid.Kommunen skal sette et sluttmål for den enkeltes deltagelse i introduksjonsprogrammet.Introduksjonsprogrammet skal være helårig og på fulltid og vare i inntil tolv måneder. Programmet kan ikke forlenges.
+> § 13. Introduksjonsprogram for deltagere med utdanning på videregående nivå eller høyere
 >
-> § 13.Introduksjonsprogram for deltagere med utdanning på videregående nivå eller høyere
+> Introduksjonsprogrammet for deltagere med utdanning på videregående nivå eller høyere skal kvalifisere for arbeid eller forberede for utdanning over videregående nivå eller yrkesfaglig rekvalifisering etter opplæringslova § 18-4. Programmet for deltagere over 55 år skal kvalifisere for arbeid.
+>
+> Kommunen skal sette et sluttmål for den enkeltes deltagelse i introduksjonsprogrammet.
+>
+> Introduksjonsprogrammet skal være helårig og på fulltid og vare i inntil tolv måneder. Programmet kan ikke forlenges.
 >
 
 ## § 14
@@ -250,9 +307,19 @@ refid: "lov/2020-11-06-127"
 
 *§ 14 skal lyde:*
 
-> § 14.Introduksjonsprogram for deltagere som ikke har utdanning på videregående nivå eller høyereIntroduksjonsprogrammet for deltagere som ikke har utdanning på videregående nivå eller høyere, skal gi formell opplæring på videregående nivå eller kvalifisere for arbeid. Programmet for deltagere over 55 år skal kvalifisere for arbeid. Programmet skal være helårig og på fulltid.Kommunen skal sette et sluttmål for den enkeltes deltagelse i introduksjonsprogrammet.Sluttmålet for deltagere under 25 år som ikke har utdanning på videregående nivå eller høyere, skal være fullført videregående opplæring. Deltagere under 25 år som ikke ønsker eller ikke vil kunne fullføre videregående opplæring i programtiden, skal ha deler av videregående opplæring som sluttmål eller delta i programmer som skal kvalifisere for arbeid.Programmet for deltagere som har som sluttmål å fullføre deler av videregående opplæring, skal vare i inntil tre år og kan forlenges med inntil ett år. Programmet for deltagere som har som sluttmål å fullføre videregående opplæring, skal vare i inntil fire år og kan forlenges med inntil ett år. Programmene etter første og andre punktum skal forlenges hvis det kan bidra til at deltageren oppnår sluttmålet sitt.Programmet for deltagere som har som sluttmål å fullføre fag- og yrkesopplæring, kan vare i inntil fem år og kan ikke forlenges.Programmer som skal kvalifisere for arbeid, skal vare i inntil to år og kan ikke forlenges.
+> § 14. Introduksjonsprogram for deltagere som ikke har utdanning på videregående nivå eller høyere
 >
-> § 14.Introduksjonsprogram for deltagere som ikke har utdanning på videregående nivå eller høyere
+> Introduksjonsprogrammet for deltagere som ikke har utdanning på videregående nivå eller høyere, skal gi formell opplæring på videregående nivå eller kvalifisere for arbeid. Programmet for deltagere over 55 år skal kvalifisere for arbeid. Programmet skal være helårig og på fulltid.
+>
+> Kommunen skal sette et sluttmål for den enkeltes deltagelse i introduksjonsprogrammet.
+>
+> Sluttmålet for deltagere under 25 år som ikke har utdanning på videregående nivå eller høyere, skal være fullført videregående opplæring. Deltagere under 25 år som ikke ønsker eller ikke vil kunne fullføre videregående opplæring i programtiden, skal ha deler av videregående opplæring som sluttmål eller delta i programmer som skal kvalifisere for arbeid.
+>
+> Programmet for deltagere som har som sluttmål å fullføre deler av videregående opplæring, skal vare i inntil tre år og kan forlenges med inntil ett år. Programmet for deltagere som har som sluttmål å fullføre videregående opplæring, skal vare i inntil fire år og kan forlenges med inntil ett år. Programmene etter første og andre punktum skal forlenges hvis det kan bidra til at deltageren oppnår sluttmålet sitt.
+>
+> Programmet for deltagere som har som sluttmål å fullføre fag- og yrkesopplæring, kan vare i inntil fem år og kan ikke forlenges.
+>
+> Programmer som skal kvalifisere for arbeid, skal vare i inntil to år og kan ikke forlenges.
 >
 
 ## § 14 a
@@ -261,9 +328,15 @@ refid: "lov/2020-11-06-127"
 
 *Ny § 14 a skal lyde:*
 
-> § 14 a.Innholdet i introduksjonsprogrammetIntroduksjonsprogrammet skal minst inneholde:arbeids- eller utdanningsrettede elementeropplæring i norskopplæring i samfunnskunnskapkurs i livsmestring.Innholdet skal tilpasses den enkeltes behov og sluttmålet for programmet. Deltagere som har barn under 18 år, eller som får barn i løpet av programmet, skal gjennomføre foreldreveiledning.Når deltagere i et program som skal kvalifisere for arbeid, har utdanning på videregående nivå eller høyere, skal arbeidsrettede elementer gjennomsnittlig minst utgjøre 15 timer i uken av programtiden etter tre måneder i introduksjonsprogrammet. Har deltagerne ikke utdanning på videregående nivå eller høyere, skal arbeidsrettede elementer gjennomsnittlig minst utgjøre 15 timer i uken av programtiden etter seks måneder i introduksjonsprogrammet.Minstekravet til arbeidsrettede elementer etter tredje ledd oppfylles ved praksis på en arbeidsplass, arbeid på deltid, korte yrkes- eller bransjekurs, arbeidsmarkedstiltak i regi av Nav eller andre lignende tiltak.
+> § 14 a. Innholdet i introduksjonsprogrammet
 >
-> § 14 a.Innholdet i introduksjonsprogrammet
+> Introduksjonsprogrammet skal minst inneholde:arbeids- eller utdanningsrettede elementeropplæring i norskopplæring i samfunnskunnskapkurs i livsmestring.
+>
+> Innholdet skal tilpasses den enkeltes behov og sluttmålet for programmet. Deltagere som har barn under 18 år, eller som får barn i løpet av programmet, skal gjennomføre foreldreveiledning.
+>
+> Når deltagere i et program som skal kvalifisere for arbeid, har utdanning på videregående nivå eller høyere, skal arbeidsrettede elementer gjennomsnittlig minst utgjøre 15 timer i uken av programtiden etter tre måneder i introduksjonsprogrammet. Har deltagerne ikke utdanning på videregående nivå eller høyere, skal arbeidsrettede elementer gjennomsnittlig minst utgjøre 15 timer i uken av programtiden etter seks måneder i introduksjonsprogrammet.
+>
+> Minstekravet til arbeidsrettede elementer etter tredje ledd oppfylles ved praksis på en arbeidsplass, arbeid på deltid, korte yrkes- eller bransjekurs, arbeidsmarkedstiltak i regi av Nav eller andre lignende tiltak.
 >
 
 ## § 15
@@ -309,9 +382,11 @@ refid: "lov/2020-11-06-127"
 
 *Ny § 18 a skal lyde:*
 
-> § 18 a.Avslutning av introduksjonsprogramKommunen skal utstede deltagerbevis ved gjennomført eller avbrutt introduksjonsprogram.Programmet skal avsluttes ved oppnådd sluttmål, eller når den fastsatte varigheten utløper. Kommunen bør i samarbeid med andre aktører legge til rette for at deltagere som ikke oppnår sitt sluttmål innenfor programtiden, unngår avbrudd i kvalifiseringen.
+> § 18 a. Avslutning av introduksjonsprogram
 >
-> § 18 a.Avslutning av introduksjonsprogram
+> Kommunen skal utstede deltagerbevis ved gjennomført eller avbrutt introduksjonsprogram.
+>
+> Programmet skal avsluttes ved oppnådd sluttmål, eller når den fastsatte varigheten utløper. Kommunen bør i samarbeid med andre aktører legge til rette for at deltagere som ikke oppnår sitt sluttmål innenfor programtiden, unngår avbrudd i kvalifiseringen.
 >
 
 ## § 18 b
@@ -320,9 +395,9 @@ refid: "lov/2020-11-06-127"
 
 *Ny § 18 b skal lyde:*
 
-> § 18 b.Forskrifter om introduksjonsprogrammetDepartementet kan gi forskrift omhvilke opplysninger som kan kartlegges etter § 10hva som skal regnes som utdanning på videregående nivå etter dette kapitteletminstekrav for foreldreveiledning og kurs i livsmestring etter § 14 afravær, fri og permisjoner fra introduksjonsprogrammet og om dette skal medføre tillegg i programtidenrett til introduksjonsstønad ved fravær, fri og permisjoner.
+> § 18 b. Forskrifter om introduksjonsprogrammet
 >
-> § 18 b.Forskrifter om introduksjonsprogrammet
+> Departementet kan gi forskrift omhvilke opplysninger som kan kartlegges etter § 10hva som skal regnes som utdanning på videregående nivå etter dette kapitteletminstekrav for foreldreveiledning og kurs i livsmestring etter § 14 afravær, fri og permisjoner fra introduksjonsprogrammet og om dette skal medføre tillegg i programtidenrett til introduksjonsstønad ved fravær, fri og permisjoner.
 >
 
 ## § 2
@@ -440,9 +515,9 @@ refid: "lov/2020-11-06-127"
 
 *§ 37 c skal lyde:*
 
-> § 37 c.IntroduksjonsprogramBestemmelsene i § 14 a første ledd bokstav c om at introduksjonsprogrammet skal inneholde opplæring i samfunnskunnskap, gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
+> § 37 c. Introduksjonsprogram
 >
-> § 37 c.Introduksjonsprogram
+> Bestemmelsene i § 14 a første ledd bokstav c om at introduksjonsprogrammet skal inneholde opplæring i samfunnskunnskap, gjelder ikke for personer som har fått oppholdstillatelse etter utlendingsloven § 34.
 >
 
 ## § 37 e
@@ -522,9 +597,13 @@ refid: "lov/2020-11-06-127"
 
 *§ 48 skal lyde:*
 
-> § 48.TilsynStatsforvalteren kan føre tilsyn med kommunens oppfyllelse av plikter etter lovens kapittel 3 til 6, §§ 39, 40, 43 og 50 og med plikten til å ha internkontroll etter kommuneloven § 25-1.Statsforvalteren kan føre tilsyn med fylkeskommunens oppfyllelse av plikter etter lovens §§ 11 og 30.Kommuneloven kapittel 30 gjelder for tilsyn etter første og andre ledd.
+> § 48. Tilsyn
 >
-> § 48.Tilsyn
+> Statsforvalteren kan føre tilsyn med kommunens oppfyllelse av plikter etter lovens kapittel 3 til 6, §§ 39, 40, 43 og 50 og med plikten til å ha internkontroll etter kommuneloven § 25-1.
+>
+> Statsforvalteren kan føre tilsyn med fylkeskommunens oppfyllelse av plikter etter lovens §§ 11 og 30.
+>
+> Kommuneloven kapittel 30 gjelder for tilsyn etter første og andre ledd.
 >
 
 ## § 5
@@ -559,9 +638,9 @@ refid: "lov/2020-11-06-127"
 
 *§ 7 skal lyde:*
 
-> § 7.Andre integreringsfremmende tiltak før bosetting i en kommuneVertskommuner for mottak kan tilby standardiserte elementer fra introduksjonsprogrammet, jf. § 14 a første og andre ledd, og andre integreringsfremmende tiltak til personer som bor i mottak, og som har fått en oppholdstillatelse som nevnt i § 9.
+> § 7. Andre integreringsfremmende tiltak før bosetting i en kommune
 >
-> § 7.Andre integreringsfremmende tiltak før bosetting i en kommune
+> Vertskommuner for mottak kan tilby standardiserte elementer fra introduksjonsprogrammet, jf. § 14 a første og andre ledd, og andre integreringsfremmende tiltak til personer som bor i mottak, og som har fått en oppholdstillatelse som nevnt i § 9.
 >
 
 ## § 8

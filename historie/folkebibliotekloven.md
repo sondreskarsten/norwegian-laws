@@ -7,6 +7,15 @@ refid: "lov/1985-12-20-108"
 
 ## (annet)
 
+### 2012-01-06 — lov/2012-01-06-3
+
+*I lov 20. desember 1985 nr. 108 om folkebibliotek skal § 13 lyde:*
+
+> § 13.Statlige bibliotekoppgaver
+>
+> Departementet, eller den departementet bestemmer, ivaretar statlige bibliotekoppgaver etter denne lov.
+>
+
 ### 2013-06-21 — lov/2013-06-21-95
 
 *Nåværende § 9 blir ny § 6 i kapittel III og skal lyde:*
@@ -38,6 +47,13 @@ refid: "lov/1985-12-20-108"
 ### 2013-06-21 — lov/2013-06-21-95
 
 *Nåværende § 16 blir ny § 10 i kapittel V.*
+
+### 2014-01-01 — forskrift/2013-06-21-747
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
 
 ## § 1
 

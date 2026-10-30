@@ -64,6 +64,20 @@ refid: "lov/2002-06-21-45"
 > Dersom særlige grunnar talar for det, kan politimeisteren eller den han gir myndigheit forkorte den perioden for tap av retten til å føre motorvogn ved persontransport mot vederlag som er fastsett ved dom eller førelegg, jf. § 37 f. Dersom særs sterke grunner talar for det, kan perioden forkortast sjølv om minstetida etter lov eller forskrift ikkje er gått ut.
 >
 
+### 2011-01-01 — forskrift/2010-12-17-1671
+
+*Lov 19. juni 2009 nr. 108 om endringar i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) og i lov 11. juni 1993 nr. 100 om anlegg og drift av jernbane, herunder sporvei, tunnelbane og forstadsbane m.m. (jernbaneloven), som gjeld endringane i yrkestransportlova § 5 og § 16 blir sett i verk 1. januar 2011.*
+
+> Lov 19. juni 2009 nr. 108 om endringar i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) og i lov 11. juni 1993 nr. 100 om anlegg og drift av jernbane, herunder sporvei, tunnelbane og forstadsbane m.m. (jernbaneloven), som gjeld endringane i yrkestransportlova § 5 og § 16 blir sett i verk 1. januar 2011.
+>
+
+### 2015-01-01 — forskrift/2014-11-21-1428
+
+*Ikraftsetting av lov 21. juni 2013 nr. 104 om endringar i yrkestransportlova (gjennomføring av forordning (EF) nr. 1071/2009, 1072/2009 og 1073/2009 og endringar i organiseringa av løyvestyresmaktene mv.). Loven trer i kraft 1. januar 2015.*
+
+> Ikraftsetting av lov 21. juni 2013 nr. 104 om endringar i yrkestransportlova (gjennomføring av forordning (EF) nr. 1071/2009, 1072/2009 og 1073/2009 og endringar i organiseringa av løyvestyresmaktene mv.). Loven trer i kraft 1. januar 2015.
+>
+
 ### 2015-01-23 — lov/2015-01-23-6
 
 *I kapittel 7A skal ny § 37 j lyde:*
@@ -73,13 +87,80 @@ refid: "lov/2002-06-21-45"
 > Departementet kan i forskrift gje nærare reglar om kjøresetel.
 >
 
+### 2015-01-23 — forskrift/2015-01-23-56
+
+*Ikraftsetting av lovendring i yrkestransportloven § 7. Endringen i § 7 trer i kraft straks.*
+
+> Ikraftsetting av lovendring i yrkestransportloven § 7. Endringen i § 7 trer i kraft straks.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1619
+
+*Ikraftsetting av lov 29. august 2014 nr. 63 om endringar i yrkestransportlova (gjennomføring av EØS-reglar om busspassasjerrettar). Loven trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av lov 29. august 2014 nr. 63 om endringar i yrkestransportlova (gjennomføring av EØS-reglar om busspassasjerrettar). Loven trer i kraft 1. januar 2016.
+>
+
+### 2017-03-24 — lov/2017-03-24-11
+
+*I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 9 fjerde ledd lyde:*
+
+> (4) Løyvestyresmakta kan gje påbod om at drosjekøyring etter første ledd skal drivast med motorvogn som har ei øvre grense for miljøskadeleg utslepp. Det skal setjast ein frist på minst fire år for å oppfylle krava. Løyvestyresmakta fastset forskrift om den øvre grensa for miljøskadeleg utslepp.
+>
+> Noverande fjerde og femte ledd blir femte og nytt sjette ledd.
+>
+
+### 2017-05-05 — lov/2017-05-05-24
+
+*I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 31 lyde:*
+
+> § 31.Gebyr
+>
+> Departementet kan fastsetje i forskrift at det skal betalast gebyr forutferding av løyvedokument, løyveskilt, eller annan dokumentasjon etter denne lovaavvikling av løyveeksamen og utferding av kompetansebevis.
+>
+
+### 2020-05-27 — forskrift/2020-05-26-1055
+
+*Loven trer i kraft 27. mai 2020.*
+
+> Loven trer i kraft 27. mai 2020.
+>
+
+### 2021-06-11 — lov/2021-06-11-87
+
+*I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 36 lyde:*
+
+> § 36.Ekstraordinære tilhøve
+>
+> Når samferdselsomsyn under ekstraordinære tilhøve gjer det naudsynt, kan departementet gje løyvehavar pålegg om å utføre visse transportoppgåver. Det same gjeld for andre som eig eller brukar motorvogner for gods- og persontransport og målepliktig fartøy.
+>
+
+### 2023-06-01 — forskrift/2023-05-26-730
+
+*Delt ikraftsetting av loven. Endringen i loven § 9 trer i kraft 1. juni 2023.*
+
+> Delt ikraftsetting av loven. Endringen i loven § 9 trer i kraft 1. juni 2023.
+>
+
+### 2023-06-16 — lov/2023-06-16-38
+
+*I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal § 32 a åttende ledd lyde:*
+
+> (8) Handhevingsorganet kan fastsetje lovbrotsgebyr for ei verksemd dersom verksemda eller nokon på vegne av verksemda har handla i strid med reglane i første til fjerde ledd. Dette gjeld òg dersom verksemda eller nokon på vegne av verksemda ikkje hjelper til ved gjennomføring av kontroll på tenesteytaren sin eigedom, jf. femte ledd. Departementet kan i forskrift gi reglar om utmåling av lovbrotsgebyret.
+>
+
+### 2024-03-01 — forskrift/2024-02-02-153
+
+*Delt ikraftsetting av lov 26. mai 2023 nr. 16 om endringer i yrkestransportlova (fagkompetansekrav for drosjeløyvehavere og overtredelsesgebyr). Endringen i loven § 40a trer i kraft 1. mars 2024.*
+
+> Delt ikraftsetting av lov 26. mai 2023 nr. 16 om endringer i yrkestransportlova (fagkompetansekrav for drosjeløyvehavere og overtredelsesgebyr). Endringen i loven § 40a trer i kraft 1. mars 2024.
+>
+
 ### 2024-03-15 — lov/2024-03-15-10
 
 *Overskriften i § 9 skal lyde:*
 
-> § 9.Løyve for persontransport med motorvogn registrert for inntil 9 personar utanfor rute
->
-> § 9.Løyve for persontransport med motorvogn registrert for inntil 9 personar utanfor rute
+> § 9. Løyve for persontransport med motorvogn registrert for inntil 9 personar utanfor rute
 >
 
 ### 2024-03-15 — lov/2024-03-15-10
@@ -90,18 +171,24 @@ refid: "lov/2002-06-21-45"
 
 *I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy skal ny § 37 k lyde:*
 
-> § 37 k.Mellombels unntak frå butidskrav for fordrivne frå UkrainaFor personar med mellombels kollektivt vern etter utlendingsloven § 34 som legg fram politiattest som klart framstår autentisk frå heimstaten sin, gjeld ikkje kravet i § 37 c andre ledd om butid for utferding av kjøresetel.Kjøresetel for personar med mellombels kollektivt vern som har budd mindre enn fire år i Noreg, gjeld berre persontransport med bil for persontransport med over 8 sitteplassar i tillegg til førarsetet og tillaten totalvekt over 5000 kg. Politiet skal påføre kjøresetelen merknad om kva for kjøretøy han gjeld for.Part eller annan med rettsleg klageinteresse kan ikkje klage på avslag som har grunnlag i forhold kring autentisiteten til politiattesten.Politiet kan krevje at personar med mellombels kollektivt vern kjem til intervju for å vurdere om vilkåra etter § 37 c første ledd første punktum er oppfylte.Kjøresetel utferda med grunnlag i dette unntaket gjeld til innehavaren har budd fire år i Noreg, med mindre anna er bestemt om føresetnader som gjeld alder i § 37 a tredje ledd. Politiet skal påføre kjøresetelen merknad om kva for periode han gjeld for.
+> § 37 k. Mellombels unntak frå butidskrav for fordrivne frå Ukraina
 >
-> § 37 k.Mellombels unntak frå butidskrav for fordrivne frå Ukraina
+> For personar med mellombels kollektivt vern etter utlendingsloven § 34 som legg fram politiattest som klart framstår autentisk frå heimstaten sin, gjeld ikkje kravet i § 37 c andre ledd om butid for utferding av kjøresetel.
+>
+> Kjøresetel for personar med mellombels kollektivt vern som har budd mindre enn fire år i Noreg, gjeld berre persontransport med bil for persontransport med over 8 sitteplassar i tillegg til førarsetet og tillaten totalvekt over 5000 kg. Politiet skal påføre kjøresetelen merknad om kva for kjøretøy han gjeld for.
+>
+> Part eller annan med rettsleg klageinteresse kan ikkje klage på avslag som har grunnlag i forhold kring autentisiteten til politiattesten.
+>
+> Politiet kan krevje at personar med mellombels kollektivt vern kjem til intervju for å vurdere om vilkåra etter § 37 c første ledd første punktum er oppfylte.
+>
+> Kjøresetel utferda med grunnlag i dette unntaket gjeld til innehavaren har budd fire år i Noreg, med mindre anna er bestemt om føresetnader som gjeld alder i § 37 a tredje ledd. Politiet skal påføre kjøresetelen merknad om kva for periode han gjeld for.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Overskriften i § 9 skal lyde:*
 
-> § 9.Løyve for persontransport med motorvogn registrert for inntil 9 personar utanfor rute
->
-> § 9.Løyve for persontransport med motorvogn registrert for inntil 9 personar utanfor rute
+> § 9. Løyve for persontransport med motorvogn registrert for inntil 9 personar utanfor rute
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
@@ -112,6 +199,13 @@ refid: "lov/2002-06-21-45"
 
 *Nåværende andre og tredje ledd blir tredje og nytt fjerde ledd.*
 
+### 2024-09-01 — forskrift/2024-06-25-1210
+
+*Ikraftsetting av lov 15. mars 2024 nr. 10 om endringer i yrkestransportlova (sentraltilknytningsplikt og justering av løyveplikten for drosje). Loven trer i kraft 1. september 2024.*
+
+> Ikraftsetting av lov 15. mars 2024 nr. 10 om endringer i yrkestransportlova (sentraltilknytningsplikt og justering av løyveplikten for drosje). Loven trer i kraft 1. september 2024.
+>
+
 ### 2025-06-20 — lov/2025-06-20-111
 
 *Nåværende §§ 9 b og 9 c blir §§ 9 c og 9 d.*
@@ -120,40 +214,154 @@ refid: "lov/2002-06-21-45"
 
 *Nåværende § 9 d blir § 9 e, og overskriften skal lyde:*
 
-> § 9 e.Klageordning og tilbod til personar med nedsett funksjonsevne mv.
->
-> § 9 e.Klageordning og tilbod til personar med nedsett funksjonsevne mv.
+> § 9 e. Klageordning og tilbod til personar med nedsett funksjonsevne mv.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
 
 *Nåværende § 9 e blir § 9 g og skal lyde:*
 
-> § 9 g.Unnatak frå sentralane sine plikterLøyvestyresmakta kan gje sentralane unnatak frå pliktene etter §§ 9 d og 9 e.
+> § 9 g. Unnatak frå sentralane sine plikter
 >
-> § 9 g.Unnatak frå sentralane sine plikter
+> Løyvestyresmakta kan gje sentralane unnatak frå pliktene etter §§ 9 d og 9 e.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
 
 *Nåværende § 9 f blir ny § 9 h og skal lyde:*
 
-> § 9 h.Pålegg om rettingLøyvestyresmakta kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav og etterlever plikter som følgjer av §§ 9 c, 9 d og 9 e. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
+> § 9 h. Pålegg om retting
 >
-> § 9 h.Pålegg om retting
+> Løyvestyresmakta kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav og etterlever plikter som følgjer av §§ 9 c, 9 d og 9 e. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
 
 *Nåværende § 9 g blir ny § 9 i.*
 
+### 2026-01-01 — forskrift/2025-09-19-1874
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 111 om endringer i yrkestransportloven mv. (drosjetilbud, internkontroll, kontrollutrustning og tilknytning til sentral).*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 111 om endringer i yrkestransportloven mv. (drosjetilbud, internkontroll, kontrollutrustning og tilknytning til sentral).
+>
+> Følgende trer i kraft 1. januar 2026:
+>
+> Endringsloven del I – § 9 andre ledd første punktum, nytt andre punktum og tredje punktum, slik at nåværende tredje og fjerde punktum blir fjerde og femte punktum.
+>
+> Endringsloven del I – ny § 9a og ny § 9b.
+>
+> Endringsloven del I – omnummerering av paragrafene gjennomføres.
+>
+> Endringsloven del I – overskriften i § 9e.
+>
+> Endringsloven del I – ny § 9g, ny § 9h, § 12 andre ledd og § 27 andre ledd.
+>
+> Følgende trer i kraft 1. juli 2026:
+>
+> Endringsloven del I – ny § 9f.
+>
+
 ### 2026-06-12 — lov/2026-06-12-22
 
 *I lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova) skal § 37 k lyde:*
 
-> § 37 k.Mellombels unntak frå butidskrav for fordrivne frå UkrainaFor personar med mellombels kollektivt vern etter utlendingsloven § 34 som legg fram politiattest som klart framstår autentisk frå heimstaten sin, gjeld ikkje kravet i § 37 c andre ledd om butid for utferding av kjøresetel.Kjøresetel for personar med mellombels kollektivt vern som har budd mindre enn fire år i Noreg, gjeld berre persontransport med bil for persontransport med over 8 sitjeplassar i tillegg til førarsetet og tillaten totalvekt over 5000 kg. Politiet skal påføre kjøresetelen merknad om kva for kjøretøy han gjeld for.Part eller annan med rettsleg klageinteresse kan ikkje klage på avslag som har grunnlag i forhold kring autentisiteten til politiattesten.Politiet kan krevje at personar med mellombels kollektivt vern kjem til intervju for å vurdere om vilkåra etter § 37 c første ledd første punktum er oppfylte.Kjøresetel utferda med grunnlag i dette unntaket gjeld til innehavaren har budd fire år i Noreg, med mindre anna er bestemt om føresetnader som gjeld alder i § 37 a tredje ledd. Politiet skal påføre kjøresetelen merknad om kva for periode han gjeld for.
+> § 37 k. Mellombels unntak frå butidskrav for fordrivne frå Ukraina
 >
-> § 37 k.Mellombels unntak frå butidskrav for fordrivne frå Ukraina
+> For personar med mellombels kollektivt vern etter utlendingsloven § 34 som legg fram politiattest som klart framstår autentisk frå heimstaten sin, gjeld ikkje kravet i § 37 c andre ledd om butid for utferding av kjøresetel.
+>
+> Kjøresetel for personar med mellombels kollektivt vern som har budd mindre enn fire år i Noreg, gjeld berre persontransport med bil for persontransport med over 8 sitjeplassar i tillegg til førarsetet og tillaten totalvekt over 5000 kg. Politiet skal påføre kjøresetelen merknad om kva for kjøretøy han gjeld for.
+>
+> Part eller annan med rettsleg klageinteresse kan ikkje klage på avslag som har grunnlag i forhold kring autentisiteten til politiattesten.
+>
+> Politiet kan krevje at personar med mellombels kollektivt vern kjem til intervju for å vurdere om vilkåra etter § 37 c første ledd første punktum er oppfylte.
+>
+> Kjøresetel utferda med grunnlag i dette unntaket gjeld til innehavaren har budd fire år i Noreg, med mindre anna er bestemt om føresetnader som gjeld alder i § 37 a tredje ledd. Politiet skal påføre kjøresetelen merknad om kva for periode han gjeld for.
+>
+
+## § 1
+
+### 2020-05-26 — lov/2020-05-26-55
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Formål og virkeområde
+>
+> Formålet med loven er å regulere billettering på ferjer som har løyve til å drive persontransport med fartøy i rute etter yrkestransportlova § 7, under utbruddet og spredningen av covid-19, slik at billetteringen kan gjøres på en måte som ikke bidrar til fare for spredning av smitte, og slik at tap av inntekter fra ferjebilletter kan begrenses.
+>
+> Loven gjelder i Norge.
+>
+> § 2
+>
+> .
+>
+> Billettering
+>
+> Billettering etter denne lov kan gjennomføres ved identifikasjon av kjøretøyet gjennom registrering av kjennemerke eller AutoPASS-brikke.
+>
+> For kjøretøy som er registrert med avtale som gir rabatt på ferje, eller annen avtale som gir grunnlag for oppgjør eller betaling, foretas oppgjøret av billetteringen i samsvar med avtalevilkårene. For kjøretøy som ikke er registrert med avtale, faktureres den betalingsansvarlige av løyvemyndigheten eller selskap som etter avtale med løyvemyndigheten håndterer billettering på ferje, etter at ferjereisen er gjennomført.
+>
+> På ferjer der billettering gjennomføres etter denne loven, kan ferjetaksten ikke gjøres opp om bord på ferja.
+>
+> § 3
+>
+> .
+>
+> Takst
+>
+> Ved taksering legges gjeldende takstregulativ og sone til grunn for det aktuelle ferjesambandet. Kjøretøyet takseres i den takstgruppen kjøretøyet måles til å tilhøre, medregnet last. Trafikanter som har avtale som gir rabatt på ferje, skal tilgodeses denne ved billettering.
+>
+> Loven gir ikke hjemmel for å kreve betaling for kjøretøyets sjåfør eller passasjerer.
+>
+> § 4
+>
+> .
+>
+> Betalingsansvar
+>
+> For kjøretøy som er registrert med avtale som gir rabatt på ferje, eller annen avtale som gir grunnlag for oppgjør eller fakturering av ferjetaksten, er avtaleparten ansvarlig for at ferjetaksten kan gjøres opp eller blir betalt, i samsvar med de nærmere vilkårene i avtalen.
+>
+> For kjøretøy som ikke er registrert med avtale som nevnt i første ledd, er eieren av kjøretøyet ansvarlig for at riktig takst blir betalt. Er kjøretøyet utstyrt med prøvekjennemerke, er den som har anskaffet prøvekjennemerket ansvarlig for betalingen.
+>
+> § 5
+>
+> .
+>
+> Behandling av personopplysninger
+>
+> Behandlingsansvarlige etter § 6 kan behandle personopplysninger som er nødvendige for billettering, etterfølgende oppgjør og fakturering i samsvar med denne loven. For trafikanter som har avtale om rabatt på ferje eller annen avtale som gir grunnlag for oppgjør eller betaling, skal personopplysninger behandles i samsvar med avtalen. For trafikanter uten slik avtale kan det behandles opplysninger om kjøretøyets kjennemerke, reist strekning, reisetidspunkt og takstgruppe kjøretøyet tilhører.
+>
+> Det kan ikke behandles personopplysninger som nevnt i personvernforordningen artikkel 9 nr. 1 etter denne loven.
+>
+> Personopplysninger skal ikke lagres lenger enn nødvendig for formålene nevnt i første ledd, med mindre annet er bestemt i eller i medhold av lov.
+>
+> § 6
+>
+> .
+>
+> Behandlingsansvarlig mv.
+>
+> Statens vegvesen, fylkeskommunene og selskap som har løyve til å drive transport med fartøy og billettering av passasjerer etter yrkestransportlova, kan behandle personopplysninger etter denne loven. Dette gjelder også selskap eller andre juridiske personer som etter avtale med nevnte myndigheter eller aktører utfører tjenester innen ferjeområdet som er nødvendige for å gjennomføre billettering på ferjene.
+>
+> § 7
+>
+> .
+>
+> Utlevering av personopplysninger
+>
+> Personopplysninger kan bare utleveres til den registrerte selv, til offentlig myndighet med hjemmel til å kreve slike opplysninger og til selskap eller juridisk person som utfører tjenester på ferjeområdet når det er nødvendig for å gjennomføre billetteringen.
+>
+> § 8
+>
+> .
+>
+> Ikrafttredelse og tidspunkt for opphevelse av loven
+>
+> Loven gjelder fra den tid Kongen bestemmer. Loven oppheves 1. januar 2021.
 >
 
 ## § 10
@@ -202,13 +410,22 @@ refid: "lov/2002-06-21-45"
 
 *§ 12 andre ledd skal lyde:*
 
+> (2) Løyve etter §§ 9 og 9 b vert gjevne av fylkeskommunen.
+>
+
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 12 andre ledd skal lyde:*
 
+> (2) Løyve etter §§ 9 og 9 b vert gjevne av fylkeskommunen.
+>
+
 ### 2025-06-20 — lov/2025-06-20-111
 
 *§ 12 andre ledd skal lyde:*
+
+> (2) Løyve etter §§ 9 og 9 c vert gjevne av fylkeskommunen.
+>
 
 ## § 14
 
@@ -250,18 +467,18 @@ refid: "lov/2002-06-21-45"
 
 *§ 20 skal lyde:*
 
-> § 20.Transport med ambulanseDet trengst ikkje løyve for transport av sjuke eller skadde personar med godkjend ambulanse.
+> § 20. Transport med ambulanse
 >
-> § 20.Transport med ambulanse
+> Det trengst ikkje løyve for transport av sjuke eller skadde personar med godkjend ambulanse.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 20 skal lyde:*
 
-> § 20.Transport med ambulanseDet trengst ikkje løyve for transport av sjuke eller skadde personar med godkjend ambulanse.
+> § 20. Transport med ambulanse
 >
-> § 20.Transport med ambulanse
+> Det trengst ikkje løyve for transport av sjuke eller skadde personar med godkjend ambulanse.
 >
 
 ## § 21
@@ -270,9 +487,15 @@ refid: "lov/2002-06-21-45"
 
 *§ 21 første ledd skal lyde:*
 
+> (1) Departementet kan i forskrift eller einskildvedtak fastsetje unnatak frå kravet om løyve eller einskilde vilkår for løyve, for særskilte slag transportar eller motorvogner dersom det ikkje er i strid med internasjonal avtale der Noreg er part.
+>
+
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 21 første ledd skal lyde:*
+
+> (1) Departementet kan i forskrift eller einskildvedtak fastsetje unnatak frå kravet om løyve eller einskilde vilkår for løyve, for særskilte slag transportar eller motorvogner dersom det ikkje er i strid med internasjonal avtale der Noreg er part.
+>
 
 ## § 23
 
@@ -339,13 +562,22 @@ refid: "lov/2002-06-21-45"
 
 *§ 27 andre ledd skal lyde:*
 
+> (2) Løyve etter § 9 b gjeld utan avgrensing i tid.
+>
+
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 27 andre ledd skal lyde:*
 
+> (2) Løyve etter § 9 b gjeld utan avgrensing i tid.
+>
+
 ### 2025-06-20 — lov/2025-06-20-111
 
 *§ 27 andre ledd skal lyde:*
+
+> (2) Løyve etter § 9 c gjeld utan avgrensing i tid.
+>
 
 ## § 29 a
 
@@ -621,18 +853,22 @@ refid: "lov/2002-06-21-45"
 
 *§ 4 skal lyde:*
 
-> § 4.Løyve for persontransport med motorvogn registrert for meir enn 9 personar(1) Den som mot vederlag vil drive nasjonal eller internasjonal persontransport med motorvogn registrert for meir enn 9 personar, må ha løyve. Det same gjeld den som utfører persontransport mot vederlag på liknande måte som drosje når tilbod om transport vert retta til ålmenta på offentleg plass eller via digitale plattformer.(2) Løyve skal tildelast den somdriv ei faktisk og varig verksemd i Noreg,har god vandel,har tilfredsstillande økonomisk evne, oghar tilstrekkeleg fagleg kompetanse.
+> § 4. Løyve for persontransport med motorvogn registrert for meir enn 9 personar
 >
-> § 4.Løyve for persontransport med motorvogn registrert for meir enn 9 personar
+> (1) Den som mot vederlag vil drive nasjonal eller internasjonal persontransport med motorvogn registrert for meir enn 9 personar, må ha løyve. Det same gjeld den som utfører persontransport mot vederlag på liknande måte som drosje når tilbod om transport vert retta til ålmenta på offentleg plass eller via digitale plattformer.
+>
+> (2) Løyve skal tildelast den somdriv ei faktisk og varig verksemd i Noreg,har god vandel,har tilfredsstillande økonomisk evne, oghar tilstrekkeleg fagleg kompetanse.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 4 skal lyde:*
 
-> § 4.Løyve for persontransport med motorvogn registrert for meir enn 9 personar(1) Den som mot vederlag vil drive nasjonal eller internasjonal persontransport med motorvogn registrert for meir enn 9 personar, må ha løyve. Det same gjeld den som utfører persontransport mot vederlag på liknande måte som drosje når tilbod om transport vert retta til ålmenta på offentleg plass eller via digitale plattformer.(2) Løyve skal tildelast den somdriv ei faktisk og varig verksemd i Noreg,har god vandel,har tilfredsstillande økonomisk evne, oghar tilstrekkeleg fagleg kompetanse.
+> § 4. Løyve for persontransport med motorvogn registrert for meir enn 9 personar
 >
-> § 4.Løyve for persontransport med motorvogn registrert for meir enn 9 personar
+> (1) Den som mot vederlag vil drive nasjonal eller internasjonal persontransport med motorvogn registrert for meir enn 9 personar, må ha løyve. Det same gjeld den som utfører persontransport mot vederlag på liknande måte som drosje når tilbod om transport vert retta til ålmenta på offentleg plass eller via digitale plattformer.
+>
+> (2) Løyve skal tildelast den somdriv ei faktisk og varig verksemd i Noreg,har god vandel,har tilfredsstillande økonomisk evne, oghar tilstrekkeleg fagleg kompetanse.
 >
 
 ## § 40
@@ -869,21 +1105,36 @@ refid: "lov/2002-06-21-45"
 
 *§ 9 første ledd skal lyde:*
 
+> (1) Den som mot vederlag, og med mål om forteneste, vil drive persontransport utanfor rute med motorvogn registrert for inntil 9 personar, må ha drosjeløyve. § 4 andre ledd bokstav a til d gjeld tilsvarande. Løyveplikt gjeld òg for den som utfører persontransport mot vederlag på liknande måte som drosje når tilbod om transport vert retta til ålmenta på offentleg plass eller via digitale plattformer. Løyveplikt etter tredje punktum gjeld sjølv om den som utfører transporten ikkje har mål om forteneste.
+>
+
 ### 2024-03-15 — lov/2024-03-15-10
 
 *§ 9 nytt andre ledd skal lyde:*
+
+> (2) Den som har løyve etter denne føresegna, skal vere knytt til ein drosjesentral. Løyvehavar skal rapportere dei opplysningane til sentralen som sentralen treng for å ivareta sine plikter etter §§ 9 c og 9 d i denne lova. Løyvehavaren skal sikre at betaling for all løyvepliktig drosjetransport vert registrert i taksameter hos ein drosjesentral som løyvehavar er knytt til. Løyvestyresmakta kan gje dispensasjon frå krava i dette leddet på vilkår som vert nærare fastsett av departementet i forskrift.
+>
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 9 første ledd skal lyde:*
 
+> (1) Den som mot vederlag, og med mål om forteneste, vil drive persontransport utanfor rute med motorvogn registrert for inntil 9 personar, må ha drosjeløyve. § 4 andre ledd bokstav a til d gjeld tilsvarande. Løyveplikt gjeld òg for den som utfører persontransport mot vederlag på liknande måte som drosje når tilbod om transport vert retta til ålmenta på offentleg plass eller via digitale plattformer. Løyveplikt etter tredje punktum gjeld sjølv om den som utfører transporten ikkje har mål om forteneste.
+>
+
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *§ 9 nytt andre ledd skal lyde:*
 
+> (2) Den som har løyve etter denne føresegna, skal vere knytt til ein drosjesentral. Løyvehavar skal rapportere dei opplysningane til sentralen som sentralen treng for å ivareta sine plikter etter §§ 9 c og 9 d i denne lova. Løyvehavaren skal sikre at betaling for all løyvepliktig drosjetransport vert registrert i taksameter hos ein drosjesentral som løyvehavar er knytt til. Løyvestyresmakta kan gje dispensasjon frå krava i dette leddet på vilkår som vert nærare fastsett av departementet i forskrift.
+>
+
 ### 2025-06-20 — lov/2025-06-20-111
 
 *§ 9 andre ledd skal lyde:*
+
+> (2) Den som har løyve etter denne føresegna, skal vere knytt til ein drosjesentral. Løyvehavar kan ikkje vere knytt til meir enn ein sentral. Løyvehavar skal rapportere dei opplysningane til sentralen som sentralen treng for å oppfylle pliktene etter §§ 9 d til 9 e i denne lova. Løyvehavaren skal sikre at betaling for all løyvepliktig drosjetransport vert registrert i ei godkjend kontrollutrusting hos ein drosjesentral som løyvehavar er knytt til. Bestilling av og betaling for bestilt drosjetransport skal registrerast automatisk i kontrollutrustinga. Kontrollutrustinga skal ha fast tilknyting til motorvogna gjennom fysisk kopling eller på anna sikkert vis når det går fram av forskrift fastsett av departementet. Løyvestyresmakta kan gje dispensasjon frå krava i dette leddet på vilkår som vert nærare fastsett av departementet i forskrift.
+>
 
 ## § 9 a
 
@@ -916,9 +1167,13 @@ refid: "lov/2002-06-21-45"
 
 *§ 9 a skal lyde:*
 
-> § 9 a.Drosjetilbod i enkeltturmarknaden(1) Fylkeskommunen skal vurdere om det er eit tilfredsstillande drosjetilbod i enkeltturmarknaden i fylket som del av eit heilskapleg transporttilbod.(2) Fylkeskommunen kan sette i verk tiltak for å sikre omfang, kvalitet og pris på drosjetenestene i enkeltturmarknaden dersom det er nødvendig for å sikre eit tilfredsstillande transporttilbod.(3) Når fylkeskommunen og andre offentlege innkjøparar inngår kontrakt om drosjetenester, skal dei vurdere og ta omsyn til dei verknadene kontrakten vil ha på andre delar av drosjetilbodet og andre delar av transporttilbodet. Før kontrakt vert lyst ut, skal andre offentlege innkjøparar i dei områda kontrakten gjeld, høyrast.
+> § 9 a. Drosjetilbod i enkeltturmarknaden
 >
-> § 9 a.Drosjetilbod i enkeltturmarknaden
+> (1) Fylkeskommunen skal vurdere om det er eit tilfredsstillande drosjetilbod i enkeltturmarknaden i fylket som del av eit heilskapleg transporttilbod.
+>
+> (2) Fylkeskommunen kan sette i verk tiltak for å sikre omfang, kvalitet og pris på drosjetenestene i enkeltturmarknaden dersom det er nødvendig for å sikre eit tilfredsstillande transporttilbod.
+>
+> (3) Når fylkeskommunen og andre offentlege innkjøparar inngår kontrakt om drosjetenester, skal dei vurdere og ta omsyn til dei verknadene kontrakten vil ha på andre delar av drosjetilbodet og andre delar av transporttilbodet. Før kontrakt vert lyst ut, skal andre offentlege innkjøparar i dei områda kontrakten gjeld, høyrast.
 >
 
 ## § 9 b
@@ -927,27 +1182,49 @@ refid: "lov/2002-06-21-45"
 
 *Ny § 9 b skal lyde:*
 
-> § 9 b.Løyve for å drive drosjesentral(1) Den som vil drive drosjesentral, må ha løyve. Løyve skal tildelast søkjarar som oppfyller krava i § 4 andre ledd bokstav a til c.(2) Drosjesentralen skal ha ein dagleg leiar.
+> § 9 b. Løyve for å drive drosjesentral
 >
-> § 9 b.Løyve for å drive drosjesentral
+> (1) Den som vil drive drosjesentral, må ha løyve. Løyve skal tildelast søkjarar som oppfyller krava i § 4 andre ledd bokstav a til c.
+>
+> (2) Drosjesentralen skal ha ein dagleg leiar.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Ny § 9 b skal lyde:*
 
-> § 9 b.Løyve for å drive drosjesentral(1) Den som vil drive drosjesentral, må ha løyve. Løyve skal tildelast søkjarar som oppfyller krava i § 4 andre ledd bokstav a til c.(2) Drosjesentralen skal ha ein dagleg leiar.
+> § 9 b. Løyve for å drive drosjesentral
 >
-> § 9 b.Løyve for å drive drosjesentral
+> (1) Den som vil drive drosjesentral, må ha løyve. Løyve skal tildelast søkjarar som oppfyller krava i § 4 andre ledd bokstav a til c.
+>
+> (2) Drosjesentralen skal ha ein dagleg leiar.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
 
 *§ 9 b skal lyde:*
 
-> § 9 b.Einerettar for drosjetransport(1) Fylkeskommunen kan tildele godtgjersle eller einerett for å tilby drosjetenester når det er nødvendig for å sikre eit tilfredsstillande drosjetilbod i enkeltturmarknaden i heile eller delar av fylket. Godtgjersle og einerett kan kombinerast. Fylkeskommunen fastset avgjerda om bruk av einerett i forskrift.(2) Fylkeskommunen skal avgrense godtgjersla eller eineretten til eit fast definert område.(3) Departementet kan, ut frå innbyggjartal og innbyggjartettleik, i forskrift fastsette område der fylkeskommunen kan tildele einerett.(4) Tildeling av einerett eller godtgjersle som kompensasjon for plikt til offentleg teneste skal skje etter opne og etterprøvbare prosessar basert på objektive og transpararente kriterium.(5) Fylkeskommunen kan tildele einerett for ein periode på inntil fem år.(6) Fylkeskommunen kan gjere einerett gjeldande for drosjetenester i enkeltturmarknaden og kontraktmarknaden.(7) Drosjeløyvehavarar som har einerett, kan utføre oppdrag frå einerettsområdet til ein kvar stad i eller utanfor einerettsområdet.(8) Drosjeløyvehavarar som ikkje har einerett, kan ikkje utføre drosjetransport innanfor område der fylkeskommunen har tildelt einerett. Ein drosjeløyvehavar som ikkje har einerett, kan likevel transportere passasjerar inn i einerettsområdet. Han kan og transportere passasjerar frå eit einerettsområde til ein stad utanfor einerettsområdet dersom transporten er bestilt på førehand.(9) Fylkeskommunen kan i einskildvedtak eller forskrift gje andre enn den som har einerett, rett til å køyre i einerettsområdet.(10) Departementet kan i forskrift fastsetje nærare reglar om einerettar.
+> § 9 b. Einerettar for drosjetransport
 >
-> § 9 b.Einerettar for drosjetransport
+> (1) Fylkeskommunen kan tildele godtgjersle eller einerett for å tilby drosjetenester når det er nødvendig for å sikre eit tilfredsstillande drosjetilbod i enkeltturmarknaden i heile eller delar av fylket. Godtgjersle og einerett kan kombinerast. Fylkeskommunen fastset avgjerda om bruk av einerett i forskrift.
+>
+> (2) Fylkeskommunen skal avgrense godtgjersla eller eineretten til eit fast definert område.
+>
+> (3) Departementet kan, ut frå innbyggjartal og innbyggjartettleik, i forskrift fastsette område der fylkeskommunen kan tildele einerett.
+>
+> (4) Tildeling av einerett eller godtgjersle som kompensasjon for plikt til offentleg teneste skal skje etter opne og etterprøvbare prosessar basert på objektive og transpararente kriterium.
+>
+> (5) Fylkeskommunen kan tildele einerett for ein periode på inntil fem år.
+>
+> (6) Fylkeskommunen kan gjere einerett gjeldande for drosjetenester i enkeltturmarknaden og kontraktmarknaden.
+>
+> (7) Drosjeløyvehavarar som har einerett, kan utføre oppdrag frå einerettsområdet til ein kvar stad i eller utanfor einerettsområdet.
+>
+> (8) Drosjeløyvehavarar som ikkje har einerett, kan ikkje utføre drosjetransport innanfor område der fylkeskommunen har tildelt einerett. Ein drosjeløyvehavar som ikkje har einerett, kan likevel transportere passasjerar inn i einerettsområdet. Han kan og transportere passasjerar frå eit einerettsområde til ein stad utanfor einerettsområdet dersom transporten er bestilt på førehand.
+>
+> (9) Fylkeskommunen kan i einskildvedtak eller forskrift gje andre enn den som har einerett, rett til å køyre i einerettsområdet.
+>
+> (10) Departementet kan i forskrift fastsetje nærare reglar om einerettar.
 >
 
 ## § 9 c
@@ -956,18 +1233,42 @@ refid: "lov/2002-06-21-45"
 
 *Ny § 9 c skal lyde:*
 
-> § 9 c.Drosjesentralen sine plikter til å samle inn, lagre og sende inn informasjon(1) Drosjesentralen skal ha opplysningar om:løyvehavarar som er knytte til sentralen,sjåførar som er tilsette hos tilslutta løyvehavarar,drosjer som er knytte til sentralen og registreringsnummeret på drosjene,taksameter som er installert i drosja, inkludert serienummer,talet på drosjer som til kvar tid er tilgjengelege for sentralen og kva for geografiske område drosjene dekker,dei drosjene dei tilknytte løyvehavarane disponerer som er tilpassa personar med nedsett funksjonsevne.(2) Drosjesentralen skal løpande og digitalt samle inn og lagre opplysningar om posisjonsdata for drosjeturar som drosjeløyvehavaren har loggført etter § 9 fjerde ledd. Sentralen skal lagre opplysningane i 60 dagar.(3) Drosjesentralen skal løpande og digitalt samle inn og lagre dei opplysningane som vert kravde med heimel i lov 19. november 2004 nr. 73 om bokføring for dei løyvehavarane som er knytte til sentralen. Sentralen skal lagre opplysningane i fem år etter slutten av rekneskapsåret.(4) Drosjesentralen skal løpande og digitalt samle inn og lagre pris for drosjetransport i område der det er fastsett pristak med heimel i lov 11. juni 1993 nr. 66 om pristiltak for dei løyvehavarane som er knytte til sentralen.(5) Drosjesentralen sine administrative system skal årleg gjennomgå ein systemrevisjon for å sikre datatryggleik og datakvalitet. Systemrevisjonen skal dokumenterast gjennom ei uavhengig revisorfråsegn eller gjennom godkjent sertifiseringsordning.(6) Drosjesentralen skal, når styresmaktene ber om det, sende inn dei opplysningane som følgjer av første til femte ledd.(7) Opplysningar som er nemnde i første til femte ledd skal lagrast i EØS-området og vere tilgjengelege for styresmaktene på det formatet dei krev.
+> § 9 c. Drosjesentralen sine plikter til å samle inn, lagre og sende inn informasjon
 >
-> § 9 c.Drosjesentralen sine plikter til å samle inn, lagre og sende inn informasjon
+> (1) Drosjesentralen skal ha opplysningar om:løyvehavarar som er knytte til sentralen,sjåførar som er tilsette hos tilslutta løyvehavarar,drosjer som er knytte til sentralen og registreringsnummeret på drosjene,taksameter som er installert i drosja, inkludert serienummer,talet på drosjer som til kvar tid er tilgjengelege for sentralen og kva for geografiske område drosjene dekker,dei drosjene dei tilknytte løyvehavarane disponerer som er tilpassa personar med nedsett funksjonsevne.
+>
+> (2) Drosjesentralen skal løpande og digitalt samle inn og lagre opplysningar om posisjonsdata for drosjeturar som drosjeløyvehavaren har loggført etter § 9 fjerde ledd. Sentralen skal lagre opplysningane i 60 dagar.
+>
+> (3) Drosjesentralen skal løpande og digitalt samle inn og lagre dei opplysningane som vert kravde med heimel i lov 19. november 2004 nr. 73 om bokføring for dei løyvehavarane som er knytte til sentralen. Sentralen skal lagre opplysningane i fem år etter slutten av rekneskapsåret.
+>
+> (4) Drosjesentralen skal løpande og digitalt samle inn og lagre pris for drosjetransport i område der det er fastsett pristak med heimel i lov 11. juni 1993 nr. 66 om pristiltak for dei løyvehavarane som er knytte til sentralen.
+>
+> (5) Drosjesentralen sine administrative system skal årleg gjennomgå ein systemrevisjon for å sikre datatryggleik og datakvalitet. Systemrevisjonen skal dokumenterast gjennom ei uavhengig revisorfråsegn eller gjennom godkjent sertifiseringsordning.
+>
+> (6) Drosjesentralen skal, når styresmaktene ber om det, sende inn dei opplysningane som følgjer av første til femte ledd.
+>
+> (7) Opplysningar som er nemnde i første til femte ledd skal lagrast i EØS-området og vere tilgjengelege for styresmaktene på det formatet dei krev.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Ny § 9 c skal lyde:*
 
-> § 9 c.Drosjesentralen sine plikter til å samle inn, lagre og sende inn informasjon(1) Drosjesentralen skal ha opplysningar om:løyvehavarar som er knytte til sentralen,sjåførar som er tilsette hos tilslutta løyvehavarar,drosjer som er knytte til sentralen og registreringsnummeret på drosjene,taksameter som er installert i drosja, inkludert serienummer,talet på drosjer som til kvar tid er tilgjengelege for sentralen og kva for geografiske område drosjene dekker,dei drosjene dei tilknytte løyvehavarane disponerer som er tilpassa personar med nedsett funksjonsevne.(2) Drosjesentralen skal løpande og digitalt samle inn og lagre opplysningar om posisjonsdata for drosjeturar som drosjeløyvehavaren har loggført etter § 9 fjerde ledd. Sentralen skal lagre opplysningane i 60 dagar.(3) Drosjesentralen skal løpande og digitalt samle inn og lagre dei opplysningane som vert kravde med heimel i lov 19. november 2004 nr. 73 om bokføring for dei løyvehavarane som er knytte til sentralen. Sentralen skal lagre opplysningane i fem år etter slutten av rekneskapsåret.(4) Drosjesentralen skal løpande og digitalt samle inn og lagre pris for drosjetransport i område der det er fastsett pristak med heimel i lov 11. juni 1993 nr. 66 om pristiltak for dei løyvehavarane som er knytte til sentralen.(5) Drosjesentralen sine administrative system skal årleg gjennomgå ein systemrevisjon for å sikre datatryggleik og datakvalitet. Systemrevisjonen skal dokumenterast gjennom ei uavhengig revisorfråsegn eller gjennom godkjent sertifiseringsordning.(6) Drosjesentralen skal, når styresmaktene ber om det, sende inn dei opplysningane som følgjer av første til femte ledd.(7) Opplysningar som er nemnde i første til femte ledd skal lagrast i EØS-området og vere tilgjengelege for styresmaktene på det formatet dei krev.
+> § 9 c. Drosjesentralen sine plikter til å samle inn, lagre og sende inn informasjon
 >
-> § 9 c.Drosjesentralen sine plikter til å samle inn, lagre og sende inn informasjon
+> (1) Drosjesentralen skal ha opplysningar om:løyvehavarar som er knytte til sentralen,sjåførar som er tilsette hos tilslutta løyvehavarar,drosjer som er knytte til sentralen og registreringsnummeret på drosjene,taksameter som er installert i drosja, inkludert serienummer,talet på drosjer som til kvar tid er tilgjengelege for sentralen og kva for geografiske område drosjene dekker,dei drosjene dei tilknytte løyvehavarane disponerer som er tilpassa personar med nedsett funksjonsevne.
+>
+> (2) Drosjesentralen skal løpande og digitalt samle inn og lagre opplysningar om posisjonsdata for drosjeturar som drosjeløyvehavaren har loggført etter § 9 fjerde ledd. Sentralen skal lagre opplysningane i 60 dagar.
+>
+> (3) Drosjesentralen skal løpande og digitalt samle inn og lagre dei opplysningane som vert kravde med heimel i lov 19. november 2004 nr. 73 om bokføring for dei løyvehavarane som er knytte til sentralen. Sentralen skal lagre opplysningane i fem år etter slutten av rekneskapsåret.
+>
+> (4) Drosjesentralen skal løpande og digitalt samle inn og lagre pris for drosjetransport i område der det er fastsett pristak med heimel i lov 11. juni 1993 nr. 66 om pristiltak for dei løyvehavarane som er knytte til sentralen.
+>
+> (5) Drosjesentralen sine administrative system skal årleg gjennomgå ein systemrevisjon for å sikre datatryggleik og datakvalitet. Systemrevisjonen skal dokumenterast gjennom ei uavhengig revisorfråsegn eller gjennom godkjent sertifiseringsordning.
+>
+> (6) Drosjesentralen skal, når styresmaktene ber om det, sende inn dei opplysningane som følgjer av første til femte ledd.
+>
+> (7) Opplysningar som er nemnde i første til femte ledd skal lagrast i EØS-området og vere tilgjengelege for styresmaktene på det formatet dei krev.
 >
 
 ## § 9 d
@@ -976,18 +1277,30 @@ refid: "lov/2002-06-21-45"
 
 *Ny § 9 d skal lyde:*
 
-> § 9 d.Drosjesentralane sine øvrige plikter(1) Kvar drosjesentral skal ha ei klageordning. Kundar og andre med klageinteresse kan klage på pris og kvalitet på både sentralen og drosjeløyvehavar sine tenester. Drosjesentralen skal sørge for at kunden får opplysningar om klageretten, og om at klaga kan sendast til Forbrukertilsynet dersom kunden ikkje får medhald i klagen.(2) Drosjesentralen skal sørge for at ein tilstrekkeleg del av dei drosjene som er knytte til sentralen er utforma eller utstyrt for transport for personar med nedsett funksjonsevne i samsvar med gjeldande føresegner om tekniske krav til universell utforming av motorvogn i løyvepliktig transport.(3) Om det er fleire sentralar i same område, kan dei samarbeide om å oppfylle pliktene i andre ledd.(4) Ein drosjesentral som vil drive verksemd i fleire fylke, skal sende melding om dette til dei aktuelle fylkeskommunane.
+> § 9 d. Drosjesentralane sine øvrige plikter
 >
-> § 9 d.Drosjesentralane sine øvrige plikter
+> (1) Kvar drosjesentral skal ha ei klageordning. Kundar og andre med klageinteresse kan klage på pris og kvalitet på både sentralen og drosjeløyvehavar sine tenester. Drosjesentralen skal sørge for at kunden får opplysningar om klageretten, og om at klaga kan sendast til Forbrukertilsynet dersom kunden ikkje får medhald i klagen.
+>
+> (2) Drosjesentralen skal sørge for at ein tilstrekkeleg del av dei drosjene som er knytte til sentralen er utforma eller utstyrt for transport for personar med nedsett funksjonsevne i samsvar med gjeldande føresegner om tekniske krav til universell utforming av motorvogn i løyvepliktig transport.
+>
+> (3) Om det er fleire sentralar i same område, kan dei samarbeide om å oppfylle pliktene i andre ledd.
+>
+> (4) Ein drosjesentral som vil drive verksemd i fleire fylke, skal sende melding om dette til dei aktuelle fylkeskommunane.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Ny § 9 d skal lyde:*
 
-> § 9 d.Drosjesentralane sine øvrige plikter(1) Kvar drosjesentral skal ha ei klageordning. Kundar og andre med klageinteresse kan klage på pris og kvalitet på både sentralen og drosjeløyvehavar sine tenester. Drosjesentralen skal sørge for at kunden får opplysningar om klageretten, og om at klaga kan sendast til Forbrukertilsynet dersom kunden ikkje får medhald i klagen.(2) Drosjesentralen skal sørge for at ein tilstrekkeleg del av dei drosjene som er knytte til sentralen er utforma eller utstyrt for transport for personar med nedsett funksjonsevne i samsvar med gjeldande føresegner om tekniske krav til universell utforming av motorvogn i løyvepliktig transport.(3) Om det er fleire sentralar i same område, kan dei samarbeide om å oppfylle pliktene i andre ledd.(4) Ein drosjesentral som vil drive verksemd i fleire fylke, skal sende melding om dette til dei aktuelle fylkeskommunane.
+> § 9 d. Drosjesentralane sine øvrige plikter
 >
-> § 9 d.Drosjesentralane sine øvrige plikter
+> (1) Kvar drosjesentral skal ha ei klageordning. Kundar og andre med klageinteresse kan klage på pris og kvalitet på både sentralen og drosjeløyvehavar sine tenester. Drosjesentralen skal sørge for at kunden får opplysningar om klageretten, og om at klaga kan sendast til Forbrukertilsynet dersom kunden ikkje får medhald i klagen.
+>
+> (2) Drosjesentralen skal sørge for at ein tilstrekkeleg del av dei drosjene som er knytte til sentralen er utforma eller utstyrt for transport for personar med nedsett funksjonsevne i samsvar med gjeldande føresegner om tekniske krav til universell utforming av motorvogn i løyvepliktig transport.
+>
+> (3) Om det er fleire sentralar i same område, kan dei samarbeide om å oppfylle pliktene i andre ledd.
+>
+> (4) Ein drosjesentral som vil drive verksemd i fleire fylke, skal sende melding om dette til dei aktuelle fylkeskommunane.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
@@ -1003,18 +1316,18 @@ refid: "lov/2002-06-21-45"
 
 *Ny § 9 e skal lyde:*
 
-> § 9 e.Unnatak frå sentralane sine plikterLøyvestyresmakta kan gje sentralane unnatak frå pliktene etter §§ 9 c og 9 d.
+> § 9 e. Unnatak frå sentralane sine plikter
 >
-> § 9 e.Unnatak frå sentralane sine plikter
+> Løyvestyresmakta kan gje sentralane unnatak frå pliktene etter §§ 9 c og 9 d.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Ny § 9 e skal lyde:*
 
-> § 9 e.Unnatak frå sentralane sine plikterLøyvestyresmakta kan gje sentralane unnatak frå pliktene etter §§ 9 c og 9 d.
+> § 9 e. Unnatak frå sentralane sine plikter
 >
-> § 9 e.Unnatak frå sentralane sine plikter
+> Løyvestyresmakta kan gje sentralane unnatak frå pliktene etter §§ 9 c og 9 d.
 >
 
 ## § 9 f
@@ -1023,27 +1336,31 @@ refid: "lov/2002-06-21-45"
 
 *Ny § 9 f skal lyde:*
 
-> § 9 f.Pålegg om rettingLøyvestyresmakta kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav og etterlever plikter som følgjer av §§ 9 b, 9 c og 9 d. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
+> § 9 f. Pålegg om retting
 >
-> § 9 f.Pålegg om retting
+> Løyvestyresmakta kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav og etterlever plikter som følgjer av §§ 9 b, 9 c og 9 d. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Ny § 9 f skal lyde:*
 
-> § 9 f.Pålegg om rettingLøyvestyresmakta kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav og etterlever plikter som følgjer av §§ 9 b, 9 c og 9 d. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
+> § 9 f. Pålegg om retting
 >
-> § 9 f.Pålegg om retting
+> Løyvestyresmakta kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav og etterlever plikter som følgjer av §§ 9 b, 9 c og 9 d. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
 >
 
 ### 2025-06-20 — lov/2025-06-20-111
 
 *§ 9 f skal lyde:*
 
-> § 9 f.Internkontroll og tilsyn(1) Drosjesentralen skal sørge for at det vert innført og utøvd internkontroll i eiga verksemd og i verksemda til løyvehavarane som er knytte til sentralen. Internkontrollen skal gjennomførast i samarbeid med tilknytte løyvehavarar, arbeidstakarar og representantane deira.(2) Internkontrollen skal sikre at aktivitetane til løyvehavarane og sentralane vert planlagde, organiserte, utførte og vedlikehaldne i samsvar med krav fastsett i eller i medhald av gjeldande regelverk for løyvehavarar, sentralar og deira tilsette.(3) Fylkeskommunen fører nødvendig tilsyn med at føresegnene om internkontroll, fastsette i eller i medhald av denne lova, vert etterlevde. Fylkeskommunen kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav eller etterlever pliktene som følgjer av denne føresegna eller forskrift om internkontroll i drosjeverksemd. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
+> § 9 f. Internkontroll og tilsyn
 >
-> § 9 f.Internkontroll og tilsyn
+> (1) Drosjesentralen skal sørge for at det vert innført og utøvd internkontroll i eiga verksemd og i verksemda til løyvehavarane som er knytte til sentralen. Internkontrollen skal gjennomførast i samarbeid med tilknytte løyvehavarar, arbeidstakarar og representantane deira.
+>
+> (2) Internkontrollen skal sikre at aktivitetane til løyvehavarane og sentralane vert planlagde, organiserte, utførte og vedlikehaldne i samsvar med krav fastsett i eller i medhald av gjeldande regelverk for løyvehavarar, sentralar og deira tilsette.
+>
+> (3) Fylkeskommunen fører nødvendig tilsyn med at føresegnene om internkontroll, fastsette i eller i medhald av denne lova, vert etterlevde. Fylkeskommunen kan treffe vedtak med pålegg om retting der sentralen ikkje oppfyller krav eller etterlever pliktene som følgjer av denne føresegna eller forskrift om internkontroll i drosjeverksemd. Det skal setjast ein frist for retting. Dersom pålegget ikkje vert følgt, kan løyvet trekkast tilbake.
 >
 
 ## § 9 g
@@ -1052,16 +1369,16 @@ refid: "lov/2002-06-21-45"
 
 *Ny § 9 g skal lyde:*
 
-> § 9 g.Forskrifter om drosjesentralarDepartementet kan gje nærare forskrifter om krava til drosjesentralar og pliktene til sentralane etter denne lova.
+> § 9 g. Forskrifter om drosjesentralar
 >
-> § 9 g.Forskrifter om drosjesentralar
+> Departementet kan gje nærare forskrifter om krava til drosjesentralar og pliktene til sentralane etter denne lova.
 >
 
 ### 2024-08-15 — forskrift/2024-08-15-1960
 
 *Ny § 9 g skal lyde:*
 
-> § 9 g.Forskrifter om drosjesentralarDepartementet kan gje nærare forskrifter om krava til drosjesentralar og pliktene til sentralane etter denne lova.
+> § 9 g. Forskrifter om drosjesentralar
 >
-> § 9 g.Forskrifter om drosjesentralar
+> Departementet kan gje nærare forskrifter om krava til drosjesentralar og pliktene til sentralane etter denne lova.
 >

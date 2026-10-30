@@ -41,26 +41,6 @@ refid: "lov/1983-06-03-54"
 
 > Den offentlige tannhelsetjenesten skal organisere forebyggende tiltak for hele befolkningen. Den skal gi et regelmessig og oppsøkende tilbud til:Barn og ungdom fra fødsel til og med det året de fyller 18 år.Psykisk utviklingshemmede i og utenfor institusjon.Grupper av eldre, langtidssyke og uføre i institusjon og hjemmesykepleie.Unge voksne fra året de fyller 19 til og med året de fyller 24 år.Personer som på grunn av rusmiddelavhengighet mottar noen av følgende tilbud:personlig assistanse i medhold av helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav bavlastningstiltak for pårørende i medhold av helse- og omsorgstjenesteloven § 3-6 nr. 2legemiddelassistert rehabilitering i medhold av spesialisthelsetjenesteloven § 3-16Innsatte i fengsler i kriminalomsorgen.Andre grupper som fylkeskommunen har vedtatt å prioritere.
 >
-> Barn og ungdom fra fødsel til og med det året de fyller 18 år.
->
-> Psykisk utviklingshemmede i og utenfor institusjon.
->
-> Grupper av eldre, langtidssyke og uføre i institusjon og hjemmesykepleie.
->
-> Unge voksne fra året de fyller 19 til og med året de fyller 24 år.
->
-> Personer som på grunn av rusmiddelavhengighet mottar noen av følgende tilbud:personlig assistanse i medhold av helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav bavlastningstiltak for pårørende i medhold av helse- og omsorgstjenesteloven § 3-6 nr. 2legemiddelassistert rehabilitering i medhold av spesialisthelsetjenesteloven § 3-16
->
-> personlig assistanse i medhold av helse- og omsorgstjenesteloven § 3-2 første ledd nr. 6 bokstav b
->
-> avlastningstiltak for pårørende i medhold av helse- og omsorgstjenesteloven § 3-6 nr. 2
->
-> legemiddelassistert rehabilitering i medhold av spesialisthelsetjenesteloven § 3-16
->
-> Innsatte i fengsler i kriminalomsorgen.
->
-> Andre grupper som fylkeskommunen har vedtatt å prioritere.
->
 
 ### 2024-06-21 — lov/2024-06-21-43
 
@@ -79,9 +59,11 @@ refid: "lov/1983-06-03-54"
 
 *Ny § 1-3 d skal lyde:*
 
-> § 1-3 d.(Ansvar for tilbud til personer med midlertidig oppholdstillatelse)Den offentlige tannhelsetjenestens ansvar etter § 1-3 første ledd bokstav d gjelder ikke for personer med midlertidig oppholdstillatelse i Norge som ikke har bodd minst fem år i riket, jf. § 2-1 a.Første ledd gjelder ikke for personer som har rettigheter i henhold til gjensidighetsavtale med annen stat.
+> § 1-3 d. (Ansvar for tilbud til personer med midlertidig oppholdstillatelse)
 >
-> § 1-3 d.(Ansvar for tilbud til personer med midlertidig oppholdstillatelse)
+> Den offentlige tannhelsetjenestens ansvar etter § 1-3 første ledd bokstav d gjelder ikke for personer med midlertidig oppholdstillatelse i Norge som ikke har bodd minst fem år i riket, jf. § 2-1 a.
+>
+> Første ledd gjelder ikke for personer som har rettigheter i henhold til gjensidighetsavtale med annen stat.
 >
 
 ## § 1-4
@@ -123,9 +105,11 @@ refid: "lov/1983-06-03-54"
 
 *Ny § 2-1 a skal lyde:*
 
-> § 2-1 a.(Krav om botid i riket for personer med midlertidig oppholdstillatelse)Personer som har midlertidig oppholdstillatelse i riket, må ha fem års botid i riket for å ha rett til nødvendig tannhelsehjelp etter § 2-1.Kravet om botid i riket gjelder ikke for personer som har rettigheter i henhold til gjensidighetsavtale med annen stat.
+> § 2-1 a. (Krav om botid i riket for personer med midlertidig oppholdstillatelse)
 >
-> § 2-1 a.(Krav om botid i riket for personer med midlertidig oppholdstillatelse)
+> Personer som har midlertidig oppholdstillatelse i riket, må ha fem års botid i riket for å ha rett til nødvendig tannhelsehjelp etter § 2-1.
+>
+> Kravet om botid i riket gjelder ikke for personer som har rettigheter i henhold til gjensidighetsavtale med annen stat.
 >
 
 ### 2025-06-20 — lov/2025-06-20-73
@@ -225,6 +209,20 @@ refid: "lov/1983-06-03-54"
 > Fylkeskommunen skal innhente politiattest fra helsepersonell i samsvar med helsepersonelloven § 20 a.
 >
 
+### 2009-06-19 — lov/2009-06-19-72
+
+*I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal § 5-1 nytt fjerde ledd lyde:*
+
+> I den utstrekning tannhelsetjenester som omhandlet i § 1-3 gir rett til stønad etter regler fastsatt i forskrift i medhold av folketrygdloven § 5-24 a, skal fylkeskommunen dekke utgifter til tannhelsetjenester som bosatte i fylkeskommunen har mottatt i et annet EØS-land. Departementet kan i forskrift gi nærmere bestemmelser om utgiftsdekningen.
+>
+
+### 2015-01-01 — forskrift/2014-12-19-1729
+
+*Endringsloven trer i kraft 1. januar 2015.*
+
+> Endringsloven trer i kraft 1. januar 2015.
+>
+
 ### 2017-06-16 — lov/2017-06-16-55
 
 *1.I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal ny § 1-3c lyde:*
@@ -279,7 +277,9 @@ refid: "lov/1983-06-03-54"
 
 *I lov 3. juni 1983 nr. 54 om tannhelsetjenesten skal § 1-7 lyde:*
 
-> § 1-7.Melding og rapport om alvorlige hendelserVirksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
+> § 1-7. Melding og rapport om alvorlige hendelser
 >
-> § 1-7.Melding og rapport om alvorlige hendelser
+> Virksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.
+>
+> Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
 >

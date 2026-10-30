@@ -46,9 +46,51 @@ refid: "lov/1993-06-04-58"
 
 *Gjeldende § 11 blir ny § 16.*
 
+### 2013-06-14 — lov/2013-06-14-32
+
+*I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler mv. skal § 11 andre ledd lyde:*
+
+> Arbeidstilsynet gir de pålegg og treffer de enkeltvedtak ellers som er nødvendige for gjennomføringen av vedtak om allmenngjøring og plikter i medhold av § 12. Arbeidsmiljøloven § 18-6 første, andre, sjette, syvende og åttende ledd samt §§ 18-7, 18-8 og 18-10 får tilsvarende anvendelse ved tilsyn etter loven her. Eventuell oppdragsgiver skal også gjøres kjent med pålegg og andre enkeltvedtak.
+>
+
+### 2015-04-24 — lov/2015-04-24-21
+
+*I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. skal § 15 første ledd lyde:*
+
+> Arbeidsgiver som forsettlig eller uaktsomt unnlater å rette seg etter et vedtak av Tariffnemnda, straffes med bøter eller fengsel inntil ett år. Det samme gjelder den som i arbeidsgivers sted leder virksomheten, og som opptrer som nevnt i første punktum, og oppdragsgiver som overtrer plikter i medhold av § 12. Grov overtredelse straffes med bøter eller fengsel inntil tre år. Medvirkning straffes på samme måte, likevel slik at arbeidstaker ikke kan straffes for medvirkning.
+>
+
+### 2015-12-18 — lov/2015-12-18-103
+
+*I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. skal § 4 første ledd første punktum lyde:*
+
+> For at Tariffnemnda skal ta et krav om allmenngjøring av en tariffavtale til behandling, er det et vilkår at kravet er fremsatt av en arbeidstaker- eller arbeidsgiverorganisasjon som er part i avtalen og har innstillingsrett etter arbeidstvistloven § 39 første ledd.
+>
+
 ### 2020-06-12 — lov/2020-06-12-61
 
 *Nåværende § 11 fjerde til sjuende ledd blir femte til nytt åttende ledd.*
+
+### 2020-06-19 — lov/2020-06-19-69
+
+*I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. skal § 11 andre ledd andre punktum lyde:*
+
+> Arbeidsmiljøloven § 18-6 første, andre, sjette, syvende og åttende ledd samt §§ 18-7, 18-8 og 18-10 får tilsvarende anvendelse ved tilsyn etter loven her, og ved gjennomføring av plikten til å gi opplysninger i tredje ledd første punktum.
+>
+
+### 2020-07-01 — forskrift/2020-06-12-1182
+
+*Loven trer i kraft 1. juli 2020.*
+
+> Loven trer i kraft 1. juli 2020.
+>
+
+### 2022-12-20 — forskrift/2022-12-20-2295
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ### 2024-03-22 — lov/2024-03-22-11
 
@@ -61,7 +103,7 @@ refid: "lov/1993-06-04-58"
 
 *I lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. skal § 2 nr. 4 lyde:*
 
-> Loven gjelder for Svalbard.
+> 4.(Svalbard)Loven gjelder for Svalbard.
 >
 
 ### 2025-07-01 — lov/2025-06-20-109
@@ -82,6 +124,13 @@ refid: "lov/1993-06-04-58"
 ### 2025-07-01 — lov/2025-06-20-109
 
 *Nåværende andre til fjerde ledd blir tredje til nytt femte ledd.*
+
+### 2025-07-01 — forskrift/2025-03-28-545
+
+*Loven trer i kraft for Longyearbyen og Ny-Ålesund 1. juli 2025.*
+
+> Loven trer i kraft for Longyearbyen og Ny-Ålesund 1. juli 2025.
+>
 
 ## § 1
 
@@ -255,19 +304,7 @@ refid: "lov/1993-06-04-58"
 
 *§ 2 nr. 2 skal lyde:*
 
-> Loven omfatterarbeidstakere på skip og flyttbare innretninger registrert i Norsk ordinært skipsregister (NOR)arbeidstakere på skip i innenriksfart registrert enten i Norsk internasjonalt skipsregister (NIS) eller utenlandsk skipsregister.
->
-> arbeidstakere på skip og flyttbare innretninger registrert i Norsk ordinært skipsregister (NOR)
->
-> arbeidstakere på skip i innenriksfart registrert enten i Norsk internasjonalt skipsregister (NIS) eller utenlandsk skipsregister.
->
-> Skip i innenriksfart etter første ledd omfatter:skip som frakter last eller passasjerer mellom norske havner på fastlandet, men likevel ikke skip som utelukkende setter i land last eller passasjerer som kommer fra utenlandske havner, eller som utelukkende tar om bord last eller passasjerer som skal til utenlandske havnercruiseskip som seiler mellom norske havner på fastlandet, også cruiseskip som utelukkende opererer ut fra én norsk havn, men likevel ikke cruiseskip som anløper norske havner på seilas fra eller til en utenlandsk havnskip som yter andre tjenester i norsk territorialfarvann ved fastlandet, men ikke fiske- og fangstfartøy, skip som tilhører Forsvaret eller benyttes i Forsvarets tjeneste, eller andre statlige skip som brukes utenfor næringsvirksomhet.
->
-> skip som frakter last eller passasjerer mellom norske havner på fastlandet, men likevel ikke skip som utelukkende setter i land last eller passasjerer som kommer fra utenlandske havner, eller som utelukkende tar om bord last eller passasjerer som skal til utenlandske havner
->
-> cruiseskip som seiler mellom norske havner på fastlandet, også cruiseskip som utelukkende opererer ut fra én norsk havn, men likevel ikke cruiseskip som anløper norske havner på seilas fra eller til en utenlandsk havn
->
-> skip som yter andre tjenester i norsk territorialfarvann ved fastlandet, men ikke fiske- og fangstfartøy, skip som tilhører Forsvaret eller benyttes i Forsvarets tjeneste, eller andre statlige skip som brukes utenfor næringsvirksomhet.
+> 2. (Arbeidstakere på skip mv.)Loven omfatterarbeidstakere på skip og flyttbare innretninger registrert i Norsk ordinært skipsregister (NOR)arbeidstakere på skip i innenriksfart registrert enten i Norsk internasjonalt skipsregister (NIS) eller utenlandsk skipsregister.Skip i innenriksfart etter første ledd omfatter:skip som frakter last eller passasjerer mellom norske havner på fastlandet, men likevel ikke skip som utelukkende setter i land last eller passasjerer som kommer fra utenlandske havner, eller som utelukkende tar om bord last eller passasjerer som skal til utenlandske havnercruiseskip som seiler mellom norske havner på fastlandet, også cruiseskip som utelukkende opererer ut fra én norsk havn, men likevel ikke cruiseskip som anløper norske havner på seilas fra eller til en utenlandsk havnskip som yter andre tjenester i norsk territorialfarvann ved fastlandet, men ikke fiske- og fangstfartøy, skip som tilhører Forsvaret eller benyttes i Forsvarets tjeneste, eller andre statlige skip som brukes utenfor næringsvirksomhet.
 >
 
 ## § 4

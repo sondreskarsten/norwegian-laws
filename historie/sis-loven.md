@@ -7,13 +7,38 @@ refid: "lov/1999-07-16-66"
 
 ## (annet)
 
+### 2010-06-18 — lov/2010-06-18-25
+
+*I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 12 første ledd bokstav a lyde:politi- og tollmyndighet når de utøver grensekontroll og annen kontroll*
+
+### 2011-01-01 — forskrift/2010-12-17-1611
+
+*Lov 27. juni 2008 nr. 66 om endringer i lov 16. juli 1999 nr. 66 om Schengen informasjonssystem § 19 og § 21 trer i kraft fra 1. januar 2011.*
+
+> Lov 27. juni 2008 nr. 66 om endringer i lov 16. juli 1999 nr. 66 om Schengen informasjonssystem § 19 og § 21 trer i kraft fra 1. januar 2011.
+>
+
+### 2013-04-09 — forskrift/2013-04-05-337
+
+*Lov 27. juni 2008 nr. 66 om endringer i lov 16. juli 1999 nr. 66 om Schengen informasjonssystem § 1, § 2, § 6, § 8, § 9A, § 12 og § 20, gjelder fra 9. april 2013.*
+
+> Lov 27. juni 2008 nr. 66 om endringer i lov 16. juli 1999 nr. 66 om Schengen informasjonssystem § 1, § 2, § 6, § 8, § 9A, § 12 og § 20, gjelder fra 9. april 2013.
+>
+
+### 2021-06-18 — lov/2021-06-18-127
+
+*I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 14 andre ledd lyde:*
+
+> Forvaltningsloven §§ 13 til 13 d og 13 g gjelder ikke.
+>
+
 ### 2024-06-21 — lov/2024-06-21-47
 
 *I lov 16. juli 1999 nr. 66 om Schengen informasjonssystem (SIS) skal § 1 lyde:*
 
-> § 1.Gjennomføring av forordninger om Schengen informasjonssystem (SIS)Følgende forordninger gjelder som lov:Forordning (EU) 2018/1862 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) innenfor politisamarbeid og strafferettslig samarbeid (politisamarbeidsforordningen), som endret ved forordning (EU) 2019/818, forordning (EU) 2021/1133 og forordning (EU) 2021/1150Forordning (EU) 2018/1861 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) på området inn- og utreisekontroll (grensekontrollforordningen), som endret ved forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152Forordning (EU) 2018/1860 om bruk av Schengen-informasjonssystem i forbindelse med retur av tredjestatsborgere med ulovlig opphold (returforordningen), som endret ved forordning (EU) 2021/1134 og forordning (EU) 2021/1152.
+> § 1. Gjennomføring av forordninger om Schengen informasjonssystem (SIS)
 >
-> § 1.Gjennomføring av forordninger om Schengen informasjonssystem (SIS)
+> Følgende forordninger gjelder som lov:Forordning (EU) 2018/1862 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) innenfor politisamarbeid og strafferettslig samarbeid (politisamarbeidsforordningen), som endret ved forordning (EU) 2019/818, forordning (EU) 2021/1133 og forordning (EU) 2021/1150Forordning (EU) 2018/1861 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) på området inn- og utreisekontroll (grensekontrollforordningen), som endret ved forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152Forordning (EU) 2018/1860 om bruk av Schengen-informasjonssystem i forbindelse med retur av tredjestatsborgere med ulovlig opphold (returforordningen), som endret ved forordning (EU) 2021/1134 og forordning (EU) 2021/1152.
 >
 
 ## § 1
@@ -29,9 +54,9 @@ refid: "lov/1999-07-16-66"
 
 *§ 1 skal lyde:*
 
-> § 1.Gjennomføring av forordninger om Schengen informasjonssystem (SIS)Følgende forordninger gjelder som lov:Forordning (EU) 2018/1862 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) innenfor politisamarbeid og strafferettslig samarbeid (politisamarbeidsforordningen), som endret vedforordning (EU) 2019/818forordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2022/1190Forordning (EU) 2018/1861 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) på området inn- og utreisekontroll (grensekontrollforordningen), som endret vedforordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152Forordning (EU) 2018/1860 om bruk av Schengen-informasjonssystem i forbindelse med retur av tredjestatsborgere med ulovlig opphold (returforordningen), som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152.
+> § 1. Gjennomføring av forordninger om Schengen informasjonssystem (SIS)
 >
-> § 1.Gjennomføring av forordninger om Schengen informasjonssystem (SIS)
+> Følgende forordninger gjelder som lov:Forordning (EU) 2018/1862 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) innenfor politisamarbeid og strafferettslig samarbeid (politisamarbeidsforordningen), som endret vedforordning (EU) 2019/818forordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2022/1190Forordning (EU) 2018/1861 om opprettelse, drift og bruk av Schengen-informasjonssystem (SIS) på området inn- og utreisekontroll (grensekontrollforordningen), som endret vedforordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152Forordning (EU) 2018/1860 om bruk av Schengen-informasjonssystem i forbindelse med retur av tredjestatsborgere med ulovlig opphold (returforordningen), som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152.
 >
 
 ## § 11

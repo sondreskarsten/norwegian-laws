@@ -7,6 +7,20 @@ refid: "lov/1995-05-12-23"
 
 ## (annet)
 
+### 2013-07-01 — forskrift/2013-06-14-642
+
+*Loven trer i kraft fra 1. juli 2013.*
+
+> Loven trer i kraft fra 1. juli 2013.
+>
+
+### 2017-06-16 — lov/2017-06-16-74
+
+*I lov 12. mai 1995 nr. 23 om jord skal § 2 tredje ledd lyde:*
+
+> Føresegnene i §§ 9 og 12 gjeld ikkje for tiltak med konsesjon etter energiloven § 3-1, vannressursloven eller vassdragsreguleringsloven.
+>
+
 ### 2024-12-06 — lov/2024-12-06-74
 
 *Nåværende fjerde punktum blir nytt femte punktum.*
@@ -101,9 +115,9 @@ refid: "lov/1995-05-12-23"
 
 *§ 19 skal lyde:*
 
-> § 19.TilsynKommunen og statsforvaltaren fører tilsyn med at føresegnene gitt i eller i medhald av §§ 8 til 12 vert haldne.
+> § 19. Tilsyn
 >
-> § 19.Tilsyn
+> Kommunen og statsforvaltaren fører tilsyn med at føresegnene gitt i eller i medhald av §§ 8 til 12 vert haldne.
 >
 
 ## § 2
@@ -148,9 +162,11 @@ refid: "lov/1995-05-12-23"
 
 *Ny § 4 skal lyde:*
 
-> § 4.Klage og omgjering av kommunale eller fylkeskommunale avgjerderVedtak kommunen gjer etter denne lova eller forskrift med heimel i lova, kan påklagast til statsforvaltaren. Departementet kan i forskrift fastsetje annan klageinstans for vedtak som er gjorde av kommunen eller fylkeskommunen.Når vilkåra for å omgjere etter forvaltningsloven § 35 er oppfylte, kan vedtaket også omgjerast av departementet.
+> § 4. Klage og omgjering av kommunale eller fylkeskommunale avgjerder
 >
-> § 4.Klage og omgjering av kommunale eller fylkeskommunale avgjerder
+> Vedtak kommunen gjer etter denne lova eller forskrift med heimel i lova, kan påklagast til statsforvaltaren. Departementet kan i forskrift fastsetje annan klageinstans for vedtak som er gjorde av kommunen eller fylkeskommunen.
+>
+> Når vilkåra for å omgjere etter forvaltningsloven § 35 er oppfylte, kan vedtaket også omgjerast av departementet.
 >
 
 ## § 5

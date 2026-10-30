@@ -11,15 +11,22 @@ refid: "lov/2020-12-18-146"
 
 *§ 1-2 første ledd skal lyde:*
 
+> (1) Kapittel 2 gjelder betalingsoppgjør og pengekrav.
+>
+
 ## § 1-11
 
 ### 2025-04-10 — lov/2025-04-10-11
 
 *§ 1-11 skal lyde:*
 
-> § 1-11.Gjennomføring av EØS-regelverk(1) Følgende rettsakter gjelder som lov med de tilpasninger som følger av vedlegg XII, protokoll 1 til EØS-avtalen og avtalen for øvrig:EØS-avtalen vedlegg XII nr. 3 (forordning (EU) 2021/1230 om betalinger på tvers av landegrensene i Unionen)EØS-avtalen vedlegg XII nr. 3a (forordning (EU) nr. 260/2012 og forordning (EU) nr. 248/2014 om tekniske og forretningsmessige krav til kredittoverføringer og direkte debiteringer i euro).(2) Kongen kan i forskrift gi regler til gjennomføring av direktiv (EU) 2019/882 om tilgjengelighetskrav for produkter og tjenester for banktjenester rettet til forbrukere som nevnt i artikkel 2 nr. 2 bokstav d.(3) Kongen kan i forskrift fastsette andre beløpsgrenser enn det som følger av regler i loven her, dersom dette på grunn av kursendringer er nødvendig for gjennomføringen av forpliktelser etter EØS-avtalen. Endres beløpsgrensen etter § 4-30 annet ledd, kan det fastsettes at den samme beløpsgrensen skal gjelde også etter § 3-20.
+> § 1-11. Gjennomføring av EØS-regelverk
 >
-> § 1-11.Gjennomføring av EØS-regelverk
+> (1) Følgende rettsakter gjelder som lov med de tilpasninger som følger av vedlegg XII, protokoll 1 til EØS-avtalen og avtalen for øvrig:EØS-avtalen vedlegg XII nr. 3 (forordning (EU) 2021/1230 om betalinger på tvers av landegrensene i Unionen)EØS-avtalen vedlegg XII nr. 3a (forordning (EU) nr. 260/2012 og forordning (EU) nr. 248/2014 om tekniske og forretningsmessige krav til kredittoverføringer og direkte debiteringer i euro).
+>
+> (2) Kongen kan i forskrift gi regler til gjennomføring av direktiv (EU) 2019/882 om tilgjengelighetskrav for produkter og tjenester for banktjenester rettet til forbrukere som nevnt i artikkel 2 nr. 2 bokstav d.
+>
+> (3) Kongen kan i forskrift fastsette andre beløpsgrenser enn det som følger av regler i loven her, dersom dette på grunn av kursendringer er nødvendig for gjennomføringen av forpliktelser etter EØS-avtalen. Endres beløpsgrensen etter § 4-30 annet ledd, kan det fastsettes at den samme beløpsgrensen skal gjelde også etter § 3-20.
 >
 
 ## § 2-1
@@ -28,9 +35,13 @@ refid: "lov/2020-12-18-146"
 
 *§ 2-1 skal lyde:*
 
-> § 2-1.Oppgjørsmåte. Forbrukeres rett til å betale med kontanter(1) Betaling kan foretas ved overføring av beløpet til mottakerens konto, med mindre noe annet er avtalt eller mottakeren har bedt om utbetaling med tvungne betalingsmidler.(2) Mottakeren kan gi nærmere anvisning om betalingsmåten dersom dette ikke medfører vesentlig merutgift eller andre ulemper for betaleren. Første punktum gjelder ikke for en næringsdrivende selgers plikt til å tilby forbrukere å betale med tvungne betalingsmidler ved salg av varer eller tjenester, jf. tredje ledd.(3) I salgslokale der en næringsdrivende på fast basis selger varer eller tjenester til forbrukere, skal forbrukeren tilbys å betale med tvungne betalingsmidler hvis det kan betales for varen eller tjenesten med andre betalingsløsninger i eller i umiddelbar tilknytning til salgslokalet. Har den næringsdrivende tilgjengelig veksel, skal det i disse tilfellene også tilbys å veksle i forbindelse med betalingen, men ikke hvis det er et klart misforhold mellom seddelen som tilbys som betaling, og beløpet som skal betales. Første og annet punktum gjelder ikke salg av varer fra automater, salg i ubetjente salgslokaler og salg i lokaler som bare en begrenset krets av personer har adgang til. Første og annet punktum gjelder heller ikke når beløpet som skal betales, er høyere enn 20 000 kroner.
+> § 2-1. Oppgjørsmåte. Forbrukeres rett til å betale med kontanter
 >
-> § 2-1.Oppgjørsmåte. Forbrukeres rett til å betale med kontanter
+> (1) Betaling kan foretas ved overføring av beløpet til mottakerens konto, med mindre noe annet er avtalt eller mottakeren har bedt om utbetaling med tvungne betalingsmidler.
+>
+> (2) Mottakeren kan gi nærmere anvisning om betalingsmåten dersom dette ikke medfører vesentlig merutgift eller andre ulemper for betaleren. Første punktum gjelder ikke for en næringsdrivende selgers plikt til å tilby forbrukere å betale med tvungne betalingsmidler ved salg av varer eller tjenester, jf. tredje ledd.
+>
+> (3) I salgslokale der en næringsdrivende på fast basis selger varer eller tjenester til forbrukere, skal forbrukeren tilbys å betale med tvungne betalingsmidler hvis det kan betales for varen eller tjenesten med andre betalingsløsninger i eller i umiddelbar tilknytning til salgslokalet. Har den næringsdrivende tilgjengelig veksel, skal det i disse tilfellene også tilbys å veksle i forbindelse med betalingen, men ikke hvis det er et klart misforhold mellom seddelen som tilbys som betaling, og beløpet som skal betales. Første og annet punktum gjelder ikke salg av varer fra automater, salg i ubetjente salgslokaler og salg i lokaler som bare en begrenset krets av personer har adgang til. Første og annet punktum gjelder heller ikke når beløpet som skal betales, er høyere enn 20 000 kroner.
 >
 
 ## § 3-1
@@ -45,6 +56,9 @@ refid: "lov/2020-12-18-146"
 ### 2026-02-06 — lov/2026-02-06-2
 
 *§ 3-1 sjette ledd skal lyde:*
+
+> (6) Annet til femte ledd gjelder ikke for tjenester som er omfattet av verdipapirhandelloven, verdipapirfondloven eller folkefinansieringsloven.
+>
 
 ## § 3-4
 
@@ -95,6 +109,9 @@ refid: "lov/2020-12-18-146"
 
 *§ 3-56 første ledd skal lyde:*
 
+> (1) §§ 3-57 og 3-58 gjelder ikke for tjenester som er omfattet av verdipapirhandelloven, verdipapirfondloven eller folkefinansieringsloven.
+>
+
 ## § 4-52
 
 ### 2023-06-16 — lov/2023-06-16-59
@@ -126,9 +143,13 @@ refid: "lov/2020-12-18-146"
 
 *§ 7-2 skal lyde:*
 
-> § 7-2.Overtredelsesgebyr(1) Ved forsettlig eller uaktsom overtredelse av reglene om opplysningsplikt overfor forbruker ved fjernsalg eller salg utenom tjenesteyterens faste forretningslokaler etter §§ 3-22 til 3-39 og ved forsettlig eller uaktsom overtredelse av § 3-44 tredje ledd eller § 3-45 første ledd kan det fastsettes et overtredelsesgebyr etter reglene gitt i eller i medhold av angrerettloven § 29.(2) Den som forsettlig eller uaktsomt overtrer reglene i § 2-1 tredje ledd, kan ilegges et overtredelsesgebyr dersom overtredelsen anses som vesentlig eller har skjedd gjentatte ganger.(3) Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.
+> § 7-2. Overtredelsesgebyr
 >
-> § 7-2.Overtredelsesgebyr
+> (1) Ved forsettlig eller uaktsom overtredelse av reglene om opplysningsplikt overfor forbruker ved fjernsalg eller salg utenom tjenesteyterens faste forretningslokaler etter §§ 3-22 til 3-39 og ved forsettlig eller uaktsom overtredelse av § 3-44 tredje ledd eller § 3-45 første ledd kan det fastsettes et overtredelsesgebyr etter reglene gitt i eller i medhold av angrerettloven § 29.
+>
+> (2) Den som forsettlig eller uaktsomt overtrer reglene i § 2-1 tredje ledd, kan ilegges et overtredelsesgebyr dersom overtredelsen anses som vesentlig eller har skjedd gjentatte ganger.
+>
+> (3) Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.
 >
 
 ## § 8-3
@@ -139,10 +160,34 @@ refid: "lov/2020-12-18-146"
 
 ## (annet)
 
+### 2022-06-17 — lov/2022-06-17-59
+
+*I lov 18. desember 2020 nr. 146 om finansavtaler skal § 3-55 første og annet ledd lyde:*
+
+> (1) Forbrukertilsynet og Markedsrådet skal ut fra hensyn til forbrukerne føre tilsyn med at bestemmelsene gitt i eller i medhold av denne loven følges av en næringsdrivende tjenesteyter. Tilsyn utføres i samsvar med reglene i markedsføringsloven §§ 32 til 41, § 42 første ledd annet punktum og §§ 43 til 43 c når ikke annet følger av tredje ledd eller forskrift etter fjerde ledd.
+>
+> (2) En tjenesteyter kan ilegges et overtredelsesgebyr for forsettlig eller uaktsom overtredelse av regler nevnt i første ledd dersom overtredelsen anses som vesentlig eller har skjedd gjentatte ganger. Overtredelsesgebyret skal betales av den tjenesteyteren vedtaket retter seg mot. Markedsføringsloven § 42 annet til fjerde ledd gjelder tilsvarende.
+>
+
+### 2023-06-16 — lov/2023-06-16-38
+
+*I lov 18. desember 2020 nr. 146 om finansavtaler skal § 3-55 annet og fjerde ledd lyde:*
+
+> (2) En tjenesteyter kan ilegges et overtredelsesgebyr for forsettlig eller uaktsom overtredelse av regler nevnt i første ledd dersom overtredelsen anses som vesentlig eller har skjedd gjentatte ganger. Overtredelsesgebyret skal betales av den tjenesteyteren vedtaket retter seg mot.
+>
+> (4) Kongen kan i forskrift fastsette nærmere regler om Forbrukertilsynets og Markedsrådets tilsynskompetanse, om forholdet til andre tilsynsorgan og til utfylling av reglene nevnt i tredje ledd. Kongen kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr, jf. annet ledd.
+>
+
 ### 2024-06-21 — lov/2024-06-21-41
 
 *9.I lov 18. desember 2020 nr. 146 om finansavtaler skal § 3-55 tredje ledd lyde:*
 
+> (3) Bestemmelsene gitt i eller i medhold av finanstilsynsloven §§ 2-4, 2-5, 2-6 og 2-7 gjelder så langt de passer tilsvarende for ansatte i Forbrukertilsynet og medlemmer av Markedsrådet, med mindre noe annet følger av forskrift etter fjerde ledd.
+>
+
 ### 2026-06-19 — lov/2026-06-19-48
 
 *I lov 18. desember 2020 nr. 146 om finansavtaler skal § 6-3 fjerde ledd lyde:*
+
+> (4) Blir kredittyteren kjent med at kredittkunden er død, at det er åpnet rekonstruksjonsforhandling eller konkurs i kredittkundens bo, eller at kredittkunden har søkt om gjeldsforhandling etter gjeldsordningsloven, skal kausjonisten varsles uten ugrunnet opphold.
+>

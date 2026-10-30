@@ -7,6 +7,55 @@ refid: "lov/2006-06-16-20"
 
 ## (annet)
 
+### 2008-12-19 — lov/2008-12-19-109
+
+*I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen (arbeids- og velferdsforvaltningsloven) skal § 4 annet ledd første punktum lyde:*
+
+> Etaten skal forvalte arbeidsmarkedsloven, folketrygdloven, med unntak av kapittel 5, og andre lover hvor oppgaver er lagt til etaten, og sikre rett ytelse til den enkelte.
+>
+
+### 2009-01-01 — lov/2009-01-16-5
+
+*I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen (arbeids- og velferdsforvaltningsloven) skal § 7 lyde:*
+
+> § 7.Taushetsplikt
+>
+> Enhver som utfører tjeneste eller arbeid for Arbeids- og velferdsetaten etter denne loven, har taushetsplikt etter forvaltningsloven §§ 13 til 13 e. Taushetsplikten gjelder også fødested, fødselsdato, personnummer, statsborgerforhold, sivilstand, yrke, bosted og arbeidssted. Bestemmelsene i forvaltningsloven § 13 b nr. 5 og 6 gjelder ikke. Det kan bare gjøres unntak fra taushetsplikten når dette følger av bestemmelsene i andre til femte ledd eller av andre bestemmelser gitt i eller i medhold av lov.
+>
+> Opplysninger om en person kan brukes ved formidling av arbeid eller ved gjennomføring av arbeidsmarkedstiltak. Videre kan en brukerkontakt som nevnt i folketrygdloven § 15-12 femte ledd få oppgitt navn og adresse på enslige forsørgere som mottar overgangsstønad innenfor brukerkontaktens virkeområde.
+>
+> Opplysninger til andre forvaltningsorganer kan gis når det er nødvendig for å fremme Arbeids- og velferdsetatens oppgaver, for å forebygge vesentlig fare for liv eller alvorlig skade på noens helse eller for å hindre at noen urettmessig får utbetalt offentlige midler eller unndrar midler fra innbetaling til det offentlige.
+>
+> Departementet kan bestemme at opplysninger kan utleveres til offentlige myndigheter i andre tilfelle enn nevnt i tredje ledd når det er godtgjort at opplysningene er nødvendige for at disse myndighetene skal kunne løse pålagte offentlige oppgaver. Dette gjelder likevel ikke opplysninger om etnisitet, politisk eller religiøs oppfatning, helseforhold, misbruk av rusmidler eller seksuelle forhold.
+>
+> Taushetsplikten etter første ledd er ikke til hinder for utveksling av informasjon som forutsatt i lov 6. juni 1997 nr. 35 om Oppgaveregisteret eller annen utlevering av opplysninger til forvaltningsorganer som har hjemmel til å kreve opplysninger uten hinder av taushetsplikt.
+>
+
+### 2009-04-24 — lov/2009-04-24-20
+
+*I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen (arbeids- og velferdsforvaltningsloven) skal § 14 annet ledd annet punktum lyde:*
+
+> Departementet kan gi forskrift om rammene for slike bestemmelser, herunder om at en kommunalt ansatt leder skal ha rett til å utøve samme myndighet som en statlig leder ville hatt i saker om ansettelse, oppsigelse, suspensjon, avskjed og ileggelse av ordensstraff.
+>
+
+### 2010-02-01 — forskrift/2010-01-29-64
+
+*Delvis ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). § 14a i arbeids- og velferdsforvaltningsloven skal tre i kraft fra 1. februar 2010.*
+
+> Delvis ikraftsetting av lov 19. desember 2008 nr. 106 om endringer i folketrygdloven og i enkelte andre lover (arbeidsavklaringspenger, arbeidsevnevurderinger og aktivitetsplaner). § 14a i arbeids- og velferdsforvaltningsloven skal tre i kraft fra 1. februar 2010.
+>
+
+### 2011-12-16 — lov/2011-12-16-58
+
+*I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal § 14 a tredje ledd lyde:*
+
+> Brukere som har fått fastslått at de har et bistandsbehov, har rett til å delta i utarbeidelsen av en konkret plan for hvordan de skal komme i arbeid (aktivitetsplan). Det skal likevel ikke utarbeides aktivitetsplaner for personer som har rett til kvalifiseringsprogram etter lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen § 29.
+>
+
+### 2019-01-01 — lov/2018-12-20-98
+
+*I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal § 7 andre ledd andre punktum oppheves.*
+
 ### 2020-12-04 — lov/2020-12-04-132
 
 *I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal ny § 4 a lyde:*
@@ -18,6 +67,13 @@ refid: "lov/2006-06-16-20"
 > Arbeids- og velferdsetaten kan treffe avgjørelser som utelukkende er basert på automatisert behandling av personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.
 >
 > Departementet kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke typer personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, registerføring og tilgang til registre.
+>
+
+### 2022-11-25 — lov/2022-11-25-86
+
+*I lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen skal § 4 andre ledd andre punktum lyde:*
+
+> Etaten skal legge til rette for at enhver kan få kjennskap til rettigheter og plikter etter nasjonal og internasjonal trygderett.
 >
 
 ### 2022-11-25 — lov/2022-11-25-86

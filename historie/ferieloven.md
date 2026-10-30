@@ -14,6 +14,13 @@ refid: "lov/1988-04-29-21"
 > (Opptjening av feriepenger under sykdom, foreldrepermisjon mv.)
 >
 
+### 2023-03-17 — lov/2023-03-17-3
+
+*I lov 29. april 1988 nr. 21 om ferie skal § 2 første ledd lyde:*
+
+> (1)(Arbeidstaker)Enhver som utfører arbeid for og underordnet en annen (arbeidstaker), har rett til ferie etter denne lov.
+>
+
 ## § 10
 
 ### 2006-04-21 — lov/2006-04-21-10

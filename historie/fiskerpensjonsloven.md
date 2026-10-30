@@ -7,9 +7,44 @@ refid: "lov/1957-06-28-12"
 
 ## (annet)
 
+### 2006-12-22 — lov/2006-12-22-94
+
+*I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 17 lyde:*
+
+> Innkreving av medlemspremie til pensjonstrygden og andre innkrevingsoppgaver etter loven med forskrifter kan overføres til Arbeids- og velferdsetatens innkrevingssentral for innkreving etter reglene i bidragsinnkrevingsloven.
+>
+
 ### 2010-12-17 — lov/2010-12-17-77
 
 *Nåværende nr. 2 blir ny nr. 3.*
+
+### 2011-12-16 — lov/2011-12-16-58
+
+*I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 8 andre ledd første punktum lyde:*
+
+> Alderspensjon oppheves fra og med kalendermåneden etter den måned da pensjonisten fylte 67 år eller fra og med den kalendermåned da pensjonisten får rett til uførepensjon eller arbeidsavklaringspenger etter loven om folketrygd for hel uførhet eller tar ut full avtalefestet pensjon som nevnt i samordningsloven § 1 nr. 1 første ledd bokstav d.
+>
+
+### 2017-12-19 — lov/2017-12-19-122
+
+*I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere (fiskerpensjonsloven) skal § 17 lyde:*
+
+> Innkreving av medlemspremie til pensjonstrygden og andre innkrevingsoppgaver etter loven med forskrifter kan overføres til Innkrevingssentralen for bidrag og tilbakebetalingskrav for innkreving etter reglene i bidragsinnkrevingsloven.
+>
+
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 22 andre punktum lyde:*
+
+> Departementet gir forskrift med nærmere bestemmelser om trygdens administrasjon.
+>
+
+### 2019-11-22 — lov/2019-11-22-72
+
+*I lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere skal § 6 andre ledd lyde:*
+
+> For den som har minst 52 premieuker, kan opptjente pensjonsgivende fartsmåneder etter kapittel II og opptjeningstid etter kapittel X i lov 3. desember 1948 nr. 7 om pensjonsordning for arbeidstakere til sjøs medregnes for å nå opp i minstekravet på 750 premieuker.
+>
 
 ### 2022-11-25 — lov/2022-11-25-86
 
@@ -43,9 +78,9 @@ refid: "lov/1957-06-28-12"
 
 *§ 17 skal lyde:*
 
-> § 17.Innkreving av medlemspremie til pensjonstrygden og andre innkrevingsoppgaver etter loven med forskrifter kan overføres til Innkrevingsmyndigheten for innkreving.
->
 > § 17.
+>
+> Innkreving av medlemspremie til pensjonstrygden og andre innkrevingsoppgaver etter loven med forskrifter kan overføres til Innkrevingsmyndigheten for innkreving.
 >
 
 ## § 22

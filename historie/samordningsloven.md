@@ -7,6 +7,13 @@ refid: "lov/1957-07-06-26"
 
 ## (annet)
 
+### 2002-03-01 — lov/2002-03-01-3
+
+*I lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser, skal § 6 tredje ledd lyde:*
+
+> Denne paragrafen gjelder ikke for pensjonstrygden for sjømenn og pensjonstrygden for fiskere, se likevel lov 3. desember 1948 nr. 7 om pensjonstrygd for sjømenn § 4 nr. 1 andre ledd bokstav a og lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere § 6 nr. 1 andre ledd.
+>
+
 ### 2011-01-01 — lov/2010-06-25-29
 
 *Nåværende kapittel VII blir nytt kapittel VIII. Nåværende §§ 24 til 26 blir nye §§ 26 til 28 og nåværende §§ 26 a til 29 blir nye §§ 29 til 32.*
@@ -14,6 +21,28 @@ refid: "lov/1957-07-06-26"
 ### 2011-01-01 — lov/2010-06-25-29
 
 *I § 3 tredje ledd første punktum, § 7 nr. 1 annet ledd annet punktum og nr. 2 første punktum skal navnet «Statens Pensjonskasse» endres til «Statens pensjonskasse».*
+
+### 2012-07-01 — lov/2012-04-20-16
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser.
+>
+> I lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser skal § 24 nr. 2 nytt andre ledd lyde:
+>
+> Tillegg til alderspensjon etter folketrygdloven § 19-9 a skal gå til fradrag i uførepensjon fra tjenestepensjonsordning. Fradraget begrenses forholdsmessig hvis pensjonisten ikke har full tjenestetid i tjenestepensjonsordningen.
+>
+> Loven trer i kraft 1. juli 2012.
+>
+
+### 2013-10-01 — forskrift/2013-09-13-1077
+
+*Delvis ikrafttredelse av lov 14. juni 2013 nr. 33 om endringer i folketrygdloven og i enkelte andre lover. Lov 6. juli 1957 nr. 26 om samordning av pensjon- og trygdeytelser § 24 nr. 3 fjerde punktum oppheves 1. oktober 2013.*
+
+> Delvis ikrafttredelse av lov 14. juni 2013 nr. 33 om endringer i folketrygdloven og i enkelte andre lover. Lov 6. juli 1957 nr. 26 om samordning av pensjon- og trygdeytelser § 24 nr. 3 fjerde punktum oppheves 1. oktober 2013.
+>
 
 ### 2014-06-20 — lov/2014-06-20-24
 
@@ -52,8 +81,6 @@ refid: "lov/1957-07-06-26"
 *§ 1 første ledd innledningen og bokstav a skal lyde:*
 
 > Denne lov gjelder samordning av ytelser som en person kan få samtidig fra to eller flere av følgende pensjonsordninger og trygder:Tjenestepensjonsordning som er fastsatt ved lov eller vedtak av Stortinget, eller som er fastsatt av kommuner og fylkeskommuner for kommunale og fylkeskommunale tillitsmenn, tjenestemenn og arbeidere, herunder pensjonsordning som yter tidsbegrenset avtalefestet pensjon som tas ut mellom 65 og 67 år.
->
-> Tjenestepensjonsordning som er fastsatt ved lov eller vedtak av Stortinget, eller som er fastsatt av kommuner og fylkeskommuner for kommunale og fylkeskommunale tillitsmenn, tjenestemenn og arbeidere, herunder pensjonsordning som yter tidsbegrenset avtalefestet pensjon som tas ut mellom 65 og 67 år.
 >
 
 ## § 10

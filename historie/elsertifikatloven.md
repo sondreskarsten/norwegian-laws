@@ -11,6 +11,27 @@ refid: "lov/2011-06-24-39"
 
 *Nåværende § 26 annet ledd annet punktum oppheves.*
 
+### 2014-06-20 — lov/2014-06-20-56
+
+*I lov 24. juni 2011 nr. 39 om elsertifikater skal § 26 fjerde ledd lyde:*
+
+> Ved avgjørelsen av om overtredelsesgebyr skal ilegges og ved utmåling av sanksjonen, skal det særlig legges vekt på:overtredelsens grovhet,om overtreder ved retningslinjer, instruksjon, opplæring, kontroll eller andre tiltak kunne forebygge overtredelsen,om overtredelsen er begått for å fremme overtreders interesser,om overtreder har hatt eller kunne oppnådd noen fordel ved overtredelsen,om det foreligger gjentakelse,overtreders økonomiske evne.
+>
+
+### 2016-01-01 — forskrift/2015-06-19-664
+
+*Lov om endringer i lov om elsertifikater trer i kraft 1. januar 2016.*
+
+> Lov om endringer i lov om elsertifikater trer i kraft 1. januar 2016.
+>
+
+### 2018-01-01 — forskrift/2017-06-21-830
+
+*Loven trer i kraft 1. januar 2018.*
+
+> Loven trer i kraft 1. januar 2018.
+>
+
 ## § 17
 
 ### 2015-06-19 — lov/2015-06-19-79

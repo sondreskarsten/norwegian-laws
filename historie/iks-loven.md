@@ -7,6 +7,34 @@ refid: "lov/1999-01-29-6"
 
 ## (annet)
 
+### 2002-12-20 — lov/2002-12-20-108
+
+*I lov 29. januar 1999 nr. 6 om interkommunale selskaper skal § 28 nytt andre punktum lyde:*
+
+> Revisorloven gjelder ikke.
+>
+
+### 2003-09-08 — lov/2003-09-05-92
+
+*I lov 29. januar 1999 nr. 6 om interkommunale selskaper skal § 33 fjerde ledd lyde:*
+
+> Straks avviklingsstyret er oppnevnt, plikter det å sende melding om oppløsningsvedtaket og oppnevningen av avviklingsstyre til Foretaksregisteret. Det skal fremgå av meldingen at departementet har godkjent oppløsningen. Foretaksregisteret skal samtidig med at registrering finner sted, kunngjøre beslutningen og varsle selskapets kreditorer om at de må melde seg til selskapet innen seks måneder fra kunngjøringen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon. Kunngjøringen skal rykkes inn i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og to ganger med minst en ukes mellomrom i en avis som er alminnelig lest på stedet.
+>
+
+### 2003-12-19 — lov/2003-12-19-120
+
+*I lov 29. januar 1999 nr. 6 om interkommunale selskaper skal § 10 første ledd nytt fjerde punktum lyde:*
+
+> Reglene i aksjeloven § 20-6 om representasjon av begge kjønn i styret gjelder tilsvarende.
+>
+
+### 2013-06-14 — lov/2013-06-14-41
+
+*I lov 29. januar 1999 nr. 6 om interkommunale selskaper skal § 33 fjerde ledd lyde:*
+
+> Straks avviklingsstyret er oppnevnt, plikter det å sende melding om oppløsningsvedtaket og oppnevningen av avviklingsstyre til Foretaksregisteret. Det skal fremgå av meldingen at departementet har godkjent oppløsningen. Foretaksregisteret skal samtidig med at registrering finner sted, kunngjøre beslutningen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og varsle selskapets kreditorer om at de må melde seg til selskapet innen seks uker fra kunngjøringen.
+>
+
 ### 2021-05-28 — lov/2021-05-28-47
 
 *Nåværende fjerde til syvende ledd blir femte til nytt åttende ledd.*
@@ -14,6 +42,21 @@ refid: "lov/1999-01-29-6"
 ### 2021-05-28 — lov/2021-05-28-47
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
+
+### 2023-07-01 — forskrift/2023-06-02-769
+
+*Delt ikraftsetjing av lov om endringar i lov om interkommunale selskaper.*
+
+> Delt ikraftsetjing av lov om endringar i lov om interkommunale selskaper.
+>
+> Følgjande trer i kraft 1. juli 2023:
+>
+> Endringslova § 6 første ledd fjerde punktum, § 6 andre ledd, § 30, § 31, § 32, og § 33.
+>
+> Følgjande trer i kraft 1. januar 2024:
+>
+> Endringslova § 4, § 6 første ledd sjette punktum, § 7, § 8, § 8a, § 9, § 9a, § 10, § 12, § 13, § 15, § 18, § 19, § 20, § 22, § 22a, § 22b, § 27, § 40 og § 41.
+>
 
 ### 2026-06-19 — lov/2026-06-19-48
 
@@ -83,9 +126,9 @@ refid: "lov/1999-01-29-6"
 
 *§ 15 skal lyde:*
 
-> § 15.InhabilitetOm inhabilitet for selskapets ansatte og medlemmer av selskapets styrende organer gjelder kommuneloven § 13-3 og § 11-10 tilsvarende.
+> § 15. Inhabilitet
 >
-> § 15.Inhabilitet
+> Om inhabilitet for selskapets ansatte og medlemmer av selskapets styrende organer gjelder kommuneloven § 13-3 og § 11-10 tilsvarende.
 >
 
 ## § 15 a
@@ -94,9 +137,9 @@ refid: "lov/1999-01-29-6"
 
 *Ny § 15 a skal lyde:*
 
-> § 15 a.Forholdet til forvaltningslovenForvaltningsloven gjelder for interkommunale selskaper som er omfattet av offentleglova.
+> § 15 a. Forholdet til forvaltningsloven
 >
-> § 15 a.Forholdet til forvaltningsloven
+> Forvaltningsloven gjelder for interkommunale selskaper som er omfattet av offentleglova.
 >
 
 ## § 18

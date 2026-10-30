@@ -231,10 +231,31 @@ refid: "lov/1992-07-03-93"
 
 ## (annet)
 
+### 2007-06-15 — lov/2007-06-15-36
+
+*I lov 3. juli 1992 nr. 93 om avhending av fast eigedom (avhendingslova) skal § 4-19 nytt fjerde ledd lyde:*
+
+> (4) Retten til å gjere avtalebrotet gjeldande kan også bli tapt etter reglane om forelding i foreldingslova.
+>
+
 ### 2010-09-03 — lov/2010-09-03-54
 
 *Nåværende annet og tredje ledd blir nytt tredje og fjerde ledd.*
 
+### 2012-01-20 — lov/2012-01-20-7
+
+*I lov 3. juli 1992 nr. 93 om avhending av fast eigedom skal § 2-6 første ledd andre punktum lyde:*
+
+> Det gjeld òg kostnadene til oppmålingsforretning og matrikkelføring, og sakkunnig hjelp til dette.
+>
+
 ### 2019-06-07 — lov/2019-06-07-20
 
 *Nåværende tredje punktum blir nytt fjerde punktum.*
+
+### 2022-01-01 — forskrift/2021-06-11-1864
+
+*Ikraftsetting av lov 7. juni 2019 nr. 20 om endringer i avhendingslova (tryggere bolighandel). Endringsloven trer i kraft 1. januar 2022.*
+
+> Ikraftsetting av lov 7. juni 2019 nr. 20 om endringer i avhendingslova (tryggere bolighandel). Endringsloven trer i kraft 1. januar 2022.
+>

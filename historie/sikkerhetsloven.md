@@ -86,9 +86,11 @@ refid: "lov/2018-06-01-24"
 
 *§ 8-11 skal lyde:*
 
-> § 8-11.Opplysnings- og varslingsplikt om forhold som kan påvirke sikkerhetsmessig skikkethetEn person som skal autoriseres, skal opplyse den autorisasjonsansvarlige om forhold som kan være av betydning for om personen er sikkerhetsmessig skikket.En person som er klarert eller autorisert, skal umiddelbart varsle den autorisasjonsansvarlige om forhold som kan være av betydning for om personen er sikkerhetsmessig skikket.
+> § 8-11. Opplysnings- og varslingsplikt om forhold som kan påvirke sikkerhetsmessig skikkethet
 >
-> § 8-11.Opplysnings- og varslingsplikt om forhold som kan påvirke sikkerhetsmessig skikkethet
+> En person som skal autoriseres, skal opplyse den autorisasjonsansvarlige om forhold som kan være av betydning for om personen er sikkerhetsmessig skikket.
+>
+> En person som er klarert eller autorisert, skal umiddelbart varsle den autorisasjonsansvarlige om forhold som kan være av betydning for om personen er sikkerhetsmessig skikket.
 >
 
 ## § 10-1
@@ -176,6 +178,13 @@ refid: "lov/2018-06-01-24"
 > Forsøk på overtredelser som nevnt i første til fjerde ledd straffes på samme måte.
 >
 
+### 2023-07-01 — forskrift/2023-06-20-995
+
+*Delt ikraftsetting av loven. Endringene i sikkerhetsloven § 1-3, § 2-1 første ledd bokstav b og c, § 2-2 andre ledd ny bokstav i, § 6-1 første ledd, § 7-1 første ledd, § 7-2 første og andre ledd og ny § 7-6 settes i kraft 1. juli 2023.*
+
+> Delt ikraftsetting av loven. Endringene i sikkerhetsloven § 1-3, § 2-1 første ledd bokstav b og c, § 2-2 andre ledd ny bokstav i, § 6-1 første ledd, § 7-1 første ledd, § 7-2 første og andre ledd og ny § 7-6 settes i kraft 1. juli 2023.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *16.I lov 1. juni 2018 nr. 24 om nasjonal sikkerhet skal § 11-4 andre ledd lyde:*
@@ -183,11 +192,22 @@ refid: "lov/2018-06-01-24"
 > Den som forsettlig eller grovt uaktsomt bryter taushetsplikt etter § 5-4 andre ledd eller § 6-6 fjerde ledd, straffes med bot eller fengsel inntil 1 år eller begge deler, hvis ikke forholdet går inn under en strengere straffebestemmelse.
 >
 
+### 2024-06-14 — forskrift/2024-06-14-982
+
+*Delt ikraftsetting av lov 20. juni 2023 nr. 77 om endringer i sikkerhetsloven (eierskapskontroll og lovens virkeområde). Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av lov 20. juni 2023 nr. 77 om endringer i sikkerhetsloven (eierskapskontroll og lovens virkeområde). Følgende trer i kraft straks:
+>
+> Endringsloven del I § 11-4 fjerde ledd og nytt femte ledd.
+>
+
 ### 2026-06-23 — lov/2026-06-23-74
 
 *I lov 1. juni 2018 nr. 24 om nasjonal sikkerhet skal § 8-16 lyde:*
 
-> § 8-16.Klareringsmyndigheter og sentralt register for klareringsavgjørelserKongen utpeker ett eller flere forvaltningsorganer med klareringsmyndighet. Kongen kan gi forskrift om klareringsmyndighetenes oppgaver.Kongen kan gi forskrift om opprettelsen av et sentralt register for klareringsavgjørelser.
+> § 8-16. Klareringsmyndigheter og sentralt register for klareringsavgjørelser
 >
-> § 8-16.Klareringsmyndigheter og sentralt register for klareringsavgjørelser
+> Kongen utpeker ett eller flere forvaltningsorganer med klareringsmyndighet. Kongen kan gi forskrift om klareringsmyndighetenes oppgaver.
+>
+> Kongen kan gi forskrift om opprettelsen av et sentralt register for klareringsavgjørelser.
 >

@@ -5,6 +5,40 @@ refid: "lov/2001-06-15-79"
 
 # Endringshistorikk: Svalbardmiljøloven
 
+## (annet)
+
+### 2012-07-01 — forskrift/2012-04-20-332
+
+*Loven trer i kraft 1. juli 2012.*
+
+> Loven trer i kraft 1. juli 2012.
+>
+
+### 2016-12-09 — lov/2016-12-09-89
+
+*I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard skal § 3 bokstav b lyde:avfall: løsøregjenstander eller stoffer som noen har kassert, har til hensikt å kassere, eller er forpliktet til å kassere. Som avfall regnes ikke avløpsvann og avgasser. Bestemmelsene om skillet mellom avfall og biprodukter, og om når avfall opphører å være avfall, i forurensningsloven § 27 annet og tredje ledd gjelder tilsvarende.*
+
+### 2019-06-21 — lov/2019-06-21-54
+
+*I lov 15. juni 2001 nr. 79 om miljøvern på Svalbard skal § 99 første ledd andre punktum lyde:*
+
+> Er det inntrådt eller voldt fare for betydelig miljøskade, eller det for øvrig foreligger særdeles skjerpende omstendigheter, kan fengsel inntil 5 år anvendes.
+>
+
+### 2025-01-01 — forskrift/2024-06-07-941
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
+### 2025-01-01 — forskrift/2024-12-20-3305
+
+*Loven trer i kraft 1. januar 2025.*
+
+> Loven trer i kraft 1. januar 2025.
+>
+
 ## § 1
 
 ### 2012-04-20 — lov/2012-04-20-20
@@ -100,9 +134,15 @@ refid: "lov/2001-06-15-79"
 
 *§ 30 a skal lyde:*
 
-> § 30 a.(isbjørnbeskyttelse)Det er forbudt å unødig forstyrre, å lokke til seg eller å forfølge isbjørn.Ingen må ferdes eller oppholde seg nærmere isbjørn enn 300 meter. Fra 1. mars til 30. juni må ingen ferdes eller oppholde seg nærmere isbjørn enn 500 meter. Alle som oppdager isbjørn nærmere enn avstandsgrensen, skal trekke seg unna slik at lovlig avstand overholdes. Avstandsgrensen gjelder ikke i bebodde områder, ved opphold i forskningsstasjoner, hytter, telt eller lignende innretninger.Alle som ferdes eller oppholder seg utenfor bebodd område, med unntak for deltakere i turistvirksomhet, skal ha kunnskap om sikring mot isbjørnangrep og ha med egnede midler til å skremme og jage isbjørn. Det skal iverksettes nødvendige tiltak for å kunne avverge et angrep fra isbjørn uten å skade eller avlive dyret.Sysselmesteren kan gi forskrift om sikring mot isbjørnangrep som nevnt i tredje ledd.
+> § 30 a. (isbjørnbeskyttelse)
 >
-> § 30 a.(isbjørnbeskyttelse)
+> Det er forbudt å unødig forstyrre, å lokke til seg eller å forfølge isbjørn.
+>
+> Ingen må ferdes eller oppholde seg nærmere isbjørn enn 300 meter. Fra 1. mars til 30. juni må ingen ferdes eller oppholde seg nærmere isbjørn enn 500 meter. Alle som oppdager isbjørn nærmere enn avstandsgrensen, skal trekke seg unna slik at lovlig avstand overholdes. Avstandsgrensen gjelder ikke i bebodde områder, ved opphold i forskningsstasjoner, hytter, telt eller lignende innretninger.
+>
+> Alle som ferdes eller oppholder seg utenfor bebodd område, med unntak for deltakere i turistvirksomhet, skal ha kunnskap om sikring mot isbjørnangrep og ha med egnede midler til å skremme og jage isbjørn. Det skal iverksettes nødvendige tiltak for å kunne avverge et angrep fra isbjørn uten å skade eller avlive dyret.
+>
+> Sysselmesteren kan gi forskrift om sikring mot isbjørnangrep som nevnt i tredje ledd.
 >
 
 ## § 32
@@ -284,9 +324,19 @@ refid: "lov/2001-06-15-79"
 
 *§ 64 skal lyde:*
 
-> § 64.(opprydding)Hvis en virksomhet blir nedlagt eller stanser, skal tiltakshaveren gjøre det som er nødvendig for å motvirke fare for skade på miljøet. Kan virksomheten medføre skade på miljøet etter nedleggingen eller driftsstansen, skal det i rimelig tid på forhånd gis melding til Sysselmesteren. Sysselmesteren kan gi pålegg om tiltak for å motvirke fare for skade på miljøet, herunder om behandling av forurenset grunn og beskyttelse av fauna, og om at det skal utarbeides en plan for oppfyllelse av pliktene etter leddet her.Når en virksomhet eller deler av den opphører, skal tiltakshaveren på egen kostnad fjerne fra området alle installasjoner på overflaten, alt avfall og andre etterlatenskaper som ikke er fredete kulturminner etter kapittel V. Området skal så vidt praktisk mulig føres tilbake til sitt opprinnelige utseende.Sysselmesteren kangi pålegg om hvilke tiltak som skal utføres etter annet ledd, herunder om behandling av forurenset grunn, og om at det skal utarbeides en plan for oppfyllelse av pliktene etter annet leddkreve at det stilles sikkerhet for kostnadene ved opprydding og tilbakeføring etter annet leddgi fritak fra oppryddings- og tilbakeføringsplikten etter annet ledd.Når et lokalsamfunn i et planområde skal avvikles eller fraflyttes i det vesentlige, skal den planansvarlige gi Sysselmesteren melding så tidlig som mulig. Den planansvarlige, eller den Sysselmesteren bestemmer, skal utarbeide plan som nevnt i første ledd tredje punktum og tredje ledd bokstav a.Pliktene etter paragrafen her gjelder i tillegg til eventuelle plikter som følger av tillatelser etter §§ 57 eller 58. Den som vil starte opp virksomhet med tillatelse etter §§ 57 eller 58 etter at den har vært stanset i mer enn to år, skal gi melding om dette til Sysselmesteren. Sysselmesteren avgjør om det må søkes om ny tillatelse før virksomheten igangsettes.Etterlatte kjøretøy, skip, fly, andre fartøyer og lignende skal fjernes av eieren.
+> § 64. (opprydding)
 >
-> § 64.(opprydding)
+> Hvis en virksomhet blir nedlagt eller stanser, skal tiltakshaveren gjøre det som er nødvendig for å motvirke fare for skade på miljøet. Kan virksomheten medføre skade på miljøet etter nedleggingen eller driftsstansen, skal det i rimelig tid på forhånd gis melding til Sysselmesteren. Sysselmesteren kan gi pålegg om tiltak for å motvirke fare for skade på miljøet, herunder om behandling av forurenset grunn og beskyttelse av fauna, og om at det skal utarbeides en plan for oppfyllelse av pliktene etter leddet her.
+>
+> Når en virksomhet eller deler av den opphører, skal tiltakshaveren på egen kostnad fjerne fra området alle installasjoner på overflaten, alt avfall og andre etterlatenskaper som ikke er fredete kulturminner etter kapittel V. Området skal så vidt praktisk mulig føres tilbake til sitt opprinnelige utseende.
+>
+> Sysselmesteren kangi pålegg om hvilke tiltak som skal utføres etter annet ledd, herunder om behandling av forurenset grunn, og om at det skal utarbeides en plan for oppfyllelse av pliktene etter annet leddkreve at det stilles sikkerhet for kostnadene ved opprydding og tilbakeføring etter annet leddgi fritak fra oppryddings- og tilbakeføringsplikten etter annet ledd.
+>
+> Når et lokalsamfunn i et planområde skal avvikles eller fraflyttes i det vesentlige, skal den planansvarlige gi Sysselmesteren melding så tidlig som mulig. Den planansvarlige, eller den Sysselmesteren bestemmer, skal utarbeide plan som nevnt i første ledd tredje punktum og tredje ledd bokstav a.
+>
+> Pliktene etter paragrafen her gjelder i tillegg til eventuelle plikter som følger av tillatelser etter §§ 57 eller 58. Den som vil starte opp virksomhet med tillatelse etter §§ 57 eller 58 etter at den har vært stanset i mer enn to år, skal gi melding om dette til Sysselmesteren. Sysselmesteren avgjør om det må søkes om ny tillatelse før virksomheten igangsettes.
+>
+> Etterlatte kjøretøy, skip, fly, andre fartøyer og lignende skal fjernes av eieren.
 >
 
 ## § 65
@@ -410,9 +460,9 @@ refid: "lov/2001-06-15-79"
 
 *§ 87 skal lyde:*
 
-> § 87.(miljøvernmyndighetenes tilsyn)Miljøvernmyndighetene eller den departementet bemyndiger fører tilsyn med miljøtilstanden og med at bestemmelsene gitt i og i medhold av denne lov blir overholdt. Det skal legges vekt på å føre et så effektivt tilsyn som forholdene tilsier og med minst mulig belastning for miljøet. Sysselmesteren eller den departementet bemyndiger skal gjennom råd, veiledning og opplysning arbeide for å fremme formålet med loven her.
+> § 87. (miljøvernmyndighetenes tilsyn)
 >
-> § 87.(miljøvernmyndighetenes tilsyn)
+> Miljøvernmyndighetene eller den departementet bemyndiger fører tilsyn med miljøtilstanden og med at bestemmelsene gitt i og i medhold av denne lov blir overholdt. Det skal legges vekt på å føre et så effektivt tilsyn som forholdene tilsier og med minst mulig belastning for miljøet. Sysselmesteren eller den departementet bemyndiger skal gjennom råd, veiledning og opplysning arbeide for å fremme formålet med loven her.
 >
 
 ## § 89
@@ -421,9 +471,9 @@ refid: "lov/2001-06-15-79"
 
 *§ 89 skal lyde:*
 
-> § 89.(opplysningsplikt)Den som har eller foretar seg noe som kan påvirke miljøet på Svalbard, plikter etter pålegg fra Sysselmesteren eller den departementet bemyndiger, og uten hinder av taushetsplikt, å gi de opplysninger som Sysselmesteren eller den departementet bemyndiger trenger for å utføre sine gjøremål etter denne lov. Når særlige grunner tilsier det, kan Sysselmesteren eller den departementet bemyndiger kreve at opplysninger gis av enhver som utfører arbeid for den som har opplysningsplikt etter første punktum.
+> § 89. (opplysningsplikt)
 >
-> § 89.(opplysningsplikt)
+> Den som har eller foretar seg noe som kan påvirke miljøet på Svalbard, plikter etter pålegg fra Sysselmesteren eller den departementet bemyndiger, og uten hinder av taushetsplikt, å gi de opplysninger som Sysselmesteren eller den departementet bemyndiger trenger for å utføre sine gjøremål etter denne lov. Når særlige grunner tilsier det, kan Sysselmesteren eller den departementet bemyndiger kreve at opplysninger gis av enhver som utfører arbeid for den som har opplysningsplikt etter første punktum.
 >
 
 ## § 90
@@ -432,9 +482,11 @@ refid: "lov/2001-06-15-79"
 
 *§ 90 skal lyde:*
 
-> § 90.(granskning)Når det er nødvendig for å utføre gjøremål etter loven, skal Sysselmesteren eller den departementet bemyndiger ha uhindret adgang til eiendom der det foregår virksomhet som kan påvirke miljøet, eller der miljøet kan antas å være påvirket. Sysselmesteren eller den departementet bemyndiger kan også kreve å få lagt frem og granske dokumenter og elektronisk lagret materiale eller annet materiale som kan ha betydning for gjøremål etter loven.Ved inspeksjon av virksomhet skal Sysselmesteren eller den departementet bemyndiger først ta kontakt med representanter for virksomhetens ledelse, om ikke formålet med inspeksjonen dermed blir forhindret eller vesentlig vanskeliggjort.
+> § 90. (granskning)
 >
-> § 90.(granskning)
+> Når det er nødvendig for å utføre gjøremål etter loven, skal Sysselmesteren eller den departementet bemyndiger ha uhindret adgang til eiendom der det foregår virksomhet som kan påvirke miljøet, eller der miljøet kan antas å være påvirket. Sysselmesteren eller den departementet bemyndiger kan også kreve å få lagt frem og granske dokumenter og elektronisk lagret materiale eller annet materiale som kan ha betydning for gjøremål etter loven.
+>
+> Ved inspeksjon av virksomhet skal Sysselmesteren eller den departementet bemyndiger først ta kontakt med representanter for virksomhetens ledelse, om ikke formålet med inspeksjonen dermed blir forhindret eller vesentlig vanskeliggjort.
 >
 
 ## § 91
@@ -443,9 +495,9 @@ refid: "lov/2001-06-15-79"
 
 *§ 91 skal lyde:*
 
-> § 91.(pålegg om undersøkelse)Sysselmesteren eller den departementet bemyndiger kan ved enkeltvedtak pålegge en tiltakshaver som påvirker eller som det er grunn til å tro kan påvirke miljøet, å sørge for eller bekoste undersøkelser eller andre tiltak for åfastslå om og i hvilken grad virksomheten har påvirket eller kan påvirke miljøet,klarlegge årsaken til eller virkningene av inntrådte miljøendringer som virksomheten har forårsaket,klarlegge hvordan gjenoppretting av miljøet kan skje.
+> § 91. (pålegg om undersøkelse)
 >
-> § 91.(pålegg om undersøkelse)
+> Sysselmesteren eller den departementet bemyndiger kan ved enkeltvedtak pålegge en tiltakshaver som påvirker eller som det er grunn til å tro kan påvirke miljøet, å sørge for eller bekoste undersøkelser eller andre tiltak for åfastslå om og i hvilken grad virksomheten har påvirket eller kan påvirke miljøet,klarlegge årsaken til eller virkningene av inntrådte miljøendringer som virksomheten har forårsaket,klarlegge hvordan gjenoppretting av miljøet kan skje.
 >
 
 ## § 92
@@ -519,9 +571,19 @@ refid: "lov/2001-06-15-79"
 
 *§ 96 a skal lyde:*
 
-> § 96 a.(overtredelsesgebyr)Sysselmesteren eller den departementet bemyndiger kan ilegge overtredelsesgebyr til den som forsettlig eller uaktsomt overtrerbestemmelsene i §§ 16 annet ledd, 18 annet ledd, 19 andre punktum, 26 første ledd, 27, 28 første ledd, 29, 30, 30 a første og annet ledd, 31 første til tredje ledd, 32 annet ledd, 33, 35, 42 første og annet ledd, 44 første og tredje ledd, 46 første ledd, 53 første ledd, 57 første og annet ledd, 58 første ledd, 62, 64 første, annet og fjerde ledd, 65, 66 første ledd, 67, 68, 70 første til tredje ledd, 71 første og annet ledd, 73 annet ledd, 79 annet ledd, 80, 81, 82 første og tredje ledd, 82 a, 83 annet og tredje ledd, 85 første og annet ledd, 86, 93 første ledd og 94.vilkår eller plikter som følger av enkeltvedtak gitt med hjemmel i §§ 22 første ledd, 26 første ledd, 27, 30 femte og sjette ledd, 31 annet ledd annet punktum, 32 tredje til femte ledd, 34, 37, 44 annet ledd, 45 første og fjerde ledd, 46 tredje ledd, 54, 57 første ledd, 58 tredje og fjerde ledd, 66 tredje ledd, 69, 71 første og femte ledd, 80 første ledd bokstav b, 81 første ledd bokstav c, 82 første ledd, 83 annet ledd, 85 tredje ledd og 93 tredje ledd.I forskrift som gis i medhold av loven her, kan departementet fastsette at den som overtrer forskriften eller vilkår eller plikter som følger av enkeltvedtak gitt med hjemmel i forskriften, kan ilegges overtredelsesgebyr.Endelig vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg. Domstolene kan prøve størrelsen på overtredelsesgebyret.Foretak kan ilegges overtredelsesgebyr i samsvar med første til tredje ledd når overtredelsen er begått forsettlig eller uaktsomt av noen som har handlet på vegne av foretaket. Dette gjelder selv om ingen enkeltperson kan ilegges overtredelsesgebyr.Adgangen til å ilegge overtredelsesgebyr foreldes 2 år etter at overtredelsen opphører. Fristen avbrytes ved at det gis forhåndsvarsel eller fattes vedtak om overtredelsesgebyr.Overtredelsesgebyr betales til Svalbards miljøvernfond. Departementet kan gi forskrift med nærmere bestemmelser om fastsettelse av overtredelsesgebyr, herunder gebyrets størrelse.
+> § 96 a. (overtredelsesgebyr)
 >
-> § 96 a.(overtredelsesgebyr)
+> Sysselmesteren eller den departementet bemyndiger kan ilegge overtredelsesgebyr til den som forsettlig eller uaktsomt overtrerbestemmelsene i §§ 16 annet ledd, 18 annet ledd, 19 andre punktum, 26 første ledd, 27, 28 første ledd, 29, 30, 30 a første og annet ledd, 31 første til tredje ledd, 32 annet ledd, 33, 35, 42 første og annet ledd, 44 første og tredje ledd, 46 første ledd, 53 første ledd, 57 første og annet ledd, 58 første ledd, 62, 64 første, annet og fjerde ledd, 65, 66 første ledd, 67, 68, 70 første til tredje ledd, 71 første og annet ledd, 73 annet ledd, 79 annet ledd, 80, 81, 82 første og tredje ledd, 82 a, 83 annet og tredje ledd, 85 første og annet ledd, 86, 93 første ledd og 94.vilkår eller plikter som følger av enkeltvedtak gitt med hjemmel i §§ 22 første ledd, 26 første ledd, 27, 30 femte og sjette ledd, 31 annet ledd annet punktum, 32 tredje til femte ledd, 34, 37, 44 annet ledd, 45 første og fjerde ledd, 46 tredje ledd, 54, 57 første ledd, 58 tredje og fjerde ledd, 66 tredje ledd, 69, 71 første og femte ledd, 80 første ledd bokstav b, 81 første ledd bokstav c, 82 første ledd, 83 annet ledd, 85 tredje ledd og 93 tredje ledd.
+>
+> I forskrift som gis i medhold av loven her, kan departementet fastsette at den som overtrer forskriften eller vilkår eller plikter som følger av enkeltvedtak gitt med hjemmel i forskriften, kan ilegges overtredelsesgebyr.
+>
+> Endelig vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg. Domstolene kan prøve størrelsen på overtredelsesgebyret.
+>
+> Foretak kan ilegges overtredelsesgebyr i samsvar med første til tredje ledd når overtredelsen er begått forsettlig eller uaktsomt av noen som har handlet på vegne av foretaket. Dette gjelder selv om ingen enkeltperson kan ilegges overtredelsesgebyr.
+>
+> Adgangen til å ilegge overtredelsesgebyr foreldes 2 år etter at overtredelsen opphører. Fristen avbrytes ved at det gis forhåndsvarsel eller fattes vedtak om overtredelsesgebyr.
+>
+> Overtredelsesgebyr betales til Svalbards miljøvernfond. Departementet kan gi forskrift med nærmere bestemmelser om fastsettelse av overtredelsesgebyr, herunder gebyrets størrelse.
 >
 
 ## § 97
@@ -530,9 +592,13 @@ refid: "lov/2001-06-15-79"
 
 *§ 97 skal lyde:*
 
-> § 97.(direkte gjennomføring)Blir plikter som følger av loven eller vedtak i medhold av loven ikke etterlevd, kan Sysselmesteren eller den departementet bemyndiger selv sørge for nødvendige tiltak for å få plikten overholdt. Før dette skjer, skal den ansvarlige gis varsel med en kort frist for selv å gjennomføre tiltakene. Varsel kan unnlates dersom tiltakene haster av hensyn til miljøet, eller det er uvisst hvem som er ansvarlig.Ved iverksetting av tiltak etter første ledd kan Sysselmesteren eller den departementet bemyndiger gjøre bruk av og om nødvendig volde skade på den ansvarliges eiendom. Sysselmesteren eller den departementet bemyndiger kan om nødvendig bestemme at det mot vederlag kan gjøres bruk av eller voldes skade også på andres eiendom. Staten innestår for vederlaget.Utgifter til tiltak etter første ledd kan kreves dekket av den ansvarlige. Kravet er tvangsgrunnlag for utlegg.
+> § 97. (direkte gjennomføring)
 >
-> § 97.(direkte gjennomføring)
+> Blir plikter som følger av loven eller vedtak i medhold av loven ikke etterlevd, kan Sysselmesteren eller den departementet bemyndiger selv sørge for nødvendige tiltak for å få plikten overholdt. Før dette skjer, skal den ansvarlige gis varsel med en kort frist for selv å gjennomføre tiltakene. Varsel kan unnlates dersom tiltakene haster av hensyn til miljøet, eller det er uvisst hvem som er ansvarlig.
+>
+> Ved iverksetting av tiltak etter første ledd kan Sysselmesteren eller den departementet bemyndiger gjøre bruk av og om nødvendig volde skade på den ansvarliges eiendom. Sysselmesteren eller den departementet bemyndiger kan om nødvendig bestemme at det mot vederlag kan gjøres bruk av eller voldes skade også på andres eiendom. Staten innestår for vederlaget.
+>
+> Utgifter til tiltak etter første ledd kan kreves dekket av den ansvarlige. Kravet er tvangsgrunnlag for utlegg.
 >
 
 ## § 98

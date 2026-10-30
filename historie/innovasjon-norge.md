@@ -11,6 +11,20 @@ refid: "lov/2003-12-19-130"
 
 *Nåværende § 32 annet ledd annet og tredje punktum blir nytt § 32 tredje ledd.*
 
+### 2011-07-01 — forskrift/2011-03-25-321
+
+*Lovendringene trer i kraft 1. juli 2011.*
+
+> Lovendringene trer i kraft 1. juli 2011.
+>
+
+### 2014-07-01 — forskrift/2014-02-28-218
+
+*Lovendringene trer i kraft 1. juli 2014.*
+
+> Lovendringene trer i kraft 1. juli 2014.
+>
+
 ### 2016-06-17 — lov/2016-06-17-72
 
 *Kapittel 7 overskriften skal lyde:*
@@ -24,13 +38,20 @@ refid: "lov/2003-12-19-130"
 > Ved oppløsning og avvikling gjelder bestemmelsene i lov 30. august 1991 nr. 71 om statsforetak §§ 46, 49, 50, 51, 52 og 53 så langt de passer.
 >
 
+### 2019-12-13 — lov/2019-12-13-79
+
+*I lov 19. desember 2003 nr. 130 om Innovasjon Norge skal § 6 annet ledd lyde:*
+
+> Lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjelder ikke for selskapet.
+>
+
 ### 2025-04-10 — lov/2025-04-10-9
 
 *4.I lov 19. desember 2003 nr. 130 om Innovasjon Norge skal § 36 a lyde:*
 
-> § 36 a.Oppløsning og avviklingVed oppløsning og avvikling gjelder bestemmelsene i statsføretakslova §§ 8-1 til 8-4 og §§ 8-7 til 8-10 så langt de passer.
+> § 36 a. Oppløsning og avvikling
 >
-> § 36 a.Oppløsning og avvikling
+> Ved oppløsning og avvikling gjelder bestemmelsene i statsføretakslova §§ 8-1 til 8-4 og §§ 8-7 til 8-10 så langt de passer.
 >
 
 ### 2025-06-20 — lov/2025-06-20-96

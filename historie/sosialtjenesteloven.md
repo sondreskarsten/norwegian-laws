@@ -7,9 +7,78 @@ refid: "lov/2009-12-18-131"
 
 ## (annet)
 
+### 2012-12-14 — lov/2012-12-14-80
+
+*I lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen skal § 38 tredje ledd lyde:*
+
+> Dersom en mottaker av kvalifiseringsstønad får etterbetalt uførepensjon eller ytelser som nevnt i første ledd, kan kommunen kreve hel eller delvis refusjon i det beløpet som skal etterbetales, til dekning av sine utlegg til samme formål og for samme tidsrom.
+>
+
+### 2016-01-01 — forskrift/2015-12-18-1582
+
+*Loven trer i kraft 1. januar 2016.*
+
+> Loven trer i kraft 1. januar 2016.
+>
+
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen skal § 45 lyde:*
+
+> § 45.Opplysningsplikt til barnevernet
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barneverntjenesten.
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, skal uten hinder av taushetsplikt melde fra til barneverntjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling, eller at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn viser alvorlige atferdsvansker i form av alvorlig eller gjentatt kriminalitet, misbruk av rusmidler eller en annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
 ### 2020-04-15 — lov/2020-04-15-19
 
 *Nåværende andre ledd blir nytt fjerde ledd.*
+
+### 2020-06-19 — lov/2020-06-19-89
+
+*I lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen skal § 5 lyde:*
+
+> § 5.Internkontroll
+>
+> Kommunen skal ha internkontroll etter reglene i kommuneloven § 25-1.
+>
+
+### 2020-12-18 — lov/2020-12-18-142
+
+*I lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen skal § 20 a lyde:*
+
+> § 20 a.Bruk av vilkår for personer under 30 år
+>
+> Det skal stilles vilkår om aktivitet for tildeling av økonomisk stønad til personer under 30 år. Dersom manglende norsk- eller samiskkunnskaper er årsaken til at personen ikke er selvhjulpen, skal det vurderes å stille vilkår om norsk- eller samiskopplæring. Dersom vedkommende har hatt rett og plikt til å delta i introduksjonsprogram, jf. integreringsloven § 8, og manglende norskkunnskaper er årsaken til at personen ikke er selvhjulpen, skal det stilles vilkår om norskopplæring. Tredje punktum gjelder ikke for samiskspråklige stønadsmottakere. Det skal ikke stilles vilkår om aktivitet når tungtveiende grunner taler mot det.
+>
+> Det kan også stilles andre vilkår for tildeling av økonomisk stønad, inkludert vilkår etter § 25.
+>
+> Vilkårene må ha nær sammenheng med vedtaket. De må ikke være uforholdsmessig byrdefulle for stønadsmottakeren eller begrense hans eller hennes handle- og valgfrihet på en urimelig måte. Vilkårene må heller ikke være i strid med andre bestemmelser i loven her eller i andre lover.
+>
+> Ved brudd på vilkår kan det fattes vedtak om at stønaden reduseres, forutsatt at det i vedtaket om stønad er informert om muligheten for slik reduksjon.
+>
+> Kommunen kan innhente opplysninger om stønadsmottakeres rett og plikt til deltakelse i introduksjonsprogram fra Nasjonalt introduksjonsregister.
+>
+> Departementet kan i forskrift gi nærmere regler om plikten til å stille vilkår om aktivitet og reduksjon av stønaden.
+>
+
+### 2021-01-01 — forskrift/2020-12-18-2836
+
+*Delt ikraftsetting av endringsloven. Endringsloven del I trer i kraft 1. januar 2021.*
+
+> Delt ikraftsetting av endringsloven. Endringsloven del I trer i kraft 1. januar 2021.
+>
+
+### 2021-05-07 — lov/2021-05-07-30
+
+*I lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen skal § 43 a første ledd lyde:*
+
+> Kommunen, statsforvalteren, Statens helsetilsyn og Arbeids- og velferdsdirektoratet kan behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10, når dette er nødvendig for utførelsen av oppgaver etter loven her.
+>
 
 ### 2023-12-20 — lov/2023-12-20-95
 

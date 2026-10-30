@@ -11,6 +11,56 @@ refid: "lov/1999-07-02-64"
 
 *Ny overskrift til kapittel 4 skal lyde:*
 
+### 2007-06-15 — lov/2007-06-15-33
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal ny § 29 a lyde:*
+
+> I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal ny § 29 a lyde:
+>
+> § 29 a.
+>
+> Opplysninger til etterkontroll av særreaksjonene
+>
+> Departementet kan bestemme at helseopplysninger kan eller skal gis til bruk ved etterkontroll av reglene om særreaksjonene overføring til tvungent psykisk helsevern og overføring til tvungen omsorg, og at det kan skje uten hinder av taushetsplikt etter § 21. Til slikt vedtak kan knyttes vilkår. Reglene om taushetsplikt etter denne lov gjelder tilsvarende for den som mottar opplysningene.
+>
+> Denne bestemmelsen gjelder i tre år fra den er satt i kraft.
+>
+> Loven trer i kraft straks.
+>
+
+### 2007-06-29 — lov/2007-06-29-78
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. (helsepersonelloven) skal § 20 lyde:*
+
+> § 20.Plikter etter pasientskadeloven
+>
+> Den som utenfor den offentlige helsetjenesten yter helsehjelp som nevnt i pasientskadeloven § 1, skal melde fra og yte tilskudd til Norsk Pasientskadeerstatning etter pasientskadeloven § 8.
+>
+
+### 2008-06-27 — lov/2008-06-27-64
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. (helsepersonelloven) skal § 48 Autorisasjon lyde:*
+
+> Autorisasjonsordningen etter denne lov omfatter følgende grupper helsepersonell:ambulansearbeiderapotekteknikeraudiografbioingeniørergoterapeuthelsefagarbeiderfotterapeutfysioterapeuthelsesekretærhjelpepleierjordmorkiropraktorklinisk ernæringsfysiologlegeomsorgsarbeideroptikerortopediingeniørortoptistperfusjonistpsykologradiografsykepleiertannhelsesekretærtannlegetannpleiertannteknikervernepleierprovisorfarmasøytreseptarfarmasøyt
+>
+
+### 2008-11-14 — lov/2008-11-14-80
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. (helsepersonelloven) skal § 48 lyde:*
+
+> § 48.Autorisasjon
+>
+> Autorisasjonsordningen etter denne lov omfatter følgende grupper helsepersonell:ambulansearbeiderapotekteknikeraudiografbioingeniørergoterapeuthelsefagarbeiderfotterapeutfysioterapeuthelsesekretærhjelpepleierjordmorkiropraktorklinisk ernæringsfysiologlegeomsorgsarbeideroptikerortopediingeniørortoptistperfusjonistpsykologradiografsykepleiertannhelsesekretærtannlegetannpleiertannteknikervernepleierprovisorfarmasøytreseptarfarmasøyt
+>
+> Rett til autorisasjon etter søknad har den som:har bestått eksamen i vedkommende fag ved norsk universitet, høgskole eller videregående opplæring,har gjennomført praktisk tjeneste fastsatt i forskrift gitt av departementet,er under 75 år ogikke er uegnet for yrket.
+>
+> Rett til autorisasjon etter søknad har også den som:har utenlandsk eksamen som anerkjennes som jevngod med tilsvarende norsk eksamen,har utenlandsk eksamen som er anerkjent etter avtale om gjensidig godkjenning etter § 52, ellerpå annen måte har godtgjort å ha den nødvendige kyndighet.
+>
+> Departementet kan i forskrift bestemme at helsepersonellgrupper som ikke omfattes av første ledd, kan gis autorisasjon etter søknad. Ved avgjørelsen skal det legges vekt på hensynet til pasientsikkerhet, innhold og formålet med utdanningen, i hvilken utstrekning yrket utøves selvstendig og hensynet til harmonisering med andre land.
+>
+> Departementet kan i forskrift fastsette tilleggskrav for autorisasjon for den enkelte helsepersonellgruppe, herunder at kravene skal gjelde for de som allerede har autorisasjon eller offentlig godkjenning ved forskriftens ikrafttredelse.
+>
+
 ### 2009-06-19 — lov/2009-06-19-70
 
 *Nåværende § 25 tredje ledd blir nytt fjerde ledd og skal lyde:*
@@ -18,13 +68,206 @@ refid: "lov/1999-07-02-64"
 > Personell som nevnt i første, andre og tredje ledd har samme taushetsplikt som helsepersonell.
 >
 
+### 2009-06-19 — lov/2009-06-19-73
+
+*Endringer i følgende lover:*
+
+> Endringer i følgende lover:
+>
+> Lov 2. juli 1999 nr. 64 om helsepersonell m.v. (helsepersonelloven).
+>
+> Lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning (helseforskningsloven).
+>
+> § 1
+>
+> .
+>
+> Formål
+>
+> Formålet med loven er å gi utvalg oppnevnt av Kongen i statsråd 24. april 2009 som skal undersøke mulig svikt i systemer og forløp knyttet til mennesker med psykisk lidelse og som har tatt liv, tilgang på opplysninger som er nødvendige for å få utført sitt arbeid i henhold til mandatet.
+>
+> § 2
+>
+> .
+>
+> Opplysninger til utvalget
+>
+> Uten hinder av taushetsplikt kan utvalget gis de opplysninger som er nødvendige for utvalgets arbeid.
+>
+> § 3
+>
+> .
+>
+> Behandling av sensitive personopplysninger
+>
+> Utvalget kan behandle sensitive personopplysninger som er nødvendige og relevante for formålet med utvalgets arbeid uten at det foreligger samtykke fra de personer opplysningene gjelder.
+>
+> Utvalget trenger ikke konsesjon etter personopplysningsloven kapittel VI.
+>
+> § 4
+>
+> .
+>
+> Taushetsplikt
+>
+> Medlemmene av utvalget og enhver som utfører tjeneste eller arbeid for utvalget har taushetsplikt etter reglene i forvaltningsloven av 10. februar 1967 §§ 13 til 13 f.
+>
+> Når personer som nevnt i første ledd mottar opplysninger som er undergitt strengere taushetsplikt enn det som følger av forvaltningsloven, skal tilsvarende strenge taushetsplikt gjelde.
+>
+> Personer som nevnt i første ledd har taushetsplikt om opplysninger som er fremkommet under forklaring for utvalget etter § 2.
+>
+> Taushetsplikt som nevnt i andre og tredje ledd er ikke til hinder for at opplysningene bringes videre i den grad den som har krav på taushet samtykker, dersom opplysningene gis i statistisk form, eller dersom de er alminnelig tilgjengelig andre steder.
+>
+> Taushetsplikten gjelder også etter at vedkommende har avsluttet tjenesten eller arbeidet og etter at utvalget har avsluttet sin virksomhet.
+>
+> § 5
+>
+> .
+>
+> Forbud mot bruk som bevis i senere straffesak eller sivil sak
+>
+> Opplysninger som utvalget mottar i medhold av § 2 kan ikke brukes som bevis i en senere straffesak eller sivil sak mot den som har gitt opplysningene.
+>
+> § 6
+>
+> .
+>
+> Ikrafttredelse mv.
+>
+> §§ 1 til 6 trer i kraft straks. § 7 trer i kraft fra den tid Kongen bestemmer, og de enkelte endringene i andre lover kan settes i kraft til forskjellig tid.
+>
+> §§ 1 til 3 gjelder til og med 30. juni 2012.
+>
+> § 7
+>
+> .
+>
+> Endringer i andre lover
+>
+> 1. I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 29 lyde:
+>
+> § 29.
+>
+> Opplysninger til forskning mv.
+>
+> Departementet kan bestemme at opplysninger kan eller skal gis til bruk i forskning, og at det kan skje uten hinder av taushetsplikt etter § 21. Til slikt vedtak kan knyttes vilkår. Reglene om taushetsplikt etter denne lov gjelder tilsvarende for den som mottar opplysningene.
+>
+> Departementet kan delegere myndigheten etter første ledd til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om bruk av taushetsbelagte opplysninger i forskning.
+>
+> Departementet kan i forskrift regulere helsepersonells rett til utlevering og bruk av taushetsbelagte opplysninger til andre formål enn helsehjelp, når pasienten har gitt samtykke. Det gjelder formål som forsikring, kredittinstitusjoner o.l.
+>
+> 2. I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 53 første ledd første punktum lyde:
+>
+> Statens helsetilsyn og Datatilsynet kan fastsette en løpende tvangsmulkt for hver dag, uke eller måned som går etter utløpet av den fristen som er satt for oppfylling av pålegget etter §§ 51 eller 52, inntil pålegget er oppfylt.
+>
+
+### 2009-06-19 — lov/2009-06-19-110
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 53 lyde:*
+
+> § 53.Tildeling av autorisasjon, lisens og spesialistgodkjenning
+>
+> Helsedirektoratet eller den det bemyndiger gir autorisasjon, lisens og spesialistgodkjenning mot nærmere fastsatt godtgjørelse. Helsedirektoratet eller den det bemyndiger gir også rett til å utøve yrke som helsepersonell midlertidig i Norge uten norsk autorisasjon, lisens eller spesialistgodkjenning, jf. § 52 første ledd. Departementet kan i forskrift pålegge den enkelte utdanningsinstitusjon og andre med utdanningsansvar å gi autorisasjon for utdanninger der det ikke kreves praktisk tjeneste (turnustjeneste), jf § 48 andre ledd bokstav b.
+>
+> Helsedirektoratet eller den det bemyndiger kan nekte en søker autorisasjon, lisens, spesialistgodkjenning eller rett til å utøve yrke som helsepersonell midlertidig i Norge uten norsk autorisasjon, lisens eller spesialistgodkjenning, hvis det foreligger omstendigheter som ville gitt grunnlag for tilbakekall etter § 57.
+>
+> Vedtak etter bestemmelsens første og andre ledd er enkeltvedtak etter forvaltningsloven.
+>
+> Hvis det er grunn til å tro at tilbakekallsgrunn foreligger, kan Helsedirektoratet eller den det bemyndiger pålegge helsepersonell å underkaste seg undersøkelser som omtalt i § 60.
+>
+
+### 2011-10-01 — forskrift/2011-09-16-950
+
+*Ikraftsetting av lov 19. juni 2009 nr. 110 om endringer i helsepersonelloven (opphevelse av adgangen til å delegere spesialistgodkjenningsmyndighet til private yrkesorganisasjoner). Loven trer i kraft fra 1. oktober 2011.*
+
+> Ikraftsetting av lov 19. juni 2009 nr. 110 om endringer i helsepersonelloven (opphevelse av adgangen til å delegere spesialistgodkjenningsmyndighet til private yrkesorganisasjoner). Loven trer i kraft fra 1. oktober 2011.
+>
+
 ### 2012-01-20 — lov/2012-01-20-6
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
 
+### 2013-06-21 — lov/2013-06-21-82
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 20 a lyde:*
+
+> § 20 a.Krav om politiattest
+>
+> Helsepersonell som skal yte helse- og omsorgstjenester til barn skal fremlegge politiattest som nevnt i politiregisterloven § 39 første ledd ved tilbud om stilling, ved inngåelse av avtale etter helse- og omsorgstjenesteloven § 3-1 femte ledd, tannhelsetjenesteloven § 4-2 første ledd og spesialisthelsetjenesteloven § 2-1 a sjette ledd, samt ved melding om åpning, overtagelse og inntreden i privat virksomhet, jf. § 18.
+>
+> Helsepersonell som skal yte helse- og omsorgstjenester til personer med utviklingshemming skal i tilfeller som nevnt i første ledd fremlegge politiattest som viser om vedkommende er siktet, tiltalt, ilagt forelegg eller er dømt for brudd på overtredelse av straffeloven §§ 192, 193, 194, 195, 196, 197, 199, 200 annet ledd, 201 bokstav c, 203 eller 204 a. Overtredelsene skal anmerkes i samsvar med politiregisterloven § 41 nr. 1.
+>
+> Plikten etter første og annet ledd omfatter ikke personell som bare sporadisk yter slike tjenester og som i alminnelighet ikke vil være alene med barn eller personer med utviklingshemming.
+>
+> Politiattest som nevnt i første og annet ledd skal ikke være eldre enn tre måneder.
+>
+> Den som har vedtatt forelegg eller er dømt for overtredelser som nevnt i annet ledd, er utelukket fra å yte helse- og omsorgstjeneste til barn eller personer med utviklingshemming.
+>
+
 ### 2015-06-19 — lov/2015-06-19-61
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2016-06-17 — lov/2016-06-17-49
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 20 a lyde:*
+
+> § 20 a.Krav om politiattest
+>
+> Den som skal yte spesialisthelsetjenester og tannhelsetjenester til barn skal fremlegge politiattest som nevnt i politiregisterloven § 39 første ledd ved tilbud om stilling, ved inngåelse av avtale etter tannhelsetjenesteloven § 4-2 første ledd og spesialisthelsetjenesteloven § 2-1 a sjette ledd, samt ved melding om åpning, overtagelse og inntreden i privat virksomhet, jf. § 18.
+>
+> Den som skal yte spesialisthelsetjenester og tannhelsetjenester til personer med utviklingshemming skal i tilfeller som nevnt i første ledd fremlegge politiattest som viser om vedkommende er siktet, tiltalt, har vedtatt forelegg eller er dømt for brudd på overtredelse av straffeloven 1902 §§ 192, 193, 194, 195, 196, 197, 199, 200 annet ledd, 201 første ledd bokstav c, 203 eller 204 a og straffeloven 2005 §§ 291, 293, 294, 295, 296, 299, 301, 302, 303, 304, 305, 309, 310, 311, 312 og 314. Overtredelsen skal anmerkes i samsvar med politiregisterloven § 41 nr. 1.
+>
+> Plikten etter første og annet ledd omfatter ikke den som bare sporadisk yter slike tjenester og som i alminnelighet ikke vil være alene med barn eller personer med utviklingshemming.
+>
+> Politiattest som nevnt i første og annet ledd skal ikke være eldre enn tre måneder.
+>
+> Den som har vedtatt forelegg eller er dømt for overtredelser av straffeloven 1902 §§ 192, 193, 194, 195, 196, 197, 199, 200 annet ledd, 201 første ledd bokstav c, 203 eller 204 a eller straffeloven 2005 §§ 291, 293, 294, 295, 296, 299, 301, 302, 303, 304, 305, 309, 310, 311, 312 og 314, er utelukket fra å yte helse- og omsorgstjenester til barn eller personer med utviklingshemming.
+>
+> Den som yter tjenester etter helse- og omsorgstjenesteloven skal fremlegge politiattest som nevnt i helse- og omsorgstjenesteloven § 5-4.
+>
+
+### 2017-06-21 — lov/2017-06-21-90
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 12 andre ledd første punktum lyde:*
+
+> Lege skal etter anmodning fra påtalemyndigheten foreta kroppslig undersøkelse av mistenkte i straffesak når slik undersøkelse er besluttet etter straffeprosessloven §§ 157 eller 157 a.
+>
+
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 33 lyde:*
+
+> § 33.Opplysningsplikt til barnevernet
+>
+> Den som yter helsehjelp, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barneverntjenesten.
+>
+> Helsepersonell skal uten hinder av taushetsplikt etter § 21 melde fra til barneverntjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling, eller at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn viser alvorlige atferdsvansker i form av alvorlig eller gjentatt kriminalitet, misbruk av rusmidler eller en annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Helsepersonell plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
+>
+> I helseinstitusjoner skal det utpekes en person som skal ha ansvaret for videreformidling av opplysninger etter annet og tredje ledd. Denne personen skal uten ugrunnet opphold gi melder tilbakemelding på om melding etter annet ledd er videreformidlet. Dersom meldingen ikke er videreformidlet, skal det begrunnes. Melder har fortsatt et ansvar for å melde, dersom melder mener at vilkårene etter annet ledd er oppfylt. Personen som har ansvaret for videreformidling av opplysningene skal også påse at barneverntjenestens tilbakemeldinger etter barnevernloven § 6-7 a, uten ugrunnet opphold videreformidles til melder.
+>
+
+### 2019-10-01 — forskrift/2019-06-21-794
+
+*Delt ikraftsetting av lov 10. april 2019 nr. 11 om endringar i spesialisthelsetenestelova m.m. (avvikling av meldeordninga m.m.). Del II endring i helsepersonelloven § 36 andre ledd trer i kraft 1. oktober 2019.*
+
+> Delt ikraftsetting av lov 10. april 2019 nr. 11 om endringar i spesialisthelsetenestelova m.m. (avvikling av meldeordninga m.m.). Del II endring i helsepersonelloven § 36 andre ledd trer i kraft 1. oktober 2019.
+>
+
+### 2020-12-04 — lov/2020-12-04-134
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 29 c lyde:*
+
+> § 29 c.Opplysninger til bruk i læringsarbeid og kvalitetssikring
+>
+> Med mindre pasienten motsetter seg det, kan taushetsbelagte opplysninger gjøres tilgjengelige for helsepersonell som tidligere har ytt helsehjelp til pasienten i et konkret behandlingsforløp. Opplysningene må være nødvendige og relevante for helsepersonellets egen læring eller for kvalitetssikring av helsehjelpen. Helsepersonellet må ha autorisasjon eller lisens etter §§ 48 og 49.
+>
+> Tilgjengeliggjøring etter første ledd skal dokumenteres. Den dataansvarlige skal minst dokumentere informasjon om:identitet og organisatorisk tilhørighet til den som helseopplysninger har blitt gjort tilgjengelige forat grunnlaget for tilgjengeliggjøringen er læring og kvalitetssikring knyttet til tidligere pasienttidsperioden for tilgjengeliggjøringenhvilke opplysninger som blir tilgjengeliggjort.
+>
 
 ### 2021-06-11 — lov/2021-06-11-67
 
@@ -51,9 +294,45 @@ refid: "lov/1999-07-02-64"
 > Departementet kan gi forskrift om hvordan meldinger etter første ledd skal gis og behandles av mottakeren. Departementet kan også gi forskrift om at første ledd skal gjelde tilsvarende for andre som utfører tjeneste av betydning for sikkerheten på sjøen eller på skinnegående kjøretøy.
 >
 
+### 2022-04-01 — forskrift/2022-03-04-326
+
+*Ikraftsetting av lov 18. juni 2021 nr. 116 om endringer i helsepersonelloven (melding ved helsesvekkelse av betydning for trafikksikkerheten). Loven trer i kraft 1. april 2022.*
+
+> Ikraftsetting av lov 18. juni 2021 nr. 116 om endringer i helsepersonelloven (melding ved helsesvekkelse av betydning for trafikksikkerheten). Loven trer i kraft 1. april 2022.
+>
+
+### 2022-05-01 — forskrift/2022-03-25-467
+
+*Delt ikraftsetting av lov 25. mars 2022 nr. 14 om endringer i helsepersonelloven (autorisasjon av naprapater, osteopater og paramedisinere).*
+
+> Delt ikraftsetting av lov 25. mars 2022 nr. 14 om endringer i helsepersonelloven (autorisasjon av naprapater, osteopater og paramedisinere).
+>
+> Følgende trer i kraft 1. mai 2022:
+>
+> Loven del I, endringene i helsepersonelloven § 48 første ledd nr. 1 til 33, unntatt § 48 første ledd nr. 15
+>
+> Loven del II.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2251
+
+*Delt ikraftsetting av lov 25. mars 2022 nr. 14 om endringer i helsepersonelloven (autorisasjon av naprapater, osteopater og paramedisinere). Følgende trer i kraft 1. januar 2023:*
+
+> Delt ikraftsetting av lov 25. mars 2022 nr. 14 om endringer i helsepersonelloven (autorisasjon av naprapater, osteopater og paramedisinere). Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I, endringene i helsepersonelloven § 48 første ledd nr. 15.
+>
+
 ### 2023-03-03 — lov/2023-03-03-2
 
 *Nåværende § 69 tredje og fjerde ledd blir fjerde og nytt femte ledd.*
+
+### 2023-04-28 — lov/2023-04-28-8
+
+*I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 71 første ledd nytt fjerde punktum lyde:*
+
+> Departementet kan i enkeltsaker overta utøvelsen av statens partsstilling.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 
@@ -92,13 +371,26 @@ refid: "lov/1999-07-02-64"
 > Kapittel 5. Taushetsplikt og tilgjengeliggjøring av opplysninger
 >
 
+### 2026-06-01 — forskrift/2026-03-13-400
+
+*Delt ikraftsetting av lov 20. juni 2025 nr. 71 om endringer i helseforskningsloven mv. (vilkår for medisinsk og helsefaglig forskning og for bruk av helseopplysninger i forskning). Følgende trer i kraft 1. juni 2026.*
+
+> Delt ikraftsetting av lov 20. juni 2025 nr. 71 om endringer i helseforskningsloven mv. (vilkår for medisinsk og helsefaglig forskning og for bruk av helseopplysninger i forskning). Følgende trer i kraft 1. juni 2026.
+>
+> Endringsloven del II (helsepersonelloven) §§ 29 og 29 b.
+>
+
 ### 2026-06-19 — lov/2026-06-19-42
 
 *I lov 2. juli 1999 nr. 64 om helsepersonell m.v. skal § 10 lyde:*
 
-> § 10.Informasjon til pasienter, medvirkning m.v.Den som yter helse- og omsorgstjenester, skal gi informasjon til den som har krav på det etter reglene i pasient- og brukerrettighetsloven §§ 3-2 til 3-4. I helseinstitusjoner skal informasjon etter første punktum gis av den som helseinstitusjonen utpeker.Den som yter helse- og omsorgstjenester, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.Departementet kan i forskrift gi nærmere bestemmelser om plikten til informasjon etter første ledd.
+> § 10. Informasjon til pasienter, medvirkning m.v.
 >
-> § 10.Informasjon til pasienter, medvirkning m.v.
+> Den som yter helse- og omsorgstjenester, skal gi informasjon til den som har krav på det etter reglene i pasient- og brukerrettighetsloven §§ 3-2 til 3-4. I helseinstitusjoner skal informasjon etter første punktum gis av den som helseinstitusjonen utpeker.
+>
+> Den som yter helse- og omsorgstjenester, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om plikten til informasjon etter første ledd.
 >
 
 ## § 10
@@ -339,9 +631,15 @@ refid: "lov/1999-07-02-64"
 
 *§ 21 skal lyde:*
 
-> § 21.Helsepersonells taushetspliktOpplysninger om folks legems- eller sykdomsforhold eller andre personlige forhold helsepersonell får vite om i egenskap av å være helsepersonell, er underlagt taushetsplikt.Taushetsplikten innebærer at helsepersonellikke skal tilgjengeliggjøre opplysningene for andreskal hindre at andre får adgang eller kjennskap til opplysningeneikke skal lese, søke etter eller på annen måte tilegne seg, bruke eller besitte taushetsbelagte opplysninger uten at det er begrunnet i helsehjelp eller administrasjon av slik hjelp eller har hjemmel i eller i medhold av lov.Første og andre ledd gjelder også opplysninger som kan røpe identiteten til personer som tar kontakt med medisinsk nødmeldetjeneste. Dette gjelder likevel ikke når tilgjengeliggjøring av opplysninger om identiteten er nødvendig for å unngå fare for liv eller helse.Første til tredje ledd gjelder tilsvarende for andre som mottar opplysninger etter §§ 25, 28, 29 a, 29 e og 29 f.
+> § 21. Helsepersonells taushetsplikt
 >
-> § 21.Helsepersonells taushetsplikt
+> Opplysninger om folks legems- eller sykdomsforhold eller andre personlige forhold helsepersonell får vite om i egenskap av å være helsepersonell, er underlagt taushetsplikt.
+>
+> Taushetsplikten innebærer at helsepersonellikke skal tilgjengeliggjøre opplysningene for andreskal hindre at andre får adgang eller kjennskap til opplysningeneikke skal lese, søke etter eller på annen måte tilegne seg, bruke eller besitte taushetsbelagte opplysninger uten at det er begrunnet i helsehjelp eller administrasjon av slik hjelp eller har hjemmel i eller i medhold av lov.
+>
+> Første og andre ledd gjelder også opplysninger som kan røpe identiteten til personer som tar kontakt med medisinsk nødmeldetjeneste. Dette gjelder likevel ikke når tilgjengeliggjøring av opplysninger om identiteten er nødvendig for å unngå fare for liv eller helse.
+>
+> Første til tredje ledd gjelder tilsvarende for andre som mottar opplysninger etter §§ 25, 28, 29 a, 29 e og 29 f.
 >
 
 ## § 21 a
@@ -393,9 +691,13 @@ refid: "lov/1999-07-02-64"
 
 *§ 22 skal lyde:*
 
-> § 22.Bortfall av taushetsplikt ved samtykke m.m.Taushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige for den som opplysningene direkte gjelder, eller for andre i den utstrekning den som har krav på taushet samtykker.For personer under 16 år gjelder reglene i pasient- og brukerrettighetsloven § 4-4 tilsvarende for samtykke etter første ledd. For personer over 16 år som mangler beslutningskompetanse, jf. pasient- og brukerrettighetsloven § 4-3 andre ledd, kan nærmeste pårørende gi samtykke etter første ledd.Et forsikringsselskap skal ikke få opplysninger som den opplysningene direkte gjelder, kan nektes innsyn i etter pasient- og brukerrettighetsloven § 5-1 andre ledd.
+> § 22. Bortfall av taushetsplikt ved samtykke m.m.
 >
-> § 22.Bortfall av taushetsplikt ved samtykke m.m.
+> Taushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige for den som opplysningene direkte gjelder, eller for andre i den utstrekning den som har krav på taushet samtykker.
+>
+> For personer under 16 år gjelder reglene i pasient- og brukerrettighetsloven § 4-4 tilsvarende for samtykke etter første ledd. For personer over 16 år som mangler beslutningskompetanse, jf. pasient- og brukerrettighetsloven § 4-3 andre ledd, kan nærmeste pårørende gi samtykke etter første ledd.
+>
+> Et forsikringsselskap skal ikke få opplysninger som den opplysningene direkte gjelder, kan nektes innsyn i etter pasient- og brukerrettighetsloven § 5-1 andre ledd.
 >
 
 ## § 23
@@ -418,9 +720,9 @@ refid: "lov/1999-07-02-64"
 
 *§ 23 skal lyde:*
 
-> § 23.Begrensninger i taushetspliktenTaushetsplikt er ikke til hinder for:at opplysninger gis den som fra før er kjent med opplysningeneat opplysninger gis videre når ingen berettiget interesse tilsier hemmeligholdat opplysninger gis videre når behovet for beskyttelse må anses ivaretatt ved at individualiserende kjennetegn er utelattat opplysninger gis videre når tungtveiende private eller offentlige interesser gjør det rettmessigat opplysningene gis videre etter regler fastsatt i lov eller i forskrift når det er uttrykkelig fastsatt eller klart forutsatt at taushetsplikten ikke skal gjelde.
+> § 23. Begrensninger i taushetsplikten
 >
-> § 23.Begrensninger i taushetsplikten
+> Taushetsplikt er ikke til hinder for:at opplysninger gis den som fra før er kjent med opplysningeneat opplysninger gis videre når ingen berettiget interesse tilsier hemmeligholdat opplysninger gis videre når behovet for beskyttelse må anses ivaretatt ved at individualiserende kjennetegn er utelattat opplysninger gis videre når tungtveiende private eller offentlige interesser gjør det rettmessigat opplysningene gis videre etter regler fastsatt i lov eller i forskrift når det er uttrykkelig fastsatt eller klart forutsatt at taushetsplikten ikke skal gjelde.
 >
 
 ## § 24
@@ -475,9 +777,15 @@ refid: "lov/1999-07-02-64"
 
 *§ 25 skal lyde:*
 
-> § 25.Tilgjengeliggjøring av opplysninger til helsehjelpTaushetsplikt er ikke til hinder for at opplysninger om en pasient gjøres tilgjengelige for helsepersonell eller annet samarbeidende personell når opplysningene er relevante og nødvendige for å yte helsehjelp til pasienten.Opplysningene kan gjøres tilgjengelige av virksomheten med ansvar for opplysningene eller av det helsepersonellet som har dokumentert opplysningene etter § 39. Dette kan blant annet skje ved direkte tilgang mellom virksomheter.Personellet som skal bruke opplysningene, har ansvar for å vurdere om opplysningene er relevante og nødvendige.Departementet kan gi forskrift om tilgjengeliggjøring av opplysninger til helsehjelp og adgangen til å motsette seg slik tilgjengeliggjøring.
+> § 25. Tilgjengeliggjøring av opplysninger til helsehjelp
 >
-> § 25.Tilgjengeliggjøring av opplysninger til helsehjelp
+> Taushetsplikt er ikke til hinder for at opplysninger om en pasient gjøres tilgjengelige for helsepersonell eller annet samarbeidende personell når opplysningene er relevante og nødvendige for å yte helsehjelp til pasienten.
+>
+> Opplysningene kan gjøres tilgjengelige av virksomheten med ansvar for opplysningene eller av det helsepersonellet som har dokumentert opplysningene etter § 39. Dette kan blant annet skje ved direkte tilgang mellom virksomheter.
+>
+> Personellet som skal bruke opplysningene, har ansvar for å vurdere om opplysningene er relevante og nødvendige.
+>
+> Departementet kan gi forskrift om tilgjengeliggjøring av opplysninger til helsehjelp og adgangen til å motsette seg slik tilgjengeliggjøring.
 >
 
 ## § 25 a
@@ -520,9 +828,13 @@ refid: "lov/1999-07-02-64"
 
 *§ 26 skal lyde:*
 
-> § 26.Oversendelse av epikriseVed utskrivning fra helseinstitusjon, etter poliklinisk behandling eller etter behandling hos spesialist skal en epikrise sendes til innleggende eller henvisende helsepersonell, til det helsepersonellet som trenger opplysningene for å kunne gi pasienten forsvarlig oppfølging, og til pasientens faste lege. Med epikrise menes et sammendrag av tilgjengelige journalopplysninger som gjelder en undersøkelse eller behandling av en pasient, og som er nødvendige for at videre behandling eller oppfølging av pasienten innenfor helse- og omsorgstjenesten kan skje på en forsvarlig måte.Dersom det ikke er mulig å sende epikrisen samtidig med utskrivning eller avslutning av behandlingen, skal den sendes innen forsvarlig tid etter dette.Departementet kan gi forskrift om plikten etter første og andre ledd, herunder hvem epikrisen skal sendes til, hvilke opplysninger epikrisen skal inneholde, og når epikrisen skal være sendt.
+> § 26. Oversendelse av epikrise
 >
-> § 26.Oversendelse av epikrise
+> Ved utskrivning fra helseinstitusjon, etter poliklinisk behandling eller etter behandling hos spesialist skal en epikrise sendes til innleggende eller henvisende helsepersonell, til det helsepersonellet som trenger opplysningene for å kunne gi pasienten forsvarlig oppfølging, og til pasientens faste lege. Med epikrise menes et sammendrag av tilgjengelige journalopplysninger som gjelder en undersøkelse eller behandling av en pasient, og som er nødvendige for at videre behandling eller oppfølging av pasienten innenfor helse- og omsorgstjenesten kan skje på en forsvarlig måte.
+>
+> Dersom det ikke er mulig å sende epikrisen samtidig med utskrivning eller avslutning av behandlingen, skal den sendes innen forsvarlig tid etter dette.
+>
+> Departementet kan gi forskrift om plikten etter første og andre ledd, herunder hvem epikrisen skal sendes til, hvilke opplysninger epikrisen skal inneholde, og når epikrisen skal være sendt.
 >
 
 ## § 27
@@ -531,9 +843,13 @@ refid: "lov/1999-07-02-64"
 
 *§ 27 skal lyde:*
 
-> § 27.Tilgjengeliggjøring av opplysninger til helsepersonell uten behandlerrelasjonTaushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige forhelsepersonell i helsefaglige arbeidsfellesskap, når formålet er å støtte helsepersonellet i å treffe beslutninger om helsehjelp, å sikre forsvarlig opplæring av helsepersonell eller å gjennomføre helsehjelphelsepersonell som har autorisasjon eller lisens etter §§ 48 eller 49, når formålet er ytelse av helsehjelp til en annen pasient enn den som opplysningene gjelder.Opplysninger som tilgjengeliggjøres etter første ledd, skal være relevante og nødvendige for formålet. Opplysningene skal så langt det er mulig, gjøres tilgjengelige uten at pasientens navn eller fødselsnummer fremgår.Departementet kan gi forskrift om at enkelte personellgrupper med særskilte oppgaver i et behandlingsforløp kan få tilgjengeliggjort opplysninger etter første ledd bokstav b på samme vilkår som helsepersonell med autorisasjon eller lisens.
+> § 27. Tilgjengeliggjøring av opplysninger til helsepersonell uten behandlerrelasjon
 >
-> § 27.Tilgjengeliggjøring av opplysninger til helsepersonell uten behandlerrelasjon
+> Taushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige forhelsepersonell i helsefaglige arbeidsfellesskap, når formålet er å støtte helsepersonellet i å treffe beslutninger om helsehjelp, å sikre forsvarlig opplæring av helsepersonell eller å gjennomføre helsehjelphelsepersonell som har autorisasjon eller lisens etter §§ 48 eller 49, når formålet er ytelse av helsehjelp til en annen pasient enn den som opplysningene gjelder.
+>
+> Opplysninger som tilgjengeliggjøres etter første ledd, skal være relevante og nødvendige for formålet. Opplysningene skal så langt det er mulig, gjøres tilgjengelige uten at pasientens navn eller fødselsnummer fremgår.
+>
+> Departementet kan gi forskrift om at enkelte personellgrupper med særskilte oppgaver i et behandlingsforløp kan få tilgjengeliggjort opplysninger etter første ledd bokstav b på samme vilkår som helsepersonell med autorisasjon eller lisens.
 >
 
 ## § 28
@@ -542,9 +858,11 @@ refid: "lov/1999-07-02-64"
 
 *§ 28 skal lyde:*
 
-> § 28.Tilgjengeliggjøring av opplysninger til undervisning, ekstern veiledning mv.Taushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige forhelsepersonell som har autorisasjon eller lisens etter §§ 48 eller 49, som tidligere har ytt helsehjelp til pasienten i et konkret behandlingsforløp, og som skal bruke opplysningene til egen læring eller for kvalitetsforbedring av helsehjelpenhelsepersonell med undervisningsansvar som arbeider i virksomheten der pasientene har mottatt helsehjelp, når formålet er å finne opplysninger om pasienter som egner seg i undervisning for å sikre forsvarlig utdanning av helsepersonell eller helsefaglige studenterhelsepersonell som er eksterne veiledere, når opplysningene er nødvendige for gjennomføring av vedtak truffet av tilsynsmyndigheten etter §§ 56 og 59personell som bistår med elektronisk bearbeiding av opplysningene, eller som bistår med service og vedlikehold av utstyr, når slik bistand er nødvendig for å oppfylle lovbestemte krav til dokumentasjonvirksomhetens pasientadministrasjon når det gjelder pasientens fødselsnummer eller annen unik identifikator og opplysninger om diagnose, eventuelle hjelpebehov, tjenestetilbud, innskrivnings- og utskrivningsdato og relevante administrative datasamarbeidende personell når dette er nødvendig for å ivareta behovene til pasientens mindreårige barn eller mindreårige søsken, jf. § 10 avirksomhetens ledelse for å identifisere pasientgrunnlag eller kontaktinformasjon til pasienter for inklusjon i konkrete forsknings- eller kvalitetsforbedringsprosjekteren klinisk etikkomité når opplysningene er nødvendige for at komiteen skal kunne bistå helsepersonellet med råd eller drøftelse av etiske utfordringer i et konkret tilfelle, det ikke er praktisk mulig eller det er klart uhensiktsmessig å innhente samtykke fra pasienten, det er registrert i pasientjournalen hvorfor samtykke ikke er innhentet, og hensynet til pasientens integritet og velferd er ivaretatt.Opplysninger som tilgjengeliggjøres etter første ledd, skal være relevante og nødvendige for det aktuelle formålet. Personidentifikasjon skal ikke skje i større utstrekning enn det som er nødvendig for å ivareta formålet. Opplysningene skal så langt det er mulig, tilgjengeliggjøres uten at pasientens navn eller fødselsnummer fremgår. Ved tilgjengeliggjøring etter første ledd bokstav h skal navn eller fødselsnummer ikke fremgå.
+> § 28. Tilgjengeliggjøring av opplysninger til undervisning, ekstern veiledning mv.
 >
-> § 28.Tilgjengeliggjøring av opplysninger til undervisning, ekstern veiledning mv.
+> Taushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige forhelsepersonell som har autorisasjon eller lisens etter §§ 48 eller 49, som tidligere har ytt helsehjelp til pasienten i et konkret behandlingsforløp, og som skal bruke opplysningene til egen læring eller for kvalitetsforbedring av helsehjelpenhelsepersonell med undervisningsansvar som arbeider i virksomheten der pasientene har mottatt helsehjelp, når formålet er å finne opplysninger om pasienter som egner seg i undervisning for å sikre forsvarlig utdanning av helsepersonell eller helsefaglige studenterhelsepersonell som er eksterne veiledere, når opplysningene er nødvendige for gjennomføring av vedtak truffet av tilsynsmyndigheten etter §§ 56 og 59personell som bistår med elektronisk bearbeiding av opplysningene, eller som bistår med service og vedlikehold av utstyr, når slik bistand er nødvendig for å oppfylle lovbestemte krav til dokumentasjonvirksomhetens pasientadministrasjon når det gjelder pasientens fødselsnummer eller annen unik identifikator og opplysninger om diagnose, eventuelle hjelpebehov, tjenestetilbud, innskrivnings- og utskrivningsdato og relevante administrative datasamarbeidende personell når dette er nødvendig for å ivareta behovene til pasientens mindreårige barn eller mindreårige søsken, jf. § 10 avirksomhetens ledelse for å identifisere pasientgrunnlag eller kontaktinformasjon til pasienter for inklusjon i konkrete forsknings- eller kvalitetsforbedringsprosjekteren klinisk etikkomité når opplysningene er nødvendige for at komiteen skal kunne bistå helsepersonellet med råd eller drøftelse av etiske utfordringer i et konkret tilfelle, det ikke er praktisk mulig eller det er klart uhensiktsmessig å innhente samtykke fra pasienten, det er registrert i pasientjournalen hvorfor samtykke ikke er innhentet, og hensynet til pasientens integritet og velferd er ivaretatt.
+>
+> Opplysninger som tilgjengeliggjøres etter første ledd, skal være relevante og nødvendige for det aktuelle formålet. Personidentifikasjon skal ikke skje i større utstrekning enn det som er nødvendig for å ivareta formålet. Opplysningene skal så langt det er mulig, tilgjengeliggjøres uten at pasientens navn eller fødselsnummer fremgår. Ved tilgjengeliggjøring etter første ledd bokstav h skal navn eller fødselsnummer ikke fremgå.
 >
 
 ## § 29
@@ -590,9 +908,13 @@ refid: "lov/1999-07-02-64"
 
 *§ 29 skal lyde:*
 
-> § 29.Rett til å motsette seg tilgjengeliggjøringPasienten kan motsette seg at opplysninger gjøres tilgjengelige etter §§ 25 til 27 og 28 første ledd bokstavene a, b, c og h.Opplysningene kan heller ikke tilgjengeliggjøres dersom det er grunn til å tro at pasienten ville motsette seg det ved forespørsel.Tilgjengeliggjøring kan likevel skje dersom tungtveiende grunner taler for det.
+> § 29. Rett til å motsette seg tilgjengeliggjøring
 >
-> § 29.Rett til å motsette seg tilgjengeliggjøring
+> Pasienten kan motsette seg at opplysninger gjøres tilgjengelige etter §§ 25 til 27 og 28 første ledd bokstavene a, b, c og h.
+>
+> Opplysningene kan heller ikke tilgjengeliggjøres dersom det er grunn til å tro at pasienten ville motsette seg det ved forespørsel.
+>
+> Tilgjengeliggjøring kan likevel skje dersom tungtveiende grunner taler for det.
 >
 
 ## § 29 a
@@ -601,9 +923,13 @@ refid: "lov/1999-07-02-64"
 
 *§ 29 a skal lyde:*
 
-> § 29 a.Opplysninger til virksomhetens ledelseTaushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige for virksomhetens ledelse når formålet er helsehjelp, internkontroll, intern kvalitetsforbedring av tjenesten eller utarbeidelse av statistikk. Ved samarbeid om behandlingsrettede helseregistre etter pasientjournalloven § 9 kan slike opplysninger også gjøres tilgjengelige for ledelsen i samarbeidende virksomhet.Taushetsplikt er heller ikke til hinder for at ledelsen i en annen virksomhet får tilgjengeliggjort opplysninger som gjelder denne virksomhetens pasienter, når formålet er kvalitetsforbedring av behandlingsforløp.Opplysninger som tilgjengeliggjøres etter første og andre ledd, skal være relevante og nødvendige for det aktuelle formålet. Personidentifikasjon skal ikke skje i større utstrekning enn det som er nødvendig for å ivareta formålet. Opplysningene skal så langt det er mulig, tilgjengeliggjøres uten at pasientens navn eller fødselsnummer fremgår.
+> § 29 a. Opplysninger til virksomhetens ledelse
 >
-> § 29 a.Opplysninger til virksomhetens ledelse
+> Taushetsplikt er ikke til hinder for at opplysninger gjøres tilgjengelige for virksomhetens ledelse når formålet er helsehjelp, internkontroll, intern kvalitetsforbedring av tjenesten eller utarbeidelse av statistikk. Ved samarbeid om behandlingsrettede helseregistre etter pasientjournalloven § 9 kan slike opplysninger også gjøres tilgjengelige for ledelsen i samarbeidende virksomhet.
+>
+> Taushetsplikt er heller ikke til hinder for at ledelsen i en annen virksomhet får tilgjengeliggjort opplysninger som gjelder denne virksomhetens pasienter, når formålet er kvalitetsforbedring av behandlingsforløp.
+>
+> Opplysninger som tilgjengeliggjøres etter første og andre ledd, skal være relevante og nødvendige for det aktuelle formålet. Personidentifikasjon skal ikke skje i større utstrekning enn det som er nødvendig for å ivareta formålet. Opplysningene skal så langt det er mulig, tilgjengeliggjøres uten at pasientens navn eller fødselsnummer fremgår.
 >
 
 ## § 29 b
@@ -627,18 +953,22 @@ refid: "lov/1999-07-02-64"
 
 *§ 29 b skal lyde:*
 
-> § 29 b.Deltakende observasjonDepartementet kan etter søknad bestemme at lovbestemt taushetsplikt ikke skal være til hinder for deltakende observasjon av helsepersonells yrkesutøvelse. Vilkårene i § 29 gjelder tilsvarende.Myndigheten etter første ledd kan delegeres til underordnet forvaltningsorgan eller legges til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+> § 29 b. Deltakende observasjon
 >
-> § 29 b.Deltakende observasjon
+> Departementet kan etter søknad bestemme at lovbestemt taushetsplikt ikke skal være til hinder for deltakende observasjon av helsepersonells yrkesutøvelse. Vilkårene i § 29 gjelder tilsvarende.
+>
+> Myndigheten etter første ledd kan delegeres til underordnet forvaltningsorgan eller legges til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
 >
 
 ### 2026-01-23 — lov/2026-01-23-1
 
 *Ny § 29 b skal lyde:*
 
-> § 29 b.Opplysninger som sakkyndigTaushetsplikt er ikke til hinder for at helsepersonell som opptrer som sakkyndig gir opplysninger til oppdragsgiveren, dersom opplysningene er mottatt under utførelse av oppdraget og har betydning for dette.Den som opptrer som sakkyndig, skal gjøre pasienten oppmerksom på oppdraget og hva dette innebærer.
+> § 29 b. Opplysninger som sakkyndig
 >
-> § 29 b.Opplysninger som sakkyndig
+> Taushetsplikt er ikke til hinder for at helsepersonell som opptrer som sakkyndig gir opplysninger til oppdragsgiveren, dersom opplysningene er mottatt under utførelse av oppdraget og har betydning for dette.
+>
+> Den som opptrer som sakkyndig, skal gjøre pasienten oppmerksom på oppdraget og hva dette innebærer.
 >
 
 ## § 29 c
@@ -658,9 +988,9 @@ refid: "lov/1999-07-02-64"
 
 *§ 29 c skal lyde:*
 
-> § 29 c.Opplysninger til arbeidsgiverDepartementet kan gi forskrift om adgangen til å gi opplysninger om en arbeidstakers helseforhold videre til arbeidsgiveren, i den grad opplysningene gjelder arbeidstakerens skikkethet til et bestemt arbeid eller oppdrag.
+> § 29 c. Opplysninger til arbeidsgiver
 >
-> § 29 c.Opplysninger til arbeidsgiver
+> Departementet kan gi forskrift om adgangen til å gi opplysninger om en arbeidstakers helseforhold videre til arbeidsgiveren, i den grad opplysningene gjelder arbeidstakerens skikkethet til et bestemt arbeid eller oppdrag.
 >
 
 ## § 29 d
@@ -680,9 +1010,11 @@ refid: "lov/1999-07-02-64"
 
 *§ 29 d skal lyde:*
 
-> § 29 d.Opplysninger om særreaksjonsdømte utlendingerTaushetsplikt er ikke til hinder for at det gis nødvendige opplysninger om særreaksjonsdømte utlendinger til utlendingsmyndighetene til bruk i en utvisningssak.Ved utvisning av en utlending som utholder en strafferettslig særreaksjon, er taushetsplikt ikke til hinder for at det til helse- og omsorgstjenesten i mottakerstaten gis opplysninger som er nødvendige for at mottakerstaten skal kunne vurdere vedkommendes behov for helsemessig oppfølging eller behov for å underlegges en behandling som kan beskytte samfunnet der mot gjentakelsesfare som nevnt i straffeloven § 62.
+> § 29 d. Opplysninger om særreaksjonsdømte utlendinger
 >
-> § 29 d.Opplysninger om særreaksjonsdømte utlendinger
+> Taushetsplikt er ikke til hinder for at det gis nødvendige opplysninger om særreaksjonsdømte utlendinger til utlendingsmyndighetene til bruk i en utvisningssak.
+>
+> Ved utvisning av en utlending som utholder en strafferettslig særreaksjon, er taushetsplikt ikke til hinder for at det til helse- og omsorgstjenesten i mottakerstaten gis opplysninger som er nødvendige for at mottakerstaten skal kunne vurdere vedkommendes behov for helsemessig oppfølging eller behov for å underlegges en behandling som kan beskytte samfunnet der mot gjentakelsesfare som nevnt i straffeloven § 62.
 >
 
 ## § 29 e
@@ -704,9 +1036,19 @@ refid: "lov/1999-07-02-64"
 
 *§ 29 e skal lyde:*
 
-> § 29 e.Dispensasjon fra taushetspliktDepartementet kan etter søknad bestemme at opplysninger fra pasientjournaler og andre behandlingsrettede helseregistre skal tilgjengeliggjøres uten hinder av taushetsplikt, når:opplysningene skal brukes til et uttrykkelig angitt formål knyttet til statistikk, helseanalyser, forskning, utvikling og bruk av beslutningsstøtteverktøy, kvalitetsforbedring, planlegging, styring eller beredskap for å fremme helse, forebygge sykdom og skade eller gi bedre helse- og omsorgstjenesterdet er umulig eller vanskelig å innhente samtykke fra et tilstrekkelig utvalg av de registrertemottakeren har gjort rede for hvilke egnede tekniske og organisatoriske tiltak som skal settes i verk for å ivareta informasjonssikkerhetenbehandlingen av opplysningene er av vesentlig interesse for samfunnet.Det skal ikke tilgjengeliggjøres flere opplysninger enn det som er nødvendig for formålet. Opplysningene skal tilgjengeliggjøres uten navn, fødselsnummer eller andre direkte personentydige kjennetegn med mindre slike opplysninger av særlige grunner er nødvendige.Departementet kan sette som vilkår for tilgjengeliggjøring at mottakeren setter i verk særlige tiltak for å verne den registrertes grunnleggende rettigheter og interesser.Opplysningene kan bare tilgjengeliggjøres dersom det er ubetenkelig ut fra etiske, medisinske og helsefaglige hensyn. For tilgjengeliggjøring til medisinsk og helsefaglig forskning skal mottakeren ha fått forhåndsgodkjenning fra den regionale komiteen for medisinsk og helsefaglig forskningsetikk, jf. helseforskningsloven § 9. Dersom tilgjengeliggjøring av opplysninger kan true samfunnets evne til å verne grunnleggende verdier og funksjoner og sette liv og helse i fare, skal opplysningene ikke gjøres tilgjengelige.Myndigheten etter første ledd kan delegeres til underordnet forvaltningsorgan eller legges til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.Departementet kan gi forskrift om bruk av taushetsbelagte opplysninger i forskning og om helsepersonells adgang til tilgjengeliggjøring og bruk av taushetsbelagte opplysninger til formål som ikke gjelder helsehjelp, og som pasienten samtykker til.
+> § 29 e. Dispensasjon fra taushetsplikt
 >
-> § 29 e.Dispensasjon fra taushetsplikt
+> Departementet kan etter søknad bestemme at opplysninger fra pasientjournaler og andre behandlingsrettede helseregistre skal tilgjengeliggjøres uten hinder av taushetsplikt, når:opplysningene skal brukes til et uttrykkelig angitt formål knyttet til statistikk, helseanalyser, forskning, utvikling og bruk av beslutningsstøtteverktøy, kvalitetsforbedring, planlegging, styring eller beredskap for å fremme helse, forebygge sykdom og skade eller gi bedre helse- og omsorgstjenesterdet er umulig eller vanskelig å innhente samtykke fra et tilstrekkelig utvalg av de registrertemottakeren har gjort rede for hvilke egnede tekniske og organisatoriske tiltak som skal settes i verk for å ivareta informasjonssikkerhetenbehandlingen av opplysningene er av vesentlig interesse for samfunnet.
+>
+> Det skal ikke tilgjengeliggjøres flere opplysninger enn det som er nødvendig for formålet. Opplysningene skal tilgjengeliggjøres uten navn, fødselsnummer eller andre direkte personentydige kjennetegn med mindre slike opplysninger av særlige grunner er nødvendige.
+>
+> Departementet kan sette som vilkår for tilgjengeliggjøring at mottakeren setter i verk særlige tiltak for å verne den registrertes grunnleggende rettigheter og interesser.
+>
+> Opplysningene kan bare tilgjengeliggjøres dersom det er ubetenkelig ut fra etiske, medisinske og helsefaglige hensyn. For tilgjengeliggjøring til medisinsk og helsefaglig forskning skal mottakeren ha fått forhåndsgodkjenning fra den regionale komiteen for medisinsk og helsefaglig forskningsetikk, jf. helseforskningsloven § 9. Dersom tilgjengeliggjøring av opplysninger kan true samfunnets evne til å verne grunnleggende verdier og funksjoner og sette liv og helse i fare, skal opplysningene ikke gjøres tilgjengelige.
+>
+> Myndigheten etter første ledd kan delegeres til underordnet forvaltningsorgan eller legges til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+>
+> Departementet kan gi forskrift om bruk av taushetsbelagte opplysninger i forskning og om helsepersonells adgang til tilgjengeliggjøring og bruk av taushetsbelagte opplysninger til formål som ikke gjelder helsehjelp, og som pasienten samtykker til.
 >
 
 ## § 29 f
@@ -715,9 +1057,11 @@ refid: "lov/1999-07-02-64"
 
 *Ny § 29 f skal lyde:*
 
-> § 29 f.Deltakende observasjon av helsepersonells yrkesutøvelseDepartementet kan etter søknad bestemme at taushetsplikt ikke skal være til hinder for deltakende observasjon av helsepersonells yrkesutøvelse. Vilkårene i § 29 e gjelder tilsvarende.Myndigheten etter første ledd kan delegeres til underordnet forvaltningsorgan eller legges til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+> § 29 f. Deltakende observasjon av helsepersonells yrkesutøvelse
 >
-> § 29 f.Deltakende observasjon av helsepersonells yrkesutøvelse
+> Departementet kan etter søknad bestemme at taushetsplikt ikke skal være til hinder for deltakende observasjon av helsepersonells yrkesutøvelse. Vilkårene i § 29 e gjelder tilsvarende.
+>
+> Myndigheten etter første ledd kan delegeres til underordnet forvaltningsorgan eller legges til den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
 >
 
 ## § 3
@@ -766,16 +1110,6 @@ refid: "lov/1999-07-02-64"
 
 > Helsepersonell skal uten hinder av taushetsplikt melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn har vist alvorlige atferdsvansker ved å begå alvorlige eller gjentatte lovbrudd, ved problematisk bruk av rusmidler, eller ved å ha vist annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
 >
-> når det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,
->
-> når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling,
->
-> når det er grunn til å tro at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,
->
-> når et barn har vist alvorlige atferdsvansker ved å begå alvorlige eller gjentatte lovbrudd, ved problematisk bruk av rusmidler, eller ved å ha vist annen form for utpreget normløs atferd,
->
-> når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
->
 
 ## § 34
 
@@ -792,9 +1126,9 @@ refid: "lov/1999-07-02-64"
 
 *Ny § 34 b skal lyde:*
 
-> § 34 b.Adgang til å gi opplysninger i forbindelse med sviktende dyreholdHelsepersonell kan uten hinder av taushetsplikt gi melding til Mattilsynet eller politiet når det er grunn til å tro at dyr blir utsatt for slik mishandling eller alvorlig svikt vedrørende miljø, tilsyn og stell at det anses rettmessig.
+> § 34 b. Adgang til å gi opplysninger i forbindelse med sviktende dyrehold
 >
-> § 34 b.Adgang til å gi opplysninger i forbindelse med sviktende dyrehold
+> Helsepersonell kan uten hinder av taushetsplikt gi melding til Mattilsynet eller politiet når det er grunn til å tro at dyr blir utsatt for slik mishandling eller alvorlig svikt vedrørende miljø, tilsyn og stell at det anses rettmessig.
 >
 
 ## § 35
@@ -919,10 +1253,6 @@ refid: "lov/1999-07-02-64"
 *§ 43 første ledd skal lyde:*
 
 > Etter krav fra den journalopplysningene gjelder, eller av eget tiltak, skal helsepersonell som nevnt i § 39 slette opplysninger eller utsagn i journalen, dersom dette er ubetenkelig ut fra allmenne hensyn, ikke strider mot bestemmelsene gitt i eller i medhold av arkivlova § 6 bokstav b, § 13 eller § 20 og:opplysningene er feilaktige eller misvisende og føles belastende for den de gjelder, elleropplysningene åpenbart ikke er nødvendige for å gi pasienten helsehjelp.
->
-> opplysningene er feilaktige eller misvisende og føles belastende for den de gjelder, eller
->
-> opplysningene åpenbart ikke er nødvendige for å gi pasienten helsehjelp.
 >
 
 ### 2025-06-20 — lov/2025-06-20-96
@@ -1212,10 +1542,6 @@ refid: "lov/1999-07-02-64"
 
 > Autorisasjon, lisens eller spesialistgodkjenning kan kalles tilbake for alltid dersomvilkårene for tilbakekall etter første ledd er oppfylt, oginnehaveren for fremtiden kan utgjøre en alvorlig fare for pasientsikkerheten eller alvorlig svekke tilliten til helsepersonell eller helse- og omsorgstjenesten.
 >
-> vilkårene for tilbakekall etter første ledd er oppfylt, og
->
-> innehaveren for fremtiden kan utgjøre en alvorlig fare for pasientsikkerheten eller alvorlig svekke tilliten til helsepersonell eller helse- og omsorgstjenesten.
->
 
 ## § 57 a
 
@@ -1223,9 +1549,17 @@ refid: "lov/1999-07-02-64"
 
 *Ny § 57 a skal lyde:*
 
-> § 57 a.Forbud mot å yte helsehjelp for tidligere autorisert helsepersonell mv.Dersom helsepersonell som ikke lenger har autorisasjon eller lisens er til alvorlig fare for pasientsikkerheten eller alvorlig svekker tilliten til helse- og omsorgstjenesten, kan Statens helsetilsyn gi forbud mot å yte helsehjelp. Forbudet skal fremgå av helsepersonellregisteret.Dersom helsepersonell ikke etterlever forbud etter første ledd, kan Statens helsetilsyn fastsette tvangsmulkt i samsvar med helsetilsynsloven § 9.Forbudet oppheves dersom Statens helsetilsyn innvilger søknad om ny autorisasjon eller lisens etter § 62.Forbud er enkeltvedtak etter forvaltningsloven.Departementet kan gi forskrift om fastsettelse og beregning av tvangsmulkt.
+> § 57 a. Forbud mot å yte helsehjelp for tidligere autorisert helsepersonell mv.
 >
-> § 57 a.Forbud mot å yte helsehjelp for tidligere autorisert helsepersonell mv.
+> Dersom helsepersonell som ikke lenger har autorisasjon eller lisens er til alvorlig fare for pasientsikkerheten eller alvorlig svekker tilliten til helse- og omsorgstjenesten, kan Statens helsetilsyn gi forbud mot å yte helsehjelp. Forbudet skal fremgå av helsepersonellregisteret.
+>
+> Dersom helsepersonell ikke etterlever forbud etter første ledd, kan Statens helsetilsyn fastsette tvangsmulkt i samsvar med helsetilsynsloven § 9.
+>
+> Forbudet oppheves dersom Statens helsetilsyn innvilger søknad om ny autorisasjon eller lisens etter § 62.
+>
+> Forbud er enkeltvedtak etter forvaltningsloven.
+>
+> Departementet kan gi forskrift om fastsettelse og beregning av tvangsmulkt.
 >
 
 ## § 58
@@ -1479,9 +1813,15 @@ refid: "lov/1999-07-02-64"
 
 *§ 67 skal lyde:*
 
-> § 67.StraffDen som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller i medhold av den, straffes med bøter eller fengsel i inntil tre måneder.Overtredelse av § 21 om taushetsplikt straffes etter straffeloven § 209, likevel slik at også medvirkning straffes.Den som forsettlig eller grovt uaktsomt overtrer forbudet i § 21 andre ledd bokstav c mot urettmessig tilegnelse av taushetsbelagte opplysninger, straffes med bøter eller fengsel i inntil ett år.Grov urettmessig tilegnelse av taushetsbelagte opplysninger straffes med fengsel i inntil tre år. Ved avgjørelsen av om den urettmessige tilegnelsen er grov, skal det særlig legges vekt påfaren for stor skade eller ulempe for pasienten eller brukerenom det foreligger en tilsiktet vinning med overtredelsenovertredelsens varighet og omfangden utviste skyldom handlingen er begått av noen som tidligere er ilagt en strafferettslig reaksjon for liknende handlinger.
+> § 67. Straff
 >
-> § 67.Straff
+> Den som forsettlig eller grovt uaktsomt overtrer bestemmelser i loven eller i medhold av den, straffes med bøter eller fengsel i inntil tre måneder.
+>
+> Overtredelse av § 21 om taushetsplikt straffes etter straffeloven § 209, likevel slik at også medvirkning straffes.
+>
+> Den som forsettlig eller grovt uaktsomt overtrer forbudet i § 21 andre ledd bokstav c mot urettmessig tilegnelse av taushetsbelagte opplysninger, straffes med bøter eller fengsel i inntil ett år.
+>
+> Grov urettmessig tilegnelse av taushetsbelagte opplysninger straffes med fengsel i inntil tre år. Ved avgjørelsen av om den urettmessige tilegnelsen er grov, skal det særlig legges vekt påfaren for stor skade eller ulempe for pasienten eller brukerenom det foreligger en tilsiktet vinning med overtredelsenovertredelsens varighet og omfangden utviste skyldom handlingen er begått av noen som tidligere er ilagt en strafferettslig reaksjon for liknende handlinger.
 >
 
 ## § 67 a

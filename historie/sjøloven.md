@@ -95,6 +95,31 @@ refid: "lov/1994-06-24-39"
 
 ## (annet)
 
+### 2001-02-20 — lov/2001-01-19-4
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) skal § 170 lyde:*
+
+> Virkeområdet for avsnitt II og avsnitt III
+>
+> Reglene i avsnitt II gjelder i alle tilfelle hvor begrensning av ansvar gjøres gjeldende ved norsk domstol, hvis ikke annet følger av annet ledd.
+>
+> Reglene i avsnitt III gjelder bare hvis den som gjør gjeldende begrensning av ansvar begjærer det, og vedkommende på det tidspunkt da begjæringen fremsettes har sitt hovedforretningssted eller, hvis vedkommende ikke har noe hovedforretningssted, har sin bopel, i en fremmed stat som er bundet av London-konvensjonen 1976 om begrensning av ansvaret for sjørettslige krav (1976-begrensningskonvensjonen), men ikke av endringsprotokollen av 1996 til 1976-begrensningskonvensjonen (1996-endringsprotokollen).
+>
+
+### 2002-04-05 — lov/2002-04-05-8
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) skal § 194 første ledd lyde:*
+
+> Eierens ansvar etter § 191 er begrenset til 4.510.000 SDR for skip med tonnasje som ikke overstiger 5000 tonn. For skip med tonnasje på mer enn 5000 tonn økes ansvarsgrensen med 631 SDR pr. tonn over 5000 tonn. Ansvarsgrensen kan likevel ikke i noe tilfelle overstige 89.770.000 SDR.
+>
+
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) skal § 2 første ledd første punktum lyde:*
+
+> Når noen som eier norsk skip eller aksje eller andel i selskap som nevnt i § 1, er død, beholder skipet sin nasjonalitet så lenge dødsboet står under skiftebehandling ved norsk tingrett, uten hensyn til arvingenes nasjonalitet.
+>
+
 ### 2004-02-27 — lov/2004-02-27-10
 
 *Nåværende annet ledd, som blir nytt tredje ledd, skal lyde:*
@@ -283,6 +308,15 @@ refid: "lov/1994-06-24-39"
 
 *Avsnitt III i kapittel 9 (avsnittoverskrifta og §§ 183 til 188) vert oppheva.*
 
+### 2006-07-01 — lov/2006-04-07-9
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) skal § 135 tredje og nytt fjerde ledd lyde:*
+
+> I den utstrekning det kan skje uten særlig fare for skipet eller dets ombordværende, plikter skipsføreren å yte all mulig og nødvendig hjelp til enhver som befinner seg i havsnød eller trues av fare til sjøs. I havsnød etter første punktum regnes også enhver person som har søkt tilflukt ved kysten og ikke kan nås av annen redningstjeneste enn etter den internasjonale konvensjon 27. april 1979 om ettersøkning og redning til sjøs. Skipsføreren skal behandle personer som er tatt om bord etter første og annet punktum, med verdighet og omsorg, innenfor de rammer som skipets muligheter og begrensninger setter.
+>
+> Ingen, heller ikke eieren, befrakteren eller selskapet som er ansvarlig for skipets drift etter definisjonen i SOLAS-konvensjonens regel IX/1, skal på noen måte helt eller delvis forhindre skipsføreren i å treffe beslutninger eller iverksette tiltak som etter skipsførerens yrkesmessige skjønn er nødvendig for sikkerheten til menneskeliv til sjøs eller for vern av det marine miljøet.
+>
+
 ### 2007-12-21 — lov/2007-12-21-128
 
 *Kapitteloverskriften til kapittel 10 plasseres mellom § 182 og § 183 og skal lyde:*
@@ -391,17 +425,46 @@ refid: "lov/1994-06-24-39"
 > bokstav f skal lyde:ansatte hos personer som er omfattet av bokstav b, c, d og e, eller andre som personer som nevnt i bokstav b, c, d eller e svarer for, unntatt person som selv har voldt skaden ved forsett eller grov uaktsomhet, og med forståelse av at slik skade sannsynligvis ville oppstå.
 >
 
+### 2008-07-01 — forskrift/2007-02-23-226
+
+*Lov 7. januar 2005 nr. 2 om endringer i lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) og i enkelte andre lover trer i kraft 1. juli 2008.*
+
+> Lov 7. januar 2005 nr. 2 om endringer i lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) og i enkelte andre lover trer i kraft 1. juli 2008.
+>
+
+### 2009-06-19 — lov/2009-06-19-79
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten skal § 310 femte ledd lyde:*
+
+> Bestemmelsene i første og fjerde ledd gjelder ikke dersom verken det avtalte leveringssted eller det avtalte eller faktiske utleveringssted etter § 252 tredje ledd ligger i Norge, Danmark, Finland eller Sverige, eller dersom annet følger av Luganokonvensjonen 2007.
+>
+
 ### 2009-06-19 — lov/2009-06-19-102
 
 *Nåværende annet, tredje og fjerde punktum blir nytt tredje, fjerde og femte punktum.*
+
+### 2010-03-26 — lov/2010-03-26-10
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten skal § 11 nytt sjuande og åttande ledd lyde:*
+
+> Krav på registreringsgebyr og gebyr for utskrifter m.m. knyttet til skip er tvangsgrunnlag for utlegg.
+>
+> Når Statens innkrevingssentral er pålagt å innkreve gebyr, kan den inndrive kravene ved trekk i lønn og lignende ytelser etter reglene i dekningsloven § 2-7. Innkrevingssentralen kan også inndrive kravene ved å stifte utleggspant for kravet dersom panteretten kan gis rettsvern ved registrering i et register eller ved underretning til en tredjeperson, jf. panteloven kapittel 5, og utleggsforretningen kan holdes på Innkrevingssentralens kontor etter tvangsfullbyrdelsesloven § 7-9 første ledd.
+>
+
+### 2012-01-01 — forskrift/2011-12-16-1261
+
+*Loven trer i kraft 1. januar 2012.*
+
+> Loven trer i kraft 1. januar 2012.
+>
 
 ### 2013-04-05 — lov/2013-04-05-11
 
 *Overskriften til kapittel 9 skal lyde:*
 
-### 2013-04-05 — lov/2013-04-05-11
-
-*Kapittel 9. Ansvarsbegrensning og forsikringsplikt*
+> Kapittel 9. Ansvarsbegrensning og forsikringsplikt
+>
 
 ### 2013-04-05 — lov/2013-04-05-11
 
@@ -485,6 +548,20 @@ refid: "lov/1994-06-24-39"
 > Reglene i §§ 411 til 417, §§ 419 til 429 og § 501 første ledd nr. 4 til 6 kan ikke ved forhåndsavtale fravikes til skade for passasjeren
 >
 > § 430 andre ledd vert oppheva.
+>
+
+### 2013-07-01 — forskrift/2013-04-05-341
+
+*Lovens del I trer i kraft 1. juli 2013.*
+
+> Lovens del I trer i kraft 1. juli 2013.
+>
+
+### 2014-01-01 — forskrift/2013-12-06-1410
+
+*Lov 7. juni 2013 nr. 30 om endringar i sjøloven (reglar om passasjeransvar, m.a. gjennomføring av forordning (EF) nr. 392/2009) trer i kraft 1. januar 2014.*
+
+> Lov 7. juni 2013 nr. 30 om endringar i sjøloven (reglar om passasjeransvar, m.a. gjennomføring av forordning (EF) nr. 392/2009) trer i kraft 1. januar 2014.
 >
 
 ### 2015-05-12 — lov/2015-05-12-30
@@ -652,6 +729,13 @@ refid: "lov/1994-06-24-39"
 > Reglene i dette kapittelet gjelder ikke for krigsskip eller andre skip som eies eller brukes av en fremmed stat, og som på det tidspunkt da skade ble voldt av farlig gods, utelukkende brukes i statlig ikke-kommersielt øyemed. §§ 212 til 215 gjelder likevel når skade er oppstått her i riket eller i norsk økonomisk sone, eller det er truffet tiltak for å avverge eller begrense slik skade.
 >
 
+### 2015-06-08 — forskrift/2015-05-12-466
+
+*Endringen i sjøloven § 175 gjelder fra 8. juni 2015.*
+
+> Endringen i sjøloven § 175 gjelder fra 8. juni 2015.
+>
+
 ### 2016-05-27 — lov/2016-05-27-16
 
 *Kapittel 15 avsnitt IV, overskrifta, skal lyde:*
@@ -659,6 +743,13 @@ refid: "lov/1994-06-24-39"
 ### 2016-05-27 — lov/2016-05-27-16
 
 *Noverande § 418 a vert ny § 418 d.*
+
+### 2016-07-01 — forskrift/2016-05-27-533
+
+*Lova gjeld frå 1. juli 2016.*
+
+> Lova gjeld frå 1. juli 2016.
+>
 
 ### 2018-12-20 — lov/2018-12-20-115
 
@@ -746,6 +837,20 @@ refid: "lov/1994-06-24-39"
 > § 210 h tredje ledd første punktum og fjerde ledd gjelder tilsvarende, jf. også § 210.
 >
 
+### 2019-05-03 — lov/2019-05-03-15
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten skal § 13 nytt fjerde ledd lyde:*
+
+> Sjøfartsdirektoratet skal, uten hinder av taushetsplikt, ha tilgang til opplysninger i Folkeregisteret som er nødvendige for utførelsen av oppgaver etter denne loven.
+>
+
+### 2019-05-03 — forskrift/2019-05-03-559
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2020-04-17 — lov/2020-04-17-28
 
 *I kapittel 2 skal nytt avsnitt VII lyde:*
@@ -783,6 +888,13 @@ refid: "lov/1994-06-24-39"
 > Retten til å føre et utenlandsk flagg etter § 40 b bortfaller når bareboat-certepartiet opphører eller skipet ikke lenger har rett til midlertidig å seile under det utenlandske skipsregisterets flagg. Melding om opphør skal gis av skipets eier snarest mulig og senest innen 30 dager etter opphør. Retten til å føre utenlandsk flagg bortfaller også hvis melding ikke er gitt innen fristen, men registerføreren på annen måte får kjennskap til forholdet. Før retten bortfaller skal eieren i så fall gis adgang til å uttale seg.
 >
 > Når tillatelsen til bareboatregistrering bortfaller etter første ledd, har skipet rett til igjen å føre norsk flagg.
+>
+
+### 2020-05-07 — lov/2020-05-07-39
+
+*I lov 24. juni 1994 nr. 39 om sjøfarten skal § 430 første ledd innledningen lyde:*
+
+> Reglene i §§ 411 til 417, § 418 d, §§ 419 til 429 og § 501 første ledd nr. 4 til 6 kan ikke ved forhåndsavtale fravikes til skade for passasjeren.
 >
 
 ### 2020-05-20 — lov/2020-05-20-42
@@ -879,9 +991,23 @@ refid: "lov/1994-06-24-39"
 
 *§ 14 skal lyde:*
 
-> § 14.Fremgangsmåte m mRegisterføreren skal føre en dagbok over dokumenter som forlanges registrert, og et skipsregister med blad for hvert enkelt skip. Registrering foregår ved at et utdrag av dokumentet føres inn i dagboken og at dokumentet anmerkes i Skipsregisteret.Dokument som kreves registrert, skal snarest mulig føres inn i dagboken etter den dato og det minutt det er mottatt for registrering og skal anses for dagbokført på dette tidspunkt. Papirdokument som kommer inn etter Skipsregisterets ekspedisjonstid, skal føres inn i dagboken på et tidspunkt som departementet fastsetter i forskrift.Ser registerføreren når dokumentet mottas at det ikke kan registreres, gjør registerføreren oppmerksom på det. Blir dokumentet ikke tatt tilbake, skal det føres inn i dagboken og i tilfelle nektes registrert, jf. § 16. Er det åpenbart at dokumentet ikke kan registreres, kan det uten dagbokføring returneres til den som har krevd registrering. Vedkommende skal samtidig gjøres kjent med hvorfor dokumentet ikke kan registreres, og med at det ikke er dagbokført. Vedkommende skal videre gjøres kjent med at dokumentet vil bli dagbokført dersom dette kreves. Framsettes slikt krav, dagbokføres dokumentet fra det tidspunktet kravet kommer inn, jf. annet ledd.Foreligger vilkårene for registrering, skal dokumentet anmerkes i Skipsregisteret innen 2 uker etter dagbokføringsdato. Dokumentet sendes tilbake til eller gjøres tilgjengelig for den som er rettighetshaver etter dokumentet, eller sendes tilbake til eller gjøres tilgjengelig for den rettighetshaveren utpeker.Foreligger ikke vilkårene for registrering, skal dokumentet nektes registrert, jf. § 16.Dersom et skip ventes levert fra utenlandsk byggeverksted eller selger til ny eier på et tidspunkt utenfor ekspedisjonstiden ved registerførerens kontor, kan skipets innføring i registeret og registrering av frivillige rettsstiftelser skje før skipet blir levert, men registerføreren skal holde dokumentene tilbake inntil denne får bekreftelse på at skipet er levert. Blir skipet ikke levert innen 1 uke etter dagbokføringen, er registreringen uten noen rettsvirkning.Registrerte dokumenter skal lagres elektronisk. Departementet kan i forskrift gi nærmere bestemmelser om hvordan registrerte dokumenter skal lagres og håndteres.Departementet kan i forskrift fastsette at opplysninger eller attester som det finner nødvendig av hensyn til registerførerens kontroll, skal gis på fastsatt måte. Departementet kan i forskrift fastsette krav om innlevering av gjenpart av dokument som skal registreres, at gjenparten skal være bekreftet og hvem som kan gi slik bekreftelse.
+> § 14. Fremgangsmåte m m
 >
-> § 14.Fremgangsmåte m m
+> Registerføreren skal føre en dagbok over dokumenter som forlanges registrert, og et skipsregister med blad for hvert enkelt skip. Registrering foregår ved at et utdrag av dokumentet føres inn i dagboken og at dokumentet anmerkes i Skipsregisteret.
+>
+> Dokument som kreves registrert, skal snarest mulig føres inn i dagboken etter den dato og det minutt det er mottatt for registrering og skal anses for dagbokført på dette tidspunkt. Papirdokument som kommer inn etter Skipsregisterets ekspedisjonstid, skal føres inn i dagboken på et tidspunkt som departementet fastsetter i forskrift.
+>
+> Ser registerføreren når dokumentet mottas at det ikke kan registreres, gjør registerføreren oppmerksom på det. Blir dokumentet ikke tatt tilbake, skal det føres inn i dagboken og i tilfelle nektes registrert, jf. § 16. Er det åpenbart at dokumentet ikke kan registreres, kan det uten dagbokføring returneres til den som har krevd registrering. Vedkommende skal samtidig gjøres kjent med hvorfor dokumentet ikke kan registreres, og med at det ikke er dagbokført. Vedkommende skal videre gjøres kjent med at dokumentet vil bli dagbokført dersom dette kreves. Framsettes slikt krav, dagbokføres dokumentet fra det tidspunktet kravet kommer inn, jf. annet ledd.
+>
+> Foreligger vilkårene for registrering, skal dokumentet anmerkes i Skipsregisteret innen 2 uker etter dagbokføringsdato. Dokumentet sendes tilbake til eller gjøres tilgjengelig for den som er rettighetshaver etter dokumentet, eller sendes tilbake til eller gjøres tilgjengelig for den rettighetshaveren utpeker.
+>
+> Foreligger ikke vilkårene for registrering, skal dokumentet nektes registrert, jf. § 16.
+>
+> Dersom et skip ventes levert fra utenlandsk byggeverksted eller selger til ny eier på et tidspunkt utenfor ekspedisjonstiden ved registerførerens kontor, kan skipets innføring i registeret og registrering av frivillige rettsstiftelser skje før skipet blir levert, men registerføreren skal holde dokumentene tilbake inntil denne får bekreftelse på at skipet er levert. Blir skipet ikke levert innen 1 uke etter dagbokføringen, er registreringen uten noen rettsvirkning.
+>
+> Registrerte dokumenter skal lagres elektronisk. Departementet kan i forskrift gi nærmere bestemmelser om hvordan registrerte dokumenter skal lagres og håndteres.
+>
+> Departementet kan i forskrift fastsette at opplysninger eller attester som det finner nødvendig av hensyn til registerførerens kontroll, skal gis på fastsatt måte. Departementet kan i forskrift fastsette krav om innlevering av gjenpart av dokument som skal registreres, at gjenparten skal være bekreftet og hvem som kan gi slik bekreftelse.
 >
 
 ## § 143
@@ -950,9 +1076,13 @@ refid: "lov/1994-06-24-39"
 
 *§ 17 skal lyde:*
 
-> § 17.AttestFor ethvert dokument som er registrert, gir registerføreren attest om registreringen og en bekreftet utskrift av Skipsregisteret for vedkommende registerenhet. Departementet kan gi nærmere forskrifter om hva attestene skal inneholde av anmerkninger, og på hvilken måte de skal gis.Departementet kan gi forskrift om melding til rettighetshaveren når det blir registrert rettsstiftelser eller sletting av et dokument på registerenheten.Enhver skal på begjæring få attest om eierforhold og heftelser vedrørende registrert skip.
+> § 17. Attest
 >
-> § 17.Attest
+> For ethvert dokument som er registrert, gir registerføreren attest om registreringen og en bekreftet utskrift av Skipsregisteret for vedkommende registerenhet. Departementet kan gi nærmere forskrifter om hva attestene skal inneholde av anmerkninger, og på hvilken måte de skal gis.
+>
+> Departementet kan gi forskrift om melding til rettighetshaveren når det blir registrert rettsstiftelser eller sletting av et dokument på registerenheten.
+>
+> Enhver skal på begjæring få attest om eierforhold og heftelser vedrørende registrert skip.
 >
 
 ## § 171
@@ -1437,9 +1567,13 @@ refid: "lov/1994-06-24-39"
 
 *§ 25 skal lyde:*
 
-> § 25.Rettsvern ved konkurs og rekonstruksjonsforhandlingFor at en frivillig stiftet rett skal ha rettsvern i konkurs, må retten være innført i dagboken senest dagen før konkursåpningen, bortsett fra de tilfeller som er nevnt i § 24 tredje, fjerde og femte ledd.Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf dekningsloven § 1-4 femte ledd, må retten være innført i dagboken senest dagen før åpningen av rekonstruksjonsforhandlingen. Når retten er stiftet med samtykke av rekonstruksjonsutvalget, er likevel dens rettsvern overfor konkursboet ikke avhengig av registrering.For at en rett som er stiftet ved avtale, skal kunne stå seg ved en rekonstruksjonsforhandling, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 24 tredje, fjerde og femte ledd være innført i dagboken senest dagen før åpningen av rekonstruksjonsforhandlingen.
+> § 25. Rettsvern ved konkurs og rekonstruksjonsforhandling
 >
-> § 25.Rettsvern ved konkurs og rekonstruksjonsforhandling
+> For at en frivillig stiftet rett skal ha rettsvern i konkurs, må retten være innført i dagboken senest dagen før konkursåpningen, bortsett fra de tilfeller som er nevnt i § 24 tredje, fjerde og femte ledd.
+>
+> Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf dekningsloven § 1-4 femte ledd, må retten være innført i dagboken senest dagen før åpningen av rekonstruksjonsforhandlingen. Når retten er stiftet med samtykke av rekonstruksjonsutvalget, er likevel dens rettsvern overfor konkursboet ikke avhengig av registrering.
+>
+> For at en rett som er stiftet ved avtale, skal kunne stå seg ved en rekonstruksjonsforhandling, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 24 tredje, fjerde og femte ledd være innført i dagboken senest dagen før åpningen av rekonstruksjonsforhandlingen.
 >
 
 ## § 28
@@ -1457,9 +1591,27 @@ refid: "lov/1994-06-24-39"
 
 *§ 29 skal lyde:*
 
-> § 29.Slettelse av heftelserEn heftelse skal slettes av Skipsregisteret når det blir registrert bevis for at den er falt bort eller for at den berettigede samtykker i slettelse.For at en pantobligasjon som er omsetningsgjeldsbrev, skal kunne slettes må, når ikke annet er bestemt ved lov, kvittering eller samtykke være skrevet på dokumentet eller dette må leveres inn til registerføreren til påtegning om slettelse. Dette gjelder likevel ikke når det i dokumentet er tatt forbehold om at det ikke kan overdras. Dette gjelder heller ikke når den berettigede etter Skipsregisteret er en bank som har konsesjon som bank etter finansforetaksloven § 2-7, en bank med filial i Norge og hovedsete i en annen EØS-stat som har rett til å drive virksomhet som bank i Norge etter finansforetaksloven § 5-2, eller et foretak som nevnt i finansforetaksloven § 1-6 første ledd og banken eller foretaket ber om sletting uten fremleggelse av originaldokumentet. I slike tilfeller er banken eller foretaket ansvarlig for ethvert tap som måtte oppstå som følge av at dokumentet verken tilintetgjøres eller gis påtegning om at det er slettet av Skipsregisteret.Er det umulig eller uforholdsmessig vanskelig å få kvittering eller samtykke, kan registerføreren, når dokumentet innleveres og det sannsynliggjøres at heftelsen er falt bort eller ikke består, på hjemmelshaverens forlangende kunngjøre en oppfordring til mulige rettighetshavere om å melde seg innen 2 måneder. Melder ingen seg, slettes heftelsen.En heftelse som er falt bort ved tvangssalg eller annet salg etter tvangsfullbyrdelsesloven, eller ved salg etter konkursloven § 117a, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres skjøte som viser at heftelsen er falt bort. Tilsvarende gjelder når det godtgjøres at en heftelse er falt bort ved tvangssalg av skipet i utlandet, forutsatt at tvangssalget etter norske interlegale rettsregler er bindende for rettighetshaveren.En pantheftelse som er falt bort ved tvangsakkord, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres en stadfestelseskjennelse etter konkursloven § 52, jf. § 53, som viser at heftelsen er falt bort.Er det bevis som forlanges registrert, ikke tilstrekkelig til at heftelsen kan slettes, skal registrering nektes.For nedkvittering, prioritetsvikelse eller andre disposisjoner som begrenser omfanget eller verdien av en registrert heftelse, gjelder første, annet, fjerde og sjette ledd tilsvarende.Enhver heftelse som er over 20 år gammel, kan slettes etter oppfordring som nevnt i tredje ledd når det er sannsynlig at den er opphørt.Heftelse som åpenbart er opphørt, skal registerføreren slette av eget tiltak.I tilfelle av uriktig slettelse gjelder § 27 tilsvarende.
+> § 29. Slettelse av heftelser
 >
-> § 29.Slettelse av heftelser
+> En heftelse skal slettes av Skipsregisteret når det blir registrert bevis for at den er falt bort eller for at den berettigede samtykker i slettelse.
+>
+> For at en pantobligasjon som er omsetningsgjeldsbrev, skal kunne slettes må, når ikke annet er bestemt ved lov, kvittering eller samtykke være skrevet på dokumentet eller dette må leveres inn til registerføreren til påtegning om slettelse. Dette gjelder likevel ikke når det i dokumentet er tatt forbehold om at det ikke kan overdras. Dette gjelder heller ikke når den berettigede etter Skipsregisteret er en bank som har konsesjon som bank etter finansforetaksloven § 2-7, en bank med filial i Norge og hovedsete i en annen EØS-stat som har rett til å drive virksomhet som bank i Norge etter finansforetaksloven § 5-2, eller et foretak som nevnt i finansforetaksloven § 1-6 første ledd og banken eller foretaket ber om sletting uten fremleggelse av originaldokumentet. I slike tilfeller er banken eller foretaket ansvarlig for ethvert tap som måtte oppstå som følge av at dokumentet verken tilintetgjøres eller gis påtegning om at det er slettet av Skipsregisteret.
+>
+> Er det umulig eller uforholdsmessig vanskelig å få kvittering eller samtykke, kan registerføreren, når dokumentet innleveres og det sannsynliggjøres at heftelsen er falt bort eller ikke består, på hjemmelshaverens forlangende kunngjøre en oppfordring til mulige rettighetshavere om å melde seg innen 2 måneder. Melder ingen seg, slettes heftelsen.
+>
+> En heftelse som er falt bort ved tvangssalg eller annet salg etter tvangsfullbyrdelsesloven, eller ved salg etter konkursloven § 117a, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres skjøte som viser at heftelsen er falt bort. Tilsvarende gjelder når det godtgjøres at en heftelse er falt bort ved tvangssalg av skipet i utlandet, forutsatt at tvangssalget etter norske interlegale rettsregler er bindende for rettighetshaveren.
+>
+> En pantheftelse som er falt bort ved tvangsakkord, skal uten hensyn til bestemmelsen i annet ledd første punktum slettes når det registreres en stadfestelseskjennelse etter konkursloven § 52, jf. § 53, som viser at heftelsen er falt bort.
+>
+> Er det bevis som forlanges registrert, ikke tilstrekkelig til at heftelsen kan slettes, skal registrering nektes.
+>
+> For nedkvittering, prioritetsvikelse eller andre disposisjoner som begrenser omfanget eller verdien av en registrert heftelse, gjelder første, annet, fjerde og sjette ledd tilsvarende.
+>
+> Enhver heftelse som er over 20 år gammel, kan slettes etter oppfordring som nevnt i tredje ledd når det er sannsynlig at den er opphørt.
+>
+> Heftelse som åpenbart er opphørt, skal registerføreren slette av eget tiltak.
+>
+> I tilfelle av uriktig slettelse gjelder § 27 tilsvarende.
 >
 
 ### 2026-06-19 — lov/2026-06-19-48

@@ -5,6 +5,15 @@ refid: "lov/2005-05-27-31"
 
 # Endringshistorikk: Skogbrukslova
 
+## (annet)
+
+### 2014-03-28 — lov/2014-03-28-9
+
+*I lov 27. mai 2005 nr. 31 om skogbruk skal § 2 annet ledd lyde:*
+
+> Lova gjeld sjølv om eit område er verna etter naturmangfoldloven kapittel V eller eldre vernevedtak som nemnt i naturmangfoldloven § 77, eller i plan etter plan- og bygningslova er lagt ut til andre formål enn landbruk, så sant ikkje anna følgjer av verne- eller planvedtaket eller av forskrifter knytt til vedtaket.
+>
+
 ## § 12
 
 ### 2009-06-19 — lov/2009-06-19-98

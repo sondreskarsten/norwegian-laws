@@ -5,15 +5,40 @@ refid: "lov/2009-06-19-97"
 
 # Endringshistorikk: Dyrevelferdsloven
 
+## (annet)
+
+### 2018-05-01 — forskrift/2018-04-10-551
+
+*Loven trer i kraft 1. mai 2018.*
+
+> Loven trer i kraft 1. mai 2018.
+>
+
+### 2021-07-01 — forskrift/2021-06-18-2011
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2026-05-01 — forskrift/2026-03-27-682
+
+*Ikraftsetting av lov 13. mars 2026 nr. 9 om endringer i lov om dyrevelferd (fremstilling og fremvisning m.m. av seksuelle overgrep mot dyr). Loven trer i kraft 1. mai 2026.*
+
+> Ikraftsetting av lov 13. mars 2026 nr. 9 om endringer i lov om dyrevelferd (fremstilling og fremvisning m.m. av seksuelle overgrep mot dyr). Loven trer i kraft 1. mai 2026.
+>
+
 ## § 14 a
 
 ### 2026-03-13 — lov/2026-03-13-9
 
 *Ny § 14 a skal lyde:*
 
-> § 14 a.Fremstilling og fremvisning m.m. av seksuelle overgrep mot dyrDet er forbudt å:produsere fremstillinger av seksuell omgang med dyr eller seksuelle handlinger med dyr,tilby, overlate til en annen, gjøre tilgjengelig eller på annen måte søke å utbre fremstillinger som nevnt i bokstav a,anskaffe, innføre eller besitte slike fremstillinger som nevnt i bokstav a, eller skaffe seg tilgang til slikt materiale, ellerovervære en fremvisning av seksuell omgang med dyr eller seksuelle handlinger med dyr.Bestemmelsen rammer ikke fremvisninger eller fremstillinger som må anses forsvarlige ut fra et kunstnerisk, vitenskapelig, informativt eller lignende formål.
+> § 14 a. Fremstilling og fremvisning m.m. av seksuelle overgrep mot dyr
 >
-> § 14 a.Fremstilling og fremvisning m.m. av seksuelle overgrep mot dyr
+> Det er forbudt å:produsere fremstillinger av seksuell omgang med dyr eller seksuelle handlinger med dyr,tilby, overlate til en annen, gjøre tilgjengelig eller på annen måte søke å utbre fremstillinger som nevnt i bokstav a,anskaffe, innføre eller besitte slike fremstillinger som nevnt i bokstav a, eller skaffe seg tilgang til slikt materiale, ellerovervære en fremvisning av seksuell omgang med dyr eller seksuelle handlinger med dyr.
+>
+> Bestemmelsen rammer ikke fremvisninger eller fremstillinger som må anses forsvarlige ut fra et kunstnerisk, vitenskapelig, informativt eller lignende formål.
 >
 
 ## § 25

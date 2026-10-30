@@ -283,6 +283,39 @@ refid: "lov/1999-03-26-17"
 
 ## (annet)
 
+### 2001-05-15 — lov/2001-05-11-19
+
+*I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal § 12-5 første punktum lyde:*
+
+> Departementet kan som forsøk i en eller flere kommuner opprette et partssammensatt utvalg til behandling av tvister etter loven her og etter lov 16. juni 1939 nr. 6 om husleie (Husleietvistutvalg).
+>
+
+### 2006-07-01 — lov/2006-06-16-34
+
+*I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal § 12-5 nytt annet og tredje ledd lyde:*
+
+> En tvist som kan avgjøres av husleietvistutvalg, må behandles der før den kan bringes inn for tingretten hvis det følger av rettergangslovgivningen at behandling i forliksrådet ellers ville være nødvendig. Forliksrådet kan ikke behandle saker som kan avgjøres av husleietvistutvalg.
+>
+> Innbringelse av sak for husleietvistutvalg skal likestilles med søksmål etter tvangsfullbyrdelsesloven § 5-11 første ledd annet punktum.
+>
+
+### 2007-06-15 — lov/2007-06-15-39
+
+*I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal ny § 9-11 lyde:*
+
+> I lov 26. mars 1999 nr. 17 om husleieavtaler (husleieloven) skal ny § 9-11 lyde:
+>
+> § 9-11.
+>
+> Varsel om fravikelse
+>
+> Når det er grunnlag for å begjære fravikelse av husrommet kan utleier, dersom det er grunn til det, sende skriftlig varsel til sosialtjenesten i kommunen om misligholdet. En eventuell begjæring om tvangsfravikelse bør tidligst fremsettes for namsmyndigheten to uker etter at skriftlig varsel er sendt til sosialtjenesten. Utleier kan gi andre fullmakt til å sende slikt varsel. Leier kan i skriftlig melding til utleier reservere seg mot at slikt varsel blir sendt til sosialtjenesten.
+>
+> Utleier skal senest samtidig med oversendelse av varsel til sosialtjenesten i kommunen etter første ledd, sende kopi av varselet eller annen melding om innholdet til leier.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+
 ### 2009-01-16 — lov/2009-01-16-6
 
 *Overskriften i § 3-4 skal lyde:*
@@ -297,20 +330,46 @@ refid: "lov/1999-03-26-17"
 > § 7-7.Framleierens stilling ved opphør av hovedleieavtalen
 >
 
+### 2022-05-06 — lov/2022-05-06-27
+
+*I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 12-5 lyde:*
+
+> § 12-5.Husleietvistutvalget
+>
+> Husleietvistutvalget er et partssammensatt tvisteløsningsorgan som behandler tvister etter loven her og etter lov 16. juni 1939 nr. 6 om husleie.
+>
+> Husleietvistutvalget er et faglig uavhengig forvaltningsorgan som ikke kan instrueres om behandlingen av enkeltsaker eller om den faglige virksomheten for øvrig.
+>
+> Husleietvistutvalget kan uten hinder av taushetsplikt innhente opplysninger fra folkeregisteret som er nødvendige for utførelsen av oppgaver etter loven her og forskrifter fastsatt med hjemmel i loven her.
+>
+> Tvister om leie av bolig må behandles av Husleietvistutvalget før de kan bringes inn for tingretten hvis det følger av rettergangslovgivningen at behandling i forliksrådet ellers ville vært nødvendig. Forliksrådet kan ikke behandle tvister om leie av bolig.
+>
+> Innbringelse av en sak for Husleietvistutvalget skal likestilles med søksmål etter tvangsfullbyrdelsesloven § 5-11 første ledd annet punktum.
+>
+> Departementet kan gi forskrift om Husleietvistutvalget.
+>
+
 ### 2024-06-25 — lov/2024-06-25-53
 
 *I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 9-3 a lyde:*
 
-> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som boligFor bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+> § 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig
 >
-> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som bolig
+> For bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+>
+
+### 2026-01-01 — forskrift/2025-12-22-2815
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
 >
 
 ### 2026-06-12 — lov/2026-06-12-22
 
 *I lov 26. mars 1999 nr. 17 om husleieavtaler skal § 9-3 a lyde:*
 
-> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som boligFor bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
+> § 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig
 >
-> § 9-3 a.Midlertidig unntak ved utleie av fritidsbolig som bolig
+> For bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter plan- og bygningsloven §§ 20-9 og 20-10, kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.
 >

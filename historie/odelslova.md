@@ -7,6 +7,13 @@ refid: "lov/1974-06-28-58"
 
 ## (annet)
 
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 28. juni 1974 nr. 58 om odelsretten og åseteretten skal § 68 første punktum lyde:*
+
+> Blir odelstaksten oppheva utan å bli heimvist, må den part som vil ha ny takst, setje fram krav om det innan 4 veker etter at opphevingsorskurden er blitt endeleg.
+>
+
 ### 2009-06-19 — lov/2009-06-19-98
 
 *Nåværende § 27 oppheves. Nåværende § 27 a blir ny § 27 og skal lyde:*
@@ -23,6 +30,20 @@ refid: "lov/1974-06-28-58"
 > Tredje ledd blir nytt femte ledd og skal lyde:
 >
 > Oreigning av ein eigedom eller delar av den blir i høve til reglane i denne paragrafen rekna likt med avhending. Det same gjeld feste eller grunnleige når feste- eller leigetida er minst 20 år, eller festaren eller leigaren, når tida er ute, har rett til fornying slik at tida samanlagt blir minst 20 år.
+>
+
+### 2014-01-01 — forskrift/2013-06-14-645
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
+### 2017-06-21 — lov/2017-06-21-99
+
+*I lov 28. juni 1974 nr. 58 om odelsretten og åsetesretten skal § 2 første ledd lyde:*
+
+> Ein eigedom blir rekna som odlingsjord når fulldyrka eller overflatedyrka jord på eigedomen er over 35 dekar, eller det produktive skogarealet på eigedomen er over 500 dekar.
 >
 
 ### 2020-12-18 — lov/2020-12-18-149

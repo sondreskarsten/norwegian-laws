@@ -7,6 +7,15 @@ refid: "lov/1951-06-29-19"
 
 ## (annet)
 
+### 2001-12-21 — lov/2001-12-21-117
+
+*I lov 29. juni 1951 nr. 19 om militære rekvisisjoner skal § 1 nytt fjerde og femte ledd lyde:*
+
+> Krav i eller i medhold av loven her om utferdigelse av dokument, bruk av blanketter, krav om underskrift eller lignende, er ikke til hinder for bruk av elektronisk kommunikasjon.
+>
+> Bruk av elektronisk kommunikasjon ved underretning om et vedtak fra et forvaltningsorgan er bare tillatt når den vedtaket retter seg mot uttrykkelig har godtatt dette.
+>
+
 ### 2023-11-24 — lov/2023-11-24-84
 
 *I lov 29. juni 1951 nr. 19 om militære rekvisisjoner skal § 16 andre ledd lyde:*

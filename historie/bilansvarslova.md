@@ -18,13 +18,26 @@ refid: "lov/1961-02-03"
 
 *Nåværende § 21 blir ny § 22.*
 
+### 2021-01-01 — forskrift/2020-05-26-1054
+
+*Loven trer i kraft 1. januar 2021.*
+
+> Loven trer i kraft 1. januar 2021.
+>
+
 ### 2025-06-20 — lov/2025-06-20-80
 
 *I kapittel II skal ny § 10 a lyde:*
 
-> § 10 a.(skadebot ved insolvens m.m.)Er trygdelaget til motorvogna som har gjort skaden, under insolvensbehandling eller avvikling som definert i forskrift fastsett av departementet, skal dei trygdelaga som er godkjende etter § 17 fyrste leden bokstav a, bera skaden i lag overfor skadelidarar som bur her i riket, i det same omfanget som trygda hjå trygdelaget ville ha dekt skaden. Skadelidarane kan i slike tilfelle krevje skadebota hjåTrafikkforsikringsforeningen.Fyrste leden gjeld berre om trygdelaget til motorvogna som har gjort skaden, har løyve til å tilby trygd innanfor EØS-området.Det felles ansvaret trygdelaga har etter fyrste leden, gjeld også for attsøkjingskrav Trafikkforsikringsforeningen må betale til andre skadebotorgan i samsvar med dei pliktene staten har etter EØS-avtalen.Departementet kan gje nærare føresegner om skadebotordninga etter denne paragrafen i forskrift.
+> § 10 a. (skadebot ved insolvens m.m.)
 >
-> § 10 a.(skadebot ved insolvens m.m.)
+> Er trygdelaget til motorvogna som har gjort skaden, under insolvensbehandling eller avvikling som definert i forskrift fastsett av departementet, skal dei trygdelaga som er godkjende etter § 17 fyrste leden bokstav a, bera skaden i lag overfor skadelidarar som bur her i riket, i det same omfanget som trygda hjå trygdelaget ville ha dekt skaden. Skadelidarane kan i slike tilfelle krevje skadebota hjåTrafikkforsikringsforeningen.
+>
+> Fyrste leden gjeld berre om trygdelaget til motorvogna som har gjort skaden, har løyve til å tilby trygd innanfor EØS-området.
+>
+> Det felles ansvaret trygdelaga har etter fyrste leden, gjeld også for attsøkjingskrav Trafikkforsikringsforeningen må betale til andre skadebotorgan i samsvar med dei pliktene staten har etter EØS-avtalen.
+>
+> Departementet kan gje nærare føresegner om skadebotordninga etter denne paragrafen i forskrift.
 >
 
 ## § 10

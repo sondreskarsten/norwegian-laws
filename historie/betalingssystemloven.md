@@ -273,9 +273,20 @@ refid: "lov/1999-12-17-95"
 
 *Nåværende annet ledd blir nytt tredje ledd.*
 
+### 2016-12-16 — lov/2016-12-16-91
+
+*I lov 17. desember 1999 nr. 95 om betalingssystemer m.v. skal § 4-4 annet ledd nytt annet til fjerde punktum lyde:*
+
+> Ved insolvensbehandling har operatøren rett til å få dekket sin fordring på tilbakeføring av sikkerheten før andre fordringer med unntak av massefordringer. Fortrinnsretten er begrenset til den del av sikkerheten som overstiger den mottatte operatørens krav mot vedkommende. Fordringen skal dekkes uten ugrunnet opphold.
+>
+
 ### 2018-11-23 — lov/2018-11-23-87
 
 *Nåværende §§ 6-1 til 6-4 blir §§ 6-2 til 6-5.*
+
+### 2019-12-13 — lov/2019-12-13-79
+
+*I lov 17. desember 1999 nr. 95 om betalingssystemer m.v. skal § 6-2 bokstav d lyde:Dersom det oppstår tvist mellom betalingsmottakere og deres tilbydere av betalingstjenester om bestemmelser i forordning (EU) 2015/751, kan hver av partene kreve å få behandlet denne av kompetent organ som fastsatt i forskrift av departementet. I forskriften kan departementet fastsette nærmere bestemmelser om organets virksomhet, herunder bestemmelser om at utgifter til organets virksomhet skal utliknes på foretakene eller dekkes av partene. Så lenge tvisten er til behandling i organet, kan ingen av partene bringe tvisten inn for domstolene. En sak som er realitetsbehandlet av organet, kan bringes direkte inn for domstolene.*
 
 ### 2019-12-13 — lov/2019-12-13-79
 

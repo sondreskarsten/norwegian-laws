@@ -7,6 +7,34 @@ refid: "lov/2005-04-29-21"
 
 ## (annet)
 
+### 2006-12-22 — lov/2006-12-22-94
+
+*I lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg skal § 10 nytt andre ledd lyde:*
+
+> Ved endring i grunnbeløpet skal supplerande stønad regulerast i tråd med endringa. Det same gjeld frådrag i stønaden etter § 6 på grunn av ytingar som er direkte knytta til grunnbeløpet.
+>
+
+### 2008-12-12 — lov/2008-12-12-83
+
+*I lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg skal § 5 første ledd lyde:*
+
+> Full supplerande stønad skal vere1,94 gonger grunnbeløpet for einslege stønadstakarar2,44 gonger grunnbeløpet for personar med ektemake under 67 år1,79 gonger grunnbeløpet for kvar av ektemakane når begge har fylt 67 år.
+>
+
+### 2009-06-19 — lov/2009-06-19-40
+
+*I lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg skal § 5 første ledd lyde:*
+
+> Full supplerande stønad skal vere1,97 gonger grunnbeløpet for einslege stønadstakarar2,47 gonger grunnbeløpet for personar med ektemake under 67 år1,82 gonger grunnbeløpet for kvar av ektemakane når begge har fylt 67 år.
+>
+
+### 2010-06-25 — lov/2010-06-25-30
+
+*I lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg skal § 5 første ledd lyde:*
+
+> Full supplerande stønad skal vere2,0 gonger grunnbeløpet for einslege stønadstakarar2,5 gonger grunnbeløpet for personar med ektemake under 67 år1,85 gonger grunnbeløpet for kvar av ektemakane når begge har fylt 67 år.
+>
+
 ### 2010-12-17 — lov/2010-12-17-77
 
 *Nåværende andre ledd blir nytt tredje ledd.*

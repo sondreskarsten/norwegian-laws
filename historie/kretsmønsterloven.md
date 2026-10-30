@@ -5,6 +5,27 @@ refid: "lov/1990-06-15-27"
 
 # Endringshistorikk: Kretsmønsterloven – kretsml
 
+## (annet)
+
+### 2013-05-31 — lov/2013-05-31-25
+
+*I lov 15. juni 1990 nr. 27 om vern av kretsmønstre for integrerte kretser skal § 9 lyde:*
+
+> § 9.Straff
+>
+> Den som begår inngrep i en kretsmønsterrett, straffes med bøter eller fengsel inntil ett år.
+>
+> Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som inngriperen har oppnådd, og omfanget av inngrepet for øvrig.
+>
+> For overtredelse av denne bestemmelsen kan påtale unnlates hvis ikke allmenne hensyn tilsier påtale, jf. straffeprosessloven § 62 a.
+>
+
+## § 412
+
+### 2013-05-31 — lov/2013-05-31-25
+
+*§ 412 nr. 154 skal lyde:*
+
 ## § 5 a
 
 ### 2013-05-31 — lov/2013-05-31-25

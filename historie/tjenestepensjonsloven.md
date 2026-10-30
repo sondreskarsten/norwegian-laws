@@ -247,9 +247,25 @@ refid: "lov/2013-12-13-106"
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
 
+### 2020-04-17 — lov/2020-04-17-22
+
+*I lov 13. desember 2013 nr. 106 om tjenestepensjon skal § 3-6 nytt fjerde og femte ledd lyde:*
+
+> (4) Foretak som ikke har bestemmelser i regelverket som nevnt i tredje ledd, kan beslutte at arbeidstakere likevel skal være medlem av pensjonsordningen under permitteringen. Foretaket har ikke plikt til å betale innskudd til pensjonssparing, forsikring som gir rett til innskuddsfritak ved uførhet, eller eventuelle uføre- og etterlatteforsikringer for de permitterte arbeidstakerne.
+>
+> (5) Adgangen til å beholde medlemskap under permittering som nevnt i fjerde ledd, gjelder så lenge arbeidstaker er lovlig permittert fra foretaket. Arbeidstaker som blir sykemeldt under permittering og fortsatt er sykemeldt når permitteringsperioden avsluttes, skal likevel beholde medlemskapet i pensjonsordningen frem til vedkommende gjeninntrer i arbeidsforholdet eller arbeidsforholdet opphører. Arbeidstakeren skal beholde medlemskapet i pensjonsordningen under permittering selv om arbeidstakeren meldes inn i ny pensjonsordning hos annen arbeidsgiver.
+>
+
 ### 2021-12-22 — lov/2021-12-22-164
 
 *Nåværende §§ 3-6 til 3-8 blir nye §§ 3-5 til 3-7.*
+
+### 2022-04-01 — lov/2022-04-01-17
+
+*I lov 13. desember 2013 nr. 106 om tjenestepensjon skal § 4-14 første ledd andre punktum lyde:*
+
+> Slik regulering skal være i samsvar med et gjennomsnitt av lønns- og prisvekst.
+>
 
 ### 2026-06-12 — lov/2026-06-12-24
 

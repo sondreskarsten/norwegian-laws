@@ -11,9 +11,11 @@ refid: "lov/1984-06-08-59"
 
 *§ 1-1 skal lyde:*
 
-> § 1-1.Fristdagen ved rekonstruksjonsforhandling.Fristdagen ved rekonstruksjonsforhandling er dagen da begjæringen om åpning av rekonstruksjonsforhandling kom inn til tingretten.Blir behandlingen av en konkursbegjæring utsatt etter konkursloven § 16 første ledd, er fristdagen ved rekonstruksjonsforhandlingen likevel dagen da konkursbegjæringen kom inn til retten. Det samme gjelder hvor begjæring om åpning av rekonstruksjonsforhandling ble fremsatt senest tre uker etter at en begjæring om åpning av konkurs ble tilbakekalt eller rettskraftig avvist eller forkastet.
+> § 1-1. Fristdagen ved rekonstruksjonsforhandling.
 >
-> § 1-1.Fristdagen ved rekonstruksjonsforhandling.
+> Fristdagen ved rekonstruksjonsforhandling er dagen da begjæringen om åpning av rekonstruksjonsforhandling kom inn til tingretten.
+>
+> Blir behandlingen av en konkursbegjæring utsatt etter konkursloven § 16 første ledd, er fristdagen ved rekonstruksjonsforhandlingen likevel dagen da konkursbegjæringen kom inn til retten. Det samme gjelder hvor begjæring om åpning av rekonstruksjonsforhandling ble fremsatt senest tre uker etter at en begjæring om åpning av konkurs ble tilbakekalt eller rettskraftig avvist eller forkastet.
 >
 
 ## § 1-2
@@ -22,9 +24,15 @@ refid: "lov/1984-06-08-59"
 
 *§ 1-2 skal lyde:*
 
-> § 1-2.Fristdagen ved konkurs.Fristdagen ved konkurs er dagen da den begjæring om åpning av konkurs som ble tatt til følge, kom inn til tingretten.Fristdagen er likevel dagen da begjæring om åpning av rekonstruksjonsforhandling kom inn til retten, såfremtkonkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at en tidligere begjæring om rekonstruksjonsforhandling ble tilbakekalt eller rettskraftig avvist eller forkastet,rekonstruksjonsforhandlingen er gått over til konkurs i samsvar med konkursloven § 55,konkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at rekonstruksjonsforhandlingen ble rettskraftig innstilt eller avsluttet,skyldneren dør under rekonstruksjonsforhandlingen.Dagen for skyldnerens død er fristdagen når konkurs er åpnet i skyldnerens dødsbo, og det ikke er på det rene at skyldneren var solvent da han døde, med mindre reglene i annet eller fjerde ledd fører til at fristdagen kommer tidligere.Dagen da en tidligere begjæring om åpning av konkurs kom inn til retten, er fristdagen når konkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at den tidligere begjæring ble tilbakekalt eller rettskraftig avvist eller forkastet, med mindre reglene i annet ledd fører til at fristdagen kommer tidligere; disse regler gjelder tilsvarende hvor konkurs er åpnet i samsvar med konkursloven § 55.
+> § 1-2. Fristdagen ved konkurs.
 >
-> § 1-2.Fristdagen ved konkurs.
+> Fristdagen ved konkurs er dagen da den begjæring om åpning av konkurs som ble tatt til følge, kom inn til tingretten.
+>
+> Fristdagen er likevel dagen da begjæring om åpning av rekonstruksjonsforhandling kom inn til retten, såfremtkonkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at en tidligere begjæring om rekonstruksjonsforhandling ble tilbakekalt eller rettskraftig avvist eller forkastet,rekonstruksjonsforhandlingen er gått over til konkurs i samsvar med konkursloven § 55,konkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at rekonstruksjonsforhandlingen ble rettskraftig innstilt eller avsluttet,skyldneren dør under rekonstruksjonsforhandlingen.
+>
+> Dagen for skyldnerens død er fristdagen når konkurs er åpnet i skyldnerens dødsbo, og det ikke er på det rene at skyldneren var solvent da han døde, med mindre reglene i annet eller fjerde ledd fører til at fristdagen kommer tidligere.
+>
+> Dagen da en tidligere begjæring om åpning av konkurs kom inn til retten, er fristdagen når konkurs er åpnet på grunnlag av en begjæring som kom inn til retten senest tre uker etter at den tidligere begjæring ble tilbakekalt eller rettskraftig avvist eller forkastet, med mindre reglene i annet ledd fører til at fristdagen kommer tidligere; disse regler gjelder tilsvarende hvor konkurs er åpnet i samsvar med konkursloven § 55.
 >
 
 ## § 1-3
@@ -42,9 +50,17 @@ refid: "lov/1984-06-08-59"
 
 *§ 1-4 skal lyde:*
 
-> § 1-4.Tidspunktet for åpning av bobehandlingen mv.Med tidspunktet for åpning av rekonstruksjonsforhandling forstås det tidspunktet da begjæring om åpning av rekonstruksjonsforhandling kom inn til tingretten.Med tidspunktet for konkursåpningen forstås det tidspunktet da kjennelse om åpning av konkurs ble avsagt.Med tidspunktet for åpning av offentlig skifte av insolvent dødsbo forstås tidspunktet for skyldnerens død.Med tidspunktet for åpning av bobehandlingen forstås for rekonstruksjonsforhandling det tidspunktet som er nevnt i første ledd, for konkurs det tidspunktet som er nevnt i annet ledd, og for offentlig skifte av insolvent dødsbo det tidspunktet som er nevnt i tredje ledd.Med en umiddelbart forutgående rekonstruksjonsforhandling forstås en rekonstruksjonsforhandling hvor fristdagen i en etterfølgende konkurs bestemmes av reglene i § 1-2 annet ledd.
+> § 1-4. Tidspunktet for åpning av bobehandlingen mv.
 >
-> § 1-4.Tidspunktet for åpning av bobehandlingen mv.
+> Med tidspunktet for åpning av rekonstruksjonsforhandling forstås det tidspunktet da begjæring om åpning av rekonstruksjonsforhandling kom inn til tingretten.
+>
+> Med tidspunktet for konkursåpningen forstås det tidspunktet da kjennelse om åpning av konkurs ble avsagt.
+>
+> Med tidspunktet for åpning av offentlig skifte av insolvent dødsbo forstås tidspunktet for skyldnerens død.
+>
+> Med tidspunktet for åpning av bobehandlingen forstås for rekonstruksjonsforhandling det tidspunktet som er nevnt i første ledd, for konkurs det tidspunktet som er nevnt i annet ledd, og for offentlig skifte av insolvent dødsbo det tidspunktet som er nevnt i tredje ledd.
+>
+> Med en umiddelbart forutgående rekonstruksjonsforhandling forstås en rekonstruksjonsforhandling hvor fristdagen i en etterfølgende konkurs bestemmes av reglene i § 1-2 annet ledd.
 >
 
 ## § 2-7
@@ -60,9 +76,15 @@ refid: "lov/1984-06-08-59"
 
 *§ 2-7 skal lyde:*
 
-> § 2-7.Utlegg i lønnskrav mv.Utlegg kan tas i form av utleggstrekk i skyldnerens krav på forfalt eller uforfalt lønn etter fradrag av forskuddstrekk i den utstrekning lønnen overstiger det som med rimelighet trengs til underhold av skyldneren og skyldnerens husstand. Kongen kan i forskrift fastsette satser for beregningen av det som med rimelighet trengs til underhold av skyldneren og skyldnerens husstand. Kongen kan i forskrift dessuten angi hvordan utleggstrekk kan fastsettes. Videre kan Kongen i forskrift gi regler om beregning og gjennomføring av utleggstrekk i lotter og parter.Første ledd gjelder tilsvarende for:annet vederlag for personlig arbeid, herunder tilsvarende arbeidsgodtgjørelse for utnytting av skyldnerens åndsverk, oppfinnelser m.m.,pensjon eller vartpenger som en arbeidsgiver betaler eller har sikret sine ansatte eller deres etterlatte ved eller uten fradrag i lønnen,annen pensjon, stønad, livrente eller føderåd; er rettigheten ervervet mot vederlag fra skyldneren, gjelder dette ikke når den er ervervet etter at det krav ble pådratt som utlegg søkes for,underholdsbidrag som skyldneren har krav på til seg selv,pensjon eller annen ytelse etter lovgivningen om offentlig trygd eller lignende;erstatning eller oppreisning for skade på legeme eller helse eller for tap av forsørger,midler innsamlet offentlig til skyldneren,æresgaver som består i penger.Ved utleggstrekk i godtgjørelse for arbeid eller oppdrag utført som ledd i selvstendig næringsvirksomhet kan trekk tas i inntil 20 prosent av bruttogodtgjørelsen. Skyldneren kan samtykke til en høyere trekkprosent.Bortsett fra ved innfordring av krav som nevnt i § 2-8 første ledd bokstav a til d, kan utlegg i lønnskrav mv. ikke tas dersom skyldneren gjør hva denne evner for å betale sine fordringshavere og heller ikke utilbørlig begunstiger noen av dem.
+> § 2-7. Utlegg i lønnskrav mv.
 >
-> § 2-7.Utlegg i lønnskrav mv.
+> Utlegg kan tas i form av utleggstrekk i skyldnerens krav på forfalt eller uforfalt lønn etter fradrag av forskuddstrekk i den utstrekning lønnen overstiger det som med rimelighet trengs til underhold av skyldneren og skyldnerens husstand. Kongen kan i forskrift fastsette satser for beregningen av det som med rimelighet trengs til underhold av skyldneren og skyldnerens husstand. Kongen kan i forskrift dessuten angi hvordan utleggstrekk kan fastsettes. Videre kan Kongen i forskrift gi regler om beregning og gjennomføring av utleggstrekk i lotter og parter.
+>
+> Første ledd gjelder tilsvarende for:annet vederlag for personlig arbeid, herunder tilsvarende arbeidsgodtgjørelse for utnytting av skyldnerens åndsverk, oppfinnelser m.m.,pensjon eller vartpenger som en arbeidsgiver betaler eller har sikret sine ansatte eller deres etterlatte ved eller uten fradrag i lønnen,annen pensjon, stønad, livrente eller føderåd; er rettigheten ervervet mot vederlag fra skyldneren, gjelder dette ikke når den er ervervet etter at det krav ble pådratt som utlegg søkes for,underholdsbidrag som skyldneren har krav på til seg selv,pensjon eller annen ytelse etter lovgivningen om offentlig trygd eller lignende;erstatning eller oppreisning for skade på legeme eller helse eller for tap av forsørger,midler innsamlet offentlig til skyldneren,æresgaver som består i penger.
+>
+> Ved utleggstrekk i godtgjørelse for arbeid eller oppdrag utført som ledd i selvstendig næringsvirksomhet kan trekk tas i inntil 20 prosent av bruttogodtgjørelsen. Skyldneren kan samtykke til en høyere trekkprosent.
+>
+> Bortsett fra ved innfordring av krav som nevnt i § 2-8 første ledd bokstav a til d, kan utlegg i lønnskrav mv. ikke tas dersom skyldneren gjør hva denne evner for å betale sine fordringshavere og heller ikke utilbørlig begunstiger noen av dem.
 >
 
 ### 2025-12-22 — lov/2025-12-22-124
@@ -78,9 +100,15 @@ refid: "lov/1984-06-08-59"
 
 *§ 2-8 skal lyde:*
 
-> § 2-8.Prioriteten for krav i utleggstrekkDersom flere krav mot samme skyldner skal dekkes ved utleggstrekk, deltar alle kravene i det samme trekket. Dersom trekket ikke er tilstrekkelig til å dekke alle kravene, har kravene prioritet som følger:krav fra den bidragsberettigede som grunner seg på lovbestemt forsørgelsesplikt,krav på erstatning eller oppreisning for skade voldt ved en straffbar handling,krav på bøter,krav på skatt, offentlig avgift, statens regresskrav etter voldserstatningsloven § 11 og folketrygdens regresskrav etter forskotteringsloven § 10,andre krav.Fortrinnsretten etter første ledd bokstav a til d gjelder tilsvarende for krav som bygger på ansvar for slike krav samt for renter, kostnader og gebyrer som angitt i trekkbeslutningen. Er det besluttet dekning ved trekk for krav som bygger på ansvar for trekk, har kravet prioritet etter arten av det kravet som har best prioritet i det opprinnelige trekket så lenge dette ikke er dekket.Dersom de krav som ikke kan dekkes samtidig er likt prioritert etter første og annet ledd, dekkes kravene forholdsmessig ut fra kravenes størrelse. Ved beregningen legges til grunn et kravs størrelse på det tidspunkt det ble besluttet trekk for kravet tillagt renter, gebyrer og kostnader som var påløpt på det tidspunktet.For krav som nevnt i første ledd bokstav a, c og d og krav som nevnt i annet ledd som knytter seg til slike krav, kan Kongen ved forskrift fastsette en annen fordeling enn den som følger av tredje ledd.
+> § 2-8. Prioriteten for krav i utleggstrekk
 >
-> § 2-8.Prioriteten for krav i utleggstrekk
+> Dersom flere krav mot samme skyldner skal dekkes ved utleggstrekk, deltar alle kravene i det samme trekket. Dersom trekket ikke er tilstrekkelig til å dekke alle kravene, har kravene prioritet som følger:krav fra den bidragsberettigede som grunner seg på lovbestemt forsørgelsesplikt,krav på erstatning eller oppreisning for skade voldt ved en straffbar handling,krav på bøter,krav på skatt, offentlig avgift, statens regresskrav etter voldserstatningsloven § 11 og folketrygdens regresskrav etter forskotteringsloven § 10,andre krav.
+>
+> Fortrinnsretten etter første ledd bokstav a til d gjelder tilsvarende for krav som bygger på ansvar for slike krav samt for renter, kostnader og gebyrer som angitt i trekkbeslutningen. Er det besluttet dekning ved trekk for krav som bygger på ansvar for trekk, har kravet prioritet etter arten av det kravet som har best prioritet i det opprinnelige trekket så lenge dette ikke er dekket.
+>
+> Dersom de krav som ikke kan dekkes samtidig er likt prioritert etter første og annet ledd, dekkes kravene forholdsmessig ut fra kravenes størrelse. Ved beregningen legges til grunn et kravs størrelse på det tidspunkt det ble besluttet trekk for kravet tillagt renter, gebyrer og kostnader som var påløpt på det tidspunktet.
+>
+> For krav som nevnt i første ledd bokstav a, c og d og krav som nevnt i annet ledd som knytter seg til slike krav, kan Kongen ved forskrift fastsette en annen fordeling enn den som følger av tredje ledd.
 >
 
 ## § 2-9
@@ -89,9 +117,9 @@ refid: "lov/1984-06-08-59"
 
 *§ 2-9 skal lyde:*
 
-> § 2-9.Avkall på beslagsfrihetenDe rettigheter som §§ 2-3 til 2-7 gir skyldneren, kan skyldneren ikke gi avkall på før namsmyndigheten har varslet skyldneren etter tvangsfullbyrdelsesloven § 7-6 eller innkrevingsloven § 25 eller konkurs blir åpnet. Gir skyldneren etter dette tidspunkt slikt avkall, skal namsmyndigheten eller tingretten påse at dette ikke kommer i strid med tilbørlig hensyn til ektefelle og barn eller offentlige interesser.
+> § 2-9. Avkall på beslagsfriheten
 >
-> § 2-9.Avkall på beslagsfriheten
+> De rettigheter som §§ 2-3 til 2-7 gir skyldneren, kan skyldneren ikke gi avkall på før namsmyndigheten har varslet skyldneren etter tvangsfullbyrdelsesloven § 7-6 eller innkrevingsloven § 25 eller konkurs blir åpnet. Gir skyldneren etter dette tidspunkt slikt avkall, skal namsmyndigheten eller tingretten påse at dette ikke kommer i strid med tilbørlig hensyn til ektefelle og barn eller offentlige interesser.
 >
 
 ## § 2-11
@@ -100,9 +128,15 @@ refid: "lov/1984-06-08-59"
 
 *§ 2-11 skal lyde:*
 
-> § 2-11.Skyldnerens lønnsinntekter m.m. under konkursInntekter av den art som er nevnt i § 2-7 og som tilfaller skyldneren under konkursen, kan etter fradrag for forskuddstrekk trekkes inn i bomassen i den utstrekning de overstiger det som med rimelighet trengs til underhold av skyldneren og dennes husstand. § 2-7 første ledd annet til fjerde punktum gjelder tilsvarende.Avgjørelse etter første ledd treffes av retten ved kjennelse. I avgjørelsen utpeker retten den trekkpliktige. Retten gir Innkrevingsmyndigheten underretning om avgjørelsen. Den gjennomføres på samme måte som en beslutning om at et krav skal dekkes ved utleggstrekk. Retten gir Innkrevingsmyndigheten beskjed om endringer i avgjørelsen og når trekket skal avsluttes.Når retten har truffet avgjørelse etter første ledd, skal dividendefordringer som tidligere har blitt besluttet dekket ved utleggstrekk, ikke motta dekning av trekket så lenge konkursen varer. Krav som nevnt i § 2-8 første ledd bokstav a som skal dekkes ved utleggstrekk, har likevel prioritet foran boet.Dersom det er rom for det i skyldnerens inntekter, kan en namsmyndighet i en sak om utlegg for andre fordringer enn dividendefordringer fastsette at trekket skal være høyere enn retten har satt det til. Forhøyelsen tilkommer de nye kravene med innbyrdes prioritet som fastsatt i § 2-8. Det samme som for andre fordringer enn dividendefordringer gjelder også for krav som nevnt i dekningsloven § 2-8 første ledd bokstav a.
+> § 2-11. Skyldnerens lønnsinntekter m.m. under konkurs
 >
-> § 2-11.Skyldnerens lønnsinntekter m.m. under konkurs
+> Inntekter av den art som er nevnt i § 2-7 og som tilfaller skyldneren under konkursen, kan etter fradrag for forskuddstrekk trekkes inn i bomassen i den utstrekning de overstiger det som med rimelighet trengs til underhold av skyldneren og dennes husstand. § 2-7 første ledd annet til fjerde punktum gjelder tilsvarende.
+>
+> Avgjørelse etter første ledd treffes av retten ved kjennelse. I avgjørelsen utpeker retten den trekkpliktige. Retten gir Innkrevingsmyndigheten underretning om avgjørelsen. Den gjennomføres på samme måte som en beslutning om at et krav skal dekkes ved utleggstrekk. Retten gir Innkrevingsmyndigheten beskjed om endringer i avgjørelsen og når trekket skal avsluttes.
+>
+> Når retten har truffet avgjørelse etter første ledd, skal dividendefordringer som tidligere har blitt besluttet dekket ved utleggstrekk, ikke motta dekning av trekket så lenge konkursen varer. Krav som nevnt i § 2-8 første ledd bokstav a som skal dekkes ved utleggstrekk, har likevel prioritet foran boet.
+>
+> Dersom det er rom for det i skyldnerens inntekter, kan en namsmyndighet i en sak om utlegg for andre fordringer enn dividendefordringer fastsette at trekket skal være høyere enn retten har satt det til. Forhøyelsen tilkommer de nye kravene med innbyrdes prioritet som fastsatt i § 2-8. Det samme som for andre fordringer enn dividendefordringer gjelder også for krav som nevnt i dekningsloven § 2-8 første ledd bokstav a.
 >
 
 ## § 3-4
@@ -194,9 +228,9 @@ refid: "lov/1984-06-08-59"
 
 *§ 5-1 skal lyde:*
 
-> § 5-1.I hvilke bo omstøtelse kan skje.Reglene i dette kapittel gjelder ved rekonstruksjonsforhandling, ved konkurs og ved offentlig skifte av insolvent dødsbo.
+> § 5-1. I hvilke bo omstøtelse kan skje.
 >
-> § 5-1.I hvilke bo omstøtelse kan skje.
+> Reglene i dette kapittel gjelder ved rekonstruksjonsforhandling, ved konkurs og ved offentlig skifte av insolvent dødsbo.
 >
 
 ## § 5-15
@@ -221,9 +255,15 @@ refid: "lov/1984-06-08-59"
 
 *§ 7-3 a skal lyde:*
 
-> § 7-3 a.Skyldnerens avtaler ved åpning av rekonstruksjonsforhandling.Skyldnerens avtaler består også etter at det er åpnet rekonstruksjonsforhandling.Åpningen gir ikke i seg selv den andre parten rett til å heve avtalen med skyldneren. En avtalebestemmelse som gir den andre parten rett til å heve på grunn av at skyldneren har eller i overskuelig fremtid vil få alvorlige økonomiske problemer, eller av at det er åpnet rekonstruksjonsforhandling, er ikke bindende. Første og annet punktum griper likevel ikke inn i den andre partens rett til å påberope skyldnerens økonomiske problemer som opphørsgrunn etter avtalens art.Heving som er gjort gjeldende i de siste fire ukene før fristdagen på grunn av skyldnerens betalingsforsinkelse, kan ikke gjøres gjeldende under rekonstruksjonsforhandling med mindre den andre parten har disponert i henhold til hevingen.Har skyldneren misligholdt en avtale om leie av fast eiendom, kan avtalen heves bare dersom begjæring om fravikelse er mottatt hos namsmannen eller tingretten før åpningen av rekonstruksjonsforhandlingen.
+> § 7-3 a. Skyldnerens avtaler ved åpning av rekonstruksjonsforhandling.
 >
-> § 7-3 a.Skyldnerens avtaler ved åpning av rekonstruksjonsforhandling.
+> Skyldnerens avtaler består også etter at det er åpnet rekonstruksjonsforhandling.
+>
+> Åpningen gir ikke i seg selv den andre parten rett til å heve avtalen med skyldneren. En avtalebestemmelse som gir den andre parten rett til å heve på grunn av at skyldneren har eller i overskuelig fremtid vil få alvorlige økonomiske problemer, eller av at det er åpnet rekonstruksjonsforhandling, er ikke bindende. Første og annet punktum griper likevel ikke inn i den andre partens rett til å påberope skyldnerens økonomiske problemer som opphørsgrunn etter avtalens art.
+>
+> Heving som er gjort gjeldende i de siste fire ukene før fristdagen på grunn av skyldnerens betalingsforsinkelse, kan ikke gjøres gjeldende under rekonstruksjonsforhandling med mindre den andre parten har disponert i henhold til hevingen.
+>
+> Har skyldneren misligholdt en avtale om leie av fast eiendom, kan avtalen heves bare dersom begjæring om fravikelse er mottatt hos namsmannen eller tingretten før åpningen av rekonstruksjonsforhandlingen.
 >
 
 ## § 7-4 a
@@ -232,9 +272,11 @@ refid: "lov/1984-06-08-59"
 
 *§ 7-4 a skal lyde:*
 
-> § 7-4 a.Virkningen av at avtalen består under rekonstruksjonsforhandlingen.Skyldneren er under rekonstruksjonsforhandlingen fortsatt forpliktet og berettiget på avtalens vilkår.Den andre partens vederlagskrav ved åpningen av rekonstruksjonsforhandlingen er likevel en fordring som kan omfattes av rekonstruksjonsplanen, jf. konkursloven § 32. Dersom den andre partens eller skyldnerens ytelse etter avtalen er udelelig eller på grunn av sammenhengen mellom de enkelte deler må betraktes som en enhet og avtalen ikke skal omfattes av rekonstruksjonsplanen, jf. § 7-6 a tredje ledd, har avtalemotparten likevel hele vederlagskravet i behold.
+> § 7-4 a. Virkningen av at avtalen består under rekonstruksjonsforhandlingen.
 >
-> § 7-4 a.Virkningen av at avtalen består under rekonstruksjonsforhandlingen.
+> Skyldneren er under rekonstruksjonsforhandlingen fortsatt forpliktet og berettiget på avtalens vilkår.
+>
+> Den andre partens vederlagskrav ved åpningen av rekonstruksjonsforhandlingen er likevel en fordring som kan omfattes av rekonstruksjonsplanen, jf. konkursloven § 32. Dersom den andre partens eller skyldnerens ytelse etter avtalen er udelelig eller på grunn av sammenhengen mellom de enkelte deler må betraktes som en enhet og avtalen ikke skal omfattes av rekonstruksjonsplanen, jf. § 7-6 a tredje ledd, har avtalemotparten likevel hele vederlagskravet i behold.
 >
 
 ## § 7-5
@@ -243,9 +285,15 @@ refid: "lov/1984-06-08-59"
 
 *§ 7-5 skal lyde:*
 
-> § 7-5.Plikt til å oppfylle eller stille sikkerhet.Trer konkursboet inn i skyldnerens avtale, eller skal en avtale bestå etter åpning av rekonstruksjonsforhandling, og er tiden for hel eller delvis oppfyllelse fra den annen parts side kommet, kan den annen part kreve at en tilsvarende del av avtalen oppfylles eller dersom henstand er gitt, at det stilles sikkerhet for slik oppfyllelse. Samme rett har den annen part som har levert en ytelse, dersom ytelsen kunne vært krevd tilbake om konkursboet ikke var trådt inn i avtalen, eller dersom avtalen løper videre etter åpning av rekonstruksjonsforhandling. Sikkerhet kan ikke kreves stilt for den del av motytelsen som den annen part allerede har oppnådd rettsvern for.Angår avtalen en løpende ytelse til skyldneren, og skal vederlaget leveres etterskuddsvis for en periode om gangen, skal sikkerheten til enhver tid dekke den først forfalte terminen for så vidt denne gjelder tiden etter åpning av konkurs eller rekonstruksjonsforhandling. For sikkerhetsstillelse eller forskuddsbetaling under en rekonstruksjonsforhandling kan skyldneren kreve at hver termin ikke skal være lengre enn to uker om gangen.Finner retten at en sikkerhetsstillelse etter reglene i de foregående ledd ikke gir den annen part tilstrekkelig beskyttelse, kan den bestemme at det skal stilles sikkerhet også før den annen parts oppfyllelsestid er kommet, eller i videre omfang enn nevnt.Avtaler som skyldneren og den annen avtalepart har truffet om plikt til å stille sikkerhet, kan settes til side av retten dersom de er urimelig tyngende for konkursboet eller skyldneren under rekonstruksjonsforhandling.
+> § 7-5. Plikt til å oppfylle eller stille sikkerhet.
 >
-> § 7-5.Plikt til å oppfylle eller stille sikkerhet.
+> Trer konkursboet inn i skyldnerens avtale, eller skal en avtale bestå etter åpning av rekonstruksjonsforhandling, og er tiden for hel eller delvis oppfyllelse fra den annen parts side kommet, kan den annen part kreve at en tilsvarende del av avtalen oppfylles eller dersom henstand er gitt, at det stilles sikkerhet for slik oppfyllelse. Samme rett har den annen part som har levert en ytelse, dersom ytelsen kunne vært krevd tilbake om konkursboet ikke var trådt inn i avtalen, eller dersom avtalen løper videre etter åpning av rekonstruksjonsforhandling. Sikkerhet kan ikke kreves stilt for den del av motytelsen som den annen part allerede har oppnådd rettsvern for.
+>
+> Angår avtalen en løpende ytelse til skyldneren, og skal vederlaget leveres etterskuddsvis for en periode om gangen, skal sikkerheten til enhver tid dekke den først forfalte terminen for så vidt denne gjelder tiden etter åpning av konkurs eller rekonstruksjonsforhandling. For sikkerhetsstillelse eller forskuddsbetaling under en rekonstruksjonsforhandling kan skyldneren kreve at hver termin ikke skal være lengre enn to uker om gangen.
+>
+> Finner retten at en sikkerhetsstillelse etter reglene i de foregående ledd ikke gir den annen part tilstrekkelig beskyttelse, kan den bestemme at det skal stilles sikkerhet også før den annen parts oppfyllelsestid er kommet, eller i videre omfang enn nevnt.
+>
+> Avtaler som skyldneren og den annen avtalepart har truffet om plikt til å stille sikkerhet, kan settes til side av retten dersom de er urimelig tyngende for konkursboet eller skyldneren under rekonstruksjonsforhandling.
 >
 
 ## § 7-6
@@ -254,9 +302,13 @@ refid: "lov/1984-06-08-59"
 
 *§ 7-6 skal lyde:*
 
-> § 7-6.Ekstraordinær oppsigelse under konkurs.Trer konkursboet inn i skyldnerens avtale, kan det, uansett avtalens bestemmelser om oppsigelse, si opp avtalen med sedvanemessig varsel, eller dersom slik sedvane ikke foreligger, med tre måneders varsel.Sies avtalen opp før det etter denne er adgang til det, kan den annen part kreve det tapet vedkommende derved lider, dekket som dividendefordring.Ekstraordinær oppsigelse etter første ledd griper ikke inn i den annen parts rett i den utstrekning den er beskyttet ved tinglysing eller på annen tilsvarende måte.
+> § 7-6. Ekstraordinær oppsigelse under konkurs.
 >
-> § 7-6.Ekstraordinær oppsigelse under konkurs.
+> Trer konkursboet inn i skyldnerens avtale, kan det, uansett avtalens bestemmelser om oppsigelse, si opp avtalen med sedvanemessig varsel, eller dersom slik sedvane ikke foreligger, med tre måneders varsel.
+>
+> Sies avtalen opp før det etter denne er adgang til det, kan den annen part kreve det tapet vedkommende derved lider, dekket som dividendefordring.
+>
+> Ekstraordinær oppsigelse etter første ledd griper ikke inn i den annen parts rett i den utstrekning den er beskyttet ved tinglysing eller på annen tilsvarende måte.
 >
 
 ## § 7-6 a
@@ -265,9 +317,17 @@ refid: "lov/1984-06-08-59"
 
 *Ny § 7-6 a skal lyde:*
 
-> § 7-6 a.Ekstraordinær oppsigelse m.m. under rekonstruksjonsforhandling.For avtaler som etter sin art er oppsigelige, gjelder følgende uavhengig av om avtalen inneholder bestemmelser om oppsigelse:Skyldneren kan si opp avtalen frem til utsendelsen av rekonstruksjonsplanen etter konkursloven § 37. Dersom skyldneren sier opp avtalen innen to måneder etter åpningen av rekonstruksjonsforhandlingen, gjelder ingen oppsigelsestid. Etter dette kan skyldneren si opp avtalen med tre måneders varsel.Skyldneren kan fastsette i rekonstruksjonsplanen at en avtale skal sies opp på et bestemt tidspunkt etter utsendelsen av rekonstruksjonsplanen, men ikke senere enn tolv måneder etter stadfestelsen av rekonstruksjonsplanen. Avtalen kan likevel ikke sies opp etter denne bestemmelsen med mindre enn tre måneders varsel.Første ledd griper ikke inn i den andre partens rett i den utstrekning den er beskyttet ved tinglysing eller på annen tilsvarende måte.For avtaler som etter sin art ikke er oppsigelige, kan skylderen bestemme at avtalen skal omfattes av rekonstruksjonsplanen dersom den andre parten meddeles dette senest ved utsendelsen av rekonstruksjonsplanen.Skyldneren skal betale fullt vederlag etter avtalen i den utstrekning eller for den tiden etter åpningen av rekonstruksjonsforhandlingen som skyldneren nyttiggjør seg avtalen. Skyldneren anses alltid for å ha nyttiggjort seg avtalen i perioden frem til den er sagt opp.Det tapet den andre parten lider som følge av at skyldneren benytter sine rettigheter etter denne paragrafen, kan kreves dekket som dividendefordring i rekonstruksjonsplanen.
+> § 7-6 a. Ekstraordinær oppsigelse m.m. under rekonstruksjonsforhandling.
 >
-> § 7-6 a.Ekstraordinær oppsigelse m.m. under rekonstruksjonsforhandling.
+> For avtaler som etter sin art er oppsigelige, gjelder følgende uavhengig av om avtalen inneholder bestemmelser om oppsigelse:Skyldneren kan si opp avtalen frem til utsendelsen av rekonstruksjonsplanen etter konkursloven § 37. Dersom skyldneren sier opp avtalen innen to måneder etter åpningen av rekonstruksjonsforhandlingen, gjelder ingen oppsigelsestid. Etter dette kan skyldneren si opp avtalen med tre måneders varsel.Skyldneren kan fastsette i rekonstruksjonsplanen at en avtale skal sies opp på et bestemt tidspunkt etter utsendelsen av rekonstruksjonsplanen, men ikke senere enn tolv måneder etter stadfestelsen av rekonstruksjonsplanen. Avtalen kan likevel ikke sies opp etter denne bestemmelsen med mindre enn tre måneders varsel.
+>
+> Første ledd griper ikke inn i den andre partens rett i den utstrekning den er beskyttet ved tinglysing eller på annen tilsvarende måte.
+>
+> For avtaler som etter sin art ikke er oppsigelige, kan skylderen bestemme at avtalen skal omfattes av rekonstruksjonsplanen dersom den andre parten meddeles dette senest ved utsendelsen av rekonstruksjonsplanen.
+>
+> Skyldneren skal betale fullt vederlag etter avtalen i den utstrekning eller for den tiden etter åpningen av rekonstruksjonsforhandlingen som skyldneren nyttiggjør seg avtalen. Skyldneren anses alltid for å ha nyttiggjort seg avtalen i perioden frem til den er sagt opp.
+>
+> Det tapet den andre parten lider som følge av at skyldneren benytter sine rettigheter etter denne paragrafen, kan kreves dekket som dividendefordring i rekonstruksjonsplanen.
 >
 
 ## § 7-10
@@ -365,6 +425,64 @@ refid: "lov/1984-06-08-59"
 *§ 9-4 annet ledd annet punktum oppheves. Nåværende tredje til femte punktum blir annet til fjerde punktum.*
 
 ## (annet)
+
+### 2002-01-25 — lov/2002-01-25-2
+
+*I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven) skal § 1-3 andre ledd nytt andre punktum lyde:*
+
+> Fristdagen ved avvikling etter konkurslovens og dekningslovens regler av aksjeselskaper i medhold av aksjeloven § 16-14, jf § 16-18, og av allmennaksjeselskaper etter allmennaksjeloven § 16-14, jf. § 16-18, er dagen da skifteretten traff kjennelse om å overta ansvaret for avviklingen.
+>
+
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven) skal § 2-10 første ledd første punktum lyde:*
+
+> Dersom tvangsdekning ved tvangssalg eller tvangsbruk av fast eiendom eller leierett i fast eiendom (herunder aksje, andelsbrev, pantebrev eller annet atkomstdokument med tilknyttet leierett) vil medføre at skyldneren taper retten til nødvendig bolig for seg eller sin familie, kan tingretten på begjæring ved kjennelse bestemme at tvangsdekning bare kan gjennomføres hvis det blir skaffet skyldneren eller skyldnerens familie en annen bolig som med hensyn til beliggenhet, størrelse, pris og andre forhold tilfredsstiller rimelige krav.
+>
+
+### 2005-02-18 — lov/2005-02-18-10
+
+*I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett skal § 1-3 andre ledd første punktum lyde:*
+
+> Fristdagen ved tvangsoppløsning etter konkurslovens regler av aksjeselskaper i medhold av aksjeloven § 16-15, jf § 16-18, og av allmennaksjeselskaper i medhold av allmennaksjeloven § 16-15, jf § 16-18, er dagen da kunngjøring som nevnt i aksjeloven § 16-16 annet ledd eller allmennaksjeloven § 16-16 annet ledd for vedkommende selskap ble kunngjort i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon.
+>
+
+### 2011-01-14 — lov/2011-01-14-2
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven).
+>
+> I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett skal ny § 7-14 lyde:
+>
+> § 7-14.
+>
+> Avtaler om rett til å tre inn i langsiktige kraftavtaler m.m.
+>
+> Bestemmelsene i paragrafen her gjelder avtaler om kjøp av kraft der kjøperen driver kraftintensiv, industriell virksomhet som nærmere fastsatt i forskrift gitt av Kongen, og avtalen har en løpetid på syv år eller mer.
+>
+> Avtale om at den som ved kraftavtalens inngåelse har garantert overfor selgeren for kjøperens oppfyllelse av en kraftavtale som nevnt i første ledd, ved mislighold skal kunne tre inn i kraftavtalen, overdra kjøperens kontraktsposisjon til en ny kjøper eller innløse avtalen hos selgeren, kan uten særskilt rettsvernsakt gjøres gjeldende overfor kjøperens bo, enkeltforfølgende kreditorer og senere rettsstiftelser i kjøperens kontraktsposisjon. Slik avtale må inngås senest samtidig med inngåelsen av kraftavtalen. Overskudd etter at garantistens regresskrav med renter og omkostninger er dekket, tilfaller kraftkjøperen, dennes bo eller innehavere av andre rettigheter i kjøpers kontraktsposisjon.
+>
+> Annet ledd gjelder tilsvarende der en garantistiller ved inngåelsen av en kraftavtale som nevnt i første ledd har garantert overfor en långiver for en låneavtale inngått av kjøperen for å forskuddsbetale hele eller deler av vederlaget etter kraftavtalen.
+>
+> Loven trer i kraft fra den tid Kongen bestemmer.
+>
+
+### 2011-02-11 — forskrift/2011-02-11-132
+
+*Lov 14. januar 2011 nr. 2 om endringer i dekningsloven (rettsvern for avtaler om inntredelsesrett i langsiktige kraftavtaler) trer i kraft 11. februar 2011.*
+
+> Lov 14. januar 2011 nr. 2 om endringer i dekningsloven (rettsvern for avtaler om inntredelsesrett i langsiktige kraftavtaler) trer i kraft 11. februar 2011.
+>
+
+### 2014-05-14 — lov/2014-05-14-17
+
+*I lov 8. juni 1984 nr. 59 om fordringshavernes dekningsrett (dekningsloven) skal § 2-7 første ledd nytt tredje punktum lyde:*
+
+> Kongen kan i forskrift fastsette satser for beregningen av det som med rimelighet trengs til underhold av skyldneren og skyldnerens husstand.
+>
 
 ### 2020-12-18 — lov/2020-12-18-149
 

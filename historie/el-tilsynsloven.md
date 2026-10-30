@@ -11,6 +11,13 @@ refid: "lov/1929-05-24-4"
 
 *Nåværende § 12 andre til fjerde ledd blir tredje til nytt femte ledd.*
 
+### 2024-07-01 — forskrift/2024-06-21-1167
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ## § 11
 
 ### 2007-06-29 — lov/2007-06-29-79

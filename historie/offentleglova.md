@@ -7,6 +7,27 @@ refid: "lov/2006-05-19-16"
 
 ## (annet)
 
+### 2006-06-30 — lov/2006-06-30-52
+
+*I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd (offentleglova) skal § 33 første ledd annet punktum lyde:*
+
+> Frå same tid blir lov 19. juni 1970 nr. 69 om offentlighet i forvaltningen oppheva.
+>
+
+### 2014-12-19 — lov/2014-12-19-92
+
+*I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd skal § 5 annet ledd lyde:*
+
+> For dokument som er utarbeidde av eller til Riksrevisjonen i saker som han vurderer å leggje fram for Stortinget som ledd i den konstitusjonelle kontrollen, gjeld innsyn først når saka er motteken i Stortinget, eller når Riksrevisjonen har varsla vedkommande organ om at saka er ferdigbehandla, jf. lov 7. mai 2004 nr. 21 om Riksrevisjonen § 18 andre ledd. Innsyn kan utsetjast for dokument som er utarbeidde av eller til ein revisor for ein kommune eller fylkeskommune, i saker som revisoren skal rapportere til kontrollutvalet, jf. kommuneloven § 78 nr. 5, inntil kontrollutvalet har motteke ein endeleg versjon av dokumentet. Det same gjeld dokument som er utarbeidde av eller til den som utfører selskapskontroll, jf. kommuneloven § 77 nr. 5.
+>
+
+### 2017-04-21 — lov/2017-04-21-18
+
+*I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd skal § 23 tredje ledd lyde:*
+
+> Det kan gjerast unntak frå innsyn for tilbod og protokoll etter regelverk som er gitt i medhald av anskaffelsesloven, til valet av leverandør er gjort.
+>
+
 ### 2021-06-11 — lov/2021-06-11-76
 
 *Lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd § 19 første punktum skal lyde:*
@@ -23,6 +44,13 @@ refid: "lov/2006-05-19-16"
 *2.I lov 19. mai 2006 nr. 16 om rett til innsyn i dokument i offentleg verksemd skal § 2 fjerde ledd fjerde punktum lyde:*
 
 > Lova gjeld ikkje for dokument som blir behandla av Etterretningstenesta etter etterretningstjenesteloven, eller for straffesaksdokument som blir lånte ut frå politiet til Statens kommisjon for partnardrap.
+>
+
+### 2026-07-01 — forskrift/2026-05-29-920
+
+*Loven trer i kraft 1. juli 2026.*
+
+> Loven trer i kraft 1. juli 2026.
 >
 
 ## § 16
@@ -119,9 +147,11 @@ refid: "lov/2006-05-19-16"
 
 *§ 30 skal lyde:*
 
-> § 30.Korleis organet skal gi innsynOrganet fastset ut frå omsynet til forsvarleg saksbehandling korleis eit dokument skal gjerast kjent. Det kan krevjast papirkopi eller elektronisk kopi av dokumentet. Hos verksemder som er omfatta av dataforvaltningsloven, og hos andre verksemder der det er fastsett av Kongen i forskrift, gjeld retten til kopi alle eksisterande format og språkversjonar. Retten til kopi gjeld ikkje format eller versjonar av eit dokument som er allment tilgjengeleg.Kongen kan gi forskrift om korleis elektronisk kopi skal givast og om unntak frå retten til elektronisk kopi, mellom anna at retten ikkje skal gjelde for dokument som ein tredjeperson har immaterielle rettar til, eller for dokument der det er påkravd av arkivtekniske omsyn, medrekna dokument etter direktiv (EU) 2019/1024.
+> § 30. Korleis organet skal gi innsyn
 >
-> § 30.Korleis organet skal gi innsyn
+> Organet fastset ut frå omsynet til forsvarleg saksbehandling korleis eit dokument skal gjerast kjent. Det kan krevjast papirkopi eller elektronisk kopi av dokumentet. Hos verksemder som er omfatta av dataforvaltningsloven, og hos andre verksemder der det er fastsett av Kongen i forskrift, gjeld retten til kopi alle eksisterande format og språkversjonar. Retten til kopi gjeld ikkje format eller versjonar av eit dokument som er allment tilgjengeleg.
+>
+> Kongen kan gi forskrift om korleis elektronisk kopi skal givast og om unntak frå retten til elektronisk kopi, mellom anna at retten ikkje skal gjelde for dokument som ein tredjeperson har immaterielle rettar til, eller for dokument der det er påkravd av arkivtekniske omsyn, medrekna dokument etter direktiv (EU) 2019/1024.
 >
 
 ## § 32
@@ -175,9 +205,9 @@ refid: "lov/2006-05-19-16"
 
 *§ 7 skal lyde:*
 
-> § 7.Bruk av informasjon det blir gitt tilgang til etter lova herInformasjon som det er gitt tilgang til etter lova her, kan brukast til kva formål som helst dersom ikkje anna lovgiving eller retten til ein tredjeperson er til hinder for det.
+> § 7. Bruk av informasjon det blir gitt tilgang til etter lova her
 >
-> § 7.Bruk av informasjon det blir gitt tilgang til etter lova her
+> Informasjon som det er gitt tilgang til etter lova her, kan brukast til kva formål som helst dersom ikkje anna lovgiving eller retten til ein tredjeperson er til hinder for det.
 >
 
 ## § 8
@@ -197,7 +227,9 @@ refid: "lov/2006-05-19-16"
 
 *§ 8 skal lyde:*
 
-> § 8.Hovudregel om gratis innsynOrganet kan berre krevje betaling for innsyn etter denne lova dersom det har heimel i forskrift etter andre ledd eller etter dataforvaltningsloven.Kongen kan gi forskrift om betaling for avskrifter, utskrifter eller kopiar. Betalingssatsane skal vere slik at dei samla inntektene ikkje blir større enn dei faktiske kostnadene ved kopiering og utsending av dokument.
+> § 8. Hovudregel om gratis innsyn
 >
-> § 8.Hovudregel om gratis innsyn
+> Organet kan berre krevje betaling for innsyn etter denne lova dersom det har heimel i forskrift etter andre ledd eller etter dataforvaltningsloven.
+>
+> Kongen kan gi forskrift om betaling for avskrifter, utskrifter eller kopiar. Betalingssatsane skal vere slik at dei samla inntektene ikkje blir større enn dei faktiske kostnadene ved kopiering og utsending av dokument.
 >

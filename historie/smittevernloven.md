@@ -850,9 +850,11 @@ refid: "lov/1994-08-05-55"
 
 *§ 7-9 skal lyde:*
 
-> § 7-9.FolkehelseinstituttetFolkehelseinstituttet er statens smitteverninstitutt. Folkehelseinstituttet skal overvåke den nasjonale epidemiologiske situasjonen og delta i overvåkingen av den internasjonale epidemiologiske situasjonen, utføre helseanalyser og drive forskning på smittevernområdet. Folkehelseinstituttet kan behandle helseopplysninger og andre personopplysninger som er nødvendig for å gjennomføre disse oppgavene.Folkehelseinstituttet skal gi smittevernfaglige råd og bistand til helsepersonell, kommuner, fylkeskommuner og statlige virksomheter i forbindelse med oppklaring og kontroll av utbrudd av smittsomme sykdommer.
+> § 7-9. Folkehelseinstituttet
 >
-> § 7-9.Folkehelseinstituttet
+> Folkehelseinstituttet er statens smitteverninstitutt. Folkehelseinstituttet skal overvåke den nasjonale epidemiologiske situasjonen og delta i overvåkingen av den internasjonale epidemiologiske situasjonen, utføre helseanalyser og drive forskning på smittevernområdet. Folkehelseinstituttet kan behandle helseopplysninger og andre personopplysninger som er nødvendig for å gjennomføre disse oppgavene.
+>
+> Folkehelseinstituttet skal gi smittevernfaglige råd og bistand til helsepersonell, kommuner, fylkeskommuner og statlige virksomheter i forbindelse med oppklaring og kontroll av utbrudd av smittsomme sykdommer.
 >
 
 ## § 7-10
@@ -995,6 +997,15 @@ refid: "lov/1994-08-05-55"
 > Kongen kan for å forebygge eller motvirke overføring av covid-19 gi forskrifter om isolering og andre begrensninger i bevegelsesfrihet for personer som har, eller etter en faglig vurdering antas å ha, covid-19. Det samme gjelder for personer som har økt risiko for covid-19 etter nærkontakt med smittet eller antatt smittet person. I forskriftene kan Kongen fastsette nærmere krav til undersøkelser i forbindelse med eller til erstatning for isolering eller andre begrensninger i bevegelsesfriheten.
 >
 
+### 2021-02-19 — lov/2021-02-19-4
+
+*I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 4-3 nytt andre og tredje ledd lyde:*
+
+> Kongen kan for å forebygge eller motvirke overføring av covid-19 gi forskrift om hvor og hvordan personer som reiser inn til Norge, skal gjennomføre karantene. Kongen kan også gi forskrift om egenandel for personer i karantene eller deres arbeids- eller oppdragsgiver til dekning av kostnader ved karanteneopphold.
+>
+> Kongen kan gi forskrift om saksbehandlingsregler for vedtak gitt i medhold av forskrift etter andre ledd. Det kan her gjøres unntak fra forvaltningsloven kapittel IV, V og VI.
+>
+
 ### 2021-06-11 — lov/2021-06-11-66
 
 *Nytt kapittel 4A skal lyde:*
@@ -1010,6 +1021,33 @@ refid: "lov/1994-08-05-55"
 > Ingen kan forskjellsbehandles på grunnlag av at de ikke kan fremvise koronasertifikat, med mindre bestemmelser i eller i medhold av lov gir adgang til dette.
 >
 > Departementet kan gi forskrifter for hele eller deler av landet om bruk av koronasertifikat som dokumentasjon på vaksinasjonsstatus, gjennomgått covid-19 og testresultat for SARS-CoV-2. Bestemmelser om at koronasertifikat er eneste aksepterte dokumentasjon kan bare fastsettes når det anses nødvendig med effektiv og sikker verifikasjon, og det etter smitteverntiltakets art og forholdene ellers ikke vil være uforholdsmessig.
+>
+
+### 2021-06-18 — lov/2021-06-18-125
+
+*I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 4-3 andre og tredje ledd lyde:*
+
+> Kongen kan for å forebygge eller motvirke overføring av SARS-CoV-2 gi forskrift om hvor og hvordan personer som reiser inn til Norge, skal gjennomføre karantene. Kongen kan også gi forskrift om egenandel for personer i karantene eller deres arbeids- eller oppdragsgiver til dekning av kostnader ved karanteneopphold.
+>
+> Kongen kan gi forskrift om saksbehandlingsregler for vedtak gitt i medhold av forskrift etter andre ledd. Det kan her gjøres unntak fra forvaltningsloven kapittel IV, V og VI.
+>
+
+### 2021-06-18 — forskrift/2021-06-18-1976
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 66 om midlertidige endringer i smittevernloven mv. (koronasertifikat). Loven del I (smittevernloven) § 8-1 andre ledd trer i kraft straks.*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 66 om midlertidige endringer i smittevernloven mv. (koronasertifikat). Loven del I (smittevernloven) § 8-1 andre ledd trer i kraft straks.
+>
+
+### 2021-07-01 — forskrift/2021-06-30-2214
+
+*I kongelig resolusjon 11. juni 2021 nr. 1857 om sanksjon, delegering og delt ikraftsetting av Stortingets vedtak til lov om midlertidige endringer i smittevernloven mv. (koronasertifikat) og deltakelse i en beslutning i EØS-komiteen om innlemmelse av forordning (EU) om koronasertifikat i EØS-avtalen, ble det besluttet at loven del I (smittevernloven) § 4A-1 trer i kraft fra det tidspunkt departementet bestemmer.*
+
+> I kongelig resolusjon 11. juni 2021 nr. 1857 om sanksjon, delegering og delt ikraftsetting av Stortingets vedtak til lov om midlertidige endringer i smittevernloven mv. (koronasertifikat) og deltakelse i en beslutning i EØS-komiteen om innlemmelse av forordning (EU) om koronasertifikat i EØS-avtalen, ble det besluttet at loven del I (smittevernloven) § 4A-1 trer i kraft fra det tidspunkt departementet bestemmer.
+>
+> Smittevernloven § 4A-1 gjelder tilslutning til EUs ordning for koronasertifikat og må derfor tre i kraft på samme tid som forordningen. Forordningen kommer til anvendelse 1. juli.
+>
+> Departementet har bestemt at smittevernloven § 4A-1 trer i kraft 1. juli 2021.
 >
 
 ### 2021-11-29 — lov/2021-11-29-143
@@ -1032,6 +1070,15 @@ refid: "lov/1994-08-05-55"
 ### 2021-11-29 — lov/2021-11-29-143
 
 *Nåværende andre ledd blir nytt tredje ledd.*
+
+### 2022-06-17 — lov/2022-06-17-53
+
+*I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal § 4-3 a lyde:*
+
+> § 4-3 a.Forskrift om isolering og begrensninger i bevegelsesfrihet mv.
+>
+> Kongen kan, for å forebygge eller motvirke overføring av SARS-CoV-2, gi forskrift om isolering og andre begrensninger i bevegelsesfrihet for personer som har, eller etter en faglig vurdering antas å ha, SARS-CoV-2, og personer som har økt risiko for SARS-CoV-2 etter nærkontakt med en smittet eller antatt smittet person. Slik forskrift kan bare gis dersom sykdommen covid-19 utløst av SARS-CoV-2 regnes som en allmennfarlig smittsom sykdom, jf. § 1-4. I forskrift etter første punktum kan det fastsettes nærmere krav til undersøkelser i forbindelse med eller til erstatning for isolering eller begrensninger i bevegelsesfriheten.
+>
 
 ### 2022-06-17 — lov/2022-06-17-55
 
@@ -1069,7 +1116,220 @@ refid: "lov/1994-08-05-55"
 
 *I lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer skal ny § 4-3 a lyde:*
 
-> § 4-3 a.Forskrift om isolering, smittekarantene og andre begrensninger i bevegelsesfrihetenVed alvorlig utbrudd av en allmennfarlig smittsom sykdom, jf. § 1-3 nr. 3 og 4, kan Kongen, for å forebygge eller motvirke overføring av sykdommen, gi forskrift omisolering for smittede personer, jf. § 1-3 nr. 2, ogsmittekarantene for personer som har økt risiko for å være smittet av den allmennfarlige smittsomme sykdommen etter nærkontakt med en smittet eller antatt smittet person, eller annen smittekilde.Kongen kan i forskrift fastsette andre begrensninger i bevegelsesfriheten for personer som omfattes av første ledd, og nærmere krav til undersøkelser i forbindelse med, eller til erstatning for, isolering, smittekarantene eller begrensninger i bevegelsesfriheten.
+> § 4-3 a. Forskrift om isolering, smittekarantene og andre begrensninger i bevegelsesfriheten
 >
-> § 4-3 a.Forskrift om isolering, smittekarantene og andre begrensninger i bevegelsesfriheten
+> Ved alvorlig utbrudd av en allmennfarlig smittsom sykdom, jf. § 1-3 nr. 3 og 4, kan Kongen, for å forebygge eller motvirke overføring av sykdommen, gi forskrift omisolering for smittede personer, jf. § 1-3 nr. 2, ogsmittekarantene for personer som har økt risiko for å være smittet av den allmennfarlige smittsomme sykdommen etter nærkontakt med en smittet eller antatt smittet person, eller annen smittekilde.
+>
+> Kongen kan i forskrift fastsette andre begrensninger i bevegelsesfriheten for personer som omfattes av første ledd, og nærmere krav til undersøkelser i forbindelse med, eller til erstatning for, isolering, smittekarantene eller begrensninger i bevegelsesfriheten.
+>
+
+## § 1
+
+### 2020-03-27 — lov/2020-03-27-17
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Lovens formål
+>
+> Loven skal legge til rette for forsvarlige, effektive og forholdsmessige tiltak som er nødvendige for å begrense forstyrrelsen av sentrale samfunnsfunksjoner som følge av utbruddet av Covid-19, og for å avhjelpe negative konsekvenser for befolkningen, næringslivet, offentlig sektor eller samfunnet for øvrig.
+>
+> Denne lov kommer ikke til anvendelse dersom formålet kan ivaretas gjennom normal lovbehandling i Stortinget.
+>
+> § 2
+>
+> .
+>
+> Forskriftshjemmel
+>
+> Kongen kan i midlertidige forskrifter utfylle, supplere eller fravike følgende lover så langt det er nødvendig for å ivareta lovens formål:
+>
+> Lov 13. august 1915 nr. 5 om domstolene (domstolloven)
+>
+> Lov 7. juni 1935 nr. 2 om tinglysing
+>
+> Lov 28. juli 1949 nr. 26 om Statens pensjonskasse
+>
+> Lov 16. juni 1961 nr. 15 om rettshøve mellom grannar (grannelova)
+>
+> Lov 21. juni 1963 nr. 23 om vegar (veglova)
+>
+> Lov 18. juni 1965 nr. 4 om vegtrafikk (vegtrafikkloven)
+>
+> Lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven)
+>
+> Lov 13. juni 1975 nr. 39 om utlevering av lovbrytere m.v.
+>
+> Lov 9. juni 1978 nr. 50 om kulturminner
+>
+> Lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (straffeprosessloven)
+>
+> Lov 8. juni 1984 nr. 58 om gjeldsforhandling og konkurs (konkursloven)
+>
+> Lov 21. juni 1985 nr. 83 om ansvarlige selskaper og kommandittselskaper (selskapsloven)
+>
+> Lov 29. april 1988 nr. 21 om ferie
+>
+> Lov 17. februar 1989 nr. 2 om bidragsforskott (forskotteringsloven)
+>
+> Lov 17. juli 1992 nr. 99 om frivillig og tvungen gjeldsordning for privatpersoner (gjeldsordningsloven)
+>
+> Lov 17. juli 1992 nr. 100 om barneverntjenester (barnevernloven)
+>
+> Lov 11. juni 1993 nr. 66 om pristiltak
+>
+> Lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer
+>
+> Lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven)
+>
+> Lov 13. juni 1997 nr. 44 om aksjeselskaper (aksjeloven)
+>
+> Lov 13. juni 1997 nr. 45 om allmennaksjeselskaper (allmennaksjeloven)
+>
+> Lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre (kontantstøtteloven)
+>
+> Lov 17. juli 1998 nr. 56 om årsregnskap (regnskapsloven)
+>
+> Lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa (opplæringslova)
+>
+> Lov 15. januar 1999 nr. 2 om revisjon og revisorer (revisorloven)
+>
+> Lov 29. januar 1999 nr. 6 om interkommunale selskaper (IKS-loven)
+>
+> Lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. (spesialisthelsetjenesteloven)
+>
+> Lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter (pasient- og brukerrettighetsloven)
+>
+> Lov 2. juli 1999 nr. 64 om helsepersonell m.v. (helsepersonelloven)
+>
+> Lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap (helseberedskapsloven)
+>
+> Lov 18. mai 2001 nr. 21 om gjennomføring av straff mv. (straffegjennomføringsloven)
+>
+> Lov 15. juni 2001 nr. 59 om stiftelser (stiftelsesloven)
+>
+> Lov 8. mars 2002 nr. 4 om barnetrygd (barnetrygdloven)
+>
+> Lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn og fartøy (yrkestransportlova)
+>
+> Lov 6. juni 2003 nr. 38 om bustadbyggjelag (bustadbyggjelagslova)
+>
+> Lov 6. juni 2003 nr. 39 om burettslag (burettslagslova)
+>
+> Lov 4. juli 2003 nr. 80 om introduksjonsordning og norskopplæring for nyankomne innvandrere (introduksjonsloven)
+>
+> Lov 5. mars 2004 nr. 12 om konkurranse mellom foretak og kontroll med foretakssammenslutninger (konkurranseloven)
+>
+> Lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester (arbeidsmarkedsloven)
+>
+> Lov 1. april 2005 nr. 15 om universiteter og høyskoler (universitets- og høyskoleloven)
+>
+> Lov 29. april 2005 nr. 21 om supplerande stønad til personar med kort butid i Noreg
+>
+> Lov 3. juni 2005 nr. 37 (utdanningsstøtteloven)
+>
+> Lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven)
+>
+> Lov 17. juni 2005 nr. 64 om barnehager (barnehageloven)
+>
+> Lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister (tvisteloven)
+>
+> Lov 17. juni 2005 nr. 101 om eigedomsregistrering (matrikkellova)
+>
+> Lov 17. juni 2005 nr. 102 om visse forhold vedrørende de politiske partiene (partiloven)
+>
+> Lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen (arbeids- og velferdsforvaltningsloven)
+>
+> Lov 29. juni 2007 nr. 81 om samvirkeforetak (samvirkelova)
+>
+> Lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven)
+>
+> Lov 27. juni 2008 nr. 71 om planlegging og byggesaksbehandling (plan- og bygningsloven)
+>
+> Lov 19. juni 2009 nr. 95 om voksenopplæring (voksenopplæringsloven)
+>
+> Lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen (sosialtjenesteloven)
+>
+> Lov 25. juni 2010 nr. 45 om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret (sivilbeskyttelsesloven)
+>
+> Lov 24. juni 2011 nr. 30 om kommunale helse- og omsorgstjenester m.m. (helse- og omsorgstjenesteloven)
+>
+> Lov 10. april 2015 nr. 17 om finansforetak og finanskonsern (finansforetaksloven)
+>
+> Lov 17. juni 2016 nr. 73 om offentlige anskaffelser (anskaffelsesloven)
+>
+> Lov 12. august 2016 nr. 77 om verneplikt og tjeneste i Forsvaret m.m. (forsvarsloven)
+>
+> Lov 16. juni 2017 nr. 65 om eierseksjoner (eierseksjonsloven)
+>
+> Lov 16. juni 2017 nr. 67 om statens ansatte mv. (statsansatteloven)
+>
+> Lov 8. juni 2018 nr. 28 om høyere yrkesfaglig utdanning (fagskoleloven)
+>
+> Lov 22. juni 2018 nr. 83 om kommuner og fylkeskommuner (kommuneloven)
+>
+> Forskriftene kan ikke fravike regler i Grunnloven. Innskrenking av rettigheter kan bare gjøres så langt det er forenlig med Grunnloven, menneskerettsloven og Norges folkerettslige forpliktelser.
+>
+> Saker om bruk av myndigheten etter første ledd fremmes av Justis- og beredskapsdepartementet eller av vedkommende departement med Justis- og beredskapsdepartementets samtykke.
+>
+> Forskrifter hjemlet i denne lov skal vedtas av Kongen i statsråd.
+>
+> § 3
+>
+> .
+>
+> Stedlig virkeområde
+>
+> Forskrifter fastsatt i medhold av loven gjelder på norsk territorium og på kontinentalsokkelen. For Svalbard, Jan Mayen og bilandene gjelder forskrifter fastsatt i medhold av loven i det omfanget og med de stedlige tilpasningene Kongen bestemmer. Det samme gjelder norske skip og luftfartøy uansett hvor de befinner seg.
+>
+> § 4
+>
+> .
+>
+> Forskrifters ikrafttredelse og varighet
+>
+> Forskrifter fastsatt i medhold av § 2 trer i kraft én dag etter at Stortinget er skriftlig meddelt den nye forskriften, med mindre Stortinget opphever forskriften, jf. § 5.
+>
+> Forskrifter fastsatt i medhold av § 2 kan bare gjelde for et begrenset tidsrom og faller bort når loven opphører å gjelde.
+>
+> § 5
+>
+> .
+>
+> Meddelelse til Stortinget
+>
+> Forskrifter gitt med hjemmel i denne lov skal etter kunngjøring umiddelbart meddeles Stortinget skriftlig.
+>
+> Dersom stortingsrepresentanter, som til sammen representerer minst en tredjedel av Stortingets medlemmer, ikke kan støtte en bestemt forskrift, eller deler av forskriften, og uttrykker dette skriftlig i tråd med vedtatt arbeidsordning i Stortinget, plikter Kongen straks å oppheve de aktuelle bestemmelsene. Vedtaket om opphevelse av forskrift meddeles Stortinget i samsvar med bestemmelsene i første ledd.
+>
+> § 6
+>
+> .
+>
+> Domstolskontroll
+>
+> Forskrift fastsatt i medhold av denne lov kan ikke innskrenke adgangen til å bringe spørsmål om vedtak truffet i medhold av forskriften for domstolene. I en slik sak kan retten prøve både lovligheten av det vedtaket som er truffet og av den forskriften det er truffet i medhold av.
+>
+> § 7
+>
+> .
+>
+> Lovens ikrafttredelse og opphevelse
+>
+> Loven trer i kraft straks, og oppheves én måned etter ikrafttredelse.
+>
+> § 8
+>
+> .
+>
+> Endringer i andre lover
+>
+> Fra den tid loven trer i kraft, skal lov 5. august 1994 om vern mot smittsomme sykdommer § 7-12 nytt fjerde punktum lyde:
+>
+> Lov 15. desember 1950 nr. 7 om særlige rådgjerder under krig, krigsfare og liknende forhold § 3 andre ledd andre punktum og tredje ledd gjelder ikke for forskrifter som er fastsatt i forbindelse med utbruddet av Covid-19.
+>
+> Lov 5. august 1994 nr. 55 om vern mot smittsomme sykdommer § 7-12 nytt fjerde punktum oppheves 1 måned etter ikrafttredelsen.
 >

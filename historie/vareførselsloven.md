@@ -97,9 +97,15 @@ refid: "lov/2022-03-11-9"
 
 *Ny § 7-22 skal lyde:*
 
-> § 7-22.Registrering av aktører(1) Aktører i Norge som må ha et identifikasjonsnummer som følge av bruk av EORI-nummer i EU-rettsakter som er innlemmet i EØS-avtalen og gjennomført i norsk rett, må registrere seg hos tollmyndighetene.(2) Følgende opplysninger registreres:organisasjonsnummer med prefikset NOaktørens navnorganisasjonsformadressenæringskode.Telefonnummer og andre elektroniske adresser kan registreres hvis opplysningene er registrert i Enhetsregisteret.(3) Ved registreringen tildeler tollmyndighetene identifikasjonsnummeret.(4) Tollmyndighetene kan dele de registrerte opplysningene med EU.
+> § 7-22. Registrering av aktører
 >
-> § 7-22.Registrering av aktører
+> (1) Aktører i Norge som må ha et identifikasjonsnummer som følge av bruk av EORI-nummer i EU-rettsakter som er innlemmet i EØS-avtalen og gjennomført i norsk rett, må registrere seg hos tollmyndighetene.
+>
+> (2) Følgende opplysninger registreres:organisasjonsnummer med prefikset NOaktørens navnorganisasjonsformadressenæringskode.Telefonnummer og andre elektroniske adresser kan registreres hvis opplysningene er registrert i Enhetsregisteret.
+>
+> (3) Ved registreringen tildeler tollmyndighetene identifikasjonsnummeret.
+>
+> (4) Tollmyndighetene kan dele de registrerte opplysningene med EU.
 >
 
 ## § 9-1
@@ -182,9 +188,9 @@ refid: "lov/2022-03-11-9"
 
 *Ny § 13-13 skal lyde:*
 
-> § 13-13.Handelstiltak i krigstid eller ved annen internasjonal krisesituasjonKongen i statsråd kan gi forskrift om handelstiltak overfor ett eller flere land dersom vilkårene i sikkerhetsunntaksbestemmelsen i Generalavtalen om tolltariffer og handel 1994 (GATT 1994) artikkel XXI er oppfylt.
+> § 13-13. Handelstiltak i krigstid eller ved annen internasjonal krisesituasjon
 >
-> § 13-13.Handelstiltak i krigstid eller ved annen internasjonal krisesituasjon
+> Kongen i statsråd kan gi forskrift om handelstiltak overfor ett eller flere land dersom vilkårene i sikkerhetsunntaksbestemmelsen i Generalavtalen om tolltariffer og handel 1994 (GATT 1994) artikkel XXI er oppfylt.
 >
 
 ## (annet)
@@ -192,3 +198,12 @@ refid: "lov/2022-03-11-9"
 ### 2022-10-19 — forskrift/2022-10-19-1761
 
 *Finansdepartementets myndighet etter lov 11. mars 2022 nr. 9 om lov om inn- og utførsel av varer (vareførselsloven) til å gi forskrift, delegeres til Tolletaten. Delegeringen omfatter ikke myndighet etter lovens § 1-2 sjette ledd og kapittel 13 Handelstiltak.*
+
+### 2026-09-15 — forskrift/2026-06-23-1237
+
+*Delt ikraftsetting av lov om endringar i vareførselsloven. Følgende trer i kraft 15. september 2026:*
+
+> Delt ikraftsetting av lov om endringar i vareførselsloven. Følgende trer i kraft 15. september 2026:
+>
+> Endringsloven del I § 2-3 første ledd andre punktum.
+>

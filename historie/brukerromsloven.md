@@ -7,6 +7,17 @@ refid: "lov/2004-07-02-64"
 
 ## (annet)
 
+### 2007-06-15 — lov/2007-06-15-34
+
+*I midlertidig lov 2. juli 2004 nr. 64 om prøveordning med lokaler for injeksjon av narkotika (sprøyteromsloven) skal § 7 første punktum lyde:*
+
+> I midlertidig lov 2. juli 2004 nr. 64 om prøveordning med lokaler for injeksjon av narkotika (sprøyteromsloven) skal § 7 første punktum lyde:
+>
+> Denne lov trer i kraft fra den tid Kongen bestemmer, og gjelder i fem år fra ikrafttredelsen.
+>
+> Endringen trer i kraft straks.
+>
+
 ### 2026-06-19 — lov/2026-06-19-43
 
 *Noverande andre punktum blir nytt tredje punktum.*

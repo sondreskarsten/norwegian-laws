@@ -7,9 +7,69 @@ refid: "lov/2002-03-08-4"
 
 ## (annet)
 
+### 2002-06-14 — lov/2002-06-14-22
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd (barnetrygdloven) skal § 13 tredje ledd lyde:*
+
+> Et beløp som blir krevd tilbake etter første ledd, kan enten dekkes ved trekk i fremtidig barnetrygd eller innkreves etter bestemmelsene i bidragsinnkrevingsloven. Vedtak om tilbakekreving er tvangsgrunnlag for utlegg.
+>
+
+### 2003-06-20 — lov/2003-06-20-40
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd skal § 2 tredje ledd lyde:*
+
+> Hvis foreldrene ikke bor sammen og skriftlig har avtalt delt bosted i samsvar med barnelova § 36 første ledd, kan hver av foreldrene få rett til 50 prosent barnetrygd, hvis de fremsetter krav om dette.
+>
+
 ### 2006-04-07 — lov/2006-04-07-6
 
 *Nåværende femte ledd blir nytt sjette ledd.*
+
+### 2007-06-15 — lov/2007-06-15-22
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd (barnetrygdloven) skal § 9 andre ledd bokstav b, c og ny bokstav d lyde:den ene ektefellen har vært forsvunnet i minst 6 måneder. Tilsvarende gjelder for forsvunnet samboer eller partner,ektefellene er midlertidig separert ved kjennelse etter ekteskapsloven § 92, ellerden ene ektefellen er innsatt i fengsel med dom på fengselsstraff der den ubetingede delen av straffen ikke er lavere enn 6 måneder eller er idømt forvaring. Det samme gjelder hvis vedkommende er idømt overføring til tvungent psykisk helsevern reller tvungen omsorg og av den grunn ikke kan bo sammen med ektefellen. Videre kan utvidet barnetrygd gis ved utholdt varetekt i minst 6 måneder. Bestemmelsen gjelder tilsvarende for samboer eller partner.*
+
+### 2008-06-27 — lov/2008-06-27-53
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd skal § 2 fjerde ledd lyde:*
+
+> Et vilkår for rett til barnetrygd er at barnet ikke har inngått ekteskap eller registrert partnerskap. Likestilt er utenlandsk ekteskap eller partnerskap som anerkjennes i Norge.
+>
+
+### 2010-06-11 — lov/2010-06-11-22
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd skal § 2 tredje ledd lyde:*
+
+> Hvis foreldrene ikke bor sammen og skriftlig har avtalt at barnet skal bo fast hos begge eller det foreligger rettskraftig avgjørelse om at barnet skal bo fast hos begge, jf. barneloven § 36, kan hver av foreldrene få rett til 50 prosent barnetrygd, hvis de fremsetter krav om dette.
+>
+
+### 2010-07-01 — forskrift/2010-06-11-800
+
+*Endringene i barnetrygdloven § 2 tredje ledd trer i kraft 1. juli 2010.*
+
+> Endringene i barnetrygdloven § 2 tredje ledd trer i kraft 1. juli 2010.
+>
+
+### 2016-06-17 — lov/2016-06-17-28
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd (barnetrygdloven) skal § 4 tredje ledd første punktum lyde:*
+
+> Ved midlertidig fravær fra Norge som ikke varer mer enn tre måneder, regnes barnet fortsatt som bosatt her.
+>
+
+### 2016-10-01 — forskrift/2016-06-17-701
+
+*Loven trer i kraft 1. oktober 2016.*
+
+> Loven trer i kraft 1. oktober 2016.
+>
+
+### 2020-06-19 — lov/2020-06-19-73
+
+*I lov 8. mars 2002 nr. 4 om barnetrygd skal § 4 tredje ledd nytt tredje punktum lyde:*
+
+> Hvis et utenlandsopphold varer mer enn tre måneder på grunn av utbrudd av covid-19, regnes barnet fortsatt som bosatt i riket dersomdet dokumenteres at oppholdet var planlagt å skulle vare under tre måneder, ogbarnet har reist fra Norge før 15. mars 2020.
+>
 
 ### 2022-11-25 — lov/2022-11-25-86
 

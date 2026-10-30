@@ -25,10 +25,8 @@ refid: "lov/1915-08-13-5"
 
 *Nytt kapittel 1 A skal lyde:*
 
-### 2001-06-15 — lov/2001-06-15-62
-
-*Kapittel 1 A Den sentrale domstoladministrasjonen*
-
+> Kapittel 1 A Den sentrale domstoladministrasjonen
+>
 > § 33.Domstoladministrasjonen ledes av et styre som sørger for at den sentrale administrasjonen av domstolene skjer på en forsvarlig og hensiktsmessig måte.
 >
 > Gjennom Stortingets behandling av budsjettproposisjonen gis årlige retningslinjer for domstoladministrasjonens virksomhet og administrasjonen av domstolene.
@@ -64,10 +62,8 @@ refid: "lov/1915-08-13-5"
 
 *Nytt kapittel 6 A skal lyde:*
 
-### 2001-06-15 — lov/2001-06-15-62
-
-*Kapittel 6 A Dommeres sidegjøremål mv.*
-
+> Kapittel 6 A Dommeres sidegjøremål mv.
+>
 > § 121 a.Med sidegjøremål forstås medlemskap, verv eller andre engasjementer i eller for foretak, organisasjoner, foreninger eller organ for stat, fylkeskommune eller kommune.
 >
 > § 121 b.En dommer i Høyesterett, lagmannsrettene og herreds- og byrettene kan ikke utøve rettshjelp til stadighet eller mot vederlag.
@@ -111,10 +107,8 @@ refid: "lov/1915-08-13-5"
 
 *Nytt kapittel 12 skal lyde:*
 
-### 2001-06-15 — lov/2001-06-15-62
-
-*Kapittel 12. Om klage- og disiplinærordning for dommere*
-
+> Kapittel 12. Om klage- og disiplinærordning for dommere
+>
 > § 235.Tilsynsutvalget for dommere behandler klager og vurderer disiplinærtiltak mot dommere. Kongen oppnevner fem medlemmer med personlige varamedlemmer til Tilsynsutvalget. Tilsynsutvalget skal bestå av to dommere, en advokat og to medlemmer som representanter for allmennheten. Kongen fastsetter hvilket medlem som skal være leder for Tilsynsutvalget.
 >
 > Oppnevning og valg skjer for en periode på fire år med adgang til gjenoppnevning eller gjenvalg for én periode.
@@ -189,6 +183,13 @@ refid: "lov/1915-08-13-5"
 
 *Nåværende annet og tredje punktum blir nye tredje og fjerde punktum.*
 
+### 2005-01-07 — lov/2005-01-07-2
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 51 annet ledd lyde:*
+
+> Til rettsmøter tilkalles et rettsvitne. Det kan tilkalles ett eller to sakkyndige rettsvitner når særskilt kyndighet finnes påkrevd.
+>
+
 ### 2006-06-30 — lov/2006-06-30-51
 
 *Nåværende femte punktum blir nytt sjette punktum.*
@@ -217,6 +218,13 @@ refid: "lov/1915-08-13-5"
 
 *§§ 105 og 114 oppheves.*
 
+### 2007-12-21 — lov/2007-12-21-127
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 48 første ledd første punktum lyde:*
+
+> Beslutter en ret etter § 47 at anmode en utenlandsk myndighet om bevisoptagelse, utfærdiges anmodningen av retten selv, men hvis den har flere medlemmer, av rettens leder.
+>
+
 ### 2010-12-10 — lov/2010-12-10-76
 
 *Opphevelsen av § 131 a oppheves.*
@@ -224,6 +232,13 @@ refid: "lov/1915-08-13-5"
 ### 2010-12-10 — lov/2010-12-10-76
 
 *Endringen i § 198 tredje ledd oppheves.*
+
+### 2012-05-25 — lov/2012-05-25-28
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 191 første ledd lyde:*
+
+> For staten er det statsministeren eller vedkommende departementschef, som tar imot forkyndelser og meddelelser; for en fylkeskommune er det fylkesordføreren; for en kommune er det ordføreren; for en samkommune er det samkommunestyrets leder.
+>
 
 ### 2013-06-21 — lov/2013-06-21-82
 
@@ -242,6 +257,20 @@ refid: "lov/1915-08-13-5"
 > Etter anmodning fra en domstol, kommune eller fylkeskommune skal politiet gi opplysning om siktelse, tiltale eller dom mot personer som er aktuelle ved valg av lagrettemedlemmer, meddommere, skjønnsmedlemmer eller jordskiftemeddommere. Dersom det er gitt opplysning om siktelse eller tiltale, skal det også gis underretning om sakens avgjørelse.
 >
 
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 225 annet ledd tredje punktum lyde:*
+
+> Et medlem skal være registrert eller statsautorisert revisor.
+>
+
+### 2015-09-04 — lov/2015-09-04-90
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 163 a annet ledd lyde:*
+
+> Følgende myndigheter foretar forkynning postalt etter reglene i denne bestemmelse: De alminnelige domstoler, jordskifterettene, forbrukertvistutvalget, parkeringsklagenemnda, fylkesnemndene for barnevern og sosiale saker, påtalemyndigheten, namsmenn, lensmenn, namsfogder, politistasjoner med sivile rettspleieoppgaver og fylkesmenn.
+>
+
 ### 2016-04-22 — lov/2016-04-22-3
 
 *13. Lov 8. februar 1980 nr. 2 om pant § 6-1 annet ledd bokstav c skal lyde:*
@@ -249,9 +278,30 @@ refid: "lov/1915-08-13-5"
 > årsgebyr for vann og avløp etter lov 16. mars 2012 nr. 12 om kommunale vass- og avløpsanlegg.
 >
 
+### 2016-04-22 — lov/2016-04-22-4
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 191 første ledd lyde:*
+
+> For staten er det statsministeren eller vedkommende departementschef, som tar imot forkyndelser og meddelelser; for en fylkeskommune er det fylkesordføreren; for en kommune er det ordføreren.
+>
+
 ### 2017-06-16 — lov/2017-06-16-58
 
 *Nåværende femte punktum blir nytt sjette punktum.*
+
+### 2017-12-19 — lov/2017-12-19-114
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 163 a annet ledd lyde:*
+
+> Følgende myndigheter foretar forkynning postalt etter reglene i denne bestemmelse: De alminnelige domstoler, jordskifterettene, Forbrukerklageutvalget, Parkeringsklagenemnda, fylkesnemndene for barnevern og sosiale saker, påtalemyndigheten, namsmenn, lensmenn, namsfogder, politistasjoner med sivile rettspleieoppgaver og fylkesmenn.
+>
+
+### 2021-04-01 — forskrift/2021-03-19-760
+
+*Ikraftsetting av lov 21. desember 2020 nr. 173 om endringer i domstolloven. Loven trer i kraft 1. april 2021.*
+
+> Ikraftsetting av lov 21. desember 2020 nr. 173 om endringer i domstolloven. Loven trer i kraft 1. april 2021.
+>
 
 ### 2022-05-12 — lov/2022-05-12-28
 
@@ -259,17 +309,23 @@ refid: "lov/1915-08-13-5"
 
 > 11te kapitel. Om advokater.
 >
-> § 218.For å få tillatelse til å være advokat ved Høyesterett, skal søkeren godtgjøre:at vedkommende har advokatbevilling,at vedkommende har vært i virksomheti minst ett år som advokat, elleri minst tre år i stilling som nevnt i advokatloven § 4 første ledd bokstav b.at vedkommende har vist seg skikket for sakførsel ved Høyesterett ved en prøve avlagt for Høyesterett.Minst to av de tre årene nevnt i første punktum nr. 2 bokstav b skal ha vært som advokatfullmektig. For den som i minst to år har vært i virksomhet som statsadvokat eller fullmektig hos riksadvokaten, er ett år som advokatfullmektig tilstrekkelig.Den som vil avlegge prøve som nevnt i første ledd første punktum nr. 3, skal sende Høyesteretts domstolleder en bekreftelse fra Advokattilsynet om at vedkommende oppfyller vilkårene i første ledd nr. 1 og 2. Prøven omfatter utføringen av to muntlige saker. Minst en av disse skal være en sivil sak for den ankende part, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til annet. For statsadvokater og fullmektiger hos riksadvokaten kan en straffesak godkjennes som prøvesak selv om vilkårene etter første ledd ikke er oppfylt. I samme sak kan det bare være en prøveadvokat, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til noe annet.Avgjørelsen av om prøven er bestått, treffes av alle de høyesterettsdommerne som har vært med i pådømmelsen av de sakene søkeren har utført. Bevitnelse om at prøven er bestått, utferdiges av Høyesteretts domstolleder. Søkere som ikke består prøven, kan ikke avlegge ny prøve før det har gått to år fra rettens avgjørelse. Det kan bare avlegges prøve to ganger.For behandling av søknader etter første ledd skal saksbehandlingsfrist, som nevnt i tjenesteloven § 11 første ledd første punktum, være fire måneder. Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke.
->
 > § 218.
 >
-> § 219.Enhver advokat har rett til å la en autorisert advokatfullmektig opptre for seg i rettergang. Fullmektigen kan ikke opptre for Høyesterett, ved saker som behandles muntlig for lagmannsrett eller ved hovedforhandling for tingrett i saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år, uten at vedkommende har tillatelse etter § 218 til å være advokat ved vedkommende rett. Lagmannsretten kan for den enkelte sak tillate at en advokat opptrer ved autorisert fullmektig ved hovedforhandling i andre saker enn saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år. I sivile saker kan fullmektigen opptre for Høyesteretts ankeutvalg når anken gjelder kjennelser og beslutninger avsagt av lagmannsrettene.
+> For å få tillatelse til å være advokat ved Høyesterett, skal søkeren godtgjøre:at vedkommende har advokatbevilling,at vedkommende har vært i virksomheti minst ett år som advokat, elleri minst tre år i stilling som nevnt i advokatloven § 4 første ledd bokstav b.at vedkommende har vist seg skikket for sakførsel ved Høyesterett ved en prøve avlagt for Høyesterett.Minst to av de tre årene nevnt i første punktum nr. 2 bokstav b skal ha vært som advokatfullmektig. For den som i minst to år har vært i virksomhet som statsadvokat eller fullmektig hos riksadvokaten, er ett år som advokatfullmektig tilstrekkelig.
+>
+> Den som vil avlegge prøve som nevnt i første ledd første punktum nr. 3, skal sende Høyesteretts domstolleder en bekreftelse fra Advokattilsynet om at vedkommende oppfyller vilkårene i første ledd nr. 1 og 2. Prøven omfatter utføringen av to muntlige saker. Minst en av disse skal være en sivil sak for den ankende part, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til annet. For statsadvokater og fullmektiger hos riksadvokaten kan en straffesak godkjennes som prøvesak selv om vilkårene etter første ledd ikke er oppfylt. I samme sak kan det bare være en prøveadvokat, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til noe annet.
+>
+> Avgjørelsen av om prøven er bestått, treffes av alle de høyesterettsdommerne som har vært med i pådømmelsen av de sakene søkeren har utført. Bevitnelse om at prøven er bestått, utferdiges av Høyesteretts domstolleder. Søkere som ikke består prøven, kan ikke avlegge ny prøve før det har gått to år fra rettens avgjørelse. Det kan bare avlegges prøve to ganger.
+>
+> For behandling av søknader etter første ledd skal saksbehandlingsfrist, som nevnt i tjenesteloven § 11 første ledd første punktum, være fire måneder. Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke.
 >
 > § 219.
 >
-> § 220.En advokat kan ikke møte som prosessfullmektig eller forsvarer når vedkommendes ektefelle, forlovede eller noen som vedkommende er i slekt eller svogerskap med i opp- eller nedstigende linje eller sidelinjen så nær som søsken, sitter som enedommer eller eneste rettskyndige dommer i retten. Første punktum gjelder ikke når advokaten har åpnet kontor i embetskretsen før dommeren ble ansatt.
+> Enhver advokat har rett til å la en autorisert advokatfullmektig opptre for seg i rettergang. Fullmektigen kan ikke opptre for Høyesterett, ved saker som behandles muntlig for lagmannsrett eller ved hovedforhandling for tingrett i saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år, uten at vedkommende har tillatelse etter § 218 til å være advokat ved vedkommende rett. Lagmannsretten kan for den enkelte sak tillate at en advokat opptrer ved autorisert fullmektig ved hovedforhandling i andre saker enn saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år. I sivile saker kan fullmektigen opptre for Høyesteretts ankeutvalg når anken gjelder kjennelser og beslutninger avsagt av lagmannsrettene.
 >
 > § 220.
+>
+> En advokat kan ikke møte som prosessfullmektig eller forsvarer når vedkommendes ektefelle, forlovede eller noen som vedkommende er i slekt eller svogerskap med i opp- eller nedstigende linje eller sidelinjen så nær som søsken, sitter som enedommer eller eneste rettskyndige dommer i retten. Første punktum gjelder ikke når advokaten har åpnet kontor i embetskretsen før dommeren ble ansatt.
 >
 
 ### 2022-05-12 — lov/2022-05-12-28
@@ -291,23 +347,50 @@ refid: "lov/1915-08-13-5"
 > Departementet kan gi forskrift om strømming etter første ledd, blant annet om behandling av personopplysninger.
 >
 
+### 2023-05-11 — lov/2023-05-11-13
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 146 andre ledd nytt fjerde punktum lyde:*
+
+> Når bruk av bestemte elektroniske løsninger i skriftlig kommunikasjon med domstolene er obligatorisk etter § 197 a tredje ledd, skal fristen avbrytes ved bruk av de elektroniske løsningene.
+>
+
+### 2023-06-09 — lov/2023-06-09-32
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 12 annet ledd lyde:*
+
+> Ved anke over dom, kjennelse eller beslutning fra tingretten som har sammenheng med fast eiendom eller rettigheter over fast eiendom, vassdrag og sjø, kan førstelagmannen beslutte at en av de tre dommerne som nevnt i første ledd kan være jordskiftelagdommer. Jordskiftelagdommeren kan være saksforberedende dommer, og lede retten.
+>
+
+### 2023-06-16 — lov/2023-06-16-34
+
+*I lov 13. august 1915 nr. 5 om domstolene skal § 51 første ledd lyde:*
+
+> Konsulretten styres av utsendt utenrikstjenesteansatt og norsk honorær representant som departementet har gitt myndighet.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *Kapittel 11 med §§ 218, 219 og 220 skal lyde:*
 
 > 11te kapitel. Om advokater.
 >
-> § 218.For å få tillatelse til å være advokat ved Høyesterett skal søkeren godtgjøre:at vedkommende har advokatbevilling,at vedkommende har vært i virksomheti minst ett år som advokat, elleri minst tre år i stilling som nevnt i advokatloven § 4 første ledd bokstav b,at vedkommende har vist seg skikket for sakførsel ved Høyesterett ved en prøve avlagt for Høyesterett.Minst to av de tre årene nevnt i første punktum nr. 2 bokstav b skal ha vært som advokatfullmektig. For den som i minst to år har vært i virksomhet som statsadvokat eller fullmektig hos riksadvokaten, er ett år som advokatfullmektig tilstrekkelig.Den som vil avlegge prøve som nevnt i første ledd første punktum nr. 3, skal sende Høyesteretts domstolleder en bekreftelse fra Advokattilsynet om at vedkommende oppfyller vilkårene i første ledd nr. 1 og 2. Prøven omfatter utføringen av to muntlige saker. Minst en av disse skal være en sivil sak for den ankende part, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til annet. Det er ikke adgang til å møte til prøve i en sak som behandles av Høyesterett i plenum eller storkammer, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til det. For statsadvokater og fullmektiger hos riksadvokaten kan en straffesak godkjennes som prøvesak selv om vilkårene etter første ledd ikke er oppfylt. I samme sak kan det bare være en prøveadvokat, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til noe annet.Avgjørelsen av om prøven er bestått, treffes av alle de høyesterettsdommerne som har vært med i pådømmelsen av de sakene søkeren har utført. Bevitnelse om at prøven er bestått, utferdiges av Høyesteretts domstolleder. Søkere som ikke består prøven, kan ikke avlegge ny prøve før det har gått to år fra rettens avgjørelse. Det kan bare avlegges prøve to ganger.For behandling av søknader etter første ledd skal saksbehandlingsfrist, som nevnt i tjenesteloven § 11 første ledd første punktum, være fire måneder. Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke.
->
 > § 218.
 >
-> § 219.Enhver advokat har rett til å la en autorisert advokatfullmektig opptre for seg i rettergang. Fullmektigen kan ikke opptre for Høyesterett, ved saker som behandles muntlig for lagmannsrett eller ved hovedforhandling for tingrett i saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år, uten at vedkommende har tillatelse etter tvisteloven § 3-3 eller straffeprosessloven § 95 til å opptre ved vedkommende rett. Lagmannsretten kan for den enkelte sak tillate at en advokat opptrer ved autorisert fullmektig ved hovedforhandling i andre saker enn saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år. I sivile saker kan fullmektigen opptre for Høyesteretts ankeutvalg når anken gjelder kjennelser og beslutninger avsagt av lagmannsrettene.
+> For å få tillatelse til å være advokat ved Høyesterett skal søkeren godtgjøre:at vedkommende har advokatbevilling,at vedkommende har vært i virksomheti minst ett år som advokat, elleri minst tre år i stilling som nevnt i advokatloven § 4 første ledd bokstav b,at vedkommende har vist seg skikket for sakførsel ved Høyesterett ved en prøve avlagt for Høyesterett.Minst to av de tre årene nevnt i første punktum nr. 2 bokstav b skal ha vært som advokatfullmektig. For den som i minst to år har vært i virksomhet som statsadvokat eller fullmektig hos riksadvokaten, er ett år som advokatfullmektig tilstrekkelig.
+>
+> Den som vil avlegge prøve som nevnt i første ledd første punktum nr. 3, skal sende Høyesteretts domstolleder en bekreftelse fra Advokattilsynet om at vedkommende oppfyller vilkårene i første ledd nr. 1 og 2. Prøven omfatter utføringen av to muntlige saker. Minst en av disse skal være en sivil sak for den ankende part, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til annet. Det er ikke adgang til å møte til prøve i en sak som behandles av Høyesterett i plenum eller storkammer, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til det. For statsadvokater og fullmektiger hos riksadvokaten kan en straffesak godkjennes som prøvesak selv om vilkårene etter første ledd ikke er oppfylt. I samme sak kan det bare være en prøveadvokat, med mindre Høyesteretts ankeutvalg av særlige grunner gir tillatelse til noe annet.
+>
+> Avgjørelsen av om prøven er bestått, treffes av alle de høyesterettsdommerne som har vært med i pådømmelsen av de sakene søkeren har utført. Bevitnelse om at prøven er bestått, utferdiges av Høyesteretts domstolleder. Søkere som ikke består prøven, kan ikke avlegge ny prøve før det har gått to år fra rettens avgjørelse. Det kan bare avlegges prøve to ganger.
+>
+> For behandling av søknader etter første ledd skal saksbehandlingsfrist, som nevnt i tjenesteloven § 11 første ledd første punktum, være fire måneder. Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke.
 >
 > § 219.
 >
-> § 220.En advokat kan ikke møte som prosessfullmektig eller forsvarer når vedkommendes ektefelle, forlovede eller noen som vedkommende er i slekt eller svogerskap med i opp- eller nedstigende linje eller sidelinjen så nær som søsken, sitter som enedommer eller eneste rettskyndige dommer i retten. Første punktum gjelder ikke når advokaten har åpnet kontor i embetskretsen før dommeren ble ansatt.
+> Enhver advokat har rett til å la en autorisert advokatfullmektig opptre for seg i rettergang. Fullmektigen kan ikke opptre for Høyesterett, ved saker som behandles muntlig for lagmannsrett eller ved hovedforhandling for tingrett i saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år, uten at vedkommende har tillatelse etter tvisteloven § 3-3 eller straffeprosessloven § 95 til å opptre ved vedkommende rett. Lagmannsretten kan for den enkelte sak tillate at en advokat opptrer ved autorisert fullmektig ved hovedforhandling i andre saker enn saker om straff for forbrytelser som etter loven kan medføre fengsel i mer enn 6 år. I sivile saker kan fullmektigen opptre for Høyesteretts ankeutvalg når anken gjelder kjennelser og beslutninger avsagt av lagmannsrettene.
 >
 > § 220.
+>
+> En advokat kan ikke møte som prosessfullmektig eller forsvarer når vedkommendes ektefelle, forlovede eller noen som vedkommende er i slekt eller svogerskap med i opp- eller nedstigende linje eller sidelinjen så nær som søsken, sitter som enedommer eller eneste rettskyndige dommer i retten. Første punktum gjelder ikke når advokaten har åpnet kontor i embetskretsen før dommeren ble ansatt.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
@@ -1842,9 +1925,9 @@ refid: "lov/1915-08-13-5"
 
 *§ 3 skal lyde:*
 
-> § 3.Høyesterett har sitt sete i rikets hovedstad når ikke særlige forhold er til hinder. Retten skal ha en justitiarius og nitten andre dommere.
->
 > § 3.
+>
+> Høyesterett har sitt sete i rikets hovedstad når ikke særlige forhold er til hinder. Retten skal ha en justitiarius og nitten andre dommere.
 >
 
 ## § 30
@@ -1977,9 +2060,9 @@ refid: "lov/1915-08-13-5"
 
 *§ 4 skal lyde:*
 
-> § 4.Når saksmengden gjør det påkrevd, kan Høyesterett, for saker som skal avgjøres av fem dommere, deles i flere avdelinger etter bestemmelse av høyesterettsjustitiarius. For saker som skal avgjøres av tre dommere, kan Høyesterett nedsette ett eller flere utvalg, som betegnes som Høyesteretts ankeutvalg. Høyesterettsjustitiarius leder behandlingen i avdelinger og utvalg og behandlingen av saker i storkammer eller plenum, som hun eller han er med i. Ellers ledes behandlingen av eldste dommer som er med.
->
 > § 4.
+>
+> Når saksmengden gjør det påkrevd, kan Høyesterett, for saker som skal avgjøres av fem dommere, deles i flere avdelinger etter bestemmelse av høyesterettsjustitiarius. For saker som skal avgjøres av tre dommere, kan Høyesterett nedsette ett eller flere utvalg, som betegnes som Høyesteretts ankeutvalg. Høyesterettsjustitiarius leder behandlingen i avdelinger og utvalg og behandlingen av saker i storkammer eller plenum, som hun eller han er med i. Ellers ledes behandlingen av eldste dommer som er med.
 >
 
 ## § 41

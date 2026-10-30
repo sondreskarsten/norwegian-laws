@@ -654,9 +654,7 @@ refid: "lov/1992-07-17-99"
 
 *§ 6-2 paragrafoverskriften skal lyde:*
 
-> § 6-2.Omgjøring og opphevelse av en gjeldsordning på begjæring av en fordringshaver
->
-> § 6-2.Omgjøring og opphevelse av en gjeldsordning på begjæring av en fordringshaver
+> § 6-2. Omgjøring og opphevelse av en gjeldsordning på begjæring av en fordringshaver
 >
 
 ### 2024-06-25 — lov/2024-06-25-56
@@ -705,9 +703,9 @@ refid: "lov/1992-07-17-99"
 
 *§ 6-5 skal lyde:*
 
-> § 6-5.Frister for fremsettelse av begjæringer etter § 6-1 og § 6-2Begjæring om stadfestelse av forslag til tvungen endring av en gjeldsordning etter § 6-1 første til tredje ledd og begjæring om omgjøring av en gjeldsordning etter § 6-2 første og annet ledd må fremsettes i gjeldsordningsperioden. Begjæring om opphevelse av en gjeldsordning etter § 6-2 tredje ledd må fremsettes innen ett år etter gjeldsordningsperiodens utløp. Begjæringer etter § 6-2 første og annet ledd må dessuten fremsettes innen to måneder etter at opplysning som nevnt i § 6-4 er mottatt.
+> § 6-5. Frister for fremsettelse av begjæringer etter § 6-1 og § 6-2
 >
-> § 6-5.Frister for fremsettelse av begjæringer etter § 6-1 og § 6-2
+> Begjæring om stadfestelse av forslag til tvungen endring av en gjeldsordning etter § 6-1 første til tredje ledd og begjæring om omgjøring av en gjeldsordning etter § 6-2 første og annet ledd må fremsettes i gjeldsordningsperioden. Begjæring om opphevelse av en gjeldsordning etter § 6-2 tredje ledd må fremsettes innen ett år etter gjeldsordningsperiodens utløp. Begjæringer etter § 6-2 første og annet ledd må dessuten fremsettes innen to måneder etter at opplysning som nevnt i § 6-4 er mottatt.
 >
 
 ## § 7-1
@@ -820,6 +818,27 @@ refid: "lov/1992-07-17-99"
 ### 2004-03-26 — lov/2004-03-26-16
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2013-06-14 — lov/2013-06-14-41
+
+*I lov 17. juli 1992 nr. 99 om frivillig og tvungen gjeldsordning for privatpersoner skal § 3-2 første ledd første punktum lyde:*
+
+> Straks etter at gjeldsforhandling er åpnet, skal det rykkes inn kunngjøring om det i Norsk Lysingsblad med oppfordring til enhver som har fordring mot skyldneren, om å melde sitt krav til namsmannen innen tre uker etter kunngjøringen.
+>
+
+### 2017-10-01 — forskrift/2017-09-22-1440
+
+*Delt ikraftsetting av lov 14. mai 2014 nr. 17 om endringer i gjeldsordningsloven og dekningsloven mv. § 1-4 fjerde ledd og § 2-1 første ledd tredje punktum trer i kraft 1. oktober 2017.*
+
+> Delt ikraftsetting av lov 14. mai 2014 nr. 17 om endringer i gjeldsordningsloven og dekningsloven mv. § 1-4 fjerde ledd og § 2-1 første ledd tredje punktum trer i kraft 1. oktober 2017.
+>
+
+### 2019-10-01 — forskrift/2019-06-21-809
+
+*Loven trer i kraft 1. oktober 2019.*
+
+> Loven trer i kraft 1. oktober 2019.
+>
 
 ### 2026-06-19 — lov/2026-06-19-45
 

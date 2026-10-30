@@ -269,9 +269,11 @@ refid: "lov/1999-07-02-61"
 
 *§ 3-3 a skal lyde:*
 
-> § 3-3 a.Melding og rapport om alvorlige hendelserVirksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
+> § 3-3 a. Melding og rapport om alvorlige hendelser
 >
-> § 3-3 a.Melding og rapport om alvorlige hendelser
+> Virksomheter som er omfattet av loven her, skal snarest mulig og senest innen fem virkedager sende melding til statsforvalteren og Statens undersøkelseskommisjon for helse- og omsorgstjenesten om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen, jf. helsetilsynsloven § 6 og lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten § 7. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko. En kopi av meldingen skal sendes til Statens helsetilsyn.
+>
+> Virksomheten skal i tillegg oversende en rapport om hendelsen til statsforvalteren innen tre måneder etter at melding er sendt. Rapporten skal blant annet inneholde en gjennomgang av hendelsen og mulige årsaker, hvilke tiltak virksomheten vil sette i verk for at lignende hendelser ikke skal skje igjen, og hvordan pasienten, brukeren, nærmeste pårørende og berørt helsepersonell er fulgt opp og involvert i forbedringsarbeidet.
 >
 
 ## § 3-7 a
@@ -293,9 +295,11 @@ refid: "lov/1999-07-02-61"
 
 *Ny § 3-8 a skal lyde:*
 
-> § 3-8 a.Beskyttelse av betegnelsen sykehusDepartementet kan i forskrift stille vilkår for bruk av betegnelsen sykehus.Departementet kan fastsette regler om overtredelsesgebyr til den som forsettlig eller uaktsomt bruker betegnelsen sykehus i strid med vilkår fastsatt i forskrift etter første ledd.
+> § 3-8 a. Beskyttelse av betegnelsen sykehus
 >
-> § 3-8 a.Beskyttelse av betegnelsen sykehus
+> Departementet kan i forskrift stille vilkår for bruk av betegnelsen sykehus.
+>
+> Departementet kan fastsette regler om overtredelsesgebyr til den som forsettlig eller uaktsomt bruker betegnelsen sykehus i strid med vilkår fastsatt i forskrift etter første ledd.
 >
 
 ## § 3-11
@@ -590,9 +594,9 @@ refid: "lov/1999-07-02-61"
 
 *§ 7-1 skal lyde:*
 
-> § 7-1.Pålegg og tvangsmulktTilsynsmyndighetene kan gi pålegg om retting. Statens helsetilsyn kan gi pålegg om stenging og fastsette tvangsmulkt etter reglene i helsetilsynsloven §§ 8 og 9. Hvis statsforvalteren mener at det bør ilegges tvangsmulkt etter § 9, skal saken oversendes Statens helsetilsyn.
+> § 7-1. Pålegg og tvangsmulkt
 >
-> § 7-1.Pålegg og tvangsmulkt
+> Tilsynsmyndighetene kan gi pålegg om retting. Statens helsetilsyn kan gi pålegg om stenging og fastsette tvangsmulkt etter reglene i helsetilsynsloven §§ 8 og 9. Hvis statsforvalteren mener at det bør ilegges tvangsmulkt etter § 9, skal saken oversendes Statens helsetilsyn.
 >
 
 ## § 7-2
@@ -622,6 +626,150 @@ refid: "lov/1999-07-02-61"
 
 *Nåværende § 3-16 blir ny § 3-17.*
 
+### 2013-06-07 — lov/2013-06-07-29
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 3-11 andre ledd lyde:*
+
+> Helseinstitusjoner som omfattes av denne loven, har plikt til å sørge for at det gis slik informasjon som pasienten har rett til å motta etter pasient- og brukerrettighetsloven § 3-2. Tilsvarende gjelder for informasjon til pasientens nærmeste pårørende etter pasient- og brukerrettighetsloven § 3-3 tredje ledd.
+>
+
+### 2014-06-20 — lov/2014-06-20-40
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. (spesialisthelsetjenesteloven).
+>
+> § 1
+>
+> .
+>
+> Formål
+>
+> Lovens formål er å sikre at rituell omskjæring av gutter utføres på en forsvarlig måte, samt sikre at et tilbud om rituell omskjæring er tilgjengelig.
+>
+> § 2
+>
+> .
+>
+> Definisjon av rituell omskjæring
+>
+> Med rituell omskjæring menes i denne lov et kirurgisk inngrep hvor forhud rundt penis fjernes helt eller delvis, og hvor formålet er religiøst begrunnet.
+>
+> § 3
+>
+> .
+>
+> Virkeområdet – forholdet til andre lover
+>
+> Loven gjelder den som tilbyr eller utfører rituell omskjæring i riket.
+>
+> Ved utførelse av rituell omskjæring kommer helsepersonelloven og pasient- og brukerrettighetsloven til anvendelse så langt de passer. Pasient- og brukerrettighetsloven kapittel 2 kommer ikke til anvendelse.
+>
+> Pasientskadeloven gjelder ved utførelse av rituell omskjæring.
+>
+> Kongen kan gi forskrift om at loven helt eller delvis skal gjelde for Svalbard og Jan Mayen, og kan fastsette særlige regler under hensyn til de stedlige forholdene.
+>
+> § 4
+>
+> .
+>
+> Offentlig tilbud
+>
+> Regionale helseforetak i henhold til helseforetaksloven § 2 skal organisere spesialisthelsetjenesten slik at de som ønsker det innen helseregionen, kan få utført rituell omskjæring av gutter på en forsvarlig måte. I den grad det ikke hindrer et forsvarlig tilbud, skal det tas hensyn til helsepersonell som av samvittighetsgrunner ikke ønsker å utføre eller assistere ved slike inngrep.
+>
+> § 5
+>
+> .
+>
+> Adgang til å utføre rituell omskjæring
+>
+> Rituell omskjæring av gutter skal utføres av lege.
+>
+> Rituell omskjæring kan også utføres av andre dersom lege er til stede og står ansvarlig for inngrepet. Legen skal påse at inngrepet skjer i henhold til denne loven.
+>
+> § 6
+>
+> .
+>
+> Smertelindring
+>
+> Rituell omskjæring av gutter kan bare utføres dersom det gis nødvendig smertelindring. Nødvendig smertelindring skal gis forut for, under og etter inngrepet.
+>
+> § 7
+>
+> .
+>
+> Informasjon
+>
+> Informasjon skal gis i samsvar med helsepersonelloven § 10. Informasjon skal også gis til gutten dersom han har nådd en alder og modenhet som er nødvendig for å forstå informasjonen.
+>
+> Opplysning om den informasjon som er gitt, skal nedtegnes i journal som nevnt i helsepersonelloven § 39.
+>
+> § 8
+>
+> .
+>
+> Samtykke til rituell omskjæring
+>
+> Rituell omskjæring av gutter under 18 år kan bare utføres etter samtykke fra den eller de som har foreldreansvaret for gutten.
+>
+> Gutter som er i stand til å danne seg egne synspunkter skal ha rett til informasjon om inngrepet og gis anledning til å si sin mening. Det skal legges behørig vekt på guttens mening i samsvar med alder og modenhet. Rituell omskjæring kan ikke utføres mot guttens vilje.
+>
+> § 9
+>
+> .
+>
+> Straff
+>
+> En lege som forsettlig eller grovt uaktsomt overtrer lovens §§ 5-8, eller bestemmelser gitt i medhold av lovens § 3, straffes med bøter eller fengsel i inntil tre måneder.
+>
+> Den som uten å være lege forsettlig eller grovt uaktsomt overtrer lovens §§ 5-8, eller bestemmelser gitt i medhold av lovens § 3, straffes med bøter eller fengsel i inntil to år.
+>
+> § 10
+>
+> .
+>
+> Ikrafttredelse
+>
+> Loven trer i kraft fra den tid Kongen bestemmer. Kongen kan bestemme at de enkelte bestemmelsene skal tre i kraft til forskjellig tidspunkt.
+>
+> § 11
+>
+> .
+>
+> Endringer i andre lover
+>
+> Fra det tidspunkt loven trer i kraft, skal lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. § 5-5 nytt andre og tredje ledd lyde:
+>
+> For inngrep omfattet av lov om rituell omskjæring av gutter skal det kreves egenbetaling. Egenbetaling skal kreves uavhengig av om inngrepet skjer i forbindelse med innleggelse i sykehus eller ved poliklinisk behandling ved institusjon. Egenbetaling skal kreves uavhengig av om inngrepet foretas av helseforetaket eller av spesialist med avtale med det regionale helseforetaket om å utføre inngrepet på vegne av helseforetaket.
+>
+> Departementet kan ved forskrift gi nærmere bestemmelser om innholdet etter annet ledd, herunder fastsette størrelsen på egenbetalingen.
+>
+
+### 2017-06-16 — lov/2017-06-16-53
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 3-7 a første ledd lyde:*
+
+> Helseinstitusjoner som omfattes av denne loven, skal i nødvendig utstrekning ha barneansvarlig personell. Barneansvarlig personell skal ha ansvar for å fremme og koordinere helsepersonells oppfølging av mindreårige som er pårørende barn eller søsken av psykisk syke, rusmiddelavhengige og alvorlig somatisk syke eller skadde pasienter, eller er etterlatte barn eller søsken etter slike pasienter.
+>
+
+### 2018-12-07 — lov/2018-12-07-91
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 4-1 lyde:*
+
+> § 4-1.Godkjenning av virksomheter og helsetjenester
+>
+> Departementet kan gi forskrift om krav til godkjenning av virksomheter og helsetjenester som omfattes av denne loven når hensyn til tjenestetilbudets kvalitet, pasientsikkerhet, samfunnssikkerhet eller beredskap tilsier det. Bruk av betegnelsen universitetssykehus skal godkjennes av departementet.
+>
+> Departementet kan gi forskrift med nærmere bestemmelser om vilkår for tildeling av godkjenning som kreves i medhold av første ledd.
+>
+> Departementet kan tilbakekalle godkjenning når virksomheten som er tildelt godkjenningen ikke fyller kravene som er satt i forskrift.
+>
+> Den som er tildelt godkjenning plikter å gi departementet de opplysningene som departementet krever for å kunne utføre sine oppgaver. Departementet kan utføre gransking i form av stedlig undersøkelse (inspeksjon).
+>
+
 ### 2019-12-20 — lov/2019-12-20-103
 
 *Nåværende tredje til syvende ledd blir fjerde til åttende ledd.*
@@ -629,6 +777,23 @@ refid: "lov/1999-07-02-61"
 ### 2019-12-20 — lov/2019-12-20-103
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2022-05-20 — lov/2022-05-20-29
+
+*I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten skal § 3-11 lyde:*
+
+> § 3-11.Om informasjon
+>
+> Helseinstitusjoner som omfattes av loven her, har plikt til å gi videre den informasjon som er nødvendig for at allmennheten skal kunne ivareta sine rettigheter, jf. pasient- og brukerrettighetsloven § 2-1 b, § 2-2, § 2-3, § 2-4, § 2-4 a annet ledd bokstav a og § 2-5.
+>
+> Helseinstitusjoner som omfattes av loven her, har plikt til å sørge for at det gis slik informasjon som pasienten har rett til å motta etter pasient- og brukerrettighetsloven § 3-2. Tilsvarende gjelder for informasjon til pasientens nærmeste pårørende etter pasient- og brukerrettighetsloven § 3-3 tredje ledd.
+>
+> Virksomheter som er omfattet av loven her, har plikt til å besvare henvendelser om kvalitet og pasientsikkerhet fra pasienter eller den som opptrer på vegne av pasienten. Bestemmelsen gjelder også henvendelser om kvalitet og pasientsikkerhet fra nærmeste pårørende til avdød pasient eller fra nærmeste pårørende til pasient over 18 år uten samtykkekompetanse.
+>
+> Henvendelser om kvalitet og pasientsikkerhet skal besvares på egnet måte og blant annet oppfylle krav til informasjon i pasient- og brukerrettighetsloven kapittel 3.
+>
+> Departementet kan gi forskrift om det nærmere innhold i informasjonsplikten etter første til fjerde ledd.
+>
 
 ### 2022-06-10 — lov/2022-06-10-35
 
@@ -650,9 +815,9 @@ refid: "lov/1999-07-02-61"
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 2-5 d lyde:*
 
-> § 2-5 d.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
+> § 2-5 d. Midlertidige unntak fra plikter
 >
-> § 2-5 d.Midlertidige unntak fra plikter
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
 >
 
 ### 2025-04-25 — lov/2025-04-25-13
@@ -681,16 +846,16 @@ refid: "lov/1999-07-02-61"
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal § 2-5 d lyde:*
 
-> § 2-5 d.Midlertidige unntak fra plikterNår det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
+> § 2-5 d. Midlertidige unntak fra plikter
 >
-> § 2-5 d.Midlertidige unntak fra plikter
+> Når det som følge av et høyt antall ankomster til Norge av personer fordrevet fra Ukraina er nødvendig å foreta omstillinger eller prioriteringer for å bidra til å sikre at spesialisthelsetjenestens kapasitet ikke overskrides, kan departementet gi forskrift om helt eller delvis unntak fra følgende bestemmelser:§ 2-5 om individuell plan§ 2-5 a om koordinator§ 2-5 c om kontaktlege.
 >
 
 ### 2026-06-19 — lov/2026-06-19-42
 
 *I lov 2. juli 1999 nr. 61 om spesialisthelsetjenesten m.m. skal ny § 3-11 a lyde:*
 
-> § 3-11 a.Om medvirkningHelseinstitusjoner som omfattes av loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
+> § 3-11 a. Om medvirkning
 >
-> § 3-11 a.Om medvirkning
+> Helseinstitusjoner som omfattes av loven her, skal sørge for at pasienten eller brukeren får medvirke ved gjennomføring av helse- og omsorgstjenester etter pasient- og brukerrettighetsloven § 3-1.
 >

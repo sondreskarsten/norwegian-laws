@@ -1177,9 +1177,13 @@ refid: "lov/1997-06-13-45"
 
 *§ 6-11 a skal lyde:*
 
-> § 6-11 a.Krav til kjønnssammensetning i styret(1) Kjønnssammensetningen i styret skal oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.(2) Første ledd gjelder tilsvarende for varamedlemmer.(3) For styremedlemmer som de ansatte skal velge etter § 6-4 eller som skal velges blant de ansatte etter § 6-37 første ledd, gjelder kravene til kjønnssammensetning i § 6-11 b.
+> § 6-11 a. Krav til kjønnssammensetning i styret
 >
-> § 6-11 a.Krav til kjønnssammensetning i styret
+> (1) Kjønnssammensetningen i styret skal oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.
+>
+> (2) Første ledd gjelder tilsvarende for varamedlemmer.
+>
+> (3) For styremedlemmer som de ansatte skal velge etter § 6-4 eller som skal velges blant de ansatte etter § 6-37 første ledd, gjelder kravene til kjønnssammensetning i § 6-11 b.
 >
 
 ## § 6-15
@@ -1392,19 +1396,9 @@ refid: "lov/1997-06-13-45"
 
 *§ 6-43 første og annet ledd skal lyde:*
 
-> informere styret om resultatet av den lovfestede revisjonen og attestasjonen av pliktig bærekraftsrapportering, forklare hvordan revisjonen og attestasjonen bidro til regnskapsrapportering og bærekraftsrapportering med integritet og revisjonsutvalgets rolle i den prosessen,
+> (1) Revisjonsutvalget skal:informere styret om resultatet av den lovfestede revisjonen og attestasjonen av pliktig bærekraftsrapportering, forklare hvordan revisjonen og attestasjonen bidro til regnskapsrapportering og bærekraftsrapportering med integritet og revisjonsutvalgets rolle i den prosessen,forberede styrets oppfølging av regnskapsrapporteringsprosessen og prosessen for bærekraftsrapporteringen, inkludert den digitale rapporteringsprosessen og prosessen for å identifisere informasjonen som er rapportert i henhold til standardene for bærekraftsrapportering, og komme med anbefalinger eller forslag for å sikre dens integritet,for så vidt gjelder selskapets regnskapsrapportering og bærekraftsrapportering, overvåke systemene for internkontroll, risikostyring og internrevisjon uten at det bryter med revisjonsutvalgets uavhengige rolle,ha løpende kontakt med selskapets valgte revisorer om revisjonen av årsregnskapet og attestasjonen av bærekraftsrapporteringen, herunder særlig overvåke revisjonsutførelsen i lys av forhold Finanstilsynet har påpekt i henhold til revisjonsforordningen artikkel 26 nr. 6,vurdere og overvåke revisors uavhengighet etter revisorloven og revisjonsforordningen, særlig at tjenester er levert i samsvar med revisjonsforordningen artikkel 5 og revisorloven § 12-4 a,vurdere revisors bekreftelse av uavhengighet og gjennomføre drøfting, som angitt i revisjonsforordningen artikkel 6 nr. 2,ha ansvaret for å forberede selskapets valg av revisor og gi sin anbefaling i samsvar med revisjonsforordningen artikkel 16.
 >
-> forberede styrets oppfølging av regnskapsrapporteringsprosessen og prosessen for bærekraftsrapporteringen, inkludert den digitale rapporteringsprosessen og prosessen for å identifisere informasjonen som er rapportert i henhold til standardene for bærekraftsrapportering, og komme med anbefalinger eller forslag for å sikre dens integritet,
->
-> for så vidt gjelder selskapets regnskapsrapportering og bærekraftsrapportering, overvåke systemene for internkontroll, risikostyring og internrevisjon uten at det bryter med revisjonsutvalgets uavhengige rolle,
->
-> ha løpende kontakt med selskapets valgte revisorer om revisjonen av årsregnskapet og attestasjonen av bærekraftsrapporteringen, herunder særlig overvåke revisjonsutførelsen i lys av forhold Finanstilsynet har påpekt i henhold til revisjonsforordningen artikkel 26 nr. 6,
->
-> vurdere og overvåke revisors uavhengighet etter revisorloven og revisjonsforordningen, særlig at tjenester er levert i samsvar med revisjonsforordningen artikkel 5 og revisorloven § 12-4 a,
->
-> vurdere revisors bekreftelse av uavhengighet og gjennomføre drøfting, som angitt i revisjonsforordningen artikkel 6 nr. 2,
->
-> ha ansvaret for å forberede selskapets valg av revisor og gi sin anbefaling i samsvar med revisjonsforordningen artikkel 16.
+> (2) Første ledd gjelder tilsvarende der en uavhengig tilbyder av attestasjonstjenester er valgt til å attestere bærekraftsrapporteringen, jf. § 7-6 første ledd.
 >
 
 ## § 7-1
@@ -2759,9 +2753,9 @@ refid: "lov/1997-06-13-45"
 
 *§ 20-7 skal lyde:*
 
-> § 20-7.Riksrevisjonens kontrollRiksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i selskaper der staten eier alle aksjene og heleide datterselskaper til slike selskaper etter riksrevisjonsloven.
+> § 20-7. Riksrevisjonens kontroll
 >
-> § 20-7.Riksrevisjonens kontroll
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i selskaper der staten eier alle aksjene og heleide datterselskaper til slike selskaper etter riksrevisjonsloven.
 >
 
 ## (annet)
@@ -2893,6 +2887,13 @@ refid: "lov/1997-06-13-45"
 > (4) For gjennomføringen av en fisjon over landegrensene gjelder følgende regler tilsvarende så langt de passer:§ 14-1, § 14-2 første og annet ledd og § 14-3 tredje ledd,§ 13-26, jf. § 14-4 første ledd annet punktum nr. 1 og 2, og § 13-7 og § 13-8 nr. 1 og 2,§ 13-9, jf. § 13-27, og § 13-10,§ 13-11 og forskrift fastsatt i medhold av § 13-34,§§ 13-12 og 13-13, jf. § 13-29,§ 13-30,§§ 14-5 og 14-6,§§ 13-14 til 13-16 og §§ 13-31 og 13-32,§ 13-17, jf. § 13-33,§§ 14-8, 14-9 og 14-11,§ 13-35.
 >
 
+### 2008-12-19 — lov/2008-12-19-113
+
+*I lov 13. juni 1997 nr. 45 om allmennaksjeselskaper (allmennaksjeloven) skal § 13-10 nytt fjerde ledd lyde:*
+
+> (4) Kravene i første og annet ledd gjelder ikke dersom samtlige aksjeeiere i selskapene som deltar i fusjonen, samtykker til dette.
+>
+
 ### 2009-06-19 — lov/2009-06-19-60
 
 *I kapittel 6 ny del V skal overskriften lyde:*
@@ -2998,6 +2999,13 @@ refid: "lov/1997-06-13-45"
 > (7) Kongen kan ved forskrift, eller ved vedtak i det enkelte tilfelle, gjøre unntak fra bestemmelsene i første og fjerde ledd eller bestemme at sjette ledd skal anvendes overfor deler av konsernet eller gruppen. Kongen kan også gi utfyllende forskrifter til første, fjerde, femte og sjette ledd, herunder om vilkår for stemmerett og valgbarhet, valgmåten, om avgjørelse av tvister om valget og om bortfall av verv som medlem av bedriftsforsamlingen. Kongen kan dessuten gi forskrifter om beregning av antallet ansatte og om bruk av gjennomsnittstall.
 >
 
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 13. juni 1997 nr. 45 om allmennaksjeselskaper skal § 7-2 fjerde ledd annet og nytt tredje punktum lyde:*
+
+> Hvis oppdraget opphørte før utløpet av tjenestetiden skal selskaper av allmenn interesse, jf. revisorloven § 5a-1, sende begrunnelse for dette til Finanstilsynet. Departementet kan i forskrift fastsette regler om at melding om begrunnelse for avslutning av revisjonsoppdrag etter andre punktum også skal gjelde andre revisjonspliktige allmennaksjeselskaper.
+>
+
 ### 2018-12-14 — lov/2018-12-14-95
 
 *Nåværende annet og tredje ledd blir nye tredje og fjerde ledd.*
@@ -3071,6 +3079,13 @@ refid: "lov/1997-06-13-45"
 > (3) Departementet kan i forskrift gi nærmere bestemmelser om krav til meldinger mv. mellom selskapet og eiere av forvalterregistrerte aksjer, herunder om format og tidsfrister, samt om videreformidling av meldinger mv. etter annet ledd.
 >
 
+### 2022-02-11 — forskrift/2022-02-11-193
+
+*Delt ikraftsetting av lov 14. desember 2018 nr. 95 om endringer i aksjelovgivningen mv. (oppløsning og avvikling, mellombalanser m.m.). Endringsloven del II (allmennaksjeloven) § 13-32 trer i kraft straks.*
+
+> Delt ikraftsetting av lov 14. desember 2018 nr. 95 om endringer i aksjelovgivningen mv. (oppløsning og avvikling, mellombalanser m.m.). Endringsloven del II (allmennaksjeloven) § 13-32 trer i kraft straks.
+>
+
 ### 2023-06-16 — lov/2023-06-16-67
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -3079,9 +3094,11 @@ refid: "lov/1997-06-13-45"
 
 *I kapittel 6 avsnitt I skal ny § 6-11 b lyde:*
 
-> § 6-11 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte(1) Når det skal velges to eller flere styremedlemmer etter § 6-4, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet på det tidspunkt valget skjer, har samme kjønn.(2) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 6-4 eller blant de ansatte etter § 6-37 første ledd, oppfylle kravene i § 6-11 a første og annet ledd, likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse styremedlemmene ha samme kjønn. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.
+> § 6-11 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
 >
-> § 6-11 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
+> (1) Når det skal velges to eller flere styremedlemmer etter § 6-4, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i selskapet på det tidspunkt valget skjer, har samme kjønn.
+>
+> (2) For selskaper med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som velges av og blant de ansatte etter § 6-4 eller blant de ansatte etter § 6-37 første ledd, oppfylle kravene i § 6-11 a første og annet ledd, likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse styremedlemmene ha samme kjønn. Antall ansatte etter første punktum skal beregnes på samme måte som etter § 6-4.
 >
 
 ### 2024-04-12 — lov/2024-04-12-17
@@ -3094,9 +3111,22 @@ refid: "lov/1997-06-13-45"
 
 > II. Bærekraftsrapportering
 >
-> § 7-6.Bærekraftsrapportering(1) I selskap som har plikt til å utarbeide bærekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere bærekraftsrapporteringen. Generalforsamlingen kan i stedet velge en annen revisor til å attestere bærekraftsrapporteringen eller en uavhengig tilbyder av attestasjonstjenester dersom det er adgang til dette etter revisorloven § 1-3. Godtgjørelsen skal godkjennes av generalforsamlingen.(2) Den som attesterer bærekraftsrapporteringen, skal hvert regnskapsår avgi en attestasjonsuttalelse om bærekraftsrapportering etter revisorloven § 9-7 a til generalforsamlingen. Uttalelsen skal være styret i hende senest to uker før den ordinære generalforsamlingen. I selskaper som nevnt i § 5-11 b skal uttalelsen være styret i hende senest 22 dager før generalforsamlingen.(3) §§ 7-2, 7-3 og 7-5 gjelder tilsvarende for den som er valgt til å attestere bærekraftsrapporteringen etter første ledd.
+> § 7-6. Bærekraftsrapportering
 >
-> § 7-6.Bærekraftsrapportering
+> (1) I selskap som har plikt til å utarbeide bærekraftsrapportering etter regnskapsloven § 2-3, skal revisor attestere bærekraftsrapporteringen. Generalforsamlingen kan i stedet velge en annen revisor til å attestere bærekraftsrapporteringen eller en uavhengig tilbyder av attestasjonstjenester dersom det er adgang til dette etter revisorloven § 1-3. Godtgjørelsen skal godkjennes av generalforsamlingen.
+>
+> (2) Den som attesterer bærekraftsrapporteringen, skal hvert regnskapsår avgi en attestasjonsuttalelse om bærekraftsrapportering etter revisorloven § 9-7 a til generalforsamlingen. Uttalelsen skal være styret i hende senest to uker før den ordinære generalforsamlingen. I selskaper som nevnt i § 5-11 b skal uttalelsen være styret i hende senest 22 dager før generalforsamlingen.
+>
+> (3) §§ 7-2, 7-3 og 7-5 gjelder tilsvarende for den som er valgt til å attestere bærekraftsrapporteringen etter første ledd.
+>
+
+### 2025-02-01 — forskrift/2025-01-10-19
+
+*Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Følgende trer i kraft 1. februar 2025:*
+
+> Delt ikraftsetting av lov 11. juni 2021 nr. 84 om endringer i aksjelovgivningen mv. (åpenhet om eierskap og deltakelse på generalforsamlingen). Følgende trer i kraft 1. februar 2025:
+>
+> Endringsloven del II (allmennaksjeloven) § 4-5 andre ledd.
 >
 
 ## § 23

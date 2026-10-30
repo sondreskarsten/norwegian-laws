@@ -15,6 +15,22 @@ refid: "lov/1982-05-21-25"
 
 *Nåværende §§ 3 og 4 blir § 4 og ny § 5.*
 
+### 2018-06-15 — lov/2018-06-15-30
+
+*I lov 21. mai 1982 nr. 25 om tillegg til lov 28. juli 1949 om Statens pensjonskasse skal § 3 andre og tredje ledd lyde:*
+
+> Alderspensjonen levealdersjusteres etter lov 28. juli 1949 nr. 26 om Statens pensjonskasse §§ 24 og 24 a, likevel slik at pensjonen ved uttak etter 67 år og ved full tjenestetid ikke blir høyere enn 57 prosent av pensjonsgrunnlaget.
+>
+> Et medlem kan ha krav på et garantert pensjonsnivå etter reglene i lov om Statens pensjonskasse § 24 b, likevel slik at det garanterte pensjonsnivået for medlemmer med full tjenestetid er 57 prosent av pensjonsgrunnlaget.
+>
+
+### 2019-06-21 — lov/2019-06-21-26
+
+*I lov 21. mai 1982 nr. 25 om tillegg til lov 28. juli 1949 om Statens pensjonskasse skal § 3 tredje ledd nytt andre punktum lyde:*
+
+> Garantert pensjonsnivå etter lov 28. juli 1949 nr. 26 om Statens pensjonskasse § 24 c gjelder tilsvarende.
+>
+
 ### 2023-12-20 — lov/2023-12-20-95
 
 *Noverande første til tredje ledd blir andre til fjerde ledd.*

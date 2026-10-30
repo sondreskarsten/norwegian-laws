@@ -11,6 +11,31 @@ refid: "lov/1966-12-16-9"
 
 *I § 14 andre ledd skal ordet «leder» endres til «administrator».*
 
+### 2002-12-20 — lov/2002-12-20-111
+
+*I lov 16. desember 1966 nr. 9 om anke til Trygderetten skal § 3 tredje ledd lyde:*
+
+> Trygderetten skal ha så mange rettsfullmektiger som Trygderettens leder bestemmer. Rettsfullmektigene tilsettes av Trygderettens leder for en periode på inntil tre år, med mulighet for forlengelse med inntil to år. Rettsfullmektigene kan være administrator ved behandlingen av en ankesak og for øvrig utføre de oppgaver i ankebehandlingen som etter loven her er tillagt de juridisk kyndige medlemmer av Trygderetten. Domstolloven § 54 tredje ledd får tilsvarende anvendelse.
+>
+
+### 2019-01-01 — lov/2018-12-20-98
+
+*I lov 16. desember 1966 nr. 9 om anke til Trygderetten § 25 første ledd andre punktum skal ordet «tillleggskjennelse» endres til «tilleggskjennelse».*
+
+### 2020-04-15 — lov/2020-04-15-19
+
+*I lov 16. desember 1966 nr. 9 om anke til Trygderetten skal § 13 femte ledd lyde:*
+
+> Bestemmelsene i § 31 første ledd første og tredje punktum og § 31 andre ledd gjelder tilsvarende for meldinger til den ankende part etter andre ledd.
+>
+
+### 2024-07-01 — forskrift/2024-05-24-824
+
+*Loven trer i kraft 1. juli 2024.*
+
+> Loven trer i kraft 1. juli 2024.
+>
+
 ## § 10
 
 ### 2025-06-20 — lov/2025-06-20-38
@@ -26,9 +51,15 @@ refid: "lov/1966-12-16-9"
 
 *§ 11 skal lyde:*
 
-> § 11.Ankeerklæringen og hvem som skal motta den(1) Ankeerklæring skal framsettes for Trygderetten.(2) Anken kan settes fram skriftlig eller muntlig. Ved muntlig anke skal Trygderetten sørge for å sette opp anken skriftlig.(3) Erklæringen om anke må være underskrevet og nevne:at den er en anke til Trygderetten,navn, fødselsdag og fødselsår samt adresse til den ankende part,det vedtak som påankes,den ankende parts påstand, som angir den endring i vedtaket som kreves, og så vidt mulig de nærmere omstendigheter som anføres til støtte for anken,erklæringer og andre bevis som påberopes,bilag som følger anken.(4) Trygderetten skal vurdere om vilkårene for å behandle saken er oppfylt. Hvis en skriftlig anke er ufullstendig eller uklar, skal den ankende part gjøres oppmerksom på eventuelle mangler ved anken eller andre forhold som kan ha betydning i saken, og gis en frist for å rette opp eller supplere anken.
+> § 11. Ankeerklæringen og hvem som skal motta den
 >
-> § 11.Ankeerklæringen og hvem som skal motta den
+> (1) Ankeerklæring skal framsettes for Trygderetten.
+>
+> (2) Anken kan settes fram skriftlig eller muntlig. Ved muntlig anke skal Trygderetten sørge for å sette opp anken skriftlig.
+>
+> (3) Erklæringen om anke må være underskrevet og nevne:at den er en anke til Trygderetten,navn, fødselsdag og fødselsår samt adresse til den ankende part,det vedtak som påankes,den ankende parts påstand, som angir den endring i vedtaket som kreves, og så vidt mulig de nærmere omstendigheter som anføres til støtte for anken,erklæringer og andre bevis som påberopes,bilag som følger anken.
+>
+> (4) Trygderetten skal vurdere om vilkårene for å behandle saken er oppfylt. Hvis en skriftlig anke er ufullstendig eller uklar, skal den ankende part gjøres oppmerksom på eventuelle mangler ved anken eller andre forhold som kan ha betydning i saken, og gis en frist for å rette opp eller supplere anken.
 >
 
 ## § 12
@@ -61,9 +92,17 @@ refid: "lov/1966-12-16-9"
 
 *§ 13 skal lyde:*
 
-> § 13.Pålegg om tilsvar(1) Trygderetten skal gi den institusjon som har fattet vedtaket, i loven her kalt ankemotparten, pålegg om å inngi tilsvar. Trygderetten skal sette en frist for å inngi tilsvaret, som normalt bør være fire uker.(2) Tilsvaret skal angiom det framsatte krav godtas eller bestrides,om det er innsigelser mot at retten behandler saken,ankemotpartens påstand, som angir det resultat som kreves,den faktiske og rettslige begrunnelse for ankemotpartens påstand,de bevis som ankemotparten ønsker å føre, ogankemotpartens syn på den videre behandling av saken, herunder behovet for muntlig bevisførsel.(3) Sammen med tilsvaret skal ankemotparten fremlegge alle dokumenter av betydning for saken.(4) Trygderetten skal sende tilsvaret med bilag til den ankende part, som gis en frist for å komme med merknader til tilsvaret. Den ankende part sender eventuelle merknader direkte til Trygderetten med kopi til ankemotparten.(5) Bestemmelsene i § 31 første ledd første punktum og § 31 andre ledd gjelder tilsvarende for meldinger til den ankende part etter fjerde ledd.
+> § 13. Pålegg om tilsvar
 >
-> § 13.Pålegg om tilsvar
+> (1) Trygderetten skal gi den institusjon som har fattet vedtaket, i loven her kalt ankemotparten, pålegg om å inngi tilsvar. Trygderetten skal sette en frist for å inngi tilsvaret, som normalt bør være fire uker.
+>
+> (2) Tilsvaret skal angiom det framsatte krav godtas eller bestrides,om det er innsigelser mot at retten behandler saken,ankemotpartens påstand, som angir det resultat som kreves,den faktiske og rettslige begrunnelse for ankemotpartens påstand,de bevis som ankemotparten ønsker å føre, ogankemotpartens syn på den videre behandling av saken, herunder behovet for muntlig bevisførsel.
+>
+> (3) Sammen med tilsvaret skal ankemotparten fremlegge alle dokumenter av betydning for saken.
+>
+> (4) Trygderetten skal sende tilsvaret med bilag til den ankende part, som gis en frist for å komme med merknader til tilsvaret. Den ankende part sender eventuelle merknader direkte til Trygderetten med kopi til ankemotparten.
+>
+> (5) Bestemmelsene i § 31 første ledd første punktum og § 31 andre ledd gjelder tilsvarende for meldinger til den ankende part etter fjerde ledd.
 >
 
 ## § 13 a
@@ -72,9 +111,9 @@ refid: "lov/1966-12-16-9"
 
 *Ny § 13 a skal lyde:*
 
-> § 13 a.Aktiv saksstyringAdministrator har ansvaret for saksstyringen og sakens framdrift. Avgjørelser om saksbehandlingen og om saken skal avvises eller heves, skal treffes så tidlig som mulig under saksforberedelsen. Administrator kan sette frister for prosesshandlinger og treffe avgjørelser som er nødvendige for behandlingen av saken.
+> § 13 a. Aktiv saksstyring
 >
-> § 13 a.Aktiv saksstyring
+> Administrator har ansvaret for saksstyringen og sakens framdrift. Avgjørelser om saksbehandlingen og om saken skal avvises eller heves, skal treffes så tidlig som mulig under saksforberedelsen. Administrator kan sette frister for prosesshandlinger og treffe avgjørelser som er nødvendige for behandlingen av saken.
 >
 
 ### 2025-06-20 — lov/2025-06-20-38
@@ -90,9 +129,11 @@ refid: "lov/1966-12-16-9"
 
 *Ny § 13 b skal lyde:*
 
-> § 13 b.Veiledningsplikt(1) Trygderetten skal gi partene slik veiledning om regler og rutiner for saksbehandlingen og andre formelle forhold som er nødvendig for at de kan ivareta sine interesser i saken.(2) Har en prosesshandling mangler som kan avhjelpes, setter retten en frist for retting og gir nødvendig veiledning med opplysning om følgene av at retting ikke foretas.
+> § 13 b. Veiledningsplikt
 >
-> § 13 b.Veiledningsplikt
+> (1) Trygderetten skal gi partene slik veiledning om regler og rutiner for saksbehandlingen og andre formelle forhold som er nødvendig for at de kan ivareta sine interesser i saken.
+>
+> (2) Har en prosesshandling mangler som kan avhjelpes, setter retten en frist for retting og gir nødvendig veiledning med opplysning om følgene av at retting ikke foretas.
 >
 
 ## § 15
@@ -147,9 +188,19 @@ refid: "lov/1966-12-16-9"
 
 *§ 21 skal lyde:*
 
-> § 21.Kjennelser(1) Rettens avgjørelser av krav som er tvistegjenstand, om avvisning og om tilleggskjennelser og gjenopptak treffes ved kjennelse med alminnelig flertall blant de rettsmedlemmene som deltar i saken. Kjennelsen skal inneholde en slutning som nøyaktig angir resultatet for de avgjørelsene som treffes. For øvrig gjelder tvisteloven § 19-6 første til fjerde ledd tilsvarende for Trygderettens kjennelser så langt de passer.(2) Kjennelsens begrunnelse skal stå i et rimelig forhold til tvistens tema og sakens viktighet.(3) Dersom retten finner avgjørelsen klar, er det tilstrekkelig at kjennelsen inneholder en kort beskrivelse av hva saken gjelder og en redegjørelse for momentene som det er lagt avgjørende vekt på.(4) Andre kjennelser skal begrunnes som dommer. Det kan i begrunnelsen siteres fra tidligere vedtak eller oversendelsesbrev.(5) Kjennelser nevnt i fjerde ledd, skal for øvrig inneholde:en saksframstilling og redegjørelse for påstandsgrunnlagene som konsentrert beskriver rettsforholdet som er tvistegjenstand, sakens bakgrunn og partenes rettslige og faktiske anførsler så langt det er nødvendig for å forklare avgjørelsenen redegjørelse for bevisvurderingen og rettsanvendelsen avgjørelsen bygger på.(6) Når retten avgjør realiteten i saken, kan avgjørelsen gå ut på stadfestelse eller omgjøring. Hvis det ikke foreligger et forsvarlig grunnlag for å avgjøre realiteten, kan retten oppheve vedtaket og henvise saken til ny behandling. Dersom det er grunnlag for det, kan retten også henvise til ny behandling uten å oppheve vedtaket.
+> § 21. Kjennelser
 >
-> § 21.Kjennelser
+> (1) Rettens avgjørelser av krav som er tvistegjenstand, om avvisning og om tilleggskjennelser og gjenopptak treffes ved kjennelse med alminnelig flertall blant de rettsmedlemmene som deltar i saken. Kjennelsen skal inneholde en slutning som nøyaktig angir resultatet for de avgjørelsene som treffes. For øvrig gjelder tvisteloven § 19-6 første til fjerde ledd tilsvarende for Trygderettens kjennelser så langt de passer.
+>
+> (2) Kjennelsens begrunnelse skal stå i et rimelig forhold til tvistens tema og sakens viktighet.
+>
+> (3) Dersom retten finner avgjørelsen klar, er det tilstrekkelig at kjennelsen inneholder en kort beskrivelse av hva saken gjelder og en redegjørelse for momentene som det er lagt avgjørende vekt på.
+>
+> (4) Andre kjennelser skal begrunnes som dommer. Det kan i begrunnelsen siteres fra tidligere vedtak eller oversendelsesbrev.
+>
+> (5) Kjennelser nevnt i fjerde ledd, skal for øvrig inneholde:en saksframstilling og redegjørelse for påstandsgrunnlagene som konsentrert beskriver rettsforholdet som er tvistegjenstand, sakens bakgrunn og partenes rettslige og faktiske anførsler så langt det er nødvendig for å forklare avgjørelsenen redegjørelse for bevisvurderingen og rettsanvendelsen avgjørelsen bygger på.
+>
+> (6) Når retten avgjør realiteten i saken, kan avgjørelsen gå ut på stadfestelse eller omgjøring. Hvis det ikke foreligger et forsvarlig grunnlag for å avgjøre realiteten, kan retten oppheve vedtaket og henvise saken til ny behandling. Dersom det er grunnlag for det, kan retten også henvise til ny behandling uten å oppheve vedtaket.
 >
 
 ### 2025-06-20 — lov/2025-06-20-38
@@ -164,6 +215,9 @@ refid: "lov/1966-12-16-9"
 ### 2025-06-20 — lov/2025-06-20-38
 
 *§ 22 første ledd skal lyde:*
+
+> (1) Kjennelse skal avsies snarest mulig og senest innen seks måneder etter at Trygderetten mottok anken. Når særlige grunner gjør det nødvendig, kan avsigelsen skje senere. Hvis fristen overskrides, skal årsaken oppgis i avgjørelsen.
+>
 
 ## § 23
 
@@ -248,15 +302,26 @@ refid: "lov/1966-12-16-9"
 
 *§ 28 første ledd skal lyde:*
 
+> (1) Den ankende part setter fram begjæring om gjenopptak for Trygderetten. Retten tar stilling til begjæringen etter at ankemotparten er gitt anledning til å uttale seg.
+>
+
 ## § 29
 
 ### 2025-06-20 — lov/2025-06-20-38
 
 *§ 29 skal lyde:*
 
-> § 29.Sakskostnader(1) Hvis Trygderettens kjennelse er til gunst for den ankende part, skal retten pålegge ankemotparten helt eller delvis å erstatte de nødvendige kostnader som saken har medført for den ankende part. Trygderetten kan også helt eller delvis tilkjenne nødvendige sakskostnader til den ankende part i tilfeller der ankesaken heves ved beslutning eller anken avvises som følge av at ankemotparten har omgjort sitt vedtak.(2) I tilfeller hvor Trygderetten tilkjenner den ankende part sakskostnader etter første ledd, skal Trygderetten også pålegge ankemotparten helt eller delvis å erstatte nødvendige kostnader den ankende part har hatt i forbindelse med tidligere klagebehandling av saken, og kostnader som er pådratt etter bestemmelsene i lov 13. juni 1980 nr. 35 om fri rettshjelp.(3) Hvis den ankende part åpenbart uten grunn har framsatt eller opprettholdt anke, kan retten bestemme at vedkommende helt eller delvis skal bære de utgifter som anken har medført for ankemotparten og utgifter etter lov 13. juni 1980 nr. 35 om fri rettshjelp. Sakskostnader som den ankende part pålegges, kan inndrives etter reglene for dommer.(4) Sakskostnader tilkjennes bare når parten har krevd det. Retten tar avgjørelse om sakskostnader i den kjennelse eller beslutning som avslutter saken. Salærutgifter kan ikke erstattes med mer enn kr 15 000 uten at det er inngitt kostnadsoppgave.(5) Rettens avgjørelser om sakskostnader kan ankes særskilt. Tvisteloven §§ 20-9 og 20-10 gjelder for slik anke. Ankedomstol er den lagmannsrett som er nevnt i § 26 første ledd i loven her. Ankefristen er én måned fra den dag vedkommende mottok underretning om avgjørelsen. Anken settes fram for Trygderetten, som forkynner anken for motparten og setter frist for tilsvar. Fristen bør normalt være fire uker. Etter at tilsvar har innkommet eller tilsvarsfristen har løpt ut, sendes anken med et kort oversendelsesbrev og eventuelle ytterligere dokumenter omgående til lagmannsretten.
+> § 29. Sakskostnader
 >
-> § 29.Sakskostnader
+> (1) Hvis Trygderettens kjennelse er til gunst for den ankende part, skal retten pålegge ankemotparten helt eller delvis å erstatte de nødvendige kostnader som saken har medført for den ankende part. Trygderetten kan også helt eller delvis tilkjenne nødvendige sakskostnader til den ankende part i tilfeller der ankesaken heves ved beslutning eller anken avvises som følge av at ankemotparten har omgjort sitt vedtak.
+>
+> (2) I tilfeller hvor Trygderetten tilkjenner den ankende part sakskostnader etter første ledd, skal Trygderetten også pålegge ankemotparten helt eller delvis å erstatte nødvendige kostnader den ankende part har hatt i forbindelse med tidligere klagebehandling av saken, og kostnader som er pådratt etter bestemmelsene i lov 13. juni 1980 nr. 35 om fri rettshjelp.
+>
+> (3) Hvis den ankende part åpenbart uten grunn har framsatt eller opprettholdt anke, kan retten bestemme at vedkommende helt eller delvis skal bære de utgifter som anken har medført for ankemotparten og utgifter etter lov 13. juni 1980 nr. 35 om fri rettshjelp. Sakskostnader som den ankende part pålegges, kan inndrives etter reglene for dommer.
+>
+> (4) Sakskostnader tilkjennes bare når parten har krevd det. Retten tar avgjørelse om sakskostnader i den kjennelse eller beslutning som avslutter saken. Salærutgifter kan ikke erstattes med mer enn kr 15 000 uten at det er inngitt kostnadsoppgave.
+>
+> (5) Rettens avgjørelser om sakskostnader kan ankes særskilt. Tvisteloven §§ 20-9 og 20-10 gjelder for slik anke. Ankedomstol er den lagmannsrett som er nevnt i § 26 første ledd i loven her. Ankefristen er én måned fra den dag vedkommende mottok underretning om avgjørelsen. Anken settes fram for Trygderetten, som forkynner anken for motparten og setter frist for tilsvar. Fristen bør normalt være fire uker. Etter at tilsvar har innkommet eller tilsvarsfristen har løpt ut, sendes anken med et kort oversendelsesbrev og eventuelle ytterligere dokumenter omgående til lagmannsretten.
 >
 
 ## § 3
@@ -304,11 +369,19 @@ refid: "lov/1966-12-16-9"
 
 *§ 31 første og andre ledd skal lyde:*
 
+> (1) Trygderettens melding til den ankende part om rettens kjennelse, samt beslutning som hever en sak som bortfaller uten realitetsavgjørelse, kan enten gis ved bruk av en elektronisk løsning som gir notoritet for at dokumentet er mottatt av rette vedkommende, ved vanlig brev med mottakskvittering eller ved rekommandert sending. Andre meldinger gis på den måten retten finner hensiktsmessig.
+>
+> (2) Meldingen anses for mottatt to uker etter innlevering til tilbyder av posttjenester, hvis ikke vedkommende har fått brevet tidligere. Ved bruk av elektronisk kommunikasjon anses melding kommet fram ved avsendelse til riktig elektronisk postadresse.
+>
+
 ## § 34
 
 ### 2025-06-20 — lov/2025-06-20-38
 
 *§ 34 nytt tredje ledd skal lyde:*
+
+> (3) Taushetsplikten er ikke til hinder for at Trygderetten deler opplysninger med andre så langt det er nødvendig for å unngå fare for liv eller helse.
+>
 
 ## § 4
 
@@ -357,9 +430,21 @@ refid: "lov/1966-12-16-9"
 
 *§ 7 skal lyde:*
 
-> § 7.Rettens sammensetning i den enkelte sak(1) Retten settes med ett juridisk kyndig rettsmedlem i den enkelte sak, hvis ikke annet er bestemt. Rettsmedlemmet er rettens administrator.(2) Når forsvarlig behandling av saken tilsier det, skal administrator beslutte å utvide retten med ett medisinsk kyndig rettsmedlem, ett attføringskyndig rettsmedlem eller begge deler.(3) Når saken reiser særlig kompliserte faktiske eller rettslige spørsmål, kan administrator beslutte å utvide retten med ett eller to juridisk kyndige rettsmedlemmer.(4) Når retten utvides etter både andre og tredje ledd, kan den likevel ikke settes med mer enn tre rettsmedlemmer.(5) Er rettsmedlemmene uenige i en sak med to rettsmedlemmer, settes retten med tre rettsmedlemmer.(6) Trygderettens leder kan beslutte at retten settes med tre eller fem rettsmedlemmer når det må antas at rettens avgjørelse kan bli bestemmende for praksis på et saksområde. Når retten skal settes med fem rettsmedlemmer, skal alle medlemmene være faste.(7) Administrator og de øvrige medlemmene av retten oppnevnes tilfeldig med mindre saklige grunner tilsier at dette må fravikes.
+> § 7. Rettens sammensetning i den enkelte sak
 >
-> § 7.Rettens sammensetning i den enkelte sak
+> (1) Retten settes med ett juridisk kyndig rettsmedlem i den enkelte sak, hvis ikke annet er bestemt. Rettsmedlemmet er rettens administrator.
+>
+> (2) Når forsvarlig behandling av saken tilsier det, skal administrator beslutte å utvide retten med ett medisinsk kyndig rettsmedlem, ett attføringskyndig rettsmedlem eller begge deler.
+>
+> (3) Når saken reiser særlig kompliserte faktiske eller rettslige spørsmål, kan administrator beslutte å utvide retten med ett eller to juridisk kyndige rettsmedlemmer.
+>
+> (4) Når retten utvides etter både andre og tredje ledd, kan den likevel ikke settes med mer enn tre rettsmedlemmer.
+>
+> (5) Er rettsmedlemmene uenige i en sak med to rettsmedlemmer, settes retten med tre rettsmedlemmer.
+>
+> (6) Trygderettens leder kan beslutte at retten settes med tre eller fem rettsmedlemmer når det må antas at rettens avgjørelse kan bli bestemmende for praksis på et saksområde. Når retten skal settes med fem rettsmedlemmer, skal alle medlemmene være faste.
+>
+> (7) Administrator og de øvrige medlemmene av retten oppnevnes tilfeldig med mindre saklige grunner tilsier at dette må fravikes.
 >
 
 ## § 8
@@ -375,8 +460,16 @@ refid: "lov/1966-12-16-9"
 
 *§ 8 nytt femte ledd skal lyde:*
 
+> (5) Rettsmedlemmer og rettsfullmektiger må søke departementet om godkjenning for sidegjøremål i slike tilfeller som framgår av domstolloven § 121 c. Departementet fører register over sidegjøremål og siste stilling før utnevnelsen eller tilsettingen som rettsmedlem eller rettsfullmektig. Domstolloven § 121 e gjelder tilsvarende. Et rettsmedlem eller en rettsfullmektig skal melde fra om sidegjøremål snarest mulig og senest innen en måned etter at rettsmedlemmet eller rettsfullmektigen påtok seg sidegjøremålet. Enhver har rett til å gjøre seg kjent med opplysningene i registeret. Departementet bestemmer hvordan opplysninger skal gjøres tilgjengelige for den som ber om det.
+>
+
 ## § 9
 
 ### 2025-06-20 — lov/2025-06-20-38
 
 *§ 9 andre og tredje ledd skal lyde:*
+
+> (2) Har en part krevd å få oppgitt en begrunnelse for vedtaket etter forvaltningsloven § 24 andre ledd, avbrytes ankefristen. Tilsvarende avbrytes ankefristen for en part som har krevd å få oppgitt begrunnelse for vedtaket fra offentlig tjenestepensjonsordning. Ny ankefrist løper fra det tidspunkt meddelelse om begrunnelsen er kommet fram til vedkommende.
+>
+> (3) Trygderetten kan i særlige tilfeller forlenge ankefristen.
+>

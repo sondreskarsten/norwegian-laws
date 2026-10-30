@@ -32,13 +32,22 @@ refid: "lov/2018-06-08-28"
 
 > NOKUT er faglig uavhengig i følgende oppgaver:akkreditering av institusjoner, fagområder og fagskoleutdanningertilsyn med akkrediterte institusjoner, fagområder og fagskoleutdanningerevalueringer for å vurdere kvaliteten i høyere yrkesfaglig utdanning.
 >
-> akkreditering av institusjoner, fagområder og fagskoleutdanninger
->
-> tilsyn med akkrediterte institusjoner, fagområder og fagskoleutdanninger
->
-> evalueringer for å vurdere kvaliteten i høyere yrkesfaglig utdanning.
->
 > Departementet kan fastsette forskrift om saksbehandlingsregler for NOKUTs virksomhet.
+>
+
+### 2024-08-01 — forskrift/2024-05-31-873
+
+*Delt ikraftsetjing av lov 31. mai 2024 om endringar i lov 8. juni 2018 nr. 28 om fagskoler.*
+
+> Delt ikraftsetjing av lov 31. mai 2024 om endringar i lov 8. juni 2018 nr. 28 om fagskoler.
+>
+> Følgande tek til å gjelde 1. august 2024:
+>
+> Endringslova del I med unntak av § 14a.
+>
+> Følgande tek til å gjelde 1. august 2025:
+>
+> Endringslova del I § 14a.
 >
 
 ## § 14 a
@@ -69,9 +78,17 @@ refid: "lov/2018-06-08-28"
 
 *§ 14 a blir ny § 28 b og skal lyde:*
 
-> § 28 b.Nasjonalt studentombudFagskolestudenter skal ha tilgang til et nasjonalt studentombud.Studentombudet skal gi fagskolestudenter råd og hjelp i saker som er knyttet til studiesituasjonen, og bidra til å ivareta studentenes rettssikkerhet overfor fagskolen. Studentombudet kan ikke instrueres i sitt virke. Student-ombudet kan selv bestemme om det skal bistå en student i en sak.Studentombudet har ikke selv myndighet til å avgjøre saker.Ansettelse på åremål kan benyttes for studentombud. Åremålsperioden kan være fire til seks år. Ingen kan være ansatt på åremål etter denne bestemmelsen i en sammenhengende periode på mer enn tolv år.Departementet kan gi forskrift om studentombud.
+> § 28 b. Nasjonalt studentombud
 >
-> § 28 b.Nasjonalt studentombud
+> Fagskolestudenter skal ha tilgang til et nasjonalt studentombud.
+>
+> Studentombudet skal gi fagskolestudenter råd og hjelp i saker som er knyttet til studiesituasjonen, og bidra til å ivareta studentenes rettssikkerhet overfor fagskolen. Studentombudet kan ikke instrueres i sitt virke. Student-ombudet kan selv bestemme om det skal bistå en student i en sak.
+>
+> Studentombudet har ikke selv myndighet til å avgjøre saker.
+>
+> Ansettelse på åremål kan benyttes for studentombud. Åremålsperioden kan være fire til seks år. Ingen kan være ansatt på åremål etter denne bestemmelsen i en sammenhengende periode på mer enn tolv år.
+>
+> Departementet kan gi forskrift om studentombud.
 >
 
 ## § 15
@@ -112,9 +129,7 @@ refid: "lov/2018-06-08-28"
 
 *§ 16 overskriften skal lyde:*
 
-> § 16.Opptaksgrunnlag
->
-> § 16.Opptaksgrunnlag
+> § 16. Opptaksgrunnlag
 >
 
 ### 2024-05-31 — lov/2024-05-31-26
@@ -154,9 +169,13 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 16 b skal lyde:*
 
-> § 16 b.Gjennomføring av opptakDepartementet kan gi forskrift om en nasjonal samordning av opptaket til utdanninger ved fagskoler, og om nasjonale opptaksregler, blant annet om opptaksgrunnlag, rangering av søkerne og klagebehandling.Den nasjonale opptakstjenesten kan behandle personopplysninger om en søker når det er nødvendig for å behandle en søknad om opptak. Personopplysninger som er nevnt i personvernforordningen artikkel 9 og 10, kan behandles dersom den registrerte har gitt opplysningene eller tillatelse til å innhente dem.Departementet kan gi forskrift om behandlingen av personopplysninger ved gjennomføring av opptak, blant annet om formålet med behandlingen, om behandlingsansvar, om hvilke personopplysninger som kan behandles, om bruk av automatiserte avgjørelser, og om adgangen til innhenting, viderebehandling, utlevering og tilgang til personopplysninger.
+> § 16 b. Gjennomføring av opptak
 >
-> § 16 b.Gjennomføring av opptak
+> Departementet kan gi forskrift om en nasjonal samordning av opptaket til utdanninger ved fagskoler, og om nasjonale opptaksregler, blant annet om opptaksgrunnlag, rangering av søkerne og klagebehandling.
+>
+> Den nasjonale opptakstjenesten kan behandle personopplysninger om en søker når det er nødvendig for å behandle en søknad om opptak. Personopplysninger som er nevnt i personvernforordningen artikkel 9 og 10, kan behandles dersom den registrerte har gitt opplysningene eller tillatelse til å innhente dem.
+>
+> Departementet kan gi forskrift om behandlingen av personopplysninger ved gjennomføring av opptak, blant annet om formålet med behandlingen, om behandlingsansvar, om hvilke personopplysninger som kan behandles, om bruk av automatiserte avgjørelser, og om adgangen til innhenting, viderebehandling, utlevering og tilgang til personopplysninger.
 >
 
 ## § 17
@@ -171,9 +190,13 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 17 a skal lyde:*
 
-> § 17 a.StudiepoengStudiepoeng er en betegnelse på læringsutbytte og normert studietid. Det gis 60 studiepoeng for læringsutbytte oppnådd på bakgrunn av tilsvarende ett års bestått fagskoleutdanning på heltid. Ett års fagskoleutdanning på heltid tilsvarer normalt ti måneder.Dersom fagskoleutdanningen er inndelt i emner, skal hvert emne tildeles studiepoeng etter den relative vekten det har i arbeidsbelastning for studentene og læringsutbytte innenfor utdanningen. Studiepoeng skal brukes ved vurdering av godskriving av utdanning mellom fagskoler og i karakterutskrifter for gjennomførte emner fra fagskoleutdanning.Antallet oppnådde studiepoeng skal fremgå av vitnemål og annen dokumentasjon for fullført fagskoleutdanning.
+> § 17 a. Studiepoeng
 >
-> § 17 a.Studiepoeng
+> Studiepoeng er en betegnelse på læringsutbytte og normert studietid. Det gis 60 studiepoeng for læringsutbytte oppnådd på bakgrunn av tilsvarende ett års bestått fagskoleutdanning på heltid. Ett års fagskoleutdanning på heltid tilsvarer normalt ti måneder.
+>
+> Dersom fagskoleutdanningen er inndelt i emner, skal hvert emne tildeles studiepoeng etter den relative vekten det har i arbeidsbelastning for studentene og læringsutbytte innenfor utdanningen. Studiepoeng skal brukes ved vurdering av godskriving av utdanning mellom fagskoler og i karakterutskrifter for gjennomførte emner fra fagskoleutdanning.
+>
+> Antallet oppnådde studiepoeng skal fremgå av vitnemål og annen dokumentasjon for fullført fagskoleutdanning.
 >
 
 ## § 2
@@ -254,9 +277,13 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 28 a skal lyde:*
 
-> § 28 a.Permisjon fra utdanningStudenter har rett til permisjon fra utdanningen når de er i tjeneste etter forsvarsloven § 17, når de har verv i studentpolitiske eller folkevalgte organer, og når det foreligger andre særlige grunner. Studentene skal få permisjon så lenge behovet tilsier det, og behovet må kunne dokumenteres.I permisjonsperioden har studenten fortsatt studierett og rett til å gå opp til eksamen ved fagskolen.Fagskolene kan gi forskrift om permisjon.
+> § 28 a. Permisjon fra utdanning
 >
-> § 28 a.Permisjon fra utdanning
+> Studenter har rett til permisjon fra utdanningen når de er i tjeneste etter forsvarsloven § 17, når de har verv i studentpolitiske eller folkevalgte organer, og når det foreligger andre særlige grunner. Studentene skal få permisjon så lenge behovet tilsier det, og behovet må kunne dokumenteres.
+>
+> I permisjonsperioden har studenten fortsatt studierett og rett til å gå opp til eksamen ved fagskolen.
+>
+> Fagskolene kan gi forskrift om permisjon.
 >
 
 ## § 33
@@ -290,9 +317,11 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 39 a skal lyde:*
 
-> § 39 a.Fagskolenes behandling av personopplysningerFagskolene kan behandle personopplysninger om søkere og studenter når det er nødvendig for å utføre oppgaver etter denne loven. Fagskolene kan behandle personopplysninger som er nevnt i personvernforordningen artikkel 9 og 10, dersom det er nødvendig for å behandle saker etter §§ 25 og 26 eller den registrerte har gitt opplysningene eller tillatelse til å innhente dem.Departementet kan gi forskrift om fagskolenes behandling av personopplysninger, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles, bruk av automatiserte avgjørelser og om innhenting, viderebehandling, utlevering og tilgang til personopplysninger.
+> § 39 a. Fagskolenes behandling av personopplysninger
 >
-> § 39 a.Fagskolenes behandling av personopplysninger
+> Fagskolene kan behandle personopplysninger om søkere og studenter når det er nødvendig for å utføre oppgaver etter denne loven. Fagskolene kan behandle personopplysninger som er nevnt i personvernforordningen artikkel 9 og 10, dersom det er nødvendig for å behandle saker etter §§ 25 og 26 eller den registrerte har gitt opplysningene eller tillatelse til å innhente dem.
+>
+> Departementet kan gi forskrift om fagskolenes behandling av personopplysninger, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles, bruk av automatiserte avgjørelser og om innhenting, viderebehandling, utlevering og tilgang til personopplysninger.
 >
 
 ## § 4
@@ -336,9 +365,13 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 4 b skal lyde:*
 
-> § 4 b.NOKUTs myndighet, formål og faglig uavhengige oppgaverFormålet med virksomheten til Nasjonalt organ for kvalitet i utdanningen (NOKUT) etter denne loven er å bidra til at samfunnet kan ha tillit til kvaliteten i norsk høyere yrkesfaglig utdanning. I tillegg skal virksomheten stimulere til kvalitetsutvikling som sikrer fagskoleutdanning av høy kvalitet.NOKUTs styre er regulert i universitets- og høyskoleloven § 16-4.NOKUT er faglig uavhengig i følgende oppgaver:akkreditering av fagområder og fagskoleutdanningertilsyn med akkrediterte fagområder og fagskoleutdanningerevalueringer for å vurdere kvaliteten i høyere yrkesfaglig utdanning.
+> § 4 b. NOKUTs myndighet, formål og faglig uavhengige oppgaver
 >
-> § 4 b.NOKUTs myndighet, formål og faglig uavhengige oppgaver
+> Formålet med virksomheten til Nasjonalt organ for kvalitet i utdanningen (NOKUT) etter denne loven er å bidra til at samfunnet kan ha tillit til kvaliteten i norsk høyere yrkesfaglig utdanning. I tillegg skal virksomheten stimulere til kvalitetsutvikling som sikrer fagskoleutdanning av høy kvalitet.
+>
+> NOKUTs styre er regulert i universitets- og høyskoleloven § 16-4.
+>
+> NOKUT er faglig uavhengig i følgende oppgaver:akkreditering av fagområder og fagskoleutdanningertilsyn med akkrediterte fagområder og fagskoleutdanningerevalueringer for å vurdere kvaliteten i høyere yrkesfaglig utdanning.
 >
 
 ## § 41
@@ -397,9 +430,19 @@ refid: "lov/2018-06-08-28"
 
 *§ 5 skal lyde:*
 
-> § 5.Akkreditering og kvalitetssikringAkkreditering er et vedtak basert på en faglig vurdering av om en fagskole eller en fagskoleutdanning oppfyller vilkår gitt i eller med hjemmel i denne loven. Akkreditering er et vilkår for å kunne tilby fagskoleutdanning. Akkreditert fagskoleutdanning skal være i samsvar med Nasjonalt kvalifikasjonsrammeverk. NOKUT kan akkreditere utdanninger, fagområder og institusjoner.Fagskoler som får akkreditering for fagområde, har fullmakt til selv å opprette og endre fagskoleutdanninger innenfor disse fagområdene.Fagskoler som får institusjonsakkreditering, har fullmakt til selv å opprette og endre fagskoleutdanninger på alle fagområder.Dersom NOKUT avviser eller avslår en søknad om akkreditering, kan NOKUT i særskilte tilfeller bestemme at fagskolen mister retten til å få behandlet søknader om akkreditering i inntil to år.Fagskoler skal ha tilfredsstillende interne systemer for kvalitetssikring. Studentevalueringer skal inngå i disse systemene.Departementet gir forskrift omvilkår for akkreditering av fagskoleutdanningvilkår for akkreditering av fagområdevilkår for institusjonsakkrediteringkrav til kvalitetssikringssystemer og kvalitetsarbeid.
+> § 5. Akkreditering og kvalitetssikring
 >
-> § 5.Akkreditering og kvalitetssikring
+> Akkreditering er et vedtak basert på en faglig vurdering av om en fagskole eller en fagskoleutdanning oppfyller vilkår gitt i eller med hjemmel i denne loven. Akkreditering er et vilkår for å kunne tilby fagskoleutdanning. Akkreditert fagskoleutdanning skal være i samsvar med Nasjonalt kvalifikasjonsrammeverk. NOKUT kan akkreditere utdanninger, fagområder og institusjoner.
+>
+> Fagskoler som får akkreditering for fagområde, har fullmakt til selv å opprette og endre fagskoleutdanninger innenfor disse fagområdene.
+>
+> Fagskoler som får institusjonsakkreditering, har fullmakt til selv å opprette og endre fagskoleutdanninger på alle fagområder.
+>
+> Dersom NOKUT avviser eller avslår en søknad om akkreditering, kan NOKUT i særskilte tilfeller bestemme at fagskolen mister retten til å få behandlet søknader om akkreditering i inntil to år.
+>
+> Fagskoler skal ha tilfredsstillende interne systemer for kvalitetssikring. Studentevalueringer skal inngå i disse systemene.
+>
+> Departementet gir forskrift omvilkår for akkreditering av fagskoleutdanningvilkår for akkreditering av fagområdevilkår for institusjonsakkrediteringkrav til kvalitetssikringssystemer og kvalitetsarbeid.
 >
 
 ## § 5 a
@@ -408,9 +451,15 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 5 a skal lyde:*
 
-> § 5 a.Tilsynsmyndighet og fagskolenes ansvar ved tilsynNOKUT skal føre tilsyn med fagskolers kvalitetsarbeid og med at fagskoler oppfyller vilkårene for akkreditering.Fagskoler skal legge til rette for at NOKUT skal kunne utføre tilsyn. NOKUT kan kreve nødvendige og relevante opplysninger og redegjørelser for å kunne utføre tilsyn.Fagskolens styre skal iverksette tiltak for å sikre at de berørte studentene ved en fagskoleutdanning som blir nedlagt etter tilsyn, får gjennomført påbegynt utdanning på en tilfredsstillende måte. Tiltakene skal være godkjent av NOKUT.Departementet kan gi forskrift om NOKUTs tilsyn.
+> § 5 a. Tilsynsmyndighet og fagskolenes ansvar ved tilsyn
 >
-> § 5 a.Tilsynsmyndighet og fagskolenes ansvar ved tilsyn
+> NOKUT skal føre tilsyn med fagskolers kvalitetsarbeid og med at fagskoler oppfyller vilkårene for akkreditering.
+>
+> Fagskoler skal legge til rette for at NOKUT skal kunne utføre tilsyn. NOKUT kan kreve nødvendige og relevante opplysninger og redegjørelser for å kunne utføre tilsyn.
+>
+> Fagskolens styre skal iverksette tiltak for å sikre at de berørte studentene ved en fagskoleutdanning som blir nedlagt etter tilsyn, får gjennomført påbegynt utdanning på en tilfredsstillende måte. Tiltakene skal være godkjent av NOKUT.
+>
+> Departementet kan gi forskrift om NOKUTs tilsyn.
 >
 
 ## § 5 b
@@ -419,9 +468,13 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 5 b skal lyde:*
 
-> § 5 b.Tilsyn med kvalitetsarbeidVed tilsyn med fagskolens kvalitetsarbeid kan NOKUT pålegge fagskolen å rette opp forhold innen en gitt frist dersom kvalitetsarbeidet ikke er tilfredsstillende.Dersom forholdene fortsatt ikke er tilfredsstillende etter fristens utløp, kan NOKUT etter nytt tilsyn vedta at fagskolen ikke får behandlet nye søknader om akkreditering. NOKUT kan også trekke tilbake institusjonsakkrediteringen eller akkreditering av berørte fagområder og fagskoleutdanninger.Fagskolen kan kreve et nytt tilsyn med kvalitetsarbeidet ett år etter at vedtaket etter andre ledd ble fattet. Dersom NOKUT i tilsynet kommer til at forholdene er tilfredsstillende, får fagskolen tilbake akkrediteringene og kan igjen få behandlet søknad om akkreditering.
+> § 5 b. Tilsyn med kvalitetsarbeid
 >
-> § 5 b.Tilsyn med kvalitetsarbeid
+> Ved tilsyn med fagskolens kvalitetsarbeid kan NOKUT pålegge fagskolen å rette opp forhold innen en gitt frist dersom kvalitetsarbeidet ikke er tilfredsstillende.
+>
+> Dersom forholdene fortsatt ikke er tilfredsstillende etter fristens utløp, kan NOKUT etter nytt tilsyn vedta at fagskolen ikke får behandlet nye søknader om akkreditering. NOKUT kan også trekke tilbake institusjonsakkrediteringen eller akkreditering av berørte fagområder og fagskoleutdanninger.
+>
+> Fagskolen kan kreve et nytt tilsyn med kvalitetsarbeidet ett år etter at vedtaket etter andre ledd ble fattet. Dersom NOKUT i tilsynet kommer til at forholdene er tilfredsstillende, får fagskolen tilbake akkrediteringene og kan igjen få behandlet søknad om akkreditering.
 >
 
 ## § 5 c
@@ -430,9 +483,13 @@ refid: "lov/2018-06-08-28"
 
 *Ny § 5 c skal lyde:*
 
-> § 5 c.Tilsyn med akkrediteringVed tilsyn med om vilkårene for akkreditering er oppfylt, kan NOKUT pålegge fagskolen å rette mangelfulle forhold innen en gitt frist. For fagskoler med fagområde- eller institusjonsakkreditering kan NOKUT samtidig vedta at akkrediteringen midlertidig trekkes tilbake.Dersom fristen for å rette forholdene er utløpt og vilkårene fortsatt ikke er oppfylt, kan NOKUT etter nytt tilsyn trekke tilbake akkrediteringen. Dersom NOKUT vurderer at det er uforholdsmessig å trekke tilbake akkrediteringen, kan NOKUT i stedet vedta at fagskolen ikke får behandlet søknader om akkreditering i inntil ett år.Dersom en fagskole fratas en akkreditering etter denne paragrafen, kan NOKUT i særskilte tilfeller vedta at fagskolen ikke får behandlet nye søknader om akkreditering i inntil to år.
+> § 5 c. Tilsyn med akkreditering
 >
-> § 5 c.Tilsyn med akkreditering
+> Ved tilsyn med om vilkårene for akkreditering er oppfylt, kan NOKUT pålegge fagskolen å rette mangelfulle forhold innen en gitt frist. For fagskoler med fagområde- eller institusjonsakkreditering kan NOKUT samtidig vedta at akkrediteringen midlertidig trekkes tilbake.
+>
+> Dersom fristen for å rette forholdene er utløpt og vilkårene fortsatt ikke er oppfylt, kan NOKUT etter nytt tilsyn trekke tilbake akkrediteringen. Dersom NOKUT vurderer at det er uforholdsmessig å trekke tilbake akkrediteringen, kan NOKUT i stedet vedta at fagskolen ikke får behandlet søknader om akkreditering i inntil ett år.
+>
+> Dersom en fagskole fratas en akkreditering etter denne paragrafen, kan NOKUT i særskilte tilfeller vedta at fagskolen ikke får behandlet nye søknader om akkreditering i inntil to år.
 >
 
 ## § 7

@@ -46,6 +46,41 @@ refid: "lov/1981-12-18-90"
 
 *Nåværende § 8 blir ny § 12.*
 
+### 2013-07-01 — forskrift/2013-06-07-591
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
+
+### 2015-01-01 — forskrift/2014-12-12-1587
+
+*Loven trer i kraft 1. januar 2015.*
+
+> Loven trer i kraft 1. januar 2015.
+>
+
+### 2018-06-08 — lov/2018-06-08-26
+
+*I lov 18. desember 1981 nr. 90 om merking av forbruksvarer mv. skal § 9 første ledd lyde:*
+
+> EØS-avtalen vedlegg XX nr. 2 a (forordning (EF) nr. 66/2010, kommisjonsforordning (EU) nr. 782/2013 og kommisjonsforordning (EU) nr. 1941/2017 om EU-miljømerket gjelder som lov med de tilpasninger som følger av vedlegg XX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
+### 2018-07-01 — forskrift/2018-06-08-830
+
+*Loven trer i kraft 1. juli 2018.*
+
+> Loven trer i kraft 1. juli 2018.
+>
+
+### 2020-10-01 — forskrift/2020-08-28-1689
+
+*Lov 19. juni 2020 nr. 93 om endringar i lov 18. desember 1981 nr. 90 om merking av forbruksvarer mv. trer i kraft 1. oktober 2020.*
+
+> Lov 19. juni 2020 nr. 93 om endringar i lov 18. desember 1981 nr. 90 om merking av forbruksvarer mv. trer i kraft 1. oktober 2020.
+>
+
 ## § 1
 
 ### 2013-06-07 — lov/2013-06-07-28

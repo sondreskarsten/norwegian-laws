@@ -5,6 +5,15 @@ refid: "lov/1930-02-27-3"
 
 # Endringshistorikk: Bilandsloven
 
+## (annet)
+
+### 2004-02-27 — lov/2004-02-27-9
+
+*I lov 27. februar 1930 nr. 3 om Bouvet-øya, Peter I's øy og Dronning Maud Land m.m. skal § 2 nytt tredje ledd lyde:*
+
+> Kongen kan gi forskrifter om miljøvern på Bouvet-øya, Peter I's øy og Dronning Maud Land. Bestemmelsen i lov om Svalbard av 17. juli 1925 § 4 andre ledd får tilsvarende anvendelse.
+>
+
 ## § 7
 
 ### 2008-06-27 — lov/2008-06-27-68

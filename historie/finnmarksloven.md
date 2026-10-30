@@ -7,15 +7,65 @@ refid: "lov/2005-06-17-85"
 
 ## (annet)
 
+### 2014-03-28 — lov/2014-03-28-9
+
+*I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal § 19 lyde:*
+
+> § 19.Nasjonalparker på Finnmarkseiendommens grunn
+>
+> Grunn som Finnmarkseiendommen eier, kan legges ut som nasjonalpark etter reglene i naturmangfoldloven kapittel V. Ved utformingen av bruksregler skal det legges vekt på at tradisjonell bruk kan videreføres. Finnmarkseiendommen og bruksrettshavere som berøres, kan kreve erstatning for økonomisk tap etter reglene i naturmangfoldloven § 50.
+>
+
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal § 13 annet ledd første punktum lyde:*
+
+> Regnskapet skal revideres av registrert eller statsautorisert revisor.
+>
+
+### 2016-12-16 — lov/2016-12-16-93
+
+*I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke skal § 43 første til fjerde ledd lyde:*
+
+> Staten dekker utgiftene til utmarksdomstolens egen virksomhet.
+>
+> Staten dekker partenes nødvendige kostnader i saken i tilfeller der Finnmarkseiendommen har motsatt seg en konklusjon fra Finnmarkskommisjonen om at en privat part har rettigheter til grunnen, og den private part reiser sak mot Finnmarkseiendommen. For øvrig dekker staten den private parts nødvendige kostnader dersom Finnmarkseiendommen reiser sak, og Finnmarkseiendommens nødvendige kostnader dersom den private part reiser sak.
+>
+> I tilfeller der Finnmarkskommisjonen ikke har funnet at en privat part har rettigheter til grunnen, og den private part vil reise sak mot Finnmarkseiendommen, kan Utmarksdomstolen bestemme at staten skal dekke den private parts nødvendige kostnader. Det skal gis kostnadsdekning dersom det er grunn til å tro at søksmålet kan føre frem. Videre kan det gis kostnadsdekning dersom sakens betydning for parten, sakens betydning utenfor den foreliggende sak eller andre hensyn tilsier det. Utmarksdomstolen kan både før stevning er inngitt og i løpet av saksforberedelsen treffe avgjørelse om at staten skal dekke kostnadene. Staten dekker partens nødvendige kostnader ved å fremme krav om kostnadsdekning.
+>
+> I tilfeller der staten dekker den private parts kostnader, dekker staten også den private parts eventuelle kostnadsansvar overfor Finnmarkseiendommen med mindre sjette ledd annet eller tredje punktum kommer til anvendelse.
+>
+
 ### 2016-12-16 — lov/2016-12-16-93
 
 *Nåværende andre, tredje og fjerde ledd blir nye femte, sjette og syvende ledd.*
+
+### 2017-01-01 — forskrift/2016-12-16-1609
+
+*Loven gjelder fra 1. januar 2017.*
+
+> Loven gjelder fra 1. januar 2017.
+>
+
+### 2020-01-01 — forskrift/2019-12-20-1927
+
+*Loven trer i kraft 1. januar 2020.*
+
+> Loven trer i kraft 1. januar 2020.
+>
 
 ### 2022-05-12 — lov/2022-05-12-28
 
 *6.I lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark skal § 46 andre ledd nytt andre punktum lyde:*
 
 > Advokatloven § 27 andre ledd gjelder ikke for advokater som konstitueres som medlemmer av Utmarksdomstolen.
+>
+
+### 2024-01-01 — forskrift/2023-06-09-806
+
+*Lova trer i kraft 1. januar 2024.*
+
+> Lova trer i kraft 1. januar 2024.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46

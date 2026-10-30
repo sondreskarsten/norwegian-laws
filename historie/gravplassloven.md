@@ -18,6 +18,13 @@ refid: "lov/1996-06-07-32"
 > § 1.Grunnleggende bestemmelser
 >
 
+### 2022-07-01 — forskrift/2022-06-17-1036
+
+*Loven tek til å gjelde 1. juli 2022.*
+
+> Loven tek til å gjelde 1. juli 2022.
+>
+
 ### 2023-06-16 — lov/2023-06-16-40
 
 *Noverande § 26 a blir ny § 29.*
@@ -25,6 +32,15 @@ refid: "lov/1996-06-07-32"
 ### 2023-06-16 — lov/2023-06-16-40
 
 *Noverande §§ 26, 27 og 28 blir nye §§ 30 til 32.*
+
+### 2024-07-01 — forskrift/2024-06-14-955
+
+*Delt ikraftsetjing av lov 16. juni 2023 nr. 40 om endringar i gravplassloven m.m. (digitalisering av gravferdsmeldinga og behandling av personopplysningar). Følgjande tek til å gjelde 1. juli 2024:*
+
+> Delt ikraftsetjing av lov 16. juni 2023 nr. 40 om endringar i gravplassloven m.m. (digitalisering av gravferdsmeldinga og behandling av personopplysningar). Følgjande tek til å gjelde 1. juli 2024:
+>
+> Endringane i gravplassloven §§ 23a og 25 til 28 og nye §§ 25 og 26 under del I.
+>
 
 ## § 1
 

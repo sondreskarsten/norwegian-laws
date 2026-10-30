@@ -497,9 +497,9 @@ refid: "lov/2003-12-05-100"
 
 *§ 5-2 skal lyde:*
 
-> § 5-2.Anvendelse av genetiske undersøkelserGenetiske undersøkelser som nevnt i § 5-1 annet ledd bokstav a til c skal bare anvendes til medisinske formål med diagnostiske eller behandlingsmessige siktemål.
+> § 5-2. Anvendelse av genetiske undersøkelser
 >
-> § 5-2.Anvendelse av genetiske undersøkelser
+> Genetiske undersøkelser som nevnt i § 5-1 annet ledd bokstav a til c skal bare anvendes til medisinske formål med diagnostiske eller behandlingsmessige siktemål.
 >
 
 ## § 5-3
@@ -523,9 +523,11 @@ refid: "lov/2003-12-05-100"
 
 *Ny § 5-7 a skal lyde:*
 
-> § 5-7 a.Forbud mot genetiske undersøkelser av barn utenfor helsetjenestenGenetiske undersøkelser som nevnt i § 5-1, er forbudt å utføre på barn under 16 år uten rekvisisjon fra lege. Forbudet omfatter også bestilling og salg av slik undersøkelse til barn under 16 år.Departementet kan i særlige tilfeller gjøre unntak fra forbudet i første ledd.
+> § 5-7 a. Forbud mot genetiske undersøkelser av barn utenfor helsetjenesten
 >
-> § 5-7 a.Forbud mot genetiske undersøkelser av barn utenfor helsetjenesten
+> Genetiske undersøkelser som nevnt i § 5-1, er forbudt å utføre på barn under 16 år uten rekvisisjon fra lege. Forbudet omfatter også bestilling og salg av slik undersøkelse til barn under 16 år.
+>
+> Departementet kan i særlige tilfeller gjøre unntak fra forbudet i første ledd.
 >
 
 ## § 5-8
@@ -656,9 +658,11 @@ refid: "lov/2003-12-05-100"
 
 *§ 7-5 skal lyde:*
 
-> § 7-5.StraffDen som overtrer loven eller bestemmelser gitt i medhold av loven straffes med bøter eller fengsel i inntil tre måneder.Straff etter første ledd kommer ikke til anvendelse på privatpersoner som søker eller benytter tilbud som er i strid med denne loven. Privatpersoner som overtrer § 5-7 a eller § 5-8 tredje ledd, straffes med bøter. Donasjon av egg, sæd eller befruktede egg, deltakelse i forskning og overtredelse av § 2-7 første ledd er ikke straffbart.
+> § 7-5. Straff
 >
-> § 7-5.Straff
+> Den som overtrer loven eller bestemmelser gitt i medhold av loven straffes med bøter eller fengsel i inntil tre måneder.
+>
+> Straff etter første ledd kommer ikke til anvendelse på privatpersoner som søker eller benytter tilbud som er i strid med denne loven. Privatpersoner som overtrer § 5-7 a eller § 5-8 tredje ledd, straffes med bøter. Donasjon av egg, sæd eller befruktede egg, deltakelse i forskning og overtredelse av § 2-7 første ledd er ikke straffbart.
 >
 
 ## (annet)
@@ -735,6 +739,13 @@ refid: "lov/2003-12-05-100"
 
 *Nåværende andre ledd blir nytt tredje ledd.*
 
+### 2013-07-01 — forskrift/2013-06-21-702
+
+*Loven trer i kraft fra 1. juli 2013.*
+
+> Loven trer i kraft fra 1. juli 2013.
+>
+
 ### 2020-06-19 — lov/2020-06-19-78
 
 *§§ 2A-5–2A-7 oppheves.*
@@ -743,6 +754,20 @@ refid: "lov/2003-12-05-100"
 
 *Nåværende § 2A-8 blir § 2A-5.*
 
+### 2020-07-01 — forskrift/2020-06-19-1274
+
+*Delt ikraftsetting av loven. Loven del I, endringene i bioteknologiloven § 2-11 tredje og fjerde ledd og § 2-19 første ledd, trer i kraft 1. juli 2020.*
+
+> Delt ikraftsetting av loven. Loven del I, endringene i bioteknologiloven § 2-11 tredje og fjerde ledd og § 2-19 første ledd, trer i kraft 1. juli 2020.
+>
+
+### 2020-12-04 — lov/2020-12-04-134
+
+*I lov 5. desember 2003 nr. 100 om humanmedisinsk bruk av bioteknologi m.m. skal § 2A-6 første ledd annet punktum lyde:*
+
+> Dette gjelder uavhengig av om vilkårene i pasient- og brukerrettighetsloven § 2-4 a annet ledd bokstav a er oppfylt.
+>
+
 ### 2025-06-20 — lov/2025-06-20-68
 
 *Noverande tredje til femte ledd blir nye femte til sjuande ledd.*
@@ -750,6 +775,13 @@ refid: "lov/2003-12-05-100"
 ### 2025-06-20 — lov/2025-06-20-68
 
 *Noverande tredje til femte ledd blir fjerde til nytt sjette ledd.*
+
+### 2025-10-01 — forskrift/2025-06-20-1124
+
+*Loven trer i kraft 1. oktober 2025.*
+
+> Loven trer i kraft 1. oktober 2025.
+>
 
 ## § 28
 

@@ -5,6 +5,15 @@ refid: "lov/1948-11-04-1"
 
 # Endringshistorikk: Kunstavgiftsloven
 
+## (annet)
+
+### 2018-12-20 — lov/2018-12-20-120
+
+*I lov 4. november 1948 nr. 1 om avgift på omsetning av billedkunst m.m. skal § 1 sjette ledd lyde:*
+
+> Unntatt fra avgiftsplikten er omsetning som omfattes av åndsverkloven §§ 59, 60 og 61.
+>
+
 ## § 1
 
 ### 2006-12-22 — lov/2006-12-22-102

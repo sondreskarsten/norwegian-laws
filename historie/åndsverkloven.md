@@ -7,6 +7,20 @@ refid: "lov/2018-06-15-40"
 
 ## (annet)
 
+### 2021-07-01 — forskrift/2021-06-04-1779
+
+*Loven trer i kraft 1. juli 2021.*
+
+> Loven trer i kraft 1. juli 2021.
+>
+
+### 2021-09-01 — forskrift/2021-08-26-2609
+
+*Delt ikraftsetting av lov 28. mai 2021 nr. 49 om kollektiv forvaltning av opphavsrett mv. Loven § 56 om opphevelse av åndsverkloven § 118 andre ledd andre punktum trer i kraft 1. september 2021.*
+
+> Delt ikraftsetting av lov 28. mai 2021 nr. 49 om kollektiv forvaltning av opphavsrett mv. Loven § 56 om opphevelse av åndsverkloven § 118 andre ledd andre punktum trer i kraft 1. september 2021.
+>
+
 ### 2024-06-21 — lov/2024-06-21-52
 
 *I lov 15. juni 2018 nr. 40 om opphavsrett til åndsverk mv. skal § 33 andre ledd lyde:*

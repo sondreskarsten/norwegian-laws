@@ -5,6 +5,15 @@ refid: "lov/1990-04-27-9"
 
 # Endringshistorikk: Fiskeeksportloven – fiskeekspl
 
+## (annet)
+
+### 2023-07-01 — forskrift/2023-05-26-729
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
 ## § 1
 
 ### 2023-05-26 — lov/2023-05-26-15

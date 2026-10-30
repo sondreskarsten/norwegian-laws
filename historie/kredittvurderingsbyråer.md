@@ -7,6 +7,13 @@ refid: "lov/2014-06-20-30"
 
 ## (annet)
 
+### 2015-01-01 — forskrift/2014-06-26-867
+
+*Lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer trer i kraft 1. januar 2015.*
+
+> Lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer trer i kraft 1. januar 2015.
+>
+
 ### 2016-12-16 — lov/2016-12-16-91
 
 *Overskriften i § 1 skal lyde:*
@@ -53,13 +60,22 @@ refid: "lov/2014-06-20-30"
 > Departementet kan i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i § 1 til gjennomføring av Norges forpliktelser etter EØS-avtalen.
 >
 
+### 2021-04-23 — lov/2021-04-23-22
+
+*I lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer skal § 1 lyde:*
+
+> § 1.EØS-regler om kredittvurderingsbyråer
+>
+> EØS-avtalen vedlegg IX nr. 31eb (forordning (EF) nr. 1060/2009) om kredittvurderingsbyråer (kredittvurderingsbyråforordningen) som endret ved forordning (EU) nr. 513/2011, direktiv 2011/61/EU, forordning (EU) nr. 462/2013 og forordning (EU) 2017/2402, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+>
+
 ### 2025-05-27 — lov/2025-05-27-18
 
 *4.I lov 20. juni 2014 nr. 30 om kredittvurderingsbyråer skal § 1 lyde:*
 
-> § 1.EØS-regler om kredittvurderingsbyråerEØS-avtalen vedlegg IX nr. 31eb (forordning (EF) nr. 1060/2009) om kredittvurderingsbyråer (kredittvurderingsbyråforordningen), som endret ved forordning (EU) nr. 513/2011, direktiv 2011/61/EU, forordning (EU) nr. 462/2013 og forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
+> § 1. EØS-regler om kredittvurderingsbyråer
 >
-> § 1.EØS-regler om kredittvurderingsbyråer
+> EØS-avtalen vedlegg IX nr. 31eb (forordning (EF) nr. 1060/2009) om kredittvurderingsbyråer (kredittvurderingsbyråforordningen), som endret ved forordning (EU) nr. 513/2011, direktiv 2011/61/EU, forordning (EU) nr. 462/2013 og forordning (EU) 2022/2554, jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1, gjelder som lov med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.
 >
 
 ### 2026-06-19 — lov/2026-06-19-40

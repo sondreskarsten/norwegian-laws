@@ -13,9 +13,43 @@ refid: "lov/2001-06-15-59"
 
 ## (annet)
 
+### 2003-09-08 — lov/2003-09-05-92
+
+*I lov 15. juni 2001 nr. 59 om stiftelser (stiftelsesloven) skal § 52 andre ledd lyde:*
+
+> Stiftelsestilsynet skal kunngjøre vedtaket om å oppheve stiftelsen. I kunngjøringen skal stiftelsens kreditorer varsles om at de må melde sine krav til avviklingsstyrets leder innen to måneder fra kunngjøringen i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon. Navn og adresse til avviklingsstyrets leder skal fremgå av kunngjøringen. Kunngjøringen skal rykkes inn i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og to ganger med minst en ukes mellomrom i en avis som er alminnelig lest på stedet. Kunngjøringen i avisen kan gjengis i kortform med henvisning til den elektroniske kunngjøringen. Alle kreditorer med kjent adresse skal så vidt mulig ha særskilt varsel.
+>
+
+### 2004-12-17 — lov/2004-12-17-93
+
+*I lov 15. juni 2001 nr. 59 om stiftelser skal § 7 lyde:*
+
+> Stiftelsestilsynet fører tilsyn med stiftelser. Stiftelsestilsynets oppgaver er:å føre et stiftelsesregister der alle stiftelser skal være registrert, jf. § 8,å føre tilsyn og kontroll med at forvaltningen av stiftelsene skjer i samsvar med stiftelsens vedtekter og denne lov,å treffe vedtak med hjemmel i denne lov.
+>
+> Stiftelsen, dens tillitsvalgte og ansatte og stiftelsens revisor har plikt til å gi Stiftelsestilsynet de opplysninger og annen bistand som er nødvendig for at Stiftelsestilsynet skal kunne gjennomføre sine oppgaver etter loven. Revisors taushetsplikt gjelder ikke i forhold til Stiftelsestilsynet.
+>
+> Kongen kan gi forskrift om Stiftelsestilsynets organisasjon og virksomhet og om registrering av stiftelser. Det kan kreves gebyr for registrering av stiftelser i Stiftelsesregisteret, og stiftelsene kan ilegges en årlig avgift. Kongen kan gi forskrift om når gebyr og avgift skal kreves, om størrelsen og om innkrevingen av disse.
+>
+> Gebyrene og avgiftene er tvangsgrunnlag for utlegg. Når Statens Innkrevingssentral er pålagt å innkreve gebyrer og avgifter som nevnt i tredje ledd, kan gebyrene og avgiftene innkreves ved trekk i lønn og andre lignende ytelser etter reglene i dekningsloven § 2-7. Innkrevingssentralen kan også innkreve gebyrene og avgiftene ved å stifte utleggspant for kravet dersom panteretten kan gis rettsvern ved registrering i et register eller ved underretning til tredjeperson, jf. panteloven kapittel 5, og utleggsforretningen kan holdes på Innkrevingssentralens kontor etter tvangsfullbyrdelsesloven § 7-9 første ledd.
+>
+
 ### 2007-06-15 — lov/2007-06-15-36
 
 *Nåværende bokstav h blir ny bokstav i.*
+
+### 2018-11-23 — lov/2018-11-23-89
+
+*I lov 15. juni 2001 nr. 59 om stiftelser skal § 7 nytt femte ledd lyde:*
+
+> Stiftelsestilsynet kan, uten hinder av taushetsplikt, innhente opplysninger fra Folkeregisteret når det er nødvendig for å løse oppgaver etter stiftelsesloven, arveloven og dekningsloven.
+>
+
+### 2018-11-23 — forskrift/2018-11-23-1745
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
 
 ### 2022-12-16 — lov/2022-12-16-93
 
@@ -50,6 +84,13 @@ refid: "lov/2001-06-15-59"
 > § 55 e.Ikrafttredelse av opphevelsen
 >
 > Når vedtaket om opphevelse er registrert i Stiftelsesregisteret, inntrer følgende virkninger:stiftelsen er opphevetstiftelsens eiendeler, rettigheter og forpliktelser er overført til kommunenandre virkninger som er bestemt i rapporten etter § 55 c.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2247
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
 >
 
 ### 2024-04-12 — lov/2024-04-12-17
@@ -146,9 +187,15 @@ refid: "lov/2001-06-15-59"
 
 *§ 27 a skal lyde:*
 
-> § 27 a.Krav til kjønnssammensetning i styret(1) Bestemmelsene i denne paragrafen gjelder for næringsdrivende stiftelser, stiftelser som etter vedtektene har utdeling til formål og stiftelser der staten, en fylkeskommune eller kommune skal oppnevne ett eller flere styremedlemmer.(2) Har styret tre eller flere medlemmer, skal kjønnssammensetningen i styret oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.(3) Annet ledd gjelder tilsvarende for varamedlemmer.(4) For styremedlemmer som de ansatte etter lov skal velge, gjelder kravene til kjønnssammensetning i § 27 b.
+> § 27 a. Krav til kjønnssammensetning i styret
 >
-> § 27 a.Krav til kjønnssammensetning i styret
+> (1) Bestemmelsene i denne paragrafen gjelder for næringsdrivende stiftelser, stiftelser som etter vedtektene har utdeling til formål og stiftelser der staten, en fylkeskommune eller kommune skal oppnevne ett eller flere styremedlemmer.
+>
+> (2) Har styret tre eller flere medlemmer, skal kjønnssammensetningen i styret oppfylle følgende krav:Har styret tre eller fire medlemmer, kan maksimalt to styremedlemmer ha samme kjønn.Har styret fem eller seks medlemmer, kan maksimalt tre styremedlemmer ha samme kjønn.Har styret syv medlemmer, kan maksimalt fire styremedlemmer ha samme kjønn.Har styret åtte medlemmer, kan maksimalt fem styremedlemmer ha samme kjønn.Har styret ni eller flere medlemmer, kan maksimalt 60 prosent av styremedlemmene ha samme kjønn.
+>
+> (3) Annet ledd gjelder tilsvarende for varamedlemmer.
+>
+> (4) For styremedlemmer som de ansatte etter lov skal velge, gjelder kravene til kjønnssammensetning i § 27 b.
 >
 
 ## § 27 b
@@ -157,9 +204,13 @@ refid: "lov/2001-06-15-59"
 
 *Ny § 27 b skal lyde:*
 
-> § 27 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte(1) Denne paragrafen gjelder for næringsdrivende stiftelser, stiftelser som etter vedtektene har utdeling til formål og stiftelser der staten, en fylkeskommune eller kommune skal oppnevne ett eller flere styremedlemmer.(2) Dersom det etter lov skal velges styremedlemmer blant de ansatte, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i stiftelsen på tidspunktet valget skjer, har samme kjønn.(3) For stiftelser med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som etter lov velges av og blant de ansatte, oppfylle kravene i § 27 a annet og tredje ledd, likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse ha styremedlemmene ha samme kjønn.
+> § 27 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
 >
-> § 27 b.Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte
+> (1) Denne paragrafen gjelder for næringsdrivende stiftelser, stiftelser som etter vedtektene har utdeling til formål og stiftelser der staten, en fylkeskommune eller kommune skal oppnevne ett eller flere styremedlemmer.
+>
+> (2) Dersom det etter lov skal velges styremedlemmer blant de ansatte, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i stiftelsen på tidspunktet valget skjer, har samme kjønn.
+>
+> (3) For stiftelser med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som etter lov velges av og blant de ansatte, oppfylle kravene i § 27 a annet og tredje ledd, likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse ha styremedlemmene ha samme kjønn.
 >
 
 ## § 27 c
@@ -168,9 +219,9 @@ refid: "lov/2001-06-15-59"
 
 *Ny § 27 c skal lyde:*
 
-> § 27 c.Krav til registrering av opplysninger om kjønnssammensetning i styretFor stiftelser som ikke er registrert i Foretaksregisteret, skal det registreres i Enhetsregisteret om stiftelsen er underlagt krav til kjønnssammensetning i styret etter § 27 a og § 27 b. Enhetsregisteret skal i så fall også inneholde opplysninger om styremedlemmenes og varamedlemmenes kjønn og opplysninger om medlemmet er valgt av og blant de ansatte. For stiftelser som er registrert i Foretaksregisteret, gjelder foretaksregisterloven § 3-2 tredje ledd.
+> § 27 c. Krav til registrering av opplysninger om kjønnssammensetning i styret
 >
-> § 27 c.Krav til registrering av opplysninger om kjønnssammensetning i styret
+> For stiftelser som ikke er registrert i Foretaksregisteret, skal det registreres i Enhetsregisteret om stiftelsen er underlagt krav til kjønnssammensetning i styret etter § 27 a og § 27 b. Enhetsregisteret skal i så fall også inneholde opplysninger om styremedlemmenes og varamedlemmenes kjønn og opplysninger om medlemmet er valgt av og blant de ansatte. For stiftelser som er registrert i Foretaksregisteret, gjelder foretaksregisterloven § 3-2 tredje ledd.
 >
 
 ## § 31
@@ -216,12 +267,6 @@ refid: "lov/2001-06-15-59"
 *§ 45 tredje ledd første punktum skal lyde:*
 
 > Reglene om omdanning i dette kapitlet gjelder ikke forforhøyelse og nedsetting av grunnkapital,vedtektsendring som er nødvendig for å bringe vedtektene i samsvar med de krav som gjelder for næringsdrivende stiftelser,vedtektsendring som er nødvendig for å bringe vedtektene i samsvar med § 10 tredje ledd om navn til alminnelige stiftelser.
->
-> forhøyelse og nedsetting av grunnkapital,
->
-> vedtektsendring som er nødvendig for å bringe vedtektene i samsvar med de krav som gjelder for næringsdrivende stiftelser,
->
-> vedtektsendring som er nødvendig for å bringe vedtektene i samsvar med § 10 tredje ledd om navn til alminnelige stiftelser.
 >
 
 ## § 52
@@ -303,6 +348,13 @@ refid: "lov/2001-06-15-59"
 > Stiftelsesklagenemnda er klageinstans for Stiftelsestilsynets avgjørelser om sakskostnader etter forvaltningsloven § 36. Nemndas avgjørelser om sakskostnader kan ikke påklages.
 >
 > Departementet kan gi forskrift med nærmere bestemmelser om Stiftelsesklagenemndas sammensetning, organisering og arbeid og om nemndas sekretariat. Departementet kan gi nærmere overgangsregler for nemndsbehandling av klager fremsatt før lovendringen trer i kraft. Stiftelsesklagenemnda finansieres gjennom den årlige avgiften stiftelsene betaler etter forskrift gitt i medhold av § 7 tredje ledd.
+>
+
+### 2015-07-01 — forskrift/2015-06-19-679
+
+*Ny § 7 a i stiftelsesloven om opprettelse av en stiftelsesklagenemnd trer i kraft fra 1. juli 2015.*
+
+> Ny § 7 a i stiftelsesloven om opprettelse av en stiftelsesklagenemnd trer i kraft fra 1. juli 2015.
 >
 
 ### 2023-06-16 — lov/2023-06-16-67

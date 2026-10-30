@@ -7,6 +7,13 @@ refid: "lov/2003-11-28-98"
 
 ## (annet)
 
+### 2008-06-06 — lov/2008-06-06-39
+
+*I lov 28. november 2003 nr. 98 om konsesjon ved erverv av fast eiendom (konsesjonsloven) mv. skal § 14 nytt andre ledd lyde:*
+
+> Departementet kan i forskrift fastsette krav til faglige kvalifikasjoner hos personell som forestår drift av mineralforekomster etter denne lov, samt regler om godkjenning av tilsvarende kompetanse for borgere fra EØS-området.
+>
+
 ### 2024-12-06 — lov/2024-12-06-74
 
 *I lov 28. november 2003 nr. 98 om konsesjon ved erverv av fast eiendom mv. skal § 2 første ledd lyde:*
@@ -21,6 +28,19 @@ refid: "lov/2003-11-28-98"
 > som har sitt grunnlag i ekspropriasjonstillatelse etter lov om mineralvirksomhet og forvaltning av mineralressurser (mineralloven) § 9-1 første ledd bokstav d og e.
 >
 > som er nødvendig for drift på mineralsk forekomst når erververen sender søknad om driftskonsesjon etter lov om mineralvirksomhet og forvaltning av mineralressurser (mineralloven) §§ 6-2 og 6-3 og driftskonsesjon innvilges.
+>
+
+### 2025-07-01 — forskrift/2025-06-06-942
+
+*Delt ikraftsetting av lov om endringer i konsesjonsloven (priskontroll på skogeiendommer, konsesjon til selskaper med begrenset ansvar og stiftelser m.m.). Følgende trer i kraft 1. juli 2025:*
+
+> Delt ikraftsetting av lov om endringer i konsesjonsloven (priskontroll på skogeiendommer, konsesjon til selskaper med begrenset ansvar og stiftelser m.m.). Følgende trer i kraft 1. juli 2025:
+>
+> Endringsloven § 8, § 9 tredje ledd, § 9a, § 10 første ledd første punktum, § 12 første ledd første punktum, § 15a og § 17a.
+>
+> Delt ikraftsetting av lov om endringer i konsesjonsloven (priskontroll på skogeiendommer, konsesjon til selskaper med begrenset ansvar og stiftelser m.m.). Følgende trer i kraft 1. januar 2026:
+>
+> Endringsloven § 4 første ledd nr. 1 og 2 og § 4 andre til fjerde ledd.
 >
 
 ## § 10
@@ -76,9 +96,9 @@ refid: "lov/2003-11-28-98"
 
 *Ny § 15 a skal lyde:*
 
-> § 15 a.(konsesjonsrisiko)Er en søknad om konsesjon avslått, og avslaget helt eller delvis er begrunnet i at den avtalte prisen er for høy, kan avtalen om overdragelse ikke gjøres gjeldende mellom partene eller overfor offentlige myndigheter. Det samme gjelder når erververen er et selvstendig rettssubjekt som nevnt i § 9 tredje ledd første punktum, og avslaget helt eller delvis er begrunnet i eierformen.
+> § 15 a. (konsesjonsrisiko)
 >
-> § 15 a.(konsesjonsrisiko)
+> Er en søknad om konsesjon avslått, og avslaget helt eller delvis er begrunnet i at den avtalte prisen er for høy, kan avtalen om overdragelse ikke gjøres gjeldende mellom partene eller overfor offentlige myndigheter. Det samme gjelder når erververen er et selvstendig rettssubjekt som nevnt i § 9 tredje ledd første punktum, og avslaget helt eller delvis er begrunnet i eierformen.
 >
 
 ## § 17
@@ -96,9 +116,11 @@ refid: "lov/2003-11-28-98"
 
 *Ny § 17 a skal lyde:*
 
-> § 17 a.(forholdet til folkeregisterloven)Kommunen og statsforvalteren kan uten hinder av taushetsplikt innhente opplysninger fra folkeregistermyndigheten som er nødvendige for å utføre oppgaver etter denne loven eller oppgaver som er fastsatt i medhold av loven.For å sikre en effektiv håndhevelse av boplikten kan Kongen gi forskrift om samarbeidet mellom kommunen, statsforvalteren og folkeregistermyndigheten.
+> § 17 a. (forholdet til folkeregisterloven)
 >
-> § 17 a.(forholdet til folkeregisterloven)
+> Kommunen og statsforvalteren kan uten hinder av taushetsplikt innhente opplysninger fra folkeregistermyndigheten som er nødvendige for å utføre oppgaver etter denne loven eller oppgaver som er fastsatt i medhold av loven.
+>
+> For å sikre en effektiv håndhevelse av boplikten kan Kongen gi forskrift om samarbeidet mellom kommunen, statsforvalteren og folkeregistermyndigheten.
 >
 
 ## § 18
@@ -286,9 +308,9 @@ refid: "lov/2003-11-28-98"
 
 *§ 8 skal lyde:*
 
-> § 8.(forskrift om krav til opplysninger etter §§ 4, 5 og 7)Departementet kan gi forskrift om hvilke opplysninger som må foreligge for at et erverv kan sies å gå inn under §§ 4, 5 og 7, og om hva som er fulldyrka og overflatedyrka jord etter § 4 første ledd nr. 4 og § 5 annet ledd.
+> § 8. (forskrift om krav til opplysninger etter §§ 4, 5 og 7)
 >
-> § 8.(forskrift om krav til opplysninger etter §§ 4, 5 og 7)
+> Departementet kan gi forskrift om hvilke opplysninger som må foreligge for at et erverv kan sies å gå inn under §§ 4, 5 og 7, og om hva som er fulldyrka og overflatedyrka jord etter § 4 første ledd nr. 4 og § 5 annet ledd.
 >
 
 ## § 9
@@ -342,7 +364,11 @@ refid: "lov/2003-11-28-98"
 
 *§ 9 a skal lyde:*
 
-> § 9 a.(priskontroll ved erverv av landbrukseiendom)Ved avgjørelse av en søknad om konsesjon på erverv av eiendom som skal nyttes til landbruksformål, skal det, i tillegg til momentene som er nevnt i § 9, legges særlig vekt på om den avtalte prisen tilgodeser en samfunnsmessig forsvarlig prisutvikling. For bebygd eiendom gjelder første punktum bare dersom eiendommen har mer enn 35 dekar fulldyrka og overflatedyrka jord, eller dersom den består av mer enn 500 dekar produktiv skog.Eieren av en eiendom som er omfattet av priskontroll etter første ledd, kan kreve en bindende forhåndsuttalelse fra konsesjonsmyndigheten om hvor høy pris som kan godtas.Departementet kan gi forskrift om at prisvurderingen etter første ledd skal unnlates ved erverv av bebygd eiendom med et brukbart bolighus, dersom den avtalte prisen ikke overstiger en fastsatt beløpsgrense.
+> § 9 a. (priskontroll ved erverv av landbrukseiendom)
 >
-> § 9 a.(priskontroll ved erverv av landbrukseiendom)
+> Ved avgjørelse av en søknad om konsesjon på erverv av eiendom som skal nyttes til landbruksformål, skal det, i tillegg til momentene som er nevnt i § 9, legges særlig vekt på om den avtalte prisen tilgodeser en samfunnsmessig forsvarlig prisutvikling. For bebygd eiendom gjelder første punktum bare dersom eiendommen har mer enn 35 dekar fulldyrka og overflatedyrka jord, eller dersom den består av mer enn 500 dekar produktiv skog.
+>
+> Eieren av en eiendom som er omfattet av priskontroll etter første ledd, kan kreve en bindende forhåndsuttalelse fra konsesjonsmyndigheten om hvor høy pris som kan godtas.
+>
+> Departementet kan gi forskrift om at prisvurderingen etter første ledd skal unnlates ved erverv av bebygd eiendom med et brukbart bolighus, dersom den avtalte prisen ikke overstiger en fastsatt beløpsgrense.
 >

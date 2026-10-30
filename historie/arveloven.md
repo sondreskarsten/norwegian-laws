@@ -7,6 +7,20 @@ refid: "lov/2019-06-14-21"
 
 ## (annet)
 
+### 2021-01-01 — forskrift/2020-02-28-200
+
+*Lova gjeld frå 1. januar 2021.*
+
+> Lova gjeld frå 1. januar 2021.
+>
+
+### 2022-01-01 — forskrift/2021-05-28-1698
+
+*Delt ikrafttredelse av lov 18. desember 2020 nr. 149 om endringer i arveloven (landbrukseiendommer i dødsbo mv.). Endringsloven del I, ny § 99a i lov 14. juni 2019 nr. 21 om arv og dødsboskifte, trer i kraft 1. januar 2022.*
+
+> Delt ikrafttredelse av lov 18. desember 2020 nr. 149 om endringer i arveloven (landbrukseiendommer i dødsbo mv.). Endringsloven del I, ny § 99a i lov 14. juni 2019 nr. 21 om arv og dødsboskifte, trer i kraft 1. januar 2022.
+>
+
 ### 2022-06-22 — lov/2022-06-22-81
 
 *I lov 14. juni 2019 nr. 21 om arv og dødsboskifte skal ny § 88 a lyde:*
@@ -20,6 +34,13 @@ refid: "lov/2019-06-14-21"
 > Departementet kan gi forskrift om utlevering av opplysninger til offentlige myndigheter for bruk til statistikkformål.
 >
 > Så langt det er nødvendig for å utføre oppgaver som følger av lovens tredje del, kan offentlige og private virksomheter, domstolene og forvaltningsorganer uten hinder av taushetsplikt dele opplysninger i forbindelse med gjennomføring av digitalt skifte av dødsbo. Departementet kan gi forskrift om plikt til å dele opplysninger uten hinder av taushetsplikt, og om at enkelte opplysninger ikke skal kunne deles etter første punktum.
+>
+
+### 2023-03-31 — lov/2023-03-31-5
+
+*I lov 14. juni 2019 nr. 21 om arv og dødsboskifte skal § 96 fjerde ledd nytt tredje punktum lyde:*
+
+> Departementet kan i forskrift gi regler om statsforvalterens tilsyn med uskiftebo som nevnt i første punktum og om opplysningsplikt overfor statsforvalteren for den lengstlevende ektefellen eller samboeren der det er arvinger under vergemål.
 >
 
 ### 2023-06-16 — lov/2023-06-16-59

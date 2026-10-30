@@ -13,6 +13,13 @@ refid: "lov/2003-07-04-74"
 
 ## (annet)
 
+### 2014-03-28 — lov/2014-03-28-9
+
+*I lov 4. juli 2003 nr. 74 om hundehold skal § 9 tredje ledd lyde:*
+
+> En hund som nyttes som jakthund eller er under trening eller prøve for dette, kan slippes på en aktsom måte slik det er naturlig ut fra bruksformålet, når dette ikke er i strid med viltloven, naturmangfoldloven eller regler om båndtvang. Det samme gjelder for trening og prøving av ettersøkshunder.
+>
+
 ### 2022-06-17 — lov/2022-06-17-69
 
 *Kapittel 1-7 skal lyde:*
@@ -290,6 +297,13 @@ refid: "lov/2003-07-04-74"
 > Ved angrep på hjortevilt regnes grunneier, jakt- eller fangstberettiget i området og viltorganene som fornærmet.
 >
 > Med bøter eller fengsel inntil seks måneder og bot straffes den som forsettlig eller uaktsomtunnlater å etterkomme pålegg og forbud nedlagt av politiet i samsvar med lovens § 17, ellerovertrer forbud gitt ved §§ 19, 21, 22 eller ved forskrifter eller enkeltvedtak gitt etter disse bestemmelsene.På samme måte straffes forsøk.
+>
+
+### 2023-01-01 — forskrift/2022-06-17-1069
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
 >
 
 ### 2023-06-16 — lov/2023-06-16-66

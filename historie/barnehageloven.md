@@ -7,6 +7,34 @@ refid: "lov/2005-06-17-64"
 
 ## (annet)
 
+### 2010-08-01 — forskrift/2010-06-18-827
+
+*Loven trer i kraft 1. august 2010.*
+
+> Loven trer i kraft 1. august 2010.
+>
+
+### 2010-08-01 — forskrift/2010-06-18-828
+
+*Loven trer i kraft 1. august 2010.*
+
+> Loven trer i kraft 1. august 2010.
+>
+
+### 2013-01-01 — forskrift/2012-06-22-576
+
+*Loven trer i kraft 1. januar 2013.*
+
+> Loven trer i kraft 1. januar 2013.
+>
+
+### 2013-08-01 — forskrift/2013-06-21-688
+
+*Loven trer i kraft 1. august 2013.*
+
+> Loven trer i kraft 1. august 2013.
+>
+
 ### 2016-06-17 — lov/2016-06-17-65
 
 *Nytt kapittel V A med nye §§ 19 a til 19 h skal lyde:*
@@ -90,6 +118,66 @@ refid: "lov/2005-06-17-64"
 > Departementet kan gi forskrift om tegnspråkopplæring for barn under opplæringspliktig alder.
 >
 
+### 2016-08-01 — forskrift/2016-06-17-674
+
+*Loven trer i kraft 1. august 2016.*
+
+> Loven trer i kraft 1. august 2016.
+>
+
+### 2017-08-01 — forskrift/2017-06-21-832
+
+*Loven trer i kraft fra 1. august 2017.*
+
+> Loven trer i kraft fra 1. august 2017.
+>
+
+### 2018-03-16 — lov/2018-03-16-1
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 17. juni 2005 nr. 64 om barnehager (barnehageloven).
+>
+> I lov 17. juni 2005 nr. 64 om barnehager skal ny § 18 a lyde:
+>
+> § 18 a.
+>
+> Krav om norskferdigheter for å bli ansatt i barnehage
+>
+> For å bli fast eller midlertidig ansatt i barnehage må personer med et annet førstespråk enn norsk eller samisk ha avlagt en norskprøve og ha oppnådd nivå A2 på delprøven i skriftlig framstilling og nivå B1 på delprøvene i leseforståelse, lytteforståelse og muntlig kommunikasjon. Nivåene A2 og B1 skal tilsvare nivåene beskrevet i Det felles europeiske rammeverket for språk.
+>
+> Kravet om norskprøve etter første ledd gjelder ikke for
+>
+> stillinger som styrer eller pedagogisk leder
+>
+> stillinger i barnehager som gir et tilbud på et annet språk enn norsk
+>
+> personer som har gjennomført opplæring i norsk i grunnskolen eller på videregående skole og fått bestått karakter i faget
+>
+> personer som har minst fem års relevant arbeidserfaring fra en norskspråklig barnehage eller skole
+>
+> personer som har svensk eller dansk som førstespråk.
+>
+> Dersom det er pedagogisk forsvarlig, kan barnehageeier ansette personer som ikke oppfyller kravet til norskprøve.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 17. juni 2005 nr. 64 om barnehager skal § 22 lyde:*
+
+> § 22.Opplysningsplikt til barnevernet
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barneverntjenesten.
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, skal uten hinder av taushetsplikt melde fra til barneverntjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling, eller at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Enhver som utfører tjeneste eller arbeid etter denne loven, plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
 ### 2018-06-08 — lov/2018-06-08-29
 
 *Nåværende § 17 fjerde ledd blir nytt tredje ledd.*
@@ -97,6 +185,13 @@ refid: "lov/2005-06-17-64"
 ### 2018-06-08 — lov/2018-06-08-29
 
 *Nåværende § 19 i blir ny § 19 j.*
+
+### 2018-08-01 — forskrift/2018-03-16-384
+
+*Loven trer i kraft 1. august 2018.*
+
+> Loven trer i kraft 1. august 2018.
+>
 
 ### 2020-06-19 — lov/2020-06-19-91
 
@@ -311,13 +406,44 @@ refid: "lov/2005-06-17-64"
 
 *§§ 14 a og 16 a oppheves.*
 
+### 2022-01-01 — forskrift/2021-12-10-3461
+
+*Delt ikraftsetting av lov 19. juni 2020 nr. 91 om endringer i folkehøyskoleloven, barnehageloven og voksenopplæringsloven m.m. (utfasing av tilskudd til kortkurs i folkehøyskolen, internkontroll for friskoler og barnehager, psykososialt barnehagemiljø, krav til og tilsyn med private barnehager, kommunal barnehagemyndighet, studieforbund m.m.). Loven del IV (barnehageloven) § 10 første ledd andre punktum, § 13 og nytt kapittel X trer i kraft 1. januar 2022.*
+
+> Delt ikraftsetting av lov 19. juni 2020 nr. 91 om endringer i folkehøyskoleloven, barnehageloven og voksenopplæringsloven m.m. (utfasing av tilskudd til kortkurs i folkehøyskolen, internkontroll for friskoler og barnehager, psykososialt barnehagemiljø, krav til og tilsyn med private barnehager, kommunal barnehagemyndighet, studieforbund m.m.). Loven del IV (barnehageloven) § 10 første ledd andre punktum, § 13 og nytt kapittel X trer i kraft 1. januar 2022.
+>
+
+### 2022-07-01 — forskrift/2022-06-10-998
+
+*Delt ikraftsetting av lov 10. juni 2022 nr. 40 om endringer i barnehageloven (selvstendig rettssubjekt, forbud mot annen virksomhet, meldeplikt m.m.).*
+
+> Delt ikraftsetting av lov 10. juni 2022 nr. 40 om endringer i barnehageloven (selvstendig rettssubjekt, forbud mot annen virksomhet, meldeplikt m.m.).
+>
+> Følgende trer i kraft 1. juli 2022:
+>
+> Endringsloven del I § 12, § 13 første ledd, § 23b, § 54, § 56 første ledd og § 56 tredje ledd.
+>
+> Følgende trer i kraft 1. januar 2023:
+>
+> Endringsloven del I § 7 til § 7b, § 23 femte ledd, § 23a og § 23c.
+>
+
+### 2024-06-14 — forskrift/2024-06-14-958
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2025-06-20 — lov/2025-06-20-100
 
 *Nåværende § 14 blir § 14 a og skal lyde:*
 
-> § 14 a.Driftsgodkjenning av kommunale og private barnehagerKommunen avgjør søknader om godkjenning av barnehagedriften og endringer av driften ved godkjente barnehager etter en vurdering av barnehagens egnethet ut fra formål og innhold, jf. §§ 1, 1 a og 2.Kommunen kan ved godkjenningen av barnehagedriften sette krav om antall barn, barnas alder og oppholdstid begrunnet i barnehagens egnethet ut fra formål og innhold, jf. §§ 1, 1 a og 2.
+> § 14 a. Driftsgodkjenning av kommunale og private barnehager
 >
-> § 14 a.Driftsgodkjenning av kommunale og private barnehager
+> Kommunen avgjør søknader om godkjenning av barnehagedriften og endringer av driften ved godkjente barnehager etter en vurdering av barnehagens egnethet ut fra formål og innhold, jf. §§ 1, 1 a og 2.
+>
+> Kommunen kan ved godkjenningen av barnehagedriften sette krav om antall barn, barnas alder og oppholdstid begrunnet i barnehagens egnethet ut fra formål og innhold, jf. §§ 1, 1 a og 2.
 >
 
 ### 2025-06-20 — lov/2025-06-20-100
@@ -335,6 +461,21 @@ refid: "lov/2005-06-17-64"
 ### 2025-06-20 — lov/2025-06-20-100
 
 *Nåværende tredje og fjerde ledd blir fjerde og nytt femte ledd.*
+
+### 2025-07-01 — forskrift/2025-06-20-1100
+
+*Delt ikraftsetting av lov 20. juni 2025 om endringer i barnehageloven (styring og finansiering av barnehagesektoren).*
+
+> Delt ikraftsetting av lov 20. juni 2025 om endringer i barnehageloven (styring og finansiering av barnehagesektoren).
+>
+> Følgende trer i kraft 1. juli 2025:
+>
+> Endringsloven del I §§ 22 til 23 og § 23c
+>
+> Følgende trer i kraft 1. august 2026:
+>
+> Endringsloven del I §§ 1a til 2, § 4, §§ 6 til 7a, §§ 8 til 9, § 12, §§ 14 til 15, § 17, §§ 19 til 20a, §§ 25 til 30, §§ 42 til 43, § 49, § 51, § 53 og § 56
+>
 
 ### 2026-06-19 — lov/2026-06-19-59
 
@@ -388,9 +529,9 @@ refid: "lov/2005-06-17-64"
 
 *§ 12 skal lyde:*
 
-> § 12.Særlige regler om klageinstansStatsforvalteren er klageinstans for vedtak fattet av kommunen eller fylkeskommunen etter § 14 første og andre ledd, § 14 a, § 15, § 19 første og andre ledd, § 19 a første til fjerde ledd, § 19 b første og tredje ledd, § 19 c, §§ 24 til 26, §§ 35 til 38, § 53 og der det følger av forskrift gitt i medhold av denne loven.
+> § 12. Særlige regler om klageinstans
 >
-> § 12.Særlige regler om klageinstans
+> Statsforvalteren er klageinstans for vedtak fattet av kommunen eller fylkeskommunen etter § 14 første og andre ledd, § 14 a, § 15, § 19 første og andre ledd, § 19 a første til fjerde ledd, § 19 b første og tredje ledd, § 19 c, §§ 24 til 26, §§ 35 til 38, § 53 og der det følger av forskrift gitt i medhold av denne loven.
 >
 
 ## § 12 a
@@ -480,9 +621,15 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 14 skal lyde:*
 
-> § 14.Etableringsgodkjenning av private barnehagerKommunen kan godkjenne søknader om etablering av private barnehager og søknader om endringer i etableringsgodkjenningen. Kommunen skal legge vekt på behovet for nye barnehageplasser og barnehagestrukturen i kommunen. I tillegg kan kommunen legge vekt på om barnehagen er ordinær, familiebarnehage eller åpen barnehage, om barnehagen har et særskilt pedagogisk tilbud, om barnehagen er ideell, og søkerens seriøsitet og egnethet. Med ideelle barnehager menes barnehager som ikke har erverv til formål, og som reinvesterer overskudd i barnehagedrift.Kommunen kan ved etableringsgodkjenningen stille vilkår som har saklig sammenheng med godkjenningen, og som ikke er uforholdsmessig tyngende for barnehagen.En etableringsgodkjenning faller bort dersom barnehagedriften ikke er startet opp i løpet av fem år etter at godkjenningen ble gitt, eller barnehagedriften legges ned.Departementet kan gi forskrift om godkjenning og drift av familiebarnehager.
+> § 14. Etableringsgodkjenning av private barnehager
 >
-> § 14.Etableringsgodkjenning av private barnehager
+> Kommunen kan godkjenne søknader om etablering av private barnehager og søknader om endringer i etableringsgodkjenningen. Kommunen skal legge vekt på behovet for nye barnehageplasser og barnehagestrukturen i kommunen. I tillegg kan kommunen legge vekt på om barnehagen er ordinær, familiebarnehage eller åpen barnehage, om barnehagen har et særskilt pedagogisk tilbud, om barnehagen er ideell, og søkerens seriøsitet og egnethet. Med ideelle barnehager menes barnehager som ikke har erverv til formål, og som reinvesterer overskudd i barnehagedrift.
+>
+> Kommunen kan ved etableringsgodkjenningen stille vilkår som har saklig sammenheng med godkjenningen, og som ikke er uforholdsmessig tyngende for barnehagen.
+>
+> En etableringsgodkjenning faller bort dersom barnehagedriften ikke er startet opp i løpet av fem år etter at godkjenningen ble gitt, eller barnehagedriften legges ned.
+>
+> Departementet kan gi forskrift om godkjenning og drift av familiebarnehager.
 >
 
 ## § 14 a
@@ -506,9 +653,9 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 14 a skal lyde:*
 
-> § 14 a.Private barnehager uten kommunalt tilskuddPrivate barnehager som har fått vedtak om godkjenning av barnehagedriften etter § 14, kan drive privat barnehage uten kommunalt tilskudd etter § 19. For disse barnehagene får §§ 7 a, 7 b, 17, kapittel V og § 56 ikke anvendelse.
+> § 14 a. Private barnehager uten kommunalt tilskudd
 >
-> § 14 a.Private barnehager uten kommunalt tilskudd
+> Private barnehager som har fått vedtak om godkjenning av barnehagedriften etter § 14, kan drive privat barnehage uten kommunalt tilskudd etter § 19. For disse barnehagene får §§ 7 a, 7 b, 17, kapittel V og § 56 ikke anvendelse.
 >
 
 ## § 14 b
@@ -517,18 +664,22 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 14 b skal lyde:*
 
-> § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevneDepartementet kan gi forskrift om midlertidig godkjenning ved etablering av barnehager og barnehageplasser som opprettes for å dekke et midlertidig behov som følge av at det kommer svært mange fordrevne barn under opplæringspliktig alder fra Ukraina.Departementet kan gi forskrift om unntak fra kravene til organisering i § 7 a for ordinære barnehager som har fått midlertidig godkjenning etter forskrift med hjemmel i første ledd.
+> § 14 b. Midlertidig godkjenning i en situasjon med svært mange fordrevne
 >
-> § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevne
+> Departementet kan gi forskrift om midlertidig godkjenning ved etablering av barnehager og barnehageplasser som opprettes for å dekke et midlertidig behov som følge av at det kommer svært mange fordrevne barn under opplæringspliktig alder fra Ukraina.
+>
+> Departementet kan gi forskrift om unntak fra kravene til organisering i § 7 a for ordinære barnehager som har fått midlertidig godkjenning etter forskrift med hjemmel i første ledd.
 >
 
 ### 2026-06-12 — lov/2026-06-12-22
 
 *§ 14 b skal lyde:*
 
-> § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevneDepartementet kan gi forskrift om midlertidig godkjenning ved etablering av barnehager og barnehageplasser som opprettes for å dekke et midlertidig behov som følge av at det kommer svært mange fordrevne barn under opplæringspliktig alder fra Ukraina.Departementet kan gi forskrift om unntak fra kravene til organisering i § 7 a for ordinære barnehager som har fått midlertidig godkjenning etter forskrift med hjemmel i første ledd.
+> § 14 b. Midlertidig godkjenning i en situasjon med svært mange fordrevne
 >
-> § 14 b.Midlertidig godkjenning i en situasjon med svært mange fordrevne
+> Departementet kan gi forskrift om midlertidig godkjenning ved etablering av barnehager og barnehageplasser som opprettes for å dekke et midlertidig behov som følge av at det kommer svært mange fordrevne barn under opplæringspliktig alder fra Ukraina.
+>
+> Departementet kan gi forskrift om unntak fra kravene til organisering i § 7 a for ordinære barnehager som har fått midlertidig godkjenning etter forskrift med hjemmel i første ledd.
 >
 
 ## § 15
@@ -739,9 +890,13 @@ refid: "lov/2005-06-17-64"
 
 *§ 19 skal lyde:*
 
-> § 19.Kommunalt tilskudd til private barnehagerPrivate barnehager med etableringsgodkjenning etter § 14 har rett til tilskudd. Kommunen skal gi tilskudd til private barnehager som har rett til tilskudd etter første punktum, og som har driftsgodkjenning etter § 14 a.Kommunen skal gi tilskudd til private barnehager som hadde rett til tilskudd da § 14 om etableringsgodkjenning trådte i kraft. Retten til tilskudd etter første punktum faller bort dersom barnehagedriften ikke er startet opp innen 1. juni 2031 eller barnehagedriften legges ned.Regler om tilskudd til private barnehager skal særlig legge til rette for likebehandling av private og kommunale barnehagetilbud, forutsigbarhet for private barnehager, en mangfoldig barnehagestruktur og effektiv ressursbruk.
+> § 19. Kommunalt tilskudd til private barnehager
 >
-> § 19.Kommunalt tilskudd til private barnehager
+> Private barnehager med etableringsgodkjenning etter § 14 har rett til tilskudd. Kommunen skal gi tilskudd til private barnehager som har rett til tilskudd etter første punktum, og som har driftsgodkjenning etter § 14 a.
+>
+> Kommunen skal gi tilskudd til private barnehager som hadde rett til tilskudd da § 14 om etableringsgodkjenning trådte i kraft. Retten til tilskudd etter første punktum faller bort dersom barnehagedriften ikke er startet opp innen 1. juni 2031 eller barnehagedriften legges ned.
+>
+> Regler om tilskudd til private barnehager skal særlig legge til rette for likebehandling av private og kommunale barnehagetilbud, forutsigbarhet for private barnehager, en mangfoldig barnehagestruktur og effektiv ressursbruk.
 >
 
 ### 2026-06-12 — lov/2026-06-12-22
@@ -757,9 +912,23 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 19 a skal lyde:*
 
-> § 19 a.Driftstilskudd til private barnehagerKommunen skal gi grunntilskudd til private barnehager som har rett til tilskudd etter § 19 første eller andre ledd. Grunntilskuddet skal beregnes ut fra ordinære driftsutgifter i kommunale barnehager, fratrukket administrasjonsutgifter, pensjonsutgifter, arbeidsgiveravgift på pensjonsutgifter og utgifter som dekkes av andre tilskudd enn rammetilskuddet til kommunen og pålagte kommunale egenandeler knyttet til slike tilskudd. Grunnlaget for beregningen er det siste tilgjengelige kommuneregnskapet.Kommunen kan holde ordinære driftsutgifter i en kommunal barnehage som skyldes særlige driftsforutsetninger eller særlige behov i barnegruppen, utenfor beregningen av grunntilskuddet etter første ledd. Dersom kommunen holder utgifter utenfor beregningsgrunnlaget etter første punktum, skal kommunen gi ekstra grunntilskudd til private barnehager med tilsvarende driftsforutsetninger eller behov i barnegruppen. Kommunen kan stille vilkår for bruken av det ekstra grunntilskuddet.Ved innføring av nye krav etter loven som ikke er en del av beregningen av grunntilskuddet etter første ledd tredje punktum, skal kommunen gi ekstra grunntilskudd fra det tidspunktet kravene får virkning for private barnehager.Kommunen kan gi tilleggstilskudd og stille vilkår for bruken av dette tilskuddet.Vilkår kommunen stiller etter andre ledd tredje punktum og fjerde ledd, må ha saklig sammenheng med tilskuddet og ikke være uforholdsmessig tyngende for den private barnehagen.Kommunen skal vise hvordan tilskuddene er beregnet.Kommunen skal likebehandle kommunale og private barnehager ved beregning og tildeling av tilskudd til drift.Departementet kan gi forskrift om tilskudd til drift. Forskrift etter første punktum kan gjøre unntak fra reglene i første og andre ledd.
+> § 19 a. Driftstilskudd til private barnehager
 >
-> § 19 a.Driftstilskudd til private barnehager
+> Kommunen skal gi grunntilskudd til private barnehager som har rett til tilskudd etter § 19 første eller andre ledd. Grunntilskuddet skal beregnes ut fra ordinære driftsutgifter i kommunale barnehager, fratrukket administrasjonsutgifter, pensjonsutgifter, arbeidsgiveravgift på pensjonsutgifter og utgifter som dekkes av andre tilskudd enn rammetilskuddet til kommunen og pålagte kommunale egenandeler knyttet til slike tilskudd. Grunnlaget for beregningen er det siste tilgjengelige kommuneregnskapet.
+>
+> Kommunen kan holde ordinære driftsutgifter i en kommunal barnehage som skyldes særlige driftsforutsetninger eller særlige behov i barnegruppen, utenfor beregningen av grunntilskuddet etter første ledd. Dersom kommunen holder utgifter utenfor beregningsgrunnlaget etter første punktum, skal kommunen gi ekstra grunntilskudd til private barnehager med tilsvarende driftsforutsetninger eller behov i barnegruppen. Kommunen kan stille vilkår for bruken av det ekstra grunntilskuddet.
+>
+> Ved innføring av nye krav etter loven som ikke er en del av beregningen av grunntilskuddet etter første ledd tredje punktum, skal kommunen gi ekstra grunntilskudd fra det tidspunktet kravene får virkning for private barnehager.
+>
+> Kommunen kan gi tilleggstilskudd og stille vilkår for bruken av dette tilskuddet.
+>
+> Vilkår kommunen stiller etter andre ledd tredje punktum og fjerde ledd, må ha saklig sammenheng med tilskuddet og ikke være uforholdsmessig tyngende for den private barnehagen.
+>
+> Kommunen skal vise hvordan tilskuddene er beregnet.
+>
+> Kommunen skal likebehandle kommunale og private barnehager ved beregning og tildeling av tilskudd til drift.
+>
+> Departementet kan gi forskrift om tilskudd til drift. Forskrift etter første punktum kan gjøre unntak fra reglene i første og andre ledd.
 >
 
 ## § 19 b
@@ -768,9 +937,17 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 19 b skal lyde:*
 
-> § 19 b.Pensjonstilskudd til private barnehagerKommunen skal gi pensjonstilskudd til private barnehager som har rett til tilskudd etter § 19 første eller andre ledd. Pensjonstilskuddet skal beregnes ved å gange antall årsverk i barnehagen med samlet lønn per årsverk i barnehagen, en prosentsats basert på pensjonsvilkårene til den enkelte barnehage og lokal arbeidsgiveravgift.Prosentsatser for beregning av pensjonstilskudd etter første ledd skal være differensierte og tilpasset vilkårene i ulike pensjonsavtaler til private barnehager. Den høyeste prosentsatsen skal ikke overstige grensene for årlig innskudd etter lov om tjenestepensjon § 4-7. Ved fastsetting av den høyeste prosentsatsen skal det gjøres fratrekk av vanlig egenandel for ansatte i kommunale barnehager og legges til anslag på kostnader til tilleggsprodukter og anslag på kostnader til AFP.Private barnehager med historiske forpliktelser basert på avtaler om offentlig tjenestepensjon skal få dekket sine pensjonsutgifter opp til en øvre grense. Departementet skal gi forskrift om hvilke barnehager som har rett til pensjonstilskudd etter første punktum, og om en øvre grense for dekningen.Private barnehager skal melde fra til kommunen uten ugrunnet opphold dersom de inngår en ny pensjonsavtale med endrede pensjonsvilkår.Departementet kan gi forskrift om tilskudd til pensjon. Forskrift gitt etter første punktum kan gjøre unntak fra reglene i første og andre ledd.
+> § 19 b. Pensjonstilskudd til private barnehager
 >
-> § 19 b.Pensjonstilskudd til private barnehager
+> Kommunen skal gi pensjonstilskudd til private barnehager som har rett til tilskudd etter § 19 første eller andre ledd. Pensjonstilskuddet skal beregnes ved å gange antall årsverk i barnehagen med samlet lønn per årsverk i barnehagen, en prosentsats basert på pensjonsvilkårene til den enkelte barnehage og lokal arbeidsgiveravgift.
+>
+> Prosentsatser for beregning av pensjonstilskudd etter første ledd skal være differensierte og tilpasset vilkårene i ulike pensjonsavtaler til private barnehager. Den høyeste prosentsatsen skal ikke overstige grensene for årlig innskudd etter lov om tjenestepensjon § 4-7. Ved fastsetting av den høyeste prosentsatsen skal det gjøres fratrekk av vanlig egenandel for ansatte i kommunale barnehager og legges til anslag på kostnader til tilleggsprodukter og anslag på kostnader til AFP.
+>
+> Private barnehager med historiske forpliktelser basert på avtaler om offentlig tjenestepensjon skal få dekket sine pensjonsutgifter opp til en øvre grense. Departementet skal gi forskrift om hvilke barnehager som har rett til pensjonstilskudd etter første punktum, og om en øvre grense for dekningen.
+>
+> Private barnehager skal melde fra til kommunen uten ugrunnet opphold dersom de inngår en ny pensjonsavtale med endrede pensjonsvilkår.
+>
+> Departementet kan gi forskrift om tilskudd til pensjon. Forskrift gitt etter første punktum kan gjøre unntak fra reglene i første og andre ledd.
 >
 
 ## § 19 c
@@ -779,9 +956,9 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 19 c skal lyde:*
 
-> § 19 c.Eiendomstilskudd til private barnehagerKommunen skal gi eiendomstilskudd til private barnehager som har rett til tilskudd etter § 19 første eller andre ledd. Departementet skal gi forskrift om tildeling av, og satser for, eiendomstilskudd.
+> § 19 c. Eiendomstilskudd til private barnehager
 >
-> § 19 c.Eiendomstilskudd til private barnehager
+> Kommunen skal gi eiendomstilskudd til private barnehager som har rett til tilskudd etter § 19 første eller andre ledd. Departementet skal gi forskrift om tildeling av, og satser for, eiendomstilskudd.
 >
 
 ## § 19 i
@@ -814,9 +991,7 @@ refid: "lov/2005-06-17-64"
 
 *§ 1a overskriften skal lyde:*
 
-> § 1 a.Særlig formål
->
-> § 1 a.Særlig formål
+> § 1 a. Særlig formål
 >
 
 ## § 2
@@ -908,9 +1083,11 @@ refid: "lov/2005-06-17-64"
 
 *§ 20 skal lyde:*
 
-> § 20.Foreldrebetaling og kostpengerDepartementet kan gi forskrift om foreldrebetaling i barnehagen, blant annet om søskenmoderasjon, inntektsgradering og maksimalgrense. Kommunen kan gi forskrift om en lavere foreldrebetaling enn det som følger av forskrift gitt etter første punktum.Barnehagen kan kreve betaling for kost i tillegg til foreldrebetalingen. Kostpengene skal ikke overstige de faktiske utgiftene barnehagen har til mat og drikke til barna.
+> § 20. Foreldrebetaling og kostpenger
 >
-> § 20.Foreldrebetaling og kostpenger
+> Departementet kan gi forskrift om foreldrebetaling i barnehagen, blant annet om søskenmoderasjon, inntektsgradering og maksimalgrense. Kommunen kan gi forskrift om en lavere foreldrebetaling enn det som følger av forskrift gitt etter første punktum.
+>
+> Barnehagen kan kreve betaling for kost i tillegg til foreldrebetalingen. Kostpengene skal ikke overstige de faktiske utgiftene barnehagen har til mat og drikke til barna.
 >
 
 ## § 20 a
@@ -919,9 +1096,9 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 20 a skal lyde:*
 
-> § 20 a.Barnehagenes åpningstidKommunen kan gi forskrift om krav til åpningstider for barnehagene i kommunen.
+> § 20 a. Barnehagenes åpningstid
 >
-> § 20 a.Barnehagenes åpningstid
+> Kommunen kan gi forskrift om krav til åpningstider for barnehagene i kommunen.
 >
 
 ## § 22
@@ -930,9 +1107,9 @@ refid: "lov/2005-06-17-64"
 
 *§ 22 skal lyde:*
 
-> § 22.Definisjon av nærståendeMed barnehagens nærstående menesfysiske eller juridiske personer som, direkte eller indirekte, eier eller kontrollerer barnehagen med minst 50 prosentstyremedlem, daglig leder eller annen fysisk person med beslutningsmyndighet i barnehagenforeldre, søsken, barn, barnebarn, ektefelle, samboer, ektefelles foreldre og samboers foreldre til fysisk person etter bokstavene a og bselskaper mv. som, direkte eller indirekte, eies eller kontrolleres med minst 50 prosent av nærstående etter bokstav a, b eller c.
+> § 22. Definisjon av nærstående
 >
-> § 22.Definisjon av nærstående
+> Med barnehagens nærstående menesfysiske eller juridiske personer som, direkte eller indirekte, eier eller kontrollerer barnehagen med minst 50 prosentstyremedlem, daglig leder eller annen fysisk person med beslutningsmyndighet i barnehagenforeldre, søsken, barn, barnebarn, ektefelle, samboer, ektefelles foreldre og samboers foreldre til fysisk person etter bokstavene a og bselskaper mv. som, direkte eller indirekte, eies eller kontrolleres med minst 50 prosent av nærstående etter bokstav a, b eller c.
 >
 
 ## § 22 a
@@ -1025,9 +1202,9 @@ refid: "lov/2005-06-17-64"
 
 *§ 23 c skal lyde:*
 
-> § 23 c.Meldeplikt for private barnehagerBarnehagen skal melde fra til kommunen og Utdanningsdirektoratet ved nedleggelse, eierskifte, overføring av eiendom og andre organisatoriske endringer. Meldingen skal gis så snart endringen er besluttet. Departementet kan gi forskrift om hva som skal regnes som organisatoriske endringer, og om hvordan meldeplikten skal gjennomføres.
+> § 23 c. Meldeplikt for private barnehager
 >
-> § 23 c.Meldeplikt for private barnehager
+> Barnehagen skal melde fra til kommunen og Utdanningsdirektoratet ved nedleggelse, eierskifte, overføring av eiendom og andre organisatoriske endringer. Meldingen skal gis så snart endringen er besluttet. Departementet kan gi forskrift om hva som skal regnes som organisatoriske endringer, og om hvordan meldeplikten skal gjennomføres.
 >
 
 ## § 24
@@ -1299,9 +1476,9 @@ refid: "lov/2005-06-17-64"
 
 *§ 48 skal lyde:*
 
-> § 48.Plikt til å gi opplysninger om tjenestedataBarnehager skal rapportere tjenestedata til Utdanningsdirektoratet som er nødvendige for å evaluere, utvikle og forbedre barnehagesektoren. Private barnehager skal i tillegg rapportere slike tjenestedata til kommunen. Tjenestedataene skal ikke inneholde direkte identifiserbare personopplysninger. Departementet kan gi forskrift om rapportering av tjenestedata og om Utdanningsdirektoratets behandling av disse.
+> § 48. Plikt til å gi opplysninger om tjenestedata
 >
-> § 48.Plikt til å gi opplysninger om tjenestedata
+> Barnehager skal rapportere tjenestedata til Utdanningsdirektoratet som er nødvendige for å evaluere, utvikle og forbedre barnehagesektoren. Private barnehager skal i tillegg rapportere slike tjenestedata til kommunen. Tjenestedataene skal ikke inneholde direkte identifiserbare personopplysninger. Departementet kan gi forskrift om rapportering av tjenestedata og om Utdanningsdirektoratets behandling av disse.
 >
 
 ## § 48 a
@@ -1310,9 +1487,17 @@ refid: "lov/2005-06-17-64"
 
 *Ny § 48 a skal lyde:*
 
-> § 48 a.Register over barn i barnehagerDepartementet kan etablere et register med opplysninger om barn i barnehager på individnivå for bruk i statistikk og forskning om barnehagesektoren. Registeret kan inneholde personopplysninger tilknyttet fødselsnummer eller andre personentydige identifikasjonsnummer.Formålet med registeret er å behandle personopplysninger som grunnlag for statistikk og forskning for å frambringe kunnskap om effekter av tiltak og om utviklingen i sektoren.Registeret kan bare behandle de personopplysningene som er nødvendige å behandle for registerets formål. Personopplysningene i registeret kan ikke benyttes til formål som er uforenlige med formålet nevnt i andre ledd. Personopplysningene kan ikke brukes som grunnlag for enkeltvedtak eller andre individuelle beslutninger eller tiltak rettet mot de registrerte.Personopplysninger fra registeret kan ikke utleveres til andre enn Statistisk sentralbyrå.Departementet kan gi forskrift om registeret og om plikt for kommuner til, uten hinder av taushetsplikt, å innrapportere de opplysningene som er nødvendige for å oppnå formålet med registeret. Departementet kan videre gi forskrift om behandlingen av personopplysninger, blant annet om behandlingsansvar, hvilke opplysninger som kan behandles og om hvem, og om tilgang til, viderebehandling og utlevering av personopplysninger.
+> § 48 a. Register over barn i barnehager
 >
-> § 48 a.Register over barn i barnehager
+> Departementet kan etablere et register med opplysninger om barn i barnehager på individnivå for bruk i statistikk og forskning om barnehagesektoren. Registeret kan inneholde personopplysninger tilknyttet fødselsnummer eller andre personentydige identifikasjonsnummer.
+>
+> Formålet med registeret er å behandle personopplysninger som grunnlag for statistikk og forskning for å frambringe kunnskap om effekter av tiltak og om utviklingen i sektoren.
+>
+> Registeret kan bare behandle de personopplysningene som er nødvendige å behandle for registerets formål. Personopplysningene i registeret kan ikke benyttes til formål som er uforenlige med formålet nevnt i andre ledd. Personopplysningene kan ikke brukes som grunnlag for enkeltvedtak eller andre individuelle beslutninger eller tiltak rettet mot de registrerte.
+>
+> Personopplysninger fra registeret kan ikke utleveres til andre enn Statistisk sentralbyrå.
+>
+> Departementet kan gi forskrift om registeret og om plikt for kommuner til, uten hinder av taushetsplikt, å innrapportere de opplysningene som er nødvendige for å oppnå formålet med registeret. Departementet kan videre gi forskrift om behandlingen av personopplysninger, blant annet om behandlingsansvar, hvilke opplysninger som kan behandles og om hvem, og om tilgang til, viderebehandling og utlevering av personopplysninger.
 >
 
 ## § 49
@@ -1405,9 +1590,23 @@ refid: "lov/2005-06-17-64"
 
 *§ 56 skal lyde:*
 
-> § 56.Utdanningsdirektoratets tilsyn med økonomiske forhold i private barnehagerUtdanningsdirektoratet fører tilsyn med at de private barnehagene drives i samsvar med bestemmelsene i § 20 andre ledd andre punktum, kapittel V med forskrifter og § 9 om internkontroll for å sikre at disse kravene følges.Utdanningsdirektoratet kan gi pålegg til barnehagen om å rette ulovlige forhold. Hvis fristen for å etterkomme pålegget ikke overholdes eller forholdet ikke lar seg rette, kan Utdanningsdirektoratet fatte vedtak om tidsbegrenset eller varig stenging av barnehagen.Utdanningsdirektoratet kan fatte vedtak om at tilskudd til barnehagen skal holdes tilbake eller reduseres dersom barnehagen har brutt bestemmelser i § 20 andre ledd andre punktum, kapittel V med forskrifter eller § 9 om internkontroll for å sikre at disse kravene følges.Utdanningsdirektoratet kan fatte vedtak om at barnehagen skal betale tilskudd tilbake til kommunen dersom barnehagen har brutt bestemmelser i § 20 andre ledd andre punktum eller kapittel V med forskrifter.Kommunen skal få mulighet til å uttale seg før Utdanningsdirektoratet fatter vedtak etter andre, tredje eller fjerde ledd. Utdanningsdirektoratets vedtak skal sendes kommunen til orientering.Foreldrerådet skal få mulighet til å uttale seg før Utdanningsdirektoratet fatter vedtak om stenging.Barnehagen skal uten hinder av taushetsplikt legge frem alle opplysninger som Utdanningsdirektoratet trenger for å føre tilsyn. Dersom Utdanningsdirektoratet i forbindelse med gjennomføring av tilsyn har behov for opplysninger fra eieren eller eierens nærstående, skal Utdanningsdirektoratet ha tilgang til slike opplysninger. Barnehagen skal gi Utdanningsdirektoratet adgang til barnehagens lokaler.Dersom Utdanningsdirektoratet i forbindelse med gjennomføring av tilsyn har behov for opplysninger fra barnehagens regnskapsfører, revisor eller bank, skal Utdanningsdirektoratet få tilgang til slike opplysninger, med unntak av det som regnes som opplysninger om noens personlige forhold etter forvaltningsloven § 13 første ledd nr. 1.
+> § 56. Utdanningsdirektoratets tilsyn med økonomiske forhold i private barnehager
 >
-> § 56.Utdanningsdirektoratets tilsyn med økonomiske forhold i private barnehager
+> Utdanningsdirektoratet fører tilsyn med at de private barnehagene drives i samsvar med bestemmelsene i § 20 andre ledd andre punktum, kapittel V med forskrifter og § 9 om internkontroll for å sikre at disse kravene følges.
+>
+> Utdanningsdirektoratet kan gi pålegg til barnehagen om å rette ulovlige forhold. Hvis fristen for å etterkomme pålegget ikke overholdes eller forholdet ikke lar seg rette, kan Utdanningsdirektoratet fatte vedtak om tidsbegrenset eller varig stenging av barnehagen.
+>
+> Utdanningsdirektoratet kan fatte vedtak om at tilskudd til barnehagen skal holdes tilbake eller reduseres dersom barnehagen har brutt bestemmelser i § 20 andre ledd andre punktum, kapittel V med forskrifter eller § 9 om internkontroll for å sikre at disse kravene følges.
+>
+> Utdanningsdirektoratet kan fatte vedtak om at barnehagen skal betale tilskudd tilbake til kommunen dersom barnehagen har brutt bestemmelser i § 20 andre ledd andre punktum eller kapittel V med forskrifter.
+>
+> Kommunen skal få mulighet til å uttale seg før Utdanningsdirektoratet fatter vedtak etter andre, tredje eller fjerde ledd. Utdanningsdirektoratets vedtak skal sendes kommunen til orientering.
+>
+> Foreldrerådet skal få mulighet til å uttale seg før Utdanningsdirektoratet fatter vedtak om stenging.
+>
+> Barnehagen skal uten hinder av taushetsplikt legge frem alle opplysninger som Utdanningsdirektoratet trenger for å føre tilsyn. Dersom Utdanningsdirektoratet i forbindelse med gjennomføring av tilsyn har behov for opplysninger fra eieren eller eierens nærstående, skal Utdanningsdirektoratet ha tilgang til slike opplysninger. Barnehagen skal gi Utdanningsdirektoratet adgang til barnehagens lokaler.
+>
+> Dersom Utdanningsdirektoratet i forbindelse med gjennomføring av tilsyn har behov for opplysninger fra barnehagens regnskapsfører, revisor eller bank, skal Utdanningsdirektoratet få tilgang til slike opplysninger, med unntak av det som regnes som opplysninger om noens personlige forhold etter forvaltningsloven § 13 første ledd nr. 1.
 >
 
 ## § 6
@@ -1416,9 +1615,13 @@ refid: "lov/2005-06-17-64"
 
 *§ 6 skal lyde:*
 
-> § 6.Virksomhetens plikt til å søke godkjenningVirksomheter som har ansvar for barn under opplæringspliktig alder, plikter å søke godkjenning av barnehagedriften etter § 14 a når:virksomheten er regelmessig og ett eller flere barn har en ukentlig oppholdstid på mer enn 20 timer, ogantall barn som er til stede samtidig, er ti eller flere når barna er tre år eller eldre, eventuelt fem eller flere når barna er under tre år, ogvirksomheten utføres mot godtgjøring.Virksomheter etter første ledd må være godkjent etter § 14 a før barnehagedriften settes i gang.Barnehagen skal søke om godkjenning av endringer som går utover rammene som er satt for barnehagens godkjenning etter §§ 14 eller 14 a.
+> § 6. Virksomhetens plikt til å søke godkjenning
 >
-> § 6.Virksomhetens plikt til å søke godkjenning
+> Virksomheter som har ansvar for barn under opplæringspliktig alder, plikter å søke godkjenning av barnehagedriften etter § 14 a når:virksomheten er regelmessig og ett eller flere barn har en ukentlig oppholdstid på mer enn 20 timer, ogantall barn som er til stede samtidig, er ti eller flere når barna er tre år eller eldre, eventuelt fem eller flere når barna er under tre år, ogvirksomheten utføres mot godtgjøring.
+>
+> Virksomheter etter første ledd må være godkjent etter § 14 a før barnehagedriften settes i gang.
+>
+> Barnehagen skal søke om godkjenning av endringer som går utover rammene som er satt for barnehagens godkjenning etter §§ 14 eller 14 a.
 >
 
 ## § 7
@@ -1461,9 +1664,11 @@ refid: "lov/2005-06-17-64"
 
 *§ 7 skal lyde:*
 
-> § 7.Ansvaret for barnehagenKommunen har ansvaret for at kommunale barnehager drives i samsvar med loven.Styret for et rettssubjekt som driver en privat barnehage, har ansvaret for at barnehagen drives i samsvar med loven. Dersom barnehagens organisasjonsform innebærer at det ikke er krav om å ha et styre, tilligger ansvaret det bestemmende organ som gjelder for barnehagens organisasjonsform. For barnehager som drives som enkeltpersonforetak, er det den fysiske personen som innehar enkeltpersonforetaket, som er ansvarlig.
+> § 7. Ansvaret for barnehagen
 >
-> § 7.Ansvaret for barnehagen
+> Kommunen har ansvaret for at kommunale barnehager drives i samsvar med loven.
+>
+> Styret for et rettssubjekt som driver en privat barnehage, har ansvaret for at barnehagen drives i samsvar med loven. Dersom barnehagens organisasjonsform innebærer at det ikke er krav om å ha et styre, tilligger ansvaret det bestemmende organ som gjelder for barnehagens organisasjonsform. For barnehager som drives som enkeltpersonforetak, er det den fysiske personen som innehar enkeltpersonforetaket, som er ansvarlig.
 >
 
 ## § 7 a
@@ -1487,10 +1692,6 @@ refid: "lov/2005-06-17-64"
 
 > Første ledd gjelder ikke for åpne barnehager og ikke for barnehageeiere som alene, sammen med nærstående eller selskap i samme konsern eierordinære barnehager med til sammen færre enn tretti barn, ellerfamiliebarnehager med til sammen færre enn ti barn.
 >
-> ordinære barnehager med til sammen færre enn tretti barn, eller
->
-> familiebarnehager med til sammen færre enn ti barn.
->
 
 ### 2024-06-14 — lov/2024-06-14-35
 
@@ -1505,20 +1706,12 @@ refid: "lov/2005-06-17-64"
 
 > Første ledd gjelder ikke for åpne barnehager og ikke for eiere som alene, sammen med nærstående eller selskap i samme konsern eierordinære barnehager med til sammen færre enn tretti barn, ellerfamiliebarnehager med til sammen færre enn ti barn.
 >
-> ordinære barnehager med til sammen færre enn tretti barn, eller
->
-> familiebarnehager med til sammen færre enn ti barn.
->
 
 ### 2026-06-19 — lov/2026-06-19-59
 
 *§ 7 a tredje ledd skal lyde:*
 
 > Første ledd gjelder ikke for åpne barnehager og ikke for barnehageeiere som alene, sammen med nærstående eller selskap i samme konsern eierordinære barnehager med til sammen færre enn tretti barn, ellerfamiliebarnehager med til sammen inntil ti barn.
->
-> ordinære barnehager med til sammen færre enn tretti barn, eller
->
-> familiebarnehager med til sammen inntil ti barn.
 >
 
 ## § 7 b
@@ -1577,9 +1770,9 @@ refid: "lov/2005-06-17-64"
 
 *§ 8 skal lyde:*
 
-> § 8.Krav til vedtekterKommunale og private barnehager skal ha vedtekter. Vedtektene skal gi opplysninger som er av betydning for foreldrenes forhold til barnehagen, herunder omeierforholdformål, jf. §§ 1 og 1 aopptakskriterierantall medlemmer i samarbeidsutvalgetbarnehagens åpningstid.
+> § 8. Krav til vedtekter
 >
-> § 8.Krav til vedtekter
+> Kommunale og private barnehager skal ha vedtekter. Vedtektene skal gi opplysninger som er av betydning for foreldrenes forhold til barnehagen, herunder omeierforholdformål, jf. §§ 1 og 1 aopptakskriterierantall medlemmer i samarbeidsutvalgetbarnehagens åpningstid.
 >
 
 ## § 9
@@ -1633,16 +1826,6 @@ refid: "lov/2005-06-17-64"
 *§ 9 tredje ledd skal lyde:*
 
 > Ved internkontroll etter denne paragrafen skal barnehagenutarbeide en beskrivelse av barnehagens hovedoppgaver, mål og organiseringha nødvendige rutiner og prosedyreravdekke og følge opp avvik og risiko for avvikdokumentere internkontrollen i den formen og det omfanget som er nødvendigevaluere og ved behov forbedre skriftlige prosedyrer og andre tiltak for internkontroll.
->
-> utarbeide en beskrivelse av barnehagens hovedoppgaver, mål og organisering
->
-> ha nødvendige rutiner og prosedyrer
->
-> avdekke og følge opp avvik og risiko for avvik
->
-> dokumentere internkontrollen i den formen og det omfanget som er nødvendig
->
-> evaluere og ved behov forbedre skriftlige prosedyrer og andre tiltak for internkontroll.
 >
 
 ## § 9 a

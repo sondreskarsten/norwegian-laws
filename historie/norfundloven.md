@@ -82,10 +82,8 @@ refid: "lov/1997-05-09-26"
 
 *I nytt kapittel 3 skal kapitteloverskriften lyde:*
 
-### 2013-06-21 — lov/2013-06-21-55
-
-*I nytt kapittel 3 skal §§ 20 til 24 lyde:*
-
+> I nytt kapittel 3 skal §§ 20 til 24 lyde:
+>
 > § 20.Generalforsamlingens myndighet og rett og plikt til å være til stede på generalforsamlingen
 >
 > Gjennom generalforsamlingen utøver departementet den øverste myndighet i fondet.
@@ -154,6 +152,20 @@ refid: "lov/1997-05-09-26"
 ### 2013-06-21 — lov/2013-06-21-55
 
 *I nytt kapittel 5 blir nåværende §§ 21 til 24 nye §§ 28 til 31.*
+
+### 2013-06-21 — forskrift/2013-06-21-748
+
+*Loven trer i kraft 21. juni 2013.*
+
+> Loven trer i kraft 21. juni 2013.
+>
+
+### 2019-12-13 — lov/2019-12-13-79
+
+*I lov 9. mai 1997 nr. 26 om Statens investeringsfond for næringsvirksomhet i utviklingsland (Nordfundloven) skal § 7 tredje ledd lyde:*
+
+> Lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjelder ikke for fondet.
+>
 
 ## § 1
 
@@ -262,9 +274,9 @@ refid: "lov/1997-05-09-26"
 
 *§ 27 skal lyde:*
 
-> § 27.Riksrevisjonens kontrollRiksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i fondet etter riksrevisjonsloven.
+> § 27. Riksrevisjonens kontroll
 >
-> § 27.Riksrevisjonens kontroll
+> Riksrevisjonen fører kontroll med forvaltningen av statens interesser og kan foreta undersøkelser mv. i fondet etter riksrevisjonsloven.
 >
 
 ## § 6

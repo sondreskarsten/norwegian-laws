@@ -1376,14 +1376,6 @@ refid: "lov/1997-02-28-19"
 
 > For å ha rett til dagpenger må medlemmet være reell arbeidssøker. Som reell arbeidssøker regnes den som er arbeidsfør, er registrert som arbeidssøker hos Arbeids- og velferdsetaten og er villig tilå ta ethvert arbeid som er lønnet etter tariff eller sedvane,å ta arbeid hvor som helst i Norge,å ta arbeid uavhengig av om det er på heltid eller deltid, ogå delta på arbeidsmarkedstiltak.
 >
-> å ta ethvert arbeid som er lønnet etter tariff eller sedvane,
->
-> å ta arbeid hvor som helst i Norge,
->
-> å ta arbeid uavhengig av om det er på heltid eller deltid, og
->
-> å delta på arbeidsmarkedstiltak.
->
 
 ## § 4-6
 
@@ -1508,9 +1500,11 @@ refid: "lov/1997-02-28-19"
 
 *§ 4-9 skal lyde:*
 
-> § 4-9.EgenandelEtter at dagpengene er innvilget, beregnes det en egenandel på tre ventedager. Egenandelen tilsvarer tre ganger medlemmets dagsats medregnet eventuelt barnetillegg, jf. § 4-12, og går til fradrag i medlemmets første dagpengeutbetalinger.For medlemmer som får dagsatsen redusert etter §§ 4-25 og 4-26, beregnes egenandelen etter første ledd på grunnlag av den reduserte dagsatsen.
+> § 4-9. Egenandel
 >
-> § 4-9.Egenandel
+> Etter at dagpengene er innvilget, beregnes det en egenandel på tre ventedager. Egenandelen tilsvarer tre ganger medlemmets dagsats medregnet eventuelt barnetillegg, jf. § 4-12, og går til fradrag i medlemmets første dagpengeutbetalinger.
+>
+> For medlemmer som får dagsatsen redusert etter §§ 4-25 og 4-26, beregnes egenandelen etter første ledd på grunnlag av den reduserte dagsatsen.
 >
 
 ### 2024-12-20 — lov/2024-12-20-81
@@ -1549,9 +1543,19 @@ refid: "lov/1997-02-28-19"
 
 *§ 4-10 skal lyde:*
 
-> § 4-10.Sanksjonsperiode ved selvforskyldt arbeidsløshetDet ytes dagpenger først etter en sanksjonsperiode når medlemmethar sagt opp sin stilling uten rimelig grunn,har sluttet uten rimelig grunn,er avskjediget eller oppsagt på grunn av forhold som kan bebreides vedkommende, ellerhandler som beskrevet i § 4-20 første ledd bokstav a til c.Sanksjonsperioden løper fra det tidspunkt det er søkt om stønad, og fastsettes tilatten uker første gang forhold som nevnt i første ledd inntreffer,seks måneder dersom forhold som nevnt i første ledd eller § 4-20 har inntruffet to eller flere ganger innenfor de siste tolv månedene.For at det skal kunne fastsettes sanksjonsperiode etter andre ledd bokstav b, må det som følge av de tidligere forholdene ha blitt fattet vedtak om sanksjonsperiode etter bestemmelsene i denne paragraf eller vedtak om tidsbegrenset bortfall av dagpenger etter bestemmelsene i § 4-20.Sanksjonsperioden kan bare fastsettes på grunnlag av forhold som ikke ligger lenger tilbake i tid enn seks måneder. Seksmånedersfristen regnes fra det tidspunkt medlemmet ikke lenger har krav på lønn.Medlemmet må stå tilmeldt Arbeids- og velferdsetaten og fylle vilkårene for rett til dagpenger i sanksjonsperioden.Det skal ikke fastsettes sanksjonsperiode for medlem som har sagt opp sin stilling for å flytte med ektefelle eller samboer til nytt arbeidssted et annet sted i landet dersom vedkommende kan regnes som reell arbeidssøker etter § 4-5 andre ledd.
+> § 4-10. Sanksjonsperiode ved selvforskyldt arbeidsløshet
 >
-> § 4-10.Sanksjonsperiode ved selvforskyldt arbeidsløshet
+> Det ytes dagpenger først etter en sanksjonsperiode når medlemmethar sagt opp sin stilling uten rimelig grunn,har sluttet uten rimelig grunn,er avskjediget eller oppsagt på grunn av forhold som kan bebreides vedkommende, ellerhandler som beskrevet i § 4-20 første ledd bokstav a til c.
+>
+> Sanksjonsperioden løper fra det tidspunkt det er søkt om stønad, og fastsettes tilatten uker første gang forhold som nevnt i første ledd inntreffer,seks måneder dersom forhold som nevnt i første ledd eller § 4-20 har inntruffet to eller flere ganger innenfor de siste tolv månedene.
+>
+> For at det skal kunne fastsettes sanksjonsperiode etter andre ledd bokstav b, må det som følge av de tidligere forholdene ha blitt fattet vedtak om sanksjonsperiode etter bestemmelsene i denne paragraf eller vedtak om tidsbegrenset bortfall av dagpenger etter bestemmelsene i § 4-20.
+>
+> Sanksjonsperioden kan bare fastsettes på grunnlag av forhold som ikke ligger lenger tilbake i tid enn seks måneder. Seksmånedersfristen regnes fra det tidspunkt medlemmet ikke lenger har krav på lønn.
+>
+> Medlemmet må stå tilmeldt Arbeids- og velferdsetaten og fylle vilkårene for rett til dagpenger i sanksjonsperioden.
+>
+> Det skal ikke fastsettes sanksjonsperiode for medlem som har sagt opp sin stilling for å flytte med ektefelle eller samboer til nytt arbeidssted et annet sted i landet dersom vedkommende kan regnes som reell arbeidssøker etter § 4-5 andre ledd.
 >
 
 ### 2025-12-22 — lov/2025-12-22-117
@@ -1559,10 +1563,6 @@ refid: "lov/1997-02-28-19"
 *§ 4-10 andre ledd skal lyde:*
 
 > Sanksjonsperioden løper fra det tidspunktet det er søkt om stønad, og fastsettes til18 uker første gang forhold som nevnt i første ledd inntreffer,26 uker dersom forhold som nevnt i første ledd eller § 4-20 har inntruffet to eller flere ganger innenfor de siste tolv månedene.
->
-> 18 uker første gang forhold som nevnt i første ledd inntreffer,
->
-> 26 uker dersom forhold som nevnt i første ledd eller § 4-20 har inntruffet to eller flere ganger innenfor de siste tolv månedene.
 >
 
 ## § 4-11
@@ -1910,10 +1910,6 @@ refid: "lov/1997-02-28-19"
 
 > Retten til dagpenger faller bort i18 uker første gang et forhold som nevnt i første ledd bokstav a til d eller andre ledd inntreffer,26 uker dersom forhold som nevnt i første ledd bokstav a til d eller andre ledd, eller § 4-10 første ledd, har inntruffet to eller flere ganger innenfor de siste tolv månedene.
 >
-> 18 uker første gang et forhold som nevnt i første ledd bokstav a til d eller andre ledd inntreffer,
->
-> 26 uker dersom forhold som nevnt i første ledd bokstav a til d eller andre ledd, eller § 4-10 første ledd, har inntruffet to eller flere ganger innenfor de siste tolv månedene.
->
 
 ## § 4-21
 
@@ -1930,9 +1926,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 4-23 skal lyde:*
 
-> § 4-23.Bortfall på grunn av alderRetten til dagpenger faller bort ved utgangen av den måneden medlemmet fyller 67 år.
+> § 4-23. Bortfall på grunn av alder
 >
-> § 4-23.Bortfall på grunn av alder
+> Retten til dagpenger faller bort ved utgangen av den måneden medlemmet fyller 67 år.
 >
 
 ## § 4-24
@@ -4860,16 +4856,6 @@ refid: "lov/1997-02-28-19"
 
 > Det kan gis arbeidsavklaringspenger i inntil seks måneder til et medlem som ikke har opparbeidet seg ny rett til sykepenger etter kapittel 8. Medlemmet skal oppfylle vilkårene i § 11-5, men det stilles likevel ikke krav til varigheten av den nedsatte arbeidsevnen. Vilkårene i § 11-6 gjelder ikke. Ett av følgende vilkår skal i tillegg være oppfylt:Medlemmet har tidligere mottatt arbeidsavklaringspenger og har blitt arbeidsufør som følge av en annen sykdom innen seks måneder etter at arbeidsavklaringspengene opphørte.Medlemmet har tidligere mottatt arbeidsavklaringspenger og har blitt arbeidsufør som følge av samme sykdom innen ett år etter at arbeidsavklaringspengene opphørte.Medlemmet har tidligere mottatt sykepenger etter kapittel 8 i til sammen 248, 250 eller 260 sykepengedager i løpet av de tre siste årene, se § 8-12, og har igjen blitt arbeidsufør på grunn av sykdom eller skade mens han eller hun er i arbeid.Medlemmet har tidligere mottatt sykepenger etter kapittel 8 i til sammen 248, 250 eller 260 sykepengedager i løpet av de tre siste årene, se § 8-12, og er fortsatt arbeidsufør på grunn av sykdom eller skade.Medlemmet har mottatt arbeidsavklaringspenger og deretter foreldrepenger og har blitt arbeidsufør på grunn av sykdom eller skade, se § 8-2 andre ledd, innen seks måneder etter at foreldrepengene opphørte.
 >
-> Medlemmet har tidligere mottatt arbeidsavklaringspenger og har blitt arbeidsufør som følge av en annen sykdom innen seks måneder etter at arbeidsavklaringspengene opphørte.
->
-> Medlemmet har tidligere mottatt arbeidsavklaringspenger og har blitt arbeidsufør som følge av samme sykdom innen ett år etter at arbeidsavklaringspengene opphørte.
->
-> Medlemmet har tidligere mottatt sykepenger etter kapittel 8 i til sammen 248, 250 eller 260 sykepengedager i løpet av de tre siste årene, se § 8-12, og har igjen blitt arbeidsufør på grunn av sykdom eller skade mens han eller hun er i arbeid.
->
-> Medlemmet har tidligere mottatt sykepenger etter kapittel 8 i til sammen 248, 250 eller 260 sykepengedager i løpet av de tre siste årene, se § 8-12, og er fortsatt arbeidsufør på grunn av sykdom eller skade.
->
-> Medlemmet har mottatt arbeidsavklaringspenger og deretter foreldrepenger og har blitt arbeidsufør på grunn av sykdom eller skade, se § 8-2 andre ledd, innen seks måneder etter at foreldrepengene opphørte.
->
 
 ## § 11-14
 
@@ -6054,14 +6040,6 @@ refid: "lov/1997-02-28-19"
 
 > Sykdom som angitt i forskriftene skal godkjennes som yrkesskade, med mindre Arbeids- og velferdsetaten sannsynliggjør atsykdomsbildet ikke er karakteristisk og i samsvar med det som den aktuelle påvirkningen kan framkalle,vedkommende i tid og konsentrasjon ikke har vært utsatt for den aktuelle påvirkningen i en slik grad at det er en rimelig sammenheng mellom påvirkningen og det aktuelle sykdomsbildet,symptomene ikke har oppstått i rimelig tid etter påvirkningen, ellerdet er mer sannsynlig at en annen sykdom eller påvirkning er årsak til symptomene.
 >
-> sykdomsbildet ikke er karakteristisk og i samsvar med det som den aktuelle påvirkningen kan framkalle,
->
-> vedkommende i tid og konsentrasjon ikke har vært utsatt for den aktuelle påvirkningen i en slik grad at det er en rimelig sammenheng mellom påvirkningen og det aktuelle sykdomsbildet,
->
-> symptomene ikke har oppstått i rimelig tid etter påvirkningen, eller
->
-> det er mer sannsynlig at en annen sykdom eller påvirkning er årsak til symptomene.
->
 
 ## § 13-6
 
@@ -6806,9 +6784,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 15-1 skal lyde:*
 
-> § 15-1.FormålFormålet med stønad etter dette kapitlet er å sikre inntekt for medlemmer som på grunn av aleneomsorg for små eller særlig tilsynskrevende barn i en midlertidig periode er ute av stand til å forsørge seg selv ved eget arbeid.
+> § 15-1. Formål
 >
-> § 15-1.Formål
+> Formålet med stønad etter dette kapitlet er å sikre inntekt for medlemmer som på grunn av aleneomsorg for små eller særlig tilsynskrevende barn i en midlertidig periode er ute av stand til å forsørge seg selv ved eget arbeid.
 >
 
 ## § 15-1 a
@@ -6817,9 +6795,9 @@ refid: "lov/1997-02-28-19"
 
 *Ny § 15-1 a skal lyde:*
 
-> § 15-1 a.Forholdet til bestemmelser om internasjonal trygdekoordineringStønader etter dette kapitlet er familieytelser etter trygdeforordningen. Bestemmelsene i dette kapitlet skal fravikes i den utstrekning det er nødvendig av hensyn til relevante bestemmelser i EØS-avtalens hoveddel, trygdeforordningen, gjennomføringsforordningen og bi- og multilaterale trygdeavtaler, se §§ 1-3 a og 1-3 b.
+> § 15-1 a. Forholdet til bestemmelser om internasjonal trygdekoordinering
 >
-> § 15-1 a.Forholdet til bestemmelser om internasjonal trygdekoordinering
+> Stønader etter dette kapitlet er familieytelser etter trygdeforordningen. Bestemmelsene i dette kapitlet skal fravikes i den utstrekning det er nødvendig av hensyn til relevante bestemmelser i EØS-avtalens hoveddel, trygdeforordningen, gjennomføringsforordningen og bi- og multilaterale trygdeavtaler, se §§ 1-3 a og 1-3 b.
 >
 
 ## § 15-2
@@ -6841,9 +6819,11 @@ refid: "lov/1997-02-28-19"
 
 *§ 15-3 skal lyde:*
 
-> § 15-3.OppholdskravDet er et vilkår for rett til stønad etter dette kapitlet at medlemmet og barnet oppholder seg i Norge, i et annet EØS-land eller i et land eller område der trygdeforordningen er gitt anvendelse for vedkommende ved en bi- eller multilateral trygdeavtale som nevnt i § 1-3 b. For et medlem som ikke er EØS-borger, stilles det krav om opphold i Norge, med mindre annet følger av trygdeforordningen, se § 1-3 a, eller en bi- eller multilateral trygdeavtale som nevnt i § 1-3 b.Stønad etter dette kapitlet ytes uten hinder av første ledd under opphold utenfor Norgetil et medlem som oppholder seg i utlandet i mindre enn seks uker i løpet av en tolv måneders periode, ellernår oppholdet skyldes arbeid for en norsk arbeidsgiver.
+> § 15-3. Oppholdskrav
 >
-> § 15-3.Oppholdskrav
+> Det er et vilkår for rett til stønad etter dette kapitlet at medlemmet og barnet oppholder seg i Norge, i et annet EØS-land eller i et land eller område der trygdeforordningen er gitt anvendelse for vedkommende ved en bi- eller multilateral trygdeavtale som nevnt i § 1-3 b. For et medlem som ikke er EØS-borger, stilles det krav om opphold i Norge, med mindre annet følger av trygdeforordningen, se § 1-3 a, eller en bi- eller multilateral trygdeavtale som nevnt i § 1-3 b.
+>
+> Stønad etter dette kapitlet ytes uten hinder av første ledd under opphold utenfor Norgetil et medlem som oppholder seg i utlandet i mindre enn seks uker i løpet av en tolv måneders periode, ellernår oppholdet skyldes arbeid for en norsk arbeidsgiver.
 >
 
 ## § 15-4
@@ -6905,9 +6885,19 @@ refid: "lov/1997-02-28-19"
 
 *§ 15-5 skal lyde:*
 
-> § 15-5.OvergangsstønadOvergangsstønad ytes til en enslig mor eller far som på grunn av omsorg for barn er midlertidig ute av stand til å forsørge seg selv ved eget arbeid.Overgangsstønad kan gis fra det tidspunktet den enslige moren eller faren får aleneomsorgen, og fram til utløpet av den måneden barnet fyller 14 måneder. I forbindelse med fødsel kan det i tillegg ytes stønad i inntil to måneder før fødselen.I direkte tilknytning til en løpende stønadsperiode kan stønadstiden forlenges med inntil 24 måneder, dersom barnet har en forbigående sykdom som hindrer medlemmet i å arbeide. Sykdommen må dokumenteres med legeerklæring.Dersom medlemmet er forhindret fra å arbeide fordi barnet krever særlig tilsyn på grunn av funksjonshemming, sykdom eller store sosiale problemer, kan det innvilges overgangsstønad inntil utløpet av den måneden barnet fyller 18 år. Barnets fysiske eller psykiske tilstand må dokumenteres av lege. Det må også framlegges dokumentasjon på at medlemmet er forhindret fra å arbeide som følge av barnets tilstand.Et medlem som uten rimelig grunn har sagt opp et arbeidsforhold de siste seks månedene før søknadstidspunktet, får ikke overgangsstønad.Departementet kan gi forskrifter om beregning av stønadsperiodens lengde, herunder om oppdeling og avkorting av stønadsperioden.
+> § 15-5. Overgangsstønad
 >
-> § 15-5.Overgangsstønad
+> Overgangsstønad ytes til en enslig mor eller far som på grunn av omsorg for barn er midlertidig ute av stand til å forsørge seg selv ved eget arbeid.
+>
+> Overgangsstønad kan gis fra det tidspunktet den enslige moren eller faren får aleneomsorgen, og fram til utløpet av den måneden barnet fyller 14 måneder. I forbindelse med fødsel kan det i tillegg ytes stønad i inntil to måneder før fødselen.
+>
+> I direkte tilknytning til en løpende stønadsperiode kan stønadstiden forlenges med inntil 24 måneder, dersom barnet har en forbigående sykdom som hindrer medlemmet i å arbeide. Sykdommen må dokumenteres med legeerklæring.
+>
+> Dersom medlemmet er forhindret fra å arbeide fordi barnet krever særlig tilsyn på grunn av funksjonshemming, sykdom eller store sosiale problemer, kan det innvilges overgangsstønad inntil utløpet av den måneden barnet fyller 18 år. Barnets fysiske eller psykiske tilstand må dokumenteres av lege. Det må også framlegges dokumentasjon på at medlemmet er forhindret fra å arbeide som følge av barnets tilstand.
+>
+> Et medlem som uten rimelig grunn har sagt opp et arbeidsforhold de siste seks månedene før søknadstidspunktet, får ikke overgangsstønad.
+>
+> Departementet kan gi forskrifter om beregning av stønadsperiodens lengde, herunder om oppdeling og avkorting av stønadsperioden.
 >
 
 ## § 15-6
@@ -7125,9 +7115,15 @@ refid: "lov/1997-02-28-19"
 
 *§ 15-9 skal lyde:*
 
-> § 15-9.Avkorting mot inntektOvergangsstønaden skal reduseres på grunnlag av pensjonsgivende inntekt som medlemmet har eller kan forventes å få.Overgangsstønaden skal ikke reduseres hvis den pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Stønaden skal reduseres med 45 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.Likestilt med pensjonsgivende inntekt etter denne paragrafen er tilsvarende inntekt fra utlandet og fra selvstendig næringsvirksomhet.Departementet gir forskrifter om fastsetting og endring av forventet pensjonsgivende inntekt. Det kan herunder gjøres unntak fra bestemmelsene i § 22-12.
+> § 15-9. Avkorting mot inntekt
 >
-> § 15-9.Avkorting mot inntekt
+> Overgangsstønaden skal reduseres på grunnlag av pensjonsgivende inntekt som medlemmet har eller kan forventes å få.
+>
+> Overgangsstønaden skal ikke reduseres hvis den pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Stønaden skal reduseres med 45 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.
+>
+> Likestilt med pensjonsgivende inntekt etter denne paragrafen er tilsvarende inntekt fra utlandet og fra selvstendig næringsvirksomhet.
+>
+> Departementet gir forskrifter om fastsetting og endring av forventet pensjonsgivende inntekt. Det kan herunder gjøres unntak fra bestemmelsene i § 22-12.
 >
 
 ## § 15-10
@@ -7136,9 +7132,15 @@ refid: "lov/1997-02-28-19"
 
 *§ 15-10 skal lyde:*
 
-> § 15-10.Stønad til barnetilsyn til enslig mor eller far som er i arbeidStønad til barnetilsyn ytes til enslig mor eller far som må overlate nødvendig tilsyn med barn under 14 måneder til andre på grunn av arbeid. Stønaden er uavhengig av retten til og perioden for overgangsstønad.For barn som må ha vesentlig mer tilsyn enn det som er vanlig for jevnaldrende, kan det gis stønad til barnetilsyn også når barnet er mellom 14 måneder og 18 år. Det samme gjelder når medlemmet på grunn av sitt arbeid må være borte fra hjemmet i lengre perioder eller på andre tidspunkter enn det en vanlig arbeidsdag medfører. Stønad til barnetilsyn kan også gis i inntil ett år når medlemmet har en forbigående sykdom som hindrer vedkommende i å være i arbeid.Stønaden er 64 prosent av dokumenterte utgifter til barnetilsyn opptil de beløp som Stortinget fastsetter. Det gis ikke stønad når den pensjonsgivende inntekten er større enn seks ganger grunnbeløpet. Etterbetaling av trygdeytelser skal ikke medregnes ved beregning av pensjonsgivende inntekt etter dette leddet.Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregning av stønad til barnetilsyn.
+> § 15-10. Stønad til barnetilsyn til enslig mor eller far som er i arbeid
 >
-> § 15-10.Stønad til barnetilsyn til enslig mor eller far som er i arbeid
+> Stønad til barnetilsyn ytes til enslig mor eller far som må overlate nødvendig tilsyn med barn under 14 måneder til andre på grunn av arbeid. Stønaden er uavhengig av retten til og perioden for overgangsstønad.
+>
+> For barn som må ha vesentlig mer tilsyn enn det som er vanlig for jevnaldrende, kan det gis stønad til barnetilsyn også når barnet er mellom 14 måneder og 18 år. Det samme gjelder når medlemmet på grunn av sitt arbeid må være borte fra hjemmet i lengre perioder eller på andre tidspunkter enn det en vanlig arbeidsdag medfører. Stønad til barnetilsyn kan også gis i inntil ett år når medlemmet har en forbigående sykdom som hindrer vedkommende i å være i arbeid.
+>
+> Stønaden er 64 prosent av dokumenterte utgifter til barnetilsyn opptil de beløp som Stortinget fastsetter. Det gis ikke stønad når den pensjonsgivende inntekten er større enn seks ganger grunnbeløpet. Etterbetaling av trygdeytelser skal ikke medregnes ved beregning av pensjonsgivende inntekt etter dette leddet.
+>
+> Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregning av stønad til barnetilsyn.
 >
 
 ## § 15-11
@@ -7689,9 +7691,17 @@ refid: "lov/1997-02-28-19"
 
 *§ 17-9 skal lyde:*
 
-> § 17-9.Reduksjon av ytelse på grunn av inntektStønaden til den gjenlevende skal reduseres på grunnlag av pensjonsgivende inntekt.Stønaden skal ikke reduseres hvis den pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Ytelsen skal reduseres med 45 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.Likestilt med pensjonsgivende inntekt er tilsvarende inntekt fra utlandet og pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven og avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning.Krav om tilbakebetaling av for mye utbetalt omstillingsstønad er tvangsgrunnlag for utlegg. Kravet kan inndrives av Innkrevingssentralen for bidrag og tilbakebetalingskrav etter reglene i bidragsinnkrevingsloven.Departementet kan gi forskrifter om detaljer om reduksjon av stønad etter denne paragrafen, herunder innhenting og dokumentasjon av pensjonsgivende inntekt og hvordan reduksjonen skal gjennomføres når det gis omstillingsstønad samtidig med andre ytelser etter loven her.
+> § 17-9. Reduksjon av ytelse på grunn av inntekt
 >
-> § 17-9.Reduksjon av ytelse på grunn av inntekt
+> Stønaden til den gjenlevende skal reduseres på grunnlag av pensjonsgivende inntekt.
+>
+> Stønaden skal ikke reduseres hvis den pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Ytelsen skal reduseres med 45 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.
+>
+> Likestilt med pensjonsgivende inntekt er tilsvarende inntekt fra utlandet og pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven og avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning.
+>
+> Krav om tilbakebetaling av for mye utbetalt omstillingsstønad er tvangsgrunnlag for utlegg. Kravet kan inndrives av Innkrevingssentralen for bidrag og tilbakebetalingskrav etter reglene i bidragsinnkrevingsloven.
+>
+> Departementet kan gi forskrifter om detaljer om reduksjon av stønad etter denne paragrafen, herunder innhenting og dokumentasjon av pensjonsgivende inntekt og hvordan reduksjonen skal gjennomføres når det gis omstillingsstønad samtidig med andre ytelser etter loven her.
 >
 
 ## § 17-10
@@ -7707,9 +7717,19 @@ refid: "lov/1997-02-28-19"
 
 *§ 17-10 skal lyde:*
 
-> § 17-10.Stønad til barnetilsyn til gjenlevende i arbeidTil en gjenlevende som er i arbeid, og som fyller vilkårene i § 17-2 til § 17-4, kan det gis stønad til barnetilsyn. Stønaden er uavhengig av retten til og perioden for omstillingsstønad.Stønad til barnetilsyn gis til en gjenlevende som må overlate nødvendig tilsyn med barn til andre på grunn av arbeid eller at de etablerer egen virksomhet, jf. § 4-6 tredje ledd.Stønad til barnetilsyn kan gis til barnet har fullført fjerde skoleår. For barn som har fullført fjerde skoleår, kan det gis stønad når barnet må ha vesentlig mer tilsyn enn det som er vanlig for jevnaldrende, eller når den gjenlevende på grunn av sitt arbeid må være borte fra hjemmet i lengre perioder eller på andre tidspunkter enn det en vanlig arbeidsdag medfører. Stønad til barnetilsyn kan også gis i inntil ett år når den gjenlevende har en forbigående sykdom som hindrer vedkommende i å være i arbeid.Stønaden er 64 prosent av dokumenterte utgifter til barnetilsyn opptil de beløpene som Stortinget fastsetter. Det gis ikke stønad når den pensjonsgivende inntekten er større enn seks ganger grunnbeløpet.Stønad gis for barn som blir forsørget av den gjenlevende. For barn som bor i fosterhjem, jf. barnevernsloven § 9-1, kan det gis stønad når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregning av stønad til barnetilsyn etter denne bestemmelsen.
+> § 17-10. Stønad til barnetilsyn til gjenlevende i arbeid
 >
-> § 17-10.Stønad til barnetilsyn til gjenlevende i arbeid
+> Til en gjenlevende som er i arbeid, og som fyller vilkårene i § 17-2 til § 17-4, kan det gis stønad til barnetilsyn. Stønaden er uavhengig av retten til og perioden for omstillingsstønad.
+>
+> Stønad til barnetilsyn gis til en gjenlevende som må overlate nødvendig tilsyn med barn til andre på grunn av arbeid eller at de etablerer egen virksomhet, jf. § 4-6 tredje ledd.
+>
+> Stønad til barnetilsyn kan gis til barnet har fullført fjerde skoleår. For barn som har fullført fjerde skoleår, kan det gis stønad når barnet må ha vesentlig mer tilsyn enn det som er vanlig for jevnaldrende, eller når den gjenlevende på grunn av sitt arbeid må være borte fra hjemmet i lengre perioder eller på andre tidspunkter enn det en vanlig arbeidsdag medfører. Stønad til barnetilsyn kan også gis i inntil ett år når den gjenlevende har en forbigående sykdom som hindrer vedkommende i å være i arbeid.
+>
+> Stønaden er 64 prosent av dokumenterte utgifter til barnetilsyn opptil de beløpene som Stortinget fastsetter. Det gis ikke stønad når den pensjonsgivende inntekten er større enn seks ganger grunnbeløpet.
+>
+> Stønad gis for barn som blir forsørget av den gjenlevende. For barn som bor i fosterhjem, jf. barnevernsloven § 9-1, kan det gis stønad når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.
+>
+> Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregning av stønad til barnetilsyn etter denne bestemmelsen.
 >
 
 ## § 17-10 a
@@ -7718,9 +7738,21 @@ refid: "lov/1997-02-28-19"
 
 *Ny § 17-10 a skal lyde:*
 
-> § 17-10 a.Tilleggsstønader og stønader til skolepenger m.m.Til en gjenlevende som fyller vilkårene i § 17-2 til § 17-4, og som gjennomfører utdanning eller opplæring etter § 17-7 første ledd bokstav c, kan det gis tilleggsstønader og stønad til skolepenger m.m. som helt eller delvis dekkerutgifter til daglige reiser i forbindelse med utredning eller gjennomføring av utdanningenutgifter til hjemreiser i forbindelse med utdanningennødvendige utgifter til flytting fra hjemstedet i forbindelse med utdanningen eller i forbindelse med arbeid etter at utdanningen er gjennomførtnødvendige utgifter til barnetilsyn i forbindelse med utredning eller gjennomføring av utdanningennødvendige ekstrautgifter til bolig i forbindelse med utredning eller gjennomføring av utdanningennødvendige utgifter til læremidler.Stønad etter denne bestemmelsen kan bare gis for tidsrom den gjenlevende har rett til omstillingsstønad, jf. § 17-5.Stønad til flytting etter første ledd bokstav c kan også gis til en gjenlevende som må flytte fra hjemstedet for å starte i arbeid på et annet sted. Flyttestønad gis bare når den gjenlevende har flyttet i et tidsrom der han eller hun har rett til omstillingsstønad, eller innen seks måneder etter at omstillingsstønaden falt bort.Stønad etter første ledd bokstav d gis for barn som blir forsørget av den gjenlevende. For barn som bor i fosterhjem, jf. barnevernsloven § 9-1, kan det gis slik stønad når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.Stønad til barnetilsyn etter første ledd bokstav d kan også gis til et medlem som står tilmeldt Arbeids- og velferdsetaten som reell arbeidssøker etter § 17-7 første ledd bokstav b.Det kan gis stønad til dekning av skolepenger m.m. etter satsene for skolepenger fra Statens lånekasse for utdanning. Utdanning ved private utdanningsinstitusjoner gir bare rett til skolepenger m.m. i særlige tilfeller.Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregningen av tilleggsstønader og stønad til skolepenger etter denne bestemmelsen, herunder stønad til skolepenger til utdanning ved private utdanningsinstitusjoner.
+> § 17-10 a. Tilleggsstønader og stønader til skolepenger m.m.
 >
-> § 17-10 a.Tilleggsstønader og stønader til skolepenger m.m.
+> Til en gjenlevende som fyller vilkårene i § 17-2 til § 17-4, og som gjennomfører utdanning eller opplæring etter § 17-7 første ledd bokstav c, kan det gis tilleggsstønader og stønad til skolepenger m.m. som helt eller delvis dekkerutgifter til daglige reiser i forbindelse med utredning eller gjennomføring av utdanningenutgifter til hjemreiser i forbindelse med utdanningennødvendige utgifter til flytting fra hjemstedet i forbindelse med utdanningen eller i forbindelse med arbeid etter at utdanningen er gjennomførtnødvendige utgifter til barnetilsyn i forbindelse med utredning eller gjennomføring av utdanningennødvendige ekstrautgifter til bolig i forbindelse med utredning eller gjennomføring av utdanningennødvendige utgifter til læremidler.
+>
+> Stønad etter denne bestemmelsen kan bare gis for tidsrom den gjenlevende har rett til omstillingsstønad, jf. § 17-5.
+>
+> Stønad til flytting etter første ledd bokstav c kan også gis til en gjenlevende som må flytte fra hjemstedet for å starte i arbeid på et annet sted. Flyttestønad gis bare når den gjenlevende har flyttet i et tidsrom der han eller hun har rett til omstillingsstønad, eller innen seks måneder etter at omstillingsstønaden falt bort.
+>
+> Stønad etter første ledd bokstav d gis for barn som blir forsørget av den gjenlevende. For barn som bor i fosterhjem, jf. barnevernsloven § 9-1, kan det gis slik stønad når den gjenlevende har forsørget barnet de siste to årene eller oppfostringen tok til før dødsfallet.
+>
+> Stønad til barnetilsyn etter første ledd bokstav d kan også gis til et medlem som står tilmeldt Arbeids- og velferdsetaten som reell arbeidssøker etter § 17-7 første ledd bokstav b.
+>
+> Det kan gis stønad til dekning av skolepenger m.m. etter satsene for skolepenger fra Statens lånekasse for utdanning. Utdanning ved private utdanningsinstitusjoner gir bare rett til skolepenger m.m. i særlige tilfeller.
+>
+> Departementet kan i forskrift fastsette nærmere regler om vilkårene for og beregningen av tilleggsstønader og stønad til skolepenger etter denne bestemmelsen, herunder stønad til skolepenger til utdanning ved private utdanningsinstitusjoner.
 >
 
 ## § 17-11
@@ -10048,9 +10080,7 @@ refid: "lov/1997-02-28-19"
 
 *§ 21-12 paragrafoverskriften skal lyde:*
 
-> § 21-12.Klage i trygdesaker
->
-> § 21-12.Klage i trygdesaker
+> § 21-12. Klage i trygdesaker
 >
 
 ### 2025-06-20 — lov/2025-06-20-38
@@ -10153,9 +10183,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 22-3a skal lyde:*
 
-> § 22-3a.Barnetillegg til bidragspliktigeDersom en stønadsmottaker skal betale underholdsbidrag til barn som han eller hun får barnetillegg for, kan barnetillegget utbetales til Innkrevingsmyndigheten. Det er et vilkår at Innkrevingsmyndigheten har satt fram krav om slik utbetaling. Barnetillegget går til fradrag i underholdsbidraget som stønadsmottakeren skal betale.
+> § 22-3a. Barnetillegg til bidragspliktige
 >
-> § 22-3a.Barnetillegg til bidragspliktige
+> Dersom en stønadsmottaker skal betale underholdsbidrag til barn som han eller hun får barnetillegg for, kan barnetillegget utbetales til Innkrevingsmyndigheten. Det er et vilkår at Innkrevingsmyndigheten har satt fram krav om slik utbetaling. Barnetillegget går til fradrag i underholdsbidraget som stønadsmottakeren skal betale.
 >
 
 ## § 22-3 b
@@ -10261,9 +10291,17 @@ refid: "lov/1997-02-28-19"
 
 *§ 22-9 skal lyde:*
 
-> § 22-9.KontingenttrekkI utbetalingen av sykepenger, foreldrepenger, svangerskapspenger, pleie- og opplæringspenger og omsorgspenger etter denne loven kan Arbeids- og velferdsetaten foreta trekk av fagforeningskontingent, herunder premie til kollektiv forsikring som er knyttet til medlemskap i fagforening, eller avgift til opplysnings- og utviklingsfond eller til lavtlønnsfond.Trekk av fagforeningskontingent i ytelser etter første ledd forutsetter at det er fastsatt regler om kontingenttrekk i tariffavtalen. Kontingenttrekk kan bare gjennomføres når det er inngått avtale om dette mellom Arbeids- og velferdsetaten og fagforeningen. Trekk av fagforeningskontingent i ytelser gjennomføres ikke når arbeidsgiver forskutterer ytelsen.Arbeidsgiver til den som har rett til ytelsen, skal sende nødvendige opplysninger om kontingenttrekk til Arbeids- og velferdsetaten.Arbeids- og velferdsetatens ansvar er begrenset til å gjennomføre kontingenttrekket og overføre beløpet til fagforeningens oppgitte konto.Departementet kan gi forskrift om gjennomføringen av paragrafen her.
+> § 22-9. Kontingenttrekk
 >
-> § 22-9.Kontingenttrekk
+> I utbetalingen av sykepenger, foreldrepenger, svangerskapspenger, pleie- og opplæringspenger og omsorgspenger etter denne loven kan Arbeids- og velferdsetaten foreta trekk av fagforeningskontingent, herunder premie til kollektiv forsikring som er knyttet til medlemskap i fagforening, eller avgift til opplysnings- og utviklingsfond eller til lavtlønnsfond.
+>
+> Trekk av fagforeningskontingent i ytelser etter første ledd forutsetter at det er fastsatt regler om kontingenttrekk i tariffavtalen. Kontingenttrekk kan bare gjennomføres når det er inngått avtale om dette mellom Arbeids- og velferdsetaten og fagforeningen. Trekk av fagforeningskontingent i ytelser gjennomføres ikke når arbeidsgiver forskutterer ytelsen.
+>
+> Arbeidsgiver til den som har rett til ytelsen, skal sende nødvendige opplysninger om kontingenttrekk til Arbeids- og velferdsetaten.
+>
+> Arbeids- og velferdsetatens ansvar er begrenset til å gjennomføre kontingenttrekket og overføre beløpet til fagforeningens oppgitte konto.
+>
+> Departementet kan gi forskrift om gjennomføringen av paragrafen her.
 >
 
 ## § 22-10
@@ -10911,9 +10949,9 @@ refid: "lov/1997-02-28-19"
 
 *§ 23-1 skal lyde:*
 
-> § 23-1.Folketrygdens utgifterDe avgifter og tilskott som dette kapitlet omfatter, herunder tilskott fra staten, skal dekke utgiftene til ytelsene etter denne loven, til statsgaranti for lønnskrav ved konkurs etter lov av 14. desember 1973 nr. 61, til bidragsforskott etter lov av 17. februar 1989 nr. 2 og til tilbakebetaling etter barnelova § 9-15.
+> § 23-1. Folketrygdens utgifter
 >
-> § 23-1.Folketrygdens utgifter
+> De avgifter og tilskott som dette kapitlet omfatter, herunder tilskott fra staten, skal dekke utgiftene til ytelsene etter denne loven, til statsgaranti for lønnskrav ved konkurs etter lov av 14. desember 1973 nr. 61, til bidragsforskott etter lov av 17. februar 1989 nr. 2 og til tilbakebetaling etter barnelova § 9-15.
 >
 
 ## § 23-2
@@ -12164,6 +12202,13 @@ refid: "lov/1997-02-28-19"
 
 *Nåværende andre, tredje og fjerde ledd blir nye tredje, fjerde og femte ledd.*
 
+### 2002-01-01 — lov/2001-12-21-99
+
+*I lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) skal § 4-7 annet ledd lyde:*
+
+> Dagpenger kan ytes i inntil 26 uker i løpet av en periode på 18 måneder ved hel eller delvis permittering hos samme arbeidsgiver.
+>
+
 ### 2002-06-14 — lov/2002-06-14-22
 
 *Innholdsfortegnelse i kapittel 5 sjuende strekpunkt oppheves.*
@@ -12322,6 +12367,13 @@ refid: "lov/1997-02-28-19"
 ### 2006-01-01 — lov/2005-12-21-127
 
 *Under kapittel 5 Stønad ved helsetjenester oppheves følgende strekpunkt:dekning av driftsutgifter ved opptreningsinstitusjoner og helsesportssentra m.m. står i § 5-20*
+
+### 2006-04-07 — lov/2006-04-07-7
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 21-4 tredje ledd lyde:*
+
+> Trygdens organer kan pålegge helseinstitusjoner, fengsler og boformer for heldøgns omsorg og pleie å gi rutinemessige meldinger om innskriving og utskriving av klienter. Skoler kan pålegges å gi rutinemessige meldinger når elever har fravær som kan skyldes utenlandsopphold.
+>
 
 ### 2006-04-21 — lov/2006-04-21-10
 
@@ -12523,6 +12575,20 @@ refid: "lov/1997-02-28-19"
 > Opphør av forsikring for tillegg til sykepenger
 >
 
+### 2008-06-27 — lov/2008-06-27-53
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 1-5 annet ledd lyde:*
+
+> Registrert partnerskap er likestilt med ekteskap.
+>
+
+### 2008-12-12 — lov/2008-12-12-84
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 8-7 niende ledd lyde:*
+
+> Departementet kan gi forskrifter om unntak fra vilkåret om legeerklæring i første og fjerde ledd for et begrenset tidsrom når arbeidsuførheten dokumenteres med erklæring fra annet helsepersonell.
+>
+
 ### 2008-12-12 — lov/2008-12-12-97
 
 *Nåværende § 24-5 blir ny § 24-6.*
@@ -12531,9 +12597,8 @@ refid: "lov/1997-02-28-19"
 
 *Overskriften til kapittel 10 skal lyde:*
 
-### 2008-12-19 — lov/2008-12-19-106
-
-*Kapittel 10. Stønad for å kompensere for utgifter til bedring av arbeidsevnen og funksjonsevnen i dagliglivet*
+> Kapittel 10. Stønad for å kompensere for utgifter til bedring av arbeidsevnen og funksjonsevnen i dagliglivet
+>
 
 ### 2008-12-19 — lov/2008-12-19-106
 
@@ -12789,10 +12854,8 @@ refid: "lov/1997-02-28-19"
 
 *I kapittel 12 skal kapitteloverskriften lyde:*
 
-### 2008-12-19 — lov/2008-12-19-106
-
-*Etter kapitteloverskriften i kapittel 12 skal ny innholdsfortegnelse lyde:*
-
+> Etter kapitteloverskriften i kapittel 12 skal ny innholdsfortegnelse lyde:
+>
 > Bestemmelser omformål står i § 12-1vilkår for rett til uførepensjon står i §§ 12-2 til 12-7uførepensjon til hjemmearbeidende ektefelle står i § 12-8uføretidspunkt står i § 12-10gradering av uførepensjon står i § 12-11revurdering av uføregraden står i § 12-12beregning av uførepensjon står i § 12-13avkall på uførepensjon står i § 12-14uførepensjon til gjenlevende ektefelle står i § 12-15foreløpig uførepensjon står i § 12-16avkorting av uførepensjon for ytelser fra arbeidsgiver står i § 12-17uførepensjon ved yrkesskade står i § 12-18
 >
 
@@ -13089,6 +13152,13 @@ refid: "lov/1997-02-28-19"
 
 *Nåværende fjerde ledd blir nytt femte ledd.*
 
+### 2010-06-11 — lov/2010-06-11-22
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 14-12 første ledd lyde:*
+
+> Dersom begge foreldre fyller vilkårene for rett til foreldrepenger, er 50 stønadsdager (10 uker) av stønadsperioden forbeholdt faren (fedrekvote).
+>
+
 ### 2010-11-26 — lov/2010-11-26-59
 
 *Teksten «Kapittel 10 Ytelser under medisinsk rehabilitering» skal endrast til:*
@@ -13256,6 +13326,13 @@ refid: "lov/1997-02-28-19"
 > Når en person har satt fram krav om uføretrygd og det er sannsynlig at han eller hun vil bli innvilget uføretrygd, kan Arbeids- og velferdsetaten yte en foreløpig uføretrygd i ventetiden. Foreløpig uføretrygd ytes ikke dersom vedkommende kan dekke utgiftene til livsopphold ved hjelp av andre inntekter. Foreløpig uføretrygd beregnes på samme måte som uføretrygd, se §§ 12-9 og 12-13.
 >
 
+### 2012-02-01 — forskrift/2011-12-16-1249
+
+*Folketrygdloven ny § 19-9a og endringsloven del II trer i kraft 1. februar 2012.*
+
+> Folketrygdloven ny § 19-9a og endringsloven del II trer i kraft 1. februar 2012.
+>
+
 ### 2012-06-22 — lov/2012-06-22-39
 
 *Kapittel 24 innhaldsoversikta skal lyde:*
@@ -13263,13 +13340,26 @@ refid: "lov/1997-02-28-19"
 > Bestemmelser omskatteetatens og Arbeids- og velferdsetatens oppgaver står i § 24,arbeidsgiverens plikter står i § 24-2,fastsetting og innkreving av avgifter står i § 24-3,forskrifter står i § 24-4.
 >
 
+### 2012-07-01 — forskrift/2012-06-22-579
+
+*Lov 17. desember 2010 nr. 81 om endringer i folketrygdloven (medlemskap i folketrygden under fengselsopphold mv.) trer i kraft 1. juli 2012.*
+
+> Lov 17. desember 2010 nr. 81 om endringer i folketrygdloven (medlemskap i folketrygden under fengselsopphold mv.) trer i kraft 1. juli 2012.
+>
+
 ### 2012-10-19 — lov/2012-10-19-68
 
 *Overskriften til kapittel 9 skal lyde:*
 
-### 2012-10-19 — lov/2012-10-19-68
+> Kapittel 9 Stønad ved barns og andre nærståendes sykdom
+>
 
-*Kapittel 9 Stønad ved barns og andre nærståendes sykdom*
+### 2013-01-01 — forskrift/2012-12-14-1206
+
+*Loven trer i kraft fra 1. januar 2013.*
+
+> Loven trer i kraft fra 1. januar 2013.
+>
 
 ### 2013-04-05 — lov/2013-04-05-12
 
@@ -13314,9 +13404,42 @@ refid: "lov/1997-02-28-19"
 > (5) Opplysninger som institusjonen etter loven her skal meddele kontohaveren, skal gis verge med mindre opplysningene gjelder midler personen under vergemål har rett til å disponere over på egen hånd. Kongen kan i forskrift fastsette at de samme opplysningene også skal gis fylkesmannen, eller at fylkesmannen skal gis en kontoutskrift for disse kontoene ved årets slutt.
 >
 
+### 2013-04-19 — forskrift/2013-04-19-389
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2013-06-14 — lov/2013-06-14-33
 
 *Nåværende femte ledd blir nytt sjette ledd.*
+
+### 2013-06-21 — lov/2013-06-21-68
+
+*Endring i følgjande lov:*
+
+> Endring i følgjande lov:
+>
+> Lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven).
+>
+> I lov 28. februar 1997 nr. 19 om folketrygd skal § 23-3 andre ledd nr. 2 ny bokstav f lyde:
+>
+> godtgjørelse til deltaker for arbeidsinnsats i deltakerlignet selskap i næring der det svares produktavgift som nevnt i § 23-5.
+>
+> Endringa under I tek til å gjelde straks med verknad frå og med inntektsåret 2013.
+>
+
+### 2013-06-21 — lov/2013-06-21-79
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 5-24 a andre ledd bokstav c ledd lyde:vilkår for stønad, herunder forhåndsgodkjenning og krav til tjenesteyteren*
+
+### 2013-07-01 — forskrift/2012-06-15-525
+
+*Loven trer i kraft 1. juli 2013.*
+
+> Loven trer i kraft 1. juli 2013.
+>
 
 ### 2014-06-20 — lov/2014-06-20-24
 
@@ -13405,6 +13528,13 @@ refid: "lov/1997-02-28-19"
 
 *Någjeldende § 9-6 sjuende ledd blir nytt åttende ledd.*
 
+### 2015-01-01 — forskrift/2014-06-20-797
+
+*Delt ikraftsetting av lov 16. desember 2011 nr. 59 om endringer i folketrygdloven (ny uføretrygd og alderspensjon til uføre). Loven trer i kraft 1. januar 2015, med unntak av folketrygdloven § 19-9a og loven del II som trådte i kraft 1. februar 2012.*
+
+> Delt ikraftsetting av lov 16. desember 2011 nr. 59 om endringer i folketrygdloven (ny uføretrygd og alderspensjon til uføre). Loven trer i kraft 1. januar 2015, med unntak av folketrygdloven § 19-9a og loven del II som trådte i kraft 1. februar 2012.
+>
+
 ### 2015-06-19 — lov/2015-06-19-41
 
 *I innledningen til kapittel 20 gjøres følgende endringer:*
@@ -13415,6 +13545,13 @@ refid: "lov/1997-02-28-19"
 ### 2015-06-19 — lov/2015-06-19-41
 
 *Nåværende strekpunkt atten til tjue blir strekpunkt nitten til tjueen.*
+
+### 2015-07-01 — forskrift/2015-06-12-650
+
+*Ikraftsetting av lov 5. juni 2015 nr. 37 om endringer i folketrygdloven (henvisning fra psykolog). Loven trer i kraft fra 1. juli 2015.*
+
+> Ikraftsetting av lov 5. juni 2015 nr. 37 om endringer i folketrygdloven (henvisning fra psykolog). Loven trer i kraft fra 1. juli 2015.
+>
 
 ### 2015-12-18 — lov/2015-12-18-103
 
@@ -13450,9 +13587,25 @@ refid: "lov/1997-02-28-19"
 
 *I innholdsfortegnelsen til kapittel 17 skal femte strekpunkt lyde:stønad til barnetilsyn, tilleggsstønader og stønad til skolepenger mv. står i § 17-9*
 
+### 2016-01-01 — forskrift/2015-06-19-669
+
+*Ikraftsetting av Stortingets vedtak 15. juni 2015 til lov om endringer i folketrygdloven (midlertidig gjenlevendetillegg til ny alderspensjon). Loven trer i kraft 1. januar 2016.*
+
+> Ikraftsetting av Stortingets vedtak 15. juni 2015 til lov om endringer i folketrygdloven (midlertidig gjenlevendetillegg til ny alderspensjon). Loven trer i kraft 1. januar 2016.
+>
+
 ### 2016-05-27 — lov/2016-05-27-12
 
 *Nåværende første ledd fjerde punktum blir nytt femte punktum.*
+
+### 2016-06-03 — lov/2016-06-03-19
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 11-6 lyde:*
+
+> § 11-6.Behov for bistand til å skaffe seg eller beholde arbeid
+>
+> Det er et vilkår for rett til ytelser etter dette kapitlet at medlemmet for å skaffe seg eller beholde arbeid som han eller hun kan utførehar behov for aktiv behandling,har behov for arbeidsrettet tiltak, elleretter å ha prøvd tiltak etter bokstavene a eller b fortsatt anses å ha en viss mulighet for å komme i arbeid, og får oppfølging fra Arbeids- og velferdsetaten.
+>
 
 ### 2016-06-17 — lov/2016-06-17-25
 
@@ -13470,6 +13623,20 @@ refid: "lov/1997-02-28-19"
 *Kapittel 24 innholdsfortegnelsen skal lyde:*
 
 > Bestemmelser omSkatteetatens og Arbeids- og velferdsetatens oppgaver står i § 24-1,kontroll av arbeidsgivere står i § 24-4,forskrifter står i § 24-5.
+>
+
+### 2017-01-01 — forskrift/2016-11-11-1309
+
+*Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del II trer i kraft 1. januar 2017.*
+
+> Delt ikraftsetting av lov 18. desember 2015 nr. 121 om endringer i helselovgivningen (Nasjonalt klageorgan for helsetjenesten mv.). Del II trer i kraft 1. januar 2017.
+>
+
+### 2017-02-01 — forskrift/2016-10-14-1203
+
+*Delt ikraftsetting av lov 17. juni 2016 nr. 25 om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer). Endringene i folketrygdloven § 19-11 og endringsloven del VIII nr. 7 trer i kraft 1. februar 2017.*
+
+> Delt ikraftsetting av lov 17. juni 2016 nr. 25 om endringer i folketrygdloven, lov om Statens pensjonskasse og enkelte andre lover (økt minste pensjonsnivå til enslige alderspensjonister og andre endringer). Endringene i folketrygdloven § 19-11 og endringsloven del VIII nr. 7 trer i kraft 1. februar 2017.
 >
 
 ### 2017-10-01 — lov/2017-05-11-25
@@ -13787,6 +13954,26 @@ refid: "lov/1997-02-28-19"
 > Departementet kan i forskrift fastsette nærmere regler om avgrensingen av folketrygdens ansvar som gjelder tilleggsstønader og utgiftsdekning etter annen lovgivning.
 >
 
+### 2018-01-01 — forskrift/2017-12-19-2151
+
+*Delt ikraftsetting av loven. Loven § 14-17 trer i kraft 1. januar 2018.*
+
+> Delt ikraftsetting av loven. Loven § 14-17 trer i kraft 1. januar 2018.
+>
+
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 25-11 lyde:*
+
+> § 25-11.Opplysningsplikt til barnevernet
+>
+> Enhver som gjør tjeneste i trygdens organer, skal i sitt arbeid være oppmerksom på forhold som kan føre til tiltak fra barnevernstjenesten.
+>
+> Enhver som gjør tjeneste i trygdens organer, skal uten hinder av taushetsplikt melde fra til barnevernstjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling, eller at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn viser alvorlige atferdsvansker i form av alvorlig eller gjentatt kriminalitet, misbruk av rusmidler eller en annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Enhver som gjør tjeneste i trygdens organer, plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
 ### 2018-04-27 — lov/2018-04-27-15
 
 *Nåværende annet punktum blir tredje punktum.*
@@ -13876,6 +14063,20 @@ refid: "lov/1997-02-28-19"
 > Bestemmelser omarbeidsgiverregisteret og arbeidstakerregisteret står i § 25-1arbeidsgiverens plikt til å føre statistikk over sykefravær, utarbeide oppfølgingsplan og gjennomføre dialogmøte står i § 25-2gebyr og tvangsmulkt står i § 25-3særskilt meldeplikt for samboere står i § 25-4behandleres plikt til å delta i samarbeidsmøter står i § 25-5tap av retten til å praktisere for trygdens regning står i §§ 25-6 og 25-7formell advarsel står i § 25-7 atilbakekreving av utlånte dokumenter står i § 25-8Arbeids- og velferdsetatens opplysningsplikt om forventet arbeidsinntekt står i § 25-9arbeidsgivers opplysningsplikt står i § 25-10opplysningsplikt overfor barnevernstjenesten står i § 25-11straff for å gi uriktige opplysninger og for ikke å gi nødvendige opplysninger står i § 25-12forsøksvirksomhet står i § 25-13forholdet til framtidig lovgivning står i § 25-14forskrifter står i § 25-15unntak fra loven ved krise i freds- og krigstid står i § 25-17
 >
 
+### 2019-01-01 — forskrift/2018-04-20-591
+
+*Lov 5. april 2017 nr. 15 om endringer i folketrygdloven (endret fastsetting av grunnlaget for sykepenger, foreldrepenger og pleiepenger mv.) trer i kraft 1. januar 2019.*
+
+> Lov 5. april 2017 nr. 15 om endringer i folketrygdloven (endret fastsetting av grunnlaget for sykepenger, foreldrepenger og pleiepenger mv.) trer i kraft 1. januar 2019.
+>
+
+### 2019-01-01 — forskrift/2018-12-07-1818
+
+*Delt ikraftsetting av lov 19. desember 2017 nr. 116 om endringer i folketrygdloven (forenklinger i foreldrepengeordningen). Loven § 14-6, § 14-7, § 14-10 og § 14-11 trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 19. desember 2017 nr. 116 om endringer i folketrygdloven (forenklinger i foreldrepengeordningen). Loven § 14-6, § 14-7, § 14-10 og § 14-11 trer i kraft 1. januar 2019.
+>
+
 ### 2019-12-20 — lov/2019-12-20-84
 
 *Kapittel 1 innholdsfortegnelsen sjuende strekpunkt oppheves.*
@@ -13897,6 +14098,167 @@ refid: "lov/1997-02-28-19"
 *I innholdsfortegnelsen i kapittel 25 skal sekstende strekpunkt lyde:forskrifter ved allmennfarlig smittsom sykdom står i § 25-16*
 
 > Gjeldende sekstende strekpunkt blir nytt syttende strekpunkt.
+>
+
+### 2020-06-12 — lov/2020-06-12-62
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven).
+>
+> § 1
+>
+> .
+>
+> Virkeområde
+>
+> Loven gir bestemmelser om rett til kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet personinntekt som følge av utbrudd av covid-19.
+>
+> Inntektstap som utløser rett til andre ytelser til livsopphold, gir ikke rett til kompensasjonsytelse. Kompensasjonsytelsen kan gis til næringsdrivende og frilansere som har hatt en nærings- eller frilansvirksomhet i Norge som var startet opp og aktiv før 1. mars 2020.
+>
+> Loven får også anvendelse for personer på Svalbard som er medlemmer av folketrygden i henhold til folketrygdloven § 2-3.
+>
+> § 2
+>
+> .
+>
+> Vilkår for ytelse
+>
+> Selvstendig næringsdrivende og frilansere med personinntekt fra næring eller oppdrag på over 0,75 ganger folketrygdens grunnbeløp (G), i aldersgruppen 18–67 år, som etter 12. mars 2020 har mistet hele eller deler av denne inntekten som følge av utbrudd av covid-19, kan søke om kompensasjonsytelse etter denne loven.
+>
+> Kompensasjonsytelsen ytes ikke til selvstendig næringsdrivende og frilansere som i den måneden det søkes ytelse for, har arbeidsinntekt, inkludert rett til trygdeytelser som erstatter bortfalt arbeidsinntekt, på til sammen 6 G eller høyere.
+>
+> § 3
+>
+> .
+>
+> Grunnlag for beregning og ytelsens størrelse
+>
+> Grunnlaget er den inntekten kompensasjonsytelsen regnes ut etter. Grunnlaget beregnes som et årlig beløp.
+>
+> Grunnlaget for selvstendig næringsdrivende fastsettes med utgangspunkt i pensjonsgivende årsinntekt fra næring fra 2019. For selskaper som har startet opp etter 1. januar 2020 inngår inntekter fra næring fra januar og februar 2020 i grunnlaget.
+>
+> Grunnlaget for frilansere fastsettes med utgangspunkt i den gjennomsnittlige inntekten som frilanseren har hatt i oppdrag og som er rapportert til a-ordningen de siste 12 månedene før mars 2020. For frilansere som startet virksomheten mellom 1. mars 2019 og 1. mars 2020, legges hele driftsperioden til grunn.
+>
+> Maksimalt grunnlag er 6 G. Arbeidsinntekt, inkludert inntekt som ligger til grunn for trygdeytelser som erstatter bortfalt arbeidsinntekt, trekkes fra grensen på 6 G. Det samme gjelder for frilans- eller næringsinntekt det ikke er søkt kompensasjonsytelse for. Det gis ikke kompensasjon på et grunnlag større enn differansen mellom 6 G og summen av de nevnte inntektene.
+>
+> Kompensasjonsytelsen gis med 80 prosent av grunnlaget begrenset oppad til 6 G. Ytelsen gis for fem dager per uke, og dagsatsen er den årlige ytelsen delt på 260.
+>
+> § 4
+>
+> .
+>
+> Avkortning mot inntekt
+>
+> Inntekter som selvstendig næringsdrivende og frilanser i stønadsperioden kommer til fradrag i ytelsen med 80 prosent.
+>
+> § 5
+>
+> .
+>
+> Utbetalingsterminer
+>
+> Ytelsen gis per dag, og den utbetales etterskuddsvis for den kalendermåneden det er søkt for.
+>
+> § 6
+>
+> .
+>
+> Stønadsperiode
+>
+> Ytelsen gis fra og med dag 17 etter dokumentert inntektsbortfall. Ved innvilgning av nye perioder innvilges ytelsen fra første dag.
+>
+> Ytelsen kan gis for den perioden loven gjelder.
+>
+> § 7
+>
+> .
+>
+> Fremsetting av krav
+>
+> Krav om ytelse etter denne loven skal settes frem for Arbeids- og velferdsetaten på den måten Arbeids- og velferdsdirektoratet bestemmer.
+>
+> Arbeids- og velferdsdirektoratet kan fastsette en frist for når krav om ytelse senest må være satt frem.
+>
+> § 8
+>
+> .
+>
+> Saksbehandling
+>
+> Forvaltningsloven gjelder med de særregler som er fastsatt i loven her.
+>
+> Saksbehandlingsreglene i folketrygdloven §§ 21-3, 21-4, 21-4 a, 21-4 b, 21-4 c, 21-4 d, 21-6 og 21-7 gjelder så langt de passer for saker etter denne loven.
+>
+> Ved krav om tilbakebetaling av feilutbetalte ytelser gjelder folketrygdloven § 22-15 tilsvarende.
+>
+> § 9
+>
+> .
+>
+> Klage
+>
+> Vedtak kan påklages til nærmeste overordnede organ eller til det organ som Arbeids- og velferdsdirektoratet bestemmer.
+>
+> Klage settes frem skriftlig eller muntlig for den enheten som Arbeids- og velferdsdirektoratet bestemmer.
+>
+> Fristen for klage er seks uker.
+>
+> § 10
+>
+> .
+>
+> Behandling av personopplysninger og automatisert saksbehandling
+>
+> Arbeids- og velferdsetaten kan behandle personopplysninger, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9, når dette er nødvendig for å behandle saker etter denne loven eller gi informasjon om kompensasjonsytelsen til aktuelle søkere.
+>
+> Avgjørelser etter denne loven kan treffes automatisk. Etaten skal fastsette retningslinjer for automatiserte avgjørelser, inkludert krav til jevnlig kontroll for å begrense faren for feil. Den registrerte har rett til manuell overprøving av avgjørelsen.
+>
+> § 11
+>
+> .
+>
+> Opplysninger til bruk ved utredning og produksjon av statistikk
+>
+> Arbeids- og velferdsetaten skal ha tilgang til opplysningene om kompensasjonsytelsen i forbindelse med utredning og produksjon av statistikk på de områdene etaten administrerer, se arbeids- og velferdsforvaltningsloven § 4 annet ledd.
+>
+> § 12
+>
+> .
+>
+> Forskrifter
+>
+> Departementet kan gi forskrifter til utfylling av bestemmelsene i denne loven. Departementet kan i forskrift fastsette en lavere kompensasjonsgrad enn det som følger av § 3 femte ledd.
+>
+> § 13
+>
+> .
+>
+> Ikrafttredelse og opphevelse
+>
+> Loven trer i kraft straks.
+>
+> Loven oppheves 1. november 2020.
+>
+> § 14
+>
+> .
+>
+> Endringer i andre lover
+>
+> Fra det tidspunktet loven trer i kraft, gjøres følgende endringer i lov 28. februar 1997 nr. 19 om folketrygd:
+>
+> § 8-2 nytt tredje ledd skal lyde:
+>
+> Likestilt med forutgående arbeid er også tidsrom da medlemmet har mottatt ytelse i medhold av midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet inntekt som følge av utbrudd av covid-19.
+>
+> § 14-6 tredje ledd bokstav e) og ny bokstav f) skal lyde:
+>
+> avtjening av militærtjeneste eller obligatorisk sivilforsvarstjeneste,
+>
+> ytelse i medhold av midlertidig lov om kompensasjonsytelse for selvstendig næringsdrivende og frilansere som har mistet inntekt som følge av utbrudd av covid-19.
 >
 
 ### 2020-07-01 — lov/2019-12-13-78
@@ -14160,13 +14522,62 @@ refid: "lov/1997-02-28-19"
 > Departementet gir forskrifter om egenandelsordningen, og kan herunder bestemme hvilke utgifter som skal medregnes under egenandelstaket.
 >
 
+### 2021-02-01 — forskrift/2021-01-29-267
+
+*Delt ikraftsetting av lov 18. desember 2020 nr. 138 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del VI, endringene i lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 4-24 og § 4-25, trer i kraft 1. februar 2021.*
+
+> Delt ikraftsetting av lov 18. desember 2020 nr. 138 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del VI, endringene i lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 4-24 og § 4-25, trer i kraft 1. februar 2021.
+>
+
+### 2021-03-01 — forskrift/2021-02-19-469
+
+*Ikraftsetting av lov 18. desember 2020 nr. 140 om endringer i folketrygdloven (utfasing av forsørgingstillegg til alderspensjon). Endringsloven trer i kraft 1. mars 2021.*
+
+> Ikraftsetting av lov 18. desember 2020 nr. 140 om endringer i folketrygdloven (utfasing av forsørgingstillegg til alderspensjon). Endringsloven trer i kraft 1. mars 2021.
+>
+
+### 2021-06-01 — forskrift/2021-05-21-1627
+
+*Loven trer i kraft 1. juni 2021.*
+
+> Loven trer i kraft 1. juni 2021.
+>
+
 ### 2021-06-18 — lov/2021-06-18-90
 
 *Nåværende sjette ledd blir nytt syvende ledd.*
 
+### 2021-09-03 — forskrift/2021-09-03-2663
+
+*Delt ikraftsetting av lov 20. desember 2019 nr. 84 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del I, folketrygdloven § 12-17 første ledd bokstav a trer i kraft straks.*
+
+> Delt ikraftsetting av lov 20. desember 2019 nr. 84 om endringer i folketrygdloven og enkelte andre lover. Endringsloven del I, folketrygdloven § 12-17 første ledd bokstav a trer i kraft straks.
+>
+
+### 2021-09-03 — forskrift/2021-09-03-2670
+
+*Delt ikraftsetting av lov 18. juni 2021 nr. 92 om endringer i folketrygdloven (adgang til å ta opplæring og utdanning med dagpenger). Endringsloven del I, endringene i lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 4-6 første og annet ledd, trer i kraft 3. september 2021.*
+
+> Delt ikraftsetting av lov 18. juni 2021 nr. 92 om endringer i folketrygdloven (adgang til å ta opplæring og utdanning med dagpenger). Endringsloven del I, endringene i lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven) § 4-6 første og annet ledd, trer i kraft 3. september 2021.
+>
+
+### 2021-10-01 — forskrift/2021-06-11-1868
+
+*Loven trer i kraft 1. oktober 2021.*
+
+> Loven trer i kraft 1. oktober 2021.
+>
+
 ### 2021-12-17 — lov/2021-12-17-146
 
 *I innholdsfortegnelsen til kapittel 4 skal det tiende strekpunktet lyde:dagpengegrunnlag og dagpengenes størrelse står i §§ 4-11 til 4-14*
+
+### 2022-06-10 — lov/2022-06-10-35
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 8-52 nytt tredje ledd lyde:*
+
+> Første ledd første punktum gjelder ikke overfor et medlem som mottar ugradert avtalefestet pensjon fra offentlig tjenestepensjonsordning, og som utfører arbeid der avlønningen skjer etter særskilt sats for pensjonistavlønning for tjeneste som er nødvendig for å ivareta et ekstraordinært personellbehov i forbindelse med personer fordrevet fra Ukraina. Unntaket gjelder fra 1. april 2022 til og med 31. desember 2022. Sykepenger som er tilstått i perioden, løper ut ordinær sykepengeperiode.
+>
 
 ### 2022-06-22 — lov/2022-06-22-72
 
@@ -14342,6 +14753,45 @@ refid: "lov/1997-02-28-19"
 
 *I § 25-6 første, andre og tredje ledd skal «Helsedirektoratet» endres til «Helsedirektoratet eller det organ Helsedirektoratet bestemmer».*
 
+### 2023-06-16 — lov/2023-06-16-55
+
+*I lov 28. februar 1997 nr. 19 om folketrygd skal § 13-8 lyde:*
+
+> § 13-8.Militærpersoner o.a.
+>
+> Følgende grupper av medlemmer er yrkesskadedekket:vernepliktige og frivillig tjenestegjørende etter forsvarsloven,tjenestepliktige og frivillig tjenestegjørende etter lov 25. juni 2010 nr. 45 om kommunal beredskapsplikt, sivile beskyttelsestiltak og Sivilforsvaret,tjenestepliktige og frivillig tjenestegjørende etter lov 21. november 1952 nr. 3 om tjenesteplikt i politiet,militære studenter etter forsvarsloven og andre personer under utdanning i Forsvaret,militært tilsatte etter forsvarsloven,militære lærlinger,personer som etter avtale deltar i Forsvarets tjeneste som lotter.
+>
+> Medlemmer som nevnt i første ledd bokstav a til c er yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått i tidsrommet fra de møter til tjeneste til de blir dimittert.
+>
+> Medlemmer som nevnt i første ledd bokstav d er yrkesskadedekket etter § 13-10 så langt den passer. Medlemmene er likevel yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått under medlemmenes første utdanningsår og ellers når medlemmene deltar i manøver eller utfører oppdrag under feltmessige forhold. Medlemmer som er på opptak til utdanning i Forsvaret er yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått under opptaket.
+>
+> Medlemmer som nevnt i første ledd bokstav e er yrkesskadedekket etter bestemmelsene som gjelder for arbeidstakere. Medlemmene er likevel yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått når de deltar i manøver eller utfører oppdrag under feltmessige forhold. Når medlemmene tjenestegjør i internasjonale operasjoner, er de yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått under opphold i utlandet.
+>
+> Medlemmer som nevnt i bokstav f er yrkesskadedekket etter bestemmelsene som gjelder for arbeidstakere. Medlemmene er likevel yrkesskadedekket ved enhver skade og sykdom som er påført eller oppstått første år av læretiden og ellers når medlemmene deltar i manøver eller utfører oppdrag under feltmessige forhold.
+>
+> Medlemmer som nevnt i første ledd bokstav g er yrkesskadedekket under kurs, øvelser og annen tjeneste for Forsvaret.
+>
+
+### 2023-07-01 — forskrift/2023-05-11-685
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2023-07-01 — forskrift/2023-06-16-907
+
+*Delt ikraftsetting av loven. Følgende trer i kraft 1. januar 2024:*
+
+> Delt ikraftsetting av loven. Følgende trer i kraft 1. januar 2024:
+>
+> Endringsloven del I med unntak av endringene i folketrygdloven § 17-4 fjerde ledd bokstav a og § 18-3 tredje ledd.
+>
+> Delt ikraftsetting av loven. Følgende trer i kraft 1. juli 2023:
+>
+> Endringene i folketrygdloven § 17-4 fjerde ledd bokstav a og § 18-3 tredje ledd.
+>
+
 ### 2023-12-08 — lov/2023-12-08-87
 
 *I innholdsfortegnelsen i kapittel 15 skal nytt andre strekpunkt lyde:*
@@ -14360,9 +14810,34 @@ refid: "lov/1997-02-28-19"
 
 *Overskriften i § 13-12 skal lyde:*
 
-> § 13-12.Medlemmer som oppholder seg i institusjon, utfører samfunnsstraff, ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktråd
+> § 13-12. Medlemmer som oppholder seg i institusjon, utfører samfunnsstraff, ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktråd
 >
-> § 13-12.Medlemmer som oppholder seg i institusjon, utfører samfunnsstraff, ungdomsstraff, ungdomsoppfølging eller oppfølging i konfliktråd
+
+### 2024-01-01 — forskrift/2023-06-16-929
+
+*Ikraftsetting av lov 18. desember 2020 nr. 139 om endringer i folketrygdloven (nye etterlatteytelser). Loven trer i kraft 1. januar 2024.*
+
+> Ikraftsetting av lov 18. desember 2020 nr. 139 om endringer i folketrygdloven (nye etterlatteytelser). Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-01-01 — forskrift/2023-12-20-2135
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
+>
+
+### 2024-01-12 — forskrift/2024-01-12-60
+
+*Delt ikraftsetting av loven. Følgende trer i kraft straks:*
+
+> Delt ikraftsetting av loven. Følgende trer i kraft straks:
+>
+> Endringsloven del I og del II nr. 2, med unntak av endringene i folketrygdloven § 15-6 femte ledd og § 15-8 første ledd andre punktum.
+>
+> Delt ikraftsetting av loven. Følgende trer i kraft 1. februar 2024:
+>
+> Endringene i folketrygdloven § 15-6 femte ledd og § 15-8 første ledd andre punktum.
 >
 
 ### 2024-05-14 — lov/2024-05-14-21
@@ -14383,6 +14858,13 @@ refid: "lov/1997-02-28-19"
 *I lov 28. februar 1997 nr. 19 om folketrygd skal § 14-17 femte ledd lyde:*
 
 > Engangsstønad ytes kun til stønadsmottaker som har vært medlem i folketrygden i minst 12 måneder sammenhengende, direkte forut for tidspunktet for fødselsterminen eller omsorgsovertakelsen.
+>
+
+### 2024-08-02 — forskrift/2024-06-25-1219
+
+*Lova trer i kraft 2. august 2024.*
+
+> Lova trer i kraft 2. august 2024.
 >
 
 ### 2024-12-20 — lov/2024-12-20-81
@@ -14410,6 +14892,85 @@ refid: "lov/1997-02-28-19"
 ### 2025-12-22 — lov/2025-12-22-117
 
 *Noverande tredje punktum blir andre punktum.*
+
+### 2026-01-01 — forskrift/2025-08-29-1743
+
+*Delt ikraftsetting av lov 10. juni 2025 nr. 30 om endringer i folketrygdloven (yrkessykdommer og elektronisk melding av yrkesskade).*
+
+> Delt ikraftsetting av lov 10. juni 2025 nr. 30 om endringer i folketrygdloven (yrkessykdommer og elektronisk melding av yrkesskade).
+>
+> Følgende trer i kraft 1. januar 2026:
+>
+> Endring i § 13-4 første ledd andre punktum, samt et nytt femte ledd, og endring i § 13-14 første ledd.
+>
+> Følgende trer i kraft 1. januar 2027:
+>
+> Endring i § 13-4 tredje ledd, samt et nytt fjerde ledd.
+>
+
+### 2026-10-01 — forskrift/2026-06-12-1078
+
+*Endringsloven del IV trer kraft 1. oktober 2026 og får virkning fra 1. januar 2026.*
+
+> Endringsloven del IV trer kraft 1. oktober 2026 og får virkning fra 1. januar 2026.
+>
+
+## § 1
+
+### 2014-04-01 — forskrift/2014-03-13-270
+
+*§ 1*
+
+> § 1
+>
+> .
+>
+> Hvem forskriften gjelder (overgangssak)
+>
+> Forskriften gjelder for saker der en enslig mor eller far:
+>
+> har fått et vedtak om overgangsstønad før 1. april 2014, og vedtaket går ut over 31. mars 2014,
+>
+> har søkt om og fyller vilkårene for overgangsstønad før 1. april 2014,
+>
+> har fått avslag på søknad om overgangsstønad før 1. april 2014, og får vedtaket omgjort etter 31. mars 2014,
+>
+> har mottatt overgangsstønad før 1. april 2014 på bakgrunn av krav framsatt før 1. april 2014, og gjenopptar stønadsperioden etter avbrudd etter reglene i forskrift 19. desember 1997 nr. 1429 om stønadstid for overgangsstønad til enslig mor eller far, eller
+>
+> har et vedtak om overgangsstønad hvor stønadsperioden etter folketrygdloven § 15-6 andre ledd utløper før 1. april 2014, men hvor stønadsperioden kan forlenges eller utvides etter unntaksbestemmelsene i § 15-6 tredje, fjerde, sjette eller syvende ledd.
+>
+> § 2
+>
+> .
+>
+> Overgangsstønadens størrelse
+>
+> For en enslig mor eller far som har en overgangssak, utgjør årlig overgangsstønad to ganger grunnbeløpet.
+>
+> § 3
+>
+> .
+>
+> Reduksjon av overgangsstønaden på grunnlag av arbeidsinntekt m.m.
+>
+> For en enslig mor eller far som har en overgangssak, reduseres overgangsstønaden med 40 prosent av inntekt over halvparten av grunnbeløpet.
+>
+> § 4
+>
+> .
+>
+> Overgangsperiode
+>
+> Overgangsreglene etter denne forskriften gjelder til og med 31. desember 2016.
+>
+> § 5
+>
+> .
+>
+> Ikrafttredelse
+>
+> Denne forskriften trer i kraft 1. april 2014.
+>
 
 ## § 11
 
@@ -14456,9 +15017,17 @@ refid: "lov/1997-02-28-19"
 
 *§ 17 A-6 skal lyde:*
 
-> § 17 A-6.Reduksjon av ytelse på grunn av inntektPensjonen eller overgangsstønaden til den gjenlevende ektefellen skal reduseres på grunnlag av pensjonsgivende inntekt som den gjenlevende har eller kan forventes å få. Ved fastsetting av forventet inntekt skal det blant annet legges vekt på alder, evner, utdanning, yrkesbakgrunn, arbeidsmuligheter på hjemstedet, og arbeidsmuligheter på andre steder der det er rimelig at vedkommende tar arbeid. Det skal også legges vekt på eventuelle barns tilsynsbehov.En gjenlevende ektefelle som ikke har fylt 55 år, skal forventes å få en pensjonsgivende inntekt på minst to ganger grunnbeløpet etter en overgangsperiode på ett år etter dødsfallet. Dette gjelder likevel ikke dersom det er en rimelig grunn til at den gjenlevende ektefellen har en lavere inntekt. Kravet til forventet inntekt gjelder ikke dersom den gjenlevende ektefellen fyller vilkårene for rett til overgangsstønad etter § 17-6 slik paragrafen lød før 1. januar 2024.Pensjonen eller overgangsstønaden skal ikke reduseres hvis den faktiske eller forventede pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Ytelsen skal reduseres med 40 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.Likestilt med pensjonsgivende inntekt er tilsvarende inntekt fra utlandet og pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven og avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning.Departementet kan gi forskrifter om fastsetting og endring av forventet pensjonsgivende inntekt. Det kan herunder gjøres unntak fra bestemmelsene i § 22-12.
+> § 17 A-6. Reduksjon av ytelse på grunn av inntekt
 >
-> § 17 A-6.Reduksjon av ytelse på grunn av inntekt
+> Pensjonen eller overgangsstønaden til den gjenlevende ektefellen skal reduseres på grunnlag av pensjonsgivende inntekt som den gjenlevende har eller kan forventes å få. Ved fastsetting av forventet inntekt skal det blant annet legges vekt på alder, evner, utdanning, yrkesbakgrunn, arbeidsmuligheter på hjemstedet, og arbeidsmuligheter på andre steder der det er rimelig at vedkommende tar arbeid. Det skal også legges vekt på eventuelle barns tilsynsbehov.
+>
+> En gjenlevende ektefelle som ikke har fylt 55 år, skal forventes å få en pensjonsgivende inntekt på minst to ganger grunnbeløpet etter en overgangsperiode på ett år etter dødsfallet. Dette gjelder likevel ikke dersom det er en rimelig grunn til at den gjenlevende ektefellen har en lavere inntekt. Kravet til forventet inntekt gjelder ikke dersom den gjenlevende ektefellen fyller vilkårene for rett til overgangsstønad etter § 17-6 slik paragrafen lød før 1. januar 2024.
+>
+> Pensjonen eller overgangsstønaden skal ikke reduseres hvis den faktiske eller forventede pensjonsgivende inntekten på årsbasis er mindre enn halvparten av grunnbeløpet. Ytelsen skal reduseres med 40 prosent av pensjonsgivende inntekt over halvparten av grunnbeløpet.
+>
+> Likestilt med pensjonsgivende inntekt er tilsvarende inntekt fra utlandet og pensjonsytelser som det gis statstilskott til etter AFP-tilskottsloven og avtalefestet pensjon etter lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning.
+>
+> Departementet kan gi forskrifter om fastsetting og endring av forventet pensjonsgivende inntekt. Det kan herunder gjøres unntak fra bestemmelsene i § 22-12.
 >
 
 ### 2026-07-01 — lov/2026-06-12-27

@@ -7,6 +7,13 @@ refid: "lov/1963-06-21-12"
 
 ## (annet)
 
+### 2006-06-30 — lov/2006-06-30-60
+
+*I lov 21. juni 1963 nr. 12 om vitenskapelig utforskning og undersøkelse etter og utnyttelse av andre undersjøiske naturforekomster enn petroleumsforekomster skal § 1 første ledd lyde:*
+
+> Denne lov gjelder vitenskapelig utforskning av havbunnen og grunnen under denne og undersøkelse etter og utnyttelse av andre undersjøiske naturforekomster enn petroleumsforekomster i indre norsk farvann, på norsk sjøterritorium og på kontinentalsokkelen. Med kontinentalsokkelen menes havbunnen og undergrunnen i de undersjøiske områder som strekker seg ut over norsk sjøterritorium gjennom hele den naturlige forlengelse av landterritoriet til ytterkanten av kontinentalmarginen, men ikke kortere enn 200 nautiske mil fra grunnlinjene som sjøterritoriets bredde er målt fra, likevel ikke utover midtlinjen i forhold til annen stat med mindre annet følger av folkerettens regler for kontinentalsokkel utenfor 200 nautiske mil fra grunnlinjene eller overenskomst med vedkommende stat.
+>
+
 ### 2019-03-22 — lov/2019-03-22-7
 
 *Nåværende § 1 andre og tredje ledd blir tredje og nytt fjerde ledd.*

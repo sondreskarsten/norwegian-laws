@@ -7,6 +7,29 @@ refid: "lov/1987-06-12-48"
 
 ## (annet)
 
+### 2009-06-19 — lov/2009-06-19-79
+
+*I lov 12. juni 1987 nr. 48 om norsk internasjonalt skipsregister skal § 6 fjerde ledd annet punktum lyde:*
+
+> Avtale som nevnt i første punktum er ikke til hinder for at sak reises i et annet land når det følger av Luganokonvensjonen 2007 at det skal være adgang til det.
+>
+
+### 2010-03-26 — lov/2010-03-26-10
+
+*I lov 12. juni 1987 nr. 48 om norsk internasjonalt skipsregister skal § 5 nytt andre og tredje ledd lyde:*
+
+> Krav på registreringsgebyr og gebyr for utskrifter m.m. knyttet til skip registrert i Norsk Internasjonalt Skipsregister er tvangsgrunnlag for utlegg.
+>
+> Når Statens innkrevingssentral er pålagt å innkreve gebyr, kan den inndrive kravene ved trekk i lønn og lignende ytelser etter reglene i dekningsloven § 2-7. Innkrevingssentralen kan også inndrive kravene ved å stifte utleggspant for kravet dersom panteretten kan gis rettsvern ved registrering i et register eller ved underretning til en tredjeperson, jf. panteloven kapittel 5, og utleggsforretningen kan holdes på Innkrevingssentralens kontor etter tvangsfullbyrdelsesloven § 7-9 første ledd.
+>
+
+### 2019-06-14 — lov/2019-06-14-22
+
+*I lov 12. juni 1987 nr. 48 om norsk internasjonalt skipsregister skal § 8 første ledd lyde:*
+
+> Bestemmelsene i skipsarbeidsloven § 3-1 fjerde ledd, §§ 3-3 til 3-8, § 4-2 tredje ledd, § 4-6 første ledd bokstav a, § 5-2 første ledd annet punktum og annet og tredje ledd, § 5-3 annet ledd og tredje ledd bokstav a til d, § 5-4, § 5-6 annet ledd, § 5-7, § 5-9, § 5-10, § 5-12, § 5 A-2, §§ 6-1 til 6-3, § 7-2, § 7-3, §§ 7-5 til 7-12, § 8-4 og § 11-2 kan fravikes i tariffavtale.
+>
+
 ### 2020-04-17 — lov/2020-04-17-28
 
 *I kapittel III skal ny § 13 lyde:*

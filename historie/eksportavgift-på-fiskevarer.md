@@ -7,6 +7,17 @@ refid: "lov/2000-07-07-68"
 
 ## (annet)
 
+### 2011-12-09 — lov/2011-12-09-56
+
+*I lov 7. juli 2000 nr. 68 om avgift til forskning og utvikling i fiskeri- og havbruksnæringen blir § 3 andre ledd oppheva. Noverande tredje ledd blir nytt andre ledd.*
+
+### 2019-01-01 — forskrift/2018-05-25-756
+
+*Loven trer i kraft 1. januar 2019.*
+
+> Loven trer i kraft 1. januar 2019.
+>
+
 ### 2025-06-20 — lov/2025-06-20-96
 
 *3.I lov 7. juli 2000 nr. 68 om avgift til forskning og utvikling i fiskeri- og havbruksnæringen skal § 3 fjerde ledd lyde:*

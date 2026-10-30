@@ -52,6 +52,35 @@ refid: "lov/1993-04-02-38"
 
 *Kapittel 5 overskriften skal lyde:*
 
+### 2022-05-20 — lov/2022-05-20-30
+
+*I lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte organismer m.m. skal § 12 lyde:*
+
+> § 12.Offentlighet
+>
+> Offentleglova gjelder for saker som behandles etter denne loven. Selv om opplysninger ellers skal være offentlige etter andre og tredje ledd, gjelder unntakene i offentleglova §§ 20 og 21.
+>
+> I saker om innesluttet bruk skal, uten hinder av taushetsplikt, følgende opplysninger alltid være offentlige:beskrivelse av den genmodifiserte organismen, brukerens navn og adresse, formålet med bruken og bruksstedetmetoder og planer for overvåking og beredskapvurderinger av hvilke virkninger som kan forutses.
+>
+> I saker om utsetting skal opplysningene alltid være offentlige. Etter anmodning fra søkeren kan følgende opplysninger unntas fra innsyn hvis det dokumenteres at innsyn kan skade søkers interesser vesentlig:opplysninger om fremstillings- eller produksjonsprosessen, unntatt opplysninger som er relevante for sikkerhetsvurderingenopplysninger om kommersielle forbindelser mellom en produsent eller importør og søkeren eller innehaveren av godkjenningenopplysninger som viser søkerens anskaffelser, markedsandeler eller forretningsstrategieropplysninger om DNA-sekvenser, unntatt sekvenser som brukes til å påvise, identifisere og kvantifisere transformasjonshendelsen (genmodifiseringshendelsen)opplysninger om avlsmønstre og avlsstrategier.
+>
+> Andre punktum gjelder ikke risikovurderinger eller opplysninger som inngår i konklusjonene til relevante vitenskapelige utvalg eller i konklusjonene i vurderingsrapportene, og gjelder påregnelige virkninger for menneskers helse, dyrehelse eller miljøet. Departementet kan gi forskrift om at også andre opplysninger kan unntas fra innsyn i saker om utsetting.
+>
+
+### 2022-06-01 — forskrift/2022-05-20-885
+
+*Loven trer i kraft 1. juni 2022.*
+
+> Loven trer i kraft 1. juni 2022.
+>
+
+### 2025-10-01 — forskrift/2025-06-20-1126
+
+*Loven trer i kraft 1. oktober 2025.*
+
+> Loven trer i kraft 1. oktober 2025.
+>
+
 ## § 1
 
 ### 2004-05-07 — lov/2004-05-07-22
@@ -89,9 +118,9 @@ refid: "lov/1993-04-02-38"
 
 *Ny § 10 a skal lyde:*
 
-> § 10 a.Godkjenning av et produkt som er godkjent i et annet EØS-landDet kreves ikke godkjenning for omsetning av et produkt som er godkjent for omsetning i et annet EØS-land etter reglene fastsatt i EØS-avtalen vedlegg XX punkt 25d (rådsdirektiv 2001/18/EF). Myndighetene etter loven her kan forby eller begrense omsetning som medfører risiko for helse eller miljø, eller som for øvrig er i strid med denne lovs formål. Produktet er tillatt omsatt i Norge inntil norske myndigheter eventuelt nedlegger forbud.
+> § 10 a. Godkjenning av et produkt som er godkjent i et annet EØS-land
 >
-> § 10 a.Godkjenning av et produkt som er godkjent i et annet EØS-land
+> Det kreves ikke godkjenning for omsetning av et produkt som er godkjent for omsetning i et annet EØS-land etter reglene fastsatt i EØS-avtalen vedlegg XX punkt 25d (rådsdirektiv 2001/18/EF). Myndighetene etter loven her kan forby eller begrense omsetning som medfører risiko for helse eller miljø, eller som for øvrig er i strid med denne lovs formål. Produktet er tillatt omsatt i Norge inntil norske myndigheter eventuelt nedlegger forbud.
 >
 
 ## § 11
@@ -101,12 +130,6 @@ refid: "lov/1993-04-02-38"
 *§ 11 nytt tredje til femte ledd skal lyde:*
 
 > Søknad om utsetting som nevnt i § 9 annet ledd bokstav a skal inneholdevurdering av miljørelaterte helsekonsekvenservurdering av relevante miljøaspekter slik som spredningspotensialet ogrisikohåndteringstiltak for å begrense helse- og miljøskade fra utsettingen
->
-> vurdering av miljørelaterte helsekonsekvenser
->
-> vurdering av relevante miljøaspekter slik som spredningspotensialet og
->
-> risikohåndteringstiltak for å begrense helse- og miljøskade fra utsettingen
 >
 > Godkjenningsmyndigheten kan gjøre helt eller delvis unntak fra kravene til konsekvensutredning når det er i overensstemmelse med anbefalinger fra Vitenskapskomiteen for mat og miljø og Den europeiske myndighet for næringsmiddeltrygghet.
 >
@@ -254,12 +277,6 @@ refid: "lov/1993-04-02-38"
 
 > I denne lov menes med:mikroorganismer: enhver cellulær eller ikke-cellulær mikrobiologisk enhet som er i stand til å formere seg eller til å overføre genetisk materiale, herunder virus, viroider og dyre- og planteceller i kulturorganisme: enhver biologisk enhet som kan formere seg eller overføre genmateriale,genmodifisert organisme (GMO): en organisme, unntatt mennesker, der genmaterialet er endret på en måte som ikke forekommer ved naturlig formering eller naturlig rekombinasjon
 >
-> mikroorganismer: enhver cellulær eller ikke-cellulær mikrobiologisk enhet som er i stand til å formere seg eller til å overføre genetisk materiale, herunder virus, viroider og dyre- og planteceller i kultur
->
-> organisme: enhver biologisk enhet som kan formere seg eller overføre genmateriale,
->
-> genmodifisert organisme (GMO): en organisme, unntatt mennesker, der genmaterialet er endret på en måte som ikke forekommer ved naturlig formering eller naturlig rekombinasjon
->
 
 ### 2025-06-20 — lov/2025-06-20-89
 
@@ -271,19 +288,7 @@ refid: "lov/1993-04-02-38"
 
 > Teknikker som gir opphav til en genmodifisert organisme etter første ledd bokstav c, omfatter blant annet:teknikker som innebærer rekombinasjon av nukleinsyrer, og teknikker som omfatter dannelse av nye kombinasjoner av genmateriale ved at nukleinsyremolekyler produsert på en hvilken som helst måte utenfor en organisme settes inn i et virus, bakterieplasmid eller annet vektorsystem, samt at de innføres i en vertsorganisme som de ikke naturlig forekommer i, men der de er i stand til videre formeringteknikker som innebærer direkte innføring i en organisme av arvestoff som er laget utenfor organismen, herunder mikroinjeksjon, makroinjeksjon og mikroinnkapslingcellefusjonsteknikker (herunder protoplastfusjon) eller hybridiseringsteknikker der levende celler med nye kombinasjoner av arvbart genmateriale dannes ved fusjon av to eller flere celler ved hjelp av metoder som ikke forekommer naturlig.
 >
-> teknikker som innebærer rekombinasjon av nukleinsyrer, og teknikker som omfatter dannelse av nye kombinasjoner av genmateriale ved at nukleinsyremolekyler produsert på en hvilken som helst måte utenfor en organisme settes inn i et virus, bakterieplasmid eller annet vektorsystem, samt at de innføres i en vertsorganisme som de ikke naturlig forekommer i, men der de er i stand til videre formering
->
-> teknikker som innebærer direkte innføring i en organisme av arvestoff som er laget utenfor organismen, herunder mikroinjeksjon, makroinjeksjon og mikroinnkapsling
->
-> cellefusjonsteknikker (herunder protoplastfusjon) eller hybridiseringsteknikker der levende celler med nye kombinasjoner av arvbart genmateriale dannes ved fusjon av to eller flere celler ved hjelp av metoder som ikke forekommer naturlig.
->
 > Med mindre teknikkene innebærer bruk av rekombinerte nukleinsyremolekyler eller genmodifiserte organismer, gir følgende teknikker ikke opphav til en genmodifisert organisme etter første ledd bokstav c:befruktning in vitro,naturlige prosesser som konjugasjon, transduksjon, transformasjon,frembringing av polyploidi.
->
-> befruktning in vitro,
->
-> naturlige prosesser som konjugasjon, transduksjon, transformasjon,
->
-> frembringing av polyploidi.
 >
 
 ## § 5

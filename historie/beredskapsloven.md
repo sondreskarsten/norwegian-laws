@@ -5,6 +5,15 @@ refid: "lov/1950-12-15-7"
 
 # Endringshistorikk: Beredskapsloven – beredskl
 
+## (annet)
+
+### 2022-12-20 — lov/2022-12-20-115
+
+*I lov 15. desember 1950 nr. 7 om særlige rådgjerder under krig, krigsfare og liknende forhold skal § 6 første ledd fjerde punktum lyde:*
+
+> Sivile tjenestemenn og ombud i stat og kommune skal gi de militære myndigheter den hjelp som forlanges.
+>
+
 ## § 13
 
 ### 2007-02-27 — lov/2007-01-26-3

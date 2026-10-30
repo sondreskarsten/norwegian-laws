@@ -23,15 +23,22 @@ refid: "lov/2015-06-19-70"
 
 *Nåværende § 21 blir ny § 22 i kapittel 6.*
 
+### 2025-07-01 — forskrift/2025-02-07-145
+
+*Loven trer i kraft 1. juli 2025.*
+
+> Loven trer i kraft 1. juli 2025.
+>
+
 ## § 1 a
 
 ### 2025-02-07 — lov/2025-02-07-1
 
 *Ny § 1 a skal lyde:*
 
-> § 1 a.Lovens formålLoven skal bidra til å fremme den alminnelige tilliten til forvaltningen og det politiske systemet ved overganger som omfattes av loven, ved å:motvirke at noen får særlige konkurransefordelerbeskytte intern informasjon i statsforvaltningenbeskytte andre virksomheters forretningsinformasjon som statsforvaltningen har fått tilgang tilmedvirke til å opprettholde skillet mellom politisk ledelse og embetsverk.
+> § 1 a. Lovens formål
 >
-> § 1 a.Lovens formål
+> Loven skal bidra til å fremme den alminnelige tilliten til forvaltningen og det politiske systemet ved overganger som omfattes av loven, ved å:motvirke at noen får særlige konkurransefordelerbeskytte intern informasjon i statsforvaltningenbeskytte andre virksomheters forretningsinformasjon som statsforvaltningen har fått tilgang tilmedvirke til å opprettholde skillet mellom politisk ledelse og embetsverk.
 >
 
 ## § 13
@@ -71,9 +78,11 @@ refid: "lov/2015-06-19-70"
 
 *§ 21 i kapittel 5 skal lyde:*
 
-> § 21.Opphør og tilbakekreving av godtgjørelseVed overtredelse av vedtak om karantene kan Karantenenemnda eller ansettelsesmyndigheten vedta at tilkjent godtgjørelse skal opphøre og kreves tilbakebetalt helt eller delvis. Opphør og tilbakekreving kan bare skje dersom dette ikke vil være urimelig.Endelig vedtak om tilbakekreving av godtgjørelse er tvangsgrunnlag for utlegg. Godtgjørelse som er krevd tilbakebetalt, tilfaller den virksomheten som utbetalte godtgjørelsen.
+> § 21. Opphør og tilbakekreving av godtgjørelse
 >
-> § 21.Opphør og tilbakekreving av godtgjørelse
+> Ved overtredelse av vedtak om karantene kan Karantenenemnda eller ansettelsesmyndigheten vedta at tilkjent godtgjørelse skal opphøre og kreves tilbakebetalt helt eller delvis. Opphør og tilbakekreving kan bare skje dersom dette ikke vil være urimelig.
+>
+> Endelig vedtak om tilbakekreving av godtgjørelse er tvangsgrunnlag for utlegg. Godtgjørelse som er krevd tilbakebetalt, tilfaller den virksomheten som utbetalte godtgjørelsen.
 >
 
 ## § 5
@@ -82,9 +91,17 @@ refid: "lov/2015-06-19-70"
 
 *§ 5 skal lyde:*
 
-> § 5.InformasjonspliktPolitikere skal gi Karantenenemnda de opplysninger nemnda trenger for å fatte vedtak etter loven. Opplysningene skal gis i rett tid og være fullstendige, slik at tilliten til forvaltningen og det politiske systemet ivaretas.Politikere skal gi opplysninger til Karantenenemnda når de innen 18 måneder etter fratreden som politiker går over til stilling eller verv utenfor statsforvaltningen eller etablerer næringsvirksomhet. Informasjonsplikten omfatter også opplysninger om tidligere embete eller stilling og den nye stillingen, vervet eller virksomheten.Plikten etter andre ledd gjelder tilsvarende dersom det i samme tidsrom skjerendringer i hvilke sektorer eller bransjer politikeren skal arbeide medendringer i politikerens kontakt med myndigheteneendringer i politikerens organisatoriske plassering i en stilling, et verv eller en næringsvirksomhet.Opplysninger etter andre og tredje ledd skal gis senest tre uker før overgangen eller før endringen trer i kraft.Departementet kan gi forskrift om informasjonsplikten etter første til fjerde ledd.
+> § 5. Informasjonsplikt
 >
-> § 5.Informasjonsplikt
+> Politikere skal gi Karantenenemnda de opplysninger nemnda trenger for å fatte vedtak etter loven. Opplysningene skal gis i rett tid og være fullstendige, slik at tilliten til forvaltningen og det politiske systemet ivaretas.
+>
+> Politikere skal gi opplysninger til Karantenenemnda når de innen 18 måneder etter fratreden som politiker går over til stilling eller verv utenfor statsforvaltningen eller etablerer næringsvirksomhet. Informasjonsplikten omfatter også opplysninger om tidligere embete eller stilling og den nye stillingen, vervet eller virksomheten.
+>
+> Plikten etter andre ledd gjelder tilsvarende dersom det i samme tidsrom skjerendringer i hvilke sektorer eller bransjer politikeren skal arbeide medendringer i politikerens kontakt med myndigheteneendringer i politikerens organisatoriske plassering i en stilling, et verv eller en næringsvirksomhet.
+>
+> Opplysninger etter andre og tredje ledd skal gis senest tre uker før overgangen eller før endringen trer i kraft.
+>
+> Departementet kan gi forskrift om informasjonsplikten etter første til fjerde ledd.
 >
 
 ## § 7

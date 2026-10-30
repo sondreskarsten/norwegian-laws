@@ -448,9 +448,30 @@ refid: "lov/1996-11-29-72"
 
 *Nåværende § 9-3 syvende ledd oppheves, og nåværende åttende ledd blir § 9-4 syvende ledd.*
 
+### 2005-01-07 — lov/2005-01-07-2
+
+*I lov 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 10-10 siste ledd lyde:*
+
+> Reglene i sjøloven om undersøkelse av sjøulykker og forskrifter gitt med hjemmel i sjøloven kapittel 18 II gjelder tilsvarende så langt de passer.
+>
+
 ### 2010-06-18 — lov/2010-06-18-27
 
 *Nåværende andre og tredje ledd blir hhv. nytt fjerde og femte ledd.*
+
+### 2010-07-01 — forskrift/2010-06-18-844
+
+*Loven trer i kraft 1. juli 2010.*
+
+> Loven trer i kraft 1. juli 2010.
+>
+
+### 2012-12-14 — lov/2012-12-14-80
+
+*I lov 29. november 1996 nr. 72 om petroleumsvirksomhet skal § 10-3 tredje ledd lyde:*
+
+> Utgifter vedrørende tilsynet kan kreves dekket av rettighetshaver eller den som tilsynet i det enkelte tilfelle retter seg mot eller finner sted hos. Det kan også kreves en sektoravgift til dekning av utgifter ved andre oppfølgingsoppgaver som retter seg mot hele eller deler av petroleumsvirksomheten.
+>
 
 ### 2025-07-01 — lov/2025-06-20-109
 

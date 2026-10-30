@@ -7,6 +7,30 @@ refid: "lov/1977-06-10-82"
 
 ## (annet)
 
+### 2017-06-16 — lov/2017-06-16-61
+
+*I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag (motorferdselloven) skal § 4 a lyde:*
+
+> § 4 a.(forskrifter om bruk av motorkjøretøyer i utmark og på islagte vassdrag)
+>
+> Motorkjøretøyer kan i utmark og på islagte vassdrag bare brukes i samsvar med forskrift gitt av departementet.
+>
+> Departementet kan gi kommunestyret, eller annet folkevalgt organ som kommunestyret bestemmer, myndighet til i forskrift å fastsette løyper for kjøring med snøscooter på vinterføre. I kommunene Finnmark og Nord-Troms (kommunene Kvænangen, Kåfjord, Lyngen, Nordreisa, Skjervøy og Storfjord) omfatter myndigheten også adgang til i forskrift å tillate kjøring ut av løypa på islagt vann for å raste.
+>
+> Departementet kan i inntil seks kommuner gi kommunestyret, eller annet folkevalgt organ som kommunestyret bestemmer, myndighet til i forskrift å fastsette løyper for persontransport med beltekjøretøy på vinterføre til utgangspunkter for alpin skikjøring (catskiing) som et forsøk på inntil seks år. Forsøket kan ikke forlenges. Løypene skal ta utgangspunkt i eksisterende alpinanlegg.
+>
+> Løyper som fastsettes etter annet og tredje ledd, skal ikke legges i verneområder, foreslåtte verneområder eller nasjonale villreinområder. Løypene skal ikke være til vesentlig skade eller ulempe for reindriften eller kreve terrenginngrep. Ved fastsetting av løypene skal kommunen ta særskilt hensyn til støy og andre ulemper for friluftslivet. Kommunen skal også ta hensyn til naturmangfold, bolig- og hytteområder, landskap, kulturminner og kulturmiljø og sikkerheten for dem som kjører og andre. Før fastsetting av løypene skal kommunen utrede virkningen løypene vil ha for friluftsliv og naturmangfold i influensområdet, samt kartlegge og verdsette friluftslivsområdene der løypene planlegges, og vurdere disse områdene opp mot øvrige friluftslivsområder i kommunen.
+>
+> Departementet kan i forskrift gi nærmere regler om løypene og kommunens saksbehandling, herunder regler om klage på kommunens vedtak om fastsetting av løyper etter andre, tredje og fjerde ledd.
+>
+
+### 2021-04-16 — forskrift/2021-04-16-1183
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2025-06-06 — lov/2025-06-06-25
 
 *I lov 10. juni 1977 nr. 82 om motorferdsel i utmark og vassdrag skal § 2 nytt sjette ledd lyde:*

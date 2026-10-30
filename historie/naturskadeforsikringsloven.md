@@ -11,6 +11,13 @@ refid: "lov/1989-06-16-70"
 
 *Nåværende § 1 tredje og fjerde ledd blir nytt sjette og sjuende ledd.*
 
+### 2018-01-01 — forskrift/2017-04-21-481
+
+*Loven gjelder fra 1. januar 2018.*
+
+> Loven gjelder fra 1. januar 2018.
+>
+
 ### 2024-12-13 — lov/2024-12-13-78
 
 *I lov 16. juni 1989 nr. 70 om naturskadeforsikring skal § 1 første ledd nytt fjerde punktum lyde:*
@@ -23,6 +30,17 @@ refid: "lov/1989-06-16-70"
 *I lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. del I skal naturskadeforsikringsloven § 4 femte ledd andre og nytt tredje punktum lyde:*
 
 > Kongen kan i forskrift også gi nærmere bestemmelser om skadepoolens virksomhet, herunder formål, organisasjon, offentlighet, premiefastsettelse, gjenforsikring, rapportering og forholdet til Landbruksdirektoratet og Klagenemnda for naturskadesaker. Kongen kan i forskrift også gi regler om medlemmenes plikt til å gi opplysninger og til å rapportere om skader til poolen.
+>
+
+### 2025-01-01 — forskrift/2024-01-26-110
+
+*Delt ikrafttredelse av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft 1. januar 2025:*
+
+> Delt ikrafttredelse av lov 17. juni 2022 nr. 59 om endringer i naturskadeforsikringsloven mv. (etablering av naturskadekapital i Norsk Naturskadepool mv.). Følgende trer i kraft 1. januar 2025:
+>
+> del I (naturskadeforsikringsloven) § 4
+>
+> del VI nr. 3.
 >
 
 ### 2025-06-20 — lov/2025-06-20-78

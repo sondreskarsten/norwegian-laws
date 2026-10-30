@@ -21,6 +21,13 @@ refid: "lov/1991-07-20-67"
 > I lovens del B, etter artikkel 25, i tilleggsprotokollen av 18. desember 1997 til den europeiske konvensjon av 21. mars 1983 om overføring av domfelte, skal artikkel 3 nr. 4 bokstav a lyde slik i norsk oversettelse:når domsstaten tillater det; anmodning om tillatelse skal fremmes sammen med alle relevante dokumenter og en rettsprotokoll inneholdende den domfeltes forklaring; tillatelse skal gis når den straffbare handling som ligger til grunn for anmodningen, i seg selv ville begrunnet utlevering etter domsstatens lov, eller når bare straffeomfanget ville utelukke utlevering;
 >
 
+### 2014-02-28 — lov/2014-02-28-3
+
+*I lov 20. juli 1991 nr. 67 om overføring av domfelte skal § 13 tredje ledd lyde:*
+
+> Bestemmelsene i § 12 annet og tredje ledd gjelder tilsvarende.
+>
+
 ## § 12
 
 ### 2011-06-24 — lov/2011-06-24-34

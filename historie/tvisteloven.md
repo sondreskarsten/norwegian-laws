@@ -121,17 +121,33 @@ refid: "lov/2005-06-17-90"
 
 *§ 3-3 andre ledd skal lyde:*
 
+> (2) En autorisert advokatfullmektig kan opptre som advokat etter denne lov når ikke annet følger av domstolloven § 219.
+>
+
 ### 2022-05-12 — lov/2022-05-12-28
 
 *§ 3-3 fjerde og femte ledd skal lyde:*
+
+> (4) Retten kan tillate at annen skikket myndig person opptrer som prosessfullmektig. En jurist som yter rettslig bistand som ledd i næringsvirksomhet, kan bare være prosessfullmektig hvis vilkårene i advokatloven § 68 er oppfylt.
+>
+> (5) Personer med utenlandsk advokatbevilling kan være prosessfullmektig når retten etter sakens art og forholdene ellers finner det ubetenkelig.
+>
 
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 3-3 andre ledd skal lyde:*
 
+> (2) En autorisert advokatfullmektig kan opptre som advokat etter denne lov når ikke annet følger av domstolloven § 219.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 3-3 fjerde og femte ledd skal lyde:*
+
+> (4) Retten kan tillate at annen skikket myndig person opptrer som prosessfullmektig. En jurist som yter rettslig bistand som ledd i næringsvirksomhet, kan bare være prosessfullmektig hvis vilkårene i advokatloven § 68 er oppfylt.
+>
+> (5) Personer med utenlandsk advokatbevilling kan være prosessfullmektig når retten etter sakens art og forholdene ellers finner det ubetenkelig.
+>
 
 ## § 3-4
 
@@ -268,34 +284,14 @@ refid: "lov/2005-06-17-90"
 
 *§ 6-7 første ledd skal lyde:*
 
-> advokat og autorisert advokatfullmektig,
->
-> jurist,
->
-> inkassobevillingshaver med inkassooppdrag for saken,
->
-> ektefelle eller samboer, slektning i rett opp- eller nedstigende linje eller søsken,
->
-> ansatt eller annen person med tilknytning til næringsvirksomhet saken gjelder ,
->
-> en skikket myndig person etter tillatelse fra forliksrådet i den enkelte sak.
+> (1) Som prosessfullmektig for forliksrådet kan partene brukeadvokat og autorisert advokatfullmektig,jurist,inkassobevillingshaver med inkassooppdrag for saken,ektefelle eller samboer, slektning i rett opp- eller nedstigende linje eller søsken,ansatt eller annen person med tilknytning til næringsvirksomhet saken gjelder ,en skikket myndig person etter tillatelse fra forliksrådet i den enkelte sak.
 >
 
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 6-7 første ledd skal lyde:*
 
-> advokat og autorisert advokatfullmektig,
->
-> jurist,
->
-> inkassobevillingshaver med inkassooppdrag for saken,
->
-> ektefelle eller samboer, slektning i rett opp- eller nedstigende linje eller søsken,
->
-> ansatt eller annen person med tilknytning til næringsvirksomhet saken gjelder,
->
-> en skikket myndig person etter tillatelse fra forliksrådet i den enkelte sak.
+> (1) Som prosessfullmektig for forliksrådet kan partene brukeadvokat og autorisert advokatfullmektig,jurist,inkassobevillingshaver med inkassooppdrag for saken,ektefelle eller samboer, slektning i rett opp- eller nedstigende linje eller søsken,ansatt eller annen person med tilknytning til næringsvirksomhet saken gjelder,en skikket myndig person etter tillatelse fra forliksrådet i den enkelte sak.
 >
 
 ### 2026-05-22 — lov/2026-05-22-19
@@ -735,9 +731,15 @@ refid: "lov/2005-06-17-90"
 
 *§ 22-5 andre ledd skal lyde:*
 
+> (2) Retten kan frita en part eller et vitne fra å gi tilgang til bevis om noe som er betrodd under sjelesorg, sosialt hjelpearbeid, medisinsk behandling, rettslig bistand eller lignende virksomhet, selv om forholdet ikke omfattes av første ledd.
+>
+
 ### 2024-06-21 — lov/2024-06-21-46
 
 *§ 22-5 andre ledd skal lyde:*
+
+> (2) Retten kan frita en part eller et vitne fra å gi tilgang til bevis om noe som er betrodd under sjelesorg, sosialt hjelpearbeid, medisinsk behandling, rettslig bistand eller lignende virksomhet, selv om forholdet ikke omfattes av første ledd.
+>
 
 ## § 22-6 a
 
@@ -816,11 +818,17 @@ refid: "lov/2005-06-17-90"
 
 *§ 24-8 nytt tredje ledd skal lyde:*
 
+> (3) Retten kan beslutte at opplysninger som nevnt i første ledd første punktum bare skal opplyses skriftlig til retten, når det er nødvendig for å ivareta formålet med et vedtak om sperret adresse etter folkeregisterloven § 10-4, fiktiv identitet etter politiloven § 14 a eller skjult adresse etter barnevernsloven. Det samme gjelder i barnevernssaker som omhandler skjult adresse. Retten kan ikke treffe beslutning etter første og annet punktum dersom det vil medføre vesentlige betenkeligheter av hensyn til en parts mulighet for å imøtegå motpartens argumentasjon og bevis.
+>
+
 ## § 24-9
 
 ### 2024-12-13 — lov/2024-12-13-78
 
 *§ 24-9 nytt sjette ledd skal lyde:*
+
+> (6) Retten kan på samme vilkår som etter § 24-8 tredje ledd beslutte at det ved gjennomføringen av vitneavhøret skal settes i verk fysiske eller tekniske tiltak for å holde vitnets identitet hemmelig.
+>
 
 ## § 26-8
 
@@ -1232,6 +1240,33 @@ refid: "lov/2005-06-17-90"
 > Det kan gis oppfriskning for oversittelse av fristen etter reglene i tvisteloven §§ 16-12 til 16-14.
 >
 
+### 2010-12-10 — lov/2010-12-10-76
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister (tvisteloven) skal § 29-13 femte ledd lyde:*
+
+> (5) Avgjørelse etter første og annet ledd treffes ved beslutning uten muntlig forhandling. Beslutning etter første ledd skal være begrunnet når særlige grunner tilsier det. Nektelse etter annet ledd krever enstemmighet og skal være begrunnet. Beslutningen kan bare ankes på grunnlag av feil i saksbehandlingen. At en anke ikke er nektet fremmet etter annet ledd, kan ikke ankes eller brukes som ankegrunn.
+>
+
+### 2011-04-15 — lov/2011-04-15-11
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister (tvisteloven) skal § 22-3 nytt fjerde ledd lyde:*
+
+> (4) Et vitne som har taushetsplikt i medhold av lov 4. juli 2003 nr. 83 om elektronisk kommunikasjon § 2-9 første og annet ledd kan ikke pålegges å føre bevis om opplysninger som tilbyder av elektronisk kommunikasjonsnett og -tjeneste har lagret til bruk for etterforskning, oppklaring og straffeforfølgning av alvorlige straffbare forhold og som ikke omfattes av § 2-9 tredje ledd.
+>
+
+### 2012-05-11 — lov/2012-05-11-26
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 30-3 lyde:*
+
+> § 30-3.Tilsvarende anvendelse av reglene for anker til lagmannsrett
+>
+> (1) For anker til Høyesterett gjelder §§ 29-2 til 29-11 og §§ 29-19 til 29-24 tilsvarende med de endringer som følger av bestemmelsene i dette kapittel.
+>
+> (2) Høyesteretts ankeutvalg kanavvise en anke hvor det foreligger feil som må lede til avvisning,heve en sak eller en del av den fordi den ikke hører under domstolene eller er rettskraftig avgjort,oppheve en avgjørelse som er anket hvor det foreligger feil som ubetinget skal tillegges virkning, jf. § 29-21 annet ledd, ogoppheve en avgjørelse av andre grunner dersom ankeutvalget enstemmig finner det klart at det er grunnlag for oppheving.
+>
+> (3) Ved avgjørelser etter annet ledd gjelder § 9-6 tilsvarende.
+>
+
 ### 2013-05-31 — lov/2013-05-31-25
 
 *I femte del skal nytt kapittel 28 A lyde:*
@@ -1279,6 +1314,53 @@ refid: "lov/2005-06-17-90"
 > (2) Mellom partene i et søksmål om inngrep gjelder bestemmelsene om sakskostnader i kapittel 20 for kostnader og utlegg knyttet til behandling og gjennomføring av en begjæring om informasjon.
 >
 
+### 2016-06-17 — lov/2016-06-17-55
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 4-4 fjerde, femte og nytt sjette ledd lyde:*
+
+> (4) Staten har alminnelig verneting i Oslo. Fylkeskommuner, kommuner og samkommuner har alminnelig verneting der hovedadministrasjonen ligger.
+>
+> (5) Virksomheter eller sammenslutninger uten alminnelig verneting etter tredje og fjerde ledd har alminnelig verneting der styret har sitt sete, eller der slikt ikke kan påvises, samme sted som den person stevningen skal forkynnes for.
+>
+> (6) Boer har alminnelig verneting i den rettskrets hvor de behandles.
+>
+
+### 2018-06-22 — lov/2018-06-22-80
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 6-14 fjerde ledd lyde:*
+
+> Har forliksrådet avsagt fraværsdom, kan klagemotparten kreve oppfriskning. Reglene i §§ 16-12 til 16-14 gjelder ikke. Fristen for å kreve oppfriskning er én måned. Det kan gis oppfriskning mot oversittelse av fristen. Forliksrådets beslutning om oppfriskning kan bare ankes dersom den nekter oppfriskning. Oppfriskning etter første punktum kan kun kreves én gang i samme sak. I stedet for oppfriskning, kan klagemotparten ta ut stevning til tingretten etter første ledd. Det kan for øvrig ikke begjæres oppfriskning i forliksrådet.
+>
+
+### 2020-07-01 — forskrift/2020-04-17-807
+
+*---*
+
+> ---
+>
+> Loven trer i kraft 1. juli 2020.
+>
+> Endringene i tvisteloven § 6-2 annet ledd bokstav a og § 6-10 annet ledd får ikke anvendelse for saker der forliksklage er fremsatt før 1. juli 2020. Endringene i tvisteloven § 10-1 annet ledd bokstav a og b og § 10-5 annet ledd får ikke anvendelse for saker der stevning er inngitt før 1. juli 2020. Endringene i tvisteloven § 29-13 første og tredje ledd får ikke anvendelse for saker der anke er inngitt før 1. juli 2020.
+>
+
+### 2020-12-18 — lov/2020-12-18-147
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 6-13 første ledd bokstav d lyde:et beløp inntil fire ganger rettsgebyret for rettshjelp ved forliksklage eller tilsvar og saksforberedelse ellers, men inntil et halvt rettsgebyr dersom klageren i tillegg krever erstatning for kostnader ved utenrettslig inndriving etter annet ledd, og*
+
+### 2021-02-01 — forskrift/2020-12-18-2831
+
+*Loven trer i kraft 1. februar 2021.*
+
+> Loven trer i kraft 1. februar 2021.
+>
+
+### 2021-06-18 — lov/2021-06-18-126
+
+*I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 22-5 første ledd første punktum lyde:*
+
+> Retten kan ikke ta imot bevis fra prester i Den norske kirke, prester eller forstandere i registrerte trossamfunn, advokater, forsvarere i straffesaker, patentrådgivere oppført på listen nevnt i artikkel 134 nr. 1 i konvensjonen om meddelelse av europeiske patenter 5. oktober 1973, meklere i ekteskapssaker, leger, psykologer, apotekere, jordmødre eller sykepleiere om noe som er betrodd dem i deres stilling.
+>
+
 ### 2023-12-20 — lov/2023-12-20-110
 
 *10.I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister oppheves § 4-4 fjerde ledd tredje punktum.*
@@ -1290,6 +1372,9 @@ refid: "lov/2005-06-17-90"
 ### 2024-06-21 — lov/2024-06-21-46
 
 *I lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister skal § 3-3 sjette ledd lyde:*
+
+> (6) Kongen fastsetter ved forskrift i hvilken utstrekning og på hvilke vilkår personer med utenlandsk advokatbevilling har rett til å opptre som prosessfullmektig.
+>
 
 ### 2024-12-13 — lov/2024-12-13-78
 

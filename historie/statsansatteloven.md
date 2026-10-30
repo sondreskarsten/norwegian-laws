@@ -7,15 +7,51 @@ refid: "lov/2017-06-16-67"
 
 ## (annet)
 
+### 2020-06-19 — lov/2020-06-19-69
+
+*I lov 16. juni 2017 nr. 67 om statens ansatte mv. skal § 11 nytt sjuende ledd lyde:*
+
+> (7) Arbeidstilsynet fører tilsyn med at bestemmelsene i første og annet ledd blir overholdt. Arbeidstilsynet gir de pålegg og treffer de enkeltvedtak ellers som er nødvendige for gjennomføringen av bestemmelsene. Arbeidsmiljøloven § 18-5, § 18-6 annet, sjette, syvende og åttende ledd og §§ 18-7, 18-8 og 18-10 får tilsvarende anvendelse.
+>
+
+### 2022-12-20 — lov/2022-12-20-115
+
+*I lov 16. juni 2017 nr. 67 om statens ansatte mv. skal § 1 fjerde ledd lyde:*
+
+> Reglene i §§ 4 til 7, § 11 tredje ledd og § 24 gjelder ikke for ansatte i Stortinget, andre organer under Stortinget, hos Stortingets ombud eller i Sametinget.
+>
+
 ### 2023-12-15 — lov/2023-12-15-88
 
 *I lov 16. juni 2017 nr. 67 om statens ansatte mv. skal § 15 første ledd lyde:*
+
+> (1) For statsansatte gjelder en prøvetid på seks måneder, med mindre ansettelsesorganet har bestemt at prøvetiden ikke skal gjelde. Det gjelder ikke prøvetid ved ny ansettelse i samme stilling eller ved ansettelse i en stilling som i det vesentlige er likeartet med stillingen den ansatte har hatt i samme virksomhet. Ved fast ansettelse gjelder likevel prøvetid dersom tidligere ansettelsestid og prøvetid i den nye stillingen samlet ikke overstiger seks måneder. Prøvetiden for midlertidig ansettelse kan ikke overstige halvparten av ansettelsesforholdets varighet.
+>
+
+### 2026-01-01 — forskrift/2025-05-26-1115
+
+*Vedtaket ble kunngjort med feil dato i metadatafeltet og utgår derfor. Se ny kunngjøring ved ikrafttredelsesvedtak 20. juni 2025 nr. 1127.*
+
+> Vedtaket ble kunngjort med feil dato i metadatafeltet og utgår derfor. Se ny kunngjøring ved ikrafttredelsesvedtak 20. juni 2025 nr. 1127.
+>
+> Loven trer i kraft 1. januar 2026.
+>
+
+### 2026-01-01 — forskrift/2025-06-20-1127
+
+*Loven trer i kraft 1. januar 2026.*
+
+> Loven trer i kraft 1. januar 2026.
+>
 
 ## § 10
 
 ### 2025-06-20 — lov/2025-06-20-43
 
 *§ 10 fjerde ledd skal lyde:*
+
+> (4) Kongen kan gi forskrift om åremålsstillinger og adgangen til å benytte åremålsstillinger ved tjeneste på Svalbard og Jan Mayen.
+>
 
 ## § 11
 
@@ -36,6 +72,9 @@ refid: "lov/2017-06-16-67"
 ### 2025-06-20 — lov/2025-06-20-43
 
 *§ 11 fjerde ledd skal lyde:*
+
+> (4) Arbeidstakere som har vært sammenhengende innleid i virksomheten i mer enn tre år etter denne paragrafen, har rett til fast ansettelse hos innleieren. Dersom denne retten benyttes, gjelder reglene om oppsigelse av arbeidsforhold.
+>
 
 ## § 12
 
@@ -59,6 +98,13 @@ refid: "lov/2017-06-16-67"
 
 *§ 13 første til tredje ledd skal lyde:*
 
+> (1) Deltidsansatte har fortrinnsrett til utvidet stilling fremfor at arbeidsgiver foretar ny ansettelse eller innleie i virksomheten. Fortrinnsretten kan også gjelde en del av en stilling.
+>
+> (2) Deltidsansatte har fortrinnsrett til ekstravakter og lignende i virksomheten fremfor at arbeidsgiver ansetter eller leier inn arbeidstakere til dette arbeidet. Dette gjelder også for midlertidig ansatte. For virksomheter med flere tjenestesteder gjelder fortrinnsretten det enkelte tjenestestedet. Arbeidsgiveren kan etter drøftinger med de tillitsvalgte avgrense virkeområdet for utøvelse av denne fortrinnsretten til én eller flere enheter med til sammen minst 30 ansatte.
+>
+> (3) Fortrinnsretten etter første og annet ledd gjelder bare når den ansatte er kvalifisert for stillingen og utøvelse av fortrinnsretten ikke vil innebære vesentlige ulemper for virksomheten.
+>
+
 ### 2025-06-20 — lov/2025-06-20-43
 
 *§ 13 nåværende tredje til sjette ledd blir fjerde til nytt syvende ledd.*
@@ -66,6 +112,9 @@ refid: "lov/2017-06-16-67"
 ### 2025-06-20 — lov/2025-06-20-43
 
 *§ 13 sjette ledd skal lyde:*
+
+> (6) Tvister om fortrinnsrett for deltidsansatte etter første ledd avgjøres av tvisteløsningsnemnda, jf. arbeidsmiljøloven § 17-2.
+>
 
 ## § 2
 

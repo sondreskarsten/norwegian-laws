@@ -20,17 +20,3 @@ refid: "lov/2024-06-21-47"
 
 > Forordning (EU) nr. 767/2008 om visuminformasjonssystemet VIS (VIS-forordningen) gjelder som lov. VIS-forordningen regulerer blant annet registrering, lagring og deling av opplysninger mellom statene i Schengen-samarbeidet om visum og oppholdstillatelser. Forordningen gjelder med de endringene som følger avforordning (EF) nr. 810/2009forordning (EU) nr. 610/2013forordning (EU) 2017/2226forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356.
 >
-> forordning (EF) nr. 810/2009
->
-> forordning (EU) nr. 610/2013
->
-> forordning (EU) 2017/2226
->
-> forordning (EU) 2019/817
->
-> forordning (EU) 2021/1134
->
-> forordning (EU) 2021/1152
->
-> forordning (EU) 2024/1356.
->

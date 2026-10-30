@@ -7,6 +7,20 @@ refid: "lov/2008-06-20-44"
 
 ## (annet)
 
+### 2008-11-14 — lov/2008-11-14-80
+
+*I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning (helseforskningsloven) skal § 17 syvende ledd lyde:*
+
+> Departementet kan i forskrift bestemme at for spesielle typer forskningsprosjekter kan barn mellom 12 og 16 år selv samtykke til forskning på helseopplysninger. Departementet kan i forskrift gi nærmere regler om kravene til et slikt samtykke.
+>
+
+### 2018-06-22 — lov/2018-06-22-76
+
+*I lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning skal § 2 fjerde ledd lyde:*
+
+> Departementet kan i forskrift gi bestemmelser om lovens anvendelse for særskilte områder innenfor medisinsk og helsefaglig forskning.
+>
+
 ### 2025-06-20 — lov/2025-06-20-71
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
@@ -44,9 +58,13 @@ refid: "lov/2008-06-20-44"
 
 *Ny § 12 a skal lyde:*
 
-> § 12 a.Oppbevaring av dokumenter for etterprøving og kontrollDokumenter, materiale, opplysninger og liknende som er nødvendig for etterprøving og kontroll av prosjektet, skal oppbevares i minst fem år etter at sluttmelding er sendt den regionale komiteen for medisinsk og helsefaglig forskningsetikk.Den regionale komiteen for medisinsk og helsefaglig forskningsetikk kan bestemme at opplysningene skal oppbevares i lengre tid.Departementet kan gi forskrift om oppbevaring av dokumenter, materiale, opplysninger eller liknende etter at forskningsprosjektet er gjennomført.
+> § 12 a. Oppbevaring av dokumenter for etterprøving og kontroll
 >
-> § 12 a.Oppbevaring av dokumenter for etterprøving og kontroll
+> Dokumenter, materiale, opplysninger og liknende som er nødvendig for etterprøving og kontroll av prosjektet, skal oppbevares i minst fem år etter at sluttmelding er sendt den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+>
+> Den regionale komiteen for medisinsk og helsefaglig forskningsetikk kan bestemme at opplysningene skal oppbevares i lengre tid.
+>
+> Departementet kan gi forskrift om oppbevaring av dokumenter, materiale, opplysninger eller liknende etter at forskningsprosjektet er gjennomført.
 >
 
 ## § 13
@@ -55,9 +73,7 @@ refid: "lov/2008-06-20-44"
 
 *§ 13 overskriften skal lyde:*
 
-> § 13.Hovedregel om samtykke til deltakelse i forskning
->
-> § 13.Hovedregel om samtykke til deltakelse i forskning
+> § 13. Hovedregel om samtykke til deltakelse i forskning
 >
 
 ### 2025-06-20 — lov/2025-06-20-71
@@ -79,9 +95,9 @@ refid: "lov/2008-06-20-44"
 
 *Ny § 14 a skal lyde:*
 
-> § 14 a.Forskning som innebærer ingen eller liten risiko eller ulempeDen regionale komiteen for medisinsk og helsefaglig forskningsetikk kan godkjenne forskningsprosjekter uten at samtykke fra forskningsdeltakerne innhentes, dersom følgende vilkår er oppfylt:Forskningen innebærer ingen eller liten risiko eller ulempe for deltakerne.Det er vanskelig eller umulig å innhente samtykke fra et tilstrekkelig utvalg av gruppen det forskes på.Forskningen antas å ha stor nytteverdi for samfunnet.
+> § 14 a. Forskning som innebærer ingen eller liten risiko eller ulempe
 >
-> § 14 a.Forskning som innebærer ingen eller liten risiko eller ulempe
+> Den regionale komiteen for medisinsk og helsefaglig forskningsetikk kan godkjenne forskningsprosjekter uten at samtykke fra forskningsdeltakerne innhentes, dersom følgende vilkår er oppfylt:Forskningen innebærer ingen eller liten risiko eller ulempe for deltakerne.Det er vanskelig eller umulig å innhente samtykke fra et tilstrekkelig utvalg av gruppen det forskes på.Forskningen antas å ha stor nytteverdi for samfunnet.
 >
 
 ## § 17
@@ -104,9 +120,9 @@ refid: "lov/2008-06-20-44"
 
 *§ 17 skal lyde:*
 
-> § 17.Hvem som kan samtykke til å delta i forskningPersoner over 16 år kan samtykke til å delta i helseforskning, med de særlige vilkår og unntak som følger av § 17 a og § 18.
+> § 17. Hvem som kan samtykke til å delta i forskning
 >
-> § 17.Hvem som kan samtykke til å delta i forskning
+> Personer over 16 år kan samtykke til å delta i helseforskning, med de særlige vilkår og unntak som følger av § 17 a og § 18.
 >
 
 ## § 17 a
@@ -115,9 +131,19 @@ refid: "lov/2008-06-20-44"
 
 *Ny § 17 a skal lyde:*
 
-> § 17 a.Adgangen for personer under 18 år til å delta i forskningFor at en person mellom 16 og 18 år skal kunne delta i forskning som innebærer legemsinngrep eller legemiddelutprøving, kreves det i tillegg til samtykke etter § 17 tillatelse fra den eller de som har foreldreansvaret.Når forskningsdeltakeren er under 16 år, må den eller de som har foreldreansvaret, gi tillatelse til at barnet deltar i forskningen. Er det to som har foreldreansvar, må begge gi sin tillatelse. Dersom deltakelse i forskningen ikke er inngripende for barnet, er det likevel tilstrekkelig at én av dem gir tillatelse. Dersom det har funnet sted en omsorgsovertakelse etter barnevernsloven § 4-2 eller § 5-1, kan barnevernstjenesten, fosterforeldrene eller institusjonen der barnet bor, gi tillatelse til at barnet deltar i forskningen.Før det gis tillatelse etter andre ledd, skal barnet ha fått informasjon og anledning til å si sin mening om deltakelsen. Det skal legges vekt på hva barnet mener, i samsvar med alder og modenhet. Tillatelsen er gyldig også etter at barnet har fylt 16 år, men barnet kan da selv trekke tillatelsen tilbake. Barnet skal få informasjon om forskningen, samtykket og retten til å trekke samtykket tilbake.Barn under 16 år kan bare delta i forskning dersom følgende vilkår er oppfylt:Eventuell risiko eller ulempe for barnet er ubetydelig.Barnet selv motsetter seg ikke deltakelse.Det er grunn til å anta at resultatene av forskningen kan være til nytte for barnet selv eller for andre barn med samme aldersspesifikke lidelse, sykdom, skade eller tilstand.Tilsvarende forskning kan ikke gjennomføres på personer over 16 år.Dersom barn mellom 12 og 16 år av grunner som bør respekteres, ikke ønsker at den eller de som har foreldreansvaret, eller barnevernstjenesten gjøres kjent med opplysninger om barnet, skal dette varetas.Departementet kan i forskrift bestemme at for spesielle typer forskningsprosjekter kan barn mellom 12 og 16 år selv samtykke til forskning på helseopplysninger, og gi nærmere regler om kravene til et slikt samtykke.
+> § 17 a. Adgangen for personer under 18 år til å delta i forskning
 >
-> § 17 a.Adgangen for personer under 18 år til å delta i forskning
+> For at en person mellom 16 og 18 år skal kunne delta i forskning som innebærer legemsinngrep eller legemiddelutprøving, kreves det i tillegg til samtykke etter § 17 tillatelse fra den eller de som har foreldreansvaret.
+>
+> Når forskningsdeltakeren er under 16 år, må den eller de som har foreldreansvaret, gi tillatelse til at barnet deltar i forskningen. Er det to som har foreldreansvar, må begge gi sin tillatelse. Dersom deltakelse i forskningen ikke er inngripende for barnet, er det likevel tilstrekkelig at én av dem gir tillatelse. Dersom det har funnet sted en omsorgsovertakelse etter barnevernsloven § 4-2 eller § 5-1, kan barnevernstjenesten, fosterforeldrene eller institusjonen der barnet bor, gi tillatelse til at barnet deltar i forskningen.
+>
+> Før det gis tillatelse etter andre ledd, skal barnet ha fått informasjon og anledning til å si sin mening om deltakelsen. Det skal legges vekt på hva barnet mener, i samsvar med alder og modenhet. Tillatelsen er gyldig også etter at barnet har fylt 16 år, men barnet kan da selv trekke tillatelsen tilbake. Barnet skal få informasjon om forskningen, samtykket og retten til å trekke samtykket tilbake.
+>
+> Barn under 16 år kan bare delta i forskning dersom følgende vilkår er oppfylt:Eventuell risiko eller ulempe for barnet er ubetydelig.Barnet selv motsetter seg ikke deltakelse.Det er grunn til å anta at resultatene av forskningen kan være til nytte for barnet selv eller for andre barn med samme aldersspesifikke lidelse, sykdom, skade eller tilstand.Tilsvarende forskning kan ikke gjennomføres på personer over 16 år.
+>
+> Dersom barn mellom 12 og 16 år av grunner som bør respekteres, ikke ønsker at den eller de som har foreldreansvaret, eller barnevernstjenesten gjøres kjent med opplysninger om barnet, skal dette varetas.
+>
+> Departementet kan i forskrift bestemme at for spesielle typer forskningsprosjekter kan barn mellom 12 og 16 år selv samtykke til forskning på helseopplysninger, og gi nærmere regler om kravene til et slikt samtykke.
 >
 
 ## § 18
@@ -126,9 +152,15 @@ refid: "lov/2008-06-20-44"
 
 *§ 18 skal lyde:*
 
-> § 18.Adgangen for personer uten beslutningskompetanse til å delta i forskningEn person over 16 år som ikke er i stand til å forstå informasjonen og hva et samtykke til å delta i forskningen innebærer, kan ikke selv gi samtykke til å delta i helseforskning.Dersom en person mangler beslutningskompetanse etter første ledd, kan personens nærmeste pårørende gi tillatelse til at personen deltar i forskningen. Pasient- og brukerrettighetsloven § 1-3 bokstav b gjelder tilsvarende for hvem som anses som nærmeste pårørende.Før det gis tillatelse etter andre ledd, skal personen så langt det er mulig ha fått informasjon om hva deltakelse innebærer, og anledning til å si sin mening om deltakelsen. Det skal legges vekt på hva personen mener ut fra den beste tolkningen av personens vilje og preferanser.Forskning basert på tillatelse etter andre ledd kan bare finne sted dersom følgende vilkår er oppfylt:Eventuell risiko eller ulempe for deltakeren er ubetydelig.Deltakeren motsetter seg ikke selv deltakelse, og det er grunn til å tro at deltakeren ikke ville motsatt seg deltakelse hvis vedkommende hadde hatt beslutningskompetanse.Det er grunn til å anta at resultatene av forskningen kan være til nytte for deltakeren selv eller for andre med samme eller tilsvarende sykdom, funksjonsnedsettelse eller svekkelse.Tilsvarende forskning kan ikke gjennomføres på personer med beslutningskompetanse.
+> § 18. Adgangen for personer uten beslutningskompetanse til å delta i forskning
 >
-> § 18.Adgangen for personer uten beslutningskompetanse til å delta i forskning
+> En person over 16 år som ikke er i stand til å forstå informasjonen og hva et samtykke til å delta i forskningen innebærer, kan ikke selv gi samtykke til å delta i helseforskning.
+>
+> Dersom en person mangler beslutningskompetanse etter første ledd, kan personens nærmeste pårørende gi tillatelse til at personen deltar i forskningen. Pasient- og brukerrettighetsloven § 1-3 bokstav b gjelder tilsvarende for hvem som anses som nærmeste pårørende.
+>
+> Før det gis tillatelse etter andre ledd, skal personen så langt det er mulig ha fått informasjon om hva deltakelse innebærer, og anledning til å si sin mening om deltakelsen. Det skal legges vekt på hva personen mener ut fra den beste tolkningen av personens vilje og preferanser.
+>
+> Forskning basert på tillatelse etter andre ledd kan bare finne sted dersom følgende vilkår er oppfylt:Eventuell risiko eller ulempe for deltakeren er ubetydelig.Deltakeren motsetter seg ikke selv deltakelse, og det er grunn til å tro at deltakeren ikke ville motsatt seg deltakelse hvis vedkommende hadde hatt beslutningskompetanse.Det er grunn til å anta at resultatene av forskningen kan være til nytte for deltakeren selv eller for andre med samme eller tilsvarende sykdom, funksjonsnedsettelse eller svekkelse.Tilsvarende forskning kan ikke gjennomføres på personer med beslutningskompetanse.
 >
 
 ## § 19
@@ -172,9 +204,11 @@ refid: "lov/2008-06-20-44"
 
 *§ 32 skal lyde:*
 
-> § 32.Utlevering av helseopplysninger til forsikringsselskap, arbeidsgivere, påtalemyndighet eller domstolHelseopplysninger kan ikke utleveres i forsikringsøyemed, til arbeidsgiver, til påtalemyndighet eller til domstol, selv om forskningsdeltakeren samtykker til det.Kongen kan i forskrift bestemme at utlevering av helseopplysninger til påtalemyndighet eller domstol helt unntaksvis kan skje dersom svært tungtveiende private eller offentlige interesser gjør dette rettmessig.
+> § 32. Utlevering av helseopplysninger til forsikringsselskap, arbeidsgivere, påtalemyndighet eller domstol
 >
-> § 32.Utlevering av helseopplysninger til forsikringsselskap, arbeidsgivere, påtalemyndighet eller domstol
+> Helseopplysninger kan ikke utleveres i forsikringsøyemed, til arbeidsgiver, til påtalemyndighet eller til domstol, selv om forskningsdeltakeren samtykker til det.
+>
+> Kongen kan i forskrift bestemme at utlevering av helseopplysninger til påtalemyndighet eller domstol helt unntaksvis kan skje dersom svært tungtveiende private eller offentlige interesser gjør dette rettmessig.
 >
 
 ## § 33
@@ -187,9 +221,9 @@ refid: "lov/2008-06-20-44"
 
 *§ 33 skal lyde:*
 
-> § 33.Klage ved avslag på krav om slettingDersom forskningsdeltakeren har fått avslag på krav om sletting av helseopplysninger om seg selv, kan avslaget klages inn for den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
+> § 33. Klage ved avslag på krav om sletting
 >
-> § 33.Klage ved avslag på krav om sletting
+> Dersom forskningsdeltakeren har fått avslag på krav om sletting av helseopplysninger om seg selv, kan avslaget klages inn for den regionale komiteen for medisinsk og helsefaglig forskningsetikk.
 >
 
 ## § 34
@@ -254,9 +288,13 @@ refid: "lov/2008-06-20-44"
 
 *Ny § 6 a skal lyde:*
 
-> § 6 a.Kliniske behandlingsstudierVed kliniske behandlingsstudier er den virksomheten der pasienten mottar helsehjelp, forskningsansvarlig. Dette gjelder likevel ikke de virksomhetene den forskningsansvarlige virksomheten har avtale med om praktisk bistand til gjennomføringen av studien.For kliniske behandlingsstudier som ikke har plikt til monitorering etter andre regler, skal den forskningsansvarlige gjøre en vurdering av om prosjektet skal monitoreres. I vurderingen skal det legges vekt på graden av intervensjon, studiens mål og metoder og graden av avvik fra etablert behandling. Vurderingen skal dokumenteres, og planen for monitoreringen skal fremkomme av forskningsprotokollen.Departementet kan i forskrift gi nærmere bestemmelser om kliniske behandlingsstudier og monitorering.
+> § 6 a. Kliniske behandlingsstudier
 >
-> § 6 a.Kliniske behandlingsstudier
+> Ved kliniske behandlingsstudier er den virksomheten der pasienten mottar helsehjelp, forskningsansvarlig. Dette gjelder likevel ikke de virksomhetene den forskningsansvarlige virksomheten har avtale med om praktisk bistand til gjennomføringen av studien.
+>
+> For kliniske behandlingsstudier som ikke har plikt til monitorering etter andre regler, skal den forskningsansvarlige gjøre en vurdering av om prosjektet skal monitoreres. I vurderingen skal det legges vekt på graden av intervensjon, studiens mål og metoder og graden av avvik fra etablert behandling. Vurderingen skal dokumenteres, og planen for monitoreringen skal fremkomme av forskningsprotokollen.
+>
+> Departementet kan i forskrift gi nærmere bestemmelser om kliniske behandlingsstudier og monitorering.
 >
 
 ## § 9

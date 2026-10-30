@@ -5,6 +5,15 @@ refid: "lov/1988-05-13-27"
 
 # Endringshistorikk: Kjøpsloven – kjl
 
+## (annet)
+
+### 2013-02-15 — lov/2013-02-15-8
+
+*I lov 13. mai 1988 nr. 27 om kjøp skal § 49 andre ledd nytt andre punktum lyde:*
+
+> Kjøperen kan ikke som følge av en slik undersøkelse utsette betalingen med mer enn 30 dager, med mindre selgeren uttrykkelig har godkjent dette.
+>
+
 ## § 41
 
 ### 2014-02-28 — lov/2014-02-28-2

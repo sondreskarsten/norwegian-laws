@@ -7,9 +7,60 @@ refid: "lov/2005-04-29-20"
 
 ## (annet)
 
+### 2009-01-01 — lov/2009-01-16-5
+
+*I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven) skal § 22 første ledd lyde:*
+
+> Ved Innkrevingssentralens tvangsfullbyrdelse etter loven her gjelder tvangsfullbyrdelsesloven § 1-2 andre ledd, §§ 5-6 til 5-15, §§ 5-17 til 5-19, § 7-9 og §§ 7-11 til 7-28 om gjennomføring av utleggsforretningen mv. så langt de passer.
+>
+
 ### 2010-06-18 — lov/2010-06-18-23
 
 *Nåværende § 2 fjerde ledd blir nytt sjette ledd.*
+
+### 2016-05-27 — lov/2016-05-27-12
+
+*I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal § 20 lyde:*
+
+> § 20.Opplysningsplikt for arbeidsgiver mv.
+>
+> Innkrevingssentralen kan kreve at arbeidsgiver eller andre som utbetaler lønn eller ytelse, gir opplysninger om bidragspliktiges inntekts- og formuesforhold.
+>
+
+### 2017-12-15 — lov/2017-12-15-104
+
+*I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal § 2 fjerde ledd lyde:*
+
+> I den utstrekning avtaler som nevnt i første og andre ledd har regler om utveksling av informasjon mellom medlemslandene, kan andre medlemsland gis opplysninger om identitet, adresse eller inntekts- og formuesforhold for partene i en bidragssak uten hinder av taushetsplikt, eventuelt etter at opplysningene er innhentet etter kapittel 3 i loven her eller barnelova § 70 sjuende ledd.
+>
+
+### 2019-07-01 — lov/2018-12-20-105
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven).
+>
+> I lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. skal ny § 7a lyde:
+>
+> § 7a.
+>
+> Bruk av personopplysninger ved utvikling og testing av IT-systemer
+>
+> (1) Innkrevingssentralen kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.
+>
+> (2) Departementet kan i forskrift gi nærmere regler om behandling etter første ledd.
+>
+> Endringen under I trer i kraft 1. juli 2019.
+>
+
+### 2022-01-01 — forskrift/2021-12-22-3800
+
+*Loven trer i kraft 1. januar 2022.*
+
+> Loven trer i kraft 1. januar 2022.
+>
 
 ### 2025-04-25 — lov/2025-04-25-12
 
@@ -181,9 +232,9 @@ refid: "lov/2005-04-29-20"
 
 *§ 27 skal lyde:*
 
-> § 27.Oppgjør ved betaling av bidrag til andre enn InnkrevingsmyndighetenBidragspliktig som er gjort kjent med at bidraget skal betales til Innkrevingsmyndigheten, kan pålegges å betale beløpet på nytt dersom bidragspliktige likevel betaler bidraget til andre. Dette gjelder likevel bare i den utstrekning bidraget ikke blir krevd inn fra mottakeren etter § 26 andre ledd.
+> § 27. Oppgjør ved betaling av bidrag til andre enn Innkrevingsmyndigheten
 >
-> § 27.Oppgjør ved betaling av bidrag til andre enn Innkrevingsmyndigheten
+> Bidragspliktig som er gjort kjent med at bidraget skal betales til Innkrevingsmyndigheten, kan pålegges å betale beløpet på nytt dersom bidragspliktige likevel betaler bidraget til andre. Dette gjelder likevel bare i den utstrekning bidraget ikke blir krevd inn fra mottakeren etter § 26 andre ledd.
 >
 
 ## § 28
@@ -246,9 +297,9 @@ refid: "lov/2005-04-29-20"
 
 *§ 36 skal lyde:*
 
-> § 36.ForskrifterDepartementet gir forskrifter om gjennomføringen av bestemmelsene i loven her.
+> § 36. Forskrifter
 >
-> § 36.Forskrifter
+> Departementet gir forskrifter om gjennomføringen av bestemmelsene i loven her.
 >
 
 ## § 4
@@ -270,9 +321,11 @@ refid: "lov/2005-04-29-20"
 
 *§ 5 skal lyde:*
 
-> § 5.Når Innkrevingsmyndigheten skal foreta innkrevingBidragsmottakeren eller bidragspliktige kan når som helst kreve at framtidige bidrag skal betales til Innkrevingsmyndigheten. Det samme gjelder bidrag som er forfalt inntil ett år forut for den måned da kravet om innkreving blir framsatt. Innkrevingsmyndigheten kan også overta innkrevingen av bidrag som er forfalt lenger tilbake i tid dersom det foreligger særlige grunner til at bidragsmottaker ikke har framsatt kravet tidligere.Innkrevingsmyndigheten skal alltid kreve inn det samlede underholdsbidrag når folketrygden har krav på refusjon i bidrag for utbetalt bidragsforskott etter forskotteringsloven. Innkrevingsmyndigheten skal også kreve inn bidrag fastsatt etter barnevernsloven § 15-12 på grunnlag av omsorgsovertakelse.
+> § 5. Når Innkrevingsmyndigheten skal foreta innkreving
 >
-> § 5.Når Innkrevingsmyndigheten skal foreta innkreving
+> Bidragsmottakeren eller bidragspliktige kan når som helst kreve at framtidige bidrag skal betales til Innkrevingsmyndigheten. Det samme gjelder bidrag som er forfalt inntil ett år forut for den måned da kravet om innkreving blir framsatt. Innkrevingsmyndigheten kan også overta innkrevingen av bidrag som er forfalt lenger tilbake i tid dersom det foreligger særlige grunner til at bidragsmottaker ikke har framsatt kravet tidligere.
+>
+> Innkrevingsmyndigheten skal alltid kreve inn det samlede underholdsbidrag når folketrygden har krav på refusjon i bidrag for utbetalt bidragsforskott etter forskotteringsloven. Innkrevingsmyndigheten skal også kreve inn bidrag fastsatt etter barnevernsloven § 15-12 på grunnlag av omsorgsovertakelse.
 >
 
 ## § 7
@@ -288,9 +341,9 @@ refid: "lov/2005-04-29-20"
 
 *§ 7 skal lyde:*
 
-> § 7.TvangsgrunnlagBidragskrav mv. som nevnt i § 2 første og annet ledd, tilbakebetalingskrav etter § 26 og pålegg etter § 27 er tvangsgrunnlag for utlegg. Krav på underholdsbidrag som har tvangsgrunnlag ved innkreving hos Innkrevingsmyndigheten, beholder tvangsgrunnlaget dersom innkrevingen avsluttes i medhold av innkrevingsloven § 3 fjerde ledd.
+> § 7. Tvangsgrunnlag
 >
-> § 7.Tvangsgrunnlag
+> Bidragskrav mv. som nevnt i § 2 første og annet ledd, tilbakebetalingskrav etter § 26 og pålegg etter § 27 er tvangsgrunnlag for utlegg. Krav på underholdsbidrag som har tvangsgrunnlag ved innkreving hos Innkrevingsmyndigheten, beholder tvangsgrunnlaget dersom innkrevingen avsluttes i medhold av innkrevingsloven § 3 fjerde ledd.
 >
 
 ## § 7a

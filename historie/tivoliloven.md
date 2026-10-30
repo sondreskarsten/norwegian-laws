@@ -11,9 +11,13 @@ refid: "lov/2017-05-22-30"
 
 *I kapittel 3 skal ny § 11 a lyde:*
 
-> § 11 a.Taushetsplikt for virksomhetens personellEnhver som utfører tjeneste eller arbeid for den som driver virksomhet etter loven her, har taushetsplikt som nevnt i forvaltningsloven §§ 13 flg. om det de får kjennskap til i forbindelse med undersøkelser og rapportering av ulykker og hendelser etter loven her.Personer som nevnt i første ledd har i tillegg taushetsplikt om alle opplysninger som er innrapportert etter § 10, og om opplysninger som er fremkommet under forklaring for undersøkelsesmyndigheten etter § 23 f og § 23 k. Dette gjelder ikke dersom tungtveiende offentlige hensyn tilsier at opplysningene bør kunne gis videre, eller opplysningene er nødvendige for å forklare årsaken til en ulykke eller hendelse.Taushetsplikt som nevnt i annet ledd er ikke til hinder for at opplysningene bringes videre i den grad den som har krav på taushet samtykker, forutsatt at opplysningene har statistisk form eller de er alminnelig tilgjengelig andre steder.
+> § 11 a. Taushetsplikt for virksomhetens personell
 >
-> § 11 a.Taushetsplikt for virksomhetens personell
+> Enhver som utfører tjeneste eller arbeid for den som driver virksomhet etter loven her, har taushetsplikt som nevnt i forvaltningsloven §§ 13 flg. om det de får kjennskap til i forbindelse med undersøkelser og rapportering av ulykker og hendelser etter loven her.
+>
+> Personer som nevnt i første ledd har i tillegg taushetsplikt om alle opplysninger som er innrapportert etter § 10, og om opplysninger som er fremkommet under forklaring for undersøkelsesmyndigheten etter § 23 f og § 23 k. Dette gjelder ikke dersom tungtveiende offentlige hensyn tilsier at opplysningene bør kunne gis videre, eller opplysningene er nødvendige for å forklare årsaken til en ulykke eller hendelse.
+>
+> Taushetsplikt som nevnt i annet ledd er ikke til hinder for at opplysningene bringes videre i den grad den som har krav på taushet samtykker, forutsatt at opplysningene har statistisk form eller de er alminnelig tilgjengelig andre steder.
 >
 
 ### 2023-06-20 — lov/2023-06-20-82
@@ -22,78 +26,108 @@ refid: "lov/2017-05-22-30"
 
 > Kapittel 5 A Om undersøkelsesmyndigheten
 >
-> § 23 a.Undersøkelsesmyndighetens oppgaver og uavhengighetDepartementet fastsetter hvilket organ som skal være undersøkelsesmyndighet etter denne loven.Undersøkelsesmyndigheten skal klarlegge hendelsesforløp og årsaksfaktorer, utrede forhold av betydning for å forebygge ulykker og avgi undersøkelsesrapport som nevnt i § 23 m.Undersøkelsesmyndigheten skal ikke ta stilling til sivilrettslig eller strafferettslig skyld og ansvar. Undersøkelsen skal foregå uavhengig av annen etterforskning eller undersøkelse som helt eller delvis har slikt formål.Undersøkelsesmyndigheten skal hvert år offentliggjøre en rapport om de undersøkelser som er gjennomført året før, inkludert sikkerhetstilrådinger og tiltak som er truffet i samsvar med disse.
+> § 23 a. Undersøkelsesmyndighetens oppgaver og uavhengighet
 >
-> § 23 a.Undersøkelsesmyndighetens oppgaver og uavhengighet
+> Departementet fastsetter hvilket organ som skal være undersøkelsesmyndighet etter denne loven.
 >
-> § 23 b.Tilsynsmyndighetens oppgaverTilsynsmyndigheten skal vurdere rapportene som undersøkelsesmyndigheten avgir, for å kunne identifisere og iverksette tiltak som kan bedre sikkerheten for fornøyelsesinnretninger.Tilsynsmyndigheten kan gi pålegg om oppfølging av sikkerhetstilrådinger til den som driver virksomhet etter loven her.
+> Undersøkelsesmyndigheten skal klarlegge hendelsesforløp og årsaksfaktorer, utrede forhold av betydning for å forebygge ulykker og avgi undersøkelsesrapport som nevnt i § 23 m.
 >
-> § 23 b.Tilsynsmyndighetens oppgaver
+> Undersøkelsesmyndigheten skal ikke ta stilling til sivilrettslig eller strafferettslig skyld og ansvar. Undersøkelsen skal foregå uavhengig av annen etterforskning eller undersøkelse som helt eller delvis har slikt formål.
 >
-> § 23 c.Undersøkelse av ulykker og alvorlige hendelserUndersøkelsesmyndigheten undersøker ulykker og alvorlige hendelser.
+> Undersøkelsesmyndigheten skal hvert år offentliggjøre en rapport om de undersøkelser som er gjennomført året før, inkludert sikkerhetstilrådinger og tiltak som er truffet i samsvar med disse.
 >
-> § 23 c.Undersøkelse av ulykker og alvorlige hendelser
+> § 23 b. Tilsynsmyndighetens oppgaver
 >
-> § 23 d.Iverksetting av undersøkelse og undersøkelsens omfangNår undersøkelsesmyndigheten har mottatt varsel om en ulykke eller alvorlig hendelse etter § 9, skal den straks avgjøre om det er behov for å iverksette umiddelbar undersøkelse. Når undersøkelsesmyndigheten mottar rapport etter § 10, skal den uten ugrunnet opphold avgjøre om og når det skal iverksettes undersøkelse.Undersøkelsesmyndigheten avgjør selv omfanget av undersøkelsen og hvordan den skal gjennomføres. Ved avgjørelsen skal undersøkelsesmyndigheten blant annet ta hensyn til hvilken lærdom undersøkelsen forventes å gi med sikte på å forbedre sikkerheten, ulykkens eller hendelsens alvorlighetsgrad, dens innvirkning på sikkerheten generelt og om den inngår i en serie av ulykker eller hendelser.Undersøkelsesmyndigheten kan uten hensyn til tidligere avgjørelser beslutte å undersøke forhold ved én eller flere ulykker eller hendelser.
+> Tilsynsmyndigheten skal vurdere rapportene som undersøkelsesmyndigheten avgir, for å kunne identifisere og iverksette tiltak som kan bedre sikkerheten for fornøyelsesinnretninger.
 >
-> § 23 d.Iverksetting av undersøkelse og undersøkelsens omfang
+> Tilsynsmyndigheten kan gi pålegg om oppfølging av sikkerhetstilrådinger til den som driver virksomhet etter loven her.
 >
-> § 23 e.Forbud mot å fjerne gjenstander mv. samt behov for å gjenopprette driftIngen må fjerne eller røre gjenstander eller spor fra ulykken uten samtykke fra undersøkelsesmyndigheten og politiet, med mindre det er nødvendig for å redde eller avverge fare for liv eller eiendom eller for å hindre at noe som kan ha betydning for undersøkelsen, ødelegges eller forsvinner.Undersøkelsesmyndigheten skal avslutte sine undersøkelser på ulykkesstedet så snart som mulig slik at virksomheten kan bli i stand til å gjenopprette driften.
+> § 23 c. Undersøkelse av ulykker og alvorlige hendelser
 >
-> § 23 e.Forbud mot å fjerne gjenstander mv. samt behov for å gjenopprette drift
+> Undersøkelsesmyndigheten undersøker ulykker og alvorlige hendelser.
 >
-> § 23 f.Forklaringsplikt til undersøkelsesmyndigheten mv.Enhver plikter på forlangende, og uten hensyn til taushetsplikt, å gi undersøkelsesmyndigheten de opplysninger han eller hun sitter inne med om forhold som kan være av betydning for undersøkelsen. Enhver som forklarer seg, har rett til å la seg bistå av advokat eller annen person under forklaringen.
+> § 23 d. Iverksetting av undersøkelse og undersøkelsens omfang
 >
-> § 23 f.Forklaringsplikt til undersøkelsesmyndigheten mv.
+> Når undersøkelsesmyndigheten har mottatt varsel om en ulykke eller alvorlig hendelse etter § 9, skal den straks avgjøre om det er behov for å iverksette umiddelbar undersøkelse. Når undersøkelsesmyndigheten mottar rapport etter § 10, skal den uten ugrunnet opphold avgjøre om og når det skal iverksettes undersøkelse.
 >
-> § 23 g.Tiltak for å fremskaffe opplysningerUndersøkelsesmyndigheten har rett til å benytte privat grunn og kan kreve å få undersøke og ta i besittelse relevante gjenstander, dokumenter og andre ting i den utstrekning den trenger det for å kunne utøve sitt verv. Herunder skal undersøkelsesmyndigheten ha rett tilå kreve en fullstendig obduksjon av de omkomne og til å få umiddelbar adgang til resultatene av slike undersøkelser eller tester av prøver som er tatt, ogå kreve legeundersøkelse av alle personer involvert i ulykken eller hendelsen, eller be om at det utføres tester på prøver som er tatt av slike personer, og ha umiddelbar tilgang til resultatet av slike undersøkelser eller tester.Om nødvendig kan undersøkelsesmyndigheten kreve bistand fra politiet.
+> Undersøkelsesmyndigheten avgjør selv omfanget av undersøkelsen og hvordan den skal gjennomføres. Ved avgjørelsen skal undersøkelsesmyndigheten blant annet ta hensyn til hvilken lærdom undersøkelsen forventes å gi med sikte på å forbedre sikkerheten, ulykkens eller hendelsens alvorlighetsgrad, dens innvirkning på sikkerheten generelt og om den inngår i en serie av ulykker eller hendelser.
 >
-> § 23 g.Tiltak for å fremskaffe opplysninger
+> Undersøkelsesmyndigheten kan uten hensyn til tidligere avgjørelser beslutte å undersøke forhold ved én eller flere ulykker eller hendelser.
 >
-> § 23 h.BevissikringUndersøkelsesmyndigheten kan kreve bevissikring utenfor rettssak etter reglene i tvisteloven § 28-3 tredje ledd og § 28-4. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.
+> § 23 e. Forbud mot å fjerne gjenstander mv. samt behov for å gjenopprette drift
 >
-> § 23 h.Bevissikring
+> Ingen må fjerne eller røre gjenstander eller spor fra ulykken uten samtykke fra undersøkelsesmyndigheten og politiet, med mindre det er nødvendig for å redde eller avverge fare for liv eller eiendom eller for å hindre at noe som kan ha betydning for undersøkelsen, ødelegges eller forsvinner.
 >
-> § 23 i.Rettigheter for dem saken angårNår undersøkelsesmyndigheten iverksetter undersøkelse, skal den så vidt mulig underrette den som driver den aktuelle virksomheten, ofrene og deres familie, eiere av skadede ting, produsenter, berørte beredskapstjenester, representanter for personalet og for brukerne, samt andre som saken angår, om dette. Slik underretning skal gis så snart som mulig, og skal opplyse om rettighetene etter annet ledd i paragrafen her og etter § 23 n første ledd.Innen undersøkelsene avsluttes, skal de som er nevnt i første ledd, gis adgang til å gi opplysninger og fremme sine synspunkter om ulykken eller hendelsen og dens årsaksfaktorer. De skal også underrettes jevnlig om fremdriften av undersøkelsen og gis adgang til å fremme sine synspunkter på undersøkelsen i den grad det er praktisk mulig. Videre bør de også gis adgang til å være til stede under undersøkelsen og ha rett til å gjøre seg kjent med dokumentene, i den utstrekning undersøkelsesmyndigheten finner at dette kan skje uten hinder for undersøkelsen. Tredje punktum gjelder med de begrensninger som følger av taushetsplikten etter § 23 k.
+> Undersøkelsesmyndigheten skal avslutte sine undersøkelser på ulykkesstedet så snart som mulig slik at virksomheten kan bli i stand til å gjenopprette driften.
 >
-> § 23 i.Rettigheter for dem saken angår
+> § 23 f. Forklaringsplikt til undersøkelsesmyndigheten mv.
 >
-> § 23 j.Bruk av data fra overvåkings- og registreringssystemerUndersøkelsesmyndigheten skal ha tilgang til alle data fra overvåkings- og registreringssystemer virksomheten har i forbindelse med driften, men har ikke anledning til å utlevere slikt materiale til andre. Opplysninger fra overvåkings- og registreringssystemer kan likevel utleveres til bruk som bevis i en straffesak eller sivil sak for domstolene etter rettens kjennelse. Retten kan bare godkjenne utlevering etter annet punktum dersom behovet for utlevering i den konkrete saken veier tyngre enn faren for at man ved slik utlevering vanskeliggjør undersøkelsesmyndighetens arbeid med den aktuelle saken eller fremtidige nasjonale eller internasjonale undersøkelser.
+> Enhver plikter på forlangende, og uten hensyn til taushetsplikt, å gi undersøkelsesmyndigheten de opplysninger han eller hun sitter inne med om forhold som kan være av betydning for undersøkelsen. Enhver som forklarer seg, har rett til å la seg bistå av advokat eller annen person under forklaringen.
 >
-> § 23 j.Bruk av data fra overvåkings- og registreringssystemer
+> § 23 g. Tiltak for å fremskaffe opplysninger
 >
-> § 23 k.Undersøkelsesmyndighetens taushetspliktEnhver som utfører tjeneste eller arbeid for undersøkelsesmyndigheten har taushetsplikt etter forvaltningsloven.Personer som nevnt i første ledd har også taushetsplikt for alle opplysninger undersøkelsesmyndigheten mottar, får utarbeidet eller selv utarbeider som ledd i undersøkelse av en ulykke eller alvorlig hendelse.Taushetsplikten etter første og annet ledd er likevel ikke til hinder forat opplysninger gjengis i en undersøkelsesrapport som nevnt i § 23 m dersom det er nødvendig for å gi en tilstrekkelig redegjørelse for årsakene til en ulykke eller en alvorlig hendelse med det formålet og innenfor de rammene som følger av § 23 a annet og tredje ledd. Rapporten skal ikke gjengiopplysninger som avslører identiteten til personer som har avgitt forklaring etter § 23 f,opplysninger av særlig følsom eller privat art, herunder detaljerte opplysninger om en persons helse,opplysninger som innebærer å ta stilling til noens strafferettslige eller sivilrettslige skyld eller ansvar, elleropplysninger som innebærer å ta stilling til om en person tilfredsstiller regelbestemte krav til å inneha en tillatelse som er relevant for undersøkelsen.Unntakene i bokstav b til d gjelder selv om personen er anonymisert.at opplysninger gis til tilsynsmyndigheten fordi det ellers vil være en vesentlig og nærliggende risiko for tap av liv eller skade på person som følge av at personell med oppgaver som kan påvirke sikkerheten for fornøyelsesinnretningen, har opptrådt på en måte som tilsier at vedkommende er klart uskikket til å inneha oppgavenat opplysninger gjøres kjent for dem som de direkte gjelder, eller for andre i den utstrekning undersøkelsesmyndigheten selv og andre som har krav på taushet samtykkerat opplysningene deles med andre som arbeider for undersøkelsesmyndigheten med den aktuelle undersøkelsenat opplysningene bringes videre i statistisk format opplysningene bringes videre når ingen berettiget interesse tilsier at de holdes hemmelig, for eksempel når de er alminnelig kjent eller alminnelig tilgjengelig andre stederat opplysninger gis videre til utenlandsk og internasjonal myndighet og organisasjon når dette følger av internasjonale avtaler Norge har inngått.Taushetsplikten etter første og annet ledd er heller ikke til hinder for at det offentliggjøres opplysninger i dokumenter som undersøkelsesmyndigheten ikke selv har utarbeidet eller fått utarbeidet. Dette gjelder likevel ikke opplysninger som nevnt i tredje ledd nr. 1 bokstav a til d, opplysninger som er taushetspliktige etter forvaltningsloven § 13, og opplysninger som i utgangspunktet er omfattet av en strengere taushetspliktbestemmelse i særlov enn den som følger av tredje ledd nr. 1 bokstav a til d, eller forvaltningsloven § 13. Opplysningene kan heller ikke offentliggjøres etter første punktum dersom undersøkelsesmyndigheten mener at offentliggjøring kan bli brukt av andre til å vurdere sivilrettslig eller strafferettslig skyld eller ansvar eller dersom undersøkelsesmyndigheten har fått tilgang til dokumentet i tilknytning til forklaring som nevnt i § 23 f, og undersøkelsesmyndigheten anser opplysninger i dokumentet som en del av forklaringen.
+> Undersøkelsesmyndigheten har rett til å benytte privat grunn og kan kreve å få undersøke og ta i besittelse relevante gjenstander, dokumenter og andre ting i den utstrekning den trenger det for å kunne utøve sitt verv. Herunder skal undersøkelsesmyndigheten ha rett tilå kreve en fullstendig obduksjon av de omkomne og til å få umiddelbar adgang til resultatene av slike undersøkelser eller tester av prøver som er tatt, ogå kreve legeundersøkelse av alle personer involvert i ulykken eller hendelsen, eller be om at det utføres tester på prøver som er tatt av slike personer, og ha umiddelbar tilgang til resultatet av slike undersøkelser eller tester.
 >
-> § 23 k.Undersøkelsesmyndighetens taushetsplikt
+> Om nødvendig kan undersøkelsesmyndigheten kreve bistand fra politiet.
 >
-> § 23 l.Informasjon til tilsynsmyndighetenUndersøkelsesmyndigheten skal fortløpende holde tilsynsmyndigheten underrettet om forhold som avdekkes i løpet av undersøkelsen, og sine egne foreløpige vurderinger av disse, i den grad dette anses nødvendig for sikkerheten for fornøyelsesinnretningen.
+> § 23 h. Bevissikring
 >
-> § 23 l.Informasjon til tilsynsmyndigheten
+> Undersøkelsesmyndigheten kan kreve bevissikring utenfor rettssak etter reglene i tvisteloven § 28-3 tredje ledd og § 28-4. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.
 >
-> § 23 m.UndersøkelsesrapportNår undersøkelsesmyndigheten har undersøkt en ulykke eller alvorlige hendelser, skal den utarbeide en rapport som redegjør for hendelsesforløpet og inneholder undersøkelsesmyndighetens uttalelse om årsaksforholdene. Rapporten skal opplyse om formålet med undersøkelsen, jf. § 23 a. Rapporten skal også så langt det er formålstjenlig, inneholde undersøkelsesmyndighetens eventuelle tilrådinger om tiltak som bør treffes eller vurderes for å hindre lignende ulykker eller alvorlige hendelser i fremtiden.Rapporten skal ikke inneholde referanser til enkeltpersoners navn eller adresse. Undersøkelsesmyndighetens avgjørelse etter denne paragrafen kan ikke påklages.
+> § 23 i. Rettigheter for dem saken angår
 >
-> § 23 m.Undersøkelsesrapport
+> Når undersøkelsesmyndigheten iverksetter undersøkelse, skal den så vidt mulig underrette den som driver den aktuelle virksomheten, ofrene og deres familie, eiere av skadede ting, produsenter, berørte beredskapstjenester, representanter for personalet og for brukerne, samt andre som saken angår, om dette. Slik underretning skal gis så snart som mulig, og skal opplyse om rettighetene etter annet ledd i paragrafen her og etter § 23 n første ledd.
 >
-> § 23 n.Behandling av utkast til undersøkelsesrapportFør undersøkelsesmyndigheten sluttbehandler rapporten, skal et utkast til rapport etter anmodning forelegges for personer som nevnt i § 23 i første ledd, med en rimelig frist for vedkommende til å gi uttalelse, med mindre særlige forhold tilsier at dette ikke gjøres. Tilsynsmyndigheten skal forelegges utkastet til rapport, med rimelig frist til å uttale seg. Plikten til foreleggelse etter første punktum gjelder bare de delene av utkastet til rapport som vedkommende på grunn av sin tilknytning til saken eller undersøkelsen har særlige forutsetninger for å uttale seg om.Undersøkelsesmyndighetens avgjørelse etter denne paragrafen kan ikke påklages.
+> Innen undersøkelsene avsluttes, skal de som er nevnt i første ledd, gis adgang til å gi opplysninger og fremme sine synspunkter om ulykken eller hendelsen og dens årsaksfaktorer. De skal også underrettes jevnlig om fremdriften av undersøkelsen og gis adgang til å fremme sine synspunkter på undersøkelsen i den grad det er praktisk mulig. Videre bør de også gis adgang til å være til stede under undersøkelsen og ha rett til å gjøre seg kjent med dokumentene, i den utstrekning undersøkelsesmyndigheten finner at dette kan skje uten hinder for undersøkelsen. Tredje punktum gjelder med de begrensninger som følger av taushetsplikten etter § 23 k.
 >
-> § 23 n.Behandling av utkast til undersøkelsesrapport
+> § 23 j. Bruk av data fra overvåkings- og registreringssystemer
 >
-> § 23 o.Unntatt dokumentoffentlighet for utkast til undersøkelsesrapportUndersøkelsesmyndighetens utkast til rapport er ikke offentlig etter offentleglova.
+> Undersøkelsesmyndigheten skal ha tilgang til alle data fra overvåkings- og registreringssystemer virksomheten har i forbindelse med driften, men har ikke anledning til å utlevere slikt materiale til andre. Opplysninger fra overvåkings- og registreringssystemer kan likevel utleveres til bruk som bevis i en straffesak eller sivil sak for domstolene etter rettens kjennelse. Retten kan bare godkjenne utlevering etter annet punktum dersom behovet for utlevering i den konkrete saken veier tyngre enn faren for at man ved slik utlevering vanskeliggjør undersøkelsesmyndighetens arbeid med den aktuelle saken eller fremtidige nasjonale eller internasjonale undersøkelser.
 >
-> § 23 o.Unntatt dokumentoffentlighet for utkast til undersøkelsesrapport
+> § 23 k. Undersøkelsesmyndighetens taushetsplikt
 >
-> § 23 p.Forbud mot bruk som bevis i straffesakOpplysninger undersøkelsesmyndigheten mottar etter §§ 10 og 23 f kan ikke brukes som bevis i en senere straffesak mot den som har gitt opplysningene. Det samme gjelder alle opplysninger som er mottatt med hjemmel i lov om elektronisk kommunikasjon § 2-9.
+> Enhver som utfører tjeneste eller arbeid for undersøkelsesmyndigheten har taushetsplikt etter forvaltningsloven.
 >
-> § 23 p.Forbud mot bruk som bevis i straffesak
+> Personer som nevnt i første ledd har også taushetsplikt for alle opplysninger undersøkelsesmyndigheten mottar, får utarbeidet eller selv utarbeider som ledd i undersøkelse av en ulykke eller alvorlig hendelse.
+>
+> Taushetsplikten etter første og annet ledd er likevel ikke til hinder forat opplysninger gjengis i en undersøkelsesrapport som nevnt i § 23 m dersom det er nødvendig for å gi en tilstrekkelig redegjørelse for årsakene til en ulykke eller en alvorlig hendelse med det formålet og innenfor de rammene som følger av § 23 a annet og tredje ledd. Rapporten skal ikke gjengiopplysninger som avslører identiteten til personer som har avgitt forklaring etter § 23 f,opplysninger av særlig følsom eller privat art, herunder detaljerte opplysninger om en persons helse,opplysninger som innebærer å ta stilling til noens strafferettslige eller sivilrettslige skyld eller ansvar, elleropplysninger som innebærer å ta stilling til om en person tilfredsstiller regelbestemte krav til å inneha en tillatelse som er relevant for undersøkelsen.Unntakene i bokstav b til d gjelder selv om personen er anonymisert.at opplysninger gis til tilsynsmyndigheten fordi det ellers vil være en vesentlig og nærliggende risiko for tap av liv eller skade på person som følge av at personell med oppgaver som kan påvirke sikkerheten for fornøyelsesinnretningen, har opptrådt på en måte som tilsier at vedkommende er klart uskikket til å inneha oppgavenat opplysninger gjøres kjent for dem som de direkte gjelder, eller for andre i den utstrekning undersøkelsesmyndigheten selv og andre som har krav på taushet samtykkerat opplysningene deles med andre som arbeider for undersøkelsesmyndigheten med den aktuelle undersøkelsenat opplysningene bringes videre i statistisk format opplysningene bringes videre når ingen berettiget interesse tilsier at de holdes hemmelig, for eksempel når de er alminnelig kjent eller alminnelig tilgjengelig andre stederat opplysninger gis videre til utenlandsk og internasjonal myndighet og organisasjon når dette følger av internasjonale avtaler Norge har inngått.
+>
+> Taushetsplikten etter første og annet ledd er heller ikke til hinder for at det offentliggjøres opplysninger i dokumenter som undersøkelsesmyndigheten ikke selv har utarbeidet eller fått utarbeidet. Dette gjelder likevel ikke opplysninger som nevnt i tredje ledd nr. 1 bokstav a til d, opplysninger som er taushetspliktige etter forvaltningsloven § 13, og opplysninger som i utgangspunktet er omfattet av en strengere taushetspliktbestemmelse i særlov enn den som følger av tredje ledd nr. 1 bokstav a til d, eller forvaltningsloven § 13. Opplysningene kan heller ikke offentliggjøres etter første punktum dersom undersøkelsesmyndigheten mener at offentliggjøring kan bli brukt av andre til å vurdere sivilrettslig eller strafferettslig skyld eller ansvar eller dersom undersøkelsesmyndigheten har fått tilgang til dokumentet i tilknytning til forklaring som nevnt i § 23 f, og undersøkelsesmyndigheten anser opplysninger i dokumentet som en del av forklaringen.
+>
+> § 23 l. Informasjon til tilsynsmyndigheten
+>
+> Undersøkelsesmyndigheten skal fortløpende holde tilsynsmyndigheten underrettet om forhold som avdekkes i løpet av undersøkelsen, og sine egne foreløpige vurderinger av disse, i den grad dette anses nødvendig for sikkerheten for fornøyelsesinnretningen.
+>
+> § 23 m. Undersøkelsesrapport
+>
+> Når undersøkelsesmyndigheten har undersøkt en ulykke eller alvorlige hendelser, skal den utarbeide en rapport som redegjør for hendelsesforløpet og inneholder undersøkelsesmyndighetens uttalelse om årsaksforholdene. Rapporten skal opplyse om formålet med undersøkelsen, jf. § 23 a. Rapporten skal også så langt det er formålstjenlig, inneholde undersøkelsesmyndighetens eventuelle tilrådinger om tiltak som bør treffes eller vurderes for å hindre lignende ulykker eller alvorlige hendelser i fremtiden.
+>
+> Rapporten skal ikke inneholde referanser til enkeltpersoners navn eller adresse. Undersøkelsesmyndighetens avgjørelse etter denne paragrafen kan ikke påklages.
+>
+> § 23 n. Behandling av utkast til undersøkelsesrapport
+>
+> Før undersøkelsesmyndigheten sluttbehandler rapporten, skal et utkast til rapport etter anmodning forelegges for personer som nevnt i § 23 i første ledd, med en rimelig frist for vedkommende til å gi uttalelse, med mindre særlige forhold tilsier at dette ikke gjøres. Tilsynsmyndigheten skal forelegges utkastet til rapport, med rimelig frist til å uttale seg. Plikten til foreleggelse etter første punktum gjelder bare de delene av utkastet til rapport som vedkommende på grunn av sin tilknytning til saken eller undersøkelsen har særlige forutsetninger for å uttale seg om.
+>
+> Undersøkelsesmyndighetens avgjørelse etter denne paragrafen kan ikke påklages.
+>
+> § 23 o. Unntatt dokumentoffentlighet for utkast til undersøkelsesrapport
+>
+> Undersøkelsesmyndighetens utkast til rapport er ikke offentlig etter offentleglova.
+>
+> § 23 p. Forbud mot bruk som bevis i straffesak
+>
+> Opplysninger undersøkelsesmyndigheten mottar etter §§ 10 og 23 f kan ikke brukes som bevis i en senere straffesak mot den som har gitt opplysningene. Det samme gjelder alle opplysninger som er mottatt med hjemmel i lov om elektronisk kommunikasjon § 2-9.
 >
 
 ### 2023-06-20 — lov/2023-06-20-82
 
 *I kapittel 6 skal ny § 25 lyde:*
 
-> § 25.Forbud mot sanksjoner fra arbeidsgiverEn arbeidstaker som avgir rapport etter § 10 eller forklaring etter § 23 f, skal ikke som følge av dette utsettes for noen form for sanksjoner fra arbeidsgiverens side. Første punktum gjelder ikke tiltak som arbeidsgiveren iverksetter med hovedformål å forbedre arbeidstakerens kvalifikasjoner.Første ledd gjelder ikke dersom de mottatte opplysningene viser at arbeidstakeren ikke oppfyller helsemessige krav til å inneha sin stilling, eller at arbeidstakeren selv har opptrådt grovt uaktsomt i forbindelse med den rapporterte ulykken eller hendelsen. Første ledd gjelder heller ikke omstendigheter knyttet til arbeidstakeren eller dennes handlinger og unnlatelser som er blitt kjent på annen måte enn gjennom arbeidstakerens rapportering eller forklaring som nevnt i første ledd.
+> § 25. Forbud mot sanksjoner fra arbeidsgiver
 >
-> § 25.Forbud mot sanksjoner fra arbeidsgiver
+> En arbeidstaker som avgir rapport etter § 10 eller forklaring etter § 23 f, skal ikke som følge av dette utsettes for noen form for sanksjoner fra arbeidsgiverens side. Første punktum gjelder ikke tiltak som arbeidsgiveren iverksetter med hovedformål å forbedre arbeidstakerens kvalifikasjoner.
+>
+> Første ledd gjelder ikke dersom de mottatte opplysningene viser at arbeidstakeren ikke oppfyller helsemessige krav til å inneha sin stilling, eller at arbeidstakeren selv har opptrådt grovt uaktsomt i forbindelse med den rapporterte ulykken eller hendelsen. Første ledd gjelder heller ikke omstendigheter knyttet til arbeidstakeren eller dennes handlinger og unnlatelser som er blitt kjent på annen måte enn gjennom arbeidstakerens rapportering eller forklaring som nevnt i første ledd.
 >
 
 ### 2023-06-20 — lov/2023-06-20-82
@@ -115,9 +149,15 @@ refid: "lov/2017-05-22-30"
 
 *§ 10 skal lyde:*
 
-> § 10.RapporteringspliktVirksomheten skal rapportere opplysninger om ulykker, alvorlige hendelser og hendelser til tilsynsmyndigheten og undersøkelsesmyndigheten.Ulykker og alvorlige hendelser skal rapporteres skriftlig til tilsynsmyndigheten og undersøkelsesmyndigheten så snart som mulig og senest innen 72 timer. Rapportering skal skje på skjema fastsatt av tilsynsmyndigheten og undersøkelsesmyndigheten i fellesskap.Hendelser skal rapporteres til tilsynsmyndigheten innen åtte dager. Rapportering skal skje på skjema fastsatt av tilsynsmyndigheten.Rapportering kan skje elektronisk.
+> § 10. Rapporteringsplikt
 >
-> § 10.Rapporteringsplikt
+> Virksomheten skal rapportere opplysninger om ulykker, alvorlige hendelser og hendelser til tilsynsmyndigheten og undersøkelsesmyndigheten.
+>
+> Ulykker og alvorlige hendelser skal rapporteres skriftlig til tilsynsmyndigheten og undersøkelsesmyndigheten så snart som mulig og senest innen 72 timer. Rapportering skal skje på skjema fastsatt av tilsynsmyndigheten og undersøkelsesmyndigheten i fellesskap.
+>
+> Hendelser skal rapporteres til tilsynsmyndigheten innen åtte dager. Rapportering skal skje på skjema fastsatt av tilsynsmyndigheten.
+>
+> Rapportering kan skje elektronisk.
 >
 
 ## § 11
@@ -146,7 +186,9 @@ refid: "lov/2017-05-22-30"
 
 *§ 9 skal lyde:*
 
-> § 9.VarslingspliktVirksomheten skal straks varsle politiet og undersøkelsesmyndigheten om ulykke eller alvorlig hendelse.Undersøkelsesmyndigheten skal varsle tilsynsmyndigheten om ulykke eller alvorlig hendelse.
+> § 9. Varslingsplikt
 >
-> § 9.Varslingsplikt
+> Virksomheten skal straks varsle politiet og undersøkelsesmyndigheten om ulykke eller alvorlig hendelse.
+>
+> Undersøkelsesmyndigheten skal varsle tilsynsmyndigheten om ulykke eller alvorlig hendelse.
 >

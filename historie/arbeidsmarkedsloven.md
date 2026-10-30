@@ -7,6 +7,13 @@ refid: "lov/2004-12-10-76"
 
 ## (annet)
 
+### 2006-12-22 — lov/2006-12-22-94
+
+*I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 19 første ledd lyde:*
+
+> Arbeids- og velferdsetaten kan pålegge arbeidssøkere, arbeidstakere, offentlige myndigheter, utdanningsinstitusjoner, Statens lånekasse for utdanning, Posten Norge AS, forsikringsselskaper, banker, private pensjonsordninger og tiltaks- og formidlingsaktører å gi opplysninger som er nødvendige for at Arbeids- og velferdsetaten skal kunne utføre sine oppgaver etter denne loven.
+>
+
 ### 2010-12-17 — lov/2010-12-17-80
 
 *Overskriften til § 29 skal lyde:*
@@ -21,9 +28,56 @@ refid: "lov/2004-12-10-76"
 > Arbeidsmarkedstiltak mv.
 >
 
+### 2012-03-23 — lov/2012-03-23-13
+
+*Endring i følgende lov:*
+
+> Endring i følgende lov:
+>
+> Lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester (arbeidsmarkedsloven).
+>
+> I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal ny § 21 lyde:
+>
+> § 21.
+>
+> Politiattest
+>
+> Departementet gir i forskrift nærmere bestemmelser om krav om politiattest i samsvar med reglene i politiregisterloven § 39 første ledd for person som skal ansettes i bedrift som arrangerer arbeidsmarkedstiltak rettet mot utviklingshemmede, og om hvilke tiltak dette skal gjelde.
+>
+> Loven gjelder fra det tidspunkt Kongen bestemmer.
+>
+
+### 2012-05-01 — forskrift/2012-03-23-247
+
+*Loven trer i kraft 1. mai 2012.*
+
+> Loven trer i kraft 1. mai 2012.
+>
+
+### 2013-06-14 — lov/2013-06-14-33
+
+*I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 13 nytt annet ledd lyde:*
+
+> Departementet kan fastsette nærmere vilkår for og størrelsen på tilskudd til arbeidsgivere, og vilkår for og størrelsen på ytelser som gis til arbeidstakere og personer under utdanning.
+>
+
 ### 2013-06-14 — lov/2013-06-14-33
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2019-01-01 — lov/2018-12-20-98
+
+*I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 8 første ledd tredje punktum lyde:*
+
+> Melding skal også gis ved masseoppsigelser eller permitteringer av arbeidstakere som omfattes av statsansatteloven.
+>
+
+### 2019-12-20 — lov/2019-12-20-84
+
+*I lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester skal § 13 andre ledd lyde:*
+
+> Det kan gis stønad til reiseutgifter til deltakere i arbeidsmarkedstiltak som mottar tiltakspenger etter første ledd, dagpenger under arbeidsløshet etter folketrygdloven kapittel 4 eller kvalifiseringsstønad etter sosialtjenesteloven kapittel 4. Reisestønad kan også gis til tiltaksdeltakere som ikke får utbetalt tiltakspenger fordi de er innsatt i fengsel. Departementet kan gi forskrifter om vilkårene for og størrelsen på reisestønaden.
+>
 
 ### 2024-06-14 — lov/2024-06-14-31
 

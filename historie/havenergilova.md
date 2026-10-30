@@ -90,6 +90,13 @@ refid: "lov/2010-06-04-21"
 
 ## (annet)
 
+### 2014-06-20 — lov/2014-06-20-56
+
+*I lov 4. juni 2010 nr. 21 om fornybar energiproduksjon til havs skal § 10-9 fjerde ledd lyde:*
+
+> Ved avgjerd av om gebyr for brot på føresegn skal påleggjast og ved utmåling av sanksjonen skal det særleg leggjast vekt på:kor alvorleg brotet er,om den som bryt føresegna, ved retningslinjer, instruksjon, opplæring, kontroll eller andre tiltak kunne ha førebygd brotet,om brotet er gjort for å fremje den som bryt føresegna sine interesser,om den som bryt føresegna, har hatt eller kunne ha oppnådd ein fordel ved brotet,om det er tale om gjentaking,den økonomiske stillinga for den som bryt føresegna.
+>
+
 ### 2020-12-18 — lov/2020-12-18-157
 
 *Gjeldende § 10-10 blir ny § 10-13.*
@@ -109,6 +116,13 @@ refid: "lov/2010-06-04-21"
 > Den som får tildelt eit område får ein tidsavgrensa einerett til å gjennomføre ei prosjektspesifikk konsekvensutgreiing og å søke om konsesjon etter § 3-1 for produksjonsanlegg innanfor området.
 >
 > Departementet kan gi forskrift om vilkår for tildeling av område etter denne paragrafen.
+>
+
+### 2023-01-01 — forskrift/2022-12-16-2246
+
+*Loven trer i kraft 1. januar 2023.*
+
+> Loven trer i kraft 1. januar 2023.
 >
 
 ### 2025-07-01 — lov/2025-06-20-109

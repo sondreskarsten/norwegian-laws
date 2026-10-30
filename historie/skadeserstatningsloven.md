@@ -82,14 +82,15 @@ refid: "lov/1969-06-13-26"
 
 *§ 3-2 a syvende ledd skal lyde:*
 
-> 5 G ved varig tap av evnen til å utføre en vesentlig del av tyngre hjemmearbeid, eller
->
-> 10 G ved varig tap av evnen til å utføre en vesentlig del av også lettere hjemmearbeid.
+> 7. I tillegg til erstatning etter annet og tredje ledd eller etter sjette ledd erstattes tap i verdien av arbeid i heimen med5 G ved varig tap av evnen til å utføre en vesentlig del av tyngre hjemmearbeid, eller10 G ved varig tap av evnen til å utføre en vesentlig del av også lettere hjemmearbeid.I den grad det er sannsynliggjort at erstatningen skal plasseres som bankinnskudd etter vergemålsloven § 51 første ledd, erstattes tap som nevnt i første punktum bokstav a med 6,5 G og tap som nevnt i første punktum bokstav b med 13 G.
 >
 
 ### 2026-06-19 — lov/2026-06-19-47
 
 *§ 3-2 a nytt trettende ledd skal lyde:*
+
+> 13. I forskrift gitt av Kongen etter paragrafen her kan det fastsettes særlige utmålingsregler for tilfeller der det er sannsynlig at erstatningen skal plasseres som bankinnskudd etter vergemålsloven § 51 første ledd.
+>
 
 ## § 3-3
 
@@ -218,6 +219,31 @@ refid: "lov/1969-06-13-26"
 ### 2017-06-21 — lov/2017-06-21-91
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2021-06-01 — forskrift/2021-04-30-1335
+
+*Loven trer i kraft 1. juni 2021.*
+
+> Loven trer i kraft 1. juni 2021.
+>
+
+### 2021-06-11 — lov/2021-06-11-74
+
+*I lov 13. juni 1969 nr. 26 om skadeserstatning skal § 3-3 lyde:*
+
+> § 3-3.(erstatning for visse personlige krenkelser m.m.)
+>
+> Bestemmelsene i §§ 3-1, 3-2 og 3-2 a gjelder tilsvarende ved erstatning for krenking eller mislig atferd som nevnt i straffeloven §§ 222, 251, 254, 257, 259, 262, 263, 266, 267 a, 268 første ledd, 271, 282, 291, 294, 295, 296, 302, 304, 312, 313, 314, 327 eller 330.
+>
+
+### 2022-04-08 — lov/2022-04-08-22
+
+*I lov 13. juni 1969 nr. 26 om skadeserstatning skal § 3-3 lyde:*
+
+> § 3-3.(erstatning for visse personlige krenkelser m.m.)
+>
+> Bestemmelsene i §§ 3-1, 3-2 og 3-2 a gjelder tilsvarende ved erstatning for krenking eller mislig atferd som nevnt i straffeloven §§ 222, 251, 253, 254, 257, 259, 262, 263, 266, 267 a, 268 første ledd, 271, 282, 291, 294, 295, 296, 299, 302, 304, 312, 313, 314, 327 eller 330.
+>
 
 ### 2026-06-19 — lov/2026-06-19-47
 

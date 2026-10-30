@@ -7,6 +7,13 @@ refid: "lov/1917-06-01-1"
 
 ## (annet)
 
+### 2001-06-15 — lov/2001-06-15-62
+
+*I lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker skal § 5 annet ledd lyde:*
+
+> En dommerfullmektig kan ikke styre skjønnsforretning uten etter særskilt bemyndigelse eller i uforutsette forfallstilfelle. Bemyndigelse gis av domstoladministrasjonen eller av domstolens formann etter bestemmelser gitt av domstoladministrasjonen.
+>
+
 ### 2005-06-17 — lov/2005-06-17-84
 
 *Endringen av § 2 første ledd skal lyde:*
@@ -57,6 +64,17 @@ refid: "lov/1917-06-01-1"
 > De lokale skjønnsnemnder fastsetter erstatning for ytelser og tap som ikke blir avgjort etter takster, ved skjønn styrt av en lensmann, namsfogd eller politistasjonssjef eller av Sentralnemnda for rekvisisjonssaker.I nr. 19 skal endringen i lov 28. juni 1957 nr. 16 om friluftslivet § 35 annet ledd tredje punktum lyde:
 >
 > Skjønnet styres av lensmannen, namsfogden eller politistasjonssjef med sivile rettspleieoppgaver.Nr. 20 om endringer i lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom skal lyde:
+>
+
+### 2010-06-25 — lov/2010-06-25-47
+
+*I lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker skal § 14 lyde:*
+
+> I hvert fylke skal det være et utvalg av skjønnsmedlemmer som oppnevnes av fylkestinget etter forslag fra tingrettene og fra kommunestyrene. Oppnevningen foretas innen 15. oktober året etter hvert kommunestyrevalg, og gjelder for fire år fra 1. januar det påfølgende år. Utvalget skal ha så mange medlemmer fra hvert domssogn som departementet fastsetter. Ved fastsettingen av antallet tas hensyn til hvor mange skjønnssaker det vanligvis er i domssognet.
+>
+> Ved oppnevningen skal det tas sikte på at utvalget får en allsidig sammensetning, og at de som oppnevnes har kyndighet på et eller flere områder som vanligvis berøres ved skjønn. Reglene i domstolloven § 70, unntatt annet ledd nr. 1 om en øvre aldersgrense, og §§ 71-74 gjelder tilsvarende. Det samme gjelder retten til fritak på grunn av utført tjeneste etter domstolloven § 90 første ledd annet punktum.
+>
+> Fylkesrådmannen skal innen 1. november året etter hvert kommunestyrevalg sende oppgave over alle skjønnsmedlemmer i det fylkesvise utvalg til tingrettene og jordskifterettene i fylket og til vedkommende lagmannsrett. Oppgaven skal inneholde fullt navn, adresse, fødselsnummer, eventuell telefon til arbeidsted og privat, stilling og yrke, samt angivelse av hva vedkommende er særlig kyndig i.
 >
 
 ### 2017-05-11 — lov/2017-05-11-26

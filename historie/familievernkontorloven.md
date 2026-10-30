@@ -7,6 +7,19 @@ refid: "lov/1997-06-19-62"
 
 ## (annet)
 
+### 2018-04-20 — lov/2018-04-20-5
+
+*I lov 19. juni 1997 nr. 62 om familievernkontorer skal § 10 lyde:*
+
+> § 10.Opplysningsplikt til barnevernet
+>
+> Fagpersonell ved familievernkontor skal i sitt arbeid være oppmerksomme på forhold som kan føre til tiltak fra barneverntjenesten.
+>
+> Fagpersonellet skal uten hinder av taushetsplikt melde fra til barneverntjenesten uten ugrunnet oppholdnår det er grunn til å tro at et barn blir eller vil bli mishandlet, utsatt for alvorlige mangler ved den daglige omsorgen eller annen alvorlig omsorgssvikt,når det er grunn til å tro at et barn har en livstruende eller annen alvorlig sykdom eller skade og ikke kommer til undersøkelse eller behandling, eller at et barn med nedsatt funksjonsevne eller et spesielt hjelpetrengende barn ikke får dekket sitt særlige behov for behandling eller opplæring,når et barn viser alvorlige atferdsvansker i form av alvorlig eller gjentatt kriminalitet, misbruk av rusmidler eller en annen form for utpreget normløs atferd,når det er grunn til å tro at et barn blir eller vil bli utnyttet til menneskehandel.
+>
+> Fagpersonellet plikter også å gi opplysninger etter pålegg i samsvar med barnevernloven § 6-4.
+>
+
 ### 2021-06-11 — lov/2021-06-11-78
 
 *I lov 19. juni 1997 nr. 62 om familievernkontorer skal ny § 1 a lyde:*

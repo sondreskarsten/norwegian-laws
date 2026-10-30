@@ -5,6 +5,15 @@ refid: "lov/2004-05-14-25"
 
 # Endringshistorikk: Voldgiftsloven – vogl
 
+## (annet)
+
+### 2007-12-21 — lov/2007-12-21-127
+
+*I lov 14. mai 2004 nr. 25 om voldgift skal § 6 tredje ledd femte punktum lyde:*
+
+> Søksmål om å sette til side en voldgiftsdom etter kapittel 9 behandles etter de alminnelige reglene i tvisteloven.
+>
+
 ## § 13
 
 ### 2007-02-27 — lov/2007-01-26-3

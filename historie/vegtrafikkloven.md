@@ -21,6 +21,26 @@ refid: "lov/1965-06-18-4"
 > Blir den som har førerkort eller mopedførerbevis, ilagt straff eller domfelt for en straffbar handling, kan politimesteren eller den han gir myndighet i tilfeller som ikke leder til registrering etter første ledd, treffe vedtak om inndragning av førerkortet eller mopedførerbeviset for nærmere fastsatt tid eller for alltid, dersom hensynet til trafikksikkerheten eller allmenne hensyn ellers krever det. Det samme gjelder dersom innehaveren ikke er edruelig eller hans vandel for øvrig er slik at han ikke anses skikket til å føre motorvogn.
 >
 
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 18. juni 1965 nr. 4 vegtrafikklov skal § 31a fjerde ledd lyde:*
+
+> Ileggelse av gebyr kan innklages for tingretten innen en fastsatt frist. Blir klage fremsatt etter utløpet av fristen, skal den avvises med mindre retten finner at oversittelsen hverken kan legges eier eller bruker av kjøretøyet til last og klagen er fremsatt så snart det var mulig. Retten kan oppheve ilagt gebyr hvis den finner at vilkårene for ileggelse ikke forelå. Avgjørelsen treffes ved kjennelse og kan påkjæres. Ileggelse av gebyr kan ikke prøves under tvangsinndrivelse av gebyret.
+>
+
+### 2003-06-20 — lov/2003-06-20-50
+
+*I lov 18. juni 1965 nr. 4 om vegtrafikk § 17 gjøres følgende endring:*
+
+> I lov 18. juni 1965 nr. 4 om vegtrafikk § 17 gjøres følgende endring:
+>
+> Første ledd skal lyde:
+>
+> For så vidt ikke annet følger av § 16, må motorvogn eller andre registreringspliktige kjøretøyer ikke brukes uten at de er meldt til registrering og påsatt lovlige kjennemerker og det er utferdiget vognkort. Vognkortet skal alltid følge med under bruken. Registreringspliktig kjøretøy uten lovlige kjennemerker skal ikke være parkert utover 14 dager på offentlig veg eller privat veg skiltet med offentlig trafikkskilt.
+>
+> Loven trer i kraft straks.
+>
+
 ### 2003-12-19 — lov/2003-12-19-133
 
 *Ny overskrift til § 27 skal lyde:*
@@ -57,9 +77,167 @@ refid: "lov/1965-06-18-4"
 > Den som ved bruk av motorvogn uaktsomt volder betydelig legemsskade eller en annens død, straffes etter straffeloven § 280 eller § 281.
 >
 
+### 2010-12-17 — forskrift/2010-12-17-1613
+
+*Delvis ikraftsetjing av lov om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk.*
+
+> Delvis ikraftsetjing av lov om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk.
+>
+> Del I § 22a, § 34 fyrste og femte ledd og § 37 blir sett i verk straks.
+>
+
+### 2011-10-24 — forskrift/2011-10-21-1040
+
+*Ikraftsetjing av vegtrafikklov 18. juni 1965 nr. 4*
+
+> Ikraftsetjing av vegtrafikklov 18. juni 1965 nr. 4
+>
+> § 7a (vegprising) frå 24. oktober 2011.
+>
+> Skal vel være lov 15. juni 2001 nr. 86 om endring i vegtrafikklov 18. juni 1965 nr. 4 (vegprising). Lovdatas anm.
+>
+
+### 2012-02-01 — forskrift/2012-01-20-38
+
+*Delt iverksetjing av lov 17. desember 2010 nr. 91 om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk (endringar relatert til ruspåverka køyring m.m.). Del I, endringar i vegtrafikklova § 22 og § 31, og del II trer i kraft frå 1. februar 2012.*
+
+> Delt iverksetjing av lov 17. desember 2010 nr. 91 om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk (endringar relatert til ruspåverka køyring m.m.). Del I, endringar i vegtrafikklova § 22 og § 31, og del II trer i kraft frå 1. februar 2012.
+>
+> Delt iverksetjing av lov 5. mai 2006 nr. 13 om endringer i vegtrafikkloven og jernbaneloven m.m. (avholdsplikt og promillegrense mv.). Del I, II og del IV trer i kraft frå 1. februar 2012.
+>
+
 ### 2013-05-24 — lov/2013-05-24-21
 
 *Nåværende tredje til sjette ledd blir nye fjerde til sjuende ledd.*
+
+### 2013-06-21 — lov/2013-06-21-82
+
+*I lov 18. juni 1965 nr. 4 om vegtrafikk skal § 27 første ledd lyde:*
+
+> Personer som skal ha offentlig godkjenning som trafikklærere, må være fylt 21 år. De må være edruelige og godtgjøre med ordinær politiattest at de har slik vandel at de finnes skikket som trafikklærere. De må ha gyldig førerkort for motorvogn av den gruppe som det skal gis undervisning i, samt ha bestått en trafikklærerprøve. Departementet kan fastsette tilleggskrav for visse motorvogngrupper.
+>
+
+### 2013-06-21 — forskrift/2013-06-21-691
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2014-01-01 — forskrift/2013-05-24-503
+
+*Loven trer i kraft fra 1. januar 2014.*
+
+> Loven trer i kraft fra 1. januar 2014.
+>
+
+### 2015-05-01 — forskrift/2015-04-17-378
+
+*Loven trer i kraft 1. mai 2015.*
+
+> Loven trer i kraft 1. mai 2015.
+>
+
+### 2016-06-17 — forskrift/2016-06-17-718
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2017-03-31 — forskrift/2017-03-31-421
+
+*Delt ikraftsetting av lov 17. desember 2010 nr. 91 om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk (endringar relatert til ruspåverka køyring m.m.). Del I § 33 nr. 1 annet ledd trer i kraft straks.*
+
+> Delt ikraftsetting av lov 17. desember 2010 nr. 91 om endringar i lov 18. juni 1965 nr. 4 om vegtrafikk (endringar relatert til ruspåverka køyring m.m.). Del I § 33 nr. 1 annet ledd trer i kraft straks.
+>
+
+### 2017-06-21 — lov/2017-06-21-102
+
+*I lov 18. juni 1965 nr. 4 om vegtrafikk skal § 36 a lyde:*
+
+> § 36 a.Gebyr for overtredelse av bestemmelser om tillatte vekter og dimensjoner
+>
+> Eier av kjøretøy, transportør eller avsender som vesentlig overtrer eller medvirker til å vesentlig overtre bestemmelser om tillatte vekter og dimensjoner, kan ilegges gebyr.
+>
+> Ved overtredelse som medfører gebyrplikt etter første ledd, kan politiet eller regionvegkontoret ta kjøretøyet i forvaring for eierens regning og risiko eller forby bruk av det inntil gebyr og omkostninger er betalt eller sikkerhet for betaling er stilt. Forvaring og bruksforbud kan om nødvendig sikres ved bruk av mekanisk eller elektronisk innretning. § 31 a fjerde ledd gjelder tilsvarende for gebyr for overtredelse av tillatte vekter og dimensjoner.
+>
+> Er en tilhenger brukt til overtredelse som medfører gebyrplikt etter første ledd, er eieren av motorvognen som trekker tilhengeren, ansvarlig for gebyret, selv om denne ikke er eier av tilhengeren. Gebyret er tvangsgrunnlag for utlegg også hos motorvogneieren, jfr. § 38, annet ledd. Bestemmelsene i annet ledd første punktum kan også gjøres gjeldende for motorvognen, og den hefter til sikkerhet etter bestemmelsene i § 38, første ledd.
+>
+> Departementet kan gi forskrift om:Veiing, måling og relevant dokumentasjon fra avsender og kontrollmyndighetenes tilgang til slik dokumentasjon,plikt til å kjøre til anvist kontrollsted,gebyrsatser, herunder høyere satser ved gjentakelse,ileggelse, betalingsfrist og inndriving av gebyr,klagebehandling og klagefrist,adgang til ettergivelse av gebyr i særlige tilfeller oginndragning av kjennemerker og dokumenter i tilfelle som nevnt i annet ledd.
+>
+
+### 2017-08-01 — forskrift/2017-06-21-825
+
+*Loven trer i kraft fra 1. august 2017.*
+
+> Loven trer i kraft fra 1. august 2017.
+>
+
+### 2018-04-20 — lov/2018-04-20-13
+
+*Endringer i følgende lov:*
+
+> Endringer i følgende lov:
+>
+> Lov 18. juni 1965 nr. 4 om vegtrafikk (vegtrafikkloven).
+>
+> I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 18 lyde:
+>
+> § 18.
+>
+> Krav om alkolås ved transport mot vederlag
+>
+> Departementet kan fastsette i forskrift at det skal være montert alkolås i kjøretøy som benyttes ved transport mot vederlag, og gir nærmere bestemmelser om godkjenning, montering og kontroll av alkolåsen. Utgifter til anskaffelse, montering og kontroll av alkolåsen dekkes av den som driver transport mot vederlag. Departementet kan gi nærmere bestemmelser om ordningen, herunder bestemmelser om virkeområde, hvilke grupper kjøretøy som skal omfattes, og om pålegg om retting ved kontroll langs veg.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
+> Departementet kan gi nærmere overgangsregler.
+>
+
+### 2018-10-01 — forskrift/2018-05-04-679
+
+*Loven trer i kraft 1. oktober 2018.*
+
+> Loven trer i kraft 1. oktober 2018.
+>
+
+### 2018-12-14 — lov/2018-12-14-96
+
+*Lov om endringer i vegtrafikkloven (krav til CO*
+
+> Lov om endringer i vegtrafikkloven (krav til CO
+>
+> -utslipp)
+>
+> Endringer i følgende lov:
+>
+> Lov 18. juni 1965 nr. 4 om vegtrafikk (vegtrafikkloven).
+>
+> I lov 18. juni 1965 nr. 4 om vegtrafikk skal ny § 13 b lyde:
+>
+> § 13 b.
+>
+> Krav til CO
+>
+> -utslipp mv. for produsenter av personbiler og lette nyttekjøretøy
+>
+> For å ivareta Norges forpliktelser etter EØS-avtalen kan departementet i forskrift fastsette regler om utslippskrav mv. for produsenter av personbiler og lette nyttekjøretøy (N1), herunder regler om
+>
+> en øvre grense for tillatt utslipp av CO
+>
+> fra personbiler og lette nyttekjøretøy (N1),
+>
+> overtredelsesgebyr,
+>
+> overvåkning,
+>
+> rapportering,
+>
+> innovative teknologier, herunder godkjenning.
+>
+> Loven gjelder fra den tid Kongen bestemmer.
+>
 
 ### 2019-03-29 — lov/2019-03-29-10
 
@@ -83,6 +261,54 @@ refid: "lov/1965-06-18-4"
 > § 43c.Forholdet til folkeregisterloven
 >
 > Statens vegvesen kan uten hinder av taushetsplikt innhente opplysninger fra folkeregistermyndigheten som er nødvendige for å utføre oppgaver etter denne loven eller andre oppgaver som er fastsatt i eller i medhold av lov.
+>
+
+### 2020-04-03 — forskrift/2020-04-03-576
+
+*Delt ikraftsetting av loven. Loven trer i kraft straks, med unntak av del I endringene i § 26 og § 29.*
+
+> Delt ikraftsetting av loven. Loven trer i kraft straks, med unntak av del I endringene i § 26 og § 29.
+>
+
+### 2021-06-11 — forskrift/2021-06-11-1863
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
+### 2022-06-17 — lov/2022-06-17-71
+
+*I lov 18. juni 1965 nr. 4 om vegtrafikk skal § 13 b lyde:*
+
+> § 13 b.Krav til CO2-utslipp mv. for produsenter av personbiler, varebiler og tunge kjøretøy
+>
+> For å ivareta Norges forpliktelser etter EØS-avtalen kan departementet i forskrift fastsette regler om utslippskrav mv. for produsenter av kjøretøy i gruppe M, N og O, herunder regler om:krav til utslipp av CO2,overtredelsesgebyr,overvåkning,rapportering,innovative teknologier, herunder godkjenning.
+>
+
+### 2022-07-01 — forskrift/2022-06-17-1041
+
+*Ikraftsetting av lov 17. juni 2022 nr. 71 om endringer i vegtrafikkloven (krav til CO*
+
+> Ikraftsetting av lov 17. juni 2022 nr. 71 om endringer i vegtrafikkloven (krav til CO
+>
+> -utslipp for tunge kjøretøy)
+>
+> Loven trer i kraft 1. juli 2022.
+>
+
+### 2023-07-01 — forskrift/2023-06-09-808
+
+*Loven trer i kraft 1. juli 2023.*
+
+> Loven trer i kraft 1. juli 2023.
+>
+
+### 2024-01-01 — forskrift/2023-12-20-2172
+
+*Loven trer i kraft 1. januar 2024.*
+
+> Loven trer i kraft 1. januar 2024.
 >
 
 ## § 10
@@ -874,6 +1100,9 @@ refid: "lov/1965-06-18-4"
 ### 2023-12-20 — lov/2023-12-20-110
 
 *§ 33 nr. 1 første ledd skal lyde:*
+
+> 1. Blir den som har førerett ilagt straff, kan det i samme dom, forelegg eller beslutning om overføring til konfliktrådet fastsettes tap av retten til å føre førerkortpliktig motorvogn for en bestemt tid eller for alltid, dersom hensynet til trafikksikkerheten eller allmenne hensyn ellers krever det.
+>
 
 ### 2023-12-20 — lov/2023-12-20-110
 

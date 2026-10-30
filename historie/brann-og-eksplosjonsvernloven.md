@@ -79,6 +79,13 @@ refid: "lov/2002-06-14-20"
 > Overtredelse av første ledd og bestemmelser gitt i medhold av tredje ledd bokstav b kan også føre til reaksjoner fra skolen etter fagskoleloven §§ 25 og 26. Manglende orientering etter andre ledd andre punktum og nektelse av å medvirke til prøver som nevnt i tredje ledd bokstav a kan føre til utvisning eller utestenging fra skolen for inntil tre år.
 >
 
+### 2023-01-27 — forskrift/2023-01-27-93
+
+*Loven trer i kraft straks.*
+
+> Loven trer i kraft straks.
+>
+
 ### 2025-06-20 — lov/2025-06-20-83
 
 *I lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver skal § 17 a fjerde ledd første punktum lyde:*

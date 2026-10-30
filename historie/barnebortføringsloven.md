@@ -7,6 +7,13 @@ refid: "lov/1988-07-08-72"
 
 ## (annet)
 
+### 2003-06-20 — lov/2003-06-20-40
+
+*I lov 8. juli 1988 nr. 72 om anerkjennelse og fullbyrding av utenlandske avgjørelser om foreldreansvar m v og om tilbakelevering av barn skal § 18 første ledd første og andre punktum lyde:*
+
+> (1) Bestemmelsene i barneloven 8. april 1981 nr. 7 §§ 60 og 65 gjelder for saker om tvangsfullbyrding etter § 6 og tilbakelevering etter § 11. Barneloven § 65 første ledd gjelder også ved tvangsfullbyrding av samværsrett.
+>
+
 ### 2018-12-20 — lov/2018-12-20-114
 
 *Nåværende annet ledd blir nytt tredje ledd.*
@@ -118,6 +125,9 @@ refid: "lov/1988-07-08-72"
 ### 2025-06-20 — lov/2025-06-20-40
 
 *§ 19 første ledd skal lyde:*
+
+> (1) Dersom det under behandlingen av en sak om foreldreansvar eller samværsrett etter barneloven blir brakt på det rene at barnet er begjært tilbakelevert etter § 11 i loven her, skal retten ikke treffe avgjørelse i saken før begjæringen er endelig avgjort.
+>
 
 ## § 19 a
 

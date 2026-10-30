@@ -7,9 +7,55 @@ refid: "lov/1935-06-07-2"
 
 ## (annet)
 
+### 2003-09-08 — lov/2003-09-05-92
+
+*I lov 7. juni 1935 nr. 2 om tinglysing skal § 34 nytt fjerde og femte ledd lyde:*
+
+> For tinglysing, registrering eller anmerkning i Løsøreregisteret skal det betales gebyr. Departementet gir regler om gebyrenes størrelse og innkrevingsform.
+>
+> Departementet gir også regler om hvordan informasjon i Løsøreregisteret skal gjøres tilgjengelig, og kan bestemme at det skal betales gebyr for tjenestene.
+>
+
+### 2007-06-29 — lov/2007-06-29-94
+
+*I lov 7. juni 1935 nr. 2 om tinglysing skal § 12a første ledd lyde:*
+
+> Dokument som gir grunnbokshjemmel til matrikkelenhet kan ikke tinglyses uten at det framgår av matrikkelen at slik tinglysing kan finne sted for vedkommende enhet. Gir dokumentet uttrykk for hjemmelsovergang som ledd i arv, skifte eller tvangsfullbyrdelse, eller gjelder eierseksjon eller festerett for en tid av 10 år eller kortere, er det tilstrekkelig at enheten er innført i matrikkelen. Dokument som endrer grenser for matrikkelenhet, kan ikke tinglyses før endringen er matrikkelført, unntatt når annet er bestemt av retten.
+>
+
 ### 2013-12-13 — lov/2013-12-13-130
 
 *Nåværende annet ledd blir nytt tredje ledd.*
+
+### 2014-01-01 — forskrift/2013-12-13-1472
+
+*Loven trer i kraft 1. januar 2014.*
+
+> Loven trer i kraft 1. januar 2014.
+>
+
+### 2015-12-04 — lov/2015-12-04-96
+
+*I lov 7. juni 1935 nr. 2 om tinglysing skal § 12 b tredje ledd annet punktum lyde:*
+
+> Ved tinglysing av skjøte og andre dokumenter som har sammenheng med salg av fast eiendom, er oppdragstakere som bistår avtalepartene med oppgaver som nevnt i lov 29. juni 2007 nr. 73 om eiendomsmegling § 6-9 første ledd nr. 1, 2 eller 4, også ansvarlig for gebyret uavhengig av om oppdragstakeren har begjært forretningen.
+>
+
+### 2016-12-16 — lov/2016-12-16-101
+
+*I lov 7. juni 1935 nr. 2 om tinglysing skal § 38 b fyrste ledd fyrste punktum lyde:*
+
+> Matrikkelenhet ervervet til veg- eller jernbaneformål som eies av stat, statsforetak, fylkeskommune eller kommune, kan vedkommende myndighet få grunnbokshjemmel til som eier, når vedkommende myndighet erklærer å være eier.
+>
+
+### 2024-03-01 — forskrift/2024-02-09-232
+
+*Delt ikraftsetting av lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing). Følgende trer i kraft 1. mars 2024 for tinglysing i Løsøreregisteret:*
+
+> Delt ikraftsetting av lov 20. juni 2014 nr. 45 om endringer i tinglysingsloven mv. (elektronisk tinglysing). Følgende trer i kraft 1. mars 2024 for tinglysing i Løsøreregisteret:
+>
+> Endringsloven del I (tinglysingsloven) § 7 første ledd første og annet punktum.
+>
 
 ## § 1
 
@@ -294,9 +340,11 @@ refid: "lov/1935-06-07-2"
 
 *§ 23 skal lyde:*
 
-> § 23.For at en rett som er stiftet ved avtale, skal kunne stå seg overfor konkurs, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før konkursåpningen. Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf. lov om fordringshavernes dekningsrett § 1-4 femte ledd, må rettsstiftelsen være registrert senest dagen før åpningen av rekonstruksjonsforhandlingen. Når rettsstiftelsen er foretatt med samtykke av rekonstruksjonsutvalget, er likevel dens gyldighet overfor konkursboet ikke avhengig av tinglysing.For at en rett som er stiftet ved avtale, skal kunne stå seg ved en rekonstruksjonsforhandling, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før åpningen av rekonstruksjonsforhandlingen.
->
 > § 23.
+>
+> For at en rett som er stiftet ved avtale, skal kunne stå seg overfor konkurs, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før konkursåpningen. Har det vært åpnet konkurs etter en umiddelbart forutgående rekonstruksjonsforhandling, jf. lov om fordringshavernes dekningsrett § 1-4 femte ledd, må rettsstiftelsen være registrert senest dagen før åpningen av rekonstruksjonsforhandlingen. Når rettsstiftelsen er foretatt med samtykke av rekonstruksjonsutvalget, er likevel dens gyldighet overfor konkursboet ikke avhengig av tinglysing.
+>
+> For at en rett som er stiftet ved avtale, skal kunne stå seg ved en rekonstruksjonsforhandling, må rettsstiftelsen utenfor de tilfeller som er nevnt i § 21 tredje ledd og § 22, være registrert senest dagen før åpningen av rekonstruksjonsforhandlingen.
 >
 
 ## § 24

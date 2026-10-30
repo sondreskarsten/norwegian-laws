@@ -16,9 +16,23 @@ refid: "lov/2007-06-15-40"
 
 ## (annet)
 
+### 2014-03-28 — lov/2014-03-28-9
+
+*I lov 15. juni 2007 nr. 40 om reindrift skal § 23 annet ledd annet punktum lyde:*
+
+> Motorisert ferdsel eller flyging inn i område vernet i medhold av naturmangfoldloven kapittel V eller eldre vernevedtak som nevnt i naturmangfoldloven § 77, skal foregå i samsvar med fastsatte forskrifter om vern.
+>
+
 ### 2016-06-17 — lov/2016-06-17-70
 
 *Nåværende femte ledd blir nytt sjuende ledd.*
+
+### 2016-07-01 — forskrift/2016-06-17-728
+
+*Lova vert sett i verk frå 1. juli 2016.*
+
+> Lova vert sett i verk frå 1. juli 2016.
+>
 
 ### 2016-09-16 — lov/2016-09-16-81
 
@@ -39,13 +53,27 @@ refid: "lov/2007-06-15-40"
 
 *Nåværende §§ 81 til 83 blir §§ 82 til 84.*
 
+### 2020-01-01 — forskrift/2019-06-21-785
+
+*Delt ikraftsetting. Loven del I for så vidt gjelder endringer i reindriftsloven § 18 tredje ledd trer i kraft fra 1. januar 2020.*
+
+> Delt ikraftsetting. Loven del I for så vidt gjelder endringer i reindriftsloven § 18 tredje ledd trer i kraft fra 1. januar 2020.
+>
+
+### 2023-06-09 — lov/2023-06-09-32
+
+*I lov 15. juni 2007 nr. 40 om reindrift skal § 4 første ledd lyde:*
+
+> Den samiske befolkningen har på grunnlag av alders tids bruk rett til å utøve reindrift innenfor de delene av fylkene Finnmark, Troms, Nordland, Trøndelag og Hedmark hvor reindriftssamene fra gammelt av har utøvet reindrift (det samiske reinbeiteområdet).
+>
+
 ### 2025-06-06 — lov/2025-06-06-28
 
 *I kapittel 1 skal ny § 8 a lyde:*
 
-> § 8 a.Forholdet til jordskifterettenI saker hvor jordskifteretten settes med to reindriftskyndige meddommere, settes jordskifteretten som reindriftsretten.
+> § 8 a. Forholdet til jordskifteretten
 >
-> § 8 a.Forholdet til jordskifteretten
+> I saker hvor jordskifteretten settes med to reindriftskyndige meddommere, settes jordskifteretten som reindriftsretten.
 >
 
 ### 2025-06-06 — lov/2025-06-06-28
@@ -56,9 +84,15 @@ refid: "lov/2007-06-15-40"
 
 *I kapittel 7 skal ny § 62 a lyde:*
 
-> § 62 a.Forholdet til jordskiftelovaDistriktsstyret, siidastyret, lederen av en siidaandel eller lederen av en sideordnet rekrutteringsandel kan kreve rettsklarlegging og grensefastsettelse etter jordskiftelova kapittel 4.Distriktsstyret kan kreve at jordskifteretten utarbeider og fastsetter hele eller deler av bruksreglene for et reinbeitedistrikt dersom distriktsstyrets arbeid etter reindriftsloven §§ 57 og 58 ikke fører fram.Distriktsstyret, siidastyret, lederen av en siidaandel eller lederen av en sideordnet rekrutteringsandel kan kreve jordskifte med de virkemidlene som følger av jordskiftelova §§ 3-4, 3-8, 3-9 og 3-10.Jordskiftesak etter tredje ledd kan kreves uten hinder av jordskiftelova § 3-37, dersom det foreligger særlig endrede forhold.
+> § 62 a. Forholdet til jordskiftelova
 >
-> § 62 a.Forholdet til jordskiftelova
+> Distriktsstyret, siidastyret, lederen av en siidaandel eller lederen av en sideordnet rekrutteringsandel kan kreve rettsklarlegging og grensefastsettelse etter jordskiftelova kapittel 4.
+>
+> Distriktsstyret kan kreve at jordskifteretten utarbeider og fastsetter hele eller deler av bruksreglene for et reinbeitedistrikt dersom distriktsstyrets arbeid etter reindriftsloven §§ 57 og 58 ikke fører fram.
+>
+> Distriktsstyret, siidastyret, lederen av en siidaandel eller lederen av en sideordnet rekrutteringsandel kan kreve jordskifte med de virkemidlene som følger av jordskiftelova §§ 3-4, 3-8, 3-9 og 3-10.
+>
+> Jordskiftesak etter tredje ledd kan kreves uten hinder av jordskiftelova § 3-37, dersom det foreligger særlig endrede forhold.
 >
 
 ## § 10
@@ -76,9 +110,19 @@ refid: "lov/2007-06-15-40"
 
 *§ 15 skal lyde:*
 
-> § 15.Overføring av ansvaret som leder av siidaandelEr sideordnet rekrutteringsandel ikke etablert, kan lederen av en siidaandel overføre lederansvaret til sin ektefelle eller samboer, sitt barn, sitt barnebarn, sin forelder, sitt søsken eller barn av sitt søsken. Den nye lederen av siidaandelen må være myndig og ha deltatt i alle sider av arbeidet i reindriften sammen med lederen i minst tre år. Den nye lederen må oppfylle vilkårene i § 9 første ledd for å eie rein i siidaandelen.Lederen av en siidaandel kan overføre lederansvaret til en person som ikke oppfyller kravene i første ledd første og annet punktum, dersom to tredjedeler av siidaandelslederne i siidaen samtykker.Ved overføring av lederansvaret for en siidaandel har tidligere leder fortsatt rett til å eie rein i siidaandelen.Dør lederen av en siidaandel, har lederens barn, barnebarn, forelder, søsken eller et barn av lederens søsken rett til å overta lederansvaret, med mindre gjenlevende ektefelle eller samboer overtar ansvaret etter reglene i § 14. Første ledd annet og tredje punktum gjelder tilsvarende.Ved lederens død kan det søkes statsforvalteren om at siidaandelen stilles i bero inntil personen som ellers har rett til å bli ny leder etter første ledd, er myndig. Statsforvalteren kan i denne forbindelse dispensere fra kravet om at den nye lederen må ha deltatt i alle sider av arbeidet i reindriften sammen med lederen i minst tre år.Den avtroppende lederen skal sende melding om overføring av lederansvaret til statsforvalteren.
+> § 15. Overføring av ansvaret som leder av siidaandel
 >
-> § 15.Overføring av ansvaret som leder av siidaandel
+> Er sideordnet rekrutteringsandel ikke etablert, kan lederen av en siidaandel overføre lederansvaret til sin ektefelle eller samboer, sitt barn, sitt barnebarn, sin forelder, sitt søsken eller barn av sitt søsken. Den nye lederen av siidaandelen må være myndig og ha deltatt i alle sider av arbeidet i reindriften sammen med lederen i minst tre år. Den nye lederen må oppfylle vilkårene i § 9 første ledd for å eie rein i siidaandelen.
+>
+> Lederen av en siidaandel kan overføre lederansvaret til en person som ikke oppfyller kravene i første ledd første og annet punktum, dersom to tredjedeler av siidaandelslederne i siidaen samtykker.
+>
+> Ved overføring av lederansvaret for en siidaandel har tidligere leder fortsatt rett til å eie rein i siidaandelen.
+>
+> Dør lederen av en siidaandel, har lederens barn, barnebarn, forelder, søsken eller et barn av lederens søsken rett til å overta lederansvaret, med mindre gjenlevende ektefelle eller samboer overtar ansvaret etter reglene i § 14. Første ledd annet og tredje punktum gjelder tilsvarende.
+>
+> Ved lederens død kan det søkes statsforvalteren om at siidaandelen stilles i bero inntil personen som ellers har rett til å bli ny leder etter første ledd, er myndig. Statsforvalteren kan i denne forbindelse dispensere fra kravet om at den nye lederen må ha deltatt i alle sider av arbeidet i reindriften sammen med lederen i minst tre år.
+>
+> Den avtroppende lederen skal sende melding om overføring av lederansvaret til statsforvalteren.
 >
 
 ## § 16
@@ -218,26 +262,6 @@ refid: "lov/2007-06-15-40"
 
 > Årsmøtet skal:godkjenne distriktsstyrets årsmelding og vedta årsregnskapvedta forslag til bruksregler, jf. § 57vedta forslag til distriktsplan, jf. § 62velge leder for distriktsstyret, jf. § 43fastsette regler for valg av styremedlemmer, jf. § 43 annet leddfastsette godtgjørelse til medlemmene av distriktsstyretfastsette tilskuddet pr. rein til distriktskassen, jf. § 46velge revisor, eventuelt revisjonsutvalg, jf. § 48behandle saker som noen med møterett på årsmøtet, senest en uke før årsmøtet ved henvendelse til distriktsstyret, har krevd behandletbehandle andre saker som fremlegges av distriktsstyret.
 >
-> godkjenne distriktsstyrets årsmelding og vedta årsregnskap
->
-> vedta forslag til bruksregler, jf. § 57
->
-> vedta forslag til distriktsplan, jf. § 62
->
-> velge leder for distriktsstyret, jf. § 43
->
-> fastsette regler for valg av styremedlemmer, jf. § 43 annet ledd
->
-> fastsette godtgjørelse til medlemmene av distriktsstyret
->
-> fastsette tilskuddet pr. rein til distriktskassen, jf. § 46
->
-> velge revisor, eventuelt revisjonsutvalg, jf. § 48
->
-> behandle saker som noen med møterett på årsmøtet, senest en uke før årsmøtet ved henvendelse til distriktsstyret, har krevd behandlet
->
-> behandle andre saker som fremlegges av distriktsstyret.
->
 > En avgjørelse krever flertall av de avgitte stemmer på årsmøtet, om ikke noe annet er bestemt i loven. Ved stemmelikhet treffes avgjørelsen ved loddtrekning, med mindre noe annet er bestemt i bruksreglene.
 >
 
@@ -247,9 +271,17 @@ refid: "lov/2007-06-15-40"
 
 *§ 57 skal lyde:*
 
-> § 57.BruksreglerDet skal fastsettes bruksregler for forvaltningen og bruken av distriktets ressurser. Bruksreglene skal ikke stride mot loven her.Bruksreglene skal sikre en økologisk bærekraftig utnytting av distriktets beiteressurser og skal inneholde nærmere regler om:beitebruk, jf. § 59reintall, jf. § 60forvaltning av distriktets midler, herunder disponering av distriktskasse og reindriftsfond, jf. §§ 46 og 47bruk av motorisert kjøretøybruk og vedlikehold av gjerder og andre fellesanlegg.Bruksreglene kan inneholde nærmere regler om:krav til siidaandelsleders deltakelse i siidaens reindriftfordeling av arbeidsplikter og investeringerslakte- og produksjonskravandre forhold som det anses hensiktsmessig å regulere ved bestemmelser i distriktets bruksregler.Der det er påkrevet, kan statsforvalteren pålegge to eller flere distrikter å utarbeide felles bruksregler for ett eller flere av de forhold som er nevnt i annet og tredje ledd.Bruksreglene er unntatt offentlighet, med unntak av siidaens øvre fastsatte reintall. Reindriftsmyndighetene skal likevel gis tilgang til bruksreglene.
+> § 57. Bruksregler
 >
-> § 57.Bruksregler
+> Det skal fastsettes bruksregler for forvaltningen og bruken av distriktets ressurser. Bruksreglene skal ikke stride mot loven her.
+>
+> Bruksreglene skal sikre en økologisk bærekraftig utnytting av distriktets beiteressurser og skal inneholde nærmere regler om:beitebruk, jf. § 59reintall, jf. § 60forvaltning av distriktets midler, herunder disponering av distriktskasse og reindriftsfond, jf. §§ 46 og 47bruk av motorisert kjøretøybruk og vedlikehold av gjerder og andre fellesanlegg.
+>
+> Bruksreglene kan inneholde nærmere regler om:krav til siidaandelsleders deltakelse i siidaens reindriftfordeling av arbeidsplikter og investeringerslakte- og produksjonskravandre forhold som det anses hensiktsmessig å regulere ved bestemmelser i distriktets bruksregler.
+>
+> Der det er påkrevet, kan statsforvalteren pålegge to eller flere distrikter å utarbeide felles bruksregler for ett eller flere av de forhold som er nevnt i annet og tredje ledd.
+>
+> Bruksreglene er unntatt offentlighet, med unntak av siidaens øvre fastsatte reintall. Reindriftsmyndighetene skal likevel gis tilgang til bruksreglene.
 >
 
 ## § 58
@@ -272,9 +304,21 @@ refid: "lov/2007-06-15-40"
 
 *§ 58 skal lyde:*
 
-> § 58.Utarbeidelse og godkjennelse av bruksreglerBruksreglene skal behandles og vedtas av distriktets årsmøte, jf. § 50 første ledd nr. 2.Forslag til bruksregler skal utarbeides av distriktsstyret og sendes til lederne av siidaandelene i distriktet senest fire uker før årsmøtet.Regler om beitebruk etter § 59 skal utarbeides i samarbeid med distriktets siidaer. Det samme gjelder fastsettelse av reintall etter § 60.Bruksreglene skal godkjennes av statsforvalteren. Statsforvalterens behandling skal, foruten en kontroll med at lovens regler for utarbeidelse av bruksregler er fulgt, også omfatte en vurdering av om bruksreglene gir grunnlag for en økologisk bærekraftig reindrift i distriktet. Protokoll fra årsmøtebehandlingen skal sendes statsforvalteren sammen med bruksreglene.Hvis statsforvalteren ikke godkjenner bruksreglene, skal statsforvalteren bistå distriktet ved utarbeidelse av et nytt forslag som skal behandles etter reglene foran.Hvis et flertall på distriktets årsmøte krever det, skal nye bruksregler utarbeides i henhold til reglene foran.Reintallet for den enkelte siida, jf. § 60, skal forelegges for reindriftsstyret for endelig stadfesting og godkjenning.
+> § 58. Utarbeidelse og godkjennelse av bruksregler
 >
-> § 58.Utarbeidelse og godkjennelse av bruksregler
+> Bruksreglene skal behandles og vedtas av distriktets årsmøte, jf. § 50 første ledd nr. 2.
+>
+> Forslag til bruksregler skal utarbeides av distriktsstyret og sendes til lederne av siidaandelene i distriktet senest fire uker før årsmøtet.
+>
+> Regler om beitebruk etter § 59 skal utarbeides i samarbeid med distriktets siidaer. Det samme gjelder fastsettelse av reintall etter § 60.
+>
+> Bruksreglene skal godkjennes av statsforvalteren. Statsforvalterens behandling skal, foruten en kontroll med at lovens regler for utarbeidelse av bruksregler er fulgt, også omfatte en vurdering av om bruksreglene gir grunnlag for en økologisk bærekraftig reindrift i distriktet. Protokoll fra årsmøtebehandlingen skal sendes statsforvalteren sammen med bruksreglene.
+>
+> Hvis statsforvalteren ikke godkjenner bruksreglene, skal statsforvalteren bistå distriktet ved utarbeidelse av et nytt forslag som skal behandles etter reglene foran.
+>
+> Hvis et flertall på distriktets årsmøte krever det, skal nye bruksregler utarbeides i henhold til reglene foran.
+>
+> Reintallet for den enkelte siida, jf. § 60, skal forelegges for reindriftsstyret for endelig stadfesting og godkjenning.
 >
 
 ## § 59
@@ -311,9 +355,19 @@ refid: "lov/2007-06-15-40"
 
 *Ny § 60 a skal lyde:*
 
-> § 60 a.Reduksjon av reintallOverstiger reintallet i siidaen det reintallet som er fastsatt etter § 60, skal siidaen utarbeide og gjennomføre en reduksjonsplan etter annet eller tredje ledd.Lederne av siidaandelene kan enstemmig beslutte en reduksjonsplan med et ulikt reintall for hver siidaandel.Lederne av siidaandelene kan ved flertall beslutte en reduksjonsplan med en lik øvre grense for siidaandelenes reintall. Dersom dette ikke oppfyller hele den nødvendige reduksjonen, må det bestemmes i planen at hver siidaandel skal redusere det overskytende antall forholdsmessig.Er reduksjonsplanen tilstrekkelig, skal den godkjennes av reindriftsstyret. Reindriftsstyret skal sikre gjennomføring av planen, herunder sette frister for utarbeidelse av planen og gjennomføring av reintallsreduksjonen.Utarbeider ikke siidaen en reduksjonsplan som er tilstrekkelig, skal reindriftsstyret vedta en reduksjon som innebærer et likt reintall for alle siidaandelene i siidaen.Er det fastsatt et øvre reintall per siidaandel etter § 60, skal reduksjonen skje med grunnlag i det fastsatte reintallet, med mindre siidaen gjennomfører en reduksjon etter annet ledd.
+> § 60 a. Reduksjon av reintall
 >
-> § 60 a.Reduksjon av reintall
+> Overstiger reintallet i siidaen det reintallet som er fastsatt etter § 60, skal siidaen utarbeide og gjennomføre en reduksjonsplan etter annet eller tredje ledd.
+>
+> Lederne av siidaandelene kan enstemmig beslutte en reduksjonsplan med et ulikt reintall for hver siidaandel.
+>
+> Lederne av siidaandelene kan ved flertall beslutte en reduksjonsplan med en lik øvre grense for siidaandelenes reintall. Dersom dette ikke oppfyller hele den nødvendige reduksjonen, må det bestemmes i planen at hver siidaandel skal redusere det overskytende antall forholdsmessig.
+>
+> Er reduksjonsplanen tilstrekkelig, skal den godkjennes av reindriftsstyret. Reindriftsstyret skal sikre gjennomføring av planen, herunder sette frister for utarbeidelse av planen og gjennomføring av reintallsreduksjonen.
+>
+> Utarbeider ikke siidaen en reduksjonsplan som er tilstrekkelig, skal reindriftsstyret vedta en reduksjon som innebærer et likt reintall for alle siidaandelene i siidaen.
+>
+> Er det fastsatt et øvre reintall per siidaandel etter § 60, skal reduksjonen skje med grunnlag i det fastsatte reintallet, med mindre siidaen gjennomfører en reduksjon etter annet ledd.
 >
 
 ## § 61
@@ -346,18 +400,6 @@ refid: "lov/2007-06-15-40"
 >
 > Distriktsplanen skal inneholde:angivelse av flyttemønstre til siidaene i distriktetoversikt over siidaenes årstidsbeiter, beitetider, kalvingsland o.l.oversikt over nødvendige fremkomst- og transportmidler, herunder hvilke terrenggående kjøretøy som anvendes i distriktet, samt eventuell tidsbegrenset bruk av helikopter eller annet luftfartøy. Bruksregler for terrenggående barmarkskjøretøy skal også gå frem av planenoversikt over alle gjerder og anlegg av permanent art, og så vidt mulig også gjerder av midlertidig arteventuell inndeling i beitesonerbeliggenheten til gjeterhytter i distriktet, jf. § 21.
 >
-> angivelse av flyttemønstre til siidaene i distriktet
->
-> oversikt over siidaenes årstidsbeiter, beitetider, kalvingsland o.l.
->
-> oversikt over nødvendige fremkomst- og transportmidler, herunder hvilke terrenggående kjøretøy som anvendes i distriktet, samt eventuell tidsbegrenset bruk av helikopter eller annet luftfartøy. Bruksregler for terrenggående barmarkskjøretøy skal også gå frem av planen
->
-> oversikt over alle gjerder og anlegg av permanent art, og så vidt mulig også gjerder av midlertidig art
->
-> eventuell inndeling i beitesoner
->
-> beliggenheten til gjeterhytter i distriktet, jf. § 21.
->
 
 ## § 67
 
@@ -365,9 +407,17 @@ refid: "lov/2007-06-15-40"
 
 *§ 67 skal lyde:*
 
-> § 67.Ansvar for skadeKommer rein inn på et område der eieren av reinen ikke har rett til å la den beite, er eieren ansvarlig for skade som reinen volder på avling eller annen eiendom. Hvis det ikke innen rimelig tid kan fastslås hvem som er eier av reinen, er samtlige reineiere i den siidaen den skadegjørende reinen tilhører, ansvarlige for skaden én for alle og alle for én. Hvis det heller ikke innen rimelig tid kan fastslås hvilken siida den skadegjørende reinen tilhører, er samtlige reineiere som utøver reindrift i det distriktet som den skadegjørende reinen tilhører, ansvarlige én for alle og alle for én. Dette gjelder likevel ikke for reineiere som godtgjør at deres rein ikke har medvirket til skaden.For skader i områder der eieren har rett til å la rein beite, kan den skadelidte kreve erstatning dersom skaden skyldes feil eller forsømmelse fra reineieren.Kongen kan i forskrift avgrense området utenfor bestemt reinbeitedistrikt hvor solidarisk ansvar skal gjelde.For skade som voldes av rein som tilhører noen som i henhold til § 8, jf. fjellova § 17, utøver reindrift utenfor reinbeitedistrikt, er de som utøver reindrift innenfor området hvor den skadegjørende rein antas å høre hjemme, ansvarlig en for alle og alle for en.Ved utmålingen av erstatningen gjelder skadeserstatningsloven §§ 4-1, 5-1 og 5-2.
+> § 67. Ansvar for skade
 >
-> § 67.Ansvar for skade
+> Kommer rein inn på et område der eieren av reinen ikke har rett til å la den beite, er eieren ansvarlig for skade som reinen volder på avling eller annen eiendom. Hvis det ikke innen rimelig tid kan fastslås hvem som er eier av reinen, er samtlige reineiere i den siidaen den skadegjørende reinen tilhører, ansvarlige for skaden én for alle og alle for én. Hvis det heller ikke innen rimelig tid kan fastslås hvilken siida den skadegjørende reinen tilhører, er samtlige reineiere som utøver reindrift i det distriktet som den skadegjørende reinen tilhører, ansvarlige én for alle og alle for én. Dette gjelder likevel ikke for reineiere som godtgjør at deres rein ikke har medvirket til skaden.
+>
+> For skader i områder der eieren har rett til å la rein beite, kan den skadelidte kreve erstatning dersom skaden skyldes feil eller forsømmelse fra reineieren.
+>
+> Kongen kan i forskrift avgrense området utenfor bestemt reinbeitedistrikt hvor solidarisk ansvar skal gjelde.
+>
+> For skade som voldes av rein som tilhører noen som i henhold til § 8, jf. fjellova § 17, utøver reindrift utenfor reinbeitedistrikt, er de som utøver reindrift innenfor området hvor den skadegjørende rein antas å høre hjemme, ansvarlig en for alle og alle for en.
+>
+> Ved utmålingen av erstatningen gjelder skadeserstatningsloven §§ 4-1, 5-1 og 5-2.
 >
 
 ## § 68
@@ -376,9 +426,13 @@ refid: "lov/2007-06-15-40"
 
 *§ 68 skal lyde:*
 
-> § 68.Hvem erstatningskrav kan rettes motKrav om erstatning kan rettes mot den som er ansvarlig for skaden etter § 67 første ledd. Dersom den ansvarlige er siidaen eller reinbeitedistriktet, kan kravet rettes mot henholdsvis siidaens styre eller kontaktperson, eller distriktsstyret ved styreleder.Dersom siidaen eller reinbeitedistriktet er ansvarlig for å betale erstatning, skal årsmøtet utlikne erstatningen på siidaens eller distriktets reineiere etter den enkelte reineiers reintall. Reineiere som godtgjør at deres rein ikke har medvirket til skaden, kan ikke pålegges å dekke noen del av erstatningen. Det utliknede erstatningsbeløpet er tvangsgrunnlag for utlegg.Godtgjøres det at det er rein fra en annen siida eller et annet distrikt som har voldt eller medvirket til skaden, kan det kreves regress overfor disse i samsvar med reglene i paragrafen her.
+> § 68. Hvem erstatningskrav kan rettes mot
 >
-> § 68.Hvem erstatningskrav kan rettes mot
+> Krav om erstatning kan rettes mot den som er ansvarlig for skaden etter § 67 første ledd. Dersom den ansvarlige er siidaen eller reinbeitedistriktet, kan kravet rettes mot henholdsvis siidaens styre eller kontaktperson, eller distriktsstyret ved styreleder.
+>
+> Dersom siidaen eller reinbeitedistriktet er ansvarlig for å betale erstatning, skal årsmøtet utlikne erstatningen på siidaens eller distriktets reineiere etter den enkelte reineiers reintall. Reineiere som godtgjør at deres rein ikke har medvirket til skaden, kan ikke pålegges å dekke noen del av erstatningen. Det utliknede erstatningsbeløpet er tvangsgrunnlag for utlegg.
+>
+> Godtgjøres det at det er rein fra en annen siida eller et annet distrikt som har voldt eller medvirket til skaden, kan det kreves regress overfor disse i samsvar med reglene i paragrafen her.
 >
 
 ## § 69
@@ -404,9 +458,9 @@ refid: "lov/2007-06-15-40"
 
 *§ 70 b skal lyde:*
 
-> § 70 b.Saksbehandlingsreglene i jordskiftelovaSaker jordskifteretten behandler etter § 62 a, skal følge reglene i jordskiftelova kapittel 6. Andre saker jordskifteretten behandler med hjemmel i loven her, skal følge reglene i jordskiftelova § 5-7. I tillegg gjelder reglene i § 70 a for saker jordskifteretten behandler etter § 70.
+> § 70 b. Saksbehandlingsreglene i jordskiftelova
 >
-> § 70 b.Saksbehandlingsreglene i jordskiftelova
+> Saker jordskifteretten behandler etter § 62 a, skal følge reglene i jordskiftelova kapittel 6. Andre saker jordskifteretten behandler med hjemmel i loven her, skal følge reglene i jordskiftelova § 5-7. I tillegg gjelder reglene i § 70 a for saker jordskifteretten behandler etter § 70.
 >
 
 ## § 71
@@ -478,7 +532,9 @@ refid: "lov/2007-06-15-40"
 
 *Ny § 82 a skal lyde:*
 
-> § 82 a.Forskrifter om tilskuddEtter retningslinjer fastsatt av Stortinget kan departementet fastsette forskrifter om fordeling, vilkår for utbetaling og tilbakebetaling av tilskudd etter reindriftsavtalen eller liknende tilskudd, herunder retting av feilutbetalt tilskudd, avkorting og tilbakeholdelse av tilskudd, og rente ved krav om tilbakebetaling.Er det gitt tilskudd med hjemmel i forskrifter etter første ledd, og det er fattet endelig vedtak om tilbakebetaling av tilskudd, er vedtaket tvangsgrunnlag for utlegg.
+> § 82 a. Forskrifter om tilskudd
 >
-> § 82 a.Forskrifter om tilskudd
+> Etter retningslinjer fastsatt av Stortinget kan departementet fastsette forskrifter om fordeling, vilkår for utbetaling og tilbakebetaling av tilskudd etter reindriftsavtalen eller liknende tilskudd, herunder retting av feilutbetalt tilskudd, avkorting og tilbakeholdelse av tilskudd, og rente ved krav om tilbakebetaling.
+>
+> Er det gitt tilskudd med hjemmel i forskrifter etter første ledd, og det er fattet endelig vedtak om tilbakebetaling av tilskudd, er vedtaket tvangsgrunnlag for utlegg.
 >

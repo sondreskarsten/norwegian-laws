@@ -27,17 +27,27 @@ refid: "lov/2018-04-20-8"
 
 > Kapittel 5A. Screening
 >
-> § 24 a.Behandling av personopplysninger for gjennomføring av screeningScreeningmyndigheten kan behandle personopplysninger, herunder særlige kategorier av personopplysninger, som er nødvendige for gjennomføring av oppgaver etter forordning (EU) 2024/1356, jf. § 8 første ledd nr. 6.Screeningmyndigheten skal uten hinder av taushetsplikt utlevere til utlendingsmyndighetene opplysninger som er nødvendige for utførelsen av deres oppgaver.
+> § 24 a. Behandling av personopplysninger for gjennomføring av screening
 >
-> § 24 a.Behandling av personopplysninger for gjennomføring av screening
+> Screeningmyndigheten kan behandle personopplysninger, herunder særlige kategorier av personopplysninger, som er nødvendige for gjennomføring av oppgaver etter forordning (EU) 2024/1356, jf. § 8 første ledd nr. 6.
 >
-> § 24 b.Utlendingens plikt til å være tilgjengeligUtlendinger som gjennomgår screening etter forordning (EU) 2024/1356, jf. § 8 første ledd nr. 6, skal være tilgjengelige for screeningmyndigheten på det stedet screeningmyndigheten gir anvisning på, frem til screeningen er avsluttet.
+> Screeningmyndigheten skal uten hinder av taushetsplikt utlevere til utlendingsmyndighetene opplysninger som er nødvendige for utførelsen av deres oppgaver.
 >
-> § 24 b.Utlendingens plikt til å være tilgjengelig
+> § 24 b. Utlendingens plikt til å være tilgjengelig
 >
-> § 24 c.Utlendingens opplysningsplikt. Bruk av tvangUtlendinger som gjennomgår screening, plikter å oppgi personopplysninger, herunder avgi biometriske opplysninger, i henhold til forordning (EU) 2024/1356 artikkel 9 nr. 2, jf. § 8 første ledd nr. 6. Biometriske opplysninger som allerede er innhentet etter utlendingsloven § 100, kan gjenbrukes for gjennomføring av screening.Politimesteren eller den politimesteren gir fullmakt, kan beslutte at biometriske opplysninger skal innhentes med tvang. Den politimesteren gir fullmakt, må være jurist.Tvang kan bare brukes når det er nødvendig og forholdsmessig.Forvaltningslovens regler om enkeltvedtak gjelder ikke for beslutninger om bruk av tvang etter bestemmelsen her.Utlendingen kan kreve spørsmålet om rettmessigheten av tvangsinngrepet brakt inn for retten. Screeningmyndigheten sørger for at utlendingen blir gjort kjent med denne retten. Ved slik domstolsbehandling gjelder bestemmelsene i straffeprosessloven kapittel 26 tilsvarende så langt de passer.
+> Utlendinger som gjennomgår screening etter forordning (EU) 2024/1356, jf. § 8 første ledd nr. 6, skal være tilgjengelige for screeningmyndigheten på det stedet screeningmyndigheten gir anvisning på, frem til screeningen er avsluttet.
 >
-> § 24 c.Utlendingens opplysningsplikt. Bruk av tvang
+> § 24 c. Utlendingens opplysningsplikt. Bruk av tvang
+>
+> Utlendinger som gjennomgår screening, plikter å oppgi personopplysninger, herunder avgi biometriske opplysninger, i henhold til forordning (EU) 2024/1356 artikkel 9 nr. 2, jf. § 8 første ledd nr. 6. Biometriske opplysninger som allerede er innhentet etter utlendingsloven § 100, kan gjenbrukes for gjennomføring av screening.
+>
+> Politimesteren eller den politimesteren gir fullmakt, kan beslutte at biometriske opplysninger skal innhentes med tvang. Den politimesteren gir fullmakt, må være jurist.
+>
+> Tvang kan bare brukes når det er nødvendig og forholdsmessig.
+>
+> Forvaltningslovens regler om enkeltvedtak gjelder ikke for beslutninger om bruk av tvang etter bestemmelsen her.
+>
+> Utlendingen kan kreve spørsmålet om rettmessigheten av tvangsinngrepet brakt inn for retten. Screeningmyndigheten sørger for at utlendingen blir gjort kjent med denne retten. Ved slik domstolsbehandling gjelder bestemmelsene i straffeprosessloven kapittel 26 tilsvarende så langt de passer.
 >
 
 ## § 1
@@ -127,9 +137,9 @@ refid: "lov/2018-04-20-8"
 
 *§ 18 skal lyde:*
 
-> § 18.DefinisjonMed grenseovervåking forstås overvåking av grenseovergangssteder og grensene på strekningene mellom grenseovergangssteder for å forhindre at personer omgår inn- og utreisekontrollen, for å avdekke uautoriserte grensepasseringer, bidra til skjerpet situasjonsbevissthet, bekjempe grensekryssende kriminalitet og iverksette tiltak mot personer som har passert grensen ulovlig.
+> § 18. Definisjon
 >
-> § 18.Definisjon
+> Med grenseovervåking forstås overvåking av grenseovergangssteder og grensene på strekningene mellom grenseovergangssteder for å forhindre at personer omgår inn- og utreisekontrollen, for å avdekke uautoriserte grensepasseringer, bidra til skjerpet situasjonsbevissthet, bekjempe grensekryssende kriminalitet og iverksette tiltak mot personer som har passert grensen ulovlig.
 >
 
 ## § 19
@@ -138,9 +148,9 @@ refid: "lov/2018-04-20-8"
 
 *§ 19 skal lyde:*
 
-> § 19.Overvåking av ytre Schengen-grensePolitiet kan overvåke ytre Schengen-grense med nærliggende områder, territorialfarvannet og tilstøtende sone samt ferdselen til og fra de overvåkede områdene.
+> § 19. Overvåking av ytre Schengen-grense
 >
-> § 19.Overvåking av ytre Schengen-grense
+> Politiet kan overvåke ytre Schengen-grense med nærliggende områder, territorialfarvannet og tilstøtende sone samt ferdselen til og fra de overvåkede områdene.
 >
 
 ## § 2
@@ -174,9 +184,15 @@ refid: "lov/2018-04-20-8"
 
 *Ny § 22 a skal lyde:*
 
-> § 22 a.Testing og utviklingOpplysninger som behandles i medhold av § 22 første og annet ledd, kan behandles for å utvikle og teste informasjonssystemer til bruk for grensekontrollformål dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysningene skal ikke brukes til testing og utvikling lenger enn nødvendig.Politiet kan også lagre ansiktsbilder og fingeravtrykk innhentet i medhold av § 22 tredje ledd i inntil seks måneder dersom det er nødvendig for å teste og utvikle informasjonssystemer til bruk for grensekontrollformål, dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysninger som lagres etter dette leddet, kan bare behandles til dette formålet.Opplysninger som behandles etter annet ledd i bestemmelsen her, skal holdes atskilt. Tilgang skal bare gis til personer som er særskilt bemyndiget. Bemyndigelse gis av den behandlingsansvarlige.Ansiktsbilder og fingeravtrykk skal slettes i form av tilintetgjøring, jf. arkivlova § 13 annet ledd.
+> § 22 a. Testing og utvikling
 >
-> § 22 a.Testing og utvikling
+> Opplysninger som behandles i medhold av § 22 første og annet ledd, kan behandles for å utvikle og teste informasjonssystemer til bruk for grensekontrollformål dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysningene skal ikke brukes til testing og utvikling lenger enn nødvendig.
+>
+> Politiet kan også lagre ansiktsbilder og fingeravtrykk innhentet i medhold av § 22 tredje ledd i inntil seks måneder dersom det er nødvendig for å teste og utvikle informasjonssystemer til bruk for grensekontrollformål, dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysninger som lagres etter dette leddet, kan bare behandles til dette formålet.
+>
+> Opplysninger som behandles etter annet ledd i bestemmelsen her, skal holdes atskilt. Tilgang skal bare gis til personer som er særskilt bemyndiget. Bemyndigelse gis av den behandlingsansvarlige.
+>
+> Ansiktsbilder og fingeravtrykk skal slettes i form av tilintetgjøring, jf. arkivlova § 13 annet ledd.
 >
 
 ## § 25
@@ -286,16 +302,6 @@ refid: "lov/2018-04-20-8"
 
 > Følgende rettsakter gjelder som lov:Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret ved forordning (EU) 2017/2225, forordning (EU) 2017/458, forordning (EU) 2018/1240, forordning (EU) 2019/817 og forordning (EU) 2021/1134Forordning (EU) 2017/2226 om etableringen av inn- og utreisesystemet (EES-forordningen), som endret ved forordning (EU) 2018/1240, forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152Rådsdirektiv 2004/82/EF om transportselskapers plikt til å fremsende opplysninger om passasjerer (API-direktivet)Forordning (EU) 2019/817 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for grenser og visum, som endret ved forordning (EU) 2021/1134 og forordning (EU) 2021/1152Forordning (EU) 2019/818 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for politisamarbeid og rettslig samarbeid, asyl og migrasjon, som endret ved forordning (EU) 2021/1133 og forordning (EU) 2021/1150.
 >
-> Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret ved forordning (EU) 2017/2225, forordning (EU) 2017/458, forordning (EU) 2018/1240, forordning (EU) 2019/817 og forordning (EU) 2021/1134
->
-> Forordning (EU) 2017/2226 om etableringen av inn- og utreisesystemet (EES-forordningen), som endret ved forordning (EU) 2018/1240, forordning (EU) 2019/817, forordning (EU) 2021/1134 og forordning (EU) 2021/1152
->
-> Rådsdirektiv 2004/82/EF om transportselskapers plikt til å fremsende opplysninger om passasjerer (API-direktivet)
->
-> Forordning (EU) 2019/817 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for grenser og visum, som endret ved forordning (EU) 2021/1134 og forordning (EU) 2021/1152
->
-> Forordning (EU) 2019/818 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for politisamarbeid og rettslig samarbeid, asyl og migrasjon, som endret ved forordning (EU) 2021/1133 og forordning (EU) 2021/1150.
->
 
 ### 2025-06-20 — lov/2025-06-20-85
 
@@ -303,68 +309,10 @@ refid: "lov/2018-04-20-8"
 
 > Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret ved:forordning (EU) 2017/458,forordning (EU) 2017/2225,forordning (EU) 2018/1240,forordning (EU) 2019/817,forordning (EU) 2021/1134, ogforordning (EU) 2024/1717.
 >
-> forordning (EU) 2017/458,
->
-> forordning (EU) 2017/2225,
->
-> forordning (EU) 2018/1240,
->
-> forordning (EU) 2019/817,
->
-> forordning (EU) 2021/1134, og
->
-> forordning (EU) 2024/1717.
->
 
 ### 2026-06-12 — lov/2026-06-12-31
 
 *§ 8 første ledd skal lyde:*
 
 > Følgende rettsakter gjelder som lov:Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret vedforordning (EU) 2017/458forordning (EU) 2017/2225forordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2024/1717Forordning (EU) 2017/2226 om etableringen av inn- og utreisesystemet (EES-forordningen), som endret vedforordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356Rådsdirektiv 2004/82/EF om transportselskapers plikt til å fremsende opplysninger om passasjerer (API-direktivet)Forordning (EU) 2019/817 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for grenser og visum, som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356Forordning (EU) 2019/818 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for politisamarbeid og rettslig samarbeid, asyl og migrasjon, som endret vedforordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2024/1358Forordning (EU) 2024/1356 om innføring av screening av tredjelandsborgere ved de ytre grensene (screeningforordningen).
->
-> Forordning (EU) 2016/399 om bevegelsen av personer over grenser (grenseforordningen), som endret vedforordning (EU) 2017/458forordning (EU) 2017/2225forordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2024/1717
->
-> forordning (EU) 2017/458
->
-> forordning (EU) 2017/2225
->
-> forordning (EU) 2018/1240
->
-> forordning (EU) 2019/817
->
-> forordning (EU) 2021/1134
->
-> forordning (EU) 2024/1717
->
-> Forordning (EU) 2017/2226 om etableringen av inn- og utreisesystemet (EES-forordningen), som endret vedforordning (EU) 2018/1240forordning (EU) 2019/817forordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356
->
-> forordning (EU) 2018/1240
->
-> forordning (EU) 2019/817
->
-> forordning (EU) 2021/1134
->
-> forordning (EU) 2021/1152
->
-> forordning (EU) 2024/1356
->
-> Rådsdirektiv 2004/82/EF om transportselskapers plikt til å fremsende opplysninger om passasjerer (API-direktivet)
->
-> Forordning (EU) 2019/817 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for grenser og visum, som endret vedforordning (EU) 2021/1134forordning (EU) 2021/1152forordning (EU) 2024/1356
->
-> forordning (EU) 2021/1134
->
-> forordning (EU) 2021/1152
->
-> forordning (EU) 2024/1356
->
-> Forordning (EU) 2019/818 om opprettelse av en ramme for interoperabilitet mellom EU-informasjonssystemer for politisamarbeid og rettslig samarbeid, asyl og migrasjon, som endret vedforordning (EU) 2021/1133forordning (EU) 2021/1150forordning (EU) 2024/1358
->
-> forordning (EU) 2021/1133
->
-> forordning (EU) 2021/1150
->
-> forordning (EU) 2024/1358
->
-> Forordning (EU) 2024/1356 om innføring av screening av tredjelandsborgere ved de ytre grensene (screeningforordningen).
 >

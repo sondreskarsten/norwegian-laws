@@ -7,6 +7,13 @@ refid: "lov/1902-05-22-13"
 
 ## (annet)
 
+### 2002-08-30 — lov/2002-08-30-67
+
+*I lov 22. mai 1902 nr. 13 Militær Straffelov skal § 20 annet punktum lyde:*
+
+> For øvrig får reglene om rettighetstap i den alminnelige straffelovs §§ 29-32 tilsvarende anvendelse.
+>
+
 ### 2008-03-07 — lov/2008-03-07-4
 
 *§§ 80-86 og §§ 90-94 a oppheves.*

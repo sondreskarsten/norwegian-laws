@@ -7,6 +7,13 @@ refid: "lov/1949-07-28-26"
 
 ## (annet)
 
+### 2009-12-18 — lov/2009-12-18-134
+
+*I lov 28. juli 1949 nr. 26 om Statens Pensjonskasse skal § 26 nytt sjette ledd lyde:*
+
+> Løpende alderspensjon faller likevel ikke bort eller reduseres etter tredje ledd ved beordret tjeneste i forbindelse med influensa A (H1N1), jf. lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 1-3 bokstav a til c. Frivillig tjeneste i offentlig helsetjeneste som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med influensa A (H1N1), likestilles med beordret tjeneste.
+>
+
 ### 2010-01-15 — lov/2010-01-15-1
 
 *Nåværende tredje punktum blir nytt fjerde punktum.*
@@ -29,6 +36,13 @@ refid: "lov/1949-07-28-26"
 ### 2011-01-01 — lov/2010-06-25-29
 
 *Nåværende tredje ledd blir nytt fjerde ledd.*
+
+### 2011-11-25 — lov/2011-11-25-43
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 42 tredje ledd nytt fjerde punktum lyde:*
+
+> Dersom medlemmet dør før omregningstidspunktet ved 65 eller 67 år, skal pensjonsgrunnlaget ved beregningen av enke- eller enkemannspensjon og barnepensjon etter kapitel 7 omregnes ved at det oppreguleres med lønnsveksten fra fratredelsestidspunktet og fram til virkningstidspunktet for pensjonen.
+>
 
 ### 2014-03-07 — lov/2014-03-07-5
 
@@ -126,6 +140,31 @@ refid: "lov/1949-07-28-26"
 ### 2014-12-19 — lov/2014-12-19-73
 
 *Nåværende sjette ledd blir femte ledd.*
+
+### 2016-06-17 — lov/2016-06-17-25
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 44 nytt ellevte ledd lyde:*
+
+> Ved overgang til stilling med en lavere aldersgrense legges den nye aldersgrensen til grunn for pensjonsberegningen etter loven her etter tre års tjeneste i den nye stillingen. Departementet kan i forskrift fastsette nærmere regler.
+>
+
+### 2016-12-20 — lov/2016-12-20-105
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 31 femte ledd første punktum lyde:*
+
+> Dersom medlemmet beholder retten til opprinnelig uføregrad etter folketrygdloven § 12-10 tredje ledd (hvilende rett), beholder medlemmet også retten til opprinnelig uføregrad etter loven her i samme tidsrom.
+>
+
+### 2017-12-15 — lov/2017-12-15-104
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 26 første ledd fjerde punktum oppheves.*
+
+### 2018-01-01 — lov/2017-06-16-43
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 31 tredje ledd lyde:*
+
+> Dersom arbeidsavklaringspenger etter folketrygdloven kapittel 11 er redusert eller stanset av andre grunner enn ved samtidig arbeid etter folketrygdloven § 11-23, kan midlertidig uførepensjon reduseres eller stanses tilsvarende.
+>
 
 ### 2019-06-21 — lov/2019-06-21-26
 
@@ -296,6 +335,29 @@ refid: "lov/1949-07-28-26"
 > Departementet kan gi forskrift om gjennomføringen av denne paragrafen.
 >
 
+### 2020-03-20 — lov/2020-03-20-3
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 26 nytt sjette ledd lyde:*
+
+> Løpende alderspensjon faller likevel ikke bort eller reduseres etter tredje ledd ved beordret tjeneste i forbindelse med covid-19, jf. lov 23. juni 2000 nr. 56 om helsemessig og sosial beredskap § 1-3 første ledd bokstav a til c. Frivillig tjeneste i offentlig helsetjeneste som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
+>
+
+### 2020-12-18 — lov/2020-12-18-138
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 26 sjette ledd lyde:*
+
+> Løpende alderspensjon faller likevel ikke bort eller reduseres etter tredje ledd ved beordret tjeneste i forbindelse med covid-19, jf. helseberedskapsloven § 1-3 første ledd bokstav a til c og bokstav h. Frivillig tjeneste i offentlig helsetjeneste etter helseberedskapsloven § 1-3 første ledd bokstav a til c som er nødvendig for å møte et ekstraordinært personellbehov i forbindelse med covid-19, likestilles med beordret tjeneste.
+>
+
+### 2022-11-25 — lov/2022-11-25-86
+
+*I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 46 tredje og nytt fjerde ledd lyde:*
+
+> Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.
+>
+> Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i tredje ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b.
+>
+
 ### 2024-04-12 — lov/2024-04-12-15
 
 *I lov 28. juli 1949 nr. 26 om Statens pensjonskasse skal § 24 tredje ledd tredje og fjerde punktum lyde:*
@@ -321,41 +383,105 @@ refid: "lov/1949-07-28-26"
 
 > Kapittel 5 b Alderspensjon – tidligpensjon og særalderspåslag til personer med særaldersgrense
 >
-> § 26 m.VirkeområdeKapittelet gjelder alderspensjon for personer født i 1963 eller senere og omfatter tidligpensjon og særalderspåslag til personer med lavere aldersgrense enn den alminnelige aldersgrensen etter lov om aldersgrenser for statsansatte m.fl. (særaldersgrense).
+> § 26 m. Virkeområde
 >
-> § 26 m.Virkeområde
+> Kapittelet gjelder alderspensjon for personer født i 1963 eller senere og omfatter tidligpensjon og særalderspåslag til personer med lavere aldersgrense enn den alminnelige aldersgrensen etter lov om aldersgrenser for statsansatte m.fl. (særaldersgrense).
 >
-> § 26 n.Særskilt tidligpensjonsordning til personer i årskullene 1963 til 1969Personer født i 1963 og 1964 med særaldersgrense to år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen ved eller etter fylte 65 år, se likevel fjerde ledd. Rett til tidligpensjon etter første punktum har også personer født i 1963 eller 1964 som i løpet av de siste 10 årene har gått over fra en stilling med lavere aldersgrense til en stilling med høyere aldersgrense nårvedkommende har hatt lavere aldersgrense i minst 15 år,den lavere aldersgrensen er begrunnet i forhold som er omhandlet i lov om aldersgrenser for statsansatte m.fl. § 2 første ledd andre punktum bokstav a, ogvedkommende ville hatt rett til alderspensjon i den tidligere stillingen.Personer født i perioden 1963 til 1966 med særaldersgrense fire år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen ved eller etter fylte 63 år, se likevel fjerde ledd.Personer født i perioden 1963 til 1969 med særaldersgrense syv år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen ved eller etter fylte 60 år, se likevel fjerde ledd.Fratrer et medlem tre år eller kortere tid før alderen nevnt i første til tredje ledd, har vedkommende rett til tidligpensjon dersom summen av tjenestetid og alder er minst 85 år.Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 5 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.Tidligpensjonen løper fra den første dagen i måneden etter at medlemmet ikke mottar lønn. For øvrig gjelder bestemmelsene om utbetaling i § 26 første ledd andre og tredje punktum og andre ledd.Tidligpensjonen gis fram til medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden.Tidligpensjonen beregnes etter bestemmelsene i § 22 første, andre, fjerde og femte ledd, § 25 og § 26 tredje ledd tredje og fjerde punktum, fjerde og femte ledd.
+> § 26 n. Særskilt tidligpensjonsordning til personer i årskullene 1963 til 1969
 >
-> § 26 n.Særskilt tidligpensjonsordning til personer i årskullene 1963 til 1969
+> Personer født i 1963 og 1964 med særaldersgrense to år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen ved eller etter fylte 65 år, se likevel fjerde ledd. Rett til tidligpensjon etter første punktum har også personer født i 1963 eller 1964 som i løpet av de siste 10 årene har gått over fra en stilling med lavere aldersgrense til en stilling med høyere aldersgrense nårvedkommende har hatt lavere aldersgrense i minst 15 år,den lavere aldersgrensen er begrunnet i forhold som er omhandlet i lov om aldersgrenser for statsansatte m.fl. § 2 første ledd andre punktum bokstav a, ogvedkommende ville hatt rett til alderspensjon i den tidligere stillingen.
 >
-> § 26 o.Tidligpensjon til personer med særaldersgrense fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygdenMedlemmer født i 1967 eller senere som helt eller delvis har fratrådt en medlemspliktig stilling der særaldersgrensen er fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden, har rett til tidligpensjon. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av tidligpensjon, har hatt medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i en medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak.Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 5 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.Personer i årskullene 1967 til 1969 har rett til tidligpensjon før særaldersgrensen dersom summen av tjenestetid og alder er minst 85 år. Personer født i januar 1967 har rett til tidligpensjon inntil tre år før særaldersgrensen. For hver måned medlemmets fødselsmåned er senere enn januar 1967, er første mulige uttakstidspunkt for tidligpensjon én måned senere enn tidspunktet etter andre punktum. Personer født i 1970 eller senere har rett til tidligpensjon tidligst fra særaldersgrensen.Full tidligpensjon utgjør 66 prosent av pensjonsgrunnlaget. Full tidligpensjon krever at medlemmet har minst 30 års samlet tjenestetid. Er tjenestetiden kortere enn 30 år, skal pensjonen avkortes forholdsmessig.Har medlemmet en medlemspliktig stilling etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent med fratrekk for uføregraden. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og uføregraden. Dersom uføregraden for den midlertidige uførepensjonen, uførepensjonen og uføretrygden er forskjellig, skal den høyeste uføregraden legges til grunn.Ved endringer i forhold som nevnt i femte ledd skal det fastsettes en ny uttaksgrad. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.
+> Personer født i perioden 1963 til 1966 med særaldersgrense fire år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen ved eller etter fylte 63 år, se likevel fjerde ledd.
 >
-> § 26 o.Tidligpensjon til personer med særaldersgrense fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden
+> Personer født i perioden 1963 til 1969 med særaldersgrense syv år før alderen for ubetinget rett til alderspensjon fra folketrygden har rett til tidligpensjon når de fratrer stillingen ved eller etter fylte 60 år, se likevel fjerde ledd.
 >
-> § 26 p.Tidligpensjon til personer med særaldersgrense syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygdenMedlemmer som er født i 1970 eller senere som helt eller delvis har fratrådt en medlemspliktig stilling der særaldersgrensen er syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden, har rett til tidligpensjon. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av tidligpensjon, har hatt medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak.Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 5 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.Personer i årskullene 1970 til 1972 har rett til tidligpensjon før særaldersgrensen dersom summen av tjenestetid og alder er minst 85 år. Personer født i januar 1970 har rett til tidligpensjon inntil tre år før særaldersgrensen. For hver måned medlemmets fødselsmåned er senere enn januar 1970, er første mulige uttakstidspunkt for tidligpensjon én måned senere enn tidspunktet etter andre punktum. Personer født i 1973 eller senere har rett til tidligpensjon tidligst fra særaldersgrensen.Full tidligpensjon utgjør 66 prosent av pensjonsgrunnlaget. Full tidligpensjon krever at medlemmet har minst 30 års samlet tjenestetid. Er tjenestetiden kortere enn 30 år, skal pensjonen avkortes forholdsmessig.Har medlemmet en medlemspliktig stilling etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent med fratrekk for uføregraden. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og uføregraden. Dersom uføregraden for den midlertidige uførepensjonen, uførepensjonen og uføretrygden er forskjellig, skal den høyeste uføregraden legges til grunn.Ved endringer i forhold som nevnt i femte ledd skal det fastsettes en ny uttaksgrad. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.
+> Fratrer et medlem tre år eller kortere tid før alderen nevnt i første til tredje ledd, har vedkommende rett til tidligpensjon dersom summen av tjenestetid og alder er minst 85 år.
 >
-> § 26 p.Tidligpensjon til personer med særaldersgrense syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden
+> Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 5 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.
 >
-> § 26 q.Reduksjon av tidligpensjon mot pensjonsgivende inntektNår uttaksgraden fastsettes etter § 26 o og § 26 p, skal det fastsettes en inntektsgrense. Inntektsgrensen per kalenderår er pensjonsgrunnlaget i en medlemspliktig stilling etter uttak, tillagt 2,7 ganger folketrygdens grunnbeløp. Ved endring i pensjonsgrunnlaget i en medlemspliktig stilling etter uttak skal inntektsgrensen fastsettes på nytt. Inntektsgrensen skal periodiseres i uttaksåret og opphørsåret avhengig av hvor mange måneder av året det utbetales tidligpensjon. Ved endring av inntektsgrensen underveis i et kalenderår skal det tas hensyn til antallet måneder med hver inntektsgrense.Dersom medlemmets inntekt overstiger inntektsgrensen etter første ledd, skal pensjonen reduseres tilsvarende den delen av inntekten som overstiger inntektsgrensen multiplisert med 66 prosent justert med tjenestetidsbrøken for tidligpensjonen. Ved flere deluttak skal den laveste tjenestetidsbrøken legges til grunn for reduksjonen. Som inntekt regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet. Det skal gjøres unntak for inntekt fra en avsluttet aktivitet. Dersom tidligpensjonen er gradert på grunn av mottak av midlertidig uførepensjon eller uførepensjon, skal arbeidsavklaringspenger etter folketrygdloven kapittel 11 ikke medføre reduksjon av tidligpensjonen.Medlemmet skal opplyse Pensjonskassen om forventet inntekt og om endringer i inntekten. Har medlemmet fått utbetalt for lite eller for mye pensjon, skal det foretas et etteroppgjør. Er det utbetalt for lite pensjon, skal differansen etterbetales som et engangsbeløp. For mye utbetalt pensjon kan inndrives uten hensyn til skyld og kan avregnes ved å trekke i framtidige utbetalinger av uførepensjon og alderspensjon fra Pensjonskassen. Krav om tilbakekreving av for mye utbetalt pensjon er tvangsgrunnlag for utlegg.Departementet kan gi forskrift om reduksjon av tidligpensjon, periodisering og etteroppgjør.
+> Tidligpensjonen løper fra den første dagen i måneden etter at medlemmet ikke mottar lønn. For øvrig gjelder bestemmelsene om utbetaling i § 26 første ledd andre og tredje punktum og andre ledd.
 >
-> § 26 q.Reduksjon av tidligpensjon mot pensjonsgivende inntekt
+> Tidligpensjonen gis fram til medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden.
 >
-> § 26 r.SæralderspåslagMedlemmer født i 1963 eller senere som har fratrådt medlemspliktig stilling med minst 10 prosent målt i forhold til full stilling, har rett til særalderspåslag. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av særalderspåslag, har hatt en medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak. Vilkåret gjelder ikke for personer som har mottatt tidligpensjon etter dette kapittelet eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.Det er et vilkår for rett til særalderspåslag etter denne paragrafen at medlemmet ikke mottar tidligpensjon etter dette kapittelet, tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning eller avtalefestet pensjon som en tidligpensjonsordning.Særalderspåslaget skal beregnes som en prosentandel av pensjonsgrunnlaget. Fullt særalderspåslag skal være 7,7 prosent for stillinger med særaldersgrense syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden, 6,5 prosent for stillinger med særaldersgrense fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden og 5,8 prosent for stillinger med særaldersgrense to år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden. Fullt særalderspåslag krever at medlemmet har minst 30 års tjenestetid. Er tjenestetiden kortere enn 30 år, avkortes særalderspåslaget forholdsmessig.Har medlemmet en medlemspliktig stilling etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt være 100 prosent med fratrekk for høyeste uføregrad etter uttaket. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter uttaket. Dersom medlemmet mottar særalderspåslag etter mottak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent fratrukket stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter særaldersgrensen. Dersom uføregraden for midlertidig uførepensjon, uførepensjon og uføretrygd er forskjellig, skal den høyeste uføregraden legges til grunn.Ved endringer i forhold som nevnt i fjerde ledd skal det fastsettes en ny uttaksgrad. Det skal likevel ikke fastsettes en ny uttaksgrad ved økt stillingsandel i den medlemspliktige stillingen etter uttak. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.Særalderspåslaget utbetales tidligst fra tidspunktet medlemmet når laveste uttaksalder for alderspensjon fra folketrygden.
+> Tidligpensjonen beregnes etter bestemmelsene i § 22 første, andre, fjerde og femte ledd, § 25 og § 26 tredje ledd tredje og fjerde punktum, fjerde og femte ledd.
 >
-> § 26 r.Særalderspåslag
+> § 26 o. Tidligpensjon til personer med særaldersgrense fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden
 >
-> § 26 s.Livsvarig reduksjon av særalderspåslagNår uttaksgraden av særalderspåslaget fastsettes, skal det fastsettes en inntektsgrense. Inntektsgrensen per kalenderår er pensjonsgrunnlaget i en medlemspliktig stilling etter uttak, tillagt folketrygdens grunnbeløp. Ved endring i pensjonsgrunnlaget i en medlemspliktig stilling etter uttak skal inntektsgrensen fastsettes på nytt. Inntektsgrensen skal likevel ikke fastsettes på nytt ved økt pensjonsgrunnlag som følge av økt stillingsandel i den medlemspliktige stillingen etter uttaket. Inntektsgrensen skal periodiseres i uttaksåret avhengig av hvor mange måneder i året det utbetales særalderspåslag. Ved endring av inntektsgrensen underveis i et kalenderår skal det tas hensyn til antallet måneder med hver inntektsgrense.Det livsvarige nivået på særalderspåslaget reduseres for hvert år medlemmet har inntekt over inntektsgrensen. Særalderspåslaget skal reduseres med en brøk hvor inntekten over inntektsgrensen er telleren og tre ganger pensjonsgrunnlaget for særalderspåslaget er nevneren. Reduksjonen får virkning fra året etter at skatteoppgjøret foreligger. Som inntekt regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet. Det skal gjøres unntak for inntekt fra en avsluttet aktivitet. Dersom særalderspåslag er gradert på grunn av mottak av midlertidig uførepensjon eller uførepensjon, skal arbeidsavklaringspenger etter folketrygdloven kapittel 11 ikke medføre reduksjon av særalderspåslaget.Ved uttak av særalderspåslag senere enn to år før medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden, uten at det tidligere er mottatt tidligpensjon etter dette kapittelet, alderspensjon etter § 20 a slik den lød før 1. januar 2026, eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning, reduseres også det livsvarige nivået på særalderspåslaget med 1/36 av ytelsen for hver måned det senere uttaket skjer.Departementet kan gi forskrift om reduksjon av særalderspåslag og periodisering.
+> Medlemmer født i 1967 eller senere som helt eller delvis har fratrådt en medlemspliktig stilling der særaldersgrensen er fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden, har rett til tidligpensjon. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av tidligpensjon, har hatt medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i en medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak.
 >
-> § 26 s.Livsvarig reduksjon av særalderspåslag
+> Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 5 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.
 >
-> § 26 t.Flere stillinger med ulik særaldersgrenseFor medlemmer som har hatt flere etterfølgende stillinger med ulike særaldersgrenser, skal den siste særaldersgrensen legges til grunn, se likevel § 44 ellevte ledd.For medlemmer som har samtidige stillinger med ulike særaldersgrenser, gis tidligpensjon og særalderspåslag med utgangspunkt i den laveste aldersgrensen, forutsatt at medlemmet har hatt en stilling med den særaldersgrensen som utløser retten til ytelsen, i minst tre år før vedkommende når særaldersgrensen eller før fratreden med rett til uttak av ytelsen.Paragrafen her gjelder ikke personer som omfattes av § 26 n.
+> Personer i årskullene 1967 til 1969 har rett til tidligpensjon før særaldersgrensen dersom summen av tjenestetid og alder er minst 85 år. Personer født i januar 1967 har rett til tidligpensjon inntil tre år før særaldersgrensen. For hver måned medlemmets fødselsmåned er senere enn januar 1967, er første mulige uttakstidspunkt for tidligpensjon én måned senere enn tidspunktet etter andre punktum. Personer født i 1970 eller senere har rett til tidligpensjon tidligst fra særaldersgrensen.
 >
-> § 26 t.Flere stillinger med ulik særaldersgrense
+> Full tidligpensjon utgjør 66 prosent av pensjonsgrunnlaget. Full tidligpensjon krever at medlemmet har minst 30 års samlet tjenestetid. Er tjenestetiden kortere enn 30 år, skal pensjonen avkortes forholdsmessig.
 >
-> § 26 u.Uttak av tidligpensjon og særalderspåslag – opphør og endringerTidligpensjon etter § 26 o og tidligpensjon etter § 26 p utbetales tidligst fra og med måneden etter at meldingen om uttak blir gitt, men likevel tidligst fra måneden etter at retten til tidligpensjon inntreffer. Tidligpensjonen skal utbetales til og med måneden medlemmet når alderen for ubetinget rett til uttak av alderspensjon fra folketrygden. Dersom et medlem som mottar tidligpensjon, dør før vedkommende når alderen for ubetinget rett til alderspensjon fra folketrygden, opphører tidligpensjonen ved utgangen av måneden etter måneden medlemmet døde.For medlemmer som mottar tidligpensjon etter dette kapittelet eller tilsvarende tidligpensjon fra en annen offentlig tjenestepensjonsordning, utbetales særalderspåslaget fra måneden etter siste utbetaling av tidligpensjon. Særalderspåslaget utbetales ellers tidligst fra og med måneden etter at meldingen om uttak blir gitt, men likevel tidligst fra måneden etter at retten til særalderspåslag inntreffer. Særalderspåslaget opphører ved utgangen av måneden etter måneden medlemmet døde.Endringer i tidligpensjon og særalderspåslag får virkning fra måneden etter at forholdet som førte til endringen, inntraff, se likevel § 26 s andre ledd tredje punktum.
+> Har medlemmet en medlemspliktig stilling etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent med fratrekk for uføregraden. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og uføregraden. Dersom uføregraden for den midlertidige uførepensjonen, uførepensjonen og uføretrygden er forskjellig, skal den høyeste uføregraden legges til grunn.
 >
-> § 26 u.Uttak av tidligpensjon og særalderspåslag – opphør og endringer
+> Ved endringer i forhold som nevnt i femte ledd skal det fastsettes en ny uttaksgrad. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.
+>
+> § 26 p. Tidligpensjon til personer med særaldersgrense syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden
+>
+> Medlemmer som er født i 1970 eller senere som helt eller delvis har fratrådt en medlemspliktig stilling der særaldersgrensen er syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden, har rett til tidligpensjon. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av tidligpensjon, har hatt medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak.
+>
+> Det er et vilkår for rett til tidligpensjon etter denne paragrafen at medlemmet ikke mottar eller har mottatt særalderspåslag og ikke mottar avtalefestet pensjon, pensjon etter kapittel 5 a eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.
+>
+> Personer i årskullene 1970 til 1972 har rett til tidligpensjon før særaldersgrensen dersom summen av tjenestetid og alder er minst 85 år. Personer født i januar 1970 har rett til tidligpensjon inntil tre år før særaldersgrensen. For hver måned medlemmets fødselsmåned er senere enn januar 1970, er første mulige uttakstidspunkt for tidligpensjon én måned senere enn tidspunktet etter andre punktum. Personer født i 1973 eller senere har rett til tidligpensjon tidligst fra særaldersgrensen.
+>
+> Full tidligpensjon utgjør 66 prosent av pensjonsgrunnlaget. Full tidligpensjon krever at medlemmet har minst 30 års samlet tjenestetid. Er tjenestetiden kortere enn 30 år, skal pensjonen avkortes forholdsmessig.
+>
+> Har medlemmet en medlemspliktig stilling etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent med fratrekk for uføregraden. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av tidligpensjon, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og uføregraden. Dersom uføregraden for den midlertidige uførepensjonen, uførepensjonen og uføretrygden er forskjellig, skal den høyeste uføregraden legges til grunn.
+>
+> Ved endringer i forhold som nevnt i femte ledd skal det fastsettes en ny uttaksgrad. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.
+>
+> § 26 q. Reduksjon av tidligpensjon mot pensjonsgivende inntekt
+>
+> Når uttaksgraden fastsettes etter § 26 o og § 26 p, skal det fastsettes en inntektsgrense. Inntektsgrensen per kalenderår er pensjonsgrunnlaget i en medlemspliktig stilling etter uttak, tillagt 2,7 ganger folketrygdens grunnbeløp. Ved endring i pensjonsgrunnlaget i en medlemspliktig stilling etter uttak skal inntektsgrensen fastsettes på nytt. Inntektsgrensen skal periodiseres i uttaksåret og opphørsåret avhengig av hvor mange måneder av året det utbetales tidligpensjon. Ved endring av inntektsgrensen underveis i et kalenderår skal det tas hensyn til antallet måneder med hver inntektsgrense.
+>
+> Dersom medlemmets inntekt overstiger inntektsgrensen etter første ledd, skal pensjonen reduseres tilsvarende den delen av inntekten som overstiger inntektsgrensen multiplisert med 66 prosent justert med tjenestetidsbrøken for tidligpensjonen. Ved flere deluttak skal den laveste tjenestetidsbrøken legges til grunn for reduksjonen. Som inntekt regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet. Det skal gjøres unntak for inntekt fra en avsluttet aktivitet. Dersom tidligpensjonen er gradert på grunn av mottak av midlertidig uførepensjon eller uførepensjon, skal arbeidsavklaringspenger etter folketrygdloven kapittel 11 ikke medføre reduksjon av tidligpensjonen.
+>
+> Medlemmet skal opplyse Pensjonskassen om forventet inntekt og om endringer i inntekten. Har medlemmet fått utbetalt for lite eller for mye pensjon, skal det foretas et etteroppgjør. Er det utbetalt for lite pensjon, skal differansen etterbetales som et engangsbeløp. For mye utbetalt pensjon kan inndrives uten hensyn til skyld og kan avregnes ved å trekke i framtidige utbetalinger av uførepensjon og alderspensjon fra Pensjonskassen. Krav om tilbakekreving av for mye utbetalt pensjon er tvangsgrunnlag for utlegg.
+>
+> Departementet kan gi forskrift om reduksjon av tidligpensjon, periodisering og etteroppgjør.
+>
+> § 26 r. Særalderspåslag
+>
+> Medlemmer født i 1963 eller senere som har fratrådt medlemspliktig stilling med minst 10 prosent målt i forhold til full stilling, har rett til særalderspåslag. Det er et vilkår at vedkommende i løpet av de siste 15 årene før særaldersgrensen, eller før fratreden med rett til uttak av særalderspåslag, har hatt en medlemspliktig stilling med særaldersgrense i minst 10 år. Tid med midlertidig uførepensjon eller uførepensjon regnes ikke som tid i medlemspliktig stilling. Dersom vilkåret har vært oppfylt ved ett uttak, skal det anses som oppfylt også ved senere uttak. Vilkåret gjelder ikke for personer som har mottatt tidligpensjon etter dette kapittelet eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning.
+>
+> Det er et vilkår for rett til særalderspåslag etter denne paragrafen at medlemmet ikke mottar tidligpensjon etter dette kapittelet, tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning eller avtalefestet pensjon som en tidligpensjonsordning.
+>
+> Særalderspåslaget skal beregnes som en prosentandel av pensjonsgrunnlaget. Fullt særalderspåslag skal være 7,7 prosent for stillinger med særaldersgrense syv år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden, 6,5 prosent for stillinger med særaldersgrense fire år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden og 5,8 prosent for stillinger med særaldersgrense to år lavere enn alderen for ubetinget rett til uttak av alderspensjon fra folketrygden. Fullt særalderspåslag krever at medlemmet har minst 30 års tjenestetid. Er tjenestetiden kortere enn 30 år, avkortes særalderspåslaget forholdsmessig.
+>
+> Har medlemmet en medlemspliktig stilling etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen. Mottar medlemmet midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt være 100 prosent med fratrekk for høyeste uføregrad etter uttaket. Dersom medlemmet både har en medlemspliktig stilling og mottar midlertidig uførepensjon, uførepensjon eller uføretrygd etter uttak av særalderspåslag, skal uttaksgraden maksimalt settes til 100 prosent med fratrekk for stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter uttaket. Dersom medlemmet mottar særalderspåslag etter mottak av tidligpensjon, skal uttaksgraden maksimalt være 100 prosent fratrukket stillingsandelen i den medlemspliktige stillingen og høyeste uføregrad etter særaldersgrensen. Dersom uføregraden for midlertidig uførepensjon, uførepensjon og uføretrygd er forskjellig, skal den høyeste uføregraden legges til grunn.
+>
+> Ved endringer i forhold som nevnt i fjerde ledd skal det fastsettes en ny uttaksgrad. Det skal likevel ikke fastsettes en ny uttaksgrad ved økt stillingsandel i den medlemspliktige stillingen etter uttak. Dersom uttaksgraden økes, skal det beregnes et nytt deluttak for økningen.
+>
+> Særalderspåslaget utbetales tidligst fra tidspunktet medlemmet når laveste uttaksalder for alderspensjon fra folketrygden.
+>
+> § 26 s. Livsvarig reduksjon av særalderspåslag
+>
+> Når uttaksgraden av særalderspåslaget fastsettes, skal det fastsettes en inntektsgrense. Inntektsgrensen per kalenderår er pensjonsgrunnlaget i en medlemspliktig stilling etter uttak, tillagt folketrygdens grunnbeløp. Ved endring i pensjonsgrunnlaget i en medlemspliktig stilling etter uttak skal inntektsgrensen fastsettes på nytt. Inntektsgrensen skal likevel ikke fastsettes på nytt ved økt pensjonsgrunnlag som følge av økt stillingsandel i den medlemspliktige stillingen etter uttaket. Inntektsgrensen skal periodiseres i uttaksåret avhengig av hvor mange måneder i året det utbetales særalderspåslag. Ved endring av inntektsgrensen underveis i et kalenderår skal det tas hensyn til antallet måneder med hver inntektsgrense.
+>
+> Det livsvarige nivået på særalderspåslaget reduseres for hvert år medlemmet har inntekt over inntektsgrensen. Særalderspåslaget skal reduseres med en brøk hvor inntekten over inntektsgrensen er telleren og tre ganger pensjonsgrunnlaget for særalderspåslaget er nevneren. Reduksjonen får virkning fra året etter at skatteoppgjøret foreligger. Som inntekt regnes pensjonsgivende inntekt etter folketrygdloven § 3-15 og inntekt av samme art fra utlandet. Det skal gjøres unntak for inntekt fra en avsluttet aktivitet. Dersom særalderspåslag er gradert på grunn av mottak av midlertidig uførepensjon eller uførepensjon, skal arbeidsavklaringspenger etter folketrygdloven kapittel 11 ikke medføre reduksjon av særalderspåslaget.
+>
+> Ved uttak av særalderspåslag senere enn to år før medlemmet når alderen for ubetinget rett til alderspensjon fra folketrygden, uten at det tidligere er mottatt tidligpensjon etter dette kapittelet, alderspensjon etter § 20 a slik den lød før 1. januar 2026, eller tilsvarende pensjon fra en annen offentlig tjenestepensjonsordning, reduseres også det livsvarige nivået på særalderspåslaget med 1/36 av ytelsen for hver måned det senere uttaket skjer.
+>
+> Departementet kan gi forskrift om reduksjon av særalderspåslag og periodisering.
+>
+> § 26 t. Flere stillinger med ulik særaldersgrense
+>
+> For medlemmer som har hatt flere etterfølgende stillinger med ulike særaldersgrenser, skal den siste særaldersgrensen legges til grunn, se likevel § 44 ellevte ledd.
+>
+> For medlemmer som har samtidige stillinger med ulike særaldersgrenser, gis tidligpensjon og særalderspåslag med utgangspunkt i den laveste aldersgrensen, forutsatt at medlemmet har hatt en stilling med den særaldersgrensen som utløser retten til ytelsen, i minst tre år før vedkommende når særaldersgrensen eller før fratreden med rett til uttak av ytelsen.
+>
+> Paragrafen her gjelder ikke personer som omfattes av § 26 n.
+>
+> § 26 u. Uttak av tidligpensjon og særalderspåslag – opphør og endringer
+>
+> Tidligpensjon etter § 26 o og tidligpensjon etter § 26 p utbetales tidligst fra og med måneden etter at meldingen om uttak blir gitt, men likevel tidligst fra måneden etter at retten til tidligpensjon inntreffer. Tidligpensjonen skal utbetales til og med måneden medlemmet når alderen for ubetinget rett til uttak av alderspensjon fra folketrygden. Dersom et medlem som mottar tidligpensjon, dør før vedkommende når alderen for ubetinget rett til alderspensjon fra folketrygden, opphører tidligpensjonen ved utgangen av måneden etter måneden medlemmet døde.
+>
+> For medlemmer som mottar tidligpensjon etter dette kapittelet eller tilsvarende tidligpensjon fra en annen offentlig tjenestepensjonsordning, utbetales særalderspåslaget fra måneden etter siste utbetaling av tidligpensjon. Særalderspåslaget utbetales ellers tidligst fra og med måneden etter at meldingen om uttak blir gitt, men likevel tidligst fra måneden etter at retten til særalderspåslag inntreffer. Særalderspåslaget opphører ved utgangen av måneden etter måneden medlemmet døde.
+>
+> Endringer i tidligpensjon og særalderspåslag får virkning fra måneden etter at forholdet som førte til endringen, inntraff, se likevel § 26 s andre ledd tredje punktum.
 >
 
 ### 2025-06-10 — lov/2025-06-10-31

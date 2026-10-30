@@ -201,3 +201,14 @@ refid: "lov/2011-12-16-60"
 >
 > Dersom pensjonisten dør før fylte 65 år, opphører midlertidig uførepensjon og uførepensjon ved utgangen av måneden etter dødsfallet. Dersom avdøde etterlater seg ektefelle, utbetales pensjonen i ytterligere én måned.
 >
+
+### 2019-01-01 — lov/2018-12-20-98
+
+*I lov 16. desember 2011 nr. 60 om pensjonsordning for stortingsrepresentanter og regjeringsmedlemmer § 9-1 andre ledd og § 9-2 første ledd bokstav a skal henvisningen til «lov 6. desember 1981 nr. 61 om pensjonsordning for stortingsrepresentanter» endres til «lov 12. juni 1981 nr. 61 om pensjonsordning for stortingsrepresentanter».*
+
+### 2019-06-21 — lov/2019-06-21-25
+
+*I lov 16. desember 2011 nr. 60 om pensjonsordning for stortingsrepresentanter og regjeringsmedlemmer skal § 3-5 andre ledd lyde:*
+
+> For stortingsrepresentant som har fratrådt vervet før lovens ikrafttredelse, benyttes det pensjonsgrunnlaget som følger av reglene i tidligere lov 12. juni 1981 nr. 61 om pensjonsordning for stortingsrepresentanter.
+>

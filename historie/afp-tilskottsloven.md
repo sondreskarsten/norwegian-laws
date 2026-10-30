@@ -7,6 +7,37 @@ refid: "lov/2010-02-19-5"
 
 ## (annet)
 
+### 2011-12-16 — lov/2011-12-16-58
+
+*I lov 19. februar 2010 nr. 5 om statstilskott til arbeidstakere som tar ut avtalefestet pensjon i privat sektor skal § 16 lyde:*
+
+> § 16.Forholdet til ytelser fra folketrygden mv.
+>
+> Avtalefestet pensjon etter kapitlet her må ikke kunne ytes for tidsrom hvor det ytes arbeidsavklaringspenger, uførepensjon, etterlattepensjon eller alderspensjon fra folketrygden.
+>
+
+### 2014-06-20 — lov/2014-06-20-29
+
+*I lov 19. februar 2010 nr. 5 om statstilskott til arbeidstakere som tar ut avtalefestet pensjon i privat sektor skal § 18 annet ledd første punktum lyde:*
+
+> Det felles organet skal ha registrert eller statsautorisert revisor og aktuar.
+>
+
+### 2014-12-19 — lov/2014-12-19-73
+
+*I lov 19. februar 2010 nr. 5 om statstilskott til arbeidstakere som tar ut avtalefestet pensjon i privat sektor skal § 8 lyde:*
+
+> § 8.Forholdet til andre ytelser
+>
+> Pensjon etter kapitlet her ytes ikke til personer som etter fylte 62 år har mottatt uføretrygd fra folketrygden. For personer født i årene 1944 til 1948 ses det i denne sammenhengen bort fra mottak av uførepensjon før 1. januar 2011.
+>
+> Tidsrom der uføretrygd ikke er kommet til utbetaling, men vedkommende har hatt rett til å få tilbake uføretrygden etter reglene i folketrygdloven § 12-10 tredje ledd, regnes ikke som tidsrom med mottak av uføretrygd som nevnt i første ledd. Utbetaling av uføretrygd etter fylte 62 år som følge av etteroppgjør for tidsrom før fylte 62 år regnes ikke som mottak av uføretrygd som nevnt i første ledd.
+>
+> Personer som har rett til, men som ikke har mottatt uføretrygd etter fylte 62 år, har rett til pensjon etter dette kapitlet dersom vedkommende senest ved uttak av pensjonen sier fra seg uføretrygden med virkning fra fylte 62 år.
+>
+> Bestemmelsen i første ledd første punktum gjelder tilsvarende for personer som har mottatt statlig eller kommunal avtalefestet pensjon eller pensjon fra tilsvarende avtale- eller lovfestede ordninger som angitt i vedtektene etter § 19.
+>
+
 ### 2014-12-19 — lov/2014-12-19-73
 
 *I § 17 første ledd første punktum skal henvisningen til «§ 8 tredje ledd» endres til «§ 8 fjerde ledd».*

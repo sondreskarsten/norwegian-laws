@@ -73,6 +73,9 @@ document.addEventListener("DOMContentLoaded", function() {
     moreButton.style.display = "none";
   }
 
+  var initialQuery = new URLSearchParams(window.location.search).get("q");
+  if (initialQuery) { input.value = initialQuery; }
+
   status("Laster titler og referanser...");
   loadSearchCatalog().then(function(catalog) {
     laws = catalog.laws;

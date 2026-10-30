@@ -13,16 +13,6 @@ refid: "lov/2022-12-16-90"
 
 > Loven gjelder også når:et regnskapsforetak i tilknytning til et regnskapsoppdrag har adgang til å belaste oppdragsgivers bankkonto med utbetalinger,et regnskapsforetak i tilknytning til et regnskapsoppdrag oppbevarer oppdragsgivers midler på regnskapsforetakets konto (klientkonto),et regnskapsforetak utfører bokføring eller utarbeider årsregnskap for en oppdragsgiver som ikke har plikter som nevnt i § 1-2 første ledd,et regnskapsforetak utarbeider regnskapsrapportering som er unntatt som pliktig regnskapsrapportering i medhold av bokføringsloven § 3, oget regnskapsforetak eller en statsautorisert regnskapsfører avgir en bekreftelse i henhold til lov, forskrift eller krav fra offentlig myndighet.
 >
-> et regnskapsforetak i tilknytning til et regnskapsoppdrag har adgang til å belaste oppdragsgivers bankkonto med utbetalinger,
->
-> et regnskapsforetak i tilknytning til et regnskapsoppdrag oppbevarer oppdragsgivers midler på regnskapsforetakets konto (klientkonto),
->
-> et regnskapsforetak utfører bokføring eller utarbeider årsregnskap for en oppdragsgiver som ikke har plikter som nevnt i § 1-2 første ledd,
->
-> et regnskapsforetak utarbeider regnskapsrapportering som er unntatt som pliktig regnskapsrapportering i medhold av bokføringsloven § 3, og
->
-> et regnskapsforetak eller en statsautorisert regnskapsfører avgir en bekreftelse i henhold til lov, forskrift eller krav fra offentlig myndighet.
->
 
 ## § 2-3
 
@@ -65,9 +55,9 @@ refid: "lov/2022-12-16-90"
 
 *Ny § 5-6 skal lyde:*
 
-> § 5-6.Forskrifter om oppdrag og klientkontoDepartementet kan i forskrift fastsette nærmere regler om utføring av bekreftelsesoppdrag, jf. § 1-1 annet ledd bokstav e, og om utforming og registrering av fullmakter, jf. § 5-2 annet ledd. Finanstilsynet kan i forskrift fastsette nærmere regler om klientkontoer i regnskapsforetak, jf. § 1-1 annet ledd bokstav b.
+> § 5-6. Forskrifter om oppdrag og klientkonto
 >
-> § 5-6.Forskrifter om oppdrag og klientkonto
+> Departementet kan i forskrift fastsette nærmere regler om utføring av bekreftelsesoppdrag, jf. § 1-1 annet ledd bokstav e, og om utforming og registrering av fullmakter, jf. § 5-2 annet ledd. Finanstilsynet kan i forskrift fastsette nærmere regler om klientkontoer i regnskapsforetak, jf. § 1-1 annet ledd bokstav b.
 >
 
 ## § 6-6

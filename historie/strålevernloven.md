@@ -7,9 +7,23 @@ refid: "lov/2000-05-12-36"
 
 ## (annet)
 
+### 2016-01-01 — forskrift/2015-12-18-1587
+
+*Loven trer i kraft fra 1. januar 2016.*
+
+> Loven trer i kraft fra 1. januar 2016.
+>
+
 ### 2018-06-22 — lov/2018-06-22-76
 
 *Nåværende tredje ledd blir annet ledd.*
+
+### 2019-01-01 — forskrift/2018-12-20-2066
+
+*Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall V endringer i lov 12. mai 2000 nr. 36 om strålevern og bruk av stråling § 21 trer i kraft 1. januar 2019.*
+
+> Delt ikraftsetting av lov 22. juni 2018 nr. 76 om endringer i alkoholloven, atomenergiloven, folkehelseloven, legemiddelloven, lov om medisinsk utstyr og strålevernloven (overtredelsesgebyr mv.). Romertall V endringer i lov 12. mai 2000 nr. 36 om strålevern og bruk av stråling § 21 trer i kraft 1. januar 2019.
+>
 
 ### 2025-06-20 — lov/2025-06-20-70
 

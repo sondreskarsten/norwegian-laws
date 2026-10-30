@@ -7,6 +7,13 @@ refid: "lov/1994-07-01-49"
 
 ## (annet)
 
+### 2011-01-01 — lov/2010-06-25-29
+
+*I lov 1. juli 1994 nr. 49 om avtalefestet pensjon for arbeidstakere med rett til medlemskap i Pensjonsordning for apotekvirksomhet mv. skal § 3 første punktum lyde:*
+
+> Pensjonen beregnes etter tariffavtale som styret i pensjonsordningen har akseptert, og i samsvar med bestemmelsene i lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse.
+>
+
 ### 2024-04-12 — lov/2024-04-12-14
 
 *Nåværende § 3 første ledd andre punktum blir ny § 4.*
@@ -54,10 +61,6 @@ refid: "lov/1994-07-01-49"
 *§ 3 nytt andre og tredje ledd skal lyde:*
 
 > Pensjon kan ikke ytes til personer som mottar eller har mottattavtalefestet pensjon som det gis statstilskott til etter AFP-tilskottsloven eller lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning,betinget tjenestepensjon etter lov om Statens pensjonskasse § 26 f eller tilsvarende ordning.
->
-> avtalefestet pensjon som det gis statstilskott til etter AFP-tilskottsloven eller lov om avtalefestet pensjon for medlemmer av Statens pensjonskasse kapittel 2 eller tilsvarende ordning,
->
-> betinget tjenestepensjon etter lov om Statens pensjonskasse § 26 f eller tilsvarende ordning.
 >
 > Pensjonsordningen administreres av Arbeids- og velferdsetaten for så vidt gjelder innvilgelse, beregning og utbetaling av pensjoner. For øvrig administreres pensjonsordningen av Statens pensjonskasse.
 >
