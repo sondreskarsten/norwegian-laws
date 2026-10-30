@@ -168,7 +168,7 @@ For batch queries over the parsed display records, download the JSON Lines manif
 - **[amendment-acts.jsonl.gz](https://sondreskarsten.github.io/norwegian-laws/amendment-acts.jsonl.gz)** — selected amendment-act records from the display database.
 - **[amendments.jsonl.gz](https://sondreskarsten.github.io/norwegian-laws/amendments.jsonl.gz)** — recognized target/paragraph records for finer-grained queries; `new_text` is truncated to 4,000 characters.
 
-Both are regenerated during publication. Uncompressed `.jsonl` versions are also available at the same paths (drop `.gz`). Dates include source metadata and best-effort resolution, not verified legal effect. These exports can omit unresolved targets and duplicate source occurrences. For complete parsed occurrences and exact original bytes, use the [version-4 source evidence](lovdata-loader/README.md#source-evidence-and-parsed-amendments); see [publication status](README.md#source-evidence-and-publication-status) for its rollout.
+Both are regenerated during publication. `amendment-acts.jsonl` is also available uncompressed at the same path (drop `.gz`); `amendments.jsonl` is published compressed only because the uncompressed file exceeds GitHub Pages' 100 MB file limit. Dates include source metadata and best-effort resolution, not verified legal effect. These exports can omit unresolved targets and duplicate source occurrences. For complete parsed occurrences and exact original bytes, use the [version-4 source evidence](lovdata-loader/README.md#source-evidence-and-parsed-amendments); see [publication status](README.md#source-evidence-and-publication-status) for its rollout.
 
 JSON Schema 2020-12 definitions for both manifests are published alongside the data:
 

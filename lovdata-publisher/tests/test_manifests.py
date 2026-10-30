@@ -112,7 +112,8 @@ def test_generate_manifests_writes_both(tmp_path):
     assert acts_n == 2
     assert amendments_n == 3
     assert (out / "amendment-acts.jsonl").exists()
-    assert (out / "amendments.jsonl").exists()
+    assert (out / "amendments.jsonl.gz").exists()
+    assert not (out / "amendments.jsonl").exists(), "the uncompressed export exceeds the GitHub Pages file limit"
 
 
 def test_homepage_counts_match_written_exports_with_excluded_rows(tmp_path):
@@ -129,7 +130,9 @@ def test_homepage_counts_match_written_exports_with_excluded_rows(tmp_path):
     out = tmp_path / "exports"
     written = generate_manifests(str(db), str(out))
     assert count_manifest_rows(str(db)) == written == (2, 3)
-    assert len((out / "amendments.jsonl").read_text(encoding="utf-8").splitlines()) == 3
+    import gzip
+    with gzip.open(out / "amendments.jsonl.gz", "rt", encoding="utf-8") as stream:
+        assert len(stream.read().splitlines()) == 3
     (tmp_path / "lover").mkdir()
     generate_quarto_config(str(tmp_path), db_path=str(db))
     homepage = (tmp_path / "index.qmd").read_text(encoding="utf-8")
@@ -230,7 +233,7 @@ def test_generate_manifests_also_writes_schemas(tmp_path):
 
     # Manifests
     assert (tmp_path / "amendment-acts.jsonl").exists()
-    assert (tmp_path / "amendments.jsonl").exists()
+    assert (tmp_path / "amendments.jsonl.gz").exists()
     # Schemas
     assert (tmp_path / "schemas" / "amendment-acts.schema.json").exists()
     assert (tmp_path / "schemas" / "amendments.schema.json").exists()

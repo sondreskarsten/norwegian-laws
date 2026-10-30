@@ -119,6 +119,8 @@ Each document is Markdown with YAML metadata such as `refid`, `tittel`, `departe
 
 The reader preserves supported source structures and links recognized references. Parsing and rendering can still lose or misinterpret content. Token coverage checks do not establish complete structural or legal correctness. Use [Lovdata](https://lovdata.no) to check the source text and legal status. This is an unofficial project, unaffiliated with Lovdata or the Norwegian government.
 
+`historie/` records are keyed by the instruction wording printed in each amendment act. Every wording found in the 2001–2026 Lovtidend archives is catalogued in `lovdata-loader/src/lovdata_loader/instruction_catalog.json` (13 operation kinds: replace, new provision, repeal, renumber, move, word substitution, insert, commencement, preamble, structural title, delegation, decision text, target list). The daily run classifies every instruction against it; a wording that matches no catalogued operation opens or updates the issue "Ukjente endringsinstruksjoner i Lovtidend" (label `parser`), and the wording is added by a pull request. Design rules for node ids and derived indexes: [docs/NODE-HISTORY-DESIGN.md](docs/NODE-HISTORY-DESIGN.md).
+
 ## License
 
 - **Law data:** Lovdata, [Norwegian Licence for Open Government Data (NLOD) 2.0](https://data.norge.no/nlod/no/2.0).

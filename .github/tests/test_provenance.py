@@ -188,3 +188,91 @@ def test_parser_identity_fetches_missing_acknowledged_commit(repo, tmp_path):
     assert subprocess.run(['git', 'cat-file', '-e', f'{first}^{{commit}}'], cwd=shallow, capture_output=True).returncode != 0
     identity = provenance.parser_identity(first, shallow)
     assert identity['lovdata-loader'] != provenance.parser_identity('HEAD', shallow)['lovdata-loader']
+
+
+def _publish(repo, manifest, kind='kilde', parser_identity=None):
+    identity = parser_identity or provenance.parser_identity('HEAD', repo)
+    lines = [f'Publikasjonstype: {kind}', f'Kildemanifest: sha256:{provenance.canonical_sha256(manifest)}']
+    lines += [f"Kildearkiv: {m['filename']} {m['lastModified']} {m['sizeBytes']}" for m in manifest]
+    lines += [f'Parser: {name} {tree}' for name, tree in identity.items()]
+    _git(repo, 'commit', '-q', '--allow-empty', '-m', 'Oppdater lover og forskrifter fra Lovdata API [skip ci]\n\n' + '\n'.join(lines))
+    return _git(repo, 'rev-parse', 'HEAD')
+
+
+def test_publication_commits_are_read_from_trailers(repo):
+    first = _git(repo, 'rev-parse', 'HEAD')
+    sha = _publish(repo, MANIFEST)
+    _git(repo, 'commit', '-q', '--allow-empty', '-m', 'Record verified current-law publication [skip ci]')
+    commits = provenance.publication_commits(repo)
+    assert [c['sha'] for c in commits] == [sha]
+    assert commits[0]['kind'] == 'kilde' and commits[0]['manifest'] == MANIFEST
+    assert commits[0]['manifest_sha256'] == provenance.canonical_sha256(MANIFEST)
+    assert first not in [c['sha'] for c in commits]
+
+
+def test_plan_baselines_on_the_newest_publication_on_main_not_the_stale_state(repo, monkeypatch):
+    """A run that committed to main but failed before acknowledgement leaves main ahead of the state."""
+    monkeypatch.chdir(repo)
+    first = _git(repo, 'rev-parse', 'HEAD')
+    state = _state(repo, first)
+    newer = [dict(m) for m in MANIFEST]
+    newer[3]['lastModified'] = '2026-10-02T01:31:00Z'
+    published = _publish(repo, newer)
+    result = provenance.plan(state, newer, repo)
+    assert result['baseline'] == 'main' and result['previous_source_sha'] == published
+    assert not result['source_changed'] and not result['parser_changed'] and not result['regenerate_previous']
+    assert result['published_manifest_sha256'] == provenance.canonical_sha256(newer)
+
+
+def test_plan_takes_evidence_from_the_observation_release_of_an_unacknowledged_publication(repo, monkeypatch):
+    monkeypatch.chdir(repo)
+    first = _git(repo, 'rev-parse', 'HEAD')
+    state = _state(repo, first)
+    newer = [dict(m) for m in MANIFEST]
+    newer[0]['sizeBytes'] = 99
+    published = _publish(repo, newer)
+    (repo / 'lovdata-loader' / 'a.py').write_text('2')
+    _git(repo, 'add', '-A'); _git(repo, 'commit', '-q', '-m', 'parser')
+    seen = {}
+    monkeypatch.setattr(provenance, 'observation_evidence', lambda sha, repo=None, repository='': seen.update(sha=sha) or {
+        'observation_id': 'o', 'receipt_url': 'https://x/releases/download/observation-o/evidence.json', 'bundle_sha256': 'c' * 64})
+    newest = [dict(m) for m in newer]
+    newest[3]['sizeBytes'] = 77
+    result = provenance.plan(state, newest, repo)
+    assert seen['sha'] == published
+    assert result['parser_changed'] and result['source_changed'] and result['regenerate_previous']
+    assert result['previous_bundle_sha256'] == 'c' * 64 and result['previous_source_sha'] == published
+
+
+def test_plan_keeps_state_evidence_when_the_newest_publication_regenerated_the_same_sources(repo, monkeypatch):
+    monkeypatch.chdir(repo)
+    first = _git(repo, 'rev-parse', 'HEAD')
+    state = _state(repo, first)
+    state.write_text(json.dumps({**json.loads(state.read_text()), 'source_manifest_sha256': provenance.canonical_sha256(MANIFEST)}))
+    regenerated = _publish(repo, MANIFEST, kind='parser')
+    monkeypatch.setattr(provenance, 'observation_evidence', lambda *a, **k: pytest.fail('state evidence should be used'))
+    newer = [dict(m) for m in MANIFEST]
+    newer[0]['sizeBytes'] = 99
+    (repo / 'lovdata-publisher' / 'b.py').write_text('2')
+    _git(repo, 'add', '-A'); _git(repo, 'commit', '-q', '-m', 'parser')
+    result = provenance.plan(state, newer, repo)
+    assert result['previous_source_sha'] == regenerated and result['regenerate_previous']
+    assert result['previous_bundle_sha256'] == 'b' * 64
+
+
+def test_observation_evidence_resolves_the_release_tag_pointing_at_the_commit(repo, monkeypatch, tmp_path):
+    sha = _git(repo, 'rev-parse', 'HEAD')
+    calls = []
+    def fake_run(args, **kwargs):
+        calls.append(args)
+        class R: stdout = f"{sha}\trefs/tags/observation-abc\n{'0' * 40}\trefs/tags/observation-old\n"
+        return R()
+    monkeypatch.setattr(provenance.subprocess, 'run', fake_run)
+    def fake_download(url, target):
+        assert url == 'https://github.com/o/r/releases/download/observation-abc/evidence.json'
+        Path(target).write_text(json.dumps({'source_sha': sha, 'observation_id': 'abc', 'bundle': {'sha256': 'd' * 64}}))
+    monkeypatch.setattr(provenance, '_download', fake_download)
+    result = provenance.observation_evidence(sha, repo, repository='o/r')
+    assert result == {'observation_id': 'abc', 'bundle_sha256': 'd' * 64,
+                      'receipt_url': 'https://github.com/o/r/releases/download/observation-abc/evidence.json'}
+    assert calls[0][:3] == ['git', 'ls-remote', '--tags']
