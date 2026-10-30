@@ -77,8 +77,14 @@ jobs:
             PREV=$(git rev-parse FETCH_HEAD)
             PREV_DATE=$(git log -1 --format=%cs FETCH_HEAD)
             if ! git ls-remote --tags origin "history-*" | grep -q "^$PREV"; then
-              echo "Tagging previous tip $PREV as history-$PREV_DATE"
-              git push origin "$PREV:refs/tags/history-$PREV_DATE" || true
+              # A second build on the same day keeps the date tag for the
+              # newest build; the replaced tip gets a dated tag with its sha.
+              NAME="history-$PREV_DATE"
+              if git ls-remote --exit-code --tags origin "refs/tags/$NAME" > /dev/null; then
+                NAME="history-$PREV_DATE-$(git rev-parse --short=12 FETCH_HEAD)"
+              fi
+              echo "Tagging previous tip $PREV as $NAME"
+              git push origin "$PREV:refs/tags/$NAME" || true
             fi
           fi
 
@@ -90,7 +96,9 @@ jobs:
           cd /tmp/law-repo
           git push --force origin main:refs/heads/law-history
           git push --force origin "+refs/tags/v*:refs/tags/v*"
-          git push origin "refs/tags/history-$BUILD_DATE"
+          # The date tag names the newest build of the day (a same-day rebuild
+          # moves it; the replaced tip was preserved above).
+          git push --force origin "+refs/tags/history-$BUILD_DATE:refs/tags/history-$BUILD_DATE"
 
       - name: Remove yearly tags this build did not produce
         run: |
@@ -114,11 +122,13 @@ jobs:
           out = subprocess.check_output(["git", "ls-remote", "--tags", "origin", "history-*"], text=True)
           tags = sorted(line.split("refs/tags/")[1] for line in out.splitlines() if "^{}" not in line)
           keep_first_of_month = {}
+          def day_of(tag):
+              return datetime.date.fromisoformat(tag[len("history-"):][:10])
           for tag in tags:
-              day = datetime.date.fromisoformat(tag[len("history-"):])
+              day = day_of(tag)
               keep_first_of_month.setdefault((day.year, day.month), tag)
           for tag in tags:
-              day = datetime.date.fromisoformat(tag[len("history-"):])
+              day = day_of(tag)
               if (today - day).days <= 35 or keep_first_of_month[(day.year, day.month)] == tag:
                   continue
               print("Pruning build tag", tag)
