@@ -376,24 +376,60 @@ def _title_from_markdown(text: str) -> str:
     return m.group(1).strip() if m else ""
 
 
+_ISO_DATE_RE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")
+
+
+def _explicit_dates(text: str | None) -> list[str]:
+    """ISO dates written in an in-force field; 'Kongen bestemmer' yields none."""
+    return sorted(set(_ISO_DATE_RE.findall(text or "")))
+
+
 def legal_repeal(conn: sqlite3.Connection, refid: str, cutoff_date: str) -> tuple[str, str]:
-    """(act refid, in-force date) of the earliest whole-document repeal of ``refid`` in Lovtidend, or ('', '').
+    """(act refid, in-force date) of the earliest whole-document repeal of ``refid`` in Lovtidend.
 
     Old-format records carry an empty target for a whole-document repeal; new-format
     records (``data-repeal-part``) carry the document's own refid as the target.
+
+    The date is the earliest date written in the repealing act's in-force field.
+    When that field says only "Kongen bestemmer", the date comes from a later
+    commencement decision ("Ikraftsetting av lov …") that names the repealing act
+    or the repealed document; when no such decision carries a date either, the
+    act is returned with an empty date and the caller dates the deletion on the
+    detected exit. The loader's resolved date is not used here: for a deferred
+    act it falls back to the publication date, which is not when the repeal took
+    effect.
     """
-    row = conn.execute(
+    rows = conn.execute(
         """
-        SELECT ac.refid, ac.date_in_force_resolved FROM amendments a
+        SELECT ac.refid, ac.date_in_force, ac.date_published FROM amendments a
         JOIN amendment_acts ac ON ac.refid = a.act_refid
         WHERE a.change_type = 'repeal' AND (a.target = '' OR a.target IS NULL OR a.target = a.target_law) AND a.target_law = ?
-          AND ac.date_in_force_resolved IS NOT NULL AND ac.date_in_force_resolved != ''
-          AND ac.date_in_force_resolved <= ?
-        ORDER BY ac.date_in_force_resolved ASC LIMIT 1
+        ORDER BY ac.date_published ASC
         """,
-        (refid, cutoff_date),
-    ).fetchone()
-    return (row[0], row[1]) if row else ("", "")
+        (refid,),
+    ).fetchall()
+    unresolved_act = ""
+    for act_refid, in_force, published in rows:
+        published = (published or "")[:10]
+        dates = [d for d in _explicit_dates(in_force) if d <= cutoff_date]
+        if not dates:
+            commencement = conn.execute(
+                """
+                SELECT ac.date_in_force FROM amendments a
+                JOIN amendment_acts ac ON ac.refid = a.act_refid
+                WHERE a.change_type = 'commencement' AND a.target_law IN (?, ?) AND ac.date_published >= ?
+                ORDER BY ac.date_published ASC
+                """,
+                (act_refid, refid, published),
+            ).fetchall()
+            for (text,) in commencement:
+                dates = [d for d in _explicit_dates(text) if published <= d <= cutoff_date]
+                if dates:
+                    break
+        if dates:
+            return act_refid, dates[0]
+        unresolved_act = unresolved_act or act_refid
+    return unresolved_act, ""
 
 
 BASELINE_SUBJECT = "Utgangspunkt: gjeldende tekst for {n} dokumenter (ikke tilstanden i 2001)"
@@ -603,8 +639,13 @@ def build_history(
                 continue
             year = date[:4]
             year_last_date[year] = max(year_last_date.get(year, ""), date)
-            legal = (f"Rettslig opphevelse: {info['legal_repeal_act']} i kraft {info['legal_repeal_date']}"
-                     if info["legal_repeal_act"] else "Rettslig opphevelse: ikke funnet i Lovtidend")
+            if info["legal_repeal_act"] and info["legal_repeal_date"]:
+                legal = f"Rettslig opphevelse: {info['legal_repeal_act']} i kraft {info['legal_repeal_date']}"
+            elif info["legal_repeal_act"]:
+                legal = (f"Rettslig opphevelse: {info['legal_repeal_act']} (ikrafttredelsen er ikke fastsatt i "
+                         f"Lovtidend; slettet på registrert uttak)")
+            else:
+                legal = "Rettslig opphevelse: ikke funnet i Lovtidend"
             act_data = {
                 "refid": f"opphevet/{info['refid']}",
                 "title": f"Opphevet: {info.get('title') or info['refid']}",

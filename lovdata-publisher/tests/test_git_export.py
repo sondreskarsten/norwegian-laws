@@ -173,7 +173,29 @@ class TestRemovedDocuments:
             conn.execute("INSERT INTO amendments (act_refid, change_type, target, target_law, instruction, new_text) VALUES (?,?,?,?,?,?)",
                          ("lov/2025-06-20-105", "repeal", "lov/1994-06-03-15", "lov/1994-06-03-15", "", ""))
             assert legal_repeal(conn, "lov/1994-06-03-15", "2026-10-30") == ("lov/2025-06-20-105", "2026-01-01")
-            assert legal_repeal(conn, "lov/1994-06-03-15", "2025-12-31") == ("", "")
+            assert legal_repeal(conn, "lov/1994-06-03-15", "2025-12-31") == ("lov/2025-06-20-105", "")
+
+    def test_deferred_repeal_takes_its_date_from_the_commencement_decision(self, tmp_path):
+        """Real case: lov/2025-06-20-105 repeals the 1994 enhetsregisterloven but
+        its in-force field says 'Kongen bestemmer'; forskrift/2025-06-20-1094
+        ('Delt ikraftsetting av loven') sets it in force 2026-01-01. The loader's
+        resolved date for the act is its publication date, which is wrong here."""
+        from lovdata_publisher.git_export import legal_repeal
+        snap = _snapshot(tmp_path, [("lov/2024-06-01-10", "2024-07-01", "2024-06-01", "§ 1. Formål\nTekst.")])
+        with sqlite3.connect(snap / "amendments.db") as conn:
+            conn.execute("INSERT INTO amendment_acts VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                         ("lov/2025-06-20-105", "y.xml", "Lov om Enhetsregisteret", "", "Kongen bestemmer", "2025-06-20", 1,
+                          "2025-06-20", "NFD", "lov/1994-06-03-15", "", "", 1))
+            conn.execute("INSERT INTO amendments (act_refid, change_type, target, target_law, instruction, new_text) VALUES (?,?,?,?,?,?)",
+                         ("lov/2025-06-20-105", "repeal", "lov/1994-06-03-15", "lov/1994-06-03-15", "", ""))
+            assert legal_repeal(conn, "lov/1994-06-03-15", "2026-10-30") == ("lov/2025-06-20-105", "")
+            conn.execute("INSERT INTO amendment_acts VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+                         ("forskrift/2025-06-20-1094", "z.xml", "Delt ikraftsetting av lov 20. juni 2025 nr. 105", "",
+                          "2026-01-01, Kongen bestemmer", "2025-06-20", 1, "2025-06-20", "NFD",
+                          "lov/1994-06-03-15,lov/2025-06-20-105", "", "", 1))
+            conn.execute("INSERT INTO amendments (act_refid, change_type, target, target_law, instruction, new_text) VALUES (?,?,?,?,?,?)",
+                         ("forskrift/2025-06-20-1094", "commencement", "", "lov/1994-06-03-15", "Delt ikraftsetting av loven.", "Loven trer i kraft 1. januar 2026."))
+            assert legal_repeal(conn, "lov/1994-06-03-15", "2026-10-30") == ("lov/2025-06-20-105", "2026-01-01")
 
     def test_without_legal_repeal_the_deletion_is_dated_on_the_detected_exit(self, tmp_path):
         snap = _snapshot(tmp_path, [("lov/2024-06-01-10", "2024-07-01", "2024-06-01", "§ 1. Formål\nTekst.")])
