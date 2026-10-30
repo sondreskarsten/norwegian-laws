@@ -9,7 +9,7 @@ refid: "lov/2018-04-20-7"
 
 ### 2021-06-01 — forskrift/2021-05-07-1415
 
-*---*
+*Endringsloven trer i kraft 1. juni 2021.*
 
 > ---
 >

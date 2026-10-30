@@ -79,7 +79,7 @@ refid: "lov/2007-02-16-9"
 
 ### 2013-08-20 — forskrift/2013-06-21-730
 
-*---*
+*Delt ikraftsetting av skipsarbeidsloven. Loven settes i kraft 20. august 2013, med unntak av lovens kapittel 10 som settes i kraft 1. januar 2014.*
 
 > ---
 >

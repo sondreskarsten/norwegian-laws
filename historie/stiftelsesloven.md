@@ -214,7 +214,7 @@ refid: "lov/2001-06-15-59"
 
 ### 2025-06-20 — forskrift/2025-06-20-1094
 
-*---.*
+*Delt ikraftsetting av loven. Loven trer i kraft 1. januar 2026, med unntak av bestemmelsene nevnt i punkt 3 nedenfor.*
 
 > ---.
 >

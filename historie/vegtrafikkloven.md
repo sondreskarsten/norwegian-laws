@@ -259,7 +259,7 @@ refid: "lov/1965-06-18-4"
 
 ### 2019-03-29 — forskrift/2019-03-29-401
 
-*---*
+*Loven trer i kraft straks.*
 
 > ---
 >
