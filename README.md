@@ -28,11 +28,11 @@ Recent parsed amendment acts, ordered by their source publication date and refre
 
 | Date | Amendment | Targets |
 |---|---|---|
-| 2026-10-27 | Endr. i KOSTRA-forskriften | [`forskrift/2019-10-18-1412`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-10-18-1412.html) |
-| 2026-10-27 | Forskrift om endring i forskrift om kjøre- og hviletid og fartsskri… | [`forskrift/2007-07-02-877`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-07-02-877.html) |
-| 2026-10-27 | Forskrift om endring i forskrift om administrative nedsettelser av … | [`forskrift/2005-12-22-1723`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-12-22-1723.html) |
-| 2026-10-27 | Forskrift om endring i forskrift om tilskudd til filmformidling | [`forskrift/2016-10-12-1209`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-10-12-1209.html) |
-| 2026-10-27 | Forskrift om endring i forskrift om ny mat | [`forskrift/2017-07-25-1215`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-07-25-1215.html) |
+| 2026-10-28 | Fagskoleforskriften | [`forskrift/2019-07-11-1005`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-07-11-1005.html) [`forskrift/2020-04-23-853`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-04-23-853.html) |
+| 2026-10-28 | Endr. i veglister normaltransport | [`forskrift/2023-10-24-1694`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1694.html) |
+| 2026-10-28 | Endr. i veglister tømmertransport | [`forskrift/2023-10-24-1695`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1695.html) |
+| 2026-10-28 | Endr. i veglister modulvogntog | [`forskrift/2023-10-24-1696`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1696.html) |
+| 2026-10-28 | Endr. i veglister spesialtransport | [`forskrift/2023-10-24-1697`](https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-10-24-1697.html) |
 <!-- RECENT_AMENDMENTS_END -->
 
 ## Read, search, and subscribe
