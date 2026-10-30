@@ -34,10 +34,15 @@ jobs:
       changed: ${{ steps.commit.outputs.changed }}
       source_sha: ${{ steps.commit.outputs.source_sha }}
     steps:
-      # The plan step reads the publication trailers of recent commits, so the
+      # Always process the current tip of main, not the commit the event
+      # named: a run queued behind another (concurrency group "pages") would
+      # otherwise regenerate against a base that the earlier run has already
+      # advanced, and push_main.py rightly refuses to rebase such output. The
+      # plan step reads the publication trailers of recent commits, so the
       # checkout needs history beyond HEAD (one or two publications a day).
       - uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 40
 
       - uses: actions/setup-python@v5
