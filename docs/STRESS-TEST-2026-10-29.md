@@ -22,11 +22,11 @@ Status key: **fixed** (code changed in this branch, takes effect on the next pub
 
 | Measure | Before | After D1–D4 | After D4b |
 |---|---|---|---|
-| Amendment records | 100,025 | 108,356 | 108,213 |
-| `lyde:` records without wording | 1,745 | 1,417 | 1,271 |
-| of which 2024 / 2025 / 2026 | 167 / 173 / 119 | 56 / 67 / 30 | 51 / 65 / 21 |
+| Amendment records | 100,025 | 108,356 | 108,213 → 109,031 after D4c |
+| `lyde:` records without wording | 1,745 | 1,417 | 1,271 → 1,355 after D4c (newly recognised embedded instructions whose wording the old-format walker still misses) |
+| of which 2024 / 2025 / 2026 | 167 / 173 / 119 | 56 / 67 / 30 | 51 / 65 / 21 → 56 / 68 / 21 |
 | Single-target acts with no record | 8,331 | 0 | 0 |
-| Multi-target acts with no record | — | 2,148 | 2,148 |
+| Multi-target acts with no record | — | 2,148 | 2,148 → 2,078 after D4c |
 
 Remaining empty records are mostly old-format cases the parser still mis-splits, e.g. "I innhaldslista i kapittel 4 skal tiande strekpunkt lyde: …" where the wording follows the instruction on the same line but the split key is `skal lyde:`; left **open** with the examples in `measure_after2.log` of this session.
 
