@@ -52,6 +52,16 @@ git log -p -- lover/lov-1998-07-17-56.md
 
 These diffs may reflect updated sources, parser repairs, or formatting changes. A repository commit date is not a commencement date.
 
+## Ask an AI assistant
+
+[`norwegian-laws-mcp/`](norwegian-laws-mcp/) is an MCP server that answers questions such as "where is underenheter defined", "what changed last week" or "how has § 13-14 of aksjeloven changed" directly from this repository: the catalog, `git grep`, `git log`, `git diff`, `git blame`, the parsed amendment records, the last text of repealed acts and the yearly reconstructions. Every history answer states its data coverage and limits.
+
+```bash
+claude mcp add norwegian-laws -- uvx --from "git+https://github.com/sondreskarsten/norwegian-laws.git#subdirectory=norwegian-laws-mcp" norwegian-laws-mcp
+```
+
+See the [server README](norwegian-laws-mcp/README.md) for other clients and the tool list.
+
 ## Source evidence and publication status
 
 [`publication.json`](https://sondreskarsten.github.io/norwegian-laws/publication.json) identifies the source commit and selected Lovdata manifest actually served by the site. Publication is acknowledged only after this receipt is read back from the public site.

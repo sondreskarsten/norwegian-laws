@@ -7,6 +7,14 @@ maps 20 user stories to ten delivery packages, including historical-date reconst
 Use this backlog for delivery evidence and the plan for execution order; a bounded
 observation pilot does not complete the whole historical product.
 
+## Status 30 October 2026
+
+The 29–30 October stress test ([log](docs/STRESS-TEST-2026-10-29.md)) changed the delivery model; the backlog below predates it and is kept as history of the earlier plan.
+
+- Delivered: the MCP server (`norwegian-laws-mcp/`), five Lovtidend parser repairs, the nightly `law-history` rebuild with citable `history-YYYY-MM-DD` tags, and provenance-bound publications (`.github/scripts/provenance.py`): every commit on `main` is a pure source update or a pure parser regeneration with the source manifest digest and parser identity as trailers, gated on byte-identical reformatting.
+- Decided: `norwegian-laws-history` stays as the evidence ledger; user-facing history is the in-repo `law-history` branch and the MCP. Reliable legal-date reconstruction remains undelivered and is not planned here.
+- Open: multi-target amendment acts without recognised instructions (log D5), 1,271 `skal lyde:` records without wording in old-format acts, repealed documents absent from the reconstruction (#6).
+
 ## Current delivery position
 
 **Work resumed on 26 September 2026.** Read
