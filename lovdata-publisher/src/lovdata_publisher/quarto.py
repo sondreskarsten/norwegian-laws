@@ -364,6 +364,9 @@ document.addEventListener("DOMContentLoaded", function() {
     moreButton.style.display = "none";
   }
 
+  var initialQuery = new URLSearchParams(window.location.search).get("q");
+  if (initialQuery) { input.value = initialQuery; }
+
   status("Laster titler og referanser...");
   loadSearchCatalog().then(function(catalog) {
     laws = catalog.laws;
@@ -1175,7 +1178,14 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         f"Samlingen inneholder **{total_unique} lover** og",
         f"**{fmt_no(total_forskrifter)} sentrale forskrifter**,",
         f"fordelt på **{len(groups)} departementer**.\n",
-        "## 🔔 Spor endringer\n",
+        "```{=html}",
+        '<form action="book/sok.html" method="get" role="search" style="display:flex;gap:0;max-width:640px;margin:1rem 0 1.5rem;">',
+        '<input type="search" name="q" placeholder="Søk etter lov eller forskrift, f.eks. aksjeloven, aml, lov/1998-07-17-56" aria-label="Søk i lover og forskrifter"',
+        ' style="flex:1;min-width:0;padding:0.55rem 0.75rem;font-size:1rem;border:1px solid #adb5bd;border-radius:4px 0 0 4px;">',
+        '<button type="submit" style="padding:0.55rem 1rem;font-size:1rem;border:1px solid #17365d;background:#17365d;color:#fff;border-radius:0 4px 4px 0;cursor:pointer;">Søk</button>',
+        "</form>",
+        "```\n",
+        "## Spor endringer\n",
         "Atom-feeder finnes for dokumenter med registrerte endringskunngjøringer i datagrunnlaget.",
         "Hver dokumentfeed viser inntil 50 oppføringer; dekningen er ikke en fullstendig endringshistorikk.",
         "Søk etter dokumentet for å se om en feed er tilgjengelig, og legg den til i din egen feed-leser.\n",
@@ -1183,7 +1193,7 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         "- [Aktivitet](aktivitet.html) — topp-liste over de mest endrede lovene, forskriftene, departementene og årgangene",
         "- [Feed-katalog](feeds/) — bla gjennom alle Atom-feeder direkte",
         "- Eksempel: [Atom-feed for regnskapsloven](feeds/lov-1998-07-17-56.xml) · [endringer i § 7-25 spesifikt](historikk/lov-1998-07-17-56/para-7-25.html)\n",
-        "## 📥 Bulk-data\n",
+        "## Bulk-data\n",
         "For nedstrøms automatisering (datavarehus, compliance-dashboards, interne CDC-pipelines):\n",
         amendments_line,
         acts_line,
@@ -1194,9 +1204,9 @@ def generate_quarto_config(repo_root: str, lover_dir: str = "lover", forskrifter
         ] if source_evidence_links else []),
         "- [`schemas/`](schemas/amendment-acts.schema.json) — JSON Schema 2020-12 for begge JSONL-strømmene\n",
         "## Les lover\n",
-        "- [Søk etter lov](book/sok.qmd) \u2014 finn lover etter tittel, korttittel eller lovnummer",
-        "- Bla gjennom lover etter departement i sidemenyen",
-        "- Klikk en lov for å lese lovteksten på GitHub",
+        "- [Søk etter lov](book/sok.qmd) \u2014 finn lover etter tittel, korttittel, forkortelse eller lovnummer",
+        "- Bla gjennom lover etter departement eller rettsområde i sidemenyen",
+        "- Hver lov og forskrift har sin egen side med innholdsfortegnelse, nøkkelinformasjon og endringshistorikk per paragraf",
         "- For autoritativ lovtekst, se [lovdata.no](https://lovdata.no)\n",
         "## Utforsk historikk\n",
         LEGACY_NOTICE + "\n",

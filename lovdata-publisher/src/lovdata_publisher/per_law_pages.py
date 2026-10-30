@@ -46,64 +46,110 @@ PAGE_TEMPLATE = """<!DOCTYPE html>
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/{output_subdir}/{filename_html}"/>
 {feed_autodiscovery}
 <style>
-body {{ max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }}
-nav.breadcrumb {{ background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }}
-nav.breadcrumb a {{ color: #2780e3; text-decoration: none; }}
+:root {{ --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }}
+* {{ box-sizing: border-box; }}
+body {{ margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }}
+a {{ color: var(--link); }}
+.topbar {{ background: var(--brand); color: #fff; }}
+.topbar .inner {{ max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }}
+.topbar .brand {{ color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }}
+.topbar form {{ display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }}
+.topbar input[type=search] {{ flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }}
+.topbar button {{ padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }}
+nav.breadcrumb {{ max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }}
+nav.breadcrumb a {{ text-decoration: none; }}
 nav.breadcrumb a:hover {{ text-decoration: underline; }}
-.metadata {{ background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }}
-.metadata dt {{ font-weight: 600; margin-top: 0.25rem; }}
-.metadata dd {{ margin-left: 0; }}
-.history-links {{ margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }}
-.history-links a {{ margin-right: 0.5rem; }}
-.version-banner {{ margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }}
-.version-banner a {{ color: #1864ab; }}
-h1, h2, h3, h4, h5, h6 {{ margin-top: 1.25em; margin-bottom: 0.5em; }}
-h1 {{ font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }}
-h2 {{ font-size: 1.5rem; color: #495057; }}
-h3 {{ font-size: 1.25rem; }}
-h4 {{ font-size: 1.1rem; color: #495057; }}
-em {{ color: #6c757d; font-size: 0.95em; }}
-ul li {{ margin-bottom: 0.25rem; }}
-footer {{ margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }}
-.search-link {{ float: right; }}
+.page {{ max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }}
+.doc {{ min-width: 0; max-width: 78ch; }}
+h1.doc-title {{ font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }}
+.doc-kind {{ color: var(--muted); font-size: 0.9rem; margin: 0; }}
+table.keyinfo {{ border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }}
+table.keyinfo th, table.keyinfo td {{ text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }}
+table.keyinfo th {{ width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }}
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td {{ border-bottom: 0; }}
+table.keyinfo code {{ font-size: 0.85em; color: var(--muted); }}
+details.about {{ margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }}
+details.about summary {{ cursor: pointer; font-weight: 600; color: var(--brand); }}
+details.about p {{ margin: 0.5rem 0; }}
+.doc h1 {{ font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }}
+.doc h2 {{ font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }}
+.doc h3 {{ font-size: 1.12rem; margin-top: 1.6rem; }}
+.doc h4, .doc h5, .doc h6 {{ font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }}
+.doc p {{ margin: 0 0 0.75rem; }}
+.doc ul li, .doc ol li {{ margin-bottom: 0.25rem; }}
+.doc blockquote {{ margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }}
+.doc .note {{ color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }}
+.doc .note em {{ font-style: normal; }}
+a.para-history {{ font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }}
+aside.toc {{ display: none; }}
+details.toc-mobile {{ margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }}
+details.toc-mobile summary {{ cursor: pointer; font-weight: 600; color: var(--brand); }}
+.toc-list {{ list-style: none; margin: 0.4rem 0 0; padding: 0; }}
+.toc-list li {{ margin: 0.15rem 0; }}
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 {{ padding-left: 0.9rem; }}
+.toc-list li.lvl4, .toc-list li.lvl5 {{ padding-left: 1.8rem; font-size: 0.9em; }}
+.toc-list a {{ text-decoration: none; }}
+.toc-list a:hover {{ text-decoration: underline; }}
+footer {{ max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }}
+@media (min-width: 992px) {{
+  .page {{ grid-template-columns: 280px minmax(0, 1fr); }}
+  aside.toc {{ display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }}
+  aside.toc h2 {{ font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }}
+  details.toc-mobile {{ display: none; }}
+}}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-{dept_links} &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+{dept_links} &rsaquo;
 <span>{korttittel_short}</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>{refid}</code></dd>
-<dt>Departement</dt><dd>{dept}</dd>
-<dt>Rettsområde</dt><dd>{rettsomrade}</dd>
-<dt>Ikrafttredelse</dt><dd>{ikrafttredelse}</dd>
-<dt>Sist endret</dt><dd>{sist_endret}</dd>
-<dt>Kilde</dt><dd><a href="{lovdata_url}" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+{toc_html}
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: {sist_endret}.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="{github_log}">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">{doc_kind}</p>
+<h1 class="doc-title">{title}</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="{github_blob}">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>{lovdata_code} <code>{refid}</code></td></tr>
+<tr><th>Korttittel</th><td>{korttittel}</td></tr>
+<tr><th>Departement</th><td>{dept}</td></tr>
+<tr><th>Rettsområde</th><td>{rettsomrade}</td></tr>
+<tr><th>Ikrafttredelse</th><td>{ikrafttredelse}</td></tr>
+<tr><th>Sist endret</th><td>{sist_endret_display}</td></tr>
+<tr><th>Kilde</th><td><a href="{lovdata_url}" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+{toc_html}
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="{github_log}">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="{github_blob}">Kildefil (Markdown)</a> ·
 <a href="{github_log}">Git-logg (uverifisert rekonstruksjon)</a> ·
 {feed_link_html}
-{observed_link}{historie_link}{version_links}
-</div>
+{observed_link}{historie_link}{version_links}</p>
+</details>
 
 {body}
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>
@@ -115,6 +161,55 @@ Ikke autoritativ — se Lovdata for gjeldende tekst.
 </body>
 </html>
 """
+
+
+_ISO_DATE_RE = re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b")
+_HEADING_RE = re.compile(r"<h([2-5])\b[^>]*\bid=\"([^\"]+)\"[^>]*>(.*?)</h\1>", re.S)
+
+
+def format_no_date(value: str) -> str:
+    """Write ISO dates the way Lovdata shows them: 01.01.1999. Other text is kept."""
+    return _ISO_DATE_RE.sub(lambda m: f"{m.group(3)}.{m.group(2)}.{m.group(1)}", value or "")
+
+
+def lovdata_code(refid: str) -> str:
+    """Lovdata's document code: lov/1998-07-17-56 -> LOV-1998-07-17-56, forskrift/... -> FOR-..."""
+    m = re.match(r"^(lov|forskrift)/(\d{4}-\d{2}-\d{2}(?:-\d+)?)$", refid or "")
+    if not m:
+        return refid or ""
+    return ("LOV" if m.group(1) == "lov" else "FOR") + "-" + m.group(2)
+
+
+def sist_endret_display(sist_endret: str, sist_endret_ikraft: str) -> str:
+    if not sist_endret:
+        return "—"
+    code = lovdata_code(sist_endret)
+    text = code if code == sist_endret else f"{code} <code>{sist_endret}</code>"
+    if sist_endret_ikraft:
+        text += f" fra {format_no_date(sist_endret_ikraft)}"
+    return text
+
+
+def build_toc_html(body_html: str) -> str:
+    """A nested-looking list of the document's chapter and § headings."""
+    items = []
+    for level, anchor, inner in _HEADING_RE.findall(body_html):
+        text = re.sub(r"<a class=\"para-history\".*?</a>", "", inner, flags=re.S)
+        text = re.sub(r"<[^>]+>", "", text).strip()
+        if not text:
+            continue
+        items.append(f'<li class="lvl{level}"><a href="#{anchor}">{text}</a></li>')
+    if not items:
+        return '<p class="doc-kind">Ingen inndeling.</p>'
+    return '<ul class="toc-list">\n' + "\n".join(items) + "\n</ul>"
+
+
+_NOTE_RE = re.compile(r"<p><em>((?:Endret|Endra|Tilføyd|Tilføyet|Opphevet|Oppheva|Endres|Oppheves) (?:ved|av) .*?)</em></p>", re.S)
+
+
+def style_amendment_notes(body_html: str) -> str:
+    """Lovdata's per-provision 'Endret ved lov ...' notes as small grey footnotes."""
+    return _NOTE_RE.sub(lambda m: f'<p class="note">{m.group(1)}</p>', body_html)
 
 
 def parse_frontmatter_and_body(filepath: Path) -> tuple[dict, str]:
@@ -360,6 +455,11 @@ def generate_per_law_pages(
             amended = amended_paragraphs_map.get(refid, set())
             if amended:
                 body_html = inject_paragraph_history_links(body_html, md_file.stem, amended)
+            body_html = style_amendment_notes(body_html)
+            # The document title is rendered by the page template; drop the
+            # Markdown H1 so it is not shown twice.
+            body_html = re.sub(r"^\s*<h1\b[^>]*>.*?</h1>\s*", "", body_html, count=1, flags=re.S)
+            toc_html = build_toc_html(body_html)
             filename = md_file.name
             if refid.startswith("forskrift/"):
                 github_blob = f"{GITHUB_BASE}/blob/main/forskrifter/{filename}"
@@ -378,7 +478,7 @@ def generate_per_law_pages(
                 )
                 feed_link_html = (
                     f'<a href="../{feed_path}" title="Abonner p\u00e5 endringer i denne loven via Atom">'
-                    f'\U0001F4E1 Atom-feed</a> \u00b7'
+                    f'Atom-feed</a> \u00b7'
                 )
             else:
                 feed_autodiscovery = (
@@ -387,7 +487,7 @@ def generate_per_law_pages(
                 )
                 feed_link_html = (
                     '<a href="../feed.xml" title="Ingen endringer registrert siden 2001 \u2014 '
-                    'abonner p\u00e5 den globale feeden">\U0001F4E1 Atom-feed (alle)</a> \u00b7'
+                    'abonner p\u00e5 den globale feeden">Atom-feed (alle)</a> \u00b7'
                 )
             from .quarto import split_departments
             _parts = [d for d in split_departments(dept) if d.strip()] or ([dept] if dept else [])
@@ -404,19 +504,24 @@ def generate_per_law_pages(
             dept_links = " \u00b7 ".join(_dept_anchors) if _dept_anchors else "\u2014"
             historie_url = historie_map.get(refid, "")
             historie_link = (
-                f'<a href="../{historie_url}" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · '
+                f'<a href="../{historie_url}" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · '
                 if historie_url else ""
             )
 
             html = PAGE_TEMPLATE.format(
                 title=tittel,
                 korttittel_short=korttittel or tittel[:50],
+                korttittel=korttittel or "—",
                 refid=refid,
+                lovdata_code=lovdata_code(refid),
+                doc_kind="Forskrift" if refid.startswith("forskrift/") else "Lov",
                 dept=dept,
                 dept_links=dept_links,
                 rettsomrade=rettsomrade or "—",
-                ikrafttredelse=ikrafttredelse or "—",
+                ikrafttredelse=format_no_date(ikrafttredelse) or "—",
                 sist_endret=sist_endret or "—",
+                sist_endret_display=sist_endret_display(sist_endret, meta.get("sist-endret-ikrafttredelse", "")),
+                toc_html=toc_html,
                 github_blob=github_blob,
                 github_log=github_log,
                 feed_autodiscovery=feed_autodiscovery,
